@@ -12,7 +12,7 @@ To edit the site you have to contribute your changes (e.g., posts) to this sourc
 
 The content of the site is released under [Creative Commons Attribution 4.0](https://creativecommons.org/licenses/by/4.0/).
 
-## Instructions for contributing to the Audio Commons site
+## Instructions for contributing to the MCT site
 
 ### Posting in the "home" section
 
