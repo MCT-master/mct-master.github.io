@@ -14,7 +14,7 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 title: The blog of MCT
-email: your-email@example.com
+email: mct-info@imv.uio.no
 description: >- # this means to ignore newlines until "baseurl:"
   This is the blog of the Music, Communication & Technology (MCT) joint Master's programme between NTNU and UiO.
 baseurl: "" # the subpath of your site, e.g. /blog
