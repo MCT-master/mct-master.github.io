@@ -4,6 +4,8 @@ title: About
 permalink: /about/
 ---
 
+![MCT image](/assets/img/mct-master-630.jpg "MCT image")
+
 [Music, Communication & Technology (MCT)](https://www.uio.no/english/studies/programmes/mct-master/) is an international, joint Master's programme between NTNU and UiO, the two largest universities in Norway.
 
 <!--

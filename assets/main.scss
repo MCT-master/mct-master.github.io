@@ -1,0 +1,66 @@
+---
+# Only the main Sass file needs front matter (the dashes are enough)
+---
+@charset "utf-8";
+
+// Google Fonts
+@import url(http://fonts.googleapis.com/css?family=Roboto+Slab|Open+Sans:400italic,700italic,400,700);
+
+// Font Variables
+$roboto-slab: 'Roboto Slab', serif;
+$open-sans: 'Open Sans', sans-serif;
+
+
+// Our variables
+//$base-font-family: "Helvetica Neue", Helvetica, Arial, sans-serif
+$heading-family: "Roboto Slab", Arial, sans-serif;
+$base-font-family: "Open Sans", Arial, sans-serif;
+$base-font-size:   16px;
+$base-font-weight: 400;
+$small-font-size:  $base-font-size * 0.875;
+$base-line-height: 1.5;
+
+$spacing-unit:     30px;
+
+$text-color:       #333;
+$background-color: #fdfdfd;
+$brand-color:      #a0ac48;
+$brand-color-1:    #bf033b;
+$brand-color-2:    #f00a36;
+$brand-color-3:    #ed3b21;
+$brand-color-4:    #ff6908;
+$brand-color-5:    #ffc719;
+$brand-color-6:    #598c14;
+
+
+/**
+ * Headings
+ */
+h1, h2, h3, h4, h5, h6 {
+    font-family: $heading-family;
+    font-weight: 700;
+    color: $brand-color;
+}
+
+
+$grey-color:       #828282;
+$grey-color-light: lighten($grey-color, 40%);
+$grey-color-dark:  darken($grey-color, 25%);
+
+// Width of the content area
+$content-width:    800px;
+
+$on-palm:          600px;
+$on-laptop:        800px;
+
+// Minima also includes a mixin for defining media queries.
+// Use media queries like this:
+// @include media-query($on-palm) {
+//     .wrapper {
+//         padding-right: $spacing-unit / 2;
+//         padding-left: $spacing-unit / 2;
+//     }
+// }
+
+// Import partials from the `minima` theme.
+@import "minima";

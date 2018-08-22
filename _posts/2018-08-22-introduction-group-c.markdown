@@ -5,7 +5,6 @@ date:   2018-08-22 14:54:46 +0200
 categories: teams
 author: Atilio Báez, Karolina Jawad, Elias Andersen & Jonas Bjordal
 ---
-## Group description
 
 We are an international group of students with different background in
 humanities, programming, music and music production based in Oslo and
