@@ -1,11 +1,11 @@
 ---
 layout: post
-title:  "Group C"
+title:  "Meet MCT Group C"
 date:   2018-08-22 14:54:46 +0200
 categories: teams
 author: Atilio Báez, Karolina Jawad, Elias Andersen & Jonas Bjordal
 ---
-# Group description
+## Group description
 
 We are an international group of students with different background in
 humanities, programming, music and music production based in Oslo and
@@ -23,7 +23,7 @@ workspace. We are happy to be part in this cutting edge project from
 which we can learn a lot and contribute with new knowledge, methods and
 tools.
 
-# Bio
+## Bio
 
 **Atilio**: I’m a music composer and a music recording and mix engineer.
 I have worked in a wide range of different recording studios and live
@@ -38,7 +38,7 @@ editing and web-design.
 
 [Cv2c.noblogs.org](http://Cv2c.noblogs.org)
 
-**Elias**: When I was 14/15 years old I found interest in playing drums. 
+**Elias**: When I was 14/15 years old I found interest in playing drums.
 I soon after started in a band. Since 2012 I have been a part of a rock
 community called Akkerhaugen Rocksamfunn. I also have a bachelor degree
 in informatics and have some experience with DJing.

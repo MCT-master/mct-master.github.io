@@ -12,6 +12,8 @@ To edit the site you have to contribute your changes (e.g., posts) to this sourc
 
 The content of the site is released under [Creative Commons Attribution 4.0](https://creativecommons.org/licenses/by/4.0/).
 
+A useful Markdown cheatsheet can be found [here](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet).
+
 ## Instructions for contributing to the MCT site
 
 ### Posting in the "home" section
