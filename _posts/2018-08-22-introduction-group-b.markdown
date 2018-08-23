@@ -18,11 +18,9 @@ Acoustical Engineer and musician. Recent graduate with a M.Sc. in acoustics and 
 
 <dmitryscen@gmail.com>
 
-[LinkedIn Profile](https://www.linkedin.com/in/dmvas/)
-
-[Bandcamp](https://machinesque.bandcamp.com/)
-
-[SoundCloud](https://soundcloud.com/machinesque/)
+* [LinkedIn Profile](https://www.linkedin.com/in/dmvas/)
+* [Bandcamp](https://machinesque.bandcamp.com/)
+* [SoundCloud](https://soundcloud.com/machinesque/)
 
 ![Photo of Dmitry Vasilev](/assets/img/DmitryVasilev.jpeg "Dmitry Vasilev")
 
@@ -33,11 +31,9 @@ Ashane Silva is a drummer, audio producer, composer, and the founder of the audi
 
 <silva.randika@gmail.com>
 
-[LinkedIn](https://www.linkedin.com/in/ashane-silva-6293098/)
-
-[The Terra Tomorrow YouTube](https://www.youtube.com/channel/UCVXikii-kPspIPeG-MqVVgQ)
-
-[Ashane Silva's YouTube](https://www.youtube.com/user/Ashanous)
+* [LinkedIn](https://www.linkedin.com/in/ashane-silva-6293098/)
+* [The Terra Tomorrow YouTube](https://www.youtube.com/channel/UCVXikii-kPspIPeG-MqVVgQ)
+* [Ashane Silva's YouTube](https://www.youtube.com/user/Ashanous)
 
 ![Photo of Ashane Silva](/assets/img/AshaneSilva.jpeg "Ashane Silva")
 
@@ -47,21 +43,14 @@ Mari is a vocalist, keyboard player, composer and producer, located in Oslo. Her
 
 <lesteberg@gmail.com>
 
-[Mari's Youtube channel](https://www.youtube.com/user/maisplante)
-
-[Bandcamp](https://marilesteberg.bandcamp.com/)
-
-[Facebook](https://www.facebook.com/FractionMari/)
-
-[Soundcloud](https://soundcloud.com/mari-lesteberg)
-
-[Fraction Distraction on Soundcloud](https://soundcloud.com/fractiondistraction)
-
-[Fraction Distraction on Facebook](https://www.facebook.com/fractiondistraction)
-
-[Suburban Savages on Facebook](https://www.facebook.com/SuburbanSavages)
-
-[Suburban Savages on Bandcamp](https://suburbansavages.bandcamp.com/)
+* [Mari's Youtube channel](https://www.youtube.com/user/maisplante)
+* [Bandcamp](https://marilesteberg.bandcamp.com/)
+* [Facebook](https://www.facebook.com/FractionMari/)
+* [Soundcloud](https://soundcloud.com/mari-lesteberg)
+* [Fraction Distraction on Soundcloud](https://soundcloud.com/fractiondistraction)
+* [Fraction Distraction on Facebook](https://www.facebook.com/fractiondistraction)
+* [Suburban Savages on Facebook](https://www.facebook.com/SuburbanSavages)
+* [Suburban Savages on Bandcamp](https://suburbansavages.bandcamp.com/)
 
 ![Photo of Mari Lesteberg](/assets/img/MariBilde.jpg "Mari Lesteberg")
 

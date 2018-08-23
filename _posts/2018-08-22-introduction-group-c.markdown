@@ -35,7 +35,7 @@ societal implications in the field of music. I worked in web-, as well
 as in video- and film production.  I have experience in audio-visual
 editing and web-design.
 
-[Cv2c.noblogs.org](http://Cv2c.noblogs.org)
+* [Cv2c.noblogs.org](http://Cv2c.noblogs.org)
 
 **Elias**: When I was 14/15 years old I found interest in playing drums.
 I soon after started in a band. Since 2012 I have been a part of a rock
