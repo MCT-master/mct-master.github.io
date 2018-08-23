@@ -6,6 +6,8 @@ categories: teams
 author: Dmitry Vasilev, Ashane Silva, Mari Lesteberg & Eigil Aandahl
 ---
 
+![Photo of Group B](/assets/img/Group-B-Y1.jpeg "Group B")
+
 **Team name**: D.A.M.E. – We are a diverse and multicultural group with different yet complementary practical skills, theoretical knowledge, and personal characteristics. Yet, the unifying agreement for our group is that music is key. We strongly believe in creative application of technology in musical performance and composition, communication, sound synthesis and music production.
 
 We are motivated, passionate, and eager to learn and play, and can't wait to share our musical identities with each other and the rest of the MCT students.
