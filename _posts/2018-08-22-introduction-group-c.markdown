@@ -6,6 +6,8 @@ categories: teams
 author: Atilio Báez, Karolina Jawad, Elias Andersen & Jonas Bjordal
 ---
 
+![Photo of Group C](/assets/img/Group-C-Y1.jpg "Group C")
+
 We are an international group of students with different background in
 humanities, programming, music and music production based in Oslo and
 Trondheim. Even though we just got together without knowing each other

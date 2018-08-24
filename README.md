@@ -14,6 +14,8 @@ The content of the site is released under [Creative Commons Attribution 4.0](htt
 
 A useful Markdown cheatsheet can be found [here](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet).
 
+A handy tutorial on how to optimize images for the web on Gimp can be found [here](https://smallbusiness.chron.com/optimize-images-gimp-45437.html). It is important to optimize the images before uploading to the web in order to provide a smooth experience to the users!
+
 ## Instructions for contributing to the MCT site
 
 ### Posting in the "home" section
