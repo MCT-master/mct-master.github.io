@@ -1,6 +1,8 @@
 # mct-master.github.io
 
-The blog of MCT.
+The blog of MCT: [https://mct-master.github.io](https://mct-master.github.io)
+
+## Jekyll
 
 We are using [Jekyll](https://jekyllrb.com/), here's a list of tutorials that might be useful to get familiar with the GitHub and Jekyll environments:
 
@@ -12,9 +14,26 @@ To edit the site you have to contribute your changes (e.g., posts) to this sourc
 
 The content of the site is released under [Creative Commons Attribution 4.0](https://creativecommons.org/licenses/by/4.0/).
 
-A useful Markdown cheatsheet can be found [here](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet).
+## Markdown
 
-A handy tutorial on how to optimize images for the web on Gimp can be found [here](https://smallbusiness.chron.com/optimize-images-gimp-45437.html). It is important to optimize the images before uploading to the web in order to provide a smooth experience to the users!
+[Markdown](https://en.wikipedia.org/wiki/Markdown) is a markup language with plain text formatting syntax. It is mainly designed so that it can be converted Hypertext Markup Language (HTML), the standard markup language for creating web pages and web applications.
+
+* A useful Markdown cheatsheet can be found [here](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet).
+* A table showing how the Markdown syntax is converted to HTML can be found [here](https://en.wikipedia.org/wiki/Markdown#Example).
+
+There exist a number of Markdown editors, so it is easy to see a rendered version (how it will look like on the browser/web):
+
+* [MacDown](https://macdown.uranusjr.com/): Mac
+* [Typora](https://typora.io/): Mac, Windows, Linux
+* [Haroopad](http://pad.haroopress.com/): Mac, Windows, Linux
+* [ghostwriter](https://wereturtle.github.io/ghostwriter/): Windows, Linux
+
+And a more complete list can be found [here](https://alternativeto.net/software/macdown/).
+
+
+## Before uploading images...
+
+It is important to optimize the size of an image before uploading it to the web, what is known as image optimization for the web. A handy tutorial on how to optimize images for the web on Gimp (which is a free software) can be found [here](https://smallbusiness.chron.com/optimize-images-gimp-45437.html). You can also use other image editors, such as Photoshop. It is important to optimize the images before uploading it to the online directory in order to provide a smooth experience to the users!
 
 ## Instructions for contributing to the MCT site
 
