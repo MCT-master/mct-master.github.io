@@ -13,3 +13,4 @@ The first week at The Portal was interesting. Most of the equipment was not read
 Our group, Jørgen, Espen, Sam and Juno, started working on Monday 27. August, and tried to set up the Polycom system as a backup for the week in the Portal. 
 
 Polycom is a [video conference system](). 
+! [polycom] (assets/img/
