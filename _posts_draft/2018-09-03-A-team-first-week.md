@@ -15,4 +15,4 @@ Our group, Jørgen, Espen, Sam and Juno, started working on Monday 27. August, a
 
 Polycom is a [video conference system]()
 
-! [polycom] (assets/img/
+! [polycom] (assets/img/polycom.jpg)
