@@ -49,3 +49,11 @@ independent production companies. Espen has a former **music education** from **
 Buskerud and The Music Conservatory in Oslo.**
 
 <img src="/assets/img/EspenWik.jpg" width="30%" />
+
+## Sepehr Haghighi
+
+Sepehr Haghighi is a musician, sound artist, engineer, graduated from the **Music Production and Recording post-graduate course; University of Stavanger, Norway**. He also has a bachelor degree in **Drama - Acting**.
+
+Active in three musical projects: **Surplus** (personal project), **Carnivalesque** and **208** (bands); His area of expertise, despite being an artist, is in music production, engineering, live sound & recording and surround sound.
+
+<img src="/i1.wp.com/sepehrhaghighi.files.wordpress.com/2017/04/0369bc2.jpg" width="30%" />
