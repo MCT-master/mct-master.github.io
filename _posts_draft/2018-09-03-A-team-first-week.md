@@ -11,4 +11,4 @@ author: JJ, E, S
 The first week at The Portal was interesting. Most of the equipment was not ready for use, and the TICO system network card crashed two days before opening ceremony. 
 Our group, Jørgen, Espen, Sam and Juno, started working on Monday 27. August, and tried to set up the Polycom system as a backup for the week in the Portal. 
 
-Polycom is a video conference system, learn more about it in MCT's [wiki]()
+Polycom is a [video conference system](). 
