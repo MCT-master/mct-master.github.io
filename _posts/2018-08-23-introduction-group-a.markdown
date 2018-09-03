@@ -52,8 +52,8 @@ Buskerud and The Music Conservatory in Oslo.**
 
 ## Sepehr Haghighi
 
-Sepehr Haghighi is a musician, sound artist, engineer, graduated from the **Music Production and Recording post-graduate course; University of Stavanger, Norway**. He also has a bachelor degree in **Drama - Acting**.
+Sepehr Haghighi is a musician, sound artist, engineer, graduated from the **Music Production and Recording Techniques** post-graduate course; University of Stavanger, Norway. He also has a bachelor degree in **Drama - Acting**.
 
-Active in three musical projects: **Surplus** (personal project), **Carnivalesque** and **208** (bands); His area of expertise, despite being an artist, is in music production, engineering, live sound & recording and surround sound.
+His personal music project goes by the name **Surplus**; His area of expertise, despite being an artist, is in music production, engineering, live sound & recording and surround sound.
 
 <img src="https://i1.wp.com/sepehrhaghighi.files.wordpress.com/2017/04/0369bc2.jpg?ssl=1&w=450" width="30%" />
