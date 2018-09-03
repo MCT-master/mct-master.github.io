@@ -17,4 +17,4 @@ Polycom is a [video conference system]()
 
 ![polycom](/assets/img/polycom.jpg "Polycom")
 
-![Photo of Group A](/assets/img/Group-A-Y1.jpg "Group A")
+
