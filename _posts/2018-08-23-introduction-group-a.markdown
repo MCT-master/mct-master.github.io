@@ -56,4 +56,4 @@ Sepehr Haghighi is a musician, sound artist, engineer, graduated from the **Musi
 
 Active in three musical projects: **Surplus** (personal project), **Carnivalesque** and **208** (bands); His area of expertise, despite being an artist, is in music production, engineering, live sound & recording and surround sound.
 
-<img src="/i1.wp.com/sepehrhaghighi.files.wordpress.com/2017/04/0369bc2.jpg" width="30%" />
+<img src="https://i1.wp.com/sepehrhaghighi.files.wordpress.com/2017/04/0369bc2.jpg?ssl=1&w=450" width="30%" />
