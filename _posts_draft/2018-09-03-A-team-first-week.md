@@ -32,4 +32,4 @@ One of the important issues that we ran into was that the level of people talkin
 Also another usefull tip is to test the levels via the "test mic" and "test speaker" options, so you could make sure that input and output levels (on both sides) are not too much loud or weak.
 For instance, of course if you were hearing clipping, then you have to check your own output level by the "test speaker" option on your side, and then the other side's input level; and vice versa.
 
-Regarding the video we managed to higher up the height of the camera, therefore we could have a more wide picture and avoid people, being blocked by object, such as speakers.
+Regarding the video we managed to higher up the height of the camera, therefore we could have a more wide picture and avoid people, being blocked by objects, such as speakers.
