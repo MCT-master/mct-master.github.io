@@ -109,24 +109,24 @@ need to be aware that equipment, tables, chairs etc. are placed where they are f
 
 ### Working as a group 501 km apart through the portal
 
-First of all i need to say that this is one really great group of people to be working with, and i'm looking
+First of all i need to say that this is one really **great group of people to be working with**, and i'm looking
 forward to working together on this project :grin:
 
-No matter how well the group goes along there will be difficulties making the collaboration go smootly, and I
+**No matter how well the group goes along there will be difficulties making the collaboration go smootly**, and I
 have som pointers:
 
-* The technology is not running as well as we want, so network dropouts, sudden volume reductions and so on
-can make people repeat things over and over, and this leads to the work going slower, which again can make
-people loose their attention (maybe).
+* **The technology is not running as well as we want**, so network dropouts, sudden volume reductions and so on
+can make people **repeat things over and over**, and this leads to the **work going slower, which again can make
+people loose their attention (maybe).**
 
-* Equipment and expertise from teachers can be available at different times/days in Oslo and Trondheim. This
-can make it more difficult to get both sides to be available and to work at the same time. This week it happend to us
+* **Equipment and expertise from teachers can be available at different times/days in Oslo and Trondheim**. This
+can make it more difficult to get both sides to be **available at the same time**. This week it happend to us
 (of course we solved it :wink:), but it can cause problems. The Oslo-guys could finish the work on their end on monday,
 but Sepehr and I (Jørgen) had to wait until tuesday to really get started on our room because of equipment needs. Since
 the Oslo-guys were finished there was no reason for them to come to the school other than just doing a soundcheck on our
 microphone setup. Of course it would be nice, but it's no point in a long travel just for that reason. (We dont have to have this example in the blog, but i feel the need to somehow describe the challenge of being at different places and still be cooperating on the kind of same thing (I'm also tired when writing this, so..))
 
-Last note! We finally got the last group member, Sepehr! :smiley: He is a great guy with lots of knowledge.
+**Last note!** We finally got the last group member, **Sepehr**! :smiley: He is a great guy with lots of knowledge.
 
 
 
