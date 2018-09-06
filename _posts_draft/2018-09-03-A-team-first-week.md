@@ -34,25 +34,42 @@ For instance, of course if you were hearing clipping, then you have to check you
 
 Regarding the video we managed to higher up the height of the camera, therefore we could have a more wide picture and avoid people, being blocked by objects, such as speakers.
 
-#### Communication through the portal
+#### Audiovisual communication through the portal
 
 **Challenges and solutions:**
 
 <table style="width:100%">
   <tr>
-    <th>Firstname</th>
-    <th>Lastname</th> 
-    <th>Age</th>
+    <th></th>
+    <th>Challenge</th> 
+    <th>Solution</th>
+    <th>Reflections</th>
   </tr>
   <tr>
-    <td>Jill</td>
-    <td>Smith</td> 
-    <td>50</td>
+    <th>1.</th>
+    <td>Fit 7 students and a teacher into the picture</td> 
+    <td>Raised the camera (bird view) and placed 4 tables in a half circle</td>
+    <td>
+      Everybody is seen, and gets equal priority. The teacher does not have a dedicated place,
+      but until now the teachers has naturaly placed themselves by the computer, so they can
+      have control over Zoom and their presentation. We think this solution made it more comfortable
+      for the students placed nearest to the big screen, since they don't have to turn their neck as
+      much while looking at "Oslo".
+    </td>
   </tr>
   <tr>
-    <td>Eve</td>
-    <td>Jackson</td> 
-    <td>94</td>
+    <th>2.</th>
+    <td>Everyone must be heard from their position</td> 
+    <td>We placed one condencer microphone per table, and put them in cardoid characteristic.</td>
+    <td>
+      The microphones are capturing everyone, and feedback is being avoided with the placements and
+      microphone patterns. The microphones may be hindering a "natural" way of communicating if you
+      feel like you are being recorded all the time, since the microphone is literaly in your face.
+    </td>
+  </tr>
+  <tr>
+    <td>3.</td>
+    <td></td>
   </tr>
 </table>
 
