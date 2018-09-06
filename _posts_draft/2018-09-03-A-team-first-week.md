@@ -17,8 +17,8 @@ Polycom is a [video conference system]()
 
 ![polycom](/assets/img/polycom.jpg "Polycom")
 
-
-# Setting up the remporary portal #
+### A-team, Week 36
+#### Setting up the remporary portal #
 
 In order to set up the sound system in the temporary portal room, we (Jørgen and Sepehr) used 4 microphones (Cardioid polar pattern) to capture the sound of the people, back in Trondheim; each capturing approximately 2 people, sitting on a table (we had 4 tables in the room). The signal went to the Mixer we had up and running via 4 separate channels. After that the signal traveled from 2 outputs (left and right) of the mixer to the left and right input of the sound card, of the main computer in the temporary portal room.
 
@@ -33,3 +33,28 @@ Also another usefull tip is to test the levels via the "test mic" and "test spea
 For instance, of course if you were hearing clipping, then you have to check your own output level by the "test speaker" option on your side, and then the other side's input level; and vice versa.
 
 Regarding the video we managed to higher up the height of the camera, therefore we could have a more wide picture and avoid people, being blocked by objects, such as speakers.
+
+#### Communication through the portal
+
+**Challenges and solutions:**
+
+<table style="width:100%">
+  <tr>
+    <th>Firstname</th>
+    <th>Lastname</th> 
+    <th>Age</th>
+  </tr>
+  <tr>
+    <td>Jill</td>
+    <td>Smith</td> 
+    <td>50</td>
+  </tr>
+  <tr>
+    <td>Eve</td>
+    <td>Jackson</td> 
+    <td>94</td>
+  </tr>
+</table>
+
+
+
