@@ -12,6 +12,7 @@ Keywords: wireless, bluetooth, electronic artists, dance,
 Bela, Myo armbands, micromotion.
 
 ![Performance picture](/assets/img/muscle_band_performance.jpg "Performance")
+*Image by Dmitry Vasilev*
 
 ## Explaining the concept/context
 	 	 	
@@ -36,3 +37,4 @@ The set-up during the ceremony was a work in progress, with the Trondheim portal
 For more technical information on the performance see this link: 
 [Composing an Ensemble Standstill Work for Myo and Bela](http://www.nime.org/proceedings/2018/nime2018_paper0041.pdf)
 ![Bela and Myo](/assets/img/Bela_and_Myo.jpg "Bela and Myo")
+*Image by Eigil Aandahl*
