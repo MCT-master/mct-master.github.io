@@ -24,7 +24,6 @@ So, what was this *Muscle Band Performance* all about? Not *all* of the members 
 Myo is a bracelet that acts as a sensor and picks up the position and muscle tension of our arms. The research intersection of informatics and musicology wrote a script that would allow converting muscle tension into different sounds and connect them with Bela, a small and simple computer running the program and creating the sound.
 Each of us were wearing a bracelet at one of our arms, and to say it simple, these bracelets were our instruments. To make any sound at all we had to stand as still as we could. Then we could modify the timbre of the sound by gently flexing our arm muscles. I guess the whole scenario looked and sounded like it was taken right out of a science fiction movie!
 
-![Myo on arm](/assets/img/Myo_on_arm.jpg)
 <img src="/assets/img/Myo_on_arm.jpg" align="left" width="50%">
 ![Bela and Myo](/assets/img/Bela_and_Myo.jpg "Bela and Myo")
 
