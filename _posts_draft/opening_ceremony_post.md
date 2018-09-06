@@ -25,7 +25,6 @@ Myo is a bracelet that acts as a sensor and picks up the position and muscle ten
 Each of us were wearing a bracelet at one of our arms, and to say it simple, these bracelets were our instruments. To make any sound at all we had to stand as still as we could. Then we could modify the timbre of the sound by gently flexing our arm muscles. I guess the whole scenario looked and sounded like it was taken right out of a science fiction movie!
 
 <img src="/assets/img/Myo_on_arm.jpg" align="left" width="50%">
-![Bela and Myo](/assets/img/Bela_and_Myo.jpg "Bela and Myo")
 
 ## Reflecting on the performance and the connection between Trondheim-Oslo
 
@@ -36,3 +35,4 @@ The set-up during the ceremony was a work in progress, with the Trondheim portal
 ## References
 For more technical information on the performance see this link: 
 [Composing an Ensemble Standstill Work for Myo and Bela](http://www.nime.org/proceedings/2018/nime2018_paper0041.pdf)
+![Bela and Myo](/assets/img/Bela_and_Myo.jpg "Bela and Myo")
