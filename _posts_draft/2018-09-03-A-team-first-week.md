@@ -124,9 +124,10 @@ can make it more difficult to get both sides to be available and to work at the 
 (of course we solved it :wink:), but it can cause problems. The Oslo-guys could finish the work on their end on monday,
 but Sepehr and I (Jørgen) had to wait until tuesday to really get started on our room because of equipment needs. Since
 the Oslo-guys were finished there was no reason for them to come to the school other than just doing a soundcheck on our
-microphone setup. Of course it would be nice, but it's no point in a long travel just for that reason.
-<span style="color:blue;">(We dont have to have this example in the blog, but i feel the need to somehow describe the challenge of being at different places and still be cooperating on the kind of same thing (I'm also tired when writing this, so..))
-</span>
+microphone setup. Of course it would be nice, but it's no point in a long travel just for that reason. (We dont have to have this example in the blog, but i feel the need to somehow describe the challenge of being at different places and still be cooperating on the kind of same thing (I'm also tired when writing this, so..))
+
+Last note! We finally got the last group member, Sepehr! :smiley: He is a great guy with lots of knowledge.
+
 
 
 
