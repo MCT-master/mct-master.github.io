@@ -25,13 +25,6 @@ In order to set up the sound system in the temporary portal room, we (Jørgen an
 Also the sound received from Oslo portal room was sent to the speaker via output 1 and 2 of the main computer's sound card.
 No need to mention that the program used for the communication was Zoom which Inside its setting one can assign the inputs and outputs for the communication.
 
-One of the important issues that we ran into was that the level of people talking around the room, which was being automated by default, by the Zoom. So basically it was being changed constantly to equalize the different sound sources (people talking around the room) on the same level; which unfortunately ruined the gain settings that we had adjusted for the microphones (In order to capture everyone in the room loud and clear). So this is very important to turn it off (by making sure that the "Automatically adjust the microphone" tick is off), whenever you log in to that program, in order to be able to adjust the proper level manually.
-
-![Audio Setting](https://support.zoom.us/hc/en-gb/article_attachments/203793116/2_TestingAudio.PNG "Audio Setting")
-
-Also another usefull tip is to test the levels via the "test mic" and "test speaker" options, so you could make sure that input and output levels (on both sides) are not too much loud or weak.
-For instance, of course if you were hearing clipping, then you have to check your own output level by the "test speaker" option on your side, and then the other side's input level; and vice versa.
-
 Regarding the video we managed to higher up the height of the camera, therefore we could have a more wide picture and avoid people, being blocked by objects, such as speakers.
 
 ### Audiovisual communication through the portal
