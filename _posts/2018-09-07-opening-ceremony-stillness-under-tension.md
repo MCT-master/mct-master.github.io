@@ -4,6 +4,7 @@ title:  "Stillness under Tension, An interactive performance between two cities"
 date:   2018-09-07 19:17:10 +0200
 categories: performance
 author: Karolina Jawad, Mari Lesteberg & Eigil Aandahl
+comments: true
 ---
 <figure>
   <img src="/assets/img/muscle_band_performance.jpg" alt="Performance picture">
