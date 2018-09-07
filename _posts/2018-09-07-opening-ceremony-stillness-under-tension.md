@@ -40,7 +40,7 @@ So, what was this *Muscle Band Performance* all about? Not *all* of the members 
 
 ### Reflecting on the performance and the connection between Trondheim-Oslo
 
-The set-up during the ceremony was a work in progress, with the Trondheim portal not being finished. As for the sound quality, the signal being transmitted would have been almost identical if it was all made in the same room, except for a tiny delay in time between the cities.
+The set-up during the ceremony was a work in progress, with the Trondheim portal room not being finished. Therefore the equipment was moved into the large studio at [Olavskvartalet](https://www.ntnu.no/olavskvartalet). As for the sound quality, the signal being transmitted would have been almost identical if it was all made in the same room, except for a tiny delay in time between the cities.
 	However, the audience situations were quite different, since in Oslo the audience saw the local performers standing next to a projection of the performers in Trondheim. This probably gave a much more immersive experience of seing the muscle band playing together. In Trondheim, this scene was shown on a separate screen, making it a bit more distant.
 	One thing to note on the performance was the link between each performers actions and the sound being made. Our own experience during sound testing and the performance itself was quite different regarding this, and with more people making sound in the performance it was more difficult to hear what we as individuals were doing within the large droning sound.
 
