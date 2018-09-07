@@ -21,6 +21,11 @@ baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: MCT_master
 github_username:  MCT-master
+# Comments
+comments:
+  provider: disqus
+disqus:
+  short_name: https-mct-master-github-io
 
 # Build settings
 markdown: kramdown
