@@ -63,4 +63,24 @@ $on-laptop:        800px;
 // }
 
 // Import partials from the `minima` theme.
+
+.wrapper figure img, .wrapper img{
+  border-radius: 6px;
+}
+
+.wrapper figure, .wrapper img {
+    text-align: center;
+    font-style: italic;
+    font-size: smaller;
+    text-indent: 0;
+    margin-left: auto;
+    margin-right: auto;
+    display: table;
+}
+
+.wrapper figcaption {
+  display: table-caption;
+  caption-side: bottom;
+}
+
 @import "minima";
