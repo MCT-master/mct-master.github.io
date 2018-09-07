@@ -20,12 +20,16 @@ Polycom is a [video conference system]()
 ## A-team, Week 36
 ### Setting up the remporary portal #
 
-In order to set up the sound system in the temporary portal room, we (Jørgen and Sepehr) used 4 microphones (Cardioid polar pattern) to capture the sound of the people, back in Trondheim; each capturing approximately 2 people, sitting on a table (we had 4 tables in the room). The signal went to the Mixer we had up and running via 4 separate channels. After that the signal traveled from 2 outputs (left and right) of the mixer to the left and right input of the sound card, of the main computer in the temporary portal room.
+* A brief summary
 
-Also the sound received from Oslo portal room was sent to the speaker via output 1 and 2 of the main computer's sound card.
+In order to set up the sound system in the temporary portal room back in Trondheim, we (Jørgen and Sepehr) used 4 microphones (Cardioid polar pattern) to capture the sound of the people; each capturing approximately 2 people, sitting on a table (we had 4 tables in the room). The signal went to the Mixer we had up and running via 4 separate channels. After that the signal traveled from 2 outputs (left and right) of the mixer to the left and right input of the sound card, of the main computer in the temporary portal room.
+
+Also the sound received from Oslo portal room was being sent to the speaker via output 1 and 2 of the main computer's sound card.
 No need to mention that the program used for the communication was Zoom which Inside its setting one can assign the inputs and outputs for the communication.
 
 Regarding the video we managed to higher up the height of the camera, therefore we could have a more wide picture and avoid people, being blocked by objects, such as speakers.
+
+Detailed information are being presented in the table below:
 
 ### Audiovisual communication through the portal
 
