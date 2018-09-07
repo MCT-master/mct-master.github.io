@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Stillness under Tension, An interactive performance between two cities"
-date:   2018-09-07 19:18:50 +0200
+date:   2018-09-07 19:17:10 +0200
 categories: performance
 author: Karolina Jawad, Mari Lesteberg & Eigil Aandahl
 ---
