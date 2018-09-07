@@ -42,11 +42,13 @@ The set-up during the ceremony was a work in progress, with the Trondheim portal
 	However, the audience situations were quite different, since in Oslo the audience saw the local performers standing next to a projection of the performers in Trondheim. This probably gave a much more immersive experience of seing the muscle band playing together. In Trondheim, this scene was shown on a separate screen, making it a bit more distant.
 	One thing to note on the performance was the link between each performers actions and the sound being made. Our own experience during sound testing and the performance itself was quite different regarding this, and with more people making sound in the performance it was more difficult to hear what we as individuals were doing within the large droning sound. 
 
-### References
-For more technical information on the performance see this link: 
-[Composing an Ensemble Standstill Work for Myo and Bela](http://www.nime.org/proceedings/2018/nime2018_paper0041.pdf)
-
 <figure>
 	<img src="/assets/img/Bela_and_Myo.jpg" alt="Picture of Bela and Myo">
 	<figcaption>Fig.3 The Bela microcontroller and Myo armband. (Photo: Eigil Aandahl)</figcaption>
 </figure>
+
+### References
+For more technical information on the performance see this link: 
+[Composing an Ensemble Standstill Work for Myo and Bela](http://www.nime.org/proceedings/2018/nime2018_paper0041.pdf)
+
+
