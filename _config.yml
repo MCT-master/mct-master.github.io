@@ -25,7 +25,7 @@ github_username:  MCT-master
 comments:
   provider: disqus
 disqus:
-  short_name: https-mct-master-github-io
+  shortname: https-mct-master-github-io
 
 # Build settings
 markdown: kramdown
