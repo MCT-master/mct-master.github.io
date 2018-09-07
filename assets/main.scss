@@ -64,11 +64,11 @@ $on-laptop:        800px;
 
 // Import partials from the `minima` theme.
 
-.wrapper figure img, .wrapper img{
+.wrapper figure img, .wrapper img, .wrapper video {
   border-radius: 6px;
 }
 
-.wrapper figure, .wrapper img {
+.wrapper figure, .wrapper img, .wrapper video {
     text-align: center;
     font-style: italic;
     font-size: smaller;
@@ -81,6 +81,12 @@ $on-laptop:        800px;
 .wrapper figcaption {
   display: table-caption;
   caption-side: bottom;
+}
+
+.wrapper caption {
+    display: table-caption;
+    text-align: center;
+    position: relative;
 }
 
 @import "minima";
