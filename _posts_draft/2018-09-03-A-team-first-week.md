@@ -15,8 +15,8 @@ Our group, Jørgen, Espen, Sam and Juno, started working on Monday 27. August, a
 
 Polycom is a [video conference system]()
 
-![polycom](/assets/img/polycom.jpg "Polycom")
-All 
+<img src="/assets/img/polycom.jpg" alt="Polycom" width="50%">
+
 ## A-team, Week 36
 ### Setting up the remporary portal #
 
@@ -135,9 +135,7 @@ The set up is two condenser mics (AKG C414) and two dynamic (Shure SM58). After 
 
 We found the cardioid setting on the AKG was the clearest for this classroom setting. The dynamic mics are on stands, which can be moved around both the back tables. We suggest that if you can move the mice closer to you when you are speaking through the portal from the back tables - especially if your voice is a little quieter! This works practically, but spoils some of the immersion potential of the portal, you are very aware of the separation when you have to consciously move the mic each time someone at the back wants to communicate. See pictures below for a visual representation of the setup.
 
-<img src="/assets/img/image_from_ios-1.jpg" alt="Polycom" width="50%">
-All 
-
+<img src="/assets/img/image_from_ios-1.jpg" alt="AKG microphone" width="50%">
 
 ### Preparing Portal for Studio Production
 
