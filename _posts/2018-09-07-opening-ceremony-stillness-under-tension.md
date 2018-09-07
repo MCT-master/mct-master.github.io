@@ -50,6 +50,6 @@ For more technical information on the performance see this link:
 [Composing an Ensemble Standstill Work for Myo and Bela](http://www.nime.org/proceedings/2018/nime2018_paper0041.pdf)
 
 <figure>
-	<img src="/assets/img/Bela_and_Myo.jpg" alt="Picture of Bela and Myo")>
+	<img src="/assets/img/Bela_and_Myo.jpg" alt="Picture of Bela and Myo">
 	<figcaption>Fig.3 The Bela microcontroller and Myo armband. (Photo: Eigil Aandahl)</figcaption>
 </figure>
