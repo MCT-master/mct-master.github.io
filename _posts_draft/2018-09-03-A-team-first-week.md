@@ -125,6 +125,24 @@ microphone setup. Of course it would be nice, but it's no point in a long travel
 
 **Last note!** We finally got the last group member, **Sepehr**! :smiley: He is a great guy with lots of knowledge.
 
+So, first week working on the Portal. There has been progress on getting the TICO system up and running, it is now working on the Oslo side, but alas, still not up and running in Trondheim. We are hoping that with the TICO up and running it will be able to alleviate some of the problems that have been mentioned earlier with communication between the campuses.
+
+### Table & Mic Placement in Oslo room
+
+One aspect of the portal that we have adjusted is the table and mic placement in Oslo. First we adjusted the table alignment. We moved the two back tables into a horizontal position, so firstly the students will be closer to the camera, and the wider length at the back fits the camera view better. It made the Oslo students slightly better to see from Trondheim, and it also helped for the mic placement.
+
+The set up is two condenser mics (AKG C414) and two dynamic (Shure SM58). After some experimentation and with Jorgen and Sepir sound checking from the other side, we found that the condenser mics were better positioned at the front of the class near the screen, and the dynamic mics placed for the students at the back. We tested this by moving to each seat in the class and testing by speaking and whispering into the mics, and asking Trondheim how clearly we could be heard.
+
+We found the cardioid setting on the AKG was the clearest for this classroom setting. The dynamic mics are on stands, which can be moved around both the back tables. We suggest that if you can move the mice closer to you when you are speaking through the portal from the back tables - especially if your voice is a little quieter! This works practically, but spoils some of the immersion potential of the portal, you are very aware of the separation when you have to consciously move the mic each time someone at the back wants to communicate. See pictures below for a visual representation of the setup.
+
+### Preparing Portal for Studio Production
+
+Due to a misunderstanding we started preparing the Portal-room for the MCT4000, studio production course, by setting up cameras showing the tutor and the audio mixer for Thursday. The setting was to be 1 canon camera pointing towards tutor, full body shot - and a Panasonic remote controlled PTZ-camera (Pan-Tilt-Zoom) covering the mixer. We got as far as to connect the PTZ-camera to the remote control, then having to initialize the camera software online. The setup was taken down when we learned that it was not necessary for the studio production course.
+
+https://pro-av.panasonic.net/en/sales_o/camera/aw-he40/index.html
+
+https://en.wikipedia.org/wiki/Pan–tilt–zoom_camera
+
 
 
 
