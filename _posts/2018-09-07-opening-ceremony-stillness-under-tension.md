@@ -5,16 +5,13 @@ date:   2018-09-07 19:17:10 +0200
 categories: performance
 author: Karolina Jawad, Mari Lesteberg & Eigil Aandahl
 ---
-
-## Stillness under Tension, An interactive performance between two cities
-
-Keywords: wireless, bluetooth, electronic artists, dance,
-[Bela](http://bela.io/), [Myo armbands](https://www.myo.com/), micromotion.
-
 <figure>
   <img src="/assets/img/muscle_band_performance.jpg" alt="Performance picture">
   <figcaption>Fig.1 The performance as seen in Oslo. (Photo: Dmitry Vasilev)</figcaption>
 </figure>
+
+Keywords: wireless, bluetooth, electronic artists, dance,
+[Bela](http://bela.io/), [Myo armbands](https://www.myo.com/), micromotion.
 
 ### Explaining the concept/context
 
