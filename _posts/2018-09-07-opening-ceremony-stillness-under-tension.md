@@ -24,7 +24,7 @@ Keywords: wireless, bluetooth, electronic artists, dance,
 Your browser does not support the video tag.
 </video>
 
-<caption>(Video: Dmitry Vasilev)</caption>
+<p align="center">(Video: Dmitry Vasilev)</p>
 
 ### How the system works
 
