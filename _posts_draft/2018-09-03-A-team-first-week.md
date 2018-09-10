@@ -135,13 +135,25 @@ The set up is two condenser mics (AKG C414) and two dynamic (Shure SM58). After 
 
 We found the cardioid setting on the AKG was the clearest for this classroom setting. The dynamic mics are on stands, which can be moved around both the back tables. We suggest that if you can move the mice closer to you when you are speaking through the portal from the back tables - especially if your voice is a little quieter! This works practically, but spoils some of the immersion potential of the portal, you are very aware of the separation when you have to consciously move the mic each time someone at the back wants to communicate. See pictures below for a visual representation of the setup.
 
+<figure>
 <img src="/assets/img/image_from_ios-1.jpg" alt="AKG microphone" width="50%">
+<figcaption>AKG microphone</figcaption>
+</figure>
 
-<img src="/assets/img/image_from_ios-2.jpg" alt="AKG microphone" width="50%">
+<figure>
+<img src="/assets/img/image_from_ios-2.jpg" alt="The portal room" width="50%">
+<figcaption>The portal room</figcaption>
+</figure>
 
-<img src="/assets/img/image_from_ios-3.jpg" alt="AKG microphone" width="50%">
+<figure>
+<img src="/assets/img/image_from_ios-3.jpg" alt="The mic setup" width="50%">
+<figcaption>The microphone setup</figcaption>
+</figure>
 
-<img src="/assets/img/image_from_ios.jpg" alt="AKG microphone" width="50%">
+<figure>
+<img src="/assets/img/image_from_ios.jpg" alt="The mixer" width="50%">
+<figcaption>The mixer</figcaption>
+</figure>
 
 ### Preparing Portal for Studio Production
 
