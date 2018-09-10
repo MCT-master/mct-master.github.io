@@ -28,12 +28,12 @@ Polycom is a [video conference system]()
 In order to set up the sound system in the temporary portal room back in Trondheim, we (Jørgen and Sepehr) used 4 microphones (Cardioid polar pattern) to capture the sound of the people; each capturing approximately 2 people, sitting on a table (we had 4 tables in the room). The signal went to the Mixer we had up and running via 4 separate channels. After that the signal traveled from 2 outputs (left and right) of the mixer to the left and right input of the sound card, of the main computer in the temporary portal room.
 
 <figure>
-<img src="..\assets\img\jnv_portal.jpg" alt="Trondheim portal room" width="50%">
+<img src="/assets/img/jnv_portal.jpg" alt="Trondheim portal room" width="50%">
 <figcaption><strong>Fig 2: The portal setup in Trondheim</strong></figcaption>
 </figure>
 
 <figure>
-<img src="..\assets\img\jnv_mixer.jpg" alt="mixer" width="50%">
+<img src="/assets/img/jnv_mixer.jpg" alt="mixer" width="50%">
 <figcaption><strong>Fig 3: The mixer</strong></figcaption>
 </figure>
 
@@ -172,14 +172,12 @@ We found the cardioid setting on the AKG was the clearest for this classroom set
 
 Due to a misunderstanding we started preparing the Portal-room for the MCT4000, studio production course, by setting up cameras showing the tutor and the audio mixer for Thursday. The setting was to be 1 canon camera pointing towards tutor, full body shot - and a Panasonic remote controlled PTZ-camera (Pan-Tilt-Zoom) covering the mixer. We got as far as to connect the PTZ-camera to the remote control, then having to initialize the camera software online. The setup was taken down when we learned that it was not necessary for the studio production course.
 
-https://pro-av.panasonic.net/en/sales_o/camera/aw-he40/index.html
+<a href="https://pro-av.panasonic.net/en/sales_o/camera/aw-he40/index.html" target="_blank">Panasonics AW-HE40SW/SK/HW/HK</a>
 
-https://en.wikipedia.org/wiki/Pan–tilt–zoom_camera
+<a href="https://en.wikipedia.org/wiki/Pan–tilt–zoom_camera" target="_blank">Pan–tilt–zoom camera</a>
 
 And Lastly....
 
-MCT opening ceromony was reported on Krono online. includes interview with group A's Juno & Sam
-
-khrono.no/ntnu-gunnar-bovim-music-communication-and-technology/de-er-studenter-ved-to-universiteter-samtidig/234810
+MCT opening ceromony was reported on Krono online. includes <a href="khrono.no/ntnu-gunnar-bovim-music-communication-and-technology/de-er-studenter-ved-to-universiteter-samtidig/234810" target="_blank">interview with group A's Juno & Sam</a>
 
 
