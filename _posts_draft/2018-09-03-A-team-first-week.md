@@ -3,7 +3,7 @@ layout: post
 title: "A-team - first week"
 date: 2018-09-03 10:10:42 +0200
 categories: The portal
-author: JJ, EW, SR, SH
+author: JJ, EW, SR, SH, JNV
 ---
 
 # Trials and Tribulations
