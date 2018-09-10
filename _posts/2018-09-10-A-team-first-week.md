@@ -175,6 +175,6 @@ Due to a misunderstanding we started preparing the Portal-room for the MCT4000, 
 
 And Lastly....
 
-MCT opening ceromony was reported on Krono online. includes <a href="khrono.no/ntnu-gunnar-bovim-music-communication-and-technology/de-er-studenter-ved-to-universiteter-samtidig/234810" target="_blank">interview with group A's Juno & Sam</a>
+MCT opening ceromony was reported on Krono online. includes <a href="https://khrono.no/ntnu-gunnar-bovim-music-communication-and-technology/de-er-studenter-ved-to-universiteter-samtidig/234810" target="_blank">interview with group A's Juno & Sam</a>
 
 
