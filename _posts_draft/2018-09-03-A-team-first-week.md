@@ -26,7 +26,12 @@ In order to set up the sound system in the temporary portal room back in Trondhe
 
 <figure>
 <img src="..\assets\img\jnv_portal.jpg" alt="Trondheim portal room" width="50%">
-<figcaption><strong>The portal in Trondheim<strong></figcaption>
+<figcaption><strong>The portal setup in Trondheim</strong></figcaption>
+</figure>
+
+<figure>
+<img src="..\assets\img\jnv_mixer.jpg" alt="mixer" width="50%">
+<figcaption><strong>The mixer</strong></figcaption>
 </figure>
 
 Also the sound received from Oslo portal room was being sent to the speaker via output 1 and 2 of the main computer's sound card.
@@ -138,26 +143,26 @@ One aspect of the portal that we have adjusted is the table and mic placement in
 
 <figure>
 <img src="/assets/img/image_from_ios-2.jpg" alt="The portal room" width="50%">
-<figcaption><strong>The portal room<strong></figcaption>
+<figcaption><strong>The portal room</strong></figcaption>
 </figure>
 
 The set up is two condenser mics (AKG C414) and two dynamic (Shure SM58). After some experimentation and with Jorgen and Sepir sound checking from the other side, we found that the condenser mics were better positioned at the front of the class near the screen, and the dynamic mics placed for the students at the back. We tested this by moving to each seat in the class and testing by speaking and whispering into the mics, and asking Trondheim how clearly we could be heard.
 
 <figure>
 <img src="/assets/img/image_from_ios-3.jpg" alt="The mic setup" width="50%">
-<figcaption><strong>The microphone setup<strong></figcaption>
+<figcaption><strong>The microphone setup</strong></figcaption>
 </figure>
 
 <figure>
 <img src="/assets/img/image_from_ios-1.jpg" alt="AKG microphone" width="50%">
-<figcaption><strong>AKG microphone<strong></figcaption>
+<figcaption><strong>AKG microphone</strong></figcaption>
 </figure>
 
 We found the cardioid setting on the AKG was the clearest for this classroom setting. The dynamic mics are on stands, which can be moved around both the back tables. We suggest that if you can move the mice closer to you when you are speaking through the portal from the back tables - especially if your voice is a little quieter! This works practically, but spoils some of the immersion potential of the portal, you are very aware of the separation when you have to consciously move the mic each time someone at the back wants to communicate.
 
 <figure>
 <img src="/assets/img/image_from_ios.jpg" alt="The mixer" width="50%">
-<figcaption><strong>The mixer<strong></figcaption>
+<figcaption><strong>The mixer</strong></figcaption>
 </figure>
 
 ### Preparing Portal for Studio Production
