@@ -145,6 +145,10 @@ https://pro-av.panasonic.net/en/sales_o/camera/aw-he40/index.html
 
 https://en.wikipedia.org/wiki/Pan–tilt–zoom_camera
 
+And Lastly....
 
+MCT opening ceromony was reported on Krono online. includes interview with group A's Juno & Sam
+
+khrono.no/ntnu-gunnar-bovim-music-communication-and-technology/de-er-studenter-ved-to-universiteter-samtidig/234810
 
 
