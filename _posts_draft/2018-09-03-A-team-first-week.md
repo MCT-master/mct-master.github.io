@@ -2,8 +2,8 @@
 layout: post
 title: "A-team - first week"
 date: 2018-09-03 10:10:42 +0200
-categories: polycom
-author: JJ, E, S
+categories: The portal
+author: JJ, EW, SR, SH
 ---
 
 # Trials and Tribulations
