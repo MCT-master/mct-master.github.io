@@ -137,6 +137,12 @@ We found the cardioid setting on the AKG was the clearest for this classroom set
 
 <img src="/assets/img/image_from_ios-1.jpg" alt="AKG microphone" width="50%">
 
+<img src="/assets/img/image_from_ios-2.jpg" alt="AKG microphone" width="50%">
+
+<img src="/assets/img/image_from_ios-3.jpg" alt="AKG microphone" width="50%">
+
+<img src="/assets/img/image_from_ios.jpg" alt="AKG microphone" width="50%">
+
 ### Preparing Portal for Studio Production
 
 Due to a misunderstanding we started preparing the Portal-room for the MCT4000, studio production course, by setting up cameras showing the tutor and the audio mixer for Thursday. The setting was to be 1 canon camera pointing towards tutor, full body shot - and a Panasonic remote controlled PTZ-camera (Pan-Tilt-Zoom) covering the mixer. We got as far as to connect the PTZ-camera to the remote control, then having to initialize the camera software online. The setup was taken down when we learned that it was not necessary for the studio production course.
