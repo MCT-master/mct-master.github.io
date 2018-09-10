@@ -18,7 +18,7 @@ Polycom is a [video conference system]()
 <img src="/assets/img/polycom.jpg" alt="Polycom" width="50%">
 
 ## A-team, Week 36
-### Setting up the remporary portal #
+### Setting up the temporary portal #
 
 * A brief summary
 
