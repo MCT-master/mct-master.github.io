@@ -10,7 +10,12 @@ comments: true
 <figure>
   <!-- Picture of Tico box -->
 </figure>
-
+ <img src="https://github.com/MCT-master/mct-master.github.io/blob/master/assets/img/Set_up_Oslo.png" alt="Set-up Oslo Portal" 
+ width="100%">
+ 
+ <br>
+  <img src="https://github.com/MCT-master/mct-master.github.io/blob/master/assets/img/PortalOslo.jpg" alt="Set-up Oslo Portal" 
+ width="50%">
 ## First undertitle
 
 <!-- This text is just a comment in the source html.
