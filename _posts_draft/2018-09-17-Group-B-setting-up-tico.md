@@ -44,12 +44,13 @@ Unfortunately, there was still no picture coming through from the Oslo side up t
 we were back in business with Zoom.  However - the sound from Trondheim was working both ways, so we was able to work with
 the Tico audio set-up.
 
-The set-up from the previous week had somehow been rigged down, so we were anyway back scratch with the set-up. We had been
-discussing setting up a "one-long-table"-solution, with the tables facing the wall, to making it look like we were all 
-sitting around one long table in Oslo and Trondheim. At this point, this solution could not be tested out, as the Tico sound
-was very sensitive to feedback. We had to place the microphones about two metres from the speakers, and the speakers was 
-placed on each side of the 4xmonitor for Tico. Then we solved the Zoom issue by setting up a permanent set-up with Zoom on 
-the Panasonic TV, and we used the Logitech Sausage camera for routing both the sound and video to Trondheim. 
+The Oslo set-up from the previous week had somehow been rigged down, so we were back to scratch. We had been
+discussing setting up a "one-long-table"-solution, with the tables facing the wall, to make it look like we were all 
+sitting around one long table in Oslo and Trondheim. At this point, the solution could not be tested out, as the Tico sound
+was very sensitive to feedback. We had to place the microphones about two metres from the speakers, and the speakers were 
+placed on each side of the 4xmonitor for Tico. Then we solved the Zoom issue by setting up a permanent set-up with Zoom
+booting from a Lenovo laptop, using the Panasonic TV as a monitor. We used the Logitech Sausage camera for routing both
+the sound and video to Trondheim. 
 
 We decided upon using two condenser microphones in between of two tables, as shown on the picture. Besides from that, the
 table set-up for teaching situations was very similar to the set-up from previous week. 
