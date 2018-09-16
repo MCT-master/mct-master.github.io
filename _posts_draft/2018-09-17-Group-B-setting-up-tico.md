@@ -23,6 +23,14 @@ From the week before, we had been chasing some issues regarding the teaching sit
 
 ### Setting up Tico.
 
+The number one priority this week was to get Tico up and running. The previous week, all lectures and communication between the two campuses had been through Zoom, and quite a lot of time had been consumed by solving technical problems and issues regarding the Zoom connection. 
+
+As we understand it, the firmware of the Tico box had been updated in Oslo side during the weekend, and this was going to solved much of the problems we had have before.  So on Monday morning, when suddenly Robin's face covered the whole screen in Oslo, with crystal clear quality - every little wrinkle and furrow of his hairy face revealed - we in Oslo were all a little stunned. 
+
+<img src="https://pbs.twimg.com/media/BftoLXYIIAAYIup.jpg">
+
+And amazed. What a picture quality! So uncompressed! This was of a different world - it was more like going to the iMAX movies (the world's dullest Viking movie though), but yeah. It was quite amazing.
+
 
 #### Challenges and solutions (copy-pasted from Group A´s blog post):
 
