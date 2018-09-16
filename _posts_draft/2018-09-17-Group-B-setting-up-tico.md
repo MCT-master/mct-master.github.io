@@ -28,7 +28,7 @@ From the week before, we had been chasing some issues regarding the teaching sit
 
 The number one priority this week was to get Tico up and running. The previous week, all lectures and communication between
 the two campuses had been through Zoom, and quite a lot of time had been consumed by solving technical problems and issues
-regarding the Zoom connection. 
+regarding the Zoom connection.
 
 As we understand it, the firmware of the Tico box had been updated in Oslo side during the weekend, and this was going to
 solve much of the problems we have had before.  So on Monday morning, when suddenly Robin's face covered the whole screen in
@@ -37,11 +37,11 @@ stunned.
 
 <img src="https://pbs.twimg.com/media/BftoLXYIIAAYIup.jpg">
 
-And amazed. What a picture quality! So uncompressed! This was of a different world - it was more like going to the iMAX 
-movies (the world's dullest Viking movie though), but yeah. It was quite amazing.
+And amazed. What a picture quality! So uncompressed! This was a different world - it was more like going to the IMAX 
+movies (the world's dullest Viking movie though), but it was quite amazing.
 
 Unfortunately, there was still no picture coming through from the Oslo side up to Trondheim. So again - *again* - AGAIN!! - 
-we were back in business with Zoom.  However - the sound from Trondheim was working both ways, so we was able to work with
+we were back in business with Zoom.  However - the sound from Trondheim was working both ways, so we were able to work with
 the Tico audio set-up.
 
 The Oslo set-up from the previous week had somehow been rigged down, so we were back to scratch. We had been
