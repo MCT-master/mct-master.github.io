@@ -65,8 +65,23 @@ table set-up for teaching situations was very similar to the set-up from previou
 <figcaption><strong>Fig 3: Set- up Oslo Portal</strong></figcaption>
 </figure>
 
- 
-#### Challenges and solutions (copy-pasted from Group A´s blog post):
+
+
+### Tico dropping out
+
+On the lecture in Entrepreneurship, September 13, we got the chance to fully try out the new set-up, with Oslo receiving
+uncompressed video through Tico, and Trondheim receiving both video and sound through Zoom. We can't honestly say that this
+was a streamlined experience. Several times, the video dropped out for for about 5 seconds before it gradually came back, 
+screen by screen. In the beginning, the video dropped out every 5 minute. Trough the end of the lecture, the video dropped
+out every minute, and was rather a distraction to the whole teaching/discussion situation. Zoom's main purpose for the day 
+was  intentionally to be used for streaming sound and the Power Point presentation. But because of the unstability of the 
+Tico connection, we had to switch between the slides and the Zoom video to see people talking. 
+
+
+### Re-installing the Tico firmware in Trondheim, September 14
+
+
+### Challenges and solutions (copy-pasted from Group A´s blog post):
 
 <table style="width:100%">
   <tr>
