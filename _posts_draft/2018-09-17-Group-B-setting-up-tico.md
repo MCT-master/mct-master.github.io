@@ -53,9 +53,8 @@ table set-up for teaching situations was very similar to the set-up from previou
 
 <figure>
 <img src="/assets/img/Set_up_Oslo.png" alt="Set-up Oslo Portal" width="100%" />
-<figcaption>Fig 3: Set- up Oslo Portal</figcaption>
+<figcaption>Fig 3: Set- up Oslo Portal<br></figcaption>
 </figure>
-<br>
 
 The Logitech Sausage setup however provides very poor audio quality. The microphone isn't sensitive enough to clearly pick up sounds from the back of the classroom, so students have to shout in the general direction of the Logitech Camera to be heard in Trondheim. To improve the audio quality on Zoom, a USB Studiolive mixer was connected to the Zoom designated Lenovo laptop. The microphones shown in the setup above can thus be connected to the usb mixer, sending their sound to Trondheim over Zoom loud and clear.
 
@@ -65,9 +64,8 @@ But why do we even need Zoom in the first place, when the Portal technology shou
 
 <figure>
 <img src="/assets/img/TicoPortal_094237_attention.jpeg" alt="Close-up of Oslo screen black">
-  <figcaption>Fig 4: Oslo screen when Tico connection broke </figcaption>
+  <figcaption>Fig 4: Oslo screen when Tico connection broke <br></figcaption>
 </figure>
-<br>
 
 On the lecture in Entrepreneurship, September 13, we got the chance to fully try out the new set-up, with Oslo receiving
 uncompressed video through Tico, and Trondheim receiving both video and sound through Zoom. We can't honestly say that this
@@ -79,15 +77,14 @@ Tico connection, we had to switch between the slides and the Zoom video to see p
 
 <figure>
 <img src="/assets/img/TicoPortal_094237_attentioncrop.jpg" alt="Oslo screens black" width="50%" />
-<figcaption>Fig 5: Broken Tico connection </figcaption>
+<figcaption>Fig 5: Broken Tico connection <br></figcaption>
 </figure>
-<br>
 
 <figure>
 <img src="/assets/img/TicoPortal_094249 copy.jpg" alt="Oslo screens turning back on" width="50%" />
-<figcaption>Fig 6: Tico connection getting back up </figcaption>
+<figcaption>Fig 6: Tico connection getting back up <br></figcaption>
 </figure>
-<br>
+
 
 ### Re-installing the Tico firmware in Trondheim, September 14
 
