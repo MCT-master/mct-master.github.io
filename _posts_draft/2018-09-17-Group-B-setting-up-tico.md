@@ -8,23 +8,12 @@ comments: true
 ---
 
 <figure>
-  <!-- Picture of Tico box -->
+<img src="/assets/img/TICO_signal.jpg" alt="Tico Box" width="75%" />
+<figcaption>Fig 1: The Tico Box in Oslo </figcaption>
 </figure>
 
-
- <br>
-
-
-## Portal Week Group B
-
-From the week before, we had been chasing some issues regarding the teaching situation. 
 
 ### Setting up Tico.
-
-<figure>
-<img src="/assets/img/TICO_signal.jpg" alt="Tico Box" width="75%" />
-<figcaption><strong>Fig 1: The Tico Box in Oslo </strong></figcaption>
-</figure>
 
 The number one priority this week was to get Tico up and running. The previous week, all lectures and communication between
 the two campuses had been through Zoom, and quite a lot of time had been consumed by solving technical problems and issues
@@ -35,7 +24,7 @@ solve much of the problems we have had before.  So on Monday morning, when sudde
 Oslo, with crystal clear quality - every little wrinkle and furrow of his hairy face revealed - we in Oslo were all a little
 stunned. 
 
-<img src="https://pbs.twimg.com/media/BftoLXYIIAAYIup.jpg">
+<img src="https://pbs.twimg.com/media/BftoLXYIIAAYIup.jpg" alt="Robin on Tico">
 
 And amazed. What a picture quality! So uncompressed! This was a different world - it was more like going to the IMAX 
 movies (the world's dullest Viking movie though), but it was quite amazing.
@@ -57,12 +46,12 @@ table set-up for teaching situations was very similar to the set-up from previou
 
 <figure>
 <img src="/assets/img/PortalOslo.jpg" alt="Set-up Oslo Portal" width="75%" />
-<figcaption><strong>Fig 2: Set- up Oslo Portal</strong></figcaption>
+<figcaption>Fig 2: Set- up Oslo Portal</figcaption>
 </figure>
 
 <figure>
 <img src="/assets/img/Set_up_Oslo.png" alt="Set-up Oslo Portal" width="100%" />
-<figcaption><strong>Fig 3: Set- up Oslo Portal</strong></figcaption>
+<figcaption>Fig 3: Set- up Oslo Portal</figcaption>
 </figure>
 
 
@@ -72,7 +61,10 @@ But why do we even need Zoom in the first place, when the Portal technology shou
 
 ### Tico dropping out
 
-<img src="/assets/img/TicoPortal_094237_attention.jpeg">
+<figure>
+<img src="/assets/img/TicoPortal_094237_attention.jpeg" alt="Close-up of Oslo screen black">
+  <figcaption>Fig 4: Oslo screen when Tico connection broke </figcaption>
+</figure>
 
 On the lecture in Entrepreneurship, September 13, we got the chance to fully try out the new set-up, with Oslo receiving
 uncompressed video through Tico, and Trondheim receiving both video and sound through Zoom. We can't honestly say that this
@@ -83,14 +75,14 @@ was  intentionally to be used for streaming sound and the Power Point presentati
 Tico connection, we had to switch between the slides and the Zoom video to see people talking. 
 
 <figure>
-<img src="/assets/img/TicoPortal_094237_attentioncrop.jpg" alt="" width="50%" />
-<figcaption><strong></strong></figcaption>
+<img src="/assets/img/TicoPortal_094237_attentioncrop.jpg" alt="Oslo screens black" width="50%" />
+<figcaption>Fig 5: Broken Tico connection </figcaption>
 </figure>
 
 
 <figure>
-<img src="/assets/img/TicoPortal_094249 copy.jpg" alt="" width="50%" />
-<figcaption><strong></strong></figcaption>
+<img src="/assets/img/TicoPortal_094249 copy.jpg" alt="Oslo screens turning back on" width="50%" />
+<figcaption>Fig 6: Tico connection getting back up </figcaption>
 </figure>
 
 ### Re-installing the Tico firmware in Trondheim, September 14
