@@ -91,3 +91,6 @@ Tico connection, we had to switch between the slides and the Zoom video to see p
 In an attempt to fix the issues with Tico, the box in Trondheim got some service from CESNET (The Czech association behind the box we are using). This seems to have solved some of the issues, but we were still getting some dropouts every few minutes. The quality was still miles ahead of the other solutions we had tried, and the latency was so short we could clap a beat at both campuses and it sounded like we were clapping simultaniously. The latency for the video was however much longer, so it didn't *look* like we were clapping together.
 
 Since there still were some issues, it got us looking a bit closer on what was happening when the connection would drop, and it seems there might be something more to do with the network connection between Oslo and Trondheim that needs to be sorted. Hopefully then we will be able to run a Tico-connection 24/7.
+
+**Group B signing off**
+
