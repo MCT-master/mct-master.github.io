@@ -15,7 +15,7 @@ comments: true
  <br>
 
 
-## First undertitle
+## Portal Week Group B
 
 From the week before, we had been chasing some issues regarding the teaching situation. 
 
@@ -65,7 +65,9 @@ table set-up for teaching situations was very similar to the set-up from previou
 <figcaption><strong>Fig 3: Set- up Oslo Portal</strong></figcaption>
 </figure>
 
+The Logitech Sausage setup however provides very poor audio quality. The microphone isn't sensitive enough to clearly pick up sounds from the back of the classroom, so the in back students have to shout in it's general direction. To improve the audio quality on Zoom, a USB Studiolive mixer was connected to the Zoom designated laptop. The microphones shown in the setup above can thus be connected to the usb mixer, providing a much better audio quality over Zoom.
 
+But why do we even need Zoom in the first place, when the Portal technology should allow us to see and hear each with crystal clearly? Well...
 
 ### Tico dropping out
 
@@ -89,8 +91,6 @@ Tico connection, we had to switch between the slides and the Zoom video to see p
 <img src="/assets/img/TicoPortal_094249 copy.jpg" alt="" width="50%" />
 <figcaption><strong></strong></figcaption>
 </figure>
-
-
 
 ### Re-installing the Tico firmware in Trondheim, September 14
 
