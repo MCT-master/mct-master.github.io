@@ -35,7 +35,7 @@ solve much of the problems we have had before.  So on Monday morning, when sudde
 Oslo, with crystal clear quality - every little wrinkle and furrow of his hairy face revealed - we in Oslo were all a little
 stunned. 
 
-<img src="">
+<img src="https://pbs.twimg.com/media/BftoLXYIIAAYIup.jpg">
 
 And amazed. What a picture quality! So uncompressed! This was a different world - it was more like going to the IMAX 
 movies (the world's dullest Viking movie though), but it was quite amazing.
