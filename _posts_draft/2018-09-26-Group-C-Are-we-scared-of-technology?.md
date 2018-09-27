@@ -22,9 +22,7 @@ Most of technical equipment suggest a certain kind of usage, like a DAW (Digital
 Another example is the midas Mixer (picture), it can imply a musical usage or work flow while we use it instead as tool to route communication channels and make it work for our purpose.
 Communication technologies influence and suggest a way of interacting with each other often compromising quality, immersion or security.
 In contrast we're tailoring, trying out solutions along the way to develop new ways of communicating in the portal and hopefully carry some useful insights
-XXXXXX
 
-### Plug and pray 
 In our program we have a lot of people with different backgrounds and it is asked from an techno-phil-humanist to make this environment more predictable and reliable since we are surrounded by it constantly.
 At the moment basically we have to accept the status quo, to work with the tools available, to trust when we might not and to predict the outcome.
 The less insight, less power, very simple but very true in this context. 
