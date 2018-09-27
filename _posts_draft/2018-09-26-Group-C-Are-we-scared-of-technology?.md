@@ -11,6 +11,7 @@ author: Jonas Bjordal, Karolina Jawad & Elias Sukken Andersen
 <figcaption>Fig 1: Tico is showing us a coloured screen </figcaption>
 </figure>
 
+
 The machine in the ghost, or are we afraid of technology?
 We should not be afraid to use machines and electronic devices.
 But often we are, even as experts. When a machine turns on, signals are shooting out, faster then we can react. 
