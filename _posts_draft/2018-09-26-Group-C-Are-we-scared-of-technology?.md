@@ -15,16 +15,16 @@ author: Jonas Bjordal, Karolina Jawad & Elias Sukken Andersen
 ### The ghost in the machine
 We should not be afraid to use machines and electronic devices.
 But often we are, even as experts. When a machine turns on, signals are shooting out - at the speed of light! 
-It can happen, that we are very suddenly confronted with weird noises and lights popping up, random drop outs in the video feed, or we accidentally hit the volume panel on an electronic device. Mostly we can ignore the by-products of this rather harmless scale, but often we found ourselves mainly reacting to a problem or being exposed to a situation we might not want. So there is a fundamentally lack of agency when we interact with technologies. When machines are getting more complex and get a broader field of use, the interaction becomes more complex and for us harder to understand. Are there people which are actually able to be in full control of the technology, or do we need to invent new devices to deal with the ones we already have? 
+It can happen, that we are very suddenly confronted with weird noises and lights popping up, random drop outs in the video feed, or we accidentally hit the volume panel on an electronic device. Mostly we can ignore the by-products of this rather harmless scale, but often we found ourselves mainly reacting to a problem or being exposed to a situation we might not want. So there is a fundamentally lack of agency when we interact with technologies. When machines are getting more complex and get a broader field of use, the interaction becomes more complex and for us harder to understand. Are there people which are actually able to be in full control of the technology, or do we need to invent new devices to deal with the ones we already have? The less insight, less power, very simple but very true in this context. 
+From that perspective, it seems as if it is not only advised, but very much necessary to look behind the machine curtain from time to time.
 
 ### Plug and pray
 Most of technical equipment suggest a certain kind of usage, like a DAW (Digital Audio Workstation) with its default settings of 4/4 time signature, 120 bpm and C-Major scale.
 Another example is the midas Mixer (picture), it can imply a musical usage or work flow while we use it instead as tool to route communication channels and make it work for our purpose.
 Communication technologies influence and suggest a way of interacting with each other often compromising quality, immersion or security.
 
-In contrast we're tailoring, trying out solutions along the way to develop new ways of communicating in the portal and hopefully carry out some useful insights. And this is the way we are continuing to work in the portal. 
-In our program we have people with different backgrounds and it is asked from an techno-phil-humanist to make this environment more predictable and reliable since we are surrounded by it constantly.
-At the moment basically we have to accept the status quo, to work with the tools available, to trust when we might not and not know what the outcome will be.
-The less insight, less power, very simple but very true in this context. 
-From that perspective, it seems as if it is not only advised, but very much necessary to look behind the machine curtain from time to time. 
+In contrast we're tailoring, trying out solutions to develop new ways of communicating in the portal and hopefully carry out some useful insights. And this is the way we are continuing to work in the portal. 
+In our program we have people with different backgrounds and it is asked from a 'techno-phil-humanist' to make this environment more predictable and reliable since we are surrounded by it constantly.
+At the moment we basically have to accept the status quo, to work with the tools available, to trust them and believe in the process even we might not know what the outcome will be.
+ 
 
