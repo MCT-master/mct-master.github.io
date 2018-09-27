@@ -12,7 +12,7 @@ author: Jonas Bjordal, Karolina Jawad & Elias Sukken Andersen
 </figure>
 
 
-The machine in the ghost, or are we afraid of technology?
+### The machine in the ghost, or are we afraid of technology?
 We should not be afraid to use machines and electronic devices.
 But often we are, even as experts. When a machine turns on, signals are shooting out, faster then we can react. 
 Mostly we can ignore by-products of this rather harmless scale, but often we found ourselves mainly reacting to a problem or being exposed to a situation we might not want. Sometimes, very suddenly we're confronted with weird noises and lights popping up, random drop outs in the video feed, or we accidentally hit the volume panel on an electronic device. So there is a fundamentally lack of agency when we interact with technologies. Are there people which are actually able to be in full control of technology, or is the only power we have today to invent new devices to deal with the ones we already have? 
