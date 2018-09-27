@@ -16,8 +16,7 @@ author: Jonas Bjordal, Karolina Jawad & Elias Sukken Andersen
 We should not be afraid to use machines and electronic devices.
 But often we are, even as experts. When a machine turns on, signals are shooting out, faster then we can react. 
 Mostly we can ignore by-products of this rather harmless scale, but often we found ourselves mainly reacting to a problem or being exposed to a situation we might not want. Sometimes, very suddenly we're confronted with weird noises and lights popping up, random drop outs in the video feed, or we accidentally hit the volume panel on an electronic device. So there is a fundamentally lack of agency when we interact with technologies. Are there people which are actually able to be in full control of technology, or is the only power we have today to invent new devices to deal with the ones we already have? 
-Most of technical equipment suggest a certain kind of usage
-like a DAW (Digital Audio Workstation) with its default settings of 4/4 time signature, 120 bpm and C-Major scale.
+Most of technical equipment suggest a certain kind of usage, like a DAW (Digital Audio Workstation) with its default settings of 4/4 time signature, 120 bpm and C-Major scale.
 Another example is the midas Mixer (picture), it can imply a musical usage or work flow while we use it instead as tool to route communication channels and make it work for our purpose.
 Communication technologies influence and suggest a way of interacting with each other often compromising quality, immersion or security.
 In contrast we're tailoring, trying out solutions along the way to develop new ways of communicating in the portal and hopefully carry some useful insights
