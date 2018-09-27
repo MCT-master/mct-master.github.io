@@ -26,4 +26,4 @@ In our program we have a lot of people with different backgrounds and it is aske
 At the moment basically we have to accept the status quo, to work with the tools available, to trust even we don't trust, to use the de 
 ..the less insight the less power, very simple but very true in this context. 
 From that perspective, it seems as if it is not only advised, but very much necessary to look from time to time a little bit behind the machine curtain. 
-The more dense machines are involved in our every day life, the more complex the interplay gets and for us, the harder to understand.
+When machines are getting more complex and get a broader field of use, the interaction can also become more complex and for us harder to understand.
