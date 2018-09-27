@@ -18,6 +18,11 @@ But often we are, even as experts. When a machine turns on, signals are shooting
 It can happen, that we are very suddenly confronted with weird noises and lights popping up, random drop outs in the video feed, or we accidentally hit the volume panel on an electronic device. Mostly we can ignore the by-products of this rather harmless scale, but often we found ourselves mainly reacting to a problem or being exposed to a situation we might not want. So there is a fundamentally lack of agency when we interact with technologies. When machines are getting more complex and get a broader field of use, the interaction becomes more complex and for us harder to understand. Are there people which are actually able to be in full control of the technology, or do we need to invent new devices to deal with the ones we already have? The less insight, less power, very simple but very true in this context. 
 From that perspective, it seems as if it is not only advised, but very much necessary to look behind the machine curtain from time to time.
 
+<figure>
+<img src="/assets/img/Bluetooth_plug.png" alt="Bluetooth plugged to computer" width="50%" align="middle"/>
+<figcaption>Fig 2: The Huddly camera and Jabra bluetooth speaker connected to the computer  </figcaption>
+</figure>
+
 ### Plug and pray
 Most of technical equipment suggest a certain kind of usage, like a DAW (Digital Audio Workstation) with its default settings of 4/4 time signature, 120 bpm and C-Major scale.
 Another example is the midas Mixer (picture), it can imply a musical usage or work flow while we use it instead as tool to route communication channels and make it work for our purpose.
