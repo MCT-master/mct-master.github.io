@@ -7,7 +7,7 @@ author: Karolina Jawad, Jonas Bjordal & Elias Sukken Andersen
 ---
 
 <figure>
-<img src="/assets/img/Tico_going_mad.png" alt="Orange screen" width="50%" align="middle"/>
+<img src="/assets/img/Tico_going_mad.png" alt="Orange screen" width="53%" align="middle"/>
 <figcaption>Fig 1: Tico is showing us a coloured screen </figcaption>
 </figure>
 
