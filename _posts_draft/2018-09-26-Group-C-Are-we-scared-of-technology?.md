@@ -21,15 +21,15 @@ From that perspective, it seems as if it is not only advised, but very much nece
 
 ### Plug and pray
 
-<figure>
-<img src="/assets/img/Bluetooth_plug.png" alt="Bluetooth plugged to computer" width="22%" align="middle"/>
-<figcaption>Fig 2: The Huddly camera and Jabra bluetooth speaker connected to the computer </figcaption>
-</figure>
-
 Do we need to invent new devices to deal with the ones we already have? 
 Most of technical equipment suggest a certain kind of usage, like a DAW (Digital Audio Workstation) with its default settings of 4/4 time signature, 120 bpm and C-Major scale.
 Another example is the midas Mixer (picture), it can imply a musical usage or work flow while we use it instead as tool to route communication channels and make it work for our purpose.
 Communication technologies influence and suggest a way of interacting with each other often compromising quality, immersion or security.
+
+<figure>
+<img src="/assets/img/Bluetooth_plug.png" alt="Bluetooth plugged to computer" width="22%" align="middle"/>
+<figcaption>Fig 2: The Huddly camera and Jabra bluetooth speaker connected to the computer </figcaption>
+</figure>
 
 In contrast we're tailoring, trying out solutions to develop new ways of communicating in the portal and hopefully carry out some useful insights. And this is the way we are continuing to work in the portal. 
 In our program we have people with different backgrounds and it is asked from a 'techno-phil-humanist' to make this environment more predictable and reliable since we are surrounded by it constantly.
