@@ -19,7 +19,7 @@ it can happen that we are very suddenly confronted with weird noises and lights 
 From that perspective, it seems as if it is not only advised, but very much necessary to look behind the machine curtain from time to time.
 
 <figure>
-<img src="/assets/img/Bluetooth_plug.png" alt="Bluetooth plugged to computer" width="20%" align="middle"/>
+<img src="/assets/img/Bluetooth_plug.png" alt="Bluetooth plugged to computer" width="22%" align="middle"/>
 <figcaption>Fig 2: The Huddly camera and Jabra bluetooth speaker connected to the computer  </figcaption>
 </figure>
 
