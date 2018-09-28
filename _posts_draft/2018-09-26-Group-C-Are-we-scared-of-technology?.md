@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Group C - Are we scared of technology?"
-date: 2018-09-26 16:19:42 +0200
+date: 2018-09-28 14:00:00 +0200
 categories: The portal
 author: Karolina Jawad, Jonas Bjordal & Elias Sukken Andersen
 ---
@@ -23,8 +23,8 @@ From that perspective, it seems as if it is not only advised, but very much nece
 
 Do we need to invent new devices to deal with the ones we already have? 
 Most of technical equipment suggest a certain kind of usage, like a DAW (Digital Audio Workstation) with its default settings of 4/4 time signature, 120 bpm and C-Major scale.
-Another example is the midas Mixer (picture), it can imply a musical usage or work flow while we use it instead as tool to route communication channels and make it work for our purpose.
-Communication technologies influence and suggest a way of interacting with each other often compromising quality, immersion or security.
+Another example is the midas Mixer, it can imply a musical usage or work flow while we use it instead as tool to route communication channels and make it work for our purpose.
+Communication technologies influence and suggest a way of interacting with each other often compromising quality, immersion and/or security.
 
 <figure>
 <img src="/assets/img/Bluetooth_plug.png" alt="Bluetooth plugged to computer" width="22%" align="middle"/>
