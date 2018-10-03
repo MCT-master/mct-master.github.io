@@ -33,6 +33,6 @@ Communication technologies influence and suggest a way of interacting with each 
 
 
 In contrast we're tailoring, trying out solutions to develop new ways of communicating in the portal and hopefully carry out some useful insights. And this is the way we are continuing to work in the portal. 
-In our program we have people with different backgrounds and it is asked from a 'techno-phil-humanist' to make this environment more predictable and reliable since we are surrounded by it constantly.
+In our program we have people with different backgrounds and it is asked from a 'tech-phil-humanist' to make this environment more predictable and reliable since we are surrounded by it constantly.
 At the moment we basically have to accept the status quo, to work with the tools available, to trust them and believe in the process even we might not know what the outcome will be.
  
