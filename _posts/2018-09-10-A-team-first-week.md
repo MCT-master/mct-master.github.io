@@ -6,7 +6,7 @@ categories: The portal
 author: JJ, EW, SR, SH, JNV
 ---
 
-<figure style="display:none;">
+<figure>
 <img src="/assets/img/jnv_portal.jpg" alt="Trondheim portal room" width="50%">
 <figcaption><strong>Fig 2: The portal setup in Trondheim</strong></figcaption>
 </figure>
