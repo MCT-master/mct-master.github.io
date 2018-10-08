@@ -43,6 +43,14 @@ Here is a list of issues:
 * Bad volume balance between windows system sounds and recieved sound from Oslo, resulting in extreme loudness
 from system sounds if we want to here Oslo.
 
+After hours of troubleshooting we found that the Midas M32 in Oslo was sending sound from TICO. Turning down the
+master on this mixer resolved all the weird sound effects that had occured. We think the signal flow in the portal
+in Oslo is too little intuitive, and should be changed to a more similar setup to what we have in Trondheim, using
+only one mixer.
+
+To solve the low volume and volume balance issues we raised the gain level from Oslo, and adjusted the system sounds
+volume in the Windows mixer.
+
 ### Reliability - TICO first, Zoom second
 Because of TICO's supperior video quality over Zoom, we decided together with Ben Tocher, the teacher in
 the entrepreneurship course, to make it our primary video source. **BUT**, since the TICO system is very
