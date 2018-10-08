@@ -28,12 +28,26 @@ working on visability, audibility and reliability.
 <figcaption>Fig 1: Portal screens</figcaption>
 </figure>
 
+Because of TICO's supperior video quality over Zoom, we decided together with Ben Tocher, the teacher in
+the entrepreneurship course, to make it our primary video source. **BUT**, since the TICO system is very
+unreliable we had to have a backup system, which was Zoom. In case TICO would go crazy - turning off
+for a long period of time or displaying all the colors of the rainbow, it had to be a quick way of 
+changing video source to Zoom.
+
+In short, the setup ended up being:
+
+* Panasonic (large screen) as computer _primary screen_, **used for control over pc and presentation material**
+* Sony (smaller screen) as computer _extended screen_, **used for displaying video from either TICO or Zoom, depending on input source**
+* Audio running through Zoom
+
+For a detailed overview of our solution and instruction on how to prepare a presentation (or even a class lecture) you can go to the wiki page <a href="https://github.com/MCT-master/Portal/wiki/Preparing-a-presentation-in-the-portal-(Trondheim)" target="_blank">Preparing a presentation in the portal (Trondheim)</a>.
+
+
 
 ## Experiencing sound issues
 
+
 ## Experiencing TICO issues
-
-
-NTNU: screen
+image dropouts, flashing colors
 
 Sam: article about producing in Zoom
