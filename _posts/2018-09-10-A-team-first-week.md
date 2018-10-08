@@ -6,6 +6,11 @@ categories: The portal
 author: JJ, EW, SR, SH, JNV
 ---
 
+<figure>
+<img src="/assets/img/jnv_portal.jpg" alt="Trondheim portal room" width="50%">
+<figcaption><strong>Fig 2: The portal setup in Trondheim</strong></figcaption>
+</figure>
+
 ### A-team, Opening week of MCT
 
 The first week at The Portal was interesting. Most of the equipment was not ready for use, and the TICO system network card crashed two days before opening ceremony. 
