@@ -6,11 +6,6 @@ categories: The portal
 author: Sam, Juno, Espen, Jørgen & Sepehr
 ---
 
-<figure>
-<img src="/assets/img/Tico_going_mad.png" alt="Orange screen" width="53%" align="middle"/>
-<figcaption>Fig 1: Tico is showing us a coloured screen </figcaption>
-</figure>
-
 # Preparing the portal for Entrepreneurship presentation
 
 Our portal has been suffering from both audial and visual issues since the beginning of the MCT program. 
@@ -28,6 +23,15 @@ working on visability, audibility and reliability.
 <figcaption>Fig 1: Portal screens</figcaption>
 </figure>
 
+### Visability
+Since the Tico camera was on the side of the room, the picture that was being sent to Oslo didn’t include all of people present in the class, back in Trondheim. Therefore we managed to find a better angle for the camera to have all the people in the room, in the picture; and that was done via putting the camera on the center speaker in the room and rearranging the speakers in the room.
+
+<figure>
+<img src="https://github.com/MCT-master/mct-master.github.io/blob/master/assets/img/IMG_3774.JPG?raw=trueG" alt="TICO Camera" width="50%">
+<figcaption><strong>Fig 1: Tico Camera</strong></figcaption>
+</figure>
+
+### Reliability - TICO first, Zoom second
 Because of TICO's supperior video quality over Zoom, we decided together with Ben Tocher, the teacher in
 the entrepreneurship course, to make it our primary video source. **BUT**, since the TICO system is very
 unreliable we had to have a backup system, which was Zoom. In case TICO would go crazy - turning off
@@ -42,9 +46,10 @@ In short, the setup ended up being:
 
 For a detailed overview of our solution and instruction on how to prepare a presentation (or even a class lecture) you can go to the wiki page <a href="https://github.com/MCT-master/Portal/wiki/Preparing-a-presentation-in-the-portal-(Trondheim)" target="_blank">Preparing a presentation in the portal (Trondheim)</a>.
 
+### Audibility
 
+#### Experiencing sound issues
 
-## Experiencing sound issues
 
 
 ## Experiencing TICO issues
