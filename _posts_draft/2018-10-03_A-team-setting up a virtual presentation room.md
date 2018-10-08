@@ -31,6 +31,18 @@ Since the Tico camera was on the side of the room, the picture that was being se
 <figcaption><strong>Fig 1: Tico Camera</strong></figcaption>
 </figure>
 
+### Audibility
+
+#### Experiencing sound issues
+During our week in the portal we have experienced some problems with audio both in Oslo and Trondheim.
+Here is a list of issues:
+* Low volume
+* Delay, one repeat after you have said something
+* Reverb hall effect under the dry sound of the voice
+* Reversed sound playing under the dry voice
+* Bad volume balance between windows system sounds and recieved sound from Oslo, resulting in extreme loudness
+from system sounds if we want to here Oslo.
+
 ### Reliability - TICO first, Zoom second
 Because of TICO's supperior video quality over Zoom, we decided together with Ben Tocher, the teacher in
 the entrepreneurship course, to make it our primary video source. **BUT**, since the TICO system is very
@@ -46,13 +58,7 @@ In short, the setup ended up being:
 
 For a detailed overview of our solution and instruction on how to prepare a presentation (or even a class lecture) you can go to the wiki page <a href="https://github.com/MCT-master/Portal/wiki/Preparing-a-presentation-in-the-portal-(Trondheim)" target="_blank">Preparing a presentation in the portal (Trondheim)</a>.
 
-### Audibility
-
-#### Experiencing sound issues
-
-
-
-## Experiencing TICO issues
+#### Experiencing TICO issues
 image dropouts, flashing colors
 
 Sam: article about producing in Zoom
