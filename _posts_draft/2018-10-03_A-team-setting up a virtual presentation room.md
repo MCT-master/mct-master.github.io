@@ -12,7 +12,7 @@ Our portal has been suffering from both audial and visual issues since the begin
 We solve one problem and the next is just waiting in line to show itself. **NOW**, we all had an exam
 just around the corner, an exam where we were going to hold a presentation in the portal across
 campuses. **The importance of a working portal now felt very crucial!** With this in mind we started
-working on visability, audibility and reliability.
+working on visibility, audibility and reliability.
 
 ## Setup in Oslo
 
@@ -23,7 +23,7 @@ working on visability, audibility and reliability.
 <figcaption>Fig 1: Portal screens</figcaption>
 </figure>
 
-### Visability
+### Visibility
 Since the Tico camera was on the side of the room, the picture that was being sent to Oslo didn’t include all of people present in the class, back in Trondheim. Therefore we managed to find a better angle for the camera to have all the people in the room, in the picture; and that was done via putting the camera on the center speaker in the room and rearranging the speakers in the room.
 
 <figure>
