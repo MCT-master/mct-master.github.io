@@ -69,4 +69,8 @@ For a detailed overview of our solution and instruction on how to prepare a pres
 #### Experiencing TICO issues
 image dropouts, flashing colors
 
+<a href="https://youtu.be/s-idx7Lx3Qg" target="_blank"><img src="https://github.com/MCT-master/mct-master.github.io/blob/master/assets/img/TicoDisco_Youtube.png" 
+alt="IMAGE TICO DISCO VIDEO" width="240" height="180" border="10" /></a>
+
+
 Sam: article about producing in Zoom
