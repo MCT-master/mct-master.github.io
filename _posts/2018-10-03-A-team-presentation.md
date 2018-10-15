@@ -7,7 +7,7 @@ author: Sam, Juno, Espen, Jørgen & Sepehr
 ---
 
 <figure>
-<iframe width="901" height="507" src="https://www.youtube.com/embed/s-idx7Lx3Qg" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+<iframe width="50%" src="https://www.youtube.com/embed/s-idx7Lx3Qg" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen align="middle"></iframe>
 <figcaption><strong>TICO's flashing colors</strong></figcaption>
 </figure>
 
