@@ -89,3 +89,32 @@ For a detailed overview of our solution and instruction on how to prepare a pres
 #### Experiencing TICO issues
 image dropouts and flashing colors as you saw in the video at the top of the page.
 
+
+Collaborating in DAW's over Zoom - In real time!
+
+Out of curiosity i decided to try to set up a producer session over zoom using Ableton Live. The aim was to see how close you could get to 'being in the same room". As a producer i collaborate regularly with artists, most of them are far away, often in another country. Taking MCT as a course has inspired me to see how far i could alleviate this issue with the use of zoom. My results exceeded my expectations!
+
+In one evening i managed to produce side by side with a friend (Earl) using Ableton Live, we were using both Mac Os X.  At the time he was 7 hours drive away. We shared the same screen (from my computer) as well as remote control, and audio in real time. I have put a rough guide in the wiki if one would like to know how. To be honest, it was pretty easy! 
+My experience of this experiment was very rewarding. Usually when collaborating in my studio, we will normally swap places when the other wants a go - swapping chairs. This was not needed! i just let go of the mouse, and it is free through remote control for Earl. Another great side factor is that we had access to both speaker setups - at the same time. So for instance Earl took control to process the bass on the track, because he had a sub in his set up. I watched him process the bass in real time, and could jump in anytime (or sip on my coffee)
+
+Whilst this connection was live we also had a line open on the phone, open through speaker. Obviously it was better to use headphones in this scenario most of the time, to avoid the playback over the phone connection. It was necessary in my opinion, it really felt like he was in the room; we could talk openly to each other. After a while i was immersed in the project.
+
+There were downsides. For Earl, he was controlling the set over the internet. This meant there was a delay for the mouse. This was frustrating for him to use the mouse for anything movement sensitive (click, hold and drag type) for instance zooming in or out with the mouse. Editing midi wasn't always easy either.
+
+This technology poses many uses. One that i will take advantage of is for teaching Ableton Live (or any DAW). I will be able to have control and sight of a students DAW in real time. This will allow me to have a potential client base of anyone with a decent internet connection (as opposed to who you can meet in person), which is a massive potential for that industry in my opinion. Any other uses that you can think of? 
+
+Overall i was surprised that this technology is available and ready, and that i could set it up. I am also surprised that online there is very little instruction on this, from some searches with Ableton live and zoom, i found nothing on this subject. I am always down for a good colab, so if anyone else is interested in trying this out (MCT 2018) let me know!
+
+1. Have zoom downloaded and installed on both computers (both Mac & Windows should work)
+
+2. Go through routine of screen sharing and remote control - the computer sharing (hosting the meeting) will be the one both users will use.
+
+3. Download the audio driver when prompted (if you are not prompted, it has probably already downloaded)
+
+4. TURN OFF MICROPHONE (on zoom) - it will feedback horribly if sharing both audio sources at the same time
+
+4. In your DAW, go to audio output preferences, and switch to the zoom driver.
+
+(This was tested from Mac to Mac. If someone has a different experience on a Windows OS please share your method)
+
+
