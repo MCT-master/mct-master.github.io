@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Group A - Setting up for a joint group presentation and collaborating producing via Zoom?"
+title: "Group A - Setting up for a joint group presentation"
 date: 2018-10-03 12:53:00 +0200
 categories: The portal
 author: Sam, Juno, Espen, Jørgen & Sepehr
