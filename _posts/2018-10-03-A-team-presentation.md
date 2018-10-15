@@ -1,4 +1,3 @@
-
 ---
 layout: post
 title: "Group A - Setting up for a joint group presentation and collaborating producing via Zoom?"
@@ -6,6 +5,11 @@ date: 2018-10-03 12:53:00 +0200
 categories: The portal
 author: Sam, Juno, Espen, Jørgen & Sepehr
 ---
+
+<figure>
+<iframe width="901" height="507" src="https://www.youtube.com/embed/s-idx7Lx3Qg" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+<figcaption><strong>TICO's flashing colors</strong></figcaption>
+</figure>
 
 # Preparing the portal for Entrepreneurship presentation
 
@@ -27,7 +31,7 @@ We put up two condenser microphones, one in front of the presenters and one for 
 The presentation went well, except for Tico occasionally dropping out. Our audio was still running through Zoom, so our presentation was not affected by the dropouts. 
 
 <figure>
-<img src="https://github.com/MCT-master/mct-master.github.io/blob/master/assets/img/Presentation_setup.jpg?raw=true alt="Oslo Presentation set-up" width="50%" align="middle"/>
+<img src="https://raw.githubusercontent.com/MCT-master/mct-master.github.io/master/assets/img/Presentation_setup.jpg" alt="Oslo Presentation set-up" width="50%" align="middle"/>
 <figcaption>Fig 1: Presentation set-up in the Oslo Portal</figcaption>
 </figure>
 
@@ -35,7 +39,7 @@ The presentation went well, except for Tico occasionally dropping out. Our audio
 ## Setup in Trondheim
 
 <figure>
-<img src="https://github.com/MCT-master/mct-master.github.io/blob/master/assets/img/jnv_portal.jpg?raw=true alt="Trondheim portal" width="50%" align="middle"/>
+<img src="https://raw.githubusercontent.com/MCT-master/mct-master.github.io/master/assets/img/jnv_portal.jpg" alt="Trondheim portal" width="50%" align="middle"/>
 <figcaption>Fig 2: Portal screens</figcaption>
 </figure>
 
@@ -43,7 +47,7 @@ The presentation went well, except for Tico occasionally dropping out. Our audio
 Since the Tico camera was on the side of the room, the picture that was being sent to Oslo didn’t include all of people present in the class, back in Trondheim. Therefore we managed to find a better angle for the camera to have all the people in the room, in the picture; and that was done via putting the camera on the center speaker in the room and rearranging the speakers in the room.
 
 <figure>
-<img src="https://github.com/MCT-master/mct-master.github.io/blob/master/assets/img/IMG_3774.JPG?raw=trueG" alt="TICO Camera" width="50%">
+<img src="https://raw.githubusercontent.com/MCT-master/mct-master.github.io/master/assets/img/IMG_3774.JPG" alt="TICO Camera" width="50%">
 <figcaption><strong>Fig 3: Tico Camera</strong></figcaption>
 </figure>
 
@@ -85,8 +89,8 @@ For a detailed overview of our solution and instruction on how to prepare a pres
 #### Experiencing TICO issues
 image dropouts, flashing colors
 
-
-<iframe width="901" height="507" src="https://www.youtube.com/embed/s-idx7Lx3Qg" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
-
-
+<figure>
+<iframe width="901" height="507" src="https://www.youtube.com/embed/s-idx7Lx3Qg" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen align="middle"></iframe>
+<figcaption><strong>TICO's flashing colors</strong></figcaption>
+</figure>
 
