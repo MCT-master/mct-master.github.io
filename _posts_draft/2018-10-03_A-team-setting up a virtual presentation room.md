@@ -21,6 +21,10 @@ working on visibility, audibility and reliability.
 We chose to set up the presentation in front of the class, with the slides window at the portable screen and the panel sitting to the presenter's right side. Then, both the presenters and the panel saw both screens. Also, if the presenters wanted to point to a slide, it would look the same on the Trondheim side. 
 
 
+### Audibility
+We put up two condenser microphones, one in front of the presenters and one for the panel. 
+
+
 ## Setup in Trondheim
 
 <figure>
@@ -30,9 +34,6 @@ We chose to set up the presentation in front of the class, with the slides windo
 
 ### Visibility
 Since the Tico camera was on the side of the room, the picture that was being sent to Oslo didn’t include all of people present in the class, back in Trondheim. Therefore we managed to find a better angle for the camera to have all the people in the room, in the picture; and that was done via putting the camera on the center speaker in the room and rearranging the speakers in the room.
-
-### Audibility
-We put up two condenser microphones, one in front of the presenters and one for the panel. 
 
 <figure>
 <img src="https://github.com/MCT-master/mct-master.github.io/blob/master/assets/img/IMG_3774.JPG?raw=trueG" alt="TICO Camera" width="50%">
