@@ -7,7 +7,7 @@ author: Sam, Juno, Espen, Jørgen & Sepehr
 ---
 
 <figure>
-<iframe width="50%" src="https://www.youtube.com/embed/s-idx7Lx3Qg" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen align="middle"></iframe>
+<iframe width="450" height="253" src="https://www.youtube.com/embed/s-idx7Lx3Qg" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen align="middle"></iframe>
 <figcaption><strong>TICO's flashing colors</strong></figcaption>
 </figure>
 
@@ -87,10 +87,5 @@ In short, the setup ended up being:
 For a detailed overview of our solution and instruction on how to prepare a presentation (or even a class lecture) you can go to the wiki page <a href="https://github.com/MCT-master/Portal/wiki/Preparing-a-presentation-in-the-portal-(Trondheim)" target="_blank">Preparing a presentation in the portal (Trondheim)</a>.
 
 #### Experiencing TICO issues
-image dropouts, flashing colors
-
-<figure>
-<iframe width="901" height="507" src="https://www.youtube.com/embed/s-idx7Lx3Qg" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen align="middle"></iframe>
-<figcaption><strong>TICO's flashing colors</strong></figcaption>
-</figure>
+image dropouts and flashing colors as you saw in the video at the top of the page.
 
