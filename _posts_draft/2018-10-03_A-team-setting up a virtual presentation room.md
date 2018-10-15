@@ -78,7 +78,9 @@ For a detailed overview of our solution and instruction on how to prepare a pres
 #### Experiencing TICO issues
 image dropouts, flashing colors
 
+<figure>
 <iframe width="560" height="315" src="https://www.youtube.com/embed/s-idx7Lx3Qg" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+  </figure>
 
 
 <a href="https://youtu.be/s-idx7Lx3Qg" target="_blank"><img src="https://github.com/MCT-master/mct-master.github.io/blob/master/assets/img/TicoDisco_Youtube.png" 
