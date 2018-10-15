@@ -23,13 +23,19 @@ We chose to set up the presentation in front of the class, with the slides windo
 
 ### Audibility
 We put up two condenser microphones, one in front of the presenters and one for the panel. 
+The presentation went well, except for Tico occasionally dropping out. Our audio was still running through Zoom, so our presentation was not affected by the dropouts. 
+
+<figure>
+<img src="https://github.com/MCT-master/mct-master.github.io/blob/master/assets/img/Presentation_setup.jpg?raw=true alt="Oslo Presentation set-up" width="50%" align="middle"/>
+<figcaption>Fig 1: Presentation set-up in the Oslo Portal</figcaption>
+</figure>
 
 
 ## Setup in Trondheim
 
 <figure>
 <img src="https://github.com/MCT-master/mct-master.github.io/blob/master/assets/img/jnv_portal.jpg?raw=true alt="Trondheim portal" width="50%" align="middle"/>
-<figcaption>Fig 1: Portal screens</figcaption>
+<figcaption>Fig 2: Portal screens</figcaption>
 </figure>
 
 ### Visibility
@@ -37,7 +43,7 @@ Since the Tico camera was on the side of the room, the picture that was being se
 
 <figure>
 <img src="https://github.com/MCT-master/mct-master.github.io/blob/master/assets/img/IMG_3774.JPG?raw=trueG" alt="TICO Camera" width="50%">
-<figcaption><strong>Fig 1: Tico Camera</strong></figcaption>
+<figcaption><strong>Fig 3: Tico Camera</strong></figcaption>
 </figure>
 
 ### Audibility
@@ -77,10 +83,6 @@ For a detailed overview of our solution and instruction on how to prepare a pres
 
 #### Experiencing TICO issues
 image dropouts, flashing colors
-
-<figure>
-<iframe width="560" height="315" src="https://www.youtube.com/embed/s-idx7Lx3Qg" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
-  </figure>
 
 
 <a href="https://youtu.be/s-idx7Lx3Qg" target="_blank"><img src="https://github.com/MCT-master/mct-master.github.io/blob/master/assets/img/TicoDisco_Youtube.png" 
