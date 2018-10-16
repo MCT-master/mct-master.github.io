@@ -14,6 +14,17 @@ comments: true
 
 During todays’ workshop, we hunted for sounds, created by electromagnetic interferences and vibrations using headphones, contact mics, and portable speakers, then hacked a p5js “sampler” to play the found sounds. 
 
+We followed three methods to capture sounds the first experiment was to identify exciting interfering radio signals where the headphone was used as the antenna. 
+We managed to capture interferences near copy machines, card reader machines and near mobile phones.
+
+Then we experimented with connecting our headphones to an amp where the headphones act as a microphone. 
+The Overdrive was a fascinating knob to experiment and we captured some feedback noises (Those were too loud!!!)
+
+
+
+
+
+
 <!-- Maybe a bit more on the sounds and descriptions on the process leading up to the performance? -->
 
 Coding in html went from despair to laughter as we slowly grasped the fundamentals of p5js-based coding, hacked the sampler, and finally performed together, creating a cacophony of noise across campuses of UiO and NTNU.
