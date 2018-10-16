@@ -14,16 +14,21 @@ comments: true
 
 During todays’ workshop, we hunted for sounds, created by electromagnetic interferences and vibrations using headphones, contact mics, and portable speakers, then hacked a p5js “sampler” to play the found sounds. 
 
-We tried out three methods to capture sounds. The first experiment was to identify exciting interfering radio signals where the headphones were used as the antenna. 
-We managed to capture interferences near copy machine, card reader machine and near mobile phones.
+We tried to capture sounds from both sides, Oslo and NTNU. 
+The first experiment was to identify exciting interfering radio signals where the headphones were used as the antenna. From the Oslo side, Dmitry, Mari and Ashane were trying different places to find a strong electromagnetic field and finally managed to capture a very monotonous sound near the copy machine. But the interference from a mobile phone and a card reader machine were producing more rumbling sounds.  
+In Trondheim, for the first task, Shreejay’s cell phone failed to get electromagnetic interferences at the first attempt. Eigil came up with an idea of using his body as an antenna. He touched tip of a guitar jack cable while connecting its other end to a tiny battery powered amp and went on sniffing around. And Walla! It worked. We finally got few strong electromagnetic interferences through power sockets, computer and speakers. 
 
-Then we experimented with connecting our headphones to an mini marshall amp . 
-The Overdrive was a fascinating knob to experiment and we captured some feedback noises (Those were too loud!!!)
+The next task was to use speaker as a microphone. The Overdrive was a fascinating knob to experiment and we captured some feedback noises (Those were too loud!!!).It was fun making different voices and we were even able to moo like a cow.
 
-Thirdly , experimenting  with a contact microphone directly to the Marshall amp was quite thrilling. We captured intersting sounds by directly attaching the mic inside a piano where it produced really growly noises and interesting overtones. 
+Next, experimenting with a contact microphone directly to the Marshall amp was quite thrilling. We captured interesting sounds by directly attaching the mic inside a piano where it produced really growly noises and interesting overtones. We tried with different sting gauges of the piano to produce different sounds and it was quite a fun to try new things with the piano pedals.
+Also, we enjoyed tapping and scratching the mic on various surfaces like table top and edges. We also rubbed it on different body parts like throat, cheek and forehead.
+
+
 
 
 
 <!-- Maybe a bit more on the sounds and descriptions on the process leading up to the performance? -->
 
+The final task was to perform while combining samples recorded in the previous tasks. 
 Coding in html went from despair to laughter as we slowly grasped the fundamentals of p5js-based coding, hacked the sampler, and finally performed together, creating a cacophony of noise across campuses of UiO and NTNU.
+The sound of mooing cow became hit in the group jamming session. 
