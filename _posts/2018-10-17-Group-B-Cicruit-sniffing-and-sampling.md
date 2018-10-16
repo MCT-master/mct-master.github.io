@@ -20,7 +20,7 @@ In Trondheim, for the first task, Shreejay’s cell phone failed to get noticeab
 
 <figure align="middle">
 <audio controls>
-  <source src="https://raw.githubusercontent.com/MCT-master/mct-master.github.io/master/assets/sounds/jack_noise_from_imac.wav" type="audio/wav">
+  <source src="https://raw.githubusercontent.com/MCT-master/mct-master.github.io/master/assets/sounds/jack_noise_from_imac.wav" type="audio/wav" volume="0.2">
   Your browser does not support the audio element.
 </audio>
   <figcaption>Sound from the electromagnetic interference made by a computer</figcaption>
