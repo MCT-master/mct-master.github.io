@@ -20,13 +20,20 @@ The table underneath are the sounds used in the sampler in Trondheim. All of the
   <tr>
     <th>nr.</th>
     <th>Material</th>
-    <th>Behaviour</th> 
+    <th>Behaviour</th>
+    <th>Soundfile</th>
   </tr>
   <tr>
     <th>1.</th>
     <td>Keyboard</td> 
     <td>
       Not that much of dynamics in recording because of the sound source - but it picked it up pretty good
+    </td>
+    <td>
+      <audio controls>
+        <source src="../assets/sounds/Ateam_keyboard.mp3" type="audio/mpeg">
+        Your browser does not support the audio element.
+      </audio>
     </td>
   </tr>
   <tr>
