@@ -8,7 +8,7 @@ comments: true
 ---
 
 <figure>
-<img src="/assets/img/piano_piezo.png" alt="Piezo on piano" width="90%" />
+<img src="/assets/img/piano_piezo.PNG" alt="Piezo on piano" width="90%" />
 <figcaption>Fig 1: Contact mic directly on piano strings</figcaption>
 </figure>
 
