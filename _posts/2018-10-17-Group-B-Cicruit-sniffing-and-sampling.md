@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Group B, Circuit sniffing and sampling"
-date:   2018-10-16 20:43:00 +0200
+date:   2018-10-17 00:30:00 +0200
 categories: Physical computing
 author: Mari Lesteberg, Dmitry Vasilev, Ashane Silva, Shreejay Shreshta & Eigil Aandahl
 comments: true
