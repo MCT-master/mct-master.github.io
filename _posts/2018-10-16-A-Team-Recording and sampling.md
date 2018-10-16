@@ -6,6 +6,10 @@ categories: The portal
 author: JJ, EW, SR, SH, JNV
 ---
 
+<figure>
+<img src="https://github.com/MCT-master/mct-master.github.io/blob/master/assets/img/Ateam_getOut.jpg?raw=true" alt="el panel" width="50%" align="middle">
+<figcaption><strong>Crazy sounds this way</strong></figcaption>
+</figure>
 
 # Recording and sampling
 
@@ -18,7 +22,7 @@ We (Juno, Espen & Sam) went around the musicology department circuit and foley s
 
 At first we struggled to find any reaction, the keypads on the door didn't seem to have enough power to register.
 
-Then we had more luck on to the fuse box, located in one of the hallways in the ZEB-building. What a response! when moving the amplifier close to the cupboard - it created a relatively high pitch tone, with a volume that made teachers come out of their classrooms asking what was going on. Listen to it underneath.
+Then we had more luck on to the fuse box, located in one of the hallways in the ZEB-building. What a response! when moving the amplifier close to the cupboard - it created a heavy feedback, with a volume that made teachers come out of their classrooms asking what was going on. Listen to it underneath.
 
 <figure align="middle">
 <audio controls>
