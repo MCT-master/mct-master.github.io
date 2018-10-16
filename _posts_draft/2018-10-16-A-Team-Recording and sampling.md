@@ -31,7 +31,7 @@ The table underneath are the sounds used in the sampler in Trondheim. All of the
     </td>
     <td>
       <audio controls>
-        <source src="../assets/sounds/Ateam_keyboard.mp3" type="audio/mpeg">
+        <source src="https://raw.githubusercontent.com/MCT-master/mct-master.github.io/master/assets/sounds/Ateam_keyboard.mp3" type="audio/mpeg">
         Your browser does not support the audio element.
       </audio>
     </td>
@@ -43,6 +43,12 @@ The table underneath are the sounds used in the sampler in Trondheim. All of the
       Talking into a paper tube and an iron box - the amount of reverb in the iron box was more significant
       and the sound effect was more reach in high mid areas
     </td>
+    <td>
+      <audio controls>
+        <source src="https://raw.githubusercontent.com/MCT-master/mct-master.github.io/master/assets/sounds/Ateam_speakingBox.mp3" type="audio/mpeg">
+        Your browser does not support the audio element.
+      </audio>
+    </td>
   </tr>
   <tr>
     <td>3.</td>
@@ -50,12 +56,24 @@ The table underneath are the sounds used in the sampler in Trondheim. All of the
     <td>
       Used overdrive to get the proper level and that ruined the details in the sound.
     </td>
+    <td>
+      <audio controls>
+        <source src="https://raw.githubusercontent.com/MCT-master/mct-master.github.io/master/assets/sounds/Ateam_hihat.mp3" type="audio/mpeg">
+        Your browser does not support the audio element.
+      </audio>
+    </td>
   </tr>
   <tr>
     <td>4.</td>
-    <td>Tom</td>
+    <td>Water</td>
     <td>
       Nice transients and Dynamics.
+    </td>
+    <td>
+      <audio controls>
+        <source src="https://raw.githubusercontent.com/MCT-master/mct-master.github.io/master/assets/sounds/Ateam_water.mp3" type="audio/mpeg">
+        Your browser does not support the audio element.
+      </audio>
     </td>
   </tr>
 </table>
