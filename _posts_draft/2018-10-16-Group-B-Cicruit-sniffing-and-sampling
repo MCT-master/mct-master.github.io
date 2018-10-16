@@ -8,8 +8,8 @@ comments: true
 ---
 
 <figure>
-<img src="/assets/sounds/jack_noise_from_imac.wav" alt="Something from the workshop" width="90%" />
-<figcaption>Fig 1: </figcaption>
+<img src="/assets/img/piano_piezo.png" alt="Piezo on piano" width="90%" />
+<figcaption>Fig 1: Contact mic directly on piano strings</figcaption>
 </figure>
 
 During today's workshop, we hunted for sounds created by electromagnetic interferences and vibrations using headphones, contact mics, and portable speakers. Then we "hacked" a p5.js sampler to play the found sounds from our laptops. 
@@ -20,7 +20,7 @@ In Trondheim, for the first task, Shreejay’s cell phone failed to get noticeab
 
 <figure align="middle">
 <audio controls>
-  <source src="/assets/sounds/headphone_howl.wav" type="audio/wav">
+  <source src="/assets/sounds/jack_noise_from_imac.wav" type="audio/wav">
   Your browser does not support the audio element.
 </audio>
   <figcaption>Sound from the electromagnetic interference made by a computer</figcaption>
@@ -30,7 +30,7 @@ The next task was to use headphones as a microphone. The Overdrive setting on th
 
 <figure align="middle">
 <audio controls>
-  <source src=".wav" type="audio/wav">
+  <source src="/assets/sounds/headphone_howl.wav" type="audio/wav">
   Your browser does not support the audio element.
 </audio>
   <figcaption>Sound made by speaking through the headphones</figcaption>
