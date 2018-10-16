@@ -11,12 +11,12 @@ author: JJ, EW, SR, SH, JNV
 <figcaption><strong>Crazy sounds this way</strong></figcaption>
 </figure>
 
-# Recording and sampling
+## Recording and sampling
 
 Today we recorded sounds using three techniques; Circuit sniffing, earbuds through mini-amplifier, and with a contact mic.
 We then used some of the sounds we recorded in a sampler, made using web technologies, including javascript with the library P5.js.
 
-## Sound walk in Oslo
+### Sound walk in Oslo
 
 We (Juno, Espen & Sam) went around the musicology department circuit and foley sound hunting. We gathered sounds using 3 techniques, all in Lo-Fi traditions. Firstly we used a fm radio app with a pair of cheap overhead headphones as a mike. Here was our experience.
 
@@ -62,7 +62,7 @@ Then we went to the kitchen, testing to record sound from a microwave oven (when
 
 I have to say - finding weird and wonderful sounds hidden around us everyday felt pretty awesome, and can be a great potential source for texture and foley. 
 
-## Improvising with the samples
+### Improvising with the samples
 
 Regarding our group, we managed to have a rhythmic improv. Oslo had prepared more percussive sounds. So we decided to have a rhythmic pattern ongoing, based on the sounds that Oslo had sampled, then Trondheim could start adding more ambient ones and build up some space.
 In Trondheim we used two sets of 4 samples, one straight and one reversed (coded in JS) and started to build up on Oslo’s rhythm. The table underneath are the sounds used in the sampler in Trondheim. All of the sounds are recorded with the contact mic.
