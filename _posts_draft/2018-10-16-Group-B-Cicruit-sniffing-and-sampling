@@ -11,3 +11,9 @@ comments: true
 <img src="" alt="Something from the workshop" width="90%" />
 <figcaption>Fig 1: </figcaption>
 </figure>
+
+During todays’ workshop, we hunted for sounds, created by electromagnetic interferences and vibrations using headphones, contact mics, and portable speakers, then hacked a p5js “sampler” to play the found sounds. 
+
+<!-- Maybe a bit more on the sounds and descriptions on the process leading up to the performance? -->
+
+Coding in html went from despair to laughter as we slowly grasped the fundamentals of p5js-based coding, hacked the sampler, and finally performed together, creating a cacophony of noise across campuses of UiO and NTNU.
