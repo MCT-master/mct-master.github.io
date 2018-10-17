@@ -9,6 +9,6 @@ author: Karolina, Guy and Elias
 
 
 <figure>
-<img src="/assets/img/Not-Meant-To-Be.png" alt="Not meant to be" width="53%" align="middle"/>
+<img src="/assets/img/Not-Meant-To-Be.jpg" alt="Not meant to be" width="53%" align="middle"/>
 <figcaption>Fig 1: Not meant to be</figcaption>
 </figure>
