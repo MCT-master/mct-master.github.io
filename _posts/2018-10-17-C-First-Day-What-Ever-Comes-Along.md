@@ -17,8 +17,7 @@ EVERYBODY present in the (extended virtual) room was contributing.
   <figcaption>Noise jam excerpt</figcaption>
 </figure>
 
-## Diverse mobile phone selection, cheap ear plugs, 9Volt batteries, a lot of coffee,
-7 rules of hacking, chocolate cream and much more: MCT students are getting ready for the mini-hackathon.
+## Diverse mobile phone selection, cheap ear plugs, 9Volt batteries, a lot of coffee, 7 rules of hacking, chocolate cream and much more: MCT students are getting ready for the mini-hackathon.
 
 
 *To wrap it up, the first workshop day on 'physical computing' surprised us in many ways.
@@ -32,7 +31,7 @@ that everyone could keep up with, regardless of background.*
 
 ## Hacking, sound walks?
 
-The sound walk methodology is a way to use man made objects like urban sound and
+*The sound walk methodology is a way to use man made objects like urban sound and
 reuse it in a different context. For the music context the hacking
 practice could be described as a tool to intrude the ways to use sound-related
-technology to create new, unexpected knowledge and sound.
+technology to create new, unexpected knowledge and sound.*
