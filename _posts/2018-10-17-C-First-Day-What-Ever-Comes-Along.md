@@ -11,7 +11,7 @@ EVERYBODY present in the (extended virtual) room was contributing.
 
 <figure align="middle">
 <audio controls>
-  <source src="https://github.com/MCT-master/mct-master.github.io/blob/master/assets/sounds/mct_jam_excerpt_day1.wav">
+  <source src="https://github.com/MCT-master/mct-master.github.io/blob/master/assets/sounds/mct_jam_excerpt_day1.wav" type="audio/wav" volume="0.6">
 </audio>
   <figcaption>Noise jam excerpt</figcaption>
 </figure>
