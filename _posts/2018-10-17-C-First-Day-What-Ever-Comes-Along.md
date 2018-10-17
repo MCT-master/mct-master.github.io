@@ -12,6 +12,7 @@ EVERYBODY present in the (extended virtual) room was contributing.
 <figure align="middle">
 <audio controls>
   <source src="https://raw.githubusercontent.com/MCT-master/mct-master.github.io/master/assets/sounds/mct_jam_excerpt_day1.wav" type="audio/wav" volume="0.2">
+  Your browser does not support the audio element.
 </audio>
   <figcaption>Noise jam excerpt</figcaption>
 </figure>
