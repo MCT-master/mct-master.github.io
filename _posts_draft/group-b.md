@@ -16,6 +16,8 @@ Today, we have continued on struggling with the Visual Studio Code, and at least
 Shreejay represented the group in Trondheim today as Eigil was sick. He managed to load sounds from freesound.org in the javascripts and was able to switch the sounds by handwaving his cell phone. However, for some reasons, his cell phone crashed several times during the final performance. 
 
 
+Here are some pictures from the day's activities: 
+
 <figure>
 <img src="/assets/img/p_c_2.png" alt="" width="40%" />
 <figcaption>Fig 2</figcaption>
@@ -38,8 +40,9 @@ Shreejay represented the group in Trondheim today as Eigil was sick. He managed 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/wFbc8oNmZVw" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 
 
-At last my phone just ended up snoring (???):
+At last my phone just ended up snoring.
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/2808ZNwkuFU" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 
+I guess that was a sing telling that it was time to go to bed.
 
