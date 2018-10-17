@@ -8,7 +8,7 @@ comments: true
 ---
 
 <figure>
-<img src="/assets/img/p_c_1.png" alt="" width="90%" />
+<img src="/assets/img/p_c_1.png" alt="" width="40%" />
 <figcaption>Fig 1</figcaption>
 </figure>
 
@@ -17,22 +17,29 @@ Today, we have continued on struggling with the Visual Studio Code, and at least
 
 
 <figure>
-<img src="/assets/img/p_c_2.png" alt="" width="90%" />
+<img src="/assets/img/p_c_2.png" alt="" width="40%" />
 <figcaption>Fig 2</figcaption>
 </figure>
 
 <figure>
-<img src="/assets/img/p_c_3.png" alt="" width="90%" />
+<img src="/assets/img/p_c_3.png" alt="" width="40%" />
 <figcaption>Fig 3</figcaption>
 </figure>
 
 <figure>
-<img src="/assets/img/p_c_4.jpg" alt="" width="90%" />
+<img src="/assets/img/p_c_4.jpg" alt="" width="40%" />
 <figcaption>Fig 3</figcaption>
 </figure>
 
+
 <iframe width="560" height="315" src="https://www.youtube.com/embed/Nkp9KtFcKJg" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/wFbc8oNmZVw" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 
+
+At last my phone just ended up snoring (???):
+
 <iframe width="560" height="315" src="https://www.youtube.com/embed/2808ZNwkuFU" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+
+
