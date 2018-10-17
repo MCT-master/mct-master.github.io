@@ -6,8 +6,6 @@ categories:
 author: Karolina, Guy and Elias
 ---
 
-## Developing mobile musical instruments
-
 We can use the sensors in various ways when building a musical instrument on our phones. Sensors can be assigned to different parameters in music like pitch, volume etc. we can also apply several filters to various sensors and affect our instrument’s timber.
 
 ## Mapping sensor data to sound aka making the network application work
