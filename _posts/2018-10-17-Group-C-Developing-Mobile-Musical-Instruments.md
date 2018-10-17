@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Group C - Developing mobile musical instruments"
-date: 2018-10-17 18:00:00 +0200
+date: 2018-10-17 23:59:00 +0200
 categories:
 author: Karolina, Guy and Elias
 ---
