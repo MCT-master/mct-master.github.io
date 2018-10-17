@@ -21,7 +21,7 @@ EVERYBODY present in the (extended virtual) room was contributing.
 
 
 To wrap it up, the first workshop day on 'physical computing' surprised us in many ways.
-Exposed to new tools in webtechnology and 'hack' things, we were able to create a little jamsession.  
+Exposed to new tools in webtechnology we were able to create a little jamsession.  
 Some of the tools were familiar, some of them less. To start with the hardest
 challenge, around 2 or 3 out of 14 students had hands-on experiences in programming from before.
 Before we got introduced by code templates to set up a sampler,
@@ -29,12 +29,9 @@ there were moments of frustration and irritation. This is probably unavoidable w
 Lerning by doing is the motto. Fortunately, we were able to establish a collaborative approach to learning
 that everyone could keep up with, regardless of background.
 
-# Hacking, sound walks?
+# Hacking, sound walks..?
 
-The sound walk methodology is a way to use man made objects like urban sound and
-reuse it in a different context. For the music context the hacking
-practice could be described as a tool to intrude the ways to use sound-related
-technology to create new, unexpected knowledge and sound.
+For sound generation we made use of the sound walk methodology. It is a possibility to use man made sound objects from the urban sound scape (in oposition to nature related sound scape) and put them in a different context. Back in school it could be refered to 'hacking' in the sense as it describes the practice the way to use sound-related technology in new and unexpected forms that do not only create sound but knowledge.
 
 # Proofing sound potentials 
 
