@@ -1,8 +1,8 @@
 ---
 layout: post
-title: "Welcome to Jekyll!"
-date: 2018-08-21 10:10:42 +0200
-categories: jekyll update
+title: "C. whatever comes along the way"
+date: 2018-10-17 10:10:42 +0200
+categories: 
 author: C-GrouP
 ---
 
@@ -13,6 +13,13 @@ author: C-GrouP
 Listen here to a short excerpt of our noise jam today, 
 EVERYBODY present in the (extended virtual) room was contributing. 
 
+<figure align="middle">
+<audio controls>
+  <source src="https://github.com/MCT-master/mct-master.github.io/blob/master/assets/sounds/mct_jam_excerpt_day1.wav" type="audio/wav" volume="0.2">
+  Your browser does not support the audio element.
+</audio>
+  <figcaption>Noise jam excerpt</figcaption>
+</figure>
 
 ## Diverse mobile phone selection, cheap ear plugs, 9Volt batteries, a lot of coffee, 
 7 rules of hacking, chocolate cream and much more: MCT students are getting ready for the mini-hackathon.
