@@ -28,3 +28,9 @@ For clearance and a good workflow most of the code we got had already been made 
 
 So yesterday Elias had to go home because of sickness and came late to class today because of the same problem, sickness. But he was soon back on track, since he is most familiar with coding in our group, which was the main theme today. But even that does not promise success. Since his mobile phone (Android) and computer (Apple) didn’t really like each other, It’s not much you can do. So while Elias was working with Guy on his computer, he also tried to figure out the problem with his computer, which he didn’t found a solution for. Some couples are just not meant to be.
 
+#### Here is a short video of some weird hacking on our last post:
+<video controls>
+  <source src="/assets/video/video-hacking-blog.mp4" type="video/mp4">
+Your browser does not support the video tag.
+</video>
+
