@@ -3,7 +3,7 @@ layout: post
 title:  "Meet MCT Group C"
 date:   2018-08-22 14:54:46 +0200
 categories: teams
-author: Atilio Báez, Karolina Jawad, Elias Andersen & Jonas Bjordal
+author: Karolina Jawad, Elias Andersen & Jonas Bjordal
 ---
 
 ![Photo of Group C](/assets/img/Group-C-Y1.jpg "Group C")
@@ -25,11 +25,6 @@ which we can learn a lot and contribute with new knowledge, methods and
 tools.
 
 ## Bio
-
-**Atilio**: I’m a music composer and a music recording and mix engineer.
-I have worked in a wide range of different recording studios and live
-acoustic settings. In addition, I have relevant working experience in
-the film industry as a sound mixer and sound designer.
 
 **Karolina**: With a background in media-film and theatre studies I
 landed in the MCT program to learn about hand-on technology and its
