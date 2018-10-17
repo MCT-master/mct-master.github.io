@@ -12,12 +12,11 @@ EVERYBODY present in the (extended virtual) room was contributing.
 <figure align="middle">
 <audio controls>
   <source src="https://github.com/MCT-master/mct-master.github.io/blob/master/assets/sounds/mct_jam_excerpt_day1.wav" type="audio/wav" volume="0.2">
-  Your browser does not support the audio element.
 </audio>
   <figcaption>Noise jam excerpt</figcaption>
 </figure>
 
-## Diverse mobile phone selection, cheap ear plugs, 9Volt batteries, a lot of coffee, 7 rules of hacking, chocolate cream and much more: MCT students are getting ready for the mini-hackathon.
+# Diverse mobile phone selection, cheap ear plugs, 9Volt batteries, a lot of coffee, 7 rules of hacking, chocolate cream and much more: MCT students are getting ready for the mini-hackathon.
 
 
 *To wrap it up, the first workshop day on 'physical computing' surprised us in many ways.
@@ -26,10 +25,10 @@ Some of the tools were familiar, some of them less. To start with the hardest
 challenge, around 2 or 3 out of 14 students had hands-on experiences in programming from before.
 Before we got introduced by code templates to set up a sampler,
 there were moments of frustration and irritation. This is probably unavoidable when learning new skills.
-Fortunately, we were able to establish a collaborative approach to learning
+Lerning by doing is the motto. Fortunately, we were able to establish a collaborative approach to learning
 that everyone could keep up with, regardless of background.*
 
-## Hacking, sound walks?
+# Hacking, sound walks?
 
 *The sound walk methodology is a way to use man made objects like urban sound and
 reuse it in a different context. For the music context the hacking
