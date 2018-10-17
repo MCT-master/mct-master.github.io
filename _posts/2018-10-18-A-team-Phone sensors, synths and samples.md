@@ -24,7 +24,7 @@ author: JJ, EW, SR, SH, JNV
 The first assignment was to download some sensor checking apps on our smart phones and compare them together. Espen and Sepehr both figured one of the most suitable apps for this purpose were “Sensor Kinetiks” which displayed several types of sensor data, and included the ability to record the data for more analysis. For Sam on android, Sensorlab was the most intuitive, showing all sensors on one page in graph form.
 
 <figure>
-<img src="https://github.com/MCT-master/mct-master.github.io/blob/master/assets/img/Ateam_sensorApp.jpg?raw=true" alt="Sensor app" width="50%" align="middle">
+<img src="https://github.com/MCT-master/mct-master.github.io/blob/master/assets/img/Ateam_sensorApp.jpg?raw=true" alt="Sensor app" align="middle">
 <figcaption><strong>Sensor kinetiks</strong></figcaption>
 </figure>
 
@@ -36,7 +36,7 @@ First we had to connect our phones to our local web servers, using the phone’s
 When connected to the server, the one´s using iPhones did not see any sensor data displayed in the browser. Deleting the method on line 23 in the first exercise solved this issue. This was clearly not supported by iPhone…..
 
 <figure>
-<img src="https://github.com/MCT-master/mct-master.github.io/blob/master/assets/img/Ateam_methodNotSupp.png?raw=true" alt="Javascript code" width="50%" align="middle">
+<img src="https://github.com/MCT-master/mct-master.github.io/blob/master/assets/img/Ateam_methodNotSupp.png?raw=true" alt="Javascript code" align="middle">
 <figcaption><strong>Method on line 23 not supported</strong></figcaption>
 </figure>
 
