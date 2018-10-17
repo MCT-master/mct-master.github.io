@@ -44,3 +44,5 @@ The second part of the workshop centered on going through javascipt code for a s
 The final task was to perform while combining samples recorded in the previous tasks. 
 Coding in html went from despair to laughter as we slowly grasped the fundamentals of p5.js-based coding, hacked the sampler, and finally performed together, creating a cacophony of noise across campuses of UiO and NTNU.
 The sound of mooing cow became a hit in the group jamming session. 
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/t5omfB8WAwU" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
