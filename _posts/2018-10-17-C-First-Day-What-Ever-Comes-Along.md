@@ -3,7 +3,7 @@ layout: post
 title: "C. whatever comes along the way"
 date: 2018-10-17 10:10:42 +0200
 categories:
-author: C-GrouP
+author: Karolina, Guy, Elias and Eirik
 ---
 
 Listen here to a short excerpt of our noise jam today,
