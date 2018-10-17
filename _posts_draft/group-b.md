@@ -13,7 +13,7 @@ comments: true
 </figure>
 
 Today, we have continued on struggling with the Visual Studio Code, and at least some of us actually made it work. For some reason, Mari's computer or phone wouldn't collaborate today, but later the same day, she managed to do it from home, on her desktop computer.  
-
+Shreejay represented the group in Trondheim today as Eigil was sick. He managed to load sounds from freesound.org in the javascripts and was able to switch the sounds by handwaving his cell phone. However, for some reasons, his cell phone crashed several times during the final performance. 
 
 
 <figure>
