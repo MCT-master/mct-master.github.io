@@ -19,18 +19,23 @@ EVERYBODY present in the (extended virtual) room was contributing.
 # Diverse mobile phone selection, cheap ear plugs, 9Volt batteries, a lot of coffee, 7 rules of hacking, chocolate cream and much more: MCT students are getting ready for the mini-hackathon.
 
 
-*To wrap it up, the first workshop day on 'physical computing' surprised us in many ways.
+To wrap it up, the first workshop day on 'physical computing' surprised us in many ways.
 Exposed to new tools in webtechnology and 'hack' things, we were able to create a little jamsession.  
 Some of the tools were familiar, some of them less. To start with the hardest
 challenge, around 2 or 3 out of 14 students had hands-on experiences in programming from before.
 Before we got introduced by code templates to set up a sampler,
 there were moments of frustration and irritation. This is probably unavoidable when learning new skills.
 Lerning by doing is the motto. Fortunately, we were able to establish a collaborative approach to learning
-that everyone could keep up with, regardless of background.*
+that everyone could keep up with, regardless of background.
 
 # Hacking, sound walks?
 
-*The sound walk methodology is a way to use man made objects like urban sound and
+The sound walk methodology is a way to use man made objects like urban sound and
 reuse it in a different context. For the music context the hacking
 practice could be described as a tool to intrude the ways to use sound-related
-technology to create new, unexpected knowledge and sound.*
+technology to create new, unexpected knowledge and sound.
+
+# Proofing sound potentials 
+
+In Oslo the copy machine was tested as well as magnetic card reader and alarm Box above the studio room. Dropping headphones on desk repeatedly while introducing distortion in the channel produced a strange and rhythimcal effect. Using the distortion as a filter while blowing into the headphones produced a sweeping effect. Tinkering and tapping on the headphones while using both distortion and tone as a filter produced several sweeping sounds. Fixating the mic on a note stand and using a violin bow produced some sustained sounds
+
