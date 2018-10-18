@@ -7,7 +7,8 @@ author: JJ, EW, SR, SH, JNV
 ---
 
 <figure>
-<img src="https://github.com/MCT-master/mct-master.github.io/blob/master/assets/img/Ateam_synthRevenge.jpg?raw=true" alt="Star wars and synths" width="70%" align="middle">
+<a href="https://mct-master.github.io/the/portal/2018/10/18/A-team-Arduino-and-littleBits.html">
+<img src="https://github.com/MCT-master/mct-master.github.io/blob/master/assets/img/Ateam_synthRevenge.jpg?raw=true" alt="Star wars and synths" width="70%" align="middle"></a>
 </figure>
 
 ## Arduino
