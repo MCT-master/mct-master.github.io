@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Group B, "Christmas already"?!"
+title:  "Group B, Christmas already?!"
 date:   2018-10-18 23:30:00 +0200
 categories: Physical computing
 author: Mari Lesteberg, Dmitry Vasilev, Ashane Silva, Shreejay Shreshta & Eigil Aandahl
