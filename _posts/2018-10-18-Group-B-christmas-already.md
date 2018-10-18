@@ -8,7 +8,7 @@ comments: true
 ---
 
 <figure>
-<img src="https://media.giphy.com/media/26u9ZrUgD6TXA54oVV/giphy.gif"> </img>
+<img src="https://media.giphy.com/media/26u9ZrUgD6TXA54oVV/giphy.gif">
 </figure>
 
 It was a great day today. We played with Arduino kits, made christmas lights and melodies like Twinkle Twinkle Little Star, Super Mario and Imperial March:
