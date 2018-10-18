@@ -38,12 +38,17 @@ We started with exercise CIRC - 01 connecting an LED light, uploading the progra
 Your browser does not support the video tag.
 </video>
 
+&nbsp;
+
 After that we jumped to exercise CIRC - 06 which was to attached the speaker and play prepared melody, we were able to look at the code and change the notes and length. Some even downloaded a prepared code of the Mario Brothers melody and upload that to the Arduino and played it.
 
 <video controls>
   <source src="/assets/video/Mario.mp4" type="video/mp4">
 Your browser does not support the video tag.
 </video>
+
+&nbsp;
+
 
 During lunch time we set up LOLA for a test performance today and for the main performance on Friday. In Oslo We decided to use 3 SM58 Microphones with LOLA, and two speakers on the side of the performance to better hear the Trondheim side. In Trondheim we were just turning the (condenser) room mic’s a bit away from the speakers and gave them less input via Midas mixer, since Oslo had feedback issues.
 
