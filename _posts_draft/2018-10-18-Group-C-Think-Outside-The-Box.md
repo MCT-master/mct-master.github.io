@@ -21,13 +21,13 @@ Later in the day we experimented with the Arduino Kit which is Open-source elect
 <img src="/assets/img/Arduino.jpg" alt="Arduino" width="80%" align="middle"/>
 <figcaption>Fig 1: Arduino </figcaption>
 </figure>
-
+&nbsp;
 
 <figure>
 <img src="/assets/img/Arduino-Kit.jpg" alt="Arduino kit" width="80%" align="middle"/>
 <figcaption>Fig 2: Arduino kit </figcaption>
 </figure>
-
+&nbsp;
 
 We started with exercise CIRC - 01 connecting an LED light, uploading the program to the device and viewing the blinking light. After being comfortable with the idea we experimented with changing the times that the light was turning on and off
 
