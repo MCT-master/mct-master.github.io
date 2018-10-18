@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "A-team - From Attack of the Code to Revenge of the Synth"
-date: 2018-10-18
+date: 2018-10-18 22:19:42 +0200
 categories: The portal
 author: JJ, EW, SR, SH, JNV
 ---
