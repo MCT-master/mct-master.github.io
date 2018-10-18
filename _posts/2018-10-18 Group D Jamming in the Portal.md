@@ -6,10 +6,7 @@ categories: teams
 author: Shreejay Shrestha, Eirik Dahl, Guy Sion
 ---
 
-<figure>
-<iframe width="450" height="253" src="https://www.youtube.com/watch?v=r7ivQvgrcYo" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen align="middle"></iframe>
-<figcaption><strong>Oslo & Trondheim Jamming through the Portal</strong></figcaption>
-</figure>
+![alt text](http://example.com/exampl.png)
 
 We were responsible for the portal during week 39 (Sep 24th-28th).This was the week we decided to explore playing music over the portal between the two campuses (UiO-NTNU).The need for experimenting with playing music online came from both students and teachers. Many of us were eager to share the things we like to do the most (playing music). Also, there was a need to play music together for demonstration during 'Music Cognition' course. During the first jam on Tuesday the 25th, we played ‘Fly me to the moon’, a random blues number and ‘Wonderful Tonight’. During the music cognition jam, we experienced more difficulties with hearing oneself and hearing each other. Perhaps the best solution might be using headphone during those sessions.The connection itself regarding latency was not such a problem, although we did feel like we are slowing down at times.
 
