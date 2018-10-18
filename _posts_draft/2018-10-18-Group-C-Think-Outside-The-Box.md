@@ -23,7 +23,7 @@ Later in the day we experimented with the Arduino Kit which is Open-source elect
 </figure>
 
 <figure>
-<img src="/assets/img/Arduino-Kit.png" alt="Arduino kit" width="80%" align="middle"/>
+<img src="/assets/img/Arduino-Kit.jpg" alt="Arduino kit" width="80%" align="middle"/>
 <figcaption>Fig 2: Arduino kit </figcaption>
 </figure>
 
@@ -50,8 +50,8 @@ The LittleBits synth kit, close up  (I did not take pictures except from group B
 And through the rest of the afternoon we experimented with building mini musical instruments by setting up chains of different components from the LittleBits KIT and routing them in various ways. Everyone experimented with finding their own unique sound by creating their own unique device.
 
 <figure>
-<img src="/assets/img/LittleBits-Instruments.jpg" alt="LittleBits instrument" width="80%" align="middle"/>
-<figcaption>Fig 3: LittleBits instruments </figcaption>
+<img src="/assets/img/LittleBits-Instrument.jpg" alt="LittleBits instrument" width="80%" align="middle"/>
+<figcaption>Fig 3: LittleBits instrument </figcaption>
 </figure>
 
 ## Challenges of the day
