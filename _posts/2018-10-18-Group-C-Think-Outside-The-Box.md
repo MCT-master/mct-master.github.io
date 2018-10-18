@@ -33,6 +33,8 @@ Later in the day we experimented with the Arduino Kit which is Open-source elect
 
 We started with exercise CIRC - 01 connecting an LED light, uploading the program to the device and viewing the blinking light. After being comfortable with the idea we experimented with changing the times that the light was turning on and off
 
+&nbsp;
+
 <video controls>
   <source src="/assets/video/Arduino-Melody.mp4" type="video/mp4">
 Your browser does not support the video tag.
