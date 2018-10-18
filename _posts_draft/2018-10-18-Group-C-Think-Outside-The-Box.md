@@ -21,7 +21,7 @@ INSERT VIDEO HERE
 After that we jumped to exercise CIRC - 06 which was to attached the speaker and play prepared melody, we were able to look at the code and change the notes and length. Some even downloaded a prepared code of the Mario Brothers melody and upload that to the Arduino and played it.
 INSERT VIDEO HERE
 
-During lunch time we set up LOLA for a test performance today and for the main performance on Friday. In Oslo We decided to use 3 SM58 Microphones with LOLA, and two speakers on the side of the performance to better hear the Trondheim side. In Trondheim we were just turning the (condenser) room mic’s a bit away from the speakers and gave them less input via MidasMixer. To set up a dynamic mic’s in addition would have been too time consuming, since we’re working with limited space at the moment. With a bit of adaption we could make the usual set up work perfectly fine.
+During lunch time we set up LOLA for a test performance today and for the main performance on Friday. In Oslo We decided to use 3 SM58 Microphones with LOLA, and two speakers on the side of the performance to better hear the Trondheim side. In Trondheim we were just turning the (condenser) room mic’s a bit away from the speakers and gave them less input via Midas mixer, since Oslo had feedback issues.
 
 During the second half of the the work shop were introduced to LittleBits by KORG.
 
