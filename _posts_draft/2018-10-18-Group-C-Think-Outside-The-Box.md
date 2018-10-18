@@ -22,6 +22,7 @@ Later in the day we experimented with the Arduino Kit which is Open-source elect
 <figcaption>Fig 1: Arduino </figcaption>
 </figure>
 
+
 <figure>
 <img src="/assets/img/Arduino-Kit.jpg" alt="Arduino kit" width="80%" align="middle"/>
 <figcaption>Fig 2: Arduino kit </figcaption>
