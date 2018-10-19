@@ -66,6 +66,7 @@ And through the rest of the afternoon we experimented with building mini musical
 
 ## Challenges of the day
 As mentioned in the last blog post, Elias had some problems with the connection between his phone and computer, which he couldn’t figure out. After a doctor’s appointment he came to class ready for working with Arduino. Elias has some experience with Arduino from his bachelor degree. But with his luck this week, he also had some challenges today. So instead of starting with the tasks in Arduino, he started with debugging, like he did yesterday. This can be really annoying and time consuming, but on the other side, to solve problems it is a good start to understand what might cause them. This means that you need to really use what you already know and also search for more knowledge, to fix the problem. Sometimes you might find the solution by a quick google search, but it’s not always that simple. Especially if you don’t really understand the problem. But with time, you usually end up with solving the problem. And if you didn’t, you have still probably learnt a lot. And like Thomas Edison supposedly said; “I have not failed. I have just found 10,000 ways that won’t work”. So no matter how much you struggle, keep searching, use your creativity and think outside of the box, and you will at least be rewarded with more knowledge.
+Note: This time we figured out the problem!
 
 
 
