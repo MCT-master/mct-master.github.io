@@ -26,10 +26,7 @@ It was really fun to play with Oscillators, Filters, mini keyboards, delays and 
 <img src="https://github.com/MCT-master/mct-master.github.io/blob/master/assets/img/Little%20bits.jpg" alt="littleBits instrument">
 </figure>
 <br>
-<figure>
-<img src="https://github.com/MCT-master/mct-master.github.io/blob/master/assets/img/Littlebits2.jpg" alt="littleBits">
-</figure>
-<br>
+
 <figure>
 <img src="https://github.com/MCT-master/mct-master.github.io/blob/master/assets/img/Littlebits.jpg" alt="littleBits">
 </figure>
@@ -39,6 +36,3 @@ Afterwards, we got to jam with our instruments both in groups and all together. 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/BKQh6wi6ABY" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 
 
-<figure>
-<img src="https://github.com/MCT-master/mct-master.github.io/blob/master/assets/img/Littlebits2.jpg" alt="littleBits">
-</figure>
