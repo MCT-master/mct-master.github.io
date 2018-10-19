@@ -8,7 +8,7 @@ author: Shreejay Shrestha, Eirik Dahl, Guy Sion
 
 <a href="http://www.youtube.com/watch?feature=player_embedded&v=r7ivQvgrcYo
 " target="_blank"><img src="https://github.com/MCT-master/mct-master.github.io/blob/master/assets/img/jampic.PNG?raw=true" 
-alt="Jammin'" width="640" height="359" border="10" /></a>
+alt="Jammin" width="640" height="359" border="10" /></a>
 
 Jamming Video
 
