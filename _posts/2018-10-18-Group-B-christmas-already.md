@@ -25,6 +25,14 @@ It was really fun to play with Oscillators, Filters, mini keyboards, delays and 
 <figure>
 <img src="https://github.com/MCT-master/mct-master.github.io/blob/master/assets/img/Little%20bits.jpg" alt="littleBits instrument">
 </figure>
+<br>
+<figure>
+<img src="https://github.com/MCT-master/mct-master.github.io/blob/master/assets/img/Littlebits2.jpg" alt="littleBits">
+</figure>
+<br>
+<figure>
+<img src="https://github.com/MCT-master/mct-master.github.io/blob/master/assets/img/Littlebits.jpg" alt="littleBits">
+</figure>
 
 Afterwards, we got to jam with our instruments both in groups and all together. This was also the first time using [LOLA](https://lola.conts.it/) to play music together in the portal. It was however not a test of playing traditional music, as this was a much more free-form synthesizer jam. Perhaps tomorrow's instrument prototypes will reveal more of the advantages of using LOLA for music.
 
