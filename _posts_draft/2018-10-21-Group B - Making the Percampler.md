@@ -13,7 +13,6 @@ we brainstormed different ideas about what exactly we are going to build in the 
 decided on this cool concept of combining the digital and analog worlds that we explored during the past workshops.So we called it an 
 analog digital hybrid percussive synthesizer aka **“Percampler”**. 
 
-Eigil and Shreejay suggested the idea on using a contact microphone as an input for the little bits and producing beats and percussive 
-elements. In Oslo, Dmitry, Mari and Ashane experimented on assigning multiple inputs from a smartphone, laptop and midi keyboard to a 
-chain of little bits where it can generate percussive synthesizer sounds that corresponds to whatever the input. 
+From Trondheim, Eigil and Shreejay suggested the idea on using a contact microphone as an input for the little bits and producing beats and percussive elements. 
 
+In Oslo, Dmitry, Mari and Ashane experimented on assigning multiple inputs from a smartphone, laptop and midi keyboard to a chain of little bits where it can generate percussive synthesizer sounds that corresponds to whatever the input. The initial thought was to use the java script sampler as one input where midi keyboard will be used in conjuction to trigger the sounds in the sampler. and also using a samrtphone with the handwaving web application as another input for the little bits signal chain.  
