@@ -6,7 +6,6 @@ categories: teams
 author: Shreejay Shrestha, Eirik Dahl, Guy Sion
 ---
 
-
 <figure>
 <iframe width="450" height="253" src="https://www.youtube.com/watch?v=r7ivQvgrcYo" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen align="middle"></iframe>
 <figcaption><strong>Oslo & Trondheim Jamming through the Portal</strong></figcaption>
