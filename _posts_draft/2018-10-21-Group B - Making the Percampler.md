@@ -17,12 +17,12 @@ The digital aspect of the Percampler was based upon the sampler we had learned t
 
 Besides the analog effects, the analog nature of the Percampler was based upon the real-time circuit sniffing and soundwalk techniques - the idea of finding sounds and interferences in everyday objects. In Trondheim, Eigil and Shreejay used a contact mic as the input, a cymbal and other items to produce sounds, as well as a portable speaker built into the "body" of the Percampler to produce feedback and noise.
 
-## Trouble in Paradise:
+### Trouble in Paradise:
 As it worked so well to connect one input source to the Little Bits kit, we thought that it could be interesting to also use the "handwaving smartphone-instrument" to the LittleBits chain. Sadly, not only Mari's phone wouldn't collaborate today, but none of our phones! We used some time to troubleshoot, but figured out that this was a waste of time. However, maybe it wouldn't alter the quality of our instrument anyway, to bring an extra chain of sound, some times it's for the better to keep things simple. 
 
 Additionally, Mari had brought her colourful MIDI keyboard today, hoping that we could use it together with the sampler. She had successfully made it work together with musical applications made with Pure Data before, so why not make it work together with Javascript as well? But with no pre-experience in javascripting, except from the little we have learned though this course, it proved very difficult to figure out how to do it. We had to give that up as well, and just settle with what we had. 
 
-## Digital Sampler in-depth:
+### Digital Sampler in-depth:
 The javascript of the sampler is attached at the end, for anybody willing to try it out. The sampler used in the performance was fitted with 4 drum sounds and 4 "melodic" sounds (e.g. sounds of a discernable frequency).
 
 The under-the-hood elements of the sampler include variable delay time mapped to the Z and X buttons of the keyboards (X increases the delay time by 0.2 seconds, Z decreases it by the same amount), the ability to reverse sounds by pressing R (works great for turning percussive samples with long "tails" into swelling drones), the ability to loop-play sounds to create rhythmic collages by pressing L, as well as the ability to play the computer keyboard like a real piano, changing the pitch of the melodic sounds by affecting the playback rate. And if you want to change the sound of you keyboard, just press the up/down/left/right arrow to select one of the four melodic sounds (provided you set the sounds accordingly when you run the example below).
@@ -228,7 +228,7 @@ function keyPressed() {
   }
 }
 
-## In conclusion:
+### In conclusion:
 Dmitry had used a lot of time on the mapping on the qwerty keyboard, and it worked perfectly to use this solution anyway, thus the group decided to not spend time using mapping the midi keyboard. After all - we had made an instrument we were very satisfied with - and it was possible to be played by multiple persons at the same time! 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/7UzxM-bNzNo" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 
