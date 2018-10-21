@@ -11,6 +11,8 @@ author: Shreejay Shrestha, Eirik Dahl, Guy Sion
 <figcaption><strong>Oslo & Trondheim Jamming through the Portal</strong></figcaption>
 </figure>
 
+# Setting up portal
+
 We were responsible for the portal during week 39 (Sep 24th-28th).This was the week we decided to explore playing music over the portal between the two campuses (UiO-NTNU).The need for experimenting with playing music online came from both students and teachers. Many of us were eager to share the things we like to do the most (playing music). Also, there was a need to play music together for demonstration during 'Music Cognition' course. During the first jam on Tuesday the 25th, we played ‘Fly me to the moon’, a random blues number and ‘Wonderful Tonight’. During the music cognition jam, we experienced more difficulties with hearing oneself and hearing each other. Perhaps the best solution might be using headphone during those sessions.The connection itself regarding latency was not such a problem, although we did feel like we are slowing down at times.
 
 <figure>
@@ -18,7 +20,7 @@ We were responsible for the portal during week 39 (Sep 24th-28th).This was the w
 <figcaption>Our Teacher, Hans T. Zeiner-Henriksen, jamming on a saxophone case and a book</figcaption>
 </figure>
 
-# Challenges
+## Challenges
 
 Arranging jam session was one of the most challenging aspects of the setting. Deciding who would count us in and how one should relate to time was a bit challenging. This could be further explored with certain percussion instruments e.g.drums. Besides, main difficulty was not necessarily latency, even though it was noticeable. Rather, we experienced that, monitoring was more difficult. A common practice in studios when recording e.g. bass and drums together, is that, one records in different rooms so as to exclude track overbleed. The monitoring is then done through headphones, which could be a very good idea to practice here as you can easily control individual levels of the band members. This should be tried out in next jamming session.
 
@@ -28,7 +30,7 @@ Finally, most of us was heavily focused on the latency, which obviously was what
 
 NOTE: This is the one and only Blog Post from Group D. As Armando left the MCT course, Guy and Eirik joined group C while Shreejay joined Group B. 
 
-## Adios !
+### Adios !
 
 
 
