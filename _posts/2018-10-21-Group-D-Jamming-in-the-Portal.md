@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Group D: LATE POST 'Jamming in the Portal' "
-date:   2018-10-21 11:23:00 +0200
+date:   2018-10-21 19:58:00 +0200
 categories: teams
 author: Shreejay Shrestha, Eirik Dahl, Guy Sion
 ---
