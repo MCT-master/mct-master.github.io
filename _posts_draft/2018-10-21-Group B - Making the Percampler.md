@@ -25,3 +25,5 @@ But Mari had brought her colourful MIDI keyboard today, hoping that we could use
 
 
 In Oslo, Dmitry, Mari and Ashane experimented on assigning multiple inputs from a smartphone, laptop and midi keyboard to a chain of little bits where it can generate percussive synthesizer sounds that corresponds to whatever the input. The initial thought was to use the java script sampler as one input where midi keyboard will be used in conjuction to trigger the sounds in the sampler. And also using a smartphone with the handwaving web application as another input for the little bits signal chain.
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/7UzxM-bNzNo" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
