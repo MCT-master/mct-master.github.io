@@ -28,7 +28,7 @@ With regards to latency, musicians are to a large extent able to follow one anot
 
 Finally, most of us was heavily focused on the latency, which obviously was what we were there to test. But wouldn't it be a good idea to put it in the back of our minds, so as to avoid confirmation bias? Because, if we actively look for latency, we will definitely find it. And when we do, it would surely affect the music that we play. 
 
-NOTE: This is the one and only Blog Post from Group D. As Armando left the MCT course, Guy and Eirik joined group C while Shreejay joined Group B. 
+Lastly, as Armando left the MCT course, Guy and Eirik joined Group C while Shreejay joined Group B. Thus there is no Group D now.
 
 ### Adios !
 
