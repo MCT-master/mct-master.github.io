@@ -234,6 +234,7 @@ function keyPressed() {
 Dmitry had used a lot of time on the mapping on the qwerty keyboard, and it worked perfectly to use this solution anyway, thus the group decided to not spend time using mapping the midi keyboard. After all - we had made an instrument we were very satisfied with - and it was possible to be played by multiple persons at the same time! 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/7UzxM-bNzNo" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 
+
 The Percampler is an instrument playing on the ambiguity of technology and the fluidity between the digital and analog worlds. It can be realised as a simple 4-channel audio gate and built into a digital app or a VST plugin, or it can be incorporated into an analog modular synthesizer setup, with tangible controls and analog sound sources. It is very open for interpretation, and this is what makes it so fun to play with! 
 
 As a closing remark, big thanks to Anna Xambó for an incredibly engaging and FUN week! We learned a lot, built our own prototype, and had a great time learning, doing, and learning by doing.
