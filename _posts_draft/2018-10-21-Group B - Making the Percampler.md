@@ -27,11 +27,13 @@ The javascript of the sampler is attached at the end, for anybody willing to try
 
 The under-the-hood elements of the sampler include variable delay time mapped to the Z and X buttons of the keyboards (X increases the delay time by 0.2 seconds, Z decreases it by the same amount), the ability to reverse sounds by pressing R (works great for turning percussive samples with long "tails" into swelling drones), the ability to loop-play sounds to create rhythmic collages by pressing L, as well as the ability to play the computer keyboard like a real piano, changing the pitch of the melodic sounds by affecting the playback rate. And if you want to change the sound of you keyboard, just press the up/down/left/right arrow to select one of the four melodic sounds (provided you set the sounds accordingly when you run the example below).
 
-For the melody - say, you want to play a C note, corresponding to 131 Hz, but the sampled melodic sound is 104 Hz. Well, simply divide 131 Hz by 104 Hz and set the playback rate to the result, and voila, your sample is now sped up to match the note C. Or let's say you want to play the sound in reverse (perhaps you're looking for hidden satanic messages in your drums). Simply set the playback rate to negative one. For the javascript implementation of the aforementioned things and more, see the code below:
+For the melody - say, you want to play a C note, corresponding to 131 Hz, but the sampled melodic sound is 104 Hz. Well, simply divide 131 Hz by 104 Hz and set the playback rate to the result, and voila, your sample is now sped up to match the note C. Or let's say you want to play the sound in reverse (perhaps you're looking for hidden satanic messages in your drums). Simply set the playback rate to negative one. For the javascript implementation of the aforementioned things and more, see the code below (the formatting is bad because of gitHub layout, we swear!):
 
 // Original code supplied by Anna Xambó
 
 // Digital sampler of the Percampler of Group B. Load your own sounds!
+
+
 var sound1, sound2, sound3, sound4, sound5, sound6, sound7, sound8;
 var isLooping;
 var isRev;
