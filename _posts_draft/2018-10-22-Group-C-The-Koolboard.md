@@ -7,9 +7,10 @@ author: Eirik Dahl, Guy Sion, Karolina Jawad, Elias Andersen
 ---
 
 <video controls>
-  <source src="/assets/video/Koolboard vid 1.mp4" type="video/mp4">
+  <source src="/assets/video/day4Introduction_2_1.mp4" type="video/mp4" width="50%">
 Your browser does not support the video tag.
 </video>
+
 
 # The Koolboard
 
