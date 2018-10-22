@@ -6,10 +6,6 @@ categories: teams
 author: Eirik Dahl, Guy Sion, Karolina Jawad, Elias Andersen
 ---
 
-<figure>
-<iframe width="450" height="253" src="YOUTUBE VIDEO LINK HERE" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen align="middle"></iframe>
-<figcaption><strong>Oslo & Trondheim Jamming through the Portal</strong></figcaption>
-</figure>
 
 # The Koolboard
 
