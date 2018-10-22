@@ -6,6 +6,10 @@ categories: teams
 author: Eirik Dahl, Guy Sion, Karolina Jawad, Elias Andersen
 ---
 
+<video controls>
+  <source src="/assets/video/Koolboard vid 1.mp4" type="video/mp4">
+Your browser does not support the video tag.
+</video>
 
 # The Koolboard
 
@@ -22,6 +26,7 @@ Conceptualizing is not that easy in a educational setting. First of all one has 
 
 One of the ingenious things about this setup is that with a normal sound card with a ¼ jack, XLR input or MIDI, you could add just about any signal into the chain and control it with the light and temperature sensor. You could use everything from an electric guitar, voice or even the Korg LittleBits as the initial input in our instrument. This makes our instrument, now dubbed the CoolBoard, into a very versatile instrument. It is also interesting to note that the concept revolves around interaction with the environment it is in. It changes according to location, with the light and temperature sensors picking up the environment. The artist/musician can choose to alter these for artistic purposes, with for example blowing hot air on the temperature sensor or covering the photo sensor with her hand.
 
+
 ## Working across campuses:
 
 Making an instrument across two campuses means you have to organize the different tasks/roles in the development of the instrument and also keep each other up to date. Since we were going to develop the prototype of the idealized instrument in just some hours, we had to be in touch with each other all the time, to give updates of the development on both sides. We choose to have a Zoom meeting running in the background while developing, so we always knew where the developing were going. This worked quite well. 
@@ -31,6 +36,11 @@ Making an instrument across two campuses means you have to organize the differen
 We tried to divide the roles equally among the 4 of us. Elias and Guy started to develop the prototype in Oslo. Trondheim followed up on that and was looking at the same time for options how to extend the instruments on external devices.
 In Oslo, Guy and Elias added more sensors to the Arduino board, ending up with two Arduino boards for the finale performance. The first board had 2 light sensors and one temperature sensor and the second board had one temperature sensor and a knob for manipulating parameters.
 Karolina and Eirik tried to add another out/in-put layer with ‘Little Bits’ but were facing some routing issues. The goal was to work with the signal that would be produced by the Arduino sensor, mapped through Max4Live.
+
+<figure>
+<img src="/assets/img/Koolboard 4 Ableton.jpg" alt="Koolboard mapping in Ableton" width="60%" align="middle"/>
+<figcaption>Koolboard mapping in Ableton</figcaption>
+</figure>
 
 ## Learning outcomes:  
 
