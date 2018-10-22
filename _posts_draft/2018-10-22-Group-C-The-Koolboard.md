@@ -18,7 +18,7 @@ The end of the week had come, and the last day of the workshop was here. The fin
 <figure>
 <img src="
         mct-master.github.io/assets/img/Koolboard 1.jpg
-      " alt="PIC DESCRIPTION HERE" width="80%" align="middle"/>
+      " alt="The Koolboard" width="80%" align="middle"/>
 <figcaption>The Koolboard</figcaption>
 </figure>
 
