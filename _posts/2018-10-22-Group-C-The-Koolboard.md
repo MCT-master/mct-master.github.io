@@ -7,7 +7,7 @@ author: Eirik Dahl, Guy Sion, Karolina Jawad, Elias Andersen
 ---
 
 <video controls>
-  <source src="/assets/video/day4Introduction_2_1.mp4" type="video/mp4" width="80%">
+  <source src="/assets/video/day4Introduction_2_1.mp4" type="video/mp4" width="65%">
 Your browser does not support the video tag.
 </video>
 
@@ -48,3 +48,11 @@ Karolina and Eirik tried to add another out/in-put layer with ‘Little Bits’ 
 With the workshop coming to an end it is interesting to reflect on what we have accomplished. The prototype was finished, and although there was some technical issues we managed to perform with it. 
 
 What learning that actually culminates in each student is subjective, but for some of us, we had our first hands on experience with programming. When programming in Javascript, it was quite difficult, because it is somewhat abstract. One does not really see what one does before it is done. This contrasts’ programming with the Arduino, where there is a lot more hands-on activity. One connects different bits, for instance a LED light, and enters a code that corresponds to the components one desires to work with. Being able to understand and execute commands via the computer and see a physical effect on the board (light blinking) was an exciting experience for some of us who has no prior experience.
+
+
+<figure>
+<img src="/assets/img/a sensory experience.jpg" alt="A very sensory experience!" width="40%" align="middle"/>
+<figcaption>A very sensory experience!</figcaption>
+</figure>
+
+
