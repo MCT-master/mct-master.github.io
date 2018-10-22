@@ -12,7 +12,7 @@ author: Eirik Dahl, Guy Sion, Karolina Jawad, Elias Andersen
 The end of the week had come, and the last day of the workshop was here. The final task was to gather everything we had learned and culminate it into an instrument concept. The day was split in two, with the first part of the day being primarily for conceptualization and the last part of the day, dedicated to building our instrument in the mini-hackathon. Up to now, the week had been a mixture of confusion and pleasure in being able to produce and use the technologies we had been introduced to.
 
 <figure>
-<img src="mct-master.github.io/assets/img/Koolboard1.jpp" alt="The Koolboard" width="80%" align="middle"/>
+<img src="mct-master.github.io/assets/img/Koolboard 1.jpp" alt="The Koolboard" width="80%" align="middle"/>
 <figcaption>The Koolboard</figcaption>
 </figure>
 
