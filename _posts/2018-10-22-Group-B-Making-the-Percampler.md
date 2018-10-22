@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Group B, Making the Precampler"
-date:   2018-10-21 17:35:00 +0200
+date:   2018-10-22 12:10:00 +0200
 categories: Physical computing
 author: Mari Lesteberg, Dmitry Vasilev, Ashane Silva, Shreejay Shreshta & Eigil Aandahl
 comments: true
