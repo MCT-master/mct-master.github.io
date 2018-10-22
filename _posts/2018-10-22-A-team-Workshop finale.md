@@ -76,9 +76,9 @@ We ended up with a concept that seemed to actually kind of work! Sam as a Virtuo
 
 As a basis for an idea this could go on to further experimentation and ideas, different sound sources, possibly many locations, as well as utilising the feedback for effect. Other ways you could “play” this instrument is using the world around you as a input signal - the portability of the telephone is advantageous in this way. Even acoustic experiments passing the signal back and forth until it is unrecognisable could be an idea…… Possibilities seem endless! 
 
-**TEAM A**  
-
-<video width="640" height="480" controls>
+<video width="640" height="480" controls align="middle">
   <source src="https://github.com/MCT-master/mct-master.github.io/blob/master/assets/video/Ateam_performance.mov?raw=true" type="video/mp4">
   Your browser does not support the video tag.
 </video>
+
+**TEAM A**  
