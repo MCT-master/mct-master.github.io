@@ -35,7 +35,7 @@ Making an instrument across two campuses means you have to organize the differen
 
 We tried to divide the roles equally among the 4 of us. Elias and Guy started to develop the prototype in Oslo. Trondheim followed up on that and was looking at the same time for options how to extend the instruments on external devices.
 In Oslo, Guy and Elias added more sensors to the Arduino board, ending up with two Arduino boards for the finale performance. The first board had 2 light sensors and one temperature sensor and the second board had one temperature sensor and a knob for manipulating parameters.
-Karolina and Eirik tried to add another out/in-put layer with ‘Little Bits’ but were facing some routing issues. The goal was to work with the signal that would be produced by the Arduino sensor, mapped through Max4Live.
+Karolina and Eirik tried to add another out/in-put layer with ‘Little Bits’ but were facing some routing issues. Since there was no additional sound card to route our in-signal through we tried to use the Midas mixer in the room with some help from Eigil. The goal was to work with the signal that would be produced by the Arduino sensor, mapped through Max4Live. But we realized quickly that it would have taken too much time and so we kept working with the prototype set up we already had.
 
 <figure>
 <img src="/assets/img/Koolboard 4 Ableton.jpg" alt="Koolboard mapping in Ableton" width="60%" align="middle"/>
@@ -44,6 +44,6 @@ Karolina and Eirik tried to add another out/in-put layer with ‘Little Bits’ 
 
 ## Learning outcomes:  
 
-With the workshop coming to an end it is interesting to reflect on what we have accomplished. The prototype was finished, and although there was some technical issues we managed to perform with it. In Trondheim we had some issues that came from us not having a sound card to route our in-signal through. We used the Midas mixer in the room with some help from Eigil, and after a short delay it worked. 
+With the workshop coming to an end it is interesting to reflect on what we have accomplished. The prototype was finished, and although there was some technical issues we managed to perform with it. 
 
 What learning that actually culminates in each student is subjective, but for some of us, we had our first hands on experience with programming. When programming in Javascript, it was quite difficult, because it is somewhat abstract. One does not really see what one does before it is done. This contrasts’ programming with the Arduino, where there is a lot more hands-on activity. One connects different bits, for instance a LED light, and enters a code that corresponds to the components one desires to work with. Being able to understand and execute commands via the computer and see a physical effect on the board (light blinking) was an exciting experience for some of us who has no prior experience.
