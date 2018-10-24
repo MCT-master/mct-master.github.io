@@ -30,7 +30,7 @@ This week was the Lola-week. In Oslo, we got a lot of help from Anders, our guru
 <figcaption>Fig 1: </figcaption>
 </figure>
 
-Soo, after moving all equipment to the projector wall, we started trying out different settings with Lola. We started with the lowest solution, choosing black and white over colours. But computer says noooo. Lola #likes# colours. So for some reason, Oslo were streaming in colours, even when choosing b/w. We soon figured out that we couldn't really send much data over the local network before the image got frozen.
+Soo, after moving all equipment to the projector wall, we started trying out different settings with Lola. We started with the lowest solution, choosing black and white over colours. But computer says noooo. Lola *likes* colours. So for some reason, Oslo were streaming in colours, even when choosing b/w. We soon figured out that we couldn't really send much data over the local network before the image got frozen.
 
 <figure>
 <img src="" alt="assets/img/Lola_setup1.jpg" width="90%" />
