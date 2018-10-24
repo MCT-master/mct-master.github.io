@@ -8,7 +8,7 @@ comments: true
 ---
 
 <figure>
-<img src="" alt="/assets/img/Lola_.jpg" width="90%" />
+<img src="/assets/img/Lola_.jpg" alt="" width="90%" />
 <figcaption>Fig 1: Lola</figcaption>
 </figure>
 
@@ -26,14 +26,14 @@ Anything about the Polycom system?
 This week was the Lola-week. In Oslo, we got a lot of help from Anders, our guru. He learned us everything we needed to know about Lola. First, we connected Lola with the local network to try out things. We found out that it was time to try out the extended classroom-solution with the BenQ projector and started to move furniture and equipment to the projector wall in the Oslo Portal. Because, you can't use any equipment you want with Lola. Lola is choosy. Lola knows what she wants. There is only one computer that runs Lola, and this computer has to be exclusivly for Lola only. And there is only one camera that works with Lola. And the camera USB cable is short. Sooo short. So if you want to move the camera somewhere, you have to move the whole computer. And that's not just a tiny laptop, that is a 10 kg giga Fractal Design cabinet stuffed with the best you can get regarding computer components. Anders says, by the way, that the computer would be a brilliant computer for gaming. But that is not gonna happen. This computer is for Lola only. 
 
 <figure>
-<img src="" alt="assets/img/Lola_camera.jpg" width="90%" />
+<img src="/assets/img/Lola_camera.jpg" alt="" width="90%" />
 <figcaption>Fig 1: </figcaption>
 </figure>
 
 Soo, after moving all equipment to the projector wall, we started trying out different settings with Lola. We started with the lowest solution, choosing black and white over colours. But computer says noooo. Lola *likes* colours. So for some reason, Oslo were streaming in colours, even when choosing b/w. We soon figured out that we couldn't really send much data over the local network before the image got frozen.
 
 <figure>
-<img src="" alt="assets/img/Lola_setup1.jpg" width="90%" />
+<img src="/assets/img/Lola_setup1.jpg" alt="" width="90%" />
 <figcaption>Fig 1: </figcaption>
 </figure>
 
