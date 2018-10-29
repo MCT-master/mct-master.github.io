@@ -14,16 +14,16 @@ author: Karolina Jawad & Jonas Bjordal, Elias Andersen, Guy Sion, Eirik Dahl
 
 
 <figure>
-<img src="/assets/img/crazy_mix.jpg" alt="a space odysseey" width="50%" align="middle"/>
-<figcaption>a space odyseey</figcaption>
+<img src="/assets/img/crazy_mix.jpg" alt="Odysseey in Space" width="80%" align="middle"/>
+<figcaption>Odyssey in Space</figcaption>
 </figure>
+
 
 We've learned a lot in those two weeks. But due to our tight schedule with a big workload there was hardly any time 
 left to improve on our teach/study environment in the portal. In Trondheim we got a handover from group B on how to deal with LOLA. 
 Our task was then to reinstall the LOLA system, but with some important extra package that was missing. 
 Somebody outside MCT did the job for us in Trondheim in our absence, which was very practical since we could focus almost 
-entirely on the mediated content during class. At the same time it was also somewhat of a pity, cause we are supposed to know how the communication 
-infrastructures are working and ideally should put them up by ourselves. 
+entirely on the mediated content during class. At the same time it was also somewhat of a pity, cause we are supposed to know how the communication infrastructures are working and ideally should put them up by ourselves. 
 
 Thanks for the job anyways, unknown person AKA ghost in the machine.
 
@@ -64,6 +64,7 @@ Hopefully some of these issues are going to be solved in our brand new Portal, w
 
 
 #References:
+
 https://www.verywellmind.com/multitasking-2795003
 
 https://news.stanford.edu/2018/10/25/decade-data-reveals-heavy-multitaskers-reduced-memory-psychologist-says/
