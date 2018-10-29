@@ -6,18 +6,16 @@ categories: teams
 author: Karolina Jawad & Jonas Bjordal, Elias Andersen, Guy Sion, Eirik Dahl 
 ---
 
-## A two week wrap up on working in the Portal
-
-
-#communication #lola #hyper connectivity #mute #senior aspects #sensitivity #brain performance 
-#human computer interaction #slow motion #cognition
-
-
 <figure>
 <img src="/assets/img/crazy_mix.jpg" alt="Odysseey in Space" width="80%" align="middle"/>
 <figcaption>Odyssey in Space</figcaption>
 </figure>
 
+
+## A two week wrap up on working in the Portal
+
+
+# communication #lola #hyper connectivity #mute #senior aspects #sensitivity #brain performance #human computer interaction #slow motion #cognition
 
 We've learned a lot in those two weeks. But due to our tight schedule with a big workload there was hardly any time 
 left to improve on our teach/study environment in the portal. In Trondheim we got a handover from group B on how to deal with LOLA. 
