@@ -29,7 +29,7 @@ Thanks for the job anyways, unknown person AKA ghost in the machine.
 We then got some time to reflect though on the workflow in general, studying and keeping the Portal alive at 
 the same time can become a very challenging task with tight schedules.
 
-## A two week wrap up on working in the Portal How to maintain concentration and focused work within a hyper connected study/work environment
+## How to maintain concentration and focused work within a hyper connected study/work environment
 
 Being in the portal means working between several screens. Here in Trondheim there are two portal screens, 
 as well as those of our own devices, a laptop screen and a mobile phone screen. 
