@@ -10,7 +10,7 @@ author: Karolina Jawad & Jonas Bjordal, Elias Andersen, Guy Sion, Eirik Dahl
 # A two week wrap up on working in the Portal
 
 <figure>
-<img src="/assets/img/crazy_mix.jpg" alt="Odysseey in Space" width="80%" align="middle"/>
+<img src="/assets/img/montage_portal.jpg" alt="Odysseey in Space" width="70%" align="middle"/>
 <figcaption>Odyssey in Space</figcaption>
 </figure>
 
