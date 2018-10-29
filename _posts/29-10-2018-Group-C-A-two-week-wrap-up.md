@@ -15,7 +15,7 @@ author: Karolina Jawad & Jonas Bjordal, Elias Andersen, Guy Sion, Eirik Dahl
 </figure>
 
 
-## communication #lola #hyper connectivity #mute #senior aspects #sensitivity #brain performance #human computer interaction #slow motion #cognition
+## #communication #lola #hyper connectivity #mute #senior aspects #sensitivity #brain performance #human computer interaction #slow motion #cognition
 
 
 We've learned a lot in those two weeks. But due to our tight schedule with a big workload there was hardly any time 
@@ -62,7 +62,7 @@ Hopefully some of these issues are going to be solved in our brand new Portal, w
 
 
 
-# References:
+## References:
 
 https://www.verywellmind.com/multitasking-2795003
 
