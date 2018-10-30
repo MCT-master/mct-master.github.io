@@ -1,5 +1,6 @@
 ---
 layout: post
+image: /assets/img/montage_portal.jpg
 title:  "A two week wrap-up of Group C"
 date:   2018-10-29 23:00
 categories: teams
@@ -7,7 +8,8 @@ author: Karolina Jawad & Jonas Bjordal, Elias Andersen, Guy Sion, Eirik Dahl
 ---
 
 
-# A two week wrap up on working in the Portal
+## A two week wrap up on working in the Portal
+
 
 <figure>
 <img src="/assets/img/montage_portal.jpg" alt="Odysseey in Space" width="80%" align="middle"/>
@@ -15,7 +17,7 @@ author: Karolina Jawad & Jonas Bjordal, Elias Andersen, Guy Sion, Eirik Dahl
 </figure>
 
 
-## #communication #lola #hyper connectivity #mute #senior aspects #sensitivity #brain performance #human computer interaction #slow motion #cognition
+# #communication #lola #hyper connectivity #mute #senior aspects #sensitivity #brain performance #human computer interaction #slow motion #cognition
 
 
 We've learned a lot in those two weeks. But due to our tight schedule with a big workload there was hardly any time 
@@ -29,7 +31,7 @@ Thanks for the job anyways, unknown person AKA ghost in the machine.
 We then got some time to reflect though on the workflow in general, studying and keeping the Portal alive at 
 the same time can become a very challenging task with tight schedules.
 
-## How to maintain concentration and focused work within a hyper connected study/work environment
+# How to maintain concentration and focused work within a hyper connected study/work environment
 
 Being in the portal means working between several screens. Here in Trondheim there are two portal screens, 
 as well as those of our own devices, a laptop screen and a mobile phone screen. 
@@ -52,7 +54,7 @@ our cognitive abilities and performance, as several researchers say. Indeed, aft
 we hardly remember what our names are, and to continue studying by ourselves in the evening is almost impossible. 
 If this should become a future-proof setup, there is a long way before us.
 
-## A future-proof setup?
+# A future-proof setup?
 
 That might sound really old fashioned, but it is proven that heavy multitasking with media lowers the concentration 
 and cognitive abilities up to 40%. We should be aware of that. Since the technical setup of the portal can take sometimes up to 
