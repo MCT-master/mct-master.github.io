@@ -44,10 +44,7 @@ First thing we discovered was how kick-ass the fiber network really is. Ten time
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/lIEN-tkDeJ8?rel=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 
-<video width="640" height="480" controls align="middle">
-  <source src="assets/img/Lolalol.mp4" type="video/mp4">
-  Your browser does not support the video tag.
-</video>
+<br>
 
 LoLa is able to transmit video and audio at near imperceptible low latency, making it useful for live music collaboration. However, since it is quite picky when it comes to the hardware being used, it is a bit hard to work with, technically, and especially with regards to the image that we got using the USB-3 cameras. One thing we will probably use it for is multi-channel audio, which we sadly didn't get to test this time. LoLa supports up to 10 channels of audio in each direction, and using a breakout box, we can connect many instruments or effects at each end in real-time.
 
