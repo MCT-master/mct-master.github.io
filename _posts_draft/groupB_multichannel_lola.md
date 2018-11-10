@@ -12,9 +12,9 @@ comments: true
 </figure>
 
 The objective this week was very clear from the start, we had to set up the audio multichannel for LoLa. There was just one
-problem: our great LoLa supervisor Anders, was sick, and we were left figure out things on our own. This was of course a great
-challenge, but we like challenges. It might take much more time, but it's another experience when you are forced to try and
-fail on your own. Often you also learn much more when you're not being feeded all the answers from an expert.
+problem: our great LoLa supervisor Anders, was sick, and we were left to figure out things on our own. This was of course a 
+great challenge, but we like challenges. It might take much more time, but it's another experience when you are forced to try 
+and fail on your own. Often you also learn much more when you're not being feeded all the answers from an expert.
 
 In Oslo and Trondheim, we were on different stages regarding the audio multichannel setup. The equipment we were going to use 
 was also not the same in the two respective cities - and we were a little confused to begin with (at least in Oslo). In 
