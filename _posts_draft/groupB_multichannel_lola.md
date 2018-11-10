@@ -1,0 +1,32 @@
+---
+layout: post
+title:  "Group B, LoLa audio multichannel setup"
+date:   2018-11-10 02:00:00 +0200
+categories: The Portal
+author: Mari Lesteberg, Ashane Silva, Shreejay Shrestha & Eigil Aandahl
+comments: true
+---
+
+<figure>
+<img src="" alt="" width="40%" />
+</figure>
+
+The objective this week was very clear from the start, we had to set up the audio multichannel for LoLa. There was just one
+problem: our great LoLa supervisor Anders, was sick, and we were left figure out things on our own. This was of course a great
+challenge, but we like challenges. It might take much more time, but it's another experience when you are forced to try and
+fail on your own. Often you also learn much more when you're not being feeded all the answers from an expert.
+
+In Oslo and Trondheim, we were on different stages regarding the audio multichannel setup. The equipment we were going to use 
+was also not the same in the two respective cities - and we were a little confused to begin with (at least in Oslo). In 
+Trondheim there was only one multichannel box, and in Oslo there was two! One for input and one for output. We had no idea 
+which cable to put in where, but at least, we could start with finding power supply cables in the storage room. We soon 
+figured out that some cables were missing to be able to connect the multichannel boxes to LoLa. We figured out that we had to 
+send out a distress call to Alexander, who was able to come and help us later the same day. 
+
+While we were waiting for help, we were trying to set up stereo audio with LoLa, as Anders had demonstrated for us some weeks 
+ago. It looked so easy when he did it, but now we were only able to hear some distorted noises. What were we doing wrong? 
+
+Finally Alexander arrived, and we went to get the extra cables we needed for the multichannel box. We set everything up with 
+two speakers and a Shure SM58 microphone, but still, nothing. Again, the only thing we could hear was some distorted cracks 
+and noises. 
+
