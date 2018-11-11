@@ -28,19 +28,26 @@ ago. It looked so easy when he did it, but now we were only able to hear some di
 
 Finally Alexander arrived, and we went to get the extra cables we needed for the multichannel box. We set everything up with 
 two speakers and a Shure SM58 microphone, but still, nothing. Again, the only thing we could hear was some distorted cracks 
-and noises
+and noises.
 
 AD/DA converters. What are they? 
 
-We used the RME OctaMicII 8 - channel Analog to Digital converter as the inputs for the LoLa.The optical out from this preamp was routed in to LoLa computer's soundcard using an optical cable. Now the inputs are set. where are the outputs? well, We used the Solid State Logic XLogic Alpha-Link MADI AX as a Digital to Analog converter(because we are now converting the digital audio from the PC sound card to analog audio).Now the output from the PC soundcard is connected to this SSL Alpha - Link converter using another Optical cable. Basically now we have a multi-channel audio from LoLa.  
+In th Oslo side we used two converters. We used the RME OctaMicII 8 - channel Analog to Digital converter as the inputs for the LoLa.This preamp was connected to LoLa computer's soundcard using an optical cable. Now the inputs are set. where are the outputs? 
+
+well, We used the Solid State Logic XLogic Alpha-Link MADI AX as a Digital to Analog converter(because we are now converting the digital audio from the PC sound card to analog audio).Now the PC soundcard is connected to this SSL Alpha - Link converter using another Optical cable. But route the outputs to speakers we had use a breakout cable whcih was connected to the SSL converter.Basically now we have multi-channel audio from LoLa.  
 
 
 RME TotalMix in a nut shell 
 
 How can we control the levels? Thats is where the RME Total MiX software comes in. The top section(Hardware Inputs) is basically the Inputs.( ADAT 1 = input 1 , ADAT 2 = inout2 of octaMic II and so on ). The Bottom section is where you see the outputs for the SSL Converter. The Middle section(Software Inouts) is where we can monitor the sound we get from the otherside. Now can route those sounds to outputs of the SSL converter just by using the RME Total Mix. 
 
+
 Anything else?
 
-LoLa dosen't like to have two different buffer sizes. It has to be 32 bit or 64 bit. Otherwise you will get some creepy sounds like this.   
+LoLa dosen't like to have different buffer sizes. It has to be 32 bit or 64 bi on each side. Otherwise you will get some creepy sounds like this. It is super easy to change those settings from the "Hammerfall DSP settings".
 
-Well, Everything was workig perfectly until friday and something unexpected happened. We started to get the distroted sound agian. right away we chacked the buffer sizes and they were fine. But after so much struggle we found that there is a Audio Packet drop from oslo side. 
+
+
+
+
+Well, Everything was workig perfectly until friday and something unexpected happened. We started to get the distroted sound agian. Right away we chacked the buffer size and it was fine. But after so much struggle we found that there is a Audio Packet drop from Oslo side. The LoLa Network status window is helpful to monitor those kind of things. We suspect that this is due somekind of a network issue. Hopefully it will be solved soon. 
