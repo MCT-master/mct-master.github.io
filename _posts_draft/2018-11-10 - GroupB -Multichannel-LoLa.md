@@ -36,23 +36,27 @@ In th Oslo side we used two converters. We used the RME OctaMicII 8 - channel An
 
 well, We used the Solid State Logic XLogic Alpha-Link MADI AX as a Digital to Analog converter(because we are now converting the digital audio from the PC sound card to analog audio).Now the PC soundcard is connected to this SSL Alpha - Link converter using another Optical cable. But route the outputs to speakers we had use a breakout cable whcih was connected to the SSL converter.Basically now we have multi-channel audio from LoLa. 
 
-<img src="">
+<img src="https://github.com/MCT-master/mct-master.github.io/blob/master/assets/img/Group%20B%20LoLa%20converters%201.jpg">
 
 
 RME TotalMix in a nut shell 
 
 How can we control the levels? Thats is where the RME Total MiX software comes in. The top section(Hardware Inputs) is basically the Inputs.( ADAT 1 = input 1 , ADAT 2 = inout2 of octaMic II and so on ). The Bottom section is where you see the outputs for the SSL Converter. The Middle section(Software Inouts) is where we can monitor the sound we get from the otherside. Now can route those sounds to outputs of the SSL converter just by using the RME Total Mix. 
 
-<img src="">
+<img src="https://github.com/MCT-master/mct-master.github.io/blob/master/assets/img/Group%20B%20LoLa%20RME%20TotalMix.jpg">
 
 Anything else?
 
-LoLa dosen't like to have different buffer sizes. It has to be 32 bit or 64 bi on each side. Otherwise you will get some creepy sounds like this. It is super easy to change those settings from the "Hammerfall DSP settings".
+LoLa dosen't like to have different buffer sizes. It has to be 32 bit or 64 bi on each side. Otherwise you will get some creepy sounds like this. 
 
-<img src="">
+
+
+It is super easy to change those settings from the "Hammerfall DSP settings".
+
+<img src="https://github.com/MCT-master/mct-master.github.io/blob/master/assets/img/GroupB%20LoLabuffer%20size%201.jpg">
 
 
 
 Well, Everything was workig perfectly until friday and something unexpected happened. We started to get the distroted sound agian. Right away we chacked the buffer size and it was fine. But after so much struggle we found that there is a Audio Packet drop from Oslo side. The LoLa Network status window is helpful to monitor those kind of things. We suspect that this is due somekind of a network issue. Hopefully it will be solved soon. 
 
-<img src="">
+<img src="https://github.com/MCT-master/mct-master.github.io/blob/master/assets/img/GroupB%20LoLa%20packetdrop%201.jpg">
