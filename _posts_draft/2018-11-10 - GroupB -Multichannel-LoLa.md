@@ -53,10 +53,10 @@ LoLa dosen't like to have different buffer sizes. It has to be 32 bit or 64 bi o
 
 It is super easy to change those settings from the "Hammerfall DSP settings".
 
-<img src="https://github.com/MCT-master/mct-master.github.io/blob/master/assets/img/GroupB%20LoLabuffer%20size%201.jpg">
+<img src="">
 
 
 
 Well, Everything was workig perfectly until friday and something unexpected happened. We started to get the distroted sound agian. Right away we chacked the buffer size and it was fine. But after so much struggle we found that there is a Audio Packet drop from Oslo side. The LoLa Network status window is helpful to monitor those kind of things. We suspect that this is due somekind of a network issue. Hopefully it will be solved soon. 
 
-<img src="https://github.com/MCT-master/mct-master.github.io/blob/master/assets/img/GroupB%20LoLa%20packetdrop%201.jpg">
+
