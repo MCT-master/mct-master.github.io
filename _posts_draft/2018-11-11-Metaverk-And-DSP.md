@@ -6,28 +6,28 @@ categories: teams
 author: Karolina Jawad 
 ---
 
-# #sound art #algorythmic poetry #open source #physical computing #memories #digital signal processing #humans
+## #sound art #algorythmic poetry #open source #physical computing #memories #digital signal processing #humans
 
 If you enter Metamorph, an art and technology space in the old town of Trondheim (Bakklandet), you will immediately become part of the 
-of the generative soundscape in the exhibition 'Metaverk'.  
+the generative soundscape of the exhibition 'Metaverk'.  
 The sound installation is a joint work by Øyvind Brandtsegg and Arnfinn Killingtveit and invites you to discover, 
-interact with it by making live music or connecting your phone to a mini jack cable. 
+interact with it by making live music or connecting your phone to a mini jack cable and influence the sound environment. 
 The exhibition is part of the Trondheim Open, the largest art biennial in Central Norway. 
 Its aim is to make more local artists visible on the plan.
 
-# Memories that sound
+## Memories that sound
 
 Within the framework of the open source concept, visitors were invited to explore the composition of the exhibition. 
-From the pure data (?) code, for example, which programs the various units and is visible on screens, to the hardware in the room. 
-Several flashing monitors are installed, microphones, cables and loudspeakers are grouped into different units. 
-These computer entities have their own poetic effect and communicate only via audio. 
+Even the pure data (?) code, for example, which programs the various units is visible on screens. The hardware, consisting of 
+several flashing monitors (more of sculputural character), microphones, cables and loudspeakers are grouped into different units. 
+These computer entities have their own processing character and communicate only via audio. 
 Some wait for silence, others react to a knock at the window: it is a string model that is based on a delay loop input
 based on the contact microphones. Each sound event is recorded and displayed in a feedback system. 
 Even speech becomes audible with some delay, like memories in distorted and faded manners.
-Finally, being physically present in this situation is being part of the machine and at the same time 
-one remembers one's sense of vulnerability.
+Finally, being physically present in this situation means being part of the machine and at the same time 
+one remembers one's sense of human and vulnerability.
 
-# How to
+## How to
 
 And how does that all relate to what we do now?
 The underlying techniques are based on the same principles, which are only applied in different ways and are very much 
