@@ -1,44 +1,32 @@
 ---
 layout: post
+image: /assets/img/dummy.jpg
 title:  "DSP in the Metaverk exhibition"
-date:   2018-11-11 19:00
+date:   2018-11-11 23:50
 categories: teams
 author: Karolina Jawad 
 ---
 
-## #sound art #algorythmic poetry #open source #physical computing #memories #digital signal processing #humans
+<figure>
+<img src="/assets/img/dummy.jpg" alt="Odysseey in Space" width="80%" align="middle"/>
+<figcaption>Odyssey in Space</figcaption>
+</figure>
 
-If you enter Metamorph, an art and technology space in the old town of Trondheim (Bakklandet), you will immediately become part of the 
-the generative soundscape of the exhibition 'Metaverk'.  
-The sound installation is a joint work by Øyvind Brandtsegg and Arnfinn Killingtveit and invites you to discover, 
-interact with it by making live music or connecting your phone to a mini jack cable and influence the sound environment. 
-The exhibition is part of the Trondheim Open, the largest art biennial in Central Norway. 
-Its aim is to make more local artists visible on the plan.
 
-## Memories that sound
+## #sound art #algorithmic poetry #open source #physical computing #memories #dsp #digital signal processing #humans
 
-Within the framework of the open source concept, visitors were invited to explore the composition of the exhibition. 
-Even the pure data (?) code, for example, which programs the various units is visible on screens. The hardware, consisting of 
-several flashing monitors (more of sculputural character), microphones, cables and loudspeakers are grouped into different units. 
-These computer entities have their own processing character and communicate only via audio. 
-Some wait for silence, others react to a knock at the window: it is a string model that is based on a delay loop input
-based on the contact microphones. Each sound event is recorded and displayed in a feedback system. 
-Even speech becomes audible with some delay, like memories in distorted and faded manners.
-Finally, being physically present in this situation means being part of the machine and at the same time 
-one remembers one's sense of human and vulnerability.
+Once you enter Metamorph, an art and technology space in the old town of Trondheim (Bakklandet), you will immediately become part of the generative soundscape of the exhibition 'Metaverk'.
+The sound installation is a joint work by Øyvind Brandtsegg and Arnfinn Killingtveit and invites you to discover and interact with it by making live music like plugging your instrument into the system or connecting your phone to a mini jack cable. The exhibition is part of the Trondheim Open, the largest art biennial in Central Norway. One of its goals are to make more local artists visible to the public. 
 
-## How to
+## Sound memories
 
-And how does that all relate to what we do now?
-The underlying techniques are based on the same principles, which are only applied in different ways and are very much 
-related to what we will be dealing with in the upcoming DSP workshop. Most of the component and sound units are based on waveguides. 
-Very briefly, a waveguide is a delay line that represents how the sound moves through a string. 
-A longer delay line is the same as a longer string and results in a lower pitch, the reason why you make it sound 
-like a string is because you have very high feedback, like 98% feedback. It is very fragile because if you turn down the
-feedback, you only get one click and if you turn it on, it will explode at about 100%.
-These are techniques that we will be working with and experimenting with to connect different strings through the portal.
+Within the framework of the open source concept, visitors were invited to explore the composition of the exhibition. Even the code, for example, which programs the various units is visible on screens among other softwares. The hardware, consisting of several flashing monitors (more of sculputural character), microphones, cables and loudspeakers are grouped into different units. These computer entities have their own processing character and communicate only via audio. Some wait for silence, others react to a knock at the window: it is a string model that is based on a delay loop with the input from the contact microphones. Each sound event is captured and being fed into a feedback system. Even speech becomes audible with some delay, like a distorted and faded memories. Finally, being physically present in this situation means being part of the machine and at the same time one remembers one's human vulnerability in a technological context.
 
-The bone feedback station, as shown below, also uses a waveguide technique to improve the possibility of feedback from the bone. 
+## How to...?
+
+And how does this relate to what we do as MCT students now? Quoting Brandtsegg, the underlying techniques are based on the same principles, which are only applied in different ways and are very much related to what we will be dealing with in the upcoming DSP workshop. Most of the components and sound units are based on waveguides. Very briefly, a waveguide is a delay line that emulate how the sound moves through a string. A longer delay line is the same as a longer string and therefore results in a lower pitch. The reason why you make it sound like a string is because you have very high feedback of 98%. It is very fragile because if you turn down the feedback you only get one click, and if you maximizing the feedback it will explode in terms of loudness. The approach of using waveguide techniques is something that we will be working and experimenting with through the portal.
+
+The bone feedback station, as shown below, also uses a waveguide technique to improve the possibility of feedback from the bone. Resonance trough the armrest in contact with the contact microphone, it gets louder the harder you press. 
 
 
 
