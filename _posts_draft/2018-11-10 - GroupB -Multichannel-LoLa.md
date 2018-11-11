@@ -36,7 +36,7 @@ In th Oslo side we used two converters. We used the RME OctaMicII 8 - channel An
 
 well, We used the Solid State Logic XLogic Alpha-Link MADI AX as a Digital to Analog converter(because we are now converting the digital audio from the PC sound card to analog audio).Now the PC soundcard is connected to this SSL Alpha - Link converter using another Optical cable. But route the outputs to speakers we had use a breakout cable whcih was connected to the SSL converter.Basically now we have multi-channel audio from LoLa. 
 
-<img src="" alt=" ">
+
 
 
 RME TotalMix in a nut shell 
@@ -53,3 +53,5 @@ LoLa dosen't like to have different buffer sizes. It has to be 32 bit or 64 bi o
 
 
 Well, Everything was workig perfectly until friday and something unexpected happened. We started to get the distroted sound agian. Right away we chacked the buffer size and it was fine. But after so much struggle we found that there is a Audio Packet drop from Oslo side. The LoLa Network status window is helpful to monitor those kind of things. We suspect that this is due somekind of a network issue. Hopefully it will be solved soon. 
+
+<img src="mct-master.github.io/assets/img/GroupB LoLa packetdrop 1.jpg">
