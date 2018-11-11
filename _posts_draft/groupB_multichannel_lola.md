@@ -23,6 +23,10 @@ which cable to put in where, but at least, we could start with finding power sup
 figured out that some cables were missing to be able to connect the multichannel boxes to LoLa. We figured out that we had to 
 send out a distress call to Alexander, who was able to come and help us later the same day. 
 
+We used the RME OctaMicII 8 - channel Analog to Digital converter as the inputs for the LoLa.The optical out from this preamp was routed in to LoLa computer's soundcard using an optical cable. Now the inputs are set. where are the outputs? well, We used the Solid State Logic XLogic Alpha-Link MADI AX as a Digital to Analog converter(because we are now converting the digital audio from the PC sound card to analog audio).Now the output from the PC soundcard is connected to this SSL Alpha - Link converter using another Optical cable. Basically now we have a multi-channel audio from LoLa.  
+
+
+
 While we were waiting for help, we were trying to set up stereo audio with LoLa, as Anders had demonstrated for us some weeks 
 ago. It looked so easy when he did it, but now we were only able to hear some distorted noises. What were we doing wrong? 
 
