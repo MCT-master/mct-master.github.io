@@ -34,7 +34,9 @@ AD/DA converters. What are they?
 
 In th Oslo side we used two converters. We used the RME OctaMicII 8 - channel Analog to Digital converter as the inputs for the LoLa.This preamp was connected to LoLa computer's soundcard using an optical cable. Now the inputs are set. where are the outputs? 
 
-well, We used the Solid State Logic XLogic Alpha-Link MADI AX as a Digital to Analog converter(because we are now converting the digital audio from the PC sound card to analog audio).Now the PC soundcard is connected to this SSL Alpha - Link converter using another Optical cable. But route the outputs to speakers we had use a breakout cable whcih was connected to the SSL converter.Basically now we have multi-channel audio from LoLa.  
+well, We used the Solid State Logic XLogic Alpha-Link MADI AX as a Digital to Analog converter(because we are now converting the digital audio from the PC sound card to analog audio).Now the PC soundcard is connected to this SSL Alpha - Link converter using another Optical cable. But route the outputs to speakers we had use a breakout cable whcih was connected to the SSL converter.Basically now we have multi-channel audio from LoLa. 
+
+<img src="" alt=" ">
 
 
 RME TotalMix in a nut shell 
