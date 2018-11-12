@@ -15,8 +15,8 @@ author: Karolina Jawad
 
 ## #sound art #algorithmic poetry #open source #physical computing #memories #dsp #digital signal processing #humans #loop #csound orchestras
 
-Once you enter Metamorph, an art and technology space in the old town of Trondheim (Bakklandet), you will immediately become part of the generative soundscape of the exhibition 'Metaverk'.
-The interactive sound installation is a joint work by Øyvind Brandtsegg and Arnfinn Killingtveit. The exhibition takes place during Trondheim Open, the largest art biennial in Central Norway. One of its goals are to make more local artists visible to the public. It invites the audience to discover and involve by making live music. Plugging your instrument into the system or connecting your phone to a mini jack cable - what ever is played will be captured and distributed through the different speakers around the room.  
+Once you enter **<a href="http://metamorf.no//" target="_blank">Metamorph</a>**, an art and technology space in the old town of Trondheim (Bakklandet), you will immediately become part of the generative soundscape of the exhibition **<a href="https://teks.no//" target="_blank">'Metaverk'</a>**.
+The interactive sound installation is a joint work by **<a href="https://soundcloud.com/brandtsegg/concert-brkrg-brandtseggratkjedjupvikrockheim-oct-2016" target="_blank">Øyvind Brandtsegg</a>** and **<a href="https://soundcloud.com/swampsupnostrils/swamps-up-nostrils-ultra-bonus" target="_blank">Arnfinn Killingtveit</a>**. The exhibition takes place during *<a href="http://www.trondheimopen.org/om-trondheim-open/" target="_blank">Trondheim Open</a>** , the largest art biennial in Central Norway. One of its goals are to make more local artists visible to the public. It invites the audience to discover and involve by making live music. Plugging your instrument into the system or connecting your phone to a mini jack cable - what ever is played will be captured and distributed through the different speakers around the room.  
 
 ## Sound memories
 
