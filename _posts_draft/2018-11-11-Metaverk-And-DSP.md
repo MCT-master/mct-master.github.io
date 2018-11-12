@@ -16,7 +16,7 @@ author: Karolina Jawad
 ## #sound art #algorithmic poetry #open source #physical computing #memories #dsp #digital signal processing #humans
 
 Once you enter Metamorph, an art and technology space in the old town of Trondheim (Bakklandet), you will immediately become part of the generative soundscape of the exhibition 'Metaverk'.
-The sound installation is a joint work by Øyvind Brandtsegg and Arnfinn Killingtveit and invites you to discover and interact with it by making live music like plugging your instrument into the system or connecting your phone to a mini jack cable. The exhibition is part of the Trondheim Open, the largest art biennial in Central Norway. One of its goals are to make more local artists visible to the public. 
+The interactive sound installation is a joint work by Øyvind Brandtsegg and Arnfinn Killingtveit. The exhibition is part of the Trondheim Open, the largest art biennial in Central Norway. One of its goals are to make more local artists visible to the public. It invites the audience to discover and take part by making live music like plugging your instrument into the system or connecting your phone to a mini jack cable - what ever you play it will be distributed through the different speakers around the room.  
 
 ## Sound memories
 
@@ -26,7 +26,7 @@ Within the framework of the open source concept, visitors were invited to explor
 
 And how does this relate to what we do as MCT students now? Quoting Brandtsegg, the underlying techniques are based on the same principles, which are only applied in different ways and are very much related to what we will be dealing with in the upcoming DSP workshop. Most of the components and sound units are based on waveguides. Very briefly, a waveguide is a delay line that emulate how the sound moves through a string. A longer delay line is the same as a longer string and therefore results in a lower pitch. The reason why you make it sound like a string is because you have very high feedback of 98%. It is very fragile because if you turn down the feedback you only get one click, and if you maximizing the feedback it will explode in terms of loudness. The approach of using waveguide techniques is something that we will be working and experimenting with through the portal.
 
-The bone feedback station, as shown below, also uses a waveguide technique to improve the possibility of feedback from the bone. Resonance trough the armrest in contact with the contact microphone, it gets louder the harder you press. 
+The bone feedback station, as you might have seen Jonas trying in the video, also uses a waveguide technique to improve the possibility of feedback from the bone. A contact microphone is installed in the armrest and when in contact with the ellbow it travels through it and gets louder and vibrates the harder you press and then even fades over to the window.
 
 
 
