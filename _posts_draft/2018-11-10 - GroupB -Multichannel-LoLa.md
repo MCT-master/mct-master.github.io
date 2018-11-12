@@ -51,4 +51,7 @@ LoLa dosen't like to have different buffer sizes. It has to be 32 bit or 64 bi o
 
 Well, Everything was workig perfectly until friday and something unexpected happened. We started to get the distroted sound agian. Right away we chacked the buffer size and it was fine. But after so much struggle we found that there is a Audio Packet drop from Oslo side. The LoLa Network status window is helpful to monitor those kind of things. We suspect that this is due somekind of a network issue. Hopefully it will be solved soon. 
 
+^This was solved by finding a different path from Trondheim to Oslo which resulted in less packet loss. Think of it as someone running really fast with a lot of boxes and having to trip, dropping some of the boxes.
+
+
 
