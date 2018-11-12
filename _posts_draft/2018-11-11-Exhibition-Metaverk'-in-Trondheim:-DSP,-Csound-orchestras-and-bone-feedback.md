@@ -16,11 +16,16 @@ author: Karolina Jawad
 ## #sound art #algorithmic poetry #open source #physical computing #memories #dsp #digital signal processing #humans #loop #csound orchestras
 
 Once you enter Metamorph, an art and technology space in the old town of Trondheim (Bakklandet), you will immediately become part of the generative soundscape of the exhibition 'Metaverk'.
-The interactive sound installation is a joint work by Øyvind Brandtsegg and Arnfinn Killingtveit. The exhibition is part of the Trondheim Open, the largest art biennial in Central Norway. One of its goals are to make more local artists visible to the public. It invites the audience to discover and take part by making live music like plugging your instrument into the system or connecting your phone to a mini jack cable - what ever you play it will be distributed through the different speakers around the room.  
+The interactive sound installation is a joint work by Øyvind Brandtsegg and Arnfinn Killingtveit. The exhibition takes place during Trondheim Open, the largest art biennial in Central Norway. One of its goals are to make more local artists visible to the public. It invites the audience to discover and involve by making live music. Plugging your instrument into the system or connecting your phone to a mini jack cable - what ever is played will be captured and distributed through the different speakers around the room.  
 
 ## Sound memories
 
-Within the framework of the open source aproach, visitors were invited to explore the composition of the exhibition. Even the code, for example, which programs the various units is visible on screens among other softwares - a whole Csound orchestra. The hardware, consisting of several flashing monitors (more of sculputural character), microphones, cables and loudspeakers are grouped into different units. These computer entities have their own processing character and communicate only via audio. Some wait for silence, others react to a knock at the window: it is a string model that is based on a delay loop with the input from the contact microphones. Each sound event is captured and being fed into a feedback system. Even speech becomes audible with some delay, like a "distorted and faded memories". Finally, being physically present in this situation means being part of the machine and at the same time one remembers one's human vulnerability in a technological context.
+Within the framework of the open source aproach, visitors were invited to explore the composition of the exhibition. Even the code, for example, which programs the various units is visible on screens among other softwares. The hardware, consisting of several flashing monitors (more of sculputural character), microphones, cables and loudspeakers are grouped into different units. These computer entities have their own processing character and communicate only via audio. Some wait for silence, others react to a knock at the window: it is a string model that is based on a delay loop with the input from the contact microphones. Each sound event is captured and being fed into a feedback system. Even speech becomes audible with some delay, like a "distorted and faded memories". Finally, being physically present in this situation means being part of the machine and at the same time one remembers one's human vulnerability in a technological context.
+
+<video controls>
+  <source src="/assets/video/video_exhbtn_2_1.mp4" type="video/mp4" width="65%">
+Your browser does not support the video tag.
+</video>
 
 ## How to...?
 
