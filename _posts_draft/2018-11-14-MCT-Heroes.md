@@ -185,3 +185,35 @@ Text: Shreejay Shrestha
 “A musician's or artist's responsibility is a simple one, and that is, through your music to tell the truth.”
 
 Born in May 30, 1964, Thomas Baptiste Morello is known as Tom Morello. He is an American musician, singer, songwriter, actor as well as political activist. He attended Harvard University and earned a Bachelor of Arts degree in Social Studies. He has won two Grammy awards for ‘Tire Me’ in 1996 and ‘Guerrilla Radio’ in 2000. He is best known for his contribution with the band Rage Against the Machine and Audioslave that created many popular and influential rock hits in the 1990s. He is equally famous for his unique guitar playing style that includes heavy metal/punk hybrid riffs and hip hop inspired sounds using various effects. Currently he is teaching electric guitar through the online portal www.masterclass.com
+
+## Lars Dietrich
+
+Text: Guy Sion
+
+<figure>
+<img src="/assets/img/Lars-Dietrich.jpg" alt="patch_patch" width="60%" align="middle"/>
+<figcaption></figcaption>
+</figure>
+
+Lars Dietrich is a Dutch saxophonist, composer and electronic musician. He grew up in Amsterdam, The Netherlands, and was introduced to the saxophone at the age of 10. Lars graduated from both the Conservatory of Amsterdam and Manhattan School of Music. He has released two albums under his name and is featured on numerous recordings as a sideman. In the last several years, Lars has been developing new tools and ways for an acoustic instrument such as the saxophone to be merged with technology. He builds devices that translate audio to MIDI and uses his saxophone with MaxMSP to create audiovisual pieces featuring his animated singer creation - Lucy, together with several instruments he has designed and built. No quote nor age are available at the moment. https://www.instagram.com/lars.dietrich/ 
+
+## Karlheinz Stockhausen
+
+Text: Espen Wik
+
+<figure>
+<img src="/assets/img/Karlheinz-Stockhausen.jpg" alt="patch_patch" width="60%" align="middle"/>
+<figcaption></figcaption>
+</figure>
+
+«I didn’t break anything... I just left it as it is. But, I added a lot of new works...»
+
+German composer/theoretician. Born: Mödrath, Germany.
+
+Stockhausen (1928-2007) grew up as Germany was devoured by the ideology of Nationalsozialismus; it took its toll, also on the young composer, leaving him orphaned.
+
+1947-1951: Studies at The State Academy for Music in Cologne and The University of Cologne.
+
+In 1952 he went to Paris and, under the guidance of composers like Oliver Messiaen and Darius Milhaud, Stockhausen was to become one of the 20th century’s greatest influencers on contemporary music. Leaving behind him works such as «Gesang der Jünglinge» his pioneering in electronic music can hardly be overestimated, with an impact that spans from Avant-garde to the realm of pop.
+
+## 
