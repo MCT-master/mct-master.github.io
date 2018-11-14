@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "MCT Heroes"
-date:   2018-11-14 19:00
+date:   2018-11-14 14:29
 categories: Posts
 author: Eirik Dahl and Karolina Jawad
 comments: true
