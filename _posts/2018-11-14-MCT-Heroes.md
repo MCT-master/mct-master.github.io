@@ -34,7 +34,7 @@ Frank Zappa was an American composer, musician and producer born in 1940 in Mary
 Text: Eigil Aandahl
 
 <figure>
-<img src="/assets/img/portfolio-imgs-vangelis-doha-05.jpg" alt="Vangelis" width="60%" align="middle"/>
+<img src="/assets/img/portfolio-imgs-vangelis-doha-05.jpg" alt="patch_patch" width="60%" align="middle"/>
 <figcaption></figcaption>
 </figure>
 
