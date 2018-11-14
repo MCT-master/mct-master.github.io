@@ -52,7 +52,7 @@ Most notable as a film composer, he has made the scores for movies such as Chari
 Text: Elias Sukken Andersen
 
 <figure>
-<img src="/assets/img/Oeystein-Wyller-Odden.jpg" alt="patch_patch" width="60%" align="middle"/>
+<img src="/assets/img/Oeystein-Wyller-Odden.jpg" alt="patch_patch" width="40%" align="middle"/>
 <figcaption></figcaption>
 </figure>
 
@@ -75,7 +75,7 @@ Related work/accomplishment:
 Text: Jonas Bjordal
 
 <figure>
-<img src="/assets/img/Justin-Frankel.jpg" alt="patch_patch" width="60%" align="middle"/>
+<img src="/assets/img/Justin-Frankel.jpg" alt="patch_patch" width="40%" align="middle"/>
 <figcaption></figcaption>
 </figure>
 
@@ -142,17 +142,17 @@ He was the pioneer of Electro Acoustic Improvisation (EAI) and many artists in r
 Text: Karolina Jawad
 
 <figure>
-<img src="/assets/img/Laurie-Spiegel.jpg" alt="patch_patch" width="60%" align="middle"/>
+<img src="/assets/img/Laurie-Spiegel.jpg" alt="foto via the verge com" width="60%" align="middle"/>
 <figcaption></figcaption>
 </figure>
 
-Laurie Spiegel, born September 20, 1945, in Chicago Illinois, US. 
+Laurie Spiegel, born September 20, 1945, in Chicago Illinois, US.
 
-“I think of something and want to find it. Or make it if I can’t find it (...). This is why I have worked hard (.) (T)o make it easier for more people to be able to express themselves in music and art by use of new technology.” 
+“I think of something and want to find it. Or make it if I can’t find it  (…). This is why I have worked hard (.) (T)o make it easier for more people to be able to express themselves in music and art by use of new technology.“
 
-Laurie tinkered from an early age on, she described herself as a 'shy, awkward nerd girl' and taught herself in classic instrument and technological skills. At the Bell Labs Laurie composed 'The Expanding Universe' (1973-1980) on a computer-analog hybrid system named 'GROOVE'. After pioneering the NY music scene in the early 1980s, she withdrew to focus mainly on developing an intelligent composition software called Music Mouse. 
+Laurie tinkered from an early age on, she described herself as a 'shy, awkward nerd girl' and taught herself technological skills and playing classic instruments. At the Bell Labs, Laurie composed 'The Expanding Universe' (1973-1980) on a computer-analog hybrid system named 'GROOVE'. After pioneering the NY new music scene in the early 1980s, she withdrew to focus mainly on developing an intelligent composition software called 'Music Mouse'. 
 
-Today her music still sounds visionary and new. 
+Her visionary music travels in space on NASA'S 'golden record'.
 
 
 
