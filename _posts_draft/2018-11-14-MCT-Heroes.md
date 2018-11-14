@@ -17,7 +17,7 @@ Text: Mari Lesteberg
 
 <figure>
 <img src="/assets/img/Frank-Zappa.jpg" alt="patch_patch" width="60%" align="middle"/>
-<figcaption>Frank Zappa</figcaption>
+<figcaption></figcaption>
 </figure>
 
 “You can't always write a chord ugly enough to say what you want to say, so sometimes you have to rely on a giraffe filled with whipped cream.” - Frank Zappa 
