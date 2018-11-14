@@ -271,3 +271,4 @@ Stockhausen (1928-2007) grew up as Germany was devoured by the ideology of Natio
 
 In 1952 he went to Paris and, under the guidance of composers like Oliver Messiaen and Darius Milhaud, Stockhausen was to become one of the 20th century’s greatest influencers on contemporary music. Leaving behind him works such as «Gesang der Jünglinge» his pioneering in electronic music can hardly be overestimated, with an impact that spans from Avant-garde to the realm of pop.
   
+  
