@@ -8,7 +8,8 @@ comments: true
 ---
 
 
-
+During our Human Computer interaction seminar, Anna Xambò asked us to create a blog post with notable
+people in music technology that inspire us. Here are the submissions from the class.
 
 # Frank Zappa
 
