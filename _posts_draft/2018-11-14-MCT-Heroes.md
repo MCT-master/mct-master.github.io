@@ -10,10 +10,10 @@ comments: true
 
 
 
-##Our blah
+##Frank Zappa
 
+Text: Mari Lesteberg
 
-1-2 sentences explore
 
 <figure>
 <img src="/assets/img/Frank-Zappa.jpg" alt="patch_patch" width="60%" align="middle"/>
