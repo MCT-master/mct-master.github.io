@@ -8,7 +8,7 @@ comments: true
 ---
 
 
-During our Human Computer interaction seminar, Anna Xambò asked us to create a blog post with notable
+During our Human Computer interaction seminar, Anna Xambó asked us to create a blog post with notable
 people in music technology that inspire us. Here are the submissions from the class.
 
 # Frank Zappa
@@ -21,7 +21,7 @@ Text: Mari Lesteberg
 <figcaption></figcaption>
 </figure>
 
-“You can't always write a chord ugly enough to say what you want to say, so sometimes you have to rely on a giraffe filled with whipped cream.” - Frank Zappa 
+_“You can't always write a chord ugly enough to say what you want to say, so sometimes you have to rely on a giraffe filled with whipped cream.”_ - Frank Zappa 
 
 Frank Zappa was an American composer, musician and producer born in 1940 in Maryland, United States. From early on, he showed interest in modern composers such as Stravinsky and Varèse, and his music reflects an interest in dissonant music and irregular rhythms. He is known for a great number of record releases and his humorous and satirical song lyrics. Zappa started his musical career as a drummer, but during most of his career, he fronted his bands as a guitarist and a vocalist. Zappa died from prostate cancer in 1993, and is today considered a rock legend world over. 
 
@@ -39,7 +39,7 @@ Text: Eigil Aandahl
 <figcaption></figcaption>
 </figure>
 
-Quote: “I function as a channel through which music emerges from the chaos of noise.” 
+Quote: _“I function as a channel through which music emerges from the chaos of noise.”_ 
 Evángelos Odysséas Papathanassíou, better known as Vangelis, is a Greek composer known especially for his electronic and orchestral film scores. Vangelis was born near Volos, Greece, in 1943. He was mostly self-taught as a musician, starting to practise music at an early age.
 Most notable as a film composer, he has made the scores for movies such as Chariots of Fire (1981) and Blade Runner (1982), and music from his scores has also been used outside of films. A pioneer in the use of synthesizers and characteristic style, he is considered one of the most influential composers of electronic music in history, and the impact of his works can be hard to miss in a wide array of musical genres today. 
 
@@ -53,7 +53,7 @@ Most notable as a film composer, he has made the scores for movies such as Chari
 Text: Elias Sukken Andersen
 
 <figure>
-<img src="/assets/img/Oeystein-Wyller-Odden.jpg" alt="patch_patch" width="40%" align="middle"/>
+<img src="/assets/img/Oeystein-Wyller-Odden.jpg" alt="patch_patch" width="45%" align="middle"/>
 <figcaption></figcaption>
 </figure>
 
@@ -76,13 +76,13 @@ Related work/accomplishment:
 Text: Jonas Bjordal
 
 <figure>
-<img src="/assets/img/Justin-Frankel.jpg" alt="patch_patch" width="40%" align="middle"/>
+<img src="/assets/img/Justin-Frankel.jpg" alt="patch_patch" width="45%" align="middle"/>
 <figcaption></figcaption>
 </figure>
 
 Justin Frankel (born 1978) is an American computer programmer known for founding Nullsoft, developing the music player WinAmp, and founding the company Cockos that has made the digital audio workstation Reaper. 
 
-"For me, coding is a form of self-expression. The company controls the most effective means of self-expression I have. This is unacceptable to me as an individual, therefore I must leave." – Quote after resigning from AOL. 
+_"For me, coding is a form of self-expression. The company controls the most effective means of self-expression I have. This is unacceptable to me as an individual, therefore I must leave."_ – Quote after resigning from AOL. 
 
 He was raised in Sedona, Arizona. His programming skills became apparent early in his childhood. He attended the University of Utah taking Computer Science. 
 
@@ -105,7 +105,7 @@ Text: Eirik Dahl
 <figcaption></figcaption>
 </figure>
 
-“I’d say that what we hear is the quality of our listening.”
+_“I’d say that what we hear is the quality of our listening.”_
 
 Robert Fripp (May 16th 1946) is a British musician born in Dorset, England. After receiving a “very cheap guitar” at age 11 he decided that the guitar would be his life. From early on he was influenced by jazz. His complete discography lists more than 700 releases, but he is most known as the guitarist in King Crimson.
 
@@ -130,7 +130,7 @@ My hero in music technology is the English sound artist Keith Rowe, born in 10th
 
 He started with jazz in 1960s and after a while, became interested in experimenting more and turned into free improvisation. That began from laying the guitar flat and playing it with various innovative techniques, and led to involving radio signals in that style of playing, and the creation of sonically new atmospheres. He used to pick up the radio signals with guitar pick-ups and broadcast them through an amplifier. 
 
-He was the pioneer of Electro Acoustic Improvisation (EAI) and many artists in relevant fields, including me, are influenced by him. Regarding that matter, he used to tell his students: “You are still young. There will come a day that you’ll learn how improvise.” 
+He was the pioneer of Electro Acoustic Improvisation (EAI) and many artists in relevant fields, including me, are influenced by him. Regarding that matter, he used to tell his students: _“You are still young. There will come a day that you’ll learn how improvise.”_ 
 
 
 
@@ -149,7 +149,7 @@ Text: Karolina Jawad
 
 Laurie Spiegel, born September 20, 1945, in Chicago Illinois, US.
 
-“I think of something and want to find it. Or make it if I can’t find it  (…). This is why I have worked hard (.) (T)o make it easier for more people to be able to express themselves in music and art by use of new technology.“
+_“I think of something and want to find it. Or make it if I can’t find it  (…). This is why I have worked hard (.) (T)o make it easier for more people to be able to express themselves in music and art by use of new technology.“_
 
 Laurie tinkered from an early age on, she described herself as a 'shy, awkward nerd girl' and taught herself technological skills and playing classic instruments. At the Bell Labs, Laurie composed 'The Expanding Universe' (1973-1980) on a computer-analog hybrid system named 'GROOVE'. After pioneering the NY new music scene in the early 1980s, she withdrew to focus mainly on developing an intelligent composition software called 'Music Mouse'. 
 
@@ -169,7 +169,7 @@ Text: Jørgen Nygård Varpe
 <figcaption></figcaption>
 </figure>
 
-“I can hear my piano played six or seven times every half an hour on the FM station I listen to each morning”
+_“I can hear my piano played six or seven times every half an hour on the FM station I listen to each morning”_
 
 Harold Burroughs Rhodes (1910-2000) was born in California, United States. He studied architectural engineering with a minor in music but dropped out to support his family during the Great Depression, working as a piano teacher. During WW2, he taught upwards of 150,000 wounded soldiers to play and build a bedside, portable piano called “Xylette”. He is well known for developing the Rhodes Method teaching course and for the invention of the famous Rhodes Electric Piano in the 1960s, which revolutionized the sound of jazz and pop of the decade. The Rhodes sound is still today extremely popular and used in many different genres, notably jazz, pop, funk, rock and R&B.
 
@@ -187,7 +187,7 @@ Text: Ashane Silva
 <figcaption></figcaption>
 </figure>
 
-“Don’t be your own worst enemy. Just go for it! Stop making excuses!” 
+_“Don’t be your own worst enemy. Just go for it! Stop making excuses!”_ 
 
 Misha Mansoor (1984-Present) is an American guitarist and a music producer born in Bethesda, Maryland, United States. He is also known as “Bulb” for his solo project where he slowly gained reputation by posting his music on the Internet. And later he became the founder of his band “Periphery”. 
 
@@ -207,7 +207,7 @@ Text: Samuel Roman
 <figcaption></figcaption>
 </figure>
 
-“As far as the rock 'n' roll format in dance music goes, I don't think it's been done before with such full-on attitude. The idea behind that was because no-one else hade done it. Everything was right at the time for us to do that.”
+_“As far as the rock 'n' roll format in dance music goes, I don't think it's been done before with such full-on attitude. The idea behind that was because no-one else hade done it. Everything was right at the time for us to do that.”_
 
 Born is Essex, England in 1971, Liam Howlett is the musical force behind the Prodigy, known as "the Godfathers of Rave”, one of the most successful electronic acts of all time. He is the founder, writer, mixer, and producer for the act responsible for bringing rave music and culture to the mainstream, selling a total estimated of 30 million records worldwide.
 
@@ -228,7 +228,7 @@ Text: Shreejay Shrestha
 </figure>
 
 
-“A musician's or artist's responsibility is a simple one, and that is, through your music to tell the truth.”
+_“A musician's or artist's responsibility is a simple one, and that is, through your music to tell the truth.”_
 
 Born in May 30, 1964, Thomas Baptiste Morello is known as Tom Morello. He is an American musician, singer, songwriter, actor as well as political activist. He attended Harvard University and earned a Bachelor of Arts degree in Social Studies. He has won two Grammy awards for ‘Tire Me’ in 1996 and ‘Guerrilla Radio’ in 2000. He is best known for his contribution with the band Rage Against the Machine and Audioslave that created many popular and influential rock hits in the 1990s. He is equally famous for his unique guitar playing style that includes heavy metal/punk hybrid riffs and hip hop inspired sounds using various effects. Currently he is teaching electric guitar through the online portal www.masterclass.com
 
@@ -258,11 +258,11 @@ Lars Dietrich is a Dutch saxophonist, composer and electronic musician. He grew 
 Text: Espen Wik
 
 <figure>
-<img src="/assets/img/Karlheinz-Stockhausen.jpg" alt="patch_patch" width="60%" align="middle"/>
+<img src="/assets/img/Karlheinz-Stockhausen.jpg" alt="patch_patch" width="50%" align="middle"/>
 <figcaption></figcaption>
 </figure>
 
-«I didn’t break anything... I just left it as it is. But, I added a lot of new works...»
+_«I didn’t break anything... I just left it as it is. But, I added a lot of new works...»_
 
 German composer/theoretician. Born: Mödrath, Germany.
 
