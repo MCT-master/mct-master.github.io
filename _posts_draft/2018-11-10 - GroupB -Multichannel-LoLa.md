@@ -18,12 +18,12 @@ and fail on your own. Often you also learn much more when you're not being feede
 
 In Oslo and Trondheim, we were on different stages regarding the audio multichannel setup. The equipment we were going to use 
 was also not the same in the two respective cities - and we were a little confused to begin with (at least in Oslo). In 
-Trondheim there was only one multichannel box, and in Oslo there was two! One for input and one for output. We had no idea 
+Trondheim there was only one multichannel box while in Oslo, there were two, each for input and output. We had no idea 
 which cable to put in where, but at least, we could start with finding power supply cables in the storage room. We soon 
 figured out that some cables were missing to be able to connect the multichannel boxes to LoLa. We figured out that we had to 
 send out a distress call to Alexander, who was able to come and help us later the same day. 
 
-While we were waiting for help, we were trying to set up stereo audio with LoLa, as Anders had demonstrated for us some weeks 
+While we were waiting for help, we were trying to set up stereo audio with LoLa, as Anders had demonstrated us some weeks 
 ago. It looked so easy when he did it, but now we were only able to hear some distorted noises. What were we doing wrong? 
 
 Finally Alexander arrived, and we went to get the extra cables we needed for the multichannel box. We set everything up with 
@@ -34,14 +34,14 @@ AD/DA converters. What are they?
 
 In th Oslo side we used two converters. We used the RME OctaMicII 8 - channel Analog to Digital converter as the inputs for the LoLa.This preamp was connected to LoLa computer's soundcard using an optical cable. Now the inputs are set. where are the outputs? 
 
-well, We used the Solid State Logic XLogic Alpha-Link MADI AX as a Digital to Analog converter(because we are now converting the digital audio from the PC sound card to analog audio).Now the PC soundcard is connected to this SSL Alpha - Link converter using another Optical cable. But route the outputs to speakers we had use a breakout cable whcih was connected to the SSL converter.Basically now we have multi-channel audio from LoLa. 
+Well, we used the Solid State Logic XLogic Alpha-Link MADI AX as a Digital to Analog converter(because we are now converting the digital audio from the PC sound card to analog audio).Now the PC soundcard is connected to this SSL Alpha - Link converter using another Optical cable. But route the outputs to speakers we had use a breakout cable whcih was connected to the SSL converter.Basically now we have multi-channel audio from LoLa. 
 
 <img src="https://github.com/MCT-master/mct-master.github.io/blob/master/assets/img/Group%20B%20LoLa%20converters%201.jpg">
 
 
 RME TotalMix in a nut shell 
 
-How can we control the levels? Thats is where the RME Total MiX software comes in. The top section(Hardware Inputs) is basically the Inputs.( ADAT 1 = input 1 , ADAT 2 = inout2 of octaMic II and so on ). The Bottom section is where you see the outputs for the SSL Converter. The Middle section(Software Inouts) is where we can monitor the sound we get from the otherside. Now can route those sounds to outputs of the SSL converter just by using the RME Total Mix. 
+How can we control the levels? That is where the RME Total MiX software comes in. The top section(Hardware Inputs) is basically the Inputs.( ADAT 1 = input 1 , ADAT 2 = inout2 of octaMic II and so on ). The Bottom section is where you see the outputs for the SSL Converter. The Middle section(Software Inouts) is where we can monitor the sound we get from the otherside. Now can route those sounds to outputs of the SSL converter just by using the RME Total Mix. 
 
 <img src="https://github.com/MCT-master/mct-master.github.io/blob/master/assets/img/Group%20B%20LoLa%20RME%20TotalMix.jpg">
 
@@ -49,7 +49,7 @@ Anything else?
 
 LoLa dosen't like to have different buffer sizes. It has to be 32 bit or 64 bi on each side. Otherwise you will get some creepy sounds like this. It is super easy to change those settings from the "Hammerfall DSP settings".
 
-Well, Everything was workig perfectly until friday and something unexpected happened. We started to get the distroted sound agian. Right away we chacked the buffer size and it was fine. But after so much struggle we found that there is a Audio Packet drop from Oslo side. The LoLa Network status window is helpful to monitor those kind of things. We suspect that this is due somekind of a network issue. Hopefully it will be solved soon. 
+Well, Everything was workig perfectly until friday and something unexpected happened. We started to get the distroted sound agian. Right away we checked the buffer size and it was fine. But after so much struggle we found that there is a Audio Packet drop from Oslo side. The LoLa Network status window is helpful to monitor those kind of things. We suspect that this is due somekind of a network issue. Hopefully it will be solved soon. 
 
 ^This was solved by finding a different path from Trondheim to Oslo which resulted in less packet loss. Think of it as someone running really fast with a lot of boxes and having to trip, dropping some of the boxes.
 
