@@ -8,7 +8,7 @@ comments: true
 ---
 
 <figure>
-<img src="" alt="" width="40%" />
+<img src="https://github.com/MCT-master/mct-master.github.io/blob/master/assets/img/LolaScreen.jpg" alt="" width="40%" />
 </figure>
 
 The objective this week was very clear from the start, we had to set up the audio multichannel for LoLa. There was just one
@@ -16,11 +16,15 @@ problem: our great LoLa supervisor Anders, was sick, and we were left to figure 
 great challenge, but we like challenges. It might take much more time, but it's another experience when you are forced to try 
 and fail on your own. Often you also learn much more when you're not being feeded all the answers from an expert.
 
+<figure>
+<img src="https://github.com/MCT-master/mct-master.github.io/blob/master/assets/img/MultiChannelBox.jpg" alt="" width="40%" />
+</figure>
+
 In Oslo and Trondheim, we were on different stages regarding the audio multichannel setup. The equipment we were going to use 
 was also not the same in the two respective cities - and we were a little confused to begin with (at least in Oslo). In 
 Trondheim there was only one multichannel box while in Oslo, there were two, each for input and output. We had no idea 
 which cable to put in where, but at least, we could start with finding power supply cables in the storage room. We soon 
-figured out that some cables were missing to be able to connect the multichannel boxes to LoLa. We figured out that we had to 
+figured out that some cables were missing to be able to connect the multichannel boxes to LoLa. We found out that we had to 
 send out a distress call to Alexander, who was able to come and help us later the same day. 
 
 While we were waiting for help, we were trying to set up stereo audio with LoLa, as Anders had demonstrated us some weeks 
@@ -30,6 +34,13 @@ Finally Alexander arrived, and we went to get the extra cables we needed for the
 two speakers and a Shure SM58 microphone, but still, nothing. Again, the only thing we could hear was some distorted cracks 
 and noises.
 
+<figure>
+<img src="https://github.com/MCT-master/mct-master.github.io/blob/master/assets/img/MultiMultiOutput.jpg" alt="" width="40%" />
+</figure>
+
+<figure>
+<img src="https://github.com/MCT-master/mct-master.github.io/blob/master/assets/img/InputLolaRME.jpg" alt="" width="40%" />
+</figure>
 AD/DA converters. What are they? 
 
 In th Oslo side we used two converters. We used the RME OctaMicII 8 - channel Analog to Digital converter as the inputs for the LoLa.This preamp was connected to LoLa computer's soundcard using an optical cable. Now the inputs are set. where are the outputs? 
