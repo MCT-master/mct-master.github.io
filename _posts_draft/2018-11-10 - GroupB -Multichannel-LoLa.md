@@ -8,7 +8,7 @@ comments: true
 ---
 
 <figure>
-<img src="https://github.com/MCT-master/mct-master.github.io/blob/master/assets/img/LolaScreen2.jpg" alt="" width="50%" />
+<img src="https://github.com/MCT-master/mct-master.github.io/blob/master/assets/img/LolaScreen3.jpg" alt="" width="50%" />
 </figure>
 
 The objective this week was very clear from the start, we had to set up the audio multichannel for LoLa. There was just one
@@ -20,9 +20,6 @@ and fail on your own. Often you also learn much more when you're not being feede
 <img src="https://github.com/MCT-master/mct-master.github.io/blob/master/assets/img/MultiChannelBox.jpg" alt="" width="50%" />
 </figure>
 
-<figure>
-<img src="https://github.com/MCT-master/mct-master.github.io/blob/master/assets/img/RequestTimedOut.jpg" alt="" width="50%" />
-</figure>
 
 In Oslo and Trondheim, we were on different stages regarding the audio multichannel setup. The equipment we were going to use 
 was also not the same in the two respective cities - and we were a little confused to begin with (at least in Oslo). In 
