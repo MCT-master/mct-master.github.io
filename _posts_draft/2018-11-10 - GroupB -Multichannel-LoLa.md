@@ -8,7 +8,7 @@ comments: true
 ---
 
 <figure>
-<img src="https://github.com/MCT-master/mct-master.github.io/blob/master/assets/img/LolaScreen3.jpg" alt="" width="50%" />
+<img src="https://github.com/MCT-master/mct-master.github.io/blob/master/assets/img/LolaScreen2.jpg" alt="" width="50%" />
 </figure>
 
 The objective this week was very clear from the start, we had to set up the audio multichannel for LoLa. There was just one
