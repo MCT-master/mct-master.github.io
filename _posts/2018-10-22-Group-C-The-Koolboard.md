@@ -110,7 +110,7 @@ The effects used within that plugin were of the likes of grain delay, flanger, t
 The result of the processing within the plugins as well as the Hadron Particle Synthesizer was then sent back out of the external soundcard in stereo to the mixer to Oslo for them to hear and process it further.
 
 <figure>
-<img src="/assets/img/Group C DSP Reaper setup.PNG" alt="Reaper setup" width="40%" align="middle"/>
+<img src="/assets/img/Group C DSP Reaper setup.PNG" alt="Reaper setup" width="60%" align="middle"/>
 <figcaption>Reaper setup</figcaption>
 </figure>
 
