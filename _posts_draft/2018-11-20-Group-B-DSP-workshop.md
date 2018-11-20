@@ -27,4 +27,27 @@ Performance
     improvisation
     recording (can be taken from LoLa computer in Trondheim)
     
+    <figure>
+<img src="https://github.com/MCT-master/mct-master.github.io/blob/master/assets/img/groupB/mariashane.jpg?raw=true" alt="csound" width="50%" />
+</figure>
+
+<figure>
+<img src="https://github.com/MCT-master/mct-master.github.io/blob/master/assets/img/groupB/ashane.jpg?raw=true" alt="csound" width="50%" />
+</figure>
+
+<figure>
+<img src="https://github.com/MCT-master/mct-master.github.io/blob/master/assets/img/groupB/kulsupersynth.jpg" alt="csound" width="50%" />
+</figure>
+
+<figure>
+<img src="https://github.com/MCT-master/mct-master.github.io/blob/master/assets/img/groupB/stash.jpg?raw=true" alt="csound" width="50%" />
+</figure>
+
+<figure>
+<img src="https://github.com/MCT-master/mct-master.github.io/blob/master/assets/img/groupB/supersynth.jpg?raw=true" alt="csound" width="50%" />
+</figure>
+
+
+    
+    
     <iframe width="560" height="315" src="https://www.youtube.com/embed/ylhL8e20YFI" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
