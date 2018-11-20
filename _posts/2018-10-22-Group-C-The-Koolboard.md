@@ -56,3 +56,64 @@ What learning that actually culminates in each student is subjective, but for so
 </figure>
 
 
+
+## Expansion of the instrument:  
+
+This addition to the Koolboard builds upon the concept of being able to physically interact with the instrument to shape the sound. One of the wishes in the group was to add microphone inputs in the signal chain and that is a central part of this expansion. It derives from the DSP workshop in which we also got an opportunity to test it in a performance setting. The hands-on nature of the instrument further adds to conveying the visual componenent of the musical actions within a performance.
+
+<figure>
+<img src="/assets/img/Group C DSP Whole instrument.jpg" alt="Group C DSP CSound code" width="60%" align="middle"/>
+<figcaption>The whole expansion of the instrument</figcaption>
+</figure>
+
+
+## How it works:
+
+### The sound material:
+The instrument makes use of waveguides simulating the transient of a string using the input signal from the contact microphones as a source. They're attached to their respective cardboard box which transfer the sound of the interactions on it to an external sound card. The reasoning behind the choice of going for the piezo route was to ensure that unintentional feedback was kept at a minimum.
+
+### CSound code:
+
+The code contains a few processing techniques that will be briefly explained.
+
+Pitch modulation (MIDI key mapping to adjust the pitch of the string waveguide by setting the corresponding delay time frequency as well as vibrato control.)
+
+Lowpass filter (helps taming the sound dynamically and also has an interesting side effect of pitching down the sound slightly when hard filtering due to the increase in delay time in the feedback loop).
+
+Saturation (Can be used as a tool to make the sound more aggresive while still being pleasant due to the soft clipping. A mix control that fades between wet and dry signal is used to maintain the same level of output at all times.)
+
+Reverb (effective way to shape the size of the sound. The same type of effect level control as in the saturation is used here as well.)
+
+<figure>
+<img src="/assets/img/Group C DSP CSound code.PNG" alt="Group C DSP CSound code" width="60%" align="middle"/>
+<figcaption>Csound code</figcaption>
+</figure>
+
+
+### Cabbage:
+
+Cabbage is a software serving as a middelware between CSound and DAWs that can be used to create VST plugins. This is done to centralize the instrument inside a DAW making it possible to combine multiple VST's and inputs from both microphones as well as MIDI controllers.
+
+Even though one of its features is to design a GUI, the decision was made to keep it minimalistic with black and white interface with a debugging screen in order to have total control of what’s going on. Cabbage can be a bit unstable, so this feature helped a lot during troubleshooting.
+
+
+### DAW:	
+
+Reaper was chosen for this purpose at it is very cooperative with the Cabbage plugins as well as being Jonas' digital audio workstation of choice.
+
+Here the contact microphone signals run to their own dedicated tracks before routing them further to two tracks with separate MIDI controller inputs.
+
+A third party unique processing plugin made by Øyvind Brantsegg called Hadron was also used.
+The plugin can load four different processing effects that can be mapped to each corner of a XY pad. This way two knobs could be mapped to fade in between these effects as desired throughout the performance.
+The effects used within that plugin were of the likes of grain delay, flanger, tremolo.
+
+The result of the processing within the plugins as well as the Hadron Particle Synthesizer was then sent back out of the external soundcard in stereo to the mixer to Oslo for them to hear and process it further.
+
+<figure>
+<img src="/assets/img/Group C DSP Reaper setup.PNG" alt="Reaper setup" width="40%" align="middle"/>
+<figcaption>Reaper setup</figcaption>
+</figure>
+
+### Conclusion:
+
+Once set up the instrument quickly became intuitive to use for all of the team members in Trondheim. We also managed to express ourselves during the performance with a large variety of sounds even though the source material originated from handling a cardboard box. As the instrument requires you to play on the cardboard box as well as handling the MIDI keyboard and its slider controls it can literally get out of hand as well. You might want to have a seperate performer playing the box and another to ensure that you're not limited, and as long as you communicate well and observe each other then it will not be a limitation to the musicality.
