@@ -43,6 +43,26 @@ Your browser does not support the audio element.
 <figcaption>Crazy song</figcaption>
 </figure>
 
+## Making new instruments and plugins
+
+On Thursday, we learned how to make VST instruments and plugins with Csound and Cabbage. Which took it all to a new level. Now it wasn't just experimenting with crazy sounds, now we were able to make tools and instruments we could use for performance and music production. This day we also were able to do a cross-campus impro performance that we recorded:
+
+<figure align="middle">
+<audio controls="">
+<source src="https://github.com/MCT-master/mct-master.github.io/blob/master/assets/sounds/GroupBimpro.mp3" type="audio/mp3" volume="0.2" />
+Your browser does not support the audio element.
+</audio>
+<figcaption>Shreejay and Mari impro</figcaption>
+</figure>
+
+Mari used a midikeyboard to play the VST instrument she made, which was based on a basic saw synth from the Csound tutorial page. From Oslo she was able to manipulate the synth with reverb and ring modulator-effects, also made in Cabbage and Csound. The sound signal was sent to Trondheim through Lola, where Shreejay manipulated the sound from Oslo. (Maybe you can explain further here, Shreejay?)
+
+Then the signal was sent back again, and we think the result was a very nice and relaxing ambient soundscape. Quote from one of Mari's friends: "I could listen to this a whole day".
+
+<figure>
+<img src="https://github.com/MCT-master/mct-master.github.io/blob/master/assets/img/groupB/supersynth.jpg?raw=true" alt="csound" width="50%" />
+</figure>
+
 
 <br> <br>
 Notes:
@@ -76,9 +96,7 @@ Performance
 <img src="https://github.com/MCT-master/mct-master.github.io/blob/master/assets/img/groupB/stash.jpg?raw=true" alt="csound" width="50%" />
 </figure>
 
-<figure>
-<img src="https://github.com/MCT-master/mct-master.github.io/blob/master/assets/img/groupB/supersynth.jpg?raw=true" alt="csound" width="50%" />
-</figure>
+
 
 
     
