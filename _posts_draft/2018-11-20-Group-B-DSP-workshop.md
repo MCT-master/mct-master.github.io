@@ -11,11 +11,13 @@ comments: true
 <img src="" alt="csound" width="50%" />
 </figure>
 
+The 4 day DSP workshop introduced basics of Digital Signal Processing techniques. We were given few examples in Csound that generated different kinds of sounds. The exercises allowed us to take the ownership of the codes while modifying and creating new sounds. We used simple operations like addition and multiplication to process the digital signals.  We enjoyed experimenting with digital waveguides to model sounds travelling through strings and also manipulating with reverbs delay, envelope etc. Trondheim team also built an instrument with a piece of wood connected to a contact mic and used it in some of the tasks.
+
 
 Notes:
 
 Quick rundown of the buildup during the workshop
-  working mostly in pairs
+  working mostly in paithatrs
   incremently building our instrument
 Performance
   testing our signal chain with lola
