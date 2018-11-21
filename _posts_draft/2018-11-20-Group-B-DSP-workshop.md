@@ -55,7 +55,7 @@ Your browser does not support the audio element.
 <figcaption>Shreejay and Mari impro</figcaption>
 </figure>
 
-Mari used a midikeyboard to play the VST instrument she made, which was based on a basic saw synth from the Csound tutorial page. From Oslo she was able to manipulate the synth with reverb and ring modulator-effects, also made in Cabbage and Csound. The sound signal was sent to Trondheim through Lola, where Shreejay manipulated the sound from Oslo. (Maybe you can explain further here, Shreejay?)
+Mari used a midikeyboard to play the VST instrument she made, which was based on a basic saw synth from the [Cabbage beginner page.](http://cabbageaudio.com/docs/beginner_synth/?fbclid=IwAR3GcRXna3ib5dgD0J8BTKjtalecbLCgwL0fv_ZaH3DiFhJVPeDIW9VoDS4 "Cabbage beginner synth")  From Oslo she was able to manipulate the synth with reverb and ring modulator-effects, also made in Cabbage and Csound. The sound signal was sent to Trondheim through Lola, where Shreejay manipulated the sound from Oslo. (Maybe you can explain further here, Shreejay?)
 
 Then the signal was sent back again, and we think the result was a very nice and relaxing ambient soundscape. Quote from one of Mari's friends: "I could listen to this a whole day".
 
