@@ -8,7 +8,7 @@ comments: true
 ---
 
 <figure>
-<img src="https://github.com/MCT-master/mct-master.github.io/blob/master/assets/img/groupB/mariashane.jpg?raw=true" alt="csound" width="50%" />
+<img src="https://github.com/MCT-master/mct-master.github.io/blob/master/assets/img/groupB/mariashane.jpg?raw=true" alt="csound" width="70%" />
 </figure>
 
 ## Abstract
