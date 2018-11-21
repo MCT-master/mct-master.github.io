@@ -274,4 +274,22 @@ Stockhausen (1928-2007) grew up as Germany was devoured by the ideology of Natio
 
 In 1952 he went to Paris and, under the guidance of composers like Oliver Messiaen and Darius Milhaud, Stockhausen was to become one of the 20th century’s greatest influencers on contemporary music. Leaving behind him works such as «Gesang der Jünglinge» his pioneering in electronic music can hardly be overestimated, with an impact that spans from Avant-garde to the realm of pop.
   
+  ## Photo Sourches
   
+Photo credit: Ebet Roberts/Redferns (1984) "Robert Fripp" 
+Retrieved from URL:
+https://www.newsounds.org/story/ask-john-schaefer-anything-can-a-musician-be-too-virtuosic/
+Date 16/11/2018
+
+PHOTO: Larry Busacca, Getty Images (2015 "Tom Morello"
+Retrieved from : https://www.guitarplayer.com/players/tom-morello-tells-guitarists-gear-doesnt-matter
+Date : 1st November, 2018
+
+Photo: Stan Bratman, courtesy Laurie Spiegel.(1971)
+Title: "Laurie Spiegel with her analog synthesizer and reel-to-reel tape recorders in 1971."
+Picture title retrieved from URL:
+https://nmbx.newmusicusa.org/laurie-spiegel-grassroots-technologist/Date 18/11/2018
+
+Instagram citation: 
+Username (lars.dietrich). (2016, August). [Instagram post]. Retrieved from URL:
+https://scontent-arn2-1.cdninstagram.com/vp/da9216347fd5281682a1349246d1cd12/5CA9E3C3/t51.2885-19/s150x150/36771109_194599607876898_8504712472228265984_n.jpg
