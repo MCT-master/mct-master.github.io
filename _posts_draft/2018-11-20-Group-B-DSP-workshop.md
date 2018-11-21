@@ -30,7 +30,7 @@ Ashane and Mari found a group room, and pretty soon our annoyance was turned int
 <source src="https://github.com/MCT-master/mct-master.github.io/blob/master/assets/sounds/string11.wav" type="audio/wav" volume="0.2" />
 Your browser does not support the audio element.
 </audio>
-<figcaption>Noise jam excerpt</figcaption>
+<figcaption>Crazy sound</figcaption>
 </figure>
 
 Bit by bit we were able to make more crazy sounds, and then we learned how to make crazy melodies. Here is another “song”:
@@ -40,7 +40,7 @@ Bit by bit we were able to make more crazy sounds, and then we learned how to ma
 <source src="https://github.com/MCT-master/mct-master.github.io/blob/master/assets/sounds/Task3Mari.wav" type="audio/wav" volume="0.2" />
 Your browser does not support the audio element.
 </audio>
-<figcaption>Noise jam excerpt</figcaption>
+<figcaption>Crazy song</figcaption>
 </figure>
 
 
