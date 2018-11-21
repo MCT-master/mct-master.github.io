@@ -8,14 +8,14 @@ comments: true
 ---
 
 <figure>
-<img src="" alt="csound" width="50%" />
+<img src="https://github.com/MCT-master/mct-master.github.io/blob/master/assets/img/groupB/mariashane.jpg?raw=true" alt="csound" width="50%" />
 </figure>
 
 ## Abstract
 
 The 4 day DSP workshop introduced basics of Digital Signal Processing techniques. We were given few examples in Csound that generated different kinds of sounds. The exercises allowed us to take the ownership of the codes while modifying and creating new sounds. We used simple operations like addition and multiplication to process the digital signals.  We enjoyed experimenting with digital waveguides to model sounds travelling through strings and also manipulating with reverbs delay, envelope etc. Trondheim team also built an instrument with a piece of wood connected to a contact mic and used it in some of the tasks.
 
-## The C stands for Crazy
+## C stands for Crazy
 
 Until now, the DSP workshop week must have been one of the funniest weeks of the MCT Introduction course, and one of the weeks with the steepest learning curve for several of us. The week started with a Csound test that was unbelievably difficult for some of us, and more easier for others of us. Those of us who thought the test was difficult, were maybe a little worried about what this week would be bringing up of challenges. At least *one* of us, was worried if this week was going to include a lot of math. As it seemed like Csound mostly was a program for solving math problems, not making music  …. or?
 
@@ -44,7 +44,7 @@ Your browser does not support the audio element.
 </figure>
 
 
-
+<br> <br>
 Notes:
 
 Quick rundown of the buildup during the workshop
