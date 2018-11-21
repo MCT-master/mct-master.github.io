@@ -17,7 +17,7 @@ The 4 day DSP workshop introduced basics of Digital Signal Processing techniques
 
 ## C stands for Crazy
 
-Until now, the DSP workshop week must have been one of the funniest weeks of the MCT Introduction course, and one of the weeks with the steepest learning curve for several of us. The week started with a Csound test that was unbelievably difficult for some of us, and more easier for others of us. Those of us who thought the test was difficult, were maybe a little worried about what this week would be bringing up of challenges. At least *one* of us, was worried if this week was going to include a lot of math. As it seemed like Csound mostly was a program for solving math problems, not making music  …. or?
+Until now, the DSP workshop week must have been one of the funniest weeks of the MCT Introduction course, and one of the weeks with the steepest learning curve for several of us. The week started with a Csound test that was unbelievably difficult for some of us, and more easy for others of us. Those of us who thought the test was difficult, were maybe a little worried about what this week would be bringing up of challenges. At least *one* of us, was worried if this week was going to include a lot of math. As it seemed like Csound mostly was a program for solving math problems, not making music  …. or?
 
 ## Go ahead and make something!
 
