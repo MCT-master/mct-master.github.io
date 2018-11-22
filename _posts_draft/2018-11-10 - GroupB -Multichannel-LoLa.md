@@ -8,7 +8,7 @@ comments: true
 ---
 
 <figure>
-<img src="https://github.com/MCT-master/mct-master.github.io/blob/master/assets/img/MultiChannelBox.jpg" alt="" width="50%" />
+<img src="/assets/img/MultiChannelBox.jpg" alt="" width="50%" />
 </figure>
 
 The objective this week was very clear from the start, we had to set up multichannel audio for LoLa. There was just one
@@ -16,6 +16,7 @@ problem: our great LoLa supervisor, Anders, was sick, and we were left to figure
 great challenge, but we like challenges. It might take a little more time, but it's another experience when you are forced to try 
 and fail on your own. Often you also learn much more when you're not being fed all the answers from an expert.
 
+## Setting up multichannel audio
 
 In Oslo and Trondheim, we were on different stages regarding the multichannel audio setup. The equipment was also not the same in the two respective cities - and we were a little confused to begin with (at least in Oslo). In Trondheim there was only one box to convert the channels while in Oslo, there were two, each for input and output. We had no idea 
 which cable to put in where, but at least, we could start with finding power cables in the storage room. We soon 
@@ -32,11 +33,11 @@ two speakers and a Shure SM58 microphone, but still, nothing. Again, the only th
 and noises.
 
 <figure>
-<img src="https://github.com/MCT-master/mct-master.github.io/blob/master/assets/img/MultiMultiOutput.jpg" alt="" width="50%" />
+<img src="/assets/img/MultiMultiOutput.jpg" alt="" width="50%" />
 </figure>
 
 <figure>
-<img src="https://github.com/MCT-master/mct-master.github.io/blob/master/assets/img/InputLolaRME.jpg" alt="" width="50%" />
+<img src="/assets/img/InputLolaRME.jpg" alt="" width="50%" />
 </figure>
 AD/DA converters. What are they? 
 
@@ -44,26 +45,27 @@ In Oslo, we used two converters to get sound in and out of LoLa. We used an RME 
 
 Well, we used a Solid State Logic XLogic Alpha-Link MADI AX as a Digital to Analog converter (because we are now converting the digital audio from the PC sound card to analog audio). The PC soundcard is connected to an SSL Alpha - Link converter using another Optical cable. But to route the outputs to speakers we had use a breakout cable whcih was connected to the SSL converter.Basically now we have multi-channel audio from LoLa. 
 
-<img src="https://github.com/MCT-master/mct-master.github.io/blob/master/assets/img/Group%20B%20LoLa%20converters%201.jpg">
+<img src="/assets/img/Group%20B%20LoLa%20converters%201.jpg">
 
 
-###RME TotalMix in a nutshell
+## RME TotalMix in a nutshell
 
 How can we control the levels? That is where the RME Total MiX software comes in to control the PC soundcard. The top section (Hardware Inputs) shows the channels going into the computer (ADAT 1 = input 1 , ADAT 2 = inout2 of octaMic II and so on). The Bottom section is where you see the outputs for the SSL Converter. The Middle section (Software playback) is where we can monitor the sound we get through LoLa from the other side. These channels can be routed to outputs from the computer just by using RME Total Mix. 
 
-<img src="https://github.com/MCT-master/mct-master.github.io/blob/master/assets/img/Group%20B%20LoLa%20RME%20TotalMix.jpg">
-
-###Anything else?
+<img src="/assets/img/Group%20B%20LoLa%20RME%20TotalMix.jpg">
 
 LoLa dosen't work well with different buffer sizes. It has to be 32 or 64 samples on each side to make sure it has the lowest latency possible. Otherwise you will get some creepy sounds like this. 
 
-! Video/audio here
+<video controls>
+  <source src="/assets/video/groupB%20Lola%20Buffer%20Error%20Video.mp4" type="video/mp4" width="65%">
+Your browser does not support the video tag.
+</video>
 
 It is super easy to change those settings from the "Hammerfall DSP settings" which controls the settings of the soundcard.
 
-
-
 After having tested that it worked, the Trondheim portal was moved into the newly finished location. Then something unexpected happened. We started to get distorted sound agian. Right away we checked the buffer size and it was fine. But after much struggle, we found that there was loss of packets on the Oslo side. The LoLa Network status window is helpful to monitor those kind of things. We suspected that this was due to some kind of network issue, and it turned out to be a delay in the network when using a fibre connection. Aren't those supposed to be fast? The issue was solved by finding a different path from Trondheim to Oslo which resulted in less packet loss. Think of it as someone running really fast with a lot of boxes and having to trip, dropping some of the boxes. Perhaps taking it a bit slower was what we needed.
+
+## Finally getting to use it
 
 The result of our work came the next week, when we got to try out sending high quality audio on eight different channels each way between the two cities. This way, we could connect and transmit signals for the DSP workshop, and even have an audio effect in another city and get the sound back without a noticeable delay!
 
