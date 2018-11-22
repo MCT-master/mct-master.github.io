@@ -291,5 +291,20 @@ Picture title retrieved from URL:
 https://nmbx.newmusicusa.org/laurie-spiegel-grassroots-technologist/Date 18/11/2018
 
 Instagram citation: 
-Username (lars.dietrich). (2016, August). [Instagram post]. Retrieved from URL:
+Username: lars.dietrich (2016, August). [Instagram post]. Retrieved from URL:
 https://scontent-arn2-1.cdninstagram.com/vp/da9216347fd5281682a1349246d1cd12/5CA9E3C3/t51.2885-19/s150x150/36771109_194599607876898_8504712472228265984_n.jpg
+
+Instagram Citation:
+Username: theprodogyofficial  (1/10/2012) "Live from the idi Amin suite" 
+Retrieved from URL: 
+https://www.instagram.com/p/QONAnLLM95/
+Date 21/11/2018
+
+Photo credit: Helge Øverås (1977) "Frank Zappa"
+Retrieved from URL:
+https://upload.wikimedia.org/wikipedia/commons/c/c4/Zappa_16011977_01_300.jpg
+Date 22/11/2018
+
+Photo credit: Fender Rhodes Story (2015) "Harold Burroughs Rhodes (December 28, 1910 – December 17, 2000) #HBD #HaroldRhodes #Inventor #RhodesPiano"
+retrieved from URL: https://twitter.com/rhodesstory/status/681451529757392897
+Date: 21.11.2018
