@@ -46,10 +46,11 @@ Soundcheck and setup was a little chaotic, with all three teams due to play back
 **Well without further ado - our recording!**
 
 <video width="640" height="480" controls align="middle">
-  <source src="" type="video/mp4">
+  <source src="/assets/video/Ateam_DSPperform.mov" type="video/mp4">
   Your browser does not support the video tag.
 </video>
 <br>
+
 ### Technical and creative aspects
 Below you can see the signal chain of our group. Please make the embedded flowchart fullscreen, and press each group member's computer for their own DSP. 
 
