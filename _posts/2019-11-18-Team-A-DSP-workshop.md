@@ -190,4 +190,10 @@ In the end, there was a low pass filter used to roll off everything after 20hz a
 The sound source for the process, was the sound being sent from Jørgen’s laptop and basically we could say we were playing a joint instrument.
 Therefore it was important to each others style of playing and sound design.
 
+<video width="640" height="480" controls align="middle">
+  <source src="/assets/video/Ateam_video2.m4v" type="video/mp4">
+  Your browser does not support the video tag.
+</video>
+<br>
+
 _Team A_
