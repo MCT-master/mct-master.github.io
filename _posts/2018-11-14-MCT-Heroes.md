@@ -4,7 +4,7 @@ title:  "MCT Heroes"
 date:   2018-11-14 14:23
 categories: Posts
 author: Eirik Dahl and Karolina Jawad
-comments: true
+comments: false
 ---
 
 
