@@ -58,7 +58,11 @@ Your browser does not support the audio element.
 <figcaption>Shreejay and Mari improv</figcaption>
 </figure>
 
-Mari used a midikeyboard to play the VST instrument she made, which was based on a basic saw synth from the [Cabbage beginner page.](http://cabbageaudio.com/docs/beginner_synth/?fbclid=IwAR3GcRXna3ib5dgD0J8BTKjtalecbLCgwL0fv_ZaH3DiFhJVPeDIW9VoDS4 "Cabbage beginner synth")  From Oslo she was able to manipulate the synth with reverb and ring modulator-effects, also made in Cabbage and Csound. The sound signal was sent to Trondheim through LoLa for further processing. The Trondheim team made an effect that sent the signal from Oslo through a virtual string that could be manipulated by playing on a midikeyboard and then add reverb.
+Mari used a midikeyboard to play the VST instrument she made, which was based on a basic saw synth from the [Cabbage beginner page.](http://cabbageaudio.com/docs/beginner_synth/?fbclid=IwAR3GcRXna3ib5dgD0J8BTKjtalecbLCgwL0fv_ZaH3DiFhJVPeDIW9VoDS4 "Cabbage beginner synth")  From Oslo she was able to manipulate the synth with reverb and ring modulator-effects, also made in Cabbage and Csound. 
+
+Ashane’s set up was made with a plunging consists of a reverb, delay and a saturation. The delay time was set to 200ms. The reverb and saturation can be controlled from knobs. This was used in combination with a percussion patch loaded in Ableton live.  The drum kit was loaded into a midi track and routed to the VST to make long repetitive kick, snare and cymbal sounds. The main idea was to provide some kind of a rhythmic pulse in the performance.
+
+Then the two sound signal was sent to Trondheim through LoLa for further processing. The Trondheim team made an effect that sent the signal from Oslo through a virtual string that could be manipulated by playing on a midikeyboard and then add reverb.
 
 Then the signal was sent back again, and we think the result was a very nice and relaxing ambient soundscape. Quote from one of Mari's friends: "I could listen to this a whole day".
 
