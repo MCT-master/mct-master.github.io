@@ -1,17 +1,12 @@
 ---
 layout: post
-<<<<<<< HEAD
 title: "A-team - DSP workshop blog"
-=======
-title: "A-team - DSP workshop"
->>>>>>> b83d1e2973474a16a56066ba6a85d88065777edd
 date: 2018-11-22 16:19:42 +0200
 categories: The portal
 author: Jørgen Varpe, Sepehr Haghighi, Espen Wik, Sam Roman
 ---
 
 <figure align="middle">
-<<<<<<< HEAD
 <img src="/assets/img/Ateam_dsp.png" alt="" width="100%">
 </figure>
 <br>
@@ -49,36 +44,11 @@ The last element we included was a synthesised drum beat. This was to add some p
 Soundcheck and setup was a little chaotic, with all three teams due to play back to back, with a whole host of technologies to keep track of. Even so, we managed to get everything set up in the end, and adjust what levels we needed. During the performance our recording clipped in some parts - the sound from Oslo was pushed a little heavy. This could have been from the mixer, or with the levels going through Lola. It is definitely something we would have liked to have avoided - but teaches us to be more careful with levels using Lola next time.
 
 **Well without further ado - our recording!**
-=======
-<img src="/assets/Ateam_dsp.png" alt="" width="100%">
-</figure>
-<br>
-
-<center><h2>DSP/Csound/Instrument Design/Network performance</h2></center>
-
-### Introduction to the DSP workshop
-
-### Instrument design and DSP methods
-
-#### Technical and creative aspects (potential and limitations)
-
-### Performance over LOLA
-
-
-<center><strong></strong></center>
-<figure align="middle">
-<img src="/assets/Ateam_Ateam.jpg" alt="" width="40%">
-<figcaption align="middle"><strong></strong></figcaption>
-</figure>
-</figure>
-
->>>>>>> b83d1e2973474a16a56066ba6a85d88065777edd
 
 <video width="640" height="480" controls align="middle">
   <source src="" type="video/mp4">
   Your browser does not support the video tag.
 </video>
-<<<<<<< HEAD
 <br>
 ### Technical and creative aspects
 Below you can see the signal chain of our group. Please make the embedded flowchart fullscreen, and press each group member's computer for their own DSP. 
@@ -218,7 +188,5 @@ In the end, there was a low pass filter used to roll off everything after 20hz a
 
 The sound source for the process, was the sound being sent from Jørgen’s laptop and basically we could say we were playing a joint instrument.
 Therefore it was important to each others style of playing and sound design.
-=======
->>>>>>> b83d1e2973474a16a56066ba6a85d88065777edd
 
 _Team A_
