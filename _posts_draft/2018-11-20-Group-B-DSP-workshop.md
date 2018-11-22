@@ -79,6 +79,7 @@ Setting up
 
 Shreejay couldn't join us that day, so our instrument would consist of three "nodes" with Mari's Csound synthesizer being the first in the chain.
 
+We tested out our signal levels and routing in a soundcheck which made the performance much comfortable. Started out as a very melow ambient sound and the percussive elements joined later. It felt really comfortable playing thrugh Lola with the amzing sound qaulity. The prcessing from the Trondehim side added a unique falvour to the sound and exaclty heading towards the concept we had in our minds.  
 
 
 Instrument Diagram
