@@ -308,3 +308,7 @@ Date 22/11/2018
 Photo credit: Fender Rhodes Story (2015) "Harold Burroughs Rhodes (December 28, 1910 – December 17, 2000) #HBD #HaroldRhodes #Inventor #RhodesPiano"
 retrieved from URL: https://twitter.com/rhodesstory/status/681451529757392897
 Date: 21.11.2018
+
+Dave M. Benett (2012) Vangelis - Image courtesy gettyimages.com
+URL: https://m.media-amazon.com/images/M/MV5BMTA1ODQzOTAwMDheQTJeQWpwZ15BbWU3MDA3NTIyMjg@._V1_SY1000_CR0,0,696,1000_AL_.jpg
+21.11.2018
