@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Group B, LoLa multichannel audio"
-date:   2018-11-20 02:00:00 +0200
+date:   2018-11-22 14:00:00 +0200
 categories: The Portal
 author: Mari Lesteberg, Ashane Silva, Shreejay Shrestha & Eigil Aandahl
 comments: true
