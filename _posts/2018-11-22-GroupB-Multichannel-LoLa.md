@@ -8,7 +8,8 @@ comments: true
 ---
 
 <figure>
-<img src="/assets/img/MultiChannelBox.jpg" alt="" width="50%" />
+<img src="/assets/img/MultiChannelBox.jpg" alt="Converter boxes" width="50%" />
+  <figcaption> The A/D and D/A converters in Oslo </figcaption>
 </figure>
 
 The objective this week was very clear from the start, we had to set up multichannel audio for LoLa. There was just one
@@ -33,33 +34,45 @@ two speakers and a Shure SM58 microphone, but still, nothing. Again, the only th
 and noises.
 
 <figure>
-<img src="/assets/img/MultiMultiOutput.jpg" alt="" width="50%" />
+<img src="/assets/img/MultiMultiOutput.jpg" alt="Breakout cables" width="50%" />
+  <figcaption>Breakout cables for analog signals </figcaption>
 </figure>
 
 <figure>
-<img src="/assets/img/InputLolaRME.jpg" alt="" width="50%" />
+<img src="/assets/img/InputLolaRME.jpg" alt="preamp inputs" width="50%" />
+  <figcaption> Preamp inputs</figcaption>
 </figure>
-AD/DA converters. What are they? 
+## AD/DA converters. What are they? 
 
 In Oslo, we used two converters to get sound in and out of LoLa. We used an RME OctaMicII 8 - channel Analog to Digital converter as the inputs for LoLa. This preamp was connected to the LoLa computer's soundcard using an optical cable sending ADAT. With the inputs connected, where are the outputs?
 
 Well, we used a Solid State Logic XLogic Alpha-Link MADI AX as a Digital to Analog converter (because we are now converting the digital audio from the PC sound card to analog audio). The PC soundcard is connected to an SSL Alpha - Link converter using another Optical cable. But to route the outputs to speakers we had use a breakout cable whcih was connected to the SSL converter.Basically now we have multi-channel audio from LoLa. 
 
-<img src="/assets/img/Group%20B%20LoLa%20converters%201.jpg">
-
+<figure>
+<img src="/assets/img/Group%20B%20LoLa%20converters%201.jpg" alt="Power switch">
+  <figcaption> The button has been switched on.</figcaption>
+</figure>
 
 ## RME TotalMix in a nutshell
 
 How can we control the levels? That is where the RME Total MiX software comes in to control the PC soundcard. The top section (Hardware Inputs) shows the channels going into the computer (ADAT 1 = input 1 , ADAT 2 = inout2 of octaMic II and so on). The Bottom section is where you see the outputs for the SSL Converter. The Middle section (Software playback) is where we can monitor the sound we get through LoLa from the other side. These channels can be routed to outputs from the computer just by using RME Total Mix. 
 
-<img src="/assets/img/Group%20B%20LoLa%20RME%20TotalMix.jpg">
+
+<figure>
+<img src="/assets/img/Group%20B%20LoLa%20RME%20TotalMix.jpg" alt="TotalMix window">
+  <figcaption>Routing signals in TotalMix</figcaption>
+</figure>
+
 
 LoLa dosen't work well with different buffer sizes. It has to be 32 or 64 samples on each side to make sure it has the lowest latency possible. Otherwise you will get some creepy sounds like this. 
 
+<figure>
 <video controls>
   <source src="/assets/video/groupB%20Lola%20Buffer%20Error%20Video.mp4" type="video/mp4" width="65%">
 Your browser does not support the video tag.
 </video>
+  <figcaption>Eigil speaking through LoLa with the wrong buffer settings. Video: Ashane</figcaption>
+ </figure>
 
 It is super easy to change those settings from the "Hammerfall DSP settings" which controls the settings of the soundcard.
 
