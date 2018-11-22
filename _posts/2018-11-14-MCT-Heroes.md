@@ -66,7 +66,7 @@ Education:
 
 Related work/accomplishment: 
 Øystein is known for his installations and objects, often with the use of sound and light. The work is about exposing and investigating structures in a given material. 
-Øystein are currently having an arts exhibition called “Mains Hum” at “Kunstnernes Hus” in Oslo. At the exhibition you can sit down on chairs from Oslo Catehdal, listen to the sound (through headphone) and feel the vibration (through a BassPump vibration element) of the “Mains Hum”, which consists of a mix of the sound of the church's power line hum and the organ composition based on this hum. 
+Øystein are currently having an arts exhibition called “Mains Hum” at “Kunstnernes Hus” in Oslo. At the exhibition you can sit down on chairs from Oslo Catehdral, listen to the sound (through headphone) and feel the vibration (through a BassPump vibration element) of the “Mains Hum”, which consists of a mix of the sound of the church's power line hum and the organ composition based on this hum. 
 
 
 
@@ -266,13 +266,13 @@ Text: Espen Wik
 
 _«I didn’t break anything... I just left it as it is. But, I added a lot of new works...»_
 
-German composer/theoretician. Born: Mödrath, Germany.
+German composer/theoretician. Born: Mödrath, Germany.
 
 Stockhausen (1928-2007) grew up as Germany was devoured by the ideology of Nationalsozialismus; it took its toll, also on the young composer, leaving him orphaned.
 
 1947-1951: Studies at The State Academy for Music in Cologne and The University of Cologne.
 
-In 1952 he went to Paris and, under the guidance of composers like Oliver Messiaen and Darius Milhaud, Stockhausen was to become one of the 20th century’s greatest influencers on contemporary music. Leaving behind him works such as «Gesang der Jünglinge» his pioneering in electronic music can hardly be overestimated, with an impact that spans from Avant-garde to the realm of pop.
+In 1952 he went to Paris and, under the guidance of composers like Oliver Messiaen and Darius Milhaud, Stockhausen was to become one of the 20th century’s greatest influencers on contemporary music. Leaving behind him works such as «Gesang der Jünglinge» his pioneering in electronic music can hardly be overestimated, with an impact that spans from Avant-garde to the realm of pop.
   
   ## Photo Sources
   
