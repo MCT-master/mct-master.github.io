@@ -44,6 +44,8 @@ DAW
 </object>
 
 
+<iframe width="450" height="253" src="https://www.youtube.com/watch?v=OfhaVj3nas4&feature=youtu.be" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen align="middle"></iframe> Oslo & Trondheim Jamming through the Portal
+
 ## Personal impressions regarding the performance
 
 Eirik (Trondheim): The performance of the piece was an interesting occasion. We had done some trials before the concert and what had emerged was the dichotomous nature of our setup. When using contact mics in the way we were, one gets a percussive input. Sustained notes are harder to produce than purely percussive, but can be produced by scratching or stroking the cardboard. On the other side, the MIDI controller we used has no real percussive function, but only serves to control the parameters of the contact mics signal. This leaves something to be desired when initially playing the MIDI keyboard. Nevertheless, this gets solved when one changes the way one thinks about playing the keyboard. Rather than looking at i as a trigger, it is helpful to look at it as a preset to the contact mic. First you define the chord by the MIDI controller, before rhythmically defining it through the contact mic.
