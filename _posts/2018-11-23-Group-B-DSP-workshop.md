@@ -35,7 +35,7 @@ Ashane and Mari found a group room, and pretty soon our annoyance was turned int
 <source src="/assets/sounds/string11.wav" type="audio/wav" volume="0.2">
 Your browser does not support the audio element.
 </audio>
-<figcaption>Crazy sound</figcaption>
+<figcaption>Crazy sound. Warning! This might be loud</figcaption>
 </figure>
 
 Bit by bit we were able to make more crazy sounds, and then we learned how to make crazy melodies. Here is another “song”:
@@ -45,7 +45,7 @@ Bit by bit we were able to make more crazy sounds, and then we learned how to ma
 <source src="/assets/sounds/Task3Mari.wav" type="audio/wav" volume="0.2">
 Your browser does not support the audio element.
 </audio>
-<figcaption>Crazy song</figcaption>
+<figcaption>Crazy song. Warning! This might be loud</figcaption>
 </figure>
 
 In Trondheim, Shreejay and Eigil worked on making impossible models of strings that resonate in series of itself, showing that DSP opens up for instruments not constrained by physical acoustics. Working incrementally, we started using audio from a contact microphone to excite our virtual strings and even change the pitch with MIDI control. Together we could play on a stick that sounded like a string.
