@@ -55,7 +55,7 @@ Most notable as a film composer, he has made the scores for movies such as Chari
 Text: Elias Sukken Andersen
 
 <figure>
-<img src="/assets/img/914812_1469589553301871_1561685244_n" alt="patch_patch" width="45%" align="middle"/>
+<img src="/assets/img/914812_1469589553301871_1561685244_n.jpg" alt="patch_patch" width="45%" align="middle"/>
 <figcaption></figcaption>
 </figure>
 
