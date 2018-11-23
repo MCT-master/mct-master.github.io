@@ -57,7 +57,7 @@ On Thursday, we learned how to make VST instruments and plugins with Csound and 
 
 <figure align="middle">
 <audio controls="">
-<source src="/assets/sounds/GroupBimpro.mp3" type="audio/mp3" volume="0.2" >
+<source src="/assets/sounds/Mari_and_Shreejay_cross_campus_jam_with_lola.mp3" type="audio/mp3" volume="0.2" >
 Your browser does not support the audio element.
 </audio>
 <figcaption>Shreejay and Mari's improv</figcaption>
