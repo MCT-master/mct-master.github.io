@@ -260,7 +260,7 @@ Lars Dietrich is a Dutch saxophonist, composer and electronic musician. He grew 
 Text: Espen Wik
 
 <figure>
-<img src="/assets/img/Karlheinz-Stockhausen.jpg" alt="patch_patch" width="50%" align="middle"/>
+<img src="/assets/img/we-stockhausen_1960carchives_stockausenfoundationformusic.jpg" alt="patch_patch" width="50%" align="middle"/>
 <figcaption></figcaption>
 </figure>
 
@@ -322,3 +322,7 @@ Source: https://www.flickr.com/photos/13715378@N00/2883007453/in/set-72157607478
 Photo credit: Justin Frankel (2012) "Justin Frankel" 
 Retrieved from URL: https://www.1014.org/index.php?article=489 
 Date 23/11/2018
+
+(Copyright:
+Karlheinz Stockhausen © 1960 Archives Stockausen Foundation for Music
+https://philharmoniedeparis.fr/en/activity/musique-de-chambre/15480-tokyo-1966)
