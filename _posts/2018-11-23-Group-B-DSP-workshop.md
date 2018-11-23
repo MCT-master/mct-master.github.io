@@ -32,7 +32,7 @@ Ashane and Mari found a group room, and pretty soon our annoyance was turned int
 
 <figure align="middle">
 <audio controls="">
-<source src="https://github.com/MCT-master/mct-master.github.io/blob/master/assets/sounds/string11.wav" type="audio/wav" volume="0.2">
+<source src="/assets/sounds/string11.wav" type="audio/wav" volume="0.2">
 Your browser does not support the audio element.
 </audio>
 <figcaption>Crazy sound</figcaption>
@@ -42,7 +42,7 @@ Bit by bit we were able to make more crazy sounds, and then we learned how to ma
 
 <figure align="middle">
 <audio controls="">
-<source src="https://github.com/MCT-master/mct-master.github.io/blob/master/assets/sounds/Task3Mari.wav" type="audio/wav" volume="0.2">
+<source src="/assets/sounds/Task3Mari.wav" type="audio/wav" volume="0.2">
 Your browser does not support the audio element.
 </audio>
 <figcaption>Crazy song</figcaption>
@@ -57,7 +57,7 @@ On Thursday, we learned how to make VST instruments and plugins with Csound and 
 
 <figure align="middle">
 <audio controls="">
-<source src="https://github.com/MCT-master/mct-master.github.io/blob/master/assets/sounds/GroupBimpro.mp3" type="audio/mp3" volume="0.2" >
+<source src="/assets/sounds/GroupBimpro.mp3" type="audio/mp3" volume="0.2" >
 Your browser does not support the audio element.
 </audio>
 <figcaption>Shreejay and Mari's improv</figcaption>
