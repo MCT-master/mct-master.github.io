@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Group B, DSP workshop"
-date:   2018-11-20 02:00:00 +0200
+date:   2018-11-23 13:50:00 +0200
 categories: DSP
 author: Mari Lesteberg, Ashane Silva, Shreejay Shrestha & Eigil Aandahl
 comments: true
