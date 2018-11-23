@@ -3,7 +3,7 @@ layout: post
 title:  "DSP Workshop Group C"
 date:   2018-11-23 15:43
 categories: Posts
-author: Jonas, Eirik, 
+author: Jonas, Eirik, Elias, Karolina & Guy
 comments: true
 ---
 
