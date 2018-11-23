@@ -20,7 +20,7 @@ The 4 day DSP workshop introduced some basics of Digital Signal Processing techn
 Until now, the DSP workshop must have been one of the funniest weeks of the MCT Introduction course, and one of the weeks with the steepest learning curve for several of us. The week started with a Csound test that was unbelievably difficult for some of us, and more easy for others of us. Those of us who thought the test was difficult, were maybe a little worried about what this week would be bringing of challenges. At least *one* of us, was worried if this week was going to include a lot of math. As it seemed like Csound mostly was a program for solving math problems, not making music... or?
 
 <figure>
-<img src="https://github.com/MCT-master/mct-master.github.io/blob/master/assets/img/groupB/kulsupersynth.jpg" alt="Mari's synthesizer" width="50%">
+<img src="/assets/img/groupB/kulsupersynth.jpg" alt="Mari's synthesizer" width="50%">
     <figcaption>Mari's supersynth </figcaption>
 </figure>
 
@@ -73,6 +73,7 @@ Then the signal was sent back again, and we think the result was a very nice and
 
 <figure>
 <img src="https://github.com/MCT-master/mct-master.github.io/blob/master/assets/img/groupB/supersynth.jpg?raw=true" alt="csound" width="50%">
+    <figcaption>Csound running with Cabbage in Reaper</figcaption>
 </figure>
 
 
