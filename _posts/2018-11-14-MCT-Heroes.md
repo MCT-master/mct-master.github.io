@@ -78,7 +78,7 @@ Related work/accomplishment:
 Text: Jonas Bjordal
 
 <figure>
-<img src="/assets/img/Justin-Frankel   .jpg" alt="patch_patch" width="45%" align="middle"/>
+<img src="/assets/img/image_489.jpg" alt="patch_patch" width="45%" align="middle"/>
 <figcaption></figcaption>
 </figure>
 
@@ -315,7 +315,10 @@ URL: https://m.media-amazon.com/images/M/MV5BMTA1ODQzOTAwMDheQTJeQWpwZ15BbWU3MDA
 
 
 Photo credit:Yuko Zama/Erstwhile Records (2008) "Keith Rowe performing solo at the AMPLIFY 2008 festival, Kid Ailack Art Hall, Tokyo"
- Source: https://www.flickr.com/photos/13715378@N00/2883007453/in/set-72157607478052549/
- 21.11.2018
+Source: https://www.flickr.com/photos/13715378@N00/2883007453/in/set-72157607478052549/
+21.11.2018
  
  
+Photo credit: Justin Frankel (2012) "Justin Frankel" 
+Retrieved from URL: https://www.1014.org/index.php?article=489 
+Date 23/11/2018
