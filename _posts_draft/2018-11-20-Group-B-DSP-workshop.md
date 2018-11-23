@@ -82,6 +82,10 @@ Shreejay couldn't join us that day, so our instrument would consist of three "no
 
 We tested out our signal levels and routing in a soundcheck which made the performance much comfortable. Started out as a very mellow ambient sound and the percussive elements joined later. It felt really comfortable playing through Lola with the amazing sound quality. The processing from the Trondehim side added a unique falvour to the sound, and was exaclty heading towards the concept we had in our minds.  
 
+Video clip from our performance:
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/ylhL8e20YFI" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    
 Instrument Diagram
 Audio clip
 
@@ -107,4 +111,4 @@ Audio clip
 
     
     
-    <iframe width="560" height="315" src="https://www.youtube.com/embed/ylhL8e20YFI" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
