@@ -63,15 +63,9 @@ Elias (Oslo)- My plan was initially to use my Pioneer DDJ RR (DJ) controller to 
 Text: Eigil Aandahl
 
 <figure>
-<img src="/assets/img/vangelis.jpg" alt="patch_patch" width="60%" align="middle"/>
+<img src="/assets/img/vange lis.jpg" alt="patch_patch" width="60%" align="middle"/>
 <figcaption></figcaption>
 </figure>
-
-Quote: _“I function as a channel through which music emerges from the chaos of noise.”_ 
-
-
-Evángelos Odysséas Papathanassíou, better known as Vangelis, is a Greek composer known especially for his electronic and orchestral film scores. Vangelis was born near Volos, Greece, in 1943. He was mostly self-taught as a musician, starting to practise music at an early age.
-Most notable as a film composer, he has made the scores for movies such as Chariots of Fire (1981) and Blade Runner (1982), and music from his scores has also been used outside of films. A pioneer in the use of synthesizers and characteristic style, he is considered one of the most influential composers of electronic music in history, and the impact of his works can be hard to miss in a wide array of musical genres today. 
 
 
 
