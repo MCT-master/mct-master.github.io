@@ -185,7 +185,7 @@ Harold Burroughs Rhodes (1910-2000) was born in California, United States. He st
 Text: Ashane Silva
 
 <figure>
-<img src="/assets/img/Misha-Mansoor.jpg" alt="patch_patch" width="60%" align="middle"/>
+<img src="/assets/img/35383293_465482750577589_892664087245225984_n.jpg" alt="patch_patch" width="60%" align="middle"/>
 <figcaption></figcaption>
 </figure>
 
@@ -328,7 +328,13 @@ Karlheinz Stockhausen © 1960 Archives Stockausen Foundation for Music
 https://philharmoniedeparis.fr/en/activity/musique-de-chambre/15480-tokyo-1966)
 
 Instagram Citation:
-Username: larssture  (Sept. 2014) "Øystein "yller Odden" 
+Username: larssture  (Sept. 2014) "Øystein Wyller Odden" 
 Retrieved from URL: 
 https://www.instagram.com/p/ss-dq0r-rx/?fbclid=IwAR1H3rwFacH-u-gHepXWFbkLd3Qg1MB2mPiT1xCoK4Sj5fK93JA8dJ6EyRo
+Date 21/11/2018
+
+Instagram Citation:
+Username: mishaperiphery  (June. 2016) "Misha Mansoor" 
+Retrieved from URL: 
+https://www.instagram.com/p/BkiPV71AMGa/
 Date 21/11/2018
