@@ -74,20 +74,29 @@ Then the signal was sent back again, and we think the result was a very nice and
 <br> <br>
 ## Performing with LoLa
 
-The final day of the workshop was leading up to a group performance using LoLa. On the Oslo side, we used a lot of time this day to set up things in the portal, moving everything around in the room to find the best set-up for this final performance. After moving one of the screens to the middle of the room, a jungle of wires and cables was revealed in the end of the room ... 
+The final day of the workshop was leading up to a group performance using LoLa to play with the instruments and effects we had made. On the Oslo side, we used a lot of time this day to set up things in the portal, moving everything around in the room to find the best set-up for this final performance. After moving one of the screens to the middle of the room, a jungle of wires and cables was revealed as we connected our intruments.
 
-Setting up 
+Shreejay couldn't join us that day, so our instrument would consist of three "nodes" with Mari's Csound synthesizer being the first in the chain. Before our soundcheck, we were discussing what kind of structure we wanted for our performance. We decided that Mari was starting, by playing long notes on her Cabbage synth. Then the signal went to be processed in Trondheim by Eigil before being sent back to Oslo and Ashane's processing. Ashane's sound was then sent back again to Eigil a second time and the final result was played in both cities. This might be a bit confusing, so we have made this helpful diagram to illustrate the connection:
 
-Shreejay couldn't join us that day, so our instrument would consist of three "nodes" with Mari's Csound synthesizer being the first in the chain. Before our soundcheck, we were discussing what kind of structure we wanted for our performance. We decided that Mari was starting, by holding down some long notes on her Cabbage synth. 
+<figure>
+    <img src="/assets/img/group_B_DSP_diagram.png" alt="signal diagram" width="50%" />
+         <figcaption>Our performance signal path</figcaption>
+</figure>
 
-We tested out our signal levels and routing in a soundcheck which made the performance much comfortable. Started out as a very mellow ambient sound and the percussive elements joined later. It felt really comfortable playing through Lola with the amazing sound quality. The processing from the Trondehim side added a unique falvour to the sound, and was exaclty heading towards the concept we had in our minds.  
 
-Video clip from our performance:
+We tested out our signal levels and routing with a soundcheck to make sure it was working. The performance started out as a very mellow ambient sound and the percussive elements joined later. It felt really comfortable playing through Lola with amazing sound quality. The processing from the Trondheim side added a unique flavour to the sound, and was exactly what we were hoping to accomplish.  
+
+Here is a video clip and an audio recording from our performance:
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/ylhL8e20YFI" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-    
-Instrument Diagram
-Audio clip
+
+<figure align="middle">
+<audio controls="">
+<source src="/assets/sounds/group_B_DSP_performance_sneak_peak.wav" type="audio/wav" volume="0.2" />
+Your browser does not support the audio element.
+</audio>
+<figcaption>The beginning of our performance recorded in Trondheim</figcaption>
+</figure>
 
     
     <figure>
