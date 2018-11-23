@@ -60,7 +60,7 @@ Your browser does not support the audio element.
 
 Mari used a midikeyboard to play the VST instrument she made, which was based on a basic saw synth from the [Cabbage beginner page.](http://cabbageaudio.com/docs/beginner_synth/?fbclid=IwAR3GcRXna3ib5dgD0J8BTKjtalecbLCgwL0fv_ZaH3DiFhJVPeDIW9VoDS4 "Cabbage beginner synth")  From Oslo she was able to manipulate the synth with reverb and ring modulator-effects, also made in Cabbage and Csound. 
 
-Ashane’s set up was made with a plunging consists of a reverb, delay and a saturation. The delay time was set to 200ms. The reverb and saturation can be controlled from knobs. This was used in combination with a percussion patch loaded in Ableton live.  The drum kit was loaded into a midi track and routed to the VST to make long repetitive kick, snare and cymbal sounds. The main idea was to provide some kind of a rhythmic pulse in the performance.
+Ashane’s set up was made with a plugin consisting a reverb, delay and a saturation. The delay time was set to 200ms. The reverb and saturation can be controlled from knobs. This was used in combination with a percussion patch loaded in Ableton live.  The drum kit was loaded into a midi track and routed to the VST to make long repetitive kick, snare and cymbal sounds. The main idea was to provide some kind of a rhythmic pulse in the performance.
 
 Then the two sound signal was sent to Trondheim through LoLa for further processing. The Trondheim team made an effect that sent the signal from Oslo through a virtual string that could be manipulated by playing on a midikeyboard and then add reverb.
 
@@ -74,13 +74,13 @@ Then the signal was sent back again, and we think the result was a very nice and
 <br> <br>
 ## Performing with LoLa
 
-The final day of the workshop was leading up to a group performance using LoLa. 
+The final day of the workshop was leading up to a group performance using LoLa. On the Oslo side, we used a lot of time this day to set up things in the portal, moving everything around in the room to find the best set-up for this final performance. After moving one of the screens to the middle of the room, a jungle of wires and cables was revealed in the end of the room ... 
+
 Setting up 
 
-Shreejay couldn't join us that day, so our instrument would consist of three "nodes" with Mari's Csound synthesizer being the first in the chain.
+Shreejay couldn't join us that day, so our instrument would consist of three "nodes" with Mari's Csound synthesizer being the first in the chain. Before our soundcheck, we were discussing what kind of structure we wanted for our performance. We decided that Mari was starting, by holding down some long notes on her Cabbage synth. 
 
-We tested out our signal levels and routing in a soundcheck which made the performance much comfortable. Started out as a very melow ambient sound and the percussive elements joined later. It felt really comfortable playing through Lola with the amazing sound qaulity. The prcessing from the Trondehim side added a unique falvour to the sound and exaclty heading towards the concept we had in our minds.  
-
+We tested out our signal levels and routing in a soundcheck which made the performance much comfortable. Started out as a very mellow ambient sound and the percussive elements joined later. It felt really comfortable playing through Lola with the amazing sound quality. The processing from the Trondehim side added a unique falvour to the sound, and was exaclty heading towards the concept we had in our minds.  
 
 Instrument Diagram
 Audio clip
