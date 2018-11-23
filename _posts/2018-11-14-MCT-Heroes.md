@@ -55,7 +55,7 @@ Most notable as a film composer, he has made the scores for movies such as Chari
 Text: Elias Sukken Andersen
 
 <figure>
-<img src="/assets/img/Oeystein-Wyller-Odden.jpg" alt="patch_patch" width="45%" align="middle"/>
+<img src="/assets/img/914812_1469589553301871_1561685244_n" alt="patch_patch" width="45%" align="middle"/>
 <figcaption></figcaption>
 </figure>
 
@@ -326,3 +326,9 @@ Date 23/11/2018
 (Copyright:
 Karlheinz Stockhausen © 1960 Archives Stockausen Foundation for Music
 https://philharmoniedeparis.fr/en/activity/musique-de-chambre/15480-tokyo-1966)
+
+Instagram Citation:
+Username: larssture  (Sept. 2014) "Øystein "yller Odden" 
+Retrieved from URL: 
+https://www.instagram.com/p/ss-dq0r-rx/?fbclid=IwAR1H3rwFacH-u-gHepXWFbkLd3Qg1MB2mPiT1xCoK4Sj5fK93JA8dJ6EyRo
+Date 21/11/2018
