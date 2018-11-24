@@ -9,7 +9,7 @@ comments: true
 ---
 
 <figure>
-<img src="/assets/img/Group C DSP Whole instrument OSLO.jpg" alt="Oslo instrument" width="55%" align="middle"/>
+<img src="/assets/img/DSP group C workshop Oslo instrument signal flow.png" alt="Oslo instrument" width="55%" align="middle"/>
 <figcaption>Whole instrument OSLO</figcaption>
 </figure>
 
@@ -17,11 +17,20 @@ During our DSP workshop we were introduced to several tools and techniques for c
 We started working on a string sound and were able to apply effects like saturation and reverb. Using the Csound score and p-fields we experimented with writing a composition using frequencies and Midi notes. We learned how to layer and combine several waveguide instruments and created a short composition. Later in the week we got familiar with building VST instruments and effects by using Cabbage, and were able to compile our creations into an application that can be used in any DAW. By using several external input sources like the contact mic or a midi controller we were ready to embark on our main task for the week, creating a short performance using our new instruments, to be performed in the portal simultaneously between Oslo and Trondheim. Each location worked and developed a different kind of instrument.
 
 <figure>
-<img src="/assets/img/Group C DSP Whole instrument Trondheim.jpg" alt="Trondheim instrument" width="55%" align="middle"/>
+<img src="/assets/img/Group C DSP Whole instrument Oslo.jpg" alt="Oslo instrument" width="60%" align="middle"/>
+<figcaption>Whole instrument OSLO</figcaption>
+</figure>
+
+
+The instrument in Trondheim makes use of waveguides simulating the sound of a string using the input signal from the contact microphones as a source signal for the attack. The signal path within the instrument can be described as follows:
+
+
+
+<figure>
+<img src="/assets/img/Group C DSP Whole instrument Trondheim.jpg" alt="Trondheim instrument" width="60%" align="middle"/>
 <figcaption>Whole instrument TRONDHEIM</figcaption>
 </figure>
 
-The instrument in Trondheim makes use of waveguides simulating the sound of a string using the input signal from the contact microphones as a source signal for the attack. The signal path within the instrument can be described as follows:
 
 
 Sound source
