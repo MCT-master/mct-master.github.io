@@ -62,13 +62,7 @@ Guy (Oslo)- I used the saxophone together with a contact mic. From past experien
 
 Elias (Oslo)- My plan was initially to use my Pioneer DDJ RR (DJ) controller to get input signal from both Guy in Oslo and from Trondheim. The plan was to further add on effects (like reverb) to these inputs and to control the output between those input signals. After hours of testing and trying to figure out how the DJ controller would work with Ableton or other sound softwares, I had to go for a backup solution. I ended up using the DJ controller to only control Guys signal, and used built in effects in Rekordbox (like echo), instead of the VST plugins from Csound.
 
-## Vangelis
 
-
-<figure>
-<img src="/assets/img/vange lis.jpg" alt="" width="60%" align="middle"/>
-<figcaption></figcaption>
-</figure>
 
 
 
