@@ -12,11 +12,10 @@ author: Karolina Jawad
 <figcaption>Patch, patch</figcaption>
 </figure>
 
-
-## #sound art #algorithmic poetry #open source #physical computing #memories #dsp #digital signal processing #humans #loop #csound orchestras
+# #sound art #algorithmic poetry #open source #physical computing #memories #dsp #digital signal processing #humans #loop #csound orchestras
 
 Once you enter **<a href="http://metamorf.no//" target="_blank">Metamorph</a>**, an art and technology space in the old town of Trondheim (Bakklandet), you will immediately become part of the generative soundscape of the exhibition **<a href="https://teks.no//" target="_blank">'Metaverk'</a>**.
-The interactive sound installation is a joint work by **<a href="https://soundcloud.com/brandtsegg/concert-brkrg-brandtseggratkjedjupvikrockheim-oct-2016" target="_blank">Øyvind Brandtsegg</a>** and **<a href="https://soundcloud.com/swampsupnostrils/swamps-up-nostrils-ultra-bonus" target="_blank">Arnfinn Killingtveit</a>**. The exhibition takes place during *<a href="http://www.trondheimopen.org/om-trondheim-open/" target="_blank">Trondheim Open</a>** , the largest art biennial in Central Norway. One of its goals are to make more local artists visible to the public. It invites the audience to discover and involve by making live music. Plugging your instrument into the system or connecting your phone to a mini jack cable - what ever is played will be captured and distributed through the different speakers around the room. 
+The interactive sound installation is a joint work by **<a href="https://soundcloud.com/brandtsegg/concert-brkrg-brandtseggratkjedjupvikrockheim-oct-2016" target="_blank">Øyvind Brandtsegg</a>** and **<a href="https://soundcloud.com/swampsupnostrils/swamps-up-nostrils-ultra-bonus" target="_blank">Arnfinn Killingtveit</a>**. The exhibition takes place during *<a href="http://www.trondheimopen.org/om-trondheim-open/" target="_blank">Trondheim Open</a>** , the largest art biennial in Central Norway. One of its goals are to make more local artists visible to the public. It invites the audience to discover and involve by making live music. Plugging your instrument into the system or connecting your phone to a mini jack cable - what ever is played will be captured and distributed through the different speakers around the room.
 
 ## Sound memories
 
@@ -32,8 +31,3 @@ Your browser does not support the video tag.
 The bone feedback station, as you might have seen Jonas trying it in the video, also uses a waveguide technique to improve the possibility of feedback from the bone. A contact microphone is installed in the armrest and when in contact with the ellbow it travels through it and gets louder and vibrates the harder you press and then even fades over to the window.
 
 And how does this relate to what we do as MCT students now? Brandtsegg explained that the underlying techniques are based on the same principles, which are only applied in different ways and are very much related to what we will be dealing with in the upcoming DSP workshop. Most of the components and sound units are based on waveguides. Very briefly, a waveguide is a delay line that emulate how the sound moves through a string. A longer delay line is the same as a longer string and therefore results in a lower pitch. The reason why you make it sound like a string is because you have very high feedback of 98%. It is very fragile because if you turn down the feedback you only get one click, and if you maximizing the feedback it will explode in terms of loudness. The approach of using waveguide techniques is something that we will be working and experimenting with through the portal.
-
-
-
-
-
