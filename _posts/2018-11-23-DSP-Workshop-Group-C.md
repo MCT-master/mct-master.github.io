@@ -10,7 +10,7 @@ comments: true
 
 <figure>
 <img src="/assets/img/DSP group C workshop Oslo instrument signal flow.png" alt="Oslo instrument" width="65%" align="middle"/>
-<figcaption>Whole instrument OSLO</figcaption>
+<figcaption>Signal flow chart</figcaption>
 </figure>
 
 During our DSP workshop we were introduced to several tools and techniques for creating, manipulating and controlling sound. We started exploring Csound and waveguides. We learned a bit about the code in Csound, setting inputs and outputs and rendering the result to audio files.
