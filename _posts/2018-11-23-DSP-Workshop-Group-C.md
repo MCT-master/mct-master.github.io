@@ -1,5 +1,6 @@
 ---
 layout: post
+image: /assets/img/DSP group C workshop Oslo instrument signal flow.png
 title:  "DSP Workshop Group C"
 date:   2018-11-23 15:43
 categories: Posts
@@ -7,11 +8,18 @@ author: Jonas, Eirik, Karolina , Elias & Guy
 comments: true
 ---
 
+<figure>
+<img src="/assets/img/Group C DSP Whole instrument OSLO.jpg" alt="Oslo instrument" width="55%" align="middle"/>
+<figcaption>Whole instrument OSLO</figcaption>
+</figure>
 
 During our DSP workshop we were introduced to several tools and techniques for creating, manipulating and controlling sound. We started exploring Csound and waveguides. We learned a bit about the code in Csound, setting inputs and outputs and rendering the result to audio files.
 We started working on a string sound and were able to apply effects like saturation and reverb. Using the Csound score and p-fields we experimented with writing a composition using frequencies and Midi notes. We learned how to layer and combine several waveguide instruments and created a short composition. Later in the week we got familiar with building VST instruments and effects by using Cabbage, and were able to compile our creations into an application that can be used in any DAW. By using several external input sources like the contact mic or a midi controller we were ready to embark on our main task for the week, creating a short performance using our new instruments, to be performed in the portal simultaneously between Oslo and Trondheim. Each location worked and developed a different kind of instrument.
 
-
+<figure>
+<img src="/assets/img/Group C DSP Whole instrument Trondheim.jpg" alt="Trondheim instrument" width="55%" align="middle"/>
+<figcaption>Whole instrument TRONDHEIM</figcaption>
+</figure>
 
 The instrument in Trondheim makes use of waveguides simulating the sound of a string using the input signal from the contact microphones as a source signal for the attack. The signal path within the instrument can be described as follows:
 
@@ -33,16 +41,12 @@ DAW
 
 
 
-<object width="425" height="350">
-  <param name="movie" value="https://www.youtube.com/watch?v=OfhaVj3nas4&feature=youtu.be" />
-  <param name="wmode" value="transparent" />
-  <embed src="http://www.youtube.com/user/wwwLoveWatercom?v=BTRN1YETpyg"
-         type="application/x-shockwave-flash"
-         wmode="transparent" width="425" height="350" />
-</object>
+<figure>
+<iframe width="450" height="253" src="https://www.youtube.com/watch?v=OfhaVj3nas4&feature=youtu.be" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen align="middle"></iframe>
+<figcaption><strong>Oslo & Trondheim performance in the Portal</strong></figcaption>
+</figure>
 
 
-<iframe width="450" height="253" src="https://www.youtube.com/watch?v=OfhaVj3nas4&feature=youtu.be" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen align="middle"></iframe> Oslo & Trondheim Jamming through the Portal
 
 ## Personal impressions regarding the performance
 
@@ -60,10 +64,9 @@ Elias (Oslo)- My plan was initially to use my Pioneer DDJ RR (DJ) controller to 
 
 ## Vangelis
 
-Text: Eigil Aandahl
 
 <figure>
-<img src="/assets/img/vange lis.jpg" alt="patch_patch" width="60%" align="middle"/>
+<img src="/assets/img/vange lis.jpg" alt="" width="60%" align="middle"/>
 <figcaption></figcaption>
 </figure>
 
