@@ -19,4 +19,4 @@ In terms of the music and playing over the portal, I think that the musicians di
 
 Here is a short video clip I took of the phone that was controlling the 360 GoPro camera which was placed on stage.
 
-<iframe width="560" height="315" src="https://www.youtube.com/watch?v=1GCDiqtcj9w" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/1GCDiqtcj9w" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
