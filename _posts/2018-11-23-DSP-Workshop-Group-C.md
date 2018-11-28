@@ -9,7 +9,7 @@ comments: true
 ---
 
 <figure>
-<img src="/assets/img/DSP group C workshop Oslo instrument signal flow.png" alt="Oslo instrument" width="85%" align="middle"/>
+<img src="/assets/img/DSP group C workshop Oslo instrument signal flow.png" alt="Oslo instrument" width="100%" align="middle"/>
 <figcaption>Signal flow chart</figcaption>
 </figure>
 
