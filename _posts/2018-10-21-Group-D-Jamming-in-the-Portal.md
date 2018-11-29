@@ -13,7 +13,7 @@ author: Shreejay Shrestha, Eirik Dahl, Guy Sion
 
 # Setting up portal
 
-We were responsible for the portal during week 39 (Sep 24th-28th).This was the week we decided to explore playing music over the portal between the two campuses (UiO-NTNU).The need for experimenting with playing music online came from both students and teachers. Many of us were eager to share the things we like to do the most (playing music). Also, there was a need to play music together for demonstration during 'Music Cognition' course. During the first jam on Tuesday the 25th, we played ‘Fly me to the moon’, a random blues number and ‘Wonderful Tonight’. During the music cognition jam, we experienced more difficulties with hearing oneself and hearing each other. Perhaps the best solution might be using headphone during those sessions.The connection itself regarding latency was not such a problem, although we did feel like we are slowing down at times.
+We were responsible for the portal during week 39 (Sep 24th-28th).This was the week we decided to explore playing music over the portal between the two campuses (UiO-NTNU) through TICO.The need for experimenting with playing music online came from both students and teachers. Many of us were eager to share the things we like to do the most (playing music). Also, there was a need to play music together for demonstration during 'Music Cognition' course. During the first jam on Tuesday the 25th, we played ‘Fly me to the moon’, a random blues number and ‘Wonderful Tonight’. During the music cognition jam, we experienced more difficulties with hearing oneself and hearing each other. Perhaps the best solution might be using headphone during those sessions.The connection itself regarding latency was not such a problem, although we did feel like we are slowing down at times.
 
 <figure>
 <img src="https://raw.githubusercontent.com/MCT-master/mct-master.github.io/master/assets/img/Hans and Guy.png" alt="Our Teacher, Hans T. Zeiner-Henriksen, jamming on a saxophone case and a book" width="80%" align="middle"/>
@@ -28,8 +28,7 @@ With regards to latency, musicians are to a large extent able to follow one anot
 
 Finally, most of us was heavily focused on the latency, which obviously was what we were there to test. But wouldn't it be a good idea to put it in the back of our minds, so as to avoid confirmation bias? Because, if we actively look for latency, we will definitely find it. And when we do, it would surely affect the music that we play. 
 
-Lastly, as Armando left the MCT course, Guy and Eirik joined Group C while Shreejay joined Group B. Thus there is no Group D now.
-
+Lastly, as Armando left the MCT course, Guy and Eirik joined Group C while Shreejay joined Group B. 
 ### Adios !
 
 
