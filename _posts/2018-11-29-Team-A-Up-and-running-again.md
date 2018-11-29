@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "A-team - Getting it up and running again"
+title: "A-team - Getting the portal up and running...again"
 date: 2018-11-29 16:19:42 +0200
 categories: The portal
 author: Jørgen Varpe, Sepehr Haghighi, Espen Wik, Sam Roman
@@ -10,8 +10,6 @@ author: Jørgen Varpe, Sepehr Haghighi, Espen Wik, Sam Roman
 <img src="/assets/img/Ateam_trondheim.jpg" alt="" width="70%">
 </figure>
 <br>
-
-<center><strong><h2>Getting the portal up and running...again</h2></strong></center>
 
 ### Oslo - Rearrange in the membrane
 
