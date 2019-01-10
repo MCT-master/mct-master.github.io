@@ -34,7 +34,4 @@ The blog posts of this section relate to the course **MCT4048 Audio Programming*
     {%- endfor -%}
   </ul>
 
-{%- else -%}
-<p>No posts yet.</p>
-
 {%- endif -%}
