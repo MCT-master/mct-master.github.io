@@ -3,19 +3,30 @@ layout: default
 ---
 
 <div class="home">
-  {%- if page.title -%}
+  <!-- {%- if page.title -%}
     <h1 class="page-heading">{{ page.title }}</h1>
-  {%- endif -%}
+  {%- endif -%} -->
 
-  {{ content }}
-
+  <!-- {{ content }} -->
+  <h2 class="post-list-heading">The Latest</h2>
   {%- if site.posts.size > 0 -%}
-    <h2 class="post-list-heading">{{ page.list_title | default: "Posts" }}</h2>
+    <!-- <h2 class="post-list-heading">{{ page.list_title | default: "Posts" }}</h2> -->
     <ul class="post-list">
-      {%- for post in site.posts -%}
+      {%- for post in site.posts limit:10 -%}
       <li>
+        {%- if post.image -%}
+        <img src="{{ post.image | prepend: site.baseurl }}" alt="{{ post.title }}" title="{{ post.title }}">
+        {%- endif -%}
         {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
         <span class="post-meta">{{ post.date | date: date_format }}</span>
+        <span class="post-meta">• {{ post.author }}</span>
+        <br />
+        <span class="post-meta"><strong>{{ post.categories }}</strong></span>
+        <!-- {%- for category in site.data.categories -%} -->
+        <!-- {%- if post.categories == category.slug -%} -->
+        <!-- <span class="post-meta"><strong>{{category.name}}</strong></span> -->
+        <!-- {%- endif -%} -->
+        <!-- {%- endfor -%} -->
         <h3>
           <a class="post-link" href="{{ post.url | relative_url }}">
             {{ post.title | escape }}
@@ -24,6 +35,11 @@ layout: default
         {%- if site.show_excerpts -%}
           {{ post.excerpt }}
         {%- endif -%}
+        <h4>
+        <strong><a href="{{ post.url | relative_url }}">
+          »Read more
+        </a></strong>
+        </h4>
       </li>
       {%- endfor -%}
     </ul>

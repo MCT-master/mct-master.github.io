@@ -2,8 +2,10 @@
 layout: post
 title: "A-team - first week"
 date: 2018-09-10 16:19:42 +0200
-categories: The portal
+categories: Portal
 author: JJ, EW, SR, SH, JNV
+image: /assets/img/jnv_portal.jpg
+excerpt: The first week at The Portal was interesting. Most of the equipment was not ready for use, and the TICO system network card crashed two days before opening ceremony. Our group, Jørgen, Espen, Sam and Juno, started working on Monday 27. August, and tried to set up the Polycom system as a backup for the week in the Portal.
 ---
 
 <figure>
@@ -13,9 +15,9 @@ author: JJ, EW, SR, SH, JNV
 
 ### A-team, Opening week of MCT
 
-The first week at The Portal was interesting. Most of the equipment was not ready for use, and the TICO system network card crashed two days before opening ceremony. 
+The first week at The Portal was interesting. Most of the equipment was not ready for use, and the TICO system network card crashed two days before opening ceremony.
 
-Our group, Jørgen, Espen, Sam and Juno, started working on Monday 27. August, and tried to set up the Polycom system as a backup for the week in the Portal. 
+Our group, Jørgen, Espen, Sam and Juno, started working on Monday 27. August, and tried to set up the Polycom system as a backup for the week in the Portal.
 
 Polycom is a [video conference system]()
 
@@ -53,13 +55,13 @@ Detailed information are being presented in the table below:
 <table style="width:100%">
   <tr>
     <th></th>
-    <th>Challenge</th> 
+    <th>Challenge</th>
     <th>Solution</th>
     <th>Reflections</th>
   </tr>
   <tr>
     <th>1.</th>
-    <td>Fit 7 students and a teacher into the picture</td> 
+    <td>Fit 7 students and a teacher into the picture</td>
     <td>Raised the camera (bird view) and placed 4 tables in a half circle</td>
     <td>
       Everybody is seen, and gets equal priority. The teacher does not have a dedicated place,
@@ -71,7 +73,7 @@ Detailed information are being presented in the table below:
   </tr>
   <tr>
     <th>2.</th>
-    <td>Everyone must be heard from their position</td> 
+    <td>Everyone must be heard from their position</td>
     <td>We placed one condencer microphone per table, and put them in cardoid characteristic.</td>
     <td>
       The microphones are capturing everyone, and feedback is being avoided with the placements and
@@ -178,5 +180,3 @@ Due to a misunderstanding we started preparing the Portal-room for the MCT4000, 
 And Lastly....
 
 MCT opening ceromony was reported on Krono online. includes <a href="https://khrono.no/ntnu-gunnar-bovim-music-communication-and-technology/de-er-studenter-ved-to-universiteter-samtidig/234810" target="_blank">interview with group A's Juno & Sam</a>
-
-

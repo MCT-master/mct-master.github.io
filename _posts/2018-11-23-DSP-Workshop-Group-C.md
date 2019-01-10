@@ -1,17 +1,17 @@
 ---
 layout: post
-image: /assets/img/DSP group C workshop Oslo instrument signal flow.png
 title:  "DSP Workshop Group C"
 date:   2018-11-23 15:43
-categories: Posts
+categories: DSP
 author: Jonas, Eirik, Karolina , Elias & Guy
-comments: true
+image: /assets/img/DSP-group-C-workshop-Oslo-instrument-signal-flow.png
+excerpt: "During our DSP workshop we were introduced to several tools and techniques for creating, manipulating and controlling sound. We started exploring Csound and waveguides. We learned a bit about the code in Csound, setting inputs and outputs and rendering the result to audio files."
 ---
 
-<figure>
-<img src="/assets/img/DSP group C workshop Oslo instrument signal flow.png" alt="Oslo instrument" width="100%" align="middle"/>
-<figcaption>Signal flow chart</figcaption>
-</figure>
+  <figure>
+  <img src="/assets/img/DSP-group-C-workshop-Oslo-instrument-signal-flow.png" alt="Oslo instrument" width="100%" align="middle"/>
+  <figcaption>Signal flow chart</figcaption>
+  </figure>
 
 During our DSP workshop we were introduced to several tools and techniques for creating, manipulating and controlling sound. We started exploring Csound and waveguides. We learned a bit about the code in Csound, setting inputs and outputs and rendering the result to audio files.
 We started working on a string sound and were able to apply effects like saturation and reverb. Using the Csound score and p-fields we experimented with writing a composition using frequencies and Midi notes. We learned how to layer and combine several waveguide instruments and created a short composition. Later in the week we got familiar with building VST instruments and effects by using Cabbage, and were able to compile our creations into an application that can be used in any DAW. By using several external input sources like the contact mic or a midi controller we were ready to embark on our main task for the week, creating a short performance using our new instruments, to be performed in the portal simultaneously between Oslo and Trondheim. Each location worked and developed a different kind of instrument.
@@ -35,7 +35,7 @@ The instrument in Trondheim makes use of waveguides simulating the sound of a st
 
 Sound source
     -Contact microphones on pieces of cardboard going into an external sound card.
-    
+
 CSound code
     -Pitch modulation (MIDI key mapping to adjust the pitch of the string waveguide by setting the corresponding delay time frequency as well as vibrato control.)Lowpass filter (helps taming the sound dynamically and also has an interesting side effect of pitching down the sound slightly when hard filtering due to the increase in delay time in the feedback loop).
     -Saturation (Can be used as a tool to make the sound more aggressive while still being pleasant due to the soft clipping. A mix control that fades between wet and dry signal is used to maintain the same level of output at all times.)
@@ -70,9 +70,3 @@ Jonas (Trondheim)- A balance between the physical (Cardboard, contact microphone
 Guy (Oslo)- I used the saxophone together with a contact mic. From past experience performing at the portal I have learned that the contact mic will prevent any kind of feedback. In Ableton, I used an IRCAM Max4Live device that converts audio signal to midi notes. Those midi notes were send to another channel which contained an electrical piano instrument with an arpeggiator. At the end of my channel strip I have used the reverb and frequency cutoff VST plugin I have compiled with Cabbage. With mapping knobs on my midi controller I was able to control several parameters like reverb size and cutoff, arpeggiator on/off and saturation.
 
 Elias (Oslo)- My plan was initially to use my Pioneer DDJ RR (DJ) controller to get input signal from both Guy in Oslo and from Trondheim. The plan was to further add on effects (like reverb) to these inputs and to control the output between those input signals. After hours of testing and trying to figure out how the DJ controller would work with Ableton or other sound softwares, I had to go for a backup solution. I ended up using the DJ controller to only control Guys signal, and used built in effects in Rekordbox (like echo), instead of the VST plugins from Csound.
-
-
-
-
-
-

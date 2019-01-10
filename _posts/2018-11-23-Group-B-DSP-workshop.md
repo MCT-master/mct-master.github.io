@@ -4,7 +4,8 @@ title:  "Group B, DSP workshop"
 date:   2018-11-23 13:50:00 +0200
 categories: DSP
 author: Mari Lesteberg, Ashane Silva, Shreejay Shrestha & Eigil Aandahl
-comments: true
+image: /assets/img/groupB/mariashane.jpg
+excerpt: "The 4 day DSP workshop introduced some basics of Digital Signal Processing techniques. We were given examples in Csound that focused on physical modeling of a string, and also how to use Csound as a DSP-tool. The exercises allowed us to take ownership of the codes by modifying and creating new sounds. We used simple operations like addition and multiplication to process the digital signals. We enjoyed experimenting with digital waveguides to model sounds travelling through strings and also manipulating with reverbs delay, envelope etc. Trondheim team also built an instrument with a piece of wood connected to a contact mic and used it in some of the tasks."
 ---
 
 <figure>
@@ -13,7 +14,7 @@ comments: true
 
 ## Abstract
 
-The 4 day DSP workshop introduced some basics of Digital Signal Processing techniques. We were given examples in Csound that focused on physical modeling of a string, and also how to use Csound as a DSP-tool. The exercises allowed us to take ownership of the codes by modifying and creating new sounds. We used simple operations like addition and multiplication to process the digital signals.  We enjoyed experimenting with digital waveguides to model sounds travelling through strings and also manipulating with reverbs delay, envelope etc. Trondheim team also built an instrument with a piece of wood connected to a contact mic and used it in some of the tasks.
+The 4 day DSP workshop introduced some basics of Digital Signal Processing techniques. We were given examples in Csound that focused on physical modeling of a string, and also how to use Csound as a DSP-tool. The exercises allowed us to take ownership of the codes by modifying and creating new sounds. We used simple operations like addition and multiplication to process the digital signals. We enjoyed experimenting with digital waveguides to model sounds travelling through strings and also manipulating with reverbs delay, envelope etc. Trondheim team also built an instrument with a piece of wood connected to a contact mic and used it in some of the tasks.
 
 ## C stands for Crazy
 
@@ -26,7 +27,7 @@ Until now, the DSP workshop must have been one of the funniest weeks of the MCT 
 
 ## Go ahead and make something!
 
-Fortunately for this one group member, we didn’t need to solve a lot of math problems during this week. No, this was so much more fun than math! From day one, we were able to try out things on our own in Csound. For most of the people located in Oslo, we were stuck with some confusion when after only a short introduction to Csound, the teachers just said: “Now, go ahead and make something!”. For those of us who had never been into Csound before, who had barely been doing any code before, this was scary. And a little annoying. What were we supposed to make? And how? 
+Fortunately for this one group member, we didn’t need to solve a lot of math problems during this week. No, this was so much more fun than math! From day one, we were able to try out things on our own in Csound. For most of the people located in Oslo, we were stuck with some confusion when after only a short introduction to Csound, the teachers just said: “Now, go ahead and make something!”. For those of us who had never been into Csound before, who had barely been doing any code before, this was scary. And a little annoying. What were we supposed to make? And how?
 
 Ashane and Mari found a group room, and pretty soon our annoyance was turned into joy and amusement. By slightly manipulating the example codes, we were able to make some pretty cool sounds. Just listen to this crazy stuff Mari made:
 
@@ -63,7 +64,7 @@ Your browser does not support the audio element.
 <figcaption>Shreejay and Mari's improv</figcaption>
 </figure>
 
-Mari used a midi keyboard to play the VST instrument she made, which was based on a basic saw synth from the [Cabbage beginner page.](http://cabbageaudio.com/docs/beginner_synth/?fbclid=IwAR3GcRXna3ib5dgD0J8BTKjtalecbLCgwL0fv_ZaH3DiFhJVPeDIW9VoDS4 "Cabbage beginner synth")  From Oslo she was able to manipulate the synth with reverb and ring modulator-effects, also made in Cabbage and Csound. 
+Mari used a midi keyboard to play the VST instrument she made, which was based on a basic saw synth from the [Cabbage beginner page.](http://cabbageaudio.com/docs/beginner_synth/?fbclid=IwAR3GcRXna3ib5dgD0J8BTKjtalecbLCgwL0fv_ZaH3DiFhJVPeDIW9VoDS4 "Cabbage beginner synth")  From Oslo she was able to manipulate the synth with reverb and ring modulator-effects, also made in Cabbage and Csound.
 
 Ashane’s set up was made with a plugin consisting a reverb, delay and a saturation. The delay time was set to 200ms. The reverb and saturation can be controlled from knobs. This was used in combination with a percussion patch loaded in Ableton live.  The drum kit was loaded into a midi track and routed to the VST to make long repetitive kick, snare and cymbal sounds. The main idea was to provide some kind of a rhythmic pulse in the performance.
 
@@ -103,10 +104,3 @@ Your browser does not support the audio element.
 </audio>
 <figcaption>The beginning of our performance recorded in Trondheim</figcaption>
 </figure>
-
-
-
-
-    
-    
-

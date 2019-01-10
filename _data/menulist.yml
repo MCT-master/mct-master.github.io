@@ -1,0 +1,22 @@
+toc:
+  - title: Courses
+    url: /courses
+    subfolderitems:
+      - page: Audio Programming
+        url: /audio-programming/
+      - page: DSP
+        url: /dsp/
+      - page: HCI
+        url: /hci/
+      - page: Motion Tracking
+        url: /motion-tracking/
+      - page: Physical Computing
+        url: /physical-computing/
+      - page: Sonification
+        url: /sonification-sound-design/
+  - title: Portal
+    url: /portal/
+  - title: Master's Program
+    url: /mct-program/
+  - title: About
+    url: /about/

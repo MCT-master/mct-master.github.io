@@ -2,8 +2,18 @@
 layout: post
 title:  "Meet MCT Group C"
 date:   2018-08-22 14:54:46 +0200
-categories: teams
+categories: MCT
 author: Karolina Jawad, Elias Andersen & Jonas Bjordal
+image: /assets/img/Group-C-Y1.jpg
+excerpt: "We are an international group of students with different background in
+humanities, programming, music and music production based in Oslo and
+Trondheim. Even though we just got together without knowing each other
+from before we are excited to work together and face new challenges. We
+are interested in finding new ways to combine different technologies and
+media to solve societal problems. We are going to make this happen by
+sharing knowledge within the group and use each other’s strengths. We
+think our biggest challenge is that we are placed in to different cities
+and not possible to meet physically."
 ---
 
 ![Photo of Group C](/assets/img/Group-C-Y1.jpg "Group C")

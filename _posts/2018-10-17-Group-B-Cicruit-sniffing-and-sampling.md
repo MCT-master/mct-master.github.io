@@ -2,9 +2,10 @@
 layout: post
 title:  "Group B, Circuit sniffing and sampling"
 date:   2018-10-17 00:30:00 +0200
-categories: Physical computing
+categories: Physical-Computing
 author: Mari Lesteberg, Dmitry Vasilev, Ashane Silva, Shreejay Shreshta & Eigil Aandahl
-comments: true
+image: /assets/img/piano_piezo.png
+excerpt: "During today's workshop, we hunted for sounds created by electromagnetic interferences and vibrations using headphones, contact mics, and portable speakers. Then we 'hacked' a p5.js sampler to play the found sounds from our laptops."
 ---
 
 <figure>
@@ -12,11 +13,11 @@ comments: true
 <figcaption>Fig 1: Contact mic directly on piano strings</figcaption>
 </figure>
 
-During today's workshop, we hunted for sounds created by electromagnetic interferences and vibrations using headphones, contact mics, and portable speakers. Then we "hacked" a p5.js sampler to play the found sounds from our laptops. 
+During today's workshop, we hunted for sounds created by electromagnetic interferences and vibrations using headphones, contact mics, and portable speakers. Then we "hacked" a p5.js sampler to play the found sounds from our laptops.
 
-We tried to capture sounds from both sides, Oslo and NTNU. 
+We tried to capture sounds from both sides, Oslo and NTNU.
 The first experiment was to identify exciting interfering radio signals where the headphones were used as the antennas. On the Oslo side, Dmitry, Mari and Ashane tried different places to find a strong electromagnetic field and finally managed to capture a very monotonous sound near the copy machine. The interference from a mobile phone and a card reader machine also produced more rumbling sounds.  
-In Trondheim, for the first task, Shreejay’s cell phone failed to get noticeable electromagnetic interferences at first. Eigil came up with an idea of using his body as an antenna. He touched tip of a guitar jack cable while connecting its other end to a tiny battery powered amp and moved it around the room. And Walla! It worked. We finally got a few strong electromagnetic interferences near power sockets, a computer and speakers. 
+In Trondheim, for the first task, Shreejay’s cell phone failed to get noticeable electromagnetic interferences at first. Eigil came up with an idea of using his body as an antenna. He touched tip of a guitar jack cable while connecting its other end to a tiny battery powered amp and moved it around the room. And Walla! It worked. We finally got a few strong electromagnetic interferences near power sockets, a computer and speakers.
 
 <figure align="middle">
 <audio controls>
@@ -41,8 +42,8 @@ Also, we enjoyed tapping and scratching the mic on various surfaces like table t
 
 The second part of the workshop centered on going through javascipt code for a simple sample instrument that could play back audiofiles. After looking at how it was put together, we were able to modify the code to play our own recordings from earlier in the day.
 
-The final task was to perform while combining samples recorded in the previous tasks. 
+The final task was to perform while combining samples recorded in the previous tasks.
 Coding in html went from despair to laughter as we slowly grasped the fundamentals of p5.js-based coding, hacked the sampler, and finally performed together, creating a cacophony of noise across campuses of UiO and NTNU.
-The sound of mooing cow became a hit in the group jamming session. 
+The sound of mooing cow became a hit in the group jamming session.
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/t5omfB8WAwU" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>

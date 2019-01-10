@@ -2,8 +2,10 @@
 layout: post
 title: "Group C - Developing mobile musical instruments"
 date: 2018-10-17 21:00:00 +0200
-categories:
+categories: Physical-Computing
 author: Karolina, Guy and Elias
+image: /assets/img/video-hacking-blog.jpg
+excerpt: "We can use the sensors in various ways when building a musical instrument on our phones. Sensors can be assigned to different parameters in music like pitch, volume etc. we can also apply several filters to various sensors and affect our instrument’s timber."
 ---
 
 We can use the sensors in various ways when building a musical instrument on our phones. Sensors can be assigned to different parameters in music like pitch, volume etc. we can also apply several filters to various sensors and affect our instrument’s timber.
@@ -17,7 +19,7 @@ We started the day downloading SensorLab and Sensor Tracker for Android to explo
 The first step of the day was to connect our phones and laptop to the same network. Where we used something called a “Live Server”, which sets up a server on your computer and then people on the same network as the computer can connect to it with their phones.
 
 The exercise started with running sensor data from an accelerometer (x, y and z) in the browser. With numbers going from 0 - 10.
-The second step was to synchronize the ip-address with the phone and mapp the data it, so we could see the sensor parameters at work. 
+The second step was to synchronize the ip-address with the phone and mapp the data it, so we could see the sensor parameters at work.
 Then we made this number go from 0-1, by applying a function and some other “magic” to the code. Next step was to make the screen show different colors when we moved the phone (making changes to the values of the accelerometer). Last and finally we made the phone make different sounds when we moved the phone (also by making changes to the values of the accelerometer).
 
 For clearance and a good workflow most of the code we got had already been made and was ready to run. So our task was to explore the code and to change things and to see what would happen. The reason for this was to grasp the concept of coding, and not to learn all the syntax etc.   

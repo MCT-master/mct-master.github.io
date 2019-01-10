@@ -2,8 +2,10 @@
 layout: post
 title: "Group A - Setting up for a joint group presentation"
 date: 2018-10-03 12:53:00 +0200
-categories: The portal
+categories: Portal
 author: Sam, Juno, Espen, Jørgen & Sepehr
+image: /assets/img/Presentation_setup.jpg
+excerpt: "Our portal has been suffering from both audial and visual issues since the beginning of the MCT program. We solve one problem and the next is just waiting in line to show itself. <strong>NOW</strong>, we all had an exam just around the corner, an exam where we were going to hold a presentation in the portal across campuses. <strong>The importance of a working portal now felt very crucial</strong> With this in mind we started working on visibility, audibility and reliability."
 ---
 
 <figure>
@@ -13,7 +15,7 @@ author: Sam, Juno, Espen, Jørgen & Sepehr
 
 # Preparing the portal for Entrepreneurship presentation
 
-Our portal has been suffering from both audial and visual issues since the beginning of the MCT program. 
+Our portal has been suffering from both audial and visual issues since the beginning of the MCT program.
 We solve one problem and the next is just waiting in line to show itself. **NOW**, we all had an exam
 just around the corner, an exam where we were going to hold a presentation in the portal across
 campuses. **The importance of a working portal now felt very crucial!** With this in mind we started
@@ -23,12 +25,12 @@ working on visibility, audibility and reliability.
 
 
 ### Visibility
-We chose to set up the presentation in front of the class, with the slides window at the portable screen and the panel sitting to the presenter's right side. Then, both the presenters and the panel saw both screens. Also, if the presenters wanted to point to a slide, it would look the same on the Trondheim side. 
+We chose to set up the presentation in front of the class, with the slides window at the portable screen and the panel sitting to the presenter's right side. Then, both the presenters and the panel saw both screens. Also, if the presenters wanted to point to a slide, it would look the same on the Trondheim side.
 
 
 ### Audibility
-We put up two condenser microphones, one in front of the presenters and one for the panel. 
-The presentation went well, except for Tico occasionally dropping out. Our audio was still running through Zoom, so our presentation was not affected by the dropouts. 
+We put up two condenser microphones, one in front of the presenters and one for the panel.
+The presentation went well, except for Tico occasionally dropping out. Our audio was still running through Zoom, so our presentation was not affected by the dropouts.
 
 <figure>
 <img src="https://raw.githubusercontent.com/MCT-master/mct-master.github.io/master/assets/img/Presentation_setup.jpg" alt="Oslo Presentation set-up" width="50%" align="middle"/>
@@ -75,7 +77,7 @@ volume in the Windows mixer.
 Because of TICO's supperior video quality over Zoom, we decided together with Ben Tocher, the teacher in
 the entrepreneurship course, to make it our primary video source. **BUT**, since the TICO system is very
 unreliable we had to have a backup system, which was Zoom. In case TICO would go crazy - turning off
-for a long period of time or displaying all the colors of the rainbow, it had to be a quick way of 
+for a long period of time or displaying all the colors of the rainbow, it had to be a quick way of
 changing video source to Zoom.
 
 In short, the setup ended up being:
@@ -94,14 +96,14 @@ Collaborating in DAW's over Zoom - In real time!
 
 Out of curiosity i decided to try to set up a producer session over zoom using Ableton Live. The aim was to see how close you could get to 'being in the same room". As a producer i collaborate regularly with artists, most of them are far away, often in another country. Taking MCT as a course has inspired me to see how far i could alleviate this issue with the use of zoom. My results exceeded my expectations!
 
-In one evening i managed to produce side by side with a friend (Earl) using Ableton Live, we were using both Mac Os X.  At the time he was 7 hours drive away. We shared the same screen (from my computer) as well as remote control, and audio in real time. I have put a rough guide in the wiki if one would like to know how. To be honest, it was pretty easy! 
+In one evening i managed to produce side by side with a friend (Earl) using Ableton Live, we were using both Mac Os X.  At the time he was 7 hours drive away. We shared the same screen (from my computer) as well as remote control, and audio in real time. I have put a rough guide in the wiki if one would like to know how. To be honest, it was pretty easy!
 My experience of this experiment was very rewarding. Usually when collaborating in my studio, we will normally swap places when the other wants a go - swapping chairs. This was not needed! i just let go of the mouse, and it is free through remote control for Earl. Another great side factor is that we had access to both speaker setups - at the same time. So for instance Earl took control to process the bass on the track, because he had a sub in his set up. I watched him process the bass in real time, and could jump in anytime (or sip on my coffee)
 
 Whilst this connection was live we also had a line open on the phone, open through speaker. Obviously it was better to use headphones in this scenario most of the time, to avoid the playback over the phone connection. It was necessary in my opinion, it really felt like he was in the room; we could talk openly to each other. After a while i was immersed in the project.
 
 There were downsides. For Earl, he was controlling the set over the internet. This meant there was a delay for the mouse. This was frustrating for him to use the mouse for anything movement sensitive (click, hold and drag type) for instance zooming in or out with the mouse. Editing midi wasn't always easy either.
 
-This technology poses many uses. One that i will take advantage of is for teaching Ableton Live (or any DAW). I will be able to have control and sight of a students DAW in real time. This will allow me to have a potential client base of anyone with a decent internet connection (as opposed to who you can meet in person), which is a massive potential for that industry in my opinion. Any other uses that you can think of? 
+This technology poses many uses. One that i will take advantage of is for teaching Ableton Live (or any DAW). I will be able to have control and sight of a students DAW in real time. This will allow me to have a potential client base of anyone with a decent internet connection (as opposed to who you can meet in person), which is a massive potential for that industry in my opinion. Any other uses that you can think of?
 
 Overall i was surprised that this technology is available and ready, and that i could set it up. I am also surprised that online there is very little instruction on this, from some searches with Ableton live and zoom, i found nothing on this subject. I am always down for a good colab, so if anyone else is interested in trying this out (MCT 2018) let me know!
 
@@ -116,5 +118,3 @@ Overall i was surprised that this technology is available and ready, and that i 
 4. In your DAW, go to audio output preferences, and switch to the zoom driver.
 
 (This was tested from Mac to Mac. If someone has a different experience on a Windows OS please share your method)
-
-

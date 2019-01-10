@@ -2,8 +2,10 @@
 layout: post
 title: "A-team - DSP workshop blog"
 date: 2018-11-22 16:19:42 +0200
-categories: The portal
+categories: Portal
 author: Jørgen Varpe, Sepehr Haghighi, Espen Wik, Sam Roman
+image: /assets/img/Ateam_dsp.png
+excerpt: "On the final DSP class we were bringing it all together - and performing our combined CSound based creations! Having the day to develop on our instruments, we prepared for performing with the other groups at 2 o’clock. After finding our respective rooms, We had a A-Team meeting on how to finish off our sounds,and devise a plan of action for our performance."
 ---
 
 <figure align="middle">
@@ -39,7 +41,7 @@ On the final DSP class we were bringing it all together - and performing our com
 
 By looking at the instruments we have collectively had as a group, it seemed like a good plan to go with a mainly ambient piece. With most of the sounds stemming from sound made by physical modelling, the instruments were mostly tonal. This made it simpler to keep in rhythm and instead focus on fitting our sounds into a textural composition that is spread over the frequency spectrum; making it pleasurable to our ears, possibly.
 
-The last element we included was a synthesised drum beat. This was to add some pace and excitement to the arrangement. We planned for the beat to come in at 2 minutes into the performance, it would rise in tempo as the jam comes towards the end. On this buildup, we pushed our instruments, increasing tension for the finale. So the composition was planned as first half ambient, second half with the beat and a build up in tempo for the finish. 
+The last element we included was a synthesised drum beat. This was to add some pace and excitement to the arrangement. We planned for the beat to come in at 2 minutes into the performance, it would rise in tempo as the jam comes towards the end. On this buildup, we pushed our instruments, increasing tension for the finale. So the composition was planned as first half ambient, second half with the beat and a build up in tempo for the finish.
 
 Soundcheck and setup was a little chaotic, with all three teams due to play back to back, with a whole host of technologies to keep track of. Even so, we managed to get everything set up in the end, and adjust what levels we needed. During the performance our recording clipped in some parts - the sound from Oslo was pushed a little heavy. This could have been from the mixer, or with the levels going through Lola. It is definitely something we would have liked to have avoided - but teaches us to be more careful with levels using Lola next time.
 
@@ -52,7 +54,7 @@ Soundcheck and setup was a little chaotic, with all three teams due to play back
 <br>
 
 ### Technical and creative aspects
-Below you can see the signal chain of our group. Please make the embedded flowchart fullscreen, and press each group member's computer for their own DSP. 
+Below you can see the signal chain of our group. Please make the embedded flowchart fullscreen, and press each group member's computer for their own DSP.
 
 <center>
 <iframe allowfullscreen frameborder="0" style="width:640px; height:480px" src="https://www.lucidchart.com/documents/embeddedchart/1f87b3cc-5df7-4ba3-bf46-8e0c6bfaa66d" id="8uXuPFKPVlHK"></iframe>
@@ -83,7 +85,7 @@ On the first oscillator a frequency shifter was added to morph this phasing furt
 <figcaption align="middle"><strong></strong></figcaption>
 </figure>
 
-These two oscillators are then both combined and run through a fx chain to mould and build up the sound. 
+These two oscillators are then both combined and run through a fx chain to mould and build up the sound.
 
 <center><strong>Sam's FX Chain</strong></center>
 <figure align="middle">
@@ -133,10 +135,10 @@ A drum patch made earlier was also used in Sams Ableton Live project. This is a 
 
 **Espen**
 
-Espen’s sound was basically made from a sample exported from an earlier made Csound program, which was the sound of a string. A new Csound program was made, and in Cabbage, controllers for volume, reverb, cutoff and dry/wet control were added. This was exported as a VST (plugin) and imported to Reaper. The sample of a string was then played through the plugin, which meant that the sample of a string was sent through a string, and then through the reverb and out. The parameters of the plugin was controlled with an AKAI MPK mini play, MIDI device. 
-In addition to that, sound effects and and a BBC radio news clip from The Second World War, was played back from Final Cut Pro. 
+Espen’s sound was basically made from a sample exported from an earlier made Csound program, which was the sound of a string. A new Csound program was made, and in Cabbage, controllers for volume, reverb, cutoff and dry/wet control were added. This was exported as a VST (plugin) and imported to Reaper. The sample of a string was then played through the plugin, which meant that the sample of a string was sent through a string, and then through the reverb and out. The parameters of the plugin was controlled with an AKAI MPK mini play, MIDI device.
+In addition to that, sound effects and and a BBC radio news clip from The Second World War, was played back from Final Cut Pro.
 
-The radio clip opened and finished the piece. It was used more as a kind of “texture”. It gives the piece a voice that in the background is meant to trigger some kind of syntactical and historical resemblance, more than a given program or story. 
+The radio clip opened and finished the piece. It was used more as a kind of “texture”. It gives the piece a voice that in the background is meant to trigger some kind of syntactical and historical resemblance, more than a given program or story.
 The sounds that were played had a relation to WW2, using a voice connecting on a human level to the audience in a subconscious way. The loud sound effects was more of a break - marking an abrupt change in the piece.
 
 #### The Trondheim Team

@@ -2,8 +2,10 @@
 layout: post
 title: "A-team - Phone sensors, servers and javascript"
 date: 2018-10-18
-categories: The portal
+categories: Physical-Computing
 author: JJ, EW, SR, SH, JNV
+image: /assets/img/Ateam_sixDegrees.jpg
+excerpt: "So, day two of coding was pretty much like day one: It startet with total confusion. Confusion then driftet into anxiety followed by panic. Then hysterically laughter and something that could be mistaken for self confidence because what I wrote in the code actually worked. Only difference today was that I thought I was having a hart attack around lunchtime, but it was only low blood sugar and dehydration. Coming home I went for a long run in the woods, looking for a Wolfpack I could join, just to make my life a little easier. Didn't find one so I limped my way back through the woods, trying to summarize the day, but the only word that came to my mind was revenge. Made it home just before dark. Tomorrow is another day. Probably."
 ---
 
 <figure>
@@ -56,6 +58,6 @@ To be able to join the performance, Jørgen managed to use an app he had coded b
 
 Sepehr’s phone’s issue wasn't solved either; he used Tone.js instead to accompany the improvisation.
 
-Today, everybody had their own speakers It made the whole performance far clearer. There were more complications however, compared to yesterday regarding controls. The plan for the A-team (just as yesterday) was Trondheim taking responsibility for the ambient parts, and Oslo jamming over the top with percussive elements. 
+Today, everybody had their own speakers It made the whole performance far clearer. There were more complications however, compared to yesterday regarding controls. The plan for the A-team (just as yesterday) was Trondheim taking responsibility for the ambient parts, and Oslo jamming over the top with percussive elements.
 
 The whole class improvisation sounded much better aesthetically and included a far larger variety of sounds and textures.. Since the performers were amped up (individual small speakers), the whole accompaniment together was much more sonically pleasing.

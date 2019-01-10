@@ -2,8 +2,10 @@
 layout: post
 title: "A-team - Recording and sampling"
 date: 2018-10-16
-categories: The portal
+categories: Physical-Computing
 author: JJ, EW, SR, SH, JNV
+image: /assets/img/Ateam_getOut.jpg
+excerpt: "Today we recorded sounds using three techniques; Circuit sniffing, earbuds through mini-amplifier, and with a contact mic. We then used some of the sounds we recorded in a sampler, made using web technologies, including javascript with the library P5.js."
 ---
 
 <figure>
@@ -60,7 +62,7 @@ Then we went to the kitchen, testing to record sound from a microwave oven (when
 <figcaption><strong>Microwave</strong></figcaption>
 </figure>
 
-I have to say - finding weird and wonderful sounds hidden around us everyday felt pretty awesome, and can be a great potential source for texture and foley. 
+I have to say - finding weird and wonderful sounds hidden around us everyday felt pretty awesome, and can be a great potential source for texture and foley.
 
 ### Improvising with the samples
 
@@ -76,7 +78,7 @@ In Trondheim we used two sets of 4 samples, one straight and one reversed (coded
   </tr>
   <tr>
     <th>1.</th>
-    <td>Keyboard</td> 
+    <td>Keyboard</td>
     <td>
       Not that much of dynamics in recording because of the sound source - but it picked it up pretty good
     </td>
@@ -89,7 +91,7 @@ In Trondheim we used two sets of 4 samples, one straight and one reversed (coded
   </tr>
   <tr>
     <th>2.</th>
-    <td>Voice</td> 
+    <td>Voice</td>
     <td>
       Talking into a paper tube and an iron box - the amount of reverb in the iron box was more significant
       and the sound effect was more reach in high mid areas
@@ -130,4 +132,3 @@ In Trondheim we used two sets of 4 samples, one straight and one reversed (coded
 </table>
 
 I do have to mention that Oslo sounds sounded more abstract than Trondheim’s ones, though the reverse code made Trondheim’s realistic sounds abstract as well. Regarding the whole group improvisation, since it was just a haphazard improvisation and most of the people were not expert in this sort of improvisation, as Keith Row (the famous english sound artist) says, it could be called as a Sonic Sausage. We used our laptop speakers in both campus and transferred the sound via mics and zoom which didn’t let the people on each side, to monitor the sound of the other side properly. Because of that issue, it was a bit problematic playing together; but also very much fun.
-
