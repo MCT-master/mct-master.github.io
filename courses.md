@@ -15,6 +15,7 @@ permalink: /courses/
     or post.categories contains 'Motion-Tracking'
     or post.categories contains 'Sonification'
     or post.categories contains 'Audio-Programming'
+    or post.categories contains 'Projects'
     -%}
 
     <li>
