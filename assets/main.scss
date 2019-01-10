@@ -113,17 +113,17 @@ $on-laptop:        800px;
     float: right;
     padding: 20px;
     position: relative;
-    text-align:right;
+    text-align:left;
 }
 
-.dropdown {
-  visibility: hidden;
+ul.dropdown li {
+  line-height:110%;
 }
 
-nav li {
+nav ul.dropdown li {
  display: block;
  transition-duration: 0.5s;
- //border: 2px white solid;
+ border: 2px white solid;
 }
 
 nav li:hover {
@@ -140,20 +140,20 @@ nav ul li ul {
   display: none;
 }
 
-// nav ul li:hover > ul,
-// nav ul li ul:hover {
-//   visibility: visible;
-//   opacity: 1;
-//   display: block;
-//   background: #ccc;
-//   z-index: 100;
-//   padding: 0 20px 0 0;
-// }
+nav ul li:hover > ul,
+nav ul li ul:hover {
+  visibility: visible;
+  opacity: 1;
+  display: block;
+  background: #ccc;
+  z-index: 100;
+  padding: 0 20px 0 0;
+}
 
-// nav ul li ul li {
-//   clear: both;
-//   width: 100%;
-// }
+nav ul li ul li {
+  clear: both;
+  width: 100%;
+}
 
 nav ul {
   //background: darkorange;
@@ -182,28 +182,28 @@ nav li:hover {
   cursor: pointer;
 }
 
-// nav ul li ul {
-//   background: #CCC;
-//   visibility: hidden;
-//   opacity: 0;
-//   min-width: 5rem;
-//   position: absolute;
-//   transition: all 0.5s ease;
-//   margin-top: 0.5rem;
-//   left: 0;
-//   display: none;
-// }
+nav ul li ul {
+  background: #CCC;
+  visibility: hidden;
+  opacity: 0;
+  min-width: 5rem;
+  position: absolute;
+  transition: all 0.5s ease;
+  margin-top: 0.5rem;
+  left: 0;
+  display: none;
+}
 
-// nav ul li:hover > ul,
-// nav ul li ul:hover {
-//   visibility: visible;
-//   opacity: 1;
-//   display: block;
-// }
+nav ul li:hover > ul,
+nav ul li ul:hover {
+  visibility: visible;
+  opacity: 1;
+  display: block;
+}
 
-// nav ul li ul li {
-//   clear: both;
-//   width: 100%;
-// }
+nav ul li ul li {
+  clear: both;
+  width: 100%;
+}
 
 @import "minima";
