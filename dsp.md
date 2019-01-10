@@ -1,7 +1,7 @@
 ---
 layout: page
 title: DSP Workshop
-permalink: /dsp/
+permalink: /DSP/
 ---
 
 The blog posts of this section relate to the workshop **DSP** in the course **MCT4000 Introduction to Music, Communication and Technology**. The aim of the course is to explore basic signal processing techniques, physical models and waveguides, implement these techniques for practical experimentation in own projects, and combine as well as creatively utilize these tools for new applications.
