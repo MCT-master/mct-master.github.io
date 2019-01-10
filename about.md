@@ -10,7 +10,7 @@ This is the student-led blog related to the [Music, Communication & Technology (
 
 ## MCT Students 2018-2020
 
-### Oslo
+### UiO, Oslo
 
 * Andersen, Elias
 * Lesteberg, Mari
@@ -19,7 +19,7 @@ This is the student-led blog related to the [Music, Communication & Technology (
 * Sion, Guy
 * Wik, Espen
 
-### Trondheim
+### NTNU, Trondheim
 
 * Aandahl, Eigil
 * Bjordal, Jonas
