@@ -8,6 +8,26 @@ This is the student-led blog related to the [Music, Communication & Technology (
 
 ![MCT image](/assets/img/mct-master-630.jpg "MCT image")
 
+## MCT Students 2018-2020
+
+### Oslo
+
+* Andersen, Elias
+* Lesteberg, Mari
+* Roman, Sam
+* Silva, Ashane
+* Sion, Guy
+* Wik, Espen
+
+### Trondheim
+
+* Aandahl, Eigil
+* Bjordal, Jonas
+* Dahl, Eirik
+* Jawad, Karolina
+* Shrestha, Shreejay
+* Varpe, Jørgen Nygård
+
 <!--
 
 Documentation on Jekyll and template:
