@@ -24,6 +24,7 @@ This is the student-led blog related to the [Music, Communication & Technology (
 * Aandahl, Eigil
 * Bjordal, Jonas
 * Dahl, Eirik
+* Haghighi, Sepehr
 * Jawad, Karolina
 * Shrestha, Shreejay
 * Varpe, Jørgen Nygård
