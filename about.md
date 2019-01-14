@@ -26,7 +26,6 @@ This is the student-led blog related to the [Music, Communication & Technology (
 * Dahl, Eirik
 * Haghighi, Sepehr
 * Jawad, Karolina
-* Haghighi, Sepehr
 * Shrestha, Shreejay
 * Varpe, Jørgen Nygård
 
