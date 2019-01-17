@@ -13,8 +13,8 @@ For our first lesson in the Sonification and Sound Design course, we were asked 
 
 1 - Karolina - Particles in the air - An installation which discovers the subtle presence of the dust in a room through a sensor and turns it into a generative musical composition and an animation of dust particles. Karolina talked about how it would be interesting the connect the idea of particle sonification in an ocean context, and presented us with another example of a sound installation that utilize the sea. 
 [See Organ](https://www.boredpanda.com/sea-organ-nikola-basic-zadar-croatia/?utm_source=duckduckgo&utm_medium=referral&utm_campaign=organic)
-<p align="center">
-   <iframe width="560" height="315" src="https://vimeo.com/43108001" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe src="https://player.vimeo.com/video/43108001" width="640" height="512" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+<p><a href="https://vimeo.com/43108001">Particles in the air</a> from <a href="https://vimeo.com/user7276721">Juan Duarte Regino</a> on <a href="https://vimeo.com">Vimeo</a>.
 </p>
 
 2 - Jonas - Musical Fractals - A video by Adam Neely presenting the musical equivalent of a fractal, the mathematical concept often represented in geometric art that explores recursion and self-reference.
@@ -54,7 +54,7 @@ Link - https://youtu.be/G6H1J2k--5I
 </p>
 
 9 - Elias - Sauden - a sonification of a newspaper article read by Siri with added sounds and beats. Elias mentioned how he liked the idea of sharing songs instead of sharing news articles among friends.
-Link to mp3 here
+[Listen to Sauden](https://mct-master.github.io/assets/sounds/Sauden.mp3)
 
 10 - Sepehr - Subjective Dissonance - an intermedia project that explores the interaction between a dancer and the sounds produced by her own movement. The dancer’s sounds are not only amplified, but also captured in real time to be manipulated and then be sent back as such to the dancer.
 <p align="center">
