@@ -65,10 +65,11 @@ A sonification of a newspaper article read by Siri with added sounds and beats. 
 
 ## Sepehr Haghighi - Stream Line
 An interactive project that explores the interaction between the subject and the sonification of his/her movement. The subject could be a dancer or an ensemble. The sonification is going to be done via motion tracking and shall be played back to the subject real time.
+<
 <p align="center">
    <iframe width="560" height="315" src="https://www.youtube.com/embed/JaMIiQ-EQLc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </p>
-
+>
 ## Guy Sion - Nissan Leaf
 In 2011 Nissan was the first to introduce an artificial car sound for its electric vehicles. Electric vehicles are so quiet at low speeds that they can go unnoticed by pedestrians. In 2017 Nissan debuted the 'Canto' (derived from sing in Latin) which changes the sound Nissan cars make while driving by varying in pitch and tone depending on weather the vehicle is accelerating, decelerating or reversing.
 <p align="center">
