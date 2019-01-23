@@ -63,8 +63,8 @@ A scene from the TV series Breaking Bad with a sound layer breakdown containing 
 ## Elias Andersen - Sauden
 A sonification of a newspaper article read by Siri with added sounds and beats. Elias mentioned how he liked the idea of sharing songs instead of sharing news articles among friends and presented us with [this example](https://mct-master.github.io/assets/sounds/Sauden.mp3) made by his friend.
 
-## Sepehr Haghighi - Subjective Dissonance 
-An intermedia project that explores the interaction between a dancer and the sounds produced by her own movement. The dancer’s sounds are not only amplified, but also captured in real time to be manipulated and then be sent back as such to the dancer.
+## Sepehr Haghighi - Stream Line
+An interactive project that explores the interaction between the subject and the sonification of his/her movement. The subject could be a dancer or an ensemble. The sonification is going to be done via motion tracking and shall be played back to the subject real time.
 <p align="center">
    <iframe width="560" height="315" src="https://www.youtube.com/embed/JaMIiQ-EQLc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </p>
@@ -96,3 +96,4 @@ A satellite video of hurricane Sandy together with a sonification of the meteoro
    <iframe width="560" height="315" src="https://www.youtube.com/embed/JKqaqndHu04" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </p>
 
+Overviewing the examples presented, we can sort them into three main categories, sonification (The Pulse Oximeter, Nissan Leaf, Reversing Truck, Heart Rate Monitor), sound design (Musical Fractals, No Country for Old Men, Red Dead Redemption Soundtrack, Breaking Bad sound layering, Miles Beyond), and sound interaction design (Particles in the air, The Defining Rise of Carbon Pollution, Myogram, Sauden, Stream Line, Sonification of Hurricane Sandy). It was a nice experiance to hear what other students find interesting when it comes to sonification and sound in general. Sonification and sound design is such a broad field and I am very much looking forward to learning more about conveing information through sound throughout our course.
