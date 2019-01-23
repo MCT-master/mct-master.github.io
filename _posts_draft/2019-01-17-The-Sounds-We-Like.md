@@ -12,7 +12,7 @@ For our first lesson in the Sonification and Sound Design course, we were asked 
 This is an overview of the examples presented:
 
 ## Karolina Jawad - Particles in the air
-An installation which discovers the subtle presence of the dust in a room through a sensor and turns it into a generative musical composition and an animation of dust particles. Karolina talked about how it would be interesting the connect the idea of particle sonification in an ocean context, and presented us with another example of a sound installation that utilize the sea, [the sea-organ](https://www.boredpanda.com/sea-organ-nikola-basic-zadar-croatia/?utm_source=duckduckgo&utm_medium=referral&utm_campaign=organic)
+An installation which discovers the subtle presence of the dust in a room through a sensor and turns it into a generative musical composition and an animation of dust particles. Karolina talked about how it would be interesting the connect the idea of particle sonification in an ocean context, and presented us with another example of a sound installation that utilize the sea, [the sea-organ](https://www.boredpanda.com/sea-organ-nikola-basic-zadar-croatia/?utm_source=duckduckgo&utm_medium=referral&utm_campaign=organic).
 <p align="center">
    <iframe src="https://player.vimeo.com/video/43108001" width="560" height="315" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
 <p><a href="https://vimeo.com/43108001">Particles in the air</a> from <a href="https://vimeo.com/user7276721">Juan Duarte Regino</a> on <a href="https://vimeo.com">Vimeo</a>.
