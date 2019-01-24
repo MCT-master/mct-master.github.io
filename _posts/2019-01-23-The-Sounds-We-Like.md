@@ -14,7 +14,7 @@ This is an overview of the examples presented:
 ## Karolina Jawad - Particles in the air
 An installation which discovers the subtle presence of the dust in a room through a sensor and turns it into a generative musical composition and an animation of dust particles. Karolina talked about how it would be interesting the connect the idea of particle sonification in an ocean context, and presented us with another example of a sound installation that utilize the sea, [the sea-organ](https://www.boredpanda.com/sea-organ-nikola-basic-zadar-croatia/?utm_source=duckduckgo&utm_medium=referral&utm_campaign=organic).
 <p align="center">
-   <iframe src="https://player.vimeo.com/video/43108001" width="560" height="315" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+   <iframe src="https://player.vimeo.com/video/43108001" width="640" height="512" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
 </p>
 
 ## Jonas Bjordal - Musical Fractals
@@ -94,5 +94,5 @@ A satellite video of hurricane Sandy together with a sonification of the meteoro
 <p align="center">
    <iframe width="560" height="315" src="https://www.youtube.com/embed/JKqaqndHu04" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </p>
-
+### Final Remarks
 Overviewing the examples presented, we can sort them into three main categories, sonification (The Pulse Oximeter, Nissan Leaf, Reversing Truck, Heart Rate Monitor), sound design (Musical Fractals, No Country for Old Men, Red Dead Redemption Soundtrack, Breaking Bad sound layering, Miles Beyond), and sound interaction design (Particles in the air, The Defining Rise of Carbon Pollution, Myogram, Sauden, Stream Line, Sonification of Hurricane Sandy). It was a nice experiance to hear what other students find interesting when it comes to sonification and sound in general. Sonification and sound design is such a broad field and I am very much looking forward to learning more about conveing information through sound throughout this course.
