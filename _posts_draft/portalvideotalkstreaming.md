@@ -16,6 +16,8 @@ Eigil's notes:
       and a little bit on how to use it
     
     For Sepehr: How we've been setting up streaming together with Oslo for WoNoMute
+    
+    In order to have a proper communication, two computer is needed in the place that the presenter is presenting and one in the other place. The first two (in Trondheim) are going to be used for streaming, setting up LOLA for audio sharing and video sharing (presenation and live videos), using Zoom video conferance. The third computer (in the pther place/Oslo) is going to be used for receiving the sound and image, via LOLA and Zoom video conference. Also a mixer is requierd to mix the sounds in the presenter's place. Below we shall explain the signal chain and the way that audio/visual aspect of this presentation could be set up.
     AUDIO:
     There could be three audio sources in place A, where the presenter is (Trondheim) and one in place B (Oslo).
     Further we shall address the places as Trondheim and Oslo, to match the flowchart presented in here.
