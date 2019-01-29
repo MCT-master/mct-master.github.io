@@ -43,7 +43,7 @@ A couple of notes on streaming with Youtube. Compared to some of the other solut
 
 Here we present how we have setup streaming from The Portal. It should be noted that this is only one of many possible solutions, and might not be exactly how we will do this in the future.
 
-   In order to have a proper communication, two computers are needed in the place that the presenter is and one on the other side of The Portal. The computers in Trondheim are used for streaming, setting up LOLA for audio sharing and video sharing (presenation and live videos), using Zoom video conferance. The third computer (in Oslo) is used for receiving the sound and image, via LOLA and Zoom video conference. Also a mixer is required to mix the sounds in the presenter's place. Below we shall explain the signal chain and the way that audio/visual aspect of this presentation could be set up. See also the flowchart below.
+   In order to have a proper communication, two computers are needed in the place that the presenter is and one on the other side of The Portal. The computers in Trondheim are used for streaming, setting up LOLA for audio sharing and video sharing (presenation and live videos), using Zoom video conferance. The third computer (in Oslo) is used for receiving and sending the sound and image, via LOLA and Zoom video conference. Also a mixer is required to mix the sounds in the presenter's place. Below we shall explain the signal chain and the way that audio/visual aspect of this presentation could be set up. See also the flowchart below.
    
    <figure align="middle">
 <img src="/assets/img/Flowchartstreaming.jpg" alt="Flowchart for the streaming setup" width="70%">
