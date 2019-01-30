@@ -1,8 +1,8 @@
 ---
 layout: post
 title:  "How to stream content from the portal"
-date:   2019-01-27 23:25:00 +0200
-categories: Streaming
+date:   2019-01-30 16:40:00 +0200
+categories: Portal
 author: Eigil Aandahl & Sepehr Haghighi
 excerpt: ""
 
@@ -61,4 +61,4 @@ Here we present how we have setup streaming from The Portal. It should be noted 
     The presentation material's video is directly going into the Zoom computer and going to be shared. That shall allow the Zoom software in the streaming computer to receive the video for streaming.
     In regards of the displays, both places use two big screens. In Trondheim, one screen is receiving the audience signal from Oslo via Zoom and the other is showing the presentation material, again coming from the Zoom. In Oslo both screens receive their picture from Zoom as well and one is dedicated to presenter's picture (since the presenter is not in Oslo) and one to the presentation material.
 
-
+That sums up the technical setup we have been using to stream talks from the Portal between Trondheim, Oslo and the wider web through Youtube.
