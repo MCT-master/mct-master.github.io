@@ -5,7 +5,7 @@ date:   2019-01-30 16:40:00 +0200
 categories: Portal
 author: Eigil Aandahl & Sepehr Haghighi
 image: /assets/img/broadcasting.jpg
-excerpt: "In this blogpost, we will try to explain in more detail how these streams have been set up using [OBS, Open Broadcaster Software](https://github.com/MCT-master/Portal/wiki/Open-Broadcaster-Software-Studio) and [Youtube Live](https://www.youtube.com/channel/UC4R8DWoMoI7CAwX8_LjQHig/about) while being connected between Trondheim and Oslo. This can be of use for anyone looking to set up a co-located stream of a speaker or performance."
+excerpt: "In this blogpost, we will try to explain in more detail how these streams have been set up using OBS, Open Broadcaster Software and Youtube Live while being connected between Trondheim and Oslo. This can be of use for anyone looking to set up a co-located stream of a speaker or performance."
 
 ---
 
