@@ -35,7 +35,7 @@ Click? (PLEASE YOUR SUMMARY HERE FOR CLICK SEND)
 
 
 <figure align="middle">
-<img src="/assets/img/signal_flow_chart.gif" alt="Broadcasting header image" width="100%">
+<img src="/assets/img/signal_flow_chart.gif" alt="Broadcasting header image" width="70%">
 </figure>
 <br>
 
