@@ -34,8 +34,8 @@ When setting up a scene in OBS, it is possible to add many different sources and
 
 For more information on how to use OBS and setting up live streaming on Youtube, the following links lead to external Youtube video tutorials on the subject:
 
-*[How to Use OBS Studio (Beginners Guide)](https://www.youtube.com/watch?v=DTk99mHDX_I)
-*[How To Live Stream On YouTube With OBS | Fast Start Guide
+* [How to Use OBS Studio (Beginners Guide)](https://www.youtube.com/watch?v=DTk99mHDX_I)
+* [How To Live Stream On YouTube With OBS | Fast Start Guide
 ](https://www.youtube.com/watch?v=OtJHX7O3p5U)
 
 A couple of notes on streaming with Youtube. Compared to some of the other solutions we have been using to communicate between Oslo and Trondheim, streaming is very slow. See the blogpost [Mutual Concert Between Oslo and Trondheim - Personal Reflections](https://mct-master.github.io/portal/2018/11/28/Mutual-Concert-Between-Oslo-and-Trondheim-Personal-Reflections.html), about the network performance we did using LoLa. To ensure the best possible quality of image and sound, the streaming services generally have a long buffer which adds up to several seconds of latency. It is therefore not very useful for real-time two-way communication with sound or video, but these kinds of services usually have a text chat where questions from the audience can be read and responded to.
@@ -57,9 +57,9 @@ Here we present how we have setup streaming from The Portal. It should be noted 
     In the end, the sound from the mixer (consisting of all of the sound sources from the two sides) goes to the streaming computer and is played back in the stream.
     
    When it comes to the video, the process gets more complicated. Starting from the Trondheim's side, there are three video sources. 
--1 - Presenter camera
--2 - Presentation meterial (presenter's laptop)
--3 - Audience camera. 
+* 1 - Presenter camera
+* 2 - Presentation meterial (presenter's laptop)
+* 3 - Audience camera. 
 
 Also there is one camera in Oslo to capture the audience. For video communication, Zoom video conference software is used.
     Starting from the presenter camera in Trondheim, It goes directly to the streaming computer. When it comes to audience cameras, the Trondheim one's signal goes into a Blackmagic web presenter, which captures the video so it can be used in OBS, alongside the audience camera signal coming from Oslo. Then both are getting into the streaming computer and go into the stream. Zoom is being used in the streaming computer in order to share the presenter video with Oslo.
