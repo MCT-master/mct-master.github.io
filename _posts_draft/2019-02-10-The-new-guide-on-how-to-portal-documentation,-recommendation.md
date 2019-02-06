@@ -1,15 +1,18 @@
 ---
 layout: post
-title:  "The new guide on how to portal documentation, recommendation"
+title:  "Documentation and recommendations from the latest Portal Jam"
 date:   2019-02-10 19:00
 categories: The Portal
 author: Karolina, Eirik and many more
 excerpt: "As the Portal is still in its infancy, pushing and exploring its technical possibilities is an ongoing process. We still encounter 
 different issues while actually seeking a smooth and standardized setup of the signal routing and performance space. At the end it is about 
-optimizing the telematic experience but not getting stuck in technicalities at the same time."
+optimizing the telematic experience but not getting stucked in technicalities at the same time."
 ---
 
-## How to Portal, the fourth
+<figure align="middle">
+<img src="/assets/img/portal_jam19.jpg" alt="Broadcasting header image" width="70%">
+</figure>
+<br>
 
 As the Portal is still in its infancy, pushing and exploring its technical possibilities is an ongoing process. 
 For different scenarios like jamming with acoustic instruments cross-campus, we still encounter different issues while actually 
@@ -23,12 +26,19 @@ This was the first time we putted up lightning in Trondheim in order to recogniz
 Our current system still leaves much to be desired when it comes to the visuals. For instance, the faces in Oslo are unclear. 
 This is due to the fact that the performers in Oslo have to be very far back in the frame due to the position of the mixer. 
 This, combined with visual noise in the frame makes it hard to immerse visually with the performers in Oslo. However, it would have been 
-optimal to install them on the racks from above in a 65 degree angle. By now we're moving more and more towards a film-studio-/ theatre stage 
-like situation, but without the 4th wall. 
+optimal to install them on the racks from above in a 65 degree angle. By now we're moving more and more towards a film-studio-/ theatre stage like situation, but without the 4th wall (MORE HERE). 
 
 In terms of latency, on an audible level it was low enough to perform together. Visually, the latency was so 
 distracting that the performers chose not to look at the screens in order to be able to focus on the sound and stay in synch.
-Click?
+
+Click? (PLEASE YOUR SUMMARY HERE FOR CLICK SEND)
+
+
+<figure align="middle">
+<img src="/assets/img/signal_flow_chart.gif" alt="Broadcasting header image" width="100%">
+</figure>
+<br>
+
 
 ## Technicalities
 
@@ -37,10 +47,10 @@ In Oslo the drums and vocals were send through LOLA (that's it?). Some instrumen
 the output of the bass amp which was bought to be directly connected to the mixer created noise. Double checking the outputs turned out 
 to be helpful – instead the bass was connected to a DI box which then could be connected to the Midas mixer. 
 All other instruments were connected directly to the mixer, like the guitar through an amp.
+For documentation we used several video sources, like Sony camcorder, Zoom audio-visual capturing and mobile phones.
 
-## STEREO MIX/ MONITOR MIX (more information here, ELIAS? JØRGEN?)
-
-VIDEO We used several video sources, like Sony camcorder, Zoom audio-visual capturing and mobile phones.
+## Stereo mix/ monitor mix 
+(more information here, ELIAS? JØRGEN?)
 
 General thoughts on the documentation, it would be practical to develop a standard procedure for them. 
 Templates that can be executed and documented in a standardized way. To achieve that we need reliable equipment which is always accessible.
