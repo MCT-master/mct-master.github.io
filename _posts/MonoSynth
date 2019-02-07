@@ -1,0 +1,85 @@
+---
+layout: post
+title:  "The MonoSynth"
+date:   2019-02-07 16:40:00 +0200
+categories: Audio Progeramming Mini Course
+author: Eirik Dahl (Code credit: Jørgen N. Varpe)
+image: /assets/img/broadcasting.jpg
+excerpt: "This blog post outlines the production of the MonoSynth. The Mono Synth is drawn by Jørgen N. Varpe, who also wrote a lot of the code."
+
+---
+
+<figure align="middle">
+<img src="/assets/img/broadcasting.jpg" alt="Broadcasting header image" width="70%">
+</figure>
+<br>
+
+My previous knowledge with programming before starting the MCT course is virtually nonexcistent, much unlike the error codes i have come across during this project. Still, I feel like my understanding of programming has grown compared to what i had in the previous semesters programming course.
+
+### Finding A Project
+
+It was somewhat difficult to decide what i would be able to do. Working with sonification or making a simple synth was my two options and i even thought this could be challenging, but after a short discussion with Anna, i
+landed on the latter. 
+
+From there i tried to implemet code from the web. I find it to be very helpful to use exsisting code when one is starting out. That helps one to get a overview of the functions rather than having to guess all the names and commands
+oneself. As a beginner i would advise people that is starting out to do the same. Anna also gave me another good tips, and this was to make code that does not work, or need improvement into comments, so you can segment the code to isolate problems.
+
+To concretize, my goal was to make a mono synth that was routed to the keyboard on my laptop. My overarching goal was simply to gain more insight into coding through being more exposed to it.
+That might not sound very impressive, but for me, with my startpoint, I think it is an ambitious goal.
+
+### Workflow
+
+
+After going through the code examples of the day, we were encouraged to use the group rooms. I felt more comfortable staying in the portal so as to get help from Anna and some of the strong students in the class.
+While doing programming, it is not always intuitive to find out what is the issue. For example, a word in a line could be right, but missing a capital letter. That is really not easy to figure out if you are just starting out, such as i am. 
+
+It is very helpful to have your peers and teachers looking over the code and teach you some debugging tricks. For late night work, google is your friend. Googeling everything will in most case give you an asnwer, because
+someone else has probably experienced a similar issue before.
+
+Routing the keys was actually the easiest and most pleasurable thing to do. I am not really a huge fan of repeating tasks, but here, it porvided me with a sense of progress and independency which was very motivating. 
+
+
+
+<figure align="middle">
+<img src="/assets/img/OBSscreenshot.png" alt="OBS in studio mode" width="70%">
+<figcaption align="middle"><strong>OBS in studio mode with two scenes.</strong></figcaption>
+</figure>
+
+For more information on how to use OBS and setting up live streaming on Youtube, the following links lead to external Youtube video tutorials on the subject:
+
+* [How to Use OBS Studio (Beginners Guide)](https://www.youtube.com/watch?v=DTk99mHDX_I)
+* [How To Live Stream On YouTube With OBS | Fast Start Guide
+](https://www.youtube.com/watch?v=OtJHX7O3p5U)
+
+A couple of notes on streaming with Youtube. Compared to some of the other solutions we have been using to communicate between Oslo and Trondheim, streaming is very slow. See the blogpost [Mutual Concert Between Oslo and Trondheim - Personal Reflections](https://mct-master.github.io/portal/2018/11/28/Mutual-Concert-Between-Oslo-and-Trondheim-Personal-Reflections.html), about the network performance we did using LoLa. To ensure the best possible quality of image and sound, the streaming services generally have a long buffer which adds up to several seconds of latency. It is therefore not very useful for real-time two-way communication with sound or video, but these kinds of services usually have a text chat where questions from the audience can be read and responded to.
+
+### How our setup has been for WoNoMute
+
+Here we present how we have setup streaming from The Portal. It should be noted that this is only one of many possible solutions, and might not be exactly how we will do this in the future.
+
+   In order to have a proper communication, two computers are needed in the place that the presenter is and one on the other side of The Portal. The computers in Trondheim are used for streaming, setting up LOLA for audio sharing and video sharing (presentation and live videos), using Zoom video conference. The third computer (in Oslo) is used for receiving and sending the sound and image, via LOLA and Zoom video conference. Also a mixer is required to mix the sounds in the presenter's place. Below we shall explain the signal chain and the way that audio/visual aspect of this presentation could be set up. See also the flowchart below for an overview of the different audio and video signals going between Trondheim, Oslo and streaming.
+   
+   <figure align="middle">
+<img src="/assets/img/Flowchartstreaming.jpg" alt="Flowchart for the streaming setup" width="70%">
+<figcaption align="middle"><strong>Flowchart for the streaming setup between Oslo and Trondheim.</strong></figcaption>
+</figure>
+    
+  First we will look more thouroughly at the audio setup.
+    There could in this case be three audio sources in Trondheim, where the presenter is, and one in Oslo to pickup questions from the audience.
+    The audio sources in Trondheim consist of: 1 - Presenter Mic, 2 - Presentation material (presenter's laptop) and 3 - Audience Mic). Those sources are going to the mixer and then sent to Oslo and played back via LOLA system. The same thing happens with the sound from  Oslo. The audience mic in Oslo is going to be received in Trondheim via LOLA and then played back.
+    In the end, the sound from the mixer (consisting of all of the sound sources from the two sides) goes to the streaming computer and is played back in the stream.
+    
+   When it comes to the video, the process gets more complicated. Starting from the Trondheim's side, there are three video sources. 
+* 1 - Presenter camera
+* 2 - Presentation meterial (presenter's laptop)
+* 3 - Audience camera. 
+
+Also there is one camera in Oslo to capture the audience. For video communication, Zoom video conference software is used.
+    Starting from the presenter camera in Trondheim, It goes directly to the streaming computer. When it comes to audience cameras, the Trondheim one's signal goes into a Blackmagic web presenter, which captures the video so it can be used in OBS, alongside the audience camera signal coming from Oslo. Then both are getting into the streaming computer and go into the stream. Zoom is being used in the streaming computer in order to share the presenter video with Oslo.
+    The presentation material's video is directly going into the Zoom computer and going to be shared. That shall allow the Zoom software in the streaming computer to receive the video for streaming.
+    In regards of the displays, both places use two big screens. In Trondheim, one screen is receiving the audience signal from Oslo via Zoom and the other is showing the presentation material, again coming from the Zoom. In Oslo both screens receive their picture from Zoom as well and one is dedicated to presenter's picture (since the presenter is not in Oslo) and one to the presentation material.
+
+That sums up the technical setup we have been using to stream talks from the Portal between Trondheim, Oslo and the wider web through Youtube.
+
+### Final Remarks
+As stated, the setup described here is only how we have done it lately for the WoNoMute talks, but it is perhaps not the optimal solution, and more trials to improve on the setup are certainly ongoing. It is anyway indicative of the the complex but rewarding activity of connecting places and people, letting them take part in events when they are happening. Hopefully this has been an illuminating read, but if not, [we can probably be reached for answers to your questions](mailto:eigil94@gmail.com). 
