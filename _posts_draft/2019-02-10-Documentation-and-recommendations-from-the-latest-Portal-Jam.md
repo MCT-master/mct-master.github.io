@@ -4,6 +4,7 @@ title:  "Documentation and recommendations from the latest Portal Jam"
 date:   2019-02-10 19:00
 categories: The Portal
 author: Karolina, Eirik and many more
+image: /assets/img/signal_flow_chart.gif
 excerpt: "As the Portal is still in its infancy, pushing and exploring its technical possibilities is an ongoing process. We still encounter 
 different issues while actually seeking a smooth and standardized setup of the signal routing and performance space. At the end it is about 
 optimizing the telematic experience but not getting stucked in technicalities at the same time."
