@@ -57,7 +57,7 @@ Here we present how we have setup streaming from The Portal. It should be noted 
     
 * 1 - Presenter Mic 
 * 2 - Presentation material (presenter's laptop) 
-* 3 - Audience Mic. 
+* 3 - Audience Mic
 
 Those sources are going to the mixer and then sent to Oslo and played back via LOLA system. The same thing happens with the sound from  Oslo. The audience mic in Oslo is going to be received in Trondheim via LOLA and then played back.
     In the end, the sound from the mixer (consisting of all of the sound sources from the two sides) goes to the streaming computer and is played back in the stream.
@@ -65,7 +65,7 @@ Those sources are going to the mixer and then sent to Oslo and played back via L
    When it comes to the video, the process gets more complicated. Starting from the Trondheim's side, there are three video sources. 
 * 1 - Presenter camera
 * 2 - Presentation material (presenter's laptop)
-* 3 - Audience camera. 
+* 3 - Audience camera
 
 Also there is one camera in Oslo to capture the audience. For video communication, Zoom video conference software is used.
     Starting from the presenter camera in Trondheim, It goes directly to the streaming computer. When it comes to audience cameras, the Trondheim one's signal goes into a Blackmagic web presenter, which captures the video so it can be used in OBS, alongside the audience camera signal coming from Oslo. Then both are getting into the streaming computer and go into the stream. Zoom is being used in the streaming computer in order to share the presenter video with Oslo.
