@@ -53,7 +53,13 @@ Here we present how we have setup streaming from The Portal. It should be noted 
     
   First we will look more thouroughly at the audio setup.
     There could in this case be three audio sources in Trondheim, where the presenter is, and one in Oslo to pickup questions from the audience.
-    The audio sources in Trondheim consist of: 1 - Presenter Mic, 2 - Presentation material (presenter's laptop) and 3 - Audience Mic). Those sources are going to the mixer and then sent to Oslo and played back via LOLA system. The same thing happens with the sound from  Oslo. The audience mic in Oslo is going to be received in Trondheim via LOLA and then played back.
+    The audio sources in Trondheim consist of: 
+    
+* 1 - Presenter Mic 
+* 2 - Presentation material (presenter's laptop) 
+* 3 - Audience Mic. 
+
+Those sources are going to the mixer and then sent to Oslo and played back via LOLA system. The same thing happens with the sound from  Oslo. The audience mic in Oslo is going to be received in Trondheim via LOLA and then played back.
     In the end, the sound from the mixer (consisting of all of the sound sources from the two sides) goes to the streaming computer and is played back in the stream.
     
    When it comes to the video, the process gets more complicated. Starting from the Trondheim's side, there are three video sources. 
