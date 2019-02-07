@@ -58,7 +58,7 @@ Here we present how we have setup streaming from The Portal. It should be noted 
     
    When it comes to the video, the process gets more complicated. Starting from the Trondheim's side, there are three video sources. 
 * 1 - Presenter camera
-* 2 - Presentation meterial (presenter's laptop)
+* 2 - Presentation material (presenter's laptop)
 * 3 - Audience camera. 
 
 Also there is one camera in Oslo to capture the audience. For video communication, Zoom video conference software is used.
