@@ -1,18 +1,20 @@
 ---
 layout: post
 title:  "Documentation and recommendations from the latest Portal Jam"
-date:   2019-02-10 19:00
-categories: The Portal
-author: Karolina, Eirik and many more
-image: /assets/img/signal_flow_chart.gif
+date:   2019-02-10 19:00 +0200
+categories: Portal
+author: Karolina, Eirik and Espen
+image: /assets/img/portal_jam19.jpg
 excerpt: "As the Portal is still in its infancy, pushing and exploring its technical possibilities is an ongoing process. We still encounter 
 different issues while actually seeking a smooth and standardized setup of the signal routing and performance space. At the end it is about 
 optimizing the telematic experience but not getting stucked in technicalities at the same time."
+
 ---
 
-<figure align="middle">
-<img src="/assets/img/portal_jam19.jpg" alt="Broadcasting header image" width="70%">
-</figure>
+<video width="640" height="480" controls align="middle">
+  <source src="/assets/video/01_PORTALJAM_480p.mov" type="video/mov">
+  Your browser does not support the video tag.
+</video>
 <br>
 
 As the Portal is still in its infancy, pushing and exploring its technical possibilities is an ongoing process. 
