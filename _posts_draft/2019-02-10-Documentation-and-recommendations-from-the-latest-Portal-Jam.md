@@ -34,7 +34,7 @@ optimal to install them on the racks from above in a 65 degree angle. By now we'
 In terms of latency, on an audible level it was low enough to perform together. Visually, the latency was so 
 distracting that the performers chose not to look at the screens in order to be able to focus on the sound and stay in synch.
 
-Click? (PLEASE YOUR SUMMARY HERE FOR CLICK SEND)
+Click? (How to send click)
 
 
 <figure align="middle">
@@ -53,7 +53,7 @@ All other instruments were connected directly to the mixer, like the guitar thro
 For documentation we used several video sources, like Sony camcorder, Zoom audio-visual capturing and mobile phones.
 
 ## Stereo mix/ monitor mix 
-(more information here, ELIAS? JØRGEN?)
+(more information here)
 
 General thoughts on the documentation, it would be practical to develop a standard procedure for them. 
 Templates that can be executed and documented in a standardized way. To achieve that we need reliable equipment which is always accessible.
