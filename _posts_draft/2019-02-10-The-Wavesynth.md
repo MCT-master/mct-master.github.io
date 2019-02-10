@@ -10,7 +10,7 @@ excerpt: "A short summary, typically copy-pasting the first paragraph of the blo
 
 # The Wavesynth
 
-During the first workshop week in the course Audio Programming, I have been working on a project which I have called "The Wavesynth". I have called it this because I have chosen to use wavetables to shape the output of an oscillator. I have not made a wavetable synthesizer like for instance Ableton's Wavetable (https://www.ableton.com/en/packs/wavetable/), where you can interpolate between waves. instead I use some wavetables created by Google Labs (https://github.com/GoogleChromeLabs/web-audio-samples/tree/gh-pages/samples/audio/wave-tables) to make it sound like "real" instruments. The synth is played by using the computer keyboard, and the user can chose the output sound, and adjust three different effects to shape the sound.
+During the first workshop week in the course Audio Programming, I have been working on a project which I have called "The Wavesynth". I have called it this because I have chosen to use wavetables to shape the output of an oscillator. I have not made a wavetable synthesizer like for instance <a href="https://www.ableton.com/en/packs/wavetable/" target="_blank">Ableton's Wavetable</a>, where you can interpolate between waves. instead I use some wavetables created by <a href="https://github.com/GoogleChromeLabs/web-audio-samples/tree/gh-pages/samples/audio/wave-tables" target="_blank">Google Chrome Labs</a> to make it sound like "real" instruments. The synth is played by using the computer keyboard, and the user can choose the output sound, and adjust three different effects to shape the sound.
 
 __Keywords:__ Web Audio API, JavaScript, HTML5 Canvas, Wavetable, Synthesizer, DSP, NexusUI
 
@@ -53,13 +53,13 @@ Two hours maximum of coding after the seminars was not enough for my brain to co
 
 I had decided to go over to a monofonic synth, and during day 3 it was working. for every time I pressed a key I created a new oscillator, passing the frequency as an argument, and for every release of the key, I stopped the oscillator. I wrote logic code to prevent multiple triggering when holding down keys, and used envelopes to prevent "click" noise when stopping sounds.
 
-At the end of day 3 I got the custom wavetable to work. I was originally most interested in getting a Wurlitzer sound, and at Google Chrome Labs's Github page I got a wavetable for this. I copied the raw file, and made a json(JavaScript Object Notation)-file out of it. JSON is a syntax made for storing and exchanging text-data(https://www.w3schools.com/js/js_json_intro.asp). In javaScript I can then get the json-file using a XMLHttpRequest object (https://www.w3schools.com/xml/xml_http.asp), and convert it to a javaScript object using the built in function JSON.parse(). I then made a function to set the wavetable to the oscillator, which you can see in the script.js file in the repository.
+At the end of day 3 I got the custom wavetable to work. I was originally most interested in getting a Wurlitzer sound, and at Google Chrome Labs's Github page I got a wavetable for this. I copied the raw file, and made a json(JavaScript Object Notation)-file out of it. <a href="https://www.w3schools.com/js/js_json_intro.asp" target="_blank">JSON</a> is a syntax made for storing and exchanging text-data. In javaScript I can then get the json-file using a <a href="https://www.w3schools.com/xml/xml_http.asp" target="_blank">XMLHttpRequest</a> object, and convert it to a javaScript object using the built in function JSON.parse(). I then made a function to set the wavetable to the oscillator, which you can see in the script.js file in the repository.
 
 ## Late stage
 
 Day 4 had come, and I had not gotten as far as I had hoped. Maybe I prioritized wrong; beginning with the keyboard layout, helping others, and getting in over my head in complexity, but I ended up with a ok result.
 
-I used the last hours to implement a lowpassfilter into the signal chain, which the user could change using a slider. The slider was made with a library shown to us by our teacher Anna Xambó, called NexusUI. "NexusUI is a collection of HTML5 interfaces and Javascript helper functions to assist with building web audio instruments in the browser."(https://nexus-js.github.io/ui/). This is a very nice and easy to implement library that makes it relatively easy to build a good looking web interface.
+I used the last hours to implement a lowpassfilter into the signal chain, which the user could change using a slider. The slider was made with a library shown to us by our teacher Anna Xambó, called NexusUI. "NexusUI is a collection of HTML5 interfaces and Javascript helper functions to assist with building web audio instruments in the browser."([https://nexus-js.github.io/ui/]). This is a very nice and easy to implement library that makes it relatively easy to build a good looking web interface.
 
 ## The weekend
 
@@ -88,6 +88,6 @@ Even though I have past experience as mentioned, I have learnt alot during this 
 
 I will continue to explore the libraries we have been shown, which I belive will make life a lot easier :smiley: I want to continue to work on how I have routed the effects, adding user ablity to change dry/wet ratio, and I want to add reverb. I may choose to use some libraries in the future for faster building, but still I see the absolute need for having the foundation of how to do DSP with only the Web Audio API. One last important thing is that I need to make it responsive. For now the GUI (Graphical User Interface) is not scalable, so it would work poorly on a small device.
 
-If you want to see how I have built my application, take a look at my repository! https://github.com/MeltingPlanet/miniProj I have tried to comment the most important lines of code, and devided it into sections for easy reading.
+If you want to see how I have built my application, take a look at my <a href="https://github.com/MeltingPlanet/miniProj" target="_blank">repository</a>! I have tried to comment the most important lines of code, and devided it into sections for easy reading.
 
-__Want to try it?__ Try it here: http://folk.ntnu.no/jorgennv/miniProject/
+__Want to try it?__ Try it <a href="http://folk.ntnu.no/jorgennv/miniProject/" target="_blank">repository</a>
