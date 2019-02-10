@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "The Wavesynth"
-date: 2019-02-10 21:11:00 +0200
+date: 2019-02-10 21:13:00 +0100
 categories: Audio-Programming
 author: Jørgen Varpe
 image: /assets/img/varpe/wavesynth.jpg
