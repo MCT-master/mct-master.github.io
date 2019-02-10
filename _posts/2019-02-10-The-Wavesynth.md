@@ -36,8 +36,6 @@ Above you can see images of how the computer keyboard is mapped to the piano key
 
 The piano keys are created using HTML5 Canvas, a way of creating graphics on the web using javaScript. Two canvas elements area created in the index.html file, one for drawing the white keys on, and the other for drawing the black keys on. The actual drawings are programmed in javaScript, and the canvases are redrawn for every time a key is pressed, with the corresponding key turning blue.
 
-To see how this is done, take a look in the script.js code. I have made some comments on the "most important" lines.
-
 ### Where is the sound?
 
 After a day without making any sounds, only working with the making of the keyboard and the key triggering logic, I felt I had to start producing sounds. Day 2 was on, and I wanted the synthesizer to be polyfonic. I wrote, tested, edited, tested, looked for examples, copied examples, edited, tested, and so on. It did not work, and stress came along...
