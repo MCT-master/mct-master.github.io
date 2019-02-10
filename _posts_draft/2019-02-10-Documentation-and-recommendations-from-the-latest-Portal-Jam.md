@@ -36,6 +36,8 @@ distracting that the performers chose not to look at the screens in order to be 
 
 Click? (How to send click)
 
+For some parts of the jam we chose to use the click track from the drums in Oslo. This was sent and recieved on the same channels as the drum sounds themselves, which of course was not ideal in terms of sound mixing. The click was also heard in Trondheim later than in Oslo, because of the latency added in the signal chain. By playing "on click" you are thereby playing the system's latency behind Oslo.
+
 
 <figure align="middle">
 <img src="/assets/img/signal_flow_chart.gif" alt="Broadcasting header image" width="70%">
@@ -53,7 +55,8 @@ All other instruments were connected directly to the mixer, like the guitar thro
 For documentation we used several video sources, like Sony camcorder, Zoom audio-visual capturing and mobile phones.
 
 ## Stereo mix/ monitor mix 
-(more information here)
+
+In Trondheim we recieved audio from Oslo on 4 channels through LOLA. These channeles were sent together with the local audio channels to output bus 9 and 10, as you can see illustrated in the signal flow chart above. These channeles were physically connected to a headphone amplifier, which distributed the signal to the local participants in Trondheim. Since only two channels (left and right) were used, everyone got the same monitor mix. This mix was set by adjusting the amount of each instrument sent to the monitor busses. Later on we will add several busses, to be able to send different mixes to each participant.
 
 General thoughts on the documentation, it would be practical to develop a standard procedure for them. 
 Templates that can be executed and documented in a standardized way. To achieve that we need reliable equipment which is always accessible.
