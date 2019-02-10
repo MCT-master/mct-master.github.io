@@ -59,7 +59,7 @@ At the end of day 3 I got the custom wavetable to work. I was originally most in
 
 Day 4 had come, and I had not gotten as far as I had hoped. Maybe I prioritized wrong; beginning with the keyboard layout, helping others, and getting in over my head in complexity, but I ended up with a ok result.
 
-I used the last hours to implement a lowpassfilter into the signal chain, which the user could change using a slider. The slider was made with a library shown to us by our teacher Anna Xambó, called NexusUI. "NexusUI is a collection of HTML5 interfaces and Javascript helper functions to assist with building web audio instruments in the browser."([https://nexus-js.github.io/ui/]). This is a very nice and easy to implement library that makes it relatively easy to build a good looking web interface.
+I used the last hours to implement a lowpassfilter into the signal chain, which the user could change using a slider. The slider was made with a library shown to us by our teacher Anna Xambó, called NexusUI. "NexusUI is a collection of HTML5 interfaces and Javascript helper functions to assist with building web audio instruments in the browser."(https://nexus-js.github.io/ui/). This is a very nice and easy to implement library that makes it relatively easy to build a good looking web interface.
 
 ## The weekend
 
@@ -90,4 +90,4 @@ I will continue to explore the libraries we have been shown, which I belive will
 
 If you want to see how I have built my application, take a look at my <a href="https://github.com/MeltingPlanet/miniProj" target="_blank">repository</a>! I have tried to comment the most important lines of code, and devided it into sections for easy reading.
 
-__Want to try it?__ Try it <a href="http://folk.ntnu.no/jorgennv/miniProject/" target="_blank">here</a>
+__Want to try it?__ Try it <a href="http://folk.ntnu.no/jorgennv/miniProject/" target="_blank"></a>
