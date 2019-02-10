@@ -80,7 +80,7 @@ As you can see in the picture above, I also added a dropdown where you can choos
 
 I chose to start the audioContext, create every node, connect every audio node, and set a default configuration with one big button. This button initiates all this, and the code runs only on the first press. The synthesizer will not work before you press the big button.
 
-Lastly I have worked a bit with CSS to position
+Lastly I have worked a bit with CSS to make it look alright. 
 
 ## Valuable learning and what comes next
 
