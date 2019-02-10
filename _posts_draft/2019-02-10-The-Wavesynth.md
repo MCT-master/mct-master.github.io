@@ -10,7 +10,7 @@ excerpt: "A short summary, typically copy-pasting the first paragraph of the blo
 
 # The Wavesynth
 
-During the first workshop week in the course Audio Programming, I have been working on a project which I have called "The Wavesynth". I have called it this because I have chosen to use wavetables to shape the output of an oscillator. I have not made a wavetable synthesizer like for instance <a href="https://www.ableton.com/en/packs/wavetable/" target="_blank">Ableton's Wavetable</a>, where you can interpolate between waves. instead I use some wavetables created by <a href="https://github.com/GoogleChromeLabs/web-audio-samples/tree/gh-pages/samples/audio/wave-tables" target="_blank">Google Chrome Labs</a> to make it sound like "real" instruments. The synth is played by using the computer keyboard, and the user can choose the output sound, and adjust three different effects to shape the sound.
+During the first workshop week in the course Audio Programming, I have been working on a project which I have called "The Wavesynth". I have called it this because I have chosen to use wavetables to shape the output of an oscillator. I have not made a wavetable synthesizer like for instance <a href="https://www.ableton.com/en/packs/wavetable/" target="_blank">Ableton's Wavetable</a>, where you can interpolate between waves. instead I use some wavetables created by <a href="https://github.com/GoogleChromeLabs/web-audio-samples/tree/gh-pages/samples/audio/wave-tables" target="_blank">Google Chrome Labs</a> to make it sound like "real" instruments. The synth is played by using the computer keyboard, and the user can choose the output sound, and adjust three different effects to shape the it the way they want. The synthesizer is made using web technologies, including HTML, JavaScript, Web Audio Api, and more.
 
 __Keywords:__ Web Audio API, JavaScript, HTML5 Canvas, Wavetable, Synthesizer, DSP, NexusUI
 
@@ -23,13 +23,13 @@ During class we went through the basics of HTML, javaScript and the Web Audio AP
 ### The keyboard
 
 <figure>
-<img src="/assets/img/varpe/keyboard.jpg" alt="synth piano keys" width="50%" align="middle"/>
-<figcaption>Synth piano keys</figcaption>
+  <img src="/assets/img/varpe/keyboard.jpg" alt="synth piano keys" width="50%" align="middle"/>
+  <figcaption><strong>Synth piano keys</strong></figcaption>
 </figure>
 
 <figure>
-<img src="/assets/img/varpe/tast.PNG" alt="computer keyboard" width="50%" align="middle"/>
-<figcaption>Computer keyboard</figcaption>
+  <img src="/assets/img/varpe/tast.PNG" alt="computer keyboard" width="50%" align="middle"/>
+  <figcaption><strong>Computer keyboard</strong></figcaption>
 </figure>
 
 Above you can see images of how the computer keyboard is mapped to the piano keys.
@@ -43,8 +43,8 @@ To see how this is done, take a look in the script.js code. I have made some com
 After a day without making any sounds, only working with the making of the keyboard and the key triggering logic, I felt I had to start producing sounds. Day 2 was on, and I wanted the synthesizer to be polyfonic. I wrote, tested, edited, tested, looked for examples, copied examples, edited, tested, and so on. It did not work, and stress came along...
 
 <figure>
-<img src="/assets/img/varpe/codeStress.jpg" alt="Stressed out by code" width="50%" align="middle"/>
-<figcaption></figcaption>
+  <img src="/assets/img/varpe/codeStress.jpg" alt="Stressed out by code" width="50%" align="middle"/>
+  <figcaption></figcaption>
 </figure>
 
 Two hours maximum of coding after the seminars was not enough for my brain to come up with a solution, so I put the idea of making it polyfonic on the top shelf.
@@ -70,8 +70,8 @@ Not being too happy with the result, I decided to use some of my weekend on clea
 I ended up with three effects. A lowpass-filter with adjustable cutoff, a delay with adjustable delay time, and a tremolo effect with adjustable tremolo speed. The user can activate and deactivate these effects with a corresponding button, and use sliders to adjust the effects.
 
 <figure>
-<img src="/assets/img/varpe/dropdown.PNG" alt="The Wavesynth" width="50%" align="middle"/>
-<figcaption>The Wavesynth</figcaption>
+  <img src="/assets/img/varpe/dropdown.PNG" alt="The Wavesynth" width="50%" align="middle"/>
+  <figcaption><strong>The Wavesynth</strong></figcaption>
 </figure>
 
 ### More waves, octaves, and optimalization
@@ -90,4 +90,4 @@ I will continue to explore the libraries we have been shown, which I belive will
 
 If you want to see how I have built my application, take a look at my <a href="https://github.com/MeltingPlanet/miniProj" target="_blank">repository</a>! I have tried to comment the most important lines of code, and devided it into sections for easy reading.
 
-__Want to try it?__ Try it <a href="http://folk.ntnu.no/jorgennv/miniProject/" target="_blank">repository</a>
+__Want to try it?__ Try it <a href="http://folk.ntnu.no/jorgennv/miniProject/" target="_blank">here</a>
