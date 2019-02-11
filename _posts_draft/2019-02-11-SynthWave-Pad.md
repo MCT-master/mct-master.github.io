@@ -13,6 +13,10 @@ excerpt: "A short summary, typically copy-pasting the first paragraph of the blo
 ## How it started
 It was a wonderful journey we had for a week getting hands-on experience with Web audio API and JavaScript. In the beginning, I was tensed about the way that I will handle coding with zero prior experience. But, at the end of the week, I was happy about what I have managed to achieve. I was lacking ideas to start a project for the week but after getting introduced to oscillators, I thought of making a synthesizer or a drum pad that works on the browser. So it was either to work with Oscillators or sound loops. 
 
+<figure>
+<img src="https://github.com/MCT-master/mct-master.github.io/blob/master/assets/img/groupB/mariashane.jpg?raw=true" alt="csound" width="70%" />
+</figure>
+
 ## Work Progress
 
 On the first day, my first step was to set up an oscillator that works with a click of the mouse. This was a great way to understand how JavaScript works with HTML elements. Then I extended it to seven oscillators and additionally, Volume up and Volume Down buttons to control the global gain of the Oscillators.
