@@ -20,23 +20,23 @@ excerpt: The project I have developed on over the first week of web audio based 
 ### Technologies Used 
 
 
-### Visual Studio Code 
+## Visual Studio Code 
 
 Code editor used to write and compile code. Seems to be ideal for the job, but relatively new. Opinion from from some experienced coders “I use …… - but you shouldn’t, if I started again I would use visual studio code”. It also has a live share function that may prove useful later when collaborating.
 
-### HTML  
+## HTML  
 
 for the basic user interface (UI), including the buttons, the main picture and the placement of all the UI elements. 
 
-### JavaScript (JS) 
+## JavaScript (JS) 
 
 The bulk of the code and all action and sound based commands are run through JavaScript. This includes the creation of oscillators, and routing the audio signal (which is how the delay functionality is created). Also mapping of all controls – buttons, mouse and keyboard. 
 
-### CSS 
+## CSS 
 
 Used on the last day to add some beatification to the basic HTML. Was used for the “Reese da Alien” title and main background colour. A slider from the nexus library was also added.
 
-### Github 
+## Github 
 
 Used for sharing code, and where the repositories of this blog and the code will be stored and shared.
 
@@ -50,8 +50,8 @@ Day 3 – After slow progress during the day, managed to organise the variables 
 
 Day 4 – Added mouse functionality to the FM oscillator, and remapped the keyboard to use all of the lettered keys. Used CSS to improve visuals, and tweaked audio mapping variables and UI elements to get ready for the final presentation. 
 
-
 ### The Project & Code
+
 
 
 On day 3 when asking for help with my project I was told to possibly start from scratch – and pay attention to the routing and organisation of the signal flow. This helped me immensely. Although I didn’t start from scratch (í was determined to find the problem in the code)
