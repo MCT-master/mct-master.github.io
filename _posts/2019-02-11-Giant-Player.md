@@ -40,12 +40,13 @@ Besides the fact that almost everything was new to me, the most important points
 During the week I was introduced to many great sites, tutorials and videos which really helped me understand the potential of Web Audio and the implementation of objects within my code. Using the web-browser's view source option is another helpful tool for figuring out the coding behind many of the available examples online.
 
 For Web Audio API I recommend checking out - 
-(https://developer.mozilla.org/en-US/docs/Web/API/Web_Audio_API)
-and (https://www.toptal.com/web/web-audio-api-tutorial)
+[Web Audio API](https://developer.mozilla.org/en-US/docs/Web/API/Web_Audio_API)
 
-For JavaScript this website was very useful - (https://www.w3schools.com/js/)
+and [this Web Audio API tutorial](https://www.toptal.com/web/web-audio-api-tutorial)
 
-For the Ton.js API, examples and demos - (https://tonejs.github.io/)
+[For JavaScript this website was very useful](https://www.w3schools.com/js/)
+
+[For the Ton.js API, examples and demos](https://tonejs.github.io/)
 
 ## Work in Progress
 Now that my giant player is working properly I can continue experimenting with applying filters, a fancier UI with NexusUI.js, learning how to use notes instead of frequencies, change the way I handle the timing and scheduling of the melody and add a change tempo slider. The Giant Step player in itself is a non-interesting piece of code in my opinion, and I would have loved to invest more time in creating a more interactive system with a much more interesting result. I am happy that I got introduced to the Tone.js library because I could utilize this library together with several Max/MSP patches I am currently working on.
