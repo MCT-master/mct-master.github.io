@@ -122,7 +122,7 @@ One of the aspects of this project I am proudest of is the addition of the FM Pr
 Firstly, the OSC FM is routed to VolumeFM – then that is routed to the frequency of OSC2.
 This was because the first oscillators frequency was already mapped to the mouse movement, so now there would be ability to affect the pitch of both oscillators. This worked in conjunction with the mouse mapping:
 
-
+        if (playing == 1) {
           //oscillator.frequency.value = x;
           oscillator.frequency.value = widthnor*1000;
           volume2.gain.value = 1 - heightnor;
@@ -151,7 +151,7 @@ This is an audio player that runs alongside the main patch, routed through volum
 
 ### Keyboard Mapping
 
-I found an online library called hotkeys.js that allowed me to map my keyboard. Found on Github. I declared which keys to use (list after the yellow “hotkeys”), and then below created a large list mapping each character key to frequency of OSC2. I used a webpage (link at bottom) as a reference to frequencies of notes, and mapped just over two octaves (not in a piano roll formation). This allowed for another way to affect the pitch of the patch – adding depth to the playability.  I found when used it overrode the mouse mapping of the volume. Not intentional or wanted, however I found when the mouse was off the screen this was reset – which could be used as a feature when played. I would prefer if there was a more elegant was of harnessing both these controls at the same time, an aspect to improve in the future.
+I found an online library called hotkeys.js that allowed me to map my keyboard. Found on Github. I declared which keys to use (list after the yellow “hotkeys”), and then below created a large list mapping each character key to frequency of OSC2. I used a webpage (link at bottom) as a reference to frequencies of notes, and mapped just over two octaves (not in a piano roll formation). This allowed for another way to affect the pitch of the patch – adding depth to the playability.  I found when used it overrode the mouse mapping of the volume. Not intentional or wanted, however I found when the mouse was off the screen this was reset – which could be used as a feature when played. I would prefer if there was a more elegant way of harnessing both these controls at the same time, an aspect to improve in the future.
 
 
 
@@ -208,18 +208,26 @@ If anyone would like to use or view the projects code it will be located at this
 
 <https://github.com/cheeserage/ReeseAlien/tree/master/ReeseAlien>
 
-Sam Roman
 
 Sources used below - 
 
+Note Frequencies
 
 <http://pages.mtu.edu/~suits/notefreqs.html>
 
-<https://github.com/axambo/audio-programming-workshop/tree/master/slides>
+MCT Github 
+
+<https://github.com/axambo/audio-programming-workshop/>
+
+Canvas.js
 
 <https://canvasjs.com/>
 
+Nexus.js
+
 <https://github.com/nexus-js/ui>
+
+Hotkeys.js
 
 <https://github.com/jaywcjlove/hotkeys>
 
