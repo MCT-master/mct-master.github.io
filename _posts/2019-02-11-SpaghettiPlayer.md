@@ -15,7 +15,7 @@ excerpt: The <a href="https://fractionmari.github.io/SpaghettiPlayer/">Spaghetti
 
 ## The Spaghetti Code Music Player 2.2
 
-This has been an intense week with a steep learning curve for me, but I have enjoyed it so much. HTML and web design was a huge hobby for me back in the 90's when I was little, and this week I have been reminded of how fun it is to be creative with code. To try and fail, endlessly googling for solutions when nothing works, trobleshooting for hours and hours, getting no sleep. And the rush you get when it finally works! 
+This has been an intense week with a steep learning curve for me, but I have enjoyed it so much. HTML and web design was a huge hobby for me back in the 90's when I was little, and this week I have been reminded of how fun it is to be creative with code. To try and fail, endlessly googling for solutions when nothing works, troubleshooting for hours and hours, getting no sleep. And the rush you get when it finally works! 
 
 *Take a look at the evolution of the Spaghetti Player:*
 <img src="https://github.com/MCT-master/mct-master.github.io/blob/master/assets/img/mari/collage.jpg" alt="Evolution of the player" width="100%" />
@@ -26,7 +26,7 @@ The <a href="https://fractionmari.github.io/SpaghettiPlayer/">Spaghetti Code Mus
 
 I started by googling "Web Audio API" to get some inspiration for my project. I found the <a href="https://webaudioapi.com/samples/">Web Audio API samples page</a> with a collection of examples of Web Audio API applications. 
 
-Just to get started, I quickly chose the <a href="https://webaudioapi.com/samples/filter/">filter sample</a> and figured out that I could use this as a base for my own project. To gather the necessary files, I went into the sources of the web page and found the repository there. The repository contained a lot of different files, both js-files, an html index file, and a css file. I copyed everything into my Visual Studio Code workspace and started on studying the files - to see what I could get out of it.
+Just to get started, I quickly chose the <a href="https://webaudioapi.com/samples/filter/">filter sample</a> and figured out that I could use this as a base for my own project. To gather the necessary files, I went into the sources of the web page and found the repository there. The repository contained a lot of different files, both js-files, an html index file, and a css file. I copied everything into my Visual Studio Code workspace and started on studying the files - to see what I could get out of it.
 
 The code was rather complex, and the most of it was way beyond my level of javascript knowledge. But I started with the easier stuff that I could understand, like editing the colours in the css-file and some of the text in the html-file, and also I also replace the sound file from the original js-code with one of my own sound files. 
 Then I figured out that I wanted to add another parameter in addition to the original filter parameter. I thought that adding a volume control would be an easy task to do. I copied the slider in the HTML-file, and then I was going to edit the js-code to make it actually work. For the same Web audio API samples page, I found a <a href="https://webaudioapi.com/samples/volume/">volume control</a>. 
@@ -45,7 +45,7 @@ It might look like basics if you know Web Audio API from before, but for me, dea
 
 By the end of this day there were still some issues with my code: 
 
- - when I turn off and on the filter toggle, also the volume control is effected. I only want the filter effect to be effectd by this toggle.
+ - when I turn off and on the filter toggle, also the volume control is also effected. I only want the filter effect to be effected by this toggle.
  -when i turn off and on the filter toggle, the volume control stops working.
 
 For the next couple of days, I also wanted to try to add more parameters to my player, and also include more of what I had learned in this course so far.
@@ -83,14 +83,16 @@ This day I used _hours_ on trying to implement a visualizer in music player; the
 
 <img src="/assets/img/mari/Visualizer.jpg" alt="Player with visualizer" width="60%" />
 
-The visualizer code was also taken from the <a href="https://webaudioapi.com/samples/visualizer/">Web Audio Samples Page</a>, and this screen shot is taking during the endless trying and failing sessions when I tried to merge the visualizer code into my code. From the screen shot, it looks like it's working, but when the visualizer was working, my effects didn't work and vice verca. I couldn't succeed with implementing the visualizer into my player, unfortunately, because coders also need to sleep. I did several attempts during the week and weekend, but it seemed unpossible. 
+The visualizer code was also taken from the <a href="https://webaudioapi.com/samples/visualizer/">Web Audio Samples Page</a>, and this screenshot is taken during the endless trying and failing sessions when I tried to merge the visualizer code into my code. From the screen shot, it looks like it's working, but when the visualizer was working, my effects didn't work and vice versa. I couldn't succeed with implementing the visualizer into my player, unfortunately, because coders also need to sleep. I did several attempts during the week and weekend, but it seemed unpossible. 
 
 
 ***Research Journa, Mini Project, day 3***
 
-My mission for this thay has been:
+The mission for this day has been:
+
 -try to clean up my code, build it from the beginning.
--implement some things i've learn through the week
+
+-implement some things i've learned through the week
 
 Today I felt that I learned a lot about from the tutorial lecture about the nodes that I’d already been using. To enhance my understanding I aimed to build a new player with the same effects that I’d been using before. I started by adding the mouse move effect from the first day tutorial to be able to control the filter node with the mouse. This was working perfectly!
 
@@ -120,7 +122,7 @@ Today I felt that I learned a lot about from the tutorial lecture about the node
 
 So from this day my project developed in a new direction, but it was definitely related to my previous player. The difference between the two players was that the previous one used sliders to control filter, the new one used the mouse. The new player also had a delay effect, controlled by on and off buttons.
 
-One can say that I've almost started on building my code up from the beginning, but not entirely. I think I've learned a lot today, crossed a threshold perhaps. While yesterday I understood the if/else statement and was able to implement it in my own code, today I understood how to assign different buttons to differnt effects and make it work.
+One can say that I've almost started on building my code up from the beginning, but not entirely. I think I've learned a lot today, crossed a threshold perhaps. While yesterday I understood the if/else statement and was able to implement it in my own code, today I understood how to assign different buttons to different effects and make it work.
 
 I used a lot of time to try to make a volume knob to my "new" project. By this point, I still hadn't figured out how, and I was wondering if I had to give it up and start on merging my two projects together to one project. 
 
@@ -161,7 +163,7 @@ I wanted my player to look good in browsers for both phones and computer, and to
   }
   ```
  
-This is the container that my whole player is placed within. When I use `margin: 0 auto;`, `width: auto;` and `max-width: 500x`, I say that the margins of container should adjust to the window. But I chose a maximum-width of 500 px, to prevent it from looking enourmous on web browsers. There were still some problems with the margins of the container. It looked symmetrical at this point, but I had placed the buttons in containers inside the container, and when I shrunk the browser window enough, the buttons ended on top of each other. Didn't look good at all. I thought a solution could be to place the buttons inside of a table instead, but then it didn't look symmetrical any more. Wow, what a dilemma:
+This is the container that my whole player is placed within. When I use `margin: 0 auto;`, `width: auto;` and `max-width: 500x`, I say that the margins of container should adjust to the window. But I chose a maximum-width of 500 px, to prevent it from looking enormous on web browsers. There were still some problems with the margins of the container. It looked symmetrical at this point, but I had placed the buttons in containers inside the container, and when I shrunk the browser window enough, the buttons ended on top of each other. Didn't look good at all. I thought a solution could be to place the buttons inside of a table instead, but then it didn't look symmetrical any more. Wow, what a dilemma:
 
 <img src="/assets/img/mari/collage2.jpg" alt="What a mess" width="60%" />
 
