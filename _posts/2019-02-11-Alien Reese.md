@@ -122,26 +122,6 @@ Keyboard Mapping
 I found an online library called hotkeys.js that allowed me to map my keyboard. Found at https://github.com/jaywcjlove/hotkeys. I declared which keys to use (list after the yellow “hotkeys”), and then below created a large list mapping each character key to frequency of OSC2. I used http://pages.mtu.edu/~suits/notefreqs.html as a reference to frequencies of notes, and mapped just over two octaves (not in a piano roll formation). This allowed for another way to affect the pitch of the patch – adding depth to the playability.  I found when used it overrode the mouse mapping of the volume. Not intentional or wanted, however I found when the mouse was off the screen this was reset – which could be used as a feature when played. I would prefer if there was a more elegant was of harnessing both these controls at the same time, an aspect to improve in the future.
 
 
-<!-- keypress library (must be online to work! adding library to project later?) -->
-
-<script src="https://unpkg.com/hotkeys-js/dist/hotkeys.min.js"></script>
-<script type="text/javascript">
-
-// in brackets below list keys to activate ##############################################
-
-hotkeys('ctrl+a,ctrl+b,q,a,z,w,s,x,e,d,c,r,f,v,t,g,b,y,h,n,u,j,m,i,k,l,o,p', function(event,handler) {     
-  switch(handler.key){
-    // case "ctrl+a":alert('you pressed ctrl+a!');break;
-    // case "ctrl+b":alert('you pressed ctrl+b!');break;
-
-// map keys to frequency #################################################################
-
-    case "z":oscillator2.frequency.value = 65.41;break;
-    case "a":oscillator2.frequency.value = 69.30;break;
-    case "q":oscillator2.frequency.value = 73.42;break;
-    case "w":oscillator2.frequency.value = 77.78;break;
-    case "s":oscillator2.frequency.value = 82.41;break;
-    case "x":oscillator2.frequency.value = 87.31;break;
 
 UI elements – HTML & CSS
 
