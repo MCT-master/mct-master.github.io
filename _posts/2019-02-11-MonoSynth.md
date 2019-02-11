@@ -10,7 +10,7 @@ excerpt: This blog post outlines the production of the MonoSynth. The Mono Synth
 ---
 
 <figure align="middle">
-<img src="/assets/img/monosynth.jpg" alt="Broadcasting header image" width="70%">
+<img src="/assets/img/Monosynth.jpg.jpg" alt="Broadcasting header image" width="70%">
 </figure>
 <br>
 
@@ -39,7 +39,9 @@ Routing the keys was actually the easiest and most pleasurable thing to do. I am
 
 ### Happy Birthday
 
-<iframe width="100%" height="100%" src="https://youtu.be/k0llkVnh2hA" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<center>
+<iframe width="640" height="360" src="https://www.youtube.com/embed/k0llkVnh2hA" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</center>
 
 ### End Product
 
