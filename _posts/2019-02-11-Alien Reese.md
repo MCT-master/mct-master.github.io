@@ -20,23 +20,23 @@ excerpt: The project I have developed on over the first week of web audio based 
 ### Technologies Used 
 
 
-## Visual Studio Code 
+* _Visual Studio Code_ 
 
 Code editor used to write and compile code. Seems to be ideal for the job, but relatively new. Opinion from from some experienced coders “I use …… - but you shouldn’t, if I started again I would use visual studio code”. It also has a live share function that may prove useful later when collaborating.
 
-## HTML  
+* _HTML_  
 
 for the basic user interface (UI), including the buttons, the main picture and the placement of all the UI elements. 
 
-## JavaScript (JS) 
+* _JavaScript (JS)_ 
 
 The bulk of the code and all action and sound based commands are run through JavaScript. This includes the creation of oscillators, and routing the audio signal (which is how the delay functionality is created). Also mapping of all controls – buttons, mouse and keyboard. 
 
-## CSS 
+* _CSS_ 
 
 Used on the last day to add some beatification to the basic HTML. Was used for the “Reese da Alien” title and main background colour. A slider from the nexus library was also added.
 
-## Github 
+* _Github_ 
 
 Used for sharing code, and where the repositories of this blog and the code will be stored and shared.
 
@@ -197,17 +197,16 @@ During day 3 I spent some time trying to implement canvas.js, after being inspir
 Talking of visual components, having the alien pull various facial expressions during certain moments would be a nice touch, giving more character to the potential app. As I mentioned I would like the program to be smart phone friendly (have no experience in how that is implemented, but the concept) – using a finger rather than a mouse may be preferable for the final product.
 
 If anyone would like to use or view the projects code it will be located at this repository for reference:
+https://github.com/cheeserage/ReeseAlien/tree/master/ReeseAlien
 
 Sam Roman
 
 Sources used below - 
 
-<a href="http://pages.mtu.edu/~suits/notefreqs.html" target="_blank">http://pages.mtu.edu/~suits/notefreqs.html</a>
 
 http://pages.mtu.edu/~suits/notefreqs.html
 https://github.com/axambo/audio-programming-workshop/tree/master/slides
 https://canvasjs.com/
-
-<a href="https://github.com/nexus-js/ui" target="_blank">NexusUI</a>
-
+https://github.com/nexus-js/ui
 https://github.com/jaywcjlove/hotkeys
+
