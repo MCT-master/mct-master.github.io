@@ -15,7 +15,7 @@ At the start, I have to mention that these seven days, were quite challenging to
 The idea of the project is to have a basic interactive experience. There is a Troll picture on the screen and a silly laugh, associated to it. They amount of delay time and size of the troll picture is related to the placement of the mouse and with the curser movement, they shall change as well.
 
 <figure>
-<img src="https://github.com/MCT-master/mct-master.github.io/blob/master/assets/img/troll.png" width = "50%" height = "50%" align="center" />
+<img src="https://github.com/MCT-master/mct-master.github.io/blob/master/assets/img/troll.png" width = "40%" height = "50%" align="center" />
 </figure>
 
 With the movement of the mouse, from left to right, the value of the elements - delay time and the size of the picture – increase and also there is a slider placed in the page, in order to control the amount of the delay itself (dry/wet). The whole project is based is utilizing JS for running and also CSS is used in order to make it more appealing.
@@ -23,7 +23,6 @@ In here you can observe a presentation of the project:
 
 <video width="640" height="480" controls align="middle">
   <source src="/assets/video/freakshow.mov" type="video/mov">
-  Your browser does not support the video tag.
 </video>
 
 ## Work Process
