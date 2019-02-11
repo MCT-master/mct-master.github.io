@@ -21,7 +21,8 @@ The idea of the project is to have a basic interactive experience. There is a Tr
 With the movement of the mouse, from left to right, the value of the elements - delay time and the size of the picture – increase and also there is a slider placed in the page, in order to control the amount of the delay itself (dry/wet). The whole project is based is utilizing JS for running and also CSS is used in order to make it more appealing.
 In here you can observe a presentation of the project:
 
-https://youtu.be/3dTlrDvQKwY
+[link](https://youtu.be/3dTlrDvQKwY){:target="_blank"}
+
 
 ## Work Process
 
