@@ -1,42 +1,46 @@
 ---
 layout: post
 title:  "The Pointilator Sequence Synthesizer"
-date:   2019-02-11 16:50:00 +0200
+date:   2019-02-11 17:00:00 +0200
 categories: Audio-Programming
 author: Eigil Aandahl
-image: /assets/img/
+image: /assets/img/pointilator.png
 excerpt: "The Pointilator sequence synth is an experimental instrument that can be played directly from a web browser! It is tested to work with Opera and Chrome, but does not work in Safari.
 	It is based around entering a sequence of notes as points on a Canvas that registers each click and draws a circle where the note was put. It can then play back the notes from left to right with the height of the click translating to pitch.
   The result is a sequencing synthesizer that has a finely detailed scope in both time and pitch, although it is not easy to control based on traditional musical scales or rhythmic time."
 
 ---
 
-<img></img>
+<figure align="middle">
+<img src="/assets/img/pointilator.png" alt="The Pointilator GUI." width="70%">
+</figure>
 
 ### Introduction
-During the first week of the audio-programming workshop, we were tasked with making an individual project incorporating some of the skills and tools learned as we progressed through the week. Having had some experience with web technologies, [HTML, CSS and JavaScript](), I was quite confident, but not necessarily that sure of what I wanted to do. 
+During the first week of the audio-programming workshop, we were tasked with making an individual project incorporating some of the skills and tools learned as we progressed through the week. Having had some experience with web technologies, [HTML, CSS and JavaScript](https://www.w3.org/wiki/The_web_standards_model_-_HTML_CSS_and_JavaScript), I was quite confident, but not necessarily that sure of what I wanted to do. 
 
-After experimenting a bit with the [Web Audio API]() and how to achieve playback of audio samples, I went back to things I knew from before using the [HTML5 Canvas element]() to draw and log clicks on a digital surface.
+After experimenting a bit with the [Web Audio API](https://developer.mozilla.org/en-US/docs/Web/API/Web_Audio_API) and how to achieve playback of audio samples, I went back to things I knew from before using the [HTML5 Canvas element](https://www.w3schools.com/html/html5_canvas.asp) to draw and log clicks on a digital surface.
 
 This led me to make The Pointilator sequence synth, which I will describe in further detail below. 
 
 ### Description 
 [The Pointilator sequence synth](http://folk.ntnu.no/eigilaa/public_html/webaudio/index.2.html) is an experimental instrument that can be played directly from a web browser! It is tested to work with Opera and Chrome, but does not work in Safari.
 	It is based around entering a sequence of notes as points on a Canvas that registers each click and draws a circle where the note was put. It can then play back the notes from left to right with the height of the click translating to pitch. This is done by pressing the 'Play' button. The sequence will loop, and a 'reset' button can stop the audio by muting it and then reset the Canvas. 
-	Further control is added by using controllers from [NexusUI](), a library for making graphical user interfaces for JavaScript. These include changing the values of three sliders for 'Timescale', 'Envelope Level' and 'Note Length'. The 'Timescale' refers to the length of the sequence in seconds. The volume envelope of each note can be somewhat controlled by a ten-values multi slider that creates a curve for note's volume over time.
+	Further control is added by using controllers from [NexusUI](https://nexus-js.github.io/ui/), a library for making graphical user interfaces for JavaScript. These include changing the values of three sliders for 'Timescale', 'Envelope Level' and 'Note Length'. The 'Timescale' refers to the length of the sequence in seconds. The volume envelope of each note can be somewhat controlled by a ten-values multi slider that creates a curve for note's volume over time.
   The result is a sequencing synthesizer that has a finely detailed scope in both time and pitch, although it is not easy to control based on traditional musical scales or rhythmic time.
 
 I will come back to how this was achieved, but first I will provide a quick timeline for the project development.
 
 ### Timeline
 
-<img></img>
+<figure align="middle">
+<img src="/assets/img/pointilatordiagram.png" alt="Diagram showing the development of the project over 4 days." width="70%">
+</figure>
 
 When I started out on the first day of the workshop, I worked on a sampler instrument that would use a Convolver node to create reverb, but this proved less inspiring than I had thought, and after just achieving sound and some improvements in the program structure, I abandoned this angle for the project.
 
 On the second and third day, I worked on what would become The Pointilator, focusing mostly on the graphics and interactivity on day 2 and adding sounds on day 3. Much of the work was put into how the sequence of notes was generated and controlled.
 
-The last day was spent updating the visuals of the instrument to reflect its somewhat refined state having gotten more control of the notes using [Nexus UI].
+The last day was spent updating the visuals of the instrument to reflect its somewhat refined state having gotten more control of the notes using [Nexus UI](https://nexus-js.github.io/ui/).
 
 ### Achievements
 
@@ -92,7 +96,7 @@ while ((nextLoopTime < context.currentTime+0.1) && (!playedOnce || loopingbool) 
 }
 ```
 
-More of the code can be found in my [Github repository.]()
+More of the code can be found in my [Github repository.](https://github.com/Eigil94/Web-audio-individual-project)
 
 ### Challenges
 
@@ -108,6 +112,6 @@ This might have been a poor decision since it made much of the programming more 
 
 There are still many bugs and issues with the instrument, but I am satisfied with what I achieved during the week. Further improvements could be made to the audio quality, scheduling of note events and control over pitch. Quantizing the pitch and time would also be interesting to explore, as well as functionality for editing and undoing steps added to the sequencer.
 
-The working prototype is hosted at my [NTNU web space]() and the source code is available at my [repository on Github](). 
+The working prototype is hosted at my [NTNU web space](http://folk.ntnu.no/eigilaa/public_html/webaudio/index.2.html) and the source code is available at my [repository on Github](https://github.com/Eigil94/Web-audio-individual-project). 
 
 
