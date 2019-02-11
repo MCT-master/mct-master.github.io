@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "The Giant Step Player"
+title: "The Giant Steps Player"
 date: 2019-02-11 20:00:00 +0100
 categories: Audio-Programming
 author: Guy Sion
