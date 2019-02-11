@@ -42,13 +42,13 @@ Used for sharing code, and where the repositories of this blog and the code will
 
 ### Timeline
 
-Day 1 – Got accustomed to JavaScript and basic HTML. Created two oscillators in visual studio code. Experimented with the provided code.
+* _Day 1_  Got accustomed to JavaScript and basic HTML. Created two oscillators in visual studio code. Experimented with the provided code.
 
-Day 2 – Added functionality to the mouse movement, and set it up to affect one oscillators pitch and another’s volume. Gave the project the name “Reese da Alien” and found the background image. Experimented with audio FX with little result due to inexperience of routing.
+* _Day 2_  Added functionality to the mouse movement, and set it up to affect one oscillators pitch and another’s volume. Gave the project the name “Reese da Alien” and found the background image. Experimented with audio FX with little result due to inexperience of routing.
 
-Day 3 – After slow progress during the day, managed to organise the variables and routing on the code. Through routing added a delay effect to the oscillator mix (OSCMix).  Created a player looping an audio sample – routed to the output running parallel to the MainMix. Added a third oscillator as FM. Mapped the keyboard with hotkeys.js 
+* _Day 3_  After slow progress during the day, managed to organise the variables and routing on the code. Through routing added a delay effect to the oscillator mix (OSCMix).  Created a player looping an audio sample – routed to the output running parallel to the MainMix. Added a third oscillator as FM. Mapped the keyboard with hotkeys.js 
 
-Day 4 – Added mouse functionality to the FM oscillator, and remapped the keyboard to use all of the lettered keys. Used CSS to improve visuals, and tweaked audio mapping variables and UI elements to get ready for the final presentation. 
+* _Day 4_  Added mouse functionality to the FM oscillator, and remapped the keyboard to use all of the lettered keys. Used CSS to improve visuals, and tweaked audio mapping variables and UI elements to get ready for the final presentation. 
 
 ### The Project & Code
 
