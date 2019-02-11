@@ -54,9 +54,7 @@ But still one last problem remained. The code needed to create a new buffer node
 
 ## Conclusion:
 In conclusion, this project was quite challenging for me; but also helped me a lot to figure out how web audio works in practice and made me aware of new possibilities that could come in handy for my future projects. That include both practical aspects and the first ideas regarding those projects. Since the laughing sound used in the project, in combination with the delay and the troll picture, created a really freaky atmosphere; I chose to name the project “Freak Show”.
-In the end, I have to thank Anna who tried to help on various issues that happened during this week to me. You can access to the whole project’s codes on this GitHub page:
-
-https://github.com/sepehrhaghighi/Freak-Show
+In the end, I have to thank Anna who tried to help on various issues that happened during this week to me. You can access to the whole project’s codes on this [Github page.](https://github.com/sepehrhaghighi/Freak-Show)
 
 Cheers!
 
