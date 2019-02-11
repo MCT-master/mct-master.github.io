@@ -1,14 +1,12 @@
 ---
-layout: posthttps://github.com/MCT-master/mct-master.github.io/tree/master/_posts_draft
+layout: post
 title: "Freak Show"
 date: 2019-02-11 03:59:00 +0200
-categories: Audio Programming
+categories: Audio-Programming
 author: Sepehr Haghighi
 image: /assets/img/freakshow.jpg
 excerpt: "As my first experience working with Web Audio API, utilizing JS, HTML and CSS; it was quite a challenge, but a pleasant one that lead to the outcome that I wanted and also broadened my perspective, in regards of my future plans."
 ---
-
-# Freak Show
 
 ## Starting Point
 At the start, I have to mention that these seven days, were quite challenging to me. As a person who has done no coding before (only a couple of times before, in the same program), this project has been a little bit hard for me to finish.
