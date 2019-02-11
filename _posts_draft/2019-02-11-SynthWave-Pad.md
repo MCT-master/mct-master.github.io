@@ -27,6 +27,8 @@ On day three and four, my workflow was to map the keyboard to start and stop the
 
 I was so much happy at the end of the week about my progress where I managed to build my own synthpad without having any prior knowledge at the beginning. I managed to understand the concept of using audio context and its methods to generate and change characteristics of sounds. Also managed to grasp the ideas about creating effects like delay and Ping-Pong delay with the code.
 
+Watch the video : [SynthWave Pad](https://streamable.com/a0bw5)
+
 ## Challenges
 
 It was challenging to work with the timeline I had. I had to decide which elements I should be included and which not. I was struggling most of the time to make the interaction between the sound and the interface.  It was challenging to learn the concepts and adapt them to my own creation with limited time.I faced the most difficulties with mapping the HTML and CSS elements to work with javascript. I spend so many hours working to changes the colors of the pads with a keypress. Still, that is something I have to work on.  I was working on applying delay attribute to my oscillators but I wanted it to be controlled by a slider. The delay seemed working but the trouble was to map it to a controller. personally, i felt that I need more knowledge on working with CSS and HTML for mapping parameters and to place my elements on the page where ever I want. 
