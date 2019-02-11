@@ -30,10 +30,10 @@ I added the Tone.js to my source code and created the buttons in the body of the
 
 ## What I've Learned
 Besides the fact that almost everything was new to me, the most important points that will continue with me are:
-	1. It is extremely important to plan your design before jumping into implementation mode. Sketching it out on a piece of paper is an helpful way.
-	2. Learn how to find your mistakes in the code, use the console
-	3. Don't be afraid to (miserably) fail, it's part of the process.
-	4. Keep your friend close but your programmer friends even closer.
+1. It is extremely important to plan your design before jumping into implementation mode. Sketching it out on a piece of paper is an helpful way.
+2. Learn how to find your mistakes in the code, use the console
+3. Don't be afraid to (miserably) fail, it's part of the process.
+4. Keep your friend close but your programmer friends even closer.
 
 ## Resources 
 During the week I was introduced to many great sites, tutorials and videos which really helped me understand the potential of Web Audio and the implementation of objects within my code. Using the web-browser's view source option is another helpful tool for figuring out the coding behind many of the available examples online.
