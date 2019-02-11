@@ -37,7 +37,7 @@ For some parts of the jam we chose to use the click track from the drums in Oslo
 
 
 <figure align="middle">
-<img src="/assets/img/signal_flow_chart.gif" alt="Broadcasting header image" width="100%">
+<img src="/assets/img/signal_flow_chart.jpg" alt="Broadcasting header image" width="100%">
 </figure>
 <br>
 
