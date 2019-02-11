@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "SineWave Pad"
-date: 2019-02-11 02:37:42 +0200
+date: 2019-02-11 16:16:42 +0200
 categories: Audio-Programming
 author: Ashane Silva
 image: /assets/img/Synthwave pad.jpg
