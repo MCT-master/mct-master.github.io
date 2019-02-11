@@ -83,7 +83,7 @@ Most of the functionality of this project is located in this event – as can be
 
 The first action I took was to split the routing of the oscillators to various volume nodes (volume, volume 2, volume 3 and volume FM) so they are distinguishable from each other, and can be routed and affected differently if need be. I then combined the oscillator 1 & 2 volume nodes into OSCMix, which was then routed to MainMix into the context.destination  or output. Although there is little reason to do this amount of volume nodes for the project in its current state, I wanted to have options for routing if needed – and it helped me visualise the signal flow. 
 
-oscillator.connect(volume);
+    //oscillator.connect(volume);
         oscillator2.connect(volume2);
 
         volume.connect(OscMix);
@@ -97,7 +97,7 @@ oscillator.connect(volume);
 
 The delay was used as an example in class, and I have lifted most of the code from there. It is created using just JavaScript and routing. The delay is only affecting one volume node, and is short time at 0.1 sec and at half intensity of 0.5. This combination I found to soften the sound as well as adding some richness – without sacrificing all of the harshness.
 
-   // create a delay effect node
+    // create a delay effect node
         delay = context.createDelay();
         delay.delayTime.value = 0.1; // lenght of the delay
 
@@ -117,7 +117,7 @@ The delay was used as an example in class, and I have lifted most of the code fr
 
 One of the aspects of this project I am proudest of is the addition of the FM Probe event that routes the third oscillator to the OSC2 frequency. This is done with the line:
 
-volumeFM.connect(oscillator2.frequency);
+    //volumeFM.connect(oscillator2.frequency);
 
 Firstly, the OSC FM is routed to VolumeFM – then that is routed to the frequency of OSC2.
 This was because the first oscillators frequency was already mapped to the mouse movement, so now there would be ability to affect the pitch of both oscillators. This worked in conjunction with the mouse mapping:
@@ -151,7 +151,7 @@ This is an audio player that runs alongside the main patch, routed through volum
 
 ### Keyboard Mapping
 
-I found an online library called hotkeys.js that allowed me to map my keyboard. Found at https://github.com/jaywcjlove/hotkeys. I declared which keys to use (list after the yellow “hotkeys”), and then below created a large list mapping each character key to frequency of OSC2. I used http://pages.mtu.edu/~suits/notefreqs.html as a reference to frequencies of notes, and mapped just over two octaves (not in a piano roll formation). This allowed for another way to affect the pitch of the patch – adding depth to the playability.  I found when used it overrode the mouse mapping of the volume. Not intentional or wanted, however I found when the mouse was off the screen this was reset – which could be used as a feature when played. I would prefer if there was a more elegant was of harnessing both these controls at the same time, an aspect to improve in the future.
+I found an online library called hotkeys.js that allowed me to map my keyboard. Found on Github. I declared which keys to use (list after the yellow “hotkeys”), and then below created a large list mapping each character key to frequency of OSC2. I used a webpage (link at bottom) as a reference to frequencies of notes, and mapped just over two octaves (not in a piano roll formation). This allowed for another way to affect the pitch of the patch – adding depth to the playability.  I found when used it overrode the mouse mapping of the volume. Not intentional or wanted, however I found when the mouse was off the screen this was reset – which could be used as a feature when played. I would prefer if there was a more elegant was of harnessing both these controls at the same time, an aspect to improve in the future.
 
 
 
@@ -206,20 +206,20 @@ Talking of visual components, having the alien pull various facial expressions d
 
 If anyone would like to use or view the projects code it will be located at this repository for reference:
 
-(https://github.com/cheeserage/ReeseAlien/tree/master/ReeseAlien)
+https://github.com/cheeserage/ReeseAlien/tree/master/ReeseAlien
 
 Sam Roman
 
 Sources used below - 
 
 
-(http://pages.mtu.edu/~suits/notefreqs.html)
+http://pages.mtu.edu/~suits/notefreqs.html
 
-(https://github.com/axambo/audio-programming-workshop/tree/master/slides)
+https://github.com/axambo/audio-programming-workshop/tree/master/slides
 
-(https://canvasjs.com/)
+https://canvasjs.com/
 
-(https://github.com/nexus-js/ui)
+https://github.com/nexus-js/ui
 
-(https://github.com/jaywcjlove/hotkeys)
+https://github.com/jaywcjlove/hotkeys
 
