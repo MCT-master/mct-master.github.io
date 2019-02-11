@@ -14,7 +14,7 @@ jungle has been borrowed from www.selfgrowth.info/WDF-13569.html.
 
 # Odyssey
 <figure>
-  <img src="/assets/img/odyssey.jpg" alt="the misty jungle" width="50%" align="middle"/>
+  <img src="/assets/img/odyssey.jpg" alt="the misty jungle" width="80%" align="middle"/>
   <figcaption><strong>Odyssey</strong></figcaption>
 </figure>
 
@@ -22,13 +22,13 @@ jungle has been borrowed from www.selfgrowth.info/WDF-13569.html.
 Odyssey is a Web Audio Api envisioned to immerse users into a misty jungle environment with sounds of music and nauture. Besides the 
 jungle environemt, the application adds bits of fun providing sounds of domestic animals like dog, cat and a chicken. It may not
 give you a profound immersion into the environment at the moment though. But I am hopeful that user will enjoy and have fun playing with 
-it. The application is written in HTML5 and javascript. The sounds are taken from freesound.org while the beautiful picture of the misty
+it. The application is written in HTML5 and javascript. The sounds are taken from https:freesound.org while the beautiful picture of the misty
 jungle has been borrowed from www.selfgrowth.info/WDF-13569.html.
 
 The start button plays a jungle environt sound and fills in a jazz piece after around 10 seconds. Four buttons are provided which plays 
 sounds of the animal followed by their name. Finally, the stop button ends the application. 
 
-__Keywords:__ _Web Audio API, JavaScript, HTML5 
+__Keywords:__ _Web Audio API_, JavaScript, HTML5 
 
 ## Routing of Different Audio Nodes
 <figure>
