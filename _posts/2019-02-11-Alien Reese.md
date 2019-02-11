@@ -206,20 +206,20 @@ Talking of visual components, having the alien pull various facial expressions d
 
 If anyone would like to use or view the projects code it will be located at this repository for reference:
 
-https://github.com/cheeserage/ReeseAlien/tree/master/ReeseAlien
+<https://github.com/cheeserage/ReeseAlien/tree/master/ReeseAlien>
 
 Sam Roman
 
 Sources used below - 
 
 
-http://pages.mtu.edu/~suits/notefreqs.html
+<http://pages.mtu.edu/~suits/notefreqs.html>
 
-https://github.com/axambo/audio-programming-workshop/tree/master/slides
+<https://github.com/axambo/audio-programming-workshop/tree/master/slides>
 
-https://canvasjs.com/
+<https://canvasjs.com/>
 
-https://github.com/nexus-js/ui
+<https://github.com/nexus-js/ui>
 
-https://github.com/jaywcjlove/hotkeys
+<https://github.com/jaywcjlove/hotkeys>
 
