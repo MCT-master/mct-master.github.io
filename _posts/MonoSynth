@@ -10,7 +10,7 @@ excerpt: "This blog post outlines the production of the MonoSynth. The Mono Synt
 ---
 
 <figure align="middle">
-<img src="/assets/img/broadcasting.jpg" alt="Broadcasting header image" width="70%">
+<img src="/assets/img/monosynth.jpg" alt="Broadcasting header image" width="70%">
 </figure>
 <br>
 
@@ -49,48 +49,11 @@ Routing the keys was actually the easiest and most pleasurable thing to do. I am
 
 ### End Product
 
+Albeit not the most complex project, I am proud of what i was able to produce. Making this synth gained me more understanding than i initially tought i would get from the first week of Audio Programming.
+It was very helpful to be able to follow a sectioned piece of code like what was produced in the teaching materials.
 
+I ended up with a workable MonoSynth that I was able to complete with a CSS color scheme. As seen in the video, a previous part of the code was 
+able to produce Happy birthday, allthough the performance is littered with human errors. 
 
-<figure align="middle">
-<img src="/assets/img/OBSscreenshot.png" alt="OBS in studio mode" width="70%">
-<figcaption align="middle"><strong>OBS in studio mode with two scenes.</strong></figcaption>
-</figure>
+For now, i am done with the messy spaghetti code that eventually became this project, and I am looking forward to start anew with a shared project.
 
-For more information on how to use OBS and setting up live streaming on Youtube, the following links lead to external Youtube video tutorials on the subject:
-
-* [How to Use OBS Studio (Beginners Guide)](https://www.youtube.com/watch?v=DTk99mHDX_I)
-* [How To Live Stream On YouTube With OBS | Fast Start Guide
-](https://www.youtube.com/watch?v=OtJHX7O3p5U)
-
-A couple of notes on streaming with Youtube. Compared to some of the other solutions we have been using to communicate between Oslo and Trondheim, streaming is very slow. See the blogpost [Mutual Concert Between Oslo and Trondheim - Personal Reflections](https://mct-master.github.io/portal/2018/11/28/Mutual-Concert-Between-Oslo-and-Trondheim-Personal-Reflections.html), about the network performance we did using LoLa. To ensure the best possible quality of image and sound, the streaming services generally have a long buffer which adds up to several seconds of latency. It is therefore not very useful for real-time two-way communication with sound or video, but these kinds of services usually have a text chat where questions from the audience can be read and responded to.
-
-### How our setup has been for WoNoMute
-
-Here we present how we have setup streaming from The Portal. It should be noted that this is only one of many possible solutions, and might not be exactly how we will do this in the future.
-
-   In order to have a proper communication, two computers are needed in the place that the presenter is and one on the other side of The Portal. The computers in Trondheim are used for streaming, setting up LOLA for audio sharing and video sharing (presentation and live videos), using Zoom video conference. The third computer (in Oslo) is used for receiving and sending the sound and image, via LOLA and Zoom video conference. Also a mixer is required to mix the sounds in the presenter's place. Below we shall explain the signal chain and the way that audio/visual aspect of this presentation could be set up. See also the flowchart below for an overview of the different audio and video signals going between Trondheim, Oslo and streaming.
-   
-   <figure align="middle">
-<img src="/assets/img/Flowchartstreaming.jpg" alt="Flowchart for the streaming setup" width="70%">
-<figcaption align="middle"><strong>Flowchart for the streaming setup between Oslo and Trondheim.</strong></figcaption>
-</figure>
-    
-  First we will look more thouroughly at the audio setup.
-    There could in this case be three audio sources in Trondheim, where the presenter is, and one in Oslo to pickup questions from the audience.
-    The audio sources in Trondheim consist of: 1 - Presenter Mic, 2 - Presentation material (presenter's laptop) and 3 - Audience Mic). Those sources are going to the mixer and then sent to Oslo and played back via LOLA system. The same thing happens with the sound from  Oslo. The audience mic in Oslo is going to be received in Trondheim via LOLA and then played back.
-    In the end, the sound from the mixer (consisting of all of the sound sources from the two sides) goes to the streaming computer and is played back in the stream.
-    
-   When it comes to the video, the process gets more complicated. Starting from the Trondheim's side, there are three video sources. 
-* 1 - Presenter camera
-* 2 - Presentation meterial (presenter's laptop)
-* 3 - Audience camera. 
-
-Also there is one camera in Oslo to capture the audience. For video communication, Zoom video conference software is used.
-    Starting from the presenter camera in Trondheim, It goes directly to the streaming computer. When it comes to audience cameras, the Trondheim one's signal goes into a Blackmagic web presenter, which captures the video so it can be used in OBS, alongside the audience camera signal coming from Oslo. Then both are getting into the streaming computer and go into the stream. Zoom is being used in the streaming computer in order to share the presenter video with Oslo.
-    The presentation material's video is directly going into the Zoom computer and going to be shared. That shall allow the Zoom software in the streaming computer to receive the video for streaming.
-    In regards of the displays, both places use two big screens. In Trondheim, one screen is receiving the audience signal from Oslo via Zoom and the other is showing the presentation material, again coming from the Zoom. In Oslo both screens receive their picture from Zoom as well and one is dedicated to presenter's picture (since the presenter is not in Oslo) and one to the presentation material.
-
-That sums up the technical setup we have been using to stream talks from the Portal between Trondheim, Oslo and the wider web through Youtube.
-
-### Final Remarks
-As stated, the setup described here is only how we have done it lately for the WoNoMute talks, but it is perhaps not the optimal solution, and more trials to improve on the setup are certainly ongoing. It is anyway indicative of the the complex but rewarding activity of connecting places and people, letting them take part in events when they are happening. Hopefully this has been an illuminating read, but if not, [we can probably be reached for answers to your questions](mailto:eigil94@gmail.com). 
