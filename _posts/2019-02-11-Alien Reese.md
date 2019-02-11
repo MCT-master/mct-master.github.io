@@ -202,10 +202,12 @@ Sam Roman
 
 Sources used below - 
 
+<a href="http://pages.mtu.edu/~suits/notefreqs.html" target="_blank">http://pages.mtu.edu/~suits/notefreqs.html</a>
 
 http://pages.mtu.edu/~suits/notefreqs.html
 https://github.com/axambo/audio-programming-workshop/tree/master/slides
 https://canvasjs.com/
-https://github.com/nexus-js/ui
-https://github.com/jaywcjlove/hotkeys
 
+<a href="https://github.com/nexus-js/ui" target="_blank">NexusUI</a>
+
+https://github.com/jaywcjlove/hotkeys
