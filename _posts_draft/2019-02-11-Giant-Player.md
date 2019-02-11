@@ -10,7 +10,7 @@ Keywords: Web Audio API, JavaScript, Tone.js, Oscillator, Giant Steps, Jazz, Mel
 
 ---
 
-#The Giant Player
+# The Giant Player
 
 ## Background
 As part of the MCT master program we are being introduced to a variety of technologies for creating music and sounds. We have just finished a week long workshop learning about Audio programing and web audio API. The benefits of this technology are helpful and relevant in areas like art, entertainment or education. We were introduced to several ways for creating and manipulating sound, follow tutorials and experiment on our own during the days. I must admit that I do not have intensive knowledge in programing in general and javaScript in particular. Many failures accrued while trying, from simple syntax errors to flawed design. But understanding the idea behind each process and striving towards the wanted result was an important progress.
