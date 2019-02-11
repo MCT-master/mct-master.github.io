@@ -1,10 +1,12 @@
 ---
+---
 layout: post
-title:  "The MonoSynth"
-date:   2019-02-10 11:40:00 +0200
-categories: Audio Progeramming Mini Course
-author: Eirik Dahl (Code credit: Jørgen N. Varpe)
-image: /assets/img/broadcasting.jpg
+title: "The Wavesynth"
+date: 2019-02-10 22:13:00 +0100
+date: 2019-02-10 22:45:00 +0100
+categories: Audio-Programming
+author: Eirik Dahl (code credit. Jørgen Varpe
+
 excerpt: "This blog post outlines the production of the MonoSynth. The Mono Synth is drawn by Jørgen N. Varpe, who also wrote a lot of the code."
 
 ---
