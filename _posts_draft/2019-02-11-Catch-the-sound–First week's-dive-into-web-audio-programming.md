@@ -5,9 +5,8 @@ date:   2019-02-11 16:40 +0100
 categories: Audio-Programming
 author: Karolina Jawad
 image: /assets/img/darft1_audio_website.png
-excerpt: "As the Portal is still in its infancy, pushing and exploring its technical possibilities is an ongoing process. We still encounter 
-different issues while actually seeking a smooth and standardized setup of the signal routing and performance space. At the end it is about 
-optimizing the telematic experience but not getting stucked in technicalities at the same time."
+excerpt: "It is possible to create simple, but effective applications on the web browser, even without prior knowledge. 
+However, it took way longer to implement those ideas, but luckily there was always someone around to ask."
 
 ---
 
