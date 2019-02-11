@@ -40,7 +40,7 @@ During the week I was introduced to many great sites, tutorials and videos which
 
 For Web Audio API I recommend checking out - 
 https://developer.mozilla.org/en-US/docs/Web/API/Web_Audio_API
-https://www.toptal.com/web/web-audio-api-tutorial
+and https://www.toptal.com/web/web-audio-api-tutorial
 
 For JavaScript this website was very useful - https://www.w3schools.com/js/
 
