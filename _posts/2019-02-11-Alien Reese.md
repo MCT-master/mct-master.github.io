@@ -197,6 +197,7 @@ During day 3 I spent some time trying to implement canvas.js, after being inspir
 Talking of visual components, having the alien pull various facial expressions during certain moments would be a nice touch, giving more character to the potential app. As I mentioned I would like the program to be smart phone friendly (have no experience in how that is implemented, but the concept) – using a finger rather than a mouse may be preferable for the final product.
 
 If anyone would like to use or view the projects code it will be located at this repository for reference:
+
 https://github.com/cheeserage/ReeseAlien/tree/master/ReeseAlien
 
 Sam Roman
