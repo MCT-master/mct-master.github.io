@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+        button {position: absolute; left: 900px}
+        path {fill: none; stroke: black; stroke-width: .5;}
+        line {stroke: red; stroke-width: 2; visibility: hidden;}
+        rect {fill: steelblue; fill-opacity: 0; stroke: black; stroke-width: .5;}
+        .active {fill: blue;}
+    </style>
+    <script src="https://d3js.org/d3.v5.min.js"></script>
+    <script src="NexusUI.js"></script>
+</head>
+<body>
+    <div>
+        <text>Press a number key to start from the corresponding section of the loop.</text>
+        <button onclick="stopSound()">Stop</button>
+    </div>
+    <svg></svg>
+
+    <div id="slider1"></div>
+
+</body>
+<script>
+
+    testExp = new RegExp('Android|webOS|iPhone|iPad|BlackBerry|Windows Phone|'  +
+                            'Opera Mini|IEMobile|Mobile' , 'i');
+  
+    if (testExp.test(navigator.userAgent)) {
+        d3.select("div").select("text").html("Touch the section of the waveform that you want to hear.")
+    }
+
+    var width = 960,
+        height = 230,
+        waveHeight = 200,
+        sampleCount = 8;
+
+    var svg = d3.select("svg")
+        .attr("width", width)
+        .attr("height", height)
+
+    var waveShape = svg.append("g")
+        .attr("id", "waveShape")
+        .append("path")
+        .attr("transform", "translate(0,30)")
+
+    var cuts = svg.append("g").selectAll("g")
+        .data(d3.range(sampleCount))
+        .enter().append("g")
+        .attr("transform", function(d, i) {return "translate("+ width/sampleCount*i + ",30)"})
+
+    cuts.append("rect")
+        .attr("id", function(d, i) {return "rect"+i})
+        .attr("height",waveHeight)
+        .attr("width",width/sampleCount)
+        .attr("stroke-dasharray", [3,3])
+        .on("touchstart", function(d, i) {playSound(i);})
+
+    cuts.append("text")
+        .attr("transform", "translate(0," + -10 + ")")
+        .text(function(d, i) {return i+1})
+
+    var position = svg.append("line")
+        .attr("y2", waveHeight)
+
+    var audioCtx = new (window.AudioContext || window.webkitAudioContext)(),
+        source = null,
+        beatData = importAudio("back_on_the_streets_again.wav");
+    
+//*************************************************************************************************
+    // My own variables:
+
+    var leftDelay, rightDelay, delayAmountLeft, delayAmountRight;
+    var filterLPLeft, filterHPLeft;
+    var filterLPRight, filterHPRight;
+    var splitter, FXmerger, masterMerger, masterGain, FX;
+
+// value of sliders
+    var v;              // Clean signal gain control variable
+    var v2;             // Delay signal --||--
+
+
+// CLEAN SIGNAL GAIN CONTROL
+    // Nexus dial:
+    var dial = Nexus.Add.Dial('#slider1',{
+        'size': [100,100],
+        'interaction': 'radial', // "radial", "vertical", or "horizontal"
+        'mode': 'relative', // "absolute" or "relative"
+        'min': 0,
+        'max': 1,
+        'step': 0.01,
+        'value': 0.5
+      });
+
+    dial.on('change',function(v) {
+      console.log(v); // returning the value of the slider
+      masterGain.gain.setValueAtTime(v, audioCtx.currentTime + 0.1); 
+
+    })
+
+
+    var dial2 = Nexus.Add.Dial('#slider1',{
+        'size': [100,100],
+        'interaction': 'radial', // "radial", "vertical", or "horizontal"
+        'mode': 'relative', // "absolute" or "relative"
+        'min': 0,
+        'max': 1,
+        'step': 0.01,
+        'value': 0.25
+    });
+
+// PING PONG GAIN CONTROL:
+    // Nexus dial:
+    dial2.on('change',function(v2) {
+      console.log(v2); // returning the value of the slider
+      FX.gain.setValueAtTime(v2, audioCtx.currentTime + 0.1); 
+    })
+
+    // Create gain control on load of the site:
+    function codeAddress() {
+        masterGain              = audioCtx.createGain();            // Create gain node (clean)
+        masterGain.gain.value   = 0.5;                              // Initial gain value (clean)
+        FX                      = audioCtx.createGain(2);           // Create gain node (delay)
+        FX.gain.value           = 0.25;                             // Initial gain value (delay)
+    }
+    window.onload = codeAddress;
+
+//*************************************************************************************************
+
+    function importAudio(soundfile) {
+        var req = new XMLHttpRequest();
+        req.open('GET', soundfile, true);
+        req.responseType = 'arraybuffer';
+        req.onload = function() {audioCtx.decodeAudioData(req.response, loadAudio)}
+        req.send();
+
+        function loadAudio(buffer) {
+            beatData = buffer;
+
+            var waveData = d3.values(beatData.getChannelData(0))
+                .filter(function(d,i) {return i % 10 == 0})
+            
+            var xScale = d3.scaleLinear().range([0, width]).domain([0, waveData.length]);
+            
+            var line = d3.line()
+                .x(function(d, i) {return xScale(i)})
+                .y(function(d) {return waveHeight/2*d+waveHeight/2});
+
+            waveShape.datum(waveData).attr("d",line) 
+        }
+    }
+
+    function playSound(i) {
+        if (source) {source.stop();}
+
+        source = audioCtx.createBufferSource();
+        source.buffer = beatData;
+        source.start(0, beatData.duration/sampleCount*i);
+
+//*************************************************************************************************
+        masterMerger = audioCtx.createChannelMerger(2);      // Channel merger for stereo wet input in addition to mono clean
+        FXmerger = audioCtx.createChannelMerger(2); 
+        splitter = audioCtx.createChannelSplitter(2);  
+
+//*************************************************************************************************
+
+        // LEFT
+        // create a delay effect node
+        leftDelay = audioCtx.createDelay();
+        leftDelay.delayTime.value = 0.45; // length of the delay POSSIBLE TO ADD SLIDER VALUE???
+
+        // create a gain effect node
+        delayAmountLeft = audioCtx.createGain();
+        delayAmountLeft.gain.value = 0.5; // amount of the effect
+
+//*************************************************************************************************
+
+        // RIGHT
+        // create a delay effect node
+        rightDelay = audioCtx.createDelay();
+        rightDelay.delayTime.value = 0.6; // length of the delay
+
+        // create a gain effect node
+        delayAmountRight = audioCtx.createGain();
+        delayAmountRight.gain.value = 0.45; // amount of the effect
+
+
+  //*************************************************************************************************
+
+        // FILTER LEFT:
+
+        // create a lowpass filter
+        filterLPLeft = audioCtx.createBiquadFilter();
+        filterLPLeft.type = "lowpass";
+        filterLPLeft.frequency.value = 1500;
+        
+
+        // create a highpass filter
+        filterHPLeft = audioCtx.createBiquadFilter();
+        filterHPLeft.type = "highpass";
+        filterHPLeft.frequency.value = 600;
+        
+        //filterHPLeft.detune.value = 500; //HOW DOES THIS WORK
+
+  //*************************************************************************************************
+
+        // FILTER RIGHT:
+
+        // create a lowpass filter
+        filterLPRight = audioCtx.createBiquadFilter();
+        filterLPRight.type = "lowpass";
+        filterLPRight.frequency.value = 1700;
+
+        // create a highpass filter
+        filterHPRight = audioCtx.createBiquadFilter();
+        filterHPRight.type = "highpass";
+        filterHPRight.frequency.value = 500;
+
+  //*************************************************************************************************
+
+         // CONNECT THE DIFFERENT NODES:
+    
+        source.connect(masterGain);                   // Sound source -> Gain control (clean signal)
+
+        source.connect(splitter);                     // Sound source -> splitter
+
+        //LEFT CHANNEL:
+        splitter.connect(leftDelay, 0);               // Splitter (left)-> Left output
+        leftDelay.connect(filterLPLeft);              // Left delay     -> Left gain node
+        filterLPLeft.connect(filterHPLeft);           // Left LP filter -> Left highpass filter
+        filterHPLeft.connect(delayAmountLeft);        // Left HP filter -> Left gain
+        delayAmountLeft.connect(leftDelay);           // Left gain node -> Left delay (Feedback)
+        delayAmountLeft.connect(FXmerger, 0, 0);      // Left gain node -> FX merger
+
+        //Right CHANNEL:
+        splitter.connect(rightDelay, 0);              // Splitter (right)-> Right output
+        rightDelay.connect(filterLPRight);            // Right delay     -> Right gain node
+        filterLPRight.connect(filterHPRight);         // Right LP filter -> Right highpass filter
+        filterHPRight.connect(delayAmountRight);      // Right HP filter -> Right gain
+        delayAmountRight.connect(rightDelay);         // Right gain node -> filterLP (Feedback)
+        delayAmountRight.connect(FXmerger, 0, 1);     // Right gain node -> FX merger
+
+        //SUM AND OUTPUT:
+        FXmerger.connect(FX);                         // FX merger       -> FX gain control
+        FX.connect(audioCtx.destination);             // FX gain         -> Output
+        masterGain.connect(audioCtx.destination);     // Clean gain      -> Output
+
+//*************************************************************************************************
+//*************************************************************************************************
+//*************************************************************************************************
+
+        positionSlide(i);
+
+        function positionSlide(n) {
+            cuts.selectAll("rect")
+                .transition().duration(100)
+                .style("fill-opacity", function() {return (this.id == "rect"+n) ? .2 : 0})
+
+            position.style("visibility", "visible")
+                .transition().duration(0)
+                .attr("transform", "translate(" + width/sampleCount*n + ",30)")
+                .transition().duration(beatData.duration/sampleCount*1000).ease(d3.easeLinear)
+                    .attr("transform", "translate(" + width/sampleCount*++n + ",30)")
+                    .on("end", function() {n < sampleCount ? positionSlide(n) : playSound(0)})
+        }
+    }
+
+    function stopSound() {
+        if (source) {source.stop();}
+        
+        position.interrupt()
+            .style("visibility", "hidden")
+            .attr("transform", "translate(0,30)");
+
+        cuts.selectAll("rect")
+            .transition().duration(100)
+            .style("fill-opacity", 0)
+    }
+
+    document.body.onkeydown = function(e){
+        var thisKey = e.keyCode-48;
+        if (thisKey > 0 && thisKey < 9) {playSound(thisKey-1)}
+    };
+</script>
+</html>
