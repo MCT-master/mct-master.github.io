@@ -38,12 +38,8 @@ Besides the fact that almost everything was new to me, the most important points
 ## Resources 
 During the week I was introduced to many great sites, tutorials and videos which really helped me understand the potential of Web Audio and the implementation of objects within my code. Using the web-browser's view source option is another helpful tool for figuring out the coding behind many of the available examples online.
 
-For Web Audio API I recommend checking out <a href="https://developer.mozilla.org/en-US/docs/Web/API/Web_Audio_API" target="_blank">the API itself</a>
-and(<a href="https://www.toptal.com/web/web-audio-api-tutorial" target="_blank">this Web Audio API tutorial.</a>
-<a href="https://www.toptal.com/web/web-audio-api-tutorial" target="_blank">this Web Audio API tutorial.</a>
-This <a href="https://www.w3schools.com/js/" target="_blank">JavaScript website</a> was very useful
-as well as this ("https://tonejs.github.io/" target="_blank">site.
-<a href="https://tonejs.github.io/" target="_blank">Tone.js API, examples and demos.</a>
+For Web Audio API I recommend checking out <a href="https://developer.mozilla.org/en-US/docs/Web/API/Web_Audio_API" target="_blank">the API itself</a> and(<a href="https://www.toptal.com/web/web-audio-api-tutorial" target="_blank">this Web Audio API tutorial.</a>
+This <a href="https://www.w3schools.com/js/" target="_blank">JavaScript website</a> was very useful as well as this site for the <a href="https://tonejs.github.io/" target="_blank">Tone.js API, examples and demos.</a>
 
 ## Work in Progress
 Now that my giant player is working properly I can continue experimenting with applying filters, a fancier UI with NexusUI.js, learning how to use notes instead of frequencies, change the way I handle the timing and scheduling of the melody and add a change tempo slider. The Giant Step player in itself is a non-interesting piece of code in my opinion, and I would have loved to invest more time in creating a more interactive system with a much more interesting result. I am happy that I got introduced to the Tone.js library because I could utilize this library together with several Max/MSP patches I am currently working on.
