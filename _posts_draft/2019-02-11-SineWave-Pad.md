@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "SynthWave Pad"
+title: "SineWave Pad"
 date: 2019-02-11 02:37:42 +0200
 categories: Audio-Programming
 author: Ashane Silva
@@ -27,7 +27,7 @@ On day three and four, my workflow was to map the keyboard to start and stop the
 
 I was so much happy at the end of the week about my progress where I managed to build my own synthpad without having any prior knowledge at the beginning. I managed to understand the concept of using audio context and its methods to generate and change characteristics of sounds. Also managed to grasp the ideas about creating effects like delay and Ping-Pong delay with the code.
 
-Watch the video :[SynthWave Pad](https://streamable.com/a0bw5)
+Watch the video :[SineWave Pad](https://streamable.com/a0bw5)
 
 ## Challenges
 
