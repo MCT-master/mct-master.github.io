@@ -26,6 +26,7 @@ https://youtu.be/3dTlrDvQKwY
 <figure align="middle">
         <video height="100%" width="100%" controls>
         <source src="/assets/video/freakshow.mp4" type="video/mp4">
+        Your browser does not support the video tag.
 </video>
 </figure>
 <br>
