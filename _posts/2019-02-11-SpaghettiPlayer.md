@@ -10,19 +10,20 @@ excerpt: The <a href="https://fractionmari.github.io/SpaghettiPlayer/">Spaghetti
 
 ---
 
-<img src="https://github.com/MCT-master/mct-master.github.io/blob/master/assets/img/mari/Spaghetti2.jpg" alt="The Spaghetti  Code Music Player!" width="60%" />
+<iframe width="560" height="315" src="https://www.youtube.com/embed/2B-2yifFDQw" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 
-## The Spaghetti Code Music Player 2.2
+# The Spaghetti Code Music Player 2.2
 
 This has been an intense week with a steep learning curve for me, but I have enjoyed it so much. HTML and web design was a huge hobby for me back in the 90's when I was little, and this week I have been reminded of how fun it is to be creative with code. To try and fail, endlessly googling for solutions when nothing works, troubleshooting for hours and hours, getting no sleep. And the rush you get when it finally works! 
 
 *Take a look at the evolution of the Spaghetti Player:*
+
 <img src="https://github.com/MCT-master/mct-master.github.io/blob/master/assets/img/mari/collage.jpg" alt="Evolution of the player" width="100%" />
 
 The <a href="https://fractionmari.github.io/SpaghettiPlayer/">Spaghetti Code Music Player</a> is a simple music player that is loaded with one of my own tracks. The player allows you to play and stop the tune, turn on and off a delay effect and control a filter with your computer mouse. The player also has a volume control.
 
-***Research Journal, Mini Project, day 1***
+## Research Journal, Mini Project, day 1
 
 I started by googling "Web Audio API" to get some inspiration for my project. I found the <a href="https://webaudioapi.com/samples/">Web Audio API samples page</a> with a collection of examples of Web Audio API applications. 
 
@@ -53,7 +54,7 @@ For the next couple of days, I also wanted to try to add more parameters to my p
 *At the end of the day, my player looked something like this:*
 <img src="/assets/img/mari/PlayerV1.jpg" alt="Funky colours" width="60%" />
 
- ***Research Journal, Mini Project, day 2***
+ ## Research Journal, Mini Project, day 2
 
  I quickly found out what was the problem with the volume control from yesterday. I used "in" and "else" to fix this problem:
  
@@ -86,7 +87,7 @@ This day I used _hours_ on trying to implement a visualizer in music player; the
 The visualizer code was also taken from the <a href="https://webaudioapi.com/samples/visualizer/">Web Audio Samples Page</a>, and this screenshot is taken during the endless trying and failing sessions when I tried to merge the visualizer code into my code. From the screen shot, it looks like it's working, but when the visualizer was working, my effects didn't work and vice versa. I couldn't succeed with implementing the visualizer into my player, unfortunately, because coders also need to sleep. I did several attempts during the week and weekend, but it seemed unpossible. 
 
 
-***Research Journa, Mini Project, day 3***
+## Research Journal, Mini Project, day 3
 
 The mission for this day has been:
 
@@ -132,7 +133,7 @@ I used a lot of time to try to make a volume knob to my "new" project. By this p
 
 *90's nostalgia!*
 
-***Research journal, Mini-Project, day 4 and rest of the weekend***
+## Research journal, Mini Project, day 4 and rest of the weekend
 
 This was the last day of the first Audio Programming workshop week, and I had to try to finish my project for the presentation and also use some time to prepare my presentation. I decided on cleaning up the code of my "new" player and at least make the volume slider work. With step by step help from Anna, we finally made it! The problem was probably due to signal chain routing. 
 
