@@ -28,7 +28,7 @@ I started by googling "Web Audio API" to get some inspiration for my project. I 
 
 Just to get started, I quickly chose the <a href="https://webaudioapi.com/samples/filter/">filter sample</a> and figured out that I could use this as a base for my own project. To gather the necessary files, I went into the sources of the web page and found the repository there. The repository contained a lot of different files, both js-files, an html index file, and a css file. I copied everything into my Visual Studio Code workspace and started on studying the files - to see what I could get out of it.
 
-The code was rather complex, and the most of it was way beyond my level of javascript knowledge. But I started with the easier stuff that I could understand, like editing the colours in the css-file and some of the text in the html-file, and also I also replace the sound file from the original js-code with one of my own sound files. 
+The code was rather complex, and the most of it was way beyond my level of javascript knowledge. But I started with the easier stuff that I could understand, like editing the colours in the css-file and some of the text in the html-file, and then I replaced the sound file from the original js-code with one of my own sound files. 
 Then I figured out that I wanted to add another parameter in addition to the original filter parameter. I thought that adding a volume control would be an easy task to do. I copied the slider in the HTML-file, and then I was going to edit the js-code to make it actually work. For the same Web audio API samples page, I found a <a href="https://webaudioapi.com/samples/volume/">volume control</a>. 
 
 One of the js-files was the same for these two applications ("shared.js"). I later figured out that this is the file where the the web audio object is applied. To make it work the way that I wanted, was not an easy thing; I used several hours after I got home that evening to actually get it work. But I also learned a lot during this process. When I included the gain-variable in the code, I think I from the beginning understood where to copy-paste it in the code, but some of the brackets were implemented the wrong way. The volume control did _something_ with the sound, but it wasn't really controlling the volume. Later that day, after a lot of trying and failing, I figured out that it was the routing on connecting the volume to the destination I had done wrong:   
@@ -55,7 +55,7 @@ For the next couple of days, I also wanted to try to add more parameters to my p
 
 ## Research Journal, Mini Project, day 2
 
- I quickly found out what was the problem with the volume control from yesterday. I used "in" and "else" to fix this problem:
+ I quickly found out what was the problem with the volume control from yesterday. I used "if" and "else" to fix this problem:
  
 ```
   };
