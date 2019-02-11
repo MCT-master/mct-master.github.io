@@ -14,7 +14,7 @@ excerpt: "It was a wonderful journey we had for a week getting hands-on experien
 It was a wonderful journey we had for a week getting hands-on experience with Web audio API and JavaScript. In the beginning, I was tensed about how I will be able to handle coding with zero prior experience. But, at the end of the week, I was happy about what I have managed to achieve. I was lacking ideas to start a project for the week but after getting introduced to oscillators, I thought of making a synthesizer or a drum pad that works on the browser. So it was either to work with Oscillators or sound loops. 
 
 <figure>
-<img src="https://github.com/MCT-master/mct-master.github.io/blob/master/assets/img/Synthwave%20pad.jpg" width = "50%" height = "40%" align="center" />
+<img src="https://mct-master.github.io/audio-programming/2019/02/11/SineWave-Pad.html" width = "50%" height = "40%" align="center" />
 </figure>
 
 ## Work Progress
