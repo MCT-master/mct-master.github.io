@@ -19,7 +19,7 @@ It was a wonderful journey we had for a week getting hands-on experience with We
 
 ## Work Progress
 
-On the first day, my first step was to set up an oscillator that works with a click of the mouse. This was a great way to understand how JavaScript works with HTML elements. Then I extended it to seven oscillators and additionally, Volume up and Volume Down buttons to control the global gain of the Oscillators. I prefered to have "Sine" as my Oscillator Wave Type. 
+On the first day, my first step was to set up an oscillator that works with a click of the mouse. This was a great way to understand how JavaScript works with HTML elements. Then I extended it to six oscillators and additionally, Volume up and Volume Down buttons to control the global gain of the Oscillators. I prefered to have "Sine" as my Oscillator Wave Type. 
 
 On the second day, I was trying to implement exponential and linear ramps to the oscillators to create smooth volume increment. However, it wasn’t working as I supposed and maybe I’ll come back to this In the future. 
 
