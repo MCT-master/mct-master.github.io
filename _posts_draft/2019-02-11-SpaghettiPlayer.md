@@ -9,13 +9,16 @@ image: /assets/img/mari/Spaghetti1.jpg
 excerpt:
 
 ---
+![alt text](https://github.com/MCT-master/mct-master.github.io/blob/master/assets/img/mari/Spaghetti1.jpg "The Spaghetti  Code Music Player!")
 
 ## The Spaghetti Code Music Player 2.2
 
-This has been an intense week with a steep learning curve for me, but I have enjoyed it so much. HTML and web design was a huge hobby for me, back in the 90's when I was little, and this week I have been reminded of how fun it is to be creative with code. To try and fail, endlessly google for solutions when nothing works, trobleshooting for hours and hours, getting no sleep. And the rush you get when it finally works! 
+This has been an intense week with a steep learning curve for me, but I have enjoyed it so much. HTML and web design was a huge hobby for me back in the 90's when I was little, and this week I have been reminded of how fun it is to be creative with code. To try and fail, endlessly googling for solutions when nothing works, trobleshooting for hours and hours, getting no sleep. And the rush you get when it finally works! 
 
 *Take a look at the evolution of the Spaghetti Player:*
 ![alt text](https://github.com/MCT-master/mct-master.github.io/blob/master/assets/img/mari/collage.jpg "Evolution of the player")
+
+
 ***Research Journal, Mini Project, day 1***
 
 I started by googling "Web Audio API" to get some inspiration for my project. I found the <a href="https://webaudioapi.com/samples/">Web Audio API samples page</a> with a collection of examples of Web Audio API applications. 
@@ -73,7 +76,7 @@ FilterSample.prototype.toggleFilter = function(element) {
 
 I find that I'm learning new things all the time. Along the way, I am also taking an introductory course to JavaScript in a mobile app, that helps me a lot to learn the basics.
 
-This day i used _hours_ and _hours_ on trying to implement a visualizer in music player; the intention was to make it look like something like this:
+This day I used _hours_ on trying to implement a visualizer in music player; the intention was to make it look like something like this:
 
 <img src="/assets/img/mari/Visualizer.jpg" alt="Player with visualizer" width="60%" />
 
@@ -124,7 +127,7 @@ I used a lot of time to try to make a volume knob to my "new" project. By this p
 
 *90's nostalgia!*
 
-***Research journal, Mini-Project, day 4 and rest of the weekend*
+***Research journal, Mini-Project, day 4 and rest of the weekend***
 
 This was the last day of the first Audio Programming workshop week, and I had to try to finish my project for the presentation and also use some time to prepare my presentation. I decided on cleaning up the code of my "new" player and at least make the volume slider work. With step by step help from Anna, we finally made it! The problem was probably due to signal chain routing. 
 
