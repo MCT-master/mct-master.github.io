@@ -22,7 +22,7 @@ With the movement of the mouse, from left to right, the value of the elements - 
 In here you can observe a presentation of the project:
 
 <video width="640" height="480" controls align="middle">
-  <source src="/assets/video/freakshow.mov" type="video/mov">
+  <source src="/assets/video/freakshow.mp4" type="video/mp4">
 </video>
 
 ## Work Process
