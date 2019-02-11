@@ -1,13 +1,11 @@
 ---
----
+
 layout: post
-title: "The Wavesynth"
-date: 2019-02-10 22:13:00 +0100
+title: "The Mono Synth"
 date: 2019-02-10 22:45:00 +0100
 categories: Audio-Programming
 author: Eirik Dahl (code credit. Jørgen Varpe)
-
-excerpt: "This blog post outlines the production of the MonoSynth. The Mono Synth is drawn by Jørgen N. Varpe, who also wrote a lot of the code."
+excerpt: This blog post outlines the production of the MonoSynth. The Mono Synth is drawn by Jørgen N. Varpe, who also wrote a lot of the code
 
 ---
 
@@ -31,7 +29,6 @@ That might not sound very impressive, but for me, with my startpoint, I think it
 
 ### Workflow and progress
 
-
 After going through the code examples of the day, we were encouraged to use the group rooms. I felt more comfortable staying in the portal so as to get help from Anna and some of the strong students in the class.
 While doing programming, it is not always intuitive to find out what is the issue. For example, a word in a line could be right, but missing a capital letter. That is really not easy to figure out if you are just starting out, such as i am. 
 
@@ -40,14 +37,9 @@ someone else has probably experienced a similar issue before.
 
 Routing the keys was actually the easiest and most pleasurable thing to do. I am not really a huge fan of repeating tasks, but here, it porvided me with a sense of progress and independency which was very motivating. 
 
-
-
-
-
-
 ### Happy Birthday
 
-<iframe width="560" height="315" src="https://youtu.be/k0llkVnh2hA" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="100%" height="100%" src="https://youtu.be/k0llkVnh2hA" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ### End Product
 
