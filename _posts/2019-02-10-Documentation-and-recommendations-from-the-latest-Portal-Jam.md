@@ -13,8 +13,7 @@ optimizing the telematic experience but not getting stucked in technicalities at
  <video width="640" height="480" controls align="middle">
  <source src="/assets/video/01_PORTALJAM_480p.mov"></source>
  </video>
-  Your browser does not support the video tag.
-<br>
+ <br>
 
 As the Portal is still in its infancy, pushing and exploring its technical possibilities is an ongoing process. 
 For different scenarios like jamming with acoustic instruments cross-campus, we still encounter different issues while actually 
