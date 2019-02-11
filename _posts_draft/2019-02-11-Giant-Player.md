@@ -19,8 +19,6 @@ For some unknown reason, I managed to get stuck on a tutorial from our second da
 
 Later on I have tried to develop this into a player that will play the same melody with an option to choose the waveform (Sine, Sawtooth, Triangle and Square). I wanted to add a pre-recorded percussion soundwave that would sync with the melody of each oscillator. And of course, the last but not least, a functioning stop button that would let me stop this mad experiment.
 
-Keywords: Web Audio API, JavaScript, Tone.js, Oscillator, Giant Steps, Jazz, Melody, Timing
-
 <p align="center">
    <iframe width="560" height="315" src="https://www.youtube.com/watch?v=30FTr6G53VU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </p>
