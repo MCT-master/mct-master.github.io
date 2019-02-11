@@ -10,7 +10,7 @@ excerpt: The project I have developed on over the first week of web audio based 
 
 ---
 <figure align="middle">
-        <video height="25%" width="25%" controls>
+        <video height="100%" width="100%" controls>
         <source src="/assets/video/Alien Reese.webm" type="video/webm">
         Your browser does not support the video tag.
 </video>
