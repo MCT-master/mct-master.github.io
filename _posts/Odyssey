@@ -5,7 +5,11 @@ date: 2019-02-11 16:43:00 +0100
 categories: Audio-Programming
 author: Shreejay Shrestha
 image: /assets/img/cj/odyssey.jpg
-excerpt: 
+excerpt: Odyssey is a Web Audio Api envisioned to immerse users into a misty jungle environment with sounds of music and nauture. Besides the 
+jungle environemt, the application adds bits of fun providing sounds of domestic animals like dog, cat and a chicken. It may not
+give you a profound immersion into the environment at the moment though. But I am hopeful that user will enjoy and have fun playing with 
+it. The application is written in HTML5 and javascript. The sounds are taken from freesound.org while the beautiful picture of the misty
+jungle has been borrowed from www.selfgrowth.info/WDF-13569.html.
 ---
 
 # Odyssey
