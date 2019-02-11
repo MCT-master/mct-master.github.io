@@ -16,23 +16,23 @@ excerpt: The project I have developed on over the first week of web audio based 
 ### Technologies Used 
 
 
-Visual Studio Code 
+### Visual Studio Code 
 
 Code editor used to write and compile code. Seems to be ideal for the job, but relatively new. Opinion from from some experienced coders “I use …… - but you shouldn’t, if I started again I would use visual studio code”. It also has a live share function that may prove useful later when collaborating.
 
-HTML  
+### HTML  
 
 for the basic user interface (UI), including the buttons, the main picture and the placement of all the UI elements. 
 
-JavaScript (JS) 
+### JavaScript (JS) 
 
 The bulk of the code and all action and sound based commands are run through JavaScript. This includes the creation of oscillators, and routing the audio signal (which is how the delay functionality is created). Also mapping of all controls – buttons, mouse and keyboard. 
 
-CSS 
+### CSS 
 
 Used on the last day to add some beatification to the basic HTML. Was used for the “Reese da Alien” title and main background colour. A slider from the nexus library was also added.
 
-Github 
+### Github 
 
 Used for sharing code, and where the repositories of this blog and the code will be stored and shared.
 
@@ -55,6 +55,7 @@ the one point that I started to feel more comfortable coding was when I took con
 
 <img src="/assets/img/old flow.jpg" alt="" width="70%">
 <figcaption align="middle"><strong>“Routing day 1 & 2”</strong></figcaption>
+
 
 The aspect that I was confused about was the volume node. With experience in using DAW’s, I didn’t take volume to be a node, rather as a parameter that is attached to in this case, the oscillators. It is a small difference – but not knowing that it was a node in its own right confused me when I tried to expand on the project. The flow diagram of the project currently looks like this:
 
@@ -107,7 +108,7 @@ volumeFM.connect(oscillator2.frequency);
 Firstly, the OSC FM is routed to VolumeFM – then that is routed to the frequency of OSC2.
 This was because the first oscillators frequency was already mapped to the mouse movement, so now there would be ability to affect the pitch of both oscillators. This worked in conjunction with the mouse mapping:
 
-if (playing == 1) {
+
           //oscillator.frequency.value = x;
           oscillator.frequency.value = widthnor*1000;
           volume2.gain.value = 1 - heightnor;
@@ -120,8 +121,7 @@ This shows the three mappings to the mouse. Osc1 pitch is affected by the x – 
 
 This is an audio player that runs alongside the main patch, routed through volume 3 to the output. Although one of the undeveloped parts of the code, it allowed some creativity in adding recorded sound, and can be experimented further at a later date (a beat possibly?) It was adapted from the code given in MCT repository.
 
-var player; 
-document.querySelector("#button3").addEventListener('click', function() {
+
         
         
         player = context.createBufferSource();
@@ -145,7 +145,7 @@ I found an online library called hotkeys.js that allowed me to map my keyboard. 
 
 I wanted one centred, background image. I found this code online to centre the image using HTML, and found the alien picture I wanted and applied it in code, and the jpg same folder:
 
-<style>
+
       
         body, html {
           height: 100%;
@@ -163,18 +163,18 @@ I wanted one centred, background image. I found this code online to centre the i
           background-position: center;
           background-repeat: no-repeat;
           background-size: cover;
-        }
+        
 
 ### CSS & Beautification 
 
 CSS was used for the title in the bottom right corner, separated in a CSS file. This code defined the font, border and colour, as well as the positioning permanently in the bottom right.
-h1  {
+
     position: fixed;
     bottom: 0;
     right: 0;
     width: 300px;
     border: 3px solid #73AD21;
-  color: #ffffff; font-family: 'Herculanum', sans-serif; font-size: 54px; font-weight: 300; line-height: 58px; margin: 0 0 58px; }
+
 
 The same technique is applied to the text, and the fader that went unused. The fader came from the nexus.js library, I was able to implement the fader, but not attach it to any command as of yet.
 
@@ -189,6 +189,8 @@ One of the issues of the patch is that not all areas of the screen sound “good
 During day 3 I spent some time trying to implement canvas.js, after being inspired by another project. I managed to create a box, but quickly realised if I wanted the sound to be the focus it was a little out of my depth or timescale for the project. The idea was to create more interactivity in regards to the synth, more of a hybrid from the X/Y axis that the mouse mapping produced. Although I didn’t manage any meaningful results, I would like to explore this further. I would like the page to work well in a smart phone environment, and a canvas feature would aid in this I feel. 
 
 Talking of visual components, having the alien pull various facial expressions during certain moments would be a nice touch, giving more character to the potential app. As I mentioned I would like the program to be smart phone friendly (have no experience in how that is implemented, but the concept) – using a finger rather than a mouse may be preferable for the final product.
+
+If anyone would like to use or view the projects code it will be located at this repository for reference:
 
 Sam Roman
 
