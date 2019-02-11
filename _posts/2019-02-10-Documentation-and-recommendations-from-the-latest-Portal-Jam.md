@@ -12,7 +12,7 @@ optimizing the telematic experience but not getting stucked in technicalities at
 ---
 
 <video width="640" height="480" controls align="middle">
-  <source src="/assets/video/01_PORTALJAM_480p.mov" type="video/mp4">
+  <source src="/assets/video/01_PORTALJAM_480p.mov" type="video/mp4"></source>
   Your browser does not support the video tag.
 </video>
 <br>
