@@ -5,7 +5,6 @@ date: 2019-02-10 21:45:00 +0100
 categories: Audio-Programming
 author: Guy Sion
 excerpt: "As part of the MCT master program we are being introduced to a variety of technologies for creating music and sounds. We have just finished a week long workshop learning about Audio programing and web audio API. The benefits of this technology are helpful and relevant in areas like art, entertainment or education. We were introduced to several ways for creating and manipulating sound, follow tutorials and experiment on our own during the days. I must admit that I do not have intensive knowledge in programing in general and javaScript in particular. Many failures accrued while trying, from simple syntax errors to flawed design. But understanding the idea behind each process and striving towards the wanted result was an important progress."
-
 Keywords: Web Audio API, JavaScript, Tone.js, Oscillator, Giant Steps, Jazz, Melody, Timing
 
 ---
@@ -15,7 +14,8 @@ Keywords: Web Audio API, JavaScript, Tone.js, Oscillator, Giant Steps, Jazz, Mel
 ## Background
 As part of the MCT master program we are being introduced to a variety of technologies for creating music and sounds. We have just finished a week long workshop learning about Audio programing and web audio API. The benefits of this technology are helpful and relevant in areas like art, entertainment or education. We were introduced to several ways for creating and manipulating sound, follow tutorials and experiment on our own during the days. I must admit that I do not have intensive knowledge in programing in general and javaScript in particular. Many failures accrued while trying, from simple syntax errors to flawed design. But understanding the idea behind each process and striving towards the wanted result was an important progress.
 
-For some unknown reason, I managed to get stuck on a tutorial from our second day. The tutorial was dealing with timing of an oscillator events. I wrote the melody notes of John Coltrane's tune 'Giant Steps' with this frequency to midi note converter <a href="http://pages.mtu.edu/~suits/notefreqs.html" target="_blank">
+For some unknown reason, I managed to get stuck on a tutorial from our second day. The tutorial was dealing with timing of an oscillator events. I wrote the melody notes of John Coltrane's tune 'Giant Steps' with this frequency to midi note converter (http://pages.mtu.edu/~suits/notefreqs.html "midi note converter")
+
 
 Later on I have tried to develop this into a player that will play the same melody with an option to choose the waveform (Sine, Sawtooth, Triangle and Square). I wanted to add a pre-recorded percussion soundwave that would sync with the melody of each oscillator. And of course, the last but not least, a functioning stop button that would let me stop this mad experiment.
 
