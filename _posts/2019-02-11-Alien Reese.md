@@ -10,7 +10,7 @@ excerpt: The project I have developed on over the first week of web audio based 
 
 ---
 <figure align="middle">
-        <video width="auto" height="auto" controls>
+        <video controls>
         <source src="/assets/video/Alien Reese.webm" type="video/webm">
         Your browser does not support the video tag.
 </video>
@@ -57,15 +57,17 @@ Day 4 – Added mouse functionality to the FM oscillator, and remapped the keybo
 On day 3 when asking for help with my project I was told to possibly start from scratch – and pay attention to the routing and organisation of the signal flow. This helped me immensely. Although I didn’t start from scratch (í was determined to find the problem in the code)
 the one point that I started to feel more comfortable coding was when I took control of the routing. One of the challenges I faced was that in the first couple of days in the workshop I was trying to achieve results by copying and pasting various examples of code – with mixed or no results. This technique of trial and error in the end helped me formulate my idea, and it was satisfying eventually (although stressful before!) once I worked out how to organise the routing of nodes properly. The original routing was simple like this:
 
+<figure align="middle">
 <img src="/assets/img/old flow.jpg" alt="" width="70%">
 <figcaption align="middle"><strong>“Routing day 1 & 2”</strong></figcaption>
-
+</figure>
 
 The aspect that I was confused about was the volume node. With experience in using DAW’s, I didn’t take volume to be a node, rather as a parameter that is attached to in this case, the oscillators. It is a small difference – but not knowing that it was a node in its own right confused me when I tried to expand on the project. The flow diagram of the project currently looks like this:
 
+<figure align="middle">
 <img src="/assets/img/Alien Reese Flow.jpg" alt="" width="70%">
 <figcaption align="middle"><strong>“Routing day 3 & 4”</strong></figcaption>
-
+</figure>
 
 ### Event - Talk Button
 
