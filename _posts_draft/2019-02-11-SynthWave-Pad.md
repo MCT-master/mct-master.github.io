@@ -35,7 +35,6 @@ It was challenging to work with the timeline I had. I had to decide which elemen
 
 Currently, I have plans to explore more musical possibilities with the oscillator sounds and also to implement envelops to make them sound smooth. and also to add a player with drum loops to make the application more fun to play. Additionally, I hope to experiment with different JavaScript libraries and add controllers to handle reverb and other parameters. 
 
-check out my code: 
-check out code-pen :
+check out the code: https://github.com/AshaneS/SynthWave-Pad
 
 
