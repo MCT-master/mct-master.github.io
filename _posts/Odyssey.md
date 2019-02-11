@@ -11,7 +11,7 @@ excerpt: "Odyssey is a Web Audio Api envisioned to immerse users into a misty ju
 # Odyssey
 <figure>
   <img src="/assets/img/odyssey.jpg" alt="the misty jungle" width="90%" align="middle"/>
-  <figcaption><strong>Odyssey</strong></figcaption>
+  !--<figcaption><strong>Odyssey</strong></figcaption>--!
 </figure>
 
 ## Introduction
@@ -29,7 +29,7 @@ __Keywords:__ _Web Audio API_, JavaScript, HTML5
 ## Routing of Different Audio Nodes
 <figure>
   <img src="/assets/img/Routing-audio-nodes-03-delay-node.png" alt="Routing of the audio signals" width="60%" align="middle"/>
-  <figcaption><strong>Routing of the audio signals</strong></figcaption>
+  !--<figcaption><strong>Routing of the audio signals</strong></figcaption>--!
 </figure>
  
  The application is built upon example 3 of both the the first and the third day of the Audio Programming workshop called 'play sound'
