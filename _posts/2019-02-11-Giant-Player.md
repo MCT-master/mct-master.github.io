@@ -38,7 +38,7 @@ Besides the fact that almost everything was new to me, the most important points
 ## Resources 
 During the week I was introduced to many great sites, tutorials and videos which really helped me understand the potential of Web Audio and the implementation of objects within my code. Using the web-browser's view source option is another helpful tool for figuring out the coding behind many of the available examples online.
 
-For Web Audio API I recommend checking out <a href="https://developer.mozilla.org/en-US/docs/Web/API/Web_Audio_API" target="_blank">the API itself</a> and(<a href="https://www.toptal.com/web/web-audio-api-tutorial" target="_blank">this Web Audio API tutorial.</a>
+For Web Audio API I recommend checking out <a href="https://developer.mozilla.org/en-US/docs/Web/API/Web_Audio_API" target="_blank">the API itself</a> and<a href="https://www.toptal.com/web/web-audio-api-tutorial" target="_blank">this Web Audio API tutorial.</a>
 This <a href="https://www.w3schools.com/js/" target="_blank">JavaScript website</a> was very useful as well as this site for the <a href="https://tonejs.github.io/" target="_blank">Tone.js API, examples and demos.</a>
 
 ## Work in Progress
