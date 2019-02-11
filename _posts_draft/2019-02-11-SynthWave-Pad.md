@@ -25,5 +25,4 @@ I was so much happy at the end of the week about my progress where I managed to 
 
 ## Challenges
 
-It was challenging to work with the timeline I had. I had to decide which elements I should be included and which not. I was struggling most of the time to make the interaction between the sound and the interface.  It was challenging to learn the concepts and adapt them to my own creation with limited time.
-
+It was challenging to work with the timeline I had. I had to decide which elements I should be included and which not. I was struggling most of the time to make the interaction between the sound and the interface.  It was challenging to learn the concepts and adapt them to my own creation with limited time.I faced the most difficulties with mapping the HTML and CSS elements to work with javascript. I spend so many hours working to changes the colors of the pads with a keypress. Still, that is something I have to work on.  I was working on applying delay attribute to my oscillators but I wanted it to be controlled by a slider. The delay seemed working but the trouble was to map it to a controller. personally, i felt that I need more knowledge on working with CSS and HTML for mapping parameters and to place my elements on the page where ever I want. 
