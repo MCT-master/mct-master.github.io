@@ -57,4 +57,4 @@ simply by listening – is there any sound? It keeps you in the flow and motivat
 
 
 ## What's next?
-I hope to create something collaborativly in the group project!
+I hope to create something collaboratively in the group project and have the possibility to develope the project further.
