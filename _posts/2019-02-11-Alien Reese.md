@@ -188,7 +188,7 @@ Other tips I have learned throughout the workshop – organisation is key. Havin
 
 ### Future Development
 
-There are many ideas and avenues I feel this project could go down. As it stands I have received little feedback on my project, but I have some thought on the direction it can go.
+There are many ideas and avenues I feel this project could go down. I would like some more feedback on the project, but for now I have some thoughts on the directions it could go.
 
 One of the issues of the patch is that not all areas of the screen sound “good”. This was alleviated by the inclusion of a delay – but I believe more FX could be added to sweeten the corners especially. These FX ideally would be sensitive to mouse placement, and programed in a way so that they would be applied only with the mouse on a certain part of the page. I installed Tuna.js for more FX, but did not manage to get it implemented in the code and ran out of time to troubleshoot. 
 
@@ -198,16 +198,20 @@ Talking of visual components, having the alien pull various facial expressions d
 
 If anyone would like to use or view the projects code it will be located at this repository for reference:
 
-https://github.com/cheeserage/ReeseAlien/tree/master/ReeseAlien
+(https://github.com/cheeserage/ReeseAlien/tree/master/ReeseAlien)
 
 Sam Roman
 
 Sources used below - 
 
 
-http://pages.mtu.edu/~suits/notefreqs.html
-https://github.com/axambo/audio-programming-workshop/tree/master/slides
-https://canvasjs.com/
-https://github.com/nexus-js/ui
-https://github.com/jaywcjlove/hotkeys
+(http://pages.mtu.edu/~suits/notefreqs.html)
+
+(https://github.com/axambo/audio-programming-workshop/tree/master/slides)
+
+(https://canvasjs.com/)
+
+(https://github.com/nexus-js/ui)
+
+(https://github.com/jaywcjlove/hotkeys)
 
