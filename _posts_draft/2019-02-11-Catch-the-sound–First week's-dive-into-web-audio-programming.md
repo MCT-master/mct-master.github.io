@@ -19,6 +19,7 @@ papers from the web audio conferences and the mini-presentations of some selecte
 It is possible to create simple, but effective applications on the web browser, even without prior knowledge. 
 However, it took way longer to implement those ideas, but luckily there is always someone around to ask.
 
+## Mini-Logbook and achievments
 
 It took some time to decide what I want to go for more in depth since there are so many options.
 The first day I tried to work with audio spatialization online. The code I found was pretty advanced and 
