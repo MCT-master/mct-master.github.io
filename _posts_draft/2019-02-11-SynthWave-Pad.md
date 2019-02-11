@@ -14,7 +14,7 @@ excerpt: "A short summary, typically copy-pasting the first paragraph of the blo
 It was a wonderful journey we had for a week getting hands-on experience with Web audio API and JavaScript. In the beginning, I was tensed about the way that I will handle coding with zero prior experience. But, at the end of the week, I was happy about what I have managed to achieve. I was lacking ideas to start a project for the week but after getting introduced to oscillators, I thought of making a synthesizer or a drum pad that works on the browser. So it was either to work with Oscillators or sound loops. 
 
 <figure>
-<img src="https://github.com/MCT-master/mct-master.github.io/blob/master/assets/img/Synthwave%20pad.jpg" width = "50%" />
+<img src="https://github.com/MCT-master/mct-master.github.io/blob/master/assets/img/Synthwave%20pad.jpg" width = "50%" center-image />
 </figure>
 
 ## Work Progress
@@ -36,7 +36,6 @@ It was challenging to work with the timeline I had. I had to decide which elemen
 Currently, I have plans to explore more musical possibilities with the oscillator sounds and also to implement envelops to make them sound smooth. and also to add a player with drum loops to make the application more fun to play. Additionally, I hope to experiment with different JavaScript libraries and add controllers to handle reverb and other parameters. 
 
 check out my code: 
-
 check out code-pen :
 
 
