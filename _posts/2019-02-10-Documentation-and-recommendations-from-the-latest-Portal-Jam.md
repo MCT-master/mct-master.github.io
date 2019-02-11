@@ -10,7 +10,9 @@ different issues while actually seeking a smooth and standardized setup of the s
 optimizing the telematic experience but not getting stucked in technicalities at the same time."
 
 ---
-  <video src="/assets/video/01_PORTALJAM_480p.mov" width="640" height="480" controls preload></video>
+ <video width="640" height="480" controls align="middle">
+ <source src="/assets/video/01_PORTALJAM_480p.mov"></source>
+ </video>
   Your browser does not support the video tag.
 <br>
 
