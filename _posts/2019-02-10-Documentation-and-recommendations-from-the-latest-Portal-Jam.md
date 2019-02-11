@@ -10,11 +10,8 @@ different issues while actually seeking a smooth and standardized setup of the s
 optimizing the telematic experience but not getting stucked in technicalities at the same time."
 
 ---
-
-<video width="640" height="480" controls align="middle">
-  <source src="/assets/video/01_PORTALJAM_480p.mov" type="video/mp4">
+  <video src="/assets/video/01_PORTALJAM_480p.mov" width="640" height="480" controls preload></video>
   Your browser does not support the video tag.
-</video>
 <br>
 
 As the Portal is still in its infancy, pushing and exploring its technical possibilities is an ongoing process. 
