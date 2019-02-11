@@ -10,10 +10,12 @@ excerpt: The project I have developed on over the first week of web audio based 
 
 ---
 <figure align="middle">
+        <video width="auto" height="auto" controls>
+        <source src="/assets/video/Alien Reese.webm" type="video/webm">
+        Your browser does not support the video tag.
+</video>
 </figure>
 <br>
-
-Alien Reese.webm
 
 ### Technologies Used 
 
