@@ -33,7 +33,7 @@ I will come back to how this was achieved, but first I will provide a quick time
 ### Timeline
 
 <figure align="middle">
-<img src="/assets/img/pointilatordiagram.png" alt="Diagram showing the development of the project over 4 days." width="70%">
+<img src="/assets/img/pointilatordiagram.png" alt="Diagram showing the development of the project over 4 days." width="80%">
 </figure>
 
 When I started out on the first day of the workshop, I worked on a sampler instrument that would use a Convolver node to create reverb, but this proved less inspiring than I had thought, and after just achieving sound and some improvements in the program structure, I abandoned this angle for the project.
@@ -108,7 +108,7 @@ The way I did it was however mostly a workaround than revorking how the scheduli
 Another thing was that I locked myself in using basic elements from HTML and Web Audio compared to using premade GUI and audio libraries since I would have had to just redo a lot of what I had done to switch over to the libraries.
 This might have been a poor decision since it made much of the programming more cumbersome.
 
-### further development
+### Further development
 
 There are still many bugs and issues with the instrument, but I am satisfied with what I achieved during the week. Further improvements could be made to the audio quality, scheduling of note events and control over pitch. Quantizing the pitch and time would also be interesting to explore, as well as functionality for editing and undoing steps added to the sequencer.
 
