@@ -15,26 +15,26 @@ excerpt: This blog post outlines the production of the MonoSynth. The Mono Synth
 </figure>
 <br>
 
-My previous knowledge with programming before starting the MCT course is virtually nonexcistent, much unlike the error codes i have come across during this project. Still, I feel like my understanding of programming has grown compared to what i had in the previous semesters programming course.
+My previous knowledge with programming before starting the MCT course was virtually nonexcistent, much unlike the error codes I have come across during the creation of this project. Still, I feel like my understanding of programming has grown alot since the previous semesters programming course.
 
 ### Finding A Project
 
-It was somewhat difficult to decide what i would be able to do. Working with sonification or making a simple synth was my two options and i even thought this could be challenging, but after a short discussion with Anna, i
+It was somewhat difficult to decide what i would be able to do. Working with sonification or making a simple synth was my two options and I even thought this could be challenging, but after a short discussion with Anna, i
 landed on the latter. 
 
-From there i tried to implemet code from the web. I find it to be very helpful to use exsisting code when one is starting out. That helps one to get a overview of the functions rather than having to guess all the names and commands
+From there i tried to implemet code from the web. I find it very helpful to use exsisting code when starting out. That helps one to get a overview of the functions rather than having to guess all the names and commands
 oneself. As a beginner i would advise people that is starting out to do the same. Anna also gave me another good tips, and this was to make code that does not work, or need improvement into comments, so you can segment the code to isolate problems.
 
 To concretize, my goal was to make a mono synth that was routed to the keyboard on my laptop. My overarching goal was simply to gain more insight into coding through being more exposed to it.
-That might not sound very impressive, but for me, with my startpoint, I think it is an ambitious goal.
+That might not sound very impressive, but for me, with my startpoint, I think it was an ambitious goal.
 
 ### Workflow and progress
 
-After going through the code examples of the day, we were encouraged to use the group rooms. I felt more comfortable staying in the portal so as to get help from Anna and some of the strong students in the class.
+After going through the code examples of the day, we were encouraged to use the group rooms. I felt more comfortable staying in the portal so as to get help from Anna and some of the more experienced students in the class.
 While doing programming, it is not always intuitive to find out what is the issue. For example, a word in a line could be right, but missing a capital letter. That is really not easy to figure out if you are just starting out, such as i am. 
 
-It is very helpful to have your peers and teachers looking over the code and teach you some debugging tricks. For late night work, google is your friend. Googeling everything will in most case give you an asnwer, because
-someone else has probably experienced a similar issue before.
+It is very helpful to have your peers and teachers looking over the code and teach you some debugging tricks. For late night work, google is your friend. Googeling everything will in many cases give you an asnwer, because
+someone else has probably experienced a similar issue before. Finding the right keyword, and knowing what to google is still an issue that is left to oneself.
 
 Routing the keys was actually the easiest and most pleasurable thing to do. I am not really a huge fan of repeating tasks, but here, it porvided me with a sense of progress and independency which was very motivating. 
 
