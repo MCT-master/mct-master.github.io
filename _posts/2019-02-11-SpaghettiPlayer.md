@@ -18,7 +18,7 @@ excerpt: The <a href="https://fractionmari.github.io/SpaghettiPlayer/">Spaghetti
 This has been an intense week with a steep learning curve for me, but I have enjoyed it so much. HTML and web design was a huge hobby for me back in the 90's when I was little, and this week I have been reminded of how fun it is to be creative with code. To try and fail, endlessly googling for solutions when nothing works, troubleshooting for hours and hours, getting no sleep. And the rush you get when it finally works! 
 
 _Take a look at the evolution of the Spaghetti Player_
-<img src="https://github.com/MCT-master/mct-master.github.io/blob/master/assets/img/mari/collage_player.jpg" alt="Evolution of the player" width="100%" />
+<img src="/assets/img/mari/collage_player.jpg" alt="Evolution of the player" width="100%" />
 
 The <a href="https://fractionmari.github.io/SpaghettiPlayer/">Spaghetti Code Music Player</a> is a simple music player that is loaded with one of my own tracks. The player allows you to play and stop the tune, turn on and off a delay effect and control a filter with your computer mouse. The player also has a volume control.
 
