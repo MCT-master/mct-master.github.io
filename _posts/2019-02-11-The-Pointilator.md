@@ -104,7 +104,7 @@ Making the sequencer play in the way I wanted to proved to be a challenge, becau
 I mostly did not use prebuilt libraries to handle the scheduling of all audio events, which meant some things were happening asynchronously and before real-time. That meant adding notes while the sequence was playing would only manifest after the current loop was finished. 
 I was however able to overcome this by calculating when the note should play based on the current loop's start and when the Canvas was clicked. 
 
-The way I did it was however mostly a workaround than revorking how the scheduling basicly functioned, which could have been better, but as I was working on it, I became somewhat intrigued by the limitations and challenges this entailed.
+The way I did it was however mostly a workaround than revorking how the scheduling basically functioned, which could have been better, but as I was working on it, I became somewhat intrigued by the limitations and challenges this entailed.
 Another thing was that I locked myself in using basic elements from HTML and Web Audio compared to using premade GUI and audio libraries since I would have had to just redo a lot of what I had done to switch over to the libraries.
 This might have been a poor decision since it made much of the programming more cumbersome.
 
