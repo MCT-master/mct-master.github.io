@@ -23,9 +23,8 @@ However, it took way longer to implement those ideas, but luckily there is alway
 
 It took some time to decide what I want to go for more in-depth since there are so many options.
 The first day I tried to work with audio spatialization online. The code I found was pretty advanced and 
-I did not want to spend to much time understanding it, so I rolled back to something more simple as a start.
-Inspired by the tone.js and its <a href="https://tonejs.github.io/">examples on audio sound synthesis</a> with sample files I got the idea to create something similar. Finally I chose to work with audio samples, uploading them and processing them on the web browser like <a href="https://tonejs.github.io/examples/grainPlayer.html">here</a>. I spend a lot of time finding out how to mappthe input to the output by the syntax. How to know what to do when you don't know what to ask for? Gradually things
-became more clear. Signal flow chart helped a lot to visualize what is happening. 
+I did not want to spent to much time understanding it, so I rolled back to something more simple as a start.
+Inspired by the tone.js and its <a href="https://tonejs.github.io/">examples on audio sound synthesis</a> with sample files I got the idea to create something similar. Finally I chose to work with audio samples, uploading them and processing them on the web browser like <a href="https://tonejs.github.io/examples/grainPlayer.html">here</a>. I spent a lot of time finding out how to ask for content. Gradually things became more clear. Signal flow chart helped a lot to visualize what is happening. 
 
 
 <figure align="middle">
