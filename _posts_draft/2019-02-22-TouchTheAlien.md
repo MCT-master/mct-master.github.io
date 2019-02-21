@@ -44,6 +44,26 @@ Consultation with extraterrestrial races (coders)
 
 ## Timeline
 
+Day	1
+Discussing our ideas and path
+Delegating tasks
+
+Day	2
+Working side-by-side on our different tasks;
+Mari: touch-function
+Sam: sound design gibber
+Eigil: mouse-function
+
+Day	3
+Divide js-script, css and html into separate files
+Starting on combining our codes
+Audio FX tuna & Dry/Wet
+
+Day	4
+Finishing the prototype, combine all codes together
+Final touch on design and functions
+
+
 ## Ideas and prototypes
 
 #### Reece da Alien
