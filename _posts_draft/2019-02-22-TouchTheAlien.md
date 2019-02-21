@@ -5,7 +5,7 @@ title: "Touch the Alien"
 date: 2019-02-22 17:00:00 +0100
 categories: Audio-Programming
 author: Eigil Aandahl, Jonas Bjordal, Mari Lesteberg & Sam Roman
-image: /assets/img/
+image: /assets/img/touchaliensynth/touch-the-alien.png
 excerpt:
 
 ---
@@ -19,9 +19,13 @@ excerpt:
 - Challenges: Give a summary of the challenges that you have been encountering over the week and how you did face them?
 - What is next? e.g. blog post, code repository, website publishing... more development? -->
 
-<img src="/assets/img/" alt="" width="100%" />
 
-## Touch the alien - Web API based synthesiser 
+
+# Touch the Alien - Web API based synthesiser
+
+<img src="/assets/img/touchaliensynth/touch-the-alien.png" alt="" width="70%" />
+
+
 
 - Touchscreen functionality
 - Oscillators, FM Oscillator &  Delay
@@ -41,6 +45,25 @@ excerpt:
 Consultation with extraterrestrial races (coders)
 
 ## The team
+
+
+
+#### Eigil <img src="/assets/img/touchaliensynth/eigil.png" alt="" width="10%" /> 
+
+
+
+#### Jonas <img src="/assets/img/touchaliensynth/jonas.png" alt="" width="10%" /> 
+
+ 
+
+#### Mari <img src="/assets/img/touchaliensynth/mari.png" alt="" width="10%" /> 
+
+Mari contributed with her aquired javascript knowledge from last week, about filter nodes, the interactvity between the sound and faders and buttons, and the responsive design with css. During the week, her main responsibility in the team was to research the <a href="https://developer.mozilla.org/en-US/docs/Web/API/Touch_events"> touch event functionality </a>, that would allow our final product to work on touch screen devices. She also made a <a href="">prototype</a> that implemented a drawing canvas into the sound and esthetic design of Sam's Reese the Alien synth. 
+
+
+#### Sam <img src="/assets/img/touchaliensynth/sam.png" alt="" width="10%" /> 
+
+
 
 ## Timeline
 
@@ -90,7 +113,7 @@ Final touch on design and functions
 - Filter controlled by touch movements. 
 
 #### Pointilator synth
-
+<img src="/assets/img/touchaliensynth/pointilator.png" alt="" width="70%" />
 
 Basis and inspiration for using Canvas to draw visual feedback when playing.
 Used Canvas as click input.
@@ -98,10 +121,12 @@ Played note events based on position of clicks.
 
 
 #### Hello there human.
+<img src="/assets/img/touchaliensynth/hellohuman.png" alt="" width="70%" />
 
 
 #### Prototype: - Reece Da Alien with sonified drawing pad
 
+<img src="/assets/img/touchaliensynth/drawingpad.png" alt="" width="70%" />
 
 - Implemented the touch events code into Sam’s Alien Synth
 
@@ -111,6 +136,8 @@ Played note events based on position of clicks.
 
 
 ## Flowchart
+
+<img src="/assets/img/touchaliensynth/flowchart.jpg" alt="" width="70%" />
 
 ## Achievements
 
@@ -136,3 +163,6 @@ Played note events based on position of clicks.
 
 - Canvas is centred, but would be preferable for an adjusted aspect ratio that fills the screen on every device
 
+- Make it more like an actual sonified drawing pad (aka MS Paint). Add a function that allows you to play and store the drawing, so you can play it over and over again, like in the Pointilator.
+
+- Make a function that allows you to draw with different colours and textures. Different colours represented by different instruments or timbres.
