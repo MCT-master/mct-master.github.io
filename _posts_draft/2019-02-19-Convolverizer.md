@@ -27,7 +27,7 @@ excerpt: ""
         playing = 1; // stating that its now playing
 
         // Following 3 lines are for visualization
-        // Fast Fourier Transform (fft) function to analyze individual audio frequency in a waveform
+        // Fast Fourier Transform (fft) function analyses individual audio frequency in a waveform
         fft = new p5.FFT(0.9, 1024); // 0.9 refers to smoothing & 1024 refers to bin array length.
         w = width / 350; // w = width of each rectangle in the visualization
         fft.setInput(cVerb.process(mic)); // cVerb.process(mic) is being used for visualization
