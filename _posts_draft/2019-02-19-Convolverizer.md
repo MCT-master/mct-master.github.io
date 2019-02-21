@@ -14,7 +14,7 @@ excerpt: ""
 // Eventlistener for click on Canvas
     function togglebutton() {
       if (playing == 0) {
-        // start gettiing live audio input
+        // start getting live audio input
         mic = new p5.AudioIn(); // this function is setting mic as mic input
         mic.start(); // mic input can now play sounds 
         cVerb = createConvolver("recorded/drumsolo.mp3"); // This function takes the Impulse Response
