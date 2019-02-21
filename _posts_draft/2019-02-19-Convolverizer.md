@@ -8,10 +8,11 @@ image: /assets/img/freakshow.jpg
 excerpt: ""
 ---
 
-## Starting Point
+## Decoding Convolvorizer
+The heart of the Convolverizer has mainly two parts. First, the toggle button operation and slider function, which provides the user to control the application. Second, the role of canvas and creation of live visualization. We have tried to comment on each line of the code so that you could easily figure out what is what. 
 
 ```javascript
-// Eventlistener for click on Canvas
+// Part I - Eventlistener for click on Canvas
     function togglebutton() {
       if (playing == 0) {
         // start getting live audio input
@@ -44,7 +45,7 @@ excerpt: ""
 ```
 
 ```javascript
-// Drawing Canvas & Creating Visualization    
+// Part II - Drawing Canvas & Creating Visualization    
 function draw() {
   
     if (playing == 0 && start == 1) {
