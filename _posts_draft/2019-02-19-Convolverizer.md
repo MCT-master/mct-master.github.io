@@ -40,7 +40,7 @@ excerpt: ""
         playing = 0;
         start = 1;
       }
-    }
+    } i
 ```
 
 ```javascript
@@ -48,8 +48,8 @@ excerpt: ""
 function draw() {
   
     if (playing == 0 && start == 1) {
-    //show the image when 
-    drawimage();
+    //show the image when stop button is pressed
+    drawimage(); // it is a function defined in other part of the code which simply shows the image on canvas
    
     } else if (playing == 1) {
     //stop showing the image and start the visualization
