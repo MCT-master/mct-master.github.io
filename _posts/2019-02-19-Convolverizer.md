@@ -5,7 +5,7 @@ date: 2019-02-19 03:59:00 +0200
 categories: Audio-Programming
 author: Eirik Dahl, Karolina Jawad, Shreejay Sheresta, Sepehr Haghighi
 image: /assets/img/Convolverizer1.png
-excerpt: ""
+excerpt: "Convolverizer is a Real-time processing of ambient sound, voice or live instruments."
 ---
 <figure align="middle">
 <img src="/assets/img/Convolverizer2.png" alt="" width="100%">
@@ -15,9 +15,9 @@ excerpt: ""
 Real-time processing of ambient sound, voice or live instruments. We are several string instrument players and sound artists, but would like to prototype something modular that extends our artistic expressions, which is always at hand and instantly available. Create hidden gems that don't require additional expensive equipment. Get your phone, convolve it, GO!
 
 Development team, why are we doing this:
-* **Eirik:** wants to do/learn something new
+* **[Eirik](https://www.facebook.com/eirikdahl):** wants to do/learn something new
 * **[Sepehr](https://sepehrhaghighi.com):** likes to extend his guitar and other sonical productions
-* **Karolina:** has little space in her room and therefore wants a fancy mobile application
+* **[Karolina](https://cv2c.noblogs.org/):** has little space in her room and therefore wants a fancy mobile application
 * **Shreejay:** loves live visualization
 
 
@@ -30,7 +30,7 @@ On the first day, all groups have formed up, different from other groups our fin
 * Having a modular application that is accessible which does not require a bulk of technological hardware and software
 
 <figure align="middle">
-<img src="/assets/img/Fig1.jpg" alt="" width="70%">
+<img src="/assets/img/Fig1.5.jpg" alt="" width="70%">
 </figure>
 
 Since the level of programming expertise was more or less equally low distributed throughout the group, we left the division of the roles open. Sepehr suggested right after we formed as a group to work with the p5js library, and showed some examples. Shreejay again suggested going for web audio API. Karolina and Eirik assisted in research for both ways. We agreed to try building the model with the Web Audio API library first.
