@@ -6,14 +6,7 @@ date: 2019-02-22 17:00:00 +0100
 categories: Audio-Programming
 author: Eigil Aandahl, Jonas Bjordal, Mari Lesteberg & Sam Roman
 image: /assets/img/touchaliensynth/touch-the-alien.png
-excerpt: "The web audio synth 'Touch the Alien', a project by Eigil Aandahl, Sam Roman, Jonas Bjordal and Mari Lesteberg at the master's programme Music, Communication and Technology at University of Oslo and Norwegian University of Science and Technology. The application offers:
-
-- Touchscreen functionality
-- Oscillators, FM Oscillator &  Delay
-- Phaser, Chorus & Filter on Dry/wet slider
-- Canvas UI with follow visual FX
-
-And it's alien themed for your pleasure!"
+excerpt:
 
 ---
 
@@ -46,7 +39,7 @@ You can try the synth yourself on <a href="http://folk.ntnu.no/eigilaa/public_ht
 In the developing of the synth, we have used tools as:
 
 #### Javascript with Web Audio API, CSS and HTML5
-  - Javascript to make the "brain" of the synth, such as the audio features, the canvas function with mouse and touch functionality
+  - Javascript to make the "brain" of the synth, such as the audio features, the canvas function with mouse and touch functionality. HTML and CSS for the page UI elements.
 #### Tuna
   - An audio effects library for the Web Audio API. 
 #### Visual Studio Code
@@ -116,24 +109,13 @@ The third day was also spent on working with our individual tasks, but in a more
 
 
 #### Day	4
-On the last day, we finished the prototype by combining all codes together and made final touches on design and functions. This meant tidiying up some of out code, bugfixing and making each intended function work properly. The final part of the day was spent on the presentation, where we got positive feedback from the class and guests, Alexander, Daniel and Arthur. The questions we got were mostly focused on the issues we faced, and how we could further develop the instrument.
+On the last day, we finished the prototype by combining all codes together and made final touches on design and functions. This meant tidiying up some of out code, bugfixing and making each intended function work properly.
 
 ## Ideas and prototypes
 
 #### Reece da Alien
 
-- Originally made for experimenting with phasing and clashing frequencies 
-
-- Uses both  mouse & keyboard
-
-- FM synthesis functionality
-
-- Audio clip sampler
-
-- can be used for creating reese sounds, for sound design or fun!
-
-- whoh! Alien are out there dude .... 
-
+The original inspiration for the project was Sam’s Alien synth. Originally made for experimenting with phasing and clashing frequencies, it also utilised the computer keyboard to effect the frequency of the second oscillator. The idea started as a reese bass creator, however the move to use canvas and touchscreen functionality was a natural progression for the project – it makes the page more accessible and easy to use, as well as a more modern incarnation to present this project.
 
 #### Pointilator synth
 <img src="/assets/img/touchaliensynth/pointilator.png" alt="" width="70%" />
@@ -144,21 +126,19 @@ Instead of having continous sound when clicked, it played note events based on t
 
 
 #### Hello there human.
-<img src="/assets/img/touchaliensynth/hellohuman.gif" alt="" width="70%" />
-This was the prototype for the canvas pad after the first day, and as you can see, the canvas draws a line after the mouse pointer which fades over time. Some features for the drawing was still not implemented at this point, but the main style and functionality was already working.
+<img src="/assets/img/touchaliensynth/hellohuman.png" alt="" width="70%" />
 
-#### Prototype: - Reese Da Alien with sonified drawing pad
+
+#### Prototype: - Reece Da Alien with sonified drawing pad
 
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/xl7XN5LBFpA" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-The process of developing this prototype was described earlier in this blog post, in the excerpt from the day 2 of Mari's research journal. But briefly summed up, the prototype featured:
-
-- Implementation of the touch events code into Sam’s Alien Synth
+- Implemented the touch events code into Sam’s Alien Synth
 
 - Two oscillators controlled by X and Y movements in the canvas
 
-- The buttons and volume slider didn’t work by this point
+- But the buttons and volume slider didn’t work by this point
 
 
 ## Flowchart
@@ -171,10 +151,12 @@ This is the signal chain for the prototype’s audio code. It includes the 2 saw
 
 This is a sample of the code of how the Tuna.js code was implemented. The library has to be in the same folder as the code (as with all the external libraries and plugins used) and then opened in the code: 
 
+```javascript
 <script src="tuna.js"></script>
+ ```
  
 Each FX node had similar layout, and examples were found online. Each node the FX of choice is declared, and then each has parameters that are used for each, different depending on the FX (threshold for compression, feedback for delay etc.). The code below shows the options for the chorus – rate, delay, feedback and bypass. The aim for these FX is to have a simple user friendly use of multiple FX in one action – so the parameters of the FX were generally modest and not too intense. This is due to the fact that the synth design creates crazy sounds already – the ethos of the FX addition to the project was to sweeten the sound (the FM function messes it up enough already!).
-```
+```javascript
 document.querySelector("#button1").addEventListener('click', function() {
   var tuna = Tuna(context);
 
@@ -191,7 +173,7 @@ The Tuna.js effects Sam found needed to be inside a function to work. At first a
 ## Dry/Wet Functionality
 
 
-```
+```javascript
 var slider2 = new Nexus.Slider('#slider2',{
         'size': [120,20],
         'mode': 'relative',  // 'relative' or 'absolute'
@@ -208,7 +190,7 @@ slider2.on('change',function(filterValue) {
 
 Here ‘FilterValue’ is the fader variable. Lines below it attaches this variable to the ‘dry’ and ‘wet’ nodes gain. The -1 on the dry line inverts the 0-1 range so it does the opposite gain fade to the wet value. This creates a crossfade effect – the fader in the middle it will be 0.5 and 0.5 each, or 0.7 and 0.3. the value of both nodes together will always be 1, wherever it is on the slider.
 
-```
+```javascript
   dry = context.createGain();
   dry.gain.value = 1;
 
@@ -251,11 +233,11 @@ Working on each other's code together was certainly both challenging and rewardi
 on the first days it could be hard to know what work process each member had. This also hindered communication somewhat in the first days, although we showed each other our code, it was hard to understand their whole process after each day’s work. As its been stated, we compiled and worked together on the last day, demystifying what the other members of the group had been working on.
 
 
-### Sams Challenges - Gibber me Timbers! 
+### Sam's Challenges - Gibber me Timbers! 
 
 Sam was very inspired by the online JavaScript based live coding environment introduced to the MCT workshop early in the week. The way the platform dealt with FX inspired Sam to get it working with the Alien synth, the audio manipulation on the mouse movements were a particularly cool feature, as well as simple beat generation (ringo a code for drums!). After downloading the library for use in the project, two days of trial and error, problem scanning and asking for advice ensured – to no avail. 
 
-From what Sam found was that gibber didn’t want to play ball inside the JavaScript audio context that was used to compile and output the audio. There is very little online to help with the external library for Gibber, and so this is Sam's guess after findings testing the library. It works easily with its own examples, and sets up the audio context differently. So after coming to this rough conclusion – I realised that there was too little time to get Gibber to work – and instead used Tuna.js to achieve a similar goal.
+From what Sam found was that gibber didn’t want to play ball inside the JavaScript audio context that was used to compile and output the audio. There is very little online to help with the external library for Gibber, and so this is Sam's guess after findings testing the library. It works easily with its own examples, and sets up the audio context differently. So after coming to this rough conclusion – Sam realised that there was too little time to get Gibber to work – and instead used Tuna.js to achieve a similar goal.
 
 
 ## Issues & Further Development 
@@ -273,4 +255,3 @@ Expanding on this, we could make a function that allows you to draw with differe
 <img src="/assets/img/touchaliensynth/touch-the-alien.png" alt="" width="70%" />
 
 ## Closing remarks
-In the end, we are pleased with the result and experience we got from Anna's workshop. Perhaps this project or something based on it could be presented by us as a paper or workshop during the [2019 Web Audio Conference](https://www.ntnu.edu/wac2019) in December, who knows?
