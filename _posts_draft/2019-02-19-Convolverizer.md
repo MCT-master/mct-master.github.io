@@ -11,10 +11,10 @@ excerpt: ""
 Real-time processing of ambient sound, voice or live instruments. We are several string instrument players and sound artists, but would like to prototype something modular that extends our artistic expressions, which is always at hand and instantly available. Create hidden gems that don't require additional expensive equipment. Get your phone, convolve it, GO!
 
 Development team, why are we doing this:
-**Eirik:** wants to do/learn something new
-**Sepehr:** likes to extend his guitar and other sonical productions
-**Karolina:** has little space in her room and therefore wants a fancy mobile application
-**Shreejay:** loves live visualization
+* **Eirik:** wants to do/learn something new
+* **[Sepehr](https://sepehrhaghighi.com):** likes to extend his guitar and other sonical productions
+* **Karolina:** has little space in her room and therefore wants a fancy mobile application
+* **Shreejay:** loves live visualization
 
 
 
@@ -63,7 +63,7 @@ We missed the chance to set up our performance (including more camera ressources
 
 <figure align="middle">
         <video height="100%" width="100%" controls>
-        <source src="/assets/video/APConvolverizer.m4v" type="video/m4v">
+        <source src="/assets/video/APConvolverizer.mp4" type="video/mp4">
         Your browser does not support the video tag.
 </video>
 </figure>
