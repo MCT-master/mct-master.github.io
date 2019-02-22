@@ -73,9 +73,9 @@ Before adding a function which would play through a melody with each piano keyst
 
 ### From MIDI To JSON
 
-As we were going to use the same melody for playback as well as for the user interaction, we first came up with an idea to play through a MIDI-file. It ended up being challenging getting JavaScript to handle MIDI-data. We tried to implement a library called <a href="https://www.npmjs.com/package/midi-player-js">MIDIPlayerJS</a> to get it to work, but the library itself seemed to have some fault, preventing it from working. 
+As we were going to use the same melody for playback as well as for the user interaction, we first came up with an idea to play through a MIDI-file. It ended up being challenging getting JavaScript to handle MIDI-data. We tried to implement a library called <a href="https://www.npmjs.com/package/midi-player-js" target="_blank">MIDIPlayerJS</a> to get it to work, but the library itself seemed to have some fault, preventing it from working. 
 
-As <a href="https://www.w3schools.com/whatis/whatis_json.asp" target="_blank">JSON</a> (JavaScript Object Notation) is a file format used for storing and transporting text data, and we knew it was easy to handle for JavaScript, we started looking for ways to convert MIDI-files to JSON-files. It didn’t take long before we found an easy way to convert, using a website called <a href="https://www.visipiano.com MIDI-to-json-converter/" target="_blank">Visipiano</a>. Using Ableton, Guy created the MIDI files for the two songs we were about to use (ABCD and Alle Fugler). The only thing we had to do, was to drag it into this website, and then download it as a JSON-file, ready for implementation.
+As <a href="https://www.w3schools.com/whatis/whatis_json.asp" target="_blank">JSON</a> (JavaScript Object Notation) is a file format used for storing and transporting text data, and we knew it was easy to handle for JavaScript, we started looking for ways to convert MIDI-files to JSON-files. It didn’t take long before we found an easy way to convert, using a website called <a href="https://www.visipiano.com/midi-to-json-converter/" target="_blank">Visipiano</a>. Using Ableton, Guy created the MIDI files for the two songs we were about to use (ABCD and Alle Fugler). The only thing we had to do, was to drag it into this website, and then download it as a JSON-file, ready for implementation.
 
 ### Extracting JSON Data
 
@@ -225,7 +225,7 @@ This solution enables the user to start the song again when it is finished playi
   3. Improve scalability to different devices/screen sizes.
 - Add possibility to play on the graphical piano by click or touch (as suggested to us during the Q&A session by Alexander Refsum Jensenius).
 - Add additional songs to the library.
-- Add functionality for the user (or parent/teacher of the user) to upload own JSON-file with a melody. (Thanks to Anna Xambó for the suggestion). Since there are more websites with MIDI-files, like <a href="https://bi MIDI.com/" target="_blank">Bitmidi</a>, we should let the user upload a MIDI-file. This will require adding a script that converts MIDI files to JSON.
+- Add functionality for the user (or parent/teacher of the user) to upload own JSON-file with a melody. (Thanks to Anna Xambó for the suggestion). Since there are more websites with MIDI-files, like <a href="https://bitmidi.com/" target="_blank">Bitmidi</a>, we should let the user upload a MIDI-file. This will require adding a script that converts MIDI files to JSON.
 - Add different instrument sounds (currently just a sine wave oscillator).
 - Add function where the user gets notified if they press the wrong note (as suggested by Anna Xambó).
 - Add notification popups if user presses correct notes many times in a row, to giving support and motivation.
