@@ -109,7 +109,7 @@ The third day was also spent on working with our individual tasks, but in a more
 
 
 #### Day	4
-On the last day, we finished the prototype by combining all codes together and made final touches on design and functions. This meant tidiying up some of out code, bugfixing and making each intended function work properly.
+On the last day, we finished the prototype by combining all codes together and made final touches on design and functions. This meant tidiying up some of out code, bugfixing and making each intended function work properly. The final part of the day was spent on the presentation, where we got positive feedback from the class and guests, Alexander, Daniel and Arthur. The questions we got were mostly focused on the issues we faced, and how we could further develop the instrument.
 
 ## Ideas and prototypes
 
@@ -139,6 +139,7 @@ Instead of having continous sound when clicked, it played note events based on t
 #### Hello there human.
 <img src="/assets/img/touchaliensynth/hellohuman.png" alt="" width="70%" />
 
+This was the prototype for the canvas pad after the first day, and as you can see, the canvas draws a line after the mouse pointer which fades over time. Some features for the drawing was still not implemented at this point, but the main style and functionality was already working.
 
 #### Prototype: - Reece Da Alien with sonified drawing pad
 
@@ -263,3 +264,5 @@ Expanding on this, we could make a function that allows you to draw with differe
 <img src="/assets/img/touchaliensynth/touch-the-alien.png" alt="" width="70%" />
 
 ## Closing remarks
+
+In the end, we are pleased with the result and experience we got from Anna's workshop. Perhaps this project or something based on it could be presented by us as a paper or workshop during the [2019 Web Audio Conference](https://www.ntnu.edu/wac2019) in December, who knows?
