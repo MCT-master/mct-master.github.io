@@ -6,7 +6,12 @@ date: 2019-02-22 17:00:00 +0100
 categories: Audio-Programming
 author: Eigil Aandahl, Jonas Bjordal, Mari Lesteberg & Sam Roman
 image: /assets/img/touchaliensynth/touch-the-alien.png
-excerpt:
+excerpt: "The web audio synth 'Touch the Alien', a project by Eigil Aandahl, Sam Roman, Jonas Bjordal and Mari Lesteberg at the master's programme Music, Communication and Technology at University of Oslo and Norwegian University of Science and Technology. The application offers:	excerpt:
+ - Touchscreen functionality	
+- Oscillators, FM Oscillator &  Delay	
+- Phaser, Chorus & Filter on Dry/wet slider	
+- Canvas UI with follow visual FX	
+ And it's alien themed for your pleasure!"
 
 ---
 
@@ -109,7 +114,7 @@ The third day was also spent on working with our individual tasks, but in a more
 
 
 #### Day	4
-On the last day, we finished the prototype by combining all codes together and made final touches on design and functions. This meant tidiying up some of out code, bugfixing and making each intended function work properly.
+On the last day, we finished the prototype by combining all codes together and made final touches on design and functions. This meant tidiying up some of out code, bugfixing and making each intended function work properly. The final part of the day was spent on the presentation, where we got positive feedback from the class and guests, Alexander, Daniel and Arthur. The questions we got were mostly focused on the issues we faced, and how we could further develop the instrument.
 
 ## Ideas and prototypes
 
@@ -126,19 +131,21 @@ Instead of having continous sound when clicked, it played note events based on t
 
 
 #### Hello there human.
-<img src="/assets/img/touchaliensynth/hellohuman.png" alt="" width="70%" />
-
+<img src="/assets/img/touchaliensynth/hellohuman.gif" alt="" width="70%" />	<img src="/assets/img/touchaliensynth/hellohuman.png" alt="" width="70%" />
+This was the prototype for the canvas pad after the first day, and as you can see, the canvas draws a line after the mouse pointer which fades over time. Some features for the drawing was still not implemented at this point, but the main style and functionality was already working.
 
 #### Prototype: - Reece Da Alien with sonified drawing pad
 
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/xl7XN5LBFpA" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-- Implemented the touch events code into Sam’s Alien Synth
+The process of developing this prototype was described earlier in this blog post, in the excerpt from the day 2 of Mari's research journal. But briefly summed up, the prototype featured:
+
+- Implementation of the touch events code into Sam’s Alien Synth
 
 - Two oscillators controlled by X and Y movements in the canvas
 
-- But the buttons and volume slider didn’t work by this point
+- The buttons and volume slider didn’t work by this point
 
 
 ## Flowchart
@@ -255,3 +262,4 @@ Expanding on this, we could make a function that allows you to draw with differe
 <img src="/assets/img/touchaliensynth/touch-the-alien.png" alt="" width="70%" />
 
 ## Closing remarks
+In the end, we are pleased with the result and experience we got from Anna's workshop. Perhaps this project or something based on it could be presented by us as a paper or workshop during the [2019 Web Audio Conference](https://www.ntnu.edu/wac2019) in December, who knows?
