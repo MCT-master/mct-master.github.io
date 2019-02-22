@@ -62,7 +62,7 @@ Consultation with extraterrestrial races (coders)
 
 #### Mari <img src="/assets/img/touchaliensynth/mari.png" alt="" width="10%" /> 
 
-Mari contributed with her aquired javascript knowledge from last week, about filter nodes, the interactvity between the sound and faders and buttons, and the responsive design with css. During the week, her main responsibility in the team was to research the <a href="https://developer.mozilla.org/en-US/docs/Web/API/Touch_events"> touch event functionality </a>, that would allow our final product to work on touch screen devices. She also made a <a href="">prototype</a> that implemented a drawing canvas into the sound and esthetic design of Sam's Reese the Alien synth. 
+Mari contributed with her aquired javascript knowledge from last week, about filter nodes, the interactvity between the sound and faders and buttons, and the responsive design with css. During the week, her main responsibility in the team was to research the <a href="https://developer.mozilla.org/en-US/docs/Web/API/Touch_events"> touch event functionality </a>, that would allow our final product to work on touch screen devices. She also made a <a href="https://www.youtube.com/watch?v=xl7XN5LBFpA">prototype</a> that implemented a drawing canvas into the sound- and aesthetic design of <a href="https://mct-master.github.io/audio-programming/2019/02/11/Alien-Reese.html">Sam's Reese the Alien synth</a>. 
 
 
 #### Sam <img src="/assets/img/touchaliensynth/sam.png" alt="" width="10%" /> 
