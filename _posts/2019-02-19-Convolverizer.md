@@ -193,7 +193,7 @@ We decided to use p5.js as an additional library. That involved working with a n
 All in all, the most significant achievement of ours is the gained exposure and understanding of coding in music. We were hitting a near vertical learning curve these two weeks, and to end up with a working prototype after this course is very pleasing. There was a bit of frustration tied with the difficulty of the task we had at hand, but through that, we managed to have a good working relationship and good teamwork. We also achieved a greater understanding of the use and implications of technologies used it coding, and also with the p5.js Library.<br />
 
 **Lesson Learned:**
-While aiming to get two live audio input from two separate channels, we noticed that both p5.js and Web Audio API do not have functions in order to support two parallel inputs or more. For example, by using the MediaStreamAudioSourceNode and getUserMedia functions, it is possible to get one audio and one video input channels; but not two or more. Similarly, by using the p5.js AudioIn and mic.start() functions, it is possible to get only one audio input channel.
+While aiming to get two live audio input from two separate channels, we noticed that both p5.js and Web Audio API do not have functions in order to support two parallel inputs or more. For example, by using the **MediaStreamAudioSourceNode** and **getUserMedia** functions, it is only possible to get one audio and one video input channels. Similarly, by using the **p5.js AudioIn** and **mic.start()** functions, it is only possible to get one audio input channel.
 
 
 
@@ -206,8 +206,8 @@ In terms of interactivity, we overall we tried to create a simple, user-friendly
 
 
 ## Acknowledgement
-Our heartfelt gratitude to [Anna Xambo](https://github.com/axambo) for guiding us all through the process from Day 1 to Day 4. Thank you so much for your support and patience which helped us learn and practice coding in Web Audio API, Html, javascript, CSS and p5.js. we would also like to thank all our peers and audience for their constructive feedbacks and suggestions.
-Besides, we would also like to take this opportunity to thank [Hamed Kazemi](https://www.facebook.com/hamed.kazemi) for heping us to solve and own his code for our complex plan in Fig.2. His **[creative code](https://github.com/sepehrhaghighi/The-Convolverizer-In-collaboration-with-Hamed-Kazemi-)** could record live audio input in cache memory and rout it as an input to the convolution process using [Node.js](https://nodejs.org/en/). Following live demo shows the collaborative work with Hamed:
+Our heartfelt gratitude to [Anna Xambo](https://github.com/axambo) for guiding us all through the process from Day 1 to Day 4. Thank you so much for your support and patience which helped us learn and practice coding in Web Audio API, Html, javascript, CSS and p5.js. Similarly, thanks to all our peers and audience for their constructive feedbacks and suggestions.
+Besides, we would also like to take this opportunity to thank [Hamed Kazemi](https://www.facebook.com/hamed.kazemi) for heping us to solve and own his code for our complex plan shown in Fig.2. His **[creative code](https://github.com/sepehrhaghighi/The-Convolverizer-In-collaboration-with-Hamed-Kazemi-)** could record live audio input in cache memory and rout it as an input to the convolution process using [Node.js](https://nodejs.org/en/). Following live demo shows the collaborative work with Hamed:
 
 <figure align="middle">
         <video height="100%" width="100%" controls>
@@ -216,5 +216,4 @@ Besides, we would also like to take this opportunity to thank [Hamed Kazemi](htt
 </video>
 </figure>
 <br>
-**Thank you all!**
 <br/>
