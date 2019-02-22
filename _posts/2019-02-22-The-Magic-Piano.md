@@ -13,7 +13,7 @@ Keywords: Web Audio API, JavaScript, Tone.js, CSS, HTML, NexusUI, JSON, Piano, E
 <img src="/assets/img/magicpiano.PNG" width = "85%" align="center" />
 </figure>
 
-During our second week learning about Audio Programing and web Audio API we were divided into groups and had to come up with an idea for a final project. The main challenges were to find an idea that is doable within 4 days, to code collaboratively and to prepare for the presentation of our project. Guy had an Idea for building a piano keyboard that will help beginners play a simple melody and Ashane and Jørgen agreed to collaborate and join forces in creating "The Magic Piano".
+During our second week learning about Audio Programming and Web Audio API we were divided into groups and had to come up with an idea for a final project. The main challenges were to find an idea that is doable within 4 days, to code collaboratively and to prepare for the presentation of our project. Guy had an Idea for building a piano keyboard that will help beginners play a simple melody and Ashane and Jørgen agreed to collaborate and join forces in creating "The Magic Piano".
 
 ## The Idea
 
