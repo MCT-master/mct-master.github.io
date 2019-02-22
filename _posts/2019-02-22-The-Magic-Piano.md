@@ -13,7 +13,7 @@ Keywords: Web Audio API, JavaScript, Tone.js, CSS, HTML, NexusUI, JSON, Piano, E
 <img src="/assets/img/magicpiano.PNG" width = "85%" align="center" />
 </figure>
 
-During our second week learning about Audio Programming and Web Audio API we were divided into groups and had to come up with an idea for a final project. The main challenges were to find an idea that is doable within 4 days, to code collaboratively and to prepare for the presentation of our project. Guy had an Idea for building a piano keyboard that will help beginners play a simple melody and Ashane and Jørgen agreed to collaborate and join forces in creating "The Magic Piano".
+During our second week learning about Audio Programming and Web Audio API we were divided into groups and were asked to come up with an idea for a final project. The main challenges were to find an idea that is doable within 4 days, to code collaboratively and to prepare for the presentation of our project. Guy had an Idea for building a piano keyboard that will help beginners play a simple melody and Ashane and Jørgen agreed to collaborate and join forces in creating "The Magic Piano".
 
 ## The Idea
 
@@ -22,7 +22,7 @@ During our second week learning about Audio Programming and Web Audio API we wer
 
 ## Why Web technologies?
 
-Building the Magic Piano using web technologies has several advantages that fit our purpose. The application is available for anyone with internet access, there is no need for installation and no dependence on a specific operating system. All you need is a web browser, speakers and a MIDI controller to start playing. After a short discussion, we came up with additional features that we would like to implement:
+Building the Magic Piano using web technologies has several advantages that fit our purpose. The application is available for anyone with internet access, and there is no need for installation and no dependence on a specific operating system. All you need is a web browser, speakers and a MIDI controller to start playing. After a short discussion, we came up with additional features that we would like to implement:
 - Choosing a song from dropdown menu.
 - Adding a simple player with Play and Stop buttons to hear the melody.
 - Highlighted piano keys showing the next correct note of the song.
@@ -33,7 +33,7 @@ Building the Magic Piano using web technologies has several advantages that fit 
 <img src="/assets/img/timeline.PNG" width = "85%" align="center" />
 </figure>
 
-## Developing The Magic Piano
+## Developing the Magic Piano
 
 ### MIDI Messages 
 
@@ -69,11 +69,11 @@ As this project was to be developed using web technologies, we wanted to use som
 
 ### The Melody Player
 
-Before adding a function which would play through a melody with each piano keystroke, we branched out from the main idea, to start developing the functionality of playing through a melody using a play and stop button. Adding the player function would give the user the possibility to listen to the song before playing it. This feature would be very helpful for beginners who are not familiar with the song or would just like to refresh their memory.
+Before adding a function which would play through a melody with each piano keystroke, we branched out from the main idea, and started developing the functionality of playing through a melody using a play and stop button. Adding the player function would give the user the possibility to listen to the song before playing it. This feature would be very helpful for beginners who are not familiar with the song or just would like to refresh their memory.
 
-### From MIDI To JSON
+### From MIDI to JSON
 
-As we were going to use the same melody for playback as well as for the user interaction, we first came up with an idea to play through a MIDI-file. It ended up being challenging getting JavaScript to handle MIDI-data. We tried to implement a library called <a href="https://www.npmjs.com/package/midi-player-js" target="_blank">MIDIPlayerJS</a> to get it to work, but the library itself seemed to have some fault, preventing it from working. 
+As we were going to use the same melody for playback as well as for the user interaction, we first came up with an idea to play through a MIDI-file. It ended up being challenging to get JavaScript to handle MIDI-data. We tried to implement a library called <a href="https://www.npmjs.com/package/midi-player-js" target="_blank">MIDIPlayerJS</a> to get it to work, but the library itself seemed to have some fault, preventing it from working. 
 
 As <a href="https://www.w3schools.com/whatis/whatis_json.asp" target="_blank">JSON</a> (JavaScript Object Notation) is a file format used for storing and transporting text data, and we knew it was easy to handle for JavaScript, we started looking for ways to convert MIDI-files to JSON-files. It didn’t take long before we found an easy way to convert, using a website called <a href="https://www.visipiano.com/midi-to-json-converter/" target="_blank">Visipiano</a>. Using Ableton, Guy created the MIDI files for the two songs we were about to use (ABCD and Alle Fugler). The only thing we had to do, was to drag it into this website, and then download it as a JSON-file, ready for implementation.
 
@@ -129,7 +129,7 @@ The code below shows how the JSON-files are retrieved with an XMLHttpRequest and
       };
       ourRequest.send();
 
-### The Dropdown Menu And The Melody Player
+### The Dropdown Menu and the Melody Player
 
 The dropdown menu was made by using the NexusUI library with this function:
 
@@ -152,7 +152,7 @@ The code below shows the function for playing back the melody to the user when t
         }
     }
 
-The synth which is triggered is defined as you can see in the picture below.
+The synth that is triggered is defined as you can see in the picture below.
 
     //synth = new Tone.Synth({
             oscillator: {
@@ -167,7 +167,7 @@ The synth which is triggered is defined as you can see in the picture below.
 
 Having the function this way caused a problem with the melody not starting at the beginning every time we pressed the play button. This is because the audio context clock starts when the page loads, and when we say with our “noteStart”-array, that the first note should start at 0 time, 0 has already past. We made an attempt to offset the melody with “now = context.currentTime”, but this did not work. (We will come back to how we fixed this, later.)
 
-### Melody Triggering With MIDI Input
+### Melody Triggering with MIDI Input
 
 Triggering the melody with each MIDI key stroke was a bit easier than playing it back, since we did not have to account for the clock. As you can see in the code below, it is done in a similar fashion, but here it was important to make it loop. That is why you can see line with the code: “(currentNoteIndex + 1) % noteNames.length”. By Using modulo (%), it will go back to index 0 when it has counted to the length of the array (ex. 42%42 = 0). One more addition, is the “piano.toggleKey” which lights up the next correct key to be played on the piano.
 
@@ -186,11 +186,11 @@ Triggering the melody with each MIDI key stroke was a bit easier than playing it
       }
     }
 
-Here you can also see how we are running the TriggerMelody-function on each piano key press (144 means “on”, 128 means “off”), and running removeColor on key release, which is a function we made to toggle the color off. We had a problem with our TriggerMelody-function being triggered by multiple simultaneous key presses, but we later removed this by adding a Boolean called “weLikeItMono”. Then a note-off message has to be registered before another note-on message arrives.
+Here you can also see how we are running the TriggerMelody-function on each piano key press (144 means “on”, 128 means “off”), and running removeColor on key release, which is a function we made to toggle the color off. We had a problem with our TriggerMelody-function being triggered by multiple simultaneous key presses, but we later removed this by adding a Boolean called “weLikeItMono”. Then a note-off message has to be registered before another note-on message is received.
 
 ### Killing Bugs
 
-As you can see below, there had to be done some changes to make the playback-function better. We chose to use a scheduler method from the Tone.js library, called “Transport”. This abstracts away audio context time and makes it possible for us to always start at 0. “Tone.Transport.scheduleOnce(play, noteStart[i])” triggers the function “play” on each value of “noteStart[i]”. This made the melodies play back correctly...most of the time. There is a bug somewhere, sometimes making the notes play in the wrong order. If you refresh the website and try again, it is gone. We don’t know why, but that will be continued research. It at least works most of the time!
+As you can see below, some changes had to be made to make the playback-function better. We chose to use a scheduler method from the Tone.js library, called “Transport”. This abstracts away audio context time, and makes it possible for us to always start at 0. “Tone.Transport.scheduleOnce(play, noteStart[i])” triggers the function “play” on each value of “noteStart[i]”. This made the melodies play back correctly...most of the time. There is a bug somewhere, sometimes making the notes play in the wrong order. If you refresh the website and try again, it is gone. We don’t know why, but that will be part of the research going forward. At least it works most of the time!
 
     // function PlayMelody MIDINotes, noteNames, noteDurations, noteStart){              
     var currentNoteIndex2 = 0;  // Start from 0 each time PlayMelody is called
@@ -213,11 +213,11 @@ As you can see below, there had to be done some changes to make the playback-fun
       }
     }
 
-This solution enables the user to start the song again when it is finished playing, without having to press the stop button first. The code for the start and stop buttons are at the end of the “app.js” script in the GitHub <a href="https://github.com/MeltingPlanet/WebMusicEducation" target="_blank">repository</a>. Please have a look at the code if you want to see how it all fits together. We’ve made comments on most parts of the code to make it more understandable.
+This solution enables the user to start the song again when it is finished playing, without having to press the stop button first. The code for the start and stop buttons are at the end of the “app.js” script in the GitHub <a href="https://github.com/MeltingPlanet/WebMusicEducation" target="_blank">repository</a>. Please have a look at the code if you want to see how it all fits together. We have left comments on most parts of the code to make it more understandable.
 
 ## Future Development
 
-- Fix the bug that sometimes causes the melody not playing in a correct sequence.
+- Fix the bug that sometimes causes the melody to not play in a correct sequence.
 - Fix the bug that causes clicks on “Alle Fugler”.
 - Improve web usability:
   1. Add option for changing between different languages.
@@ -228,7 +228,7 @@ This solution enables the user to start the song again when it is finished playi
 - Add functionality for the user (or parent/teacher of the user) to upload own JSON-file with a melody. (Thanks to Anna Xambó for the suggestion). Since there are more websites with MIDI-files, like <a href="https://bitmidi.com/" target="_blank">Bitmidi</a>, we should let the user upload a MIDI-file. This will require adding a script that converts MIDI files to JSON.
 - Add different instrument sounds (currently just a sine wave oscillator).
 - Add function where the user gets notified if they press the wrong note (as suggested by Anna Xambó).
-- Add notification popups if user presses correct notes many times in a row, to giving support and motivation.
+- Add notification popups if user presses correct notes many times in a row, to givesupport and motivation.
 - Optional scoring system, where the user gets a score overview when done playing (ex. 30 of 42 notes correct).
 
 ## The Workflow
@@ -239,7 +239,7 @@ Jørgen Nygård Varpe - Collaborative Coding, UI Design, Troubleshooting.<br/>
 Ashane Silva - Collaborative  Coding, UI Design, Troubleshooting.<br/>
 Guy Sion - Collaborative  Coding, Max/MSP Demo, MIDI Files, Troubleshooting.
 
-## User Demonstarion Of The Magic Piano
+## User Demonstration of The Magic Piano
 
 <center><iframe width="560" height="315" src="https://www.youtube.com/embed/PxpBCNSr_Tg" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></center>
 
@@ -251,7 +251,7 @@ We have learned a lot during these two weeks of workshop in the Audio Programmin
 
 We would like to thank Arthur Hureau who was with us on day 4, observing how we worked, helping with making the design of the piano responsive, and keeping an eye on the clock, reminding us to go for lunch!
 
-As well as Anna Xambó, Alexander Refsum Jensenius, Kristian Nymoen, Anders Tveit, Daniel Buner Formo for great feedback and support. A last thanks to our great classmates for making it a fun workshop!
+We would like to thank Anna Xambó, Alexander Refsum Jensenius, Kristian Nymoen, Anders Tveit, Daniel Buner Formo for great feedback and support. A last thanks to our great classmates for making it a fun workshop!
 
 ## Please visit our GitHub repository and try out our Magic Piano!
 
