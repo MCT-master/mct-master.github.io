@@ -190,14 +190,15 @@ We decided to use p5.js as an additional library. That involved working with a n
 
 
 ## Achievements
-All in all, the most significant achievement of ours is the gained exposure and understanding of coding in music. We were hitting a near vertical learning curve these two weeks, and to end up with a working prototype after this course is very pleasing. There was a bit of frustration tied with the difficulty of the task we had at hand, but through that, we managed to have a good working relationship and good teamwork. We also achieved a greater understanding of the use and implications of technologies used it coding, and also with the p5.js Library.
-Lesson Learned
+All in all, the most significant achievement of ours is the gained exposure and understanding of coding in music. We were hitting a near vertical learning curve these two weeks, and to end up with a working prototype after this course is very pleasing. There was a bit of frustration tied with the difficulty of the task we had at hand, but through that, we managed to have a good working relationship and good teamwork. We also achieved a greater understanding of the use and implications of technologies used it coding, and also with the p5.js Library.<br />
+
+**Lesson Learned:**
 While aiming to get two live audio input from two separate channels, we noticed that both p5.js and Web Audio API do not have functions in order to support two parallel inputs or more. For example, by using the MediaStreamAudioSourceNode and getUserMedia functions, it is possible to get one audio and one video input channels; but not two or more. Similarly, by using the p5.js AudioIn and mic.start() functions, it is possible to get only one audio input channel.
 
 
 
 ## Future development / What is next
-The next step would be developing the whole project for different platforms. It is a Web Audio API project, browser-based and we can use it the way it is in a smartphone right now. But with further development, which is going to be mentioned further on, it would be more challenging to present it on smartphones as well. Also, since none of us in the group is a professional developer, we didn’t manage to reach our ideal result. As it was mentioned, below are the future steps and prototypes that we may want to achieve later:
+The next step would be developing the whole project for different platforms. It is a Web Audio API project, browser-based and we can use it the way it is in a smartphone right now. But with further development, which is going to be mentioned further on, it would be more challenging to present it on smartphones as well. Also, since none of us in the group is a professional developer, we didn’t manage to reach our ideal result. As it was mentioned, below are the future steps and prototypes that we may want to achieve later: <br />
 Developing the project so that the user can choose between several different sounds, so the project can use the selected sound to create a convolution effect.
 Developing the project in a way that it would record the surrounding or any sound source that the user intends to record; save it and use it as the source for convolution process for the live input.
 Regarding the first option, it is not going to be a challenging matter. But when it comes to the second option, since the project should be able to save the recorded sound in a server and then download it and use it as the convolution source, the whole process gets more complicated. In other words, we have to develop the server side code in order to achieve this goal; and that requires more practice and experience in developing.
@@ -205,7 +206,7 @@ In terms of interactivity, we overall we tried to create a simple, user-friendly
 
 
 ## Acknoledgement
-Our heartfelt gratitude to [Anna Xambo](https://github.com/axambo) for guiding us all through the process from Day1 to Day4. Thank you so much for your support and patience which helped us learn and practice coding in Web Audio API, html, javascript, css and p5.js. We would also like to take this opportunity to thank [Hamed Kazemi](https://www.facebook.com/hamed.kazemi) for giving his solution to make our complex plan possible. His creative code could record live audio input in cache memory and rout it as an input to the convolution process using [node.js](https://nodejs.org/en/). In case that you are interested in his development, you can download the repository in [here](https://github.com/sepehrhaghighi/The-Convolverizer-In-collaboration-with-Hamed-Kazemi-). You can see a live demo of his collaboration down here:
+Our heartfelt gratitude to [Anna Xambo](https://github.com/axambo) for guiding us all through the process from Day1 to Day4. Thank you so much for your support and patience which helped us learn and practice coding in Web Audio API, Html, javascript, CSS and p5.js. We would also like to take this opportunity to thank [Hamed Kazemi](https://www.facebook.com/hamed.kazemi) for giving his solution to make our complex plan possible. His creative code could record live audio input in cache memory and rout it as an input to the convolution process using [Node.js](https://nodejs.org/en/). In case that you are interested in his development, you can download the repository in [here](https://github.com/sepehrhaghighi/The-Convolverizer-In-collaboration-with-Hamed-Kazemi-). You can see a live demo of his collaboration down here:
 
 <figure align="middle">
         <video height="100%" width="100%" controls>
