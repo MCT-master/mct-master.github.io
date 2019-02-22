@@ -13,7 +13,7 @@ Keywords: Web Audio API, JavaScript, Tone.js, CSS, HTML, NexusUI, JSON, Piano, E
 <img src="/assets/img/magicpiano.PNG" width = "85%" align="center" />
 </figure>
 
-During our second week learning about Audio programing and web Audio API we were divided into groups and had to come up with an idea for a final project. The main challenges were to find an idea that is doable within 4 days, to code collaboratively and to prepare for the presentation of our project. Guy had an Idea for building a piano keyboard that will help beginners play a simple melody and Ashane and Jørgen agreed to collaborate and join forces in creating "The Magic Piano".
+During our second week learning about Audio Programing and web Audio API we were divided into groups and had to come up with an idea for a final project. The main challenges were to find an idea that is doable within 4 days, to code collaboratively and to prepare for the presentation of our project. Guy had an Idea for building a piano keyboard that will help beginners play a simple melody and Ashane and Jørgen agreed to collaborate and join forces in creating "The Magic Piano".
 
 ## The Idea
 
@@ -37,7 +37,7 @@ Building the Magic Piano using web technologies has several advantages that fit 
 
 ### MIDI Messages 
 
-As this project was to be developed using web technologies, we wanted to use some libraries to make the build process easier and faster. We decided to use <a href="https://nexus-js.github.io/ui/api/#Piano" target="_blank">NexusUI's</a> piano keyboard interface, and the framework Tone.js to generate sound. We knew we wanted to trigger sound using a MIDI-keyboard, and luckily for us, our teacher Anna Xambó had already provided us with a javaScript code snippet which accepts MIDI-data. We could then create a function which handled this data, to be used for triggering a note of a melody. See the code snippet below.
+As this project was to be developed using web technologies, we wanted to use some libraries to make the build process easier and faster. We decided to use <a href="https://nexus-js.github.io/ui/api/#Piano" target="_blank">NexusUI's</a> piano keyboard interface, and the framework Tone.js to generate sound. We knew we wanted to trigger sound using a MIDI-keyboard, and luckily for us, our teacher Anna Xambó had already provided us with a JavaScript code snippet which accepts MIDI-data. We could then create a function which handled this data, to be used for triggering a note of a melody. See the code snippet below.
 
     //if (navigator.requestMIDIAccess) {
       navigator.requestMIDIAccess({
@@ -73,13 +73,13 @@ Before adding a function which would play through a melody with each piano keyst
 
 ### From MIDI To JSON
 
-As we were going to use the same melody for playback as well as for the user interaction, we first came up with an idea to play through a MIDI-file. It ended up being challenging getting javaScript to handle MIDI-data. We tried to implement a library called <a href="https://www.npmjs.com/package/midi-player-js">MIDIPlayerJS</a> to get it to work, but the library itself seemed to have some fault, preventing it from working. 
+As we were going to use the same melody for playback as well as for the user interaction, we first came up with an idea to play through a MIDI-file. It ended up being challenging getting JavaScript to handle MIDI-data. We tried to implement a library called <a href="https://www.npmjs.com/package/midi-player-js">MIDIPlayerJS</a> to get it to work, but the library itself seemed to have some fault, preventing it from working. 
 
-As <a href="https://www.w3schools.com/whatis/whatis_json.asp" target="_blank">JSON</a> (JavaScript Object Notation) is a file format used for storing and transporting text data, and we knew it was easy to handle for javaScript, we started looking for ways to convert MIDI-files to JSON-files. It didn’t take long before we found an easy way to convert, using a website called <a href="https://www.visipiano.com MIDI-to-json-converter/" target="_blank">Visipiano</a>. Using Ableton, Guy created the MIDI files for the two songs we were about to use (ABCD and Allefugler). The only thing we had to do, was to drag it into this website, and then download it as a JSON-file, ready for implementation.
+As <a href="https://www.w3schools.com/whatis/whatis_json.asp" target="_blank">JSON</a> (JavaScript Object Notation) is a file format used for storing and transporting text data, and we knew it was easy to handle for JavaScript, we started looking for ways to convert MIDI-files to JSON-files. It didn’t take long before we found an easy way to convert, using a website called <a href="https://www.visipiano.com MIDI-to-json-converter/" target="_blank">Visipiano</a>. Using Ableton, Guy created the MIDI files for the two songs we were about to use (ABCD and Alle Fugler). The only thing we had to do, was to drag it into this website, and then download it as a JSON-file, ready for implementation.
 
 ### Extracting JSON Data
 
-The code below shows 32 of 321 lines of the JSON-file containing all the data needed for playing the ABCD-song. The syntax is identical to javaScript code for creating objects, which makes it easy for javaScript to work with. The file is constructed in an object, with more nested objects, where every object has key-value pairs. In the code snippet you can see the key called “notes”, which has an array of all the note information of the melody as its value.
+The code below shows 32 of 321 lines of the JSON-file containing all the data needed for playing the ABCD-song. The syntax is identical to JavaScript code for creating objects, which makes it easy for JavaScript to work with. The file is constructed in an object, with more nested objects, where every object has key-value pairs. In the code snippet you can see the key called “notes”, which has an array of all the note information of the melody as its value.
 
     //{
     "header": {
@@ -114,7 +114,7 @@ The code below shows 32 of 321 lines of the JSON-file containing all the data ne
             "duration": 0.5
           },
 
-The code below shows how the JSON-files are retrieved with an XMLHttpRequest, and parsed into a javaScript object. We’ve chosen to loop through the notes, and put the MIDI-values, note names, note durations and start time of each note, to arrays. We did this to make the workflow later in the process “easier”. On the first line, you can see that we build the URL based on “songSelect.value”, and this value is chosen by the user with a dropdown menu.
+The code below shows how the JSON-files are retrieved with an XMLHttpRequest and parsed into a JavaScript object. We’ve chosen to loop through the notes, and put the MIDI-values, note names, note durations and start time of each note, to arrays. We did this to make the workflow later in the process “easier”. On the first line, you can see that we build the URL based on “songSelect.value”, and this value is chosen by the user with a dropdown menu.
 
     // url = "sounds/AlleFugler.json";
       var ourRequest = new XMLHttpRequest();
@@ -186,11 +186,11 @@ Triggering the melody with each MIDI key stroke was a bit easier than playing it
       }
     }
 
-Here you can also see how we are running the TriggerMelody-function on each piano key press (144 means “on”, 128 means “off”), and running removeColor on key release, which is a function we made to toggle the color off. We had a problem with our TriggerMelody-function being triggered by multiple simultaneous key presses, but we later removed this by adding a boolean called “weLikeItMono”. Then a note-off message has to be registered before another note-on message arrives.
+Here you can also see how we are running the TriggerMelody-function on each piano key press (144 means “on”, 128 means “off”), and running removeColor on key release, which is a function we made to toggle the color off. We had a problem with our TriggerMelody-function being triggered by multiple simultaneous key presses, but we later removed this by adding a Boolean called “weLikeItMono”. Then a note-off message has to be registered before another note-on message arrives.
 
 ### Killing Bugs
 
-As you can see below, there had to be done some changes to make the playback-function better. We chose to use a scheduler method from the Tone.js library, called “Transport”. This abstracts away audio context time, and makes it possible for us to always start at 0. “Tone.Transport.scheduleOnce(play, noteStart[i])” triggers the function “play” on each value of “noteStart[i]”. This made the melodies play back correctly...most of the time. There is a bug somewhere, sometimes making the notes play in the wrong order. If you refresh the website and try again, it is gone. We don’t know why, but that will be continued research. It at least works most of the time!
+As you can see below, there had to be done some changes to make the playback-function better. We chose to use a scheduler method from the Tone.js library, called “Transport”. This abstracts away audio context time and makes it possible for us to always start at 0. “Tone.Transport.scheduleOnce(play, noteStart[i])” triggers the function “play” on each value of “noteStart[i]”. This made the melodies play back correctly...most of the time. There is a bug somewhere, sometimes making the notes play in the wrong order. If you refresh the website and try again, it is gone. We don’t know why, but that will be continued research. It at least works most of the time!
 
     // function PlayMelody MIDINotes, noteNames, noteDurations, noteStart){              
     var currentNoteIndex2 = 0;  // Start from 0 each time PlayMelody is called
@@ -213,7 +213,7 @@ As you can see below, there had to be done some changes to make the playback-fun
       }
     }
 
-This solution enables the user to start the song again when it is finished playing, without having to press the stop button first. The code for the start and stop buttons are at the end of the “app.js” script in the <a href="https://github.com/MeltingPlanet/WebMusicEducation" target="_blank">repository</a>. Please have a look at the code if you want to see how it all fits together. We’ve made comments on most parts of the code to make it more understandable.
+This solution enables the user to start the song again when it is finished playing, without having to press the stop button first. The code for the start and stop buttons are at the end of the “app.js” script in the GitHub <a href="https://github.com/MeltingPlanet/WebMusicEducation" target="_blank">repository</a>. Please have a look at the code if you want to see how it all fits together. We’ve made comments on most parts of the code to make it more understandable.
 
 ## Future Development
 
@@ -227,13 +227,13 @@ This solution enables the user to start the song again when it is finished playi
 - Add additional songs to the library.
 - Add functionality for the user (or parent/teacher of the user) to upload own JSON-file with a melody. (Thanks to Anna Xambó for the suggestion). Since there are more websites with MIDI-files, like <a href="https://bi MIDI.com/" target="_blank">Bitmidi</a>, we should let the user upload a MIDI-file. This will require adding a script that converts MIDI files to JSON.
 - Add different instrument sounds (currently just a sine wave oscillator).
-- Add function where the user get notified if they press the wrong note (as suggested by Anna Xambó).
+- Add function where the user gets notified if they press the wrong note (as suggested by Anna Xambó).
 - Add notification popups if user presses correct notes many times in a row, to giving support and motivation.
 - Optional scoring system, where the user gets a score overview when done playing (ex. 30 of 42 notes correct).
 
 ## The Workflow
 
-We worked in a collaborative way where we share screens with each other and work on the same document and files. We set up the VS Live Share to view the same code in real time and to discuss the code. We used Github for sharing the code among us when we worked offline. We used zoom to communicate and share screen.
+We worked in a collaborative way where we share screens with each other and work on the same document and files. We set up the VS Live Share to view the same code in real time and to discuss the code. We used GitHub for sharing the code among us when we worked offline. We used Zoom to communicate and share screen.
 
 Jørgen Nygård Varpe - Collaborative Coding, UI Design, Troubleshooting.<br/>
 Ashane Silva - Collaborative  Coding, UI Design, Troubleshooting.<br/>
@@ -245,7 +245,7 @@ Guy Sion - Collaborative  Coding, Max/MSP Demo, MIDI Files, Troubleshooting.
 
 ## Final Reflections
 
-We have learned a lot during these two weeks of workshop in the Audio Programming course. We have gained experience in several web technologies, like HTML, CSS, javaScript and additional libraries. Collaborative coding was a great challenge, but we feel like we managed to have good workflow as a group. Our idea for making an educational tool for beginners to learn playing a simple melody on the piano, has developed into a prototype that we are proud of.
+We have learned a lot during these two weeks of workshop in the Audio Programming course. We have gained experience in several web technologies, like HTML, CSS, JavaScript and additional libraries. Collaborative coding was a great challenge, but we feel like we managed to have good workflow as a group. Our idea for making an educational tool for beginners to learn playing a simple melody on the piano, has developed into a prototype that we are proud of.
 
 ## Thanks
 
