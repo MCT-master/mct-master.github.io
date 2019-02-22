@@ -57,7 +57,7 @@ Consultation with extraterrestrial races (coders)
 Eigil used his experience with web technologies and coding to make the canvas work as the interactive centerpiece of the instrument, and then he made the connections to the audio functions, making the instrument playable. He was also responsible for the [live demo](http://folk.ntnu.no/eigilaa/public_html/Touch-the-alien/).
 
 #### Jonas <img src="/assets/img/touchaliensynth/jonas.png" alt="" width="10%" /> 
-
+During the first day was bug fixing and generally advising and cleaning up the code from Sam's <a href="https://mct-master.github.io/audio-programming/2019/02/11/Alien-Reese.html" target="_blank">Sam's Reese the Alien synth</a>. Unfourtunatly Jonas was unwell for the later part of the project development.
  
 
 #### Mari <img src="/assets/img/touchaliensynth/mari.png" alt="" width="10%" /> 
@@ -244,7 +244,7 @@ Gibber me Timbers!
 
 Sam was very inspired by the online JavaScript based live coding environment introduced to the MCT workshop early in the week. The way the platform dealt with FX inspired Sam to get it working with the Alien synth, the audio manipulation on the mouse movements were a particularly cool feature, as well as simple beat generation (ringo a code for drums!). After downloading the library for use in the project, two days of trial and error, problem scanning and asking for advice ensured – to no avail. 
 
-From what I found from my limited knowledge was that gibber didn’t want to play ball inside the JavaScript audio context that was used to compile and output the audio in project. There is very little online to help with the external library for Gibber, and so this is my guess after findings testing the library. It works easily with its own examples, and sets up the audio context differently. So after coming to this rough conclusion – I realised that there was too little time to get Gibber to work – and instead used Tuna.js to achieve a similar goal.
+From what Sam found was that gibber didn’t want to play ball inside the JavaScript audio context that was used to compile and output the audio. There is very little online to help with the external library for Gibber, and so this is Sam's guess after findings testing the library. It works easily with its own examples, and sets up the audio context differently. So after coming to this rough conclusion – I realised that there was too little time to get Gibber to work – and instead used Tuna.js to achieve a similar goal.
 
 
 ## Issues & Further Development 
