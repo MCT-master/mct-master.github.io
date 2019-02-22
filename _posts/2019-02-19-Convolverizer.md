@@ -8,7 +8,7 @@ image: /assets/img/Convolverizer1.png
 excerpt: "Convolverizer, Real-time processing of ambient sound, voice or live instruments, utilizing the convolution effect."
 ---
 <figure align="middle">
-<img src="/assets/img/Convolverizer2.png" alt="" width="100%">
+<img src="/assets/img/Convolverizer2.png" alt="Convolverizer" width="100%">
 </figure>
 
 ## Introduction
@@ -42,7 +42,7 @@ On the first day, all groups have formed up, different from other groups our fin
 * Having a modular application that is accessible which does not require a bulk of technological hardware and software
 
 <figure align="middle">
-<img src="/assets/img/Fig1.jpg" alt="" width="70%">
+<img src="/assets/img/Fig1.jpg" alt="Audio Signal flow diagram that we first aimed for" width="70%">
 </figure>
 
 Since the level of programming expertise was more or less equally low distributed throughout the group, we left the division of the roles open. Sepehr suggested right after we formed as a group to work with the p5js library, and showed some examples. Shreejay again suggested going for web audio API. Karolina and Eirik assisted in research for both ways. We agreed to try building the model with the Web Audio API library first.
@@ -59,7 +59,7 @@ We took the advice to heart and divided the workload into sub-tasks:
 * Creating visuals with [p5.js](https://p5js.org/) or CSS
 
 <figure align="middle">
-<img src="/assets/img/Fig2.jpg" alt="" width="70%">
+<img src="/assets/img/Fig2.jpg" alt="Signal flow diagram day 2 & 3" width="70%">
 </figure>
 
 We were a bit overwhelmed by the complexity of our initial idea and the backup solution we wanted to implement proved to be a project in itself. Shreejay suggested going for something else instead, to simplify things and would make it suitable for our level of expertise. In the end, we all agreed to continue our project but within the p5.js library, step by step. We were reassured it would make things easier since many examples were given and we would only have to find out how to connect them in the code. We considered at some point to work without the mic and only load two sounds that could be used as an effect on one another. We agreed on two scenarios for the application, each divided into different sub-steps. Sepehr and Eirik worked on fusing the impulse response to the live input and Karolina and Shreejay worked on integrating the recording function.
@@ -68,7 +68,7 @@ We were a bit overwhelmed by the complexity of our initial idea and the backup s
 After we had some guided cleaning of the code and more guided coding sessions, we were able to finish the prototype and make it work both visually and sonically. In the process, we replaced the idea of using live recorded sound with preloaded soundfile. Fig 3 shows the final audio signal flow diagram of the prototype. We were able to perform together with almost all developers and everything went well, fortunately. You can read about our performance below.
 
 <figure align="middle">
-<img src="/assets/img/Fig3.jpg" alt="" width="70%">
+<img src="/assets/img/Fig3.jpg" alt="Signal flow diagram day 3 & 4" width="70%">
 </figure>
 
 ## Performance
@@ -81,6 +81,7 @@ However, we missed the opportunity to make our performance (including positionin
 <figure align="middle">
         <video height="100%" width="100%" controls>
         <source src="/assets/video/APConvolverizer.mp4" type="video/mp4">
+        <figcaption><strong>Team performing with the Convolverizer </strong></figcaption>        
         Your browser does not support the video tag.
 </video>
 </figure>
@@ -210,6 +211,7 @@ Besides, we would also like to take this opportunity to thank [Hamed Kazemi](htt
 <figure align="middle">
         <video height="100%" width="100%" controls>
         <source src="/assets/video/ConvolverizerHamed.mp4" type="video/mp4">
+        <figcaption><strong> Collaborative work with Hamed solving the plan in Fig.2</strong></figcaption>
         Your browser does not support the video tag.
 </video>
 </figure>
