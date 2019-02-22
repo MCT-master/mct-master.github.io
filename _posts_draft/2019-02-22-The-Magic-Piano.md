@@ -25,7 +25,9 @@ Building the Magic Piano in Web Audio API has several advantages that fit our pu
 - Highlighted piano keys showing the next correct note of the song.
 - Having the option to scale the app for various screen sizes.
 
-**** Timeline figure (fix and insert here) ****
+<figure>
+<img src="https://github.com/MCT-master/mct-master.github.io/blob/master/assets/img/timeline.PNG" width = "50%" height = "40%" align="center" />
+</figure>
 
 ## Developing The Magic Piano
 
