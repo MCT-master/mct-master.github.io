@@ -137,19 +137,21 @@ Instead of having continous sound when clicked, it played note events based on t
 
 
 #### Hello there human.
-<img src="/assets/img/touchaliensynth/hellohuman.png" alt="" width="70%" />
+<img src="/assets/img/touchaliensynth/hellohuman.gif" alt="" width="70%" />
 
 
-#### Prototype: - Reece Da Alien with sonified drawing pad
+#### Prototype: - Reese Da Alien with sonified drawing pad
 
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/xl7XN5LBFpA" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-- Implemented the touch events code into Sam’s Alien Synth
+The process of developing this prototype was described earlier in this blog post, in the excerpt from the day 2 of Mari's research journal. But briefly summed up, the prototype featured:
+
+- Implementation of the touch events code into Sam’s Alien Synth
 
 - Two oscillators controlled by X and Y movements in the canvas
 
-- But the buttons and volume slider didn’t work by this point
+- The buttons and volume slider didn’t work by this point
 
 
 ## Flowchart
@@ -162,9 +164,7 @@ This is the signal chain for the prototype’s audio code. It includes the 2 saw
 
 This is a sample of the code of how the Tuna.js code was implemented. The library has to be in the same folder as the code (as with all the external libraries and plugins used) and then opened in the code: 
 
-```
 <script src="tuna.js"></script>
- ```
  
 Each FX node had similar layout, and examples were found online. Each node the FX of choice is declared, and then each has parameters that are used for each, different depending on the FX (threshold for compression, feedback for delay etc.). The code below shows the options for the chorus – rate, delay, feedback and bypass. The aim for these FX is to have a simple user friendly use of multiple FX in one action – so the parameters of the FX were generally modest and not too intense. This is due to the fact that the synth design creates crazy sounds already – the ethos of the FX addition to the project was to sweeten the sound (the FM function messes it up enough already!).
 ```
