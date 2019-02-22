@@ -15,7 +15,8 @@ During our second week learning about Audio programing and web Audio API we were
 
 ## The Idea
 
-Guy: I was inspired by my daughter's attraction to music when I came up with the Idea for the magic piano. I remember asking her to play a melody on the piano for a song she knows well and can sing in pitch. My daughter do not know how to play the piano, but when she tried to perform the task she managed to play the right melodic rhythm (but with the wrong notes). That sparked the idea for creating a piano that will play the right notes of the chosen melody regardless if the player hits the right or wrong keynote.
+<center><i>I was inspired by my daughter's attraction to music when I came up with the Idea for the magic piano. I remember asking her to play a melody on the piano for a song she knows well and can sing in pitch. My daughter do not know how to play the piano, but when she tried to perform the task she managed to play the right melodic rhythm (but with the wrong notes). That sparked the idea for creating a piano that will play the right notes of the chosen melody regardless if the player hits the right or wrong keynote.</i></center>
+<center><bold>Guy</bold></center>
 
 ## Why Web Audio API?
 
