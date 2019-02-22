@@ -60,10 +60,10 @@ After we had some guided cleaning of the code and more guided coding sessions, w
 </figure>
 
 ## Performance
-The performance was set-up in Trondheim. We used a guitar and a microphone for the live input. With regards to the guitar, the notes being played started from low pitch ones and went into high pitch ones gradually. Based on our experience, for this convolution effect, high pitched notes could lead to a better result. That is because in the convolution process the low pitched notes get emphasized too much and create a muddy sound profile. That is why the sound from the microphone was lost in the mix and could not be properly convolized.
-Also sustained notes should let the effect be more prominent, since the sound coming out of the convolution process goes on in a loop. Using sustained notes could lead to more control over the generated sound. Although, if anyone is interested in a chaotic atmosphere, there could be no limits in the playing style. Also, that could potentially involve any other sound sources as well, not only instruments.
+The performance was set-up in Trondheim. We used a guitar and a microphone for the live input. With regards to the guitar, the notes being played started from low pitch ones and went into high pitch ones gradually. Based on our experience, for this convolution effect, high pitched notes could lead to a better result. That is because in the convolution process the low pitched notes get emphasized too much and create a muddy sound profile. That is why the sound from the microphone was lost in the mix and could not be properly convoluted.
+Also, sustained notes should let the effect be more prominent, since the sound coming out of the convolution process goes on in a loop. Using sustained notes could lead to more control over the generated sound. Although, if anyone is interested in a chaotic atmosphere, there could be no limits in the playing style. Also, that could potentially involve any other sound sources as well, not only instruments.
 Since the sound that we used for convolution was an intense Drums solo, the dynamics of the effect were pretty intense as well. That led us to achieve a more clear and visible convolution effect. Therefore, in any case, if you intend to have an intense and very dynamic convolution effect on the input sound; try to use a more vivid and high dynamic source for the convolution as well.
-We missed the chance to set up our performance (including more camera ressources, a clear announcement of the beginning of us playing) in a more demonstrative way due to lack of time, which ultimately impacted our performativity. The audience noticed a glitch in the sound during the performance, we suspect that related to the process of buffering and dry gain. Moreover, during the performance the (old) computer connected was not in a good condition. When we performed again for the live demo, which you can see below, the glitch did not occur again.
+We missed the chance to set up our performance (including more camera resources, a clear announcement of the beginning of us playing) in a more demonstrative way due to lack of time, which ultimately impacted our performativity. The audience noticed a glitch in the sound during the performance, we suspect that related to the process of buffering and dry gain. Moreover, during the performance, the (old) computer connected was not in a good condition. When we performed again for the live demo, which you can see below, the glitch did not occur again.
 
 <figure align="middle">
         <video height="100%" width="100%" controls>
@@ -169,6 +169,13 @@ function draw() {
 We realized that we could not solve our plan within the given time schedule. Therefore, we decided to ask for an external help. We contacted [Hamed Kazemi](https://www.facebook.com/hamed.kazemi) who is a developer and he managed to solve this issue going through other possibilities, rather than p5.js ones. He managed to use [node.js](https://nodejs.org/en/) in order to create a server side part in the code, so the recorded sound could be uploaded there, and then being downloaded in the cache, in order to be used in the convolution process. Though, that happened all in the local computer and not in Web Audio. He also managed to design a user interface as well.
 But in the end, we didn’t use the code he wrote, even though this helped us to figure out how to deal with our problem in the future. In case that you are interested in his development, you can download the repository in [here](https://github.com/sepehrhaghighi/The-Convolverizer-In-collaboration-with-Hamed-Kazemi-).
 
+<figure align="middle">
+        <video height="100%" width="100%" controls>
+        <source src="/assets/video/ConvolverizerHamed.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+</video>
+</figure>
+<br>
 
 
 ## Design and interactivity
