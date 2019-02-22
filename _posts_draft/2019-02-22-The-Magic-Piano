@@ -10,7 +10,6 @@ Keywords: Web Audio API, JavaScript, Tone.js, CSS, NexusUI, JSON, Piano, Educati
 ---
 
 # The Magic Piano
-
 During our second week learning about Audio programing and web Audio API we were divided into groups and had to come up with an idea for a final project. The main challenges were to find an idea that is doable within 4 days, to code collaboratively and to prepare for the presentation of our project. Guy had an Idea for building a piano keyboard that will help beginners play a simple melody and Ashane and Jørgen agreed to collaborate and join forces in creating ‘The Magic Piano’.
 
 ## The Idea
@@ -35,7 +34,7 @@ As this project was to be developed using web technologies, we wanted to use som
 ### The Melody Player
 Before adding a function which would play through a melody with each piano keystrokes, we branched out from the main idea, to start developing the functionality of playing through a melody using a start and stop buttons. Adding the player function would give the user the possibility to listen to the song before playing it by themselfs. This feature would be very helpfull for beginners who are not familier with the song or would just like to refreash their memory.
 
-### Midi To JSON
+### From Midi To JSON
 As we were going to use the same melody for playback as well as for the user interaction, we first came up with an idea to play through a MIDI-file. It ended up being challenging getting javaScript to handle MIDI-data. We tried to implement a library called MidiPlayerJS to get it to work, but the library itself seemed to have some fault, preventing it from working. 
 
 As JSON (JavaScript Object Notation) is a file format used for storing and transporting text data (https://www.w3schools.com/whatis/whatis_json.asp), and we knew it was easy to handle for javaScript, we started looking for ways to convert MIDI-files to JSON-files. It didn’t take long before we found an easy way to convert, using a website called https://www.visipiano.com/midi-to-json-converter/. Using Ableton, Guy created the midi files for the two songs we were about to use (ABCD and Allefugler). The only thing we had to do, was to drag it into this website, and then download it as a JSON-file, ready for implementation.
