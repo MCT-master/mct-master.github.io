@@ -92,6 +92,9 @@ The strategy we used has the advantage of being a very open and collaborative wo
 * [Shure SM57 Microphone](http://www.shure.com/americas/products/microphones/sm/sm57-instrument-microphone)
 * Prototype of our Code
 
+<figure align="middle">
+<img src="/assets/img/Group2.jpg" alt="" width="70%">
+</figure>
 
 
 ## Decoding Convolvorizer
