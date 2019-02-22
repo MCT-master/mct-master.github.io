@@ -38,7 +38,7 @@ You can try the synth yourself on <a href="http://folk.ntnu.no/eigilaa/public_ht
 
 In the developing of the synth, we have used tools as:
 
-#### Javascript with Web Audio API, CSS and HTML
+#### Javascript with Web Audio API, CSS and HTML5
   - Javascript to make the "brain" of the synth, such as the audio features, the canvas function with mouse and touch functionality
 #### TUNA
 #### Visual Studio Code
@@ -54,7 +54,7 @@ Consultation with extraterrestrial races (coders)
 
 #### Eigil <img src="/assets/img/touchaliensynth/eigil.png" alt="" width="10%" /> 
 
-
+Eigil used his experience with web technologies and coding to make the canvas work as the interactive centerpiece of the instrument, and then he made the connections to the audio functions, making the instrument playable. He was also responsible for the [live demo](http://folk.ntnu.no/eigilaa/public_html/Touch-the-alien/).
 
 #### Jonas <img src="/assets/img/touchaliensynth/jonas.png" alt="" width="10%" /> 
 
@@ -85,7 +85,7 @@ Sam's <a href="https://mct-master.github.io/audio-programming/2019/02/11/Alien-R
 Working side-by-side on our different tasks;
 Mari: touch-function
 Sam: sound design gibber
-Eigil: mouse-function
+Eigil made the Canvas draw lines as you click and drag on it, even making the line fade out over time. This process took a lot of experimentation to get right, as it essentially was making a user interface with relatively low level code compared to using something like [Nexus UI](https://nexus-js.github.io/ui/).
 
 ***Excerpt from Mari's Research Diary:***
 
@@ -104,14 +104,11 @@ _So the next step now, was to also make the sound stop when you were lifting you
 
 
 #### Day	3
-Divide js-script, css and html into separate files
-Starting on combining our codes
-Audio FX tuna & Dry/Wet
+The third day was also spent on working with our individual tasks, but in a more organised way. We divided our scripts, CSS and HTML into separate files to make the different components of the app more clearly defined. In the end, we started combining our codes by linking the files and calling functions from the script concerned with interactivity to the script audio. When this was done, we could start focusing on expanding the audio functionality with effects from the Tuna JavaScript library.
+
 
 #### Day	4
-Finishing the prototype, combine all codes together
-Final touch on design and functions
-
+On the last day, we finished the prototype by combining all codes together and made final touches on design and functions. This meant tidiying up some of out code, bugfixing and making each intended function work properly.
 
 ## Ideas and prototypes
 
@@ -133,9 +130,9 @@ Final touch on design and functions
 #### Pointilator synth
 <img src="/assets/img/touchaliensynth/pointilator.png" alt="" width="70%" />
 
-Basis and inspiration for using Canvas to draw visual feedback when playing.
-Used Canvas as click input.
-Played note events based on position of clicks.
+Eigil's Pointilator synth from the first week was the basis and inspiration for using Canvas to draw visual feedback when playing.
+Instead of having continous sound when clicked, it played note events based on the static and stored position of clicks in sequence.
+
 
 
 #### Hello there human.
@@ -224,19 +221,21 @@ This is the code for the routing of the dry/wet nodes.
 
 ## Achievements
 
-- Working prototype
-- Implemented the following:
-  - Touch interaction
-  - Sound
-    - Samples
-    - Synthesis
-    - Effects
-  - Styled website
+During the workshop we achieved the following:
+
+- A working prototype
+  - Touch interaction on both canvas, buttons and sliders
+  - Sounds made with samples, synthesis and interactive effects
+  - A styled website
   - Responsive design
 - Combined elements by linking scripts
 - Implemented lessons from the workshop
+- Making progress from our individual projects
 
 ## Challenges
+
+Working on each other's code together was certainly both challenging and rewarding, highlighting the importance of a good project structure and management to not make a big mess when putting the pieces together. In the end, we decided to work closer together to make sure everyone was taking part in assembling the instrument and being part of the decision making.
+
 
 Gibber me Timbers! 
 
@@ -247,14 +246,16 @@ From what I found from my limited knowledge was that gibber didn’t want to pla
 
 ## Issues & Further Development 
 
-- Audio gets degraded over time due to inefficient scripts that leak over time
+Even with all that we achieved during the four days, there are some issues.
+After the app is loaded, the app seems to slow down after a while. This is probably due to a memory leak where part of the code keeps piling up information over time without freeing itself.
 
-- Is a one trick pony - could have more parameters for a more complete app
+The instrument is a one trick pony and could have more parameters for a more complete app
 
-- Canvas is centred, but would be preferable for an adjusted aspect ratio that fills the screen on every device
+For a more responsive design, the Canvas could be adjusted to fit the screen size of any device, but this was not implemented, so it does not take full advantage of for example a smartphone in portrait mode.
 
-- Make it more like an actual sonified drawing pad (aka MS Paint). Add a function that allows you to play and store the drawing, so you can play it over and over again, like in the Pointilator.
-
-- Make a function that allows you to draw with different colours and textures. Different colours represented by different instruments or timbres.
+If we had the time, we would have liked to make it more like an actual sonified drawing pad (a bit like MS Paint), adding a function that allows you to play and store the drawing, so you can play it over and over again, like in the Pointilator.
+Expanding on this, we could make a function that allows you to draw with different colours and textures. Different colours represented by different instruments or timbres.
 
 <img src="/assets/img/touchaliensynth/touch-the-alien.png" alt="" width="70%" />
+
+## Closing remarks
