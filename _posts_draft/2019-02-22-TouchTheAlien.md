@@ -67,6 +67,8 @@ Mari contributed with her aquired javascript knowledge from last week, about fil
 
 #### Sam <img src="/assets/img/touchaliensynth/sam.png" alt="" width="10%" /> 
 
+Sam took the role of expanding and improving the functionality of the audio code for the synth. This included utilising the Tuna.js library for new effect nodes, expanding the audio parameters from the original “Reece da Alien” prototype made a week ago. 
+
 
 
 ## Timeline
@@ -155,6 +157,69 @@ Played note events based on position of clicks.
 ## Flowchart
 
 <img src="/assets/img/touchaliensynth/flowchart.jpg" alt="" width="70%" />
+
+This is the signal chain for the prototype’s audio code. It includes the 2 saw oscillators, FM oscillator and audio player brought over from the alien synth from last week. New additions include everything located right of the output node on the graph – the 3 audio FX and the dry/wet routing.
+
+## Tuna.js
+
+This is a sample of the code of how the Tuna.js code was implemented. The library has to be in the same folder as the code (as with all the external libraries and plugins used) and then opened in the code: 
+
+<script src="tuna.js"></script>
+ 
+Each FX node had similar layout, and examples were found online. Each node the FX of choice is declared, and then each has parameters that are used for each, different depending on the FX (threshold for compression, feedback for delay etc.). The code below shows the options for the chorus – rate, delay, feedback and bypass. The aim for these FX is to have a simple user friendly use of multiple FX in one action – so the parameters of the FX were generally modest and not too intense. This is due to the fact that the synth design creates crazy sounds already – the ethos of the FX addition to the project was to sweeten the sound (the FM function messes it up enough already!).
+
+document.querySelector("#button1").addEventListener('click', function() {
+  var tuna = Tuna(context);
+
+  var chorus = new tuna.Chorus({
+    rate: 1.5,
+    feedback: 0.2,
+    delay: 0.0045,
+    bypass: 0
+  }); 
+
+The Tuna.js effects Sam found needed to be inside a function to work. At first a dedicated button for named tuna was created to activate the FX, in the end once a slider was introduced the button was triggered by the talk button along with the rest of the sound. This was because now the user had the choice to activate the tuna.js FX using the slider. The solution to using the slider for all FX at once was dealt with via routing a dry and a wet path in the signal flow – and then the fader used volume between the different nodes to crossfade between the “wet” path and the “dry”. 
+
+## Dry/Wet Functionality
+
+
+
+var slider2 = new Nexus.Slider('#slider2',{
+        'size': [120,20],
+        'mode': 'relative',  // 'relative' or 'absolute'
+        'min': 0,
+        'max': 1,
+        'step': 0,
+        'value': 0
+      })
+
+slider2.on('change',function(filterValue) {
+  wet.gain.value = filterValue             // map the wet gain to the filter value
+  dry.gain.value = 1 - filterValue          // doing the opposite of wet
+
+Here ‘FilterValue’ is the fader variable. Lines below it attaches this variable to the ‘dry’ and ‘wet’ nodes gain. The -1 on the dry line inverts the 0-1 range so it does the opposite gain fade to the wet value. This creates a crossfade effect – the fader in the middle it will be 0.5 and 0.5 each, or 0.7 and 0.3. the value of both nodes together will always be 1, wherever it is on the slider.
+
+  dry = context.createGain();
+  dry.gain.value = 1;
+
+  wet = context.createGain();
+  wet.gain.value = 0;
+
+  MainMix.connect(wet)
+  MainMix.connect(dry)
+
+  wet.connect(chorus);
+
+  chorus.connect(phaser)
+  phaser.connect(filter);  
+  filter.connect(context.destination);
+
+  dry.connect(context.destination);
+
+This is the code for the routing of the dry/wet nodes.
+
+
+
 
 ## Achievements
 
