@@ -225,7 +225,7 @@ This is the code for the routing of the dry/wet nodes.
 
 ## Achievements
 
-During the workshop we achieved the following:
+So, for the the workshop we materialised a working prototype!
 
 - A working prototype
   - Touch interaction on both canvas, buttons and sliders
@@ -241,7 +241,7 @@ During the workshop we achieved the following:
 Working on each other's code together was certainly both challenging and rewarding, highlighting the importance of a good project structure and management to not make a big mess when putting the pieces together. In the end, we decided to work closer together to make sure everyone was taking part in assembling the instrument and being part of the decision making.
 
 
-Gibber me Timbers! 
+## Gibber me Timbers! 
 
 Sam was very inspired by the online JavaScript based live coding environment introduced to the MCT workshop early in the week. The way the platform dealt with FX inspired Sam to get it working with the Alien synth, the audio manipulation on the mouse movements were a particularly cool feature, as well as simple beat generation (ringo a code for drums!). After downloading the library for use in the project, two days of trial and error, problem scanning and asking for advice ensured – to no avail. 
 
