@@ -23,24 +23,29 @@ excerpt:
 
 # Touch the Alien - Web API based synthesiser
 
-<img src="/assets/img/touchaliensynth/touch-the-alien.png" alt="" width="70%" />
+<iframe width="560" height="315" src="https://www.youtube.com/embed/Rorv7F5VtcI" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 
+
+The web audio synth "Touch the Alien", a project by Eigil Aandahl, Sam Roman (, Jonas Bjordal?) and Mari Lesteberg at the master's programme Music, Communication and Technology at University of Oslo and Norwegian University of Science and Technology. The application offers:
 
 - Touchscreen functionality
 - Oscillators, FM Oscillator &  Delay
 - Phaser, Chorus & Filter on Dry/wet slider
 - Canvas UI with follow visual FX
-- Alien themed for your pleasure!
 
-#### Tools used
+And it's alien themed for your pleasure!
+You can try the synth yourself on <a href="http://folk.ntnu.no/eigilaa/public_html/Touch-the-alien/">this page</a>.
 
-- Javascript
-- CSS
-- HTML
-- TUNA
-- Visual studio code
-- Github
+In the developing of the synth, we have used tools as:
+
+#### Javascript with Web Audio API, CSS and HTML
+  - Javascript to make the "brain" of the synth, such as the audio features, the canvas function with mouse and touch functionality
+#### TUNA
+#### Visual Studio Code
+  - A very convenient source code editor that makes coding a dream!
+#### Github
+  - We used Github to share our code with each other during the process.
 
 Consultation with extraterrestrial races (coders)
 
@@ -166,3 +171,5 @@ Played note events based on position of clicks.
 - Make it more like an actual sonified drawing pad (aka MS Paint). Add a function that allows you to play and store the drawing, so you can play it over and over again, like in the Pointilator.
 
 - Make a function that allows you to draw with different colours and textures. Different colours represented by different instruments or timbres.
+
+<img src="/assets/img/touchaliensynth/touch-the-alien.png" alt="" width="70%" />
