@@ -26,7 +26,6 @@ excerpt: "The web audio synth 'Touch the Alien', a project by Eigil Aandahl, Sam
 
 
 
-# Touch the Alien - Web API based synthesiser
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/Rorv7F5VtcI" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
@@ -119,6 +118,14 @@ On the last day, we finished the prototype by combining all codes together and m
 ## Ideas and prototypes
 
 #### Reece da Alien
+
+<figure align="middle">
+        <video height="100%" width="100%" controls>
+        <source src="/assets/video/Alien Reese.webm" type="video/webm">
+        Your browser does not support the video tag.
+</video>
+</figure>
+<br>
 
 The original inspiration for the project was Sam’s Alien synth. Originally made for experimenting with phasing and clashing frequencies, it also utilised the computer keyboard to effect the frequency of the second oscillator. The idea started as a reese bass creator, however the move to use canvas and touchscreen functionality was a natural progression for the project – it makes the page more accessible and easy to use, as well as a more modern incarnation to present this project.
 
