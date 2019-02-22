@@ -216,4 +216,7 @@ Besides, we would also like to take this opportunity to thank [Hamed Kazemi](htt
 </video>
 </figure>
 <br>
+ And last but not the least, a big thanks to shiffman from [The Coding Train](https://www.youtube.com/channel/UCvjgXvBlbQiydffZU7m1_aw)
+for sharing his huge collection of tutorials on YouTube. The [Sound Visualization tutorial](https://www.youtube.com/watch?v=2O3nm0Nvbi4) gave us insingts in creating a similar kind of visualization for this project.
+
 <br/>
