@@ -1,0 +1,77 @@
+---
+layout: post
+title: "The Magic Piano"
+date: 2019-02-19 13:00:00 +0200
+categories: Audio-Programming
+author: Jørgen Nygård Varpe, Ashane Silva, Guy Sion
+image: /assets/img/magicpiano.PNG   
+excerpt: "During our second week learning about Audio programing and web Audio API we were divided into groups and had to come up with an idea for a final project. The main challenges were to find an idea that is doable within 4 days, to code collaboratively and to prepare for the presentation of our project. Guy had an Idea for building a piano keyboard that will help beginners play a simple melody and Ashane and Jørgen agreed to collaborate and join forces in creating ‘The Magic Piano’."
+Keywords: Web Audio API, JavaScript, Tone.js, CSS, NexusUI, JSON, Piano, Education
+---
+
+# The Magic Piano
+
+During our second week learning about Audio programing and web Audio API we were divided into groups and had to come up with an idea for a final project. The main challenges were to find an idea that is doable within 4 days, to code collaboratively and to prepare for the presentation of our project. Guy had an Idea for building a piano keyboard that will help beginners play a simple melody and Ashane and Jørgen agreed to collaborate and join forces in creating ‘The Magic Piano’.
+
+## The Idea
+Guy: I was inspired by my daughter's attraction to music when I came up with the Idea for the magic piano. I remember asking her to play a melody on the piano for a song she knows well and can sing in pitch. My daughter do not know how to play the piano, but when she tried to perform the task she managed to play the right melodic rhythm (but with the wrong notes). That sparked the idea for creating a piano that will play the right notes of the chosen melody regardless if the player hits the right or wrong keynote.
+
+## Why Web Audio API?
+Building the Magic Piano in Web Audio API has several advantages that fit our purpose. The application is available for anyone with internet access, there is no need for installation and no dependence on specific operating system. All you need is a web browser, speakers and a midi controller to start playing with it. After a short discussion, we came up with additional features that we would like to implement:
+- Choosing a song from a scroll down menu.
+- Adding a simple player with Play and Stop buttons to hear the melody.
+- Highlighted piano keys showing the next correct note of the song.
+- Having the option to scale the app for various screen sizes.
+
+**** Timeline figure (fix and insert here) ****
+
+##Developing The Magic Piano
+
+### Midi Messages 
+As this project was to be developed using web technologies, we wanted to use some libraries to make the build process easier and faster. We decided to use NexusUI’s (https://nexus-js.github.io/ui/api/#Piano) piano keyboard interface, and the framework Tone.js to generate sound. We knew we wanted to trigger sound using a MIDI-keyboard, and luckily for us, our teacher Anna Xambó had already provided us with a javaScript code snippet which accepts MIDI-data. We could then create a function which handled this data, to be used for triggering a note of a melody. (remove? I will come back to this functionality later in the blog.)
+
+***ENTER ANNA'S CODE SNIPPET HERE***
+
+### The Melody Player
+Before adding a function which would play through a melody with each piano keystrokes, we branched out from the main idea, to start developing the functionality of playing through a melody using a start and stop buttons. Adding the player function would give the user the possibility to listen to the song before playing it by themselfs. This feature would be very helpfull for beginners who are not familier with the song or would just like to refreash their memory.
+
+### Midi To JSON
+As we were going to use the same melody for playback as well as for the user interaction, we first came up with an idea to play through a MIDI-file. It ended up being challenging getting javaScript to handle MIDI-data. We tried to implement a library called MidiPlayerJS to get it to work, but the library itself seemed to have some fault, preventing it from working. 
+
+As JSON (JavaScript Object Notation) is a file format used for storing and transporting text data (https://www.w3schools.com/whatis/whatis_json.asp), and we knew it was easy to handle for javaScript, we started looking for ways to convert MIDI-files to JSON-files. It didn’t take long before we found an easy way to convert, using a website called https://www.visipiano.com/midi-to-json-converter/. Using Ableton, Guy created the midi files for the two songs we were about to use (ABCD and Allefugler). The only thing we had to do, was to drag it into this website, and then download it as a JSON-file, ready for implementation.
+
+### Extracting JSON Data
+The code below shows 32 of 321 lines of the JSON-file containing all the data needed for playing the ABCD-song. The syntax is identical to javaScript code for creating objects, which makes it easy for javaScript to work with. The file is constructed in an object, with more nested objects, where every object has key-value pairs. From line 18 you can see the key called “notes”, which has an array of all the note information of the melody as its value.
+
+    //{
+    "header": {
+      "PPQ": 96,
+      "timeSignature": [
+        4,
+        4
+      ],
+      "bpm": 120,
+      "name": "ABCD"
+    },
+    "startTime": 0,
+    "duration": 24,
+    "tracks": [
+      {
+        "startTime": 0,
+        "duration": 24,
+        "length": 42,
+        "notes": [
+          {
+            "name": "C5",
+            "midi": 72,
+            "time": 0,
+            "velocity": 0.7952755905511811,
+            "duration": 0.5
+          },
+          {
+            "name": "C5",
+            "midi": 72,
+            "time": 0.5,
+            "velocity": 0.7952755905511811,
+            "duration": 0.5
+          },
