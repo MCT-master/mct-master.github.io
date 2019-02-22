@@ -253,8 +253,8 @@ We would like to thank Arthur Hureau who was with us on day 4, observing how we 
 
 As well as Anna Xambó, Alexander Refsum Jensenius, Kristian Nymoen, Anders Tveit, Daniel Buner Formo for great feedback and support. A last thanks to our great classmates for making it a fun workshop!
 
-## Please visit our repository and try out our Magic Piano!
+## Please visit our GitHub repository and try out our Magic Piano!
 
-<b><a href="https://github.com/MeltingPlanet/WebMusicEducation" target="_blank">Repository</a></b>
+<b><a href="https://github.com/MeltingPlanet/WebMusicEducation" target="_blank">GitHub repository</a></b>
 
 <b><a href="http://folk.ntnu.no/jorgennv/WebMusicEducation/" target="_blank">The Magic Piano</a></b>
