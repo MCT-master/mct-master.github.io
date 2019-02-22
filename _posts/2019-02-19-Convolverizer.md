@@ -18,7 +18,7 @@ Development team, why are we doing this:
 * **[Eirik](https://www.facebook.com/eirikdahl):** wants to do/learn something new
 * **[Sepehr](https://sepehrhaghighi.com):** likes to extend his guitar and other sonical productions
 * **[Karolina](https://cv2c.noblogs.org/):** has little space in her room and therefore wants a fancy mobile application
-* **Shreejay:** loves live visualization
+* **[Shreejay](https://shreejayshrestha.wixsite.com/musical-portfolio):** loves live visualization
 
 
 
@@ -63,6 +63,7 @@ After we had some guided cleaning of the code and more guided coding sessions, w
 The performance was set-up in Trondheim. We used a guitar and a microphone for the live input. With regards to the guitar, the notes being played started from low pitch ones and went into high pitch ones gradually. Based on our experience, for this convolution effect, high pitched notes could lead to a better result. That is because in the convolution process the low pitched notes get emphasized too much and create a muddy sound profile. That is why the sound from the microphone was lost in the mix and could not be properly convoluted.
 Also, sustained notes should let the effect be more prominent, since the sound coming out of the convolution process goes on in a loop. Using sustained notes could lead to more control over the generated sound. Although, if anyone is interested in a chaotic atmosphere, there could be no limits in the playing style. Also, that could potentially involve any other sound sources as well, not only instruments.
 Since the sound that we used for convolution was an intense Drums solo, the dynamics of the effect were pretty intense as well. That led us to achieve a more clear and visible convolution effect. Therefore, in any case, if you intend to have an intense and very dynamic convolution effect on the input sound; try to use a more vivid and high dynamic source for the convolution as well.
+
 We missed the chance to set up our performance (including more camera resources, a clear announcement of the beginning of us playing) in a more demonstrative way due to lack of time, which ultimately impacted our performativity. The audience noticed a glitch in the sound during the performance, we suspect that related to the process of buffering and dry gain. Moreover, during the performance, the (old) computer connected was not in a good condition. When we performed again for the live demo, which you can see below, the glitch did not occur again.
 
 <figure align="middle">
