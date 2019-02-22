@@ -164,7 +164,7 @@ This is a sample of the code of how the Tuna.js code was implemented. The librar
 <script src="tuna.js"></script>
  
 Each FX node had similar layout, and examples were found online. Each node the FX of choice is declared, and then each has parameters that are used for each, different depending on the FX (threshold for compression, feedback for delay etc.). The code below shows the options for the chorus – rate, delay, feedback and bypass. The aim for these FX is to have a simple user friendly use of multiple FX in one action – so the parameters of the FX were generally modest and not too intense. This is due to the fact that the synth design creates crazy sounds already – the ethos of the FX addition to the project was to sweeten the sound (the FM function messes it up enough already!).
-
+```
 document.querySelector("#button1").addEventListener('click', function() {
   var tuna = Tuna(context);
 
@@ -174,14 +174,14 @@ document.querySelector("#button1").addEventListener('click', function() {
     delay: 0.0045,
     bypass: 0
   }); 
-
+```
 
 The Tuna.js effects Sam found needed to be inside a function to work. At first a dedicated button for named tuna was created to activate the FX, in the end once a slider was introduced the button was triggered by the talk button along with the rest of the sound. This was because now the user had the choice to activate the tuna.js FX using the slider. The solution to using the slider for all FX at once was dealt with via routing a dry and a wet path in the signal flow – and then the fader used volume between the different nodes to crossfade between the “wet” path and the “dry”. 
 
 ## Dry/Wet Functionality
 
 
-
+```
 var slider2 = new Nexus.Slider('#slider2',{
         'size': [120,20],
         'mode': 'relative',  // 'relative' or 'absolute'
@@ -194,9 +194,11 @@ var slider2 = new Nexus.Slider('#slider2',{
 slider2.on('change',function(filterValue) {
   wet.gain.value = filterValue             // map the wet gain to the filter value
   dry.gain.value = 1 - filterValue          // doing the opposite of wet
+```
 
 Here ‘FilterValue’ is the fader variable. Lines below it attaches this variable to the ‘dry’ and ‘wet’ nodes gain. The -1 on the dry line inverts the 0-1 range so it does the opposite gain fade to the wet value. This creates a crossfade effect – the fader in the middle it will be 0.5 and 0.5 each, or 0.7 and 0.3. the value of both nodes together will always be 1, wherever it is on the slider.
 
+```
   dry = context.createGain();
   dry.gain.value = 1;
 
@@ -213,6 +215,7 @@ Here ‘FilterValue’ is the fader variable. Lines below it attaches this varia
   filter.connect(context.destination);
 
   dry.connect(context.destination);
+```
 
 This is the code for the routing of the dry/wet nodes.
 
