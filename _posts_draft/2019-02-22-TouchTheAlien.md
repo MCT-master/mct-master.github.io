@@ -87,16 +87,17 @@ Eigil: mouse-function
 
 ***Excerpt from Mari's Research Diary:***
 
-_I did a lot of work on my own after I got home because I knew that the next day I had to be at the doctor and would lose a lot of time. I started by trying to implement the touch function with my <a href="https://mct-master.github.io/audio-programming/2019/02/11/SpaghettiPlayer.html">Spaghetti code player</a> from Audio Programming workshop week 1. 
-I found a <a href="https://developer.mozilla.org/en-US/docs/Web/API/Touch_events">tutorial</a> on how to use touch event and canvas functionality on the Mozilla developer pages. By the end of the day I had been able to also add this function into Sam's code.
+_I did a lot of work on my own after I got home because I knew that the next day I had to be at the doctor and would lose a lot of time in class. I started by trying to implement the touch function with my <a href="https://mct-master.github.io/audio-programming/2019/02/11/SpaghettiPlayer.html">Spaghetti code player</a> from Audio Programming workshop week 1. I found a <a href="https://developer.mozilla.org/en-US/docs/Web/API/Touch_events">tutorial</a> on how to use touch event and canvas functionality on the Mozilla developer pages. By the end of the day I had been able to also add this function into Sam's code._
 
 _First, I made the touch events work together with the Spaghetti Code Player that I had made in my individual project. We had not planned to use any of the code from my Spaghetti Player, but since I was more familiar with this code, I thought that this was a good exercice just to increase my understanding of the touch event code._
 
-_I got this working pretty soon. Anna showed me in class how I could use the Chrome developer tools to use the toggle device toolbar function to preview how the page would look on touch devices. The difference from the original code was that now I was able to control the filter effect with using a finger on the touch screen, that wasn't possible before._
+_I got this working pretty soon. Anna showed me in class how I could use the Chrome developer tools to use the toggle device toolbar function to preview how the page would look on touch devices. The difference from the original code was that I now was able to control the filter effect using touch screen, that before was only possible to do with a computer mouse._
 
-_Now, when I sort of had gotten the concept of how the touch event function was working, next step was to try it out together with Sam's <a href="https://mct-master.github.io/audio-programming/2019/02/11/Alien-Reese.html"> Reese the Alien synth</a>. Sam had shared the code with me on Github. Since I'm still a beginner in JavaScript coding, it's not an easy job, and the code turned out more and more <a href="https://en.wikipedia.org/wiki/Spaghetti_code">spaghetti</a>. First, I was able to implement a canvas in the Alien synth, and surprisingly, it worked! At this point, one was able to make a drawing, just in MS Paint, and the sound was following the line you drawed. But the problem now, was that when you first had touched the canvas and activated the sound, the sound wouldn't stop before you were hitting the "stop" button._
+_Now, when I sort of had a concept of how the touch event function was working, next step was to try it out together with Sam's <a href="https://mct-master.github.io/audio-programming/2019/02/11/Alien-Reese.html"> Reese the Alien synth</a>. Sam had shared the code with me on Github. Since I'm still a beginner in JavaScript coding, it's not an easy job, and the code turned out more and more <a href="https://en.wikipedia.org/wiki/Spaghetti_code">spaghetti</a>. First, I was able to implement a canvas in the Alien synth, and surprisingly, it worked! At this point, one was able to make a drawing, just like in MS Paint, and the sound was following the line you drawed. But the problem now, was that when you first had hitted the canvas and activated the sound, the sound wouldn't stop before you were hitting the "stop" button. I also included a volume control in the application, that hadn't been there before. In Sam's original synth, there were two oscillators, but only one of them was controlled by the mouse movements, the other one was controlled by keys on the keyboard. But for two reasons I made the two oscillators being controlled by moving x and y axis instead: 1: since the synth was supposed to be used on touch devices, it wouldn't work to make it dependent of a PC keyboard. 2: It seemed that there had to be two oscillators, one for each direction, to make the canvas sonification work at all._
 
-_So the next step now, was to 
+_So the next step now, was to also make the sound stop when you were lifting your finger from the touch device. I solved this by moving the code that handled the "stop" function of the sound from the "shutup"-button to the `function handleEnd(evt)` function. This was working perfectly fine, except from that now, the volume control and the FM effects didn't work anymore! However, I had at least got the main aspects of my idea working, and now it was time to go to bed ... _
+
+Under the "Prototype section" of this blog post, you can see a video demonstration of how Mari's prototype looked by this point.
 
 
 
@@ -127,14 +128,6 @@ Final touch on design and functions
 - whoh! Alien are out there dude .... 
 
 
-#### Spaghetti Player with Touch Events
-
-- Found a tutorial on how to make touch events work on: https://developer.mozilla.org/en-US/docs/Web/API/Touch_events
-
-- Added canvas with drawing functionality
-
-- Filter controlled by touch movements. 
-
 #### Pointilator synth
 <img src="/assets/img/touchaliensynth/pointilator.png" alt="" width="70%" />
 
@@ -149,7 +142,6 @@ Played note events based on position of clicks.
 
 #### Prototype: - Reece Da Alien with sonified drawing pad
 
-<img src="/assets/img/touchaliensynth/drawingpad.png" alt="" width="70%" />
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/xl7XN5LBFpA" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
