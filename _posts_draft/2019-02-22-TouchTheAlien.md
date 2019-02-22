@@ -176,7 +176,6 @@ document.querySelector("#button1").addEventListener('click', function() {
     feedback: 0.2,
     delay: 0.0045,
     bypass: 0
-  }); 
 
 The Tuna.js effects Sam found needed to be inside a function to work. At first a dedicated button for named tuna was created to activate the FX, in the end once a slider was introduced the button was triggered by the talk button along with the rest of the sound. This was because now the user had the choice to activate the tuna.js FX using the slider. The solution to using the slider for all FX at once was dealt with via routing a dry and a wet path in the signal flow – and then the fader used volume between the different nodes to crossfade between the “wet” path and the “dry”. 
 
