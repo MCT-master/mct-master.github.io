@@ -12,7 +12,7 @@ excerpt: "Convolverizer, Real-time processing of ambient sound, voice or live in
 </figure>
 
 ## Introduction
-Real-time processing of ambient sound, voice or live instruments. We are several string instrument players and sound artists, but would like to prototype something modular that extends our artistic expressions, which is always at hand and instantly available. Create hidden gems that don't require additional expensive equipment. Get your laptop, convolve it, **[GO](https://folk.ntnu.no/shreejas/Mini_Project_2/)**
+Real-time processing of ambient sound, voice or live instruments. We are several string instrument players and sound artists, but would like to prototype something modular that extends our artistic expressions, which is always at hand and instantly available. Create hidden gems that don't require additional expensive equipment. Get your laptop, convolve it, **[GO](https://folk.ntnu.no/shreejas/Mini_Project_2/)!**
 
 Development team, why are we doing this:
 * **[Eirik](https://www.facebook.com/eirikdahl):** wants to do/learn something new
