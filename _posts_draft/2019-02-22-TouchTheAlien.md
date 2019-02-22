@@ -23,24 +23,28 @@ excerpt:
 
 # Touch the Alien - Web API based synthesiser
 
-<img src="/assets/img/touchaliensynth/touch-the-alien.png" alt="" width="70%" />
+<iframe width="560" height="315" src="https://www.youtube.com/embed/Rorv7F5VtcI" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 
+The web audio synth "Touch the Alien", a project by Eigil Aandahl, Sam Roman (, Jonas Bjordal?) and Mari Lesteberg at the master's programme Music, Communication and Technology at University of Oslo and Norwegian University of Science and Technology. The application offers:
 
 - Touchscreen functionality
 - Oscillators, FM Oscillator &  Delay
 - Phaser, Chorus & Filter on Dry/wet slider
 - Canvas UI with follow visual FX
-- Alien themed for your pleasure!
 
-#### Tools used
+And it's alien themed for your pleasure!
+You can try the synth yourself on <a href="http://folk.ntnu.no/eigilaa/public_html/Touch-the-alien/">this page</a>.
 
-- Javascript
-- CSS
-- HTML
-- TUNA
-- Visual studio code
-- Github
+In the developing of the synth, we have used tools as:
+
+#### Javascript with Web Audio API, CSS and HTML
+  - Javascript to make the "brain" of the synth, such as the audio features, the canvas function with mouse and touch functionality
+#### TUNA
+#### Visual Studio Code
+  - A very convenient source code editor that makes coding a dream!
+#### Github
+  - We used Github to share our code with each other during the process.
 
 Consultation with extraterrestrial races (coders)
 
@@ -67,22 +71,41 @@ Mari contributed with her aquired javascript knowledge from last week, about fil
 
 ## Timeline
 
-Day	1
-Discussing our ideas and path
-Delegating tasks
+#### Day	1
 
-Day	2
+
+The first day of work was on Tuesday, February 12th, and during our Audio Programming class we had decided upon an idea that combined some visuals with sound. Mari's initial idea was to make som sort of a sonified drawing pad, inspired by  <a href="https://mct-master.github.io/audio-programming/2019/02/11/The-Pointilator.html"> Eigil's Pointilator Sequencer synth</a>. The Pointilator allowed you draw sonified dots on a canvas, and play it over and over again as in a sequencer. Mari's idea was to make something similar, but instead of drawing dots, you could draw continous lines (like in <a href="https://en.wikipedia.org/wiki/Microsoft_Paint">MS PAINT</a>), with different colours, and maybe also with different textures. The different textures and colours could represent different instruments or timbres. 
+
+Sam's <a href="https://mct-master.github.io/audio-programming/2019/02/11/Alien-Reese.html"> Reese da Alien Synth </a> from the previous week was ideal for the sonification part of our new project. It already used mouse movement to control the pitch of the synth, so we decided that we wanted to use his code as a base for the new project. We also agreed that we wanted our new project to work on touch devices. Then we delegated the tasks: Mari was going to research the touch functionality, 
+
+#### Day	2
+
 Working side-by-side on our different tasks;
 Mari: touch-function
 Sam: sound design gibber
 Eigil: mouse-function
 
-Day	3
+***Excerpt from Mari's Research Diary:***
+
+_I did a lot of work on my own after I got home because I knew that the next day I had to be at the doctor and would lose a lot of time. I started by trying to implement the touch function with my <a href="https://mct-master.github.io/audio-programming/2019/02/11/SpaghettiPlayer.html">Spaghetti code player</a> from Audio Programming workshop week 1. 
+I found a <a href="https://developer.mozilla.org/en-US/docs/Web/API/Touch_events">tutorial</a> on how to use touch event and canvas functionality on the Mozilla developer pages. By the end of the day I had been able to also add this function into Sam's code.
+
+_First, I made the touch events work together with the Spaghetti Code Player that I had made in my individual project. We had not planned to use any of the code from my Spaghetti Player, but since I was more familiar with this code, I thought that this was a good exercice just to increase my understanding of the touch event code._
+
+_I got this working pretty soon. Anna showed me in class how I could use the Chrome developer tools to use the toggle device toolbar function to preview how the page would look on touch devices. The difference from the original code was that now I was able to control the filter effect with using a finger on the touch screen, that wasn't possible before._
+
+_Now, when I sort of had gotten the concept of how the touch event function was working, next step was to try it out together with Sam's <a href="https://mct-master.github.io/audio-programming/2019/02/11/Alien-Reese.html"> Reese the Alien synth</a>. Sam had shared the code with me on Github. Since I'm still a beginner in JavaScript coding, it's not an easy job, and the code turned out more and more <a href="https://en.wikipedia.org/wiki/Spaghetti_code">spaghetti</a>. First, I was able to implement a canvas in the Alien synth, and surprisingly, it worked! At this point, one was able to make a drawing, just in MS Paint, and the sound was following the line you drawed. But the problem now, was that when you first had touched the canvas and activated the sound, the sound wouldn't stop before you were hitting the "stop" button._
+
+_So the next step now, was to 
+
+
+
+#### Day	3
 Divide js-script, css and html into separate files
 Starting on combining our codes
 Audio FX tuna & Dry/Wet
 
-Day	4
+#### Day	4
 Finishing the prototype, combine all codes together
 Final touch on design and functions
 
@@ -128,6 +151,8 @@ Played note events based on position of clicks.
 
 <img src="/assets/img/touchaliensynth/drawingpad.png" alt="" width="70%" />
 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/xl7XN5LBFpA" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 - Implemented the touch events code into Sam’s Alien Synth
 
 - Two oscillators controlled by X and Y movements in the canvas
@@ -166,3 +191,5 @@ Played note events based on position of clicks.
 - Make it more like an actual sonified drawing pad (aka MS Paint). Add a function that allows you to play and store the drawing, so you can play it over and over again, like in the Pointilator.
 
 - Make a function that allows you to draw with different colours and textures. Different colours represented by different instruments or timbres.
+
+<img src="/assets/img/touchaliensynth/touch-the-alien.png" alt="" width="70%" />
