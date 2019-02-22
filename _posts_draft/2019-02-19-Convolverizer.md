@@ -75,6 +75,5 @@ function draw() {
       //y - axis refers to the aplitude
     }
       }
-  endShape();
-}
+ }
 ```
