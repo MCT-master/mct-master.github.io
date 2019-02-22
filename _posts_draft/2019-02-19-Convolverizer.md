@@ -163,7 +163,7 @@ function draw() {
 
 ## External Help
 We realized that we could not solve our plan within the given time schedule. Therefore, we decided to ask for an external help. We contacted [Hamed Kazemi](https://www.facebook.com/hamed.kazemi) who is a developer and he managed to solve this issue going through other possibilities, rather than p5.js ones. He managed to use [node.js](https://nodejs.org/en/) in order to create a server side part in the code, so the recorded sound could be uploaded there, and then being downloaded in the cache, in order to be used in the convolution process. Though, that happened all in the local computer and not in Web Audio. He also managed to design a user interface as well.
-But in the end, we didn’t use the code he wrote, even though this helped us to figure out how to deal with our problem in the future. In case that you are interested in his development, you can download the repository in here (LINK).
+But in the end, we didn’t use the code he wrote, even though this helped us to figure out how to deal with our problem in the future. In case that you are interested in his development, you can download the repository in [here](https://github.com/sepehrhaghighi/The-Convolverizer-In-collaboration-with-Hamed-Kazemi-).
 
 
 
