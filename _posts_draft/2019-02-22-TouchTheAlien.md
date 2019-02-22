@@ -204,7 +204,7 @@ slider2.on('change',function(filterValue) {
   dry.gain.value = 1 - filterValue          // doing the opposite of wet
 ```
 
-Here ‘FilterValue’ is the fader variable. Lines below it attaches this variable to the ‘dry’ and ‘wet’ nodes gain. The -1 on the dry line inverts the 0-1 range so it does the opposite gain fade to the wet value. This creates a crossfade effect – the fader in the middle it will be 0.5 and 0.5 each, or 0.7 and 0.3. the value of both nodes together will always be 1, wherever it is on the slider. This code was referenced from <a href="https://www.w3.org/TR/webaudio/." target="_blank">W3</a>
+Here ‘FilterValue’ is the fader variable. Lines below it attaches this variable to the ‘dry’ and ‘wet’ nodes gain. The -1 on the dry line inverts the 0-1 range so it does the opposite gain fade to the wet value. This creates a crossfade effect – the fader in the middle it will be 0.5 and 0.5 each, or 0.7 and 0.3. the value of both nodes together will always be 1, wherever it is on the slider. This code was referenced from <a href="https://www.w3.org/TR/webaudio/." target="_blank">W3</a>.
 
 
 ```javascript
@@ -262,7 +262,7 @@ From what Sam found was that gibber didn’t want to play ball inside the JavaSc
 Even with all that we achieved during the four days, there are some issues.
 After the app is loaded, the app seems to slow down after a while. This is probably due to a memory leak where part of the code keeps piling up information over time without freeing itself.
 
-The instrument is a one trick pony and could have more parameters for a more complete app
+The instrument is a one trick pony and could have more parameters for a more complete app.
 
 For a more responsive design, the Canvas could be adjusted to fit the screen size of any device, but this was not implemented, so it does not take full advantage of for example a smartphone in portrait mode.
 
