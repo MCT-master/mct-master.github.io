@@ -211,7 +211,6 @@ Besides, we would also like to take this opportunity to thank [Hamed Kazemi](htt
 <figure align="middle">
         <video height="100%" width="100%" controls>
         <source src="/assets/video/ConvolverizerHamed.mp4" type="video/mp4">
-        <figcaption><strong> Collaborative work with Hamed solving the plan in Fig.2</strong></figcaption>
         Your browser does not support the video tag.
 </video>
 </figure>
