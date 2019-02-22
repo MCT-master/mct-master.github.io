@@ -206,7 +206,7 @@ In terms of interactivity, we overall we tried to create a simple, user-friendly
 
 
 ## Acknowledgement
-Our heartfelt gratitude to [Anna Xambo](https://github.com/axambo) for guiding us all through the process from Day 1 to Day 4. Thank you so much for your support and patience which helped us learn and practice coding in Web Audio API, Html, javascript, CSS and p5.js. We would also like to take this opportunity to thank [Hamed Kazemi](https://www.facebook.com/hamed.kazemi) for giving his solution to make our complex plan possible. His creative code could record live audio input in cache memory and rout it as an input to the convolution process using [Node.js](https://nodejs.org/en/). In case that you are interested in his development, you can download the repository in [here](https://github.com/sepehrhaghighi/The-Convolverizer-In-collaboration-with-Hamed-Kazemi-). You can see a live demo of his collaboration down here:
+Our heartfelt gratitude to [Anna Xambo](https://github.com/axambo) for guiding us all through the process from Day 1 to Day 4. Thank you so much for your support and patience which helped us learn and practice coding in Web Audio API, Html, javascript, CSS and p5.js. We would also like to take this opportunity to thank [Hamed Kazemi](https://www.facebook.com/hamed.kazemi) who let us own his code solving our complex plan in Fig.2. His creative code could record live audio input in cache memory and rout it as an input to the convolution process using [Node.js](https://nodejs.org/en/). In case that you are interested in his development, you can download the repository [here](https://github.com/sepehrhaghighi/The-Convolverizer-In-collaboration-with-Hamed-Kazemi-). You can also see a live demo of his collaboration down here:
 
 <figure align="middle">
         <video height="100%" width="100%" controls>
@@ -216,5 +216,5 @@ Our heartfelt gratitude to [Anna Xambo](https://github.com/axambo) for guiding u
 </figure>
 <br>
 
-We highly appreciate him for allowing us to own his code and use it for our project if we needed to. Besides, we would also like to thank all our peers and audience for their constructive feedbacks and suggestions.
+Besides, we would also like to thank all our peers and audience for their constructive feedbacks and suggestions.
 
