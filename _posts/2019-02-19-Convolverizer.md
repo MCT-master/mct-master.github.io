@@ -23,7 +23,7 @@ Development team, why are we doing this:
 
 
 ## Research and development journal
-### DAY 1
+**DAY 1**
 On the first day, all groups have formed up, different from other groups our final product was not 100 percent defined. We had a working idea, developed a concept and agreed on an application model:
 * Two independent audio sources that influence each other in real-time
 * Mobile application to extend the prototype in another environment
@@ -35,11 +35,11 @@ On the first day, all groups have formed up, different from other groups our fin
 
 Since the level of programming expertise was more or less equally low distributed throughout the group, we left the division of the roles open. Sepehr suggested right after we formed as a group to work with the p5js library, and showed some examples. Shreejay again suggested going for web audio API. Karolina and Eirik assisted in research for both ways. We agreed to try building the model with the Web Audio API library first.
 
-### DAY 2
+**DAY 2**
 During the research, we realized that we would have to trim our concept a little bit more and take it step by step. We were struggling to get two audio inputs as two separate channels using Web Audio API. After that, we thought about recording one input and obtain the convolution reverb from the recorded piece. Finally, the idea was to mix the resulting output with another live audio input and send it to the main output. We spent a lot of time to find the right code snippets to make the convolver listen to the microphone. Soon after we found a code that gets the media stream, enabling audio and video. We then manipulated the code so as not to include video.  
 In the first feedback round, Anna recommended us to build a more modular system for situations where the live input cannot be activated, and would then activate a pre-recorded audio sample.
 
-### DAY 3
+**DAY 3**
 We took the advice to heart and divided the workload into sub-tasks:
 * Getting the sound from the mic and having the sound file as the convolver input
 * Getting the sound from the mic recorded and save it → being implemented on the real-time mic
@@ -52,7 +52,7 @@ We took the advice to heart and divided the workload into sub-tasks:
 
 We were a bit overwhelmed by the complexity of our initial idea and the backup solution we wanted to implement proved to be a project in itself. Shreejay suggested going for something else instead, to simplify things and would make it suitable for our level of expertise. In the end, we all agreed to continue our project but within the p5.js library, step by step. We were reassured it would make things easier since many examples were given and we would only have to find out how to connect them in the code. We considered at some point to work without the mic and only load two sounds that could be used as an effect on one another. We agreed on two scenarios for the application, each divided into different sub-steps. Sepehr and Eirik worked on fusing the impulse response to the live input and Karolina and Shreejay worked on integrating the recording function.
 
-### DAY 4
+**DAY 4**
 After we had some guided cleaning of the code and more guided coding sessions, we were able to finish the prototype and make it work both visually and sonically. We were able to perform together with almost all developers and everything went well, fortunately. You can read about our performance below.
 
 <figure align="middle">
@@ -80,13 +80,13 @@ The strategy we used has the advantage of being a very open and collaborative wo
 
 
 ## Technologies used
-### Working tools
+**Working tools**
 * Visual studio code
 * p5.js 
 * [Zoom](https://zoom.us/)
 * [Discord](https://discordapp.com/)
 
-### Performance
+**Performance**
 * Sound card / audio interface
 * Guitar
 * [Shure SM57 Microphone](http://www.shure.com/americas/products/microphones/sm/sm57-instrument-microphone)
@@ -184,15 +184,15 @@ When it comes to design and interaction, the most important thing is that the us
 
 
 ## Challenges:
-### Group challenges:
+**Group challenges:**
 Our group was put together of people who did not have any previous knowledge in programming prior to joining the MCT program. This proved to be a very big challenge since we had to research the very basics of the programming syntax for us to be able to progress. Programmers talk about “Languages” when referring to the syntax that is used when writing computer programs. We had to Talk when we, in all honesty, struggled to stutter.
 
-### Conceptualizing and deciding on the final product:
+**Conceptualizing and deciding on the final product:**
 Our plan was always to use the Convolver, but how to actually achieve it was much discussed within our group. We first wanted to run a live audio signal into the convolver (e.g. voice), and make that affect another audio signal (e.g. guitar). We found out that it was hard, and for this prototype, we decided to use a recording of a Drum solo as the audio input that the convolver would be fed with.
 
 
 
-### Familiarizing ourselves with Libraries and code:
+**Familiarizing ourselves with Libraries and code:**
 We decided to use p5.js as an additional library. That involved working with a new environment. This was a bit challenging, but luckily there are a lot of videos and tutorials online that are tied to the p5.js community.
 
 
