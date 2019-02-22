@@ -5,7 +5,7 @@ date: 2019-02-19 03:59:00 +0200
 categories: Audio-Programming
 author: Eirik Dahl, Karolina Jawad, Shreejay Sheresta, Sepehr Haghighi
 image: /assets/img/Convolverizer1.png
-excerpt: "Convolverizer, Real-time processing of ambient sound, voice or live instruments."
+excerpt: "Convolverizer, Real-time processing of ambient sound, voice or live instruments, utilizing the convolution effect."
 ---
 <figure align="middle">
 <img src="/assets/img/Convolverizer2.png" alt="" width="100%">
@@ -93,7 +93,7 @@ The strategy we used has the advantage of being a very open and collaborative wo
 * Prototype of our Code
 
 <figure align="middle">
-<img src="/assets/img/Group2.jpg" alt="" width="70%">
+<img src="/assets/img/Group2.jpg" alt="" width="90%">
 </figure>
 
 
