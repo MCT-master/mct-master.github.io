@@ -20,6 +20,18 @@ Development team, why are we doing this:
 * **[Karolina](https://cv2c.noblogs.org/):** has little space in her room and therefore wants a fancy mobile application
 * **[Shreejay](https://shreejayshrestha.wixsite.com/musical-portfolio):** loves live visualization
 
+## Technologies used
+**Working tools**
+* Visual studio code
+* p5.js 
+* [Zoom](https://zoom.us/)
+* [Discord](https://discordapp.com/)
+
+**Performance**
+* Sound card / audio interface
+* Guitar
+* [Shure SM57 Microphone](http://www.shure.com/americas/products/microphones/sm/sm57-instrument-microphone)
+* Prototype of our Code
 
 
 ## Research and development journal
@@ -78,23 +90,9 @@ However, we missed the opportunity to make our performance (including positionin
 Research, design and programming were carried out in collaboration so that the prototype developed in a constant discussion and joint evaluation of the application. We established a main hub in one of the group rooms and put the code from [Visual Studio Code](https://code.visualstudio.com/) on the screen. From there, we brainstormed and prototyped together. 
 The strategy we used has the advantage of being a very open and collaborative working style. With our group dynamics in terms of previous knowledge, we could risk that one person did most of the work and the others did less. With a shared screen and open dialogue, we prevented that.
 
-
-
-## Technologies used
-**Working tools**
-* Visual studio code
-* p5.js 
-* [Zoom](https://zoom.us/)
-* [Discord](https://discordapp.com/)
-
-**Performance**
-* Sound card / audio interface
-* Guitar
-* [Shure SM57 Microphone](http://www.shure.com/americas/products/microphones/sm/sm57-instrument-microphone)
-* Prototype of our Code
-
 <figure align="middle">
-<img src="/assets/img/Group2.jpg" alt="" width="90%">
+<img src="/assets/img/Group2.jpg" alt="The Team Working in the Group Room " width="90%">
+<figcaption><strong>The Team Working in the Group Room </strong></figcaption>
 </figure>
 
 
@@ -219,6 +217,6 @@ Besides, we would also like to take this opportunity to thank [Hamed Kazemi](htt
  And last but not the least, a big thanks to shiffman from 
  [The Coding Train](https://www.youtube.com/channel/UCvjgXvBlbQiydffZU7m1_aw)
 for sharing his huge collection of tutorials on YouTube. The 
-[Sound Visualization tutorial](https://www.youtube.com/watch?v=2O3nm0Nvbi4) gave us insingts in creating a similar kind of visualization for this project.
+[Sound Visualization tutorial](https://www.youtube.com/watch?v=2O3nm0Nvbi4) in particular,  gave us insingts in creating a similar kind of visualization for this project.
 
 <br/>
