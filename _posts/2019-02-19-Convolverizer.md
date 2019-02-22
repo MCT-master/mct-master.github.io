@@ -168,18 +168,6 @@ function draw() {
 ```
 
 
-## External Help
-We realized that we could not solve our plan within the given time schedule. Therefore, we decided to ask for an external help. We contacted [Hamed Kazemi](https://www.facebook.com/hamed.kazemi) who is a developer and he managed to solve this issue going through other possibilities, rather than p5.js ones. He managed to use [node.js](https://nodejs.org/en/) in order to create a server side part in the code, so the recorded sound could be uploaded there, and then being downloaded in the cache, in order to be used in the convolution process. Though, that happened all in the local computer and not in Web Audio. He also managed to design a user interface as well.
-But in the end, we didn’t use the code he wrote, even though this helped us to figure out how to deal with our problem in the future. In case that you are interested in his development, you can download the repository in [here](https://github.com/sepehrhaghighi/The-Convolverizer-In-collaboration-with-Hamed-Kazemi-).
-
-<figure align="middle">
-        <video height="100%" width="100%" controls>
-        <source src="/assets/video/ConvolverizerHamed.mp4" type="video/mp4">
-        Your browser does not support the video tag.
-</video>
-</figure>
-<br>
-
 
 ## Design and interactivity
 When it comes to design and interaction, the most important thing is that the user interface is easy to use and understand. Therefore one button for starting and stopping the process would do the job. Also, we have the visualization in the middle of the page to have the visual balance maintained. To regulate the level of the convolution effect, we've added a slider next to the Start/Stop button to give the user more control over the effect.
@@ -213,4 +201,17 @@ Developing the project so that the user can choose between several different sou
 Developing the project in a way that it would record the surrounding or any sound source that the user intends to record; save it and use it as the source for convolution process for the live input.
 Regarding the first option, it is not going to be a challenging matter. But when it comes to the second option, since the project should be able to save the recorded sound in a server and then download it and use it as the convolution source, the whole process gets more complicated. In other words, we have to develop the server side code in order to achieve this goal; and that requires more practice and experience in developing.
 In terms of interactivity, we overall we tried to create a simple, user-friendly interface, in order to create a more pleasurable experience for the user. The next step is to make it adaptable for various devices and screen sizes.
+
+
+## Acknoledgement
+We realized that we could not solve our plan within the given time schedule. Therefore, we decided to ask for an external help. We contacted [Hamed Kazemi](https://www.facebook.com/hamed.kazemi) who is a developer and he managed to solve this issue going through other possibilities, rather than p5.js ones. He managed to use [node.js](https://nodejs.org/en/) in order to create a server side part in the code, so the recorded sound could be uploaded there, and then being downloaded in the cache, in order to be used in the convolution process. Though, that happened all in the local computer and not in Web Audio. He also managed to design a user interface as well.
+But in the end, we didn’t use the code he wrote, even though this helped us to figure out how to deal with our problem in the future. In case that you are interested in his development, you can download the repository in [here](https://github.com/sepehrhaghighi/The-Convolverizer-In-collaboration-with-Hamed-Kazemi-).
+
+<figure align="middle">
+        <video height="100%" width="100%" controls>
+        <source src="/assets/video/ConvolverizerHamed.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+</video>
+</figure>
+<br>
 
