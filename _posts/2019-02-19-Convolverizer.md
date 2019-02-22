@@ -44,7 +44,7 @@ We took the advice to heart and divided the workload into sub-tasks:
 * Getting the sound from the mic and having the sound file as the convolver input
 * Getting the sound from the mic recorded and save it → being implemented on the real-time mic
 * Load the sound file and implement it on another sound file (as an effect)
-* Creating visuals with [p5.js](https://p5js.org/) or [CSS](https://en.wikipedia.org/wiki/Cascading_Style_Sheets)
+* Creating visuals with [p5.js](https://p5js.org/) or CSS
 
 <figure align="middle">
 <img src="/assets/img/Fig2.jpg" alt="" width="70%">
@@ -205,8 +205,10 @@ In terms of interactivity, we overall we tried to create a simple, user-friendly
 
 
 ## Acknoledgement
-We realized that we could not solve our plan within the given time schedule. Therefore, we decided to ask for an external help. We contacted [Hamed Kazemi](https://www.facebook.com/hamed.kazemi) who is a developer and he managed to solve this issue going through other possibilities, rather than p5.js ones. He managed to use [node.js](https://nodejs.org/en/) in order to create a server side part in the code, so the recorded sound could be uploaded there, and then being downloaded in the cache, in order to be used in the convolution process. Though, that happened all in the local computer and not in Web Audio. He also managed to design a user interface as well.
+We realized that we could not solve our plan within the given time schedule. Therefore, we decided to ask for an external help. We contacted  who is a developer and he managed to solve this issue going through other possibilities, rather than p5.js ones. He managed to use  in order to create a server side part in the code, so the recorded sound could be uploaded there, and then being downloaded in the cache, in order to be used in the convolution process. Though, that happened all in the local computer and not in Web Audio. He also managed to design a user interface as well.
 But in the end, we didn’t use the code he wrote, even though this helped us to figure out how to deal with our problem in the future. In case that you are interested in his development, you can download the repository in [here](https://github.com/sepehrhaghighi/The-Convolverizer-In-collaboration-with-Hamed-Kazemi-).
+
+Our heartfelt gratitude to [Anna Xambo](https://github.com/axambo) for guiding us all through the process from Day1 to Day4. Thank you so much for your support and patience which helped us learn and practice coding in Web Audio API, html, javascript, css and p5.js. We would also like to take this opportunity to thank [Hamed Kazemi](https://www.facebook.com/hamed.kazemi) for giving his solution to make our complex plan possible. His creative code could record live audio input in cache memory and rout it as an input to the convolution process using [node.js](https://nodejs.org/en/). You can see a live demo of his collaboration down here:
 
 <figure align="middle">
         <video height="100%" width="100%" controls>
@@ -215,4 +217,6 @@ But in the end, we didn’t use the code he wrote, even though this helped us to
 </video>
 </figure>
 <br>
+
+We highly appreciate him for allowing us to own his code and use it for our project if we needed to. Besides, we would also like to thank all our peers and audience for their constructive feedbacks and suggestions.
 
