@@ -207,7 +207,7 @@ In terms of interactivity, we overall we tried to create a simple, user-friendly
 
 ## Acknowledgement
 Our heartfelt gratitude to [Anna Xambo](https://github.com/axambo) for guiding us all through the process from Day 1 to Day 4. Thank you so much for your support and patience which helped us learn and practice coding in Web Audio API, Html, javascript, CSS and p5.js. Similarly, thanks to all our peers and audience for their constructive feedbacks and suggestions.
-Besides, we would also like to take this opportunity to thank [Hamed Kazemi](https://www.facebook.com/hamed.kazemi) for heping us to solve and own his code for our complex plan shown in Fig.2. His **[creative code](https://github.com/sepehrhaghighi/The-Convolverizer-In-collaboration-with-Hamed-Kazemi-)** could record live audio input in cache memory and rout it as an input to the convolution process using [Node.js](https://nodejs.org/en/). Following live demo shows the collaborative work with Hamed:
+Besides, we would also like to take this opportunity to thank [Hamed Kazemi](https://www.facebook.com/hamed.kazemi) for heping us to solve and own his code for our complex plan shown in **Fig.2** above. His **[creative code](https://github.com/sepehrhaghighi/The-Convolverizer-In-collaboration-with-Hamed-Kazemi-)** could record live audio input in cache memory and rout it as an input to the convolution process using [Node.js](https://nodejs.org/en/). Following live demo shows the collaborative work with Hamed:
 
 <figure align="middle">
         <video height="100%" width="100%" controls>
