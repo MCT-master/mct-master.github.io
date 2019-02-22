@@ -62,12 +62,12 @@ Consultation with extraterrestrial races (coders)
 
 #### Mari <img src="/assets/img/touchaliensynth/mari.png" alt="" width="10%" /> 
 
-Mari contributed with her aquired javascript knowledge from last week, about filter nodes, the interactvity between the sound and faders and buttons, and the responsive design with css. During the week, her main responsibility in the team was to research the <a href="https://developer.mozilla.org/en-US/docs/Web/API/Touch_events" target="_blank"> touch event functionality </a>, that would allow our final product to work on touch screen devices. She also made a <a href="https://www.youtube.com/watch?v=xl7XN5LBFpA" target="_blank">prototype</a> that implemented a canvas with drawing function into the sound- and aesthetic design of <a href="https://mct-master.github.io/audio-programming/2019/02/11/Alien-Reese.html" target="_blank">Sam's Reese the Alien synth</a>. 
+Mari contributed with her acquired Javascript knowledge from last week, about filter nodes, the interactivity between the sound and faders and buttons, and the responsive design with CSS. During the week, her main responsibility in the team was to research the <a href="https://developer.mozilla.org/en-US/docs/Web/API/Touch_events" target="_blank"> touch event functionality </a>, that would allow our final product to work on touch screen devices. She also made a <a href="https://www.youtube.com/watch?v=xl7XN5LBFpA" target="_blank">prototype</a> that implemented a canvas with drawing function into the sound- and aesthetic design of <a href="https://mct-master.github.io/audio-programming/2019/02/11/Alien-Reese.html" target="_blank">Sam's Reese the Alien synth</a>. 
 
 
 #### Sam <img src="/assets/img/touchaliensynth/sam.png" alt="" width="10%" /> 
 
-Sam took the role of expanding and improving the functionality of the audio code for the synth. This included utilising the Tuna.js library for new effect nodes, expanding the audio parameters from the original “Reece da Alien” prototype made a week ago. 
+Sam took the role of expanding and improving the functionality of the audio code for the synth. This included utilising the Tuna.js library for new effect nodes, expanding the audio parameters from the original <a href="https://mct-master.github.io/audio-programming/2019/02/11/Alien-Reese.html" target="_blank">Sam's Reese the Alien synth</a> prototype made a week ago. 
 
 
 
@@ -76,7 +76,7 @@ Sam took the role of expanding and improving the functionality of the audio code
 #### Day	1
 
 
-The first day of work was on Tuesday, February 12th, and during our Audio Programming class we had decided upon an idea that combined some visuals with sound. Mari's initial idea was to make som sort of a sonified drawing pad, inspired by  <a href="https://mct-master.github.io/audio-programming/2019/02/11/The-Pointilator.html" target="_blank"> Eigil's Pointilator Sequencer synth</a>. The Pointilator allowed you draw sonified dots on a canvas, and play it over and over again as in a sequencer. Mari's idea was to make something similar, but instead of drawing dots, you could draw continous lines (like in <a href="https://en.wikipedia.org/wiki/Microsoft_Paint" target="_blank">MS Paint</a>), with different colours, and maybe also with different textures. The different textures and colours could represent different instruments or timbres. 
+The first day of work was on Tuesday, February 12th, and during our Audio Programming class we had decided upon an idea that combined some visuals with sound. Mari's initial idea was to make some sort of a 'sonified' drawing pad, inspired by  <a href="https://mct-master.github.io/audio-programming/2019/02/11/The-Pointilator.html" target="_blank"> Eigil's Pointilator Sequencer synth</a>. The Pointilator allowed you draw 'sonified' dots on a canvas, and play it over and over again as in a sequencer. Mari's idea was to make something similar, but instead of drawing dots, you could draw continuous lines (like in <a href="https://en.wikipedia.org/wiki/Microsoft_Paint" target="_blank">MS Paint</a>), with different colours, and maybe also with different textures. The different textures and colours could represent different instruments or timbres. 
 
 Sam's <a href="https://mct-master.github.io/audio-programming/2019/02/11/Alien-Reese.html" target="_blank"> Reese da Alien Synth </a> from the previous week was ideal for the sonification part of our new project. It already used mouse movement to control the pitch of the synth, so we decided that we wanted to use his code as a base for the new project. We also agreed that we wanted our new project to work on touch devices. Then we delegated the tasks: Mari was going to research the touch functionality, 
 
@@ -160,7 +160,7 @@ Played note events based on position of clicks.
 
 This is the signal chain for the prototype’s audio code. It includes the 2 saw oscillators, FM oscillator and audio player brought over from the alien synth from last week. New additions include everything located right of the output node on the graph – the 3 audio FX and the dry/wet routing.
 
-## Tuna.js
+## Audio code & Tuna.js
 
 This is a sample of the code of how the Tuna.js code was implemented. The library has to be in the same folder as the code (as with all the external libraries and plugins used) and then opened in the code: 
 
@@ -177,7 +177,6 @@ document.querySelector("#button1").addEventListener('click', function() {
     delay: 0.0045,
     bypass: 0
   }); 
-
 
 
 The Tuna.js effects Sam found needed to be inside a function to work. At first a dedicated button for named tuna was created to activate the FX, in the end once a slider was introduced the button was triggered by the talk button along with the rest of the sound. This was because now the user had the choice to activate the tuna.js FX using the slider. The solution to using the slider for all FX at once was dealt with via routing a dry and a wet path in the signal flow – and then the fader used volume between the different nodes to crossfade between the “wet” path and the “dry”. 
@@ -238,6 +237,13 @@ This is the code for the routing of the dry/wet nodes.
 - Implemented lessons from the workshop
 
 ## Challenges
+
+Gibber me Timbers! 
+
+Sam was very inspired by the online JavaScript based live coding environment introduced to the MCT workshop early in the week. The way the platform dealt with FX inspired Sam to get it working with the Alien synth, the audio manipulation on the mouse movements were a particularly cool feature, as well as simple beat generation (ringo a code for drums!). After downloading the library for use in the project, two days of trial and error, problem scanning and asking for advice ensured – to no avail. 
+
+From what I found from my limited knowledge was that gibber didn’t want to play ball inside the JavaScript audio context that was used to compile and output the audio in project. There is very little online to help with the external library for Gibber, and so this is my guess after findings testing the library. It works easily with its own examples, and sets up the audio context differently. So after coming to this rough conclusion – I realised that there was too little time to get Gibber to work – and instead used Tuna.js to achieve a similar goal.
+
 
 ## Issues & Further Development 
 
