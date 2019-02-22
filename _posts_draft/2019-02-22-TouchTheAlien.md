@@ -6,7 +6,14 @@ date: 2019-02-22 17:00:00 +0100
 categories: Audio-Programming
 author: Eigil Aandahl, Jonas Bjordal, Mari Lesteberg & Sam Roman
 image: /assets/img/touchaliensynth/touch-the-alien.png
-excerpt:
+excerpt: "The web audio synth 'Touch the Alien', a project by Eigil Aandahl, Sam Roman, Jonas Bjordal and Mari Lesteberg at the master's programme Music, Communication and Technology at University of Oslo and Norwegian University of Science and Technology. The application offers:
+
+- Touchscreen functionality
+- Oscillators, FM Oscillator &  Delay
+- Phaser, Chorus & Filter on Dry/wet slider
+- Canvas UI with follow visual FX
+
+And it's alien themed for your pleasure!"
 
 ---
 
@@ -26,7 +33,7 @@ excerpt:
 <iframe width="560" height="315" src="https://www.youtube.com/embed/Rorv7F5VtcI" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 
-The web audio synth "Touch the Alien", a project by Eigil Aandahl, Sam Roman (, Jonas Bjordal?) and Mari Lesteberg at the master's programme Music, Communication and Technology at University of Oslo and Norwegian University of Science and Technology. The application offers:
+The web audio synth "Touch the Alien", a project by Eigil Aandahl, Sam Roman, Jonas Bjordal and Mari Lesteberg at the master's programme Music, Communication and Technology at University of Oslo and Norwegian University of Science and Technology. The application offers:
 
 - Touchscreen functionality
 - Oscillators, FM Oscillator &  Delay
