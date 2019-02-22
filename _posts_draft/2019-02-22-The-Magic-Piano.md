@@ -197,6 +197,7 @@ This solution makes it possible to start the song again when it is finished, wit
 ## The Workflow
 
 We worked in a collaborative way where we share screens with each other and work on the same document and files. We set up the VS Live Share to view the same code in real time and to discuss the code. We used Github for sharing the code among us when we worked offline. We used zoom to communicate and share screen.
+
 Jørgen Nygård Varpe - Collaborative Coding, UI Design, Troubleshooting.<br/>
 Ashane Silva - Collaborative  Coding, UI Design, Troubleshooting.<br/>
 Guy Sion - Collaborative  Coding, Max/MSP Demo, Midi Files, Troubleshooting.
