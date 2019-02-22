@@ -72,9 +72,10 @@ Mari contributed with her acquired Javascript knowledge from last week, about fi
 
 #### Sam <img src="/assets/img/touchaliensynth/sam.png" alt="" width="10%" /> 
 
-Sam took the role of expanding and improving the functionality of the audio code for the synth. This included utilising the Tuna.js library for new effect nodes, expanding the audio parameters from the original <a href="https://mct-master.github.io/audio-programming/2019/02/11/Alien-Reese.html" target="_blank">Sam's Reese the Alien synth</a> prototype made a week ago. 
+Sam took the role of expanding and improving the functionality of the audio code for the synth. This included utilising the <a href="https://github.com/Theodeus/tuna/wiki/Getting-started" target="_blank">Tuna.js</a>
+ library for new effect nodes, expanding the audio parameters from the original <a href="https://mct-master.github.io/audio-programming/2019/02/11/Alien-Reese.html" target="_blank">Sam's Reese the Alien synth</a> prototype made a week ago. 
 
-
+<a href="https://github.com/Theodeus/tuna/wiki/Getting-started" target="_blank">Tuna.js</a>
 
 ## Timeline
 
@@ -169,7 +170,8 @@ This is a sample of the code of how the Tuna.js code was implemented. The librar
 <script src="tuna.js"></script>
  ```
  
-Each FX node had similar layout, and examples were found online. Each node the FX of choice is declared, and then each has parameters that are used for each, different depending on the FX (threshold for compression, feedback for delay etc.). The code below shows the options for the chorus – rate, delay, feedback and bypass. The aim for these FX is to have a simple user friendly use of multiple FX in one action – so the parameters of the FX were generally modest and not too intense. This is due to the fact that the synth design creates crazy sounds already – the ethos of the FX addition to the project was to sweeten the sound (the FM function messes it up enough already!).
+Each FX node had similar layout, and examples were found online. Each node the FX of choice is declared, and then each has parameters that are used for each, different depending on the FX (threshold for compression, feedback for delay etc.). The code below shows the options for the chorus – rate, delay, feedback and bypass. The aim for these FX is to have a simple user friendly use of multiple FX in one action – so the parameters of the FX were generally modest and not too intense. This is due to the fact that the synth design creates crazy sounds already – the ethos of the FX addition to the project was to sweeten the sound (the FM function messes it up enough already!). Here are some <a href="https://github.com/Theodeus/tuna/wiki/Node-examples" target="_blank">Tuna.js examples</a> used.
+
 ```javascript
 document.querySelector("#button1").addEventListener('click', function() {
   var tuna = Tuna(context);
@@ -202,7 +204,8 @@ slider2.on('change',function(filterValue) {
   dry.gain.value = 1 - filterValue          // doing the opposite of wet
 ```
 
-Here ‘FilterValue’ is the fader variable. Lines below it attaches this variable to the ‘dry’ and ‘wet’ nodes gain. The -1 on the dry line inverts the 0-1 range so it does the opposite gain fade to the wet value. This creates a crossfade effect – the fader in the middle it will be 0.5 and 0.5 each, or 0.7 and 0.3. the value of both nodes together will always be 1, wherever it is on the slider.
+Here ‘FilterValue’ is the fader variable. Lines below it attaches this variable to the ‘dry’ and ‘wet’ nodes gain. The -1 on the dry line inverts the 0-1 range so it does the opposite gain fade to the wet value. This creates a crossfade effect – the fader in the middle it will be 0.5 and 0.5 each, or 0.7 and 0.3. the value of both nodes together will always be 1, wherever it is on the slider. This code was referenced from <a href="https://www.w3.org/TR/webaudio/." target="_blank">W3</a>
+
 
 ```javascript
   dry = context.createGain();
