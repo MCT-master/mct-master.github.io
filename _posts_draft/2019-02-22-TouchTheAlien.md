@@ -40,7 +40,8 @@ In the developing of the synth, we have used tools as:
 
 #### Javascript with Web Audio API, CSS and HTML5
   - Javascript to make the "brain" of the synth, such as the audio features, the canvas function with mouse and touch functionality
-#### TUNA
+#### Tuna
+  - An audio effects library for the Web Audio API. 
 #### Visual Studio Code
   - A very convenient source code editor that makes coding a dream!
 #### Github
