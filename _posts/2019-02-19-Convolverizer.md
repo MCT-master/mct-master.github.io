@@ -99,7 +99,7 @@ The strategy we used has the advantage of being a very open and collaborative wo
 
 
 ## Decoding Convolvorizer
-The heart of the Convolverizer has mainly two parts. First, the toggle button operation and slider function, which provides the user to control the application. Second, the role of canvas and creation of live visualization. We have tried to comment on each line of the code so that you could easily figure out what is what. 
+The code of Convolverizer has mainly two parts. First, the toggle button operation and slider function, which provides the user to control the application. Second, the role of canvas and creation of live visualization. We have tried to comment on each line of the code so that you could easily figure out what is what. You can check the full code with relevant files and libraries in the [github repo] (https://github.com/shreejayshrestha/Convolvorizer)
 
 ```javascript
 // Part I - Eventlistener for click on Canvas
