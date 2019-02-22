@@ -25,6 +25,10 @@ On the first day, all groups have formed up, different from other groups our fin
 * Mobile application to extend the prototype in another environment
 * Having a modular application that is accessible which does not require a bulk of technological hardware and software
 
+<figure align="middle">
+<img src="/assets/img/Fig1.jpg" alt="" width="70%">
+</figure>
+
 Since the level of programming expertise was more or less equally low distributed throughout the group, we left the division of the roles open. Sepehr suggested right after we formed as a group to work with the p5js library, and showed some examples. Shreejay again suggested going for web audio API. Karolina and Eirik assisted in research for both ways. We agreed to try building the model with the Web Audio API library first.
 
 ### DAY 2
@@ -38,12 +42,18 @@ We took the advice to heart and divided the workload into sub-tasks:
 * Load the sound file and implement it on another sound file (as an effect)
 * Creating visuals with [p5.js](https://p5js.org/) or [CSS](https://en.wikipedia.org/wiki/Cascading_Style_Sheets)
 
+<figure align="middle">
+<img src="/assets/img/Fig2.jpg" alt="" width="70%">
+</figure>
+
 We were a bit overwhelmed by the complexity of our initial idea and the backup solution we wanted to implement proved to be a project in itself. Shreejay suggested going for something else instead, to simplify things and would make it suitable for our level of expertise. In the end, we all agreed to continue our project but within the p5.js library, step by step. We were reassured it would make things easier since many examples were given and we would only have to find out how to connect them in the code. We considered at some point to work without the mic and only load two sounds that could be used as an effect on one another. We agreed on two scenarios for the application, each divided into different sub-steps. Sepehr and Eirik worked on fusing the impulse response to the live input and Karolina and Shreejay worked on integrating the recording function.
 
 ### DAY 4
 After we had some guided cleaning of the code and more guided coding sessions, we were able to finish the prototype and make it work both visually and sonically. We were able to perform together with almost all developers and everything went well, fortunately. You can read about our performance below.
 
-
+<figure align="middle">
+<img src="/assets/img/Fig3.jpg" alt="" width="70%">
+</figure>
 
 ## Performance
 The performance was set-up in Trondheim. We used a guitar and a microphone for the live input. With regards to the guitar, the notes being played started from low pitch ones and went into high pitch ones gradually. Based on our experience, for this convolution effect, high pitched notes could lead to a better result. That is because in the convolution process the low pitched notes get emphasized too much and create a muddy sound profile. That is why the sound from the microphone was lost in the mix and could not be properly convolized.
@@ -51,7 +61,13 @@ Also sustained notes should let the effect be more prominent, since the sound co
 Since the sound that we used for convolution was an intense Drums solo, the dynamics of the effect were pretty intense as well. That led us to achieve a more clear and visible convolution effect. Therefore, in any case, if you intend to have an intense and very dynamic convolution effect on the input sound; try to use a more vivid and high dynamic source for the convolution as well.
 We missed the chance to set up our performance (including more camera ressources, a clear announcement of the beginning of us playing) in a more demonstrative way due to lack of time, which ultimately impacted our performativity. The audience noticed a glitch in the sound during the performance, we suspect that related to the process of buffering and dry gain. Moreover, during the performance the (old) computer connected was not in a good condition. When we performed again for the live demo, which you can see below, the glitch did not occur again.
 
-
+<figure align="middle">
+        <video height="100%" width="100%" controls>
+        <source src="/assets/video/APConvolverizer.m4v" type="video/m4v">
+        Your browser does not support the video tag.
+</video>
+</figure>
+<br>
 
 ## Working Style
 Research, design and programming were carried out in collaboration so that the prototype developed in a constant discussion and joint evaluation of the application. We established a main hub in one of the group rooms and put the code from [Visual Studio Code](https://code.visualstudio.com/) on the screen. From there, we brainstormed and prototyped together. 
