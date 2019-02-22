@@ -131,7 +131,7 @@ Instead of having continous sound when clicked, it played note events based on t
 
 
 #### Hello there human.
-<img src="/assets/img/touchaliensynth/hellohuman.gif" alt="" width="70%" />	<img src="/assets/img/touchaliensynth/hellohuman.png" alt="" width="70%" />
+<img src="/assets/img/touchaliensynth/hellohuman.gif" alt="" width="70%" />	
 This was the prototype for the canvas pad after the first day, and as you can see, the canvas draws a line after the mouse pointer which fades over time. Some features for the drawing was still not implemented at this point, but the main style and functionality was already working.
 
 #### Prototype: - Reece Da Alien with sonified drawing pad
