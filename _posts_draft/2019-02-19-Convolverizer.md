@@ -4,9 +4,12 @@ title: "Convolverizer"
 date: 2019-02-19 03:59:00 +0200
 categories: Audio-Programming
 author: Eirik Dahl, Karolina Jawad, Shreejay Sheresta, Sepehr Haghighi
-image: /assets/img/freakshow.jpg
+image: /assets/img/Convolverizer1.png
 excerpt: ""
 ---
+<figure align="middle">
+<img src="/assets/img/Convolverizer2.png" alt="" width="70%">
+</figure>
 ## Introduction
 Real-time processing of ambient sound, voice or live instruments. We are several string instrument players and sound artists, but would like to prototype something modular that extends our artistic expressions, which is always at hand and instantly available. Create hidden gems that don't require additional expensive equipment. Get your phone, convolve it, GO!
 
