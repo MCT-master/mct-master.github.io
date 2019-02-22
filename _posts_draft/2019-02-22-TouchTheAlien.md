@@ -109,7 +109,7 @@ The third day was also spent on working with our individual tasks, but in a more
 
 
 #### Day	4
-On the last day, we finished the prototype by combining all codes together and made final touches on design and functions. This meant tidiying up some of out code, bugfixing and making each intended function work properly. The final part of the day was spent on the presentation, where we got positive feedback from the class and guests, Alexander, Daniel and Arthur. The questions we got were mostly focused on the issues we faced, and how we could further develop the instrument.
+On the last day, we finished the prototype by combining all codes together and made final touches on design and functions. This meant tidiying up some of out code, bugfixing and making each intended function work properly.
 
 ## Ideas and prototypes
 
@@ -139,7 +139,6 @@ Instead of having continous sound when clicked, it played note events based on t
 #### Hello there human.
 <img src="/assets/img/touchaliensynth/hellohuman.png" alt="" width="70%" />
 
-This was the prototype for the canvas pad after the first day, and as you can see, the canvas draws a line after the mouse pointer which fades over time. Some features for the drawing was still not implemented at this point, but the main style and functionality was already working.
 
 #### Prototype: - Reece Da Alien with sonified drawing pad
 
@@ -226,23 +225,24 @@ This is the code for the routing of the dry/wet nodes.
 
 ## Achievements
 
-So, for the the workshop we materialised a working prototype!
+So, for the the workshop we materialised a working prototype! 
 
-- A working prototype
-  - Touch interaction on both canvas, buttons and sliders
-  - Sounds made with samples, synthesis and interactive effects
-  - A styled website
-  - Responsive design
-- Combined elements by linking scripts
-- Implemented lessons from the workshop
-- Making progress from our individual projects
+Featuring: 
+
+ - Touch interaction on both canvas, buttons and sliders
+ - Sounds made with samples, synthesis and interactive effects
+ - A styled website
+ - Responsive design
+
+We managed to combine our three branches of code. Working as a group and moving to produce code individually during the midweek development was a decision we made. In doing this we could produce more code, but we had to be able to compile the results (on the last day!). One of our achievements was to successfully implement all the code for the presentation – it showed that our organisation of labour worked out in the end!
 
 ## Challenges
 
-Working on each other's code together was certainly both challenging and rewarding, highlighting the importance of a good project structure and management to not make a big mess when putting the pieces together. In the end, we decided to work closer together to make sure everyone was taking part in assembling the instrument and being part of the decision making.
+Working on each other's code together was certainly both challenging and rewarding, highlighting the importance of a good project structure and management to not make a big mess when putting the pieces together. This was defiantly a challenge;
+on the first days it could be hard to know what work process each member had. This also hindered communication somewhat in the first days, although we showed each other our code, it was hard to understand their whole process after each day’s work. As its been stated, we compiled and worked together on the last day, demystifying what the other members of the group had been working on.
 
 
-## Gibber me Timbers! 
+### Sams Challenges - Gibber me Timbers! 
 
 Sam was very inspired by the online JavaScript based live coding environment introduced to the MCT workshop early in the week. The way the platform dealt with FX inspired Sam to get it working with the Alien synth, the audio manipulation on the mouse movements were a particularly cool feature, as well as simple beat generation (ringo a code for drums!). After downloading the library for use in the project, two days of trial and error, problem scanning and asking for advice ensured – to no avail. 
 
@@ -264,5 +264,3 @@ Expanding on this, we could make a function that allows you to draw with differe
 <img src="/assets/img/touchaliensynth/touch-the-alien.png" alt="" width="70%" />
 
 ## Closing remarks
-
-In the end, we are pleased with the result and experience we got from Anna's workshop. Perhaps this project or something based on it could be presented by us as a paper or workshop during the [2019 Web Audio Conference](https://www.ntnu.edu/wac2019) in December, who knows?
