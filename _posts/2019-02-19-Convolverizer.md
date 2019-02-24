@@ -3,7 +3,7 @@ layout: post
 title: "Convolverizer"
 date: 2019-02-19 03:59:00 +0200
 categories: Audio-Programming
-author: Eirik Dahl, Karolina Jawad, Shreejay Sheresta, Sepehr Haghighi
+author: Eirik Dahl, Karolina Jawad, Shreejay Shrestha, Sepehr Haghighi
 image: /assets/img/Convolverizer1.png
 excerpt: "Convolverizer, Real-time processing of ambient sound, voice or live instruments, utilizing the convolution effect."
 ---
