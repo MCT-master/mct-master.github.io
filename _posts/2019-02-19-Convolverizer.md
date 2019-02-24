@@ -192,7 +192,7 @@ We decided to use p5.js as an additional library. That involved working with a n
 All in all, the most significant achievement of ours is the gained exposure and understanding of coding in music. We were hitting a near vertical learning curve these two weeks, and to end up with a working prototype after this course is very pleasing. There was a bit of frustration tied with the difficulty of the task we had at hand, but through that, we managed to have a good working relationship and good teamwork. We also achieved a greater understanding of the use and implications of technologies used it coding, and also with the p5.js Library.<br />
 
 **Lesson Learned:**
-While aiming to get two live audio input from two separate channels, we noticed that both p5.js and Web Audio API do not have functions in order to support two parallel inputs or more. For example, by using the **MediaStreamAudioSourceNode** and **getUserMedia** functions, it is only possible to get one audio and one video input channels. Similarly, by using the **p5.js AudioIn** and **mic.start()** functions, it is only possible to get one audio input channel.
+While aiming to get two live audio input from two separate channels, we noticed that both p5.js and Web Audio API do not have functions in order to support two parallel inputs or more. For example, by using the **[MediaStreamAudioSourceNode & getUserMedia](https://developer.mozilla.org/en-US/docs/Web/API/MediaStreamAudioSourceNode)** functions, it is only possible to get one audio and one video input channels. Similarly, by using the **[p5.js AudioIn & mic.start()](https://p5js.org/examples/sound-mic-input.html)** functions, it is only possible to get one audio input channel.
 
 
 
