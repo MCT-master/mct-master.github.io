@@ -75,10 +75,10 @@ Keydown function:
 This is the keydown function routed to black and white keys on my keyboard:
 
 //  window.addEventListener("keyup", function (event) {
-      this.console.log("up");
-      drawWhite(20, 14, "up");
-      drawBlack(55, 10, "up")
-      switch (event.key) {
+  //    this.console.log("up");
+    //  drawWhite(20, 14, "up");
+     // drawBlack(55, 10, "up")
+     // switch (event.key) {
         case "a":
         case "s":
         case "d":
@@ -109,10 +109,10 @@ Keyup function:
 This is the function i used to stop the oscillator form playing when i lifted the key.
 
 // window.addEventListener("keyup", function (event) {
-    this.console.log("up");
-    drawWhite(20, 14, "up");
-    drawBlack(55, 10, "up")
-    switch (event.key) {
+//    this.console.log("up");
+ //   drawWhite(20, 14, "up");
+ //   drawBlack(55, 10, "up")
+ //   switch (event.key) {
         case "a":
         case "s":
         case "d":
