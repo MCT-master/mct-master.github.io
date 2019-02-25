@@ -6,7 +6,7 @@ date: 2019-02-10 22:45:00 +0100
 categories: Audio-Programming
 author: Eirik Dahl (code credit. Jørgen Varpe)
 image: /assets/img/Monosynth.jpg.jpg
-excerpt: This blog post outlines the production of the MonoSynth. The Mono Synth is drawn by Jørgen N. Varpe, who also wrote a lot of the code
+excerpt: This blog post outlines the production of the MonoSynth. The Mono Synth is drawn by Jørgen N. Varpe, who also wrote a lot of the code. The objective of this prototype was to improve my familiarity with coding, and at the same time be able to have a working chromatic instrument. Working with a cromatic instrument is interesting because it allows me to have a less abstract understanding of what happens in the code - behind the scenes if you will.
 
 ---
 
@@ -28,6 +28,19 @@ oneself. As a beginner i would advise people that is starting out to do the same
 To concretize, my goal was to make a mono synth that was routed to the keyboard on my laptop. My overarching goal was simply to gain more insight into coding through being more exposed to it.
 That might not sound very impressive, but for me, with my startpoint, I think it was an ambitious goal.
 
+### Technologies used
+
+## Visual studio Code
+  Visual studio code was the code editor i used. I do not have too much to compare it to but it seems to be a powerful tool, and from what i gather from my peers, it seems like a very good place to start with coding. I also like the live share function, and the ease of importing folders. Drag and drop is my style!
+  
+ ## Java Script
+  Most of the code and functions are written in Java Script. This includes the keyboard, the oscillator, and all the mappings
+  
+ ## GitHub
+  GitHub was used for repositories and the sharing.
+  
+
+
 ### Workflow and progress
 
 After going through the code examples of the day, we were encouraged to use the group rooms. I felt more comfortable staying in the portal so as to get help from Anna and some of the more experienced students in the class.
@@ -37,6 +50,97 @@ It is very helpful to have your peers and teachers looking over the code and tea
 someone else has probably experienced a similar issue before. Finding the right keyword, and knowing what to google is still an issue that is left to oneself.
 
 Routing the keys was actually the easiest and most pleasurable thing to do. I am not really a huge fan of repeating tasks, but here, it porvided me with a sense of progress and independency which was very motivating. 
+
+
+### Timeline
+
+## Day 1
+  I familiarized myself with the code, and got the keyboard code from Jørgen. Most of the day went with just understanding how that went. 
+  
+## Day 2 
+  Day two was used to connect and test the Oscillator. From here i had sound, which is an achievement in itself. i Was very happy with getting sound even though the piano was not playable.
+  
+## Day 3
+  Day three was used to make the routings of the keyboard. This was satisfying since i could do it on my own without any help.
+  I also had to work on the functionality of the keyboard. The keys did not work as a piano. I needed to implement an keyup event to make the keyboard play a sustained note and stop it when i lifted the key.
+  
+## Day 4 
+  This day was used to add some visual features through CSS. I was pleased with how it worked and how i could change the visual apperarance. 
+
+
+### Code snippets
+
+Keydown function:
+
+This is the keydown function routed to black and white keys on my keyboard:
+
+//  window.addEventListener("keyup", function (event) {
+      this.console.log("up");
+      drawWhite(20, 14, "up");
+      drawBlack(55, 10, "up")
+      switch (event.key) {
+        case "a":
+        case "s":
+        case "d":
+        case "f":
+        case "g":
+        case "h":
+        case "j":
+        case "k":
+        case "l":
+        case "ø":
+        case "æ":
+
+        case "w":
+        case "e":
+        case "t":
+        case "y":
+        case "u":
+        case "o":
+        case "p":
+        case "å":
+
+            stopSound();
+            break
+    }
+
+
+Keyup function:
+This is the function i used to stop the oscillator form playing when i lifted the key.
+
+// window.addEventListener("keyup", function (event) {
+    this.console.log("up");
+    drawWhite(20, 14, "up");
+    drawBlack(55, 10, "up")
+    switch (event.key) {
+        case "a":
+        case "s":
+        case "d":
+        case "f":
+        case "g":
+        case "h":
+        case "j":
+        case "k":
+        case "l":
+        case "ø":
+        case "æ":
+
+  //    case "w":
+        case "e":
+        case "t":
+        case "y":
+        case "u":
+        case "o":
+        case "p":
+        case "å":
+
+   //       stopSound();
+            break
+    }
+
+
+
+
 
 ### Happy Birthday
 
