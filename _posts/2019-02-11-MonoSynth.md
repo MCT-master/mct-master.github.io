@@ -30,13 +30,13 @@ That might not sound very impressive, but for me, with my startpoint, I think it
 
 ### Technologies used
 
-## Visual studio Code
+* _Visual studio Code_
   Visual studio code was the code editor i used. I do not have too much to compare it to but it seems to be a powerful tool, and from what i gather from my peers, it seems like a very good place to start with coding. I also like the live share function, and the ease of importing folders. Drag and drop is my style!
   
- ## Java Script
+ * _Java Script_
   Most of the code and functions are written in Java Script. This includes the keyboard, the oscillator, and all the mappings
   
- ## GitHub
+ * _GitHub_
   GitHub was used for repositories and the sharing.
   
 
@@ -53,18 +53,17 @@ Routing the keys was actually the easiest and most pleasurable thing to do. I am
 
 
 ### Timeline
-
-## Day 1
+* _Day 1_
   I familiarized myself with the code, and got the keyboard code from Jørgen. Most of the day went with just understanding how that went. 
   
-## Day 2 
+* _Day 2_ 
   Day two was used to connect and test the Oscillator. From here i had sound, which is an achievement in itself. i Was very happy with getting sound even though the piano was not playable.
   
-## Day 3
+* _Day 3_
   Day three was used to make the routings of the keyboard. This was satisfying since i could do it on my own without any help.
   I also had to work on the functionality of the keyboard. The keys did not work as a piano. I needed to implement an keyup event to make the keyboard play a sustained note and stop it when i lifted the key.
   
-## Day 4 
+* _Day 4_ 
   This day was used to add some visual features through CSS. I was pleased with how it worked and how i could change the visual apperarance. 
 
 
@@ -74,11 +73,13 @@ Keydown function:
 
 This is the keydown function routed to black and white keys on my keyboard:
 
-//  window.addEventListener("keyup", function (event) {
-  //    this.console.log("up");
-    //  drawWhite(20, 14, "up");
-     // drawBlack(55, 10, "up")
-     // switch (event.key) {
+
+```
+  //window.addEventListener("keyup", function (event) {
+      this.console.log("up");
+      drawWhite(20, 14, "up");
+      drawBlack(55, 10, "up")
+      switch (event.key) {
         case "a":
         case "s":
         case "d":
@@ -103,16 +104,18 @@ This is the keydown function routed to black and white keys on my keyboard:
             stopSound();
             break
     }
-
+```
 
 Keyup function:
 This is the function i used to stop the oscillator form playing when i lifted the key.
 
-// window.addEventListener("keyup", function (event) {
-//    this.console.log("up");
- //   drawWhite(20, 14, "up");
- //   drawBlack(55, 10, "up")
- //   switch (event.key) {
+
+```
+//window.addEventListener("keyup", function (event) {
+    this.console.log("up");
+    drawWhite(20, 14, "up");
+    drawBlack(55, 10, "up")
+    switch (event.key) {
         case "a":
         case "s":
         case "d":
@@ -125,7 +128,7 @@ This is the function i used to stop the oscillator form playing when i lifted th
         case "ø":
         case "æ":
 
-  //    case "w":
+        case "w":
         case "e":
         case "t":
         case "y":
@@ -134,10 +137,10 @@ This is the function i used to stop the oscillator form playing when i lifted th
         case "p":
         case "å":
 
-   //       stopSound();
-            break
+        stopSound();
+          break
     }
-
+```
 
 
 
