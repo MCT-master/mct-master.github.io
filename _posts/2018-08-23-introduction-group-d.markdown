@@ -18,7 +18,7 @@ Group D includes **Shreejay Shrestha** and **Eirik Dahl** from *NTNU*, and **Guy
 
 ![Photo of Shreejay Shrestha](/assets/img/ShreejayShrestha.jpg "Shreejay Shrestha")
 
-**Shreejay Shrestha** is an Industrial Ecologist and an architect from Nepal. He has a master's degree in Industrial Ecology from NTNU Norway and a bachelors degree from TU. Nepal. With 5 years of experience in design and construction field in Nepal he is currently pursuing master's in music communication and technology at NTNU and UiO.
+**Shreejay Shrestha** is an Industrial Ecologist and an architect from Nepal. He has a master's degree in Industrial Ecology from NTNU Norway and a bachelors degree in Architecture from TU. Nepal. With 5 years of experience in design and construction field in Nepal he is currently pursuing master's in Music Communication and Technology at NTNU and UiO.
 
 * [Portfolio Site](shreejayshrestha.wixsite.com/musical-portfolio)
 
