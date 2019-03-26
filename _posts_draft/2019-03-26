@@ -1,0 +1,34 @@
+---
+layout: post
+title:  "Exhibition 'Metaverk' in Trondheim: DSP, Csound orchestras and bone feedback"
+date:   2018-11-11 23:50
+categories: Sonification
+author: Eirik Dahl
+image: /assets/img/AntennaØyvind.jpg
+excerpt: "Øyvind Brandtsegg talks about the creation and life cycle of two art installations in this inspiring talk. Follow the link 
+to read about the first lecture in a series about sonification."
+---
+
+<figure>
+<img src="/assets/img/installasjon-flyndre.jpg" alt="patch_patch" width="60%" align="middle"/>
+<figcaption>Patch, patch</figcaption>
+</figure>
+
+
+
+### Øyvind Brandtsegg
+**<a href="https://www.ntnu.no/ansatte/oyvind.brandtsegg// target="_blank">Øyvind Brandtegg</a>** (born 1971) is a composer and performer working in the fields of algorithmic improvisation and sound installations. Adding effects to his instrument, the vibraphone, was his entry into electronic music. In 2008 he completed his PhD at NTNU where he made a computer program that he could improvise with.
+Sonification is the translation of data values to sound, but Øyvind is interested in creating sounds that represent that data in a meaningful way, and the sound can relate to the origin of the data. When he works with sonification installations, Øyvind always starts with visiting the research area to get inspired by the place the data comes from. His job is then to tie the art-piece to the place of origin, to facilitate the relation between the art and the field.
+He presented us with two installations, and talked about the creation and life cycle of these.
+
+
+### Flyndre
+
+Within the framework of the open source aproach, visitors were invited to explore the composition of the exhibition. Even the code, for example, which programs the various units is visible on screens among other softwares. The hardware, consisting of several flashing monitors (more of sculputural character), microphones, cables and loudspeakers are grouped into different units. These computer entities have their own processing character and communicate only via audio. Some wait for silence, others react to a knock at the window: it is a string model that is based on a delay loop with the input from the contact microphones. Each sound event is captured and being fed into a feedback system. Even speech becomes audible with some delay, like a "distorted and faded memories". Finally, being physically present in this situation means being part of the machine and at the same time one remembers one's human vulnerability in a technological context.
+
+<center>
+<iframe width="640" height="360" src="https://www.youtube.com/watch?v=aBEGnLtVk64" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</center>
+
+### How to...?
+
