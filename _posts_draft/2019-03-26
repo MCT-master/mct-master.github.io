@@ -24,11 +24,24 @@ He presented us with two installations, and talked about the creation and life c
 
 ### Flyndre
 
-Within the framework of the open source aproach, visitors were invited to explore the composition of the exhibition. Even the code, for example, which programs the various units is visible on screens among other softwares. The hardware, consisting of several flashing monitors (more of sculputural character), microphones, cables and loudspeakers are grouped into different units. These computer entities have their own processing character and communicate only via audio. Some wait for silence, others react to a knock at the window: it is a string model that is based on a delay loop with the input from the contact microphones. Each sound event is captured and being fed into a feedback system. Even speech becomes audible with some delay, like a "distorted and faded memories". Finally, being physically present in this situation means being part of the machine and at the same time one remembers one's human vulnerability in a technological context.
+Flyndre is a sculpture by Nils Aas placed in Inderøy in Trønderlag. It is inspired by the golden flounder, which is a flat fish that was a valuable commodity in Trondheim. Øyvind has made a sonification installation of this sculpture. This is a good example of an algorithmic composition, as it maps sound parameters to different to mirror the environment. For example, the parameters Øyvind uses in this composition includes tidal data, moon phases, weather(temperature/light), weekdays, times and months. All these parameters produce a composition that changes over time. The first cycle was for 10 years, from 2006 to 2016, but when it was completed, the project got renewed for another ten years, which is a very impressive lifespan for a sound installation. The Boros Bunker in Berlin only allows for four years.
+
+Louisa Wood Ruby, in “Layers of seeing and seeing through layers” states that you cannot experience art in the same way online as you can in being on site, and Øyvind seems to agree with this. He says that the true form of the sonification is first experienced when it is coupled with the sounds on site. The massive metal sculpture has a sound of its own, and it resonates with the wind. Couple that with both the sonification and the ambient sounds of the weather and wildlife, and you get the intended sound of “Flyndre”. 
+Still, an online real time sonification of the work can be found **<a href="https://www.ntnu.no/flyndresang// target="_blank">here</a>**. 
+
+### VLBI
+
+Very long baseline interferometry, or possibly the world’s most expensive sine tone instrument is a sonification of the data produced by triangulation measurements created when measuring the relative distance of quasars that are a billion lightyears ago. The origin of the light we observe when looking at quasars are from a time when the earth was nothing like what it is today. 
+The VLBI technique is used in GPS navigation as well as map making, where two antennas on earth observing the same point in the sky (a quasar) creates a triangulation. 
+To do sonification properly one needs to understand the field one is working in. Øyvind has used a lot of time to understand the complex scientific field that these data originate in, and upon completion, he was hailed by the scientists for finally making some way of presenting this data to the non-scientific community. That is the quintessence of sonification.
+
+Here is a video of a TED talk that Øyvind did on this project.
 
 <center>
 <iframe width="640" height="360" src="https://www.youtube.com/watch?v=aBEGnLtVk64" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </center>
 
-### How to...?
+
+
+Written by Eirik Dahl
 
