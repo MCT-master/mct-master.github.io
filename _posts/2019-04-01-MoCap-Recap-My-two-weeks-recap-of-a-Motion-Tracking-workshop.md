@@ -1,4 +1,3 @@
----
 layout: post
 title: MoCap Recap - My two weeks recap of a Motion Tracking workshop
 date: 2019-04-01 21:45:00 +0200
@@ -33,13 +32,6 @@ music. The experience was a bit overwhelming at times because this subject and t
 to be more advanced for my level, but I am glad I was exposed to the tools and the work that has been in the field.</p>
 
 
-<<<<<<< HEAD
-<center><iframe width="560" height="315" src="https://www.youtube.com/embed/LhiSDOpMbPI" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></center>
-<center>Elias is getting the maximum highest score for using the calibration wand</center>
-
-### Week 2
-In the second week we were divided into groups and focused on a project to be presented on the last day of the
-=======
 <p><center><iframe width="560" height="315" src="https://www.youtube.com/embed/LhiSDOpMbPI" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></center>
 <center>Elias is getting the maximum best score for using the calibration wand</center></p>
 
@@ -47,7 +39,6 @@ In the second week we were divided into groups and focused on a project to be pr
 ### Week 2
 
 <p>In the second week we were divided into groups and focused on a project to be presented on the last day of the
->>>>>>> cd320ff59ab6f2d2cca208874583dce1fda6f2e9
 course. My group (including Elias and Sam) developed a Virtual DJ that utilizes traditional and nontraditional
 movements of a DJ, for manipulating parameters a musical track. Our objective was capturing DJ body movements
 (recorded and streamed) into motion capture data and to sonify these movements.</p>
@@ -68,10 +59,6 @@ parameters. We used our recorded mocap data to produce video clip using the <a h
 <p><center><iframe width="560" height="315" src="https://www.youtube.com/embed/Hc5fiZRiAbU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></center>
 <center>Music by DJ Dr. Roman</center></p>
 
-<<<<<<< HEAD
-<center><iframe width="560" height="315" src="https://www.youtube.com/embed/Hc5fiZRiAbU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></center>
-=======
->>>>>>> cd320ff59ab6f2d2cca208874583dce1fda6f2e9
 
 <p>During the last day we mostly concentrated on creating a live performance of our project as well as presenting the
 project in its entirety. With the help of Victor and Georgios we managed to live stream the mocap data to our max
@@ -84,15 +71,7 @@ way.</p>
 <p><center><iframe width="560" height="315" src="https://www.youtube.com/embed/FVG0eXRqKlg" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></center>
 <center>Music by DJ Dr. Roman</center></p>
 
-<<<<<<< HEAD
-<center><iframe width="560" height="315" src="https://www.youtube.com/embed/FVG0eXRqKlg" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></center>
 
 The limitations and problems we faced were mainly regarding the lack of knowledge in Max/MSP and with getting
 familiar with the systems that were introduced to us. But being aware of our group limitations and getting the
 needed support from both teachers and classmates, we overcame all difficulties.
-=======
-
-The limitations and problems we faced were mainly regarding the lack of knowledge in Max/MSP and with getting
-familiar with the systems that were introduced to us. But being aware of our group limitations and getting the
-needed support from both teachers and classmates, we overcame all difficulties.
->>>>>>> cd320ff59ab6f2d2cca208874583dce1fda6f2e9
