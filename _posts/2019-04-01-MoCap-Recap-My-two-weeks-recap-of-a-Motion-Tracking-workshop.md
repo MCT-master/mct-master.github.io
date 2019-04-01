@@ -1,7 +1,7 @@
 ---
 layout: post
 title: MoCap Recap - My two weeks recap of a Motion Tracking workshop
-date: 2019-02-22 15:30:00 +0200
+date: 2019-04-01 21:45:00 +0200
 categories: Music-related Motion Tracking
 author: Guy Sion
 image: \assets\img\guysion\ashane-mocap.jpg  
