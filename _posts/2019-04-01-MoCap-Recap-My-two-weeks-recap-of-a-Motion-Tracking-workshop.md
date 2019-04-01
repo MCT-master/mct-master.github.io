@@ -1,3 +1,4 @@
+---
 layout: post
 title: MoCap Recap - My two weeks recap of a Motion Tracking workshop
 date: 2019-04-01 21:45:00 +0200
