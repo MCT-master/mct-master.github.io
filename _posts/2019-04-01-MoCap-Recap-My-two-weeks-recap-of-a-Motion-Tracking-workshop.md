@@ -37,8 +37,10 @@ music. The experience was a bit overwhelming at times because this subject and t
 to be more advanced for my level, but I am glad I was exposed to the tools and the work that has been in the field.
 
 
+
 <center><iframe width="560" height="315" src="https://www.youtube.com/embed/LhiSDOpMbPI" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></center>
 <center>Elias is getting the maximum best score for using the calibration wand</center>
+
 
 ## Week 2
 
@@ -47,9 +49,11 @@ course. My group (including Elias and Sam) developed a Virtual DJ that utilizes 
 movements of a DJ, for manipulating parameters a musical track. Our objective was capturing DJ body movements
 (recorded and streamed) into motion capture data and to sonify these movements.
 
+
 <figure>
 <img src="\assets\img\guysion\all-panorama-mocap.jpg" width = "100%" align="center" />
 </figure>
+
 
 Our method was to use the OptiTrack/Motive system to record the motion tracking data of a DJ standing by a table
 imitating a controller deck. We exported the mocap data to a text file that can be read by a Max/MSP patch that
@@ -57,7 +61,10 @@ was developed initially by <a href="http://www.arj.no/" target="_blank">Alexande
 the exact range of our Ableton musical parameters and were successfully controlling the chosen mapped
 parameters. We used our recorded mocap data to produce video clip using the <a href="http://biomechanical-toolkit.github.io/mokka/" target="_blank">Mokka toolkit</a>. We then synchronized the video to the music we created and manipulated.
 
+
 <center><iframe width="560" height="315" src="https://www.youtube.com/embed/Hc5fiZRiAbU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></center>
+<center>Music by DJ Dr. Roman</center>
+
 
 During the last day we mostly concentrated on creating a live performance of our project as well as presenting the
 project in its entirety. With the help of Victor and Georgios we managed to live stream the mocap data to our max
@@ -66,7 +73,10 @@ presentation was not functioning properly (presenting as the second group in Osl
 that our objectives were met and that we successfully managed at the end to sonify mocap data in a convincing
 way.
 
+
 <center><iframe width="560" height="315" src="https://www.youtube.com/embed/FVG0eXRqKlg" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></center>
+<center>Music by DJ Dr. Roman</center>
+
 
 The limitations and problems we faced were mainly regarding the lack of knowledge in Max/MSP and with getting
 familiar with the systems that were introduced to us. But being aware of our group limitations and getting the
