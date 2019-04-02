@@ -1,13 +1,13 @@
 ---
 layout: post
-title: MoCap Recap - My two weeks recap of a Motion Tracking workshop
+title: MoCap Recap - Two weeks recap of a Motion Tracking workshop
 date: 2019-04-01 21:45:00 +0200
-categories: Music-related Motion Tracking
+categories: Motion-Tracking
 author: Guy Sion
 image: \assets\img\guysion\ashane-mocap.jpg  
-excerpt: "During weeks 10-11 I attended the Music related motion tracking course (MCT4043) as part of the MCT program.
+excerpt: "During weeks 10-11 we attended the Music related motion tracking course (MCT4043) as part of the MCT program.
 The week started with the installation of the OptiTrack system in Oslo, placement of cameras, connecting wires to
-hubs and software installation and setup. I got familiar with the Motive:Body software and was able to run
+hubs and software installation and setup. we got familiar with the Motive:Body software and was able to run
 calibrations, set and label markers, record motion data, export it in a correct way and experiment with sonifying
 the results with both recorded and streamed motion capture data."
 Keywords: Motion Caption, Movment, MoCap, Gestures, Virtual DJ, OptiTrack
@@ -17,20 +17,20 @@ Keywords: Motion Caption, Movment, MoCap, Gestures, Virtual DJ, OptiTrack
 <img src="\assets\img\guysion\ashane-mocap.jpg" width = "100%" align="center" />
 </figure>
 
-<p>During weeks 10-11 I attended the Music related motion tracking course (MCT4043) as part of the MCT program.
+<p>During weeks 10-11 Sam & Guy attended the Music related motion tracking course (MCT4043) as part of the MCT program.
 The week started with the installation of the OptiTrack system in Oslo, placement of cameras, connecting wires to
-hubs and software installation and setup. I got familiar with the Motive:Body software and was able to run
+hubs and software installation and setup. We got familiar with the Motive:Body software and was able to run
 calibrations, set and label markers, record motion data, export it in a correct way and experiment with sonifying
 the results with both recorded and streamed motion capture data.</p>
 
 ### Week 1
 
-<p>The first week was building up towards the <a href="https://www.hf.uio.no/ritmo/english/projects/flagship-projects/micro/events/standstill/2019/index.html" target="_blank">Nordic Championship of Standstill</a>. This gave me a good overview on all aspects of a thorough research, both in terms of preparation (calibration, paperwork, division of labor, attracting participants, testing etc.), conducting the experiment and data analysis. The MCT students have been rotating
-between the different responsibilities and I have managed to take part and be involved with all tasks during the
-week. I have also attended the lectures of the NordicSMC Winter School at RITMO, and was presented with several
-tutorials (mocap toolbox, Musical Gesture Toolbox) research and project presentations concerning motion and
+<p>The first week was building up towards the <a href="https://www.hf.uio.no/ritmo/english/projects/flagship-projects/micro/events/standstill/2019/index.html" target="_blank">Nordic Championship of Standstill</a>. This gave us a good overview on all aspects of a thorough research, both in terms of preparation (calibration, paperwork, division of labor, attracting participants, testing etc.), conducting the experiment and data analysis. The MCT students have been rotating
+between the different responsibilities and between us have managed to take part and be involved with all tasks during the
+week. We also have attended the lectures of the NordicSMC Winter School at RITMO, and was presented with several
+tutorials (mocap toolbox, Musical Gesture Toolbox) on research and project presentations concerning motion and
 music. The experience was a bit overwhelming at times because this subject and the level of the material seemed
-to be more advanced for my level, but I am glad I was exposed to the tools and the work that has been in the field.</p>
+to be more advanced for our level, but we are glad to be exposed to the tools and the work whithin the motion capture field.</p>
 
 
 <p><center><iframe width="560" height="315" src="https://www.youtube.com/embed/LhiSDOpMbPI" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></center>
@@ -40,7 +40,7 @@ to be more advanced for my level, but I am glad I was exposed to the tools and t
 ### Week 2
 
 <p>In the second week we were divided into groups and focused on a project to be presented on the last day of the
-course. My group (including Elias and Sam) developed a Virtual DJ that utilizes traditional and nontraditional
+course. The group (including Elias and Sam) developed a Virtual DJ that utilizes traditional and nontraditional
 movements of a DJ, for manipulating parameters a musical track. Our objective was capturing DJ body movements
 (recorded and streamed) into motion capture data and to sonify these movements.</p>
 
