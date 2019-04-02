@@ -76,3 +76,5 @@ way.</p>
 The limitations and problems we faced were mainly regarding the lack of knowledge in Max/MSP and with getting
 familiar with the systems that were introduced to us. But being aware of our group limitations and getting the
 needed support from both teachers and classmates, we overcame all difficulties.
+
+If we had more time to work on the project, we would of liked to explore more expressive forms of modulation. The medium allows for unique relationships between movement to create and morph sound. Another parameter that could of been harnessed was acceleration data, similar to the process used for the standstill research event done on the first week. It could be used as another unique factor to map.
