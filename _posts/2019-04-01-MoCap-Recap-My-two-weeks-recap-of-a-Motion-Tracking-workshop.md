@@ -3,7 +3,7 @@ layout: post
 title: MoCap Recap - Two weeks recap of a Motion Tracking workshop
 date: 2019-04-01 21:45:00 +0200
 categories: Motion-Tracking
-author: Guy Sion
+author: Guy Sion, Sam Roman, Elias Anderson
 image: \assets\img\guysion\ashane-mocap.jpg  
 excerpt: "During weeks 10-11 we attended the Music related motion tracking course (MCT4043) as part of the MCT program.
 The week started with the installation of the OptiTrack system in Oslo, placement of cameras, connecting wires to
