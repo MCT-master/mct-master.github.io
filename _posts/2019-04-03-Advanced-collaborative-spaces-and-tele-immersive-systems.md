@@ -10,7 +10,7 @@ Both approaches contain his main research areas on tele-immersive collaboration 
 ---
 
 <figure>
-<img src="/assets/img/nidaros_collage_leif.jpg" alt="Collage created by Leif Arne Rønningen" width="80%" align="middle"/>
+<img src="/assets/img/nidaros_collage_leif.jpg" alt="Collage created by Leif Arne Rønningen" width="100%" align="middle"/>
 <figcaption>Nidarø-Sculpture, collage created by Leif Arne Rønningen</figcaption>
 </figure>
 
