@@ -15,7 +15,7 @@ Both approaches contain his main research areas on tele-immersive collaboration 
 </figure>
 
 
-In the MCT elective course 'Sonification and Sound Design' curated by Anna Xambo we got exposed to many different approaches 
+In the MCT elective course 'Sonification and Sound Design' curated by Anna Xambó we got exposed to many different approaches 
 within the context of the sonification field from arts and sciences. Thereby sound has various functions, in science for example revealing 
 patterns that are outside our usual awareness sphere and visually difficult to 'grasp'. But sound also serves and acts in artistic auditory 
 displays which are can be unexpected and playful. Until now all lecturers were in that sense remarkably innovative and visionary. 
