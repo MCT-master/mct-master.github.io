@@ -42,8 +42,5 @@ format. The input from the image frames was then mapped to operational if-then r
 
 ### Questions, answers and reflections
 The Q&A's from the students though were mainly addressed to his visions and ideas of tele-immersive systems and how distant they are 
-from now, in years. One question was if mixed reality and collaborative spaces are competing in some way, but Leif stresses their 
-complementary role towards each other. One of the applied examples of multi-view, tele-immersive systems is the concept of the travel bureau: Beside the near-natural-virtual communication environment through a multi-view perspective on the landscape and happenings of the 
-touristic event, it would of course also include a corresponding soundscape. Technically seen most of Leif Arne's approaches are already 
-possible, but just expensive on a mass scale. External factors might accelerate the research when it comes to travelling, the days in 
-which these 'vacation scenarios' becoming real are not that far away. 
+from now, in years. One question was if mixed reality and collaborative spaces would then compete in some way, but Leif stresses their 
+complementary role towards each other. It is about studying and finding the connecting dots, a collaboration of different systems and approaches. Another questions was addressed to one of the applied examples of these so called 'multi-view-architectures', it is the concept of the travel bureau: Beside the near-natural-virtual communication environment through a multi-view perspective on the landscape and  sensoral integration into the happenings of an touristic event, it would of course also include a corresponding soundscape. Technically seen most of Leif Arne's approaches are already possible, but some of them are still too expensive for a mass market. External factors could eventually accelerate research, and the days when these "vacation scenarios" become real are most likely closer than we think and want. 
