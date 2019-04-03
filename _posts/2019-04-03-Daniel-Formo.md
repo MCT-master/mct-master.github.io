@@ -22,7 +22,7 @@ Daniel Formo (born 1978) works as a musician, composer and researcher within a b
 The Orchestra of speech explores the close relationship between music and speech, with the focus being on improvised music and everyday conversation. Daniel talks about the immense complexity of human speech, which he wants to translate into other sounds, using his unique instrument, created in Max. He is not interested in the semantic content of speech, but rather the utterances as an act – as vocal gestures, and looks for speech genres as musical expression. Speech genres being a common social language, like for instance; Smalltalk, interrogation, quarrel, baby talk etc. 
 
 <figure>
-<img src="/assets/img/varpe/OrchestraOfSpeech.PNG" width = "85%" align="center" />
+<img src="/assets/img/varpe/orchestraOfSpeech.PNG" width = "85%" align="center" />
 <figcaption><strong>The Orchestra of Speech system</strong></figcaption>
 </figure>
 
