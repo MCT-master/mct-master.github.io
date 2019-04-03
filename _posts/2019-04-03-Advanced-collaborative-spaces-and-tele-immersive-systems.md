@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Advanced collaborative spaces and tele-immersive systems"
-date:   2019-04-03 17:00
+date:   2019-04-03 14:40
 categories: Sonification
 author: Karolina Jawad
 image: /assets/img/nidaros_collage_leif.jpg
