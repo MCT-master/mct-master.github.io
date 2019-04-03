@@ -10,7 +10,7 @@ Both approaches contain his main research areas on tele-immersive collaboration 
 ---
 
 <figure>
-<img src="/assets/img/nidaros_collage_leif.jpg" alt="Collage created by Leif Arne Rønningen" width="60%" align="middle"/>
+<img src="/assets/img/nidaros_collage_leif.jpg" alt="Collage created by Leif Arne Rønningen" width="80%" align="middle"/>
 <figcaption>Nidarø-Sculpture, collage created by Leif Arne Rønningen</figcaption>
 </figure>
 
@@ -30,7 +30,7 @@ manner including the sonification of the means of presentation, a short clip, th
 engineering 'hands-on' remarks. 
 
 <figure>
-<img src="/assets/img/leif_collage.jpg" alt="Visions on advanced collaborative spaces, created by Leif Arne Rønningen" width="60%" align="middle"/>
+<img src="/assets/img/leif_collage.jpg" alt="Visions on advanced collaborative spaces, created by Leif Arne Rønningen" width="70%" align="middle"/>
 <figcaption>Visions on advanced collaborative spaces, created by Leif Arne Rønningen</figcaption>
 </figure>
 
