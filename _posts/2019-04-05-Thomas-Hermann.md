@@ -38,8 +38,9 @@ It is more or less the direct translation of data into sounds and is applicable 
   <source src="/assets/sounds/SHB-S12.3.mp3" type="audio/wav" volume="0.2">
   Your browser does not support the audio element.
 </audio>
-  <figcaption>Example S12.3: Earthquake</figcaption>
+  <figcaption><a href="http://www.sonifyer.org/sound/erdbewegung/" target="_blank">Example S12.3: Earthquake</a>.</figcaption>
 </figure>
+ 
 
 ## Earcon
 It can be defined as structured sounds that serve as index for abstract messages
