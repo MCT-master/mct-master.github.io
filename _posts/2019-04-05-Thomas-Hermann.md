@@ -51,9 +51,8 @@ It can be defined as structured sounds that serve as index for abstract messages
   Your browser does not support the audio element.
 </audio>
   <figcaption>Example S14.1: An Earcon representing a paint filee</figcaption>
-  Figure source: Brewster, Wright and Edwards (1994)
 </figure>
-
+  Figure source: Brewster, Wright and Edwards (1994)
 
 ## Auditory Icons
 It can be defined as acoustic event markers whose meaning can be understood via an association process. It is easier to understand than earcons. 
