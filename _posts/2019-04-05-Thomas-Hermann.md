@@ -38,7 +38,8 @@ It is more or less the direct translation of data into sounds and is applicable 
   <source src="/assets/sounds/SHB-S12.3.mp3" type="audio/wav" volume="0.2">
   Your browser does not support the audio element.
 </audio>
-  <figcaption><a href="http://www.sonifyer.org/sound/erdbewegung/" target="_blank">Example S12.3: Earthquake</a></figcaption>
+  <figcaption>Example S12.3: Earthquake</figcaption>
+  <figcaption><a href="http://www.sonifyer.org/sound/erdbewegung/" target="_blank">Source</a></figcaption>
 </figure>
  
 
@@ -51,8 +52,9 @@ It can be defined as structured sounds that serve as index for abstract messages
   Your browser does not support the audio element.
 </audio>
   <figcaption>Example S14.1: An Earcon representing a paint filee</figcaption>
-</figure>
   Figure source: Brewster, Wright and Edwards (1994)
+</figure>
+  
 
 ## Auditory Icons
 It can be defined as acoustic event markers whose meaning can be understood via an association process. It is easier to understand than earcons. 
@@ -63,7 +65,9 @@ It can be defined as acoustic event markers whose meaning can be understood via 
   Your browser does not support the audio element.
 </audio>
   <figcaption>Example S13.2: A flowing river</figcaption>
+   <figcaption><a href="https://sonification.de/handbook/chapters/chapter13/#S13.2" target="_blank">Source</a></figcaption>
 </figure>
+
 
 ## Parameter Mapping Sonification
 In this technique, data is mapped with different parameter of sound synthesis. Following example is taken from                         <a href="https://sonification.de/handbook/" target="_blank">'The Sonification Handbook'</a>. It shows continuous change of rising water temperature with five data points (in the original sonification, each respectively mapped to each of the five stages of heating water in traditional Chinese tea preparation simulated here).
@@ -74,6 +78,7 @@ In this technique, data is mapped with different parameter of sound synthesis. F
   Your browser does not support the audio element.
 </audio>
   <figcaption>Example S15.3:Sonifying specific data points in a sequence along with the entire process</figcaption>
+  <figcaption><a href="https://sonification.de/handbook/chapters/chapter15/#S15.3" target="_blank">Source</a></figcaption>
 </figure>
  
  
