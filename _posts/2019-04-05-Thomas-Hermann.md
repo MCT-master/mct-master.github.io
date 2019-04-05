@@ -18,7 +18,7 @@ It was my privilege and honour to facilitate a guest lecture and  introduce one 
 
 ## Sonification 
 
-We use all of our senses to perceive the world. However, while exploring the digital world, significant amount of information processing is done visually. As such, sound has become a neglected modality. Thus, Sonification can enhance our perception in better understanding of the digital world through sounds. Sound has a long tradition in science eg use of stethoscope, Geiger counter, machine diagnostics etc.
+We use all of our senses to perceive the world. However, while exploring the digital world, significant amount of information processing is done visually. As such, sound has become a neglected modality. Thus, Sonification can enhance our perception in better understanding of the digital world through sounds. Sound has a long tradition in science e.g. use of stethoscope, Geiger counter, machine diagnostics etc.
 
 Sonification is the use of non-speech audio to convey information (NSF-Report, Kramer et.al). A modern definition is put forward by Hermann T., 2008, ICAD, that says; Sonification is a technique that uses a data set as input and produces sound signals. The technique, however, should meet the following conditions; The sound should reflect objective properties or relation in the input data, the transformation is systematic, the sonification is reproducible and the system can be used with different data set. 
 
@@ -51,7 +51,7 @@ It can be defined as structured sounds that serve as index for abstract messages
   <source src="/assets/sounds/SHB-S14.1.mp3" type="audio/wav" volume="0.2">
   Your browser does not support the audio element.
 </audio>
-  <figcaption>Example S14.1: An Earcon representing a paint filee</figcaption>
+  <figcaption>Example S14.1: An Earcon representing a paint file</figcaption>
   Figure source: Brewster, Wright and Edwards (1994)
 </figure>
   
