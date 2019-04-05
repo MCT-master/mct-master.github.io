@@ -27,7 +27,9 @@ Sonification is the use of non-speech audio to convey information (NSF-Report, K
 <figure>
 <img src="/assets/img/sonification techniques.JPG" width = "100%" align="center" />
   <figcaption>Sonification Techniques</figcaption>
+   <figcaption><a href="https://uio.instructure.com/courses/17405/files/folder/Slides/Thomas%20Hermann?preview=335421" target="_blank">Source</a></figcaption>
 </figure>
+
 
 ## Audification
 
