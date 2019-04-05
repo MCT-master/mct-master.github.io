@@ -32,18 +32,18 @@ Sonification is the use of non-speech audio to convey information (NSF-Report, K
 ## Audification
 
 It is more or less the direct translation of data into sounds and is applicable only for structured data sources eg time/space etc.
-<a href="http://www.sonifyer.org/sound/erdbewegung/" target="_blank">Figure Source</a>.
+
 <figure align="middle">
 <audio controls>
   <source src="/assets/sounds/SHB-S12.3.mp3" type="audio/wav" volume="0.2">
   Your browser does not support the audio element.
 </audio>
-  <figcaption>Example S12.3: Earthquake</figcaption>
+  <figcaption><a href="http://www.sonifyer.org/sound/erdbewegung/" target="_blank">Example S12.3: Earthquake</a></figcaption>
 </figure>
  
 
 ## Earcon
-It can be defined as structured sounds that serve as index for abstract messages
+It can be defined as structured sounds that serve as index for abstract messages. 
 
 <figure align="middle">
 <audio controls>
@@ -51,7 +51,9 @@ It can be defined as structured sounds that serve as index for abstract messages
   Your browser does not support the audio element.
 </audio>
   <figcaption>Example S14.1: An Earcon representing a paint filee</figcaption>
+  Figure source: Brewster, Wright and Edwards (1994)
 </figure>
+
 
 ## Auditory Icons
 It can be defined as acoustic event markers whose meaning can be understood via an association process. It is easier to understand than earcons. 
