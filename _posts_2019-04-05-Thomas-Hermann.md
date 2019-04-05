@@ -16,7 +16,7 @@ Keywords: Thomas Hermann, Sonification
 
 It was my privilege and honour to facilitate a guest lecture and  introduce one of the Gurus in the field of sonification, Dr. Thomas Hermann. He shared his enormous knowledge on sonification with hands on exercises for two days (March 28, and 29, 2019) through the MCT portal in Trondheim. I am quite excited to share my notes and will try to cover the summary of his talks below. But first, let me give a short introduction of  the guest speaker.  Dr. Thomas Hermann is a computer scientist working in the field of Neuroinformatics. He earned his Master’s degree in Physics in 1997 and Ph.D. in Computer Science in 2002, both from Bielefeld University, Germany. The topic of his doctoral thesis is ‘ Sonification for Exploratory Data Analysis’. His research focus is on sonification, data mining, human-computer interaction and ambient intelligence. You can explore his <a href="https://pub.uni-bielefeld.de/person/11596" target="_blank">publications</a> and know more about him <a href="https://sonification.de/thermann/" target="_blank">here</a>.
 
-## Day 1: Sonification & Overview of Sonification Techniques
+## Sonification & Overview of Sonification Techniques
 
 We use all of our senses to perceive the world. However, while exploring the digital world, significant amount of information processing is done visually. As such, sound has become a neglected modality. Thus, Sonification can enhance our perception in better understanding of the digital world through sounds. Sound has a long tradition in science eg use of stethoscope, Geiger counter, machine diagnostics etc.
 
