@@ -41,11 +41,66 @@ It is more or less the direct translation of data into sounds and is applicable 
   <figcaption>Example S12.3: Earthquake</figcaption>
 </figure>
 
+## Earcon
+It can be defined as structured sounds that serve as index for abstract messages
+
+<figure align="middle">
+<audio controls>
+  <source src="/assets/sounds/SHB-S14.1.mp3" type="audio/wav" volume="0.2">
+  Your browser does not support the audio element.
+</audio>
+  <figcaption>Example S14.1: An Earcon representing a paint filee</figcaption>
+</figure>
+
+## Auditory Icons
+It can be defined as acoustic event markers whose meaning can be understood via an association process. It is easier to understand than earcons. 
+
+<figure align="middle">
+<audio controls>
+  <source src="/assets/sounds/SHB-S13.2.mp3" type="audio/wav" volume="0.2">
+  Your browser does not support the audio element.
+</audio>
+  <figcaption>Example S13.2: A flowing river</figcaption>
+</figure>
+
+## Parameter Mapping Sonification
+In this technique, data is mapped with different parameter of sound synthesis. Following example is taken from                         <a href="https://sonification.de/handbook/" target="_blank">'The Sonification Handbook'</a>. It shows continuous change of rising water temperature with five data points (in the original sonification, each respectively mapped to each of the five stages of heating water in traditional Chinese tea preparation simulated here).
+
+<figure align="middle">
+<audio controls>
+  <source src="/assets/sounds/SHB-S15.3.mp3" type="audio/wav" volume="0.2">
+  Your browser does not support the audio element.
+</audio>
+  <figcaption>Example S15.3:Sonifying specific data points in a sequence along with the entire process</figcaption>
+</figure>
+ 
+ 
+## Model Based Sonification
+Here, a data set is used to construct a virtual data object in a state of equilibrium condition. The object is then allowed to be disturbed by human interaction which transfers the energy and produces a temporal signal that can be sonified. It has many benifits over parameter mapping sonification. It is generally applicable for any type of data set. It facilitates interpretation, and the interaction with data is built-in via excitation. It can be useful in creating more complex sounds due to holistic dependencies etc. The figure below is derived from chapter 16 from <a href="https://sonification.de/handbook/" target="_blank">'The Sonification Handbook'</a>.
+
+<figure>
+<img src="/assets/img/mbs.png" width = "100%" align="center" />
+  <figcaption>Model Based Sonification</figcaption>
+</figure>
+
+## Application of Sonification and auditory display
+It can set the eyes free as a replacement of visual information and serve visually impaired people. It is very useful in data mining that enable to see hidden patterns/informations. It also enable better monitoring of complex processes for eg. in analysis of Epileptic EEG. Sonification helps to perceive dynamic changes in brain activity. Similarly, vocal EEG sonification helps to learn concepts from experience, measuring EEG of a person while sleeping etc.In the same way, Interactive sonification can substitute or amplify sensory information and can be used in rehabilitation, therapy, skills learning, sports performance etc.
 
 ## Q&A
 
-
+The talks were very intresting and thus there were plenty of questions from both Oslo and Trondheim. One question was about the adverse effect of sonification that asked if it adds in noise pollution instead. In reply, Thomas said that it’s a frequently raised issue and it is not true. He gave an example of a supermarket where numerous scanners produce high frequency(~1000Hz) sounds. He arguied that sonification could result in better design that could rather change the harmful sound into more aesthetic soundscape or entertaining and even serve multiple purposes like notifying users with various offers etc. Similarly, some questions were posed regarding sound design and reason for selecting particular type of sound. Thomas clarified that sonification design are meant for specific tasks under specific situation with specific audio context in mind. He added that, at times there could be conflicts or even trade-offs between aesthetic qualities and informative aspects. Therefore, he suggested that one should maintain a check and balance as it’s nature is subjective and open ended.  
 
 ### Final Reflections  
+
+
+
+
+
+
+
+
+
+
+
 
 
