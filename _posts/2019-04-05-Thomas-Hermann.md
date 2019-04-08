@@ -82,7 +82,7 @@ In this technique, a data set is mapped with different parameter of sound synthe
   Your browser does not support the audio element.
 </audio>
     <figcaption><a href="https://sonification.de/handbook/chapters/chapter15/#S15.3" target="_blank">Example S15.3:Sonifying specific data points in a sequence along with the entire process</a></figcaption>
-   <figcaption>Source: https://sonification.de/handbook/chapters/chapter15/#S15.3" target="_blank</figcaption>
+   <figcaption>Source: https://sonification.de/handbook/chapters/chapter15/#S15.3</figcaption>
 </figure>
  
  
