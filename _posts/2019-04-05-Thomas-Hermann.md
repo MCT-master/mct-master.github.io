@@ -1,6 +1,6 @@
 ---
 layout: post
-title: " An Overview of Sonification and Sonification Techniques by Thomas Hermann"
+title: " An Overview of Sonification by Thomas Hermann"
 date: 2019-04-05 05:00:00 +0200
 categories: Sonification
 author: Shreejay Shrestha
