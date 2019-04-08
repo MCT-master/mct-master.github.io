@@ -19,9 +19,14 @@ It was my privilege and honour to facilitate a guest lecture and  introduce one 
 
 ## Sonification 
 
-Sound has a long tradition in science e.g. in the use of Stethoscope, Geiger Counter, machine diagnostics etc. However, while exploring the digital world, significant amount of information processing is done visually. But as we use all of our senses to perceive the world, sound has become a neglected modality. Thus, through the aid of sounds, sonification can enhance our perception in better understanding of the digital world. 
+Sound has a long tradition in science e.g. in the use of Stethoscope, Geiger Counter, machine diagnostics etc. However, while exploring the digital world, significant amount of information processing is done visually. We use all of our senses to perceive the world. But in this technologically driven digital world, sound has become a neglected modality. Sonification can thus, enhance our perception in better understanding through the use of sound in the digital world. 
 
-Sonification is the use of non-speech audio to convey information (NSF-Report, Kramer et.al). A modern definition is put forward by Hermann T., 2008, ICAD, that says; Sonification is a technique that uses a data set as input and produces sound signals. The technique, however, should meet the following conditions; The sound should reflect objective properties or relation in the input data, the transformation is systematic, the sonification is reproducible and the system can be used with different data set. 
+Sonification is the use of non-speech audio to convey information (Kramer et.al, 1997). A modern definition is put forward by Hermann(2008) who says; Sonification is a technique that uses a data set as input and produces sound signals. As per the definition, the technique should however meet the following conditions; The sound should reflect objective properties or relation in the input data, the transformation is systematic, the sonification is reproducible and the system can be used with different data set. 
+
+<figure>
+<img src="/assets/img/sonification_defn.JPG" width = "100%" align="center" />
+<figcaption>Definition of Sonification as per hermann, 2008 </figcaption>
+</figure>
 
 ## Overview of Sonification Techniques
 
@@ -30,7 +35,6 @@ Sonification is the use of non-speech audio to convey information (NSF-Report, K
   <figcaption>Sonification Techniques</figcaption>
    <figcaption><a href="https://uio.instructure.com/courses/17405/files/folder/Slides/Thomas%20Hermann?preview=335421" target="_blank">Source (slide no.5)</a></figcaption>
 </figure>
-
 
 ## Audification
 
@@ -107,7 +111,15 @@ The talks were very intresting and thus there were plenty of questions from both
 I was very inspired by Thomas's ideas and his works in the field of sonification. I had goosebumps when he showed the example of EEG of a boy showing his brain activity. It was breathtaking to see how well sonification communicated the state of his mind which is,in my openion, far more superior than any other visual display. Besides, I have been dazzled with whole new facets of music since the beginning of the MCT program. And the talks in this MCT4046 Sonification and Sound Design course has driven me to a next level. Its a great experience being exposed to professionals working with sounds/music technology in many different ways. I feel so proud to be a part of the MCT program.
 
 #### Reference
-Hermann, T., Hunt, A., & Neuhoff, J. G. (2011). The Sonification Handbook (1st ed.). Berlin: Logos Publishing House.
+Hermann, T. (2008). TAXONOMY AND DEFINITIONS FOR SONIFICATION AND AUDITORY DISPLAY. 14th International Conference on Auditory Display, Paris, France June 24 - 27, 2008. Retrieved from http://www.icad.org/Proceedings/2008/Hermann2008.pdf on 02 April, 2019.
+
+Hermann, T., Hunt, A., & Neuhoff, J. G. (2011). The Sonification Handbook (1st ed.). Berlin: Logos Publishing House. Retrieved from https://sonification.de/handbook/ on 02 April 2019.
+
+Kramer, G., Bargar, R., Barrass, S., Berger, J., Evreinov, G., Tecumseh Fitch, W., … Tipei, S. (1997). Sonification Report: Status of the Field and Research Agenda. Presented at the The National Science Foundation (NSF) by members of the ICAD (International Community for Auditory Display). Retrieved from http://www.icad.org/websiteV2.0/References/nsf.html on  02 April, 2019.
+
+
+
+
 
 
 
