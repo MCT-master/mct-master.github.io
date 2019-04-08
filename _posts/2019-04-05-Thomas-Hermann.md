@@ -21,11 +21,11 @@ It was my privilege and honour to facilitate a guest lecture and  introduce one 
 
 Sound has a long tradition in science e.g. in the use of Stethoscope, Geiger Counter, machine diagnostics etc. However, while exploring the digital world, significant amount of information processing is done visually. We use all of our senses to perceive the world. But in this technologically driven digital world, sound has become a neglected modality. Sonification can thus, enhance our perception in better understanding through the use of sound in the digital world. 
 
-Sonification is the use of non-speech audio to convey information (Kramer et.al, 1997). A modern definition is put forward by Hermann(2008) who says; Sonification is a technique that uses a data set as input and produces sound signals. As per the definition, the technique should however meet the following conditions; The sound should reflect objective properties or relation in the input data, the transformation is systematic, the sonification is reproducible and the system can be used with different data set. 
+Sonification is the use of non-speech audio to convey information (Kramer et.al, 1997). A modern definition is put forward by Hermann(2008). As per the definition, a technique that uses a data set as input and produces sound signals can be termed as sonification if it meets the following conditions; The sound should reflect objective properties or relation in the input data, the transformation is systematic, the sonification is reproducible and the system can be used with different data set. 
 
 <figure>
 <img src="/assets/img/sonification_defn.JPG" width = "100%" align="center" />
-<figcaption>Definition of Sonification as per hermann, 2008 </figcaption>
+<figcaption>Definition of Sonification as per Hermann, 2008 </figcaption>
 </figure>
 
 ## Overview of Sonification Techniques
