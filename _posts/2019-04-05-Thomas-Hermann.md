@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Two days of workshop on Sonification with Thomas Hermann"
+title: " An Overview of Sonification and Sonification Techniques by Thomas Hermann"
 date: 2019-04-05 05:00:00 +0200
 categories: Sonification
 author: Shreejay Shrestha
