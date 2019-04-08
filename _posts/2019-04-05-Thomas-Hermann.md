@@ -46,7 +46,7 @@ Audification is the process of direct translation of data into sounds.It is appl
   Your browser does not support the audio element.
 </audio>
   <figcaption><a href="http://www.sonifyer.org/sound/erdbewegung/" target="_blank">Example S12.3: Earthquake</a></figcaption>
-  <figcaption>Source: www.sonifyer.org/sound/erdbewegung</figcaption>
+  <figcaption>Source: Hermann, Hunt, & Neuhoff, 2011 </figcaption>
   </figure>
  
 
@@ -59,7 +59,7 @@ Earcons are structured sounds that serve as index for abstract messages.
   Your browser does not support the audio element.
 </audio>
   <figcaption><a href=" https://sonification.de/handbook/chapters/chapter14/#S14.2" target="_blank">Example S14.1: An Earcon representing a paint file</a></figcaption>
-<figcaption>Source: https://sonification.de/handbook/chapters/chapter14/#S14.1</figcaption>
+<figcaption>Source: Hermann et. al., 2011</figcaption>
 </figure>
  
 
@@ -73,7 +73,7 @@ It can be defined as acoustic event markers whose meaning can be understood via 
 </audio>
   
    <figcaption><a href="https://sonification.de/handbook/chapters/chapter13/#S13.2" target="_blank">Example S13.2: A flowing river</a></figcaption>
-   <figcaption>Source: https://sonification.de/handbook/chapters/chapter13/#S13.2</figcaption>
+   <figcaption>Source: Hermann et. al., 2011</figcaption>
 </figure>
 
 
@@ -86,7 +86,7 @@ In this technique, a data set is mapped with different parameter of sound synthe
   Your browser does not support the audio element.
 </audio>
     <figcaption><a href="https://sonification.de/handbook/chapters/chapter15/#S15.3" target="_blank">Example S15.3:Sonifying specific data points in a sequence along with the entire process</a></figcaption>
-   <figcaption>Source: https://sonification.de/handbook/chapters/chapter15/#S15.3</figcaption>
+   <figcaption>Source: Hermann et. al., 2011</figcaption>
 </figure>
  
  
@@ -96,7 +96,7 @@ Here, a data set is used to construct a virtual data object in a state of equili
 <figure>
 <img src="/assets/img/mbs.png" width = "100%" align="center" />
   <figcaption>Model Based Sonification</figcaption>
-  <figcaption>Source: Hermann, Hunt, & Neuhoff, 2011</figcaption>
+  <figcaption>Source: Hermann et. al., 2011</figcaption>
 </figure>
 
 ## Application of Sonification and auditory display
