@@ -40,9 +40,9 @@ Audification is the process of direct translation of data into sounds.It is appl
   <source src="/assets/sounds/SHB-S12.3.mp3" type="audio/wav" volume="0.2">
   Your browser does not support the audio element.
 </audio>
-  <figcaption>Example S12.3: Earthquake</figcaption>
-  <figcaption><a href="http://www.sonifyer.org/sound/erdbewegung/" target="_blank">Source</a></figcaption>
-</figure>
+  <figcaption><a href="http://www.sonifyer.org/sound/erdbewegung/" target="_blank">Example S12.3: Earthquake</a></figcaption>
+  <figcaption>Source:www.sonifyer.org/sound/erdbewegung</figcaption>
+  </figure>
  
 
 ## Earcon
