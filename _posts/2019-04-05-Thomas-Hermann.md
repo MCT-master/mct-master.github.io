@@ -12,7 +12,7 @@ Keywords: Thomas Hermann, Sonification
 <figure>
 <img src="/assets/img/thermann-photo-2009.jpg " width = "100%" align="center" />
   <figcaption>Dr. Thomas Hermann</figcaption>
-  <figcaption>figure source:https://sonification.de/thermann/thermann-photo-2009/</figcaption>
+  <figcaption>Source: https://sonification.de/thermann/thermann-photo-2009/</figcaption>
 </figure>
 
 It was my privilege and honour to facilitate a guest lecture and  introduce one of the 'Gurus' in the field of sonification, Dr. Thomas Hermann. He shared his enormous knowledge on sonification with hands on exercises for two days (March 28, and 29, 2019) through the MCT portal in Trondheim. I am quite excited to share my notes and will try to cover the summary of his talks below. But first, let me give a short introduction of  the guest speaker.  Dr. Thomas Hermann is a computer scientist working in the field of Neuroinformatics. He earned his Master’s degree in Physics in 1997 from Bielefeld University, Germany. He also achieved his Ph.D. in Computer Science in 2002 from Bielefeld University with his thesis on‘ Sonification for Exploratory Data Analysis’. His research focus is on sonification, data mining, human-computer interaction and ambient intelligence. You can explore his <a href="https://pub.uni-bielefeld.de/person/11596" target="_blank">publications</a> and know more about him <a href="https://sonification.de/thermann/" target="_blank">here</a>.
@@ -42,7 +42,7 @@ Audification is the process of direct translation of data into sounds.It is appl
   Your browser does not support the audio element.
 </audio>
   <figcaption><a href="http://www.sonifyer.org/sound/erdbewegung/" target="_blank">Example S12.3: Earthquake</a></figcaption>
-  <figcaption>Source:www.sonifyer.org/sound/erdbewegung</figcaption>
+  <figcaption>Source: www.sonifyer.org/sound/erdbewegung</figcaption>
   </figure>
  
 
@@ -54,10 +54,10 @@ Earcons are structured sounds that serve as index for abstract messages.
   <source src="/assets/sounds/SHB-S14.1.mp3" type="audio/wav" volume="0.2">
   Your browser does not support the audio element.
 </audio>
-  <figcaption>Example S14.1: An Earcon representing a paint file</figcaption>
-  Figure source: Brewster, Wright and Edwards (1994)
+  <figcaption><a href=" https://sonification.de/handbook/chapters/chapter14/#S14.2" target="_blank">Example S14.1: An Earcon representing a paint file</a></figcaption>
+<figcaption>Source: https://sonification.de/handbook/chapters/chapter14/#S14.1</figcaption>
 </figure>
-  
+ 
 
 ## Auditory Icons
 It can be defined as acoustic event markers whose meaning can be understood via an association process. It is easier to understand than earcons. 
@@ -67,8 +67,9 @@ It can be defined as acoustic event markers whose meaning can be understood via 
   <source src="/assets/sounds/SHB-S13.2.mp3" type="audio/wav" volume="0.2">
   Your browser does not support the audio element.
 </audio>
-  <figcaption>Example S13.2: A flowing river</figcaption>
-   <figcaption><a href="https://sonification.de/handbook/chapters/chapter13/#S13.2" target="_blank">Source</a></figcaption>
+  
+   <figcaption><a href="https://sonification.de/handbook/chapters/chapter13/#S13.2" target="_blank">Example S13.2: A flowing river</a></figcaption>
+   <figcaption>Source: https://sonification.de/handbook/chapters/chapter13/#S13.2</figcaption>
 </figure>
 
 
@@ -80,8 +81,8 @@ In this technique, a data set is mapped with different parameter of sound synthe
   <source src="/assets/sounds/SHB-S15.3.mp3" type="audio/wav" volume="0.2">
   Your browser does not support the audio element.
 </audio>
-  <figcaption>Example S15.3:Sonifying specific data points in a sequence along with the entire process</figcaption>
-  <figcaption><a href="https://sonification.de/handbook/chapters/chapter15/#S15.3" target="_blank">Source</a></figcaption>
+    <figcaption><a href="https://sonification.de/handbook/chapters/chapter15/#S15.3" target="_blank">Example S15.3:Sonifying specific data points in a sequence along with the entire process</a></figcaption>
+   <figcaption>Source: https://sonification.de/handbook/chapters/chapter15/#S15.3" target="_blank</figcaption>
 </figure>
  
  
@@ -91,6 +92,7 @@ Here, a data set is used to construct a virtual data object in a state of equili
 <figure>
 <img src="/assets/img/mbs.png" width = "100%" align="center" />
   <figcaption>Model Based Sonification</figcaption>
+  <figcaption>Source: Hermann, Hunt, & Neuhoff, 2011</figcaption>
 </figure>
 
 ## Application of Sonification and auditory display
