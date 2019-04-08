@@ -18,7 +18,7 @@ It was my privilege and honour to facilitate a guest lecture and  introduce one 
 
 ## Sonification 
 
-We use all of our senses to perceive the world. However, while exploring the digital world, significant amount of information processing is done visually. As such, sound has become a neglected modality. Thus, Sonification can enhance our perception in better understanding of the digital world through sounds. Sound has a long tradition in science e.g. use of stethoscope, Geiger counter, machine diagnostics etc.
+Sound has a long tradition in science e.g. in the use of Stethoscope, Geiger Counter, machine diagnostics etc. However, while exploring the digital world, significant amount of information processing is done visually. But as we use all of our senses to perceive the world, sound has become a neglected modality. Thus, through the aid of sounds, sonification can enhance our perception in better understanding of the digital world. 
 
 Sonification is the use of non-speech audio to convey information (NSF-Report, Kramer et.al). A modern definition is put forward by Hermann T., 2008, ICAD, that says; Sonification is a technique that uses a data set as input and produces sound signals. The technique, however, should meet the following conditions; The sound should reflect objective properties or relation in the input data, the transformation is systematic, the sonification is reproducible and the system can be used with different data set. 
 
@@ -33,7 +33,7 @@ Sonification is the use of non-speech audio to convey information (NSF-Report, K
 
 ## Audification
 
-It is more or less the direct translation of data into sounds and is applicable only for structured data sources eg time/space etc.
+Audification is the process of direct translation of data into sounds.It is applicable only for structured data sources eg time/space etc.
 
 <figure align="middle">
 <audio controls>
@@ -46,7 +46,7 @@ It is more or less the direct translation of data into sounds and is applicable 
  
 
 ## Earcon
-It can be defined as structured sounds that serve as index for abstract messages. 
+Earcons are structured sounds that serve as index for abstract messages. 
 
 <figure align="middle">
 <audio controls>
@@ -72,7 +72,7 @@ It can be defined as acoustic event markers whose meaning can be understood via 
 
 
 ## Parameter Mapping Sonification
-In this technique, data is mapped with different parameter of sound synthesis. Following example is taken from                         <a href="https://sonification.de/handbook/" target="_blank">'The Sonification Handbook'</a>. It shows continuous change of rising water temperature with five data points (in the original sonification, each respectively mapped to each of the five stages of heating water in traditional Chinese tea preparation simulated here).
+In this technique, a data set is mapped with different parameter of sound synthesis. Following example is taken from                         <a href="https://sonification.de/handbook/" target="_blank">'The Sonification Handbook'</a>. It shows continuous change of rising water temperature with five data points (in the original sonification, each respectively mapped to each of the five stages of heating water in traditional Chinese tea preparation simulated here).
 
 <figure align="middle">
 <audio controls>
@@ -93,7 +93,7 @@ Here, a data set is used to construct a virtual data object in a state of equili
 </figure>
 
 ## Application of Sonification and auditory display
-It can set the eyes free as a replacement of visual information and thereby can serve as a powerful medium for visually impaired people. It is very useful in data mining that enable to see hidden patterns/informations. It also enable better monitoring of complex processes for eg. in analysis of Epileptic EEG as sonification helps to perceive dynamic changes in brain activity. Similarly, vocal EEG sonification helps to learn concepts from experience, measuring EEG of a person while sleeping etc.In the same way, Interactive sonification can substitute or amplify sensory information and can be used in rehabilitation, therapy, skills learning, sports performance etc.
+The applicatoiins of sonification is quite diverse. It can set the eyes free as a replacement of visual information and serve as a powerful medium for visually impaired people. It is very useful in data mining that enable to see hidden patterns/informations. It also enable better monitoring of complex processes for eg. in analysis of Epileptic EEG as sonification helps to perceive dynamic changes in brain activity. Similarly, vocal EEG sonification helps to learn concepts from experience, measuring EEG of a person while sleeping etc.In the same way, Interactive sonification can substitute or amplify sensory information and can be used in rehabilitation, therapy, skills learning, sports performance etc.
 
 ## Q&A
 
