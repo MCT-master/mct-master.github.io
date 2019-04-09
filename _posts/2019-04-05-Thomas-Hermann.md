@@ -5,7 +5,7 @@ date: 2019-04-05 05:00:00 +0200
 categories: Sonification
 author: Shreejay Shrestha
 image: /assets/img/thermann-photo-2009.jpg 
-excerpt: "It was my privilege and honour to facilitate a guest lecture and  introduce one of the 'Gurus' in the field of sonification, Dr. Thomas Hermann. He shared his enormous knowledge on sonification with hands on exercises for two days (March 28, and 29, 2019) through the MCT portal in Trondheim. I am quite excited to share my notes and will try to cover the summary of his talks in this blog."
+excerpt: "It was my privilege and honour to facilitate a guest lecture and introduce one of the 'Gurus' in the field of sonification, Dr. Thomas Hermann. He shared his enormous knowledge on sonification with hands on exercises for two days (March 28, and 29, 2019) through the MCT portal in Trondheim. I am quite excited to share my notes and will try to cover the summary of his talks in this blog."
 Keywords: Thomas Hermann, Sonification
 ---
 
@@ -15,13 +15,13 @@ Keywords: Thomas Hermann, Sonification
   <figcaption>Source: https://sonification.de/thermann/thermann-photo-2009/</figcaption>
 </figure>
 
-It was my privilege and honour to facilitate a guest lecture and  introduce one of the 'Gurus' in the field of sonification, Dr. Thomas Hermann. He shared his enormous knowledge on sonification with hands on exercises for two days (March 28, and 29, 2019) through the MCT portal in Trondheim. I am quite excited to share my notes and will try to cover the summary of his talks below. But first, let me give a short introduction of  the guest speaker.  Dr. Thomas Hermann is a computer scientist working in the field of Neuroinformatics. He earned his Master’s degree in Physics in 1997 from Bielefeld University, Germany. He also achieved his Ph.D. in Computer Science in 2002 from Bielefeld University with his thesis on‘ Sonification for Exploratory Data Analysis’. His research focus is on sonification, data mining, human-computer interaction and ambient intelligence. You can explore his <a href="https://pub.uni-bielefeld.de/person/11596" target="_blank">publications</a> and know more about him <a href="https://sonification.de/thermann/" target="_blank">here</a>.
+It was my privilege and honour to facilitate a guest lecture and introduce one of the 'Gurus' in the field of sonification, Dr. Thomas Hermann. He shared his enormous knowledge on sonification with hands on exercises for two days (March 28, and 29, 2019) through the MCT portal in Trondheim. I am quite excited to share my notes and will try to cover the summary of his talks below. But first, let me give a short introduction of the guest speaker.  Dr. Thomas Hermann is a computer scientist working in the field of Neuroinformatics. He earned his master’s degree in Physics in 1997 from Bielefeld University, Germany. He also achieved his Ph.D. in Computer Science in 2002 from Bielefeld University with his thesis on‘ Sonification for Exploratory Data Analysis’. His research focus is on sonification, data mining, human-computer interaction and ambient intelligence. You can explore his <a href="https://pub.uni-bielefeld.de/person/11596" target="_blank">publications</a> and know more about him <a href="https://sonification.de/thermann/" target="_blank">here</a>.
 
 ## Sonification 
 
-Sound has a long tradition in science e.g. in the use of Stethoscope, Geiger Counter, machine diagnostics etc. However, while exploring the digital world, significant amount of information processing is done visually. We use all of our senses to perceive the world. But in this technologically driven digital world, sound has become a neglected modality. Sonification can thus, enhance our perception in better understanding through the use of sound in the digital world. 
+Sound has a long tradition in science e.g. in the use of Stethoscope, Geiger Counter, machine diagnostics etc. In contrast, visual activity has been dominating the processing and dissemination of information in our digital world. Nonetheless we use all our senses to perceive the world. Thus sonification can play a significant role in the enhancement of our perception in this digital world by using the neglected modality of sound.
 
-Sonification is the use of non-speech audio to convey information (Kramer et.al, 1997). A modern definition is put forward by Hermann(2008). As per the definition, a technique that uses a data set as input and produces sound signals can be termed as sonification if it meets the following conditions; The sound should reflect objective properties or relation in the input data, the transformation is systematic, the sonification is reproducible and the system can be used with different data set. 
+Sonification is the use of non-speech audio to convey information (Kramer et.al, 1997). A relatively modern definition is put forward by Hermann(2008). As per the definition, a technique that uses a data set as input and produces sound signals, can be termed as sonification if it meets the following conditions; The sound should reflect objective properties or relation in the input data, the transformation is systematic, the sonification is reproducible and the system can be used with different data set. 
 
 <figure>
 <img src="/assets/img/sonification_defn.JPG" width = "100%" align="center" />
@@ -57,7 +57,7 @@ Earcons are structured sounds that serve as index for abstract messages. For exa
   <source src="/assets/sounds/SHB-S14.1.mp3" type="audio/wav" volume="0.2">
   Your browser does not support the audio element.
 </audio>
-  <figcaption><a href=" https://sonification.de/handbook/chapters/chapter14/#S14.2" target="_blank">Example S14.1: arcon representing a paint file</a></figcaption>
+  <figcaption><a href=" https://sonification.de/handbook/chapters/chapter14/#S14.2" target="_blank">Example S14.1: Earcon representing a paint file</a></figcaption>
 <figcaption>Source: Hermann et. al., 2011</figcaption>
 </figure>
  
@@ -90,7 +90,7 @@ In this technique, a data set is mapped with different parameter of sound synthe
  
  
 ## Model Based Sonification
-Here, a data set is used to construct a virtual data object in a state of equilibrium condition. The object is then allowed to be disturbed by human interaction which transfers the energy and produces a temporal signal that can be sonified. It has many benifits over parameter mapping sonification. It is generally applicable for any type of data set. It facilitates interpretation, and the interaction with data is built-in via excitation. It can be useful in creating more complex sounds due to holistic dependencies etc. 
+Here, a data set is used to construct a virtual data object in a state of equilibrium. The object is then allowed to be operated by human interaction which transfers the energy and produces a temporal signal that can be sonified. It has many benifits over parameter mapping sonification. It is generally applicable for any type of data set. It facilitates interpretation, and the interaction with data is built-in via excitation. It can be useful in creating more complex sounds due to holistic dependencies etc. 
 
 <figure>
 <img src="/assets/img/mbs.png" width = "100%" align="center" />
@@ -99,11 +99,11 @@ Here, a data set is used to construct a virtual data object in a state of equili
 </figure>
 
 ## Application of Sonification and auditory display
-The applicatoiins of sonification is quite diverse. It can set the eyes free as a replacement of visual information and serve as a powerful medium for visually impaired people. It is very useful in data mining that enable to see hidden patterns/informations. It also enable better monitoring of complex processes for eg. in analysis of Epileptic EEG as sonification helps to perceive dynamic changes in brain activity. Similarly, vocal EEG sonification helps to learn concepts from experience, measuring EEG of a person while sleeping etc.In the same way, Interactive sonification can substitute or amplify sensory information and can be used in rehabilitation, therapy, skills learning, sports performance etc.
+The application of sonification is quite diverse. It can set the eyes free as a replacement of visual information and serve as a powerful medium for visually impaired people. It can be useful in data mining enabling to see hidden patterns/informations. Similarly, it enables better monitoring of complex processes for eg. in analysis of epileptic brain activity as sonification of EEG helps to perceive dynamic changes in brain activity. Likewise, vocal EEG sonification helps to learn concepts from experience, measuring EEG of a person while sleeping etc. Moreover, interactive sonification can substitute or amplify sensory information which can be used in rehabilitation, therapy, skills learning, sports performance etc.
 
 ## Q&A
 
-The talks were very intresting and thus there were plenty of questions from both Oslo and Trondheim. One question was about the adverse effect of sonification that asked if it adds in noise pollution instead. In reply, Thomas said that it’s a frequently raised issue and it is not true. He gave an example of a supermarket where numerous scanners produce high frequency(~1000Hz) sounds. He arguied that sonification could result in better sound design that could rather change the harmful soundscape into more healthy, aesthetically more pleasing or entertaining. It could even be designed to serve multiple purposes like notifying users with various offers etc. Similarly, some questions were posed regarding sound design and reason for selecting particular type of sound. Thomas clarified that sonification design are meant for specific tasks under specific situation with specific audio context in mind. He added that, at times there could be conflicts or even trade-offs between aesthetic qualities and informative aspects. Therefore, he suggested that one should maintain a check and balance as it’s nature is often subjective and open ended.  
+The talks were very intresting and thus there were plenty of questions from both Oslo and Trondheim. One question was about the adverse effect of sonification that asked if it adds in noise pollution instead. In reply, Thomas said that it’s a frequently raised issue which is totally untrue. He explained it giving an example of a supermarket where numerous scanners produce high frequency(~1000Hz) sounds. He arguied that sonification could result in better sound design that could rather change the harmful soundscape into more healthy, aesthetically more pleasing or entertaining. It could even be designed to serve multiple purposes like notifying users with various offers etc. Similarly, some questions were posed regarding sound design and reasons for selecting particular type of sound. Thomas clarified that sonification designs are meant for specific tasks under specific situation with specific audio context in mind. He added that, at times there could be conflicts or even trade-offs between aesthetic qualities and informative aspects. Therefore, he suggested that one should maintain a check and balance as it’s nature is often subjective and open ended.  
 
 ### Final Reflections  
 
