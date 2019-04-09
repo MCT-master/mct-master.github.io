@@ -50,7 +50,7 @@ Audification is the process of direct translation of data into sounds.It is appl
  
 
 ## Earcon
-Earcons are structured sounds that serve as index for abstract messages. For example, those who are using windows operating system may be aware of system sounds when starting the computer or getting some error messages, earcons are these type of sounds. Below is another similar kind of example
+Earcons are structured sounds that serve as index for abstract messages. For example, those who are using windows operating system in their computer may be aware of the system sounds when starting the computer or getting some error messages, earcons are these type of sounds. Below is another similar kind of example.
 
 <figure align="middle">
 <audio controls>
