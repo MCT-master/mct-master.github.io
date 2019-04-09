@@ -21,7 +21,7 @@ It was my privilege and honour to facilitate a guest lecture and introduce one o
 
 Sound has a long tradition in science e.g. in the use of Stethoscope, Geiger Counter, machine diagnostics etc. In contrast, visual activity has been dominating the processing and dissemination of information in our digital world. Nonetheless we use all our senses to perceive the world. Thus sonification can play a significant role in the enhancement of our perception in this digital world by using the neglected modality of sound.
 
-Sonification is the use of non-speech audio to convey information (Kramer et.al, 1997). A relatively modern definition is put forward by Hermann(2008). As per the definition, a technique that uses a data set as input and produces sound signals, can be termed as sonification if it meets the following conditions; The sound should reflect objective properties or relation in the input data, the transformation is systematic, the sonification is reproducible and the system can be used with different data set. 
+Sonification is the use of non-speech audio to convey information (Kramer et.al, 1999). A relatively modern definition is put forward by Hermann(2008). As per the definition, a technique that uses a data set as input and produces sound signals, can be termed as sonification if it meets the following conditions; The sound should reflect objective properties or relation in the input data, the transformation is systematic, the sonification is reproducible and the system can be used with different data set. 
 
 <figure>
 <img src="/assets/img/sonification_defn.JPG" width = "100%" align="center" />
