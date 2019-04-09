@@ -114,9 +114,9 @@ I was very inspired by Thomas's ideas and his works in the field of sonification
 Hermann, T. (2008). *TAXONOMY AND DEFINITIONS FOR SONIFICATION AND AUDITORY DISPLAY.* 14th International Conference on Auditory Display,      Paris, France June 24 - 27, 2008. Retrieved from : <a href="http://www.icad.org/Proceedings/2008/Hermann2008.pdf" target="_blank">http://www.icad.org/Proceedings/2008/Hermann2008.pdf</a>.
 
 
-Hermann, T., Hunt, A., & Neuhoff, J. G. (2011). *The Sonification Handbook (1st ed.)*. Berlin: Logos Publishing House. Retrieved from        <a href= "https://sonification.de/handbook/"target ="_blank">https://sonification.de/handbook/</a> on 02 April 2019.
+Hermann, T., Hunt, A., & Neuhoff, J. G. (2011). *The Sonification Handbook (1st ed.)*. Berlin: Logos Publishing House. Retrieved from        <a href="https://sonification.de/handbook/" target="_blank">https://sonification.de/handbook/</a>.
 
-Kramer, G., Bargar, R., Barrass, S., Berger, J., Evreinov, G., Tecumseh Fitch, W., … Tipei, S. (1999). *Sonification Report: Status of      the Field and Research Agenda*. International Community for Auditory Display. Retrieved from <a href= "http://www.icad.org/websiteV2.0/References/nsf.html"target="_blank">http://www.icad.org/websiteV2.0/References/nsf.html</a> on  02 April, 2019.
+Kramer, G., Bargar, R., Barrass, S., Berger, J., Evreinov, G., Tecumseh Fitch, W., … Tipei, S. (1999). *Sonification Report: Status of      the Field and Research Agenda*. International Community for Auditory Display. Retrieved from <a href= "http://www.icad.org/websiteV2.0/References/nsf.html" target="_blank">http://www.icad.org/websiteV2.0/References/nsf.html</a>.
 
 
 
