@@ -37,7 +37,7 @@ Sonification is the use of non-speech audio to convey information (Kramer et.al,
 
 ## Audification
 
-Audification is the process of direct translation of data into sounds.It is applicable only for structured data sources eg time/space etc.
+Audification is the process of direct translation of data into sounds.It is applicable only for structured data sources eg time/space etc. The following example is an audification of earthquake in Tohoku, Japan, 2011/03/11 - 2011/03/12. 
 
 <figure align="middle">
 <audio controls>
@@ -50,20 +50,20 @@ Audification is the process of direct translation of data into sounds.It is appl
  
 
 ## Earcon
-Earcons are structured sounds that serve as index for abstract messages. 
+Earcons are structured sounds that serve as index for abstract messages. For example, those who are using windows operating system may be aware of system sounds when starting the computer or getting some error messages, earcons are these type of sounds. Below is another similar kind of example
 
 <figure align="middle">
 <audio controls>
   <source src="/assets/sounds/SHB-S14.1.mp3" type="audio/wav" volume="0.2">
   Your browser does not support the audio element.
 </audio>
-  <figcaption><a href=" https://sonification.de/handbook/chapters/chapter14/#S14.2" target="_blank">Example S14.1: An Earcon representing a paint file</a></figcaption>
+  <figcaption><a href=" https://sonification.de/handbook/chapters/chapter14/#S14.2" target="_blank">Example S14.1: arcon representing a paint file</a></figcaption>
 <figcaption>Source: Hermann et. al., 2011</figcaption>
 </figure>
  
 
 ## Auditory Icons
-It can be defined as acoustic event markers whose meaning can be understood via an association process. It is easier to understand than earcons. 
+It can be defined as acoustic event markers whose meaning can be understood via an association process. It is easier to understand than earcons because unlike earcons, the sounds do not have abstract meaning. Auditory icons have an existing relationship between the sound and the information that it is providing.
 
 <figure align="middle">
 <audio controls>
