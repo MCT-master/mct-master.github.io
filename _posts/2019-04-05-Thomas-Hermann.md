@@ -77,7 +77,7 @@ It can be defined as acoustic event markers whose meaning can be understood via 
 
 
 ## Parameter Mapping Sonification
-In this technique, a data set is mapped with different parameter of sound synthesis. Following example is taken from                         <a href="https://sonification.de/handbook/" target="_blank">'The Sonification Handbook'</a>. It shows continuous change of rising water temperature with five data points (in the original sonification, each respectively mapped to each of the five stages of heating water in traditional Chinese tea preparation simulated here).
+In this technique, a data set is mapped with different parameter of sound synthesis. Following example is taken from                         <a href="https://sonification.de/handbook/" target="_blank">'The Sonification Handbook'</a>. It shows continuous change of rising water temperature with five data points.
 
 <figure align="middle">
 <audio controls>
