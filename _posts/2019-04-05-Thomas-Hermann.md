@@ -76,7 +76,7 @@ It can be defined as acoustic event markers whose meaning can be understood via 
 </figure>
 
 ## Parameter Mapping Sonification (PMSon)
-In this technique, a data set is mapped with different parameter of sound synthesis. Following example is taken from                         <a href="https://sonification.de/handbook/" target="_blank">'The Sonification Handbook'</a>. It shows continuous change of rising water temperature with five data points.
+In this technique, a data set is mapped with different parameter of sound synthesis. Below is an example of **PMSon** which shows a continuous change of rising water temperature with five data points.
 
 <figure align="middle">
 <audio controls>
