@@ -40,7 +40,7 @@ Sonification is the use of non-speech audio to convey information (Kramer et.al,
 
 ## Audification
 
-Audification is the process of direct translation of data into sounds.It is applicable only for structured data sources eg time/space etc. The following example is an audification of earthquake in Tohoku, Japan, 2011/03/11 - 2011/03/12. 
+Audification is the process of direct translation of data into sounds. It is applicable only for structured data sources eg time/space etc. The following example is an audification of earthquake in Tohoku, Japan, 2011/03/11 - 2011/03/12. 
 
 <figure align="middle">
 <audio controls>
@@ -53,7 +53,7 @@ Audification is the process of direct translation of data into sounds.It is appl
  
 
 ## Earcon
-Earcons are structured sounds that serve as index for abstract messages. For example, those who are using windows operating system in their computer may be aware of the system sounds when starting the computer or getting some error messages, earcons are these type of sounds. Below is another similar kind of example.
+Earcons are structured sounds that serve as index for abstract messages. For example, those who are using windows operating system in their computer, may be aware of the system sounds when the computer starts or gets some error messages etc., earcons are these type of sounds. Below is another similar kind of example.
 
 <figure align="middle">
 <audio controls>
@@ -66,7 +66,7 @@ Earcons are structured sounds that serve as index for abstract messages. For exa
  
 
 ## Auditory Icons
-It can be defined as acoustic event markers whose meaning can be understood via an association process. It is easier to understand than earcons because unlike earcons, the sounds do not have abstract meaning. Auditory icons have an existing relationship between the sound and the information that it is providing.
+It can be defined as acoustic event markers whose meaning can be understood via an association process. It is easier to understand than earcons because unlike earcons, auditory icons do not reflect abstract meaning. Auditory icons have an existing relationship between the sound and the information that it is providing.
 
 <figure align="middle">
 <audio controls>
@@ -94,7 +94,7 @@ In this technique, a data set is mapped with different parameter of sound synthe
 # Day 2 
 ## Model Based Sonification (MBS)
 In the second day, Thomas went in more detail explaining about **MBS** and various applications of sonification.
-In **MBS**, a data set is used to construct a virtual data object in a state of equilibrium. The object is then allowed to be **interfered by human interaction** which transfers **energy** over the object and produces a temporal signal that can be **sonified**. It is very different from **PMson** and has many benifits over it. For instance, **PMSon** is about mapping certain sound sequence to data and user has no control over sounds produced. In contrast, **MBS** does not work at all without intereference of a user. Moreover, the user can control the sound depeneding upon how he/she interacts with the model because **MBS** is quite similar to Newton's third law of motion: **For every action there is an equal and opposite reaction**.
+In **MBS**, a data set is used to construct a virtual data object in a state of equilibrium. The object is then allowed to be **interfered by human interaction** which transfers **energy** over the object and produces a temporal signal that can be **sonified**. It is very different from **PMson** and has many benifits over it. For instance, **PMSon** is about mapping certain sound sequence to data and user has no control over sounds produced. In contrast, **MBS** does not work at all without intereference of a user. Moreover, user can control the sound depeneding upon how he/she interacts with the model because **MBS** is quite similar to Newton's third law of motion: **For every action there is an equal and opposite reaction**.
 
 <figure>
 <img src="/assets/img/mbs.png" width = "100%" align="center" />
@@ -103,7 +103,7 @@ In **MBS**, a data set is used to construct a virtual data object in a state of 
 </figure>
 
 ## Application of Sonification
-The application of sonification is quite diverse. It can set the eyes free as a replacement of visual information and serve as a powerful medium for visually impaired people. It can be useful in data mining enabling to see hidden patterns/informations. Similarly, it enables better monitoring of complex processes for eg. in analysis of epileptic brain activity as sonification of EEG helps to perceive dynamic changes in brain activity. Likewise, vocal EEG sonification helps to learn concepts from experience, measuring EEG of a person while sleeping etc. Moreover, interactive sonification can substitute or amplify sensory information which can be used in rehabilitation, therapy, skills learning, sports performance etc.
+The application of sonification is quite diverse. It can set the eyes free as a replacement of visual information and serves as a powerful medium for visually impaired people. It can be useful in data mining enabling to see hidden patterns/informations. Similarly, it enables better monitoring of complex processes for eg. in analysis of epileptic brain activity as sonification of EEG helps to perceive dynamic changes in brain activity. Likewise, vocal EEG sonification helps to learn concepts from experience, measuring EEG of a person while sleeping etc. Likewise, interactive sonification can substitute or amplify sensory information which can be used in rehabilitation, therapy, skills learning, sports performance etc.
 
 ## Q&A Sessions
 
