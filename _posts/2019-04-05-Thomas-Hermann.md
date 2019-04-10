@@ -23,12 +23,12 @@ It was my privilege and honour to facilitate a guest lecture and introduce one o
 
 In the first day, Thomas introduced taxonomy and definition for sonification and auditory display, making us aware that sonification itself is relatively at its developing phase. While sound has a long tradition in science e.g. in the use of Stethoscope, Geiger Counter, machine diagnostics etc., visual elements have been dominating the processing and dissemination of information in the digital age. Nonetheless, we use all our senses to perceive the world. Thus sonification can play a significant role in the enhancement of our perception in this era of computers by using the neglected modality of sound.
 
-Sonification is the use of non-speech audio to convey information (Kramer et.al, 1999). Hermann(2008) has given a relatively modern definition of sonification as a technique, that uses a data set as input and produces sound signals, if it meets the following conditions; The sound should reflect objective properties or relation in the input data, the transformation is systematic, the sonification is reproducible and the system can be used with different data set. Moreover, Thomas also gave an overview of sonification techniques as follows;
-
 <figure>
 <img src="/assets/img/sonification_defn.JPG" width = "100%" align="center" />
 <figcaption>Definition of Sonification as per Hermann, 2008 </figcaption>
 </figure>
+
+Sonification is the use of non-speech audio to convey information (Kramer et.al, 1999). Hermann(2008) has given a relatively modern definition of sonification as a technique, that uses a data set as input and produces sound signals, if it meets the following conditions; The sound should reflect objective properties or relation in the input data, the transformation is systematic, the sonification is reproducible and the system can be used with different data set. Moreover, Thomas also gave an overview of sonification techniques as follows;
 
 ## Overview of Sonification Techniques
 
@@ -36,7 +36,6 @@ Sonification is the use of non-speech audio to convey information (Kramer et.al,
 <img src="/assets/img/sonification techniques.JPG" width = "100%" align="center" />
   <figcaption>Sonification Techniques</figcaption>
   </figure>
-
 
 ## Audification
 
@@ -51,7 +50,6 @@ Audification is the process of direct translation of data into sounds. It is app
   <figcaption>Source: Hermann, Hunt, & Neuhoff, 2011 </figcaption>
   </figure>
  
-
 ## Earcon
 Earcons are structured sounds that serve as index for abstract messages. For example, those who are using windows operating system in their computer, may be aware of the system sounds when the computer starts or gets some error messages etc., earcons are these type of sounds. Below is another similar kind of example.
 
@@ -64,7 +62,6 @@ Earcons are structured sounds that serve as index for abstract messages. For exa
 <figcaption>Source: Hermann et. al., 2011</figcaption>
 </figure>
  
-
 ## Auditory Icons
 It can be defined as acoustic event markers whose meaning can be understood via an association process. It is easier to understand than earcons because unlike earcons, auditory icons do not reflect abstract meaning. Auditory icons have an existing relationship between the sound and the information that it is providing.
 
@@ -77,7 +74,6 @@ It can be defined as acoustic event markers whose meaning can be understood via 
    <figcaption><a href="https://sonification.de/handbook/chapters/chapter13/#S13.2" target="_blank">Example S13.2: A flowing river</a></figcaption>
    <figcaption>Source: Hermann et. al., 2011</figcaption>
 </figure>
-
 
 ## Parameter Mapping Sonification (PMSon)
 In this technique, a data set is mapped with different parameter of sound synthesis. Following example is taken from                         <a href="https://sonification.de/handbook/" target="_blank">'The Sonification Handbook'</a>. It shows continuous change of rising water temperature with five data points.
