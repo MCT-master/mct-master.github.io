@@ -19,9 +19,9 @@ It was my privilege and honour to facilitate a guest lecture and introduce one o
 
 # Day 1
 
-## Sonification 
-
 In the first day, Thomas introduced taxonomy and definition for sonification and auditory display, making us aware that sonification itself is relatively at its developing phase. While sound has a long tradition in science e.g. in the use of Stethoscope, Geiger Counter, machine diagnostics etc., visual elements have been dominating the processing and dissemination of information in the digital age. Nonetheless, we use all our senses to perceive the world. Thus sonification can play a significant role in the enhancement of our perception in this era of computers by using the neglected modality of sound.
+
+## Sonification 
 
 <figure>
 <img src="/assets/img/sonification_defn.JPG" width = "100%" align="center" />
