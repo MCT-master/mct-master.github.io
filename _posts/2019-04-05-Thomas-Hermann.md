@@ -100,7 +100,7 @@ In **MBS**, a data set is used to construct a virtual data object in a state of 
 </figure>
 
 ## Wave Space Sonification (WSS)
-**WSS** in a newly established novel class of sonification technique for time-space indexed data. It provides a system for navigation of data to form a high dimensional sound space and allows users to control the soundscape and configure the multidimensional sound space. For a proper definition, Hermann(2018) defines **WSS** as the transformation of data into sound signal by sampling **wave space function** while moving along the **embedded trajectory** by means of chosen **time-advancement morphing**. For more detail, please follow Thomas’s paper on <a href="https://smartech.gatech.edu/bitstream/handle/1853/60087/ICAD2018_026.pdf?sequence=1&isAllowed=y" target="_blank">WSS</a>.
+**WSS** is a newly established novel class of sonification technique for time-space indexed data. It provides a system for navigation of data to form a high dimensional sound space and allows users to control the soundscape and configure the multidimensional sound space. For a proper definition, Hermann(2018) defines **WSS** as the transformation of data into sound signal by sampling **wave space function** while moving along the **embedded trajectory** by means of chosen **time-advancement morphing**. For more detail, please follow Thomas’s paper on <a href="https://smartech.gatech.edu/bitstream/handle/1853/60087/ICAD2018_026.pdf?sequence=1&isAllowed=y" target="_blank">WSS</a>.
 
 <figure>
 <img src="/assets/img/WSS.JPG" width = "100%" align="center" />
