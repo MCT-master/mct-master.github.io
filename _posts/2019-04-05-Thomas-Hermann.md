@@ -89,8 +89,7 @@ In this technique, a data set is mapped with different parameter of sound synthe
  
 # Day 2 
 ## Model Based Sonification (MBS)
-In the second day, Thomas went in more detail explaining about **MBS** and various applications of sonification.
-In **MBS**, a data set is used to construct a virtual data object in a state of equilibrium. The object is then allowed to be **interfered by human interaction** which transfers **energy** over the object and produces a temporal signal that can be **sonified**. It is very different from **PMSon** and has many benifits over it. For instance, **PMSon** is about mapping certain sound sequence to data and user has no control over sounds produced. In contrast, **MBS** does not work at all without intereference of a user. Moreover, user can control the sound depeneding upon how he/she interacts with the model because **MBS** is quite similar to Newton's third law of motion: **For every action there is an equal and opposite reaction**.
+In the second day, Thomas talked about sonification techniques beyond parameter mapping. These include Model based sonification and Wave Space Sonification. In **MBS**, a data set is used to construct a virtual data object in a state of equilibrium. The object is then allowed to be **interfered by human interaction** which transfers **energy** over the object and produces a temporal signal that can be **sonified**. It is very different from **PMSon** and has many benifits over it. For instance, **PMSon** is about mapping certain sound sequence to data and user has no control over sounds produced. In contrast, **MBS** does not work at all without intereference of a user. Moreover, user can control the sound depeneding upon how he/she interacts with the model because **MBS** is quite similar to Newton's third law of motion: **For every action there is an equal and opposite reaction**.
 
 <figure>
 <img src="/assets/img/mbs.png" width = "100%" align="center" />
