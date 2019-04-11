@@ -98,6 +98,16 @@ In **MBS**, a data set is used to construct a virtual data object in a state of 
   <figcaption>Source: Hermann et. al., 2011</figcaption>
 </figure>
 
+## Wave Space Sonification (WSS)
+**WSS** in a newly established novel class of sonification technique for time-space indexed data. It provides a system for navigation of data to form a high dimensional sound space and allows users to control the soundscape and configure the multidimensional sound space. For a proper definition, Hermann(2018) defines **WSS** as the transformation of data into sound signal by sampling **wave space function** while moving along the **embedded trajectory** by means of chosen **time-advancement morphing**. For more detail, please follow Thomas’s paper on <a href="https://smartech.gatech.edu/bitstream/handle/1853/60087" target="_blank">WSS</a>.
+
+<figure>
+<img src="/assets/img/WSS.JPG" width = "100%" align="center" />
+  <figcaption>Wave Space Sonification</figcaption>
+  <figcaption>Source: Hermann, 2018</figcaption>
+</figure>
+
+
 ## Application of Sonification
 Apart from **Earcons** and **Auditory Icons**, rest of the techniques can be used for time-series sonification. Besides, the application of sonification is quite diverse. It can set the eyes free as a replacement of visual information and serves as a powerful medium for visually impaired people. It can be useful in data mining enabling to see hidden patterns/informations. Similarly, it enables better monitoring of complex processes for eg. in analysis of epileptic brain activity as sonification of EEG helps to perceive dynamic changes in brain activity. Likewise, vocal EEG sonification helps to learn concepts from experience, measuring EEG of a person while sleeping etc. Likewise, interactive sonification can substitute or amplify sensory information which can be used in rehabilitation, therapy, skills learning, sports performance etc.
 
@@ -110,6 +120,8 @@ The talks were very intresting and thus there were plenty of questions from both
 I was very inspired by Thomas's ideas and his works in the field of sonification. I had goosebumps when he showed the example of EEG of a boy showing his brain activity. It was breathtaking to see how well sonification communicated the state of his mind which is,in my openion, far more superior than any other visual display. Besides, I have been dazzled with whole new facets of music since the beginning of the MCT program. And the talks in this MCT4046 Sonification and Sound Design course has driven me to a next level. Its a great experience being exposed to professionals working with sounds/music technology in many different ways. I feel so proud to be a part of the MCT program.
 
 #### Reference
+Hermann, T. (2008). *WAVE SPACE SONIFICATION*. 24th International Conference on Auditory Display, Michigan Technological University June 10 - 18, 2018. Retrieved from: <a href="https://smartech.gatech.edu/bitstream/handle/1853/60087" target="_blank">https://smartech.gatech.edu/bitstream/handle/1853/60087</a>.
+
 Hermann, T. (2008). *TAXONOMY AND DEFINITIONS FOR SONIFICATION AND AUDITORY DISPLAY.* 14th International Conference on Auditory Display,      Paris, France June 24 - 27, 2008. Retrieved from: <a href="http://www.icad.org/Proceedings/2008/Hermann2008.pdf" target="_blank">http://www.icad.org/Proceedings/2008/Hermann2008.pdf</a>.
 
 
