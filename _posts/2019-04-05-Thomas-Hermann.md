@@ -99,7 +99,7 @@ In **MBS**, a data set is used to construct a virtual data object in a state of 
 </figure>
 
 ## Application of Sonification
-The application of sonification is quite diverse. It can set the eyes free as a replacement of visual information and serves as a powerful medium for visually impaired people. It can be useful in data mining enabling to see hidden patterns/informations. Similarly, it enables better monitoring of complex processes for eg. in analysis of epileptic brain activity as sonification of EEG helps to perceive dynamic changes in brain activity. Likewise, vocal EEG sonification helps to learn concepts from experience, measuring EEG of a person while sleeping etc. Likewise, interactive sonification can substitute or amplify sensory information which can be used in rehabilitation, therapy, skills learning, sports performance etc.
+Apart from **Earcons** and **Auditory Icons**, rest of the techniques can be used for time-series sonification. Besides, the application of sonification is quite diverse. It can set the eyes free as a replacement of visual information and serves as a powerful medium for visually impaired people. It can be useful in data mining enabling to see hidden patterns/informations. Similarly, it enables better monitoring of complex processes for eg. in analysis of epileptic brain activity as sonification of EEG helps to perceive dynamic changes in brain activity. Likewise, vocal EEG sonification helps to learn concepts from experience, measuring EEG of a person while sleeping etc. Likewise, interactive sonification can substitute or amplify sensory information which can be used in rehabilitation, therapy, skills learning, sports performance etc.
 
 ## Q&A Sessions
 
