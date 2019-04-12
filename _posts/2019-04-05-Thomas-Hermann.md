@@ -19,9 +19,9 @@ It was my privilege and honour to facilitate a guest lecture and introduce one o
 
 # Day 1
 
-## Sonification 
-
 In the first day, Thomas introduced taxonomy and definition for sonification and auditory display, making us aware that sonification itself is relatively at its developing phase. While sound has a long tradition in science e.g. in the use of Stethoscope, Geiger Counter, machine diagnostics etc., visual elements have been dominating the processing and dissemination of information in the digital age. Nonetheless, we use all our senses to perceive the world. Thus sonification can play a significant role in the enhancement of our perception in this era of computers by using the neglected modality of sound.
+
+## Sonification 
 
 <figure>
 <img src="/assets/img/sonification_defn.JPG" width = "100%" align="center" />
@@ -88,8 +88,9 @@ In this technique, a data set is mapped with different parameter of sound synthe
 </figure>
  
 # Day 2 
+In the second day, Thomas talked about sonification techniques beyond parameter mapping. These include **Model based sonification (MBS)** and **Wave Space Sonification (WSS)**.
+
 ## Model Based Sonification (MBS)
-In the second day, Thomas went in more detail explaining about **MBS** and various applications of sonification.
 In **MBS**, a data set is used to construct a virtual data object in a state of equilibrium. The object is then allowed to be **interfered by human interaction** which transfers **energy** over the object and produces a temporal signal that can be **sonified**. It is very different from **PMSon** and has many benifits over it. For instance, **PMSon** is about mapping certain sound sequence to data and user has no control over sounds produced. In contrast, **MBS** does not work at all without intereference of a user. Moreover, user can control the sound depeneding upon how he/she interacts with the model because **MBS** is quite similar to Newton's third law of motion: **For every action there is an equal and opposite reaction**.
 
 <figure>
@@ -98,8 +99,18 @@ In **MBS**, a data set is used to construct a virtual data object in a state of 
   <figcaption>Source: Hermann et. al., 2011</figcaption>
 </figure>
 
+## Wave Space Sonification (WSS)
+**WSS** is a newly established novel class of sonification technique for time-space indexed data. It provides a system for navigation of data to form a high dimensional sound space and allows users to control the soundscape and configure the multidimensional sound space. For a proper definition, Hermann(2018) defines **WSS** as the transformation of data into sound signal by sampling **wave space function** while moving along the **embedded trajectory** by means of chosen **time-advancement morphing**. For more detail, please follow Thomas’s paper on <a href="https://smartech.gatech.edu/bitstream/handle/1853/60087/ICAD2018_026.pdf?sequence=1&isAllowed=y" target="_blank">WSS</a>.
+
+<figure>
+<img src="/assets/img/WSS.JPG" width = "100%" align="center" />
+  <figcaption>Wave Space Sonification</figcaption>
+  <figcaption>Source: Hermann, 2018</figcaption>
+</figure>
+
+
 ## Application of Sonification
-The application of sonification is quite diverse. It can set the eyes free as a replacement of visual information and serves as a powerful medium for visually impaired people. It can be useful in data mining enabling to see hidden patterns/informations. Similarly, it enables better monitoring of complex processes for eg. in analysis of epileptic brain activity as sonification of EEG helps to perceive dynamic changes in brain activity. Likewise, vocal EEG sonification helps to learn concepts from experience, measuring EEG of a person while sleeping etc. Likewise, interactive sonification can substitute or amplify sensory information which can be used in rehabilitation, therapy, skills learning, sports performance etc.
+Apart from **Earcons** and **Auditory Icons**, rest of the techniques can be used for time-series sonification. Besides, the application of sonification is quite diverse. It can set the eyes free as a replacement of visual information and serves as a powerful medium for visually impaired people. It can be useful in data mining enabling to see hidden patterns/informations. Similarly, it enables better monitoring of complex processes for eg. in analysis of epileptic brain activity as sonification of EEG helps to perceive dynamic changes in brain activity. Likewise, vocal EEG sonification helps to learn concepts from experience, measuring EEG of a person while sleeping etc. Likewise, interactive sonification can substitute or amplify sensory information which can be used in rehabilitation, therapy, skills learning, sports performance etc.
 
 ## Q&A Sessions
 
@@ -110,6 +121,8 @@ The talks were very intresting and thus there were plenty of questions from both
 I was very inspired by Thomas's ideas and his works in the field of sonification. I had goosebumps when he showed the example of EEG of a boy showing his brain activity. It was breathtaking to see how well sonification communicated the state of his mind which is,in my openion, far more superior than any other visual display. Besides, I have been dazzled with whole new facets of music since the beginning of the MCT program. And the talks in this MCT4046 Sonification and Sound Design course has driven me to a next level. Its a great experience being exposed to professionals working with sounds/music technology in many different ways. I feel so proud to be a part of the MCT program.
 
 #### Reference
+Hermann, T. (2018). *WAVE SPACE SONIFICATION*. 24th International Conference on Auditory Display, Michigan Technological University June 10 - 18, 2018. Retrieved from: <a href="https://smartech.gatech.edu/bitstream/handle/1853/60087/ICAD2018_026.pdf?sequence=1&isAllowed=y" target="_blank">https://smartech.gatech.edu/bitstream/handle/1853/60087/ICAD2018_026.pdf?sequence=1&isAllowed=y</a>.
+
 Hermann, T. (2008). *TAXONOMY AND DEFINITIONS FOR SONIFICATION AND AUDITORY DISPLAY.* 14th International Conference on Auditory Display,      Paris, France June 24 - 27, 2008. Retrieved from: <a href="http://www.icad.org/Proceedings/2008/Hermann2008.pdf" target="_blank">http://www.icad.org/Proceedings/2008/Hermann2008.pdf</a>.
 
 
