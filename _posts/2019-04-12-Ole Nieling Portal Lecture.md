@@ -42,13 +42,13 @@ A good proportion of the talk was discussing how we, and children learn. One pro
 
 ### OLME - Instrument Prototype for Kids.
 
+Children learn a universal language early on, and learn far deeper than an adult. Ole shows many examples proving this - coca cola’s pushing their brand on children, and Genie Wiley a dutch girl who couldn’t learn grammar after being isolated from human society. 
+During Ole’s preparation for this project he derived some inspiration. Children are almost continually in a state off flow (1975 Mihaly Csikszentmihalyi) and humans can have a ‘eureka’ moment (Pythagoras, Kairos). It should look inviting for exploration - a space station console is shown as an example of what a child would love to play with!  Lift buttons also are great for excitement with children- always responsive, lights up and moves the lift instantly!
+
 <figure align="middle">
 <img src="/assets/img/54_OLMEt.jpg" alt="" width="50%">
 <figcaption align="middle"><strong>OLME prototypes</strong></figcaption>
 </figure>
-
-Children learn a universal language early on, and learn far deeper than an adult. Ole shows many examples proving this - coca cola’s pushing their brand on children, and Genie Wiley a dutch girl who couldn’t learn grammar after being isolated from human society. 
-During Ole’s preparation for this project he derived some inspiration. Children are almost continually in a state off flow (1975 Mihaly Csikszentmihalyi) and humans can have a ‘eureka’ moment (Pythagoras, Kairos). It should look inviting for exploration - a space station console is shown as an example of what a child would love to play with!  Lift buttons also are great for excitement with children- always responsive, lights up and moves the lift instantly!
 
 Ole wanted to produce a learning instrument for children that could be more like playing with clay – a musical sandbox of sorts. This will differ from the plastic, fake instruments regularly on the market today. 
 
