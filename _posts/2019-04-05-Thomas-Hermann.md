@@ -25,8 +25,8 @@ In the first day, Thomas introduced taxonomy and definition for sonification and
 
 <figure>
 <img src="/assets/img/sonification_defn.JPG" width = "100%" align="center" />
-<figcaption>Diagram reproduced from T. Hermann (2008), TAXONOMY AND DEFINITIONS FOR SONIFICATION AND AUDITORY DISPLAY, http://www.icad.org/Proceedings/2008/Hermann2008.pdf </figcaption>
 </figure>
+<figcaption><a href="http://www.icad.org/Proceedings/2008/Hermann2008.pdf" target="_blank">Diagram reproduced from T. Hermann (2008), TAXONOMY AND DEFINITIONS FOR SONIFICATION AND AUDITORY DISPLAY, http://www.icad.org/Proceedings/2008/Hermann2008.pdf</a></figcaption>
 
 Sonification is the use of non-speech audio to convey information (Kramer et.al, 1999). Hermann(2008) has given a relatively modern definition of sonification as a technique, that uses a data set as input and produces sound signals, if it meets the following conditions; The sound should reflect objective properties or relation in the input data, the transformation is systematic, the sonification is reproducible and the system can be used with different data set. Thomas also gave an overview of sonification techniques as follows;
 
@@ -91,7 +91,7 @@ In **MBS**, a data set is used to construct a virtual data object in a state of 
 
 <figure>
 <img src="/assets/img/mbs.png" width = "100%" align="center" />
-<figcaption>Diagram reproduced from Hermann, T., Hunt, A., & Neuhoff, J. G.(2011), The Sonification Handbook, https://sonification.de/handbook/chapters/chapter16/
+<figcaption><a href="https://sonification.de/handbook/chapters/chapter16/" target="_blank">Diagram reproduced from Hermann, T., Hunt, A., & Neuhoff, J. G.(2011), The Sonification Handbook, https://sonification.de/handbook/chapters/chapter16/</a></figcaption>
 </figure>
 
 ## Wave Space Sonification (WSS)
@@ -99,7 +99,7 @@ In **MBS**, a data set is used to construct a virtual data object in a state of 
 
 <figure>
 <img src="/assets/img/WSS.JPG" width = "100%" align="center" />
-<figcaption>Diagram reproduced from T. Hermann (2018), WAVE SPACE SONIFICATION, https://pub.uni-bielefeld.de/record/2919707</figcaption>
+<figcaption><a href="https://pub.uni-bielefeld.de/record/2919707" target="_blank">Diagram reproduced from T. Hermann (2018), WAVE SPACE SONIFICATION, https://pub.uni-bielefeld.de/record/2919707</a></figcaption>
 </figure>
 
 
