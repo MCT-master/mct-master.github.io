@@ -91,17 +91,15 @@ In **MBS**, a data set is used to construct a virtual data object in a state of 
 
 <figure>
 <img src="/assets/img/mbs.png" width = "100%" align="center" />
-  <figcaption>Model Based Sonification</figcaption>
-  <figcaption>Source: Hermann et. al., 2011</figcaption>
+<figcaption>Diagram reproduced from Hermann, T., Hunt, A., & Neuhoff, J. G.(2011), The Sonification Handbook, https://sonification.de/handbook/chapters/chapter16/
 </figure>
 
 ## Wave Space Sonification (WSS)
-**WSS** is a newly established novel class of sonification technique for time-space indexed data.  Hermann(2018) defines **WSS** as the transformation of data into sound signal by sampling **wave space function** while moving along the **embedded trajectory** by means of chosen **time-advancement morphing**. It provides a system for defining (1) geometric objects(trajectories) from time-sequenced data and (2) a wave space of equal dimensionality. In essence, the time series navigates a high-dimensional wave space and probes it's sound to create the sonification. For more detail, please follow Thomas’s paper on <a href="https://smartech.gatech.edu/bitstream/handle/1853/60087/ICAD2018_026.pdf?sequence=1&isAllowed=y" target="_blank">WSS</a>.
+**WSS** is a newly established novel class of sonification technique for time-space indexed data.  Hermann(2018) defines **WSS** as the transformation of data into sound signal by sampling **wave space function** while moving along the **embedded trajectory** by means of chosen **time-advancement morphing**. It provides a system for defining (1) geometric objects(trajectories) from time-sequenced data and (2) a wave space of equal dimensionality. In essence, the time series navigates a high-dimensional wave space and probes it's sound to create the sonification. For more detail, please follow Thomas’s paper on <a href=" https://pub.uni-bielefeld.de/record/2919707" target="_blank">WSS</a>.
 
 <figure>
 <img src="/assets/img/WSS.JPG" width = "100%" align="center" />
-  <figcaption>Diagram reproduced from T. Hermann (2018),WAVE SPACE SONIFICATION, https://pub.uni-bielefeld.de/record/2919707</figcaption>
-  <figcaption>Source: Hermann, 2018</figcaption>
+<figcaption>Diagram reproduced from T. Hermann (2018), WAVE SPACE SONIFICATION, https://pub.uni-bielefeld.de/record/2919707</figcaption>
 </figure>
 
 
