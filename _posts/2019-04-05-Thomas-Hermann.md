@@ -25,8 +25,8 @@ In the first day, Thomas introduced taxonomy and definition for sonification and
 
 <figure>
 <img src="/assets/img/sonification_defn.JPG" width = "100%" align="center" />
-</figure>
 <figcaption><a href="http://www.icad.org/Proceedings/2008/Hermann2008.pdf" target="_blank">Diagram reproduced from T. Hermann (2008), TAXONOMY AND DEFINITIONS FOR SONIFICATION AND AUDITORY DISPLAY, http://www.icad.org/Proceedings/2008/Hermann2008.pdf</a></figcaption>
+</figure>
 
 Sonification is the use of non-speech audio to convey information (Kramer et.al, 1999). Hermann(2008) has given a relatively modern definition of sonification as a technique, that uses a data set as input and produces sound signals, if it meets the following conditions; The sound should reflect objective properties or relation in the input data, the transformation is systematic, the sonification is reproducible and the system can be used with different data set. Thomas also gave an overview of sonification techniques as follows;
 
