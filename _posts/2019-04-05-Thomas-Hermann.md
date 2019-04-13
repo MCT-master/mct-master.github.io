@@ -15,7 +15,7 @@ Keywords: Thomas Hermann, Sonification
   <figcaption><a href="https://sonification.de/thermann/thermann-photo-2009/" target="_blank">Pic Source: https://sonification.de/</a></figcaption>
 </figure>
 
-It was my privilege and honour to facilitate a guest lecture and introduce one of the 'Gurus' in the field of sonification, Dr. Thomas Hermann. He shared his enormous knowledge on sonification with hands on exercises for two days (March 28, and 29, 2019) through the MCT portal in Trondheim. I am quite excited to share my notes and will try to cover the summary of his talks below. But first, let me give a short introduction of the guest speaker.  Dr. Thomas Hermann is a computer scientist working in the field of Neuroinformatics. He earned his master’s degree in Physics in 1997 from Bielefeld University, Germany. He also achieved his Ph.D. in Computer Science in 2002 from Bielefeld University with his thesis on‘ Sonification for Exploratory Data Analysis’. His research focus is on sonification, data mining, human-computer interaction and ambient intelligence. You can explore his <a href="https://pub.uni-bielefeld.de/person/11596" target="_blank">publications</a> and know more about him <a href="https://sonification.de/thermann/" target="_blank">here</a>.
+It was my privilege and honour to facilitate a guest lecture and introduce one of the 'Gurus' in the field of sonification, Dr. Thomas Hermann. He shared his enormous knowledge on sonification with hands on exercises for two days (March 28, and 29, 2019) through the MCT portal in Trondheim. I am quite excited to share my notes and will try to cover the summary of his talks below. But first, let me give a short introduction of the guest speaker.  Dr. Thomas Hermann is a computer scientist working in the field of Cognitive Interaction Technology. He earned his master’s degree in Physics in 1997 from Bielefeld University, Germany. He also achieved his Ph.D. in Computer Science in 2002 from Bielefeld University with his thesis on‘ Sonification for Exploratory Data Analysis’. His research focus is on sonification, data mining, human-computer interaction and ambient intelligence. You can explore his <a href="https://pub.uni-bielefeld.de/person/11596" target="_blank">publications</a> and know more about him <a href="https://sonification.de/thermann/" target="_blank">here</a>.
 
 # Day 1
 
@@ -25,7 +25,7 @@ In the first day, Thomas introduced taxonomy and definition for sonification and
 
 <figure>
 <img src="/assets/img/sonification_defn.JPG" width = "100%" align="center" />
-<figcaption>Definition of Sonification as per Hermann, 2008 </figcaption>
+<figcaption>Diagram reproduced from T. Hermann (2008), TAXONOMY AND DEFINITIONS FOR SONIFICATION AND AUDITORY DISPLAY, http://www.icad.org/Proceedings/2008/Hermann2008.pdf </figcaption>
 </figure>
 
 Sonification is the use of non-speech audio to convey information (Kramer et.al, 1999). Hermann(2008) has given a relatively modern definition of sonification as a technique, that uses a data set as input and produces sound signals, if it meets the following conditions; The sound should reflect objective properties or relation in the input data, the transformation is systematic, the sonification is reproducible and the system can be used with different data set. Thomas also gave an overview of sonification techniques as follows;
@@ -34,8 +34,8 @@ Sonification is the use of non-speech audio to convey information (Kramer et.al,
 
 <figure>
 <img src="/assets/img/sonification techniques.JPG" width = "100%" align="center" />
-  <figcaption>Sonification Techniques</figcaption>
-  </figure>
+<figcaption><a href="https://sonification.de/media/SonTechniques.png" target="_blank">Figure adapted from https://sonification.de/media/SonTechniques.png</a></figcaption>
+</figure>
 
 ## Audification
 
@@ -43,12 +43,11 @@ Audification is the process of direct translation of data into sounds. It is app
 
 <figure align="middle">
 <audio controls>
-  <source src="/assets/sounds/SHB-S12.3.mp3" type="audio/wav" volume="0.2">
-  Your browser does not support the audio element.
+<source src="/assets/sounds/SHB-S12.3.mp3" type="audio/wav" volume="0.2">
+Your browser does not support the audio element.
 </audio>
-  <figcaption><a href="http://www.sonifyer.org/sound/erdbewegung/" target="_blank">Example S12.3: Earthquake</a></figcaption>
-  <figcaption>Source: Hermann, Hunt, & Neuhoff, 2011 </figcaption>
-  </figure>
+<figcaption><a href="http://www.sonifyer.org/sound/erdbewegung/" target="_blank">Sound example by www.sonifyer.org taken from https://sonification.de/handbook/chapters/chapter12/#S12.3</a></figcaption>
+</figure>
  
 ## Earcon
 Earcons are structured sounds that serve as index for abstract messages. For example, those who are using windows operating system in their computer, may be aware of the system sounds when the computer starts or gets some error messages etc., earcons are these type of sounds. Below is another similar kind of example.
@@ -58,8 +57,7 @@ Earcons are structured sounds that serve as index for abstract messages. For exa
   <source src="/assets/sounds/SHB-S14.1.mp3" type="audio/wav" volume="0.2">
   Your browser does not support the audio element.
 </audio>
-  <figcaption><a href=" https://sonification.de/handbook/chapters/chapter14/#S14.2" target="_blank">Example S14.1: Earcon representing a paint file</a></figcaption>
-<figcaption>Source: Hermann et. al., 2011</figcaption>
+  <figcaption><a href=" https://sonification.de/handbook/chapters/chapter14/#S14.2" target="_blank">Sound example by T. Hermann, A. Hunt and J.G. Neuhoff taken from https://sonification.de/handbook/chapters/chapter14/#S14.2</a></figcaption>
 </figure>
  
 ## Auditory Icons
@@ -71,8 +69,7 @@ It can be defined as acoustic event markers whose meaning can be understood via 
   Your browser does not support the audio element.
 </audio>
   
-   <figcaption><a href="https://sonification.de/handbook/chapters/chapter13/#S13.2" target="_blank">Example S13.2: A flowing river</a></figcaption>
-   <figcaption>Source: Hermann et. al., 2011</figcaption>
+<figcaption><a href="https://sonification.de/handbook/chapters/chapter13/#S13.2" target="_blank">Sound example by T. Hermann, A. Hunt and J.G. Neuhoff taken from https://sonification.de/handbook/chapters/chapter13/#S13.2 </a></figcaption>
 </figure>
 
 ## Parameter Mapping Sonification (PMSon)
@@ -83,15 +80,14 @@ In this technique, a data set is mapped with different parameter of sound synthe
   <source src="/assets/sounds/SHB-S15.3.mp3" type="audio/wav" volume="0.2">
   Your browser does not support the audio element.
 </audio>
-    <figcaption><a href="https://sonification.de/handbook/chapters/chapter15/#S15.3" target="_blank">Example S15.3:Sonifying specific data points in a sequence along with the entire process</a></figcaption>
-   <figcaption>Source: Hermann et. al., 2011</figcaption>
+    <figcaption><a href="https://sonification.de/handbook/chapters/chapter15/#S15.3" target="_blank">Sound example by T. Hermann, A. Hunt and J.G. Neuhoff taken from https://sonification.de/handbook/chapters/chapter15/#S15.3 </a></figcaption>
 </figure>
  
 # Day 2 
 In the second day, Thomas talked about sonification techniques beyond parameter mapping. These include **Model based sonification (MBS)** and **Wave Space Sonification (WSS)**.
 
 ## Model Based Sonification (MBS)
-In **MBS**, a data set is used to construct a virtual data object in a state of equilibrium. The object is then allowed to be **interfered by human interaction** which transfers **energy** over the object and produces a temporal signal that can be **sonified**. It is very different from **PMSon** and has many benifits over it. For instance, **PMSon** is about mapping certain sound sequence to data and user has no control over sounds produced. In contrast, **MBS** does not work at all without intereference of a user. Moreover, user can control the sound depeneding upon how he/she interacts with the model because **MBS** is quite similar to Newton's third law of motion: **For every action there is an equal and opposite reaction**.
+In **MBS**, a data set is used to construct a virtual data object in a state of equilibrium. The object is then allowed to be **interfered by human interaction** which transfers **energy** over the object and produces a temporal signal that can be **sonified**. It is very different from **PMSon** and has many benifits over it. For instance, **PMSon** is about mapping certain sound sequence to data and user has no control over sounds produced. In contrast, **MBS** does not work at all without interference of a user. Moreover, user can control the sound depeneding upon how he/she interacts with the model. **MBS** can be designed in a very physically plausible way, for instance by respecting Newton's third law of motion: **For every action there is an equal and opposite reaction**.
 
 <figure>
 <img src="/assets/img/mbs.png" width = "100%" align="center" />
@@ -100,11 +96,11 @@ In **MBS**, a data set is used to construct a virtual data object in a state of 
 </figure>
 
 ## Wave Space Sonification (WSS)
-**WSS** is a newly established novel class of sonification technique for time-space indexed data. It provides a system for navigation of data to form a high dimensional sound space and allows users to control the soundscape and configure the multidimensional sound space. For a proper definition, Hermann(2018) defines **WSS** as the transformation of data into sound signal by sampling **wave space function** while moving along the **embedded trajectory** by means of chosen **time-advancement morphing**. For more detail, please follow Thomas’s paper on <a href="https://smartech.gatech.edu/bitstream/handle/1853/60087/ICAD2018_026.pdf?sequence=1&isAllowed=y" target="_blank">WSS</a>.
+**WSS** is a newly established novel class of sonification technique for time-space indexed data.  Hermann(2018) defines **WSS** as the transformation of data into sound signal by sampling **wave space function** while moving along the **embedded trajectory** by means of chosen **time-advancement morphing**. It provides a system for defining (1) geometric objects(trajectories) from time-sequenced data and (2) a wave space of equal dimensionality. In essence, the time series navigates a high-dimensional wave space and probes it's sound to create the sonification. For more detail, please follow Thomas’s paper on <a href="https://smartech.gatech.edu/bitstream/handle/1853/60087/ICAD2018_026.pdf?sequence=1&isAllowed=y" target="_blank">WSS</a>.
 
 <figure>
 <img src="/assets/img/WSS.JPG" width = "100%" align="center" />
-  <figcaption>Wave Space Sonification</figcaption>
+  <figcaption>Diagram reproduced from T. Hermann (2018),WAVE SPACE SONIFICATION, https://pub.uni-bielefeld.de/record/2919707</figcaption>
   <figcaption>Source: Hermann, 2018</figcaption>
 </figure>
 
@@ -121,7 +117,7 @@ The talks were very intresting and thus there were plenty of questions from both
 I was very inspired by Thomas's ideas and his works in the field of sonification. I had goosebumps when he showed the example of EEG of a boy showing his brain activity. It was breathtaking to see how well sonification communicated the state of his mind which is,in my openion, far more superior than any other visual display. Besides, I have been dazzled with whole new facets of music since the beginning of the MCT program. And the talks in this MCT4046 Sonification and Sound Design course has driven me to a next level. Its a great experience being exposed to professionals working with sounds/music technology in many different ways. I feel so proud to be a part of the MCT program.
 
 #### Reference
-Hermann, T. (2018). *WAVE SPACE SONIFICATION*. 24th International Conference on Auditory Display, Michigan Technological University June 10 - 18, 2018. Retrieved from: <a href="https://smartech.gatech.edu/bitstream/handle/1853/60087/ICAD2018_026.pdf?sequence=1&isAllowed=y" target="_blank">https://smartech.gatech.edu/bitstream/handle/1853/60087/ICAD2018_026.pdf?sequence=1&isAllowed=y</a>.
+Hermann, T. (2018). *WAVE SPACE SONIFICATION*. 24th International Conference on Auditory Display, Michigan Technological University June 10 - 18, 2018. Retrieved from: <a href="https://pub.uni-bielefeld.de/record/2919707" target="_blank">https://pub.uni-bielefeld.de/record/2919707</a>.
 
 Hermann, T. (2008). *TAXONOMY AND DEFINITIONS FOR SONIFICATION AND AUDITORY DISPLAY.* 14th International Conference on Auditory Display,      Paris, France June 24 - 27, 2008. Retrieved from: <a href="http://www.icad.org/Proceedings/2008/Hermann2008.pdf" target="_blank">http://www.icad.org/Proceedings/2008/Hermann2008.pdf</a>.
 
