@@ -4,7 +4,7 @@ title: "MuX -playground for real-time sound exploration"
 date: 2019-02-11 16:16:42 +0200
 categories: Sonification
 author: Ashane Silva
-image:/assets/img/Edo.jpg
+image:/assets/img/Edo-min.jpg
 excerpt: "It was so fascinating to have Edo Fouilloux in the MCT sonification seminar series. Edo is a visual innovator and a multidisciplinary craftsman of graphics, sound, computing, and interaction. He co-founded Decochon in 2015 to work with Mixed Reality (XR) technologies. MuX is a pioneering software in the field of interactive music in virtual reality systems. Edo demonstrated the concepts and philosophies inside Mux, where it is possible to build and play new instruments in the virtual space."
 ---
 
@@ -13,12 +13,19 @@ excerpt: "It was so fascinating to have Edo Fouilloux in the MCT sonification se
 # Edo Fouilloux
 
 <figure align="middle">
-<img src="/assets/img/Edo.jpeg" alt="" width="70%">
+<img src="/assets/img/Edo-min.jpg" alt="" width="70%" align="center" >
 </figure>
 
 It was so fascinating to have Edo Fouilloux in the MCT sonification seminar series. Edo is a visual innovator and a multidisciplinary craftsman of graphics, sound, computing, and interaction. He co-founded Decochon in 2015 to work with Mixed Reality (XR) technologies. MuX is a pioneering software in the field of interactive music in virtual reality systems. Edo demonstrated the concepts and philosophies inside Mux, where it is possible to build and play new instruments in the virtual space.
 
 # MuX
+
+<figure align="middle">
+<img src="/assets/img/Mux2.jpg" alt="" width="70%" align="center" >
+</figure>
+
+
+
  From his own words “Mux is for build sound. It is a playground for real-time sound exploration”. The user can explore the principles of sound by combining the various sound modules provided in the system. As an example, the VR module for the speaker actually visualizes the concept of a real speaker.  
 In the designing process, the very first idea was to define how the components can be separated or combined and to what extent it is possible. Started with a speaker and an oscillator with using arithmetic operations like multiplication, addition to generate different sounds.
 There are discrete and continues data flows inside MuX. They created analogies to describe the data types. The bulbs represent the discrete data and cogs are to represent the continuous data. Additionally, there is another type of components called “interfaces” which are buttons, sliders, etc.  The interfaces will allow the user to control the information is preferred.
