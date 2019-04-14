@@ -7,7 +7,8 @@ author: Ashane Silva
 image:/assets/img/Edo.jpg
 excerpt: "It was so fascinating to have Edo Fouilloux in the MCT sonification seminar series. Edo is a visual innovator and a multidisciplinary craftsman of graphics, sound, computing, and interaction. He co-founded Decochon in 2015 to work with Mixed Reality (XR) technologies. MuX is a pioneering software in the field of interactive music in virtual reality systems. Edo demonstrated the concepts and philosophies inside Mux, where it is possible to build and play new instruments in the virtual space."
 ---
-## What new challenges and opportunities arise while programming and playing sound inside 3D space?
+
+# What new challenges and opportunities arise while programming and playing sound inside 3D space?
 
 # Edo Fouilloux
 It was so fascinating to have Edo Fouilloux in the MCT sonification seminar series. Edo is a visual innovator and a multidisciplinary craftsman of graphics, sound, computing, and interaction. He co-founded Decochon in 2015 to work with Mixed Reality (XR) technologies. MuX is a pioneering software in the field of interactive music in virtual reality systems. Edo demonstrated the concepts and philosophies inside Mux, where it is possible to build and play new instruments in the virtual space.
