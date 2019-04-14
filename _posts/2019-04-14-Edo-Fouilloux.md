@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "What new challenges and opportunities arise while programming and playing sound inside 3D space?"
+title: "MuX -playground for real-time sound exploration"
 date: 2019-02-11 16:16:42 +0200
 categories: Sonification
 author: Ashane Silva
