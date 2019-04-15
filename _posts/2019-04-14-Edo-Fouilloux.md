@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "MuX -playground for real-time sound exploration"
-date: 2019-02-11 16:16:42 +0200
+date: 2019-04-14 00:00:00 +0200
 categories: Sonification
 author: Ashane Silva
 image:/assets/img/Edo-min.jpg
