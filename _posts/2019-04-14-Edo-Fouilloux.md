@@ -4,7 +4,7 @@ title: "MuX -playground for real-time sound exploration"
 date: 2019-04-14 00:00:00 +0200
 categories: Sonification
 author: Ashane Silva
-image:/assets/img/Edo-min.jpg
+image: /assets/img/Edo-min.jpg
 excerpt: "It was so fascinating to have Edo Fouilloux in the MCT sonification seminar series. Edo is a visual innovator and a multidisciplinary craftsman of graphics, sound, computing, and interaction. He co-founded Decochon in 2015 to work with Mixed Reality (XR) technologies. MuX is a pioneering software in the field of interactive music in virtual reality systems. Edo demonstrated the concepts and philosophies inside Mux, where it is possible to build and play new instruments in the virtual space."
 ---
 
@@ -33,7 +33,7 @@ The user can walk around the virtual Space and be surrounded by all the electron
 The “laser board” can be used to create melodies and the marble generator will create the loop of the melody.  The components have a very mechanical nature in design. Also, MuX is an expressive instrument in live performances. This opens up new concepts of using gestures to create music inside a virtual reality platform. 
 
 
-# Q and A
+# Q & A 
 After a very fun and informative presentation, students had a lot of questions. There were questions regarding the design of the MuX, live performances and future expectations. There are about 100 modules in the system which is fully flexible for users to play with. It is a great way to explore the fundamentals and theories of generating sound and people have given positive reviews. The MuX has a huge potential of using it as an educational tool for audio concepts and sound design. The live performance is an interesting challenge for MuX. The person who uses the VR system becomes the center of the performance and other musicians will follow. Development of augmented reality systems in the future will be beneficial to optimize the system for live sessions. As for future development, there are several discussions on implementing multi-player options. Right now the system has the ability to use OSC signals or have multiple screens. The community is about 500 people and it’s growing. As for further future plans, there is an idea to have an assets store to share and download components and also to make the system make playable outside the Virtual reality platform.
 
 # Personal reflections
