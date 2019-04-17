@@ -89,8 +89,8 @@ Also in regards to video, we made the patch read the dataset and extract the nam
 The video made from a GIF file is being read and looped. The patch is using the amplitude of samples/synthesized sounds in order to control the amount of the distortion affecting the video.
 
 <figure>
-  <img src="/assets/img/sonification/vidpatch.png" alt="Video patch" width="50%" align="middle"/>
-  <figcaption><strong>Video Patch</strong></figcaption>
+  <img src="/assets/img/sonification/vidpatch.png" alt="Visuals patch" width="50%" align="middle"/>
+  <figcaption><strong>Visuals Patch</strong></figcaption>
 </figure>
 <br>
 
@@ -163,6 +163,7 @@ RKA5.ivWOBqXgxAO1ngkaIJ1sb9j2+a2+e8DdEy.
 </video>
 </figure>
 <br>
+
 * Audio Demo:
 
 
@@ -180,6 +181,8 @@ We managed to make a sonically interesting audible rendition of the Brexit votes
 Also, we have implemented an interactive visual patch, in relation to the audio outcome, which has made our project more expressive.
 
 ## Learning outcomes and future work
+We have learned how to convey the data via audio, in a way that it’s understandable and define the proper way for sound design and the creating of suitable auditory materials for the use in auditory displays.
+Also, we have achieved a proper level of understanding, in regards to technical and aesthetical matters in designing an auditory display and mapping data.
 We may want to create an interactive sonified map of England, using Javascript, in which by hovering over, you get a sound that informs you about the votes in the area.
 Also, we may create a side project, called Spacexit, which may use our patch to sonify data from spacecrafts.
 
