@@ -35,7 +35,7 @@ Conceptually, we wanted to capture the mood that Brexit has created within the B
 We used ExcelEd, Max for Live and Ableton Live for our purpose. ExcelEd to create the proper dataset, Max for Live to read the dataset in the Ableton and translate it to parameter values, in order to be used for mapping purposes and creating/modifying the visuals.
 
 <figure>
-  <img src="/assets/img/sonification/audpatch.jpg" alt="Audio patch" width="50%" align="middle"/>
+  <img src="/assets/img/sonification/audpatch.png" alt="Audio patch" width="50%" align="middle"/>
   <figcaption><strong>Audio Patch</strong></figcaption>
 </figure>
 
@@ -47,9 +47,10 @@ We used ExcelEd, Max for Live and Ableton Live for our purpose. ExcelEd to creat
 
 The main Host was the Ableton which we loaded the samples and synthesizers and effects in it and mapped those value changes to the desired parameters in it.
 
+
 <figure>
-  <img src="/assets/img/sonification/maxpatch3.jpg" alt="Mapping" width="50%" align="middle"/>
-  <figcaption><strong>Mapping in Ablenton Live</strong></figcaption>
+  <img src="/assets/img/sonification/maxpatch1.jpg" alt="Mapping" width="50%" align="middle"/>
+  <figcaption><strong>Mapping the visuals in Ablenton Live</strong></figcaption>
 </figure>
 
 
@@ -62,17 +63,23 @@ In the first step, the percentage who voted for remaining in the European Union 
 
 <figure>
   <img src="/assets/img/sonification/maxpatch2.jpg" alt="Mapping" width="50%" align="middle"/>
-  <figcaption><strong>Mapping in Ablenton Live</strong></figcaption>
+  <figcaption><strong>The use of samples in Ablenton Live</strong></figcaption>
 </figure>
 
 In the next step, the pitch modulation of the voice got higher when the percentage got higher as well (Effects sonification). This was also mapped to the volume, which means it got louder in higher percentages.
 After that, Electorate (people) amount in each area was mapped to a synthesizer which created a Beep, and its pitch got higher when the number of the voters raised - up to 2 million - in that specific place (Synthesized sonification).
 Also in regards to the general area and the number of the voters in that area, an ominous sound was synthesized and its pitch got raised by the numbers, getting higher (Synthesized sonification).
+
+<figure>
+  <img src="/assets/img/sonification/maxpatch3.jpg" alt="Mapping" width="50%" align="middle"/>
+  <figcaption><strong>The use of synthesized sound in Ablenton Live</strong></figcaption>
+</figure>
+
 In the end, a reverb, as an effect on the sound samples, were mapped to the whole percentage who voted (Effects sonification). It was done in a way that fewer votes, created more reverb.
 
 <figure>
   <img src="/assets/img/sonification/maxpatch4.jpg" alt="Mapping" width="50%" align="middle"/>
-  <figcaption><strong>Mapping in Ablenton Live</strong></figcaption>
+  <figcaption><strong>The use of effects in Ablenton Live</strong></figcaption>
 </figure>
 
 
