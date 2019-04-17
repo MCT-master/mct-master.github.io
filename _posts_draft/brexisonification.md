@@ -23,8 +23,6 @@ Also there are visual aspects accompanying the sponical aspect of the project, i
 __Keywords:__ _sonification, Max for Live, Ableton Live, Visuals_
 
 ## Our system
-
-
 ### Aesthetic choices and concept and Technologies used
 
 <figure>
@@ -32,6 +30,9 @@ __Keywords:__ _sonification, Max for Live, Ableton Live, Visuals_
   <figcaption><strong>?!?!</strong></figcaption>
 </figure>
 
+Conceptually, we wanted to capture the mood that Brexit has created within the British population. Using samples of Theresa May saying “Brexit”, and alternating it in pitch and intensity creates an atmosphere of panic and chaos. This, coupled with the underlying drone, is brilliantly mimicking the feeling one can get when perceiving international politics. The sense of things going their own chaotic way, without the perceiver being able to affect the situation is similar both for the individuals in Britain, and the listeners to our sonification.
+
+We used Max for Live and Ableton Live for our purpose.
 
 
 
@@ -41,6 +42,8 @@ __Keywords:__ _sonification, Max for Live, Ableton Live, Visuals_
   <img src="/assets/img/sonification/?!?!" alt="?!?!" width="50%" align="middle"/>
   <figcaption><strong>?!?!</strong></figcaption>
 </figure>
+The dataset that we used, included the statistics in regards to the voter's information and regions. It was very comprehensive and well organized and we had several options to chose, in order to sonify.
+
 
 Repo link: https://data.gov.uk/dataset/008ef38d-2259-43d5-a4ca-13a56f1d7cc2/eu-referendum-results
 
