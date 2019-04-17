@@ -38,8 +38,8 @@ __Keywords:__ _sonification, Max for Live, Ableton Live, Visuals_
 ### Dataset and Mapping
 
 <figure>
-  <img src="/assets/img/varpe/codeStress.jpg" alt="Stressed out by code" width="50%" align="middle"/>
-  <figcaption></figcaption>
+  <img src="/assets/img/sonification/?!?!" alt="?!?!" width="50%" align="middle"/>
+  <figcaption><strong>?!?!</strong></figcaption>
 </figure>
 
 Repo link: https://data.gov.uk/dataset/008ef38d-2259-43d5-a4ca-13a56f1d7cc2/eu-referendum-results
