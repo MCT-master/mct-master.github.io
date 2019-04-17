@@ -26,13 +26,14 @@ __Keywords:__ _sonification, Max for Live, Ableton Live, Visuals, Audio_
 ## Our system
 ### Aesthetic choices and concept and Technologies used
 
+Conceptually, we wanted to capture the mood that Brexit has created within the British population. Using samples of Theresa May saying “Brexit”, and alternating it in pitch and intensity creates an atmosphere of panic and chaos. This, coupled with the underlying drone, is brilliantly mimicking the feeling one can get when perceiving international politics. The sense of things going their own chaotic way, without the perceiver being able to affect the situation is similar both for the individuals in Britain, and the listeners to our sonification.
+
+
 <figure>
   <img src="/assets/img/sonification/technologies.png" alt="technologies" width="50%" align="middle"/>
   <figcaption><strong>Technologies Used</strong></figcaption>
 </figure>
 <br>
-
-Conceptually, we wanted to capture the mood that Brexit has created within the British population. Using samples of Theresa May saying “Brexit”, and alternating it in pitch and intensity creates an atmosphere of panic and chaos. This, coupled with the underlying drone, is brilliantly mimicking the feeling one can get when perceiving international politics. The sense of things going their own chaotic way, without the perceiver being able to affect the situation is similar both for the individuals in Britain, and the listeners to our sonification.
 
 We used ExcelEd, Max for Live and Ableton Live for our purpose. ExcelEd to create the proper dataset, Max for Live to read the dataset in the Ableton and translate it to parameter values, in order to be used for mapping purposes and creating/modifying the visuals.
 
@@ -48,7 +49,7 @@ The main Host was the Ableton which we loaded the samples and synthesizers and e
 
 <figure>
   <img src="/assets/img/sonification/maxpatch1.jpg" alt="Mapping" width="50%" align="middle"/>
-  <figcaption><strong>Mapping the visuals in Ablenton Live</strong></figcaption>
+  <figcaption><strong>Mapping the visuals in Ableton Live</strong></figcaption>
 </figure>
 <br>
 
@@ -62,7 +63,7 @@ In the first step, the percentage who voted for remaining in the European Union 
 
 <figure>
   <img src="/assets/img/sonification/maxpatch2.jpg" alt="Mapping" width="50%" align="middle"/>
-  <figcaption><strong>The use of samples in Ablenton Live</strong></figcaption>
+  <figcaption><strong>The use of samples in Ableton Live</strong></figcaption>
 </figure>
 <br>
 
@@ -72,7 +73,7 @@ Also in regards to the general area and the number of the voters in that area, a
 
 <figure>
   <img src="/assets/img/sonification/maxpatch3.jpg" alt="Mapping" width="50%" align="middle"/>
-  <figcaption><strong>The use of synthesized sound in Ablenton Live</strong></figcaption>
+  <figcaption><strong>The use of synthesized sound in Ableton Live</strong></figcaption>
 </figure>
 <br>
 
@@ -80,7 +81,7 @@ In the end, a reverb, as an effect on the sound samples, were mapped to the whol
 
 <figure>
   <img src="/assets/img/sonification/maxpatch4.jpg" alt="Mapping" width="50%" align="middle"/>
-  <figcaption><strong>The use of effects in Ablenton Live</strong></figcaption>
+  <figcaption><strong>The use of effects in Ableton Live</strong></figcaption>
 </figure>
 <br>
 
