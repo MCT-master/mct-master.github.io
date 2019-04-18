@@ -174,7 +174,7 @@ RKA5.ivWOBqXgxAO1ngkaIJ1sb9j2+a2+e8DdEy.
 <br>  
 
 
-* Audio Demo:
+* Audio demo:
 
 <audio controls="controls">
   <source type="audio/mp3" src="/assets/sounds/brexisonification.mp3"></source>
