@@ -40,7 +40,7 @@ Conceptually, we wanted to capture the mood that Brexit has created within the B
 We used ExcelEd, Max for Live and Ableton Live for our purpose. ExcelEd to create the proper dataset, Max for Live to read the dataset in the Ableton and translate it to parameter values, in order to be used for mapping purposes and creating/modifying the visuals.
 
 <figure>
-  <img src="/assets/img/sonification/audpatch.png" alt="Audio patch" width="50%" align="middle"/>
+  <img src="/assets/img/sonification/audpatch.jpg" alt="Audio patch" width="50%" align="middle"/>
   <figcaption><strong>Audio Patch</strong></figcaption>
 </figure>
 <br>  
@@ -97,13 +97,13 @@ Also in regards to video, we made the patch read the dataset and extract the nam
 The video made from a GIF file is being read and looped. The patch is using the amplitude of samples/synthesized sounds in order to control the amount of the distortion affecting the video.
 
 <figure>
-  <img src="/assets/img/sonification/vidpatch.png" alt="Visuals patch" width="50%" align="middle"/>
+  <img src="/assets/img/sonification/vidpatch.jpg" alt="Visuals patch" width="50%" align="middle"/>
   <figcaption><strong>Visuals Patch</strong></figcaption>
 </figure>
 <br>  
 
 
-Here you can find the code, for the visual part of the patch:
+Here you can find the core code, for the visual part of the patch:
 <pre><code>
 ----------begin_max5_patcher----------
 2321.3oc6as0iiaaE94Y9UP3sO53UjRhRpukEosX.xhBzlFfjEAKnkns4FIQ
