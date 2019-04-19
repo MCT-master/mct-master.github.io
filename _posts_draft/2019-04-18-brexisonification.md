@@ -98,7 +98,7 @@ The video made from a GIF file is being read and looped. The patch is using the 
 
 <figure>
   <img src="/assets/img/sonification/vidpatch.jpg" alt="Visuals patch" width="50%" align="middle"/>
-  <figcaption><strong>Visuals Patch</strong></figcaption>
+  <figcaption>Visuals Patch</figcaption>
 </figure>
 <br>  
 
@@ -188,9 +188,8 @@ RKA5.ivWOBqXgxAO1ngkaIJ1sb9j2+a2+e8DdEy.
 We have progressed in a remarkably steady pace. Coupling the work with the lectures in sonification has also been very good. For instance, working with Iconic, Metaphoric and Symbolic sonification was vital for the aesthetics of our sonification.
 
 ### Challenges
-The challenges we face were mainly about troubleshooting process, in order to get the visuals and audio patch working perfectly.
-The audio patch had a problem reading a comprehensive dataset and we had to create simpler datasets for it, so it would read them easier.
-Also regarding the visuals patch, we had a couple of issues. First, displaying the text on the video screen and second, feeding the desired dynamic value into our video patch, so it can sync with the data change. the solutions that we found out by researching online and asking experts were'nt working.
+Contrary to what is common with these kinds of group projects, we did not have notable challenges with making the concept. As soon as we decided upon working with Brexit, we were pretty unanimous with how to proceed.
+The trouble mainly with working with the MAX patch as well as making the data from Kaggle work. A combination of video tutorials, forum searching and not least, trial and error was used to progress. 
 
 ### Achievements
 We managed to make a sonically interesting audible rendition of the Brexit votes, in which the audience could find him/herself comfortable to interpret and communicate with.
