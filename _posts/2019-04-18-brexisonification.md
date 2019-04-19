@@ -3,7 +3,7 @@
 layout: post
 title: "Brexisonification"
 date: 2019-04-19 21:40:00 +0100
-categories: sonification-sound-design
+categories: sonification
 author: Sam Roman, Sepehr Haghighi, Eirik Dahl
 image: /assets/img/sonification/brexit.jpg
 excerpt: Our sonification project which sonifies the brexit voters' data.
