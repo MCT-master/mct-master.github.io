@@ -21,7 +21,7 @@ Our project for the Sonification and Sound Design course, is based on sonificati
 It gets the desired data, in regards to the Brexit voters and sonifies it in an communicative way.
 Also there are visual aspects accompanying the sponical aspect of the project, in order to make the project more expressive.
 
-__Keywords:__ _sonification, Max for Live, Ableton Live, Visuals, Audio_
+__Keywords:__ _sonification, Max for Live, Ableton Live, Brexit, Visuals, Audio_
 
 ## Our system
 ### Aesthetic choices and concept and Technologies used
