@@ -43,4 +43,17 @@ For ‘CarTaxies’, an example from ‘LFPulse’ is taken from the SuperCollid
 For ‘MotorBike’, another example  from ‘Synth’ in SuperCollider is taken from the section filtering under undocumented instance methods. Similar to other synths, the frequency range (30-300) and amplitude range (0.2-10) are mapped to the data with lower and higher range. Likewise the change in frequency and amplitude gives the information of change in number of motorbikes in the selected region.
 
 
+# Future Work.
+
+At the moment, model covers sonification of data for individual vehicle for the given period of time. Since running the sonification for the three vehicle types can still masks each other and hide potential patterns of data. So , the sound design can be improved to make the sounds distinct as much as possible.
+
+Similarly, additional features can be introduced to the system such as the ability to select a preferred time period, to select certain transportation methods and regions etc. A data visualization tool can also be introduced to support the sonification model with multiple methods of visualizations to choose from.
+
+Another interesting suggestion appeared to build an API for sonification of traffic data of England, or any country with options for selecting different regions and different vehicles. The API could be extensively used for analysis and or for understanding the growth of traffic in the chosen region via  sonification.
+
+
+You can check our repository and try it by yourself from this link.
+
+
+
 
