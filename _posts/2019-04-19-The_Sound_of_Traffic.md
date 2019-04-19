@@ -128,7 +128,7 @@ Another interesting suggestion appeared to build an API for sonification of traf
 
 
 We bet, you would like to listen to the most beautiful sonification of all times. Just 
-<figcaption><a href="https://github.com/shreejayshrestha/MCT4046_Sonification_Project" target="_blank">click here</a></figcaption> and you will get access to all the files used in this project including the awesome sonifications. Enjoy!
+<a href="https://github.com/shreejayshrestha/MCT4046_Sonification_Project" target="_blank">click here</a> and you will get access to all the files used in this project including the awesome sonifications. Enjoy!
 
 
 
