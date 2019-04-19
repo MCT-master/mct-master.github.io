@@ -11,7 +11,7 @@ Keywords: Sonification
 ---
 
 <figure>
-<img src="/assets/img/sonification/blog_header_new.JPG" width = "100%" align="center" />
+<img src="/assets/img/sonification/blog_header.JPG" width = "100%" align="center" />
   <figcaption>The Sound of Traffic</figcaption>
 </figure>
 
@@ -23,7 +23,7 @@ During the sonification Lecture series, we were exposed to the fascinating conce
 ## Data set
 
 <figure>
-<img src="/assets/img/sonification/post_region.JPG" width = "80%" align="center" />
+<img src="/assets/img/sonification/post_region.JPG" width = "90%" align="center" />
   <figcaption>The Sound of Traffic</figcaption>
 </figure>
 
@@ -120,7 +120,7 @@ For ‘MotorBike’, another example  from ‘Synth’ in SuperCollider is taken
 
 ### Future Work.
 
-At the moment, model covers sonification of data for individual vehicle for the given period of time. Since running the sonification for the three vehicle types can still masks each other and hide potential patterns of data. So , the sound design can be improved to make the sounds distinct as much as possible.
+At the moment, the model covers sonification of data for individual vehicle for the given period of time. Since running the sonification for the three vehicle types can still masks each other and hide potential patterns of data. So, the sound design can be improved to make the sounds distinct as much as possible.
 
 Similarly, additional features can be introduced to the system such as the ability to select a preferred time period, to select certain transportation methods and regions etc. A data visualization tool can also be introduced to support the sonification model with multiple methods of visualizations to choose from.
 
