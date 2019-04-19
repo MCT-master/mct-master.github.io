@@ -32,7 +32,6 @@ Conceptually, we wanted to capture the mood that Brexit has created within the B
   <img src="/assets/img/sonification/technologies.png" alt="technologies" width="70%" align="middle"/>
   <figcaption><strong>Technologies Used</strong></figcaption>
 </figure>
-<br/><br/>
 
 We used ExcelEd, Max for Live and Ableton Live for our purpose. ExcelEd to create the proper dataset, Max for Live to read the dataset in the Ableton and translate it to parameter values, in order to be used for mapping purposes and creating/modifying the visuals.
 
@@ -40,7 +39,6 @@ We used ExcelEd, Max for Live and Ableton Live for our purpose. ExcelEd to creat
   <img src="/assets/img/sonification/audpatch.jpg" alt="Audio patch" width="70%" align="middle"/>
   <figcaption><strong>Audio Patch</strong></figcaption>
 </figure>
-<br/><br/>
 
 The main Host was the Ableton which we loaded the samples and synthesizers and effects in it and mapped those value changes to the desired parameters in it.
 
@@ -49,7 +47,6 @@ The main Host was the Ableton which we loaded the samples and synthesizers and e
   <img src="/assets/img/sonification/maxpatch1.jpg" alt="Mapping" width="70%" align="middle"/>
   <figcaption><strong>Mapping the visuals in Ableton Live</strong></figcaption>
 </figure>
-<br/><br/>
 
 ### Dataset and Mapping
 
@@ -62,7 +59,6 @@ In the first step, the percentage who voted for remaining in the European Union 
   <img src="/assets/img/sonification/maxpatch2.jpg" alt="Mapping" width="70%" align="middle"/>
   <figcaption><strong>The use of samples in Ableton Live</strong></figcaption>
 </figure>
-<br/><br/>
 
 In the next step, the pitch modulation of the voice got higher when the percentage got higher as well (Effects sonification). This was also mapped to the volume, which means it got louder in higher percentages.
 After that, Electorate (people) amount in each area was mapped to a synthesizer which created a Beep, and its pitch got higher when the number of the voters raised - up to 2 million - in that specific place (Synthesized sonification).
@@ -72,7 +68,6 @@ Also in regards to the general area and the number of the voters in that area, a
   <img src="/assets/img/sonification/maxpatch3.jpg" alt="Mapping" width="70%" align="middle"/>
   <figcaption><strong>The use of synthesized sound in Ableton Live</strong></figcaption>
 </figure>
-<br/><br/>
 
 In the end, a reverb, as an effect on the sound samples, were mapped to the whole percentage who voted (Effects sonification). It was done in a way that fewer votes, created more reverb.
 
@@ -80,7 +75,6 @@ In the end, a reverb, as an effect on the sound samples, were mapped to the whol
   <img src="/assets/img/sonification/maxpatch4.jpg" alt="Mapping" width="70%" align="middle"/>
   <figcaption><strong>The use of effects in Ableton Live</strong></figcaption>
 </figure>
-<br/><br/>
 
 Also in regards to video, we made the patch read the dataset and extract the name of the places and display it in the message box and show it in the video window.
 The video made from a GIF file is being read and looped. The patch is using the amplitude of samples/synthesized sounds in order to control the amount of the distortion affecting the video.
@@ -89,7 +83,6 @@ The video made from a GIF file is being read and looped. The patch is using the 
   <img src="/assets/img/sonification/vidpatch.jpg" alt="Visuals patch" width="70%" align="middle"/>
   <figcaption><strong> Visuals Patch <strong></figcaption>
 </figure>
-<br/><br/>
 
 Here you can find the core code, for the visual part of the patch:
 
