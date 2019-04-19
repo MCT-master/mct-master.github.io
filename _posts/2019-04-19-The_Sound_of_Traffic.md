@@ -28,7 +28,7 @@ During the sonification Lecture series, we were exposed to the fascinating conce
 </figure>
 
 
-The data includes the Annual average daily flow (AADF) data of buses/coaches, cars/taxies and motorbikes for three regions of England (North East, West Midlands & South East) from 2000-2017. ). The primary data was included number of vehicles but they are segregated into numerous divisions of road types for each region. Shreejay made a matlab script to which reads data of each region of choice at a time and writes them into an excel sheet by calculating the total number of vehicles in the region in each year and exported as CSV files. Then CSV files were converted into JSON files, as they are compact and flexible to use with JavaScript. 
+The data includes the Annual average daily flow (AADF) data of buses/coaches, cars/taxies and motorbikes for three regions of England (North East, West Midlands & South East) from 2000-2017. The primary data was included number of vehicles but they are segregated into numerous divisions of road types for each region. Shreejay made a matlab script to which reads data of each region of choice at a time and writes them into an excel sheet by calculating the total number of vehicles in the region in each year and exported as CSV files. Then CSV files were converted into JSON files, as they are compact and flexible to use with JavaScript. 
 
 ### The sound design
 
@@ -44,7 +44,7 @@ Sound was generated through oscillators and three oscillator types (‘sine’, 
 #### Prototype 2 with Python and SuperCollider.
 
 Later the First prototype was further developed with Python and SuperCollider. Several synths were created for each vehicle type.
-For ‘Bus Coaches’ vehicle type “sawtooth” wave generator is used with the Saw.ar class methods.Lower frequency range (10-100 Hz) and amplitude range (0.2-10) are mapped to the lower and higher number of the vehicles. The change in frequency and amplitude gives the idea of increase or decrease in number of buses in the selected region.
+For ‘Bus Coaches’ vehicle type “sawtooth” wave generator is used with the Saw.ar class methods. Lower frequency range (10-100 Hz) and amplitude range (0.2-10) are mapped to the lower and higher number of the vehicles. The change in frequency and amplitude gives the idea of increase or decrease in number of buses in the selected region.
 
 
 <figure align="middle">
