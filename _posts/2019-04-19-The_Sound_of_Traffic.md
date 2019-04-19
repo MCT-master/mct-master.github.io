@@ -4,21 +4,21 @@ title: " The Sound of Traffic"
 date: 2019-04-19 17:00:00 +0200
 categories: Sonification
 author: Ashane Silva, Karolina Jawad, Shreejay Shrestha
-image: /assets/img/sonification/blog_header.JPG
+image: /assets/img/sonification/blog_header_new.jpg
 excerpt: "Is it possible to transmit complex data-sets within an instance of a sound, so the content gets revealed? As communication and dissemination of information in our modern digital world has been highly dominated by visual aspects it led to the fact that the modality of sound got neglected. In order to test the hypothesis, the project presents a model for sonification of temporal-spatial traffic data, based on principle of Parametric Mapping Sonification (PMSon) technique."
 Keywords: Sonification
 
 ---
 
 <figure>
-<img src="/assets/img/sonification/blog_header.JPG" width = "100%" align="center" />
-  <figcaption>The Sound of Traffic</figcaption>
+<img src="/assets/img/sonification/blog_header_new.jpg" width = "100%" align="center" />
+  <figcaption> http://www.huffingtonpost.com/ian-mills/5-reasons-website-traffic_b_6628080.html retrieved 05/04/19</figcaption>
 </figure>
 
 
 # The Sound of Traffic - Sonic Vehicle Pathelormeter
 
-During the sonification Lecture series, we were exposed to the fascinating concepts and theories behind sonification, sound design and its applications. Our primary goal was to explore the techniques that we learned and put them into practice in order to understand a real world problem. After searching and referring so much available data we finally decided to work on traffic vehicle data from 3 regions in England measured over 17 years. Is it possible to transmit complex data-sets within an instance of a sound, so the content gets revealed? As communication and dissemination of information in our modern digital world has been highly dominated by visual aspects it led to the fact that the modality of sound got neglected. In order to test the hypothesis, the project presents a model for sonification of temporal-spatial traffic data, based on principle of Parametric Mapping Sonification (PMSon) technique.
+During the sonification Lecture series, we were exposed to the fascinating concepts and theories behind sonification, sound design and its applications. Our primary goal was to explore the techniques that we learned and put them into practice in order to understand a real world problem. After searching and referring so much available data we finally decided to work on traffic vehicle data from 3 regions in England measured over 17 years. As communication and dissemination of information in our modern digital world has been highly dominated by visual aspects it led to the fact that the modality of sound got neglected. Is it possible to transmit complex data-sets within an instance of a sound, so the content gets revealed? In order to test the hypothesis, the project presents a model for sonification of temporal-spatial traffic data, based on principle of Parametric Mapping Sonification (PMSon) technique.
 
 ## Data set
 
