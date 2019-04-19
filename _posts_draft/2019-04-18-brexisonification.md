@@ -172,7 +172,7 @@ RKA5.ivWOBqXgxAO1ngkaIJ1sb9j2+a2+e8DdEy.
 
 ## Reflective notes
 ### Overall impression
-We have progressed in a remarkably steady pace. Coupling the work with the lectures in sonification has also been very good. For instance, working with Iconic, Metaphoric and Symbolic sonification was vital for the aesthetics of our sonification.
+An overall impression can be summed up in a quote by Sam the last day “Guys! This project has been going really well! We have yet to have a crisis!”. And Sam was right. We have progressed in a remarkably steady pace and it has been a pleasure. Coupling the work with the lectures in sonification has also been very good. For instance, working with Iconic, Metaphoric and Symbolic sonification was vital for the aesthetics of our sonification.
 
 ### Challenges
 Contrary to what is common with these kinds of group projects, we did not have notable challenges with making the concept. As soon as we decided upon working with Brexit, we were pretty unanimous with how to proceed.
