@@ -186,6 +186,6 @@ Also, we have implemented an interactive visual patch, in relation to the audio 
 We have learned how to convey the data via audio, in a way that it’s understandable and define the proper way for sound design and the creating of suitable auditory materials for the use in auditory displays.
 Also, we have achieved a proper level of understanding, in regards to technical and aesthetical matters in designing an auditory display and mapping data.
 We may want to create an interactive sonified map of England, using Javascript, in which by hovering over, you get a sound that informs you about the votes in the area.
-Also, we may create a side project, called Spacexit, which may use our patch to sonify data from spacecrafts.
+Also, we could create a side project, called Spacexit, which may use our patch to sonify data from spacecrafts.
 
 
