@@ -24,7 +24,7 @@ Also there are visual aspects accompanying the sponical aspect of the project, i
 __Keywords:__ _sonification, Max for Live, Ableton Live, Brexit, Visuals, Audio_
 
 ## Our system
-### Aesthetic choices and concept and Technologies used
+### Aesthetic choices, Concept and Technologies used
 
 Conceptually, we wanted to capture the mood that Brexit has created within the British population. Using samples of Theresa May saying “Brexit”, and alternating it in pitch and intensity creates an atmosphere of panic and chaos. This, coupled with the underlying drone, is brilliantly mimicking the feeling one can get when perceiving international politics. The sense of things going their own chaotic way, without the perceiver being able to affect the situation is similar both for the individuals in Britain, and the listeners to our sonification.
 
