@@ -4,13 +4,16 @@ title: " The Sound of Traffic"
 date: 2019-04-19 17:00:00 +0200
 categories: Sonification
 author: Ashane Silva, Karolina Jawad, Shreejay Shrestha
-image: /assets/img/ 
+image: /assets/img/sonification/blog_header.JPG
 excerpt: "Is it possible to transmit complex data-sets within an instance of a sound, so the content gets revealed? As communication and dissemination of information in our modern digital world has been highly dominated by visual aspects it led to the fact that the modality of sound got neglected. In order to test the hypothesis, the project presents a model for sonification of temporal-spatial traffic data, based on principle of Parametric Mapping Sonification (PMSon) technique."
 Keywords: Sonification
 
 ---
 
-
+<figure>
+<img src="/assets/img/sonification/blog_header.JPG" width = "100%" align="center" />
+  <figcaption>The Sound of Traffic</figcaption>
+</figure>
 
 
 # The Sound of Traffic - Sonic Vehicle Pathelormeter
@@ -21,9 +24,9 @@ During the sonification Lecture series, we were exposed to the fascinating conce
 
 The data includes the Annual average daily flow (AADF) data of buses/coaches, cars/taxies and motorbikes for three regions of England (North East, West Midlands & South East) from 2000-2017. ). The primary data was included number of vehicles but they are segregated into numerous divisions of road types for each region. Shreejay made a matlab script to which reads data of each region of choice at a time and writes them into an excel sheet by calculating the total number of vehicles in the region in each year and exported as CSV files. Then CSV files were converted into JSON files, as they are compact and flexible to use with JavaScript. 
 
-# The sound design
+### The sound design
 
-## Prototype 1
+#### Prototype 1
 
 We chose to work with JavaScript to prototype our first idea. The number of buses in each particular region was directly mapped into a frequency of an oscillator by using the “map()” method. Since the numbers not inside a possible frequency range the “map() “method helps to scale the range of the numbers into the range of frequency values. As an example, the range 140235 to 183753 was mapped to the frequency range 200Hz -600Hz.
 
@@ -32,7 +35,7 @@ Sound was generated through oscillators and three oscillator types (‘sine’, 
 
 
 
-## Prototype 2 with Python and SuperCollider.
+#### Prototype 2 with Python and SuperCollider.
 
 Later the First prototype was further developed with Python and SuperCollider. Several synths were created for each vehicle type.
 For ‘Bus Coaches’ vehicle type “sawtooth” wave generator is used with the Saw.ar class methods.Lower frequency range (10-100 Hz) and amplitude range (0.2-10) are mapped to the lower and higher number of the vehicles. The change in frequency and amplitude gives the idea of increase or decrease in number of buses in the selected region.
@@ -42,7 +45,7 @@ For ‘CarTaxies’, an example from ‘LFPulse’ is taken from the SuperCollid
 For ‘MotorBike’, another example  from ‘Synth’ in SuperCollider is taken from the section filtering under undocumented instance methods. Similar to other synths, the frequency range (30-300) and amplitude range (0.2-10) are mapped to the data with lower and higher range. Likewise the change in frequency and amplitude gives the information of change in number of motorbikes in the selected region.
 
 
-# Future Work.
+### Future Work.
 
 At the moment, model covers sonification of data for individual vehicle for the given period of time. Since running the sonification for the three vehicle types can still masks each other and hide potential patterns of data. So , the sound design can be improved to make the sounds distinct as much as possible.
 
