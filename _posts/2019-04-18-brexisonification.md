@@ -81,7 +81,7 @@ The video made from a GIF file is being read and looped. The patch is using the 
 
 <figure>
   <img src="/assets/img/sonification/vidpatch.jpg" alt="Visuals patch" width="70%" align="middle"/>
-  <figcaption><strong> Visuals Patch <strong></figcaption>
+  <figcaption><strong>Visuals Patch<strong></figcaption>
 </figure>
 
 Here you can find the core code, for the visual part of the patch:
