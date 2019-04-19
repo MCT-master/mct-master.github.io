@@ -61,7 +61,12 @@ For ‘Bus Coaches’ vehicle type “sawtooth” wave generator is used with th
   Your browser does not support the audio element.
 </audio>
 <figcaption>Sonification of Buses & Coaches in the South East Region in England</figcaption>
-  </figure>
+ </figure>
+
+<figure>
+<img src="/assets/img/Bus_NE_SE.png" width = "100%" align="center" />
+  <figcaption>Buses & Coaches in the North East & South East Region</figcaption>
+</figure>
 
 For ‘CarTaxies’, an example from ‘LFPulse’ is taken from the SuperCollider where it is used as both oscillator and LFO. The frequency of modulation with range (0.2-15) and amplitude range (2-10) are mapped to the lower and higher number of the vehicles. The speed of oscillation and change of amplitude signify the rise or fall of the number of  CarTaxies in the particular region.
 
@@ -82,6 +87,11 @@ For ‘CarTaxies’, an example from ‘LFPulse’ is taken from the SuperCollid
 <figcaption>Sonification of Cars & Taxies in the South East Region in England</figcaption>
 </figure>
 
+<figure>
+<img src="/assets/img/Car_NE_SE.png" width = "100%" align="center" />
+  <figcaption>Cars & Taxies in the North East & South East Region</figcaption>
+</figure>
+
 For ‘MotorBike’, another example  from ‘Synth’ in SuperCollider is taken from the section filtering under undocumented instance methods. Similar to other synths, the frequency range (30-300) and amplitude range (0.2-10) are mapped to the data with lower and higher range. Likewise the change in frequency and amplitude gives the information of change in number of motorbikes in the selected region.
 
 
@@ -100,6 +110,12 @@ For ‘MotorBike’, another example  from ‘Synth’ in SuperCollider is taken
 </audio>
 <figcaption>Sonification of Motorbikes in the South East Region in England</figcaption>
 </figure>
+
+<figure>
+<img src="/assets/img/Bike_NE_SE.png" width = "100%" align="center" />
+  <figcaption>Motorbikes in the North East & South East Region</figcaption>
+</figure>
+
 
 
 ### Future Work.
