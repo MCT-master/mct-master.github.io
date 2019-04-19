@@ -11,7 +11,7 @@ Keywords: Sonification
 ---
 
 <figure>
-<img src="/assets/img/sonification/blog_header.JPG" width = "100%" align="center" />
+<img src="/assets/img/sonification/blog_header_new.JPG" width = "100%" align="center" />
   <figcaption>The Sound of Traffic</figcaption>
 </figure>
 
