@@ -4,21 +4,21 @@ title: " The Sound of Traffic"
 date: 2019-04-19 17:00:00 +0200
 categories: Sonification
 author: Ashane Silva, Karolina Jawad, Shreejay Shrestha
-image: /assets/img/sonification/blog_header_new.jpg
+image: /assets/img/sonification/blog_header.JPG
 excerpt: "Is it possible to transmit complex data-sets within an instance of a sound, so the content gets revealed? As communication and dissemination of information in our modern digital world has been highly dominated by visual aspects it led to the fact that the modality of sound got neglected. In order to test the hypothesis, the project presents a model for sonification of temporal-spatial traffic data, based on principle of Parametric Mapping Sonification (PMSon) technique."
 Keywords: Sonification
 
 ---
 
 <figure>
-<img src="/assets/img/sonification/blog_header_new.jpg" width = "100%" align="center" />
-  <figcaption> http://www.huffingtonpost.com/ian-mills/5-reasons-website-traffic_b_6628080.html retrieved 05/04/19</figcaption>
+<img src="/assets/img/sonification/blog_header.JPG" width = "100%" align="center" />
+  <figcaption>The Sound of Traffic</figcaption>
 </figure>
 
 
 # The Sound of Traffic - Sonic Vehicle Pathelormeter
 
-During the sonification Lecture series, we were exposed to the fascinating concepts and theories behind sonification, sound design and its applications. Our primary goal was to explore the techniques that we learned and put them into practice in order to understand a real world problem. After searching and referring so much available data we finally decided to work on traffic vehicle data from 3 regions in England measured over 17 years. As communication and dissemination of information in our modern digital world has been highly dominated by visual aspects it led to the fact that the modality of sound got neglected. Is it possible to transmit complex data-sets within an instance of a sound, so the content gets revealed? In order to test the hypothesis, the project presents a model for sonification of temporal-spatial traffic data, based on principle of Parametric Mapping Sonification (PMSon) technique.
+During the sonification Lecture series, we were exposed to the fascinating concepts and theories behind sonification, sound design and their applications. Our primary goal was to explore the techniques that we learned and put them into practice in order to understand a real world problem. After searching and referring so much available data we finally decided to work on traffic vehicle data from 3 regions in England measured over 17 years. Is it possible to transmit complex data-sets within an instance of a sound, so the content gets revealed? As communication and dissemination of information in our modern digital world has been highly dominated by visual aspects it led to the fact that the modality of sound got neglected. In order to test the hypothesis, the project presents a model for sonification of temporal-spatial traffic data, based on principle of Parametric Mapping Sonification (PMSon) technique.
 
 ## Data set
 
@@ -46,9 +46,54 @@ Sound was generated through oscillators and three oscillator types (‘sine’, 
 Later the First prototype was further developed with Python and SuperCollider. Several synths were created for each vehicle type.
 For ‘Bus Coaches’ vehicle type “sawtooth” wave generator is used with the Saw.ar class methods.Lower frequency range (10-100 Hz) and amplitude range (0.2-10) are mapped to the lower and higher number of the vehicles. The change in frequency and amplitude gives the idea of increase or decrease in number of buses in the selected region.
 
+
+<figure align="middle">
+<audio controls>
+  <source src="/assets/sounds/Bus_NE.wav" type="audio/wav" volume="0.2">
+  Your browser does not support the audio element.
+</audio>
+  <figcaption>Sonification of Buses & Coaches in the North East Region in England </figure>
+  
+  <figure align="middle">
+<audio controls>
+  <source src="/assets/sounds/Bus_SE.wav" type="audio/wav" volume="0.2">
+  Your browser does not support the audio element.
+</audio>
+  <figcaption>Sonification of Buses & Coaches in the South East Region in England </figure>
+
 For ‘CarTaxies’, an example from ‘LFPulse’ is taken from the SuperCollider where it is used as both oscillator and LFO. The frequency of modulation with range (0.2-15) and amplitude range (2-10) are mapped to the lower and higher number of the vehicles. The speed of oscillation and change of amplitude signify the rise or fall of the number of  CarTaxies in the particular region.
 
+
+<figure align="middle">
+<audio controls>
+  <source src="/assets/sounds/Car_NE.wav" type="audio/wav" volume="0.2">
+  Your browser does not support the audio element.
+</audio>
+  <figcaption>Sonification of Cars & Taxies in the North East Region in England </figure>
+  
+  <figure align="middle">
+<audio controls>
+  <source src="/assets/sounds/Car_SE.wav" type="audio/wav" volume="0.2">
+  Your browser does not support the audio element.
+</audio>
+  <figcaption>Sonification of Cars & Taxies in the South East Region in England </figure>
+
 For ‘MotorBike’, another example  from ‘Synth’ in SuperCollider is taken from the section filtering under undocumented instance methods. Similar to other synths, the frequency range (30-300) and amplitude range (0.2-10) are mapped to the data with lower and higher range. Likewise the change in frequency and amplitude gives the information of change in number of motorbikes in the selected region.
+
+
+<figure align="middle">
+<audio controls>
+  <source src="/assets/sounds/Bike_NE.wav" type="audio/wav" volume="0.2">
+  Your browser does not support the audio element.
+</audio>
+  <figcaption>Sonification of Motorbikes in the North East Region in England </figure>
+  
+  <figure align="middle">
+<audio controls>
+  <source src="/assets/sounds/Bike_SE.wav" type="audio/wav" volume="0.2">
+  Your browser does not support the audio element.
+</audio>
+  <figcaption>Sonification of Motorbikes in the South East Region in England </figure>
 
 
 ### Future Work.
@@ -60,7 +105,7 @@ Similarly, additional features can be introduced to the system such as the abili
 Another interesting suggestion appeared to build an API for sonification of traffic data of England, or any country with options for selecting different regions and different vehicles. The API could be extensively used for analysis and or for understanding the growth of traffic in the chosen region via  sonification.
 
 
-You can check our repository and try it by yourself from this link.
+We bet, you would like to listen to the most beautiful sonification of all times. Just click here and you will get all the files used in this project including the awesome sonifications. Enjoy!
 
 
 
