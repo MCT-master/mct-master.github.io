@@ -23,8 +23,8 @@ During the sonification Lecture series, we were exposed to the fascinating conce
 ## Data set
 
 <figure>
-<img src="/assets/img/sonification/post_region.JPG" width = "90%" align="center" />
-  <figcaption>The Sound of Traffic</figcaption>
+<img src="/assets/img/sonification/map_region.JPG" width = "90%" align="center" />
+  <figcaption>Method for Selecting Data</figcaption>
 </figure>
 
 
