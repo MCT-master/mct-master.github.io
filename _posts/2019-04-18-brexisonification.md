@@ -145,8 +145,6 @@ RKA5.ivWOBqXgxAO1ngkaIJ1sb9j2+a2+e8DdEy.
 
 ### Demos (Audio/Visual)
 * Visuals demo:
-<br/><br/>
-
 <figure align="middle">
         <video height="100%" width="100%" controls>
         <source src="/assets/video/sonificationvisualsonly.mp4" type="video/mp4">
@@ -154,16 +152,12 @@ RKA5.ivWOBqXgxAO1ngkaIJ1sb9j2+a2+e8DdEy.
         Your browser does not support the video tag.
 </video>
 </figure>
-<br/><br/>
 
 * Audio demo:
-<br/><br/>
-
 <audio controls="controls">
   <source type="audio/mp3" src="/assets/sounds/brexisonification.mp3"></source>
   <p>Your browser does not support the audio element.</p>
 </audio>
-<br/><br/>
 
 ## Reflective notes
 ### Overall impression
