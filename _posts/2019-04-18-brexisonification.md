@@ -12,10 +12,9 @@ excerpt: Our sonification project which sonifies the brexit voters' data.
 # Brexisonification
 
 <figure>
-  <img src="/assets/img/sonification/brexit2.jpg" alt="Brexit" width="50%" align="middle"/>
+  <img src="/assets/img/sonification/brexit2.jpg" alt="Brexit" width="70%" align="middle"/>
   <figcaption><strong></strong></figcaption>
 </figure>
-<br/><br/>
 
 Our project for the Sonification and Sound Design course, is based on sonification of the Brexit voting data and focuses both on audio and visual aspects.
 It gets the desired data, in regards to the Brexit voters and sonifies it in an communicative way.
@@ -30,7 +29,7 @@ Conceptually, we wanted to capture the mood that Brexit has created within the B
 
 
 <figure>
-  <img src="/assets/img/sonification/technologies.png" alt="technologies" width="50%" align="middle"/>
+  <img src="/assets/img/sonification/technologies.png" alt="technologies" width="70%" align="middle"/>
   <figcaption><strong>Technologies Used</strong></figcaption>
 </figure>
 <br/><br/>
@@ -38,7 +37,7 @@ Conceptually, we wanted to capture the mood that Brexit has created within the B
 We used ExcelEd, Max for Live and Ableton Live for our purpose. ExcelEd to create the proper dataset, Max for Live to read the dataset in the Ableton and translate it to parameter values, in order to be used for mapping purposes and creating/modifying the visuals.
 
 <figure>
-  <img src="/assets/img/sonification/audpatch.jpg" alt="Audio patch" width="50%" align="middle"/>
+  <img src="/assets/img/sonification/audpatch.jpg" alt="Audio patch" width="70%" align="middle"/>
   <figcaption><strong>Audio Patch</strong></figcaption>
 </figure>
 <br/><br/>
@@ -47,7 +46,7 @@ The main Host was the Ableton which we loaded the samples and synthesizers and e
 
 
 <figure>
-  <img src="/assets/img/sonification/maxpatch1.jpg" alt="Mapping" width="50%" align="middle"/>
+  <img src="/assets/img/sonification/maxpatch1.jpg" alt="Mapping" width="70%" align="middle"/>
   <figcaption><strong>Mapping the visuals in Ableton Live</strong></figcaption>
 </figure>
 <br/><br/>
@@ -60,7 +59,7 @@ We mapped several elements, with three types of sonifications (Sampled - Synthes
 In the first step, the percentage who voted for remaining in the European Union was used for the process (Sampled sonification). When it was above 50%, it triggered a sample, saying “Brexit means, Brexit!”. But when it was below 50% it triggered one which was saying “Remain in the European Union!”
 
 <figure>
-  <img src="/assets/img/sonification/maxpatch2.jpg" alt="Mapping" width="50%" align="middle"/>
+  <img src="/assets/img/sonification/maxpatch2.jpg" alt="Mapping" width="70%" align="middle"/>
   <figcaption><strong>The use of samples in Ableton Live</strong></figcaption>
 </figure>
 <br/><br/>
@@ -70,7 +69,7 @@ After that, Electorate (people) amount in each area was mapped to a synthesizer 
 Also in regards to the general area and the number of the voters in that area, an ominous sound was synthesized and its pitch got raised by the numbers, getting higher (Synthesized sonification).
 
 <figure>
-  <img src="/assets/img/sonification/maxpatch3.jpg" alt="Mapping" width="50%" align="middle"/>
+  <img src="/assets/img/sonification/maxpatch3.jpg" alt="Mapping" width="70%" align="middle"/>
   <figcaption><strong>The use of synthesized sound in Ableton Live</strong></figcaption>
 </figure>
 <br/><br/>
@@ -78,7 +77,7 @@ Also in regards to the general area and the number of the voters in that area, a
 In the end, a reverb, as an effect on the sound samples, were mapped to the whole percentage who voted (Effects sonification). It was done in a way that fewer votes, created more reverb.
 
 <figure>
-  <img src="/assets/img/sonification/maxpatch4.jpg" alt="Mapping" width="50%" align="middle"/>
+  <img src="/assets/img/sonification/maxpatch4.jpg" alt="Mapping" width="70%" align="middle"/>
   <figcaption><strong>The use of effects in Ableton Live</strong></figcaption>
 </figure>
 <br/><br/>
@@ -87,12 +86,13 @@ Also in regards to video, we made the patch read the dataset and extract the nam
 The video made from a GIF file is being read and looped. The patch is using the amplitude of samples/synthesized sounds in order to control the amount of the distortion affecting the video.
 
 <figure>
-  <img src="/assets/img/sonification/vidpatch.jpg" alt="Visuals patch" width="50%" align="middle"/>
+  <img src="/assets/img/sonification/vidpatch.jpg" alt="Visuals patch" width="70%" align="middle"/>
   <figcaption><strong> Visuals Patch <strong></figcaption>
 </figure>
 <br/><br/>
 
 Here you can find the core code, for the visual part of the patch:
+
 <pre><code>
 ----------begin_max5_patcher----------
 2321.3oc6as0iiaaE94Y9UP3sO53UjRhRpukEosX.xhBzlFfjEAKnkns4FIQ
@@ -152,6 +152,7 @@ RKA5.ivWOBqXgxAO1ngkaIJ1sb9j2+a2+e8DdEy.
 
 ### Demos (Audio/Visual)
 * Visuals demo:
+<br/><br/>
 
 <figure align="middle">
         <video height="100%" width="100%" controls>
@@ -163,6 +164,7 @@ RKA5.ivWOBqXgxAO1ngkaIJ1sb9j2+a2+e8DdEy.
 <br/><br/>
 
 * Audio demo:
+<br/><br/>
 
 <audio controls="controls">
   <source type="audio/mp3" src="/assets/sounds/brexisonification.mp3"></source>
