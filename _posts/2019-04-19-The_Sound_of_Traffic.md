@@ -46,7 +46,7 @@ We chose to work with JavaScript to create our first prototype. The number of bu
 
 ### Prototype 2 with Python and SuperCollider.
 
-The first prototype was further developed with Python and SuperCollider. Three synths were created for each vehicle type and two of them are included in the descriptions below;
+The first prototype was further developed with Python and SuperCollider. Three synths were created for each vehicle type and two of them are included in the examples below;
 
 For ‘Bus Coaches’ vehicle type “sawtooth” wave generator is used with the Saw.ar class methods. Lower frequency range (10-100 Hz) and amplitude range (0.2-10) are mapped to the lower and higher number of the vehicles. The change in frequency and amplitude gives the idea of increase or decrease in number of buses in the selected region.
 
