@@ -28,24 +28,26 @@ During the sonification Lecture series, we were exposed to the fascinating conce
 </figure>
 
 
-The data includes the Annual average daily flow (AADF) data of buses/coaches, cars/taxies and motorbikes for three regions of England (North East, West Midlands & South East) from 2000-2017. The primary data was included number of vehicles but they are segregated into numerous divisions of road types for each region. Shreejay made a matlab script to which reads data of each region of choice at a time and writes them into an excel sheet by calculating the total number of vehicles in the region in each year and exported as CSV files. Then CSV files were converted into JSON files, as they are compact and flexible to use with JavaScript. 
+The data includes the Annual average daily flow (AADF) data of buses/coaches, cars/taxies and motorbikes for three regions of England (North East, West Midlands & South East) from 2000-2017. The primary data includes number of vehicles but they are segregated into numerous divisions of road types for each region. Shreejay made a matlab script which reads data of each region of choice at a time and writes them into an excel sheet by calculating the total number of vehicles in the region in each year and exported as CSV files. 
 
 ## Sonification & Sound design
 
-### Prototype 1
+### Prototype 1 with Javascript and P5js
 
-We chose to work with JavaScript to prototype our first idea. The number of buses in each particular region was directly mapped into a frequency of an oscillator by using the “map()” method. Since the numbers not inside a possible frequency range the “map() “method helps to scale the range of the numbers into the range of frequency values. As an example, the range 140235 to 183753 was mapped to the frequency range 200Hz -600Hz.
+We chose to work with JavaScript to create our first prototype. The number of buses in each particular region was directly mapped into a frequency of an oscillator by using the “map()” method. For example, the range 140235 to 183753 was mapped to the frequency range 200Hz -600Hz. Sound was generated through oscillators and three oscillator types (‘sine’, ‘saw tooth’, ‘triangle’) define a unique sound that corresponds with the data for each region. Additionally, three non-overlapping frequency ranges were chosen in the mapping to further differentiate between the three sounds. Moreover, the “settimeout()” method states the durations of a single frequency that corresponds to a certain year. 
 
-Sound was generated through oscillators and three oscillator types (‘sine’, ‘saw tooth’, ‘triangle’) define a unique sound that correspond with the data for each region. Additionally, three non-overlapping frequency ranges were chosen in the mapping to further differentiate between the three sounds. Moreover, the “settimeout()” method states the durations of a single frequency that corresponds to a certain year. 
-
-
-
+<figure align="middle">
+<audio controls>
+<source src="/assets/sounds/prototype1.wav" type="audio/wav" volume="0.2">
+ Your browser does not support the audio element.
+</audio>
+<figcaption>Sonification of Buses & Coaches in all the three regions</figcaption>
+</figure>
 
 ### Prototype 2 with Python and SuperCollider.
 
-Later the First prototype was further developed with Python and SuperCollider. Several synths were created for each vehicle type.
+The first prototype was further developed with Python and SuperCollider. Three synths were created for each vehicle type.
 For ‘Bus Coaches’ vehicle type “sawtooth” wave generator is used with the Saw.ar class methods. Lower frequency range (10-100 Hz) and amplitude range (0.2-10) are mapped to the lower and higher number of the vehicles. The change in frequency and amplitude gives the idea of increase or decrease in number of buses in the selected region.
-
 
 <figure align="middle">
 <audio controls>
@@ -69,7 +71,6 @@ For ‘Bus Coaches’ vehicle type “sawtooth” wave generator is used with th
 </figure>
 
 For ‘CarTaxies’, an example from ‘LFPulse’ is taken from the SuperCollider where it is used as both oscillator and LFO. The frequency of modulation with range (0.2-15) and amplitude range (2-10) are mapped to the lower and higher number of the vehicles. The speed of oscillation and change of amplitude signify the rise or fall of the number of  CarTaxies in the particular region.
-
 
 <figure align="middle">
 <audio controls>
@@ -126,7 +127,7 @@ Another interesting suggestion appeared to build an API for sonification of traf
 
 
 We bet, you would like to listen to the most beautiful sonification of all times. Just 
-<a href="https://github.com/shreejayshrestha/MCT4046_Sonification_Project" target="_blank">click here</a> and you will get access to all the files used in this project including the awesome sonifications. Enjoy!
+<a href="https://github.com/shreejayshrestha/MCT4046_Sonification_Project" target="_blank">click here</a> and you will get access to all the scripts, data files and all the sounds created in this project.
 
 ## Acknowledgement
 We are very grateful to Anna Xambo, our teacher for the MCT4046 Sonification and Sound Design course for exposing us to many experts and professionals working in the areas of sonification and sound design through this course. We would also like to extend our heartfelt gratitude to Thomas Hermann for sharing his plethora of knowledge on sonification and also for providing us with his slides and python script which helped us practice, learn and expand our knowledge on sonification.
