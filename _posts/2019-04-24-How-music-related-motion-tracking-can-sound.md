@@ -46,3 +46,4 @@ Originally, we were going to use Pure Data as the tool for analysing the data an
         <figcaption><strong>Live-Demo: MCT-Students performing in the Portal and Eigil on the Aircussion instrument</strong></figcaption>        
         Your browser does not support the video tag.
 </video>
+</figure>
