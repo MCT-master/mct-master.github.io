@@ -7,7 +7,7 @@ author: Karolina Jawad, Jørgen Varpe, Eirik Dahl
 image: \assets\img\mocap_pic_ei.png  
 excerpt: "During the course 'Music related Motion Tracking' there were several approaches among the students to realize their ideas. The Opti-Track system, new to all of us consists of infrared-cameras, markers and a software with calibration tools. We were exploring 
 the functions from scratch during the first week when hosting the 'Nordic-stand-still-championship' on both campus."
-Keywords: Motion Caption, Movment, MoCap, Gestures, Virtual DJ, OptiTrack
+Keywords: Air drumming, Motion Caption, Movment, MoCap, Gestures, Virtual Drum sticks, OptiTrack
 ---
 
 <figure align="middle">
