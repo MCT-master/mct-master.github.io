@@ -1,6 +1,6 @@
 ---
 layout: post
-title: The sound of motion tracking
+title: How music related motion tracking can sound
 date: 2019-04-24 18:45:00 +0200
 categories: Motion-Tracking
 author: Karolina Jawad, Jørgen Varpe, Eirik Dahl
