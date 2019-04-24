@@ -15,7 +15,8 @@ Keywords: Air drumming, Motion Caption, Movment, MoCap, Gestures, Virtual Drum s
         <source src="/assets/video/mocap_demo_video.mp4" type="video/mp4">
         <figcaption><strong>Here we are recording motion data from Eirik. The video was send through a Mathlab code provided by Alexander Refsum Jensenius</strong></figcaption>        
         Your browser does not support the video tag.
-</video>
+        </video>
+</figure>
 
 
 ## First week
