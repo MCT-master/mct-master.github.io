@@ -22,6 +22,8 @@ This was the chain flow: Midas mixer - > Computer - > mixer - > Lola - > Speaker
 
 After the lecture, we started to set up the portals with eight speakers, that had to be placed with the right angle relative to each other. In Oslo, we chose not to mount the speakers in the sealing, but to set up a non-permanent with speaker stands instead.
 
+<img src="/assets/img/mari/speakersetup_portalAmbisonic.jpg" />
+
 ## Challenges about the set-up:
 
 Next time we should clear the floor completely before setting up all the equipment. A Laser meter would also have been useful. 
