@@ -29,7 +29,7 @@ The Nidarøs Sculpture is an architectural piece and encompasses a lot of Leif A
 
 
 <figure>
-<img src="/assets/img/leif_collage.jpg" alt="Visions on advanced collaborative spaces, created by Leif Arne Rønningen" width="90%" align="middle"/>
+<img src="/assets/img/leif_collage.jpg" alt="Visions on advanced collaborative spaces, created by Leif Arne Rønningen" width="80%" align="middle"/>
 <figcaption>Visions on advanced collaborative spaces, created by Leif Arne Rønningen</figcaption>
 </figure>
 
