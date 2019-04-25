@@ -14,6 +14,8 @@ excerpt: "On 27 February 2019, we had a workshop on Ambisonics in the portal cou
 
 On 27 February 2019, we had a workshop on Ambisonics in the portal course. Anders Tveit gave us a lecture on how to encode and decode sound inputs from Lola, using the AIIRADecoder in Reaper. He talked about different formats, and that we had to convert A format to B format with software. And then convert it to Ambic format.
 
+<img src="/assets/img/mari/2702scrsh.png" />
+
 We learned that you can have as many speakers as you like, but at least 4 speakers. Then we discussed what microphone shape/pattern to use, like omni, heart-shape etc. 
 
 This was the chain flow: Midas mixer - > Computer - > mixer - > Lola - > Speakers
@@ -23,4 +25,4 @@ After the lecture, we started to set up the portals with eight speakers, that ha
 ## Challenges about the set-up:
 
 Next time we should clear the floor completely before setting up all the equipment. A Laser meter would also have been useful. 
-<img src="/assets/img/mari/movingcamera1.jpg" width="100%" />
+
