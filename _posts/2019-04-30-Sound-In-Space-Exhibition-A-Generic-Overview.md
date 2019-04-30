@@ -34,7 +34,7 @@ to sound design and sonification practices.”(Hermann, Hunt, Neuhoff)
 
 
 <figure>
-<img src="/assets/img/speaking_fox.jpg" width = "40%" align="center" />
+<img src="/assets/img/speaking_fox.jpg" width = "60%" align="center" />
   <figcaption>Talking fox made by a fine academy student</figcaption>
 </figure>
 
@@ -62,7 +62,7 @@ saying, 'do you remember'?
 
 
 <figure>
-<img src="/assets/img/joel2.jpg" width = "50%" align="center" />
+<img src="/assets/img/joel2.jpg" width = "90%" align="center" />
   <figcaption>'Do you remember?'</figcaption>
 </figure>
 
@@ -76,7 +76,7 @@ of the workshop days he spent learning how the Arduino works.
 
 
 <figure>
-<img src="/assets/img/Emil.png" width = "80%" align="center" />
+<img src="/assets/img/Emil.png" width = "100%" align="center" />
   <figcaption>Emil's prototype</figcaption>
 </figure>
 An ultrasonic distant sensor controls different musical parameters. 
