@@ -47,6 +47,8 @@ to the fox he would start talking to you and the closer you get the more distinc
 Too bad I couldn't get a hold of her so she could have might explained to me what the fox was actually preaching.
 
 
+### Aspects on sound art
+
 What is sound art though? There is no specific definition out there since it is produced by 
 different actors from different disciplines like visual art, composition, sculpturing just to name a few. 
 With digital technology sound art has undergone transformations, especially through the low threshold accessibility of sound tools. 
@@ -83,6 +85,15 @@ An ultrasonic distant sensor controls different musical parameters.
 A pressure sensor for LFO grain modulation and a little duck. A live demo will follow soon here.
 
 
+### Reflections
+
 It seems to be a good practice to explore sonification through physical computing. 
 Creating an instrument that works with playful and interactive features seems like 
 a rewarding and fun way to learn and access the subject. 
+
+
+### References
+
+Hermann, T., Hunt, A., & Neuhoff, J. G. (2011). The Sonification Handbook (1st ed.). Berlin: Logos Publishing House. Retrieved from: https://sonification.de/handbook/.
+
+Alan Licht: Sound Art - Origins, development and ambiguities
