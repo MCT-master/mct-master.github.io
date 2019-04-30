@@ -4,7 +4,7 @@ title: "A generic overview to the 'Sound in Space' exhibition at KIT"
 date: 2019-04-30 12:30:00 +0200
 categories: Sonification
 author: Karolina Jawad
-image: /assets/img/egg.JPG
+image: /assets/img/egg.jpg
 excerpt: "Marking the final event before Easter and from our Sonification and Sound design course I was tasked to visit the group exhibition 'Sound in Space' that took place on the 11th of April at Gallery KIT, Trondheim. 
 It was also the closing event for the sound art course in which music-technology and fine art academy students (NTNU) could participate."
 Keywords: Sonification
