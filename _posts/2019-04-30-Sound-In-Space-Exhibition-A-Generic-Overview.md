@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Sound in Space exhibition, a generic overview"
+title: "A generic overview to the 'Sound in Space' exhibition at KIT"
 date: 2019-04-30 12:30:00 +0200
 categories: Sonification
 author: Karolina Jawad
