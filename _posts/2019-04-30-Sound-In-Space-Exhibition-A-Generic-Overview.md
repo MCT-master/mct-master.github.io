@@ -79,8 +79,8 @@ of the workshop days he spent learning how the Arduino works.
 <img src="/assets/img/Emil.png" width = "50%" align="center" />
   <figcaption>Emil's prototype</figcaption>
 </figure>
-Emil: ultrasonic distant sensor that is controlling the speed and slightly bit of a pitch as well. 
-A pressure sensor for LFO grain modulation and a little duck. Live demo soon here.
+An ultrasonic distant sensor controls different musical parameters. 
+A pressure sensor for LFO grain modulation and a little duck. A live demo will follow soon here.
 
 
 It seems to be a good practice to explore sonification through physical computing. 
