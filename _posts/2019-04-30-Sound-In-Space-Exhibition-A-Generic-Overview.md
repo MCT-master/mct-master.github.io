@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Sound in Space exhibition, a generic overview"
-date: 2019-04-30 13:00:00 +0200
+date: 2019-04-30 12:30:00 +0200
 categories: Sonification
 author: Karolina Jawad
 image: /assets/img/egg.JPG
