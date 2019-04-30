@@ -34,9 +34,10 @@ to sound design and sonification practices.”(Hermann, Hunt, Neuhoff)
 
 
 <figure>
-<img src="/assets/img/speaking_fox.jpg" width = "80%" align="center" />
+<img src="/assets/img/speaking_fox.jpg" width = "50%" align="center" />
   <figcaption>Talking fox made by a fine academy student</figcaption>
 </figure>
+
 
 
 Most of the items in the sound art exhibition were indeed so designed that the visitors could directly 
@@ -61,7 +62,7 @@ saying, 'do you remember'?
 
 
 <figure>
-<img src="/assets/img/joel2.jpg" width = "100%" align="center" />
+<img src="/assets/img/joel2.jpg" width = "50%" align="center" />
   <figcaption>'Do you remember?'</figcaption>
 </figure>
 
@@ -75,7 +76,7 @@ of the workshop days he spent learning how the Arduino works.
 
 
 <figure>
-<img src="/assets/img/Emil.png" width = "100%" align="center" />
+<img src="/assets/img/Emil.png" width = "50%" align="center" />
   <figcaption>Emil's prototype</figcaption>
 </figure>
 Emil: ultrasonic distant sensor that is controlling the speed and slightly bit of a pitch as well. 
