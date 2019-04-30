@@ -35,7 +35,7 @@ to sound design and sonification practices.”(Hermann, Hunt, Neuhoff)
 
 <figure>
 <img src="/assets/img/speaking_fox.jpg" width = "60%" align="center" />
-  <figcaption>Talking fox made by a fine academy student</figcaption>
+  <figcaption>Talking fox made by a fine art academy student</figcaption>
 </figure>
 
 
