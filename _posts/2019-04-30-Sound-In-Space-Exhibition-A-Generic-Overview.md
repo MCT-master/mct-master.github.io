@@ -57,10 +57,9 @@ it can be experienced over a long or short period of time, without missing the b
 is visceral and emotive it can define a space at the same time as it triggers a memory (Susan Philipsz).
 
 
-One of the students I met there was Joel (MuTek). Joel's 'Do you remember' (see below) actually plays with that sense of memory and space in a very practical way. 
-He collected speech in news reports from the worst natural disasters world wide in the last 6 years. 
-On a world map one could see six circles in different regions, when pushing one of them a voice would interrupt randomly the news-reports 
-saying, 'do you remember'? 
+One of the students I met there was Joel Hynsjö (MuTek). Joel's 'Do you remember' (see below) actually plays with that sense of memory and space in a very practical way. He collected speech in news reports from the worst natural disasters world wide in the last 6 years. 
+On a world map one could see six circles in different regions, the piece is silent until one of the circles is being pushed. 
+There is a voice which interrupts randomly the news-reports, every time you push there is a chance that "do you remember" is played instead of the report.
 
 
 <figure>
