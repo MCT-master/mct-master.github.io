@@ -3,7 +3,7 @@ layout: post
 title:  "Portal Jam 23 January 2019, Documentation from Oslo Team"
 date:   2019-02-23 16:40:00 +0200
 categories: Portal
-author: Mari Lesteberg, Ashane Silva
+author: Mari Lesteberg, Ashane Silva, Elias Sukken Andersen
 image: /assets/img/mari/PortalJam.png
 excerpt: ""
 
@@ -93,7 +93,9 @@ Piano: Daniel Formo
 
 As you can see and hear in the first video, we very quickly started to decrease in tempo. There is a huge difference in BPM at the beginning and in the end. It's likely that this decrease in tempo happened because of the transmission latency in the LOLA system.
 
-This was why we decided to give it another try, but with click this time, as you can hear in the second video. It helped a lot, but we were still struggling somehow to keep up in sync with the click. For rhytmic music like jazz, it seemes that playing with click is mandatory to be able to keep the time in the telematic performance. However, for the audience, listening to a click track is not very pleasant. An interesting future task could be to figure out a nice soloution to let the performers only hear the click track during a performance (and not the audience).
+To solve the problem of decreasing in tempo, we decided to let Elias listen to click, while the other were following his tempo. This might sound like a good idea, but it was not as simple as it might sound. Since Elias is listening to the click, the musicians in Oslo and the musicians in Trondheim at once, he get three different tempos or more, since the different musicians might play in a slightly different tempo. That means that Elias have to try follow his click, regardless of how the others play. And since there are delay from Trondheim, this got quickly quite confusing. After trying this a couple of time, with not the best result we came up with the next idea - let us all listen to the same click.
+
+As you can hear in the second video, we are now listening to the same click (even though Trondheim got some delay, since the click was played from Oslo). This helped a lot, but we were still struggling somehow to keep up in sync with the click. For rhytmic music like jazz, it seemes that playing with click is mandatory to be able to keep the time in the telematic performance. However, for the audience, listening to a click track is not very pleasant. An interesting future task could be to figure out a nice soloution to let the performers only hear the click track during a performance (and not the audience).
 
 Another idea for future telematic jam sessions, would be to experiment with different types of music than jazz, with less strict tempo preferences. Maybe more ambient types of music would fit the setting better.
 
