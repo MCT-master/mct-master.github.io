@@ -3,7 +3,7 @@ layout: post
 title:  "Portal Jam 23 January 2019, Documentation from Oslo Team"
 date:   2019-02-23 16:40:00 +0200
 categories: Portal
-author: Mari Lesteberg,
+author: Mari Lesteberg, Ashane Silva
 image: /assets/img/.jpg
 excerpt: ""
 
@@ -37,12 +37,36 @@ Bass: Eirik
 Guitar: Jonas or Sepehr.
 
 
-#### Video from the performance
+### Videos from the performance
 
 
-In this video, you see the Oslo Side of the performance. The Trondheim side of the performance was documented in [this](https://mct-master.github.io/portal/2019/02/10/Documentation-and-recommendations-from-the-latest-Portal-Jam.html) blog post. 
+In those two videos, you see the Oslo Side of the performance. The Trondheim side of the performance was documented in [this](https://mct-master.github.io/portal/2019/02/10/Documentation-and-recommendations-from-the-latest-Portal-Jam.html) blog post. 
 
-#### Reflections
+#### The line up (Oslo side):
 
-As you can see and hear in the video, we very quickly started to decrease in tempo. 
+Saxophone: Guy Sion
+
+Drums: Elias Sukken Andersen
+
+Vocals: Mari Lesteberg
+
+#### Line up (Trondheim side):
+
+Bass: Eirik Dahl
+
+Guitar: Jonas Bjordal
+
+Piano: Daniel Formo
+
+#### First try, without click:
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/KhMig-qWRZI" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+#### Second try, with click:
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/7LWDRQu0FXo" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+### Reflections
+
+As you can see and hear in the first video, we very quickly started to decrease in tempo. There is a huge difference in BPM at the beginning and in the end. It's likely that this is because of the transmission latency in the LOLA system
 
