@@ -11,7 +11,7 @@ Keywords: Ambisonics, Music, Technology, Max4Live, Binaurally, E4L, Giant Steps
 <p>
 <figure>
 <center>
-<img src="/assets/img/guysion/ambisonicLogo.png" width = "100%" align="center" />
+<img src="/assets/img/guysion/ambisonicLogo.png" width = "40%" align="center" />
 </center>
 </figure>
 
@@ -20,27 +20,27 @@ Keywords: Ambisonics, Music, Technology, Max4Live, Binaurally, E4L, Giant Steps
 <p>For our second session on April 24th, we focused on decoding binaurally the input from four large diaphragm condenser microphones placed in a square formation. It required us to use headphones for a better perception of the sound stream and enhanced immersive environment. The decoding was done this time with <a href="http://www.envelop.us/software" target="_blank">E4L (Envelop for Live)</a> free collection of spatial audio production tools. We created four audio channels and placed the E4L Source Panner device on each of the audio tracks. On a fifth audio track, we set the E4L Master Bus device and directed all output from the four microphones into that channel. You can see the setup we have used in Ableton Live in the pictures below.
 
 <figure>
-<img src="/assets/img/guysion/amb1" width = "85%" align="center"/>
+<img src="/assets/img/guysion/amb1.png" width = "85%" align="center"/>
 </figure>
 
 <figure>
-<img src="/assets/img/guysion/amb2" width = "85%" align="center"/>
+<img src="/assets/img/guysion/amb2.png" width = "85%" align="center"/>
 </figure>
 
 <figure>
-<img src="/assets/img/guysion/amb3" width = "85%" align="center"/>
+<img src="/assets/img/guysion/amb3.png" width = "85%" align="center"/>
 </figure>
 
 <figure>
-<img src="/assets/img/guysion/amb4" width = "85%" align="center"/>
+<img src="/assets/img/guysion/amb4.png" width = "85%" align="center"/>
 </figure>
 
 <figure>
-<img src="/assets/img/guysion/amb5" width = "85%" align="center"/>
+<img src="/assets/img/guysion/amb5.png" width = "85%" align="center"/>
 </figure>
 
 <figure>
-<img src="/assets/img/guysion/amb6" width = "85%" align="center"/>
+<img src="/assets/img/guysion/amb6.png" width = "85%" align="center"/>
 </figure>
 
 <p>We were given the time to experiment with this setup. Several class members have started to whisper, talk loudly or sing into their dedicated microphones, trying to create unique sonic material for the listeners who wore headphones in Trondheim and Oslo. I seized on the opportunity to play the saxophone with this ambisonic setup and resorted to the Giant Steps melody which seemed to be a recurring theme whenever I am being asked to play something (have you checked out my <a href="https://mct-master.github.io/audio-programming/2019/02/11/Giant-Player.html" target="_blank">(Giant Steps Player already?).</a>
