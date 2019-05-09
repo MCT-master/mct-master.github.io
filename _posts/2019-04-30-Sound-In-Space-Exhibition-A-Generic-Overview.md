@@ -78,7 +78,7 @@ of the workshop days he spent learning how the Arduino works.
 
 <figure>
 <img src="/assets/img/Emil.png" width = "100%" align="center" />
-  <figcaption>Emil's prototype</figcaption>
+  <figcaption>Emiel's prototype</figcaption>
 </figure>
 An ultrasonic distant sensor controls different musical parameters. 
 A pressure sensor for LFO grain modulation and a little duck. A live demo will follow soon here.
