@@ -68,5 +68,9 @@ Piano: Daniel Formo
 
 ### Reflections
 
-As you can see and hear in the first video, we very quickly started to decrease in tempo. There is a huge difference in BPM at the beginning and in the end. It's likely that this is because of the transmission latency in the LOLA system
+As you can see and hear in the first video, we very quickly started to decrease in tempo. There is a huge difference in BPM at the beginning and in the end. It's likely that this decrease in tempo happened because of the transmission latency in the LOLA system.
+
+This was why we decided to give it another try, but with click this time, as you can hear in the second video. It helped a lot, but we were still struggling somehow to keep up in sync with the click. For rhytmic music like jazz, it seemes that playing with click is mandatory to be able to keep the time in the telematic performance. However, for the audience, listening to a click track is not very pleasant. An interesting future task could be to figure out a nice soloution to let the performers only hear the click track during a performance (and not the audience).
+
+Another idea for future telematic jam sessions, would be to experiment with different types of music than jazz, with less strict tempo preferences. Maybe more ambient types of music would fit the setting better.
 
