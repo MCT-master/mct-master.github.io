@@ -4,7 +4,7 @@ title:  "Creating a natural immersive space with Ambisonics in the Portal"
 date:   2019-04-24 17:00:00 +0200
 categories: Portal
 author: Eigil Aandahl, Elias Sukken Andersen, Guy Sion, Ashane Silva, Espen Wik 
-image: /assets/img/.jpg
+image: /assets/img/Elias/anders_explaining_ambisonic.jpg
 excerpt: ""
 ---
 
