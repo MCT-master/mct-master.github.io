@@ -1,7 +1,7 @@
 
 ---
 layout: post
-title: "Ambisonics"
+title: "Ambisonics!"
 date: 2019-02-27 16:40:00 +0200
 categories: Portal
 author: Mari Lesteberg, Elias Sukken Andersen
@@ -10,7 +10,7 @@ excerpt: "On 27 February 2019, we had a workshop on Ambisonics in the portal cou
 
 ---
 
-### Portal workshop on Ambisonics, 27 February 2019
+## Portal workshop on Ambisonics, 27 February 2019
 
 On 27 February 2019, we had a workshop on Ambisonics and the SoundField microphone in the portal course. Anders Tveit gave us a lecture on how to encode and decode sound inputs from Lola, using the AIIRADecoder in Reaper. He talked about different formats, and that we had to convert A format to B format with software. And then convert it to Ambic format.
 
