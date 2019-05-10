@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Creating a virtal/augumented immersive space with Ambisonics in the Portal"
+title:  "Augmented Reality"
 date:   2019-04-24 16:40:00 +0200
 categories: Portal
 author: Mari Lesteberg, Sam Roman, Karolina Jawad, Jørgen Varpe, Sepehr Saghigi
@@ -13,8 +13,6 @@ excerpt: ""
 On the 24 of April, we went into groups to solve a task handed out by Anders Tveit. Our task was to create a virtual/augmented immersive pace, using Polycom or Zoom for video and a DAW of any choice together with MIDAS mixer and LOLA for sound. We chose to use Ableton Live together with [Envelope for Live plugins](http://www.envelop.us/software), and a <a href="https://github.com/MeltingPlanet/M4L_OSCDeviceControl" target="_blank">custom OSC M4L (Max for live) device</a>.
 
 
-
-KAROLINA 
 ### Discuss and define what constitutes a natural immersive space and in what way can a immersive virtual space be created?
 
 (K) To design an immersive experience in a way that makes it indeed more natural to spend time 'together' is a multi-layered matter. In the final Portal workshop of this semester we were looking at Ambisonics as a potential way to create an augmented auditory space from the perspective of sound. It could be a way of dissolving the playback system from being in the foreground as it is now at any time (along all the other technological means) and getting closer to the idea of immersive practice. 
