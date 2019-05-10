@@ -10,6 +10,8 @@ excerpt: ""
 ---
 ## Rearranging and setup the portal for seminars and talks
 
+
+
 <img src="/assets/img/mari/movingcamera1.jpg" width="100%" />
 
 <video width="640" height="480" controls align="middle">
