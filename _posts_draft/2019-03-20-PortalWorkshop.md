@@ -8,6 +8,7 @@ image: /assets/img/.jpg
 excerpt: ""
 
 ---
+## Rearranging and setup the portal for seminars and talks
 
 <img src="/assets/img/mari/movingcamera1.jpg" width="100%" />
 
