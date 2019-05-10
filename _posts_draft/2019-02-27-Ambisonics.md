@@ -12,11 +12,11 @@ excerpt: "On 27 February 2019, we had a workshop on Ambisonics in the portal cou
 
 ### Portal workshop on Ambisonics, 27 February 2019
 
-On 27 February 2019, we had a workshop on Ambisonics in the portal course. Anders Tveit gave us a lecture on how to encode and decode sound inputs from Lola, using the AIIRADecoder in Reaper. He talked about different formats, and that we had to convert A format to B format with software. And then convert it to Ambic format.
+On 27 February 2019, we had a workshop on Ambisonics and the SoundField microphone in the portal course. Anders Tveit gave us a lecture on how to encode and decode sound inputs from Lola, using the AIIRADecoder in Reaper. He talked about different formats, and that we had to convert A format to B format with software. And then convert it to Ambic format.
 
 <img src="/assets/img/mari/2702scrsh.png" />
 
-We learned that you can have as many speakers as you like, but at least 4 speakers. Then we discussed what microphone shape/pattern to use, like omni, heart-shape etc. 
+We learned that you can have as many speakers as you like, but at least 4 speakers. Then we discussed what microphone shape/pattern to use, like omni, heart-shape etc.
 
 This was the chain flow: Midas mixer - > Computer - > mixer - > Lola - > Speakers
 
@@ -30,3 +30,8 @@ Next time we should clear the floor completely before setting up all the equipme
 
 To get the angle and the distance between the speakers was not as easy as we first thought. Since every time you move one speaker, the other once have to be moved to. In case you do not set it at the right position from the start, which we had trouble with. Here a laser meter would have been useful. Since we could then print out a paper which we lay in the middle of the setup. On this paper we could have eight direction, one for each speaker, and then point the laser in the right dirction for each speaker and then the measure the right distance.  
 
+<img src="/assets/img/mari/27feb1.jpg" />
+
+_Trying to measure up the dictance between the speakers in the middle of a cable jungle_
+
+<img src="/assets/img/mari/27feb2.jpg" />
