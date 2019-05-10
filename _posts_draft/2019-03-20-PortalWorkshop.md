@@ -11,4 +11,7 @@ excerpt: ""
 
 <img src="/assets/img/mari/movingcamera1.jpg" width="100%" />
 
-<video src="/assets/video/babysharkgif.mp4" width="100%" />
+<video width="640" height="480" controls align="middle">
+  <source src="/assets/video/babysharkgif.mp4" type="video/mp4">
+  Your browser does not support the video tag.
+</video>
