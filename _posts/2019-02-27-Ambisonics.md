@@ -21,7 +21,7 @@ This was the chain flow: Midas mixer - > Computer - > mixer - > Lola - > Speaker
 
 After the lecture, we started to set up the portals with eight speakers, that had to be placed with the right angle relative to each other. In Oslo, we chose not to mount the speakers in the sealing, but to set up a non-permanent with speaker stands instead. It is important to set the speakers at the correct spot with right angle and the same distance from where we set the middle point. It is also important to set the same volume for all the speakers. The reason why this is important is that the volume and the distance to the speakers will interfer with Ambisonic, since volume is the main factor to make this immersive space. 
 
-<img src="/assets/img/speakersetup_portalAmbisonic.jpg" width=60%/>
+<img src="/assets/img/speakersetup_portalAmbisonic.jpg" width=60% />
 
 ## Challenges about the set-up:
 
