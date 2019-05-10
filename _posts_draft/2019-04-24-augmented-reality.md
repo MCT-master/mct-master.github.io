@@ -1,0 +1,53 @@
+---
+layout: post
+title:  "Creating a virtal/augumented immersive space with Ambisonics in the Portal"
+date:   2019-04-24 16:40:00 +0200
+categories: Portal
+author: Mari Lesteberg, Sam Roman, Karolina Jawad, Jørgen Varpe, Sepehr Saghigi
+image: /assets/img/.jpg
+excerpt: ""
+
+---
+## Creating a virtal/augumented immersive space with Ambisonics in the Portal
+
+On the 24 of April, we went into groups to solve a task handed out by Anders Tveit. Our task was to create a virtual/augmented immersive pace, using Polycom or Zoom for video and a DAW of any choice together with MIDAS mixer and LOLA for sound. We chose to use Ableton Live together with [Envelope for Live plugins](http://www.envelop.us/software), and a <a href="https://github.com/MeltingPlanet/M4L_OSCDeviceControl" target="_blank">custom OSC M4L (Max for live) device</a>.
+
+
+
+KAROLINA 
+### Discuss and define what constitutes a natural immersive space and in what way can a immersive virtual space be created?
+
+(K) To design an immersive experience in a way that makes it indeed more natural to spend time 'together' is a multi-layered matter. In the final Portal workshop of this semester we were looking at Ambisonics as a potential way to create an augmented auditory space from the perspective of sound. It could be a way of dissolving the playback system from being in the foreground as it is now at any time (along all the other technological means) and getting closer to the idea of immersive practice. 
+
+First we were kicking off the workshop session by discussing on a more higher level what an natural immersive space might be and what therefore an augmented immersive space could or should do. Does it imitate an natural space by means of technology? As elaborated in other posts, spending many hours in a conference system that is not rendered for the human sensory system creates fatigue symptoms and also exhaustion. In 'The road to immersive communication' immersive communication is defined as exchanging natural social signals with remote participants, as in face-to-face meetings, and/or experiencing remote locations.
+
+
+### Plan and create an efficient routing setup between the technology, what type of hardware is needed?
+
+(Se)We decided to create an immersive space that included both a natural space and also an augmented space which could be experienced both in Trondheim and Oslo.
+
+
+In regards to the natural sounds, we used a waterfall and a birds singing sound. For the augmented reality part we used two microphones, each being placed in a corner of the room. These 4 sound sources were sent to Ableton, imported into the E4L Source Panner. This device takes a stereo input and encodes it into 16 channels of high order ambisonics. We chose to place one sound source in each corner of the augmented space. All four sound sources were then sent to a E4L Master Bus, which decoded the sources to binaural. In the end we had an immersive space which included both a natural and an augmented.
+
+
+For the next step we wanted the user to be in control of his/her placement in the space. The output of the DAW was a 2 channel binaural one, which the participant could hear it by a pair of headphones. The output sound was also being sent to Oslo over LOLA and the audience in Oslo could use a pair of headphone to experience this space in parallel to Trondheim.
+
+In order to have the user in control of his or her placement in the immersive space, we used a mobile app by the name of OSC Controller (https://play.google.com/store/apps/details?id=com.ffsmultimedia.osccontroller&hl=en_US). We chose to use 4 sliders that could send OSC messages to our Max for Live device called OSC Device Control. Each of these sliders were then used to control the radius of our four sound sources. In this way, the user could control his/her distance from the sound sources in the space.
+
+### Testing of basic communication and possible musical performance
+
+
+Future use of the custom “OSC Device Control” plugin
+
+The M4L device is built using the M4L Live API. With this you can use any application that can send OSC messages to control device parameters in Ableton Live.
+
+
+
+<figure>
+<img src="/assets/img/varpe/OSCDeviceControl.PNG" width = "50%" align="center" />
+</figure>
+
+In the plugin you choose a port you want to use for communication over UDP (9999 is default). The plugin is set to receive OSC messages from four sliders from the Osc Controller app by default. These four addresses can be changed to fit your OSC controller of choice, and you can choose which device and parameter each address will control. 
+
+In the portal in Trondheim we have now available both a optical tracking system called OptiTrack and a radio tracking system called Pozyx. Both of these systems can send tracking information as OSC messages over UDP. By connecting any of these two tracking systems to the OSC Device Control plugin, you can control any device with positional data. If you are walking around the portal with a wireless microphone, you can for example use the E4L Source Panner plugin and let the azimuth and radius of the your microphone signal be controlled by this movement data. This could then be decoded to binaural and sent to Oslo.
+
