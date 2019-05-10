@@ -10,3 +10,5 @@ excerpt: ""
 ---
 
 <img src="/assets/img/mari/movingcamera1.jpg" width="100%" />
+
+<img src="/assets/video/babysharkgif.mp4" width="100%" />
