@@ -12,31 +12,31 @@ excerpt: ""
 
 On 20 March 2019, the MCT team were tidying up the portal and rearranging the Portal for talks. We have collected some pictures from the day, enjoy the slideshow:
 
-<img src="/assets/img/mari/movingcamera2.jpg" width="100%" />
+<img src="/assets/img/mari/movingcamera2.jpg"  />
 
 _Ashane working on the best camera position_
 
-<img src="/assets/img/mari/finalcamerasolution.jpg" width="100%" />
+<img src="/assets/img/mari/finalcamerasolution.jpg"  />
 
 _Final camera solution! We figured out in the end that the roof is not an optimal position for cameras._
 
-<img src="/assets/img/mari/movingdrumkit.jpg" width="100%" />
+<img src="/assets/img/mari/movingdrumkit.jpg" />
 
 _To move an electrical drum kit is not the easiest task. It needs to be disassembled and everything._
 
-<img src="/assets/img/mari/brokenscissors.jpg" width="100%" />
+<img src="/assets/img/mari/brokenscissors.jpg"  />
 
 _How is it even possible to break a pair of scissors?!_
 
-<img src="/assets/img/mari/xlrcables.jpg" width="100%" />
+<img src="/assets/img/mari/xlrcables.jpg"  />
 
 _Need an extra XLR cable?_
 
-<img src="/assets/img/mari/labeling1.jpg" width="100%" />
+<img src="/assets/img/mari/labeling1.jpg" />
 
 _Or a power cable?_
 
-<img src="/assets/img/mari/mic1.jpg" width="100%" />
+<img src="/assets/img/mari/mic1.jpg" />
 
 _All microphones are now labeled with numbers from 1-4. No more confusion!_
 
