@@ -41,7 +41,7 @@ For the next step we wanted the user to be in control of his/her placement in th
 In order to have the user in control of his or her placement in the immersive space, we used a mobile app by the name of [OSC Controller](https://play.google.com/store/apps/details?id=com.ffsmultimedia.osccontroller&hl=en_US). We chose to use 4 sliders that could send OSC messages to our Max for Live device called OSC Device Control. Each of these sliders were then used to control the radius of our four sound sources. In this way, the user could control his/her distance from the sound sources in the space.
 
 <figure>
-<img src="/assets/img/mari/oscapp.jpg" align="center" />
+<img src="/assets/img/mari/oscapp.png" width="40%" align="center" />
 </figure>
 
 
