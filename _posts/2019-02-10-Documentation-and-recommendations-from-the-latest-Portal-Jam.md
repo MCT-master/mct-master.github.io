@@ -42,15 +42,12 @@ For some parts of the jam we chose to use the click track from the drums in Oslo
 
 ## Technicalities
 
-Both sides agreed to use headphone splitter to minimize feedback from monitoring. (MORE HERE)
-In Oslo the drums and vocals were send through LOLA (that's it?). Some instruments took longer time to connect like the bass, 
-the output of the bass amp which was bought to be directly connected to the mixer created noise. Double checking the outputs turned out 
-to be helpful – instead the bass was connected to a DI box which then could be connected to the Midas mixer. 
-All other instruments were connected directly to the mixer, like the guitar through an amp.
-For documentation we used several video sources, like Sony camcorder, Zoom audio-visual capturing and mobile phones.
+Both sides agreed to use headphones for monitoring, which eliminated the chance of feedback.
+In Oslo, drums, vocals and saxophone were sent through LOLA. In Trondheim, bass, piano and guitar were routed to Oslo. Some instruments took longer time to connect, like the bass guitar. The output of the bass amp which was bought to be directly connected to the mixer, created noise. To solve the noise issue, the bass was instead connected to a DI box, connected to the Midas mixer. 
+All other instruments were connected directly to the mixer, like the guitar through an amp. For documentation we used several video sources, like Sony camcorder, Zoom audio-visual capturing and mobile phones.
 
 ## Stereo mix/ monitor mix 
-In Trondheim we recieved audio from Oslo on 4 channels through LOLA. These channeles were sent together with the local audio channels to output bus 9 and 10, as you can see illustrated in the signal flow chart above. These channeles were physically connected to a headphone amplifier, which distributed the signal to the local participants in Trondheim. Since only two channels (left and right) were used, everyone got the same monitor mix. This mix was set by adjusting the amount of each instrument sent to the monitor busses. Later on we will add several busses, to be able to send different mixes to each participant.
+In Trondheim we recieved audio from Oslo on 4 channels through LOLA (Two for drums). These channeles were sent together with the local audio channels to output bus 9 and 10, as you can see illustrated in the signal flow chart above. These channeles were physically connected to a headphone amplifier, which distributed the signal to the local participants in Trondheim. Since only two channels (left and right) were used, everyone got the same monitor mix. This mix was set by adjusting the amount of each instrument sent to the monitor busses. Later on we will add several busses, to be able to send different mixes to each participant.
 
 
 General thoughts on the documentation, it would be practical to develop a standard procedure for them. 
