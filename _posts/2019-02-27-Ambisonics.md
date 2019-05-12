@@ -33,13 +33,12 @@ We learned that you can have as many speakers as you like, but at least 4 speake
 
 We managed to tryout the "MultiEncoder" from IEM plugin suite to encode multiple input and also used the "binauraldecoder" to decode and listen to the audio with headohones.
 
-<figure align="center">
-<img src="/assets/img/multiencoderIEM.PNG"  />
-</figure>
 
-<figure align="center">
+<img src="/assets/img/multiencoderIEM.PNG" />
+
+
 <img src="/assets/img/Binural.PNG" />
-</figure>
+
 
 
 This was the chain flow: Midas mixer - > Computer - > mixer - > Lola - > Speakers
