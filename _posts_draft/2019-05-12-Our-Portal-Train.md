@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Our Portal Train"
+title: "Our Portal Train in Trondheim"
 date: 2019-04-05 05:00:00 +0200
 categories: Portal
 author: Shreejay Shrestha
@@ -11,7 +11,9 @@ Keywords: Portal, Scenarios
 
 <figure>
   <img src="/assets/img/cj/portaltog.jpg " width = "100%" align="center" />
-  <figcaption>Vår Portaltog</figcaption>
+  <figcaption>Vår Portaltog i Trondheim</figcaption>
 </figure>
 
-In the spring semester 2019, we had five courses with different teaching and learning environment. In addition, we also had some series of talks, seminars and started both running and streaming WoNomute seminars from the portal.
+There are many blogs explainig the audio set ups in the <a href="https://mct-master.github.io/portal/" target="_blank">**The blog of MCT**</a>. However, only few of them have addressed the scenarios and physical setup of furnitures and technical equipments, for example, <a https://mct-master.github.io/portal/2018/09/10/A-team-first-week.html" target="_blank">**A-team-First Week**</a>, <a https://mct-master.github.io/portal/2018/09/17/Group-B-setting-up-tico.html" target="_blank">**M.A.D.E - setting up Tico**</a> and <a https://mct-master.github.io/portal/2018/10/03/A-team-presentation.html" target="_blank">**Group A - Setting up for a joint group presentation**</a>.   
+This blog is an attempt to fill the gaps and In the spring semester 2019, we had five courses with different teaching and learning environment. Together with lectures and seminars, we also had some series of talks, workshops and started both running and streaming of the WoNomute seminars from the portal. 
+
