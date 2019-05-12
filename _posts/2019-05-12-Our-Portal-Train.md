@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Our Portal Train in Trondheim"
+title: "Scenarios in the Trondheim Portal during the spring semester-2019"
 date: 2019-05-13 01:30:00 +0200
 categories: Portal
 author: Shreejay Shrestha
@@ -14,7 +14,7 @@ Keywords: Portal, Scenarios
   <figcaption>Vår Portaltog i Trondheim</figcaption>
 </figure>
 
-# Scenarios in the Portal in Trondheim, NTNU in the spring semester-2019
+
 
 ## Introduction
 
@@ -59,7 +59,7 @@ When it comes to screens, Screen-1 has been mostly used to display the presentat
 </figure>
 
 <figure>
-  <img src="/assets/img/cj/sonification_talks_L.jpg " width = "100%" align="center" />
+  <img src="/assets/img/cj/sonification_talks.jpg " width = "100%" align="center" />
   <figcaption>Layout-4: L-shaped presentation facing Screen 1 with presenter in front</figcaption>
 </figure>
 
