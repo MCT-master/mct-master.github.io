@@ -53,44 +53,40 @@ When it comes to screens, Screen-1 has been mostly used to display the presentat
 
 ### Physical Layout
 
-<figure>
-  <img src="/assets/img/cj/sonification_talks_L.jpg " width = "100%" align="center" />
-  <figcaption>Layout-3: L-shaped presentation facing Screen 1 with presenter in front</figcaption>
-</figure>
-
  <figure>
   <img src="/assets/img/cj/lecture_L.jpg " width = "100%" align="center" />
-  <figcaption>Layout-4: L-shaped lecture facing Screen 1</figcaption>
+  <figcaption>Layout-3: L-shaped lecture facing Screen 1</figcaption>
 </figure>
 
-We had to try a new set up for hosting a series of talks from experts and processionals in the MCT4046 Sonification and Sound design - Spring 19 course this semester. Layout-3 came out to be perfect because it was also flexible to be used as a scenario for workshop or lecture with a very little re-arrangement. For example, with just unplugging the presenter's laptop and removing the cam-2 gives the Layout-4 which was used for all of the lectures during the MCT4046 course in the semester. In this case, the teacher gave her lectures while seating among the students.
+<figure>
+  <img src="/assets/img/cj/sonification_talks_L.jpg " width = "100%" align="center" />
+  <figcaption>Layout-4: L-shaped presentation facing Screen 1 with presenter in front</figcaption>
+</figure>
+
+We had to try a new set up for hosting a series of talks from experts and processionals in the MCT4046 Sonification and Sound design - Spring 19 course this semester. Layout-4 came out to be perfect because it was also flexible to be used as a scenario for workshop or lecture with a very little re-arrangement. For example, with just unplugging the presenter's laptop and removing the cam-2 gives the Layout-3 which was used for all of the lectures during the MCT4046 course in the semester. In this case, the teacher gave her lectures while seating among the students.
 
 ### Technical solutions
 
+The audio solution for both Layout-3 and Layout-4 is more or less the same in comparison to previous scenarios. Similarly, the visual solution for Layout-3 and Layout-4 is also similar to that of Layout-1 and Layout-2 respectively. However, there is an advantage in Layout-4 for visual solution over the Layout-2 mainly because of the location of the Screen-1, Screen-2 and position of the presenter. Here the presenter can look at the Screen-2 and at the same time maintain an eye contact with the Oslo portal as the cam-2 is closer to the Screen-2. The presenter's position also makes it easy to communicate well with the Trondheim students and again the Trondheim students can also communicate well with the portal in Oslo as Screen-2 is just in front of them. However, the two campuses are still at around 60 degrees to the presenter. That means he/she can only focus on one campus at a time. In order to have an eye contact with both campuses at the same time, Layout-2 could be a promising solution with Oslo being projected on the Screen-3 and cam-2 being moved closer to the Screen-3. 
 
 ##  Scenario-3: WoNoMute
 
 ### Physical Layout
 
-Although all of the scenarios are different from one another, but most of them have only few dissimilarities. In my experience, WoNomute has been one of the most unique scenarios that we have practiced so far. It is an open talk show where the number of audience taking part can go from 20-25 at each end. Perhaps, the portal in Oslo can house a bit more than that. But the most interesting part is, the talk show is streamed live on line. It adds in some kicks to the crew members sometimes because we have seen many strange technical difficulties that make it challenging to do the job. 
+Although all of the scenarios are different from one another, but most of them have only few dissimilarities. In my experience, the layout of WoNomute is quite similar to Layout-2. The only big difference is the V-shape is changed into a linear array of seatings for the audience, cam-2 is located at far end corner close to Screen-3 and there is an additional camera, the cam-2. However, it is an open talk show where the number of audience taking part can go from 20-25 at each end. Perhaps, the portal in Oslo can house a bit more than that. But the most interesting part is, the talk show is streamed live on line. It adds in some kicks to the crew members sometimes because we have seen many strange technical difficulties that make it challenging to do the job. Nonetheless, right from the beginning of the semester, we have been able to make a more or less stable layout (Layout-5) for hosting the talks. It also involves a bit of physical works on removing all tables out and bringing in enough chairs and vice versa after the end of the talk.
 
  <figure>
   <img src="/assets/img/cj/wonomute_talks.jpg " width = "100%" align="center" />
   <figcaption>Layout-5: L-shaped Wonomute facing Screen 1</figcaption>
 </figure>
 
-Right from the beginning of the semester, we have been able to make a more or less stable layout (Layout-5) for hosting the talks. It also involves a bit of physical works on removing all tables out and bringing in enough chairs and vice versa after the end of the talk.
-### Technical solutions
-WoNomute has been by far, the most challenging scenarios during the entire semester.
 
+### Technical solutions, Advantage and Challenges.
+The audio solution is again more or less the same in this scenario as well. The only difference is the WoNomute uses OBS as an intermediate interface for the live streaming of the talks. As such, the OBS requires audio inputs from the mixer and video inputs from
+the presentation, cam-3 and video footage of both audiences in Oslo and Trondheim. The live streaming has been working quite well except for the last talk where we faced some super wierd problem that we never faced before. However, when it comes to the usage of the screen, Screen-1 has always been used to display the presentation (the presenter logs into the zoom meeting room and share the presentation for this purpose), Screen-2 has been used to display the WoNomute logo while Screen-3 has been used to display the Oslo audience. This set up is quite ok but the only challenge is to have the Oslo come into play on Screen-1 during the 'Question Answer' session of the talk. It is possible to do so by making the presenter aware beforehand to stop sharing her screen while presenting during the Q & A session, but this has not been not a proper solution. Besides, gettiing video feeds from the same Zoom meeting (audience of Trondheim and Oslo) into the OBS using window capture technique in the OBS seems both tiresome and unstable as it gets changing everytime a new participant joins the zoom meeting or if any participant leaves the meeting. If this happens during the time of streaming of the audience's scene then the stream may also be affected. This might be prevented though using another separate zoom meeting between the LOLA PC and any other computer in the portal in Oslo which should be connected to a high resolution camera and sending thet audience's feed from Oslo to the LOLA pc. This has not yet been practiced but could be a probable solution worth testing out soon.
 
-
-
-
-## Challenges
-
-However, the core idea of Oslo and Trondheim being extension of one another has not been met. (lecture scenario)
+And also regarding the challenge with getting the Oslo audience in both of the screens (Screen-1 and Screen-3) an easy solution would be to connect one of the screens to a different computer and pin the desired video feed onto the screen. Because, zoom seems to be restricted when it comes to pin the same video on two or more screens.
 
 ## Acknowledgement
-We have been greatly successfull in organizing and re-organizing different scenarios in the portal as per the requirement of the set ups. However, this would not have been possible without the help of our dedicated teachers and all of us 💪🏽 hard working students😜.
+We have been greatly successfull in organizing and re-organizing different scenarios in the portal as per the requirement of the set ups. However, this would not have been possible without the help of our dedicated teachers and all of us 💪🏽 hard working students😜. Thus, I would like to take this opportunity to thank our teachers: Robin Støkert, Daniel Formo, Andreas Bergsland, Anna Xambo and Anders Tveit for their guidance and support in creating different audio visual scenarios during the entire semester. I would also like to extend my heartfelt gratitude to all of my batchmates for being out there and working together in solving problems and issues in setting up the portal. Thank you all!
 
