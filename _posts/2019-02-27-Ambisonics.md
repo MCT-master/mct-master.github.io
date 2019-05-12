@@ -21,11 +21,11 @@ We made a session in Reaper with bus tracks for the purpose of encoding and deco
 
 The next was to convert the B-format to B-format (ambix) by using the "soundfield plugin" by "RODE"
 
-<img src="/assets/img/rode.PNG"  />
+<img src="/assets/img/rode.PNG" width="70%" height="70%" />
 
 Later in the chain we used the AIRADecoder to decode the audio in to the speaker setup. 
 
-<img src="/assets/img/mari/2702scrsh.png" width="50%" height="50%" />
+<img src="/assets/img/mari/2702scrsh.png" width="70%" height="70%" />
 
 We learned that you can have as many speakers as you like, but at least 4 speakers. Then we discussed what microphone shape/pattern to use, like omni, heart-shape etc.
 
@@ -34,11 +34,11 @@ We learned that you can have as many speakers as you like, but at least 4 speake
 We managed to tryout the "MultiEncoder" from IEM plugin suite to encode multiple input and also used the "binauraldecoder" to decode and listen to the audio with headohones.
 
 <figure align="center">
-<img src="https://github.com/MCT-master/mct-master.github.io/blob/master/multiencoderIEM.PNG" width="50%" height="50%" >
+<img src="https://github.com/MCT-master/mct-master.github.io/blob/master/multiencoderIEM.PNG" width="70%" height="70%" >
 </figure>
 
 <figure align="center">
-<img src="https://github.com/MCT-master/mct-master.github.io/blob/master/Binural.PNG" width="50%" height="50%" >
+<img src="https://github.com/MCT-master/mct-master.github.io/blob/master/Binural.PNG" width="70%" height="70%" >
 </figure>
 
 
