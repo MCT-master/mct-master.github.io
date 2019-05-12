@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Our Portal Train in Trondheim"
-date: 2019-04-05 05:00:00 +0200
+date: 2019-05-13 01:30:00 +0200
 categories: Portal
 author: Shreejay Shrestha
 image: /assets/img/cj/portaltog.jpg
