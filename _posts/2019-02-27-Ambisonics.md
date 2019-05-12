@@ -34,11 +34,11 @@ We learned that you can have as many speakers as you like, but at least 4 speake
 We managed to tryout the "MultiEncoder" from IEM plugin suite to encode multiple input and also used the "binauraldecoder" to decode and listen to the audio with headohones.
 
 <figure align="center">
-<img src="https://github.com/MCT-master/mct-master.github.io/blob/master/multiencoderIEM.PNG" width="50%" height="50%" >
+<img src="https://github.com/MCT-master/mct-master.github.io/blob/master/multiencoderIEM.PNG"  />
 </figure>
 
 <figure align="center">
-<img src="https://github.com/MCT-master/mct-master.github.io/blob/master/Binural.PNG" width="70%" height="70%" >
+<img src="https://github.com/MCT-master/mct-master.github.io/blob/master/Binural.PNG" />
 </figure>
 
 
