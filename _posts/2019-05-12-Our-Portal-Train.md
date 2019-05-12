@@ -14,9 +14,7 @@ Keywords: Portal, Scenarios
   <figcaption>Vår Portaltog i Trondheim</figcaption>
 </figure>
 
-
-
-## Introduction
+## Introduction 
 
 There are many blogs in <a href="https://mct-master.github.io/" target="_blank">**The blog of MCT**</a> explainig various technologies and audio set ups that we have been exploring in the portal. However, only few of them have addressed the overall physical layout of the portal with technical equipments using various technologies to meet specific tasks, for example, <a href="https://mct-master.github.io/portal/2018/09/10/A-team-first-week.html" target="_blank">**A-team-First Week**</a>, <a href="https://mct-master.github.io/portal/2018/09/17/Group-B-setting-up-tico.html" target="_blank">**M.A.D.E - setting up Tico**</a> and <a href="https://mct-master.github.io/portal/2018/10/03/A-team-presentation.html" target="_blank">**Group A - Setting up for a joint group presentation**</a>. While completing one whole year of the **MCT Studies** and spending one semester in the new portal in Trondheim, we have had different scenarios in the portal for different events like lecture, seminar, conference meeting and so on. We also hosted a series of talks, workshops and started both running and streaming of the <a href="http://wonomute.no/" target="_blank">**WoNomute**</a> from the portal. This blog is an attempt to fill the gaps and documents how the portal in Trondheim has been used to facilitate different modes of communication in various events during the spring semester from January-May, 2019, highlighting on the physical layout and technical solutions opted during those occasions.
 
