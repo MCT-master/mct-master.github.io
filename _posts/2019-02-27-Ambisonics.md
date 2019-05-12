@@ -16,13 +16,13 @@ On 27 February 2019, we had a workshop on Ambisonics and the SoundField micropho
 We made a session in Reaper with bus tracks for the purpose of encoding and decoding the signals.  The inputs from the soundfiled SPS200 microphone was converted from A-format to B-format using the "surroundZone2 plugin" which is completely free to use.  
 
 
-<img src="https://github.com/MCT-master/mct-master.github.io/blob/master/sourrondzoneB.png" width="50%" height="50%" >
+<img src="assets/img/sourrondzoneB.png" width="50%" height="50%" >
 
 
 The next was to convert the B-format to B-format (ambix) by using the "soundfield plugin" by "RODE"
 
 <figure align="center">
-<img src="https://github.com/MCT-master/mct-master.github.io/blob/master/rode.PNG" width="50%" height="50%" >
+<img src="assets/img/rode.PNG" width="50%" height="50%" >
 </figure>
 
 Later in the chain we used the AIRADecoder to decode the audio in to the speaker setup. 
