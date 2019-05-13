@@ -75,7 +75,7 @@ Although all of the scenarios are different from one another, but most of them h
 
  <figure>
   <img src="/assets/img/cj/wonomute_talks.jpg " width = "100%" align="center" />
-  <figcaption>Layout-5: L-shaped Wonomute facing Screen 1</figcaption>
+  <figcaption>Layout-5: Wonomute facing Screen 1</figcaption>
 </figure>
 
 
