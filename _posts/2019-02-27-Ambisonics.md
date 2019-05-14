@@ -45,6 +45,9 @@ After the lecture, we started to set up the portals with eight speakers, that ha
 <img src="/assets/img/speakersetup_portalAmbisonic.jpg" width="80%" height="80%" />
 
 
+## Experimenting with E4L Reverb 
+
+In Oslo we tried out using some of the binaural effects included with the E4L plugin suite. One of the more striking effects we tried was the E4L B-format convolution reverb. This reverb used to the extreme, when paired with the binaural setup had a strong, alien washed out effect on the voices spoken into the microphone. This by itself ws pretty spooky, and falls into the catagory of augmented reality. (no natural reverb can ever last that long!)The settings on the reverb size was a massive 300% and higher!
 
 ## Challenges about the set-up:
 
