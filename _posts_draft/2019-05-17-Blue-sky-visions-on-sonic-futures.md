@@ -7,7 +7,7 @@ author: Karolina Jawad
 image: /assets/img/sonification/pedro_pestana.jpeg
 excerpt: "Pedro Duarte Pestana was the final guest speaker who joined us virtually with his presentation 
 'Career Management in Music Technology / Knowledge Engineering in Music Technology and Sonic Arts' from Porto."
-Keywords: Sonification, Music Technology, Career management, sonic arts, automated mixing, machine learning
+Keywords: Sonification, Music Technology, Career management, sonic arts, automated mixing, machine learning, human computer interaction
 ---
 
 
@@ -17,8 +17,8 @@ Keywords: Sonification, Music Technology, Career management, sonic arts, automat
 The Sonification seminar series was part of the MCT Spring semester 2019, curated by Anna Xambo and facilitated by Eigil Aandahl.
 
 Pedro Duarte Pestana (Lisbon, 1975) has a background in engineering and worked professionally as an sound engineer and music producer 
-for 15 years before entering academia full-time. It is a pleasure and a very interesting challenge to narrow down and introduce
-his curriculum vitae and his thoughts along some of the project he was and is involved in. They do definetely all gravitate around intelligent audio technologies in musical and non-musical context. 
+for 15 years before entering academia full-time. It is a pleasure and a very interesting challenge to introduce
+his complex curriculum vitae along his thoughts and project he was and is involved in. They do definetely all gravitate around intelligent audio technologies in musical and non-musical context. 
 As a researcher and consulter for emerging audio technologies and intelligent systems he is also intertwined with the industry.
 
 Pedro was the first student in Portugal who held a PhD in computer music. He teaches currently at the UCP in Porto 
