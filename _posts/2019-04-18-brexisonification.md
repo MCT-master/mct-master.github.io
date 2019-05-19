@@ -48,7 +48,6 @@ Lastly, going in to the project we had a clearer idea on what parts of the data 
 * MaxMSP - Main patch for translating the data into parameter values, midi & importing and processing video
 * Max for Live - imports the patch into ableton
 * Ableton Live - Map parameter values to audio and composition  
-<br />
 
 When deciding how to approach creating the sonification system, we decided to stick to our strengths. We had previously been using Max4Live to process Motion capture data earlier in the academic year. When we came with this objective, we thought we could use a similar technique to process this type of code.  
 
@@ -65,7 +64,6 @@ In our prototype we used three techniques to process the audio:
 * Sampled - Sampled political speech
 * Synthesized - Low drone
 * Effects - Rave Generator (digital sampler), Overdrive, Reverb, Delay  
-<br />
 
 Each of these processes were applied to the sonification mapping as well. 
 
@@ -74,7 +72,6 @@ Our projects lead, as you will - came from vocal cuts from Theresa May  ("Brexit
 #### Lead mapping - Remain or Leave?
 * Leave EU above 50% - “Brexit means, Brexit!”
 * Remain EU above 50% - “Remain in the European Union!”  
-<br />
 
 The reason behind the choice of sounds is two-layered. In the foreground, we have the “brexit” and “remain” statements. These obviously represent if there is a majority vote to remain or leave in that area, but also have an aesthetic quality that portrays the value of the data.  
 
@@ -152,7 +149,6 @@ Contrary to what is common with these kinds of group projects, we did not have n
 * The audio part of the patch were being developed in Oslo and the Visual part in Trondheim. While merging them, there was had a synchronization problem. The tempo of the data being read by the Max patch was different for the video than for the audio. Remains unfixed.
 * Also, alongside the region text being displayed in the max patch presentation mode, we wanted to have it displayed on the video as well. But we couldn’t fix that issue as well.
 * Patch would reset all mappings in Ableton Live each time on reopen - big pain in the posterior!  
-<br />
 
 The main failure was the inability to use the video element we had spent a lot of time working on. We attempted to fix the issue after the presentation of the prototype, to no avail. We managed to implement the region text in the video. That was being done by using "jit.op" to merge the text and video in the output display window (success!) but could still not fix the tempo issue - rendering it useless for the project as a whole.  
 <br />
