@@ -256,8 +256,8 @@ Similarly, additional features can be introduced to the system such as the abili
 Another interesting suggestion appeared to build an API for sonification of traffic data of England, or any country with options for selecting different regions and different vehicles. The API could be extensively used for analysis and or for understanding the growth of traffic in the chosen region via  sonification.
 
 
-We bet, you would like to listen to the most beautiful sonification of all times. Just 
-<a href="https://github.com/shreejayshrestha/MCT4046_Sonification_Project" target="_blank">click here</a> and you will get access to all the scripts, data files and all the sounds created in this project.
+We bet, you would like to listen to the most beautiful sonification of all times. Just follow the
+<a href="https://github.com/shreejayshrestha/MCT4046_Sonification_Project" target="_blank">**github repository**</a> and you will get access to all the scripts, data files and all the sounds created in this project.
 
 ## Acknowledgement
 We are very grateful to Anna Xambo, our teacher for the MCT4046 Sonification and Sound Design course for exposing us to many experts and professionals working in the areas of sonification and sound design through this course. We would also like to extend our heartfelt gratitude to Thomas Hermann for sharing his plethora of knowledge on sonification and also for providing us with his slides and python script which helped us practice, learn and expand our knowledge on sonification.
