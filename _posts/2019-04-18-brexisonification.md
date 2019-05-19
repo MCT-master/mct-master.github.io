@@ -67,7 +67,7 @@ In our prototype we used three techniques to process the audio:
 
 Each of these processes were applied to the sonification mapping as well. 
 
-### Mapping & Reasons
+#### Mapping & Reasons
 Our projects lead, as you will - came from vocal cuts from Theresa May  ("Brexit means Brexit" - May, 2016) and opposition. This was inspired by the mashup of media that surrounds brexit, and how iconic in particular the prime ministers voice is, in regard to the issue. From here we painted a picture, finding other mappings along the way:				
 #### Lead mapping - Remain or Leave?
 * Leave EU above 50% - “Brexit means, Brexit!”
@@ -155,14 +155,19 @@ The main failure was the inability to use the video element we had spent a lot o
 
 Overall we managed to make a sonically interesting audible rendition of the Brexit votes, so the audience perhaps could find him/herself comfortable to interpret some meaning from it. Although, since we have not performed the sonification for any audiences, we have little feedback after the final outcome, aside from the presentation of the prototype in MCT class.
 
-## Learning outcomes and future work
+### Learning outcomes and future work
 We may want to create an interactive sonified map of England, using Javascript, in which by hovering over, you get a sound that informs you about the votes in the area.
 Also, we could create a side project, called Spacexit, which may use our patch to sonify data from spacecrafts.
 
-## Further developments
-With working more on the audio and video part of the patch and thanks to [Daeniel Buner Formo](https://www.ntnu.no/ansatte/daniel.formo), we managed to fix the problems!
-Starting with the audio part, we had to include "average~" and "snapshot~" in order to average the input signal from the channel that the Max patch was inserted into it, and turn it into a float number for feeding it to the fader. That fixed the audio input problem that we had.
-Regarding the visuals, we certainly missed some objects in order to fix the text on the display issue. That was being fixed by using "jit.op" to merge the text and video in the output display window. Following, the code in regards to the visual part of the patch is accessable from [this link](/assets/code/VPatch2.txt). You can have the patch, just by copying the code and pasting it inside an empty patch.
+### Further developments
+The plan we had in mind for the publication and use of this project was to feed it back to the inspiration that started it - the media that follows Brexit. As with the subject itself, the media has been an influence on the situation, not merely covering it. So, we wanted to complete the feedback loop and show our sonification to the world. One of the comments we received after the presentation was what we wanted to do with our project. We have uploaded it to Youtube, and posted it on our social media. In our minds, we may get feedback and further collaboration opportunities, that could help propel the project further into the future.  
+
+Other possible future ideas:
+* Create an interactive sonified map of England, using Javascript, in which by hovering over, you get a sound that informs you about the votes in the area. 
+* Create a side project called “Spacexit”, which may use our patch to sonify data from the position of spacecrafts.
+
+## Acknowledgements: 
+Thanks to [Daniel Buner Formo](https://www.ntnu.no/ansatte/daniel.formo) and [Anna Xambó Sedó](http://annaxambo.me/) for their support.  
 
 ## Refrences
 Rónán Duffy, for The Journal “F**K knows. I'm past caring' - The week in Brexit quotes”
