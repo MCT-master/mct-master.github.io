@@ -26,6 +26,8 @@ Inspired by the controversy and charade that was, and is Brexit. This project is
 ## Inspiration & Other works
 When looking for other sonifications on the subject of Brexit we found very little, [one piece](https://soundcloud.com/anti-system-records/sets/brexification-the-sonification-of-brexit) that was heavily artistic, and not directly communicating the brexit data. So we found inspirations from other places. The Sonification & Sound Design lecture series we attended and the MCT blog especially helped explain us understand the concept of sonification, in particular the [Thomas Hermanns lecture](https://mct-master.github.io/sonification/2019/04/05/Thomas-Hermann.html?fbclid=IwAR3gSKAiNAwhCmsh0wnQerg6WShf448gXcXwM-0TIWAL9YhGu9LcSrOTqm8). Aside from this, one tutorial helped inspire our Max patch. It also helped us troubleshoot as we worked with the prototype. It was the only tutorial using similar technologies to ours:
 <iframe width="642" height="361" src="https://www.youtube.com/embed/3UP-Fs6b9_k" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<br/>
+
 ## The Data
 The [dataset](https://www.kaggle.com/electoralcommission/brexit-results/version/1) that we used is a publicly available archive of statistics on the EU referendum, providing some of the voter and region information data from the results.  
 
