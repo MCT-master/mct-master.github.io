@@ -39,7 +39,7 @@ Lastly, going in to the project we had a clearer idea on what parts of the data 
   <figcaption><strong>Technologies Used</strong></figcaption>
 </figure>
 
-###Technologies Used
+### Technologies Used
 * ExcelEd - Editing and adjusting the data set
 * MaxMSP - Main patch for translating the data into parameter values, midi & importing and processing video
 * Max for Live - imports the patch into ableton
@@ -59,14 +59,14 @@ Here is our completed audio patch! Details can be found in this [text file](/ass
 In our prototype we used three techniques to process the audio: 
 * Sampled - Sampled political speech
 * Synthesized - Low drone
-* Effects - Rave Generator (digital sampler), Overdrive, Reverb, Delay
+* Effects - Rave Generator (digital sampler), Overdrive, Reverb, Delay  
 Each of these processes were applied to the sonification mapping as well. 
 
 ### Mapping & Reasons
 Our projects lead, as you will - came from vocal cuts from Theresa May  ("Brexit means Brexit" - May, 2016) and opposition. This was inspired by the mashup of media that surrounds brexit, and how iconic in particular the prime ministers voice is, in regard to the issue. From here we painted a picture, finding other mappings along the way:				
 #### Lead mapping - Remain or Leave?
 * Leave EU above 50% - “Brexit means, Brexit!”
-* Remain EU above 50% - “Remain in the European Union!”
+* Remain EU above 50% - “Remain in the European Union!”  
 The reason behind the choice of sounds is two-layered. In the foreground, we have the “brexit” and “remain” statements. These obviously represent if there is a majority vote to remain or leave in that area, but also have an aesthetic quality that portrays the value of the data. 
 If the majority to leave is high in percentage, Theresa May will be higher in pitch, sounding more angry and intense, trying to represent the mood of those voters. If the area has a majority to remain the “remain in the European Union” also plays high in pitch as the majority increases
 Both of these can sound quite silly in their extreme, however we feel that this tone fits the mood of brexit, and hopefully makes it a little more entertaining.
