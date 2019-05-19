@@ -130,7 +130,7 @@ Please leave any comments that you have, in regards to the sonification, in the 
 ### Overall impression
 “Guys! This project has been going really well! We have yet to have a crisis!”  
 
-- Sam, late into the project.  
+ - Sam, late into the project.  
 
 Our team have progressed in a remarkably steady pace and it has been a pleasure. On the whole the decisions we made to crete our prototype have been a success. The tone and choice of the audio is fitting. 
 As noted in our report we managed to implement Symbolic, Metaphoric, and Iconic sounds representing data in our sonification. It was important for the aesthetics. Thomas Hermann introduced us to this way of thinking sonification, and we wanted to implement it in our project to familiarize us with sonication as a practice.
