@@ -12,7 +12,7 @@ Keywords: Sonification
 
 <figure>
 <img src="/assets/img/sonification/blog_header.JPG" width = "100%" align="center" />
-  <figcaption>The Sound of Traffic</figcaption>
+  <figcaption>Figure1: The Sound of Traffic</figcaption>
 </figure>
 
 
@@ -24,38 +24,172 @@ During the sonification Lecture series, we were exposed to the fascinating conce
 
 <figure>
 <img src="/assets/img/sonification/map_region.JPG" width = "90%" align="center" />
-  <figcaption>Method for Selecting Data</figcaption>
+  <figcaption>Figure 2: Method for Selecting Data</figcaption>
 </figure>
 
-
-The data includes the Annual average daily flow (AADF) data of buses/coaches, cars/taxies and motorbikes for three regions of England (North East, West Midlands & South East) from 2000-2017. The primary data includes number of vehicles but they are segregated into numerous divisions of road types for each region. Shreejay made a matlab script which reads data of each region of choice at a time and writes them into an excel sheet by calculating the total number of vehicles in the region in each year and exported as CSV files. 
+The data has been collected from <a href="https://www.dft.gov.uk/traffic-counts/download" target="_blank">**The Department of Transport, U.K.**</a> It includes **Annual Average daily Flow (AADF)** of buses/coaches, cars/taxies and motorbikes for three regions of England from 2000 to 2017. The three regions include North East, West Midlands & South East which are chosen based upon their population as shown in Figure 2. The primary data includes number of vehicles but they are segregated into numerous divisions of road types for each region. Shreejay made a <a href="https://github.com/shreejayshrestha/MCT4046_Sonification_Project/blob/master/matlab%20script/read_data.m">matlab script</a> to refine the data as per our requirement. The script reads the raw data of each region of choice at a time and writes them into an excel sheet by calculating the total number of vehicles in the region in each year and exports them as in CSV file format. 
 
 ## Sonification & Sound design
 
-### Prototype 1 with Javascript and P5js
-
-We chose to work with JavaScript to create our first prototype. The number of buses in each particular region was directly mapped into a frequency of an oscillator by using the “map()” method. For example, the range 140235 to 183753 was mapped to the frequency range 200Hz -600Hz. Sound was generated through oscillators and three oscillator types (‘sine’, ‘saw tooth’, ‘triangle’) define a unique sound that corresponds with the data for each region. Additionally, three non-overlapping frequency ranges were chosen in the mapping to further differentiate between the three sounds. Moreover, the “settimeout()” method states the durations of a single frequency that corresponds to a certain year. 
+### Prototype 1 with Javascript and P5.js
 
 <figure align="middle">
 <audio controls>
 <source src="/assets/sounds/prototype1.wav" type="audio/wav" volume="0.2">
  Your browser does not support the audio element.
 </audio>
-<figcaption>Sonification of Buses & Coaches in all the three regions</figcaption>
+<figcaption>Audio 1: Prototype-1, Sonification of Buses & Coaches in the three regions</figcaption>
 </figure>
 
+We chose to work with JavaScript to create our first prototype. The number of buses in each particular region was directly mapped into a frequency of an oscillator by using the “map()” method in P5.js. Figure 3 below gives an overview of the mapping method. 
+
+<figure>
+<img src="/assets/img/cj/mapping_prototype_1.JPG" width = "100%" align="center" />
+<figcaption>Figure 3: Mapping method in Prototype 1</figcaption>
+</figure>
+
+Sound was generated through three unique oscillators that correspond with the data for each region. Additionally, three non-overlapping frequency ranges were chosen in the mapping to further differentiate between the three sounds. Moreover, the “settimeout()” method states the durations of a single frequency that corresponds to a certain year. 
+
+#### Code Snippet
+The following code snippet shows how the three oscilators are defined and highlights the mapping method and settimeout() method applied in the prototype 1. 
+
+```javascript
+function preload(){
+  loadJSON("Buses.json", dataReady1);
+}
+
+function dataReady1(data1){
+  osc1 = new p5.Oscillator();
+  osc2 = new p5.Oscillator();
+  osc3 = new p5.Oscillator();
+  
+  osc1.setType('sine');
+  osc1.freq(0);
+  osc1.amp(0.4);
+  osc1.start();
+
+  osc2.setType('triangle');
+  osc2.freq(0);
+  osc2.amp(0.5);
+  osc2.start();
+
+  osc3.setType('sawtooth');
+  osc3.freq(0);
+  osc3.amp(0.2);
+  osc3.start();
+
+  figures1 = data1.figures;
+  for (var i = 0; i < figures1.length; i++) {
+    append(arrayBus, [figures1[i].AADF,figures1[i].NE,figures1[i].SE,figures1[i].WM]);
+};
+
+  // for three cities 
+  for (var i = 0; i < arrayBus.length;  i++) {
+  setTimeout(function(y) {
+    
+    freq1 = map(arrayBus[y][1],140235, 183753, 200, 600);
+    freq2 = map(arrayBus[y][2],227700, 377048, 700, 1000);
+    freq3 = map(arrayBus[y][3],328924, 490877, 1100, 2000);
+
+    //console.log(freq);
+    
+    osc1.freq(freq1);
+    osc2.freq(freq2);
+    osc3.freq(freq3);
+    
+    }, i * 500, i);
+     // we're passing i  
+    };
+  }
+  ```
 ### Prototype 2 with Python and SuperCollider.
 
-The first prototype was further developed with Python and SuperCollider. Three synths were created for each vehicle type and two of them are included in the examples below;
+The first prototype was further developed with Python and SuperCollider. It is inspired by **Thomas Hermann's** lecture on topics of Sonification and hands on exercise on **Parameter Mapping Sonification** during a series of talks in the MCT4046 Sonification and Sound Design course in this spring semester. The python code for prototype 2 is based upon two examples; Example 1: the code of the hands on exercise provided by Thomas and <a href="https://github.com/thomas-hermann/sc3nb/blob/master/examples/sc3nb-examples.ipynb">Example2:</a> the code shared by Thomas through his github repository. The code has been further developed to adapt a different structre of data, create different synth definitions and apply different forms of mapping by exploring various example of synths in Supercollider. For instance, Example-1 and Example-2 have used synth definitions like SinOsc.ar, DynKlank.ar, Dust.ar etc while prototype 2 applies Saw.ar, LFPulse.ar and RLPF.ar along with combination of SinOsc.ar and so on. Figure 4 below highlights on the mapping of different parameters for the prototype 2. The change in frequency and amplitude gives the idea of increase or decrease in number of buses in the selected region. The speed of oscillation and change of amplitude signify the rise or fall of the number of CarTaxies in the particular region. Likewise the change in frequency and amplitude gives the information of change in number of motorbikes in the selected region.
 
-For ‘Bus Coaches’ vehicle type “sawtooth” wave generator is used with the Saw.ar class methods. Lower frequency range (10-100 Hz) and amplitude range (0.2-10) are mapped to the lower and higher number of the vehicles. The change in frequency and amplitude gives the idea of increase or decrease in number of buses in the selected region.
+<figure>
+<img src="/assets/img/cj/mapping_prototype_2.JPG" width = "100%" align="center" />
+ <figcaption>Figure 4: Mapping method in Prototype 2</figcaption>
+</figure>
 
+#### Code Snippet
+
+```python
+import pandas as pd from matplotlib import pyplot as plt
+```
+
+```python
+d = pd.read_csv("Data_WM.csv")
+```
+
+```python
+import time, random, os
+import sc3nb as scn
+```
+
+
+```python
+sc = scn.startup()  # optionally use argument sclangpath="/path/to/your/sclang"
+```
+
+```python
+%%sc 
+SynthDef ("bus", {arg out=0, freqb= 50, mul=0.7, ampb = 0.2;
+    var f;
+    f = Saw.ar(freqb,mul,0);
+    Out.ar(out,f*ampb);
+}).add;
+```
+The above code snippets imports various python modules in the jupyter notebook required to make the sonification. Besides, it reads the data, boots the supercollider using the sc3nb module and creates synth definition for buses and coaches usiing the Saw.ar synth in supercollider.
+
+The code snippet below sets TimedQueue which is required for sonifications with precise timing. Synths are then initiated with a delay of 0.2 seconds and praparation are done for recording. Similarly, with iteration of indices of the data, the algorithm maps the minimum and maximum number of the data to certain specified range of frequency and amplitude of the corresponding synth as explained in Figure 4. Finally the sonification of each set of vehicle for each region is generated one at a time in wav file format.
+
+```python
+queue = scn.TimedQueue()
+```
+```python
+t0 = time.time()
+delay = 0.2
+
+# instantiate synths
+#queue.put(t0+delay, sc.msg, ("/s_new", ["bus", 1234, 1, 1]))
+#queue.put(t0+delay, sc.msg, ("/s_new", ["car", 1235, 1, 1]))
+queue.put(t0+delay, sc.msg, ("/s_new", ["motorbike", 1236, 1, 1]))
+
+sc.prepare_for_record(0, "my_recording.wav", 99, 2, "wav", "int16")  # buffer 99 will be used
+sc.record(t0+0.1, 2001)  # recording starts in 200 ms
+#sc.bundle(0.2, "/s_new", ["car", 1234, 1, 1]) 
+sc.stop_recording(t0+10) # and stops in 1 seconds
+
+# modulate with data while playing through time
+for i in range (len(d)):
+    onset = scn.linlin(i, 0, 18, 0, 9)
+    #b_freq= scn.linlin((d.iloc[i][4]), min(d.BusCoaches),max(d.BusCoaches), 10, 100)
+    #print(b_freq)
+    #b_amp = scn.linlin((d.iloc[i][4]), min(d.BusCoaches),max(d.BusCoaches), 0.2, 10)
+    #print(b_amp)
+    #c_freq= scn.linlin((d.iloc[i][3]), min(d.CarTaxies),max(d.CarTaxies), 0.2,15)
+    #c_amp= scn.linlin((d.iloc[i][3]), min(d.CarTaxies),max(d.CarTaxies), 0.2,10)
+    m_freq = scn.linlin((d.iloc[i][2]), min(d.MotorCycle),max(d.MotorCycle), 30,300)
+    m_amp = scn.linlin((d.iloc[i][2]), min(d.MotorCycle),max(d.MotorCycle), 0.2,10)
+    #queue.put(t0 + delay + onset, sc.msg, ("/n_set",
+        #[1234,'freqb', b_freq,'ampb',b_amp]))
+    #queue.put(t0 + delay + onset, sc.msg, ("/n_set", 
+     #   [1235, 'freqc', c_freq,'ampc',c_amp]))    
+    queue.put(t0 + delay + onset, sc.msg, ("/n_set", 
+        [1236, 'freqm',m_freq,'ampm', m_amp]))
+        
+  
+# shut down synth when finished
+#queue.put(t0 + delay + onset, sc.msg, ("/n_free", 1234))
+#queue.put(t0 + delay + onset, sc.msg, ("/n_free", 1235))
+queue.put(t0 + delay + onset, sc.msg, ("/n_free", 1236))
+```
 <figure align="middle">
 <audio controls>
 <source src="/assets/sounds/Bus_NE.wav" type="audio/wav" volume="0.2">
  Your browser does not support the audio element.
 </audio>
-<figcaption>Sonification of Buses & Coaches in the North East Region in England</figcaption>
+<figcaption>Audio2: Prototype-2, Sonification of Buses & Coaches in the North East Region in England</figcaption>
 </figure>
   
 <figure align="middle">
@@ -63,22 +197,20 @@ For ‘Bus Coaches’ vehicle type “sawtooth” wave generator is used with th
 <source src="/assets/sounds/Bus_SE.wav" type="audio/wav" volume="0.2">
   Your browser does not support the audio element.
 </audio>
-<figcaption>Sonification of Buses & Coaches in the South East Region in England</figcaption>
+<figcaption>Audio3: Prototype-2, Sonification of Buses & Coaches in the South East Region in England</figcaption>
  </figure>
 
 <figure>
 <img src="/assets/img/Bus_NE_SE.png" width = "100%" align="center" />
-  <figcaption>Buses & Coaches in the North East & South East Region</figcaption>
+  <figcaption>Figure 5: Prototype-2, Buses & Coaches in the North East & South East Region</figcaption>
 </figure>
-
-For ‘CarTaxies’, an example from ‘LFPulse’ is taken from the SuperCollider where it is used as both oscillator and LFO. The frequency of modulation with range (0.2-15) and amplitude range (2-10) are mapped to the lower and higher number of the vehicles. The speed of oscillation and change of amplitude signify the rise or fall of the number of  CarTaxies in the particular region.
 
 <figure align="middle">
 <audio controls>
 <source src="/assets/sounds/Car_NE.wav" type="audio/wav" volume="0.2">
   Your browser does not support the audio element.
 </audio>
-<figcaption>Sonification of Cars & Taxies in the North East Region in England</figcaption>
+<figcaption>Audio 4: Prototype-2, Sonification of Cars & Taxies in the North East Region in England</figcaption>
 </figure>
   
 <figure align="middle">
@@ -86,23 +218,20 @@ For ‘CarTaxies’, an example from ‘LFPulse’ is taken from the SuperCollid
 <source src="/assets/sounds/Car_SE.wav" type="audio/wav" volume="0.2">
   Your browser does not support the audio element.
 </audio>
-<figcaption>Sonification of Cars & Taxies in the South East Region in England</figcaption>
+<figcaption>Audio 5, Prototype-2, Sonification of Cars & Taxies in the South East Region in England</figcaption>
 </figure>
 
 <figure>
 <img src="/assets/img/Car_NE_SE.png" width = "100%" align="center" />
-  <figcaption>Cars & Taxies in the North East & South East Region</figcaption>
+  <figcaption>Figure 6: Prototype-2, Cars & Taxies in the North East & South East Region</figcaption>
 </figure>
-
-For ‘MotorBike’, another example  from ‘Synth’ in SuperCollider is taken from the section filtering under undocumented instance methods. Similar to other synths, the frequency range (30-300) and amplitude range (0.2-10) are mapped to the data with lower and higher range. Likewise the change in frequency and amplitude gives the information of change in number of motorbikes in the selected region.
-
 
 <figure align="middle">
 <audio controls>
 <source src="/assets/sounds/Bike_NE.wav" type="audio/wav" volume="0.2">
   Your browser does not support the audio element.
 </audio>
-<figcaption>Sonification of Motorbikes in the North East Region in England</figcaption>
+<figcaption>Audio 6: Prototype-2, Sonification of Motorbikes in the North East Region in England</figcaption>
 </figure>
   
 <figure align="middle">
@@ -110,12 +239,12 @@ For ‘MotorBike’, another example  from ‘Synth’ in SuperCollider is taken
 <source src="/assets/sounds/Bike_SE.wav" type="audio/wav" volume="0.2">
   Your browser does not support the audio element.
 </audio>
-<figcaption>Sonification of Motorbikes in the South East Region in England</figcaption>
+<figcaption>Audio 7: Prototype-2, Sonification of Motorbikes in the South East Region in England</figcaption>
 </figure>
 
 <figure>
 <img src="/assets/img/Bike_NE_SE.png" width = "100%" align="center" />
-  <figcaption>Motorbikes in the North East & South East Region</figcaption>
+  <figcaption>Figure 7: Prototype-2, Motorbikes in the North East & South East Region</figcaption>
 </figure>
 
 ## Future Work.
