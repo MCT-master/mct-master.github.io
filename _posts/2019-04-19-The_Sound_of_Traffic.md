@@ -1,6 +1,6 @@
 ---
 layout: post
-title: " The Sound of Traffic"
+title: "The Sound of Traffic - Sonic Vehicle Pathelormeter"
 date: 2019-04-19 17:00:00 +0200
 categories: Sonification
 author: Ashane Silva, Karolina Jawad, Shreejay Shrestha
@@ -14,9 +14,6 @@ Keywords: Sonification
 <img src="/assets/img/sonification/blog_header.JPG" width = "100%" align="center" />
   <figcaption>Figure1: The Sound of Traffic</figcaption>
 </figure>
-
-
-# The Sound of Traffic - Sonic Vehicle Pathelormeter
 
 During the sonification Lecture series, we were exposed to the fascinating concepts and theories behind sonification, sound design and their applications. Our primary goal was to explore the techniques that we learned and put them into practice in order to understand a real world problem. After searching and referring so much available data we finally decided to work on traffic vehicle data from 3 regions in England measured over 17 years. Is it possible to transmit complex data-sets within an instance of a sound, so the content gets revealed? As communication and dissemination of information in our modern digital world has been highly dominated by visual aspects it led to the fact that the modality of sound got neglected. In order to test the hypothesis, the project presents a model for sonification of temporal-spatial traffic data, based on principle of Parametric Mapping Sonification (PMSon) technique.
 
