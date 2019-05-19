@@ -123,7 +123,7 @@ Please leave any comments that you have, in regards to the sonification, in the 
 <iframe width="640" height="360" src="https://www.youtube.com/embed/wbUrU9azTlQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>  
 
 **Visuals demo:**
-<figure align="middle">
+<figure align="left">
         <video height="100%" width="100%" controls>
         <source src="/assets/video/sonificationvisualsonly.mp4" type="video/mp4">
         <figcaption><strong> The unused visual elements of the project </strong></figcaption>        
