@@ -44,6 +44,7 @@ Lastly, going in to the project we had a clearer idea on what parts of the data 
 * MaxMSP - Main patch for translating the data into parameter values, midi & importing and processing video
 * Max for Live - imports the patch into ableton
 * Ableton Live - Map parameter values to audio and composition  
+<br />
 
 When deciding how to approach creating the sonification system, we decided to stick to our strengths. We had previously been using Max4Live to process Motion capture data earlier in the academic year. When we came with this objective, we thought we could use a similar technique to process this type of code. 
 One advantage to this method is that if we use M4L for different sonifications, we become more adept to the program. Eventually we might be more adept at M4L  and advance to creating auditory displays that can be fed various data sets. 
@@ -60,6 +61,7 @@ In our prototype we used three techniques to process the audio:
 * Sampled - Sampled political speech
 * Synthesized - Low drone
 * Effects - Rave Generator (digital sampler), Overdrive, Reverb, Delay  
+<br />
 
 Each of these processes were applied to the sonification mapping as well. 
 
@@ -68,6 +70,7 @@ Our projects lead, as you will - came from vocal cuts from Theresa May  ("Brexit
 #### Lead mapping - Remain or Leave?
 * Leave EU above 50% - “Brexit means, Brexit!”
 * Remain EU above 50% - “Remain in the European Union!”  
+<br />
 
 The reason behind the choice of sounds is two-layered. In the foreground, we have the “brexit” and “remain” statements. These obviously represent if there is a majority vote to remain or leave in that area, but also have an aesthetic quality that portrays the value of the data. 
 If the majority to leave is high in percentage, Theresa May will be higher in pitch, sounding more angry and intense, trying to represent the mood of those voters. If the area has a majority to remain the “remain in the European Union” also plays high in pitch as the majority increases
@@ -109,7 +112,6 @@ To accompany this, we also ported the area names to the M4L patch in presentatio
 
 Here was the “presentation” view from ableton, that showed the relevant text data as the sonification played. 
 Both these visual elements never made it to the final prototype, for reasons we will go into later (although there is an example).
-As its been noted we managed to implement Symbolic, Metaphoric, and Iconic sounds representing data in our sonification. Maybe too much? At least for us we were exploring the possibilities that this craft has to offer, and also some experimentation!
 
 ### Demos (Audio/Visual)
 * Visuals demo:
@@ -127,7 +129,10 @@ Please leave any comments that you have, in regards to the sonification, in the 
 
 ## Reflective notes
 ### Overall impression
-An overall impression can be summed up in a quote by Sam the last day “Guys! This project has been going really well! We have yet to have a crisis!”. And Sam was right. We have progressed in a remarkably steady pace and it has been a pleasure. Coupling the work with the lectures in sonification has also been very good. For instance, working with Iconic, Metaphoric and Symbolic sonification was vital for the aesthetics of our sonification.
+“Guys! This project has been going really well! We have yet to have a crisis!” - Sam, late into the project. Our team have progressed in a remarkably steady pace and it has been a pleasure. On the whole the decisions we made to crete our prototype have been a success. The tone and choice of the audio is fitting. 
+As noted in our report we managed to implement Symbolic, Metaphoric, and Iconic sounds representing data in our sonification. It was important for the aesthetics. Thomas Hermann introduced us to this way of thinking sonification, and we wanted to implement it in our project to familiarize us with sonication as a practice.
+Maybe too much? At least for us we were exploring the possibilities that this craft has to offer, while at the same time doing some experimentation!  
+
 
 ### Challenges
 Contrary to what is common with these kinds of group projects, we did not have notable challenges with making the concept. As soon as we decided upon working with Brexit, we were pretty unanimous with how to proceed.
