@@ -23,8 +23,7 @@ An unnamed UK Cabinet minister’s texts BBC Newsnight editor Nicholas Watt when
 Inspired by the controversy and charade that was, and is Brexit. This project is an attempt to make sense of the data that came from the UK’s National European referendum - by translating it into sound. Named “Brexsonification”, our aims were to try and portray a new outlook on the data from the results, whilst keeping to the tongue in cheek style both social and regular media have often to come to cover the issue.
 
 ## Inspiration & Other works
-When looking for other sonifications on the subject of Brexit we found very little, [one piece](https://soundcloud.com/anti-system-records/sets/brexification-the-sonification-of-brexit) that was heavily artistic, and not directly communicating the brexit data. So we found inspirations from other places. The Sonification & Sound Design lecture series we attended and the MCT blog especially helped explain us understand the concept of sonification, in particular the [Thomas Hermanns lecture](https://mct-master.github.io/sonification/2019/04/05/Thomas-Hermann.html?fbclid=IwAR3gSKAiNAwhCmsh0wnQerg6WShf448gXcXwM-0TIWAL9YhGu9LcSrOTqm8)
-Aside from this, one tutorial helped inspire our Max patch. It also helped us troubleshoot as we worked with the prototype. It was the only tutorial using similar technologies to ours.
+When looking for other sonifications on the subject of Brexit we found very little, [one piece](https://soundcloud.com/anti-system-records/sets/brexification-the-sonification-of-brexit) that was heavily artistic, and not directly communicating the brexit data. So we found inspirations from other places. The Sonification & Sound Design lecture series we attended and the MCT blog especially helped explain us understand the concept of sonification, in particular the [Thomas Hermanns lecture](https://mct-master.github.io/sonification/2019/04/05/Thomas-Hermann.html?fbclid=IwAR3gSKAiNAwhCmsh0wnQerg6WShf448gXcXwM-0TIWAL9YhGu9LcSrOTqm8). Aside from this, one tutorial helped inspire our Max patch. It also helped us troubleshoot as we worked with the prototype. It was the only tutorial using similar technologies to ours:
 <iframe width="642" height="361" src="https://www.youtube.com/embed/3UP-Fs6b9_k" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 ## The Data
 The [dataset](https://www.kaggle.com/electoralcommission/brexit-results/version/1) that we used is a publicly available archive of statistics on the EU referendum, providing some of the voter and region information data from the results. 
@@ -129,10 +128,14 @@ Please leave any comments that you have, in regards to the sonification, in the 
 
 ## Reflective notes
 ### Overall impression
-“Guys! This project has been going really well! We have yet to have a crisis!” - Sam, late into the project. Our team have progressed in a remarkably steady pace and it has been a pleasure. On the whole the decisions we made to crete our prototype have been a success. The tone and choice of the audio is fitting. 
+“Guys! This project has been going really well! We have yet to have a crisis!”  
+
+- Sam, late into the project.  
+
+Our team have progressed in a remarkably steady pace and it has been a pleasure. On the whole the decisions we made to crete our prototype have been a success. The tone and choice of the audio is fitting. 
 As noted in our report we managed to implement Symbolic, Metaphoric, and Iconic sounds representing data in our sonification. It was important for the aesthetics. Thomas Hermann introduced us to this way of thinking sonification, and we wanted to implement it in our project to familiarize us with sonication as a practice.
 Maybe too much? At least for us we were exploring the possibilities that this craft has to offer, while at the same time doing some experimentation!  
-
+In this portrayal of serious, political data we originally tried to remain unbiased. However, with a overarching feeling of “dread” as part of our sonification, we didn't exactly achieve neutrality. So our mapping and choice of sounds could be seen as somewhat biased in terms of the brexit standpoint. Maybe it begs the question, isn't the majority of media biased when reporting on brexit? Or even in general? (let's not go down THAT road) 
 
 ### Challenges
 Contrary to what is common with these kinds of group projects, we did not have notable challenges with making the concept. As soon as we decided upon working with Brexit, we were pretty unanimous with how to proceed.
