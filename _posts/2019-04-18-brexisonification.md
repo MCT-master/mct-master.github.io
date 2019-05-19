@@ -16,72 +16,98 @@ excerpt: The goal in the project is to sonify Brexit, in a way that the audience
   <figcaption><strong></strong></figcaption>
 </figure>
 
-Inspired by the controversy and charade that was and is Brexit, this project is an attempt to make sense of of the data that came from the UKs national European referendum - by translating it into sound. Named “Brexsonification”, our aims were to try and portray a new outlook on the results data (data set here), whilst keeping to the tongue and cheek style both social and regular media have often to come to cover the issue.
+## Brexit
+Wikipedia article on [Brexit](https://en.wikipedia.org/wiki/2016_United_Kingdom_European_Union_membership_referendum).
+“Fuck knows. I’m past caring. It’s like the living dead in here.” 
+An unnamed UK Cabinet minister’s texts BBC Newsnight editor Nicholas Watt when asked why May was holding another vote on her deal. In doing so, the pretty much summed up an entire nation. (The Journal, 2019)
+Inspired by the controversy and charade that was, and is Brexit. This project is an attempt to make sense of the data that came from the UK’s National European referendum - by translating it into sound. Named “Brexsonification”, our aims were to try and portray a new outlook on the data from the results, whilst keeping to the tongue in cheek style both social and regular media have often to come to cover the issue.
 
+## Inspiration & Other works
+When looking for other sonifications on the subject of Brexit we found very little, [one piece](https://soundcloud.com/anti-system-records/sets/brexification-the-sonification-of-brexit) that was heavily artistic, and not directly communicating the brexit data. So we found inspirations from other places. The Sonification & Sound Design lecture series we attended and the MCT blog especially helped explain us understand the concept of sonification, in particular the [Thomas Hermanns lecture](https://mct-master.github.io/sonification/2019/04/05/Thomas-Hermann.html?fbclid=IwAR3gSKAiNAwhCmsh0wnQerg6WShf448gXcXwM-0TIWAL9YhGu9LcSrOTqm8)
+Aside from this, one tutorial helped inspire our Max patch. It also helped us troubleshoot as we worked with the prototype. It was the only tutorial using similar technologies to ours.
+<iframe width="642" height="361" src="https://www.youtube.com/embed/3UP-Fs6b9_k" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+## The Data
+The [dataset](https://www.kaggle.com/electoralcommission/brexit-results/version/1) that we used is a publicly available archive of statistics on the EU referendum, providing some of the voter and region information data from the results. 
+When we looked at the referendum results we noticed how the different counties that make up England happened to vote quite differently, depending on the location. In London and the south for instance, there was a high proportion of voters who wanted to remain in the EU, whereas in the northern part of England it was common to have a majority to leave. 
+These inconsistencies have been debated over the media, and sheds some light into how the Brexit decision was come to. This, including other factors such as voter turnout, were used to create a sonification. We wanted to see if we could portray this in a different light and understand better through sound. At very least it can add to the over bloated media steamroller that is Brexit, in a somewhat original way. 
+Lastly, going in to the project we had a clearer idea on what parts of the data we could highlight, and a possible tone for the project, and the rest often came down to experimentation and trial and error.
 
 ## Our system
-### Aesthetic choices, Concept and Technologies used
-
-Conceptually, we wanted to capture the mood that Brexit has created within the British population. Using samples of Theresa May saying “Brexit”, and alternating it in pitch and intensity creates an atmosphere of panic and chaos. This, coupled with the underlying drone, is brilliantly mimicking the feeling one can get when perceiving international politics. The sense of things going their own chaotic way, without the perceiver being able to affect the situation is similar both for the individuals in Britain, and the listeners to our sonification.
-
 
 <figure>
   <img src="/assets/img/sonification/technologies.png" alt="technologies" width="70%" align="middle"/>
   <figcaption><strong>Technologies Used</strong></figcaption>
 </figure>
 
-We used ExcelEd, Max for Live and Ableton Live for our purpose. ExcelEd to create the proper dataset, Max for Live to read the dataset in the Ableton and translate it to parameter values, in order to be used for mapping purposes and creating/modifying the visuals.
+###Technologies Used
+* ExcelEd - Editing and adjusting the data set
+* MaxMSP - Main patch for translating the data into parameter values, midi & importing and processing video
+* Max for Live - imports the patch into ableton
+* Ableton Live - Map parameter values to audio and composition. 
 
+When deciding how to approach creating the sonification system, we decided to stick to our strengths. We had previously been using Max4Live to process Motion capture data earlier in the academic year. When we came with this objective, we thought we could use a similar technique to process this type of code. 
+One advantage to this method is that if we use M4L for different sonifications, we become more adept to the program. Eventually we might be more adept at M4L  and advance to creating auditory displays that can be fed various data sets. 
+Another bonus is that we have experience with ableton, that made the mapping part a lot easier after processing the data - we could then foreseeably get a prototype up in the limited time we had. 
+
+### The Patch
+Here is our completed audio patch! Details can be found in this [text file](/assets/code/VPatch2.txt). You are very welcome to download the patch to look in more detail or try out! Just copy the code and paste it into a new patch.
 <figure>
   <img src="/assets/img/sonification/audpatch.jpg" alt="Audio patch" width="70%" align="middle"/>
   <figcaption><strong>Audio Patch</strong></figcaption>
 </figure>
+#### Audio Patch
+In our prototype we used three techniques to process the audio: 
+* Sampled - Sampled political speech
+* Synthesized - Low drone
+* Effects - Rave Generator (digital sampler), Overdrive, Reverb, Delay
+Each of these processes were applied to the sonification mapping as well. 
 
-The main Host was the Ableton which we loaded the samples and synthesizers and effects in it and mapped those value changes to the desired parameters in it.
-
-
-<figure>
-  <img src="/assets/img/sonification/maxpatch1.jpg" alt="Mapping" width="70%" align="middle"/>
-  <figcaption><strong>Mapping the visuals in Ableton Live</strong></figcaption>
-</figure>
-
-### Dataset and Mapping
-
-The [dataset](https://data.gov.uk/dataset/008ef38d-2259-43d5-a4ca-13a56f1d7cc2/eu-referendum-results) that we used, included the statistics in regards to the voter's information and regions. It was very comprehensive and well organized and we had several options to chose, in order to sonify.
-
-We mapped several elements, with three types of sonifications (Sampled - Synthesized -  Effects) in our project.
-In the first step, the percentage who voted for remaining in the European Union was used for the process (Sampled sonification). When it was above 50%, it triggered a sample, saying “Brexit means, Brexit!”. But when it was below 50% it triggered one which was saying “Remain in the European Union!”
+### Mapping & Reasons
+Our projects lead, as you will - came from vocal cuts from Theresa May  ("Brexit means Brexit" - May, 2016) and opposition. This was inspired by the mashup of media that surrounds brexit, and how iconic in particular the prime ministers voice is, in regard to the issue. From here we painted a picture, finding other mappings along the way:				
+#### Lead mapping - Remain or Leave?
+* Leave EU above 50% - “Brexit means, Brexit!”
+* Remain EU above 50% - “Remain in the European Union!”
+The reason behind the choice of sounds is two-layered. In the foreground, we have the “brexit” and “remain” statements. These obviously represent if there is a majority vote to remain or leave in that area, but also have an aesthetic quality that portrays the value of the data. 
+If the majority to leave is high in percentage, Theresa May will be higher in pitch, sounding more angry and intense, trying to represent the mood of those voters. If the area has a majority to remain the “remain in the European Union” also plays high in pitch as the majority increases
+Both of these can sound quite silly in their extreme, however we feel that this tone fits the mood of brexit, and hopefully makes it a little more entertaining.
+#### Drone 
+On the other, deeper level, we have the ominous drone sound. This is mapped to area (north, south and so on) to create a feeling of dread. It is staccato in nature, a constant deep rumble that represents the intensifying mood among the british population as brexit progressed. 
+As each area progressed, the drone would rise a semitone - acting as a information as to when the next area is being played, but also giving a narrative to the whole composition, intensifying the mood further with each rising tone.
 
 <figure>
   <img src="/assets/img/sonification/maxpatch2.jpg" alt="Mapping" width="70%" align="middle"/>
-  <figcaption><strong>The use of samples in Ableton Live</strong></figcaption>
+  <figcaption><strong>Drone sound in ableton live sampler</strong></figcaption>
 </figure>
 
-In the next step, the pitch modulation of the voice got higher when the percentage got higher as well (Effects sonification). This was also mapped to the volume, which means it got louder in higher percentages.
-After that, Electorate (people) amount in each area was mapped to a synthesizer which created a Beep, and its pitch got higher when the number of the voters raised - up to 2 million - in that specific place (Synthesized sonification).
-Also in regards to the general area and the number of the voters in that area, an ominous sound was synthesized and its pitch got raised by the numbers, getting higher (Synthesized sonification).
+#### Bleep
+We then synthesised a “bleep” sound, that we used to represent the overall Electorate (people) amount in each area went to vote - up to 2 million! The bleep would rise in pitch as the amount that voted in the area went up. This gave some context, the counties in england can have very different sized populations, so this represented that factor in the demo. (Synthesized sonification). 
 
 <figure>
   <img src="/assets/img/sonification/maxpatch3.jpg" alt="Mapping" width="70%" align="middle"/>
   <figcaption><strong>The use of synthesized sound in Ableton Live</strong></figcaption>
 </figure>
 
-In the end, a reverb, as an effect on the sound samples, were mapped to the whole percentage who voted (Effects sonification). It was done in a way that fewer votes, created more reverb.
+#### Other mappings
+* The voter percentage turnout of each area was also mapped to the volume of the voice, which got louder in higher percentages - representing the loudness of the “voice” of that area.
+* Reverb was also mapped to the whole percentage who voted as a counter mapping. It was done in a way so that fewer votes created more reverb. (Effects sonification)
 
 <figure>
   <img src="/assets/img/sonification/maxpatch4.jpg" alt="Mapping" width="70%" align="middle"/>
   <figcaption><strong>The use of effects in Ableton Live</strong></figcaption>
 </figure>
 
-Also in regards to video, we made the patch read the dataset and extract the name of the places and display it in the message box and show it in the video window.
-The video made from a GIF file is being read and looped. The patch is using the amplitude of samples/synthesized sounds in order to control the amount of the distortion affecting the video.
+### Video (Failure!)
+Also as an afterthought, we decided to try and make a data reactive video that would enhance the sonification. To do this we got a looped GIF file that we felt fitted the tone of the prototype, and applied FX from the data parameters using M4L. The patch is using the amplitude of samples/synthesized sounds in order to control the amount of the distortion affecting the M4L patch.
+To accompany this, we also ported the area names to the M4L patch in presentation mode, so that on screen this information could help reinforce the sonification, and make sense of the video image. On another note, it was very useful when checking to see if the sonification was working properly!
 
 <figure>
-  <img src="/assets/img/sonification/vidpatch.jpg" alt="Visuals patch" width="70%" align="middle"/>
-  <figcaption><strong>Visuals patch</strong></figcaption>
+  <img src="/assets/img/sonification/maxpatch1.jpg" alt="Mapping" width="70%" align="middle"/>
+  <figcaption><strong>Mapping the visuals in Ableton Live</strong></figcaption>
 </figure>
 
-Since there are some developments done afterposting the blog, you can have access the visuals code at the end of the blog, in the further developments section. Also, the code for the audio part of the sonification patch is available in that text file as well. All you have to do is to copy, and hten paste the codes into the patch file. You have to merge them as well.
+Here was the “presentation” view from ableton, that showed the relevant text data as the sonification played. 
+Both these visual elements never made it to the final prototype, for reasons we will go into later (although there is an example).
+As its been noted we managed to implement Symbolic, Metaphoric, and Iconic sounds representing data in our sonification. Maybe too much? At least for us we were exploring the possibilities that this craft has to offer, and also some experimentation!
 
 ### Demos (Audio/Visual)
 * Visuals demo:
@@ -119,6 +145,12 @@ Also, we could create a side project, called Spacexit, which may use our patch t
 With working more on the audio and video part of the patch and thanks to [Daeniel Buner Formo](https://www.ntnu.no/ansatte/daniel.formo), we managed to fix the problems!
 Starting with the audio part, we had to include "average~" and "snapshot~" in order to average the input signal from the channel that the Max patch was inserted into it, and turn it into a float number for feeding it to the fader. That fixed the audio input problem that we had.
 Regarding the visuals, we certainly missed some objects in order to fix the text on the display issue. That was being fixed by using "jit.op" to merge the text and video in the output display window. Following, the code in regards to the visual part of the patch is accessable from [this link](/assets/code/VPatch2.txt). You can have the patch, just by copying the code and pasting it inside an empty patch.
+
+## Refrences
+Rónán Duffy, for The Journal “F**K knows. I'm past caring' - The week in Brexit quotes”
+Retrieved from: https://www.thejournal.ie/brexit-quotes-3-4567342-Mar2019/
+
+Producer: RT UK. (2016, 07.11)  "Brexit means Brexit" - May. Retrieved from URL: https://www.youtube.com/watch?v=KMek1okqphs
 
 __Keywords:__ _Sonification, Max for Live, Ableton Live, Brexit, Visuals, Audio_
 
