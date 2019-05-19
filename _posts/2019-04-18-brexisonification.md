@@ -9,15 +9,14 @@ image: /assets/img/sonification/brexit.jpg
 excerpt: The goal in the project is to sonify Brexit, in a way that the audience could interpret new insight from the data through audio.
 ---
 
-# Brexisonification
-
 <figure>
   <img src="/assets/img/sonification/brexit2.jpg" alt="Brexit" width="70%" align="middle"/>
   <figcaption><strong></strong></figcaption>
 </figure>
 
 ## Brexit
-Wikipedia article on [Brexit](https://en.wikipedia.org/wiki/2016_United_Kingdom_European_Union_membership_referendum).
+Wikipedia article on [Brexit](https://en.wikipedia.org/wiki/2016_United_Kingdom_European_Union_membership_referendum).  
+
 “Fuck knows. I’m past caring. It’s like the living dead in here.”  
 
 An unnamed UK Cabinet minister’s texts BBC Newsnight editor Nicholas Watt when asked why May was holding another vote on her deal. In doing so, the pretty much summed up an entire nation. (The Journal, 2019)  
@@ -118,18 +117,19 @@ Here was the “presentation” view from ableton, that showed the relevant text
 Both these visual elements never made it to the final prototype, for reasons we will go into later (although there is an example).
 
 ### Demos (Audio/Visual)
-* Visuals demo:
+**Youtube link and final publication of the sonification:**  
+
+Please leave any comments that you have, in regards to the sonification, in the comments section.
+<iframe width="640" height="360" src="https://www.youtube.com/embed/wbUrU9azTlQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+**Visuals demo:**
 <figure align="middle">
         <video height="100%" width="100%" controls>
         <source src="/assets/video/sonificationvisualsonly.mp4" type="video/mp4">
-        <figcaption><strong> presentation of the visual part of the project </strong></figcaption>        
+        <figcaption><strong> The unused visual elements of the project </strong></figcaption>        
         Your browser does not support the video tag.
 </video>
 </figure>
-
-* Youtube link for the sonification:
-Please leave any comments that you have, in regards to the sonification, in the comments section.
-<iframe width="640" height="360" src="https://www.youtube.com/embed/wbUrU9azTlQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ## Reflective notes
 ### Overall impression
@@ -139,7 +139,12 @@ Our team have progressed in a remarkably steady pace and it has been a pleasure.
 
 As noted in our report we managed to implement Symbolic, Metaphoric, and Iconic sounds representing data in our sonification. It was important for the aesthetics. Thomas Hermann introduced us to this way of thinking sonification, and we wanted to implement it in our project to familiarize us with sonication as a practice.  
 
-Maybe too much? At least for us we were exploring the possibilities that this craft has to offer, while at the same time doing some experimentation!  
+Maybe too much? At least for us we were exploring the possibilities that this craft has to offer, while at the same time doing some experimentation!
+
+<figure>
+  <img src="/assets/img/sonification/funnybrexit.jpg" alt="Mapping" width="70%" align="middle"/>
+  <figcaption><strong></strong></figcaption>
+</figure>
 
 In this portrayal of serious, political data we originally tried to remain unbiased. However, with a overarching feeling of “dread” as part of our sonification, we didn't exactly achieve neutrality. So our mapping and choice of sounds could be seen as somewhat biased in terms of the brexit standpoint. Maybe it begs the question, isn't the majority of media biased when reporting on brexit? Or even in general? (let's not go down THAT road) 
 
