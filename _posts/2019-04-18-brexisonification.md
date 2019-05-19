@@ -167,7 +167,7 @@ Other possible future ideas:
 * Create a side project called “Spacexit”, which may use our patch to sonify data from the position of spacecrafts.
 
 ## Acknowledgements: 
-Thanks to [Daniel Buner Formo](https://www.ntnu.no/ansatte/daniel.formo) and [Anna Xambó Sedó](http://annaxambo.me/) for their support.  
+We wholeheartedly thank [Daniel Buner Formo](https://www.ntnu.no/ansatte/daniel.formo) and [Anna Xambó Sedó](http://annaxambo.me/) for their support.
 
 ## Refrences
 Rónán Duffy, for The Journal “F**K knows. I'm past caring' - The week in Brexit quotes”
