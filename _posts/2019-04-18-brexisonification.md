@@ -93,11 +93,9 @@ Since there are some developments done afterposting the blog, you can have acces
 </video>
 </figure>
 
-* Audio demo:
-<audio controls="controls">
-  <source type="audio/mp3" src="/assets/sounds/brexisonificaitonaudio.mp3"></source>
-  <p>Your browser does not support the audio element.</p>
-</audio>
+* Youtube link for the sonification:
+Please leave any comments that you have, in regards to the sonification, in the comments section.
+<iframe width="640" height="360" src="https://www.youtube.com/embed/wbUrU9azTlQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ## Reflective notes
 ### Overall impression
