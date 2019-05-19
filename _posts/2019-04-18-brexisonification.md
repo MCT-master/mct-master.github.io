@@ -177,7 +177,7 @@ We wholeheartedly thank [Daniel Buner Formo](https://www.ntnu.no/ansatte/daniel.
 
 ## Refrences
 Rónán Duffy, for The Journal “F**K knows. I'm past caring' - The week in Brexit quotes”
-Retrieved from: https://www.thejournal.ie/brexit-quotes-3-4567342-Mar2019/
+Retrieved from URL: https://www.thejournal.ie/brexit-quotes-3-4567342-Mar2019/
 
 Producer: RT UK. (2016, 07.11)  "Brexit means Brexit" - May. Retrieved from URL: https://www.youtube.com/watch?v=KMek1okqphs
 
