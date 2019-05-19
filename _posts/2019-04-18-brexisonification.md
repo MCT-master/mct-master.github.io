@@ -81,7 +81,7 @@ The video made from a GIF file is being read and looped. The patch is using the 
   <figcaption><strong>Visuals patch</strong></figcaption>
 </figure>
 
-Since there are some developments done afterposting the blog, you can have access the visuals code at the end of the blog, in the further developments section.
+Since there are some developments done afterposting the blog, you can have access the visuals code at the end of the blog, in the further developments section. Also, the code for the audio part of the sonification patch is available in that text file as well. All you have to do is to copy, and hten paste the codes into the patch file. You have to merge them as well.
 
 ### Demos (Audio/Visual)
 * Visuals demo:
@@ -120,7 +120,7 @@ Also, we could create a side project, called Spacexit, which may use our patch t
 ## Further developments
 With working more on the audio and video part of the patch and thanks to [Daeniel Buner Formo](https://www.ntnu.no/ansatte/daniel.formo), we managed to fix the problems!
 Starting with the audio part, we had to include "average~" and "snapshot~" in order to average the input signal from the channel that the Max patch was inserted into it, and turn it into a float number for feeding it to the fader. That fixed the audio input problem that we had.
-Regarding the visuals, we certainly missed some objects in order to fix the text on the display issue. That was being fixed by using "jit.op" to merge the text and video in the output display window. Following, the code in regards to the visual part of the patch is accessable from [this link](/assets/code/VPatch2.txt). You can have the patch, just by copying the snippet and pasting it inside an empty patch.
+Regarding the visuals, we certainly missed some objects in order to fix the text on the display issue. That was being fixed by using "jit.op" to merge the text and video in the output display window. Following, the code in regards to the visual part of the patch is accessable from [this link](/assets/code/VPatch2.txt). You can have the patch, just by copying the code and pasting it inside an empty patch.
 
 __Keywords:__ _Sonification, Max for Live, Ableton Live, Brexit, Visuals, Audio_
 
