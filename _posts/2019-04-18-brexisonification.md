@@ -136,8 +136,12 @@ Maybe too much? At least for us we were exploring the possibilities that this cr
 In this portrayal of serious, political data we originally tried to remain unbiased. However, with a overarching feeling of “dread” as part of our sonification, we didn't exactly achieve neutrality. So our mapping and choice of sounds could be seen as somewhat biased in terms of the brexit standpoint. Maybe it begs the question, isn't the majority of media biased when reporting on brexit? Or even in general? (let's not go down THAT road) 
 
 ### Challenges
-Contrary to what is common with these kinds of group projects, we did not have notable challenges with making the concept. As soon as we decided upon working with Brexit, we were pretty unanimous with how to proceed.
-The trouble mainly with working with the MAX patch as well as making the data from Kaggle work. A combination of video tutorials, forum searching and not least, trial and error was used to progress. 
+Contrary to what is common with these kinds of group projects, we did not have notable challenges with planning the concept. As soon as we decided upon working with Brexit, we were pretty unanimous with how to proceed. We did come into some challenges though:
+* Difficulty in MAX reading the data, we solved this by editing the data set in EdExcel
+* The audio part of the patch were being developed in Oslo and the Visual part in Trondheim. While merging them, there was had a synchronization problem. The tempo of the data being read by the Max patch was different for the video than for the audio. Remains unfixed.
+* Also, alongside the region text being displayed in the max patch presentation mode, we wanted to have it displayed on the video as well. But we couldn’t fix that issue as well.
+* Patch would reset all mappings in Ableton Live each time on reopen - big pain in the posterior!
+The main failure was the inability to use the video element we had spent a lot of time working on. We attempted to fix the issue after the presentation of the prototype, to no avail. We managed to implement the region text in the video. That was being done by using "jit.op" to merge the text and video in the output display window (success!) but could still not fix the tempo issue - rendering it useless for the project as a whole.
 
 ### Achievements
 We managed to make a sonically interesting audible rendition of the Brexit votes, so the audience perhaps could find him/herself comfortable to interpret and communicate with. Although, since we have not performed the sonification for any audiences, we are not aware of the final outcome.
