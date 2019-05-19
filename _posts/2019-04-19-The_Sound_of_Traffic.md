@@ -139,9 +139,9 @@ SynthDef ("bus", {arg out=0, freqb= 50, mul=0.7, ampb = 0.2;
     Out.ar(out,f*ampb);
 }).add;
 ```
-The above code snippets imports various python modules in the jupyter notebook required to make the sonification. Besides, it reads the data, boots the supercollider using the sc3nb module and creates synth definition for buses and coaches usiing the Saw.ar synth in supercollider.
+The code snippet above imports various python modules in the jupyter notebook, required to make the sonification. Besides, it reads the data, boots supercollider using the sc3nb module and creates synth definition for buses and coaches usiing the Saw.ar synth in supercollider.
 
-The code snippet below sets TimedQueue which is required for sonifications with precise timing. Synths are then initiated with a delay of 0.2 seconds and praparation are done for recording. Similarly, with iteration of indices of the data, the algorithm maps the minimum and maximum number of the data to certain specified range of frequency and amplitude of the corresponding synth as explained in Figure 4. Finally the sonification of each set of vehicle for each region is generated one at a time in wav file format.
+The code snippet below sets TimedQueue function, which is required for creating sonifications with precise timing. Synths are then initiated with a delay of 0.2 seconds and praparation are made for recording. Similarly, with iteration of the data, the algorithm maps the minimum and maximum number of the data to certain specified range of frequency and amplitude of the corresponding synth as explained in Figure 4. Finally the sonification of each set of vehicle for each region is generated one at a time in wav file format.
 
 ```python
 queue = scn.TimedQueue()
