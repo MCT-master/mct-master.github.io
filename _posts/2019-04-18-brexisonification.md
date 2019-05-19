@@ -16,9 +16,8 @@ excerpt: The goal in the project is to sonify Brexit, in a way that the audience
   <figcaption><strong></strong></figcaption>
 </figure>
 
-Our project for the Sonification and Sound Design course, is based on sonification of the Brexit voting data and focuses both on audio and visual aspects.
-It gets the desired data, in regards to the Brexit voters and sonifies it in an communicative way.
-Also there are visual aspects accompanying the sponical aspect of the project, in order to make the project more expressive.
+Inspired by the controversy and charade that was and is Brexit, this project is an attempt to make sense of of the data that came from the UKs national European referendum - by translating it into sound. Named “Brexsonification”, our aims were to try and portray a new outlook on the results data (data set here), whilst keeping to the tongue and cheek style both social and regular media have often to come to cover the issue.
+
 
 ## Our system
 ### Aesthetic choices, Concept and Technologies used
