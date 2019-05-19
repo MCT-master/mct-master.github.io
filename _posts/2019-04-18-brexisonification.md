@@ -120,7 +120,8 @@ Both these visual elements never made it to the final prototype, for reasons we 
 **Youtube link and final publication of the sonification:**  
 
 Please leave any comments that you have, in regards to the sonification, in the comments section.
-<iframe width="640" height="360" src="https://www.youtube.com/embed/wbUrU9azTlQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>  
+<iframe width="640" height="360" src="https://www.youtube.com/embed/wbUrU9azTlQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<br/>
 
 **Visuals demo:**
 <figure align="left">
@@ -142,7 +143,7 @@ As noted in our report we managed to implement Symbolic, Metaphoric, and Iconic 
 Maybe too much? At least for us we were exploring the possibilities that this craft has to offer, while at the same time doing some experimentation!
 
 <figure>
-  <img src="/assets/img/sonification/funnybrexit.jpg" alt="Mapping" width="10%" align="middle"/>
+  <img src="/assets/img/sonification/funnybrexit.jpg" alt="Mapping" width="20%" align="middle"/>
   <figcaption><strong></strong></figcaption>
 </figure>
 
