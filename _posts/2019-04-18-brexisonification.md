@@ -142,7 +142,7 @@ As noted in our report we managed to implement Symbolic, Metaphoric, and Iconic 
 Maybe too much? At least for us we were exploring the possibilities that this craft has to offer, while at the same time doing some experimentation!
 
 <figure>
-  <img src="/assets/img/sonification/funnybrexit.jpg" alt="Mapping" width="70%" align="middle"/>
+  <img src="/assets/img/sonification/funnybrexit.jpg" alt="Mapping" width="20%" align="middle"/>
   <figcaption><strong></strong></figcaption>
 </figure>
 
