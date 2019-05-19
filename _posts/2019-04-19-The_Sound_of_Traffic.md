@@ -103,8 +103,41 @@ function dataReady1(data1){
   ```
 ### Prototype 2 with Python and SuperCollider.
 
-The first prototype was further developed with Python and SuperCollider. It is inspired by **Thomas Hermann's** lecture on topics of Sonification and hands on exercise on **Parameter Mapping Sonification** during a series of talks in the MCT4046 Sonification and Sound Design course in this spring semester. The python code for this prototype is based upon two examples; Example-1: the code of the hands on exercise provided by Thomas and <a href="https://github.com/thomas-hermann/sc3nb/blob/master/examples/sc3nb-examples.ipynb">Example-2:</a> the code shared by Thomas through his github repository. The code for the prototype has been further developed to adapt a different structre of data, create different synth definitions and apply different forms of mapping by exploring various example of synths in Supercollider. For instance, Example-1 and Example-2 have used synth definitions like SinOsc.ar, DynKlank.ar, Dust.ar etc while prototype 2 applies Saw.ar, LFPulse.ar and RLPF.ar along with combination of SinOsc.ar and so on. 
+The first prototype was further developed with Python and SuperCollider. It is inspired by **Thomas Hermann's** lecture on topics of Sonification and hands on exercise on **Parameter Mapping Sonification** during a series of talks in the MCT4046 Sonification and Sound Design course in this spring semester. The python code for this prototype is based upon two examples; Example-1: the code of the hands on exercise provided by Thomas and <a href="https://github.com/thomas-hermann/sc3nb/blob/master/examples/sc3nb-examples.ipynb">Example-2:</a> the code shared by Thomas through his github repository. The code for the prototype has been further developed to adapt a different structre of data, create different synth definitions and apply different forms of mapping by exploring various example of synths in Supercollider. For instance, Example-1 and Example-2 have used synth definitions like SinOsc.ar, DynKlank.ar, Dust.ar etc while prototype 2 applies Saw.ar, LFPulse.ar and RLPF.ar along with combination of SinOsc.ar  and so on in supercollider as shown in the code snippet below; 
 
+```supercollider
+// ----------------Bus -----------------Amplitude & Frequency to be used in Mapping
+SynthDef ("bus", {arg out=0, freq= 50, mul=0.7,amp = 1;
+    var f;
+    f = Saw.ar(freq,mul,0);
+	Out.ar(out,f*amp);
+}).add;
+
+g= Synth.new(\bus)
+g.free
+```
+
+```supercollider
+// ----------------Car -----------------Amplitude & Frequency to be used in Mapping
+SynthDef ("formula1", {arg out=0, freq = 2.5, mul2= 10;
+    var f;
+    f = LFPulse.ar(LFPulse.kr(freq, 0, 0.3, mul2, 200), 0, 0.8, 0.1);
+    Out.ar(out,f);
+}).add;
+
+f= Synth.new(\formula1)
+f.free
+```
+
+```supercollider
+// ----------------Motorbike -----------------Amplitude & Frequency to be used in Mapping
+SynthDef("motogp", { arg out=0, freq= 10, mul3 = 100, amp = 2;
+    var m;
+    m = RLPF.ar(LFPulse.ar(SinOsc.ar(0.2, 0, 0, 10),0.5, 0.2),freq,0.5,100);
+    Out.ar(out, m*amp);
+}).add;
+m = Synth.new(\motogp)
+```
 Figure 4 below highlights the mapping of different parameters for the prototype 2. For buses, the change in frequency and amplitude gives the idea of increase or decrease in number of buses in the selected region. Likewise, the speed of oscillation and change of amplitude signify the rise or fall of number of car/taxies in the region of choice. Similarly, for the motorbikes, the change in frequency and amplitude gives the information of change in number of motorbikes in the selected region.
 
 <figure>
