@@ -16,23 +16,21 @@ Keywords: Sonification
 </figure>
 
 ## Introduction
-During the sonification Lecture series, we were exposed to fascinating concepts and theories behind sonification, sound design and their applications. Our primary goal was to explore the techniques that we learned and put them into practice in order to understand a real world problem. After searching and referring so much available data we finally decided to work on traffic vehicle data from 3 regions in England measured over 17 years. Is it possible to transmit complex data-sets within an instance of a sound, so the content gets revealed? As communication and dissemination of information in our modern digital world has been highly dominated by visual aspects it led to the fact that the modality of sound got neglected. In order to test the hypothesis, the project presents two prototypes for the sonification of temporal-spatial traffic data. 
+During the sonification Lecture series, we were exposed to fascinating concepts and theories behind sonification, sound design and their applications. Our primary goal was to explore the techniques that we learned and put them into practice in order to understand a real-world problem. After searching and referring so much available data we finally decided to work on traffic vehicle data from 3 regions in England measured over 17 years. Is it possible to transmit complex datasets within an instance of a sound, so the content gets revealed? As communication and dissemination of information in our modern digital world has been highly dominated by visual aspects it led to the fact that the modality of sound got neglected. In order to test the hypothesis, the project presents two prototypes for the sonification of temporal-spatial traffic data. 
 
-As stated earlier, we had been introduced with various facets of sonification from atristic and or qualitative approach like Øyvind Brandtsegg's <a href="https://www.ntnu.no/flyndresang" target="_blank">**Flyndre Project**</a> or Daniel Formo's <a href="https://orchestraofspeech.com/results/software-instrument-system/" target="_blank">**Orchestra of Speech**</a> to a combination of both artistic and quantitative approach like <a href="https://sonification.de/handbook/chapters/chapter15/#S15.3" target="_blank">**sound example by T. Hermann, A. Hunt and J.G. Neuhoff**</a> taken from chapter15/#S15.3 from The Sonification handbook, and so on. Our idea was quite similar to the latter approach. Hence, we decided to go for **Parametric Mapping Sonification (PMSon)** technique. Besides, the nature of our data was also suitable for this kind of analysis through PMSon.
+As stated earlier, we had been introduced with various facets of sonification from artistic and or qualitative approach like Øyvind Brandtsegg's <a href="https://www.ntnu.no/flyndresang" target="_blank">**Flyndre Project**</a> or Daniel Formo's <a href="https://orchestraofspeech.com/results/software-instrument-system/" target="_blank">**Orchestra of Speech**</a> to a combination of both artistic and quantitative approach like <a href="https://sonification.de/handbook/chapters/chapter15/#S15.3" target="_blank">**sound example by T. Hermann, A. Hunt and J.G. Neuhoff**</a> taken from chapter15/#S15.3 from The Sonification handbook, and so on. Our idea was quite like the latter approach. Hence, we decided to go for **Parametric Mapping Sonification (PMSon)** technique. Besides, the nature of our data was also suitable for this kind of analysis through PMSon.
 
 ## Data set
-
 <figure>
 <img src="/assets/img/sonification/map_region.JPG" width = "90%" align="center" />
   <figcaption>Figure 2: Method for Selecting Data</figcaption>
 </figure>
 
-The data has been collected from <a href="https://www.dft.gov.uk/traffic-counts/download" target="_blank">**The Department of Transport, U.K.**</a> It includes **Annual Average daily Flow (AADF)** of buses/coaches, cars/taxies and motorbikes for three regions of England from 2000 to 2017. The three regions include the North East, the West Midlands & the South East which have been chosen based upon their population as shown in Figure 2. The primary data includes number of vehicles but they are segregated into numerous divisions of road types for each region. Shreejay made a <a href="https://github.com/shreejayshrestha/MCT4046_Sonification_Project/blob/master/matlab%20script/read_data.m">matlab script</a> to refine the data as per our requirement. The script reads the raw data of each region of choice at a time and writes them into an excel sheet by calculating the total number of vehicles in the region in each year and exports them as in CSV file format. 
+The data has been collected from <a href="https://www.dft.gov.uk/traffic-counts/download" target="_blank">**The Department of Transport, U.K.**</a> It includes **Annual Average daily Flow (AADF)** of buses/coaches, cars/taxies and motorbikes for three regions of England from 2000 to 2017. The three regions include the North East, the West Midlands & the South East which have been chosen based upon their population as shown in Figure 2. The primary data includes number of vehicles, but they are segregated into numerous divisions of road types for each region. Shreejay made a <a href="https://github.com/shreejayshrestha/MCT4046_Sonification_Project/blob/master/matlab%20script/read_data.m">matlab script</a> to refine the data as per our requirement. The script reads the raw data of each region of choice at a time and writes them into an excel sheet by calculating the total number of vehicles in the region in each year and exports them as in CSV file format. 
 
 ## Sonification & Sound design
 
 ### Prototype 1 with Javascript and P5.js
-
 <figure align="middle">
 <audio controls>
 <source src="/assets/sounds/prototype1.wav" type="audio/wav" volume="0.2">
@@ -41,7 +39,7 @@ The data has been collected from <a href="https://www.dft.gov.uk/traffic-counts/
 <figcaption>Audio 1: Prototype-1, Sonification of Buses & Coaches in the three regions</figcaption>
 </figure>
 
-We chose to work with JavaScript to create our first prototype. The number of buses in each particular region was directly mapped into a frequency of an oscillator by using the “map()” method in P5.js. Figure 3 below gives an overview of the mapping method. 
+We chose to work with JavaScript to create our first prototype. The number of buses in each particular region was directly mapped into a frequency of an oscillator by using the “map ()” method in P5.js. Figure 3 below gives an overview of the mapping method. 
 
 <figure>
 <img src="/assets/img/cj/mapping_prototype_1.JPG" width = "100%" align="center" />
@@ -51,7 +49,7 @@ We chose to work with JavaScript to create our first prototype. The number of bu
 Sound was generated through three unique oscillators that correspond with the data for each region. Additionally, three non-overlapping frequency ranges were chosen in the mapping to further differentiate between the three sounds. Moreover, the “settimeout()” method states the durations of a single frequency that corresponds to a certain year. 
 
 #### Code Snippet
-The following code snippet shows how the three oscilators are defined and highlights the mapping method and settimeout() method applied in the prototype 1. 
+The following code snippet shows how the three oscillators are defined and highlights the mapping method and set timeout () method applied in the prototype 1. 
 
 ```javascript
 function preload(){
@@ -102,9 +100,8 @@ function dataReady1(data1){
     };
   }
   ```
-### Prototype 2 with Python and SuperCollider.
-
-The first prototype was further developed with Python and SuperCollider. It is inspired by **Thomas Hermann's** lecture on topics of Sonification and hands on exercise on **Parameter Mapping Sonification** during a series of talks in the MCT4046 Sonification and Sound Design course in this spring semester. The python code for this prototype is based upon two examples; Example-1: the code of the hands on exercise provided by Thomas and <a href="https://github.com/thomas-hermann/sc3nb/blob/master/examples/sc3nb-examples.ipynb">Example-2:</a> the code shared by Thomas through his github repository. The code for the prototype has been further developed to adapt a different structre of data, create different synth definitions and apply different forms of mapping by exploring various example of synths in Supercollider. For instance, Example-1 and Example-2 have used synth definitions like SinOsc.ar, DynKlank.ar, Dust.ar etc while prototype 2 applies Saw.ar, LFPulse.ar and RLPF.ar along with combination of SinOsc.ar  and so on in supercollider as shown in the code snippet below; 
+### Prototype 2 with Python and Supercollider.
+The first prototype was further developed with Python and Supercollider. It is inspired by **Thomas Hermann's** lecture on topics of Sonification and hands on exercise on **Parameter Mapping Sonification** during a series of talks in the MCT4046 Sonification and Sound Design course in this spring semester. The python code for this prototype is based upon two examples; Example-1: the code of the hands-on exercise provided by Thomas and <a href="https://github.com/thomas-hermann/sc3nb/blob/master/examples/sc3nb-examples.ipynb">Example-2:</a> the code shared by Thomas through his GitHub repository. The code for the prototype has been further developed to adapt a different structure of data, create different synth definitions and apply different forms of mapping by exploring various example of synths in Supercollider. For instance, Example-1 and Example-2 have used synth definitions like SinOsc.ar, DynKlank.ar, Dust.ar etc while prototype 2 applies Saw.ar, LFPulse.ar and RLPF.ar along with combination of SinOsc.ar and so on in supercollider as shown in the code snippet below; 
 
 ```javascript
 // ----------------Bus -----------------Amplitude & Frequency to be used in Mapping
@@ -171,9 +168,9 @@ SynthDef ("bus", {arg out=0, freqb= 50, mul=0.7, ampb = 0.2;
     Out.ar(out,f*ampb);
 }).add;
 ```
-The code snippet above imports various python modules in the jupyter notebook, required to make the sonification. Besides, it reads the data, boots supercollider using the sc3nb module and creates synth definition for buses and coaches using the Saw.ar synth in supercollider.
+The code snippet above imports various python modules in the Jupyter notebook, required to make the sonification. Besides, it reads the data, boots supercollider using the sc3nb module and creates synth definition for buses and coaches using the Saw.ar synth in supercollider.
 
-The code snippet below sets TimedQueue function, which is required for creating sonifications with precise timing. Synths are then initiated with a delay of 0.2 seconds and praparation are made for recording. Similarly, with iteration of the data, the algorithm maps the minimum and maximum number of the data to certain specified range of frequency and amplitude of the corresponding synth as explained in Figure 4. Finally the sonification of each set of vehicle for each region is generated one at a time in wav file format.
+The code snippet below sets TimedQueue function, which is required for creating sonification with precise timing. Synths are then initiated with a delay of 0.2 seconds and preparation are made for recording. Similarly, with iteration of the data, the algorithm maps the minimum and maximum number of the data to certain specified range of frequency and amplitude of the corresponding synth as explained in Figure 4. Finally, the sonification of each set of vehicle for each region is generated one at a time in wav file format.
 
 ```python
 queue = scn.TimedQueue()
@@ -279,19 +276,15 @@ queue.put(t0 + delay + onset, sc.msg, ("/n_free", 1236))
   <figcaption>Figure 7: Prototype-2, Motorbikes in the North East & South East Region</figcaption>
 </figure>
 
-We bet, you would also like to listen to the sonification of the third region of our second prototype. Just follow the
-<a href="https://github.com/shreejayshrestha/MCT4046_Sonification_Project" target="_blank">**github repository**</a> and you will get access to all the sonification, scripts, data files and other files related to this project.
+We bet you would also like to listen to the sonification of the third region of our second prototype and see full codes. Great! Just follow the <a href="https://github.com/shreejayshrestha/MCT4046_Sonification_Project" target="_blank">**GitHub repository**</a> and you will get access to all the sonification, codes, scripts, data files and other files related to this project.
 
 ## Future Work.
-
-At the moment, the model covers sonification of data for individual vehicle for the given period of time. Since running the sonification for the three vehicle types can still masks each other and hide potential patterns of data. So, the sound design can be improved to make the sounds distinct as much as possible.
-
+Currently, the prototype 2 covers sonification of data for individual vehicle for a given period of time only. Running the sonification for the three vehicle types can mask each other and hide potential patterns of data. So, the sound design can be improved to make the sonification distinct as much as possible.
 Similarly, additional features can be introduced to the system such as the ability to select a preferred time period, to select certain transportation methods and regions etc. A data visualization tool can also be introduced to support the sonification model with multiple methods of visualizations to choose from.
-
-Another interesting suggestion appeared to build an API for sonification of traffic data of England, or any country with options for selecting different regions and different vehicles. The API could be extensively used for analysis and or for understanding the growth of traffic in the chosen region via  sonification.
+Another interesting suggestion appeared to build an API for sonification of traffic data of England, or any country with options for selecting different regions and different vehicles. The API could be extensively used for analysis and or for understanding the growth of traffic in the chosen region via sonification.
 
 ## Acknowledgement
-We are very grateful to Anna Xambo, our teacher for the MCT4046 Sonification and Sound Design course for exposing us to many experts and professionals working in the areas of sonification and sound design through this course. We would also like to thank her for guiding us in dveloping prototype 1. Similarly, we would like to extend our heartfelt gratitude to Thomas Hermann for sharing his plethora of knowledge on sonification and also for providing us with his slides and python script which helped us practice, learn and expand our knowledge on sonification. Likewise, we would also like to credit Thomas for allowing us to borrow his code and own it while developing it in the project as prototype 2.
+We are very grateful to Anna Xambo, our teacher for the MCT4046 Sonification and Sound Design course for exposing us to many experts and professionals working in the areas of sonification and sound design through this course. We would also like to thank her for guiding us in developing prototype 1. Similarly, we would like to extend our heartfelt gratitude to Thomas Hermann for sharing his plethora of knowledge on sonification. Likewise, we would also like to credit Thomas for providing us with his slides and python script and credit him for the prototype 2. All of them helped us practice, learn and expand our knowledge on sonification.
 
 # Thank you.
 
