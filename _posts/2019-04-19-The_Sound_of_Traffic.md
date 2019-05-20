@@ -302,11 +302,11 @@ We bet you would also like to listen to the sonification of the third region of 
 </figure>
 
 
-### Main findings in brief
+## Main findings in brief
 
 Prototype 1 was not revealing the actual content of the data. Although we chose non-overlapping frequency ranges in the mapping to further differentiate between the three sounds, it did not meet our objective of combining both artistic and scientific approach. Thus we decided to improve it and developed prototype 2. The informative qualities of the sounds, now standalone and representing each region/vehicle, could increase immensely. The structural elicitors like amplitude and frequency are creating again rhythm and tempo among others, which could reveal patterns in the content. In doing so it affirms our hypothesis. 
 
-### Additional reflections
+## Additional reflections
 
 Our approach to perceptualize the data was from the beginning complementary, using sonification and visualisation. Especially together they have the power to convey information in ways also non-experts can comprehend. Going through the development processes of two sonification prototypes it posed questions how sound can be designed in order to become a standalone mediator of the sonified processes. Finally, the context of sonification and target audience refines the final outcome as well.
 
