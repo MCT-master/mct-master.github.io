@@ -292,8 +292,10 @@ We bet you would also like to listen to the sonification of the third region of 
   <figcaption>Figure 9: Project Timeline</figcaption>
 </figure>
 
+
+
 <figure>
-<img src="/assets/img/sonification/collaboration_AKS.JPG" width = "70%" align="center" />
+<img src="/assets/img/cj/contribution2.jpg" width = "90%" align="center" />
   <figcaption>figure 10: Division of labour</figcaption>
 </figure>
 
