@@ -102,7 +102,7 @@ function dataReady1(data1){
     };
   }
   ```
-### Prototype 2 with Python and Supercollider.
+### Prototype 2 with Python and Supercollider
 <figure>
 <img src="/assets/img/cj/system drawing2.JPG" width = "65%" align="center" />
 <figcaption>Figure 4: Prototype 2, System Diagram</figcaption>
@@ -306,12 +306,12 @@ We bet you would also like to listen to the sonification of the third region of 
 
 Prototype 1 was not revealing the actual content of the data. Although we chose non-overlapping frequency ranges in the mapping to further differentiate between the three sounds, it did not meet our objective of combining both artistic and scientific approach. Thus we decided to improve it and developed prototype 2. The informative qualities of the sounds, now standalone and representing each region/vehicle, could increase immensely. The structural elicitors like amplitude and frequency are creating again rhythm and tempo among others, which could reveal patterns in the content. In doing so it affirms our hypothesis. 
 
-### Additional reflections:
+### Additional reflections
 
 Our approach to perceptualize the data was from the beginning complementary, using sonification and visualisation. Especially together they have the power to convey information in ways also non-experts can comprehend. Going through the development processes of two sonification prototypes it posed questions how sound can be designed in order to become a standalone mediator of the sonified processes. Finally, the context of sonification and target audience refines the final outcome as well.
 
 
-## Future Work.
+## Future Work
 Currently, the prototype 2 covers sonification of data for individual vehicle for a given period of time only. Running the sonification for the three vehicle types can mask each other and hide potential patterns of data. So, the sound design can be improved to make the sonification distinct as much as possible.
 Similarly, additional features can be introduced to the system such as the ability to select a preferred time period, to select certain transportation methods and regions etc. A data visualization tool can also be introduced to support the sonification model with multiple methods of visualizations to choose from.
 Another interesting suggestion appeared to build an API for sonification of traffic data of England, or any country with options for selecting different regions and different vehicles. The API could be extensively used for analysis and or for understanding the growth of traffic in the chosen region via sonification.
@@ -319,7 +319,9 @@ Another interesting suggestion appeared to build an API for sonification of traf
 ## Acknowledgement
 We are very grateful to Anna Xambo, our teacher for the MCT4046 Sonification and Sound Design course for exposing us to many experts and professionals working in the areas of sonification and sound design through this course. We would also like to thank her for guiding us in developing prototype 1. Similarly, we would like to extend our heartfelt gratitude to Thomas Hermann for sharing his plethora of knowledge on sonification. Likewise, we would also like to credit Thomas for providing us with his slides and python script and credit him for the prototype 2. All of them helped us practice, learn and expand our knowledge on sonification.
 
-## Thank you.
+## Thank you!
+
+
 
 ## References
 
