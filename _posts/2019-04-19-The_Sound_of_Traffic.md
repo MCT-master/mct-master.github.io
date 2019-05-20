@@ -42,7 +42,7 @@ The data has been collected from <a href="https://www.dft.gov.uk/traffic-counts/
 We chose to work with JavaScript to create our first prototype. The number of buses in each particular region was directly mapped into a frequency of an oscillator by using the “map ()” method in P5.js. Figure 3 below gives an overview of the mapping method. 
 
 <figure>
-<img src="/assets/img/cj/mapping_pro1.JPG" width = "100%" align="center" />
+<img src="/assets/img/cj/mapping_proto1.JPG" width = "100%" align="center" />
 <figcaption>Figure 3: Mapping method in Prototype 1</figcaption>
 </figure>
 
@@ -136,7 +136,7 @@ m = Synth.new(\motogp)
 Figure 4 below highlights the mapping of different parameters for the prototype 2. For buses, the change in frequency and amplitude gives the idea of increase or decrease in number of buses in the selected region. Likewise, the speed of oscillation and change of amplitude signify the rise or fall of number of car/taxies in the region of choice. Similarly, for the motorbikes, the change in frequency and amplitude gives the information of change in number of motorbikes in the selected region.
 
 <figure>
-<img src="/assets/img/cj/mapping_pro2.JPG" width = "100%" align="center" />
+<img src="/assets/img/cj/mapping_proto2.JPG" width = "100%" align="center" />
  <figcaption>Figure 4: Mapping method in Prototype 2</figcaption>
 </figure>
 
