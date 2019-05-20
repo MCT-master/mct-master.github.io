@@ -22,7 +22,7 @@ As stated earlier, we had been introduced with various facets of sonification fr
 
 ## Data set
 <figure>
-<img src="/assets/img/sonification/map_region.jpg" width = "90%" align="center" />
+<img src="/assets/img/sonification/map_3region.jpg" width = "90%" align="center" />
   <figcaption>Figure 2: Method for Selecting Data</figcaption>
 </figure>
 
