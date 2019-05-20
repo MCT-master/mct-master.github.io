@@ -132,7 +132,7 @@ SynthDef("motogp", { arg out=0, freq= 10, mul3 = 100, amp = 2;
 }).add;
 m = Synth.new(\motogp)
 ```
-Figure 4 below highlights the mapping of different parameters for the prototype 2. Here, for example the minimum number of bus in a region is mapped to both the minimum range of frequency and the minimum number of amplitude. Similarly, the maximum number of bus in a region is mapped to both the maximum range of frequency and the maximum number of amplitude and so on. Therefore, for buses, the change in frequency and amplitude gives the idea of increase or decrease in number of buses in the selected region. The speed of oscillation and change of amplitude signify the rise or fall of number of car/taxies in the region of choice. Similarly, for the motorbikes, the change in frequency and amplitude gives the information of change in number of motorbikes in the selected region.
+Figure 4 below highlights the mapping of different parameters for the prototype 2. Here, for example, the minimum number of bus in a region is mapped to both the minimum range of frequency and the minimum number of amplitude. Similarly, the maximum number of bus in a region is mapped to both the maximum range of frequency and the maximum number of amplitude and so on. Therefore, for buses, the change in frequency and amplitude gives the idea of increase or decrease in number of buses in the selected region. The speed of oscillation and change of amplitude signify the rise or fall of number of car/taxies in the region of choice. Similarly, for the motorbikes, the change in frequency and amplitude gives the information of change in number of motorbikes in the selected region.
 
 <figure>
 <img src="/assets/img/cj/mapping_proto2.JPG" width = "100%" align="center" />
