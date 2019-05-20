@@ -16,7 +16,7 @@ Keywords: Sonification
 </figure>
 
 ## Introduction
-During the sonification Lecture series, we were exposed to fascinating concepts and theories behind sonification, sound design and their applications. Our primary goal was to explore the techniques that we learned and put them into practice in order to understand a real-world problem. After searching and referring so much available data we finally decided to work on traffic vehicle data from 3 regions in England measured over 17 years. Is it possible to transmit complex datasets within an instance of a sound, so the content gets revealed? As communication and dissemination of information in our modern digital world has been highly dominated by visual aspects it led to the fact that the modality of sound got neglected. In order to test the hypothesis, the project presents two prototypes for the sonification of temporal-spatial traffic data. While looking for similar projects, it was striking that ‘sonification of traffic’ is mainly applied for internet- and network traffic. In order to better comprehend data-streams and detect abnormal patterns for example. There is one project though with an approach very close to our experiment, found on [LA-Listen](http://www.lalistens.org/sonifying-traffic-data/) by Steven Kemper.
+During the sonification Lecture series, we were exposed to fascinating concepts and theories behind sonification, sound design and their applications. Our primary goal was to explore the techniques that we learned and put them into practice in order to understand a real-world problem. After searching and referring so much available data we finally decided to work on traffic vehicle data from 3 regions in England measured over 17 years. Is it possible to transmit complex datasets within an instance of a sound, so the content gets revealed? As communication and dissemination of information in our modern digital world has been highly dominated by visual aspects it led to the fact that the modality of sound got neglected. In order to test the hypothesis, the project presents two prototypes for the sonification of temporal-spatial traffic data. While looking for similar projects, it was striking that ‘sonification of traffic’ is mainly applied for internet- and network traffic. In order to better comprehend data-streams and detect abnormal patterns for example. There is one project though with an approach very close to our experiment, found on [LA-Listen](http://www.lalistens.org/sonifying-traffic-data/) by Steven Kemper. It extracts data from field recordings of moving vehicles and uses SuperCollider to generate Midi files aiming to use sound to further articulate patterns in the sonic data
 
 As stated earlier, we had been introduced with various facets of sonification from artistic and or qualitative approach like Øyvind Brandtsegg's <a href="https://www.ntnu.no/flyndresang" target="_blank">**Flyndre Project**</a> or Daniel Formo's <a href="https://orchestraofspeech.com/results/software-instrument-system/" target="_blank">**Orchestra of Speech**</a> to a combination of both artistic and quantitative approach like <a href="https://sonification.de/handbook/chapters/chapter15/#S15.3" target="_blank">**sound examples by T. Hermann, A. Hunt and J.G. Neuhoff**</a> taken from **chapter15** ( e.g. example #S15.3 ) from , <a href="https://sonification.de/handbook" target="_blank">**The Sonification handbook (Hermann, T., Hunt, A., & Neuhoff, J. G., 2011)**</a>
 and so on. Our idea was quite like the latter approach. Hence, we decided to go for **Parameter Mapping Sonification (PMSon)** technique. In this technique, a data set is mapped with different parameter of sound synthesis which produce sound signals. Further, as per the definition of Sonification by Thomas Hermann (2008), a true sonification should have the following four attributes; (1) the sound should reflect objective properties or relation in the input data, (2) the transformation is systematic, (3) the sonification is reproducible, and (4) the system can be used with different data sets. Through **PMSon technique**, both of our prototyes meet these four criterias.
@@ -103,6 +103,11 @@ function dataReady1(data1){
   }
   ```
 ### Prototype 2 with Python and Supercollider.
+<figure>
+<img src="/assets/img/cj/system drawing2.JPG" width = "100%" align="center" />
+<figcaption>Figure 4: Prototype 2, System Diagram</figcaption>
+</figure>
+
 The first prototype was further developed with Python and Supercollider. It is inspired by **Thomas Hermann's** lecture on topics of Sonification and hands on exercise on **Parameter Mapping Sonification** during a series of talks in the MCT4046 Sonification and Sound Design course in this spring semester. The python code for this prototype is based upon two examples; Example-1: the code of the hands-on exercise provided by Thomas and <a href="https://github.com/thomas-hermann/sc3nb/blob/master/examples/sc3nb-examples.ipynb" target="_blank">Example-2:</a> the code shared by Thomas through his GitHub repository. The code for the prototype has been further developed to adapt a different structure of data, create different synth definitions and apply different forms of mapping by exploring various example of synths in Supercollider. For instance, Example-1 and Example-2 have used synth definitions like SinOsc.ar, DynKlank.ar, Dust.ar etc while prototype 2 applies Saw.ar, LFPulse.ar and RLPF.ar along with combination of SinOsc.ar and so on. Moreover, the synths have been designed to meet our objective of combining both artistic and scientific approach, crafted in Supercollider, as shown in the code snippet below; 
 
 ```javascript
@@ -138,7 +143,7 @@ Figure 4 below highlights the mapping of different parameters for the prototype 
 
 <figure>
 <img src="/assets/img/cj/mapping_proto_2.JPG" width = "100%" align="center" />
- <figcaption>Figure 4: Mapping method in Prototype 2</figcaption>
+ <figcaption>Figure 5: Mapping method in Prototype 2</figcaption>
 </figure>
 
 #### Code Snippet
@@ -171,7 +176,7 @@ SynthDef ("bus", {arg out=0, freqb= 50, mul=0.7, ampb = 0.2;
 ```
 The code snippet above imports various python modules in the Jupyter notebook, required to make the sonification. Besides, it reads the data, boots supercollider using the sc3nb module and creates synth definition for buses and coaches using the Saw.ar synth in supercollider.
 
-Similarly, the code snippet below sets TimedQueue function, which is required for creating sonification with precise timing. Synths are then initiated with a delay of 0.2 seconds and preparation are made for recording. Similarly, with iteration of the data, the algorithm maps the minimum and maximum number of the data to certain specified range of frequency and amplitude of the corresponding synth as explained in Figure 4. Finally, the sonification of each set of vehicle for each region is generated one at a time in wav file format.
+Similarly, the code snippet below sets TimedQueue function, which is required for creating sonification with precise timing. Synths are then initiated with a delay of 0.2 seconds and preparation are made for recording. Similarly, with iteration of the data, the algorithm maps the minimum and maximum range of the data to certain specified range of frequency and amplitude of the corresponding synth as explained in Figure 5. Finally, the sonification of each set of vehicle for each region is generated one at a time in wav file format.
 
 ```python
 queue = scn.TimedQueue()
@@ -232,7 +237,7 @@ queue.put(t0 + delay + onset, sc.msg, ("/n_free", 1236))
 
 <figure>
 <img src="/assets/img/Bus_NE_SE.png" width = "75%" align="center" />
-  <figcaption>Figure 5: Prototype-2, Buses & Coaches in the North East & South East Region</figcaption>
+  <figcaption>Figure 6: Prototype-2, Buses & Coaches in the North East & South East Region</figcaption>
 </figure>
 
 <figure align="middle">
@@ -253,7 +258,7 @@ queue.put(t0 + delay + onset, sc.msg, ("/n_free", 1236))
 
 <figure>
 <img src="/assets/img/Car_NE_SE.png" width = "75%" align="center" />
-  <figcaption>Figure 6: Prototype-2, Cars & Taxies in the North East & South East Region</figcaption>
+  <figcaption>Figure 7: Prototype-2, Cars & Taxies in the North East & South East Region</figcaption>
 </figure>
 
 <figure align="middle">
@@ -274,17 +279,22 @@ queue.put(t0 + delay + onset, sc.msg, ("/n_free", 1236))
 
 <figure>
 <img src="/assets/img/Bike_NE_SE.png" width = "75%" align="center" />
-  <figcaption>Figure 7: Prototype-2, Motorbikes in the North East & South East Region</figcaption>
+  <figcaption>Figure 8: Prototype-2, Motorbikes in the North East & South East Region</figcaption>
 </figure>
 
 We bet you would also like to listen to the sonification of the third region of our second prototype and see full codes. Great! Just follow the <a href="https://github.com/shreejayshrestha/MCT4046_Sonification_Project" target="_blank">**GitHub repository**</a> and you will get access to all the sonification, codes, scripts, data files and other files related to this project.
 
 
-## Contributions
+## Project Timeline & Contributions
 
 <figure>
-<img src="/assets/img/sonification/collaboration_AKS.JPG" width = "75%" align="center" />
-  <figcaption>Division of labour</figcaption>
+<img src="/assets/img/sonification/timeline.jpg" width = "75%" align="center" />
+  <figcaption>Figure 9: Project Timeline</figcaption>
+</figure>
+
+<figure>
+<img src="/assets/img/sonification/collaboration_AKS.JPG" width = "70%" align="center" />
+  <figcaption>figure 10: Division of labour</figcaption>
 </figure>
 
 
