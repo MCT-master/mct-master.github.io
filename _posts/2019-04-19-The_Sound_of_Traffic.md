@@ -39,7 +39,7 @@ The data has been collected from <a href="https://www.dft.gov.uk/traffic-counts/
 <figcaption>Audio 1: Prototype-1, Sonification of Buses & Coaches in the three regions</figcaption>
 </figure>
 
-We chose to work with JavaScript to create our first prototype. The number of buses in each particular region was directly mapped into a frequency of an oscillator by using the “map ()” method in P5.js. Figure 3 below gives an overview of the mapping method. 
+We chose to work with JavaScript to create our first prototype. The number of buses in each particular region was directly mapped into a frequency of an oscillator by using the “map ()” method in P5.js. Figure 3 below gives an overview of the mapping method. Here, the range of number of buses (minimum to maximum) is mapped to the corresponding range of frequency (minimum to maximum) for each region and so on.
 
 <figure>
 <img src="/assets/img/cj/mapping_proto1.JPG" width = "100%" align="center" />
@@ -132,8 +132,7 @@ SynthDef("motogp", { arg out=0, freq= 10, mul3 = 100, amp = 2;
 }).add;
 m = Synth.new(\motogp)
 ```
-
-Figure 4 below highlights the mapping of different parameters for the prototype 2. For buses, the change in frequency and amplitude gives the idea of increase or decrease in number of buses in the selected region. Likewise, the speed of oscillation and change of amplitude signify the rise or fall of number of car/taxies in the region of choice. Similarly, for the motorbikes, the change in frequency and amplitude gives the information of change in number of motorbikes in the selected region.
+Figure 4 below highlights the mapping of different parameters for the prototype 2. Here, for example the minimum number of bus in a region is mapped to both the minimum range of frequency and the minimum number of amplitude. Similarly, the maximum number of bus in a region is mapped to both the maximum range of frequency and the maximum number of amplitude and so on. Therefore, for buses, the change in frequency and amplitude gives the idea of increase or decrease in number of buses in the selected region. The speed of oscillation and change of amplitude signify the rise or fall of number of car/taxies in the region of choice. Similarly, for the motorbikes, the change in frequency and amplitude gives the information of change in number of motorbikes in the selected region.
 
 <figure>
 <img src="/assets/img/cj/mapping_proto2.JPG" width = "100%" align="center" />
