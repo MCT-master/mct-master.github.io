@@ -288,7 +288,7 @@ We bet you would also like to listen to the sonification of the third region of 
 ## Project Timeline & Contributions
 
 <figure>
-<img src="/assets/img/cj/timeline.jpg" width = "75%" align="center" />
+<img src="/assets/img/cj/timeline2.jpg" width = "75%" align="center" />
   <figcaption>Figure 9: Project Timeline</figcaption>
 </figure>
 
