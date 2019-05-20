@@ -39,7 +39,7 @@ The data has been collected from <a href="https://www.dft.gov.uk/traffic-counts/
 <figcaption>Audio 1: Prototype-1, Sonification of Buses & Coaches in the three regions</figcaption>
 </figure>
 
-We chose to work with JavaScript to create our first prototype. The number of buses in each particular region was directly mapped into a frequency of an oscillator by using the “map ()” method in P5.js. Figure 3 below gives an overview of the mapping method. Here, the range of number of buses (minimum to maximum) is mapped to the corresponding range of frequency (minimum to maximum) for each region and so on.
+We chose to work with JavaScript to create our first prototype. The number of buses in each particular region was directly mapped into a frequency of an oscillator by using the “map ()” method in P5.js. Figure 3 below gives an overview of the mapping method. Here, for example, the minimum number of bus in a region is mapped to the minimum range of frequency and the maximum number of bus in a region is mapped to the maximum range of frequency and so on.
 
 <figure>
 <img src="/assets/img/cj/mapping_proto1.JPG" width = "100%" align="center" />
