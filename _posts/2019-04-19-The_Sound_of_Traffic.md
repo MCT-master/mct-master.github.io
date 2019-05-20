@@ -294,6 +294,8 @@ We bet you would also like to listen to the sonification of the third region of 
 
 
 
+
+
 <figure>
 <img src="/assets/img/cj/contribution3.jpg" width = "70%" align="center" />
   <figcaption>Figure 10: Division of labour</figcaption>
