@@ -288,14 +288,14 @@ We bet you would also like to listen to the sonification of the third region of 
 ## Project Timeline & Contributions
 
 <figure>
-<img src="/assets/img/cj/timeline2.jpg" width = "75%" align="center" />
+<img src="/assets/img/cj/timeline2.jpg" width = "85%" align="center" />
   <figcaption>Figure 9: Project Timeline</figcaption>
 </figure>
 
 
 
 <figure>
-<img src="/assets/img/cj/contribution2.jpg" width = "90%" align="center" />
+<img src="/assets/img/cj/contribution2.jpg" width = "50%" align="center" />
   <figcaption>figure 10: Division of labour</figcaption>
 </figure>
 
