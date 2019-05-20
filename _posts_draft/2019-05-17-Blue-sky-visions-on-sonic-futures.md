@@ -50,8 +50,8 @@ especially one interesting case study among. In that sound design is being appli
 
 
 ### Questions and answers 
-One important questions was tackling the elaborations on corporate audio analytics - how can privacy be sustained in a unregulated field where data collection is so easy and profitable? 
-Based on the fact that audio analytics are about to enter the internet of things with extra-ordinary precision, machines around us will get better at their listening performance likewise. The fluctuations of our own environment in terms of mood and emotional prediction increasingly transparent through utterances, footsteps and breathing intensity for example. Predicting future happenings would come with ease and great accuracy. The concept of privacy he confirms, will alter irreversibly within the next decades.
+One important questions was tackling the elaborations on corporate audio analytics. How can privacy be sustained in a unregulated field where data collection is so easy and profitable with almost no safeguards? 
+Based on the fact that audio analytics are about to enter the internet of things with extra-ordinary precision, machines around us will get better at their listening performance likewise. The fluctuations of our own environment in terms of mood and emotional prediction are getting increasingly transparent through utterances, footsteps and breathing intensity for example. Predicting future happenings would come with ease and great accuracy. The concept of privacy he confirms a will alter irreversibly within the next decades.
 Another questions pointed out on the academic establishment, especially the dilemma of publishing ('publish or perrish') he illuminated. 
 The common patterns of recognition trouble would have led into a situation in which many researchers face the 
 (on the long run economic) pressure of publishing for the sake of being perceived rather than out of the need to contribut with new knowledge. Consequently there would not only be a certain predictability in some areas of research, but also having too much similar information at hand potentially risks dissolving the essential information to summarize it briefly.
