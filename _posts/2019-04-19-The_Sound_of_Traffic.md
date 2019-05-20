@@ -104,7 +104,7 @@ function dataReady1(data1){
   ```
 ### Prototype 2 with Python and Supercollider.
 <figure>
-<img src="/assets/img/cj/system drawing2.JPG" width = "100%" align="center" />
+<img src="/assets/img/cj/system drawing2.JPG" width = "75%" align="center" />
 <figcaption>Figure 4: Prototype 2, System Diagram</figcaption>
 </figure>
 
@@ -295,7 +295,7 @@ We bet you would also like to listen to the sonification of the third region of 
 
 
 <figure>
-<img src="/assets/img/cj/contribution2.jpg" width = "50%" align="center" />
+<img src="/assets/img/cj/contribution3.jpg" width = "50%" align="center" />
   <figcaption>figure 10: Division of labour</figcaption>
 </figure>
 
