@@ -139,7 +139,7 @@ SynthDef("motogp", { arg out=0, freq= 10, mul3 = 100, amp = 2;
 }).add;
 m = Synth.new(\motogp)
 ```
-Figure 4 below highlights the mapping of different parameters for the prototype 2. Here, for example, the minimum to maximum range of number of bus in each region is mapped to both of the minimum to maximum range of frequency and the minimum to maximum range of amplitude and so on. Therefore, for buses, the change in frequency and amplitude gives the idea of increase or decrease in number of buses in the selected region. The speed of oscillation and change of amplitude signify the rise or fall of number of car/taxies in the region of choice. Similarly, for the motorbikes, the change in frequency and amplitude gives the information of change in number of motorbikes in the selected region.
+Figure 5 below highlights the mapping of different parameters for the prototype 2. Here, for example, the minimum to maximum range of number of bus in each region is mapped to both of the minimum to maximum range of frequency and the minimum to maximum range of amplitude and so on. Therefore, for buses, the change in frequency and amplitude gives the idea of increase or decrease in number of buses in the selected region. The speed of oscillation and change of amplitude signify the rise or fall of number of car/taxies in the region of choice. Similarly, for the motorbikes, the change in frequency and amplitude gives the information of change in number of motorbikes in the selected region.
 
 <figure>
 <img src="/assets/img/cj/mapping_proto_2.JPG" width = "100%" align="center" />
@@ -296,7 +296,7 @@ We bet you would also like to listen to the sonification of the third region of 
 
 <figure>
 <img src="/assets/img/cj/contribution3.jpg" width = "50%" align="center" />
-  <figcaption>figure 10: Division of labour</figcaption>
+  <figcaption>Figure 10: Division of labour</figcaption>
 </figure>
 
 
