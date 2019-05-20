@@ -16,10 +16,11 @@ Keywords: Sonification
 </figure>
 
 ## Introduction
-During the sonification Lecture series, we were exposed to fascinating concepts and theories behind sonification, sound design and their applications. Our primary goal was to explore the techniques that we learned and put them into practice in order to understand a real-world problem. After searching and referring so much available data we finally decided to work on traffic vehicle data from 3 regions in England measured over 17 years. Is it possible to transmit complex datasets within an instance of a sound, so the content gets revealed? As communication and dissemination of information in our modern digital world has been highly dominated by visual aspects it led to the fact that the modality of sound got neglected. In order to test the hypothesis, the project presents two prototypes for the sonification of temporal-spatial traffic data. 
+During the sonification Lecture series, we were exposed to fascinating concepts and theories behind sonification, sound design and their applications. Our primary goal was to explore the techniques that we learned and put them into practice in order to understand a real-world problem. After searching and referring so much available data we finally decided to work on traffic vehicle data from 3 regions in England measured over 17 years. Is it possible to transmit complex datasets within an instance of a sound, so the content gets revealed? As communication and dissemination of information in our modern digital world has been highly dominated by visual aspects it led to the fact that the modality of sound got neglected. In order to test the hypothesis, the project presents two prototypes for the sonification of temporal-spatial traffic data. While looking for similar projects, it was striking that ‘sonification of traffic’ is mainly applied for internet- and network traffic. In order to better comprehend data-streams and detect abnormal patterns for example. There is one project though with an approach very close to our experiment, found on [LA-Listen](http://www.lalistens.org/sonifying-traffic-data/) by Steven Kemper.
 
 As stated earlier, we had been introduced with various facets of sonification from artistic and or qualitative approach like Øyvind Brandtsegg's <a href="https://www.ntnu.no/flyndresang" target="_blank">**Flyndre Project**</a> or Daniel Formo's <a href="https://orchestraofspeech.com/results/software-instrument-system/" target="_blank">**Orchestra of Speech**</a> to a combination of both artistic and quantitative approach like <a href="https://sonification.de/handbook/chapters/chapter15/#S15.3" target="_blank">**sound examples by T. Hermann, A. Hunt and J.G. Neuhoff**</a> taken from **chapter15** ( e.g. example #S15.3 ) from , <a href="https://sonification.de/handbook" target="_blank">**The Sonification handbook (Hermann, T., Hunt, A., & Neuhoff, J. G., 2011)**</a>
 and so on. Our idea was quite like the latter approach. Hence, we decided to go for **Parameter Mapping Sonification (PMSon)** technique. In this technique, a data set is mapped with different parameter of sound synthesis which produce sound signals. Further, as per the definition of Sonification by Thomas Hermann (2008), a true sonification should have the following four attributes; (1) the sound should reflect objective properties or relation in the input data, (2) the transformation is systematic, (3) the sonification is reproducible, and (4) the system can be used with different data sets. Through **PMSon technique**, both of our prototyes meet these four criterias.
+
 
 ## Data set
 <figure>
@@ -277,6 +278,24 @@ queue.put(t0 + delay + onset, sc.msg, ("/n_free", 1236))
 </figure>
 
 We bet you would also like to listen to the sonification of the third region of our second prototype and see full codes. Great! Just follow the <a href="https://github.com/shreejayshrestha/MCT4046_Sonification_Project" target="_blank">**GitHub repository**</a> and you will get access to all the sonification, codes, scripts, data files and other files related to this project.
+
+
+## Contributions
+
+<figure>
+<img src="/assets/img/sonification/collaboration_AKS.JPG" width = "75%" align="center" />
+  <figcaption>Division of labour</figcaption>
+</figure>
+
+
+### Main findings in brief
+
+Prototype 1 was not revealing the actual content of the data. Although we chose non-overlapping frequency ranges in the mapping to further differentiate between the three sounds, it did not meet our objective of combining both artistic and scientific approach. Thus we decided to improve it and developed prototype 2. The informative qualities of the sounds, now standalone and representing each region/vehicle, could increase immensely. The structural elicitors like amplitude and frequency are creating again rhythm and tempo among others, which could reveal patterns in the content. In doing so it affirms our hypothesis. 
+
+### Additional reflections:
+
+Our approach to perceptualize the data was from the beginning complementary, using sonification and visualisation. Especially together they have the power to convey information in ways also non-experts can comprehend. Going through the development processes of two sonification prototypes it posed questions how sound can be designed in order to become a standalone mediator of the sonified processes. Finally, the context of sonification and target audience refines the final outcome as well.
+
 
 ## Future Work.
 Currently, the prototype 2 covers sonification of data for individual vehicle for a given period of time only. Running the sonification for the three vehicle types can mask each other and hide potential patterns of data. So, the sound design can be improved to make the sonification distinct as much as possible.
