@@ -18,7 +18,7 @@ Keywords: Sonification
 ## Introduction
 During the sonification Lecture series, we were exposed to fascinating concepts and theories behind sonification, sound design and their applications. Our primary goal was to explore the techniques that we learned and put them into practice in order to understand a real-world problem. After searching and referring so much available data we finally decided to work on traffic vehicle data from 3 regions in England measured over 17 years. Is it possible to transmit complex datasets within an instance of a sound, so the content gets revealed? As communication and dissemination of information in our modern digital world has been highly dominated by visual aspects it led to the fact that the modality of sound got neglected. In order to test the hypothesis, the project presents two prototypes for the sonification of temporal-spatial traffic data. 
 
-As stated earlier, we had been introduced with various facets of sonification from artistic and or qualitative approach like Øyvind Brandtsegg's <a href="https://www.ntnu.no/flyndresang" target="_blank">**Flyndre Project**</a> or Daniel Formo's <a href="https://orchestraofspeech.com/results/software-instrument-system/" target="_blank">**Orchestra of Speech**</a> to a combination of both artistic and quantitative approach like <a href="https://sonification.de/handbook/chapters/chapter15/#S15.3" target="_blank">**sound examples by T. Hermann, A. Hunt and J.G. Neuhoff**</a> taken from **chapter15** ( e.g. example #S15.3 ) from The Sonification handbook, and so on. Our idea was quite like the latter approach. Hence, we decided to go for **Parametric Mapping Sonification (PMSon)** technique. Besides, the nature of our data was also suitable for this kind of analysis through PMSon.
+As stated earlier, we had been introduced with various facets of sonification from artistic and or qualitative approach like Øyvind Brandtsegg's <a href="https://www.ntnu.no/flyndresang" target="_blank">**Flyndre Project**</a> or Daniel Formo's <a href="https://orchestraofspeech.com/results/software-instrument-system/" target="_blank">**Orchestra of Speech**</a> to a combination of both artistic and quantitative approach like <a href="https://sonification.de/handbook/chapters/chapter15/#S15.3" target="_blank">**sound examples by T. Hermann, A. Hunt and J.G. Neuhoff**</a> taken from **chapter15** ( e.g. example #S15.3 ) from The Sonification handbook, and so on. Our idea was quite like the latter approach. Hence, we decided to go for **Parametric Mapping Sonification (PMSon)** technique. In this technique, a data set is mapped with different parameter of sound synthesis and the resulting sonification follow the following four principles as per the definition of Sonification by Thomas Herman (2008); (1) It reflects objective properties or relation in the input data, (2) It makes a systematic transformation of information from visual to audio, (3) It can be reproduced, and (4) It can be used with different data sets. Besides, the nature of our data was also suitable for this kind of analysis through PMSon.
 
 ## Data set
 <figure>
@@ -286,6 +286,13 @@ Another interesting suggestion appeared to build an API for sonification of traf
 We are very grateful to Anna Xambo, our teacher for the MCT4046 Sonification and Sound Design course for exposing us to many experts and professionals working in the areas of sonification and sound design through this course. We would also like to thank her for guiding us in developing prototype 1. Similarly, we would like to extend our heartfelt gratitude to Thomas Hermann for sharing his plethora of knowledge on sonification. Likewise, we would also like to credit Thomas for providing us with his slides and python script and credit him for the prototype 2. All of them helped us practice, learn and expand our knowledge on sonification.
 
 # Thank you.
+
+## References
+
+Hermann, T. (2008). *TAXONOMY AND DEFINITIONS FOR SONIFICATION AND AUDITORY DISPLAY.* 14th International Conference on Auditory Display,      Paris, France June 24 - 27, 2008. Retrieved from: <a href="http://www.icad.org/Proceedings/2008/Hermann2008.pdf" target="_blank">http://www.icad.org/Proceedings/2008/Hermann2008.pdf</a>.
+
+Hermann, T., Hunt, A., & Neuhoff, J. G. (2011). *The Sonification Handbook (1st ed.)*. Berlin: Logos Publishing House. Retrieved from:        <a href="https://sonification.de/handbook/" target="_blank">https://sonification.de/handbook/</a>.
+
 
 
 
