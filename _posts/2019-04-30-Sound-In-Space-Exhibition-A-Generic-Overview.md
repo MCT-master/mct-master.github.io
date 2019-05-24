@@ -30,7 +30,7 @@ having audio processing techniques and algorithmic composition. With Arduino aga
 access and control of the installation pieces with sensors or other activation tools.
 The context of interactive sound art can challenge new experiences with music and knowledge also for non-experts:
 
-“[W]orking with sound is an active multisensory experience which bridges the gap between perception and action. Sound making is considered to be a meaningful aesthetic experience not only for musicians but also for users who do not posses expert musical skills. This shift from reception-basedto performance-based experience brings new challenges to sound design and sonificationpractices. .” (Hermann, Hunt, Neuhoff)
+“[W]orking with sound is an active multisensory experience which bridges the gap between perception and action. Sound making is considered to be a meaningful aesthetic experience not only for musicians but also for users who do not posses expert musical skills. This shift from reception-based to performance-based experience brings new challenges to sound design and sonification practices. .” (Hermann, Hunt, Neuhoff)
 
 
 <figure>
@@ -74,6 +74,9 @@ within the noisy environment where one could get more introverted as the reports
 lying on top of 6 pressure sensors which are connected to an Arduino board. The Arduino sends messages to Max/Msp if a sensor gets 
 pressed which then triggers the radio samples. Joel had some programming experience from the first semester in Max/Msp but most 
 of the workshop days he spent learning how the Arduino works.  
+
+
+
 Another student I met was Emiel Huijs. He developed an ultrasonic distant sensor that controls different musical parameters. 
 A pressure sensor for LFO grain modulation and a little duck gave it an interesting twist. 
 Listen here:
