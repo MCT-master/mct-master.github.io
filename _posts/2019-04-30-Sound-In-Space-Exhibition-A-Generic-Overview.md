@@ -14,9 +14,9 @@ Keywords: Sonification
 
 Marking the final event before Easter and from our Sonification and Sound design course I was tasked to visit the group exhibition 
 'Sound in Space' that took place on the 11th of April at [Gallery KIT, Trondheim](https://www.kit.ntnu.no/en/gallery). It was also the closing event for the sound art course 
-in which music-technology and fine art academy students (NTNU) could participate. Beside the exhibition there have been also screenings, 
+in which music technology and fine art academy students (NTNU) could participate. Beside the exhibition there have been also screenings, 
 concerts and happenings. Among the performers were Ellen Lindqvist, Jeremy Welsh, Tijs Ham/Craig, Øyvind Brandsegg and Michael Duch. 
-It was a a nice afternoon with many events  going on and things to explore, however I will introduce just one or two installations that 
+It was a a nice afternoon with many events going on and things to explore, however I will introduce just two installations that 
 were created under the umbrella of 'sonification and interactivity'. 
 
 
@@ -25,12 +25,12 @@ were created under the umbrella of 'sonification and interactivity'.
 Beforehand all students had a short workshop on physical computing. Within a few days they prepared different interactive installations. 
 Some participants had never seen an Arduino before nor had any programming experience. Others collected everything they had been doing so 
 far into their work as Øyvind Brandsegg and Daniel Formo told me (teachers). The first part of the sound art course would work with field 
-recordings, composing stories in sound with environmental sounds. Which would go hand in hand with the digital composition course, 
-having audio processing techniques and algorithmic composition. With arduino again they could quickly protoype their ideas. The sonification process again should reveal itself through a creative 
+recordings, composing stories in sound with environmental sounds, which would go hand in hand with the digital composition course, 
+having audio processing techniques and algorithmic composition. With Arduino again they could quickly protoype their ideas. The sonification process again should reveal itself through a creative 
 access and control of the installation pieces with sensors or other activation tools.
 
 “This shift from reception-based to performance-based experience brings new challenges 
-to sound design and sonification practices.”(Hermann, Hunt, Neuhoff)
+to sound design and sonification practices.” (Hermann, Hunt, Neuhoff)
 
 
 <figure>
@@ -68,27 +68,37 @@ There is a voice which interrupts randomly the news-reports, every time you push
 </figure>
 
 The idea he explains evolved from thinking about an interactive method to recall weather reports but gradually 
-moved into some other sort of information transmission.'I just wanted some kind of interface that wouldn't be that technical, basically it 
-is just a paper with rings on it and I liked that. Together with the noise cancelling headphones I wanted to create an intimate moment 
+moved into some other sort of information transmission. 'I just wanted some kind of interface that wouldn't be that technical, basically it 
+is just a paper with rings on it and I liked that. Together with the noise-cancelling headphones I wanted to create an intimate moment 
 within the noisy environment where one could get more introverted as the reports are getting quite close to you.' The rings on the paper 
 lying on top of 6 pressure sensors which are connected to an Arduino board. The Arduino sends messages to Max/Msp if a sensor gets 
 pressed which then triggers the radio samples. Joel had some programming experience from the first semester in Max/Msp but most 
 of the workshop days he spent learning how the Arduino works.  
+Another student I met was Emiel Huijs. He developed an ultrasonic distant sensor that controls different musical parameters. 
+A pressure sensor for LFO grain modulation and a little duck gave it an interesting twist. 
+Listen here:
 
+<figure align="middle">
+<audio controls>
+<source src="/assets/sounds/emiel_short.mp3" type="audio/wav" volume="0.2">
+  Your browser does not support the audio element.
+</audio>
+<figcaption>Short excerpt from Emiel Huijs prototype</figcaption>
+</figure>
 
 <figure>
 <img src="/assets/img/Emil.png" width = "100%" align="center" />
-  <figcaption>Emiel's prototype</figcaption>
+  <figcaption>Emiel Huij's prototype</figcaption>
 </figure>
-An ultrasonic distant sensor controls different musical parameters. 
-A pressure sensor for LFO grain modulation and a little duck. A live demo will follow soon here.
+
 
 
 ### Reflections
 
 It seems to be a good practice to explore sonification through physical computing. 
 Creating an instrument that works with playful and interactive features seems like 
-a rewarding and fun way to learn and access the subject. 
+a rewarding and fun way to learn and access the subject. It engages to understand each step while prototyping. 
+But also allows to
 
 
 ### References
