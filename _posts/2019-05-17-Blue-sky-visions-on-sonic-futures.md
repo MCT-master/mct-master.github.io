@@ -4,7 +4,7 @@ title: "Blue sky visions on sonic futures"
 date: 2019-05-17 18:30:00 +0200
 categories: Sonification
 author: Karolina Jawad
-image: /assets/img/sonification/pedro-pestana.jpeg
+image: /assets/img/sonification/Pedro-Pestana.jpeg
 excerpt: "Pedro Duarte Pestana was the final guest speaker who joined us virtually with his presentation 
 'Career Management in Music Technology / Knowledge Engineering in Music Technology and Sonic Arts' from Porto.
 Pedro was the first student in Portugal who held a PhD in computer music. He works as a researcher and consulter for emerging audio technologies and intelligent systems."
