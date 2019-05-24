@@ -102,6 +102,7 @@ It seems to be good practice to explore sonification by physical computing.
 The development of an instrument that works with playful and interactive functions looks like a rewarding and entertaining way to learn and take up the subject. It is also committed to understanding each step during prototyping. 
 But it also allows us to experience and reflect on how we normally interact with computers. 
 In the context of art it also has the possibility to be not only useful, but also meaningful. At the same time, the useful skills that are developed can later be integrated into a variety of contexts.
+Interactive sound art installation are a great opportunity to invite non-experts exploring the matter playfully.
 
 
 ### References
