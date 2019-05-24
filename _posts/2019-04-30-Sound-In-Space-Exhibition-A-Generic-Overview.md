@@ -7,7 +7,7 @@ author: Karolina Jawad
 image: /assets/img/egg.jpg
 excerpt: "Marking the final event before Easter and from our Sonification and Sound design course I was tasked to visit the group exhibition 'Sound in Space' that took place on the 11th of April at Gallery KIT, Trondheim. 
 It was also the closing event for the sound art course in which music-technology and fine art academy students (NTNU) could participate."
-Keywords: Sonification
+Keywords: Sonification, Human Computer interaction
 
 ---
 
@@ -28,9 +28,9 @@ far into their work as Øyvind Brandsegg and Daniel Formo told me (teachers). Th
 recordings, composing stories in sound with environmental sounds, which would go hand in hand with the digital composition course, 
 having audio processing techniques and algorithmic composition. With Arduino again they could quickly protoype their ideas. The sonification process again should reveal itself through a creative 
 access and control of the installation pieces with sensors or other activation tools.
+The context of interactive sound art can challenge new experiences with music and knowledge also for non-experts:
 
-“This shift from reception-based to performance-based experience brings new challenges 
-to sound design and sonification practices.” (Hermann, Hunt, Neuhoff)
+“[W]orking with sound is an active multisensory experience which bridges the gap between perception and action. Sound making is considered to be a meaningful aesthetic experience not only for musicians but also for users who do not posses expert musical skills. This shift from reception-basedto performance-based experience brings new challenges to sound design and sonificationpractices. .” (Hermann, Hunt, Neuhoff)
 
 
 <figure>
@@ -95,10 +95,10 @@ Listen here:
 
 ### Reflections
 
-It seems to be a good practice to explore sonification through physical computing. 
-Creating an instrument that works with playful and interactive features seems like 
-a rewarding and fun way to learn and access the subject. It engages to understand each step while prototyping. 
-But also allows to
+It seems to be good practice to explore sonification by physical computing. 
+The development of an instrument that works with playful and interactive functions looks like a rewarding and entertaining way to learn and take up the subject. It is also committed to understanding each step during prototyping. 
+But it also allows us to experience and reflect on how we normally interact with computers. 
+In the context of art it also has the possibility to be not only useful, but also meaningful. At the same time, the useful skills that are developed can later be integrated into a variety of contexts.
 
 
 ### References
@@ -106,3 +106,6 @@ But also allows to
 Hermann, T., Hunt, A., & Neuhoff, J. G. (2011). The Sonification Handbook (1st ed.). Berlin: Logos Publishing House. Retrieved from: https://sonification.de/handbook/.
 
 Alan Licht: Sound Art - Origins, development and ambiguities
+
+Susan Philipsz, citation retrieved 30.04.2019
+https://www.tate.org.uk/art/art-terms/s/sound-art
