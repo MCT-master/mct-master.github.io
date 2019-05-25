@@ -15,7 +15,7 @@ Keywords: Sonification, Human Computer interaction
 Marking the final event before Easter and from our Sonification and Sound design course I was tasked to visit the group exhibition 
 'Sound in Space' that took place on the 11th of April at [Gallery KIT, Trondheim](https://www.kit.ntnu.no/en/gallery). It was also the closing event for the sound art course 
 in which music technology and fine art academy students (NTNU) could participate. Beside the exhibition there have been also screenings, 
-concerts and happenings. Among the performers were Ellen Lindqvist, Jeremy Welsh, Tijs Ham/Craig, Øyvind Brandsegg and Michael Duch. 
+concerts and happenings. Among the performers were Ellen Lindqvist, Jeremy Welsh, Tijs Ham/Craig, Øyvind Brandtsegg and Michael Duch. 
 It was a a nice afternoon with many events going on and things to explore, however I will introduce just two installations that 
 were created under the umbrella of 'sonification and interactivity'. 
 
