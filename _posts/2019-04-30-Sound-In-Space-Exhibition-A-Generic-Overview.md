@@ -41,7 +41,7 @@ The context of interactive sound art can challenge new experiences with music an
 
 
 Most of the items in the sound art exhibition were indeed so designed that the visitors could directly 
-engage with the interactive installations. The talking fox above in the first figure was made by Mina, a 
+engage with the interactive installations. The talking fox above in the first figure was made by Mina Paasche, a 
 student from the fine art academy. A proximity sensor established the interactive part, when approaching 
 to the fox he would start talking to you and the closer you get the more distinct the sample would get. 
 Too bad I couldn't get a hold of her so she could have might explained to me what the fox was actually preaching.
