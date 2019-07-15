@@ -25,13 +25,14 @@ We intended to “submerge” the participants into the ocean with sound. Equipp
 Originally it was meant to be used for both head orientation and participant localisation, but because of limitations in hardware and time for implementation, we only chose localisation. Pozyx (https://www.pozyx.io/) turned out to be the tracking system alternative for our purpose. For running Pozyx we used a Python script, which enabled tracking of multiple participants. All data was then sent to Max for Live, programmed for controlling the automation of soudscapes in Ableton Live.
 
 The overall process of creating the Max for Live device can be summed up in these points:
-•Retrieval of OSC messages over UDP (Figure 2).
-•Extraction of x and y coordinates from tag 1 (Figure 2).
-•Defining grids for zone 1 (Figure3).
-•Using the Live API (https://help.ableton.com/hc/en-us/articles/209071389-Controlling-Live-using-Max-for-Live-Tutorial-) and the Live Object Model (LOM) for controlling Ableton Live parameters. (Figure3).
-•Copying zone 1 and using the logic for making the rest of the zones.
-•Copying the sub-program called “zones” to work for all 4 tags (Figure 2).
-•Adding video playback for two projectors, and making videos turn red when “stage rumbler platform” is activated, using Jitter (Figure2).
+
+- Retrieval of OSC messages over UDP (Figure 2).
+- Extraction of x and y coordinates from tag 1 (Figure 2).
+- Defining grids for zone 1 (Figure3).
+- Using the Live API (https://help.ableton.com/hc/en-us/articles/209071389-Controlling-Live-using-Max-for-Live-Tutorial-) and the Live Object Model (LOM) for controlling Ableton Live parameters. (Figure3).
+- Copying zone 1 and using the logic for making the rest of the zones.
+- Copying the sub-program called “zones” to work for all 4 tags (Figure 2).
+- Adding video playback for two projectors, and making videos turn red when “stage rumbler platform” is activated, using Jitter (Figure2).
 
 In Ableton Live every zone is organized in session view, each on its own track (Figure4). Audio is sent to the different participants on the return tracks, with an aggregate device (Figure 5) as output, where all Bluetooth headphones has its own stereo channel. The Max for Live device controls the sends on each track/zone, where “send A”is participant A, “send B” is participant B and so on. Whether the sends are “on” or “off” depends on where the participants are in the room. The device also triggers the “entering” sound and the “seismic boom”. The seismic boom is not only sent to the participants, but also to the “stage rumbler platform”
 
