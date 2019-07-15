@@ -10,11 +10,7 @@ Keywords: Art and Science, NTNU Ocean Week 2019, The Big Challenge Festival 2019
 ---
 
 <figure align="middle">
-        <video height="100%" width="100%" controls>
-        <source src="/assets/video/" type="video/mp4">
-        <figcaption><strong></strong></figcaption>        
-        Your browser does not support the video tag.
-        </video>
+     <iframe width="928" height="522" src="https://www.youtube.com/embed/KhSm62d-Heo" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </figure>
 
 
