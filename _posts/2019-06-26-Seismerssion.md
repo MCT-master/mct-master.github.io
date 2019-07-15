@@ -9,9 +9,10 @@ excerpt: 'Seismerssion is the title we gave our Applied Project in the context o
 Keywords: Art and Science, NTNU Ocean Week 2019, The Big Challenge Festival 2019, NTNU Oceans, Sound Pollution, sonic arts, multi-modality, human computer interaction, marine life, Posyx
 ---
 
-## This is a header
 
 In the context of the MCT Applied Project 1 our group collaborated with NTNU Oceans to design an Ocean Sensory Room within an internship project. Maria Azucena Gutierrez, our external supervisor tasked us to create an aesthetic environment that optimizes the perception of scientific content. The only requirement we got was to create an immersive space that would result in a public installation for the NTNU Ocean week in May 2019 and for “The Big Challenge” Science Festival in June 2019. We dedicated the Ocean Sensory Room to noise pollution in Norwegian waters, backed up by a scientific report from the Marine Research Institute. There was no explicit mentioning of Acoustic Pollution during the 'Breakfast Ocean Meeting” in January, therefore we decided to raise awareness about the important issue.
+
+## Planning period Seismerssion
 
 Our project, called 'Seismerssion' is an audio-visual installation that enables participants to explore the issue of noise pollution through an interactive soundscape. The title of our installation, 'Seismerssion' is a word-game and derives from the term reflection seismology and immersion.
 Inspired by Bruno Latour's lecture at HKW Berlin, where he talks about the blue planet satellite perspective that is taken by the media when talking about anthropocentric issues, enhances the personal feeling of being tiny and too distant from the anthropocentric issues. We were keen to avoid a “global and general perspective” but rather to approach empathy through a local attachment, so that the participants are able to relate more to their immediate environment. In other words, we were lucky to find new research about the topic in a report from January 2019, specifically addressed to Norwegian endeavours in the ocean. The HFI report called 'Advice form the Institute of Marine Research of anthropocentric noise in the sea: seismic,electromagnetic surveys and underwater explosions' advices industries and other institutions operating in the ocean in how to avoid harm to marine life by noise. We extracted especially the information on reflection seismology for our project.
@@ -41,3 +42,7 @@ During the Ocean Week we handed out questionnaires to the participants, asking t
 Beside the scientific facts on reflection seismology provided by the HFI and the Marine Research Defence Institute (FFI) who are collaborating on this particular issue, they generously shared various recordings from marine life with us. The sound files from their (Lise Doksætter Silve, Petter H. Kvadsheim) excursions were extensively used in our installation. From Robin Støckert, not only a technical wizard and great consulter during our planning period, we could borrow equipment. We were also able to borrow a Pozyx system from Øystein Kjørstad Fjeldbo,which we used for learning how to place the system in a room and making tracking work with one person. We are also very grateful to Maria Azucena Gutierrez who was supporting us in every possible way and Daniel Formo, our internal supervisor who would always be around if we needed advice.
 
 As a group we have managed to combine our different knowledge and skills, combining visuals, audio and technology to create an installation that communicated the real-world issue of noise pollution in a new and interesting way. We have worked well together as a team and have divided roles to be able to get the installation finished in time.
+
+<figure>
+<img src="/assets/img/Oceans/group_1.jpg" width = "100%" align="center" />
+</figure>
