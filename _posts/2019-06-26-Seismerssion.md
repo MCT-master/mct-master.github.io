@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 'Seismerssion: Retrospectives on a Audio-visual installations'
-date: 2019-07-20 14:42:00 +0200
+date: 2019-07-14 14:42:00 +0200
 categories: Projects
 author: Karolina Jawad, Espen Wik, Sepehr Haighi Shreejay Shrestha and Jørgen Nygard Varpe
 image: /assets/img/Oceans/installation_picture4.png
