@@ -10,7 +10,7 @@ Keywords: Art and Science, NTNU Ocean Week 2019, The Big Challenge Festival 2019
 ---
 
 <figure align="middle">
-     <iframe width="928" height="522" src="https://www.youtube.com/embed/KhSm62d-Heo" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+     <iframe width="464" height="261" src="https://www.youtube.com/embed/KhSm62d-Heo" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </figure>
 
 In the context of the MCT Applied Project 1 our group collaborated with NTNU Oceans to design an Ocean Sensory Room within an internship project. Maria Azucena Gutierrez, our external supervisor tasked us to create an aesthetic environment that optimizes the perception of scientific content. The only requirement we got was to create an immersive space that would result in a public installation for the NTNU Ocean week in May 2019 and for “The Big Challenge” Science Festival in June 2019. We dedicated the Ocean Sensory Room to noise pollution in Norwegian waters, backed up by a scientific report from the Marine Research Institute. There was no explicit mentioning of Acoustic Pollution during the 'Breakfast Ocean Meeting” in January, therefore we decided to raise awareness about the important issue.
@@ -55,5 +55,5 @@ Beside the scientific facts on reflection seismology provided by the HFI and the
 As a group we have managed to combine our different knowledge and skills, combining visuals, audio and technology to create an installation that communicated the real-world issue of noise pollution in a new and interesting way. We have worked well together as a team and have divided roles to be able to get the installation finished in time.
 
 <figure>
-<img src="/assets/img/Oceans/group_1.JPG" width="100%" align="center" />
+<img src="https://raw.githubusercontent.com/MCT-master/mct-master.github.io/master/assets/img/Oceans/group_1.JPG" width="100%" align="center" />
 </figure>
