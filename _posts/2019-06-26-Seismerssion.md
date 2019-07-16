@@ -42,7 +42,26 @@ The overall process of creating the Max for Live device can be summed up in thes
 - Copying the sub-program called “zones” to work for all 4 tags (Figure 2).
 - Adding video playback for two projectors, and making videos turn red when “stage rumbler platform” is activated, using Jitter (Figure2).
 
+<figure>
+<img src="/assets/img/Oceans/max_oceans.png" width="100%" align="center" />
+<figcaption>Figure 2</figcaption>
+</figure>
+
+
+<figure>
+<img src="/assets/img/Oceans/zone_oceans.png" width="100%" align="center" />
+<figcaption>Figure 3</figcaption>
+</figure>
+
+
 In Ableton Live every zone is organized in session view, each on its own track (Figure4). Audio is sent to the different participants on the return tracks, with an aggregate device (Figure 5) as output, where all Bluetooth headphones has its own stereo channel. The Max for Live device controls the sends on each track/zone, where “send A”is participant A, “send B” is participant B and so on. Whether the sends are “on” or “off” depends on where the participants are in the room. The device also triggers the “entering” sound and the “seismic boom”. The seismic boom is not only sent to the participants, but also to the “stage rumbler platform”
+
+
+<figure>
+<img src="/assets/img/Oceans/rumbler_oceans.png" width="100%" align="center" />
+<figcaption>Figure 4</figcaption>
+</figure>
+
 
 ## Evaluation
 
