@@ -55,5 +55,5 @@ Beside the scientific facts on reflection seismology provided by the HFI and the
 As a group we have managed to combine our different knowledge and skills, combining visuals, audio and technology to create an installation that communicated the real-world issue of noise pollution in a new and interesting way. We have worked well together as a team and have divided roles to be able to get the installation finished in time.
 
 <figure>
-<img src="/assets/img/Oceans/group_1.jpg" width = "100%" align="center" />
+<img src="/assets/img/Oceans/group_1.JPG" width="100%" align="center" />
 </figure>
