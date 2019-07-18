@@ -65,7 +65,9 @@ In Ableton Live every zone is organized in session view, each on its own track (
 
 ## Evaluation
 
-During the Ocean Week we handed out questionnaires to the participants, asking them questions about the experience regarding immersion, noise pollution, audio and visuals. We got 28 participants to answer, and the response suggested that it was well received in all aspects. We forgot to hand out questionnaires for the “Big Challenge” science festival,but were always in dialogue with the visitors and got overly positive feedback as well.
+During the Ocean Week we handed out questionnaires to the participants, asking them questions about the experience regarding immersion, noise pollution, audio and visuals. We got 28 participants to answer, and the response suggested that it was well received in all aspects. We forgot to hand out questionnaires for the “Big Challenge” science festival in Trondheim, but were always in dialogue with the visitors and got overly positive feedback as well.
+
+Here are some impressions from the preparation process in the Portal up to the Big Challenge Festival.
 
 ## Acknowledgements
 
