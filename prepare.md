@@ -1,12 +1,8 @@
 ---
 layout: page
-title: Preparing for MCT master
+title: How to prepare for a Master's in Music, Communication and Technology
 permalink: /prepare/
 ---
-
-![MCT image](/assets/img/mct-master-630.jpg "MCT image")
-
-## How to prepare for a Master's in Music, Communication and Technology
 
 Our diverse group of students include artists, coders, school teachers, managers, hackers, audio engineers, and journalists. Their backgrounds are in media science, architecture, computer science, theatre, film, music, acoustics, and more. Check out our <a href="https://mct-master.github.io">student blog</a> to see some of their activities.
 
