@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Applied MCT Project 1
+title: Applied MCT Project
 permalink: /projects/
 ---
 
@@ -37,9 +37,4 @@ The blog posts of this section relate to the course **MCT4031	Applied MCT Projec
   </ul>
   {%- endif -%}
 
-  <!-- Hack from https://github.com/jekyll/jekyll/issues/2538 -->
-  {% capture difference %} {{ site.posts | size | minus:1 }} {% endcapture %}
-  {% unless difference contains '-' %}
-  ***No posts... yet.***
-   <!-- Your code will now be dependent on page.tags being empty -->
-  {% endunless %}
+
