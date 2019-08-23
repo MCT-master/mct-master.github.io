@@ -1,15 +1,13 @@
 ---
 layout: post
-title: 'test aleks'
-date: 2019-08-23
-categories: Test
+title: 'Test Aleks'
+date: 2019-08-23 11:52:00 +0200
+categories: test
 author: Aleksander Tidemann
-image: /assets/img/aleks123.jpg
+image: /assets/img/aleks-old.jpg
+excerpt: "Hallo ja"
 ---
 
-# Ok
+# Ok, improvement
 
 So this is working. Confusing, but very interesting!
-
-Sincerly,
-Aleksander
