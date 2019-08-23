@@ -4,7 +4,7 @@ title:  "Jarle says HI to the MCT-Blog"
 date:   2019-08-23 11:42:00 +0200
 categories: Test
 author: Jarle Steinhovden
-image: /assets/img/mari/brokenscissors.jpg
+image: /assets/img/peter-sellers-as-dr-strangelove.jpg
 excerpt: ""
 
 ---
