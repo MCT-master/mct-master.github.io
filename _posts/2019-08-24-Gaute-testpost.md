@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "It's not just phase, mom!"
-date: 2018-08-24 14:57:20 +0100
+date: 2019-08-24 14:57:20 +0100
 categories: DSP
 author: Gaute Wardenær
 image: /assets/img/gaute/SMAART.jpeg
