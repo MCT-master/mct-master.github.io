@@ -8,4 +8,4 @@ image: /assets/img/cj/contribution.jpg
 excerpt: "something very random"
 ---
 
-or even more random than it's supposed to be
+or even more random than it's supposed to be blablabla
