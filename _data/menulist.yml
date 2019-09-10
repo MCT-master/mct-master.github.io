@@ -15,7 +15,9 @@ toc:
       - page: Sonification
         url: /sonification-sound-design/
       - page: Test
-        url: /test/      
+        url: /test/  
+      - page: WoNoMute
+        url: /wonomute/    
   - title: Portal
     url: /portal/
   - title: Projects
