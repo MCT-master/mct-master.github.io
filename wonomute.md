@@ -1,17 +1,14 @@
 ---
 layout: page
-title: Applied MCT Project
-permalink: /projects/
+title: WoNoMute
+permalink: /wonomute/
 ---
 
-The blog posts of this section relate to the course **MCT4031	Applied MCT Project 1**. The aim of the course is to carry out a music technological project in a real-world setting. The problem at hand may be of a non-musical nature, and will require the students to apply their music technological knowledge in new and creative ways.
-
-<br />
 
 {%- if site.posts.size > 0 -%}
-  <!-- <h2 class="post-list-heading">{{ page.list_title | default: "Posts" }}</h2> -->
+
   <ul class="post-list">
-    {%- for post in site.categories.Projects -%}
+    {%- for post in site.categories.WoNoMute -%}
     <li>
       {%- if post.image -%}
       <img src="{{ post.image | prepend: site.baseurl }}" alt="{{ post.title }}" title="{{ post.title }}">
@@ -36,5 +33,3 @@ The blog posts of this section relate to the course **MCT4031	Applied MCT Projec
     {%- endfor -%}
   </ul>
   {%- endif -%}
-
-

@@ -1,16 +1,20 @@
 ---
 layout: post
-title: 'Seismerssion: Retrospectives on a Audio-visual installations'
+title: 'Seismerssion: Retrospectives on an Audio-visual installations'
 date: 2019-07-14 14:42:00 +0200
 categories: Projects
 author: Karolina Jawad, Espen Wik, Sepehr Haighi Shreejay Shrestha and Jørgen Nygard Varpe
-image: /assets/img/Oceans/installation_picture4.png
+image: /assets/img/Oceans/fb_header.JPG
 excerpt: 'Seismerssion is the title we gave our Applied Project in the context of the MCT spring semester 2019. This audio-visual installation is dedicated to the widely unknown issue of sound pollution in the ocean. In collaboration with NTNU Oceans, an intership was established to develop and implement a public installation concept for 2 different venues.'
 Keywords: Art and Science, NTNU Ocean Week 2019, The Big Challenge Festival 2019, NTNU Oceans, Sound Pollution, sonic arts, multi-modality, human computer interaction, marine life, Posyx
 ---
 
 <figure align="middle">
+<<<<<<< HEAD
      <iframe width="464" height="261" src="https://www.youtube.com/embed/KhSm62d-Heo" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+=======
+     <iframe width="740" height="522" src="https://www.youtube.com/embed/KhSm62d-Heo" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+>>>>>>> 50b832a9cefb4802f851b3b6215555f65a674847
 </figure>
 
 In the context of the MCT Applied Project 1 our group collaborated with NTNU Oceans to design an Ocean Sensory Room within an internship project. Maria Azucena Gutierrez, our external supervisor tasked us to create an aesthetic environment that optimizes the perception of scientific content. The only requirement we got was to create an immersive space that would result in a public installation for the NTNU Ocean week in May 2019 and for “The Big Challenge” Science Festival in June 2019. We dedicated the Ocean Sensory Room to noise pollution in Norwegian waters, backed up by a scientific report from the Marine Research Institute. There was no explicit mentioning of Acoustic Pollution during the 'Breakfast Ocean Meeting” in January, therefore we decided to raise awareness about the important issue.
@@ -42,11 +46,32 @@ The overall process of creating the Max for Live device can be summed up in thes
 - Copying the sub-program called “zones” to work for all 4 tags (Figure 2).
 - Adding video playback for two projectors, and making videos turn red when “stage rumbler platform” is activated, using Jitter (Figure2).
 
+<figure>
+<img src="/assets/img/Oceans/max_oceans.png" width="100%" align="center" />
+<figcaption>Figure 2</figcaption>
+</figure>
+
+
+<figure>
+<img src="/assets/img/Oceans/zone_oceans.png" width="100%" align="center" />
+<figcaption>Figure 3</figcaption>
+</figure>
+
+
 In Ableton Live every zone is organized in session view, each on its own track (Figure4). Audio is sent to the different participants on the return tracks, with an aggregate device (Figure 5) as output, where all Bluetooth headphones has its own stereo channel. The Max for Live device controls the sends on each track/zone, where “send A”is participant A, “send B” is participant B and so on. Whether the sends are “on” or “off” depends on where the participants are in the room. The device also triggers the “entering” sound and the “seismic boom”. The seismic boom is not only sent to the participants, but also to the “stage rumbler platform”
+
+
+<figure>
+<img src="/assets/img/Oceans/rumbler_oceans.png" width="100%" align="center" />
+<figcaption>Figure 4</figcaption>
+</figure>
+
 
 ## Evaluation
 
-During the Ocean Week we handed out questionnaires to the participants, asking them questions about the experience regarding immersion, noise pollution, audio and visuals. We got 28 participants to answer, and the response suggested that it was well received in all aspects. We forgot to hand out questionnaires for the “Big Challenge” science festival,but were always in dialogue with the visitors and got overly positive feedback as well.
+During the Ocean Week we handed out questionnaires to the participants, asking them questions about the experience regarding immersion, noise pollution, audio and visuals. We got 28 participants to answer, and the response suggested that it was well received in all aspects. We forgot to hand out questionnaires for the “Big Challenge” science festival in Trondheim, but were always in dialogue with the visitors and got overly positive feedback as well.
+
+Here are some impressions from the preparation process in the Portal up to the Big Challenge Festival.
 
 ## Acknowledgements
 

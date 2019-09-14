@@ -14,6 +14,10 @@ toc:
         url: /physical-computing/
       - page: Sonification
         url: /sonification-sound-design/
+      - page: Test
+        url: /test/  
+      - page: WoNoMute
+        url: /wonomute/    
   - title: Portal
     url: /portal/
   - title: Projects
@@ -22,3 +26,5 @@ toc:
     url: /mct-program/
   - title: About
     url: /about/
+  - title: How to prepare
+    url: /prepare/
