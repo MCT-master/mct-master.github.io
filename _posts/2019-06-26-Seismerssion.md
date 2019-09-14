@@ -10,11 +10,7 @@ Keywords: Art and Science, NTNU Ocean Week 2019, The Big Challenge Festival 2019
 ---
 
 <figure align="middle">
-<<<<<<< HEAD
-     <iframe width="464" height="261" src="https://www.youtube.com/embed/KhSm62d-Heo" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-=======
      <iframe width="740" height="522" src="https://www.youtube.com/embed/KhSm62d-Heo" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
->>>>>>> 50b832a9cefb4802f851b3b6215555f65a674847
 </figure>
 
 In the context of the MCT Applied Project 1 our group collaborated with NTNU Oceans to design an Ocean Sensory Room within an internship project. Maria Azucena Gutierrez, our external supervisor tasked us to create an aesthetic environment that optimizes the perception of scientific content. The only requirement we got was to create an immersive space that would result in a public installation for the NTNU Ocean week in May 2019 and for “The Big Challenge” Science Festival in June 2019. We dedicated the Ocean Sensory Room to noise pollution in Norwegian waters, backed up by a scientific report from the Marine Research Institute. There was no explicit mentioning of Acoustic Pollution during the 'Breakfast Ocean Meeting” in January, therefore we decided to raise awareness about the important issue.
