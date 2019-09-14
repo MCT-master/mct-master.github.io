@@ -35,7 +35,7 @@ I can divide my system into three main processes:
 The data preparation part is where you would get rid of noise, silence etc. in the dataset; get rid of random variables that will mess up the classification. In my case I had 39 samples of each instrument. I chose to trim each file (total of 117) to last for 1 second from the first note onset. This was of course done with python code (with the help of a package called Librosa), or else I would have had a really boring time.
 
 <figure>
-<img src="/assets/img/varpe/trimming.png" width = "70%" align="center" />
+<img src="/assets/img/varpe/trimming.PNG" width = "70%" align="center" />
 <figcaption><strong>Audio trimming</strong></figcaption>
 </figure>
 
