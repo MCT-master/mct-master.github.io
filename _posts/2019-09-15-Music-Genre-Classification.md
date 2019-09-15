@@ -4,7 +4,7 @@ title: "Music Genre Classification with Machine Learning"
 date: 2019-09-15 21:16:42 +0200
 categories: Projects
 author: Ashane Silva
-image: /assets/img/Synthwave pad.jpg
+image: /assets/img/genre_orig.jpg
 excerpt: "Classification is a classic problem in machine learning. This is one of the focused areas in digital music platforms today. Companies like spotify, iTunes and other digital distributors try to sort music according to genre, mood, number of listeners, location etc. There is an algorithm behind the scene that doing all the job. Well, this project is about trying to understand the basics of music genre classification and test some of the algorithms and evaluate their performance. My plan was to train a machine learning model to classify songs in classical, heavy metal and hip-hop genres. The most important thing in machine learning is data. The data set consisted of 100 songs for each genre and all are 30 sec long. Check the complete GATZAN data set."
 ---
 
