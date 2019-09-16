@@ -22,8 +22,6 @@ After much trail and tribulation a model was set up. Using three kinds of reverb
 
 I used Mel frequency cepstral coefficients (MFCC) as the main feature. This is  a way to represent the frequency spectrum of a sound, in the Mel scale. It is very common with speech recognition. After some experimenting, this was the most effective in achieving the best results possible for the model. 
 
-
-
 Then this data gathered via MFCC is put through 3 different machine learning algorithms - K Nearest Neighbour, Support Vector Network and ######. Support Vector Network achieved the highest, most accurate score of the 2 here are the results:
 
 ## Results
