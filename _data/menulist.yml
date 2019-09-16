@@ -18,6 +18,12 @@ toc:
         url: /test/  
       - page: WoNoMute
         url: /wonomute/    
+      - page: Music and Machine Learning
+        url: /music-and-ml/
+      - page: Interactive Systems
+        url: /interactive-systems/
+      - page: Spatial Audio
+        url: /spatial-audio/
   - title: Portal
     url: /portal/
   - title: Projects
