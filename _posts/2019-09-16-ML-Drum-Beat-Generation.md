@@ -3,6 +3,7 @@ layout: post
 title: 'MIDI drum beat generation'
 date: 2019-09-16 16:00:00 +0200
 categories: Projects
+image: /assets/img/Elias/Rock_Drum-Beat.png
 author: Elias Sukken Andersen
 Keywords: Workshop, Machine learning, Recurrent Neural Network, MIDI
 ---
@@ -10,7 +11,6 @@ Keywords: Workshop, Machine learning, Recurrent Neural Network, MIDI
 
 https://github.com/eliassan/MIDI_Drum-Beat_ML-Generated
 
-https://github.com/MCT-master/mct-master.github.io/blob/master/assets/img/Elias/Rock_Drum-Beat.png
 
 ## Abstract
 Most music production today depend strongly on technology, from the beginning of a songs creation, till the the last final tunings during mix and master. Still their is usually many human aspect involved, like singing, humans playing instruments, humans using a music making software etc. The skill to make music is not something we are born with, but something we can learn to do. This learning process is something we can mimic in a computer by using machine learning, and then generate music. 
