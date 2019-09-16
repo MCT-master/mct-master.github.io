@@ -2,7 +2,7 @@
 layout: post
 title: "Music Genre Classification with Machine Learning"
 date: 2019-09-15 21:16:42 +0200
-categories: Projects
+categories: Music-and-Machine-Learning
 author: Ashane Silva
 image: /assets/img/genre_orig.jpg
 excerpt: "Classification is a classic problem in machine learning. This is one of the focused areas in digital music platforms today. Companies like spotify, iTunes and other digital distributors try to sort music according to genre, mood, number of listeners, location etc. There is an algorithm behind the scene that doing all the job."
