@@ -1,5 +1,11 @@
+layout: post
+title: 'IR Reverberation Classifier using Machine Learning'
+date: 2019-09-16 11:00:00 +0200
+categories: Projects
 author: Sam Roman
-Keywords: Workshop, Machine learning, MIDI, KNN, Impulse Response, Reverb
+image: /assets/img/guysion/melspecwet.png
+excerpt: 'Using Machine Learning to classify different reverb spaces (using impulse response files)'
+Keywords: Workshop, Machine learning, classification, feature extraction, artificial neural network, MLPClassifier
 ---
 Now MCT (music, communication and technology) course is in its second year - and finally we are covering Machine Learning!
 This is how my original expectations were, high hopes, large complex projects involving real time production of sound through learning computers, maybe even breaking to a new paradym of music technology, however…..
