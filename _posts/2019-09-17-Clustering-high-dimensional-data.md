@@ -4,7 +4,7 @@ title: 'Clustering high dimensional data'
 date: 2019-09-17 23:50:00 +0200
 categories: Music-and-Machine-Learning
 author: Karolina Jawad
-image: /assets/img/oceans/high_dimensions_ship.PNG
+image: /assets/img/oceans/high_dimensions_ship.png
 excerpt: 'In the project for Music and Machine Learning I was using raw audio data to see how well the K-Mean clustering technique would work for structuring and classifying an unlabelled data-set of voice recordings. '
 Keywords: Clustering, K-Means, Feature Extraction, Voice, Affection, Phonation, Creativity, Vowels, Data Mining, Unsupervised Learning, Vocal Training, Mel Spektrogram
 ---
@@ -26,7 +26,7 @@ The procedures summarized this project are to be situated within the field of da
 From all the different features (high dimensional data) a subset of features have to be selected and dimensional reduction applied, otherwise the clustering algorithm will have a hard time finding its nearest neighbour. I only used one feature to test how far to I'll get with the data at hand.
 
 <figure>
-<img src="/assets/img/oceans/features.png" width = "100%" align="center" />
+<img src="/assets/img/oceans/features.png" width = "80%" align="center" />
 <figcaption><strong>Short-term power spectrum of a sound with the 64 mel spectogram</strong></figcaption>
 </figure>
 
@@ -40,7 +40,7 @@ As a method of classification the data can be segmented through shared attribute
 After running test/training the data in K-Means there are three centroids detectable around which the data is clustering:
 
 <figure>
-<img src="/assets/img/oceans/clusterin.png" width = "100%" align="center" />
+<img src="/assets/img/oceans/clusterin.png" width = "80%" align="center" />
 <figcaption><strong>K-Mean outcome</strong></figcaption>
 </figure>
 
@@ -54,3 +54,20 @@ After this application I actually read the remark of the researcher:
 Consulting all data that is available might produce interesting results. It could probe a test-run to explore weather or not the entire data-set could be suitable to train an algorithm for a real-time sonic interaction, in the context of vocal trainings for example for humans. But to achieve meaningful results with these techniques (like Recurrent Neural Networks) much more data must be deployed and storage is needed. The 900 samples available were except for pitch C4 unprocessed. For the scope of this project it would have been too time consuming to trim the original files into a format the algorithm could digest. The samples were recorded in an supervised, controlled environment using only one voice. 
 
 My goals in this course, to understand the processes and steps in Machine Learning were met, even though the design of the project remained humble and even though I haven't fully (had the time to) comprehend all aspects that we touched upon during the course yet. 
+
+### References
+* The Machine Learning Algorithm as Creative Musical Tool – Rebecca Fiebrink and Baptiste Caramiaux  
+
+* Online, Loudness-invariant Vocal Detection in Mixed Music Signals – Bernhard Lehner, Jan Schlueter, and Gerhard Widmer  
+
+* Mechanisms of Artistic Creativity in Deep Learning Neural Networks – Lonce Wyse  
+
+* Music Data Mining: An Introduction – Tao Li and Lei Li  
+
+* Chain of Audio Processing and Audio Data in Intelligent Audio Analysis – Björn W. Schuller  
+
+* https://www.datascience.com/blog/k-means-clustering  
+
+* http://benalexkeen.com/isomap-for-dimensionality-reduction-in-python/  
+
+* http://www.trnmag.com/Stories/031401/Tools_cut_data_down_to_size_031401.html  
