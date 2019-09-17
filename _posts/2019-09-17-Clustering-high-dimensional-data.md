@@ -43,7 +43,7 @@ As a method of classification the data can be segmented through shared attribute
 After running test/training the data in K-Means there are three centroids detectable around which the data is clustering:
 
 <figure>
-<img src="/assets/img/Oceans/clusterin.png" width = "80%" align="center" />
+<img src="/assets/img/Oceans/clustering.png" width = "80%" align="center" />
 <figcaption><strong>K-Mean outcome</strong></figcaption>
 </figure>
 
