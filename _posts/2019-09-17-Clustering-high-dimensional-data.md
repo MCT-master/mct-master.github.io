@@ -53,9 +53,11 @@ After this application I actually read the remark of the researcher:
 ### Final reflection
 Consulting all data that is available might produce interesting results. It could probe a test-run to explore weather or not the entire data-set could be suitable to train an algorithm for a real-time sonic interaction, in the context of vocal trainings for example for humans. But to achieve meaningful results with these techniques (like Recurrent Neural Networks) much more data must be deployed and storage is needed. The 900 samples available were except for pitch C4 unprocessed. For the scope of this project it would have been too time consuming to trim the original files into a format the algorithm could digest. The samples were recorded in an supervised, controlled environment using only one voice. 
 
-My goals in this course, to understand the processes and steps in Machine Learning were met, even though the design of the project remained humble and even though I haven't fully (had the time to) comprehend all aspects that we touched upon during the course yet. 
+My goals in this course, to understand the processes and steps in Machine Learning were met, however fully (had the time to) comprehend all aspects that we touched upon during the course yet is a matter of time.
 
 ### References
+* https://osf.io/pa3ha/ - Data-set on phonation modes
+
 * The Machine Learning Algorithm as Creative Musical Tool – Rebecca Fiebrink and Baptiste Caramiaux  
 
 * Online, Loudness-invariant Vocal Detection in Mixed Music Signals – Bernhard Lehner, Jan Schlueter, and Gerhard Widmer  
