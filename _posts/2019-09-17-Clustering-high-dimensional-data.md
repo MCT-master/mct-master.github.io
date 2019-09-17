@@ -9,6 +9,9 @@ excerpt: 'In the project for Music and Machine Learning I was using raw audio da
 Keywords: Clustering, K-Means, Feature Extraction, Voice, Affection, Phonation, Creativity, Vowels, Data Mining, Unsupervised Learning, Vocal Training, Mel Spektrogram
 ---
 
+ _Filmstill 'The Truemanshow', retrieved 13.09.19, 06:26_
+
+
 In this project I was using raw audio data to see how well the K-Mean clustering technique would work in structuring and classifying an unlabelled data-set of voice recordings. 
 
 The data-set “Phonation modes dataset” designed by Polina Proutskova (2012) is a collection of vocalised phonation modes for training computational models in automated detection of these phonation modes. 4 different states were sung by one female singer, breathy, neutral, flow and pressed. Out of 900 samples, pitch C4 was preprocessed into 53 unlabelled samples. Each sample is one second long and contains one vowel vocalized in each of those phonation modes. In order to enhance the audio signal (Schuller, 2013) and prepare it for feature extraction some preprocessing is required. The found set-up therefore made slicing of the original files into smaller units via the xxx function not necessary. To optimize the test/training performance of the clustering algorithms, dimensional reduction of the samples could be directly applied as length and frequent sound occurrence enabled further processing of the raw signal. 
@@ -22,7 +25,7 @@ The procedures summarized this project are to be situated within the field of da
 “Data mining is the nontrivial extraction of implicit, previously unknown, and potentially useful information from large collection of data. The mining process usually consists of an iterative sequence of the following steps: data management, data preprocessing, mining and post-processing”
 
 
-### Data & Feature Extraction
+### Data & Feature Computation
 From all the different features (high dimensional data) a subset of features have to be selected and dimensional reduction applied, otherwise the clustering algorithm will have a hard time finding its nearest neighbour. I only used one feature to test how far to I'll get with the data at hand.
 
 <figure>
