@@ -44,7 +44,7 @@ After running test/training the data in K-Means there are three centroids detect
 
 <figure>
 <img src="/assets/img/Oceans/clustering.png" width = "80%" align="center" />
-<figcaption><strong>K-Mean outcome</strong></figcaption>
+<figcaption><strong>Data structuring by K-Mean</strong></figcaption>
 </figure>
 
 The results are hard to interpret since there only 53 processed samples. There are 4 clusters, the largest group are obviously the blue dots which in respect to the used feature, must sound quite similar. There is a smaller group of red dots and one purple and green dot each. 
