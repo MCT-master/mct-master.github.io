@@ -38,7 +38,7 @@ The last model I tried was a [Multilayer Perceptron](https://en.wikipedia.org/wi
 Below is a graph of the loss curve showing how the model improved its performance as it learns from the data.
 
 <figure>
-<img src="/assets/img/loss-curve.png" width = "80%" align="center" />
+<img src="/assets/img/loss-curve-eigil.png" width = "80%" align="center" />
 <figcaption><strong>Loss prediction of MLP</strong></figcaption>
 </figure>
 
