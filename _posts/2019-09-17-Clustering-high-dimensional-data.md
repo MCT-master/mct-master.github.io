@@ -46,7 +46,7 @@ After running test/training the data in K-Means there are three centroids detect
 </figure>
 
 There are 4 clusters, the largest group are obviously the blue dots which in respect to the used feature, must sound quite similar. There is a smaller group of red dots and one purple and green dot each. 
-It could be possible, that the difference of the phonation modes are not so well expressed through the computed feature. More features or one different one could be applied to achieve more differentiated results. However, the results are hard to interpret since there only 53 processed samples. After applying unsupervised learning on the data set, I noticed the remark of the researcher who created the set, in which she is not recommending using the recordings of the flow mode for recodgnition purposes. 
+It could be possible, that the difference of the phonation modes are not so well expressed through the computed feature. More features or one different one could be applied to achieve more differentiated results. However, the results are hard to interpret since there only 53 processed samples. After applying unsupervised learning on the data set, I also noticed the remark of the researcher who created the set, in which she is not recommending using the recordings of the flow mode for recognition purposes. 
 
 
 ### Final thoughts, further application
