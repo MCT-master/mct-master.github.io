@@ -12,7 +12,7 @@ Keywords: Portal, Network transmission, ultragrid
 
 ## The UltraGrid software
 
-[UltraGrid](http://www.ultragrid.cz/) is a free low latency and high-quality video network transmissions software. The main benefit of using UltraGrid in the portal is its ability to transmit both high quality 4k video and IP-audio between campuses from the same software. Our mission is to successfully install UltraGrid in Oslo and Trondheim so that we can together explore its features and compare it to our current setup.
+[UltraGrid](http://www.ultragrid.cz/) is a free low latency and high-quality video network transmission software. The main benefit of using UltraGrid in the portal is its ability to transmit both high quality 4k video and IP-audio between campuses from the same software. Our mission is to successfully install UltraGrid in Oslo and Trondheim so that we can together explore its features and compare it to our current setup.
 
 
 Assumed pros | Assumed Cons
@@ -47,13 +47,13 @@ Step 1-4 is achieved locally prior to any cross-campus transmission, but step 5 
  
 ## Week 38
 
-Our first priority was to check the LoLa computers specs to see if it was compatible with Ultragrid. When this was confirmed we downloaded the software on a personal device and transferred the installation files locally to the LoLa PC. This had to be done this way because the LoLA computers cannot be connected to the internett.
+Our first priority was to check the LoLa computer's specs to see if it was compatible with Ultragrid. When this was confirmed we downloaded the software on a personal device and transferred the installation files locally to the LoLa PC. This had to be done this way because the LoLa computers cannot be connected to the internet.
 
-Step 1 went smoothly for both campuses, however we encountered problems with step 2 and 3 in Oslo when trying to make UltraGrid connect and recognize the computers capture card, the Blackmagic Intensity pro 4k also known as "Decklink" (*see figure 2*). This is the device which we will use to recieve high quality HDMI video information that will be transmitted to the external location. Our plan to resolve is by rebooting or finding relevant updates for the capture card. 
+Step 1 went smoothly for both campuses, however we encountered problems with step 2 and 3 in Oslo when trying to make UltraGrid connect and recognize the computer's capture card, the Blackmagic Intensity pro 4k also known as "Decklink" (*see figure 2*). This is the device which we will use to receive high quality HDMI video information that will be transmitted to the external location. Our plan to resolve is by rebooting or finding relevant updates for the capture card. 
 
 ![alt text](/assets/img/group-c/Blackmagic1.jpg "Error") <font size="2"> [Figure 2]</font>
 
-On the other hand, step 4 was successful in Oslo. We managed to recieve an audio stream from the local portaudio soundcard on the LoLa pc. However, we did not manage to explore recieving audio from the other soundcards, due to the complications with step 2 and 3. 
+On the other hand, step 4 was successful in Oslo. We managed to recieve an audio stream from the local portaudio soundcard on the LoLa pc. However, we did not manage to explore receiving audio from the other soundcards, due to the complications with steps 2 and 3. 
 
 ## To be continued 
 
@@ -66,4 +66,4 @@ In the following weeks there are 2 important tasks we need to focus on for the i
 - Opening several IP-ports so that transmission between campuses is possible. 
   - This involves contacting UiO and NTNU´s IT-departments.
 
-With the help from other MCT students and teacher guidence, we should be able to get UltraGrid up and running during the next couple of weeks.
+With the help from other MCT students and teacher guidance, we should be able to get UltraGrid up and running during the next couple of weeks.
