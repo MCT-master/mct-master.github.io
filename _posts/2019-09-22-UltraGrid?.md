@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 'UltraGrid'
-date: 2019-09-19 16:00:00 +0200
+date: 2019-09-22 16:00:00 +0200
 categories: Portal
 author: Aleksander Tidemann
 image: /assets/img/group-c/ultragrid.jpg
