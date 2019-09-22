@@ -12,12 +12,12 @@ Keywords: Portal, Network transmission, ultragrid
 
 ## The UltraGrid software
 
-[UltraGrid](http://www.ultragrid.cz/) is a free low latency and high-quality video network transmissions software. The main benefit of using UltraGrid in the portal its ability to transmit both high quality 4k video and IP-audio between campuses from the same software. Our mission is to successfully install UltraGrid in Oslo and Trondheim so that we can together explore its features and compare it to our current setup.
+[UltraGrid](http://www.ultragrid.cz/) is a free low latency and high-quality video network transmissions software. The main benefit of using UltraGrid in the portal is its ability to transmit both high quality 4k video and IP-audio between campuses from the same software. Our mission is to successfully install UltraGrid in Oslo and Trondheim so that we can together explore its features and compare it to our current setup.
 
 
 Assumed pros | Assumed Cons
 ------------ | -------------
-Audio and video transmission from same software | Higher Latency
+Audio and video transmission from same software | High latency
 High quality audio and video | interconnectivity problems
 Highly Flexible | userfriendliness
 
