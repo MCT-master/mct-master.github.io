@@ -11,11 +11,11 @@ Keywords: MCT Portal, signal flow
 
 # Flowcharts 
 
-A rigid signal flowchart is an absolute must in any complex system. These charts help us to systemize, organize and streamline our interactions with the system. Ideally, in our case, a detailed flowchart will help us to spend less time setting up the portal before class and enable more students to orient, use and explore the MCT portal. Because of our endless adjustments, 5-minute fixes, and general non-sense that drove Iggy to push a preparedness test upon us, we decided it was about time for an up-to-date flow chart to help us on the way to portal stardom. Or at least a setup that we can turn on and start class with :smirk:.
+A rigid signal flowchart is an absolute must in any complex system. These charts help us to systemize, organize and streamline our interactions with the system. Ideally, in our case, a detailed flowchart will help us to spend less time setting up the portal before class and enable more students to orient, use and explore the MCT portal. Because of our endless adjustments, 5-minute fixes, and general non-sense that drove Iggy to push a preparedness test upon us, we decided it was about time for an up-to-date flow chart to help us on the way to portal stardom. Or at least a setup that we can turn on and start class with.
 
 # MCT portal
 
-In our quest for the perfect chart, we agreed that detailed connenction specifications and good design is key. Therefore, we decided to center the flowchart around the Midas mixer and LoLa PC, since these two machines serve as the central hub of our system. While this chart is specific for the UiO setup here, there are minor differences on the Trondhiem side and perhaps they would be able to make a chart using this template :wink:.
+In our quest for the perfect chart, we agreed that detailed connenction specifications and good design is key. Therefore, we decided to center the flowchart around the Midas mixer and LoLa PC, since these two machines serve as the central hub of our system. While this chart is specific for the UiO setup here, there are minor differences on the Trondhiem side and perhaps they would be able to make a chart using this template.
 
 Following Anders Tveit's recommendation, we used [Lucidchart](https://www.lucidchart.com), an application which allows people to collaborate on building flowcharts online. After making a draft, Paul Koening printed out the chart and took it to class. This way, we could inspect and explore the portal first hand while writing down the connection specifications. This process led to further dialog and more discoveries which in turn led to editing, and finally the final chart seen below.
 
