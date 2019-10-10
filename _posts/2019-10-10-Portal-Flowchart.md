@@ -25,7 +25,7 @@ Following Anders Tveit's recommendation, we used [Lucidchart](https://www.lucidc
 
 All the objects in the chart have inputs on the bottom and and outputs on the top. The philosophy behind the object coloring is fairly arbitrary but it tries to descriminate between more "active" machines (yellow), "passive" machines (purple), output oriented machines (green), input oriented machines (orange) and finally ports between campuses (pink).
 
-The connection wires' shape and color also have meaning. The shape determines what type of signal passes through the wire, and the different colors indicate some signal chain examples, for instance the path in which audio from Trondheim takes before it enters our ears here in Oslo. All of this information can be found in the legend.
+The connection wires' shape and color also have meaning. The shape determines what type of signal passes through the wire, and the different colors indicate some signal chain examples, for instance the red path which describes which route audio from Trondheim takes before it enters our ears in Oslo. All of this information can be found in the legend.
 
 # LoLa and Midas 
 
