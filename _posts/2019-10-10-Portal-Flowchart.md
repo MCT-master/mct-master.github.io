@@ -15,7 +15,7 @@ Keywords: MCT Portal, signal flow
 
 A rigid signal flowchart is an absolute must in any complex system. These charts help us to systemize, organize and streamline our interactions with the system. Ideally, in our case, a detailed flowchart will help us to spend less time setting up the portal before class and enable more students to orient, use and explore the MCT portal. Because of our endless adjustments, 5-minute fixes, and general non-sense that drove Iggy to push a preparedness test upon us, we decided it was about time for an up-to-date flow chart to help us on the way to portal stardom. Or at least a setup that we can turn on and start class with.
 
-# MCT portal
+# The MCT portal chart
 
 In our quest for the perfect chart, we agreed that detailed connection specifications and a good design is key. Therefore, we decided to center the flowchart around the Midas mixer and LoLa PC, since these two machines serve as the central hub of our system. While this chart is specific for the UiO setup here, there are minor differences on the Trondhiem side and perhaps they would be able to make a chart using this template.
 
@@ -27,9 +27,11 @@ All the objects in the chart have inputs on the bottom and and outputs on the to
 
 The connection wires' shape and color also have meaning. The shape determines what type of signal passes through the wire, and the different colors indicate some signal chain examples, for instance the red path which illustrates which route audio from Trondheim takes before it enters our ears in Oslo. All of this information can be found in the legend.
 
-# LoLa and Midas 
+# LoLa and Midas chart
 
-Furthermore, to able to fully understand our technical system, we felt it necessary to make another chart soley focusing on the relationship between the Midas mixer and the LoLa PC with the RME soundcard. The routing and interplay between these two machines is often the main source of trouble in the portal, and is therefore in need of further elaboration. Eventually, (we hope and pray) we might have a system that begins with a routing system from an overhead mic directly to LoLa or Zoom, and use a breakout cable to pass Oslo inputs through the Midas mixer when we need it. Having a well-funtioning setup with as few wires, sliders, or settings to configure is the current dream for Gaute at least.
+Furthermore, to able to fully understand our technical system, we felt it necessary to make another chart soley focusing on the relationship between the Midas mixer and the LoLa PC with the RME soundcard. The routing and interplay between these two machines is often also the main source of trouble in the portal. 
+
+Eventually, (we hope and pray) we might have a system that begins with an overhead mic directly to LoLa or Zoom, and use a breakout cable to pass Oslo inputs through the Midas mixer when we need it. Having a well-funtioning setup with as few wires, sliders, or settings to configure is the current dream for Gaute at least.
 
 ![LoLa and Midas Flowchart](/assets/img/group-c/Midas-lola-flowchart.jpg)
 
