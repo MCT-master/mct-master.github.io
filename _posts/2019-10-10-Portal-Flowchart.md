@@ -5,7 +5,7 @@ date: 2019-10-10 16:00:00 +0200
 categories: Portal
 author: Aleksander Tidemann
 image: /assets/img/group-c/flow.png
-excerpt: 'The MCT portal has been subject to many configurations over the last couple of months. In this post, we explore the use of flowcharts....'
+excerpt: 'The MCT portal has been subject to many configurations over the last couple of months. In this post, we explore how flowcharts may help us see a brighter tomorrow (we need as much light as we can get here).'
 Keywords: MCT Portal, signal flow
 ---
 
