@@ -29,7 +29,7 @@ The connection wires' shape and color also have meaning. The shape determines wh
 
 # LoLa and Midas chart
 
-The routing and interplay between the LoLa pc with the RME soundcard and the Midas mixer is often the source of trouble in our portal. Therefore, we feel that it is necessary to take extra measures to understand this specific relatioship through another flowchart!
+The routing and interplay between the LoLa PC with an RME soundcard and the Midas mixer is often the source of trouble in our portal. Therefore, we felt that extra measures, in the form of another flowchart, was needed to highlight this relationship.
 
 Eventually, (we hope and pray) we might have a system that begins with an overhead mic directly to LoLa or Zoom, and use a breakout cable to pass Oslo inputs through the Midas mixer when we need it. Having a well-funtioning setup with as few wires, sliders, or settings to configure is the current dream for Gaute at least.
 
