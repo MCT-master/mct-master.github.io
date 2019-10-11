@@ -13,7 +13,7 @@ Keywords: MCT Portal, signal flow
 
 # Flowcharts 
 
-A rigid signal flowchart is an absolute must in any complex system. These charts help us to systemize, organize and streamline our interactions with the system. Ideally, in our case, a detailed flowchart will help us to spend less time setting up the portal before class and enable more students to orient, use and explore the MCT portal. Because of our endless adjustments, 5-minute fixes, and general non-sense that drove Iggy to push a preparedness test upon us, we decided it was about time for an up-to-date flow chart to help us on the way to portal stardom. Or at least a setup that we can turn on and start class with.
+A rigid signal flowchart is an absolute must in any complex system. These charts help systemize, organize and streamline our interactions with the system. Ideally, a detailed flowchart will helps us save time setting up before class and enable more students to orient, use and explore the portal features. Because of our endless adjustments, 5-minute fixes, and general non-sense that drove Iggy to push a preparedness test upon us, we decided it was about time for an up-to-date flow chart to help us on the way to portal stardom. Or at least a setup that we can turn on and start class with.
 
 # The MCT portal chart
 
@@ -25,11 +25,11 @@ Following Anders Tveit's recommendation, we used [Lucidchart](https://www.lucidc
 
 All the objects in the chart have inputs on the bottom and and outputs on the top. The philosophy behind the object coloring is fairly arbitrary but it tries to descriminate between more "active" machines (yellow), "passive" machines (purple), output oriented machines (green), input oriented machines (orange) and finally ports between campuses (pink).
 
-The connection wires' shape and color also have meaning. The shape determines what type of signal passes through the wire, and the different colors indicate some signal chain examples, for instance the red path which illustrates which route audio from Trondheim takes before it enters our ears in Oslo. All of this information can be found in the legend.
+The connection wires' shape and color also have meaning. The shape determines what type of signal passes through the wire, and the different colors indicate some signal chain examples, for instance the red path which illustrates the route audio takes from Trondheim to our Oslo ears. All of this information can be found in the legend.
 
 # LoLa and Midas chart
 
-The routing and interplay between the LoLa PC with an RME soundcard and the Midas mixer is often the source of trouble in our portal. Therefore, we felt that extra measures in the shape of another flowchart(!) was needed to highlight this relationship.
+The routing and interplay between the LoLa PC (with RME soundcard) and Midas mixer is often a source of trouble in our portal. Therefore, we felt it necessary to take extra measures to highlight this relationship. This second flowchart (below) follows the same principles as the one above, with the exception of having object inputs and outputs on the sides as well on the top and bottom.
 
 Eventually, (we hope and pray) we might have a system that begins with an overhead mic directly to LoLa or Zoom, and use a breakout cable to pass Oslo inputs through the Midas mixer when we need it. Having a well-funtioning setup with as few wires, sliders, or settings to configure is the current dream for Gaute at least.
 
