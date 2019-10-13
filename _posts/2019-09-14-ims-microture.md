@@ -90,7 +90,9 @@ direct since there are many parameters, but it is at the same instance a positiv
  
 ### Present issues / Further development
 * Robustness: There should be more time spent and more relevant equipment used in order to robust the instrument
-* Moving on from the initial idea: Considering having more time to practice and build the instrument adn also having proper equipment in touch, the initial idea could be implemented.
+* Moving on from the initial idea: Considering having more time to practice and build the instrument adn also having proper equipment in touch, the initial idea could be implemented.  
+Following there is a short video of the protoype being played:
+<iframe width="676" height="380" src="https://www.youtube.com/embed/xuEf8yBa1Mg" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ### Acknowledgement
 I would like to thanks [Stefano Fasciani](https://stefanofasciani.com/) for his crucial support and guidance in the process of making the instrument.
