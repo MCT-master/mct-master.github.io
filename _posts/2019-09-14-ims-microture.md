@@ -19,7 +19,7 @@ One of the main principles of this project is augmentation. The current research
 That means integrating the tactile and expressive qualities of the traditional instruments with the sonic possibilities of today’s digital audio techniques creates a promising perspective for instrument design. (Lähdeoja, 2019)  
 This augmentation is based on the use of gestures in order to make and expand the sonical perspective of the instrument.
 As Pierre Hébert says, the measure of a work of art is whether one can sense in it the presence of the artist’s body. If so, then it is a success, and if not, it’s a failure. (Ostertag, 2002)  
-Of course he is talking about a corporal presence of the artist emanating from the work. Which in here refers to our body gestures.
+Of course, he is talking about a corporal presence of the artist emanating from the work. Which in here refers to our body gestures.
 In here the body is used to express oneself and that includes all the small-movements. In other words, combination of body gestures with technology to expand the amount of expressiveness.
 #### History
 At the beginning of the process, the goal was to create an Augmented electric guitar, by the use of gestures. But there were three phases that I went through, and in the end
@@ -47,7 +47,7 @@ Sound manipulation process:
 After that they are being manipulated by the controllers. The controllers are the sensors that are implemented in the system.  
 Sensors being used in this system are:  
 
-* Accelerometer (by the use of X and Y axis)
+* Accelerometer, being worn as a ring, using its X and Y axis
 * Distance sensor
 * Potentiometer
 * Slider
