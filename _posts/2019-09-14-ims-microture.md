@@ -9,6 +9,10 @@ excerpt: 'Microture is an interactive music system, based on manipulation of the
 Keywords: Interactive Music System, Gesture, Augmentation
 ---
 Microture is an interactive music system, based on manipulation of the input sound (microphone sound) with small gestures. It uses [Bela](https://bela.io/about). Bela is an embedded computing platform for creating beautifully responsive interactive applications. Bela provides ultra-low latency, high quality audio, analog and digital I/O in a tiny self-contained package that can be easily embedded. Built upon the [BeagleBone](https://beagleboard.org/) family of open-source embedded computers, Bela combines the processing power of an embedded computer with the timing precision and connectivity of a microcontroller.
+<figure>
+<img src="/assets/img/IMS2.jpg" width = "85%" align="center" />
+<figcaption><strong></strong></figcaption>
+</figure>
 
 ### Introduction
 One of the main principles of this project is augmentation. The current research field on augmented instruments is motivated by the assumption that the combination of traditional acoustic instruments with today’s sound technology yields a high potential for the development of tomorrow’s musical instruments. Considering that we are living in tomorrow in a sense, it is a current matter.
