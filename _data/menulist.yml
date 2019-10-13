@@ -14,8 +14,6 @@ toc:
         url: /physical-computing/
       - page: Sonification
         url: /sonification-sound-design/
-      - page: Test
-        url: /test/  
       - page: WoNoMute
         url: /wonomute/    
       - page: Music and Machine Learning
@@ -24,6 +22,10 @@ toc:
         url: /interactive-systems/
       - page: Spatial Audio
         url: /spatial-audio/
+      - page: Entrepreneurship
+        url: /entrepreneurship/
+      - page: Test
+        url: /test/
   - title: Portal
     url: /portal/
   - title: Projects
