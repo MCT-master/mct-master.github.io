@@ -93,4 +93,8 @@ direct since there are many parameters, but it is at the same instance a positiv
 
 ### Acknowledgement
 I would like to thanks [Stefano Fasciani](https://stefanofasciani.com/) for his crucial support and guidance in the process of making the instrument.
- 
+
+### References:
+* Lähdeoja, Otso. (2019). An approach to instrument augmentation: the electric guitar.
+* Ostertag, Bob. (2002). Human Bodies, Computer Music. Leonardo Music Journal. 12. 11-14. 10.1162/096112102762295070.
+* Dobrian, Christopher & Koppelman, Daniel. (2006). The 'E' in NIME: Musical Expression with New Computer Interfaces.. 277-282.
