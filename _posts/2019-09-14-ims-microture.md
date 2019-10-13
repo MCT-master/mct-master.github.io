@@ -23,7 +23,8 @@ as you can observed the outcome became so different.
 First I decided to expand on the idea of slide guitar, considering the limited bandwidth and practicality of the guitar I though it is going to bring me more control.
 But unfortunately it did not and that was because of a couple of reasons:
 * Not having sufficent skills to play slide guitar
-* Not having sufficient equipment and time to build the system
+* Not having sufficient equipment and time to build the system  
+
 Even with overcoming those issues the main problem was the lack of time to practice using the instrument and present a decent performance. Therefore I decided to use the microphone as the sound source, which gave me much more bandwidth and reliabality.
 
 ### Key features
