@@ -59,7 +59,7 @@ The senors, transform the movements into values and those values are being modif
 * Right hand:  
 The use of the accelerometer sensor: X axis for the delay mix, Y axis for the delay time
 * Left hand:  
-Ultrasound sensor for the distortion amount, Potentiometer for the pitch shift amount
+Ultrasound sensor for the distortion amount, Potentiometer for the pitch shift amount  
 **_One to two (many?) mapping:_**
 * Left hand:  
 Slider: The normal use of it controls the delay feedback and by moving it rapidly, the velocity amount is being used for engaging/ disengaging the pitch shift and distortion processing chain. 
