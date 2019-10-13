@@ -80,7 +80,7 @@ Also, Here is a picture that shows the pure data patch.
 <figcaption><strong></strong></figcaption>
 </figure>
  
- ### Expressiveness, Playability, Learning
+### Expressiveness, Playability, Learning
 
 **_Expressiveness:_** Expressiveness in this case could refer to intelligent recognition of gesture in order to characterize the gesture. Of course by make the appropriate mapping and more gesture-sound mapping, more expressiveness could be acheived. But it is important to mention that the performer should achieve a level of virtuosity by more practice, in order to experience that matter.  
 **_Playability and learning:_** This instrument is tangible. That is because of the use of acceleromenter. It is being extremly sensetive. But it can be addressed in further developments, by using a low pass folter for the data being captured by it. But considering the amount of effects that can manipulate the sound and enough practice, the player can lead to an acceptable degree of control regarding playing hte instrument.  
@@ -95,6 +95,7 @@ direct since there are many parameters, but it is at the same instance a positiv
 ### Present issues / Further development
 * Robustness: There should be more time spent and more relevant equipment used in order to robust the instrument
 * Moving on from the initial idea: Considering having more time to practice and build the instrument adn also having proper equipment in touch, the initial idea could be implemented.  
+
 Following there is a short video of the protoype being played:
 <iframe width="676" height="380" src="https://www.youtube.com/embed/xuEf8yBa1Mg" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
