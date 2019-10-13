@@ -87,7 +87,7 @@ Also, Here is a picture that shows the pure data patch.
 
 ### Evaluation
 This is the expert user's evaluation that I received, from Karolina Jawad.  
-**_Overall impression:_** The augmentation of the voice is very engaging and interesting. There is a great amount of playfulness that is provided through the different controllers. Through the gesture controllers it was especially inviting to explore the instrument and spend time with it.
+**_Overall impression:_** The augmentation of the voice is very engaging and interesting. There is a great amount of playfulness that is provided through the different controllers. Through the gesture controllers it was especially inviting to explore the instrument and spend time with it.  
 **_Things that can be worked upon:_** audibility of what is happening through which action could be a little bit more
 direct since there are many parameters, but it is at the same instance a positive effect of complexity.
 
