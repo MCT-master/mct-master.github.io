@@ -39,4 +39,4 @@ Eventually, (we hope and pray) we might have a system that begins with an overhe
 
 We hope that these flowcharts can be used as manuals for setting up a default MCT portal rig, troubleshooting, as well as serve other educational purposes in our cross campus classroom. We also hope that our charts can help future MCT students become comfortable with the portal and inspire them to update the s0ystem in various ways.
 
-Copy our charts, both the [Portal chart](https://www.lucidchart.com/invitations/accept/5c3deb5f-538c-4ddb-89ac-cf99db701ad0) and the [LoLa and Mida chart](https://www.lucidchart.com/invitations/accept/f53eb564-bcef-4da7-92ad-51e980891471). 
+Copy our charts, both the [Portal chart](https://www.lucidchart.com/invitations/accept/5c3deb5f-538c-4ddb-89ac-cf99db701ad0) and the [LoLa and Midas chart](https://www.lucidchart.com/invitations/accept/f53eb564-bcef-4da7-92ad-51e980891471). 
