@@ -16,8 +16,29 @@ In my glove I used flex sensor on index finger, 3 – axis accelerometer on my h
 # Design and implementation.
 The circuit made to sit top of the Bela Cape and sensors were connected to the circuit through long wires. The Bela Cape is connected to the beaglebone black wireless board which has the Operating system. The sound module is a pure data patch made by Riccardo Sraccia. Check out his work. So the work flow in the building process is to use the bela IDE on browser to edit the PD patch and test with sensors. Once everything is finalized the final the project was set to boot on start on Bela. Then it runs on its own without any connection to the PC. 
 
+1. Flex Sensor
+<figure>
+<img src="/assets/img/FLEX.jpg" width = "50%" align="center" />
+</figure>
+
+2. Acceleroeter
+<figure>
+<img src="/assets/img/ACC.jpg" width = "50%" align="center" />
+</figure>
+
+3. Ultrasonic Sensor
+<figure>
+<img src="/assets/img/ULTRA.jpg" width = "50%" align="center" />
+</figure>
+
+
 # PD sound Module. 
 The Pure data patch is based on granular synthesis. It has following sections. And It needs and audio sample and I used a pad sample.
+
+<figure>
+<img src="/assets/img/SOUNDM.png" width = "50%" align="center" />
+</figure>
+
 
 # The Mapping 
 The mapping is mostly “one to one “and single instance of “One to many “I tried to control the starting point of the sample and the length with sensors but it tends make the instruments sound crappy and not very expressive. 
