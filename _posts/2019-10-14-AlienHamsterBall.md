@@ -22,7 +22,7 @@ Also to a lesser extent i was inspired by a group project presented in the first
 
 <figure>
 <img src="https://media.githubusercontent.com/media/MCT-master/mct-master.github.io/master/assets/img/hamsterball2.jpg" width = "50%" align="center"/>
-<figcaption><strong>Looper device</strong></figcaption>
+<figcaption><strong>The Prototype</strong></figcaption>
 </figure>
 
 Here are some concepts when regarding designing a digital music instrument, that the hamsterball hopes to be. 
@@ -40,6 +40,11 @@ The accelerometer adjusts parameters that make up the main body of the instrumen
 The mic adds another audio input that adds elements of feedback and unpredictability.
 
 Potentiometers are for adjustments of other basic functions and FX, for expression and shaping.
+
+<figure>
+<img src="https://media.githubusercontent.com/media/MCT-master/mct-master.github.io/master/assets/img/hamsterball5.png" width = "50%" align="center"/>
+<figcaption><strong>Looper device</strong></figcaption>
+</figure>
 
 My pure Data patch has three oscillators as the sound source - split into Osc1, Osc2 and Sub Osc. it also has a microphone as a secondary input source. To add spice and complexity to the timbre, a FM oscillator is fed into Osc 2. 
 
