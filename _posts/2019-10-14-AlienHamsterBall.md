@@ -50,8 +50,6 @@ As the accelerometer in moved along the X axis -
 Osc 2 will move from 112hz to 302Hz. This is a small range, however in conjunction with the two other oscillators, FM synthesis and FX - many partials can be formed and give a full range in frequency. Also, as i was designing a bass range instrument, it makes sense to keep the frequencies low.
 
 Also when moving the ball along the axis it is easier to control with a smaller range, and doesn't sound like a transient or FX by tracking too quickly through the frequency spectrum - this kept the sound design more as a drone akin to cinematic tension.
-
 At the same time, the sub oscillator moves along the same axis - just 3 hrz below. This results in the two oscillations phase together at all times, thickening up the sound. The sub is a sine and adds thickness rather than the more extreme saw used for Osc2. 
-
 As well as this, the wave shape of Osc 1 will cycle fully from a sine to a square over the range, adding further complexity. Lastly, a subtle increase in the delay amount will occur as the frequencies move higher in the spectrum. This acted as a sweetener to the harsher, thinner frequencies higher in the spectrum, and helped keeping the sound aesthetically pleasing at all angles.
 
