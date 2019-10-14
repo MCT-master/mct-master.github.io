@@ -25,3 +25,20 @@ Also to a lesser extent i was inspired by a group project presented in the first
 <figcaption><strong>Looper device</strong></figcaption>
 </figure>
 
+Here are some concepts when regarding designing a digital music instrument, that the hamsterball hopes to be. 
+
+“Instant music, subtlety later” . As newcomers grow to more expert levels, the music gets more varied and interesting if they experiment with the relative pressures and tilts. 
+
+The “Smart instruments are often not smart” principle, in that the instrument doesn’t change at all, but rather trains the user to use more gentle and subtle manipulations of the sensors. 
+
+And of course - “Everyday objects suggest amusing controllers.”
+
+I used three types of sensor - Accelerometer, microphone and 3 potentiometers. 
+
+The accelerometer adjusts parameters that make up the main body of the instrument.
+
+The mic adds another audio input that adds elements of feedback and unpredictability.
+
+Potentiometers are for adjustments of other basic functions and FX, for expression and shaping.
+
+My pure Data patch has three oscillators as the sound source - split into Osc1, Osc2 and Sub Osc. it also has a microphone as a secondary input source. To add spice and complexity to the timbre, a FM oscillator is fed into Osc 2. 
