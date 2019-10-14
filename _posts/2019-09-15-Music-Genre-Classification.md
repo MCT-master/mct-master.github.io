@@ -2,7 +2,7 @@
 layout: post
 title: "Music Genre Classification with Machine Learning"
 date: 2019-09-15 21:16:42 +0200
-categories: Music-and-Machine-Learning
+categories: Interactive-Systems
 author: Ashane Silva
 image: /assets/img/genre_orig.jpg
 excerpt: "Classification is a classic problem in machine learning. This is one of the focused areas in digital music platforms today. Companies like spotify, iTunes and other digital distributors try to sort music according to genre, mood, number of listeners, location etc. There is an algorithm behind the scene that doing all the job."
@@ -10,31 +10,23 @@ excerpt: "Classification is a classic problem in machine learning. This is one o
 
 # Project idea
 
-Classification is a classic problem in machine learning. This is one of the focused areas in digital music platforms today. Companies like spotify, iTunes and other digital distributors try to sort music according to genre, mood, number of listeners, location etc. There is an algorithm behind the scene that doing all the job. Well, this project is about trying to understand the basics of music genre classification and test some of the algorithms and evaluate their performance. 
-My plan was to train a machine learning model to classify songs in classical, heavy metal and hip-hop genres. The most important thing in machine learning is data. The data set consisted of 100 songs for each genre and all are 30 sec long. Check the complete GATZAN data set. 
-I worked in the python environment with Jupyter Notebook. The packages used are Numpy, Librosa, matplotlib, scipy, Scikit-learn and pandas. The feature extraction was done with Librosa and extracted the following features: Zero Crossing Rate, Spectral Centroid, Spectral Contrast, RMS, Spectral bandwidth, Spectral roll off and Chroma Short Term Fourier Transform. 
-The extracted features were then saved as a CSV file for training and testing the algorithms. So my experiment had three stages. Each machine learning algorithm was trained and tested using three variations of data:
-1. Using projections from the Principle component analysis 
-2. Using projections from the linear discrimination analysis 
-3. Using all features as data. 
+My project idea for the Interactive Music Systems was to build a glove that can manipulate sound.  It was actually inspired by seeing the “mi.mu Gloves”.  The paper on the “Data Glove” gave me ideas on the design aspect of the glove although the way it works is a bit more different than what I use in my glove. “Data glove” uses multiple flex sensors on the fingers and force sensitive sensors to contact the finger tips and an accelerometer to get data from the wrist control. 
+In my glove I used flex sensor on index finger, 3 – axis accelerometer on my hand and a Distance Ultrasonic sensor on my palm. Attaching those stuff to the glove was a bit tricky but “ducktape” saved my life. 
 
-## Supervised Machine Learning approach 
-To solve the problem, the used approach is a supervised learning method. So I tested following algorithms to see how much accuracy they can achieve. 
+# Design and implementation.
+The circuit made to sit top of the Bela Cape and sensors were connected to the circuit through long wires. The Bela Cape is connected to the beaglebone black wireless board which has the Operating system. The sound module is a pure data patch made by Riccardo Sraccia. Check out his work. So the work flow in the building process is to use the bela IDE on browser to edit the PD patch and test with sensors. Once everything is finalized the final the project was set to boot on start on Bela. Then it runs on its own without any connection to the PC. 
 
-### Gaussian Naive Bayes model (GNB): 
-is based on the Naive Bayes algorithm which related with the Bayes theorem. Gaussian Naive Bayes algorithm assumes a Gaussian distribution and uses the estimated mean and standard deviation from training data. 
+# PD sound Module. 
+The Pure data patch is based on granular synthesis. It has following sections. And It needs and audio sample and I used a pad sample. 
 
-### K-Nearest Neighbor (KNN): 
-is a supervised machine learning algorithm which classifies data points based on how its neighboring data points are classified. It stores all available instances in training data and sorts based on a similarity measure. A new data point is classified based on the maximum number of neighboring data points with a given class for a given K value.   
-
-### Support Vector Machines (SVM): 
-Support Vector machine algorithm defines the optimum decision boundary with the widest gap between classes. To obtain the maximum gap it uses support vectors which can be defined as the data points that are closest to the opposing class. In non-linear support vector machines, the data are transformed into a high dimensional space to define the hyper-plane between two classes. 
-
-### Multi-Layer Perceptron Classifier (MLP):
-is a feed forward artificial neural network. An MLP consists of at least three layers of nodes: an input layer, a hidden layer and an output layer. Each neuron consists of a nonlinear activation function. This differs from the perceptron due to the non-linear activation function and multiple-layers.
-
-## Results
-All the models performed really well and achieved an accuracy level above 80%. But KNN yielded an accuracy of 90% after tweaking its K value. Since it has only one parameter it is fairly easy to test with iterating the algorithm. 
+# The Mapping 
+The mapping is mostly “one to one “and single instance of “One to many “I tried to control the starting point of the sample and the length with sensors but it tends make the instruments sound crappy and not very expressive. 
+Accelerometer. 
+X – Acceleration controls the frequency of the granular phasor. 
+Y – Acceleration mapped to sine LFO frequency and the cutoff. 
+Z –acceleration mapped to Sawtooth LFO
+Flex sensor - speed of the sample. 
+Ultrasound sensor is mapped to Resonance Frequency. 
 
 
 
