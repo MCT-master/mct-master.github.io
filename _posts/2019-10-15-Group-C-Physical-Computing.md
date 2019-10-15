@@ -10,9 +10,7 @@ excerpt: "The first day of Physical Computing started and ended with a bit of co
 
 ## Physical Computing Day One: Victorian Synthesizer Madness! Group C Reports In From Heck
 
-<img src="/assets/img/GroupC/GroupCWorking1.jpg" width="40%" height="40%" align="center" />
-<figcaption><strong>The Prototype</strong></figcaption>
-</figure>
+<img src="/assets/img/GroupC/GroupCWorking1.jpg" width="80%" height="80%" align="center" />
 
 The first day of Physical Computing started and ended with a bit of confusion in the Portal, but that is par for the course. Once we set up the various cameras and microphones, and dealt with feedback, echo, etc, the fun began! 
 
