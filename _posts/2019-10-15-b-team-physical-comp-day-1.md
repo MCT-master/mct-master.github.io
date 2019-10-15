@@ -1,11 +1,11 @@
 ---
 layout: post
-title:  "Physical Computing: Day 1 - B-Team"
-date:   2019-08-28 12:00:00 +0200
-categories: MCT
+title:  "To Heck and Back"
+date:   2019-10-15 18:00:00 +0200
+categories: Physical-Computing
 author: Jackson, Magda, Simon, and Jarle
 image: /assets/img/b-team/pc_day1.jpg
-excerpt: "Our group spans across Norway, Poland and the United States with a wealth of experience between us. We are funny too!"
+excerpt: "Today we began our experiments with some lofi hardware, simple contact mics, speakers, batteries, and some crocodile cables to connect it all. We left in pieces."
 ---
 Physical Computing Blog #1
 
