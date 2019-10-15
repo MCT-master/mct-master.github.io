@@ -4,13 +4,15 @@ title:  "Physical Computing Day One: Victorian Synthesizer Madness! Group C Repo
 date:   2019-10-15 17:18:00 +0200
 categories: Physical-Computing
 author: Paul, Aleksander, Thomas, and Iggy
-image: /assets/img/GroupC/GroupCWorking1.jpg
+image: /assets/img/GroupC/BenFElectric.jpg
 excerpt: "The first day of Physical Computing started and ended with a bit of confusion in the Portal, but that is par for the course. Once we set up the various cameras and microphones, and dealt with feedback, echo, etc, the fun began! "
 ---
 
 ## Physical Computing Day One: Victorian Synthesizer Madness! Group C Reports In From Heck
 
-![Photo of Group C](/assets/img/groupC/BenFElectric.jpg)
+<img src="/assets/img/GroupC/GroupCWorking1.jpg" width="40%" height="40%" align="center" />
+<figcaption><strong>The Prototype</strong></figcaption>
+</figure>
 
 The first day of Physical Computing started and ended with a bit of confusion in the Portal, but that is par for the course. Once we set up the various cameras and microphones, and dealt with feedback, echo, etc, the fun began! 
 
