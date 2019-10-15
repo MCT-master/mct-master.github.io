@@ -4,7 +4,7 @@ title:  "Physical Computing: Day 1 - B-Team"
 date:   2019-08-28 12:00:00 +0200
 categories: MCT
 author: Jackson, Magda, Simon, and Jarle
-image: /assets/img/b-team/b-team.webp
+image: /assets/img/b-team/pc_day1.jpg
 excerpt: "Our group spans across Norway, Poland and the United States with a wealth of experience between us. We are funny too!"
 ---
 Physical Computing Blog #1
