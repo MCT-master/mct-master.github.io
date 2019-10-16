@@ -4,7 +4,7 @@ title:  "The B Team: To Heck and Back"
 date:   2019-10-15 18:00:00 +0200
 categories: Physical-Computing
 author: Jackson, Magda, Simon, and Jarle
-image: /assets/img/b-team/hardware.jpg
+image: /assets/img/b-team/jarle.webp
 excerpt: "Today we began our experiments with some lofi hardware, simple contact mics, speakers, batteries, and some crocodile cables to connect it all. We left in pieces."
 ---
 ## The B Team makes an attempt
