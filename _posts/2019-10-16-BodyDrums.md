@@ -12,7 +12,7 @@ Keywords: Workshop, IMS, Interactive Music Systems, Drums, Augmented Instrument,
 For the course MCT4045 - Interactive Music Systems I decided to build a wearable drumset.
 
 <figure>
-<img src="assets/img/elias/Body_drums.jpg" width = "50%" align="center" />
-<figcaption><strong>Controller</strong></figcaption>
+<img src="/assets/img/elias/Body_drums.jpg" width = "50%" align="center" />
+<figcaption><strong>Body Drums</strong></figcaption>
 </figure>
 
