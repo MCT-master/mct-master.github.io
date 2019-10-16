@@ -8,6 +8,11 @@ image:
 Keywords: Workshop, IMS, Interactive Music Systems, Drums, Augmented Instrument, C++, Bela
 ---
 
-##Body Drums 
+## Body Drums 
 For the course MCT4045 - Interactive Music Systems I decided to build a wearable drumset.
+
+<figure>
+<img src="assets/img/elias/Body_drums.jpg" width = "50%" align="center" />
+<figcaption><strong>Controller</strong></figcaption>
+</figure>
 
