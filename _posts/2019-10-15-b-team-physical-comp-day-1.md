@@ -1,13 +1,12 @@
 ---
 layout: post
-title:  "To Heck and Back"
+title:  "The B Team: To Heck and Back"
 date:   2019-10-15 18:00:00 +0200
 categories: Physical-Computing
 author: Jackson, Magda, Simon, and Jarle
 image: /assets/img/b-team/hardware.jpg
 excerpt: "Today we began our experiments with some lofi hardware, simple contact mics, speakers, batteries, and some crocodile cables to connect it all. We left in pieces."
 ---
-# Physical Computing, Day 1: To Heck and Back
 ## The B Team makes an attempt
 
 Today we began our experiments with some lofi hardware, simple contact mics, speakers, batteries, and some crocodile cables to connect it all. This class is focused on providing us with a basic understanding of how we would be able to create sound from analog materials in a workshop based enviroment. Below are some of the objects we recorded with an how we managed to do it. You may click on the links to listen to the sounds we recorded!
@@ -15,7 +14,7 @@ Today we began our experiments with some lofi hardware, simple contact mics, spe
 ## In Trondheim
 For all the below in Trondheim, a jack cable was plugged to the speaker, and on the other end there was a contact mic conntected to an alligator cable. 
 
-### _Bottle elastic band_
+### [Bottle elastic band](https://freesound.org/people/jacksongoode/sounds/488517/)
 - Contact mic was attached to the plastic bottle with a piece of tape
 Simon kept the bottle with his knees, putting the elastic band on the top and pulling it
 - The elastic band was torn with a finger
@@ -23,23 +22,23 @@ Simon kept the bottle with his knees, putting the elastic band on the top and pu
 - Additionally, the bottle was being crushed a bit with the legs which also produced interesting side sounds
 - The sound was recorded with pocket Roland recorded put in from of the speaker
 
-### _Coin_
+### [Coin](https://freesound.org/people/jacksongoode/sounds/488516/)
 - Contact mic was attached to the bottom of the plastic bowl (the side which was touching the table)
 - The coin was spun at the bottom of the bowl
 - The sound was recorded with pocket Roland recorded put in from of the speaker
 
-### _Tape_
+### [Tape](https://freesound.org/people/jacksongoode/sounds/488515/)
 - Contact mic was attached to the roll of duct tape
 - The tape was being unstuck rapidly
 - The sound was recorded with pocket Roland recorded put in from of the speaker
 - Problem: the mic wasn’t too stable on the roll because of its surface
 
-### _Plastic box_
+### [Plastic box](https://freesound.org/people/jacksongoode/sounds/488514/)
 - Contact mic was attached to the soft plastic box which was laying on the table 
 - The surface of the box was being touched quickly with different pressure
 - The sound was recorded with pocket Roland recorded put in from of the speaker
 
-### _Elastic band_
+### [Elastic band](https://freesound.org/people/jacksongoode/sounds/488520/)
 - Contact mic was attached to the roll of duct tape
 - Elastic band was put around the roll of duct tape
 - Elastic band was torn with a finger
@@ -48,13 +47,13 @@ Simon kept the bottle with his knees, putting the elastic band on the top and pu
 - Problem: the mic wasn’t too stable on the roll because of its surface
 
 ## In Oslo
-### _Knife_
+### [Knife](https://freesound.org/people/jacksongoode/sounds/488518/)
 - We passed a 9V battery through a knife and then connected the other end to a speaker
 - We then completed the circuit by running one allegator end along a metal knife
 - The frequent contacts that happened as the rough metal end of the alligator clip rubbed against the knife handle made for a rough, scratchy and distorted sound 
 
 
-### _Fabric_
+### [Fabric](https://freesound.org/people/jacksongoode/sounds/488519/)
 - A contact mic amped through a 9V battery and rubbed against a sweater, jeans, and the seat of a chair
 - Because we weren't able to amp the mic up enough for more delicate sounds in  response to subtle vibrations, we had to be a bit more abrasive with the mic
 
