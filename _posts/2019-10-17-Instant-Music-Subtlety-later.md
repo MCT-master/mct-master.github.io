@@ -24,6 +24,8 @@ shows in my perspective this way to approach engineering. There is this state of
 'that is possible to do with'. 
 
 ### System functions 
+When drafting ideas in unknown territory one can become overwhelmed with the sheer endless options to create an IMS (interactive music system). There were quite adventurous objects that could produce sounds I went virtually pregnant with. The follow up is usually an ongoing negotiation process between available equipment, own skills, time and research that would determines the final outcome. 
+
 * Microphone – capturing sounds of any kind, amplified through vocals 
 * Potentiometer - Delay, effect
 * Slider  - Feedback, effect
@@ -37,7 +39,7 @@ the closer the hand gets to the sensor, the less intense the effect. On a distan
 <figure align="middle">
         <video height="100%" width="100%" controls>
         <source src="/assets/video/demo_karolina.mp4" type="video/mp4">
-        <figcaption><strong>Exploring the instrument. While performing and before</strong></figcaption>        
+        <figcaption><strong>Exploring the instrument. While performing and before. Is the unreliable or unpredictable a part of the aesthetic?</strong></figcaption>        
         Your browser does not support the video tag.
         </video>
 </figure>
