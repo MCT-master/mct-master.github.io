@@ -39,7 +39,7 @@ the closer the hand gets to the sensor, the less intense the effect. On a distan
 <figure align="middle">
         <video height="100%" width="100%" controls>
         <source src="/assets/video/demo_karolina.mp4" type="video/mp4">
-        <figcaption><strong>Exploring the instrument. While performing and before. Is the unreliable or unpredictable a part of the aesthetic?</strong></figcaption>        
+        <figcaption><strong>Exploring the instrument. While performing and before.</strong></figcaption>        
         Your browser does not support the video tag.
         </video>
 </figure>
@@ -47,13 +47,13 @@ the closer the hand gets to the sensor, the less intense the effect. On a distan
 In the first part of the video, the performance,  I was trying hard to get control of the processing parameters, compared to the last/first rehearsal which follows after the demo, it lost some expressive moments. For some reason it was way more difficult to keep the same amount of control on the single effects as in a relaxed 'unobserved' moment – maybe it was the demo effect as I haven't touched upon the patch any more in the meantime.
 The rhythmically performed gestures were helping me to get in tune with the activating the intensity of the granular synthesis and its delay.
 
-Parameters that are to some degree important to estimate the reliability, repeatability and of an engineered 
-product are most likely not enough to evaluate its expressivity. In the development process of the IMS I ended up with and also while exploring the interaction with it I was wondering on how much artistic meaningfulness I could possibly create. On the one hand, the 'success' of a design is its technical realization. On the other hand (again), the level of technical sophistication will never replace meaningful interaction. 
-The context probably determines the evaluation of the outcomes as well. As being someone with a past in theatre, I can hardly extract more than a nice application, that counts for all of the instruments. And inspires me to look further, to include the potential applicability in the design process. It feels a little bit like a gap between 'designing' things and creating art. Pamela Z however developed this intersectional practise of technology, music and theatre which 
-is an inspiration where one could go with circuitry design.
+In the development process of the IMS I ended up with and also while exploring the interaction with it I was wondering about how much artistic meaningfulness I could possibly create. Parameters that are important to evaluate the expressivity of an engineered product like 
+* reliability, 
+* repeatability 
+are most likely not sufficient in other context. The unreliable or unpredictable can be a huge part of the aesthetic. Of course, it should not fall apart, on the one hand, the 'success' of a design is its technical realization. On the other hand (again), the level of technical sophistication will never replace meaningful interaction. The context probably determines the evaluation of the outcomes as well. As being someone with a past in theatre, I can hardly extract more than a nice application from it, that counts for all of the instruments. But inspires me to look further and include the potential applicability in the design process. In this interface of creation of things, it feels a little bit like a gap between 'designing' things and creating art. But it can help to generate an intersectional practise of technology, music and theatre for example, which is an inspiration for where one could go beyond the circuitry design.
 
 ### Acknowledgements
-I would like to thank heartfully all Trondheim peers who helped me developing the board, a big thank especially to Sepehr Haghighi. Thanks also to Stefano Fasciani.
+I would like to thank heartfully all MCT-IMS-Trondheim peers who helped me developing the board, a big thank especially to Sepehr Haghighi! Thanks also to Stefano Fasciani.
 
 ### References
 
