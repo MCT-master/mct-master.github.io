@@ -11,23 +11,23 @@ board for voice with gesture control."
 Keywords: HCI, Performance, Movement, Gestures, Interface, Design, Circuit Bending, Engineering, Art, No-Art, Mapping
 ---
 
-*** “Instant music, subtlety later,” ***
-(Cook, P. 2001. “Principles for Designing Computer Music Controllers,”) 
+### “Instant music, subtlety later,” 
+***(Cook, P. 2001. “Principles for Designing Computer Music Controllers,”)***
 
 
 ### Inspiration
 The main principle of my IMS is based on an instrument from 1985, a bit older but not much older than me: 
-The processing of ambient sound and vocals in real-time through gesture (and granular synthesis) control is something that pioneer Michael Waisvisz virtuously performed with his 'The Hyperinstrument' / 'The Hands'. It is a fundamental piece in NIME and was among other ideas quite influencing for my way of proceeding. Engineering this form of sonic interaction was adapted by artists like Pamela Z for example. Pamela Z transferred similar principles very interestingly in a complex artistic set-up. Her performance 'Memory Trace'  deals with a real-life problem, memory loss. The memory of humans and of engineered circuitry is interesting to make use of performative. It can ideally reflect upon our temporary condition by exploring its artistic dimensions while being embed it in a meaningful context. 
+The processing of ambient sound and vocals in real-time through gesture (and granular synthesis) control is something that pioneer Michael Waisvisz [virtuously performed](https://www.youtube.com/watch?v=pYfRORkuPX8) with his 'The Hyperinstrument' / 'The Hands'. It is a fundamental piece in NIME and was among other ideas quite influencing for my way of proceeding. Engineering this form of sonic interaction was adapted by artists like Pamela Z for example. Pamela Z transferred similar principles very interestingly in a complex artistic set-up. Her [performance 'Memory Trace'](https://youtu.be/ntSPtFQdyBA?t=40)  deals with a real-life problem, memory loss. The memory of humans and of engineered circuitry is interesting to make use of performative. It can ideally reflect upon our temporary condition by exploring its artistic dimensions while being embed it in a meaningful context. 
 
 However I had to accept that we are operating from another end. And mentioning Michael W and Pamela Z 
 shows in my perspective this way to approach engineering. There is this state of 'that is possible to create' to 
 'that is possible to do with'. 
 
 ### System functions 
-*Microphone – capturing sounds of any kind, amplified through vocals 
-*Potentiometer - Delay, effect
-*Slider  - Feedback, effect
-*Distance Sensor (Ultra Sound) – granular synthesis, received from input that went through the other effects
+* Microphone – capturing sounds of any kind, amplified through vocals 
+* Potentiometer - Delay, effect
+* Slider  - Feedback, effect
+* Distance Sensor (Ultra Sound) – granular synthesis, received from input that went through the other effects
 picture here
 
 ### Mapping and perception
@@ -52,3 +52,10 @@ is an inspiration where one could go with circuitry design.
 
 ### Acknowledgements
 I would like to thank heartfully all Trondheim peers who helped me developing the board, a big thank especially to Sepehr Haghighi. Thanks also to Stefano Fasciani.
+
+### References
+
+* Dobrain, C. The ‘E’ in NIME: Musical Expression with New Computer Interfaces
+* Arfib, D. Strategies of mapping between gesture data and synthesis model parameters using perceptual spaces
+* Waisvisz, M. The Hands, a set of remote Midi-controllers
+* Benjamin, W. The Work of Art in the Age of Mechanical Reproduction
