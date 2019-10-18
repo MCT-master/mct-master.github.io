@@ -4,7 +4,7 @@ title: 'Alien_Hamster_Ball'
 date: 2019-10-14 13:30:00 +0200
 categories: Interactive-Systems
 author: Samuel Damien Roman
-image: /assets/img/hamsterball.jpg
+image: /assets/img/hamsterball4.jpg
 excerpt: 'The Alien Hamster ball - an instrument expressed through a 3D space'
 Keywords: Interactive Music Systems, Bela, Sensors, Pure Data, IMS, Interactive Music Systems, NIME, MCT
 ---
@@ -61,6 +61,9 @@ Also when moving the ball along the axis it is easier to control with a smaller 
 At the same time, the sub oscillator moves along the same axis - just 3 hrz below. This results in the two oscillations phase together at all times, thickening up the sound. The sub is a sine and adds thickness rather than the more extreme saw used for Osc2. 
 As well as this, the wave shape of Osc 1 will cycle fully from a sine to a square over the range, adding further complexity. Lastly, a subtle increase in the delay amount will occur as the frequencies move higher in the spectrum. This acted as a sweetener to the harsher, thinner frequencies higher in the spectrum, and helped keeping the sound aesthetically pleasing at all angles.
 
+<img src="/assets/img/hamsterball2.jpg" width="40%" height="40%" align="center" />
+<figcaption><strong>The Failed Prototype</strong></figcaption>
+</figure>
 The functionality of the ball as a concept has many possible future uses. Throwing? a game of catch? Juggling? Rolling the ball on the floor? football? Could also put a hamster inside… 
 
 With some more time, i believe i could create the prototype i aimed for, and maybe even try some of these techniques out. Unfortunately i had little time to play with the instrument, and so feedback is lacking on that part.
