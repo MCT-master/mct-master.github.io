@@ -28,6 +28,6 @@ The system is implemented using [Pure Data](https://puredata.info/) and prototyp
 
 The CV (control voltage) signals are used by patching minijack cables from the prototype to any CV input on an analog modular synthesizer. Please see the video below for more on how the device operates. (skip to 3:05 for an improvised performance).
 
-<iframe width="560" height="315" src="https://www.youtube.com/watch?v=5FCML940Cpg" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/5FCML940Cpg" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 Note: Since the presentation at the end of the course, I have made some small adjustments and improvements to the system. the joystick operation has been improved slightly by lowering the input voltage from 5v to 3.3v, thus not overloading the analog inputs on the bela (which only reads up to 4.096v). Some of the digital signal processing has also been slightly modified to increase expressivity by utilising a larger range of values that the sensor mapping can offer.
