@@ -4,7 +4,7 @@ title: 'Alien_Hamster_Ball'
 date: 2019-10-14 13:30:00 +0200
 categories: Interactive-Systems
 author: Samuel Damien Roman
-image: /assets/img/mari/hamsterball.jpg
+image: /assets/img/hamsterball.jpg
 excerpt: 'The Alien Hamster ball - an instrument expressed through a 3D space'
 Keywords: Interactive Music Systems, Bela, Sensors, Pure Data, IMS, Interactive Music Systems, NIME, MCT
 ---
