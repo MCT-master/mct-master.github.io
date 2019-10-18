@@ -5,7 +5,7 @@ date: 2019-10-18 13:30:00 +0200
 categories: Interactive-Systems
 author: Notto J. W. Thelle
 image: /assets/img/result.jpg
-excerpt: 'Wizard Of Vox'
+excerpt: 'Wizard Of Vox - Wizard Of Vox is a gesture-based speech synthesis system that can be can be “made to speak”'
 Keywords: Interactive Music Systems, Bela, Sensors, Pure Data, IMS, Interactive Music Systems, NIME, MCT
 ---
 
@@ -18,7 +18,7 @@ The prototype I devised in this project is based on the source-filter theory of 
 2)	Supralangyreal constrictions
 Glottal sounds can be voiced or unvoiced. Both the voiced and unvoiced sources (unvoiced as in whispering voice) are highly modifiable by the shape of the oral and nasal cavities. All sonorants (vowels, glides, liquids and nasal consonants) are characterised by what is termed as formants. In particular, the first and second formants have a large role in how we perceive sonorants. For this system, I have relied on these two formants (hereafter called F1 and F2) to control the speech synthesis. F1 and F2 were mapped to the accelerometer axes X and Y. By tilting the accelerometer right/left and backward/forward, I could thus easily access all sonorant within a short time period (fraction of a second).
 
-<img src="/assets/img/vowels.jpg" width="40%" height="40%" align="center" />
+<img src="/assets/img/vowels.jpg" width="80%" height="80%" align="center" />
 <figcaption><strong>Figure 1: The vowel quadrilateral with F1 frequencies on the Y axis and F2 frequencies on the X axis. Vowel placements are shown as coordinates on this X-Y plane.</strong></figcaption>
 </figure>
 
@@ -35,7 +35,7 @@ All these sounds have been modelled in pd using subtractive synthesis:
 -	Filtering technique for sonorants and aspiration: formant synthesis (using the vcf~ object in pd)
 -	Filtering techniches for obstruants: band pass/band stop filtering
 
-<img src="/assets/img/flow.png" width="40%" height="40%" align="center" />
+<img src="/assets/img/flow.png" width="80%" height="80%" align="center" />
 <figcaption><strong>Figure 2: Audio flow chart</strong></figcaption>
 </figure>
 
@@ -50,7 +50,7 @@ The flex sensor controls pitch and amplitude at the same time (the higher the en
 
 Finally, there are seven different buttons triggering consonants. These are divided into three buttons for the nasal consonants “M”, “N” and “NG”, which have a voiced glottal sound source and thus modified by formants, and four buttons for the consonants “S”, “P”, “T” and “K”. For this prototype, I did not make triggers for more than these consonants, but the longer-term plan is to be able to trigger more consonants through the combination of these same buttons.
 
-<img src="/assets/img/subpatch.png" width="40%" height="40%" align="center" />
+<img src="/assets/img/subpatch.png" width="100%" height="100%" align="center" />
 <figcaption><strong>Figure 4: The subpatch for glottal source sounds and their processing</strong></figcaption>
 </figure>
 
