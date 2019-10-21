@@ -1,7 +1,7 @@
 # Mini-Hackathon - B Team
 ## Sound at the Speed of Light
 
-For the final workshop in the Physical Computing workshop of MCT 4000, we were tasked with developing a performance that utilized the [Bela](https://bela.io/) device for a brief ["Hackathon"](https://en.m.wikipedia.org/wiki/Hackathon). The theme of the performance this year was "Recycling", a broad and flexible term, our group interpreted it quite liberally as you will see.
+For the final workshop in the Physical Computing workshop of MCT 4000, we were tasked with developing a performance that utilized the [Bela](https://bela.io/) device for a brief ["Hackathon"](https://en.m.wikipedia.org/wiki/Hackathon). The theme of the performance this year was "Recycling", a broad and flexible term, our group interpreted it (quite liberally) as you will see.
 
 ## Our original idea
 
