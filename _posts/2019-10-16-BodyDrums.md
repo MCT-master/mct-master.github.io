@@ -21,7 +21,7 @@ The wearable drumset consists of a piezo-element placed on one hand, a force-sen
 The three sensors are connected to Bela, with processing and playback of audio files in C++. The playback of audio files will be played from the analog audio output of the Bela
 
 <figure>
-<img src="/assets/img/Elias/Belasetup.png" width = "70%" align="center" />
+<img src="/assets/img/Elias/Belasetup.png" width = "90%" align="center" />
 <figcaption><strong>Bela and Breadboard</strong></figcaption>
 </figure>
 
