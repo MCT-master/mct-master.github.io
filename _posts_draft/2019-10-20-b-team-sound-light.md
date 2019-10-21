@@ -5,7 +5,7 @@ For the final workshop in the Physical Computing workshop of MCT 4000, we were t
 
 ## Our original idea
 
-After a few of us discussed the idea of feedback as a signal over the net, since our group consists of two of us in Trondheim and two in Oslo. This way we would be able to have some direct contact with each other, regardless of physical location, and, in theory, be able to interact through our performance. Though this list was expanded a bit after our initial ~15 minute meeting, these were the core features:
+After a few of us discussed the concept of feedback as a signal over the net, since our group consists of two of us in Trondheim and two in Oslo. This way we would be able to have some direct contact with each other, regardless of physical location, and, in theory, be able to interact through our performance. Though this list was expanded a bit after our initial ~15 minute meeting, these were the core features:
 
 1. We have an initial trigger to increase the volume of a synthesizer on the first group member's Bela
 2. The amplitude of the sound will be sent to an led, causing it to swell brighter according to the volume of the sound (no sound → LED is dark, peak amplitude → bright LED)
