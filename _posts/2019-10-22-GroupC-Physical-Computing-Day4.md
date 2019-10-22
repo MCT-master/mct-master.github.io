@@ -58,7 +58,7 @@ To tackle this project I thought it would be preferable to expand an instrument 
 
 The instrument design consists of 3 buttons, 1 rotary knob and two audio samples. The first button enables the recording and determines the length of the sample based on how long you hold the button down for. The other two buttons trigger the audio samples which feed into the sampler. The audio consists of two separate samples of the word “Paris”, heavily processed by my man Iggy. 
 
-The rotary knob was interconnected and controlled both the low-pass filter and the delay line, from 0 hz cutoff and no delay to 3000 hz cutoff and full delay. Therefore the lowpass filter functioned as an alternative volume control. 
+The rotary knob was interconnected and controlled both the low-pass filter and the delay line, from 0 hz cutoff and no delay to 3000 hz cutoff and full delay. Therefore, the lowpass filter functioned as an alternative volume control. 
 
 After manically trying to solve Pauls riddle of using a copper drumstick and a metal rod to control various parameters in PD (more on that later on in the post), we stumbled upon an effect which actually produced results. By replacing the rotary knob on my board with the two rods, connected to the voltage and positive leads, we discovered that touching the rods together boosted the input value while removing them from one another deceased the value to 0. This effect can be seen and heard in the video below.
 
