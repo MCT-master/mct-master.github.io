@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Physical Computing: Heckathon: Group c"
+title: "Physical Computing: Heckathon: Group C"
 date: 2019-10-22 18:00:00 +0200
 categories: Physical-Computing
 author: Paul, Thomas, Iggy, Aleksander
