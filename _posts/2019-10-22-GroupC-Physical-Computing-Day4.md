@@ -54,7 +54,7 @@ Meanwhile in Oslo, our favorite Norwegians Aleks and Thomas set to work on the P
 
 # Aleks
 
-After the topic was decided I quickly began to search my PD-pathces for inspiration. Shortly thereafter, I began further developing a looping and sampling patch i made for day two in the workshop.
+After the topic was decided I quickly began to search my PD-pathces for inspiration. Shortly after I began to further developing a looping and sampling patch I made day two in the workshop.
 
 The instrument design consisted of three buttons, one rotary knob and two audio samples. The first button enabled the recording and determined the length of the loop. The other two buttons triggered audio samples which fed into the sampler. The audio consisted of two separate segments of the word “Paris”, streched and slightly pitched by my man Iggy. 
 
