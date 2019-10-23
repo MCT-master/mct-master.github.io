@@ -29,6 +29,10 @@ These criteria were loosely based around these qualities of a microphone and the
 
 ### MD421 (in Oslo)
 
+<figure>
+<img src="/assests/img/portal/md421.jpg" width = "50%" align="center" />
+</figure>
+
 ![MD421](/assests/img/portal/md421.jpg)
 
 	• needs more gain
