@@ -54,15 +54,17 @@ Meanwhile in Oslo, our favorite Norwegians Aleks and Thomas set to work on the P
 
 # Aleks
 
-To tackle this project I thought it would be preferable to expand an instrument I developed earlier in the workshop. I settled on a loop-and-sample patch due to the sampling nature of our mission at hand, further incorporating more sampling/audio input channels, low-pass filter and delay line. 
+After we decided on a topic for the project i quickly began to search my PD pathces for inspiration. I shortly thereafter began further developing a looping and sampling patch i made for day two in the workshop.
 
-The instrument design consists of 3 buttons, 1 rotary knob and two audio samples. The first button enables the recording and determines the length of the sample based on how long you hold the button down for. The other two buttons trigger the audio samples which feed into the sampler. The audio consists of two separate samples of the word “Paris”, heavily processed by my man Iggy. 
+The instrument design consisted of three buttons, one rotary knob and two audio samples. The first button enabled the recording and determined the length of the loop. The other two buttons triggered audio samples which fed into the sampler. The audio consisted of two separate segments of the word “Paris”, streched and slightly pitched by my man Iggy. 
 
-The rotary knob was interconnected and controlled both the low-pass filter and the delay line, from 0 hz cutoff and no delay to 3000 hz cutoff and full delay. Therefore, the lowpass filter functioned as an alternative volume control. 
+The rotary knob controlled both a low-pass filter and a delay. However, the low-pass filters sole function turned out to be volume control.
+Rotary value 0 = 0 hz cutoff and no delay
+Rotary value 1 =  3000 hz cutoff and full delay.
 
-After manically trying to solve Pauls riddle of using a copper drumstick and a metal rod to control various parameters in PD (more on that later on in the post), we stumbled upon an effect which actually produced results. By replacing the rotary knob on my board with the two rods, connected to the voltage and positive leads, we discovered that touching the rods together boosted the input value while removing them from one another deceased the value to 0. This effect can be seen and heard in the video below.
+After manically trying to solve Pauls copper drumstick and metal rod riddles (more on this later in the post), we stumbled upon an effect which actually produced results. When Paul replaced the rotary knob on my board with connections to the copper and metal rods (voltage and lead) we discovered that touching the rods together boosted the input values while removing them from one another deceased the values. This effect can be seen and heard in the video below.
 
-Furthermore, choosing a very short amplitude envelope resulted in some clipping when triggering the audio samples, an effect which was used musically in the performance and generated a new inerated dimension to an otherwise “flowey” sound texture.
+Furthermore, choosing a very short amplitude envelope resulted in some clipping when triggering the audio samples, an effect which was used musically in the performance and generated a new iterated dimension to an otherwise “flowey” sound texture.
 
 ![alek pd patch](/assets/img/group-c/pd_aleks_pc.jpg)
 
