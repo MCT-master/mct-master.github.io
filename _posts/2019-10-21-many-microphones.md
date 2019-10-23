@@ -4,13 +4,12 @@ title:  "Microphone Testing Results"
 date:   2019-10-21 18:00:00 +0200
 categories: Portal
 author: Jackson
-image: /assets/img/portal/manymics.png
+image: /assets/img/portal/many_mics.jpg
 excerpt: "We've spent a few days (in addition to the many miscellanous hours during class) reconfiguring the Portal and testing out new hardware and how it might improve the quality of our sound."
 ---
 # Many Microphones
 
 We've spent a few days (in addition to the many miscellanous hours during class) reconfiguring the Portal and testing out new hardware and how it might improve the quality of our sound. Here are a list of microphones we were able to test over the MCT 4021 class. 
-
 
 ### Microphone criteria
 
