@@ -43,7 +43,7 @@ The synthesizer was built using an additive synthesis using the harmonic series.
 
 ![Pd patch](/assets/img/b-team/jarle_patch.png)
 
-The light sensor configuration was being worked on in Trondheim, which would be able to scale the light being received from the phone screen into values that would be able to increase and decrease the volume of the synth. (Trondhiem can add here).
+The light sensor configuration was being worked on in Trondheim, which would be able to scale the light being received from the phone screen into values that would be able to increase and decrease the volume of the synth. This was being worked on by Simon and Magda to fit the scaling of the sensor to the max/min brightness of the LED. Trondheim was also mirroring the setup we had built in Oslo. Coordination was a huge obsticle when it came to setting up four devices in parallel over two campuses.
 
 Here is a picture of the light sensor clamped by two alligator cables.
 
