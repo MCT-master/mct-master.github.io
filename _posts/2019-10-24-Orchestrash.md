@@ -49,6 +49,15 @@ This instrument aims to make music out of acoustic feedback. To do so, a glass b
 
 When Ulrik started to play with his looper in the same room as my resonating bottle, a very interesting artifact was revealed. As my instrument produced sound using an acoustic source, it was in fact reacting to percussive sound. This can be heard at the beginning of our performance video, when the beat starts (0:36). Moreover, when the bass started to play, the bottle was acting differently, with more resonating frequencies. This allowed me to improvise with the others, being able to generate a B sound, and even a higher weird sounding Bb pitch.
 
+### Bass genie in a plastic bottle
+The bass instrument consists of a fairly basic sawtooth wave being fed into a high-cut filter with a variable LFO. The interesting part is the input, and how this was mapped: 
+
+The input to Bela was a pressure sensor attached to a plastic bottle, underneath a tight strap. When the bottle was squeezed, the walls of the bottle would expand and push more against the strap, giving different levels to the pressure sensor. The pressure sensor sent voltage variations to Bela where the PD patch converted the voltage variations into integral numbers. The integral numbers were then fed into a "select" object, which sends out a message to the different outputs, depending on the input. The different outputs were then patched to six different sawtooth oscillators, each corresponding to a note in the chosen scale. 
+
+![Sampler / looper](/assets/img/group_a/birdsnest.jpg)
+
+The design of the patch could be improved in the future by mapping buttons to transpose it to different scales, more inputs for controlling effects, more advanced oscillators etc. But all in all, I am happy with the result, it did the job and sounded pretty bad-ass. 
+
 ## Timeline
 In the start, we had a vision of how we wanted the instrumentation of our "band" to look like, but we had no idea of how we were supposed to get there. It was through a creative process of exploring the possibilities of the software, within the limitations of the given theme that we ended up with our final concept. 
 
