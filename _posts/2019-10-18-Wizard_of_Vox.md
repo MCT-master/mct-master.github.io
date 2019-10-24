@@ -14,27 +14,30 @@ Wizard Of Vox is a gesture-based speech synthesis system. I have been fascinated
 ## Theory
 
 The prototype I devised in this project is based on the source-filter theory of speech, which posits that speech outputs can be analysed as the response of a set of vocal tract filters to one or more sources of sound energy. A source in the vocal tract is any modulation of the airflow that creates audible energy. For speech, there are two main categories of sources:
-1)	Glottal constrictions
-2)	Supralangyreal constrictions
-Glottal sounds can be voiced or unvoiced. Both the voiced and unvoiced sources (unvoiced as in whispering voice) are highly modifiable by the shape of the oral and nasal cavities. All sonorants (vowels, glides, liquids and nasal consonants) are characterised by what is termed as formants. In particular, the first and second formants have a large role in how we perceive sonorants. For this system, I have relied on these two formants (hereafter called F1 and F2) to control the speech synthesis. F1 and F2 were mapped to the accelerometer axes X and Y. By tilting the accelerometer right/left and backward/forward, I could thus easily access all sonorant within a short time period (fraction of a second).
 
+1. Glottal constrictions
+2. Supralangyreal constrictions
+   Glottal sounds can be voiced or unvoiced. Both the voiced and unvoiced sources (unvoiced as in whispering voice) are highly modifiable by the shape of the oral and nasal cavities. All sonorants (vowels, glides, liquids and nasal consonants) are characterised by what is termed as formants. In particular, the first and second formants have a large role in how we perceive sonorants. For this system, I have relied on these two formants (hereafter called F1 and F2) to control the speech synthesis. F1 and F2 were mapped to the accelerometer axes X and Y. By tilting the accelerometer right/left and backward/forward, I could thus easily access all sonorant within a short time period (fraction of a second).
+
+<figure>
 <img src="/assets/img/vowels.jpg" width="80%" height="80%" align="center" />
 <figcaption><strong>Figure 1: The vowel quadrilateral with F1 frequencies on the Y axis and F2 frequencies on the X axis. Vowel placements are shown as coordinates on this X-Y plane.</strong></figcaption>
 </figure>
-
 
 In addition to the glottal sources, supralangyreal sources are turbulence noise happening higher up in the palette, tongue, teeth and lips. These are independent of the glottal sounds, and they do not have formants as such. These sounds (most of what we call consonants) are characterized by the type of friction occurring. From now on I will call these source sounds obstruants, which is the linguistic term.
 
 ## Synthesis
 
 All these sounds have been modelled in pd using subtractive synthesis:
--	Source sound for voiced glottal sounds: sawtooth wave (pd object phasor~)
--	Source sound for unvoiced glottal sounds: white noise (pd object noise~)
--	Source sound for unvoiced obstruants: white noise
--	Source sound for voiced obstruants: sawtooth + white noise
--	Filtering technique for sonorants and aspiration: formant synthesis (using the vcf~ object in pd)
--	Filtering techniches for obstruants: band pass/band stop filtering
 
+- Source sound for voiced glottal sounds: sawtooth wave (pd object phasor~)
+- Source sound for unvoiced glottal sounds: white noise (pd object noise~)
+- Source sound for unvoiced obstruants: white noise
+- Source sound for voiced obstruants: sawtooth + white noise
+- Filtering technique for sonorants and aspiration: formant synthesis (using the vcf~ object in pd)
+- Filtering techniches for obstruants: band pass/band stop filtering
+
+<figure>
 <img src="/assets/img/flow.png" width="80%" height="80%" align="center" />
 <figcaption><strong>Figure 2: Audio flow chart</strong></figcaption>
 </figure>
@@ -44,12 +47,14 @@ All these sounds have been modelled in pd using subtractive synthesis:
 Accelerometer X/Y controls the formants (F and F2)
 The flex sensor controls pitch and amplitude at the same time (the higher the energy, the higher the pitch). But the range of the flex sensor is divided into two separate regions. For the first 40 % of the range, the source is white noise, and this is meant to model aspiration (i.e. unvoiced) before voicing actually kicks in for the final 60% of the range. This makes it possible to simulate the breathiness of the human voice as it starts vocalizing. It also makes it possible to simulate the “H” consonant properly, because the phoneme “H” is actually different depending on the subsequent vowel. The “H” in “hello” is phonetically different from the “H” in “happy”.
 
+<figure>
 <img src="/assets/img/flex.jpg" width="40%" height="40%" align="center" />
 <figcaption><strong>Figure 3: The flex sensor</strong></figcaption>
 </figure>
 
 Finally, there are seven different buttons triggering consonants. These are divided into three buttons for the nasal consonants “M”, “N” and “NG”, which have a voiced glottal sound source and thus modified by formants, and four buttons for the consonants “S”, “P”, “T” and “K”. For this prototype, I did not make triggers for more than these consonants, but the longer-term plan is to be able to trigger more consonants through the combination of these same buttons.
 
+<figure>
 <img src="/assets/img/subpatch.png" width="100%" height="100%" align="center" />
 <figcaption><strong>Figure 4: The subpatch for glottal source sounds and their processing</strong></figcaption>
 </figure>
@@ -79,5 +84,3 @@ Mori, M., MacDorman, K. F., & Kageki, N. (2012). The Uncanny Valley [From the Fi
 Sawyer, J. (accessed 2019). The Acoustic Property of Vowels and Consonants. CSD 349: Speech and Hearing Science. Compendium text, Illinois State University. http://my.ilstu.edu/~jsawyer/consonantsvowels/consonantsvowels_print.html (Links to an external site.)
 
 Smith, J. (2008). Speech Synthesizer. Documentation of university coursework. McGill University, Montreal, Quebec, Canada. http://www.music.mcgill.ca/~jordan/coursework/mumt307/speech_synth.html
-
-
