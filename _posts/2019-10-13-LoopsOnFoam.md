@@ -4,7 +4,7 @@ title: 'LoopsOnFoam'
 date: 2019-10-13 13:30:00 +0200
 categories: Interactive-Systems
 author: Jørgen Nygård Varpe
-image: https://media.githubusercontent.com/media/MCT-master/mct-master.github.io/master/assets/img/varpe/LoopsOnFoam.jpg
+image: /assets/img/varpe/LoopsOnFoam.jpg
 excerpt: 'During a 2-week intensive workshop in the course Interactive Music Systems I worked on the development of an instrument prototype, which I named LoopsOnFoam.'
 Keywords: Interactive Music Systems, IMS, Bela, Sensors, Pure Data
 ---
@@ -18,7 +18,7 @@ I wanted a system that could loop audio input and be able to manipulate/control 
 The looper can record and play three loops, with a dynamic microphone as audio input. The three leftmost buttons on the breadboard controls this. Press once and you start recording, press again and you stop recording and it automatically starts playing, press a third time and you stop it. Then you can overwrite the loop, following the same procedure.
 
 <figure>
-<img src="https://media.githubusercontent.com/media/MCT-master/mct-master.github.io/master/assets/img/varpe/looper.jpg" width = "50%" align="center"/>
+<img src="/assets/img/varpe/looper.jpg" width = "50%" align="center"/>
 <figcaption><strong>Looper device</strong></figcaption>
 </figure>
 
@@ -27,7 +27,7 @@ The looper can record and play three loops, with a dynamic microphone as audio i
 The foam has a piezo microphone and an ultrasonic distance sensor attached to it. You choose which loop to control by pressing the rightmost button on the breadboard. A blue LED will light up next to the button (loop) you are selecting.
 
 <figure>
-<img src="https://media.githubusercontent.com/media/MCT-master/mct-master.github.io/master/assets/img/varpe/controller.jpg" width = "50%" align="center" />
+<img src="/assets/img/varpe/controller.jpg" width = "50%" align="center" />
 <figcaption><strong>Controller</strong></figcaption>
 </figure>
 
