@@ -54,7 +54,7 @@ The bass instrument consists of a fairly basic sawtooth wave being fed into a hi
 
 The input to Bela was a pressure sensor attached to a plastic bottle, underneath a tight strap. When the bottle was squeezed, the walls of the bottle would expand and push more against the strap, giving different levels to the pressure sensor. The pressure sensor sent voltage variations to Bela where the PD patch converted the voltage variations into integral numbers. The integral numbers were then fed into a "select" object, which sends out a message to the different outputs, depending on the input. The different outputs were then patched to six different sawtooth oscillators, each corresponding to a note in the chosen scale. 
 
-![Sampler / looper](/assets/img/group_a/birdsnest.jpg)
+![Pardon the birds nest](/assets/img/group_a/birdsnest.jpg)
 
 The design of the patch could be improved in the future by mapping buttons to transpose it to different scales, more inputs for controlling effects, more advanced oscillators etc. But all in all, I am happy with the result, it did the job and sounded pretty bad-ass. 
 
