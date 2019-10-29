@@ -30,10 +30,8 @@ These criteria were loosely based around these qualities of a microphone and the
 ### MD421 (in Oslo)
 
 <figure>
-<img src="/assests/img/portal/md421.jpg" width = "50%" align="center" />
+	<img src="/assests/img/portal/md421.jpg" width = "50%" align="center"/>
 </figure>
-
-![MD421](/assests/img/portal/md421.jpg)
 
 	• needs more gain
 	• less sensitive
@@ -44,7 +42,9 @@ These criteria were loosely based around these qualities of a microphone and the
 
 ### SM7b (in Trondheim)
 
-![SM7b](/assests/img/portal/sm7b.jpg)
+<figure>
+	<img src="/assests/img/portal/sm7b.jpg" width = "50%" align="center"/>
+</figure>
 
 	• dryer
 	• more low end
@@ -56,7 +56,10 @@ These criteria were loosely based around these qualities of a microphone and the
 	• better than the MD421
 
 ### Sennheiser 835 (in Oslo)
-![Sennheiser 835](/assests/img/portal/s835.jpg)
+
+<figure>
+	<img src="/assests/img/portal/s835.jpg" width = "50%" align="center"/>
+</figure>
 
 	• drier
 	• direct, less room
@@ -70,7 +73,9 @@ These criteria were loosely based around these qualities of a microphone and the
 
 ### Boundary mic (in Trondheim)
 
-![Boundary mic](/assests/img/portal/boundary_mic.jpg)
+<figure>
+	<img src="/assests/img/portal/boundary_mic.jpg" width = "50%" align="center"/>
+</figure>
 
 	• space wise, very little clutter
 	• but room sound is apparent
@@ -78,8 +83,9 @@ These criteria were loosely based around these qualities of a microphone and the
 	• muddy
 
 ### Shotgun mic (in Trondheim)
-
-![Shotgun mic](/assests/img/portal/shotgun_mic.jpg)
+<figure>
+	<img src="/assests/img/portal/shotgun_mic.jpg" width = "50%" align="center" />
+</figure>
 
 	• clear and collected
 	• directional
@@ -89,7 +95,9 @@ These criteria were loosely based around these qualities of a microphone and the
 
 ### AT AE5100 (X/Y Stereo) (in Oslo)
 
-![AT AE5100](/assests/img/portal/ae5100.jpg)
+<figure>
+	<img src="/assests/img/portal/ae5100" width = "50%" align="center"/>
+</figure>
 
 	• clear and transparent
 	• less muddy
@@ -100,7 +108,9 @@ These criteria were loosely based around these qualities of a microphone and the
 	
 ### Overhead mic
 
-![Overhead mic](/assests/img/portal/biamp.jpg)
+<figure>
+	<img src="/assests/img/portal/biamp.jpg" width = "50%" align="center"/>
+</figure>
 
 	• good spatialization
 	• no reverb
