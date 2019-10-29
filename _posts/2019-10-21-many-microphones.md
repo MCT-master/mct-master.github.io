@@ -10,7 +10,7 @@ excerpt: "We've spent a few days (in addition to the many miscellanous hours dur
 
 # Many Microphones
 
-We've spent a few days (in addition to the many miscellanous hours during class) reconfiguring the Portal and testing out new hardware and how it might improve the quality of our sound. Here are a list of microphones we were able to test over the MCT 4021 class.
+We've spent a few days (in addition to the many miscellanous hours during class) reconfiguring the Portal and testing out new hardware and how it might improve the quality of our sound. Here are a list of microphones we were able to test over the MCT 4021 class. This list will likely be updated with any new mics we test and other miscellaneous notes we find about our experiences streaming with them.
 
 ### Microphone criteria
 
