@@ -71,13 +71,33 @@ This section is not meant to sound realistic but more dramatic and create more t
 
 **Multi-Encoder** - Once instance of the multi encoder was used to place the sound samples of cat, baby crying,Phone ringing and people talking. Each sample is placed differently  in the 360 degrees soundfield by controlling the azimuth angle and automating to add some movement. 
 
+<figure>
+<img src="/assets/img/Elias/Body_Drums.jpg" width = "50%" align="center" />
+<figcaption><strong>Body Drums</strong></figcaption>
+</figure>
+
 **Lowpass Filtering** - adding Low pass filtering for the samples that has to be placed a bit far in the soundfield. This more like additional reinforcement with the gain adjustment to move objects further away from the listener. 
 
-**Room Encoder** -  Room encoder was used to create a large space that include stairs.  The position of the person was automated from right back to left back. And the cutoff frequency of the  low pass filtering has been automated to add a better perception of distance and the size of the environment. 
+**Room Encoder** -  Room encoder was used to create a large space that include stairs.  The position of the person was automated from right back to left back. And the cutoff frequency of the  low pass filtering has been automated to add a better perception of distance and the size of the environment.
 
-**LFO shapes** - LFO shapes of Saw,Triangular, Square and Parametric were used as automation patterns of the Azimuth angle in Multi_Encoder  to create fast movements for the voices. Using LFO shapes seems to be an efficient way of spreading sound in the field evenly and changing the number of cycles with time.  
+<figure>
+<img src="/assets/ARoom.PNG" width = "50%" align="center" />
+<figcaption><strong>Body Drums</strong></figcaption>
+</figure>
+
+**LFO shapes** - LFO shapes of Saw,Triangular, Square and Parametric were used as automation patterns of the Azimuth angle in Multi_Encoder  to create fast movements for the voices. Using LFO shapes seems to be an efficient way of spreading sound in the field evenly and changing the number of cycles with time.
+
+<figure>
+<img src="/assets/ALFO.PNG" width = "50%" align="center" />
+<figcaption><strong>Body Drums</strong></figcaption>
+</figure>
 
 **Dual Delay** -  This was used to add repetitions for voices and automation of the delay time to add a pitch warping effect to voices add the very end. The delay added more glue to the section with voices and also gave a better transition to the next scene. 
+
+<figure>
+<img src="/assets/Adelay.PNG" width = "50%" align="center" />
+<figcaption><strong>Body Drums</strong></figcaption>
+</figure>
 
 **Scene 2 - After the accident - Guy Sion**
 
