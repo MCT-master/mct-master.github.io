@@ -20,9 +20,14 @@ Our composition is made out of four scenes lasting 1 minute each.<br>
 As the subject of our piece has elements of abstract mental struggle, and a clear death scene - we felt it fitting that the last scene would be ambiguous, or other wordly - there is no clear understanding of what happens beyond death…..<br> 
 
 
-Have a listen to our result:
+## Have a listen to our result (Headphones required):
 
-----Add an audio player to the full audio recording here----
+<figure align="center">
+<audio controls>
+  <source src="/assets/sounds/" type="audio/mpeg">
+Your browser does not support the audio element.
+</audio>
+</figure>
 
 
 ## Complete scene and timeline description
