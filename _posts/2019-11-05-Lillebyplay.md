@@ -1,7 +1,7 @@
 ---
 layout: post
 title: '3D Radio Theater - Lilleby'
-date: 2019-11-05 10:00:00 +0200
+date: 2019-11-05 09:00:00 +0200
 categories: Spatial-Audio
 author: Karolina Jawad, Jørgen Nygård Varpe, Sepehr Haghighi, Eigil Aandahl
 image: /assets/img/lilleby.jpg
