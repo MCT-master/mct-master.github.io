@@ -113,7 +113,7 @@ The scene starts with a loud Thunder composed of two layers: mid-high and a deep
 Additional layers that start playing from the beginning of the scenes are an ambisonic recording made on the side of a highway (by ullevål stadion in Oslo).
 
 <figure>
-<img src="/assets/img/guysion/ims/highway.jpg" width = "50%" align="center" />
+<img src="/assets/img/guysion/highway.jpg" width = "50%" align="center" />
 </figure>
 
 We can hear the heavy breathing of the person, breathings that will slow down as the scene continues and more help arrives.
