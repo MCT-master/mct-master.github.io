@@ -24,7 +24,7 @@ As the subject of our piece has elements of abstract mental struggle, and a clea
 
 <figure align="center">
 <audio controls>
-  <source src="/assets/sounds/" type="audio/mpeg">
+  <source src="/assets/sounds/Spatial_Trip_Binaural.mp3" type="audio/mpeg">
 Your browser does not support the audio element.
 </audio>
 </figure>
