@@ -33,7 +33,8 @@ In addition to the creation of new instruments using the Wekinator, we dug a lit
 
 We used the [Scikit-learn](https://scikit-learn.org/stable/tutorial/basic/tutorial.html) package to train a supervised neural network classifier using our dataset (Scikit-Learn…). Since we were using supervised learning, our audio samples were loaded and labeled via our own labels. Here we chose a sample rate at which the audio files would be resampled. We chose the scalar and vectorial features that corresponded to sonic elements within the sound samples. These features were then extracted and appended into an array along with an array for the feature’s labels. Finally, the model was trained using a 70/30 split of the dataset (very typical) with 70% of the data used for a training set and 30% as a validation set for the classifier. Evaluation was based on the number of mislabeled examples, a confusion matrix to describe the frequency of label identity within each category, as well as a metric for accuracy across all classification of the validation set. Upon evaluation, parameters like sampling rate, scalar and vectorial feature set, hidden layer count and size, epoch maximum count, and activation function (Figure 1).
 
-![Some of the more common activation functions](/assets/img/b-team/act_functions.png)
+
+<img src="/assets/img/b-team/act_functions.png" width="400">
 Figure 1: Some of the more common activation functions (Jadon, 2019)
 
 ## Testing and Configuration
@@ -42,12 +43,12 @@ After running a few evaluations of Team B’s dataset, we decided that because a
 
 ## Results?
 
-![Jarle's results for one attempt](/assets/img/b-team/classifier.png)
+<img src="/assets/img/b-team/classifier.png" width="400">
 Figure 2: Jarle's results for one attempt
 
 Building a model to categorize Team B’s dataset was largely successful, with an accuracy of 94% over a 10-fold validation (at our best, see Figure 3). Afterwards, we trained the model with another group’s dataset to compare whether our configuration would apply to another database: it did not. We found that Team B and Team C compiled _very_ different datasets, resulting in less accurate classifiers built from the sample database. We were only able to achieve a consistent 70%, regardless it seemed, of changes to the activation function or hidden layer architecture. Team C’s sounds, it seemed from examination by ear, shared less sonic similarities, and appeared to be sourced from multiple different sample packs (shame on them!).
 
-![Jackson's results averaged over 10 iterations](/assets/img/b-team/classifier2.png)
+<img src="/assets/img/b-team/classifier2.png" width="400">
 Figure 3: Jackson's results averaged over 10 iterations
 
 In any case, through this module, we were able to learn quite a bit about the theory (and some practice) of basic machine learning. We trained an instrument using a readily made neural model to produce control dynamic synth in space and a classifier that was able to recognize categories of sound using their spectral qualities accurately. With this perspective, we did succeed in dipping our toes into the great big world of machine learning.
