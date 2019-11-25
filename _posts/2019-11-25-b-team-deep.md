@@ -1,11 +1,11 @@
 ---
 layout: post
-title: 'Team B Dives in Deep (Learning!)'
+title: 'The B Team Dives in Deep (Learning!)'
 date: 2019-11-25 19:30:00 +0100
 categories: Machine-Learning
 author: Jackson, Jarle, Simon
 image: /assets/img/b-team/ml_final.jpg
-excerpt: 'The title of our project is "Orchestrash" inspired by the theme of the competition and our approach to solving it, by making individual instruments controlled by recycled materials and "recycling" sound by sampling'
+excerpt: 'Well, here we are, at the end of a semester where one of the most challenging courses remain - only Rebecca Fiebrink can save us now.'
 ---
 
 ## Gyro-synth: A Musical Instrument built with the Wekinator
