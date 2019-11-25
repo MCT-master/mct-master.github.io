@@ -4,7 +4,7 @@ title: 'Team B Dives in Deep (Learning!)'
 date: 2019-11-25 19:30:00 +0100
 categories: Machine-Learning
 author: Jackson, Jarle, Simon
-image: /assets/img/group_a/recycle_orchestra.jpg
+image: /assets/img/b-team/ml_final.jpg
 excerpt: 'The title of our project is "Orchestrash" inspired by the theme of the competition and our approach to solving it, by making individual instruments controlled by recycled materials and "recycling" sound by sampling'
 ---
 
