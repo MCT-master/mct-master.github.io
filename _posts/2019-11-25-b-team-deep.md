@@ -8,7 +8,7 @@ image: /assets/img/b-team/ml_final.jpg
 excerpt: 'Well, here we are, at the end of a semester where one of the most challenging courses remain - only Rebecca Fiebrink can save us now.'
 ---
 
-## Gyro-synth: A Musical Instrument built with the Wekinator
+# Gyro-synth: A Musical Instrument built with the Wekinator
 
 For the November 21st performance, our group trained a Machine Learning (ML) model using the [Wekinator](http://www.wekinator.org/) application to easily map a synthesizer with a mobile OSC controller. We used the gyroscope sensor in our phones and an FM synthesizer application that was included in the example applications provided by the Wekinator author. The gyroscope sensory sends three continuous data streams for the x, y, and z axes, and the FM synth had three input parameters for modulation, frequency, offset. The gyroscope data streams were sent directly to the IP of our PCs with the port and OSC message specified within the Wekinator program via two different OSC apps: Sensors2OSC for two of the members’ Android smartphones, and GyrOSC for the third member’s iPhone. The Wekinator, simply, is a software that makes the process of building a custom musical controller using ML easy and approachable (Fiebrink, 2010).
 
@@ -52,7 +52,7 @@ Figure 3: Jackson's results averaged over 10 iterations
 
 In any case, through this module, we were able to learn quite a bit about the theory (and some practice) of basic machine learning. We trained an instrument using a readily made neural model to produce control dynamic synth in space and a classifier that was able to recognize categories of sound using their spectral qualities accurately. With this perspective, we did succeed in dipping our toes into the great big world of machine learning.
 
-## References
+# References
 
 Fiebrink, Rebecca, and Perry Cook. “The Wekinator: A System for Real-Time, Interactive Machine Learning in Music.” _Proceedings of The Eleventh International Society for Music Information Retrieval Conference (ISMIR 2010)_, Jan. 2010.
 
