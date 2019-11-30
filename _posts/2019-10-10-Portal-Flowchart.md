@@ -9,7 +9,7 @@ excerpt: 'The MCT portal has been subject to many configurations over the last c
 Keywords: MCT Portal, signal flow
 ---
 
-## Week 41 in the portal. Group C
+## Week 41 in the portal, Group C
 
 # Flowcharts 
 
