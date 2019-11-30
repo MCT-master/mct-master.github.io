@@ -93,7 +93,7 @@ These criteria were loosely based around these qualities of a microphone and the
 ### AT AE5100 (X/Y Stereo) (in Oslo)
 
 <figure>
-<img src="/assets/img/portal/ae5100.jpg" width = "50%" align="center" />
+<img src="/assets/img/portal/ae5100.jpg" align="center" />
 </figure>
 
     • clear and transparent
