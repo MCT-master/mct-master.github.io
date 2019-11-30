@@ -64,7 +64,8 @@ These criteria were loosely based around these qualities of a microphone and the
 ### Ceiling mic (in Trondheim)
 
     • too low
-    • unusable (crap)
+    • very poor sound quality
+    • unusable
 
 ### Boundary mic (in Trondheim)
 
