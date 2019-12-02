@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 'Physical computing Day 1- Group B'
+title: 'Physical computing Day 1 - Group B'
 date: 2019-10-15 17:00 +0200
 categories: Physical Computing
 author: Rayam, Gaute, Thibault, Ulrik
