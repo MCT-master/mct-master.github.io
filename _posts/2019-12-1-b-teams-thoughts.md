@@ -8,7 +8,7 @@ image: /assets/img/b-team/x-mas.jpg
 excerpt: "We made it out of the Portal, now what?"
 Keywords: Portal, Reflections, Concert
 ---
-# Reflection of MCT 4021
+# Reflections 
 
 Navigating the MCT Portal been an incredibly interesting journey so far. The program is innovative through a number of ways, one being that the learning environment is part and parcel of the education. In fact, much of the learning experience has revolved around the Portal. There is the daily setup, troubleshooting, and improvements that often coincide with the classes that took place within the learning space. This interactive room provided a degree of responsibility and familiarity over a complex, live audio system.
 
