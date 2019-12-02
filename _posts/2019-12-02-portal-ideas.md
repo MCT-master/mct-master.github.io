@@ -5,7 +5,7 @@ date: 2019-12-02 13:40:30 +0100
 categories: Portal
 author: Rayam, Gaute, Thibault, Ulrik
 image: /assets/img/group_a/portal1.jpg
-excerpt: 'Excerpt here'
+excerpt: 'Instead of starting up the M32 every day, recalling the correct preset, adjusting the faders, turning on the screens, turning on the speakers, opening LOLA, connecting to the other side, pulling your hair out because nothing will work... Imagine just pressing a button and it all just works. '
 ---
 
 ## Introduction
