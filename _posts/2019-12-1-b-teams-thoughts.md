@@ -15,7 +15,7 @@ Navigating the MCT Portal been an incredibly interesting journey so far. The pro
 But on the flip side, the Portal has also been a source of stress for students and teachers alike and has led us to make improvements over the course of the semester. Though many issues remain, I believe we have made considerable progress and have a clear vision of how we ought to improve it in the coming semesters.
 
 Here's a shot of this year's X-mas concert; a culmination of our technical efforts!
-<img src="/assets/img/b-team/x-mas.jpg" width="500">
+<img src="/assets/img/b-team/x-mas.jpg" width="650">
 
 
 ## Learning Outcomes
