@@ -3,7 +3,7 @@ layout: post
 title: 'UltraGrid'
 date: 2019-09-22 16:00:00 +0200
 categories: Portal
-author: Aleksander Tidemann
+author: Aleksander Tidemann, Thomas Anda, Paul Koenig, Tom Ignatius
 image: /assets/img/group-c/ultragrid.jpg
 excerpt: 'Exploring an alternative audio and video network transmission software in the MCT portal.'
 Keywords: Portal, Network transmission, ultragrid

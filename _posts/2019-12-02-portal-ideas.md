@@ -83,3 +83,7 @@ One argument against this could be that we then would place the microphones furt
 Maybe it's not very high-tech MCT, but putting up good old physical absorbents in the classroom is a very easy way to improve the audio in the portal. This might serve a double function by making the space more pleasant to look at as well; During the christmas concert, the Oslo side put up molton over some of the walls, in order to hide the cables. What a difference! Doing this was like enabling dark-mode on your phone. 
 
 Molton is extremely cheap, so is Rockwool and regular floor carpets at IKEA or the local flea market. This might be the easiest way to greatly improve our day to day experience of being in the portal. Further improvements could maybe involve some plants? An MCT cat? The possibilities are almost endless. 
+<figure>
+<img src="/assets/img/group_a/cat.jfif" align="center" />
+<figcaption><strong>The MCT cats</strong></figcaption>
+</figure>
