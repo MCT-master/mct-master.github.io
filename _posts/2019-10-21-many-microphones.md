@@ -25,7 +25,7 @@ These criteria were loosely based around these qualities of a microphone and the
 ### MD421 (in Oslo)
 
 <figure>
-<img src="/assets/img/portal/md421.jpg" width = "50%" align="center"/>
+<img src="/assets/img/portal/md421.jpg" width = "30%" align="left"/>
 </figure>
 
 	• needs more gain
@@ -38,7 +38,7 @@ These criteria were loosely based around these qualities of a microphone and the
 ### SM7b (in Trondheim)
 
 <figure>
-<img src="/assets/img/portal/sm7b.jpg" width = "50%" align="center"/>
+<img src="/assets/img/portal/sm7b.jpg" width = "30%" align="left"/>
 </figure>
 
     • dryer
@@ -53,7 +53,7 @@ These criteria were loosely based around these qualities of a microphone and the
 ### Sennheiser 835 (in Oslo)
 
 <figure>
-<img src="/assets/img/portal/s835.jpg" width = "50%" align="center"/>
+<img src="/assets/img/portal/s835.jpg" width = "30%" align="left"/>
 </figure>
 
     • drier
@@ -70,7 +70,7 @@ These criteria were loosely based around these qualities of a microphone and the
 ### Boundary mic (in Trondheim)
 
 <figure>
-<img src="/assets/img/portal/boundary_mic.jpg" width = "50%" align="center"/>
+<img src="/assets/img/portal/boundary_mic.jpg" width = "30%" align="left"/>
 </figure>
 
     • space wise, very little clutter
@@ -81,7 +81,7 @@ These criteria were loosely based around these qualities of a microphone and the
 ### Shotgun mic (in Trondheim)
 
 <figure>
-<img src="/assets/img/portal/shotgun_mic.jpg" width = "50%" align="center" />
+<img src="/assets/img/portal/shotgun_mic.jpg" width = "30%" align="left" />
 </figure>
 
     • clear and collected
@@ -93,7 +93,7 @@ These criteria were loosely based around these qualities of a microphone and the
 ### AT AE5100 (X/Y Stereo) (in Oslo)
 
 <figure>
-<img src="/assets/img/portal/ae5100.jpg" width = "50%" align="center" />
+<img src="/assets/img/portal/ae5100.jpg" width = "30%" align="left" />
 </figure>
 
     • clear and transparent
@@ -106,7 +106,7 @@ These criteria were loosely based around these qualities of a microphone and the
 ### Overhead mic
 
 <figure>
-<img src="/assets/img/portal/biamp.jpg" width = "50%" align="center"/>
+<img src="/assets/img/portal/biamp.jpg" width = "30%" align="left"/>
 </figure>
 
     • good spatialization
