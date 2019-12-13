@@ -101,3 +101,12 @@ A special problem occured due to the fact that the different music takes, that w
 ## Evaluation
 Considering our finale result, the production of a 4-5 minutes promotional video that includes high-quality audio and video, looks reasonably professional and convincing, we believe that we reached our objectives. Within our group, we kept assessing the results throughout the process by maintaining close contact between us for constructive feedback.
 Another advantage of using this method was the division of the workload into smaller segments. Separating the production into four stages (testing, audio recording, video shooting, post-production) allowed us to maintain flexibility and helped us have better control over our progress, which lead to a satisfying outcome.
+
+### Video
+Finally, following you can watch the two different versions of the video (Norsk and English):
+#### Norsk:
+<iframe src="https://player.vimeo.com/video/379255012" width="640" height="360" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
+<p><a href="https://vimeo.com/379255012">Carmen, UiO/NTNU Portalen, norsk versjon</a> from <a href="https://vimeo.com/user82025745">Argus Film AS</a> on <a href="https://vimeo.com">Vimeo</a>.</p>
+#### English:
+<iframe src="https://player.vimeo.com/video/379254811" width="640" height="360" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
+<p><a href="https://vimeo.com/379254811">Carmen, UiO/NTNU Portal, English version</a> from <a href="https://vimeo.com/user82025745">Argus Film AS</a> on <a href="https://vimeo.com">Vimeo</a>.</p>
