@@ -104,9 +104,8 @@ Another advantage of using this method was the division of the workload into sma
 
 ### Video
 Finally, following you can watch the two different versions of the video (Norsk and English):
-#### Norsk:
-<iframe src="https://player.vimeo.com/video/379255012" width="640" height="360" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
-<p><a href="https://vimeo.com/379255012">Carmen, UiO/NTNU Portalen, norsk versjon</a> from <a href="https://vimeo.com/user82025745">Argus Film AS</a> on <a href="https://vimeo.com">Vimeo</a>.</p>
-#### English:
-<iframe src="https://player.vimeo.com/video/379254811" width="640" height="360" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
-<p><a href="https://vimeo.com/379254811">Carmen, UiO/NTNU Portal, English version</a> from <a href="https://vimeo.com/user82025745">Argus Film AS</a> on <a href="https://vimeo.com">Vimeo</a>.</p>
+#### Norsk version:
+[![Norsk Version](/assets/img/musicvideo.png)](https://vimeo.com/379255012 "Carmen (Norsk version) - Click to Watch!")
+
+#### English version:
+[![English Version](/assets/img/musicvideo.png)](https://vimeo.com/379254811 "Carmen (English version) - Click to Watch!")
