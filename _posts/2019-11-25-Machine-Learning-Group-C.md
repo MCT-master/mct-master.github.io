@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Take this Algorithm and Scikit in your Wekinator!
+title: Group C Learns to Think about how Machines Learn to Think
 date: 2019-11-25 17:00:00 +0200
 categories: Music-and-Machine-Learning
 author: Paul Koenig, Aleksander Tidemann, Tom Ignatius, Thomas Anda
