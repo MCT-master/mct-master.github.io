@@ -34,7 +34,7 @@ Sound maps appeared to be a good solution for combining sonification and visuals
 To what extent can the prototype play with patterns, commonalities and casualties that lie in the data? Can our model of soundmap/cartophonic model portray or even affect micro mobility?
 
 <figure>
-<img src="/assets/img/picture-carmen/trondheim.jpg" width = "100%" align="center" />
+<img src="/assets/img/Elias/Inspiration.png" width = "100%" align="center" />
 </figure>
 
 ## Sound Design
