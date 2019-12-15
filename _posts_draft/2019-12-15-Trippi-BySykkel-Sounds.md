@@ -98,6 +98,14 @@ and a sine for the higher frequencies. The sine has a short attack and decay, th
 Again, this is then blended with same 2 layers (the ‘tube’ and ‘pop female ooh’ to thicken the sound. In their regard, the tube sound fills in the lower spectrum, and the female ‘ooh’ has a very slow attack time, and comes in when the note is held, bringing more depth in the mid to upper range after long legato notes.
 
 
+## The Data Inspired Music Model
+
+In charge of making one of the two sonification systems, Elias created the “Data inspired music model”. This model were made using Python and several Python packages. The system is based on mapping parameters from CSV files (open city bike data) to the sounds that were created by Sam. The Python script would start by reading the CSV file, which were an arbitrary selected file from Oslo Bysykkels open data. The file selected consisted of data from all the bike trips in Oslo from a specific month. The data consists of 13 variables from each trip. The variables used in this model was the starting time of the bike trip, it's duration and the latitude of the bike station.
+During the reading of this CSV file, the start/end date and time of the bike trips were converted to timestamps. Which are numbers of seconds since 1970. This makes it easier to get a grasp of the time between one bike being picked up and the next on the timeline. This is used to make the sounds being played in whatever time we select, but with the same amount of time between the different sounds in regard to the playback speed. The time would also be used to decide what sounds to play in regard of the different sounds depending on what time of the day it is.
+The latitude of the bike station decide what note to play. From lowest note furthest south to highest note furthest north.
+The duration of the bike trips decide if the model are going to play a long note or a short note. If the duration is below average duration, a short note is being played. If the duration if above the average duration the long note will be played. The duration of the bike trips also decide on the playback volume. Longer trips are played louder than the shorter one. 
+
+
 ## References
 
 Thulinn, Samuel (2016). Sound maps matter: expanding cartophony 
