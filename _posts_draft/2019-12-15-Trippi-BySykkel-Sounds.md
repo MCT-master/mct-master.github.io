@@ -16,7 +16,7 @@ In the context of the MCT Applied Project 2, our group collaborated with the ext
 ## Division of Labour
 
 <figure>
-<img src="/assets/img/picture-carmen/trondheim.jpg" width = "100%" align="center" />
+<img src="/assets/img/Elias/DivisionOfLabour.png" width = "100%" align="center" />
 </figure>
 
 We were all working together on the development process however, we were able to recall each of our areas of expertise. 
