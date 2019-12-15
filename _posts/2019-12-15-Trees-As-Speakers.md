@@ -42,19 +42,19 @@ It all started when we received equipment from ÅF engineering. Two problems aro
 
 - The amplifiers required a power supply of 32V
   <figure>
-  <img src="/assets/img/Varpe/sd250.png" width = "50%" />
+  <img src="/assets/img/varpe/sd250.png" width = "50%" />
   <figcaption><strong>sd250</strong></figcaption>
   </figure>
 - The exciters were meant for glass application.
   <figure>
-  <img src="/assets/img/Varpe/sd1g.png" width = "50%" />
+  <img src="/assets/img/varpe/sd1g.png" width = "50%" />
   <figcaption><strong>sd1g</strong></figcaption>
   </figure>
 
 We knew we would get this type of transducer, but we saw it as problematic to use these outdoors in the cold winter. Luckily, we were able to borrow the same type of exciters from Øyvind Brandtsegg, but with a surface mount plate, made for wood application. This made it easier for us to mount.
 
 <figure>
-<img src="/assets/img/Varpe/sd1gsm.png" width = "50%" />
+<img src="/assets/img/varpe/sd1gsm.png" width = "50%" />
 <figcaption><strong>sd1gsm</strong></figcaption>
 </figure>
 We tried to solve the issue of portable power supply in several ways:
@@ -73,19 +73,19 @@ Before being able to go outside we got familiarized with the equipment and a sof
 At Tømmerholtdammen in Trondheim, a remote and quiet place, two types of trees (birch and spruce) were picked, where we also investigated different sizes.
 
 <figure>
-<img src="/assets/img/Varpe/birch.jpg" width = "50%" />
+<img src="/assets/img/varpe/birch.jpg" width = "50%" />
 <figcaption><strong>birch</strong></figcaption>
 </figure>
 
 <figure>
-<img src="/assets/img/Varpe/spruce.jpg" width = "72%" />
+<img src="/assets/img/varpe/spruce.jpg" width = "72%" />
 <figcaption><strong>Spruce</strong></figcaption>
 </figure>
 
 To improve transmission from the exciter to the tree, we carved out a flat surface. Since we did not have any shovels nor waterproof exciters, we decided to start by mounting the exciters on the tree trunk.
 
 <figure>
-<img src="/assets/img/Varpe/exciterOnTree.jpg" width = "50%" />
+<img src="/assets/img/varpe/exciterOnTree.jpg" width = "50%" />
 <figcaption><strong>Spruce</strong></figcaption>
 </figure>
 
