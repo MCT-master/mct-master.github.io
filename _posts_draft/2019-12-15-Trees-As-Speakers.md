@@ -19,23 +19,44 @@ The initial visualization consists of so many data points that made it impossibl
 
 # Summary of Analysis
 First, we compared the recording of the regular birch tree with one exciter and two exciters. The results showed that Overall the number of Exciters doesn’t seem to affect the frequency response other than the levels. 
+
+<figure>
+<img src="/assets/img/Trees as speakers/figure2.jpg" width = "50%" align="center" />
+</figure>
+
 Figure 2: Frequency Response of Birch with 1-2 Exciters  
 
-Next, we wanted to investigate if the number of trees can affect the produced frequency content. From the results, we identified that using one exciter per each tree tends to produce a slight drop in 100 Hz - 380 Hz range.   
+Next, we wanted to investigate if the number of trees can affect the produced frequency content. From the results, we identified that using one exciter per each tree tends to produce a slight drop in 100 Hz - 380 Hz range.
+
+<figure>
+<img src="/assets/img/Trees as speakers/figure3.jpg" width = "50%" align="center" />
+</figure>
 
 Figure 3: Frequency response for two trees and one tree  
 
-Next, we analyzed the frequency responses of birch, Spruce and the large birch tree. The results were interesting and led to some ambiguity about the recording itself. According to the graph, the large birch tree is producing lower frequencies in the 100 Hz -200 Hz region. Then we had to reinvestigate if this low end is actually produced by the tree or by the background noise of the recording. The recording had a background noise of rain which was not possible to clean or remove during the editing process because it will drastically affect the frequency response graph.  
+Next, we analyzed the frequency responses of birch, Spruce and the large birch tree. The results were interesting and led to some ambiguity about the recording itself. According to the graph, the large birch tree is producing lower frequencies in the 100 Hz -200 Hz region. Then we had to reinvestigate if this low end is actually produced by the tree or by the background noise of the recording. The recording had a background noise of rain which was not possible to clean or remove during the editing process because it will drastically affect the frequency response graph. 
+
+<figure>
+<img src="/assets/img/Trees as speakers/figure4.jpg" width = "50%" align="center" />
+</figure>
 
 Figure 4: Frequency Response - Three types of trees  
 
 As we discussed in the group meeting, we created frequency response graphs of the background noise in the recording by choosing 1-3s clips of the background noise. And also created another frequency response graph by using the half-length sinusoidal sweeps (so the sweeps will start from 500 Hz- This step was for further confirmation that the low end was not produced by any background noise). As the final result, there is strong evidence to prove that the larger birch tree produces more low frequency content.
+
+<figure>
+<img src="/assets/img/Trees as speakers/figure5.jpg" width = "50%" align="center" />
+</figure>
 
 Figure 5: Noise Floor Analysis  
 
 According to the urban noise analysis we did, higher dB levels of low-frequency content below 100 Hz should be produced from trees to mask public noise. And also by listening and looking at the frequency spectrum, We realized that the noises from vehicles contribute more to the low frequencies in urban noises. We concluded that this kind of system is not suitable for noise masking but more appropriate as sound installations.Trees can be used in office spaces to play background music to break the extreme silence. Also, interactive installations can be done in public parks and children parks. As an example, playing sounds through trees which will trigger if a person gets closer to trees.
 
 Here is analysis of the Urban noise sample with trees
+
+<figure>
+<img src="/assets/img/Trees as speakers/figure6.jpg" width = "50%" align="center" />
+</figure>
 
 
 
