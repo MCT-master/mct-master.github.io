@@ -105,6 +105,9 @@ During the reading of this CSV file, the start/end date and time of the bike tri
 The latitude of the bike station decide what note to play. From lowest note furthest south to highest note furthest north.
 The duration of the bike trips decide if the model are going to play a long note or a short note. If the duration is below average duration, a short note is being played. If the duration if above the average duration the long note will be played. The duration of the bike trips also decide on the playback volume. Longer trips are played louder than the shorter one. 
 
+## Parametric Sonification Model
+Eigil made another way of sonifying the data from a CSV file using Max/MSP. This model used a similar way of extracting unix timecode from the start times of each line in the CSV file and then creating a delayed trigger within Max/MSP to read and parse the next line.
+By extracting parameters from the data such as length in meters, the average speed and duration, this can be played back almost like a score with different note events being changed by the parameters. Collecting all the necessary values and feeding them into a poly~ object makes it possible to generate multiple sounds layered on top of each other with the sounds being generated from the data. In this case, a note would have a lower pitch based on the average speed, and the pitch would rise according to the length of the trip. The duration of the sound is also mapped according to the duration of the trip, meaning if the playback is running at a factor of 1, the sound would take as long as the original trip took.
 
 ## References
 
