@@ -4,7 +4,7 @@ title: Group C Learns to Think about how Machines Learn to Think
 date: 2019-11-25 17:00:00 +0200
 categories: Music-and-Machine-Learning
 author: Paul Koenig, Aleksander Tidemann, Tom Ignatius, Thomas Anda
-image: /assets/img/group-c/horse.png
+image: /assets/img/group-c/cat.png
 excerpt: "Wherein we describe the denouement of MCT4000, Module #9: Machine Learning." 
 ---
 
