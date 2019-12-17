@@ -67,7 +67,7 @@ Third layer is subtle. It is a stock ‘pop female ahh’ sound that comes in wh
 
 Fully wet, slow chorus is added to this layer for taste
 
-###### Data Inspired Music Model, Sunday 7am:
+##### Data Inspired Music Model, Sunday 7am:
 <figure align="middle">
 <audio controls>
   <source src="/assets/sounds/Morning_Sunday.wav" type="audio/wav" volume="0.2">
