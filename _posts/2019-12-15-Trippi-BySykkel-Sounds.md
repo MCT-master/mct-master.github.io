@@ -67,6 +67,23 @@ Third layer is subtle. It is a stock ‘pop female ahh’ sound that comes in wh
 
 Fully wet, slow chorus is added to this layer for taste
 
+<figure align="middle">
+<audio controls>
+  <source src="/assets/sounds/Morning_Sunday.wav" type="audio/wav" volume="0.2">
+  Your browser does not support the audio element.
+</audio>
+  <figcaption><strong>Data Inspired Music Model, Sunday Morning</strong></figcaption>
+</figure>
+
+<figure align="middle">
+<audio controls>
+  <source src="/assets/sounds/Morning_Monday.wav" type="audio/wav" volume="0.2">
+  Your browser does not support the audio element.
+</audio>
+  <figcaption><strong>Data Inspired Music Model, Monday Morning</strong></figcaption>
+</figure>
+
+https://raw.githubusercontent.com/MCT-master/mct-master.github.io/master
 
 ### 2. Daytime 
 
