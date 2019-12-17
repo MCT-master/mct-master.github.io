@@ -72,7 +72,7 @@ Fully wet, slow chorus is added to this layer for taste
   <source src="/assets/sounds/Morning_Sunday.wav" type="audio/wav" volume="0.2">
   Your browser does not support the audio element.
 </audio>
-  <figcaption><strong>Data Inspired Music Model, Sunday Morning</strong></figcaption>
+  <figcaption><strong>Data Inspired Music Model, Sunday 7am</strong></figcaption>
 </figure>
 
 <figure align="middle">
@@ -80,10 +80,9 @@ Fully wet, slow chorus is added to this layer for taste
   <source src="/assets/sounds/Morning_Monday.wav" type="audio/wav" volume="0.2">
   Your browser does not support the audio element.
 </audio>
-  <figcaption><strong>Data Inspired Music Model, Monday Morning</strong></figcaption>
+  <figcaption><strong>Data Inspired Music Model, Monday 7am</strong></figcaption>
 </figure>
 
-https://raw.githubusercontent.com/MCT-master/mct-master.github.io/master
 
 ### 2. Daytime 
 
@@ -99,6 +98,14 @@ I feel this resonant, bright and short sound signifies the awareness and bright 
 
 It has been layered with the same 2 layers (the ‘tube’ and ‘pop female ooh’ to thicken the sound again, but also to have some continuity with the first patch
 
+<figure align="middle">
+<audio controls>
+  <source src="/assets/sounds/Midday_Sunday.wav" type="audio/wav" volume="0.2">
+  Your browser does not support the audio element.
+</audio>
+  <figcaption><strong>Data Inspired Music Model, Sunday 4pm</strong></figcaption>
+</figure>
+
 
 ### 3. Night  
 
@@ -113,6 +120,22 @@ and a sine for the higher frequencies. The sine has a short attack and decay, th
 #### Layer 2&3
 
 Again, this is then blended with same 2 layers (the ‘tube’ and ‘pop female ooh’ to thicken the sound. In their regard, the tube sound fills in the lower spectrum, and the female ‘ooh’ has a very slow attack time, and comes in when the note is held, bringing more depth in the mid to upper range after long legato notes.
+
+<figure align="middle">
+<audio controls>
+  <source src="/assets/sounds/Afternoon_Sunday.wav" type="audio/wav" volume="0.2">
+  Your browser does not support the audio element.
+</audio>
+  <figcaption><strong>Data Inspired Music Model, Sunday 8pm</strong></figcaption>
+</figure>
+
+<figure align="middle">
+<audio controls>
+  <source src="/assets/sounds/Evening_Sunday.wav" type="audio/wav" volume="0.2">
+  Your browser does not support the audio element.
+</audio>
+  <figcaption><strong>Data Inspired Music Model, Sunday 10pm</strong></figcaption>
+</figure>
 
 
 ## The Data Inspired Music Model
