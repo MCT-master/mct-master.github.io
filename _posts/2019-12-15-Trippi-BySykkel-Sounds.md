@@ -67,20 +67,20 @@ Third layer is subtle. It is a stock ‘pop female ahh’ sound that comes in wh
 
 Fully wet, slow chorus is added to this layer for taste
 
+###### Data Inspired Music Model, Sunday 7am:
 <figure align="middle">
 <audio controls>
   <source src="/assets/sounds/Morning_Sunday.wav" type="audio/wav" volume="0.2">
   Your browser does not support the audio element.
 </audio>
-  <figcaption><strong>Data Inspired Music Model, Sunday 7am</strong></figcaption>
 </figure>
 
+##### Data Inspired Music Model, Monday 7am
 <figure align="middle">
 <audio controls>
   <source src="/assets/sounds/Morning_Monday.wav" type="audio/wav" volume="0.2">
   Your browser does not support the audio element.
 </audio>
-  <figcaption><strong>Data Inspired Music Model, Monday 7am</strong></figcaption>
 </figure>
 
 
@@ -98,12 +98,12 @@ I feel this resonant, bright and short sound signifies the awareness and bright 
 
 It has been layered with the same 2 layers (the ‘tube’ and ‘pop female ooh’ to thicken the sound again, but also to have some continuity with the first patch
 
+##### Data Inspired Music Model, Sunday 4pm
 <figure align="middle">
 <audio controls>
   <source src="/assets/sounds/Midday_Sunday.wav" type="audio/wav" volume="0.2">
   Your browser does not support the audio element.
 </audio>
-  <figcaption><strong>Data Inspired Music Model, Sunday 4pm</strong></figcaption>
 </figure>
 
 
@@ -121,20 +121,20 @@ and a sine for the higher frequencies. The sine has a short attack and decay, th
 
 Again, this is then blended with same 2 layers (the ‘tube’ and ‘pop female ooh’ to thicken the sound. In their regard, the tube sound fills in the lower spectrum, and the female ‘ooh’ has a very slow attack time, and comes in when the note is held, bringing more depth in the mid to upper range after long legato notes.
 
+##### Data Inspired Music Model, Sunday 8pm
 <figure align="middle">
 <audio controls>
   <source src="/assets/sounds/Afternoon_Sunday.wav" type="audio/wav" volume="0.2">
   Your browser does not support the audio element.
 </audio>
-  <figcaption><strong>Data Inspired Music Model, Sunday 8pm</strong></figcaption>
 </figure>
 
+##### Data Inspired Music Model, Sunday 10pm
 <figure align="middle">
 <audio controls>
   <source src="/assets/sounds/Evening_Sunday.wav" type="audio/wav" volume="0.2">
   Your browser does not support the audio element.
 </audio>
-  <figcaption><strong>Data Inspired Music Model, Sunday 10pm</strong></figcaption>
 </figure>
 
 
