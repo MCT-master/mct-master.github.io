@@ -151,22 +151,19 @@ By extracting parameters from the data such as length in meters, the average spe
 
 ## References
 
-Thulinn, Samuel (2016). Sound maps matter: expanding cartophony 
+- Thulinn, Samuel (2016). Sound maps matter: expanding cartophony 
 https://www.tandfonline.com/doi/full/10.1080/14649365.2016.1266028
 
-The future of Micromobility
+- The future of Micromobility
 https://medium.com/urbansharing/what-this-years-sxsw-tells-us-about-the-future-of-micro-mobility-df2dbf521fb3
 
-COMPOSITION WITH PATH: MUSICAL SONIFICATION OF GEO-REFERENCED DATA WITH ONLINE MAP INTERFACE
-Park, S., Kim, S., Lee, S., Yeo, W.S., n.d. COMPOSITION WITH PATH: MUSICAL SONIFICATION OF GEO-REFERENCED DATA WITH ONLINE MAP INTERFACE
+- Composition With Path Musical Sonification Of Geo Referenced Data With Online Map Interface
+Park, S., Kim, S., Lee, S., Yeo, W.S., n.d. Composition With Path Musical Sonification Of Geo Referenced Data With Online Map Interface
 
-Images from https://medium.com/@jonolave/exploring-open-data-from-oslo-city-bike-67985a101268
+- Images from https://medium.com/@jonolave/exploring-open-data-from-oslo-city-bike-67985a101268
 
-Sonic City: The Urban Environment as Musical Interface
+- Sonic City: The Urban Environment as Musical Interface
 https://pdfs.semanticscholar.org/e3ab/f9dff14ca7c68b1ddeba113f982b512d6519.pdf
 
-Online Map Interface for Creative and Interactive Music Making
+- Online Map Interface for Creative and Interactive Music Making
 http://www.educ.dab.uts.edu.au/nime/PROCEEDINGS/papers/Demo%20N1-N20/P331_Park.pdf
-
-
-
