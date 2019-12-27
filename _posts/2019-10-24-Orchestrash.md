@@ -12,7 +12,7 @@ excerpt: 'The title of our project is "Orchestrash" inspired by the theme of the
 
 The title of our project is "Orchestrash" inspired by the theme of the competition and our approach to solving it, by making individual instruments controlled by recycled materials and "recycling" sound by sampling.
 
-Below is a video from our group performance. The beautiful video is edited by Rayam.
+Below is a video from our group performance. The video is edited by Rayam, and was filmed by Robin Støckert and Stefano Fasciani in Trondheim and Oslo, respectively.
 
 <iframe align="center" width="560" height="315" src="https://www.youtube.com/embed/xXK0Q3u_iQ0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
