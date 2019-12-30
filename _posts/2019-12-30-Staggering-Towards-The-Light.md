@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Staggering towards the light"
-date: 2019-12-10 23:58:42 +0200
+date: 2019-12-30 23:58:42 +0200
 categories: HCI
 author: Thomas Anda, Aleksander Tidemann, Paul Koenig & Tom Ignatius
 image: /assets/img/GroupC/HCI.jpg
