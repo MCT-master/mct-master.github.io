@@ -37,6 +37,8 @@ It is important to optimize the size of an image (typically around or below 100 
 
 Please note that the names of the image files should not contain white spaces to avoid potential issues of systems not finding the image.
 
+Files larger than 100 KB that are linked/embedded in blog posts, must be uploaded in the MCT Shared G Drive. More info can be found here [here](https://uio.instructure.com/courses/26125/pages/storage-of-data-for-the-mct-blog).
+
 ## Instructions for contributing to the MCT site
 
 ### Posting blog posts
