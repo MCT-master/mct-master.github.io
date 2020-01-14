@@ -35,6 +35,7 @@ We used the [Scikit-learn](https://scikit-learn.org/stable/tutorial/basic/tutori
 
 
 <img src="https://drive.google.com/a/uio.no/file/d/14PLm1MbV2yO7OKJ67f95jrE4RMhWeo9v/view?usp=sharing" width="500">
+<img src="https://lh3.googleusercontent.com/aSWsj_uC6Jot045K3ZqivAYA2kN4AmJ0ggw5i1dVoQvFJBQ1ez3QSLUox7JOM1_o-_EUI3o7AW6rGIwv2FM=w2560-h1430" width="500">
 Figure 1: Some of the more common activation functions (Jadon, 2019)
 
 
