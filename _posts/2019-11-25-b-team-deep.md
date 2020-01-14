@@ -15,12 +15,6 @@ For the November 21st performance, our group trained a Machine Learning (ML) mod
 Here's a brief intro from it's developer, Rebecca Fiebrink
 [![Intro to Wekinator](http://img.youtube.com/vi/dPV-gCqy9j4/0.jpg)](http://www.youtube.com/watch?v=dPV-gCqy9j4)
 
-<iframe src="https://drive.google.com/file/d/14PLm1MbV2yO7OKJ67f95jrE4RMhWeo9v/preview" width="640" height="480"></iframe>
-
-<iframe src="https://drive.google.com/file/d/1zm3Xc_FGzgRZhf78bCh01j4Xt470tto1/preview" width="640" height="480"></iframe>
-
-![Testing](https://drive.google.com/file/d/1zm3Xc_FGzgRZhf78bCh01j4Xt470tto1/preview)
-
 ## Setup
 
 Once these apps were configured with each of our PC’s Wekinator applications, we specified the project parameters needed for our performance: port number, OSC message, 3 inputs, 3 outputs, output type as continuous, and model type as neural network. Afterwards, we chose unique parameters from the 3 outputs available within the Wekinator that would be mapped to the synth and would serve as our first training state. As a group, we first configured silence to the state of the phone held with the screen facing the user. The direct forward tilt was also roughly mapped to a different note on each device that would form a major chord when played together by all three devices. We then took these 5 recordings of 3-dimensional gyroscope data and _trained_ (that's "ML-talk") the model using the Wekinator. Once complete, we were able to click “Run” and use our phone’s gyroscope as a controller to send both novel inputs to the Wekinator and produce novel outputs via the trained model’s interpolations.
