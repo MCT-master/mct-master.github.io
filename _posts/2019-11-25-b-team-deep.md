@@ -15,7 +15,7 @@ For the November 21st performance, our group trained a Machine Learning (ML) mod
 Here's a brief intro from it's developer, Rebecca Fiebrink
 [![Intro to Wekinator](http://img.youtube.com/vi/dPV-gCqy9j4/0.jpg)](http://www.youtube.com/watch?v=dPV-gCqy9j4)
 
-![Video](https://drive.google.com/open?id=1zm3Xc_FGzgRZhf78bCh01j4Xt470tto1)
+<iframe src="https://drive.google.com/file/d/1zm3Xc_FGzgRZhf78bCh01j4Xt470tto1/preview" width="640" height="480"></iframe>
 
 ## Setup
 
