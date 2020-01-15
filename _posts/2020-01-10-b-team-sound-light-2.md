@@ -12,15 +12,15 @@ Keywords: HCI, Reflections, Physical Computing
 
 For MCT4000's Physical Computing Hack-a-thon, our Trondheim/Oslo team developed an interactive sound instrument where light was both its impetus and the medium of transference between the instruments of each performer. Our instrument, “Sound at the Speed of Light”, was composed of a Bela-device, running a PureData-patch, to which was wired six simple controls, an LED, and an optical light sensor (see Figure 1). The light emittance and sensor-retrieval, in turn, allowing an interactive performance by way of video-conference-call, captured and streamed through our smartphones. The inherent complexities and limitations of our design and process afforded us some insights into the workings of musical interface development - and some regarding the pedagogical value in persistence despite initial embarrassment.
 
-<img src="/assets/img/b-team/2020_01_10_jackson_schema_bb.jpg" width="50%" height="50%" align="center"/>
-Bela and breadboard
+<img src="/assets/img/b-team/2020_01_10_jackson_schema_bb.jpg" width="75%" height="75%" align="center"/>
+__Bela and breadboard__
 
 ## Introduction
 
 The group approached the "Recycling" theme of this year’s Hack-a-thon quite liberally. Considering our experience within the "Portal", MCT's dual classroom setup, with video and audio streaming between Trondheim and Oslo, in both directions simultaneously - we initially discussed the idea of audio stream feedback over the internet. Since our group consists of two of us in Trondheim and two in Oslo, this way we would be able to have some direct contact with each other, regardless of physical location, and allow a “direct” interaction during our performance. Through our discussion we proposed incorporating light sensors and LEDs to serve as the utilities of communication. Under the theme of “Recycling”, we thought of this experiment as recycling sound through light (over IP).
 
-<img src="/assets/img/b-team/2020_01_10_jackson_bteam_mindmap.jpg" width="50%" height="50%" align="center"/>
-Mind map
+<img src="/assets/img/b-team/2020_01_10_jackson_bteam_mindmap.jpg" width="75%" height="75%" align="center"/>
+__Our mind map__
 
 The mind map offers an impression of the directions and opportunities we were considering when we began to discuss our plan.
 
@@ -38,8 +38,8 @@ In our hurry to make sure the peripheral devices would perform their functions, 
 
 The Sound at the Speed of Light instrument-system is composed of four intrinsic components, where each sub-system was partially developed by each team member:
 
-<img src="/assets/img/b-team/bela.jpg" width="50%" height="50%" align="center"/>
-A prototype of the instrument
+<img src="/assets/img/b-team/bela.jpg" width="75%" height="75%" align="center"/>
+__A prototype of the instrument__
 
 * An additive synthesizer, with several 
 configurable parameters, built in PureData
@@ -47,8 +47,8 @@ configurable parameters, built in PureData
 * A light sensor that responds to luminance intensity by sending a scaled value to modulate the volume of the recipient’s synthesizer
 * A smartphone, positioned between the LED and light sensor, that sends and receives video of the LED’s varying glow
 
-<img src="/assets/img/b-team/2020_01_10_jackson_bteam__flowchart.jpg" width="50%" height="50%" align="center"/>
-Signal flowchart
+<img src="/assets/img/b-team/2020_01_10_jackson_bteam_flowchart.jpg" width="75%" height="75%" align="center"/>
+__Signal flowchart__
 
 The labyrinthine signal-path that affords the instrument it’s interactivity is perhaps easiest explained by the signal flowchart. Where performer A’s audio signal swells up, so does the corresponding device’s LED – this: captured and transmitted through video-call-connectivity – in turn: interpreted by the receiver B’s light sensor – which again causes B’s audio volume and LED to swell – instigating another cycle of information. When performer A again receives a swelling light, the circle is complete and a true feedback-loop set in motion.
 
