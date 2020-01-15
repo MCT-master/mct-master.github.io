@@ -33,7 +33,7 @@ And a more complete list can be found [here](https://alternativeto.net/software/
 
 ## Embedding images, videos and other files
 
-It is important to optimize the size of an image, audio, and video before uploading them. These must be compressed using file format highly compatible with most browsers, such as JPEG or PNG for images, MP3 for audio, and MP4 for videos. Embedding small files in a blog post provides a better user experience (shorter loading time, faster response). Uncompressed files can be used when necessary (such as wave files), but in this case it's recommended to provide a download link rather than embedding them in a web player. A handy tutorial on how to optimize images for the web on Gimp (which is a free software) can be found [here](https://smallbusiness.chron.com/optimize-images-gimp-45437.html). It is important to optimize the files before uploading them. It is also important to add at least one image to complement the text with   visual information and make it more interesting to the reader!
+It is important to optimize the size of an image, audio, and video before uploading them. These must be compressed using file format highly compatible with most browsers, such as JPEG or PNG for images, MP3 for audio, and MP4 for videos. Embedding small files in a blog post provides a better user experience (shorter loading time, faster response). Uncompressed files can be used when necessary (such as wave files), but in this case it's recommended to provide a download link rather than embedding them in a web player. A handy tutorial on how to optimize images for the web on Gimp (which is a free software) can be found [here](https://smallbusiness.chron.com/optimize-images-gimp-45437.html). For Mac, a FOSS called ImageOptim can be found [here](https://imageoptim.com/mac). It is important to optimize the files before uploading them. It is also important to add at least one image to complement the text with visual information and make it more interesting to the reader!
 
 Please note that the names of the image files should not contain white spaces to avoid potential issues of systems not finding the image.
 
@@ -53,11 +53,9 @@ Spaces or or special characters are not allowed in the file names.
 
 All files that are uploaded here must be publicly accessible through their link (select ‘get shareable link’, set link sharing ‘on’, set ‘allow with the link can view’ and tick ‘allow external access’).
 
-To embed an IMAGE in your blog post follow the include the following HTML code:
-<img src="https://drive.google.com/uc?export=view&amp;id=G_DRIVE_FILENAME">
-where G_DRIVE_FILENAME is the long and random-looking alpha-numeric string you find in the G Drive shared link.
+To embed an IMAGE in your blog post follow the include the following HTML code: ```<img src="https://drive.google.com/uc?export=view&amp;id=G_DRIVE_FILENAME"></pre>``` where G_DRIVE_FILENAME is the long and random-looking alpha-numeric string you find in the G Drive shared link.
 
-This can be followed by any HTML <img> [attribute](https://www.w3schools.com/tags/tag_img.asp), such as width and/or height.
+This can be followed by any HTML ```<img>``` [attribute](https://www.w3schools.com/tags/tag_img.asp), such as width and/or height.
 
 To embed other files, such as videos, instructions are available [here](https://support.google.com/blogger/thread/1950766?hl=en).
 
