@@ -46,12 +46,13 @@ The light sensor configuration was being worked on in Trondheim, which would be 
 
 Here is a picture of the light sensor clamped by two alligator cables.
 
-![Light sensor](/assets/img/b-team/light_sensor.jpg)
+<img src="/assets/img/b-team/light_sensor.jpg" width="50%" height="50%" align="center"/>
 
 In Oslo, we were working on mapping the knobs and buttons to work with the Pd patch as well as figuring out how to make an LED's brightness reflect the amplitude of the sound that we were outputting from the bela through our synth. We discovered that since LED's only have two states (on/off) we had to instead modify the frequency of the LED's pulses so that it was perceived as being more or less bright (see [pulse width modulation](https://en.wikipedia.org/wiki/Pulse-width_modulation)).
 
 Here's a photo of the config (minus the LED and light sensor)
-![Bela board](/assets/img/b-team/bela.jpg)
+
+<img src="assets/img/b-team/bela.jpg" width="50%" height="50%" align="center"/>
 
 ## Running out of time :(
 
@@ -65,7 +66,7 @@ So, we resorted to playing with the synth through PureData from our laptops and 
 
 ### In Trondheim
 
-![Trondheim](/assets/img/b-team/trond_physcomp.png)
+![Trondheim](/assets/img/b-team/trond_physcomp.jpg)
 
 And here is a recording from our performance in Oslo.
 
