@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Sound at the Speed of Light: Follow Up"
-date: 2019-01-10 16:30:00 +0200
+date: 2020-01-10 16:30:00 +0200
 categories: HCI, Physical-Computing
 author: Jackson, Jarle, Simon
 image: /assets/img/b-team/x-mas.jpg
