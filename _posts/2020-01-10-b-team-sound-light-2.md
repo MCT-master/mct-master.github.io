@@ -2,7 +2,7 @@
 layout: post
 title: "Sound at the Speed of Light: Follow Up"
 date: 2020-01-10 16:30:00 +0200
-categories: HCI, Physical-Computing
+categories: HCI
 author: Jackson, Jarle, Simon
 image: /assets/img/b-team/bela.jpg
 excerpt: "A much more extensive blog regarding our Physical Computing/HCI project in the past fall semester"
@@ -95,4 +95,4 @@ By the end, I think we learned that in unfamiliar territories, it is quite diffi
 
 ### Sound at the Speed of Light (Short Video)
 
-<iframe width="420" height="315" src="https://www.youtube.com/watch?v=uSiLH6WJ6Io" frameborder="0" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/uSiLH6WJ6Io" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
