@@ -52,7 +52,7 @@ In Oslo, we were working on mapping the knobs and buttons to work with the Pd pa
 
 Here's a photo of the config (minus the LED and light sensor)
 
-<img src="assets/img/b-team/bela.jpg" width="50%" height="50%" align="center"/>
+<img src="/assets/img/b-team/bela.jpg" width="50%" height="50%" align="center"/>
 
 ## Running out of time :(
 
@@ -72,7 +72,6 @@ And here is a recording from our performance in Oslo.
 
 <audio controls>
   <source src="/assets/audio/b-team/oslo_performance.mp3" type="audio/mp3">
-Your browser does not support the audio element.
 </audio>
 
 ## Update: And yet!
