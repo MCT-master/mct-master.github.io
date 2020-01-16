@@ -8,9 +8,11 @@ This is the student-led blog related to the [Music, Communication & Technology (
 
 ![MCT image](/assets/img/mct-master-630.jpg "MCT image")
 
-## MCT Students 2018-2020
+## MCT Students
 
 ### UiO, Oslo
+
+#### 2018-2020
 
 * Andersen, Elias
 * Lesteberg, Mari
@@ -19,7 +21,19 @@ This is the student-led blog related to the [Music, Communication & Technology (
 * Sion, Guy
 * Wik, Espen
 
+#### 2019-2021
+
+* Anda, Thomas
+* Goode, Jackson
+* Koenig, Paul
+* Luna, Rayam
+* Steinhovden, Jarle
+* Tidemann, Aleksander
+* Wardenær, Gaute
+
 ### NTNU, Trondheim
+
+#### 2018-2020
 
 * Aandahl, Eigil
 * Bjordal, Jonas
@@ -28,6 +42,13 @@ This is the student-led blog related to the [Music, Communication & Technology (
 * Jawad, Karolina
 * Shrestha, Shreejay
 * Varpe, Jørgen Nygård
+
+#### 2019-2021
+
+* Halmøy, Ulrick
+* Ignatius, Tom
+* Jaccard, Thibault
+* Sandvik, Simon
 
 <!--
 
