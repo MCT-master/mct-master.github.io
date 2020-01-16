@@ -28,7 +28,7 @@ Then we had more luck on to the fuse box, located in one of the hallways in the 
 
 <figure align="middle">
 <audio controls>
-  <source src="https://drive.google.com/a/uio.no/file/d/1WqvFLLR2_7CcbxIYls7hc3kNw7ZgWoi4/view?usp=sharing" volume="0.2" type="audio/mp3">
+  <source src="https://docs.google.com/uc?export=download&id=1WqvFLLR2_7CcbxIYls7hc3kNw7ZgWoi4" volume="0.2" type="audio/wav">
   Your browser does not support the audio element.
 </audio>
   <figcaption>The sound of the el panel</figcaption>
@@ -43,7 +43,7 @@ Then we went to the kitchen, testing to record sound from a microwave oven (when
 
 <figure align="middle">
 <audio controls>
-  <source src="https://raw.githubusercontent.com/MCT-master/mct-master.github.io/master/assets/sounds/Ateam_microwave.wav" type="audio/wav">
+  <source src="https://docs.google.com/uc?export=download&id=1e810-agTcsg7UJ3EfrSr7PYxlxX3IKIO" type="audio/wav">
   Your browser does not support the audio element.
 </audio>
   <figcaption>The sound of the microwave</figcaption>
@@ -51,7 +51,7 @@ Then we went to the kitchen, testing to record sound from a microwave oven (when
 
 <figure align="middle">
 <audio controls>
-  <source src="https://github.com/MCT-master/mct-master.github.io/blob/master/assets/sounds/Ateam_laptop.wav?raw=true" type="audio/wav">
+  <source src="https://docs.google.com/uc?export=download&id=1UmGrby7qRTz9z1iEI-0YXaTTIRuDzQv_" type="audio/wav">
   Your browser does not support the audio element.
 </audio>
   <figcaption>The sound of the laptop</figcaption>

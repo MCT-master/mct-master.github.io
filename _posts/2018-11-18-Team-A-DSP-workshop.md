@@ -17,10 +17,10 @@ excerpt: "On the final DSP class we were bringing it all together - and performi
 
 ### During the week we worked with :
 
-* Digital Signal Processing (DSP)
-* Instrument Design
-* Sound Synthesis
-* Generally Failing at Code (and trying again!)
+- Digital Signal Processing (DSP)
+- Instrument Design
+- Sound Synthesis
+- Generally Failing at Code (and trying again!)
 
 On the final DSP class we were bringing it all together - and performing our combined CSound based creations! Having the day to develop on our instruments, we prepared for performing with the other groups at 2 o’clock. After finding our respective rooms, We had a A-Team meeting on how to finish off our sounds,and devise a plan of action for our performance.
 
@@ -47,13 +47,12 @@ Soundcheck and setup was a little chaotic, with all three teams due to play back
 
 **Well without further ado - our recording!**
 
-<video width="640" height="480" controls align="middle">
-  <source src="/assets/video/Ateam_DSPperform.mov" type="video/mp4">
-  Your browser does not support the video tag.
-</video>
-<br>
+<figure align="middle">
+<iframe src="https://drive.google.com/a/uio.no/file/d/16nxL1LSL9DBNFTU-Dw6zMfcxq93KAgAT/preview" width="640" height="480"></iframe>
+</figure>
 
 ### Technical and creative aspects
+
 Below you can see the signal chain of our group. Please make the embedded flowchart fullscreen, and press each group member's computer for their own DSP.
 
 <center>
@@ -93,17 +92,17 @@ These two oscillators are then both combined and run through a fx chain to mould
 <figcaption align="middle"><strong></strong></figcaption>
 </figure>
 
-* SPL Twin Tube - Tube saturation for warming and condensing sound
-* Fabfilter Volcano 2 - 3 bandpass filters modulating and phasing for movement
-* Spring Reverb - Short timed delay, making phase distortions. (Delay timing mapped*)
-* Ableton Compressor - Peak compression, lessen wild peaks in amplitude
-* Ableton Auto Filter - high resonance low pass, crafting the sound (freq mapped*)
-* Ableton Compressor - Sidechain ducking sound during kicks and snares
-* Ableton Eq Eight - very small duck midrange around 400 hz
-* FabFilter Pro-R - reverb adding space and washout effect (dry/wet mapped)
-* FabFilter Timeless 2 - Long feedback delay (Wet level mapped*)
-* Ableton Utility - take down the volume
-* Ableton Limiter - Keep a ceiling on the volume    
+- SPL Twin Tube - Tube saturation for warming and condensing sound
+- Fabfilter Volcano 2 - 3 bandpass filters modulating and phasing for movement
+- Spring Reverb - Short timed delay, making phase distortions. (Delay timing mapped\*)
+- Ableton Compressor - Peak compression, lessen wild peaks in amplitude
+- Ableton Auto Filter - high resonance low pass, crafting the sound (freq mapped\*)
+- Ableton Compressor - Sidechain ducking sound during kicks and snares
+- Ableton Eq Eight - very small duck midrange around 400 hz
+- FabFilter Pro-R - reverb adding space and washout effect (dry/wet mapped)
+- FabFilter Timeless 2 - Long feedback delay (Wet level mapped\*)
+- Ableton Utility - take down the volume
+- Ableton Limiter - Keep a ceiling on the volume
 
 <figure align="middle">
 <img src="/assets/img/Ateam_ablChain.jpg" alt="" width="80%">
@@ -162,7 +161,7 @@ It would be nice to continue exploring even more strings inside strings, and do 
 
 Regarding Sepehr’s way of processing the signal; like the others, he managed to export a plugin with the cabbage, based on Csound codes written before. There were several functions in the plugin, in which we shall go through one by one. First of all there was a Cut off function inside the string, with the focus on 110hz (cps) which was being controlled by the first knob in the plugin.
 
-Then there was a reverb created within the string and it was being controlled by the  the feedback and mix knobs in the plugin. Of course it needed to be controlled by autogain, which comes later in the chain.
+Then there was a reverb created within the string and it was being controlled by the the feedback and mix knobs in the plugin. Of course it needed to be controlled by autogain, which comes later in the chain.
 
 Also, the signal was being driven via hyperbolic tangent function, which also was being controlled by a knob and after that being restored, gainwise.
 Since the feedback was an important factor in the string, that basically formed the sound decay and were really important for the cut off and drive functions; that was being controlled as well.
@@ -178,11 +177,11 @@ In the end, there was a low pass filter used to roll off everything after 20hz a
 
 **The other effects, used in the signal chain included:**
 
-* Izotope Vinyl: for creation of random percussive / vinyl dust / mechanical / electrical noises
-* built-in plugin (DSPFilter)
-* Fabfilter Pro R: in order to add some reverb in the desired places, using reverb time
-* Waves H-Delay: Controlling feedback and delay time in order to create pitch and desired effects
-* Izotope Ozone Maximizer: for limiting the output to avoid any sudden transients and loud sounds
+- Izotope Vinyl: for creation of random percussive / vinyl dust / mechanical / electrical noises
+- built-in plugin (DSPFilter)
+- Fabfilter Pro R: in order to add some reverb in the desired places, using reverb time
+- Waves H-Delay: Controlling feedback and delay time in order to create pitch and desired effects
+- Izotope Ozone Maximizer: for limiting the output to avoid any sudden transients and loud sounds
 
 <figure align="middle">
 <img src="/assets/img/Ateam_sepehr.png" alt="" width="70%">
@@ -192,10 +191,9 @@ In the end, there was a low pass filter used to roll off everything after 20hz a
 The sound source for the process, was the sound being sent from Jørgen’s laptop and basically we could say we were playing a joint instrument.
 Therefore it was important to each others style of playing and sound design.
 
-<video width="640" height="480" controls align="middle">
-  <source src="/assets/video/Ateam_video2.m4v" type="video/mp4">
-  Your browser does not support the video tag.
-</video>
+<figure align="middle">
+<iframe src="https://drive.google.com/a/uio.no/file/d/1zm3Xc_FGzgRZhf78bCh01j4Xt470tto1/preview" width="640" height="480"></iframe>
+</figure>
 <br>
 
 _Team A_
