@@ -28,7 +28,7 @@ Then we had more luck on to the fuse box, located in one of the hallways in the 
 
 <figure align="middle">
 <audio controls>
-  <source src="https://raw.githubusercontent.com/MCT-master/mct-master.github.io/master/assets/sounds/Ateam_elpanel.wav" type="audio/wav" volume="0.2">
+  <source src="https://drive.google.com/a/uio.no/file/d/1WqvFLLR2_7CcbxIYls7hc3kNw7ZgWoi4/view?usp=sharing" volume="0.2" type="audio/mp3">
   Your browser does not support the audio element.
 </audio>
   <figcaption>The sound of the el panel</figcaption>
