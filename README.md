@@ -53,11 +53,17 @@ Spaces or or special characters are not allowed in the file names.
 
 All files that are uploaded here must be publicly accessible through their link (select ‘get shareable link’, set link sharing ‘on’, set ‘allow with the link can view’ and tick ‘allow external access’).
 
-To embed an IMAGE in your blog post follow the include the following HTML code: <br>```<img src="https://drive.google.com/uc?export=view&amp;id=G_DRIVE_FILENAME">```</br> where G_DRIVE_FILENAME is the long and random-looking alpha-numeric string you find in the G Drive shared link.
+* To embed an IMAGE in your blog post follow the include the following HTML code: <br>```<img src="https://drive.google.com/uc?export=view&amp;id=G_DRIVE_FILENAME">```</br> where G_DRIVE_FILENAME is the long and random-looking alpha-numeric string you find in the G Drive shared link.
 
-This can be followed by any HTML ```<img>``` [attribute](https://www.w3schools.com/tags/tag_img.asp), such as width and/or height.
+  This can be followed by any HTML ```<img>``` [attribute](https://www.w3schools.com/tags/tag_img.asp), such as width and/or height.
+  
+* To embed AUDIO with the HTML audio element: <br>```<audio controls><source src="https://docs.google.com/uc?export=download&id=G_DRIVE_FILENAME_ID" type="audio/wav"></audio>```<br>
 
-To embed other files, such as videos, instructions are available [here](https://support.google.com/blogger/thread/1950766?hl=en).
+* To embed VIDEO with the HTML iframe element: <br>```<iframe src="https://drive.google.com/a/uio.no/file/d/G_DRIVE_FILENAME_ID/preview" width="640" height="480"></iframe>```<br>
+
+* To embed VIDEO with the HTML video element (might not work if file is larger than 100mb): <br>```<video width="640" height="480" controls align="middle"><source src="https://docs.google.com/uc?export=download&id=G_DRIVE_FILENAME_ID" type="video/mp4"></video>```<br>
+
+More info on embedding videos are available [here](https://support.google.com/blogger/thread/1950766?hl=en).
 
 To link a file you can simply use the G Drive shared link associated with your file.
 
