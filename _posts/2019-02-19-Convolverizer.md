@@ -78,12 +78,9 @@ Since the sound that we used for convolution was an intense Drums solo, the dyna
 <br />
 However, we missed the opportunity to make our performance (including positioning us within more camera resources, a clear announcement of the start of the event) more demonstrative for lack of time, which ultimately affected our performativity. In the feedback round the audience reported a glitch in sound during the performance, we suspect that in connection with the process of buffering and dry gain. In addition, the connected (old) computer was no longer in good condition during the performance after a few hours of coding. When we performed again for the live demo, which you can see below, the glitch was almost not audible anymore.<br />
 <br />
-<figure align="middle">
-        <video height="100%" width="100%" controls>
-        <source src="/assets/video/APConvolverizer.mp4" type="video/mp4">
-        <figcaption><strong>Team performing with the Convolverizer </strong></figcaption>        
-        Your browser does not support the video tag.
-</video>
+<figure >
+  <iframe src="https://drive.google.com/file/d/1U4RPrFbGGsFwFvYulBRb_0NFe2QqM05x/preview" width="640" height="480" align="middle"></iframe>
+  <figcaption><strong>Team performing with the Convolverizer</strong></figcaption>        
 </figure>
 <br>
 

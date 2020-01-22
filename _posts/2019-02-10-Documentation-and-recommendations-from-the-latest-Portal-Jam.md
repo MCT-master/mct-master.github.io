@@ -10,10 +10,10 @@ different issues while actually seeking a smooth and standardized setup of the s
 optimizing the telematic experience but not getting stucked in technicalities at the same time."
 
 ---
-
- <iframe src="https://drive.google.com/open?id=1d2vct13G0caHEbcgeBz4GSQghVjnIUFw"
- width="640" height="480"></iframe>
- <br>
+<figure>
+    <iframe src="https://drive.google.com/file/d/1d2vct13G0caHEbcgeBz4GSQghVjnIUFw/preview" width="640" height="480" align="middle"></iframe>
+</figure>
+<br>
 
 As the Portal is still in its infancy, pushing and exploring its technical possibilities is an ongoing process. 
 For different scenarios like jamming with acoustic instruments cross-campus, we still encounter different issues while actually 
