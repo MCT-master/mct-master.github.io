@@ -10,9 +10,9 @@ different issues while actually seeking a smooth and standardized setup of the s
 optimizing the telematic experience but not getting stucked in technicalities at the same time."
 
 ---
- <video width="640" height="480" controls align="middle">
- <source src="/assets/video/01_PORTALJAM_480p.mov"></source>
- </video>
+
+ <iframe src="https://drive.google.com/open?id=1d2vct13G0caHEbcgeBz4GSQghVjnIUFw"
+ width="640" height="480"></iframe>
  <br>
 
 As the Portal is still in its infancy, pushing and exploring its technical possibilities is an ongoing process. 
