@@ -4,7 +4,7 @@ title: "Testing Latency in the Portal"
 date: 2020-01-27 12:00:00 +0200
 categories: Portal
 author: Everyone
-image: /assets/img/
+image: /assets/img/latency.jpg
 excerpt: "We test some of the local latency in the Oslo and Trondheim Portal"
 Keywords: Latency, Portal, Sound
 ---
@@ -15,7 +15,7 @@ Keywords: Latency, Portal, Sound
 
 For the internal latency tests, we used the [Audacity tutorial](https://manual.audacityteam.org/man/latency_test.html) but keeping the distance from the mics to speakers the same. The basic idea is that we opened an instance of Audacity and generated a click-track to send through the speakers which was then recorded by the mics and received into Audacity as another track. We then measured the average difference in time between these two tracks.
 
-![Audacity](https://manual.audacityteam.org/m/images/d/d6/latencycorrection_220_04.png)
+![Audacity](assets/img/portal/latency.jpg)
 
 ### Oslo
 
