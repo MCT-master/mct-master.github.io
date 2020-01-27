@@ -15,9 +15,8 @@ Keywords: Latency, Portal, Sound
 
 For the internal latency tests, we used the [Audacity tutorial](https://manual.audacityteam.org/man/latency_test.html) but keeping the distance from the mics to speakers the same. The basic idea is that we opened an instance of Audacity and generated a click-track to send through the speakers which was then recorded by the mics and received into Audacity as another track. We then measured the average difference in time between these two tracks.
 
-<figure>
-<image> width="75%" height="75%"
-src=”https://manual.audacityteam.org/m/images/d/d6/latencycorrection_220_04.png”/>
+<figure align=”middle”>
+<img width="75%" height="75%" src=”https://manual.audacityteam.org/m/images/d/d6/latencycorrection_220_04.png”>
 <figcaption>Measuring latency in Audacity</figcaption>
 </figure>
 
