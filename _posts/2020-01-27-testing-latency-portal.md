@@ -4,18 +4,18 @@ title: "Testing Latency in the Portal"
 date: 2020-01-27 12:00:00 +0200
 categories: Portal
 author: Everyone
-image: /assets/img/latency.jpg
-excerpt: "We test some of the local latency in the Oslo and Trondheim Portal"
+image: /assets/img/portal/latency.jpg
+excerpt: "We officially' test some the latency in the Oslo and Trondheim Portal"
 Keywords: Latency, Portal, Sound
 ---
-
-# Set up
-
 ## Internal Latency
 
 For the internal latency tests, we used the [Audacity tutorial](https://manual.audacityteam.org/man/latency_test.html) but keeping the distance from the mics to speakers the same. The basic idea is that we opened an instance of Audacity and generated a click-track to send through the speakers which was then recorded by the mics and received into Audacity as another track. We then measured the average difference in time between these two tracks.
 
-![Audacity](assets/img/portal/latency.jpg)
+<figure text-align="center">
+<img src="/assets/img/portal/latencycorrection.png" width="75%">
+<figcaption>Measuring latency in Audacity</figcaption>
+</figure>
 
 ### Oslo
 
@@ -25,7 +25,10 @@ In Oslo, it was fairly easy to install Audacity on the LOLA machine and properly
 
 As Audacity doesn’t accept Asio as audio driver, very few audio device manipulations are possible. We discovered that the audio is routed to the Analog 1/2 channel in Oslo, while in Trondheim the sound is coming from ADAT 1/2. Without Asio, it was impossible to choose the latter as audio input in Audacity. For that reason, we had to download and use Reaper in Trondheim. But the latency testing process was the same. We obtained a latency of 25 ms.
 
-![TotalMix](assets/img/portal/totalmix.png)
+<figure text-align="center">
+<img src="/assets/img/portal/totalmix.png" width="50%">
+<figcaption>Differences in the TotalMix</figcaption>
+</figure>
 
 ## Zoom latency
 We measured the latency in Zoom using Zoom’s [built-in utility for “Meeting and Phone statistics”](https://support.zoom.us/hc/en-us/articles/202920719-Meeting-and-phone-statistics). We connected a client from the Portal in Oslo to a separate client in Trondheim, through Ulrik’s computer. We then measured different data, i.e. audio latency, bitrate, jitter, packet loss, etc. over time and averaged the results. As we were primarily interested in audio latency, we did some brief notes on the variance in the measurements. We also experimented by adding more clients to see how that affected the latency.
