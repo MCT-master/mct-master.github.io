@@ -13,7 +13,7 @@ Keywords: Portal, Visual, Camera
 
 <figure text-align="center">
 <iframe src="https://drive.google.com/file/d/1-9pzQdGinDA6cDNKd4tG_9StjqdSPpo7/preview" width="640" height="400"></iframe>
-<figcaption>Some camera</figcaption>
+<figcaption>VHD-V302</figcaption>
 </figure>
 
 <figure text-align="center">
