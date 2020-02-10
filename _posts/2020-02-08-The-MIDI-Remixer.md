@@ -4,7 +4,11 @@ title: "The MIDI Remixer"
 date: 2020-02-08 12:00:00 +0200
 categories: Audio-Programming
 author: Aleksander Tidemann
-image: /assets/img/Tidemann/bach.jpg
+image: <figure text-align="center">
+<iframe src="https://drive.google.com/a/uio.no/file/d/https://drive.google.com/a/uio.no/file/d/1Jzk3La12O9rmG4eIeVysxNRLk8x478eO/view?usp=sharing
+" width="640" height="400"></iframe>
+<figcaption>Coll</figcaption>
+</figure>
 excerpt: "This sequencer based poly FM-synthesizer invites its users to remix and play with some of Johann Sebastian Bach's most famous preludes and fuges."
 Keywords: Audio Programming, Pure Data, MCT4048
 --- 
