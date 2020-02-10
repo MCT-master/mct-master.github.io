@@ -19,13 +19,19 @@ The MIDI Remixer is a sequencer designed to remix and play with some of Johann S
 
 An application that allows someone to sequence different sections of a MIDI-file needs to have a system where the MIDI information is labeled, timestamped and stored for later retrieval. I decided to base my MIDI-storage device with cyclones [coll] object following MIDI execution objects such as [seq] and [midiparse]. If correctly done this would allow the user to index any part of the MIDI-file they wanted.
 
-![coll2](/assets/img/Tidemann/coll3.jpg)
+<figure text-align="center">
+<iframe src="https://drive.google.com/file/d/1DY0B8BAmGymgEor3b6eTQ5xJymex2vDP/preview" width="640" height="400"></iframe>
+<figcaption>Coll</figcaption>
+</figure>
 
 The overall logic of the storing mechanism can be described as such; when reading a MIDI-file to the [seq], and executing it with a ”start" message, the MIDI information (note and velocity) is split, packed and indexed into the [coll] object. Ensuring careful scheduling was crucial for this storing process to work.
 
 I figured out that the best way to index the [coll] was at the very beginning of each step by using the first note-on value from the steps (MIDI sequences) starting with "index 0", which simply functions as a blank index. This little hack properly ensured correct scheduling in all cases, as the image below shows.
 
-![coll3](/assets/img/Tidemann/coll2.jpg)
+<figure text-align="center">
+<iframe src="https://drive.google.com//file/d/1XImLnvBKaJWNfbhH6YC_-t3jCgvat5Yo/preview" width="640" height="400"></iframe>
+<figcaption>Scheduling</figcaption>
+</figure>
 
 However, this method has several limitation when working with polyphonic compositions which I will discuss further in the reflection below.
 
@@ -44,9 +50,10 @@ The sequencer features the following functions:
 
 The polysynthesis of the application was inspired by a [Youtube Tutorial](https://www.youtube.com/watch?v=mvtN7de6Oko) on building simple FM-synthesis in Pure Data, as seen in the image below. I went for something very simple and melancholic due to the previously discussed purpose of the application. Therefore, I believe too much sound control and complexity in the synthesis could distract the user from the application main purpose.
 
-<p align="left">
-  <img src="/assets/img/Tidemann/FM.png" />
-</p>
+<figure text-align="center">
+<iframe src="https://drive.google.com/file/d/1_kCl5EBGmioHCc8DXBVhqIJNDoupxCEq/preview" width="640" height="400"></iframe>
+<figcaption>FM</figcaption>
+</figure>
 
 However, not all parameters all fixed. I implemented some OSC-control to effect something resembling a filter (modulation index) as well as the total reverb amount. The OSC-control messages come from TUIOpad, a smartphone application that sends X and Y parameters, among many, to the patch in realtime.
 
