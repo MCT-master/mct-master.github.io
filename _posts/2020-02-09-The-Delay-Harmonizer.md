@@ -36,5 +36,5 @@ The main use case of this patch is to harmonize a percussive track, like beatbox
    frameborder="0"
    width="500"
    height="100"
-   src="https://drive.google.com/a/uio.no/file/d/1nKhz0qHHFbD54VChW34jXOoXg4Kuxb7r/view?usp=sharing">
+   src="https://drive.google.com/a/uio.no/file/d/1nKhz0qHHFbD54VChW34jXOoXg4Kuxb7r/preview?usp=sharing">
 </iframe>
