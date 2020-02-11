@@ -1,11 +1,10 @@
 ---
 layout: post
-title: "Making Noises With [noise~]
+title: "Making Noises With noise
 date: 2020-02-12 00:24:00 +0200
 categories: Audio-Programming
 author: Paul Koenig
-image: <img src="https://drive.google.com/uc?export=view&amp;id=https://drive.google.com/open?id=16K5KKQkWM0Fcp2XQkFqTWHqjtjlkQoqW">
-
+image: <img src="https://drive.google.com/uc?export=view&amp;id=16K5KKQkWM0Fcp2XQkFqTWHqjtjlkQoqW">
 excerpt: "Wherein I attempt to either program paradise or just make bacon-frying noises, which could be the same thing, actually"
 Keywords: Puredata, breakfast, relaxation, nature
 ---
@@ -15,7 +14,7 @@ Keywords: Puredata, breakfast, relaxation, nature
 The project I undertook was to design several soundscapes derived from nature and implement them in a mobile application. The sounds I attempted to model were Ocean Waves, Wind, Rain, and Thunder. I also included a simple filtered-noise generator for my wife, used to help mask external noise while sleeping.
 
 <figure>
-    <iframe src="https://drive.google.com/open?id=1eDOx_gGJmMBOftpK9IzgPl4KOZ04KFfb" width="800" height="480" frameborder="0" align="center" alt="How It Works, More Or Less"></iframe>
+    <iframe src="https://drive.google.com/open?id=1eDOx_gGJmMBOftpK9IzgPl4KOZ04KFfb"> width="800" height="480" frameborder="0" align="center" alt="How It Works, More Or Less"></iframe>
     <figcaption>How It Works, More Or Less</figcaption>
 </figure>
 
@@ -59,7 +58,7 @@ I probably don’t need to explain this one, but it’s included for its simple 
 All of these patches were combined into an app using MobMuPlat! Now I can take the weather with me everywhere I go. It’s especially fun, and perverse, to listen to the rain on headphones, while walking home in the rain. Who does that? I do, apparently. 
 
 <figure>
-    <iframe src="https://drive.google.com/open?id=1gWHBN_J_e-_OvU_9OisvmYefqB22yzOJ" width="800" height="480" frameborder="0" align="center" alt="How It Works, More Or Less"></iframe>
+    <iframe src="https://drive.google.com/open?id=1gWHBN_J_e-_OvU_9OisvmYefqB22yzOJ"> width="800" height="480" frameborder="0" align="center" alt="How It Works, More Or Less"></iframe>
     <figcaption>How It Works, More Or Less</figcaption>
 </figure>
 
