@@ -9,11 +9,7 @@ image: /assets/img/montage_portal.jpg
 excerpt: "We've learned a lot in those two weeks. But due to our tight schedule with a big workload there was hardly any time left to improve on our teach/study environment in the portal. In Trondheim we got a handover from group B on how to deal with LOLA. Our task was then to reinstall the LOLA system, but with some important extra package that was missing."
 ---
 
-<figure>
-<img src="/assets/img/montage_portal.jpg" alt="Odysseey in Space" width="80%" align="middle"/>
-<figcaption>Odyssey in Space</figcaption>
-</figure>
-
+![Odysseey in Space](https://drive.google.com/uc?export=view&amp;id=1KUBDQKsMk1PI3-waoi5Ht5e2TxoLkI71 "Odysseey in Space")
 
 # #communication #lola #hyper connectivity #mute #senior aspects #sensitivity #brain performance #human computer interaction #slow motion #cognition
 
