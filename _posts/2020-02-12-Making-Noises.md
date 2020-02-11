@@ -12,10 +12,10 @@ Keywords: Puredata, breakfast, relaxation, nature
 
 # Nice Weather
 
-The project I undertook was to design several soundscapes derived from nature and implement them in a mobile application. The sounds I attempted to model were Ocean Waves, Wind, Rain, and Thunder. I also included a simple filtered-noise generator for my wife, used to help mask external noise while sleeping.the audio programming course was to accurately simulate a guitar strum in Puredata using the sensor information sent from a mobile device in motion. I wanted its interaction to be reflective of the direction, speed, and acoustic uniqueness of a real guitar strum. By uniqueness I mean the qualities of a strum that are not necessarily intended by the musician, like the intensity of each string strike and the delay between each individual string as the fingers (or pick) slide across the strings. These additions make both the sound and the experience of strumming quite realistic and, as implemented in this patch, benefit the realism of the virtual strum. However, a number of unforeseen difficulties made the feat of a seamless gesture-to-sound production quite a challenge. As I will discuss, one of the greatest barriers to responsiveness was network latency and the inability for native-local interfacing within both Puredata and sensor data on my mobile device.
+The project I undertook was to design several soundscapes derived from nature and implement them in a mobile application. The sounds I attempted to model were Ocean Waves, Wind, Rain, and Thunder. I also included a simple filtered-noise generator for my wife, used to help mask external noise while sleeping.
 
 <figure>
-    <iframe src="https://drive.google.com/open?id=1eDOx_gGJmMBOftpK9IzgPl4KOZ04KFfb/preview" width="800" height="480" frameborder="0" align="center" alt="How It Works, More Or Less"></iframe>
+    <iframe src="https://drive.google.com/open?id=1eDOx_gGJmMBOftpK9IzgPl4KOZ04KFfb" width="800" height="480" frameborder="0" align="center" alt="How It Works, More Or Less"></iframe>
     <figcaption>How It Works, More Or Less</figcaption>
 </figure>
 
@@ -59,7 +59,7 @@ I probably don’t need to explain this one, but it’s included for its simple 
 All of these patches were combined into an app using MobMuPlat! Now I can take the weather with me everywhere I go. It’s especially fun, and perverse, to listen to the rain on headphones, while walking home in the rain. Who does that? I do, apparently. 
 
 <figure>
-    <iframe src="https://drive.google.com/open?id=1gWHBN_J_e-_OvU_9OisvmYefqB22yzOJ/preview" width="800" height="480" frameborder="0" align="center" alt="How It Works, More Or Less"></iframe>
+    <iframe src="https://drive.google.com/open?id=1gWHBN_J_e-_OvU_9OisvmYefqB22yzOJ" width="800" height="480" frameborder="0" align="center" alt="How It Works, More Or Less"></iframe>
     <figcaption>How It Works, More Or Less</figcaption>
 </figure>
 
