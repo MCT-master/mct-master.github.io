@@ -25,7 +25,7 @@ Group D includes **Shreejay Shrestha** and **Eirik Dahl** from *NTNU*, and **Guy
 
 ### Eirik Dahl
 
-![Photo of Eirik Dahl](https://drive.google.com/uc?export=view&amp;id=1x38TBp4KzAG-LT7cZtQ4aE1djYRxstAL) "Eirik Dahl")
+![Photo of Eirik Dahl](https://drive.google.com/uc?export=view&amp;id=1x38TBp4KzAG-LT7cZtQ4aE1djYRxstAL "Eirik Dahl")
 
 **Eirik Dahl** is a Norwegian bass player and teacher. He studied teacher training at Høgskolen i Nesna and music and masters in fine arts at the University of Agder. He has played in several bands and procejts such as theater, choir performances and ensembles.
 
