@@ -5,7 +5,7 @@ date: 2020-01-27 12:00:00 +0200
 categories: Portal
 author: Everyone
 image: /assets/img/portal/latency.jpg
-excerpt: "We officially' test some the latency in the Oslo and Trondheim Portal"
+excerpt: "We 'officially' test some the latency in the Oslo and Trondheim Portal"
 Keywords: Latency, Portal, Sound
 ---
 ## Internal Latency
