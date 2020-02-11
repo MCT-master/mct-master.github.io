@@ -46,7 +46,7 @@ Group D includes **Shreejay Shrestha** and **Eirik Dahl** from *NTNU*, and **Guy
 
 ### Guy Sion
 
-![Photo of Guy Sion]((https://drive.google.com/uc?export=view&amp;id=1Us53jaYY7UPPfZWQ1tz5pVM2lt3FEOZG "Guy Sion")
+![Photo of Guy Sion](https://drive.google.com/uc?export=view&amp;id=1Us53jaYY7UPPfZWQ1tz5pVM2lt3FEOZG "Guy Sion")
 
 **Guy Sion** is a Saxophonist located in Oslo, Norway. Guy completed his Bachelor degree in Jazz performance at the Amsterdam Conservatory. He released two albums and several audio/visual works. Guy is an active musician in the Norwegian Jazz scene and is currently part of the Master program in Music, Communication and Technology at the Oslo University.
 
