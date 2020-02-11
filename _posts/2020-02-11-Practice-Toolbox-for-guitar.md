@@ -67,7 +67,7 @@ or of the grid. This works of course only if you let the sound out through your
 speakers.
 
 <figure>
- <img src="assets/img/Thomas/looperthomas.png" align="center" alt="looperthomas"/>
+ <img src="assets/img/thomas/looperthomas.png" align="center" alt="looperthomas"/>
  <figcaption>Looper</figcaption>
 </figure>
 
