@@ -5,7 +5,7 @@ date: 2020-02-10 18:00:00 +0200
 categories: Audio-Programming
 author: Jackson
 image: /assets/img/jacksong/oscguitar-logo.png
-excerpt: "A gesture-driven guitar over OSC and Pd"
+excerpt: "A gesture-driven guitar built in Puredata and utilizing OSC"
 Keywords: Guitar, OSC, Puredata
 ---
 
@@ -64,7 +64,7 @@ Unfortunately, one of the first issues I recognized was the latency that appeare
 
 <figure>
     <iframe src="https://drive.google.com/a/uio.no/file/d/1QV9hIkVoMbOr3DCNpR-IlDPX7_Y8l3zE/preview" width="800" height="480" frameborder="0" align="center" alt="Video demo of the OSC functionality"></iframe>
-    <figcaption>Video demo of the OSC functionality</figcaption>
+    <figcaption>Video demo of the OSC functionality - credit: Thomas Anda</figcaption>
 </figure>
 
 The audio within the video was recorded internally (oddly the pops only appeared after video editing - my computer was struggling with that fabulous transition).
