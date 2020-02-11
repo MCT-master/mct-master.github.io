@@ -4,7 +4,7 @@ title: MoCap Recap - Two weeks recap of a Motion Tracking workshop
 date: 2019-04-01 21:45:00 +0200
 categories: Motion-Tracking
 author: Guy Sion, Sam Roman, Elias Anderson
-image: \assets\img\guysion\ashane-mocap.jpg  
+image:
 excerpt: "During weeks 10-11 we attended the Music related motion tracking course (MCT4043) as part of the MCT program.
 The week started with the installation of the OptiTrack system in Oslo, placement of cameras, connecting wires to
 hubs and software installation and setup. we got familiar with the Motive:Body software and was able to run
@@ -13,9 +13,7 @@ the results with both recorded and streamed motion capture data."
 Keywords: Motion Caption, Movment, MoCap, Gestures, Virtual DJ, OptiTrack
 ---
 
-<figure>
-<img src="\assets\img\guysion\ashane-mocap.jpg" width = "100%" align="center" />
-</figure>
+![MoCap](https://drive.google.com/uc?export=view&amp;id=14y2hMf6U-iRUfkCX7dmSJog8iFwvUYhR "MoCap")
 
 <p>During weeks 10-11 Sam & Guy attended the Music related motion tracking course (MCT4043) as part of the MCT program.
 The week started with the installation of the OptiTrack system in Oslo, placement of cameras, connecting wires to
@@ -44,11 +42,7 @@ course. The group (including Elias and Sam) developed a Virtual DJ that utilizes
 movements of a DJ, for manipulating parameters a musical track. Our objective was capturing DJ body movements
 (recorded and streamed) into motion capture data and to sonify these movements.</p>
 
-
-<p><figure>
-<img src="\assets\img\guysion\all-panorama-mocap.jpg" width = "100%" align="center" />
-</figure></p>
-
+![Panorama](https://drive.google.com/uc?export=view&amp;id=1ioCt9ulPzXTc8Mn2ii9hlNFriC7fhbfk "Panorama")
 
 <p>Our method was to use the OptiTrack/Motive system to record the motion tracking data of a DJ standing by a table
 imitating a controller deck. We exported the mocap data to a text file that can be read by a Max/MSP patch that
