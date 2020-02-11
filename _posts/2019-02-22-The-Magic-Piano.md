@@ -27,12 +27,7 @@ Building the Magic Piano using web technologies has several advantages that fit 
 - Having the option to scale the app for various screen sizes.
 
 ## Timeline
-<figure>
-<img src="/assets/img/timeline.PNG" width = "85%" align="center" />
-</figure>
-
 ![Timeline](https://drive.google.com/uc?export=view&amp;id=18Tj-VF64zModEmosgwjj6MWKU2UeQ0zd "Timeline")
-
 
 ## Developing the Magic Piano
 
