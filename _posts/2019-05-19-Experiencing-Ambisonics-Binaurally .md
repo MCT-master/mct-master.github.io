@@ -8,25 +8,24 @@ image:
 excerpt: "During the MCT2022 Physical-virtual communication course we have had two sessions where we explored multichannel and ambisonic decoding. The first session, on February 27th, was mainly about recording a four channel A-format stream with an Ambisonic 360 sound microphone. We converted the A-format mic signal into a full-sphere surround sound format which was then decoded to 8 loudspeakers layout we placed evenly across the portal space. We have used the AIIRADecoder from the free and open source IEM plug-in suite."
 Keywords: Ambisonics, Music, Technology, Max4Live, Binaurally, E4L, Giant Steps
 ---
-<p>
-![Logo](https://drive.google.com/uc?export=view&amp;id=1TCF-xmE15IUitxgYLme057R6fby2BuHc "Logo")
+
+(https://drive.google.com/uc?export=view&amp;id=1TCF-xmE15IUitxgYLme057R6fby2BuHc "Logo")
 
 <p>During the MCT2022 Physical-virtual communication course we have had two sessions where we explored multichannel and ambisonic decoding. The first session, on February 27th, was mainly about recording a four channel A-format stream with an Ambisonic 360 sound microphone. We converted the A-format mic signal into a full-sphere surround sound format which was then decoded to 8 loudspeakers layout we placed evenly across the portal space. We have used the AIIRADecoder from the free and open source <a href="https://plugins.iem.at/" target="_blank">IEM plug-in suite</a>. Although the setup was not ideal, mostly because of the LOLA connection between the Trondheim and Oslo portals, and the fact that the loudspeakers were not at the same level of the listener’s head, we did manage to get a 3D spatial sound stream between the two campuses.
 
 <p>For our second session on April 24th, we focused on decoding binaurally the input from four large diaphragm condenser microphones placed in a square formation. It required us to use headphones for a better perception of the sound stream and enhanced immersive environment. The decoding was done this time with <a href="http://www.envelop.us/software" target="_blank">E4L (Envelop for Live)</a> free collection of spatial audio production tools. We created four audio channels and placed the E4L Source Panner device on each of the audio tracks. On a fifth audio track, we set the E4L Master Bus device and directed all output from the four microphones into that channel. You can see the setup we have used in Ableton Live in the pictures below.
 
+(https://drive.google.com/uc?export=view&amp;id=1TwMsw5c5sHd066EzUOfw3FaGWtJQbpbn "1")
 
-![1](https://drive.google.com/uc?export=view&amp;id=1TwMsw5c5sHd066EzUOfw3FaGWtJQbpbn "1")
+(https://drive.google.com/uc?export=view&amp;id=1zwDj7hmYCK3bUIlvZcOU3xRg1i-A0HC0 "2")
 
-![2](https://drive.google.com/uc?export=view&amp;id=1zwDj7hmYCK3bUIlvZcOU3xRg1i-A0HC0 "2")
+(https://drive.google.com/uc?export=view&amp;id=14VIMYRvz4-2f8iOV3MNjHoKj37XXd90P "3")
 
-![3](https://drive.google.com/uc?export=view&amp;id=14VIMYRvz4-2f8iOV3MNjHoKj37XXd90P "3")
+(https://drive.google.com/uc?export=view&amp;id=1uD7KL_XxfUX6XQJm6482l9ZzQvXnEk2C "4")
 
-![4](https://drive.google.com/uc?export=view&amp;id=1uD7KL_XxfUX6XQJm6482l9ZzQvXnEk2C "4")
+(https://drive.google.com/uc?export=view&amp;id=1_kQ-nOvH6LQ4QFR0cq1FPdjHwqeDaKpr "5")
 
-![5](https://drive.google.com/uc?export=view&amp;id=1_kQ-nOvH6LQ4QFR0cq1FPdjHwqeDaKpr "5")
-
-![6](https://drive.google.com/uc?export=view&amp;id=1i3B89_gdFNHNSGWAu3ZweYPBWYGMnCzH "6")
+(https://drive.google.com/uc?export=view&amp;id=1i3B89_gdFNHNSGWAu3ZweYPBWYGMnCzH "6")
 
 <p>We were given the time to experiment with this setup. Several class members have started to whisper, talk loudly or sing into their dedicated microphones, trying to create unique sonic material for the listeners who wore headphones in Trondheim and Oslo. I seized on the opportunity to play the saxophone with this ambisonic setup and resorted to the Giant Steps melody which seemed to be a recurring theme whenever I am being asked to play something (have you checked out my <a href="https://mct-master.github.io/audio-programming/2019/02/11/Giant-Player.html" target="_blank">(Giant Steps Player already?).</a>
 
