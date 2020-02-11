@@ -8,7 +8,7 @@ image: /assets/img/Group-D-Y1.jpg
 excerpt: Group D includes <strong>Shreejay Shrestha</strong> and <strong>Eirik Dahl</strong> from <em>NTNU</em>, and <strong>Guy Sion</strong> and <strong>Armando Gonzalez Sosto</strong> from <em>UiO</em>. The members of the group come from diverse professional backgrounds in education, architecture, music technology, and improvisation. The group’s interests are wide ranging, yet overlapping. Some interests include researching the possibilities of network-based audio collaboration as it relates to rehearsals and recording sessions, utilizing the portal as a tool for remote collaboration. The members of the group also wish to apply a thorough understanding of music technology in their own musical work and therapeutic applications.
 ---
 
-![Photo of Group D](https://drive.google.com/open?id=1yqBPdfbFqWyWJ9RG9oFq4eS4kqhSttS- "Group D")
+![Photo of Group D](https://drive.google.com/a/uio.no/file/d/1yqBPdfbFqWyWJ9RG9oFq4eS4kqhSttS-/view?usp=sharing "Group D")
 
 Group D includes **Shreejay Shrestha** and **Eirik Dahl** from *NTNU*, and **Guy Sion** and **Armando Gonzalez Sosto** from *UiO*. The members of the group come from diverse professional backgrounds in education, architecture, music technology, and improvisation. The group’s interests are wide ranging, yet overlapping. Some interests include researching the possibilities of network-based audio collaboration as it relates to rehearsals and recording sessions, utilizing the portal as a tool for remote collaboration. The members of the group also wish to apply a thorough understanding of music technology in their own musical work and therapeutic applications.
 
