@@ -71,7 +71,7 @@ speakers.
  <figcaption>Looper</figcaption>
 </figure>
 
-As a final touch I routed everything into objects in mobmuplat and
+As a final touch I routed everything into objects in MobMuPlat and
 made a decent looking GUI for myself and my students to interact with.
 
 # Reflection
