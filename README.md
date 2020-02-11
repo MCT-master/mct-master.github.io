@@ -53,9 +53,7 @@ Spaces or or special characters are not allowed in the file names.
 
 All files that are uploaded here must be publicly accessible through their link (select ‘get shareable link’, set link sharing ‘on’, set ‘allow with the link can view’ and tick ‘allow external access’).
 
-* To embed an IMAGE in your blog post follow the include the following HTML code: <br>```<img src="https://drive.google.com/uc?export=view&amp;id=G_DRIVE_FILENAME">```</br> where G_DRIVE_FILENAME is the long and random-looking alpha-numeric string you find in the G Drive shared link.
-
-  This can be followed by any HTML ```<img>``` [attribute](https://www.w3schools.com/tags/tag_img.asp), such as width and/or height.
+* To embed an IMAGE in your blog post follow the include the following HTML code: <br>```<img src="https://drive.google.com/uc?export=view&amp;id=G_DRIVE_FILENAME">```</br> where G_DRIVE_FILENAME is the long and random-looking alpha-numeric string you find in the G Drive shared link. This can be followed by any HTML ```<img>``` [attribute](https://www.w3schools.com/tags/tag_img.asp), such as width and/or height, and framed in the HTML ```<figure>``` [tag](https://www.w3schools.com/tags/tag_figure.asp) to include elements such as HTML ```<figcaption>``` [caption](https://www.w3schools.com/tags/tag_figcaption.asp). If you wish to use the markdown syntax to embed images, which provides less features, you can use `![alt text](https://drive.google.com/uc?export=view&amp;id=G_DRIVE_FILENAME)`.
   
 * To embed AUDIO with the HTML audio element: <br>```<audio controls><source src="https://docs.google.com/uc?export=download&id=G_DRIVE_FILENAME_ID" type="audio/wav"></audio>```<br>
 

@@ -4,7 +4,7 @@ title:  "Group D: LATE POST 'Jamming in the Portal' "
 date:   2018-10-21 19:58:00 +0200
 categories: Portal
 author: Shreejay Shrestha, Eirik Dahl, Guy Sion
-image: /assets/img/Hans-and-Guy.png
+image:
 excerpt: "We were responsible for the portal during week 39 (Sep 24th-28th).This was the week we decided to explore playing music over the portal between the two campuses (UiO-NTNU) through TICO.The need for experimenting with playing music online came from both students and teachers. Many of us were eager to share the things we like to do the most (playing music). Also, there was a need to play music together for demonstration during 'Music Cognition' course. During the first jam on Tuesday the 25th, we played ‘Fly me to the moon’, a random blues number and ‘Wonderful Tonight’. During the music cognition jam, we experienced more difficulties with hearing oneself and hearing each other. Perhaps the best solution might be using headphone during those sessions.The connection itself regarding latency was not such a problem, although we did feel like we are slowing down at times."
 ---
 
@@ -17,10 +17,7 @@ excerpt: "We were responsible for the portal during week 39 (Sep 24th-28th).This
 
 We were responsible for the portal during week 39 (Sep 24th-28th).This was the week we decided to explore playing music over the portal between the two campuses (UiO-NTNU) through TICO.The need for experimenting with playing music online came from both students and teachers. Many of us were eager to share the things we like to do the most (playing music). Also, there was a need to play music together for demonstration during 'Music Cognition' course. During the first jam on Tuesday the 25th, we played ‘Fly me to the moon’, a random blues number and ‘Wonderful Tonight’. During the music cognition jam, we experienced more difficulties with hearing oneself and hearing each other. Perhaps the best solution might be using headphone during those sessions.The connection itself regarding latency was not such a problem, although we did feel like we are slowing down at times.
 
-<figure>
-<img src="https://raw.githubusercontent.com/MCT-master/mct-master.github.io/master/assets/img/Hans-and-Guy.png" alt="Our Teacher, Hans T. Zeiner-Henriksen, jamming on a saxophone case and a book" width="80%" align="middle"/>
-<figcaption>Our Teacher, Hans T. Zeiner-Henriksen, jamming on a saxophone case and a book</figcaption>
-</figure>
+![Hans T. Zeiner-Henriksen, jamming on a saxophone case and a book](https://drive.google.com/uc?export=view&amp;id=1FhoiWvQDwp7DXDcCA-symofnwZM4vtWk "Hans T. Zeiner-Henriksen, jamming on a saxophone case and a book")
 
 ## Challenges
 
