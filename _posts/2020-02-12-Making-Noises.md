@@ -4,7 +4,7 @@ title: Making Noises With |noise~|
 date: 2020-02-12 00:24:00 +0200
 categories: Audio-Programming
 author: Paul Koenig
-image: https://drive.google.com/open?id=16K5KKQkWM0Fcp2XQkFqTWHqjtjlkQoqW
+image: assets/img/2020-02-12-paulgk-ProgrammingParadise.png
 excerpt: "Wherein I attempt to either program paradise or just make bacon-frying noises, which could be the same thing, actually"
 Keywords: Puredata, breakfast, relaxation, nature
 ---
@@ -37,7 +37,7 @@ Incidentally, also featured in the film is a young Clint Eastwood, who sings(!) 
 
 # Rain
 
-This is where things started to get interesting. Rain is pretty complex and, needless to say, can take a great many different forms. Since a full-on downpour is pretty close to full-spectrum noise, I tried to reproduce something slightly more subtle, a pretty good soaking shower that creates a variety of distinct sounds as millions of droplets strike and then run off the roof of the porch, drips off the leaves of the trees, and soak the load of clean laundry you forgot to bring in before it started raining. 
+This is where things started to get interesting. Rain is pretty complex and, needless to say, can take a great many different forms. Since a full-on downpour is pretty close to full-spectrum noise, I tried to reproduce something slightly more subtle, a pretty good soaking shower that creates a variety of distinct sounds as millions of droplets strike and then run off the roof of the porch, drip off the leaves of the trees, and soak the load of clean laundry you forgot to bring in before it started raining. 
 
 The rain engine has five elements. The first is just filtered background noise to keep things ambient. Another element consists of noise modulated by noise filtered at a low frequency and then bandpass filtered at 400hz to create a rough, muffled series of low-frequency spikes that remind me of rain on a well-insulated roof (if you’re inside). Intrepid observers will also note this part of the patch’s similarity to the Thunder generator, coming up next. 
 
@@ -58,8 +58,8 @@ I probably don’t need to explain this one, but it’s included for its simple 
 All of these patches were combined into an app using MobMuPlat! Now I can take the weather with me everywhere I go. It’s especially fun, and perverse, to listen to the rain on headphones, while walking home in the rain. Who does that? I do, apparently. 
 
 <figure>
-    <iframe src="https://drive.google.com/file/d/1gWHBN_J_e-_OvU_9OisvmYefqB22yzOJ/preview" width="800" height="480" align="center" frameborder="0" allowfullscreen="true" alt="How It Works, More Or Less"></iframe>
-    <figcaption>How It Works, More Or Less</figcaption>
+    <iframe src="https://drive.google.com/file/d/1gWHBN_J_e-_OvU_9OisvmYefqB22yzOJ/preview" width="400" height="480" align="center" frameborder="0" allowfullscreen="true" alt="Mesmerising GUI"></iframe>
+    <figcaption>Mesmerising GUI</figcaption>
 </figure>
 
 For all of these patches, I am deeply indebted to a series of online tutorials by Obiwannabe, who I believe to actually be Andy J Farnell, author of an excellent book on Pd sound synthesis (Farnell, 2010) . I also did a bit of reading in Tony Hillerson’s book, Programming Sound With Pure Data (Hillerson, 2014). 
