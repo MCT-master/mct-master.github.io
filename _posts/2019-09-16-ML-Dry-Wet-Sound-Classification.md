@@ -4,7 +4,7 @@ title: 'Multi-Layer Perceptron Classifier of Dry/Wet Saxophone Sound'
 date: 2019-09-16 11:00:00 +0200
 categories: Music-and-Machine-Learning
 author: Guy Sion
-image: /assets/img/guysion/melspecwet.png
+image:
 excerpt: 'The application I have decided to work on is of a machine learning model that can ultimately differentiate between a saxophone sound with effect (wet) and without effect (dry).'
 Keywords: Workshop, Machine learning, classification, feature extraction, artificial neural network, MLPClassifier
 ---
@@ -27,10 +27,7 @@ To be able to differentiate between the two classes of sound at hand, I first ha
 - Spectral Centroid - a calculation of a spectrum which indicates where the center of mass of the spectrum is located.                      
 - Spectral Flatness - a measure to quantify how much noise-like a sound is, as opposed to being tone-like.
 
-<figure>
-<img src="/assets/img/guysion/figures16.png" width = "100%" align="center" />
-<figcaption><strong>Plot for feature extraction</strong></figcaption>
-</figure>
+![Plot for feature extraction](https://drive.google.com/uc?export=view&amp;id=1x4Eu_CkrOcCp9FuzZNfQj_Nc29r3m44O "Plot for feature extraction")
 
 ## Preparing the dataset
 
