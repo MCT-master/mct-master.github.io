@@ -80,7 +80,7 @@ This might be flattering myself, but I think that me not focusing too much on ma
 
 I guess that the act of bringing a live plant as as the interface for my instrument to class and showing that the patch really worked helped a lot as emotional support during the performance. 
 
-<img src="https://drive.google.com/file/d/1rJsfAFPhBt9E1oZLwqF0-z59kSlzb785/view?usp=sharing">
+<img src="https://drive.google.com/file/d/1vceTxX53twpTchnGU6pVBFNgdB6XUaV0/view?usp=sharing">
 
 Photo credit to the great Thomas Anda.
 
