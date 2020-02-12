@@ -4,7 +4,7 @@ title: "Sonification of plants through Pure Data"
 date: 2020-02-11 22:10:42 +0100
 categories: Audio Programming
 author: Gaute Wardenær
-image: https://drive.google.com/file/d/1bU_z5q5Snls61m5QpcYWMWa0_tgjz5AW/view?usp=sharing
+image: https://drive.google.com/file/d/1bU_z5q5Snls61m5QpcYWMWa0_tgjz5AW/preview
 excerpt: "I am not sure if I am going crazy or if I am actually interacting with plants, but here me out here"
 ---
 
