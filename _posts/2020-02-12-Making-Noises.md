@@ -58,7 +58,7 @@ I probably don’t need to explain this one, but it’s included for its simple 
 All of these patches were combined into an app using MobMuPlat! Now I can take the weather with me everywhere I go. It’s especially fun, and perverse, to listen to the rain on headphones, while walking home in the rain. Who does that? I do, apparently. 
 
 <figure>
-    <iframe src="https://drive.google.com/file/d/1gWHBN_J_e-_OvU_9OisvmYefqB22yzOJ/preview" width="800" height="480" align="center" alt="How It Works, More Or Less"></iframe>
+    <iframe src="https://drive.google.com/file/d/1gWHBN_J_e-_OvU_9OisvmYefqB22yzOJ/preview" width="800" height="480" align="center" frameborder="0" allowfullscreen="true" alt="How It Works, More Or Less"></iframe>
     <figcaption>How It Works, More Or Less</figcaption>
 </figure>
 
