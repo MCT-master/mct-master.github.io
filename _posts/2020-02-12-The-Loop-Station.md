@@ -18,8 +18,8 @@ With four independent channels routed to integrated FX busses, such as pitch_shi
 <p align="center">
   <iframe
      frameborder="0"
-     width="500"
-     height="100"
+     width="640"
+     height="480"
      src="https://drive.google.com/file/d/13TOEoqF124t6gX7ClXNhV0ImHAgt84Zj/preview">
   </iframe>
 </p>
@@ -41,8 +41,8 @@ When implementing the features mentioned above, I started by the most important 
 <p align="center">
   <iframe
      frameborder="0"
-     width="500"
-     height="100"
+     width="640"
+     height="480"
      src="https://drive.google.com/file/d/19n_reSwid3-V9peR7pZatlsHvK8i_ds1/preview">
   </iframe>
 </p>
