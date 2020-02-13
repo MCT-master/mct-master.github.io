@@ -1,10 +1,10 @@
 ---
 layout: post
-title: "The [Loop Station]"
+title: "[ pd Loop Station ]"
 date: 2020-02-13 20:00:00 +0200
 categories: Audio-Programming
 author: Rayam Luna
-image: /assets/img/rayam/2020_02_11_rayaml_blog-cover-small.png
+image: /assets/img/rayam/2020_02_11_rayaml_blog-cover-small.jpg
 excerpt: "This is an attempt to create a Loop Station with features that I wish I had in such a pedal / software."
 Keywords: Audio Programming, Pure Data, MCT4048, Loop, Playback, Record
 --- 
@@ -61,7 +61,7 @@ The process of designing such functionalities opened my mind to a huge amount of
 
 Tusen takk!
 
-## [Prototype working: (Demo)nstration]
+## [ Prototype working: (Demo)nstration ]
 
 <p align="center">
 <iframe width="560" height="315" src="https://www.youtube.com/embed/95EbyaaJifg" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
