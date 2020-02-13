@@ -18,8 +18,8 @@ With four independent channels routed to integrated FX busses, such as pitch_shi
 <p align="center">
   <iframe
      frameborder="0"
-     width="640"
-     height="480"
+     width="840"
+     height="530"
      src="https://drive.google.com/file/d/1uA2-cSqUJZKz0q6C7xz_v4XxDX117IXC/preview">
   </iframe>
 </p>
