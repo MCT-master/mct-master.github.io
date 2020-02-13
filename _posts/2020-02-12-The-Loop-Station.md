@@ -4,7 +4,7 @@ title: "The [Loop Station]"
 date: 2020-02-13 20:00:00 +0200
 categories: Audio-Programming
 author: Rayam Luna
-image: /assets/img/rayam/video_cover-02.png
+image: /assets/img/rayam/2020_02_11_rayaml_blog-cover-small.png
 excerpt: "This chord generator uses a variable length delay fed by a microphone input as sound source."
 Keywords: Audio Programming, Pure Data, MCT4048, Loop, Playback, Record
 --- 
@@ -20,7 +20,7 @@ With four independent channels routed to integrated FX busses, such as pitch_shi
      frameborder="0"
      width="500"
      height="100"
-     src="https://drive.google.com/open?id=13TOEoqF124t6gX7ClXNhV0ImHAgt84Zj">
+     src="https://drive.google.com/open?id=13TOEoqF124t6gX7ClXNhV0ImHAgt84Zj/preview">
   </iframe>
 </p>
 
@@ -43,7 +43,7 @@ When implementing the features mentioned above, I started by the most important 
      frameborder="0"
      width="500"
      height="100"
-     src="https://drive.google.com/open?id=19n_reSwid3-V9peR7pZatlsHvK8i_ds1">
+     src="https://drive.google.com/open?id=19n_reSwid3-V9peR7pZatlsHvK8i_ds1/preview">
   </iframe>
 </p>
 
