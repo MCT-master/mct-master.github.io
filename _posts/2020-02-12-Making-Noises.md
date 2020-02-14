@@ -4,7 +4,7 @@ title: Making Noises With |noise~|
 date: 2020-02-12 00:24:00 +0200
 categories: Audio-Programming
 author: Paul Koenig
-image: assets/img/2020-02-12-paulgk-ProgrammingParadise.png
+image: assets/img/2020-02-12-paulgk-ProgrammingParadise.jpg
 excerpt: "Wherein I attempt to either program paradise or just make bacon-frying noises, which could be the same thing, actually"
 Keywords: Puredata, breakfast, relaxation, nature
 ---
