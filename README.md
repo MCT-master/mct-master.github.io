@@ -71,7 +71,7 @@ More info on embedding videos are available [here](https://support.google.com/bl
 
 To link a file you can simply use the G Drive shared link associated with your file.
 
-If using Firefox, the recently introduced Enhanced Tracking Protection prevents G Drive contents to be displayed (because of the google analytics associated with it). For correct visualization, the Enhanced Tracking Protection must be [disabled](https://support.mozilla.org/en-US/kb/enhanced-tracking-protection-firefox-desktop) on that pageoff on that site.
+If using Firefox, the recently introduced Enhanced Tracking Protection prevents G Drive contents to be displayed (because of the google analytics associated with it). For correct visualization, the Enhanced Tracking Protection must be [disabled](https://support.mozilla.org/en-US/kb/enhanced-tracking-protection-firefox-desktop) on that site.
 
 To delete files from Github, instructions are available [here](https://help.github.com/en/github/managing-large-files/removing-files-from-a-repositorys-history).
 
