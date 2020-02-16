@@ -53,7 +53,13 @@ Spaces or or special characters are not allowed in the file names.
 
 All files that are uploaded here must be publicly accessible through their link (select ‘get shareable link’, set link sharing ‘on’, set ‘allow with the link can view’ and tick ‘allow external access’).
 
-* To embed an IMAGE in your blog post follow the include the following HTML code: <br>```<img src="https://drive.google.com/uc?export=view&amp;id=G_DRIVE_FILENAME">```</br> where G_DRIVE_FILENAME is the long and random-looking alpha-numeric string you find in the G Drive shared link. This can be followed by any HTML ```<img>``` [attribute](https://www.w3schools.com/tags/tag_img.asp), such as width and/or height, and framed in the HTML ```<figure>``` [tag](https://www.w3schools.com/tags/tag_figure.asp) to include elements such as HTML ```<figcaption>``` [caption](https://www.w3schools.com/tags/tag_figcaption.asp). If you wish to use the markdown syntax to embed images, which provides less features, you can use `![alt text](https://drive.google.com/uc?export=view&amp;id=G_DRIVE_FILENAME)`.
+* To embed an IMAGE in your blog post follow the include the following HTML code: ```<img src="https://drive.google.com/uc?export=view&amp;id=G_DRIVE_FILENAME">``` where G_DRIVE_FILENAME is the long and random-looking alpha-numeric string you find in the G Drive shared link. This can be followed by any HTML ```<img>``` [attribute](https://www.w3schools.com/tags/tag_img.asp), such as width and/or height, and framed in the HTML ```<figure>``` [tag](https://www.w3schools.com/tags/tag_figure.asp) to include elements such as HTML ```<figcaption>``` [caption](https://www.w3schools.com/tags/tag_figcaption.asp). If you wish to use the markdown syntax to embed images, which provides less features, you can use `![alt text](https://drive.google.com/uc?export=view&amp;id=G_DRIVE_FILENAME)`. Example:
+  ```markdown
+  <<figure>
+  <img src="https://drive.google.com/uc?export=view&amp;id=G_DRIVE_FILENAME" width = "50%" align="center" />
+  <figcaption><strong>My Caption</strong></figcaption>
+  </figure>
+  ```
   
 * To embed AUDIO with the HTML audio element: <br>```<audio controls><source src="https://docs.google.com/uc?export=download&id=G_DRIVE_FILENAME_ID" type="audio/wav"></audio>```<br>
 
@@ -64,6 +70,8 @@ All files that are uploaded here must be publicly accessible through their link 
 More info on embedding videos are available [here](https://support.google.com/blogger/thread/1950766?hl=en).
 
 To link a file you can simply use the G Drive shared link associated with your file.
+
+If using Firefox, the recently introduced Enhanced Tracking Protection prevents G Drive contents to be displayed (because of the google analytics associated with it). For correct visualization, the Enhanced Tracking Protection must be [disabled](https://support.mozilla.org/en-US/kb/enhanced-tracking-protection-firefox-desktop) on that pageoff on that site.
 
 To delete files from Github, instructions are available [here](https://help.github.com/en/github/managing-large-files/removing-files-from-a-repositorys-history).
 
@@ -104,7 +112,7 @@ title: "Welcome to Jekyll!"
 date: 2018-08-21 10:10:42 +0200
 categories: Portal
 author: Name Surname
-image: /assets/img/name-of-file.jpg
+image: /assets/img/name-of-file.jpg OR https://drive.google.com/uc?export=view&amp;id=G_DRIVE_FILENAME
 excerpt: "A short summary, typically copy-pasting the first paragraph of the blog post."
 ---
 
