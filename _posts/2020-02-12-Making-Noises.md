@@ -4,7 +4,7 @@ title: Making Noises With |noise~|
 date: 2020-02-12 00:24:00 +0200
 categories: Audio-Programming
 author: Paul Koenig
-image: assets/img/2020-02-12-paulgk-ProgrammingParadise.png
+image: assets/img/2020-02-12-paulgk-ProgrammingParadise.jpg
 excerpt: "Wherein I attempt to either program paradise or just make bacon-frying noises, which could be the same thing, actually"
 Keywords: Puredata, breakfast, relaxation, nature
 ---
@@ -14,7 +14,7 @@ Keywords: Puredata, breakfast, relaxation, nature
 The project I undertook was to design several soundscapes derived from nature and implement them in a mobile application. The sounds I attempted to model were Ocean Waves, Wind, Rain, and Thunder. I also included a simple filtered-noise generator for my wife, used to help mask external noise while sleeping.
 
 <figure>
-    <iframe src="https://drive.google.com/a/uio.no/file/d/1eDOx_gGJmMBOftpK9IzgPl4KOZ04KFfb/preview" width="800" height="480" frameborder="0" align="center" alt="How It Works, More Or Less"></iframe>
+<iframe src="https://drive.google.com/file/d/1eDOx_gGJmMBOftpK9IzgPl4KOZ04KFfb/preview" width="640" height="480"></iframe>
     <figcaption>How It Works, More Or Less</figcaption>
 </figure>
 
