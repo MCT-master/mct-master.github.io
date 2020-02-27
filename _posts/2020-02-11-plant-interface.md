@@ -81,11 +81,10 @@ This might be flattering myself, but I think that me not focusing too much on ma
 I guess that the act of bringing a live plant as as the interface for my instrument to class and showing that the patch really worked helped a lot as emotional support during the performance. 
 
 
-<figure text-align="center">
-<iframe src="https://drive.google.com/file/d/1sA97-7QDVNyOdA4yjD59JMiCZ6ZQ0wat/view" width="640" height="400"></iframe>
-<figcaption>Photo credit to the great Thomas Anda</figcaption>
+<figure>
+    <iframe src="https://drive.google.com/file/d/1sA97-7QDVNyOdA4yjD59JMiCZ6ZQ0wat/preview" width="400" height="480" align="center" frameborder="0" allowfullscreen="true" alt="Mesmerising GUI"></iframe>
+    <figcaption>Photo credit to the great Thomas Anda</figcaption>
 </figure>
-
 
 ## Reflections on the process of learning Pure Data
 
