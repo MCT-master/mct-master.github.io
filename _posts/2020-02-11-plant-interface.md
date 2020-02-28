@@ -86,6 +86,11 @@ I guess that the act of bringing a live plant as as the interface for my instrum
     <figcaption>Photo credit to the great Thomas Anda</figcaption>
 </figure>
 
+<<figure>
+<img src="https://drive.google.com/uc?export=view&amp;id=1sA97-7QDVNyOdA4yjD59JMiCZ6ZQ0wat/preview" width = "50%" align="center" />
+<figcaption><strong>My Caption</strong></figcaption>
+</figure>
+
 ## Reflections on the process of learning Pure Data
 
 Although I had experience in PD from earlier projects done here at MCT and some knowledge of MAX MSP from my bachelor's degree, the last two weeks has been a quantum leap when it comes to learning the software. 
