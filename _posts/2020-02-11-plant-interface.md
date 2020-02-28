@@ -82,7 +82,7 @@ I guess that the act of bringing a live plant as as the interface for my instrum
 
 
 <figure>
-    <iframe src="https://drive.google.com/file/d/1sA97-7QDVNyOdA4yjD59JMiCZ6ZQ0wat/preview" width="400" height="480" align="center" frameborder="0" allowfullscreen="true" alt="Mesmerising GUI"></iframe>
+    <iframe src="https://drive.google.com/a/uio.no/file/d/1sA97-7QDVNyOdA4yjD59JMiCZ6ZQ0wat/view?usp=sharing" width="400" height="480" align="center" frameborder="0" allowfullscreen="true" alt="Mesmerising GUI"></iframe>
     <figcaption>Photo credit to the great Thomas Anda</figcaption>
 </figure>
 
