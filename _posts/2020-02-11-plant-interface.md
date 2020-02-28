@@ -82,14 +82,10 @@ I guess that the act of bringing a live plant as as the interface for my instrum
 
 
 <figure>
-    <iframe src="https://drive.google.com/a/uio.no/file/d/1sA97-7QDVNyOdA4yjD59JMiCZ6ZQ0wat/view?usp=sharing" width="400" height="480" align="center" frameborder="0" allowfullscreen="true" alt="Mesmerising GUI"></iframe>
+    <iframe src="https://drive.google.com/a/uio.no/file/d/1sA97-7QDVNyOdA4yjD59JMiCZ6ZQ0wat/view?usp=sharing" width="100%" height="100%" align="center" frameborder="0" allowfullscreen="true" alt="Mesmerising GUI"></iframe>
     <figcaption>Photo credit to the great Thomas Anda</figcaption>
 </figure>
 
-<figure>
-<img src="https://drive.google.com/uc?export=view&amp;2020_02_11_gtwarden_performance.jpg" width = "50%" align="center" />
-<figcaption><strong>My Caption</strong></figcaption>
-</figure>
 
 ## Reflections on the process of learning Pure Data
 
