@@ -4,7 +4,7 @@ title: "Sonification of plants through Pure Data"
 date: 2020-02-11 22:10:42 +0100
 categories: Audio Programming
 author: Gaute Wardenær
-image: https://drive.google.com/file/d/1bU_z5q5Snls61m5QpcYWMWa0_tgjz5AW/view?usp=sharing
+image: https://drive.google.com/a/uio.no/file/d/1TApzQYERhPQp8zov7O1Fh02uHSY5Y1V7/view?usp=sharing
 excerpt: "I am not sure if I am going crazy or if I am actually interacting with plants, but here me out here"
 ---
 
@@ -95,8 +95,12 @@ I quickly adopted the process of figuring out where I wanted to go with the idea
 
 I feel like so many examples on the internet of the use of Pure Data are done only for the sake of making a patch in Pure Data. In my opinion, the reason for making a patch in PD and not using some product that already exists on the internet should be because the solution to what you want to do does not already exist. The patches presented by my classmates today really reflect the same idea by almost exclusively being original and novel ideas. 
 
-<iframe title="YouTube video player" width="480" height="390" src="https://drive.google.com/file/d/1BRWdEWCqcmts5bwSQsIXwUpVMrCaSK9J/view?usp=sharing" frameborder="0" allowfullscreen></iframe>
-A video of me demonstrating the patch
+
+<figure>
+<iframe src="https://drive.google.com/a/uio.no/file/d/13QrYcxNAPrM8ajX87oTciom28arylcuA/view?usp=sharing" width="640" height="480"></iframe>
+<figcaption>A video of me demonstrating the patch</figcaption>
+</figure>
+
 
 ## About the patch
 
