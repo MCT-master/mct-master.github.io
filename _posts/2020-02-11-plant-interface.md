@@ -86,7 +86,7 @@ I guess that the act of bringing a live plant as as the interface for my instrum
     <figcaption>Photo credit to the great Thomas Anda</figcaption>
 </figure>
 
-<<figure>
+<figure>
 <img src="https://drive.google.com/uc?export=view&amp;id=1sA97-7QDVNyOdA4yjD59JMiCZ6ZQ0wat/preview" width = "50%" align="center" />
 <figcaption><strong>My Caption</strong></figcaption>
 </figure>
