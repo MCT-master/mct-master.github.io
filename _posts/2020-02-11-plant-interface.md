@@ -82,7 +82,7 @@ I guess that the act of bringing a live plant as as the interface for my instrum
 
 
 <figure>
-<img src="https://drive.google.com/uc?export=view&amp;id=1sA97-7QDVNyOdA4yjD59JMiCZ6ZQ0wat" width="100%" height="100%" align="center" frameborder="0" allowfullscreen="true" alt="Mesmerising GUI"></img>
+<img src="https://drive.google.com/uc?export=view&amp;id=1sA97-7QDVNyOdA4yjD59JMiCZ6ZQ0wat" width="80%" height="80%" align="center" frameborder="0" allowfullscreen="true" alt="Mesmerising GUI"></img>
 <figcaption>Photo credit to the great Thomas Anda</figcaption>
 </figure>
 
@@ -95,13 +95,9 @@ I quickly adopted the process of figuring out where I wanted to go with the idea
 
 I feel like so many examples on the internet of the use of Pure Data are done only for the sake of making a patch in Pure Data. In my opinion, the reason for making a patch in PD and not using some product that already exists on the internet should be because the solution to what you want to do does not already exist. The patches presented by my classmates today really reflect the same idea by almost exclusively being original and novel ideas. 
 
-
-<figure>
-<iframe src="https://drive.google.com/a/uio.no/file/d/13QrYcxNAPrM8ajX87oTciom28arylcuA/view?usp=sharing" width="640" height="480"></iframe>
-<figcaption>A video of me demonstrating the patch</figcaption>
-</figure>
-
 <video width="640" height="480" controls align="middle"><source src="https://docs.google.com/uc?export=download&id=13QrYcxNAPrM8ajX87oTciom28arylcuA" type="video/mp4"></video>
+A video of me demonstrating the patch
+
 
 ## About the patch
 
