@@ -50,7 +50,7 @@ Every reporting country’s coordinates are compared with these set numbers to d
 </figure>
 
 
-Each incoming data string consists of Country, Lat, Long, Day #1, Day #2, etc. Each day’s number represents the increase in either confirmed cases, recovered cases, or deaths. Using the |zl slice| object in Pd, we separate the map coordinates from the daily numbers. Each data string is then separated by region, using the method described above. The daily numbers are used to trigger midi notes, a new note being added every time the daily numbers exceed a certain threshold, and sent to the DAW.
+Each incoming data string consists of Country, Lat, Long, Day #1, Day #2, etc. Each day’s number represents the increase in either confirmed cases, recovered cases, or deaths. Using the (zl slice) object in Pd, we separate the map coordinates from the daily numbers. Each data string is then separated by region, using the method described above. The daily numbers are used to trigger midi notes, a new note being added every time the daily numbers exceed a certain threshold, and sent to the DAW.
 
 After working with the “confirmed cases” data for a while, we became aware of an important parameter in the numbers that we had initially ignored. The day-to-day cases occasionally registered huge spikes in the numbers that seemed quite significant. We wished to devise a way to represent this in the sonification. For this reason, we decided to focus on only the sonification of the confirmed-case data for this stage of the project, in consideration of our time constraints.
 
