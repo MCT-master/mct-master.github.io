@@ -82,8 +82,8 @@ I guess that the act of bringing a live plant as as the interface for my instrum
 
 
 <figure>
-    <iframe src="https://drive.google.com/a/uio.no/file/d/1sA97-7QDVNyOdA4yjD59JMiCZ6ZQ0wat/view?usp=sharing" width="100%" height="100%" align="center" frameborder="0" allowfullscreen="true" alt="Mesmerising GUI"></iframe>
-    <figcaption>Photo credit to the great Thomas Anda</figcaption>
+<img src="https://drive.google.com/uc?export=view&amp;id=1sA97-7QDVNyOdA4yjD59JMiCZ6ZQ0wat" width="100%" height="100%" align="center" frameborder="0" allowfullscreen="true" alt="Mesmerising GUI"></img>
+<figcaption>Photo credit to the great Thomas Anda</figcaption>
 </figure>
 
 
@@ -101,6 +101,7 @@ I feel like so many examples on the internet of the use of Pure Data are done on
 <figcaption>A video of me demonstrating the patch</figcaption>
 </figure>
 
+<video width="640" height="480" controls align="middle"><source src="https://docs.google.com/uc?export=download&id=13QrYcxNAPrM8ajX87oTciom28arylcuA" type="video/mp4"></video>
 
 ## About the patch
 
