@@ -2,9 +2,9 @@
 layout: post
 title: "Sonification of plants through Pure Data"
 date: 2020-02-11 22:10:42 +0100
-categories: Audio Programming
+categories: Audio-Programming
 author: Gaute Wardenær
-image: https://drive.google.com/a/uio.no/file/d/1TApzQYERhPQp8zov7O1Fh02uHSY5Y1V7/view?usp=sharing
+image: https://drive.google.com/uc?export=view&amp;id=1TApzQYERhPQp8zov7O1Fh02uHSY5Y1V7
 excerpt: "I am not sure if I am going crazy or if I am actually interacting with plants, but here me out here"
 ---
 
