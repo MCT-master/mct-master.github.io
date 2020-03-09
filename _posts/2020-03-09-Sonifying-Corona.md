@@ -24,7 +24,7 @@ Our initial idea was to create a worldwide “orchestra” of sounds by superimp
 Figure 1 shows our initial thinking on how to approach the instrumentation by region.
 
 <figure>
-    <img src="/assets/img/PK/Instrumentation_Map.png" width="640" height="480">
+    <img src="/assets/img/PK/Instrumentation_Map.png" width="640" height="340">
     <figcaption>Fig 1 Initial Instrument Assignments By Region</figcaption>
 </figure>
 
@@ -45,7 +45,7 @@ Rayam, Paul, and Dongho on the Oslo side collaborated on implementing the sonifi
 Every reporting country’s coordinates are compared with these set numbers to determine which region they belonged in. Using the Pythagorean theorem (a2+b2=c2) we triangulated the location in comparison to the predetermined set points, and then sent each data string to one of eight channels assigned to each one of the selected regions.
 
 <figure>
-    <img src="/assets/img/PK/Instrumentation_By_Region.png" width="640" height="480">
+    <img src="/assets/img/PK/Instrumentation_By_Region.png" width="640" height="180">
     <figcaption>Fig. 2 Final Orchestral Layout</figcaption>
 </figure>
 
@@ -67,7 +67,7 @@ There was a huge amount of data to work with, and we needed to narrow our focus 
 Each day’s worth of data is allotted 3000ms of sonic space to unfold. Each region’s data is delayed slightly from the prior region to allow the data sonic space to be better understood by the listener. See fig. 3.
 
 <figure>
-    <img src="/assets/img/PK/Delay_Onset.png" width="640" height="480">
+    <img src="/assets/img/PK/Delay_Onset.png" width="598" height="504">
     <figcaption>Fig. 3 Delay Onset By Region</figcaption>
 </figure>
 
