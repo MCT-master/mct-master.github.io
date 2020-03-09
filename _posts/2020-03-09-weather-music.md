@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Weather Music
-date: 2020-02-13 20:00:00 +0200
+date: 2020-03-09 20:00:00 +0200
 categories: Sonification
 author: Aleksander Tidemann, Jarle Steinhovden, Gaute Timian Dahl Wardenær, Tom Ignatius Wee
 image: /assets/img/sunset.jpg
