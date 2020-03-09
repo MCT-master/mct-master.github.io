@@ -67,7 +67,7 @@ There was a huge amount of data to work with, and we needed to narrow our focus 
 Each day’s worth of data is allotted 3000ms of sonic space to unfold. Each region’s data is delayed slightly from the prior region to allow the data sonic space to be better understood by the listener. See fig. 3.
 
 <figure>
-    <img src="/assets/img/PK/Delay_Onset.png" width="598" height="504">
+    <img src="/assets/img/PK/Delay_Onset.png" width="398" height="304">
     <figcaption>Fig. 3 Delay Onset By Region</figcaption>
 </figure>
 
