@@ -29,14 +29,14 @@ The frame extraction is based on pythons PIL and color-science libraries in part
 
 <figure text-align="center">
 <iframe src="https://drive.google.com/file/d/1RGje8WT8vQsGMbJUsncqU0n4Nb-WwePK/preview" width="640" height="400"></iframe>
-<figcaption>Screen segmentation</figcaption>
+<figcaption>Figure 1 - Screen segmentation</figcaption>
 </figure>
 
 However, we decided to scale down our data intake by focusing on four squares, as seen in figure 2, only extracting color temperature averages. This enabled us to focus on the color sonification and calibration more clearly given the limited project time-frame.
 
 <figure text-align="center">
 <iframe src="https://drive.google.com/file/d/1QI8hCQfi5y7tScE2T1zGJ6lMRSkZ2x0-/preview" width="640" height="400"></iframe>
-<figcaption>four corners</figcaption>
+<figcaption>Figure 2 - Four corners</figcaption>
 </figure>
 
 ## Sonification
@@ -45,7 +45,7 @@ The sound engine was built in PureData and features note generation based on a M
 
 <figure text-align="center">
 <iframe src="https://drive.google.com/file/d/1XBLsmX9gal9EdvHBXb8_PDHp7mBObis0/preview" width="640" height="400"></iframe>
-<figcaption>Spatial concept</figcaption>
+<figcaption>Figure 3 - Spatial concept</figcaption>
 </figure>
 
 The audio example beneath is a demo of our sound engine playing through a 24-hour cycle in roughly 2 minutes. Notice how the different times of day affect the combination of instruments.
@@ -55,26 +55,26 @@ The audio example beneath is a demo of our sound engine playing through a 24-hou
      frameborder="0"
      width="500"
      height="100"
-     src="https://drive.google.com/a/uio.no/file/d/1SGU0ZW8E1_FzMWNR8zyCPQvRKzzsyD8d/view?usp=sharing">
+     src="https://drive.google.com/file/d/1SGU0ZW8E1_FzMWNR8zyCPQvRKzzsyD8d/preview">
   </iframe>
 </p>
 
-Practically, this entire setup was achieved using two machines as figure 4 shows. One machine extracts its screen (webcam or image feed) and sends that information to PureData via UDP. From there, we send this data via [netsend -u] to another machine that runs the actual sonification. We decided to make the sonification like this because we all felt that the idea of representing an image through spatial sound was very interesting, hoping that a user could close their eyes and perceive whether the sun was rising or setting through the location and texture of the music in the room. 
+Practically, this entire setup was achieved using two machines as figure 4 shows. One machine extracts its screen (webcam or image feed) and sends that information to PureData via UDP. From there, we send this data via [netsend -u] to another machine that runs the actual sonification. We decided to design the system like this because we all felt that the idea of representing an image through spatial sound was very interesting, hoping that a user could close their eyes and perceive whether the sun was rising or setting through the location and texture of the music in the room. 
 
 <figure text-align="center">
 <iframe src="https://drive.google.com/file/d/1mH8VGRR01ZvW0KPnGN0azINL32zkntl7/preview" width="640" height="400"></iframe>
-<figcaption>Signal chain</figcaption>
+<figcaption>Figure 4 - Signal chain</figcaption>
 </figure>
 
 ## Future Development
 
 If our project time-frame had been greater, we would have done more testing and calibration before expanding our space into 8 squares with an equal amount of speakers. This would allow for possible expansion of the sonification of different scenes or places at the same time. However, the current product is useful in its own right, however, the said expansion would have been a great addition to create more possibilities for more use.
 
-A future use-case for our technology could be to sonify the output of a live camera at a site. Imagine a vantage point where one would usually go to watch the sunset and sunrise and get a sonification of the experience as well as watching it. The ideal scenario would be to have the panning of the voices done in an Ambisonics encoder so that it could be played back on any number of loudspeakers and in a three-dimensional sound-field as shown in the figure underneath. 
+A future use-case for our technology could be to sonify the output of a live camera at a site. Imagine a vantage point where one would usually go to watch the sunset and sunrise and get a sonification of the experience as well as watching it. The ideal scenario would be to have the panning of the voices done in an Ambisonics encoder so that it could be played back on any number of loudspeakers and in a three-dimensional sound-field as shown in figure 5. 
 
 <figure text-align="center">
 <iframe src="https://drive.google.com/file/d/1uNMmvtvlHRq90N06cN-HP8FOTV7xF4g6/preview" width="640" height="400"></iframe>
-<figcaption>Expanded spatial concept</figcaption>
+<figcaption>Figure 5 - Expanded spatial concept</figcaption>
 </figure>
 
 ## Summary 
