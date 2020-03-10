@@ -3,7 +3,7 @@ layout: post
 title: "The B Team Wraps up the Portal"
 date: 2019-12-1 16:30:00 +0200
 categories: Portal
-author: Jackson, Jarle, Simon
+author: Jackson Goode, Jarle Steinhovden, Simon Sandvik
 image: /assets/img/b-team/x-mas.jpg
 excerpt: "We made it out of the Portal, now what?"
 Keywords: Portal, Reflections, Concert

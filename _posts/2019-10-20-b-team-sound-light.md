@@ -3,7 +3,7 @@ layout: post
 title:  "The B Team: Mini-Hackathon"
 date:   2019-10-24 12:00:00 +0200
 categories: Physical-Computing
-author: Jackson, Magda, Simon, and Jarle
+author: Jackson Goode, Magda Futyma, Simon Sandvik, and Jarle Steinhovden
 image: /assets/img/b-team/bela_device.jpg
 excerpt: "For the MCT 4000 mini-hackathon in the physical computing module we tried to send sound at the speed of light."
 ---

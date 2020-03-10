@@ -3,7 +3,7 @@ layout: post
 title: 'Could DSP it?'
 date: 2019-09-16 15:00:00 +0200
 categories: Portal
-author: Jackson
+author: Jackson Goode
 image: /assets/img/b-team/polarity.jpg
 excerpt: 'Is polarity the solution?'
 Keywords: Portal, polarity, DSP, phase, cancelation, feedback, live sound
