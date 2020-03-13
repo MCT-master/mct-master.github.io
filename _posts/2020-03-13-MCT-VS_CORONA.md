@@ -16,4 +16,5 @@ If we have learned anything over these past seven months, its how to deal with e
 For our next installment, we have the privilege of enjoying a "series" on the power and grace of programming in Python, conducted by our very own Jackson Goode. Who knows what will follow, there is certainly no shortage of relevant topics and knowledgable people in our class. This is just the beginning of many in a whole new MCT paradigm. 
 
 Our hearts out to all who have been affected by the virus and those (many many) less fortunate than us.
+
 To be continued..
