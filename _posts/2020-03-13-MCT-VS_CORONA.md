@@ -2,8 +2,8 @@
 layout: post
 title: MCT vs Corona 
 date: 2020-03-13 20:00:00 +0200
-categories: Audio Programming
-author: Aleksander, Thibault, Ulrik, Jackson, Jarle, Simon & Thomas
+categories: Audio Programming, Portal
+author: Everyone
 image: /assets/img/ccourse.jpg
 excerpt: "In light of the recent microbial world war, we have taken matters into our own hands by sharing audio programming expertise through small introductory courses on Zoom."
 Keywords: MCT, C++, audio programming
