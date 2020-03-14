@@ -2,7 +2,7 @@
 layout: post
 title: MCT vs. Corona 
 date: 2020-03-13 20:00:00 +0200
-categories: MCT, Audio-Programming
+categories: MCT
 author: Class of 2021
 image: /assets/img/ccourse.jpg
 excerpt: "In light of the recent microbial world war, we have taken matters into our own hands by sharing audio programming expertise through small introductory courses on Zoom."
