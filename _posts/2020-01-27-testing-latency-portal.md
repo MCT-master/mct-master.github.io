@@ -3,7 +3,7 @@ layout: post
 title: "Testing Latency in the Portal"
 date: 2020-01-27 12:00:00 +0200
 categories: Portal
-author: Everyone
+author: Class of 2021
 image: /assets/img/portal/latency.jpg
 excerpt: "We 'officially' test some the latency in the Oslo and Trondheim Portal"
 Keywords: Latency, Portal, Sound

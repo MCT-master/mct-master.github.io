@@ -3,7 +3,7 @@ layout: post
 title: The Immersive Portal
 date: 2020-02-24 18:00:00 +0200
 categories: Portal
-author: Everyone
+author: Class of 2021
 image: /assets/img/portal/ambisonics.jpg
 excerpt: The MCT portal is rigged for ambisonics to fit a virtual classroom in a classroom
 Keywords: Portal, Spatialization, Ambisonics, IEM
