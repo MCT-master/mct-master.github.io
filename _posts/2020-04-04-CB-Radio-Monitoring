@@ -1,11 +1,11 @@
 ---
 layout: post
-title: Hijacking Old Tech for New Uses
+title: "Hijacking Old Tech for New Uses"
 date: 2020-04-04 23:00:00 +0200
 categories: Portal
 author: Paul Koenig
-image: assets/img/PK/70s_CB.jpg
-excerpt: I awoke from a strange, feverish dream . . . 
+image: /assets/img/PK_70s_CB.jpg
+excerpt: "I awoke from a strange, feverish dream . . ." 
 Keywords: Coronavirus, COVID-19, Sonification
 --- 
 
@@ -28,6 +28,9 @@ A large, hairy arm appeared before me, holding a tiny-umbrella bedecked gin sunr
 He began to sing again. “Keep your foot hard on the pedal, son never mind them brakes . . . “ This time, Taylor Swift joined in from her perch on a barstool, streaming her vocals from a usb mic attached to a 2019 MacBook Air. What the heck was she doing there?
 
 Now, things had just gotten plain weird.
+
+
+## Part Two
 
 Here in the MCT program, we deal a lot with internet communication technologies. In the years B.C. (before COVID-19), we would meet four or five days a week in the Portal and chat, collaborate, and conduct classes between Oslo and Trondheim with some of the best technology available. Leveraging the cutting edge and trying to push the boundaries of LOLA, TICO, Dante, and other low-latency protocols was our daily task.
 
