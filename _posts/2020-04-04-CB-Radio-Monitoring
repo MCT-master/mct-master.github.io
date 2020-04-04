@@ -11,44 +11,87 @@ Keywords: Coronavirus, COVID-19, Sonification
 
 ## Smokey and the Bandwidth
 
-I awoke from a strange, feverish dream. I was at a Hollywood pool party, circa 1978. Everyone was there. Farah Fawcett, Debbie Harry, Kermit the Frog, Marty Feldman’s eyeballs. Riding a profusely-sweating Dom DeLuise, Roger Moore leapt into view and then disappeared behind the tiki bar, reappearing with 17 perfectly crafted Tanqueray martinis clutched in his large, crablike forelimbs. Jerry Reed cannonballed into the deep end of the pool, hollering “East Bound And Down” into a Cobra 29LTD CB radio that was inexplicably mounted in the neck of a huge inflatable pink flamingo. Burt Reynolds, loitering in a nearby lounge chair, conversed earnestly with an orangutan wearing overalls and an engineer’s cap. 
+I awoke from a strange, feverish dream. I was at a Hollywood pool party, circa 1978. Everyone was there. Farah Fawcett, Debbie 
+Harry, Kermit the Frog, Marty Feldman’s eyeballs. Riding a profusely-sweating Dom DeLuise, Roger Moore leapt into view and then 
+disappeared behind the tiki bar, reappearing with 17 perfectly crafted Tanqueray martinis clutched in his large, crablike 
+forelimbs. Jerry Reed cannonballed into the deep end of the pool, hollering “East Bound And Down” into a Cobra 29LTD CB radio 
+that was inexplicably mounted in the neck of a huge inflatable pink flamingo. Burt Reynolds, loitering in a nearby lounge 
+chair, conversed earnestly with an orangutan wearing overalls and an engineer’s cap. 
 
 Or was that Loni Anderson? For some reason, it was hard to tell them apart. God, the sun was hot. 
 
 A large, hairy arm appeared before me, holding a tiny-umbrella bedecked gin sunrise which I accepted gratefully. 
 
-“Thank you, Loni” I said, tossing a quarter to the orangutan in the overalls. “East down and bound, loaded up and truckin’” I muttered into my gin sunrise, which had turned into a CB microphone. 
+>Thank you, Loni 
+I said, tossing a quarter to the orangutan in the overalls. 
+>East down and bound, loaded up and truckin’
+I muttered into my gin sunrise, which had turned into a CB microphone. 
 
-“Hot mic hot mic! Key down, rachet jaw!” Jerry Reed screamed. “I’m tryin’ to finish my song!”
+>Hot mic hot mic! Key down, rachet jaw! 
+Jerry Reed screamed. 
+>I’m tryin’ to finish my song!
 
-“Sorry Jerry!” I hollered back, adding lamely, “My drink, uh, turned into a microphone!” Jerry nodded and smiled, as if this were to be expected. 
+>Sorry Jerry! 
+I hollered back, adding lamely, 
+>My drink, uh, turned into a microphone! 
+Jerry nodded and smiled, as if this were to be expected. 
 
-“Son,” he said, “that’s a 10-4. Now, son, remember: always keep your ears on and don’t let smokey catch you in the hammer lane.” 
+>Son, 
+he said, 
+>that’s a 10-4. Now, son, remember: always keep your ears on and don’t let smokey catch you in the hammer lane. 
 
-He began to sing again. “Keep your foot hard on the pedal, son never mind them brakes . . . “ This time, Taylor Swift joined in from her perch on a barstool, streaming her vocals from a usb mic attached to a 2019 MacBook Air. What the heck was she doing there?
+He began to sing again. 
+>Keep your foot hard on the pedal, son never mind them brakes . . .  
+This time, Taylor Swift joined in from her perch on a barstool, streaming her vocals from a usb mic attached to a 2019 MacBook 
+Air. What the heck was she doing there?
 
 Now, things had just gotten plain weird.
 
 
-## Part Two
+## Back to Reality, sort-of
 
-Here in the MCT program, we deal a lot with internet communication technologies. In the years B.C. (before COVID-19), we would meet four or five days a week in the Portal and chat, collaborate, and conduct classes between Oslo and Trondheim with some of the best technology available. Leveraging the cutting edge and trying to push the boundaries of LOLA, TICO, Dante, and other low-latency protocols was our daily task.
+Here in the MCT program, we deal a lot with internet communication technologies. In the years B.C. (before COVID-19), we would 
+meet four or five days a week in the Portal and chat, collaborate, and conduct classes between Oslo and Trondheim with some of 
+the best technology available. Leveraging the cutting edge and trying to push the boundaries of LOLA, TICO, Dante, and other 
+low-latency protocols was our daily task.
 
-Now, the Portal sits empty. Hopefully, someone remembered to turn off the lights. All MCT courses and meetings now takes place via Zoom, pretty much like the rest of the university’s activities - like the rest of universities and businesses worldwide. 
+Now, the Portal sits empty. Hopefully, someone remembered to turn off the lights. All MCT courses and meetings now takes place 
+via Zoom, pretty much like the rest of the university’s activities - like the rest of universities and businesses worldwide. 
 
-It’s kind of a step backwards for us, technology-wise. But I think it’s been a good exercise in the practical application of “everyday” tech, and really valuable for me personally. In the last few weeks, I think I’ve learned more about my own laptop, it’s capabilities and limitations, than I learned in the entire seven years since I bought it. 
+It’s kind of a step backwards for us, technology-wise. But I think it’s been a good exercise in the practical application of 
+>everyday 
+tech, and really valuable for me personally. In the last few weeks, I think I’ve learned more about my own laptop, it’s 
+capabilities and limitations, than I learned in the entire seven years since I bought it. 
 
-After all, most people don’t really have access to the level of tech we became accustomed to using in the Portal. What do we have to teach others about Music Communication Technology when the average person lacks a Portal? The real question becomes, what can we do with what we have?
+After all, most people don’t really have access to the level of tech we became accustomed to using in the Portal. What do we 
+have to teach others about Music Communication Technology when the average person lacks a Portal? The real question becomes, 
+what can we do with what we have?
 
-I don’t know if it’s just the effects of sitting around the house all day, carefully cultivating my quarantine beard and pondering the future, or something that could actually be of use to somebody - but I have this weird idea to help local musicians be able to collaborate in real-time, without having to leave their own quarantine bunkers. Yes, it involves CB radios.
+I don’t know if it’s just the effects of sitting around the house all day, carefully cultivating my quarantine beard and 
+pondering the future, or something that could actually be of use to somebody - but I have this weird idea to help local 
+musicians be able to collaborate in real-time, without having to leave their own quarantine bunkers. Yes, it involves CB radios.
 
-The problem space here is the same as it always has been: latency. Even for musicians that live right down the street from each other, the cumulative round-trip latency incurred as a musical signal from Musician A is A/D converted, sent over WiFi, bounced from node to node all around town, then D/A converted and piped into the ears of Musician B, who reacts with a collaborative musical signal which then travels back to Musician A along the same lines can be too much to be useful, particularly when network traffic is high. And right now, it’s pretty much always high.
+The problem space here is the same as it always has been: latency. Even for musicians that live right down the street from 
+each other, the cumulative round-trip latency incurred as a musical signal from Musician A is A/D converted, sent over WiFi, 
+bounced from node to node all around town, then D/A converted and piped into the ears of Musician B, who reacts with a 
+collaborative musical signal which then travels back to Musician A along the same lines can be too much to be useful, 
+particularly when network traffic is high. And right now, it’s pretty much always high.
 
-In the Portal, we didn’t have this problem. With our dedicated network, round-trip latency Oslo-Trondheim was consistently around 30-40ms, making real-time musical collaboration possible. At home, using Zoom or other similar technologies, latency has fluctuated widely and unpredictably, veering drunkenly between 30-300 or more milliseconds. It’s enough to make me want to take up drinking myself, except that I can’t afford booze now.
+In the Portal, we didn’t have this problem. With our dedicated network, round-trip latency Oslo-Trondheim was consistently 
+around 30-40ms, making real-time musical collaboration possible. At home, using Zoom or other similar technologies, latency 
+has fluctuated widely and unpredictably, veering drunkenly between 30-300 or more milliseconds. It’s enough to make me want to 
+take up drinking myself, except that I can’t afford booze now.
 
-But I digress. The idea works like this: Each musician has a CB receiver for each member of their ensemble, plus one transmitter for themselves. Each musician transmits their signal on a separate dedicated channel, which is received in turn by each other musician.  Therefore, if the ensemble has four players, each player would have four CB receiver/transmitters, three to receive the signals from their bandmates, and one to transmit their own. Each player would then be able to mix their own custom monitor mix by routing each of the four signals into a simple desktop mixer. 
+But I digress. The idea works like this: Each musician has a CB receiver for each member of their ensemble, plus one 
+transmitter for themselves. Each musician transmits their signal on a separate dedicated channel, which is received in turn by 
+each other musician.  Therefore, if the ensemble has four players, each player would have four CB receiver/transmitters, three to receive the signals from their bandmates, and one to transmit their own. Each player would then be able to mix their own custom monitor mix by routing each of the four signals into a simple desktop mixer. 
 
-The fun doesn’t have to stop there, of course. The players could also send a separate signal (not the CB audio) in high-quality via the internet, without concern for latency, since they would be playing and reacting to the audio they were receiving through their CBs. These signals (audio as well as video, if desired) could be received, aligned, and streamed as a real-time performance via the internet, with very good results. The end observer wouldn’t have to be aware of the novel monitoring system used, all they would know is that the musicians are keeping surprisingly good time, considering their geographical separation.
+The fun doesn’t have to stop there, of course. The players could also send a separate signal (not the CB audio) in high-
+quality via the internet, without concern for latency, since they would be playing and reacting to the audio they were 
+receiving through their CBs. These signals (audio as well as video, if desired) could be received, aligned, and streamed as a 
+real-time performance via the internet, with very good results. The end observer wouldn’t have to be aware of the novel 
+monitoring system used, all they would know is that the musicians are keeping surprisingly good time, considering their 
+geographical separation.
 
 Now, since none of that made any sense, I made a diagram. See figure 1.
 
@@ -58,4 +101,5 @@ Now, since none of that made any sense, I made a diagram. See figure 1.
     <figcaption>Fig 1 How It Works</figcaption>
 </figure>
 
-Anyway, that’s how it works in my dream. Could it work in real life? 10-6, good buddy. Gonna need some green stamps to put the hammer down on that one.
+Anyway, that’s how it works in my dream. Could it work in real life? 10-6, good buddy. Gonna need some green stamps to put the 
+hammer down on that one.
