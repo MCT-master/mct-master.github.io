@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Exploring the Possibilities of SoundJack
+title: Exploring SoundJack
 date: 2020-03-13 20:00:00 +0200
 categories: Portal
 author: Aleksander, Rayam & Thibault
