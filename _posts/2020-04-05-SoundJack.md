@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Exploring SoundJack
-date: 2020-03-13 20:00:00 +0200
+date: 2020-04-05 19:00:00 +0200
 categories: Portal
 author: Aleksander, Rayam & Thibault
 image: /assets/img/Tidemann/soundjack_logo.png
