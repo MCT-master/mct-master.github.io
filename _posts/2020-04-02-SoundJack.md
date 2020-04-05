@@ -80,4 +80,4 @@ Additionally, having a p2p system configuration will put extra demands on users'
 Summing up we can say that SoundJack is a very exciting contribution to the telematic software industry that provides greater freedom to its users via allowing for more network, audio, and video customization than your usual communications application. However, this can give the impression that the system is reserved for more experienced user-groups. 
 
 
-But despite being tailored for more the semi-advanced and specifically interested, SoundJack is surprisingly easy to use and has an overwhelming amount of documentation which continues to grow. We believe that SoundJack would be an interesting addition to our portal setup as well as a worthy project to follow up on and maybe collaborate with in the near future.
+But despite being tailored for more semi-advanced users, SoundJack is surprisingly easy to use and has an overwhelming amount of documentation which continues to grow. We believe that SoundJack would be an interesting addition to our portal setup as well as a worthy project to follow up on and maybe collaborate with in the near future.
