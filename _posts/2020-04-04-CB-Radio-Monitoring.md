@@ -4,7 +4,7 @@ title: "Smokey and the Bandwidth"
 date: 2020-04-04 23:00:00 +0200
 categories: Portal
 author: Paul Koenig
-image: /assets/img/PK_70s_CB.jpg
+image: /assets/img/PK/70s_CB.JPG
 excerpt: "Hijacking Old Tech for New Uses" 
 Keywords: Citizens' Band, CB Radio, Online Collaboration, Latency
 --- 
@@ -20,9 +20,7 @@ Now, the Portal sits empty. Hopefully, someone remembered to turn off the lights
 via Zoom, pretty much like the rest of the university’s activities - like the rest of universities and businesses worldwide. 
 
 It’s kind of a step backwards for us, technology-wise. But I think it’s been a good exercise in the practical application of 
->everyday 
-tech, and really valuable for me personally. In the last few weeks, I think I’ve learned more about my own laptop, it’s 
-capabilities and limitations, than I learned in the entire seven years since I bought it. 
+"everyday" tech, and really valuable for me personally. In the last few weeks, I think I’ve learned more about my own laptop, it’s capabilities and limitations, than I learned in the entire seven years since I bought it. 
 
 After all, most people don’t really have access to the level of tech we became accustomed to using in the Portal. What do we 
 have to teach others about Music Communication Technology when the average person lacks a Portal? The real question becomes, 
@@ -58,9 +56,10 @@ Now, since none of that made any sense, I made a diagram. See figure 1.
 
 
 <figure>
-    <img src="/assets/img/PK/CB_Monitoring_Flow.jpg" width="640" height="400">
+    <img src="/assets/img/PK/CB_Monitoring_Flow.jpg" width="800" height="600">
     <figcaption>Fig 1 How It Works</figcaption>
 </figure>
+
 
 Anyway, that’s how it works in my dream. Could it work in real life? 10-6, good buddy. Gonna need some green stamps to put the 
 hammer down on that one.
