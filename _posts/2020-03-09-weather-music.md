@@ -55,7 +55,7 @@ The audio example beneath is a demo of our sound engine playing through a 24-hou
      frameborder="0"
      width="500"
      height="100"
-     src="https://drive.google.com/a/uio.no/file/d/1SGU0ZW8E1_FzMWNR8zyCPQvRKzzsyD8d/view?usp=sharing">
+     src="https://drive.google.com/file/d/1SGU0ZW8E1_FzMWNR8zyCPQvRKzzsyD8d/preview">
   </iframe>
 </p>
 
