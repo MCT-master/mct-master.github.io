@@ -1,54 +1,15 @@
 ---
 layout: post
-title: "Hijacking Old Tech for New Uses"
+title: "Smokey and the Bandwidth"
 date: 2020-04-04 23:00:00 +0200
 categories: Portal
 author: Paul Koenig
 image: /assets/img/PK_70s_CB.jpg
-excerpt: "I awoke from a strange, feverish dream . . ." 
-Keywords: Coronavirus, COVID-19, Sonification
+excerpt: "Hijacking Old Tech for New Uses" 
+Keywords: Citizens' Band, CB Radio, Online Collaboration, Latency
 --- 
 
-## Smokey and the Bandwidth
-
-I awoke from a strange, feverish dream. I was at a Hollywood pool party, circa 1978. Everyone was there. Farah Fawcett, Debbie 
-Harry, Kermit the Frog, Marty Feldman’s eyeballs. Riding a profusely-sweating Dom DeLuise, Roger Moore leapt into view and then 
-disappeared behind the tiki bar, reappearing with 17 perfectly crafted Tanqueray martinis clutched in his large, crablike 
-forelimbs. Jerry Reed cannonballed into the deep end of the pool, hollering “East Bound And Down” into a Cobra 29LTD CB radio 
-that was inexplicably mounted in the neck of a huge inflatable pink flamingo. Burt Reynolds, loitering in a nearby lounge 
-chair, conversed earnestly with an orangutan wearing overalls and an engineer’s cap. 
-
-Or was that Loni Anderson? For some reason, it was hard to tell them apart. God, the sun was hot. 
-
-A large, hairy arm appeared before me, holding a tiny-umbrella bedecked gin sunrise which I accepted gratefully. 
-
->Thank you, Loni 
-I said, tossing a quarter to the orangutan in the overalls. 
->East down and bound, loaded up and truckin’
-I muttered into my gin sunrise, which had turned into a CB microphone. 
-
->Hot mic hot mic! Key down, rachet jaw! 
-Jerry Reed screamed. 
->I’m tryin’ to finish my song!
-
->Sorry Jerry! 
-I hollered back, adding lamely, 
->My drink, uh, turned into a microphone! 
-Jerry nodded and smiled, as if this were to be expected. 
-
->Son, 
-he said, 
->that’s a 10-4. Now, son, remember: always keep your ears on and don’t let smokey catch you in the hammer lane. 
-
-He began to sing again. 
->Keep your foot hard on the pedal, son never mind them brakes . . .  
-This time, Taylor Swift joined in from her perch on a barstool, streaming her vocals from a usb mic attached to a 2019 MacBook 
-Air. What the heck was she doing there?
-
-Now, things had just gotten plain weird.
-
-
-## Back to Reality, sort-of
+## CB Radio for Real-Time Monitoring?
 
 Here in the MCT program, we deal a lot with internet communication technologies. In the years B.C. (before COVID-19), we would 
 meet four or five days a week in the Portal and chat, collaborate, and conduct classes between Oslo and Trondheim with some of 
