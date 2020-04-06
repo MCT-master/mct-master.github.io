@@ -70,7 +70,7 @@ The fact that you have to install a software that is not on the app store and co
 
 
 <figure text-align="center">
-<iframe src="https://www.youtube.com/watch?v=KEkrWRHCDQU&feature=youtu.be" width="768" height="432" frameborder="0" allow="autoplay; encrypted-media; picture-in-picture"></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/KEkrWRHCDQU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </figure>
 
 What they ended up doing was using Facetime on their phones/macs. When I asked how it worked she reported "we ended up singing one line each, since whenever we tried to sing in unison, all our voices would be cut out. Also, I was the only one not able to get my microphone to work, so I ended up just miming and waving while the others watched in silence".
