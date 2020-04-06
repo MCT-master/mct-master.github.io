@@ -48,7 +48,7 @@ Developed by a guy with a funny accent and a love for old Dream Theater merch, J
 
 <iframe width="560" height="315"
 src="http://llcon.sourceforge.net/"
-frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+frameborder="0" allowfullscreen></iframe>
 
 
 It works by installing a client on your computer and connecting to an external server, were all the clients that are connected to that server can hear share audio. The latency is very low (some reports say below 15ms) and equally important; you are able to mix all the sources to your liking, for a good monitoring experience. 
@@ -67,9 +67,11 @@ And that comment hit the nail straight on the head.
 
 The fact that you have to install a software that is not on the app store and connect to a server puts a lot of people of, since they immediately picture some sort of hacking-montage from an 80's movie. 
 
-<iframe width="560" height="315"
-src="https://www.youtube.com/watch?v=KEkrWRHCDQU&feature=youtu.be"
-frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+
+
+<figure text-align="center">
+<iframe src="https://www.youtube.com/watch?v=KEkrWRHCDQU&feature=youtu.be" width="768" height="432" frameborder="0" allow="autoplay; encrypted-media; picture-in-picture"></iframe>
+</figure>
 
 What they ended up doing was using Facetime on their phones/macs. When I asked how it worked she reported "we ended up singing one line each, since whenever we tried to sing in unison, all our voices would be cut out. Also, I was the only one not able to get my microphone to work, so I ended up just miming and waving while the others watched in silence".
 
