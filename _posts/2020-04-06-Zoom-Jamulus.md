@@ -6,6 +6,7 @@ categories: Portal
 author: Gaute Wardenær
 image: /assets/img/gaute/zoom.jpg
 excerpt: "One thing you can do is to enable the option og "preserve original audio" in Zoom."
+Keywords: Zoom, Jamming, Jamulus, MCT, Internet, Cake
 ---
 
 ## Zoom as a tool for jamming online
