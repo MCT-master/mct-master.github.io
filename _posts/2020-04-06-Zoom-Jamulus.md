@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Zoom and other streaming services for jamming
-date: 2020-04-06 11:10:42 +0100
+date: 2020-04-06 11:10:20 +0200
 categories: Portal
 author: Gaute Wardenær
 image: /assets/img/gaute/zoom.jpg
