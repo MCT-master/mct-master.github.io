@@ -36,7 +36,7 @@ The Loop Station is designer to be used for live performances, but also, as a to
 * 2 Fx BUS: Octave / Reverb (Pre Loop / Post Loop)
 * Built-in Drum Machine with 2 modes (Body Drum / Pad Beat)
 
-When implementing the features mentioned above, I started by the most important rst: the loop record and playback functions. To create the overdub, a **bang** feeds a counter which goes through selections and bang triggers that pass the signal in the right order to calculate the time/size of each sample, record, stop recording and play it in a loop. This way is possible to start a recording tapping one key once, and if you tap again it stops interrupts the audio input that is sending to [tabwrite~ ]. Then the [timer ] is activated, so we can extract the exact duration of the sample recorded and send it to the array receiving the loops. A [line~ 10] was used to open/interrupt the signal without pops and clicks on the sound output.
+When implementing the features mentioned above, I started by the most important first: the loop record and playback functions. To create the overdub, a **bang** feeds a counter which goes through selections and bang triggers that pass the signal in the right order to calculate the time/size of each sample, record, stop recording and play it in a loop. This way is possible to start a recording tapping one key once, and if you tap again it stops interrupts the audio input that is sending to [tabwrite~ ]. Then the [timer ] is activated, so we can extract the exact duration of the sample recorded and send it to the array receiving the loops. A [line~ 10] was used to open/interrupt the signal without pops and clicks on the sound output.
 
 <p align="center">
   <iframe
