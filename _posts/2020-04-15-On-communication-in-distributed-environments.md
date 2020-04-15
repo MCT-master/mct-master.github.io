@@ -50,7 +50,7 @@ which are used for music technological practises seemed to help to see the tende
 
 Of course it was important to mention there can occur more obvious (often subtle applied) means of exclusion as well. Hostile language or 
 even harassment is independent from the distribution of gender in an environment an ongoing practise. However, the means are getting better 
-to articulate and if necessary to report them. It must be said that just because an environment is male dominated, it does not mean this is 
+[to articulate](https://innsida.ntnu.no/wiki/-/wiki/English/Sexual+harassment) and if necessary to report them. It must be said that just because an environment is male dominated, it does not mean this is 
 automatically going to happen. The women I interviewed for WoNoMute for example did not share these experiences. 
 
 ## The Glass Ceiling
