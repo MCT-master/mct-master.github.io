@@ -10,20 +10,24 @@ As a student in Music, Communication and Technology you will be exposed to a var
 
 Below, you'll find learning resources for <a href="#JavaScript">JavaScript</a>, <a href="#Python">Python</a>, <a href="#PureData">Pure data</a>, and <a href="#Reaper">Reaper</a>.
 
+<br>
 <hr />
+<br>
 
-<h4 id="JavaScript">Programming in JavaScript</h4>
+<h3 id="JavaScript">Programming in JavaScript</h3>
 
 Javascript is a very flexible programming language, and one of the core components of modern web pages.
 
 * One place to start is to watch the video below. You'll learn the most if you download <a href="https://code.visualstudio.com">Visual Studio Code</a>, and follow the examples shown in the video.
 * Another nice source for learning javascript fundamentals is <a href="https://www.learn-js.org">https://www.learn-js.org</a>. Learn through coding exercises directly in your web browser.
 
-<iframe width="224" height="126" src="https://www.youtube.com/embed/W6NZfCO5SIk" frameborder="0" allow="picture-in-picture" allowfullscreen></iframe>
+<iframe width="480" height="300" src="https://www.youtube.com/embed/W6NZfCO5SIk" frameborder="0" allow="picture-in-picture" allowfullscreen></iframe>
 
+<br>
 <hr />
+<br>
 
-<h4 id="Python">Programming in Python</h4>
+<h3 id="Python">Programming in Python</h3>
 
 Python is the go-to language for machine learning and a useful tool for data analysis and statistics.
 
@@ -31,13 +35,15 @@ Python is the go-to language for machine learning and a useful tool for data ana
 * <a href="https://www.learnpython.org">https://www.learnpython.org</a> is a another place to start, with coding examples directly in the browser.
 
 
-<iframe width="224" height="126" src="https://www.youtube.com/embed/_uQrJ0TkZlc" frameborder="0" allow="picture-in-picture" allowfullscreen></iframe>
+<iframe width="480" height="300" src="https://www.youtube.com/embed/_uQrJ0TkZlc" frameborder="0" allow="picture-in-picture" allowfullscreen></iframe><br>
 
 There are several possible approaches to installing Python on your own computer. Some more cumbersome than others. In MCT, we will install the <a href="https://www.anaconda.com/distribution/#download-section">Python 3 Anaconda Distribution</a>.
 
+<br>
 <hr />
+<br>
 
-<h4 id="PureData">Visual programming / Patching in Pure data</h4>
+<h3 id="PureData">Visual programming / Patching in Pure data</h3>
 
 <a href="http://puredata.info">Pure data (Pd)</a> is a common language for developing interactive music systems. Pd is similar to Max/MSP, which some new MCT students may already be familiar with. It differs from text-based languages in that programs (or "patchers") are built by putting visual boxes on the screen and dragging lines between them.
 
@@ -46,19 +52,17 @@ There are several possible approaches to installing Python on your own computer.
 * <a class=" inline_disabled" href="https://www.youtube.com/watch?v=bEIHc0pyavA&amp;list=PLQWNymftFhNXhlfNFiWBUUwYClQJQjVOI&amp;index=2">This YouTube playlist</a> introduces the core functionalities in Pure data. (the instructor in the video uses an old deprecated version of Pure data called "Pd Extended". It looks slightly different and has some extra functionalities which we will not be using in MCT).
 * <a href="http://www.pd-tutorial.com">pd-tutorial.com</a> gives a thorough introduction to Pd in English, German and Spanish.
 
-
+<br>
 <hr />
+<br>
 
-<h4 id="Reaper">Audio recording and editing</h4>
+<h3 id="Reaper">Audio recording and editing</h3>
 
 In MCT we will be using Reaper as our Digital Audio Workstation (DAW). If you are familiar with other DAWs like Logic, Protools, Cubase, etc., many of the functionalities will be known to you. However, if you haven't worked specifically with Reaper before, we advise you to familiarise yourself with its interface.
 
 * Reaper can be downloaded for free from <a href="https://www.reaper.fm">https://www.reaper.fm</a>
 * Here's a nice introductory tutorial for Reaper:
-<iframe width="224" height="126" src="https://www.youtube.com/embed/0AXRerY1mf4" frameborder="0" allow="picture-in-picture" allowfullscreen></iframe>
-
-	
-
+<iframe width="480" height="300" src="https://www.youtube.com/embed/0AXRerY1mf4" frameborder="0" allow="picture-in-picture" allowfullscreen></iframe>
 
 <!--
 

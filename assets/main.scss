@@ -49,7 +49,6 @@ $grey-color-dark:  darken($grey-color, 25%);
 
 // Width of the content area
 $content-width:    900px;
-
 $on-palm:          600px;
 $on-laptop:        800px;
 
@@ -64,18 +63,19 @@ $on-laptop:        800px;
 
 // Import partials from the `minima` theme.
 
-.wrapper figure img, .wrapper img, .wrapper video {
+.wrapper figure img, .wrapper img, .wrapper video, .wrapper iframe {
   border-radius: 6px;
 }
 
-.wrapper figure, .wrapper img, .wrapper video {
-    text-align: center;
-    font-style: italic;
-    font-size: smaller;
-    text-indent: 0;
-    margin-left: auto;
-    margin-right: auto;
-    display: table;
+.wrapper figure, .wrapper img, .wrapper video, .wrapper iframe{
+  text-align: center;
+  font-style: italic;
+  font-size: smaller;
+  text-indent: 0;
+  margin-left: auto;
+  margin-right: auto;
+  display: table;
+  max-width: 100%;
 }
 
 .wrapper figcaption {
@@ -84,23 +84,25 @@ $on-laptop:        800px;
 }
 
 .wrapper caption {
-    display: table-caption;
-    text-align: center;
-    position: relative;
+  display: table-caption;
+  text-align: center;
+  position: relative;
 }
 
 .post-list img {
-  width: 45%;
+  width: 40%;
   float: right;
-  display: block;
+  display: absolute;
   //padding: 0 3% 1% 0;
   margin: 0 0 1em 1em;
-  border:1px solid #DEDEDE;
+  border: 1px solid #DEDEDE;
 }
 
 .post-list li {
   border-top: 0.1em dotted #DEDEDE;
-  padding-top: 3em;
+  padding-top: 1.5em;
+  padding-bottom: 1.5em;
+  margin-bottom: 0 !important;
 }
 
 .post-list li::after {
@@ -110,20 +112,19 @@ $on-laptop:        800px;
 }
 
 .site-nav{
-    float: right;
-    padding: 20px;
-    position: relative;
-    text-align:left;
+  float: right;
+  padding: .25em;
+  position: relative;
+  text-align: left;
 }
 
 ul.dropdown li {
-  line-height:110%;
+  line-height: 100%;
 }
 
 nav ul.dropdown li {
  display: block;
- transition-duration: 0.5s;
- border: 2px white solid;
+ //border: 2px white solid;
 }
 
 nav li:hover {
@@ -134,8 +135,7 @@ nav ul li ul {
   visibility: hidden;
   opacity: 0;
   position: absolute;
-  transition: all 0.5s ease;
-  margin-top: 0.5rem;
+  margin-top: 2.5rem;
   left: 0;
   display: none;
 }
@@ -145,9 +145,10 @@ nav ul li ul:hover {
   visibility: visible;
   opacity: 1;
   display: block;
-  background: #ccc;
+  background: #ddd;
   z-index: 100;
-  padding: 0 20px 0 0;
+  border-radius: 6px;
+  margin-top: -6px;
 }
 
 nav ul li ul li {
@@ -156,7 +157,6 @@ nav ul li ul li {
 }
 
 nav ul {
-  //background: darkorange;
   list-style: none;
   margin: 0;
   padding-left: 0;
@@ -164,13 +164,15 @@ nav ul {
 
 nav li {
   color: #fff;
-  //background: darkorange;
   display: block;
   float: left;
-  padding: 0.5rem;
-  position: relative;
   text-decoration: none;
-  transition-duration: 0.5s;
+  //padding: 0.5rem;
+  //position: relative;
+}
+
+.dropdown li {
+  padding: .5rem;
 }
 
 nav li a {
@@ -188,8 +190,7 @@ nav ul li ul {
   opacity: 0;
   min-width: 5rem;
   position: absolute;
-  transition: all 0.5s ease;
-  margin-top: 0.5rem;
+  margin-top: 0;
   left: 0;
   display: none;
 }
@@ -206,4 +207,18 @@ nav ul li ul li {
   width: 100%;
 }
 
+.post-content h4 {
+  margin-bottom: 0;
+}
+
 @import "minima";
+
+@media screen and (max-width: 600px) {
+  .site-nav {
+  position: relative;
+  top: 0;
+  right: 0;
+  left: 0;
+  margin-bottom: .5em;
+  }
+}

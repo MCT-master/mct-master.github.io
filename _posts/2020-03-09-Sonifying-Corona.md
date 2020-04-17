@@ -4,7 +4,7 @@ title: Sonifying The Coronavirus Pandemic
 date: 2020-03-09 16:30:00 +0200
 categories: Sonification
 author: Rayam Soeiro, Paul Koenig, Simon Sandvik, Donho Kwak
-image: assets/img/PK/CoronavirusPreview.png
+image: /assets/img/PK/CoronavirusPreview.png
 excerpt: Finding a voice for difficult data
 Keywords: Coronavirus, COVID-19, Sonification
 --- 

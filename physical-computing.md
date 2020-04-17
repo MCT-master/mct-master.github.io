@@ -29,9 +29,9 @@ The blog posts of this section relate to the workshop **Physical Computing** in 
         {{ post.excerpt }}
       {%- endif -%}
       <h4>
-      <strong><a href="{{ post.url | relative_url }}">
-        »Read more
-      </a></strong>
+      <a href="{{ post.url | relative_url }}">
+        Read more
+      </a>
       </h4>
     </li>
     {%- endfor -%}

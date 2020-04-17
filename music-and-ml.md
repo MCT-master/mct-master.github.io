@@ -25,9 +25,9 @@ permalink: /music-and-ml/
         {{ post.excerpt }}
       {%- endif -%}
       <h4>
-      <strong><a href="{{ post.url | relative_url }}">
-        »Read more
-      </a></strong>
+      <a href="{{ post.url | relative_url }}">
+        Read more
+      </a>
       </h4>
     </li>
     {%- endfor -%}

@@ -30,6 +30,8 @@ I don’t know if it’s just the effects of sitting around the house all day, c
 pondering the future, or something that could actually be of use to somebody - but I have this weird idea to help local 
 musicians be able to collaborate in real-time, without having to leave their own quarantine bunkers. Yes, it involves CB radios.
 
+## What's the big deal?
+
 The problem space here is the same as it always has been: latency. Even for musicians that live right down the street from 
 each other, the cumulative round-trip latency incurred as a musical signal from Musician A is A/D converted, sent over WiFi, 
 bounced from node to node all around town, then D/A converted and piped into the ears of Musician B, who reacts with a 
@@ -41,7 +43,9 @@ around 30-40ms, making real-time musical collaboration possible. At home, using 
 has fluctuated widely and unpredictably, veering drunkenly between 30-300 or more milliseconds. It’s enough to make me want to 
 take up drinking myself, except that I can’t afford booze now.
 
-But I digress. The idea works like this: Each musician has a CB receiver for each member of their ensemble, plus one 
+## But I digress.
+
+The idea works like this: Each musician has a CB receiver for each member of their ensemble, plus one 
 transmitter for themselves. Each musician transmits their signal on a separate dedicated channel, which is received in turn by 
 each other musician.  Therefore, if the ensemble has four players, each player would have four CB receiver/transmitters, three to receive the signals from their bandmates, and one to transmit their own. Each player would then be able to mix their own custom monitor mix by routing each of the four signals into a simple desktop mixer. 
 
@@ -52,12 +56,12 @@ real-time performance via the internet, with very good results. The end observer
 monitoring system used, all they would know is that the musicians are keeping surprisingly good time, considering their 
 geographical separation.
 
-Now, since none of that made any sense, I made a diagram. See figure 1.
+Now, since none of that made any sense, I made a diagram. See Figure 1.
 
 
 <figure>
-    <img src="/assets/img/PK/CB_Monitoring_Flow.jpg" width="800" height="600">
-    <figcaption>Fig 1 How It Works</figcaption>
+    <img src="/assets/img/PK/CB_Monitoring_Flow.jpg" width="800">
+    <figcaption>Fig 1. How It Works</figcaption>
 </figure>
 
 

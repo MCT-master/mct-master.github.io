@@ -4,7 +4,7 @@ title: Exploring SoundJack
 date: 2020-04-05 19:00:00 +0200
 categories: Portal
 author: Aleksander, Rayam & Thibault
-image: /assets/img/Tidemann/soundjack_logo.png
+image: /assets/img/Tidemann/soundjack_logo.jpg
 excerpt: "SoundJack is a p2p browser-based low-latency telematic communications system."
 Keywords: MCT, Portal, SoundJack, Corona
 --- 

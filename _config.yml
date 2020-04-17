@@ -13,10 +13,10 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: The blog of MCT
+title: The MCT Blog
 email: mct-info@imv.uio.no
 description: >- # this means to ignore newlines until "baseurl:"
-  This is the blog of the Music, Communication & Technology (MCT) joint Master's programme between NTNU and UiO.
+  This is the blog of the Music, Communication & Technology (MCT) joint Master's programme in between NTNU and UiO.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://mct-master.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: MCT_master
