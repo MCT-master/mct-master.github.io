@@ -97,6 +97,7 @@ $on-laptop:        800px;
   //padding: 0 3% 1% 0;
   margin: 0 0 1em 1em;
   border: 1px solid #DEDEDE;
+  box-shadow: 1px 1px 10px #cccccc;
 }
 
 .post-list li {
@@ -114,7 +115,8 @@ $on-laptop:        800px;
 
 .site-nav{
   float: right;
-  padding: .25em;
+  padding-left: .5em;
+  padding-right: .5em;
   position: relative;
   text-align: left;
 }
@@ -146,10 +148,10 @@ nav ul li ul:hover {
   visibility: visible;
   opacity: 1;
   display: block;
-  background: #ddd;
+  background: #eee;
   z-index: 100;
   border-radius: 6px;
-  margin-top: -6px;
+  margin-top: -.25em;
 }
 
 nav ul li ul li {
@@ -168,6 +170,7 @@ nav li {
   display: block;
   float: left;
   text-decoration: none;
+  text-align: left;
   //padding: 0.5rem;
   //position: relative;
 }
@@ -213,6 +216,10 @@ nav ul li ul li {
 }
 
 @import "minima";
+
+.site-header {
+  border-top: 8px solid #424242;
+}
 
 @media screen and (max-width: 600px) {
   .site-nav {
