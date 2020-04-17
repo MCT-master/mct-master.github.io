@@ -67,7 +67,11 @@ $on-laptop:        800px;
   border-radius: 6px;
 }
 
-.wrapper figure, .wrapper img, .wrapper video, .wrapper iframe{
+.wrapper figure, .wrapper img, .wrapper video {
+  height: auto;
+}
+
+.wrapper figure, .wrapper img, .wrapper video, .wrapper iframe {
   text-align: center;
   font-style: italic;
   font-size: smaller;
@@ -76,7 +80,6 @@ $on-laptop:        800px;
   margin-right: auto;
   display: table;
   max-width: 100%;
-  height: auto;
 }
 
 .wrapper figcaption {
