@@ -1,14 +1,6 @@
 <div class="form  form--search">
   <form id="contact-form" action="">
-    <input class="input" id="search" type="search" name="search" placeholder="Search for a title, author, category, etc." autocomplete="off"
-    style="
-	    height: 60px;
-	    width: 100%;
-	    font-size: 1em;
-	    padding: 0 15px;
-	    border-radius: 5px;
-    "
-    />
+    <input class="input" id="search" type="search" name="search" placeholder="Search for a title, author, category, etc." autocomplete="off"/>
     <ul class="list  list--results" id="list">
         <!-- results go here -->
     </ul>
@@ -16,9 +8,9 @@
 </div>
 
 <script type="text/javascript" src="{{ "/assets/scripts/fetch.js" | relative_url }}"></script>
+
 <script type="text/javascript">
   const endpoint = '{{ "/assets/search.json" | relative_url }}';
-
   const pages = [];
 
   fetch(endpoint)
@@ -45,9 +37,7 @@
     }).join('');
     if ((resultsArray.length == 0) || (this.value == '')) {
       resultsList.innerHTML = `
-      <p style="margin: 10px 0">
-      	Sorry, nothing was found.
-    	</p>`;
+      <p>Sorry, nothing was found.</p>`;
     } else {
       resultsList.innerHTML = html;
     }

@@ -215,6 +215,15 @@ nav ul li ul li {
   margin-bottom: 0;
 }
 
+.form--search input {
+  height: 40px;
+  width: 100%;
+  font-size: 1em;
+  border-radius: 20px;
+  padding: 0 20px;
+  margin: 0 10px 20px;
+}
+
 @import "minima";
 
 .site-header {
