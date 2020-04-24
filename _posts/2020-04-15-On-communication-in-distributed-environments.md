@@ -72,4 +72,5 @@ and inclusion will continue and expand.
 
 ## Acknowledgements
 
-Thanks a lot to SALTO and Robin Stockert enabling me to follow up the invitation of Gill Ferrel, who gave me the chance to share my perspectives. Thanks!
+Thanks a lot to AVIXA and SALTO for enabling me to follow up Gill Ferrel invitation, who gave me the chance to share my perspectives. 
+Thanks to you all and I hope the collaboration will continue at MCT on these matters. 
