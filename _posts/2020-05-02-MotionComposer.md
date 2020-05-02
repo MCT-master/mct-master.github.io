@@ -43,6 +43,7 @@ $n$ represents the harmonic number, in the interval $[0,15]$.
     src="https://editor.p5js.org/03thib/present/ZHi6K-t6r">
 </iframe>
 The second equation is a linear function, which slope and intercept change according to a single parameter $x$:
+
 |$if$ $x<0.5$       |$else$               |
 |-------------------|---------------------|
 |$1.5x-\frac{x}{3}n$|$0.75-\frac{1-x}{3}n$|
