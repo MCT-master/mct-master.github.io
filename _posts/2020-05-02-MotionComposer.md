@@ -1,12 +1,12 @@
 ---
 layout: post
 title: MotionComposer
-date: 2020-04-05 19:00:00 +0200
+date: 2020-05-02 19:00:00 +0200
 categories: Portal
 author: Aleksander, Rayam, Simon & Thibault
 image: /assets/img/thibault/motion-composer.png
-excerpt: "SoundJack is a p2p browser-based low-latency telematic communications system."
-Keywords: MCT, Portal, SoundJack, Corona
+excerpt: ""
+Keywords: MCT, Applied Project, MotionComposer
 --- 
 
 ## Introduction
@@ -33,7 +33,7 @@ We developed two distinct synth engines, and the user can switch between them us
 
 ### Additive Synthesis
 
-Our additive synth consists of a fundamental frequency (f<sub>0<\sub>) sinusoidal oscillator and 16 harmonic sine tones. Each harmonic has a different frequency (2f<sub>0<\sub>, 3f<sub>0<\sub>, …). The amplitude of each generated sine tone can be controlled independently. We decided to use two mathematical expressions for two different harmonic mappings. The first one works like a bandpass filter, with $x$ as the central frequency and $y$ as the Q:
+Our additive synth consists of a fundamental frequency (f<sub>0<\sub>) sinusoidal oscillator and 16 harmonic sine tones. Each harmonic has a different frequency (2f<sub>0</sub>, 3f<sub>0</sub>, …). The amplitude of each generated sine tone can be controlled independently. We decided to use two mathematical expressions for two different harmonic mappings. The first one works like a bandpass filter, with $x$ as the central frequency and $y$ as the Q:
 $0.6-\frac{(n-15y)^2}{e^{e^{2x}}-1}$
 $n$ represents the harmonic number, in the interval $[0,15]$.
 <iframe id="bandpass"
