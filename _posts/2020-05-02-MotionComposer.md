@@ -34,8 +34,11 @@ We developed two distinct synth engines, and the user can switch between them us
 ### Additive Synthesis
 
 Our additive synth consists of a fundamental frequency (f<sub>0<\sub>) sinusoidal oscillator and 16 harmonic sine tones. Each harmonic has a different frequency (2f<sub>0</sub>, 3f<sub>0</sub>, …). The amplitude of each generated sine tone can be controlled independently. We decided to use two mathematical expressions for two different harmonic mappings. The first one works like a bandpass filter, with $x$ as the central frequency and $y$ as the Q:
+
 $0.6-\frac{(n-15y)^2}{e^{e^{2x}}-1}$
+
 $n$ represents the harmonic number, in the interval $[0,15]$.
+
 <iframe id="linear"
     title="linear"
     width="420"
@@ -43,6 +46,7 @@ $n$ represents the harmonic number, in the interval $[0,15]$.
     frameBorder="0"
     src="https://editor.p5js.org/03thib/present/ZHi6K-t6r">
 </iframe>
+
 The second equation is a linear function, which slope and intercept change according to a single parameter $x$:
 
 |$if$ $x<0.5$       |$else$               |
@@ -52,7 +56,7 @@ The second equation is a linear function, which slope and intercept change accor
 <iframe id="bandpass"
     title="bandpass"
     width="420"
-    height="300"
+    height="350"
     frameBorder="0"
     src="https://editor.p5js.org/03thib/present/U9X3OHqec">
 </iframe>
