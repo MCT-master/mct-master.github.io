@@ -81,7 +81,7 @@ scrolling="no">
 While researching movement-to-sound literature, we were inspired by the idea of making a virtual model and using it as a point of departure. This virtual model would be centered around specific body poses (a combination of various movement tracking data points) and correlate specific sound environments to said poses, as seen in the image below. Then, we would be able to reproduce the desired soundscapes by doing certain predetermined poses.
 
 <figure text-align="center">
-<iframe src="https://drive.google.com/file/d/1mu8rfHE61RpiaMx68_zV8ItsmYfz8Z9n/preview"
+<iframe src="https://drive.google.com/file/d/1cwoTNPubBXgW2Mc6otyhgWNfr7LhQi88/preview"
 width="600"
 height="236.67"
 frameborder="0"
