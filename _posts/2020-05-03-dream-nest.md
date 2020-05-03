@@ -1,16 +1,13 @@
 ---
 layout: post
-title: Dream Nest
+title: Soundscapes for Dream Nest
 date: 2020-05-03 10:00:00 +0200
 categories: Projects
 author: Jackson, Paul & Iggy
 image: /assets/img/
-excerpt: "For the Applied Project we created music for babies for a hardware specific "
-Keywords: MCT, Dream Nest,
+excerpt: "For the Applied Project we created music for a hardware specific device to relax colicy babies"
+Keywords: MCT, Dream Nest, sound engine,
 --- 
-
-# Musikk for Dream Nest
-
 The Dream Nest is a therapeutic product that uses low-frequency sound waves to sooth infants that suffer from various colic or stress related problems, in particular those associated with pre-term birth. 
 
 ## What music is best for babies?
