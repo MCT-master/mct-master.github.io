@@ -33,12 +33,8 @@ We developed two distinct synth engines, and the user can switch between them us
 Our additive synth consists of a fundamental frequency (f<sub>0</sub>) sinusoidal oscillator and 16 harmonic sine tones. Each harmonic has a different frequency (2f<sub>0</sub>, 3f<sub>0</sub>, …). The amplitude of each generated sine tone can be controlled independently. We decided to use two mathematical expressions for two different harmonic mappings. The first one works like a bandpass filter, with x as the central frequency and y as the Q:
 
 <figure text-align="center">
-<iframe src="https://drive.google.com/file/d/1fx84jJnPsYF-krW2k1jMh3e4YjXquScO/preview"
-width="139"
-height="62.5"
-frameborder="0"
-scrolling="no">
-</iframe>
+    <img src="/assets/img/thibault/harmonic_mapping_1.png" width="139">
+    <figcaption>MotionComposer 3.0</figcaption>
 </figure>
 
 n represents the harmonic number, in the interval [0,15]. Here is an interactive applet to see the expression in action:
@@ -55,12 +51,8 @@ n represents the harmonic number, in the interval [0,15]. Here is an interactive
 The second equation is a linear function, which slope and intercept change according to a single parameter x:
 
 <figure text-align="center">
-<iframe src="https://drive.google.com/file/d/16nx9NmzoEhr6EHATeYZJCwYEF9rFsEl-/preview"
-width="305.5"
-height="88"
-frameborder="0"
-scrolling="no">
-</iframe>
+    <img src="/assets/img/thibault/harmonic_mapping_2.png" width="305.5">
+    <figcaption>MotionComposer 3.0</figcaption>
 </figure>
 
 Again, an applet to understand its behaviour:
