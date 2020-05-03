@@ -34,7 +34,6 @@ Our additive synth consists of a fundamental frequency (f<sub>0</sub>) sinusoida
 
 <figure text-align="center">
     <img src="/assets/img/thibault/harmonic_mapping_1.png" width="139">
-    <figcaption>MotionComposer 3.0</figcaption>
 </figure>
 
 n represents the harmonic number, in the interval [0,15]. Here is an interactive applet to see the expression in action:
@@ -52,7 +51,6 @@ The second equation is a linear function, which slope and intercept change accor
 
 <figure text-align="center">
     <img src="/assets/img/thibault/harmonic_mapping_2.png" width="305.5">
-    <figcaption>MotionComposer 3.0</figcaption>
 </figure>
 
 Again, an applet to understand its behaviour:
