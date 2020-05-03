@@ -4,7 +4,7 @@ title: MotionComposer
 date: 2020-05-02 19:00:00 +0200
 categories: Projects
 author: Aleksander, Rayam, Simon & Thibault
-image: /assets/img/thibault/motion-composer.png
+image: /assets/img/thibault/motion_composer.png
 excerpt: ""
 Keywords: MCT, Applied Project, MotionComposer
 --- 
@@ -16,7 +16,7 @@ The [MotionComposer](http://motioncomposer.de/) is a device that lets users use 
 ## The Device
 
 <figure text-align="center">
-    <img src="/assets/img/thibault/motion-composer.png" width="600px">
+    <img src="/assets/img/thibault/motion_composer.png" width="600px">
     <figcaption>MotionComposer 3.0</figcaption>
 </figure>
  
