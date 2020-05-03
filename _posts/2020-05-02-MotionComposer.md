@@ -34,8 +34,7 @@ Our additive synth consists of a fundamental frequency (f<sub>0<\sub>) sinusoida
 
 <figure text-align="center">
 <iframe src="https://drive.google.com/file/d/1S2EpmSTOUyQqI1fiq6HWJ_eypJ4OH3Fl/preview"
-width="200"
-height="100%"
+width="175"
 frameborder="0"
 scrolling="no">
 </iframe>
@@ -57,7 +56,6 @@ The second equation is a linear function, which slope and intercept change accor
 <figure text-align="center">
 <iframe src="https://drive.google.com/file/d/1qR8S1TDyGjlqGnam38v6YcqC_bZ1dw4x/preview"
 width="400"
-height="100%"
 frameborder="0"
 scrolling="no">
 </iframe>
@@ -83,7 +81,6 @@ While researching movement-to-sound literature, we were inspired by the idea of 
 <figure text-align="center">
 <iframe src="https://drive.google.com/file/d/1mu8rfHE61RpiaMx68_zV8ItsmYfz8Z9n/preview"
 width="600"
-height="100%"
 frameborder="0"
 scrolling="no">
 </iframe>
@@ -95,7 +92,6 @@ This culminated in two Pure Data abstractions that could imitate 2 specific moti
 <figure text-align="center">
 <iframe src="https://drive.google.com/file/d/1p5JF_n5VSBYiqx86dM6Cw2E3ehKzCRzV/preview"
 width="600"
-height="100%"
 frameborder="0"
 scrolling="no"
 align="left">
@@ -106,7 +102,6 @@ align="left">
 <figure text-align="center">
 <iframe src="https://drive.google.com/file/d/16cfOirSrwmcfseHkdV3VrZQz5uFbJPyg/preview"
 width="600"
-height="100%"
 frameborder="0"
 scrolling="no"
 align="right">
@@ -127,7 +122,6 @@ The Motion Composer consists of 3 modules; the tracking module(camera), the cont
 <figure text-align="center">
 <iframe src="https://drive.google.com/file/d/1ZiSHxXNu6k0aATycyNp1OkLJ4su6_sye/preview"
 width="600"
-height="100%"
 frameborder="0"
 scrolling="no"></iframe>
 <figcaption>Movement alphabet</figcaption>
