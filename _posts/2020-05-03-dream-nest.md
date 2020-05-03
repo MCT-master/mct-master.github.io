@@ -6,7 +6,7 @@ categories: Projects
 author: Jackson, Paul & Iggy
 image: /assets/img/
 excerpt: "For the Applied Project we created music for a hardware specific device to relax colicy babies"
-Keywords: MCT, Dream Nest, sound engine,
+Keywords: MCT, Dream Nest, sound engine
 --- 
 The Dream Nest is a therapeutic product that uses low-frequency sound waves to sooth infants that suffer from various colic or stress related problems, in particular those associated with pre-term birth. 
 
@@ -61,7 +61,7 @@ The various sound sources are combined in a simple, mixer-like interface allowin
 A short demonstration of the app is here:
 
 <figure>
-    <iframe src="https://drive.google.com/file/d/1RQSaxzYciynBS0PKyzhC57O0ErnbJ_la/preview">
+    <iframe src="https://drive.google.com/file/d/1RQSaxzYciynBS0PKyzhC57O0ErnbJ_la/preview" width="500px">
     </iframe>
     <figcaption>Video of the MobMuPlat interface</figcaption>
 </figure>
