@@ -33,7 +33,7 @@ We developed two distinct synth engines, and the user can switch between them us
 Our additive synth consists of a fundamental frequency (f<sub>0<\sub>) sinusoidal oscillator and 16 harmonic sine tones. Each harmonic has a different frequency (2f<sub>0</sub>, 3f<sub>0</sub>, …). The amplitude of each generated sine tone can be controlled independently. We decided to use two mathematical expressions for two different harmonic mappings. The first one works like a bandpass filter, with x as the central frequency and y as the Q:
 
 <figure text-align="center">
-<iframe src="https://drive.google.com/file/d/1S2EpmSTOUyQqI1fiq6HWJ_eypJ4OH3Fl/preview"
+<iframe src="https://drive.google.com/file/d/1fx84jJnPsYF-krW2k1jMh3e4YjXquScO/preview"
 width="139"
 height="62.5"
 frameborder="0"
@@ -55,7 +55,7 @@ n represents the harmonic number, in the interval $[0,15]$.
 The second equation is a linear function, which slope and intercept change according to a single parameter x:
 
 <figure text-align="center">
-<iframe src="https://drive.google.com/file/d/1qR8S1TDyGjlqGnam38v6YcqC_bZ1dw4x/preview"
+<iframe src="https://drive.google.com/file/d/16nx9NmzoEhr6EHATeYZJCwYEF9rFsEl-/preview"
 width="305.5"
 height="88"
 frameborder="0"
@@ -93,7 +93,7 @@ scrolling="no">
 This culminated in two Pure Data abstractions that could imitate 2 specific motion gestures performed over time, as seen in the image below. Practically, this meant that we could move one slider (representing time) and output independent data streams of both arms (horizontally and vertically), body position, head movement, and general height, correlating to the position of the given limbs at a given time.
 
 <figure text-align="center">
-<iframe src="https://drive.google.com/file/d/1fSuedmAFd9iKw3Ec7658rWgN49lbSeqY/preview"
+<iframe src="https://drive.google.com/file/d/1Dwj9x7vpAWYwaPPAbjzAXJn-ERNoFgPP/preview"
 width="800"
 height="191"
 frameborder="0"
@@ -113,7 +113,7 @@ Our workflow from there was highly shaped by our digital means of communication.
 The Motion Composer consists of 3 modules; the tracking module(camera), the control module(brain), and the musical environments. These all make up a bidirectional communications system which is maintained and controlled by the hardware`s integrated Linux machine.
 
 <figure text-align="center">
-<iframe src="https://drive.google.com/file/d/1ZiSHxXNu6k0aATycyNp1OkLJ4su6_sye/preview"
+<iframe src="https://drive.google.com/file/d/1laHUMx2-Z_z4nXvHYzpoTtOvzSboDAyg/preview"
 width="588.5"
 height="218"
 frameborder="0"
