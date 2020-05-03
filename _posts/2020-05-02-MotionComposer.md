@@ -20,9 +20,9 @@ The [MotionComposer](http://motioncomposer.de/) is a device that lets users use 
     <figcaption>MotionComposer 3.0</figcaption>
 </figure>
  
-The hardware device, which we have not contributed to build at all, consists of a embedded computer running Linux, two HD cameras and a wirelessly connected android tablet for the user interface. On the latter, the user can switch between different playing modes. Our goal was to develop one of them.
+The hardware device, which we have not contributed to build at all, consists of an embedded computer running Linux, two HD cameras and a wirelessly connected android tablet for the user interface. On the latter, the user can switch between different playing modes. Our goal was to develop one of them.
 
-The MotionComposer analyses the video data coming from the cameras and detect the type of movements according to a “movement alphabet”. Depending on the motion input, a corresponding OSC message is sent to the Pure Data patches of the current mode. The MC has also audio interface and can send sound to powerful speakers.
+The MotionComposer analyses the video data coming from the cameras and detects the type of movements according to a “movement alphabet”. Depending on the motion input, a corresponding OSC message is sent to the Pure Data patches of the current mode. The MC has also an audio interface and can send sound to powerful speakers.
 
 ## Synth Engine
 
@@ -30,31 +30,45 @@ We developed two distinct synth engines, and the user can switch between them us
 
 ### Additive Synthesis
 
-Our additive synth consists of a fundamental frequency (f<sub>0<\sub>) sinusoidal oscillator and 16 harmonic sine tones. Each harmonic has a different frequency (2f<sub>0</sub>, 3f<sub>0</sub>, …). The amplitude of each generated sine tone can be controlled independently. We decided to use two mathematical expressions for two different harmonic mappings. The first one works like a bandpass filter, with $x$ as the central frequency and $y$ as the Q:
+Our additive synth consists of a fundamental frequency (f<sub>0<\sub>) sinusoidal oscillator and 16 harmonic sine tones. Each harmonic has a different frequency (2f<sub>0</sub>, 3f<sub>0</sub>, …). The amplitude of each generated sine tone can be controlled independently. We decided to use two mathematical expressions for two different harmonic mappings. The first one works like a bandpass filter, with x as the central frequency and y as the Q:
 
-$0.6-\frac{(n-15y)^2}{e^{e^{2x}}-1}$
+<figure text-align="center">
+<iframe src="https://drive.google.com/file/d/1S2EpmSTOUyQqI1fiq6HWJ_eypJ4OH3Fl/preview"
+width="200"
+height="100%"
+frameborder="0"
+scrolling="no">
+</iframe>
+</figure>
 
-$n$ represents the harmonic number, in the interval $[0,15]$.
+n represents the harmonic number, in the interval $[0,15]$.
 
 <iframe id="bandpass"
     title="bandpass"
     width="420"
     height="350"
     frameBorder="0"
+    scrolling="no"
     src="https://editor.p5js.org/03thib/present/U9X3OHqec">
 </iframe>
 
-The second equation is a linear function, which slope and intercept change according to a single parameter $x$:
+The second equation is a linear function, which slope and intercept change according to a single parameter x:
 
-|$if$ $x<0.5$       |$else$               |
-|-------------------|---------------------|
-|$1.5x-\frac{x}{3}n$|$0.75-\frac{1-x}{3}n$|
+<figure text-align="center">
+<iframe src="https://drive.google.com/file/d/1qR8S1TDyGjlqGnam38v6YcqC_bZ1dw4x/preview"
+width="400"
+height="100%"
+frameborder="0"
+scrolling="no">
+</iframe>
+</figure>
 
 <iframe id="linear"
     title="linear"
     width="420"
     height="300"
     frameBorder="0"
+    scrolling="no"
     src="https://editor.p5js.org/03thib/present/ZHi6K-t6r">
 </iframe>
 
@@ -64,26 +78,65 @@ The second equation is a linear function, which slope and intercept change accor
 
 ## Mapping
 
-While researching movement-to-sound research, we were inspired by a the idea of making a virtual model and using it as a point of departure. This virtual model would be centered around specific body poses (a combination of various movement tracking data points) and correlate specific sounds, or collection of sounds, to said poses. Then, we would be able to reproduce desired soundscapes by doing certain predetermined poses. 
+While researching movement-to-sound literature, we were inspired by the idea of making a virtual model and using it as a point of departure. This virtual model would be centered around specific body poses (a combination of various movement tracking data points) and correlate specific sound environments to said poses, as seen in the image below. Then, we would be able to reproduce the desired soundscapes by doing certain predetermined poses.
 
-This culminated in two Pure Data abstractions that could imitate 2 specific motion gestures performed over time, as seen in the image below. Practically, this meant that we could move one slider (representing time) and output independent data streams of both arms (horizontally and vertically), body position, head movement, and general height, correlating to the position of the given limbs at a given time. 
+<figure text-align="center">
+<iframe src="https://drive.google.com/file/d/1mu8rfHE61RpiaMx68_zV8ItsmYfz8Z9n/preview"
+width="600"
+height="100%"
+frameborder="0"
+scrolling="no">
+</iframe>
+<figcaption>Skogstad,Nymoen, de Quay, & Refsum, 2012, p.3</figcaption>
+</figure>
 
-(insert image "gesture1.jpg" and "gesture2.jpg" side by side)
+This culminated in two Pure Data abstractions that could imitate 2 specific motion gestures performed over time, as seen in the image below. Practically, this meant that we could move one slider (representing time) and output independent data streams of both arms (horizontally and vertically), body position, head movement, and general height, correlating to the position of the given limbs at a given time.
+
+<figure text-align="center">
+<iframe src="https://drive.google.com/file/d/1p5JF_n5VSBYiqx86dM6Cw2E3ehKzCRzV/preview"
+width="600"
+height="100%"
+frameborder="0"
+scrolling="no"
+align="left">
+</iframe>
+<figcaption>A gesture</figcaption>
+</figure>
+
+<figure text-align="center">
+<iframe src="https://drive.google.com/file/d/16cfOirSrwmcfseHkdV3VrZQz5uFbJPyg/preview"
+width="600"
+height="100%"
+frameborder="0"
+scrolling="no"
+align="right">
+</iframe>
+<figcaption>Another gesture</figcaption>
+</figure>
 
 Using this mapping scheme to experiment with the synthesizer enabled us to make certain key development decisions early on, like limiting synthesis control parameters. We could then start collaborating with our external partner with a beta version of our sound engine that was already calibrated, to some degree, to deal with movement as its control parameters.
 
-Unfortunately, we eventually had to revisit our project plan to down-scale our original goal to only focus on 2 movement parameters, instead of a whole collection as previously desired, and to leave the 2-player feature behind for future development. We chose to work with horizontal arms, as seen in the image below, because these movements have a wide dynamic range and have the possibility of functioning like a coordinate system. It therefore seemed like an appropriate starting point for exploring how we could interpolate between, or "move through", different soundscapes generated by our sound engine. 
+We chose to work with vertical arms because these movements have a wide dynamic range and have the possibility of functioning like a coordinate system. It, therefore, seemed like an appropriate starting point for exploring how we could interpolate between, or "move through", different soundscapes generated by our sound engine.
 
-(insert image "handheight.jpg")
-
-Our workflow from there was highly shaped by our digital means of communication. We would first send our partner a collection of mapping schemes for testing. These mapping schemes involved 4 different interpretations of how the horizontal arm movements could control the parameters of the synthesizer. Our partner would then test all interpretations in one setting and provide valuable feedback for us in return. This workflow enabled us to effectively explore a multitude of options in a limited amount of time. 
+Our workflow from there was highly shaped by our digital means of communication. We would first send our partner a collection of mapping schemes for testing. These mapping schemes involved 4 different interpretations of how the horizontal arm movements could control the parameters of the synthesizer. Our partner would then test all interpretations in one setting and provide valuable feedback for us in return. This workflow enabled us to effectively explore a multitude of options in a limited amount of time.
 
 ## Routing
 
-The Motion Composer consists of 3 modules; the tracking module(camera), the control module(brain), and the musical environments. These all make up a bidirectional communications system which is maintained and controlled by the hardwares integrated Linux machine.
+The Motion Composer consists of 3 modules; the tracking module(camera), the control module(brain), and the musical environments. These all make up a bidirectional communications system which is maintained and controlled by the hardware`s integrated Linux machine.
 
-(insert image "movement_alphabet.jpg")
+<figure text-align="center">
+<iframe src="https://drive.google.com/file/d/1ZiSHxXNu6k0aATycyNp1OkLJ4su6_sye/preview"
+width="600"
+height="100%"
+frameborder="0"
+scrolling="no"></iframe>
+<figcaption>Movement alphabet</figcaption>
+</figure>
 
-For a musical environment to get movement data from the tracking module, and subsequently to produce sound from that data, it has to send and receive various OSC-messages back and forth between the control and tracking module using the systems designated syntax, as seen in the image above. Luckily, a multitude of Pure Data packages allow for quick and reliable OSC-routing so we were able to integrate this in a relatively short period of time.
+For a musical environment to get movement data from the tracking module, and subsequently to produce sound from that data, it has to send and receive various OSC-messages back and forth between the control and tracking module using the systems designated syntax, as seen in the image above. Luckily, a multitude of Pure Data packages allows for quick and reliable OSC-routing so we were able to integrate this in a relatively short period of time.
   
 ## Conclusion
+
+## References
+
+Skogstad, S. A., Nymoen, K., de Quay, Y., & Refsum, A. (2012). 	Developing the dance jockey system for musical interaction with the xsens MVN suit.NIME
