@@ -2,7 +2,7 @@
 layout: post
 title: MotionComposer
 date: 2020-05-02 19:00:00 +0200
-categories: Portal
+categories: Projects
 author: Aleksander, Rayam, Simon & Thibault
 image: /assets/img/thibault/motion-composer.png
 excerpt: ""
@@ -15,12 +15,9 @@ The [MotionComposer](http://motioncomposer.de/) is a device that lets users use 
 
 ## The Device
 
-<figure  text-align="center">
-<iframe  src="https://drive.google.com/file/d/1mm2ADnMC9pyXMI4C5rEsPGiYW3axp-Qv/preview"
-width="650"
-height="433"
-frameborder="0"></iframe>
-<figcaption>MotionComposer 3.0</figcaption>
+<figure text-align="center">
+    <img src="/assets/img/thibault/motion-composer.png" width="600px">
+    <figcaption>MotionComposer 3.0</figcaption>
 </figure>
  
 The hardware device, which we have not contributed to build at all, consists of a embedded computer running Linux, two HD cameras and a wirelessly connected android tablet for the user interface. On the latter, the user can switch between different playing modes. Our goal was to develop one of them.
@@ -39,12 +36,12 @@ $0.6-\frac{(n-15y)^2}{e^{e^{2x}}-1}$
 
 $n$ represents the harmonic number, in the interval $[0,15]$.
 
-<iframe id="linear"
-    title="linear"
+<iframe id="bandpass"
+    title="bandpass"
     width="420"
-    height="300"
+    height="350"
     frameBorder="0"
-    src="https://editor.p5js.org/03thib/present/ZHi6K-t6r">
+    src="https://editor.p5js.org/03thib/present/U9X3OHqec">
 </iframe>
 
 The second equation is a linear function, which slope and intercept change according to a single parameter $x$:
@@ -53,12 +50,12 @@ The second equation is a linear function, which slope and intercept change accor
 |-------------------|---------------------|
 |$1.5x-\frac{x}{3}n$|$0.75-\frac{1-x}{3}n$|
 
-<iframe id="bandpass"
-    title="bandpass"
+<iframe id="linear"
+    title="linear"
     width="420"
-    height="350"
+    height="300"
     frameBorder="0"
-    src="https://editor.p5js.org/03thib/present/U9X3OHqec">
+    src="https://editor.p5js.org/03thib/present/ZHi6K-t6r">
 </iframe>
 
 ### String Physical Modelling
