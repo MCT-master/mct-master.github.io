@@ -41,7 +41,7 @@ scrolling="no">
 </iframe>
 </figure>
 
-n represents the harmonic number, in the interval $[0,15]$.
+n represents the harmonic number, in the interval [0,15]. Here is an interactive applet to see the expression in action:
 
 <iframe id="bandpass"
     title="bandpass"
@@ -62,6 +62,8 @@ frameborder="0"
 scrolling="no">
 </iframe>
 </figure>
+
+Again, an applet to understand its behaviour:
 
 <iframe id="linear"
     title="linear"
