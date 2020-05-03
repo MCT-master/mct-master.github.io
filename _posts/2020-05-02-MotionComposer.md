@@ -30,7 +30,7 @@ We developed two distinct synth engines, and the user can switch between them us
 
 ### Additive Synthesis
 
-Our additive synth consists of a fundamental frequency (f<sub>0<\sub>) sinusoidal oscillator and 16 harmonic sine tones. Each harmonic has a different frequency (2f<sub>0</sub>, 3f<sub>0</sub>, …). The amplitude of each generated sine tone can be controlled independently. We decided to use two mathematical expressions for two different harmonic mappings. The first one works like a bandpass filter, with x as the central frequency and y as the Q:
+Our additive synth consists of a fundamental frequency (f<sub>0</sub>) sinusoidal oscillator and 16 harmonic sine tones. Each harmonic has a different frequency (2f<sub>0</sub>, 3f<sub>0</sub>, …). The amplitude of each generated sine tone can be controlled independently. We decided to use two mathematical expressions for two different harmonic mappings. The first one works like a bandpass filter, with x as the central frequency and y as the Q:
 
 <figure text-align="center">
 <iframe src="https://drive.google.com/file/d/1fx84jJnPsYF-krW2k1jMh3e4YjXquScO/preview"
