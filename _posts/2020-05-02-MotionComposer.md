@@ -117,6 +117,8 @@ For a musical environment to get movement data from the tracking module, and sub
   
 ## Conclusion
 
+This project has been a great opportunity for us to learn more about audio programming in Pure Data, but also learning a lot about OSC communication and motion capture. We are satisfied with the result, but we will continue working on it in hope of seing our instrument implemented in the commercialised product. The relation with our ecternal partner is very good, and we are proud of the current state of our synth. This first professional experience has been instructive for us all, and gives us a better idea of what working in the music technology indutry looks like. We can't wait for the next applied project!
+
 ## References
 
 Skogstad, S. A., Nymoen, K., de Quay, Y., & Refsum, A. (2012). 	Developing the dance jockey system for musical interaction with the xsens MVN suit.NIME
