@@ -132,7 +132,7 @@ In the finishing phase, we invested in designing a GUI. It is a beta-prototype w
 <figure text-align="center">
 <iframe src="/assets/img/rayam/MotionComposer_Interface-V02.png"
 width="832"
-height="2468"
+height="468"
 frameborder="0"
 scrolling="no"></iframe>
 <figcaption>MoShape GUI</figcaption>
