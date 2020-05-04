@@ -130,12 +130,9 @@ For a musical environment to get movement data from the tracking module, and sub
 In the finishing phase, we invested in designing a GUI. It is a beta-prototype with minimalist aesthetics, made for improving the user experience and to create a better perspective of our product for the stakeholders. 
 
 <figure text-align="center">
-<iframe src="/assets/img/rayam/MotionComposer_Interface-V02.png"
-width="832"
-height="468"
-frameborder="0"
-scrolling="no"></iframe>
-<figcaption>MoShape GUI</figcaption>
+    <img src="/assets/img/rayam/MotionComposer_Interface-V02.png"
+    width="600px">
+    <figcaption>MoShape GUI</figcaption>
 </figure>
 
 ## Video Demo
