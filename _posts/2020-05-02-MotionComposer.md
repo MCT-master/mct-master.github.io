@@ -124,6 +124,27 @@ scrolling="no"></iframe>
 </figure>
 
 For a musical environment to get movement data from the tracking module, and subsequently to produce sound from that data, it has to send and receive various OSC-messages back and forth between the control and tracking module using the systems designated syntax, as seen in the image above. Luckily, a multitude of Pure Data packages allows for quick and reliable OSC-routing so we were able to integrate this in a relatively short period of time.
+
+## The GUI
+
+In the finishing phase, we invested in designing a GUI. It is a beta-prototype with minimalist aesthetics, made for improving the user experience and to create a better perspective of our product for the stakeholders. 
+
+
+<figure text-align="center">
+<iframe src="/assets/img/rayam/MotionComposer_Interface-V02.png"
+width="588.5"
+height="218"
+frameborder="0"
+scrolling="no"></iframe>
+<figcaption>Movement alphabet</figcaption>
+</figure>
+
+## Video Demo
+
+<p align="center">
+<iframe width="832" height="468" src="https://www.youtube.com/embed/V-sW18gO4dA" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+</iframe>
+</p>
   
 ## Conclusion
 
