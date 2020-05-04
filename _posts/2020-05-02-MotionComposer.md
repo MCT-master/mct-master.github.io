@@ -129,7 +129,6 @@ For a musical environment to get movement data from the tracking module, and sub
 
 In the finishing phase, we invested in designing a GUI. It is a beta-prototype with minimalist aesthetics, made for improving the user experience and to create a better perspective of our product for the stakeholders. 
 
-
 <figure text-align="center">
 <iframe src="/assets/img/rayam/MotionComposer_Interface-V02.png"
 width="588.5"
@@ -140,6 +139,8 @@ scrolling="no"></iframe>
 </figure>
 
 ## Video Demo
+
+We made a video showing the MoShape in action, in the phase of tests with Robert, the partner, and also showing the Pd patch working internally.
 
 <p align="center">
 <iframe width="832" height="468" src="https://www.youtube.com/embed/V-sW18gO4dA" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
