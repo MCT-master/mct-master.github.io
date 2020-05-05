@@ -64,6 +64,9 @@ $on-laptop:        800px;
 
 .wrapper figure img, .wrapper img, .wrapper video, .wrapper iframe {
   border-radius: 6px;
+  margin: 0 0 1em 1em;
+  border: 1px solid #DEDEDE;
+  box-shadow: 1px 1px 10px #cccccc;
 }
 
 .wrapper figure, .wrapper img, .wrapper video {
@@ -97,11 +100,6 @@ $on-laptop:        800px;
   float: right;
   display: absolute;
   //padding: 0 3% 1% 0;
-  margin: 0 0 1em 1em;
-  border: 1px solid #DEDEDE;
-  box-shadow: 1px 1px 10px #cccccc;
-}
-img {
   margin: 0 0 1em 1em;
   border: 1px solid #DEDEDE;
   box-shadow: 1px 1px 10px #cccccc;
