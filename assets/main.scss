@@ -62,10 +62,9 @@ $on-laptop:        800px;
 
 // Import partials from the `minima` theme.
 
-.wrapper figure img, .wrapper img, .wrapper video, .wrapper iframe {
-  border-radius: 6px;
-  margin: 0 0 1em 1em;
-  border: 1px solid #DEDEDE;
+.wrapper img, .wrapper video, .wrapper iframe {
+  border-radius: 8px;
+  max-width: 100%;
   box-shadow: 1px 1px 10px #cccccc;
 }
 
@@ -81,7 +80,6 @@ $on-laptop:        800px;
   margin-left: auto;
   margin-right: auto;
   display: table;
-  max-width: 100%;
 }
 
 .wrapper figcaption {
@@ -101,7 +99,6 @@ $on-laptop:        800px;
   display: absolute;
   //padding: 0 3% 1% 0;
   margin: 0 0 1em 1em;
-  border: 1px solid #DEDEDE;
   box-shadow: 1px 1px 10px #cccccc;
 }
 

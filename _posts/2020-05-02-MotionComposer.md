@@ -64,7 +64,7 @@ Again, an applet to understand its behaviour:
     src="https://editor.p5js.org/03thib/present/ZHi6K-t6r">
 </iframe>
 
-### String Physical Modelling
+### String Physical Modeling
 
 The idea to bring a new voice to our synth engine, came from the need to achieve clear changes on the sound output, as the partner expressed. With the string physical modeling synthesizer, it was possible to change smoothly between two synth voices, the additive synthesis created previously and the string synth. To do that, it was implemented with a mixer that inverts the amount of signal coming through one synth proportionally inverted to the other synth, in response to the movements of the arms of the user.
 
