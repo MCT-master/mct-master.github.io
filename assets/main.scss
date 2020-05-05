@@ -42,7 +42,6 @@ h1, h2, h3, h4, h5, h6 {
     color: $brand-color;
 }
 
-
 $grey-color:       #828282;
 $grey-color-light: lighten($grey-color, 40%);
 $grey-color-dark:  darken($grey-color, 25%);
@@ -98,6 +97,11 @@ $on-laptop:        800px;
   float: right;
   display: absolute;
   //padding: 0 3% 1% 0;
+  margin: 0 0 1em 1em;
+  border: 1px solid #DEDEDE;
+  box-shadow: 1px 1px 10px #cccccc;
+}
+img {
   margin: 0 0 1em 1em;
   border: 1px solid #DEDEDE;
   box-shadow: 1px 1px 10px #cccccc;
