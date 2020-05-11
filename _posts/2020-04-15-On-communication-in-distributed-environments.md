@@ -65,7 +65,7 @@ in caring for, designing and coordinating technologies that are valuable for soc
 
 Finally, the expo itself was quite overwhelming. It took all the days to visit the halls and to get a gripe of the materialised dimensions 
 of electronic systems integration and IT for AV. For the future of the Portal it is definitely the venue to gather ideas to push new 
-developments. I had also the chance to visit an inspiring talk at the AVIXA diversity council and learned about large professional 
+developments. I had also the chance to visit an inspiring talk at the [AVIXA diversity council](https://www.youtube.com/watch?v=BlTMjtbiIo0&feature=youtu.be) and learned about large professional 
 networks that mentor and support young [women in AV](http://womeninav.com/). As this is my last semester at MCT, I hope the conversation and activities on diversity 
 and inclusion will continue and expand. 
 
@@ -74,3 +74,10 @@ and inclusion will continue and expand.
 
 Thanks a lot to AVIXA and SALTO for enabling me to follow up Gill Ferrel invitation, who gave me the chance to share my perspectives. 
 Thanks to you all and I hope the collaboration will continue at MCT on these matters. 
+
+## References
+
+* [How AV technology enriches the user experience in Higher Education, by Andrea Glang-Tossing / Sennheiser](https://en-de.sennheiser.com/businessblog-avixa-higher-education-conference-2020)
+* [Higher Education Conference at ISE 2020, Gill Ferrell](https://padlet.com/gillferrell/ISE20)
+
+
