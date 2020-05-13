@@ -1,13 +1,15 @@
 ---
 layout: page
-title: Master's Theses
+title: "Master's Theses"
 permalink: /masters/
 ---
 
 The blog posts of this section relate to the master's theses completed in the fourth semester as the final requirement of the degree.
 
-{%- if site.posts.size > 0 -%}
+<br />
 
+{%- if site.posts.size > 0 -%}
+  <!-- <h2 class="post-list-heading">{{ page.list_title | default: "Posts" }}</h2> -->
   <ul class="post-list">
     {%- for post in site.categories.Masters -%}
     <li>
