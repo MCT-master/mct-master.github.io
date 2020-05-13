@@ -6,24 +6,26 @@ toc:
         url: /audio-programming/
       - page: DSP
         url: /dsp/
+      - page: Entrepreneurship
+        url: /entrepreneurship/
       - page: HCI
         url: /hci/
+      - page: Interactive Systems
+        url: /interactive-systems/
+      - page: Master's Theses
+        url: /masters/
       - page: Motion Tracking
         url: /motion-tracking/
+      - page: Music and Machine Learning
+        url: /music-and-ml/
       - page: Physical Computing
         url: /physical-computing/
       - page: Sonification
         url: /sonification-sound-design/
-      - page: WoNoMute
-        url: /wonomute/    
-      - page: Music and Machine Learning
-        url: /music-and-ml/
-      - page: Interactive Systems
-        url: /interactive-systems/
       - page: Spatial Audio
         url: /spatial-audio/
-      - page: Entrepreneurship
-        url: /entrepreneurship/
+      - page: WoNoMute
+        url: /wonomute/    
   - title: Portal
     url: /portal/
   - title: Projects

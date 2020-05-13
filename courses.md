@@ -9,13 +9,17 @@ permalink: /courses/
   <ul class="post-list">
     {%- for post in site.posts -%}
     {%- if post.categories contains 'Portal'
-    or post.categories contains 'Physical-Computing'
-    or post.categories contains 'DSP'
-    or post.categories contains 'HCI'
-    or post.categories contains 'Motion-Tracking'
-    or post.categories contains 'Sonification'
     or post.categories contains 'Audio-Programming'
+    or post.categories contains 'DSP'
+    or post.categories contains 'Entrepreneurship'
+    or post.categories contains 'HCI'
+    or post.categories contains 'Interactive-Systems'
+    or post.categories contains 'Masters'
+    or post.categories contains 'Motion-Tracking'
+    or post.categories contains 'Music-and-Machine-Learning'
+    or post.categories contains 'Physical-Computing'
     or post.categories contains 'Projects'
+    or post.categories contains 'Sonification'
     -%}
 
     <li>
