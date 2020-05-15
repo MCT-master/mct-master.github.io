@@ -34,7 +34,7 @@ I experimented with three different methods of motion tracking. The first method
     <figcaption>Tracking method 1 - Findbounds</figcaption>
 </figure>
 
-The second method featured motion tracking through generating a motion image, the difference between two consecutive frames, and calculating the center of mass (centroid) from this image. Additionally, to enhance the visualization of the tracking, I implemented a feature that paints several colored circles on the display based on the centroid coordinates using the jit.lcd object.   
+The second method featured motion tracking through generating a motion image, the difference between two consecutive frames, and calculating the center of mass (centroid) from this image. Additionally, to enhance the visualization of the tracking, I implemented a feature that paints several colored circles on the display based on the centroid coordinates using the jit.lcd object.
 
 This method yielded better visual results but still lacked a good sense of agency similar to the first method. This was because the centroid was calculated from the sum total of motion on the screen.
 
