@@ -29,7 +29,8 @@ When I starting working on this I immediately realized that certain key aspects 
 I experimented with three different methods of motion tracking. The first method revolved around tracking specific RGB-values by using a bounding box technique before calculating the center coordinates of that box. However, this resulted in a considerable amount of jitter due to constant variations in light and varying camera-feed quality which in turn generated very unstable RGB-data input.
 
 <figure>
-    <img src="https://drive.google.com/file/d/1gnMoPbQGuJBiFcgG3CVP-5Z1gFf32ROl/preview"/>
+    <iframe src="https://drive.google.com/file/d/1gnMoPbQGuJBiFcgG3CVP-5Z1gFf32ROl/preview" height="340px" width="600px" frameborder="0">
+    </iframe>
     <figcaption>Tracking method 1 - Findbounds</figcaption>
 </figure>
 
@@ -37,8 +38,9 @@ The second method featured motion tracking through generating a motion image, th
 
 This method yielded better visual results but still lacked a good sense of agency similar to the first method. This was because the centroid was calculated from the sum total of motion on the screen.
 
-<figure class="gif">
-    <img src="https://drive.google.com/file/d/1IaIHp4XUgDPs02zcIkaEAVWr1RKU01tg/preview"/>
+<figure>
+    <iframe src="https://drive.google.com/file/d/1IaIHp4XUgDPs02zcIkaEAVWr1RKU01tg/preview" height="340px" width="600px" frameborder="0">
+    </iframe>
     <figcaption>Tracking method 2 - Centroid of Motion</figcaption>
 </figure>
 
@@ -46,8 +48,9 @@ It thus became clear that a combination of color tracking and centroid calculati
 
 I decided to use a set of filtering approaches to isolate specific colors in the video-stream and further processes it so that it satisfied the input requirements of the centroid calculation. Additionally, I added a controllable noise threshold parameter to allow for some calibration of the module to accommodate various contexts. Then, I implemented it together with the visualization module previously constructed and made the system respond to both blue and red colors.
 
-<figure class="gif">
-    <img src="https://drive.google.com/file/d/1ih-aH2XgOYEQyT2eZkV0wpK9fwHEqITd/preview"/>
+<figure>
+    <iframe src="https://drive.google.com/file/d/1ih-aH2XgOYEQyT2eZkV0wpK9fwHEqITd/preview" height="340px" width="600px" frameborder="0">
+    </iframe>
     <figcaption>Tracking method 3 - Centroid of Color</figcaption>
 </figure>
 
@@ -56,7 +59,8 @@ I decided to use a set of filtering approaches to isolate specific colors in the
 For the sonification I ended up using a model where the motion controls the central frequency and the number of active audio channels in the mix. I chose these parameters because of their independence of one another which I believe could enhance sonic proprioception of an object moving around in a two-dimensional space.
 
 <figure>
-    <img src="https://drive.google.com/file/d/1N3NURJglAKMWCvZS85JfgPgsURChfH1B/preview"/>
+    <iframe src="https://drive.google.com/file/d/1N3NURJglAKMWCvZS85JfgPgsURChfH1B/preview" height="340px" width="600px" frameborder="0">
+    </iframe>
     <figcaption>Sonification diagram</figcaption>
 </figure>
 
@@ -65,7 +69,8 @@ The frequency of the sound is controlled by movement along the y-axis. When the 
 To further enhance this effect I used panning to spatialize the sound based on the number of audio channels. The panning values are also automatically rescaled from left to right according to the number of channels selected. 
 
 <figure>
-    <img src="https://drive.google.com/file/d/12mm3d0S5ye6-EmoAiJki-wRSlRQTPF2v/preview"/>
+    <iframe src="https://drive.google.com/file/d/12mm3d0S5ye6-EmoAiJki-wRSlRQTPF2v/preview" height="340px" width="600px" frameborder="0">
+    </iframe>
     <figcaption>Panning diagram</figcaption>
 </figure>
 
