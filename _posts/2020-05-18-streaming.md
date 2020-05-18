@@ -3,7 +3,7 @@ layout: post
 title: "I scream, you scream, we all scream for livestream"
 date: 2020-05-18 22:00:00 +0100
 categories: Portal
-author: Rayam, Paul
+author: Rayam Pinto
 image: /assets/img/gaute/Rayam.jpg
 excerpt: "Some cameras won't allow you to film for more than 30 minutes, don't use those."
 Keywords: Stream, concert, corona, telematic 
@@ -22,11 +22,6 @@ Have good lighting on stands. 3-point lighting with soft-boxes are preferred. Th
 </figure>
 
 We have used 2 spot lights, but they were too big and too heavy for the task. No need to overkill with lighting and melt the artists during the performance. On the other hand, they were very useful, especially because we had a dimmer to control the power of the lights. They were well used when the face and other details of the subject in the scene were a bit in the shadow.
-
-### Microphones
-Streaming a concert through a camera is a very different thing than a live concert. Since cameras often zoom close to the face of the people singing or the instrument being played and the audience does not have the distractions they do at a concert, you have to keep in mind that the microphones can become obstructive in the image. Try as best as you can to select discrete or visually pleasing microphones and it will look a lot better than using regular stage-mics.
-
-A USB mic can greatly reduce the complexity of a setup. You can find good condenser USB microphones for a good price, and it takes out the need of a sound card, since the USB microphones are plug-and-play, meaning you just need to plug it directly to your computer's USB port.
 
 ### Audio and Video processing
 OBS provides support for utilizing audio and video processing, you can use native plugins or 3rd party plugins of your choice. To find these options you have to right click on the video device listed, to find the option Filters on the menu that pops up. We have used it to pop up the musicians and give contrast to the scene when we were using a webcam, that despite having quality, had a bit of a washed picture.
@@ -54,3 +49,12 @@ When mixing for live broadcast, you got to think differently than if you were mi
 
 #### Compressor
 Use the compressors the same way as you would in any other mix (try to be tasteful), but keep in mind that the audience you are mixing for will probably not hear your mix in an optimal environment. Your mix will be played through anything from earbuds to a large HIFI, so try to master your tracks accordingly. Most importantly, set a limiter before the signal reaches OBS. Think that you should aim at reducing the peaks by 3 to 6db and keep a steady signal at -8 to 12 and you will make sure that your work is heard in all situations. 
+
+#### Monitoring
+When doing a stream, good monitoring is key. 
+The most dificult thing is to separate yourself from the acoustic output of the band, since this will make it very hard to have a correct perception of what the remote audience will hear. 
+
+#### Microphones
+Streaming a concert through a camera is a very different thing than a live concert. Since cameras often zoom close to the face of the people singing or the instrument being played and the audience does not have the distractions they do at a concert, you have to keep in mind that the microphones can become obstructive in the image. Try as best as you can to select discrete or visually pleasing microphones and it will look a lot better than using regular stage-mics.
+
+A USB mic can greatly reduce the complexity of a setup. You can find good condenser USB microphones for a good price, and it takes out the need of a sound card, since the USB microphones are plug-and-play, meaning you just need to plug it directly to your computer's USB port.
