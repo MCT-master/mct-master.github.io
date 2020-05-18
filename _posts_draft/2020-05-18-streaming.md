@@ -3,7 +3,7 @@ layout: post
 title: "I scream, you scream, we all scream for livestream"
 date: 2020-05-18 22:00:00 +0100
 categories: Portal
-author: Rayam, Paul, Gaute
+author: Rayam, Paul
 image: /assets/img/gaute/Rayam.jpg
 excerpt: "Some cameras won't allow you to film for more than 30 minutes, don't use those."
 Keywords: Stream, concert, corona, telematic 
@@ -42,3 +42,15 @@ In case your picture is a bit "washed", and you need to make the subject and obj
 
 #### Brightness
 Similar to Gamma, it is better used for small corrections. If your video is dark, slowly increase it, but don't try to fix a lighting problem that should be done by a correct light placement and natural environment lighting. Sometimes the subject can be too exposed too, in this case you should decrease subtly the value of this parameter.
+
+
+### Basic audio Processing
+When mixing for live broadcast, you got to think differently than if you were mixing for a concert venue.
+
+<figure>
+<img src="/assets/img/gaute/mixer.jpg" width = "100%" align="center" />
+<figcaption><strong>Waves LV1 and Yamaha HS8</strong></figcaption>
+</figure>
+
+#### Compressor
+Use the compressors the same way as you would in any other mix (try to be tasteful), but keep in mind that the audience you are mixing for will probably not hear your mix in an optimal environment. Your mix will be played through anything from earbuds to a large HIFI, so try to master your tracks accordingly. Most importantly, set a limiter before the signal reaches OBS. Think that you should aim at reducing the peaks by 3 to 6db and keep a steady signal at -8 to 12 and you will make sure that your work is heard in all situations. 
