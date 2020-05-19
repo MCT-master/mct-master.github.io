@@ -26,7 +26,7 @@ When I starting working on this I immediately realized that certain key aspects 
 
 ## Tracking
 
-I experimented with three different methods of motion tracking. The first method revolved around tracking specific RGB-values by using a bounding box technique before calculating the center coordinates of that box. However, this resulted in a considerable amount of jitter due to constant variations in light and varying camera-feed quality which in turn generated very unstable RGB-data input.
+I experimented with three different methods of motion tracking. The first method revolved around creating a bounding box around specific RGB-values before calculating the center coordinates of that box. Practically however, this was not successfull because my webcamera feed was constantly adjusting due to various lighting conditions which in turn generated quite unpredictable RGB-input.
 
 <figure>
     <iframe src="https://drive.google.com/file/d/1gnMoPbQGuJBiFcgG3CVP-5Z1gFf32ROl/preview" height="340px" width="600px" frameborder="0">
