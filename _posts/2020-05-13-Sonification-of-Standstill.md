@@ -62,8 +62,7 @@ Figure 3.3
 # 1 . Sonification of Individual Participant Data
 
 As presented in Figure 3.4, displacement position values in the XY plane or position values of the Z-Axis can be selected for the sonification. For mapping in the noise section, the total displacement of position in the XY plane or the position values from the Z-Axis can be mapped to the amplitude of the noise and to the cut-off frequency.
-
-Video demonstration of This application: 
+<iframe src="https://drive.google.com/file/d/1xvFtMTk9JoAdgBtTlEA6MhKAZvW5xpXP/preview" width="640" height="480"></iframe>Video demo:Sonification of Individual Participant Data
 
 # 2. Sonification of Group Average Position Data
 
