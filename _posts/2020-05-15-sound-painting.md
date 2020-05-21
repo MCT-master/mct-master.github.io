@@ -2,7 +2,7 @@
 layout: post
 title: Sound Painting
 date: 2020-05-15 00:00:10 +0200
-categories: Motion Tracking
+categories: Motion-Tracking
 author: Aleksander Tidemann
 image: /assets/img/Tidemann/sound-painting.jpg
 excerpt: "An application that tracks, visualizes and sonifies the motion of colors."
