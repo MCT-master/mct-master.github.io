@@ -4,7 +4,7 @@ title: 'Sonification of Standstill Recordings '
 date: 2020-05-13 15:00:00 +0200
 categories: Masters
 author: Ashane Silva
-image: 
+image: /assets/img/blogcover.PNG
 excerpt: 'The goal of this thesis was to develop and experiment with a set of sonification tools to explore participant data from standstill competitions. Using data from the 2012 Norwegian Championship of Standstill, three sonification models were developed using the Max/MSP programming environment. The first section of the thesis introduces sonification as a method for data exploration and discusses different sonification strategies. Momentary Displacement of the position was derived from the position data and parameter mapping methods were used to map the data features with sound parameters. The displacement of position in the XY plane or the position changes along the Z-Axis can be mapped either to white-noise or to a sine tone. The data variables control the amplitude and a filter cut-off frequency of the white noise or the amplitude and frequency of the sine tone. Moreover, using sound spatialization together with sonification was explored by mapping position coordinates to spatial parameters of a sine tone. A “falling” effect of the standing posture was identified through the sonification. Also audible were the participants’ breathing patterns and postural adjustments. All in all, the implemented sonification methods can be effectively used to get an overview of the standstill dataset.'
 Keywords: Masterthesis, Max, Sonification, Standstill
 ---
