@@ -67,8 +67,7 @@ As presented in Figure 3.4, displacement position values in the XY plane or posi
 # 2. Sonification of Group Average Position Data
 
 Figure 3.4 is an extract from the max patch that calculates average displacement values for each x, y, z Axes for two participant groups. However, this patch is only compatible with the 2012 standstill data and since the average values depend on the number of participants in the group, further customizations are necessary to use it with other standstill competition data sets. In the mapping, a similar approach to the individual participant mapping has being followed. The average position values are used to calculate the average displacement position values in the XY plane and mapped to control the noise amplitude and cut-off frequency or the Sine tone frequency and amplitude. Also, the average Z-axis values can be used to control the parameters of the noise section or the sine tone.
-
-Video demonstration of This application: 
+<iframe src="https://drive.google.com/file/d/1hQTCJw3Yapqzc2M3OA-5LzpASSQsmchS/preview" width="640" height="480"></iframe>Video demo Sonification of Group Average Position Data 
 
 # 3. Using Spatial Sound with Individual Position Data.
 
