@@ -73,6 +73,8 @@ The third approach of the sonification is to apply spatialization for the positi
 
 # Results
 
+## Mapping a whote noise with data variables.
 
+First, I would mention the results for the mapping of white noise with data variables. The mapping of white noise to displacement position variable with a 100 Hz sample rate of data playback, produced a sound of rising and falling of the frequency filtering and the amplitude. These fluctuations were present for all three participants. These up and down movements of the sound can be distinguishable in three levels. First, a darker sound can be noticed with less volume which stays much stable with fewer fluctuations. These low fluctuations of the noise can probably explain by the stability of the standing still. Secondly, a much sharper rising and falling of the noise is noticeable for 5-15 seconds periods of time. The periodicity of these sounds is not sharply consistent. These sounds are shorter rises that last for about 2 seconds but clearly stands out from the much stable darker noise. These rising and falling of the noise can be related to the breathing patterns of the participants. Statistical evidence was found in previous standstill studies regarding similar periodic movements (Jensenius & Bjerkestrand, 2011). Thirdly, sudden quick bursts of the noise can be noticed, and they occur less frequently and not in any noticeable cycle. This type of sound may be occurring due to postural adjustments of the participants. As described in a study by Jensenius and Bjerkestrand (2011), some “spikes” that appear every 2-3 minutes were noticed in the analysis and these were assumed as postural re-adjustments.
 
 
