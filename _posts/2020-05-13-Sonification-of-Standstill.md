@@ -63,13 +63,19 @@ Figure 3.3
 
 As presented in Figure 3.4, displacement position values in the XY plane or position values of the Z-Axis can be selected for the sonification. For mapping in the noise section, the total displacement of position in the XY plane or the position values from the Z-Axis can be mapped to the amplitude of the noise and to the cut-off frequency.
 
+Video demonstration of This application: 
+
 # 2. Sonification of Group Average Position Data
 
 Figure 3.4 is an extract from the max patch that calculates average displacement values for each x, y, z Axes for two participant groups. However, this patch is only compatible with the 2012 standstill data and since the average values depend on the number of participants in the group, further customizations are necessary to use it with other standstill competition data sets. In the mapping, a similar approach to the individual participant mapping has being followed. The average position values are used to calculate the average displacement position values in the XY plane and mapped to control the noise amplitude and cut-off frequency or the Sine tone frequency and amplitude. Also, the average Z-axis values can be used to control the parameters of the noise section or the sine tone.
 
+Video demonstration of This application: 
+
 # 3. Using Spatial Sound with Individual Position Data.
 
 The third approach of the sonification is to apply spatialization for the position data. The position values of x, y, z Axes represent a location in the three-dimensional space and these values are used to “sonify” the motion using spatial attributes of a sound. The spatialization approach is developed by using the ICTS10 ambisonics module for Max/MSP. It allows to simply input cartesian coordinates (X, Y, Z) or spherical coordinates (Azimuth, Elevation, and Distance) and render the sound output for a speaker system or headphones. In this patch, the position data is only controlling spatial parameters of a sine tone.
+
+Video demonstration of This application: 
 
 # Results
 
