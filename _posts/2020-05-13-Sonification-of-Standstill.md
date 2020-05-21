@@ -82,7 +82,11 @@ Figure 3.4 is an extract from the max patch that calculates average displacement
 
 The third approach of the sonification is to apply spatialization for the position data. The position values of x, y, z Axes represent a location in the three-dimensional space and these values are used to “sonify” the motion using spatial attributes of a sound. The spatialization approach is developed by using the ICTS10 ambisonics module for Max/MSP. It allows to simply input cartesian coordinates (X, Y, Z) or spherical coordinates (Azimuth, Elevation, and Distance) and render the sound output for a speaker system or headphones. In this patch, the position data is only controlling spatial parameters of a sine tone.
 
-Video demonstration of This application: 
+<figure>
+    <iframe src="https://drive.google.com/file/d/1hQTCJw3Yapqzc2M3OA-5LzpASSQsmchS/preview" width="640" height="480">
+    </iframe>
+   <figcaption>Video demo:Using Spatial Sound with Individual Position Data</figcaption>
+</figure>
 
 # Results
 
