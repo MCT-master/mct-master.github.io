@@ -89,9 +89,9 @@ The third approach of the sonification is to apply spatialization for the positi
    <figcaption>Video demo:Using Spatial Sound with Individual Position Data</figcaption>
 </figure>
 
-# Results
+## Results
 
-## Mapping a white noise with data variables.
+# Mapping a white noise with data variables.
 
 First, I would mention the results for the mapping of white noise with data variables. The mapping of white noise to displacement position variable with a 100 Hz sample rate of data playback, produced a sound of rising and falling of the frequency filtering and the amplitude. These fluctuations were present for all three participants. These up and down movements of the sound can be distinguishable in three levels. First, a darker sound can be noticed with less volume which stays much stable with fewer fluctuations. These low fluctuations of the noise can probably explain by the stability of the standing still. Secondly, a much sharper rising and falling of the noise is noticeable for 5-15 seconds periods of time. The periodicity of these sounds is not sharply consistent. These sounds are shorter rises that last for about 2 seconds but clearly stands out from the much stable darker noise. These rising and falling of the noise can be related to the breathing patterns of the participants. Statistical evidence was found in previous standstill studies regarding similar periodic movements (Jensenius & Bjerkestrand, 2011). Thirdly, sudden quick bursts of the noise can be noticed, and they occur less frequently and not in any noticeable cycle. This type of sound may be occurring due to postural adjustments of the participants. As described in a study by Jensenius and Bjerkestrand (2011), some “spikes” that appear every 2-3 minutes were noticed in the analysis and these were assumed as postural re-adjustments.
 
@@ -100,7 +100,7 @@ First, I would mention the results for the mapping of white noise with data vari
    <figcaption>Audio: displcament of position of Participant 1 mapped to white noise in 100Hz data playback rate </figcaption>
 </figure>
 
-## Mapping Z- Axis values
+# Mapping Z- Axis values
 
 Moreover, an interesting phenomenon was noticed in the mapping of Z-Axis values. By listening to the mapping of Z-axis values with the sine tone, a gradual dropping of the sine tone frequency was noticed for all three participants. It can be noticed that the sudden fluctuations of the sound are very low compared to the fluctuations noticed in the mapping of displacement position values. Which could potentially result because of the less up and down movements of the head when standing still (Jensenius, 2017). The gradual drop of the sine frequency may probably be indicating a gradual fall of the position for standing over a longer period. As mentioned in a previous study of a standstill experiment, “This could be an indication that we ‘sink’ a little when standing still over time, but the numbers are too small to point to a strong conclusion” (Jensenius et al., 2014). And a sudden rise of the frequency can be noticed after certain frequency drops. This can be possibly due to the reason of participants re-adjust their postures by trying to straighten their back (Jensenius, 2017). Also, this falling of the sine frequency is strongly noticeable towards the very end of the session, and this might be indicating a falling of the posture due to fatigue for standing for a longer period. Moreover, two of the three participants (participant 1 and participant 10) indicate a dropping in the frequency of the sine tone after halfway through the session and keep a lower frequency until the end of the session. This might be indicating that the participants tried to relax the body to maintain the stillness when the music starts and resulted in a sudden falling of the height. However, this must be tested with a larger number of participants before having a strong confirmation.
 
@@ -112,11 +112,11 @@ Moreover, an interesting phenomenon was noticed in the mapping of Z-Axis values.
 
 Let's listen to a the audio sample. 
 
-## Applying spatial audio
+# Applying spatial audio
 
 Finally, mapping the position values for spatialization produced an interesting moving pattern in the ambisonic sound field. But any regularity or periodicity of the patterns was not noticed. However, details on the elevation of the sound are not accurately perceived from the headphones due to the lack of a binaural rendering option in the ICTS module.
 
-# Conclusions
+## Conclusions
 
 Now I would like to address my main research question and the sub-questions, based on the development and the results of the sonification process. First, I would like to consider the two sub-questions.
 
@@ -136,7 +136,8 @@ According to the results of the analysis of sound samples, a conclusion can be m
 
 As final thoughts, the sonification models developed in the thesis are mostly appropriate for navigating through the standstill data set and gain a quick overview of the data patterns. To gain the full potential of the data features, more options should be developed for data management. These sonification methods can be utilized as guides along with the visualization techniques to explore the Standstill competition data. Even though the sonification can convey useful information from the data features, a successful evaluation of the sonification process heavily depends on the skill of listening. It is necessary to develop a “skill” to actively listen to the data set and identify potential information. As Hermann and Ritter (1999) emphasize, training is necessary to interpret the sonification correctly, and thus after a longer period of training it is possible to develop expertise on identifying subtle changes and patterns.
 
-# References
+## References
+
 Barrett, N. (2016). Interactive spatial sonification of multidimensional data for composition and auditory display. Computer Music Journal, 40(2), 47-69.
 Brazil, E., & Fernström, M. (2011a). Auditory icons. In The sonification handbook.
 Brazil, E., & Fernström, M. (2011b). Navigation of data. In The sonification handbook.
