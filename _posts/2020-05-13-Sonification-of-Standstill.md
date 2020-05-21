@@ -52,4 +52,27 @@ In each option, the first half of the data (3 min) represents the participants s
 
 ### Displacement of Position
 
+Instead of directly mapping the x, y, position data, a new variable is defined which is the displacement of the position. However, I’m not dividing the displacement of the position by the time factor to calculate the rate of change of the QoM since the rate of the displacement also depends on the chosen sample rate in the patch.
+
+Figure 3.3 shows a part of the patch which calculates the change of the position (displacement). First, the displacement of position is calculated for each axis of data. In each moment, the previous position value is subtracted from the current position value and the absolute value is calculated. By using this value, the displacement can be derived for each plane (XY, YZ, XZ) by pairing the sums of individual position displacements for each x, y and z Axes. According to the results of the study by Jensenius et al. (2017), most motion is happening in the XY plane, and in the sonification, primarily the displacement of the XY plane is considered.
+
+Figure 3.3
+
+
+# 1 . Sonification of Individual Participant Data
+
+As presented in Figure 3.4, displacement position values in the XY plane or position values of the Z-Axis can be selected for the sonification. For mapping in the noise section, the total displacement of position in the XY plane or the position values from the Z-Axis can be mapped to the amplitude of the noise and to the cut-off frequency.
+
+# 2. Sonification of Group Average Position Data
+
+Figure 3.4 is an extract from the max patch that calculates average displacement values for each x, y, z Axes for two participant groups. However, this patch is only compatible with the 2012 standstill data and since the average values depend on the number of participants in the group, further customizations are necessary to use it with other standstill competition data sets. In the mapping, a similar approach to the individual participant mapping has being followed. The average position values are used to calculate the average displacement position values in the XY plane and mapped to control the noise amplitude and cut-off frequency or the Sine tone frequency and amplitude. Also, the average Z-axis values can be used to control the parameters of the noise section or the sine tone.
+
+# 3. Using Spatial Sound with Individual Position Data.
+
+The third approach of the sonification is to apply spatialization for the position data. The position values of x, y, z Axes represent a location in the three-dimensional space and these values are used to “sonify” the motion using spatial attributes of a sound. The spatialization approach is developed by using the ICTS10 ambisonics module for Max/MSP. It allows to simply input cartesian coordinates (X, Y, Z) or spherical coordinates (Azimuth, Elevation, and Distance) and render the sound output for a speaker system or headphones. In this patch, the position data is only controlling spatial parameters of a sine tone.
+
+# Results
+
+
+
 
