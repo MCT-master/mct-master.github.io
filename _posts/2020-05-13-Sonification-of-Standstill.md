@@ -139,43 +139,82 @@ As final thoughts, the sonification models developed in the thesis are mostly ap
 ## References
 
 Barrett, N. (2016). Interactive spatial sonification of multidimensional data for composition and auditory display. Computer Music Journal, 40(2), 47-69.
+
 Brazil, E., & Fernström, M. (2011a). Auditory icons. In The sonification handbook.
+
 Brazil, E., & Fernström, M. (2011b). Navigation of data. In The sonification handbook.
+
 Brewster, S., & Murray, R. (2000). Presenting dynamic information on mobile computers. Personal Technologies, 4(4), 209-212.
+
 Burger, B., Thompson, M., Luck, G., Saarikallio, S., & Toiviainen, P. (2013). Influences of Rhythm- and Timbre-Related Musical Features on Characteristics of Music-Induced Movement. Frontiers in Psychology, 4(183). doi:10.3389/fpsyg.2013.00183
+
 Candey, R. M., Schertenleib, A. M., & Diaz Merced, W. (2006). Xsonify sonification tool for space physics.
+
 de Campo, A., Frauenberger, C., & Höldrich, R. (2004). Designing a generalized sonification environment.
+
 Dombois, F., & Eckel, G. (2011). Audification. In The sonification handbook.
+
 Franklin, K. M., & Roberts, J. C. (2003). Pie chart sonification. Paper presented at the Proceedings on Seventh International Conference on Information Visualization, 2003. IV 2003.
+
 Gonzalez-Sanchez, V. E., Zelechowska, A., & Jensenius, A. R. (2018). Correspondences between music and involuntary human micromotion during standstill. Frontiers in Psychology, 9, 1382.
+
 Grond, F., & Berger, J. (2011). Parameter mapping sonification. In The sonification handbook.
+
 Grond, F., Bovermann, T., & Hermann, T. (2011). A supercollider class for vowel synthesis and its use for sonification.
+
 Hermann, T. (2008). Taxonomy and definitions for sonification and auditory display.
+
 Hermann, T., Hunt, A., & Neuhoff, J. G. (2011). The sonification handbook. Berlin: Logos Verlag.
+
 Hermann, T., & Ritter, H. (1999). Listen to your data: Model-based sonification for data analysis. Advances in intelligent computing and multimedia systems.
+
 Hermann, T., & Ritter, H. (2005). Model-based sonification revisited---authors' comments on Hermann and Ritter, ICAD 2002. ACM Transactions on Applied Perception (TAP), 2(4), 559-563.
+
 Hunt, A., & Pauletto, S. (2006). The sonification of emg data. Paper presented at the International Conference on Auditory Display (ICAD).
+
 Janata, P., & Childs, E. (2004). Marketbuzz: Sonification of real-time financial dataa.
+
 Janata, P., Tomic, S. T., & Haberman, J. M. (2012). Sensorimotor Coupling in Music and the Psychology of the Groove. Journal of Experimental Psychology: General, 141(1), 54-75. doi:10.1037/a0024208
+
 Jensenius, A. R. (2015). Microinteraction in music/dance performance.
+
 Jensenius, A. R. (2017). Exploring music-related micromotion. In Body, Sound and Space in Music and Beyond: Multimodal Explorations (pp. 29-48): Routledge.
+
 Jensenius, A. R., & Bjerkestrand, K. A. V. (2011). Exploring micromovements with motion capture and sonification. Paper presented at the International Conference on Arts and Technology.
+
 Jensenius, A. R., Bjerkestrand, K. A. V., & Johnson, V. (2014). How still is still? exploring human standstill for artistic applications. International Journal of Arts and Technology 2, 7(2-3), 207-222.
+
 Jensenius, A. R., Zelechowska, A., & Gonzalez Sanchez, V. E. (2017). The musical influence on people's micromotion when standing still in groups. Paper presented at the Proceedings of the SMC Conferences.
+
 Kaper, H. G., Wiebel, E., & Tipei, S. (1999). Data sonification and sound visualization. Computing in science & engineering, 1(4), 48-58.
+
 Kramer, G. (1991). Audification-The Use of Sound to Display Multivariate Data. Proceedings of ICMC1991, 214-221.
+
 Kramer, G., Walker, B., Bonebright, T., Cook, P., Flowers, J. H., Miner, N., & Neuhoff, J. (2010). Sonification report: Status of the field and research agenda.
+
 McGookin, D., & Brewster, S. (2011). Earcons. In The sonification handbook.
+
 Mynatt, E. D. (1994). Designing with auditory icons: how well do we identify auditory cues? Paper presented at the Conference companion on Human factors in computing systems.
+
 Nasir, T., & Roberts, J. C. (2007). Sonification of spatial data.
+
 Polli, A. (2004). Atmospherics/weather works: A multi-channel storm sonification project.
+
 Ross, J. M., Warlaumont, A. S., Abney, D. H., Rigoli, L. M., & Balasubramaniam, R. (2016). Influence of musical groove on postural sway. Journal of Experimental Psychology: Human Perception and Performance, 42(3), 308.
+
 Susini, P., Misdariis, N., Lemaitre, G., & Houix, O. (2012). Naturalness influences the perceived usability and pleasantness of an interface’s sonic feedback. Journal on Multimodal User Interfaces, 5(3-4), 175-186.
+
 Vickers, P., & Hogg, B. (2013). Sonification Abstraite/Sonification Concr\ete: An'Aesthetic Perspective Space'for Classifying Auditory Displays in the Ars Musica Domain. arXiv preprint arXiv:1311.5426.
+
 Walker, B. N., & Cothran, J. T. (2003). Sonification Sandbox: A graphical toolkit for auditory graphs.
+
 Walker, B. N., & Nees, M. A. (2011). Theory of sonification. The sonification handbook, 9-39.
+
 Worrall, D. (2011). An Introduction to Data Sonification. In: Oxford University Press.
+
 Worrall, D., Bylstra, M., Barrass, S., & Dean, R. (2007). SoniPy: The design of an extendable software framework for sonification research and auditory display. Paper presented at the Proc. ICAD.
+
 Worrall, D., Tan, D., & Vanderdonckt, J. (2019). Sonification Design: From Data to Intelligible Soundfields. Cham: Cham: Springer International Publishing.
+
 Zhao, H., Plaisant, C., Shneiderman, B., & Duraiswami, R. (2004). Sonification of Geo-Referenced Data for Auditory Information Seeking: Design Principle and Pilot Study. Paper presented at the ICAD.
 
