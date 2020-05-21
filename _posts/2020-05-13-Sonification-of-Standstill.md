@@ -22,7 +22,7 @@ The thesis is based on One main research question and two other sub-questions. F
 
 During the Norwegian Championship of Standstill competition, the participants are in a forced condition to not move. And based on past studies, there is statistical evidence that music stimuli have an impact on standing still. Apart from using a visualization method to analyze the micromotion, sonification can be used to listen to the data and find out any audible patterns. The main objective of this question is to find out what kind of difference can be noticed in the motion during the music stimuli is played and whether the sonification can reveal any information that was not visible in statistical studies. 
 
-1. What kind of motion patterns are audible from the standstill competition data?
+1. What kind of motion patterns are audible from the standstill competition data?  
 2.How can spatial audio be used in the sonification of human standstill?
 
 
