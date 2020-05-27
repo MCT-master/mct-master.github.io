@@ -65,7 +65,8 @@ $on-laptop:        800px;
 .wrapper img, .wrapper video, .wrapper iframe {
   border-radius: 8px;
   max-width: 100%;
-  box-shadow: 1px 1px 10px #cccccc;
+  box-shadow: 1px 3px 10px #888888;
+  margin: 1em;
 }
 
 .wrapper figure, .wrapper img, .wrapper video {
@@ -87,6 +88,10 @@ $on-laptop:        800px;
   caption-side: bottom;
 }
 
+iframe {
+  border: 0;
+}
+
 .wrapper caption {
   display: table-caption;
   text-align: center;
@@ -99,7 +104,7 @@ $on-laptop:        800px;
   display: absolute;
   //padding: 0 3% 1% 0;
   margin: 0 0 1em 1em;
-  box-shadow: 1px 1px 10px #cccccc;
+  box-shadow: 1px 3px 10px #888888;
 }
 
 .post-list li {
