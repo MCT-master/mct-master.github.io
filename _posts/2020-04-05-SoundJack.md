@@ -15,7 +15,7 @@ Keywords: MCT, Portal, SoundJack, Corona
 ![browser UI](/assets/img/Tidemann/soundjack_main.jpg)
 
 
-- Compatibility: OSX, Win
+- Compatibility: macOS, Win
 
 
 ## How to Use

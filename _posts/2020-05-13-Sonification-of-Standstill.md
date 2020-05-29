@@ -18,12 +18,12 @@ Music and body motion are strongly interconnected.As a drummer, I always feel st
 
 The thesis is based on One main research question and two other sub-questions. From the main research question I wanted to broadly addresses on exploring the connection between the music and involuntary motions of the body.
 
-• How can sonification be used as a method to explore music-related micro-motion?
+#### How can sonification be used as a method to explore music-related micro-motion?
 
 During the Norwegian Championship of Standstill competition, the participants are in a forced condition to not move. And based on past studies, there is statistical evidence that music stimuli have an impact on standing still. Apart from using a visualization method to analyze the micromotion, sonification can be used to listen to the data and find out any audible patterns. The main objective of this question is to find out what kind of difference can be noticed in the motion during the music stimuli is played and whether the sonification can reveal any information that was not visible in statistical studies. 
 
 1. What kind of motion patterns are audible from the standstill competition data?  
-2.How can spatial audio be used in the sonification of human standstill?
+2. How can spatial audio be used in the sonification of human standstill?
 
 
 ## Building the application for sonification
@@ -41,7 +41,7 @@ The second data set is based on the demographic data of each participant and con
 
 ### Sonification Strategies
 
-I used parameter mapping sonification with three different approches. which are, 
+I used parameter mapping sonification with three different approaches which are, 
 
 1. Sonification of individual participant data.
 2. Sonification of group average position data.
@@ -97,20 +97,19 @@ First, I would mention the results for the mapping of white noise with data vari
 
 <figure>
    <iframe src="https://drive.google.com/file/d/1wwF6w1uiyAbl1GEEH65wRipRvgTWbw1G/preview" width="640" height="80"></iframe>
-   <figcaption>Audio: displcament of position of Participant 1 mapped to white noise in 100Hz data playback rate </figcaption>
+   <figcaption>Audio: displacement of position of Participant 1 mapped to white noise in 100Hz data playback rate </figcaption>
 </figure>
 
 # Mapping Z- Axis values
 
 Moreover, an interesting phenomenon was noticed in the mapping of Z-Axis values. By listening to the mapping of Z-axis values with the sine tone, a gradual dropping of the sine tone frequency was noticed for all three participants. It can be noticed that the sudden fluctuations of the sound are very low compared to the fluctuations noticed in the mapping of displacement position values. Which could potentially result because of the less up and down movements of the head when standing still (Jensenius, 2017). The gradual drop of the sine frequency may probably be indicating a gradual fall of the position for standing over a longer period. As mentioned in a previous study of a standstill experiment, “This could be an indication that we ‘sink’ a little when standing still over time, but the numbers are too small to point to a strong conclusion” (Jensenius et al., 2014). And a sudden rise of the frequency can be noticed after certain frequency drops. This can be possibly due to the reason of participants re-adjust their postures by trying to straighten their back (Jensenius, 2017). Also, this falling of the sine frequency is strongly noticeable towards the very end of the session, and this might be indicating a falling of the posture due to fatigue for standing for a longer period. Moreover, two of the three participants (participant 1 and participant 10) indicate a dropping in the frequency of the sine tone after halfway through the session and keep a lower frequency until the end of the session. This might be indicating that the participants tried to relax the body to maintain the stillness when the music starts and resulted in a sudden falling of the height. However, this must be tested with a larger number of participants before having a strong confirmation.
 
+Let's listen to an audio sample.
+
 <figure>
    <iframe src="https://drive.google.com/file/d/1jgHQxJ5A3S7nSafv_jrYbp6kvkKlNgX3/preview" width="640" height="80"></iframe>
    <figcaption>Audio: Z-Axis values of Participant 1 mapped to Sine tone in 800Hz data playback rate </figcaption>
 </figure>
-
-
-Let's listen to a the audio sample. 
 
 # Applying spatial audio
 
@@ -123,14 +122,16 @@ Now I would like to address my main research question and the sub-questions, bas
 1. What kind of motion patterns are audible in standstill competition data?
 
 By considering the results of the individual participant data sonification, the most noticeable finding is to be able to listen to the falling and re-adjustments of the posture of participants. As a previous study of standstill mentions, more strong evidence was needed to conclude the downward movement in the Z-Axis data (Jensenius et al., 2014). However, by listening to the sonification, this effect of falling of the posture is clearly audible and provides strong evidence that there is a noticeable gradual downward movement and sudden rises of the position marker along the Z-axis. Furthermore, the mapping of the noise with the position displacement variable provides supportive evidence that the breathing patterns and postural adjustments are audible from the sonification. However, a stronger investigation is needed to confirm the periodicity of such events at “Meso” and “Macro” temporal levels. But the sonification indicates that the micro-motions are in a reasonably stable state and have consistent motion.
+
 However, by listening to the sonification for the sections with music and without music, it is difficult to notice any comparable differences between the movement patterns. By listening to the sonification, it is difficult to notice if the participants’ motion shows any synchronization to the music stimuli or not. But it was possible to notice a falling of the height (falling of the posture) when the music stimuli start, and towards the very end of the session. Moreover, by listening to the sonification, any recognizable effects on the micro-motion according to different postural choices such as keeping eyes open/close or keeping the knees locked/not locked was not noticeable.
 
 2. How can spatial audio be used in sonification of standstill?
 
 The possibilities of using spatial audio with the sonification of standstill are not fully examined in this thesis. By maintaining proportionality between the x, y, z position values in the spatial mapping, tends to produce a less noticed spatial movement of the sound due to the very small range of motion (micro-motion). However, another approach would be to expand the micro-motion by mapping the range of each x, y, z axes values into a larger range. But the patterns that audible in the ambisonics sound stream are not explainable with strong evidence and doesn’t explain how these motions of the sound can be related to the micro-motion. Further, the development of the model is necessary to effectively draw any strong conclusions of the spatialization of the sonification.
+
 Finally, I would like to reflect upon the main question of the thesis:
 
-• How can sonification be used as a method to explore music-related micro-motion?
+#### How can sonification be used as a method to explore music-related micro-motion?
 
 According to the results of the analysis of sound samples, a conclusion can be made that through sonification it is possible to identify patterns and events to a certain extent, which were not clearly visible in the visualizations of the standstill data. The introduced sonification modules, however, provides less opportunity to actively compare between sections. As an example, comparing a data section with music stimuli and without music stimuli was a difficult task since due to the high irregularity of the sound patterns. This kind of audio comparison demands a high skill of actively memorizing and comparing a certain characteristic of the patterns. One way to avoid this kind of complexity is to play different data streams simultaneously with each stream assigned with a unique distinguishable sound. As an example, mapping the position data of two participants into two frequency ranges of a sine tone and listening to both audio streams simultaneously. However, when developing such a sonification model, the psychoacoustic phenomena of “masking” should be potentially considered. The mapping of the position displacement values with the noise seems to produce a more effective and pleasing sound compared to the sine tone. A fluctuation of the filtered noise was mostly sounding closely related to the sound of breathing and felt more natural. And the sine tone seems to be an appropriate mapping for the values of the Z-axis since the gradual dropping of the frequency was more appealing to represent a downward movement of the position. The use of white noise seems to be aesthetically appealing. Using pleasant and natural sounds tend to improve the efficiency of a sonification model(Susini et al., 2012) However, these aesthetically pleasant sounds can also have the potential of distracting the listener and hide the important information from the sonification (Vickers & Hogg, 2013). Having a perfect balance between these factors is a challenge when designing a parameter mapping sonification for data exploration. Another aspect to consider in the mapping is the perceptual correlation between sound parameters. As an example, frequency and gain both contribute to the loudness parameter where higher frequencies tend to be perceived as loud or bright. As Grond and Berger (2011) point out, an efficient mapping for loudness can be achieved by applying a proper frequency- dependent amplitude compensation technique .
 

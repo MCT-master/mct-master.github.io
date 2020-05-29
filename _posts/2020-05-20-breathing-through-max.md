@@ -5,8 +5,8 @@ date: 2020-05-18 22:00:00 +0100
 categories: Motion-Tracking
 author: Jackson Goode
 image: /assets/img/jacksong/distance.png
-excerpt: "A system to track your rate of breath and sonify it through Max"
-Keywords: Max, sonification, breathing, hci
+excerpt: "For the COVID-19 version of motion-tracking, I developed a system to track your rate of breath and sonify it through Max. It emphasized the tenants of biofeedback and hopes to serve as a responsive system for stress relief."
+Keywords: Max, sonification, breathing, hci, meditation, stress-relief
 --- 
 
 ## Rationale
