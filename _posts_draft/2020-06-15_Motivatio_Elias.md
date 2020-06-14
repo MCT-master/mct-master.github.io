@@ -21,5 +21,5 @@ Consequently, a seamless interface for interaction has been implemented in Motiv
 
 
 <figure>
-<img src="/assets/img/Elias/Diagram_Motivatio.jpg" width = "50%" align="center" />
+<img src="/assets/img/Elias/Diagram_Motivatio.jpg" width = "100%" align="center" />
 </figure>
