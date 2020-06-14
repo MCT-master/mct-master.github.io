@@ -18,3 +18,8 @@ Design issues found are further used as guidelines in the design decisions of Mo
 For instance, previous works find that spectators do not tend to use objects during concerts, and therefore states that we need to consider the role of tangible interfaces in the interaction design for technology-mediated audience participation. 
 Furthermore, previous works also indicate that participants prefer seamless interaction to tangible interaction in technology-mediated audience participation. 
 Consequently, a seamless interface for interaction has been implemented in Motivatio. Results demonstrate several design issues emerging from the use of technology-mediated audience participation, emphasizing two key issues: clear feedback and the number of users.
+
+
+<figure>
+<img src="/assets/img/eliassan/Trees as speakers/figure2.jpg" width = "50%" align="center" />
+</figure>
