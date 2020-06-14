@@ -4,7 +4,7 @@ title: 'Motivatio'
 date: 2020-06-15 13:00:00 +0200
 categories: Masters
 author: Elias Sukken Andersen
-image: /assets/img/eliassan/
+image: /assets/img/Elias/Diagram_Motivatio.jpg
 excerpt: "Motivatio: A standalone music selection system for seamless technology-mediated audience participation."
 Keywords: TMAP, interaction design, music, technology
 ---
@@ -21,5 +21,5 @@ Consequently, a seamless interface for interaction has been implemented in Motiv
 
 
 <figure>
-<img src="/assets/img/eliassan/Trees as speakers/figure2.jpg" width = "50%" align="center" />
+<img src="/assets/img/Elias/Diagram_Motivatio.jpg" width = "50%" align="center" />
 </figure>
