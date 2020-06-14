@@ -9,7 +9,7 @@ excerpt: "Motivatio: A standalone music selection system for seamless technology
 Keywords: TMAP, interaction design, music, technology
 ---
 
-##Abstract
+## Abstract
 
 This thesis describes the design and implementation of a standalone music selection system designed for technology-mediated audience participation: Motivato. 
 The creation of Motivato is part of a case study to address design issues emerging with the use of technology-mediated audience participation. 
