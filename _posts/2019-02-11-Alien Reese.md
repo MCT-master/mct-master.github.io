@@ -10,33 +10,31 @@ excerpt: The project I have developed on over the first week of web audio based 
 
 ---
 <figure align="middle">
-        <video height="100%" width="100%" controls>
-        <source src="/assets/video/Alien Reese.webm" type="video/webm">
-        Your browser does not support the video tag.
+<video height="100%" width="100%" controls>
+    <source src="https://docs.google.com/uc?export=download&id=1Lo5qrpjHcKJDVOmNJdbKLzbYhkX3WGSi">
 </video>
 </figure>
-<br>
 
-### Technologies Used 
+### Technologies Used
 
 
-* _Visual Studio Code_ 
+* _Visual Studio Code_
 
 Code editor used to write and compile code. Seems to be ideal for the job, but relatively new. Opinion from from some experienced coders “I use …… - but you shouldn’t, if I started again I would use visual studio code”. It also has a live share function that may prove useful later when collaborating.
 
 * _HTML_  
 
-for the basic user interface (UI), including the buttons, the main picture and the placement of all the UI elements. 
+for the basic user interface (UI), including the buttons, the main picture and the placement of all the UI elements.
 
-* _JavaScript (JS)_ 
+* _JavaScript (JS)_
 
-The bulk of the code and all action and sound based commands are run through JavaScript. This includes the creation of oscillators, and routing the audio signal (which is how the delay functionality is created). Also mapping of all controls – buttons, mouse and keyboard. 
+The bulk of the code and all action and sound based commands are run through JavaScript. This includes the creation of oscillators, and routing the audio signal (which is how the delay functionality is created). Also mapping of all controls – buttons, mouse and keyboard.
 
-* _CSS_ 
+* _CSS_
 
 Used on the last day to add some beatification to the basic HTML. Was used for the “Reese da Alien” title and main background colour. A slider from the nexus library was also added.
 
-* _Github_ 
+* _Github_
 
 Used for sharing code, and where the repositories of this blog and the code will be stored and shared.
 
@@ -52,11 +50,11 @@ Added functionality to the mouse movement, and set it up to affect one oscillato
 
 * _Day 3_  
 
-After slow progress during the day, managed to organise the variables and routing on the code. Through routing added a delay effect to the oscillator mix (OSCMix).  Created a player looping an audio sample – routed to the output running parallel to the MainMix. Added a third oscillator as FM. Mapped the keyboard with hotkeys.js 
+After slow progress during the day, managed to organise the variables and routing on the code. Through routing added a delay effect to the oscillator mix (OSCMix).  Created a player looping an audio sample – routed to the output running parallel to the MainMix. Added a third oscillator as FM. Mapped the keyboard with hotkeys.js
 
 * _Day 4_  
 
-Added mouse functionality to the FM oscillator, and remapped the keyboard to use all of the lettered keys. Used CSS to improve visuals, and tweaked audio mapping variables and UI elements to get ready for the final presentation. 
+Added mouse functionality to the FM oscillator, and remapped the keyboard to use all of the lettered keys. Used CSS to improve visuals, and tweaked audio mapping variables and UI elements to get ready for the final presentation.
 
 ### The Project & Code
 
@@ -81,7 +79,7 @@ The aspect that I was confused about was the volume node. With experience in usi
 
 Most of the functionality of this project is located in this event – as can be seen from the flow diagram it includes the first two oscillators, the delay and most of the routing.
 
-The first action I took was to split the routing of the oscillators to various volume nodes (volume, volume 2, volume 3 and volume FM) so they are distinguishable from each other, and can be routed and affected differently if need be. I then combined the oscillator 1 & 2 volume nodes into OSCMix, which was then routed to MainMix into the context.destination  or output. Although there is little reason to do this amount of volume nodes for the project in its current state, I wanted to have options for routing if needed – and it helped me visualise the signal flow. 
+The first action I took was to split the routing of the oscillators to various volume nodes (volume, volume 2, volume 3 and volume FM) so they are distinguishable from each other, and can be routed and affected differently if need be. I then combined the oscillator 1 & 2 volume nodes into OSCMix, which was then routed to MainMix into the context.destination  or output. Although there is little reason to do this amount of volume nodes for the project in its current state, I wanted to have options for routing if needed – and it helped me visualise the signal flow.
 
     //oscillator.connect(volume);
         oscillator2.connect(volume2);
@@ -105,7 +103,7 @@ The delay was used as an example in class, and I have lifted most of the code fr
         delayAmount = context.createGain();
         delayAmount.gain.value = 0.5; // amount of the effect
 
-        
+
      // connect the different nodes
         oscillator.connect(delay);
         oscillator2.connect(delay);    
@@ -136,8 +134,8 @@ This shows the three mappings to the mouse. Osc1 pitch is affected by the x – 
 This is an audio player that runs alongside the main patch, routed through volume 3 to the output. Although one of the undeveloped parts of the code, it allowed some creativity in adding recorded sound, and can be experimented further at a later date (a beat possibly?) It was adapted from the code given in MCT repository.
 
 
-        
-        
+
+
         player = context.createBufferSource();
         player.loop = true;
 
@@ -160,26 +158,26 @@ I found an online library called hotkeys.js that allowed me to map my keyboard. 
 I wanted one centred, background image. I found this code online to centre the image using HTML, and found the alien picture I wanted and applied it in code, and the jpg same folder:
 
 
-      
+
         body, html {
           height: 100%;
           margin: 0;
         }
-        
+
         .bg {
           /* The image used */
           background-image: url("alienwareplus.jpg");
-        
+
           /* Full height */
-          height: 100%; 
-        
+          height: 100%;
+
           /* Center and scale the image nicely */
           background-position: center;
           background-repeat: no-repeat;
           background-size: cover;
-        
 
-### CSS & Beautification 
+
+### CSS & Beautification
 
 CSS was used for the title in the bottom right corner, separated in a CSS file. This code defined the font, border and colour, as well as the positioning permanently in the bottom right.
 
@@ -198,9 +196,9 @@ Other tips I have learned throughout the workshop – organisation is key. Havin
 
 There are many ideas and avenues I feel this project could go down. I would like some more feedback on the project, but for now I have some thoughts on the directions it could go.
 
-One of the issues of the patch is that not all areas of the screen sound “good”. This was alleviated by the inclusion of a delay – but I believe more FX could be added to sweeten the corners especially. These FX ideally would be sensitive to mouse placement, and programed in a way so that they would be applied only with the mouse on a certain part of the page. I installed Tuna.js for more FX, but did not manage to get it implemented in the code and ran out of time to troubleshoot. 
+One of the issues of the patch is that not all areas of the screen sound “good”. This was alleviated by the inclusion of a delay – but I believe more FX could be added to sweeten the corners especially. These FX ideally would be sensitive to mouse placement, and programed in a way so that they would be applied only with the mouse on a certain part of the page. I installed Tuna.js for more FX, but did not manage to get it implemented in the code and ran out of time to troubleshoot.
 
-During day 3 I spent some time trying to implement canvas.js, after being inspired by another project. I managed to create a box, but quickly realised if I wanted the sound to be the focus it was a little out of my depth or timescale for the project. The idea was to create more interactivity in regards to the synth, more of a hybrid from the X/Y axis that the mouse mapping produced. Although I didn’t manage any meaningful results, I would like to explore this further. I would like the page to work well in a smart phone environment, and a canvas feature would aid in this I feel. 
+During day 3 I spent some time trying to implement canvas.js, after being inspired by another project. I managed to create a box, but quickly realised if I wanted the sound to be the focus it was a little out of my depth or timescale for the project. The idea was to create more interactivity in regards to the synth, more of a hybrid from the X/Y axis that the mouse mapping produced. Although I didn’t manage any meaningful results, I would like to explore this further. I would like the page to work well in a smart phone environment, and a canvas feature would aid in this I feel.
 
 Talking of visual components, having the alien pull various facial expressions during certain moments would be a nice touch, giving more character to the potential app. As I mentioned I would like the program to be smart phone friendly (have no experience in how that is implemented, but the concept) – using a finger rather than a mouse may be preferable for the final product.
 
@@ -209,13 +207,13 @@ If anyone would like to use or view the projects code it will be located at this
 <https://github.com/cheeserage/ReeseAlien/tree/master/ReeseAlien>
 
 
-Sources used below - 
+Sources used below -
 
 Note Frequencies
 
 <http://pages.mtu.edu/~suits/notefreqs.html>
 
-MCT Github 
+MCT Github
 
 <https://github.com/axambo/audio-programming-workshop/>
 
@@ -230,4 +228,3 @@ Nexus.js
 Hotkeys.js
 
 <https://github.com/jaywcjlove/hotkeys>
-

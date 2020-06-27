@@ -23,7 +23,7 @@ Development team, why are we doing this:
 ## Technologies used
 **Working tools**
 * Visual studio code
-* [p5.js](https://p5js.org/) 
+* [p5.js](https://p5js.org/)
 * [Zoom](https://zoom.us/)
 * [Discord](https://discordapp.com/)
 
@@ -85,7 +85,7 @@ However, we missed the opportunity to make our performance (including positionin
 <br>
 
 ## Working Style
-Research, design and programming were carried out in collaboration so that the prototype developed in a constant discussion and joint evaluation of the application. We established a main hub in one of the group rooms and put the code from [Visual Studio Code](https://code.visualstudio.com/) on the screen. From there, we brainstormed and prototyped together. 
+Research, design and programming were carried out in collaboration so that the prototype developed in a constant discussion and joint evaluation of the application. We established a main hub in one of the group rooms and put the code from [Visual Studio Code](https://code.visualstudio.com/) on the screen. From there, we brainstormed and prototyped together.
 The strategy we used has the advantage of being a very open and collaborative working style. With our group dynamics in terms of previous knowledge, we could risk that one person did most of the work and the others did less. With a shared screen and open dialogue, we prevented that.
 
 <figure align="middle">
@@ -103,11 +103,11 @@ The code of Convolverizer has mainly two parts. First, the toggle button operati
       if (playing == 0) {
         // start getting live audio input
         mic = new p5.AudioIn(); // this function is setting mic as mic input
-        mic.start(); // mic input can now play sounds 
+        mic.start(); // mic input can now play sounds
         cVerb = createConvolver("recorded/drumsolo.mp3"); // This function takes the Impulse Response
         // from the soundfile and uses it to recreate sound of that space. The sound is convolved
         // with different impulse response every time the start/stop button is pressed.
-        
+
         mic.connect(cVerb);
         mic.disconnect();
         cVerb.process(mic);
@@ -118,8 +118,8 @@ The code of Convolverizer has mainly two parts. First, the toggle button operati
         fft = new p5.FFT(0.9, 1024); // 0.9 refers to smoothing & 1024 refers to bin array length.
         w = width / 350; // w = width of each rectangle in the visualization
         fft.setInput(cVerb.process(mic)); // cVerb.process(mic) is being used for visualization
-        
-      } 
+
+      }
       else if (playing == 1) {
         // stop playing sounds
         mic.stop();
@@ -133,20 +133,20 @@ The code of Convolverizer has mainly two parts. First, the toggle button operati
 ```javascript
 // Part II - Drawing Canvas & Creating Visualization    
 function draw() {
-  
+
     if (playing == 0 && start == 1) {
     //show the image when stop button is pressed
     drawimage(); // it is a function defined in other part of the code which simply shows the image on canvas
-   
+
     } else if (playing == 1) {
     //stop showing the image and start the visualization
     createCanvas(1275, 350); // created fo the panasonic monitor in the group room at Trondheim campus
     background(255); // white background
-    
+
     var val = slider.value();
     valnorm = val / 100; // defining intensity of the slider
     cVerb.drywet(valnorm); // setting the slider as the drywet gain controller
-    
+
     noStroke(); // setting lines of each rectangles as normal
     var spectrum = fft.analyze(); // define spectrum as array of amplitude values across the frequency spectrum
     //console.log(spectrum.length);
@@ -207,14 +207,14 @@ Also, we would like to take this opportunity to thank [Hamed Kazemi](https://www
 
 <figure align="middle">
         <video height="100%" width="100%" controls>
-        <source src="/assets/video/ConvolverizerHamed.mp4" type="video/mp4">
-        Your browser does not support the video tag.
+        <source src="https://docs.google.com/uc?export=download&id=1BVE9rWsimhfvxb_aNzqbUBRF0JF0KYLJ" type="video/mp4">
 </video>
 </figure>
+
 <br>
- And last but not the least, a big thanks to shiffman from 
+ And last but not the least, a big thanks to shiffman from
  [The Coding Train](https://www.youtube.com/channel/UCvjgXvBlbQiydffZU7m1_aw)
-for sharing his huge collection of tutorials on YouTube. The 
+for sharing his huge collection of tutorials on YouTube. The
 [Sound Visualization tutorial](https://www.youtube.com/watch?v=2O3nm0Nvbi4) in particular,  gave us insights in creating a similar kind of visualization for this project.
 
 <br/>

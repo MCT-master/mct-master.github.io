@@ -40,10 +40,10 @@ _Or a power cable?_
 
 _All microphones are now labeled with numbers from 1-4. No more confusion!_
 
-
-<video width="640" height="480" controls align="middle">
-  <source src="/assets/video/babysharkgif.mp4" type="video/mp4">
-  Your browser does not support the video tag.
+<figure align="middle">
+<video width="640" height="480" controls>
+    <source src="https://docs.google.com/uc?export=download&id=1Y4P1D57-nYJdXj3gv5XPVnCPhk8mldQZ" type='video/mp4'>
 </video>
+</figure>
 
 _Look what we found in the storage room!_
