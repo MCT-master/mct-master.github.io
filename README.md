@@ -60,12 +60,21 @@ All files that are uploaded here must be publicly accessible through their link 
   <figcaption><strong>My Caption</strong></figcaption>
   </figure>
   ```
-  
-* To embed AUDIO with the HTML audio element: <br>```<audio controls><source src="https://docs.google.com/uc?export=download&id=G_DRIVE_FILENAME_ID" type="audio/wav"></audio>```<br>
 
-* To embed VIDEO with the HTML iframe element: <br>```<iframe src="https://drive.google.com/a/uio.no/file/d/G_DRIVE_FILENAME_ID/preview" width="640" height="480"></iframe>```<br>
+* To embed AUDIO with the HTML audio element: <br> ```<figure align="middle">
+<audio controls><source src="https://docs.google.com/uc?export=download&id=G_DRIVE_FILENAME_ID" type="audio/wav"></audio>
+<figcaption align="middle"><strong>My Video Caption</strong></figcaption>
+</figure>``` <br>
 
-* To embed VIDEO with the HTML video element (might not work if file is larger than 100mb): <br>```<video width="640" height="480" controls align="middle"><source src="https://docs.google.com/uc?export=download&id=G_DRIVE_FILENAME_ID" type="video/mp4"></video>```<br>
+* To embed VIDEO with the HTML video element (use mp4 format):
+<br>```<figure align="middle">
+<video height="100%" width="100%" controls>
+    <source src="https://docs.google.com/uc?export=download&id=G_DRIVE_FILENAME_ID" type='video/mp4'>
+</video>
+<figcaption>My Video Caption</figcaption>
+</figure>```<br>
+
+
 
 More info on embedding videos are available [here](https://support.google.com/blogger/thread/1950766?hl=en).
 

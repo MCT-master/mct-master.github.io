@@ -37,19 +37,21 @@ We started with exercise CIRC - 01 connecting an LED light, uploading the progra
 
 &nbsp;
 
-<video controls>
-  <source src="/assets/video/Arduino-Melody.mp4" type="video/mp4">
-Your browser does not support the video tag.
+<figure align="middle">
+<video height="100%" width="100%" controls>
+    <source src="https://docs.google.com/uc?export=download&id=1stcnj8rFXSn0zYx3wSaDeEoT3fHmxWCM" type='video/mp4'>
 </video>
+</figure>
 
 &nbsp;
 
 After that we jumped to exercise CIRC - 06 which was to attached the speaker and play prepared melody, we were able to look at the code and change the notes and length. Some even downloaded a prepared code of the Mario Brothers melody and upload that to the Arduino and played it.
 
-<video controls>
-  <source src="/assets/video/Mario.mp4" type="video/mp4">
-Your browser does not support the video tag.
+<figure align="middle">
+<video height="100%" width="100%" controls>
+    <source src="https://docs.google.com/uc?export=download&id=1brYpVnrOwBWAT5D3AwEuAAk0PlU6U8c4" type='video/mp4'>
 </video>
+</figure>
 
 &nbsp;
 
