@@ -61,20 +61,23 @@ All files that are uploaded here must be publicly accessible through their link 
   </figure>
   ```
 
-* To embed AUDIO with the HTML audio element: <br> ```<figure align="middle">
+* To embed AUDIO with the HTML audio element:
+```
+<figure align="middle">
 <audio controls><source src="https://docs.google.com/uc?export=download&id=G_DRIVE_FILENAME_ID" type="audio/wav"></audio>
-<figcaption align="middle"><strong>My Video Caption</strong></figcaption>
-</figure>``` <br>
+<figcaption align="middle"><strong>My Audio Caption</strong></figcaption>
+</figure>
+```
 
 * To embed VIDEO with the HTML video element (use mp4 format):
-<br>```<figure align="middle">
+```
+<figure align="middle">
 <video height="100%" width="100%" controls>
     <source src="https://docs.google.com/uc?export=download&id=G_DRIVE_FILENAME_ID" type='video/mp4'>
 </video>
 <figcaption>My Video Caption</figcaption>
-</figure>```<br>
-
-
+</figure>
+```
 
 More info on embedding videos are available [here](https://support.google.com/blogger/thread/1950766?hl=en).
 
