@@ -125,7 +125,7 @@ Please leave any comments that you have, in regards to the sonification, in the 
 **Visuals demo:**
 <figure align="left">
   <video height="100%" width="100%" controls>
-        <source src="https://docs.google.com/uc?export=download&id=1wJT98-9kODnXflrMUmqgd032dphvrA-w type="video/mp4">
+        <source src="https://docs.google.com/uc?export=download&id=1wJT98-9kODnXflrMUmqgd032dphvrA-w" type="video/mp4">
         <figcaption><strong> The unused visual elements of the project </strong></figcaption>        
         Your browser does not support the video tag.
   </video>
