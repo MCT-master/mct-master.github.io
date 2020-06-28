@@ -43,7 +43,7 @@ Get a G Suite account linked to your UiO account following these instructions. B
 
 Ensure that your account has been activated by logging in [here](https://www.uio.no/english/services/it/store-collaborate/gsuite/help/how-to-get-account.html). Then request access to the MCT shared G Drive by sending an email to stefano.fasciani@imv.uio.no from your UiO email account. Once you get access, check out the README.txt files in the respective folders for additional instructions.
 
-Files stored in the G Drive ‘MCT Blog/asset’ should be placed in the appropriate sub-folder according to their type and named YYYY_MM_DD_username_filename.extension where:
+Files stored in the 'asset' folder of the Github (images only below 300 Kb in the img folder) and in the G Drive ‘MCT Blog/asset’ should be placed in the appropriate sub-folder according to their type and named YYYY_MM_DD_username_filename.extension where:
 * YYYY: year as per associate blog post
 * MM: month as per associate blog post
 * DD: day as per associate blog post
@@ -53,31 +53,36 @@ Spaces or or special characters are not allowed in the file names.
 
 All files that are uploaded here must be publicly accessible through their link (select ‘get shareable link’, set link sharing ‘on’, set ‘allow with the link can view’ and tick ‘allow external access’).
 
-* To embed an IMAGE in your blog post follow the include the following HTML code: ```<img src="https://drive.google.com/uc?export=view&amp;id=G_DRIVE_FILENAME">``` where G_DRIVE_FILENAME is the long and random-looking alpha-numeric string you find in the G Drive shared link. This can be followed by any HTML ```<img>``` [attribute](https://www.w3schools.com/tags/tag_img.asp), such as width and/or height, and framed in the HTML ```<figure>``` [tag](https://www.w3schools.com/tags/tag_figure.asp) to include elements such as HTML ```<figcaption>``` [caption](https://www.w3schools.com/tags/tag_figcaption.asp). If you wish to use the markdown syntax to embed images, which provides less features, you can use `![alt text](https://drive.google.com/uc?export=view&amp;id=G_DRIVE_FILENAME)`. Example:
-  ```markdown
-  <<figure>
-  <img src="https://drive.google.com/uc?export=view&amp;id=G_DRIVE_FILENAME" width = "50%" align="center" />
-  <figcaption><strong>My Caption</strong></figcaption>
+* To embed an IMAGE in your blog post follow the include the following HTML code: ```<img src="https://drive.google.com/uc?export=view&amp;id=G_DRIVE_FILENAME">``` where G_DRIVE_FILENAME is the long and random-looking alpha-numeric string you find in the G Drive shared link. This can be followed by any HTML ```<img>``` [attribute](https://www.w3schools.com/tags/tag_img.asp), such as width and/or height, and framed in the HTML ```<figure>``` [tag](https://www.w3schools.com/tags/tag_figure.asp) to include elements such as HTML ```<figcaption>``` [caption](https://www.w3schools.com/tags/tag_figcaption.asp). If you wish to use the markdown syntax to embed images, which provides less features, you can use `![alternative text](https://drive.google.com/uc?export=view&amp;id=G_DRIVE_FILENAME "title text")`.
+Example:
+  ```
+  <figure align="middle">
+     <img src="https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png" alt="alternative text" title="title text" width="auto" height="auto" />
+     <figcaption align="middle">My Figure Caption</figcaption>
   </figure>
   ```
 
-* To embed AUDIO with the HTML audio element:
+* To embed a VIDEO with the HTML video element (use mp4 format):
   ```
   <figure align="middle">
-  <audio controls><source src="https://docs.google.com/uc?export=download&id=G_DRIVE_FILENAME_ID" type="audio/wav"></audio>
-  <figcaption align="middle"><strong>My Audio Caption</strong></figcaption>
-  </figure>
-  ```
-
-* To embed VIDEO with the HTML video element (use mp4 format):
-  ```
-  <figure align="middle">
-  <video height="100%" width="100%" controls>
+    <video height="100%" width="100%" controls>
       <source src="https://docs.google.com/uc?export=download&id=G_DRIVE_FILENAME_ID" type='video/mp4'>
-  </video>
-  <figcaption>My Video Caption</figcaption>
+      Your browser does not support video tag.
+    </video>
+    <figcaption>My Video Caption</figcaption>
   </figure>
   ```
+
+  * To embed AUDIO with the HTML audio element (audio/mpeg format for mp3, or audio/wav for wave):
+    ```
+    <figure align="middle">
+      <audio controls>
+        <source src="https://docs.google.com/uc?export=download&id=G_DRIVE_FILENAME_ID" type="audio/mpeg">
+        Your browser does not support audio tag.
+      </audio>
+      <figcaption align="middle">My Audio Caption</figcaption>
+    </figure>
+    ```
 
 More info on embedding videos are available [here](https://support.google.com/blogger/thread/1950766?hl=en).
 

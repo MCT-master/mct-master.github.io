@@ -19,10 +19,12 @@ We decided that we would do the sound collection part separately in Trondheim an
 
 The video below shows how we passed a battery current through a loudspeaker, which makes the cone of the speaker move in and out, creating a percussive sound. We added some small items on top of the speaker to make the sound richer and more industrial.
 
-<video width="320" height="240" controls>
-  <source src="/assets/video/physcomp_day1_group-b.mp4" type="video/mp4">
-Your browser does not support the video tag.
-</video>
+<figure align="middle">
+  <video width="320" height="240" controls>
+    <source src="https://docs.google.com/uc?export=download&id=1e8Bh-MyezMrAs49VHBkO_7yoE7xHy9eg" type='video/mp4'>
+    Your browser does not support video tag.
+  </video>
+</figure>
 
 Below are some audio clips that we used in our sampler. The end performance didn't turn out that well, due to some technical challenges with Pd. We will make a better performance tomorrow!
 

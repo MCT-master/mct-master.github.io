@@ -22,10 +22,9 @@ Keywords: wireless, bluetooth, electronic artists, dance,
 
 #### Here is a short video from the performance:
 <video controls>
-  <source src="/assets/video/stillness_under_tension_opening_ceremony.mp4" type="video/mp4">
+  <source src="https://docs.google.com/uc?export=download&id=104361mrnPhowykRhzjOG1jQFkPebtZzc" type="video/mp4">
 Your browser does not support the video tag.
 </video>
-
 <p align="center">(Video: Dmitry Vasilev)</p>
 
 ### How the system works

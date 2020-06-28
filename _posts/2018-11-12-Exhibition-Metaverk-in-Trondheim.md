@@ -22,10 +22,13 @@ The interactive sound installation is a joint work by **<a href="https://soundcl
 
 Within the framework of the open source aproach, visitors were invited to explore the composition of the exhibition. Even the code, for example, which programs the various units is visible on screens among other softwares. The hardware, consisting of several flashing monitors (more of sculputural character), microphones, cables and loudspeakers are grouped into different units. These computer entities have their own processing character and communicate only via audio. Some wait for silence, others react to a knock at the window: it is a string model that is based on a delay loop with the input from the contact microphones. Each sound event is captured and being fed into a feedback system. Even speech becomes audible with some delay, like a "distorted and faded memories". Finally, being physically present in this situation means being part of the machine and at the same time one remembers one's human vulnerability in a technological context.
 
-<video controls>
-  <source src="/assets/video/video_exhbtn_2_1.mp4" type="video/mp4" width="65%">
-Your browser does not support the video tag.
-</video>
+<figure align="middle">
+  <video width="65%" controls>
+    <source src="https://docs.google.com/uc?export=download&id=1wml5X_jUsC8xRdPJQhuy3XtFSX0rtAKb" type='video/mp4'>
+    Your browser does not support video tag.
+  </video>
+</figure>
+
 <br>
 
 ### How to...?

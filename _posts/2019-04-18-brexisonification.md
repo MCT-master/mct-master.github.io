@@ -8,7 +8,6 @@ author: Sam Roman, Sepehr Haghighi, Eirik Dahl
 image: /assets/img/sonification/brexit.jpg
 excerpt: The goal in the project is to sonify Brexit, in a way that the audience could interpret new insight from the data through audio.
 ---
-
 <figure>
   <img src="/assets/img/sonification/brexit2.jpg" alt="Brexit" width="70%" align="middle"/>
   <figcaption><strong></strong></figcaption>
@@ -51,7 +50,7 @@ Lastly, going in to the project we had a clearer idea on what parts of the data 
 
 When deciding how to approach creating the sonification system, we decided to stick to our strengths. We had previously been using Max4Live to process Motion capture data earlier in the academic year. When we came with this objective, we thought we could use a similar technique to process this type of code.  
 
-One advantage to this method is that if we use M4L for different sonifications, we become more adept to the program. Eventually we might be more adept at M4L  and advance to creating auditory displays that can be fed various data sets. 
+One advantage to this method is that if we use M4L for different sonifications, we become more adept to the program. Eventually we might be more adept at M4L  and advance to creating auditory displays that can be fed various data sets.
 Another bonus is that we have experience with ableton, that made the mapping part a lot easier after processing the data - we could then foreseeably get a prototype up in the limited time we had.
 ### The Patch
 Here is our completed audio patch! Details can be found in this [text file](/assets/code/VPatch2.txt). You are very welcome to download the patch to look in more detail or try out! Just copy the code and paste it into a new patch.
@@ -60,12 +59,12 @@ Here is our completed audio patch! Details can be found in this [text file](/ass
   <figcaption><strong>Audio Patch</strong></figcaption>
 </figure>
 #### Audio Patch
-In our prototype we used three techniques to process the audio: 
+In our prototype we used three techniques to process the audio:
 * Sampled - Sampled political speech
 * Synthesized - Low drone
 * Effects - Rave Generator (digital sampler), Overdrive, Reverb, Delay  
 
-Each of these processes were applied to the sonification mapping as well. 
+Each of these processes were applied to the sonification mapping as well.
 
 #### Mapping & Reasons
 Our projects lead, as you will - came from vocal cuts from Theresa May  ("Brexit means Brexit" - May, 2016) and opposition. This was inspired by the mashup of media that surrounds brexit, and how iconic in particular the prime ministers voice is, in regard to the issue. From here we painted a picture, finding other mappings along the way:				
@@ -77,7 +76,7 @@ The reason behind the choice of sounds is two-layered. In the foreground, we hav
 
 If the majority to leave is high in percentage, Theresa May will be higher in pitch, sounding more angry and intense, trying to represent the mood of those voters. If the area has a majority to remain the “remain in the European Union” also plays high in pitch as the majority increases
 Both of these can sound quite silly in their extreme, however we feel that this tone fits the mood of brexit, and hopefully makes it a little more entertaining.
-#### Drone 
+#### Drone
 On the other, deeper level, we have the ominous drone sound. This is mapped to area (north, south and so on) to create a feeling of dread. It is staccato in nature, a constant deep rumble that represents the intensifying mood among the british population as brexit progressed.  
 
 As each area progressed, the drone would rise a semitone - acting as a information as to when the next area is being played, but also giving a narrative to the whole composition, intensifying the mood further with each rising tone.
@@ -88,7 +87,7 @@ As each area progressed, the drone would rise a semitone - acting as a informati
 </figure>
 
 #### Bleep
-We then synthesised a “bleep” sound, that we used to represent the overall Electorate (people) amount in each area went to vote - up to 2 million! The bleep would rise in pitch as the amount that voted in the area went up. This gave some context, the counties in england can have very different sized populations, so this represented that factor in the demo. (Synthesized sonification). 
+We then synthesised a “bleep” sound, that we used to represent the overall Electorate (people) amount in each area went to vote - up to 2 million! The bleep would rise in pitch as the amount that voted in the area went up. This gave some context, the counties in england can have very different sized populations, so this represented that factor in the demo. (Synthesized sonification).
 
 <figure>
   <img src="/assets/img/sonification/maxpatch3.jpg" alt="Mapping" width="70%" align="middle"/>
@@ -114,7 +113,7 @@ To accompany this, we also ported the area names to the M4L patch in presentatio
   <figcaption><strong>Mapping the visuals in Ableton Live</strong></figcaption>
 </figure>
 
-Here was the “presentation” view from ableton, that showed the relevant text data as the sonification played. 
+Here was the “presentation” view from ableton, that showed the relevant text data as the sonification played.
 Both these visual elements never made it to the final prototype, for reasons we will go into later (although there is an example).
 
 ### Demos (Audio/Visual)
@@ -125,11 +124,11 @@ Please leave any comments that you have, in regards to the sonification, in the 
 
 **Visuals demo:**
 <figure align="left">
-        <video height="100%" width="100%" controls>
-        <source src="/assets/video/sonificationvisualsonly.mp4" type="video/mp4">
+  <video height="100%" width="100%" controls>
+        <source src="https://docs.google.com/uc?export=download&id=1wJT98-9kODnXflrMUmqgd032dphvrA-w type="video/mp4">
         <figcaption><strong> The unused visual elements of the project </strong></figcaption>        
         Your browser does not support the video tag.
-</video>
+  </video>
 </figure>
 
 ## Reflective notes
@@ -147,7 +146,7 @@ Maybe too much? At least for us we were exploring the possibilities that this cr
   <figcaption><strong></strong></figcaption>
 </figure>
 
-In this portrayal of serious, political data we originally tried to remain unbiased. However, with a overarching feeling of “dread” as part of our sonification, we didn't exactly achieve neutrality. So our mapping and choice of sounds could be seen as somewhat biased in terms of the brexit standpoint. Maybe it begs the question, isn't the majority of media biased when reporting on brexit? Or even in general? (let's not go down THAT road) 
+In this portrayal of serious, political data we originally tried to remain unbiased. However, with a overarching feeling of “dread” as part of our sonification, we didn't exactly achieve neutrality. So our mapping and choice of sounds could be seen as somewhat biased in terms of the brexit standpoint. Maybe it begs the question, isn't the majority of media biased when reporting on brexit? Or even in general? (let's not go down THAT road)
 
 ### Challenges & Achievements
 Contrary to what is common with these kinds of group projects, we did not have notable challenges with planning the concept. As soon as we decided upon working with Brexit, we were pretty unanimous with how to proceed. We did come into some challenges though:
@@ -169,7 +168,7 @@ Also, we could create a side project, called Spacexit, which may use our patch t
 The plan we had in mind for the publication and use of this project was to feed it back to the inspiration that started it - the media that follows Brexit. As with the subject itself, the media has been an influence on the situation, not merely covering it. So, we wanted to complete the feedback loop and show our sonification to the world. One of the comments we received after the presentation was what we wanted to do with our project. We have uploaded it to Youtube, and posted it on our social media. In our minds, we may get feedback and further collaboration opportunities, that could help propel the project further into the future.  
 
 Other possible future ideas:
-* Create an interactive sonified map of England, using Javascript, in which by hovering over, you get a sound that informs you about the votes in the area. 
+* Create an interactive sonified map of England, using Javascript, in which by hovering over, you get a sound that informs you about the votes in the area.
 * Create a side project called “Spacexit”, which may use our patch to sonify data from the position of spacecrafts.
 
 ## Acknowledgements
@@ -182,5 +181,3 @@ Retrieved from URL: https://www.thejournal.ie/brexit-quotes-3-4567342-Mar2019/
 Producer: RT UK. (2016, 07.11)  "Brexit means Brexit" - May. Retrieved from URL: https://www.youtube.com/watch?v=KMek1okqphs
 
 __Keywords:__ _Sonification, Max for Live, Ableton Live, Brexit, Visuals, Audio_
-
-

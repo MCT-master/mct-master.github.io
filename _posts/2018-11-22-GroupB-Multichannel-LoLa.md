@@ -70,11 +70,12 @@ LoLa dosen't work well with different buffer sizes. It has to be 32 or 64 sample
 
 <figure>
 <video controls>
-  <source src="/assets/video/groupB%20Lola%20Buffer%20Error%20Video.mp4" type="video/mp4" width="65%">
+  <source src="https://docs.google.com/uc?export=download&id=1lH9jltPIy0mX5K5_ja7lRf-FePse1SU0" type="video/mp4" width="65%">
 Your browser does not support the video tag.
 </video>
   <figcaption>Eigil speaking through LoLa with the wrong buffer settings. Video: Ashane</figcaption>
  </figure>
+
 
 It is super easy to change those settings from the "Hammerfall DSP settings" which controls the settings of the soundcard.
 

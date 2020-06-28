@@ -21,7 +21,7 @@ In here you can observe a presentation of the project:
 
 <figure align="middle">
         <video height="100%" width="100%" controls>
-        <source src="/assets/video/freakshow.mp4" type="video/mp4">
+        <source src="https://docs.google.com/uc?export=download&id=1MRTHfxwLHesNU0Tswuhkbo6uCrJ8fmvm" type="video/mp4">
         Your browser does not support the video tag.
 </video>
 </figure>
@@ -56,4 +56,3 @@ In conclusion, this project was quite challenging for me; but also helped me a l
 In the end, I have to thank [Anna](https://github.com/axambo) who helped a lot in regards of various issues that happened during this week. You can access to the whole project’s codes on this [Github page.](https://github.com/sepehrhaghighi/Freak-Show)
 
 ### Cheers!
-

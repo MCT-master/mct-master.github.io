@@ -8,11 +8,12 @@ image:
 excerpt: "The end of the week had come, and the last day of the workshop was here. The final task was to gather everything we had learned and culminate it into an instrument concept. The day was split in two, with the first part of the day being primarily for conceptualization and the last part of the day, dedicated to building our instrument in the mini-hackathon. Up to now, the week had been a mixture of confusion and pleasure in being able to produce and use the technologies we had been introduced to."
 ---
 
-<video controls>
-  <source src="/assets/video/day4Introduction_2_1.mp4" type="video/mp4" width="65%">
-Your browser does not support the video tag.
-</video>
-
+<figure align="middle">
+  <video width="65%" controls>
+    <source src="https://docs.google.com/uc?export=download&id=1aP_MHQVMIRicM1VJu5Gz-N-CcBNoecqW" type='video/mp4'>
+    Your browser does not support video tag.
+  </video>
+</figure>
 
 # The Koolboard
 

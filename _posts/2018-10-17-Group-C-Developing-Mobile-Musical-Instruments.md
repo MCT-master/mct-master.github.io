@@ -30,6 +30,6 @@ So yesterday Elias had to go home because of sickness and came late to class tod
 
 ## Hacking our last blog post
 <video controls>
-  <source src="/assets/video/video-hacking-blog.mp4" type="video/mp4" width="50%">
+  <source src="https://docs.google.com/uc?export=download&id=1H-DH3XB_29A9d459sYgaLVBuDsDN4ST2" type="video/mp4" width="50%">
 Your browser does not support the video tag.
 </video>

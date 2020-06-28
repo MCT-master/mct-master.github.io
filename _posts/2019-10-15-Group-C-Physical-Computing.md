@@ -40,7 +40,7 @@ This was probably because it was over, we assume.
 
 <figure align="middle">
         <video height="100%" width="100%" controls>
-        <source src="/assets/video/GroupCPerforms.mp4" type="video/mp4">
+        <source src="https://docs.google.com/uc?export=download&id=1wfqrWpP1ClfY8WhE8ZgAwZAjogp0G68p" type="video/mp4">
         <figcaption><strong>Live-Demo: MCT-Students performing in the Portal</strong></figcaption>        
         Your browser does not support the video tag.
 </video>
