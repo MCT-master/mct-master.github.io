@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Group C - The Koolboard' "
+title:  "Group C - The Koolboard "
 date:   2018-10-22 14:00
 categories: Physical-Computing
 author: Eirik Dahl, Guy Sion, Karolina Jawad, Elias Andersen
