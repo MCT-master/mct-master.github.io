@@ -28,14 +28,14 @@ and so on. Our idea was quite like the latter approach. Hence, we decided to go 
   <figcaption>Figure 2: Method for Selecting Data</figcaption>
 </figure>
 
-The data has been collected from <a href="https://www.dft.gov.uk/traffic-counts/download" target="_blank">**The Department of Transport, U.K.**</a> It includes **Annual Average daily Flow (AADF)** of buses/coaches, cars/taxies and motorbikes for three regions of England from 2000 to 2017. The three regions include the North East, the West Midlands & the South East which have been chosen based upon their population as shown in Figure 2. The primary data includes number of vehicles, but they are segregated into numerous divisions of road types for each region. Shreejay made a <a href="https://github.com/shreejayshrestha/MCT4046_Sonification_Project/blob/master/matlab%20script/read_data.m" target="_blank">matlab script</a> to refine the data as per our requirement. The script reads the raw data of each region of choice at a time and writes them into an excel sheet by calculating the total number of vehicles in the region in each year and exports them as in CSV file format. 
+The data has been collected from <a href="https://www.dft.gov.uk/traffic-counts/download" target="_blank">**The Department of Transport, U.K.**</a> It includes **Annual Average daily Flow (AADF)** of buses/coaches, cars/taxies and motorbikes for three regions of England from 2000 to 2017. The three regions include the North East, the West Midlands & the South East which have been chosen based upon their population as shown in Figure 2. The primary data includes number of vehicles, but they are segregated into numerous divisions of road types for each region. Shreejay made a <a href="https://github.com/shreejayshrestha/MCT4046_Sonification_Project/blob/master/matlab%20script/read_data.m" target="_blank">matlab script</a> to refine the data as per our requirement. The script reads the raw data of each region of choice at a time and writes them into an excel sheet by calculating the total number of vehicles in the region in each year and exports them as in CSV file format.
 
 ## Sonification & Sound design
 
 ### Prototype 1 with Javascript and P5.js
 <figure align="middle">
 <audio controls>
-<source src="/assets/sounds/prototype1.wav" type="audio/wav" volume="0.2">
+<source src="https://docs.google.com/uc?export=download&id=1crtXge_qcugW-j33vacIBdK1PrXOvXu6" type="audio/wav" volume="0.2">
  Your browser does not support the audio element.
 </audio>
 <figcaption>Audio 1: Prototype-1, Sonification of Buses & Coaches in the three regions</figcaption>
@@ -48,10 +48,10 @@ We chose to work with JavaScript to create our first prototype. The number of bu
 <figcaption>Figure 3: Mapping method in Prototype 1</figcaption>
 </figure>
 
-Sound was generated through three unique oscillators that correspond with the data for each region. Additionally, three non-overlapping frequency ranges were chosen in the mapping to further differentiate between the three sounds. Moreover, the “settimeout()” method states the durations of a single frequency that corresponds to a certain year. 
+Sound was generated through three unique oscillators that correspond with the data for each region. Additionally, three non-overlapping frequency ranges were chosen in the mapping to further differentiate between the three sounds. Moreover, the “settimeout()” method states the durations of a single frequency that corresponds to a certain year.
 
 #### Code Snippet
-The following code snippet shows how the three oscillators are defined and highlights the mapping method and set timeout () method applied in the prototype 1. 
+The following code snippet shows how the three oscillators are defined and highlights the mapping method and set timeout () method applied in the prototype 1.
 
 ```javascript
 function preload(){
@@ -62,7 +62,7 @@ function dataReady1(data1){
   osc1 = new p5.Oscillator();
   osc2 = new p5.Oscillator();
   osc3 = new p5.Oscillator();
-  
+
   osc1.setType('sine');
   osc1.freq(0);
   osc1.amp(0.4);
@@ -83,20 +83,20 @@ function dataReady1(data1){
     append(arrayBus, [figures1[i].AADF,figures1[i].NE,figures1[i].SE,figures1[i].WM]);
 };
 
-  // for three cities 
+  // for three cities
   for (var i = 0; i < arrayBus.length;  i++) {
   setTimeout(function(y) {
-    
+
     freq1 = map(arrayBus[y][1],140235, 183753, 200, 600);
     freq2 = map(arrayBus[y][2],227700, 377048, 700, 1000);
     freq3 = map(arrayBus[y][3],328924, 490877, 1100, 2000);
 
     //console.log(freq);
-    
+
     osc1.freq(freq1);
     osc2.freq(freq2);
     osc3.freq(freq3);
-    
+
     }, i * 500, i);
      // we're passing i  
     };
@@ -108,7 +108,7 @@ function dataReady1(data1){
 <figcaption>Figure 4: Prototype 2, System Diagram</figcaption>
 </figure>
 
-The first prototype was further developed with Python and Supercollider. It is inspired by **Thomas Hermann's** lecture on topics of Sonification and hands on exercise on **Parameter Mapping Sonification** during a series of talks in the MCT4046 Sonification and Sound Design course in this spring semester. The python code for this prototype is based upon two examples; Example-1: the code of the hands-on exercise provided by Thomas and <a href="https://github.com/thomas-hermann/sc3nb/blob/master/examples/sc3nb-examples.ipynb" target="_blank">Example-2:</a> the code shared by Thomas through his GitHub repository. The code for the prototype has been further developed to adapt a different structure of data, create different synth definitions and apply different forms of mapping by exploring various example of synths in Supercollider. For instance, Example-1 and Example-2 have used synth definitions like SinOsc.ar, DynKlank.ar, Dust.ar etc while prototype 2 applies Saw.ar, LFPulse.ar and RLPF.ar along with combination of SinOsc.ar and so on. Moreover, the synths have been designed to meet our objective of combining both artistic and scientific approach, crafted in Supercollider, as shown in the code snippet below; 
+The first prototype was further developed with Python and Supercollider. It is inspired by **Thomas Hermann's** lecture on topics of Sonification and hands on exercise on **Parameter Mapping Sonification** during a series of talks in the MCT4046 Sonification and Sound Design course in this spring semester. The python code for this prototype is based upon two examples; Example-1: the code of the hands-on exercise provided by Thomas and <a href="https://github.com/thomas-hermann/sc3nb/blob/master/examples/sc3nb-examples.ipynb" target="_blank">Example-2:</a> the code shared by Thomas through his GitHub repository. The code for the prototype has been further developed to adapt a different structure of data, create different synth definitions and apply different forms of mapping by exploring various example of synths in Supercollider. For instance, Example-1 and Example-2 have used synth definitions like SinOsc.ar, DynKlank.ar, Dust.ar etc while prototype 2 applies Saw.ar, LFPulse.ar and RLPF.ar along with combination of SinOsc.ar and so on. Moreover, the synths have been designed to meet our objective of combining both artistic and scientific approach, crafted in Supercollider, as shown in the code snippet below;
 
 ```javascript
 // ----------------Bus -----------------Amplitude & Frequency to be used in Mapping
@@ -167,7 +167,7 @@ sc = scn.startup()  # optionally use argument sclangpath="/path/to/your/sclang"
 ```
 
 ```python
-%%sc 
+%%sc
 SynthDef ("bus", {arg out=0, freqb= 50, mul=0.7, ampb = 0.2;
     var f;
     f = Saw.ar(freqb,mul,0);
@@ -192,7 +192,7 @@ queue.put(t0+delay, sc.msg, ("/s_new", ["motorbike", 1236, 1, 1]))
 
 sc.prepare_for_record(0, "my_recording.wav", 99, 2, "wav", "int16")  # buffer 99 will be used
 sc.record(t0+0.1, 2001)  # recording starts in 200 ms
-#sc.bundle(0.2, "/s_new", ["car", 1234, 1, 1]) 
+#sc.bundle(0.2, "/s_new", ["car", 1234, 1, 1])
 sc.stop_recording(t0+10) # and stops in 1 seconds
 
 # modulate with data while playing through time
@@ -208,12 +208,12 @@ for i in range (len(d)):
     m_amp = scn.linlin((d.iloc[i][2]), min(d.MotorCycle),max(d.MotorCycle), 0.2,10)
     #queue.put(t0 + delay + onset, sc.msg, ("/n_set",
         #[1234,'freqb', b_freq,'ampb',b_amp]))
-    #queue.put(t0 + delay + onset, sc.msg, ("/n_set", 
+    #queue.put(t0 + delay + onset, sc.msg, ("/n_set",
      #   [1235, 'freqc', c_freq,'ampc',c_amp]))    
-    queue.put(t0 + delay + onset, sc.msg, ("/n_set", 
+    queue.put(t0 + delay + onset, sc.msg, ("/n_set",
         [1236, 'freqm',m_freq,'ampm', m_amp]))
-        
-  
+
+
 # shut down synth when finished
 #queue.put(t0 + delay + onset, sc.msg, ("/n_free", 1234))
 #queue.put(t0 + delay + onset, sc.msg, ("/n_free", 1235))
@@ -221,15 +221,15 @@ queue.put(t0 + delay + onset, sc.msg, ("/n_free", 1236))
 ```
 <figure align="middle">
 <audio controls>
-<source src="/assets/sounds/Bus_NE.wav" type="audio/wav" volume="0.2">
+<source src="https://docs.google.com/uc?export=download&id=1WjU1Wj-HE2tMD819SRSgsqDGXJFrWntD" type="audio/wav" volume="0.2">
  Your browser does not support the audio element.
 </audio>
 <figcaption>Audio2: Prototype-2, Sonification of Buses & Coaches in the North East Region in England</figcaption>
 </figure>
-  
+
 <figure align="middle">
 <audio controls>
-<source src="/assets/sounds/Bus_SE.wav" type="audio/wav" volume="0.2">
+<source src="https://docs.google.com/uc?export=download&id=11rG4gGQmvWWUPcEtULcAQgrgW-PXA1_P" type="audio/wav" volume="0.2">
   Your browser does not support the audio element.
 </audio>
 <figcaption>Audio3: Prototype-2, Sonification of Buses & Coaches in the South East Region in England</figcaption>
@@ -242,15 +242,15 @@ queue.put(t0 + delay + onset, sc.msg, ("/n_free", 1236))
 
 <figure align="middle">
 <audio controls>
-<source src="/assets/sounds/Car_NE.wav" type="audio/wav" volume="0.2">
+<source src="https://docs.google.com/uc?export=download&id=1q8HZiy923Z0PTv1B-J8rOY_I4CmdSuEA" type="audio/wav" volume="0.2">
   Your browser does not support the audio element.
 </audio>
 <figcaption>Audio 4: Prototype-2, Sonification of Cars & Taxies in the North East Region in England</figcaption>
 </figure>
-  
+
 <figure align="middle">
 <audio controls>
-<source src="/assets/sounds/Car_SE.wav" type="audio/wav" volume="0.2">
+<source src="‹https://docs.google.com/uc?export=download&id=1kve43lVTVj_1CGAo2vDBXjAq3UDDRNTY" type="audio/wav" volume="0.2">
   Your browser does not support the audio element.
 </audio>
 <figcaption>Audio 5, Prototype-2, Sonification of Cars & Taxies in the South East Region in England</figcaption>
@@ -263,15 +263,15 @@ queue.put(t0 + delay + onset, sc.msg, ("/n_free", 1236))
 
 <figure align="middle">
 <audio controls>
-<source src="/assets/sounds/Bike_NE.wav" type="audio/wav" volume="0.2">
+<source src="https://docs.google.com/uc?export=download&id=1MGibzFVAf4buZIRxY6e-T9SjybjzOBw-" type="audio/wav" volume="0.2">
   Your browser does not support the audio element.
 </audio>
 <figcaption>Audio 6: Prototype-2, Sonification of Motorbikes in the North East Region in England</figcaption>
 </figure>
-  
+
 <figure align="middle">
 <audio controls>
-<source src="/assets/sounds/Bike_SE.wav" type="audio/wav" volume="0.2">
+<source src="https://docs.google.com/uc?export=download&id=19ispasC90JKaFOjVMQ1OUWK3aKTgor6m" type="audio/wav" volume="0.2">
   Your browser does not support the audio element.
 </audio>
 <figcaption>Audio 7: Prototype-2, Sonification of Motorbikes in the South East Region in England</figcaption>
@@ -304,7 +304,7 @@ We bet you would also like to listen to the sonification of the third region of 
 
 ## Main findings in brief
 
-Prototype 1 was not revealing the actual content of the data. Although we chose non-overlapping frequency ranges in the mapping to further differentiate between the three sounds, it did not meet our objective of combining both artistic and scientific approach. Thus we decided to improve it and developed prototype 2. The informative qualities of the sounds, now standalone and representing each region/vehicle, could increase immensely. The structural elicitors like amplitude and frequency are creating again rhythm and tempo among others, which could reveal patterns in the content. In doing so it affirms our hypothesis. 
+Prototype 1 was not revealing the actual content of the data. Although we chose non-overlapping frequency ranges in the mapping to further differentiate between the three sounds, it did not meet our objective of combining both artistic and scientific approach. Thus we decided to improve it and developed prototype 2. The informative qualities of the sounds, now standalone and representing each region/vehicle, could increase immensely. The structural elicitors like amplitude and frequency are creating again rhythm and tempo among others, which could reveal patterns in the content. In doing so it affirms our hypothesis.
 
 ## Additional reflections
 
@@ -328,10 +328,3 @@ We are very grateful to Anna Xambo, our teacher for the MCT4046 Sonification and
 Hermann, T. (2008). *TAXONOMY AND DEFINITIONS FOR SONIFICATION AND AUDITORY DISPLAY.* 14th International Conference on Auditory Display,      Paris, France June 24 - 27, 2008. Retrieved from: <a href="http://www.icad.org/Proceedings/2008/Hermann2008.pdf" target="_blank">http://www.icad.org/Proceedings/2008/Hermann2008.pdf</a>.
 
 Hermann, T., Hunt, A., & Neuhoff, J. G. (2011). *The Sonification Handbook (1st ed.)*. Berlin: Logos Publishing House. Retrieved from:        <a href="https://sonification.de/handbook/" target="_blank">https://sonification.de/handbook/</a>.
-
-
-
-
-
-
-

@@ -60,7 +60,7 @@ A scene from the TV series Breaking Bad with a sound layer breakdown containing 
 </p>
 
 ## Elias Andersen - Sauden
-A sonification of a newspaper article read by Siri with added sounds and beats. Elias mentioned how he liked the idea of sharing songs instead of sharing news articles among friends and presented us with [this example](https://mct-master.github.io/assets/sounds/Sauden.mp3) made by his friend.
+A sonification of a newspaper article read by Siri with added sounds and beats. Elias mentioned how he liked the idea of sharing songs instead of sharing news articles among friends and presented us with [this example](https://docs.google.com/uc?export=download&id=1wFX9qBkoFg-AavsDxiFQXVDcHKvzzLMX) made by his friend.
 
 ## Sepehr Haghighi - Stream Line
 An interactive project that explores the interaction between the subject and the sonification of his/her movement. The subject could be a dancer or an ensemble. The sonification is going to be done via motion tracking and shall be played back to the subject real time.
@@ -75,7 +75,7 @@ In 2011 Nissan was the first to introduce an artificial car sound for its electr
 </p>
 
 ## Sam Roman - Examples of practical use of sonification
-Two examples of basic sonification, a heart rate monitor and a truck reversing, that are quite similar sonically but mean different things when are in different settings were presented by Sam. 
+Two examples of basic sonification, a heart rate monitor and a truck reversing, that are quite similar sonically but mean different things when are in different settings were presented by Sam.
 <p align="center">
    <iframe width="560" height="315" src="https://www.youtube.com/embed/7gMxaZsfFkE" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </p>

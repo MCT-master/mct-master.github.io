@@ -19,7 +19,7 @@ In the context of the MCT Applied Project 2, our group collaborated with the ext
 <img src="/assets/img/Elias/DivisionOfLabour.png" width = "100%" align="center" />
 </figure>
 
-We were all working together on the development process however, we were able to recall each of our areas of expertise. 
+We were all working together on the development process however, we were able to recall each of our areas of expertise.
 
 ## Inspiration
 
@@ -47,7 +47,7 @@ The audio was all created in Omnisphere by spectrasonics. This tool is a very po
 ### 1. Morning
 
 #### Layer 1  
- 
+
 The primary layer is a contemporary marimba sound, recorded from sample and included in Omnisphere’s soundbank. It has a light, bright modern feel with a clean timbre, and has a dynamic, short duration - acting as the lead of the sound
 
  non resonant low pass filter taking out the unneeded sub frequencies around 700hrz
@@ -63,14 +63,14 @@ Second layer was originally created on a Kawai K-5000 hardware synth, is a sound
 
 #### Layer 3
 
-Third layer is subtle. It is a stock ‘pop female ahh’ sound that comes in when the note has been held for 6 seconds. This was added to keep the sound evolving when the note has been held, and keep the timbre interesting. 
+Third layer is subtle. It is a stock ‘pop female ahh’ sound that comes in when the note has been held for 6 seconds. This was added to keep the sound evolving when the note has been held, and keep the timbre interesting.
 
 Fully wet, slow chorus is added to this layer for taste
 
 ##### Data Inspired Music Model, Sunday 7am:
 <figure align="middle">
 <audio controls>
-  <source src="/assets/sounds/Morning_Sunday.wav" type="audio/wav" volume="0.2">
+  <source src="https://docs.google.com/uc?export=download&id=1zuK-VljXVBnz0ELsx3o9dXz375JEQthl" type="audio/wav" volume="0.2">
   Your browser does not support the audio element.
 </audio>
 </figure>
@@ -78,17 +78,17 @@ Fully wet, slow chorus is added to this layer for taste
 ##### Data Inspired Music Model, Monday 7am
 <figure align="middle">
 <audio controls>
-  <source src="/assets/sounds/Morning_Monday.wav" type="audio/wav" volume="0.2">
+  <source src="https://docs.google.com/uc?export=download&id=1YnG5Fh5qj-T4D9ymoAtid2FITWblMdx3" type="audio/wav" volume="0.2">
   Your browser does not support the audio element.
 </audio>
 </figure>
 
 
-### 2. Daytime 
+### 2. Daytime
 
 #### Layer 1
 
-Primary layer is a metallic sound with a music box feel with a strong attack, short decay. 
+Primary layer is a metallic sound with a music box feel with a strong attack, short decay.
 
 Has a very light reverb at 2% wet to soften slightly, with a little pre delay to avoid dampening the attack
 
@@ -101,7 +101,7 @@ It has been layered with the same 2 layers (the ‘tube’ and ‘pop female ooh
 ##### Data Inspired Music Model, Sunday 4pm
 <figure align="middle">
 <audio controls>
-  <source src="/assets/sounds/Midday_Sunday.wav" type="audio/wav" volume="0.2">
+  <source src="https://docs.google.com/uc?export=download&id=1x9iR9CKPMHz8XZkf1_Z0KL4Cvlp57E28" type="audio/wav" volume="0.2">
   Your browser does not support the audio element.
 </audio>
 </figure>
@@ -115,7 +115,7 @@ Classic analog bell like sound, with a lower bass element.  Has two waveforms:
 
  an uneven triangle wave for the lower part of the sound, that sits legato underneath.
 
-and a sine for the higher frequencies. The sine has a short attack and decay, then with volume automation slowly rises back in. There is also a unison widening the sound that gives it its fuller texture. 
+and a sine for the higher frequencies. The sine has a short attack and decay, then with volume automation slowly rises back in. There is also a unison widening the sound that gives it its fuller texture.
 
 #### Layer 2&3
 
@@ -124,7 +124,7 @@ Again, this is then blended with same 2 layers (the ‘tube’ and ‘pop female
 ##### Data Inspired Music Model, Sunday 8pm
 <figure align="middle">
 <audio controls>
-  <source src="/assets/sounds/Afternoon_Sunday.wav" type="audio/wav" volume="0.2">
+  <source src="https://docs.google.com/uc?export=download&id=11gyxucvxET6KyElCLaKDAKwEC4_CSeNL" type="audio/wav" volume="0.2">
   Your browser does not support the audio element.
 </audio>
 </figure>
@@ -132,7 +132,7 @@ Again, this is then blended with same 2 layers (the ‘tube’ and ‘pop female
 ##### Data Inspired Music Model, Sunday 10pm
 <figure align="middle">
 <audio controls>
-  <source src="/assets/sounds/Evening_Sunday.wav" type="audio/wav" volume="0.2">
+  <source src="https://docs.google.com/uc?export=download&id=1RtZnKsYNrxMqDU0K-Bg_08AN8pArwD2A" type="audio/wav" volume="0.2">
   Your browser does not support the audio element.
 </audio>
 </figure>
@@ -143,7 +143,7 @@ Again, this is then blended with same 2 layers (the ‘tube’ and ‘pop female
 In charge of making one of the two sonification systems, Elias created the “Data inspired music model”. This model were made using Python and several Python packages. The system is based on mapping parameters from CSV files (open city bike data) to the sounds that were created by Sam. The Python script would start by reading the CSV file, which were an arbitrary selected file from Oslo Bysykkels open data. The file selected consisted of data from all the bike trips in Oslo from a specific month. The data consists of 13 variables from each trip. The variables used in this model was the starting time of the bike trip, it's duration and the latitude of the bike station.
 During the reading of this CSV file, the start/end date and time of the bike trips were converted to timestamps. Which are numbers of seconds since 1970. This makes it easier to get a grasp of the time between one bike being picked up and the next on the timeline. This is used to make the sounds being played in whatever time we select, but with the same amount of time between the different sounds in regard to the playback speed. The time would also be used to decide what sounds to play in regard of the different sounds depending on what time of the day it is.
 The latitude of the bike station decide what note to play. From lowest note furthest south to highest note furthest north.
-The duration of the bike trips decide if the model are going to play a long note or a short note. If the duration is below average duration, a short note is being played. If the duration if above the average duration the long note will be played. The duration of the bike trips also decide on the playback volume. Longer trips are played louder than the shorter one. 
+The duration of the bike trips decide if the model are going to play a long note or a short note. If the duration is below average duration, a short note is being played. If the duration if above the average duration the long note will be played. The duration of the bike trips also decide on the playback volume. Longer trips are played louder than the shorter one.
 
 ## Parametric Sonification Model
 Eigil made another way of sonifying the data from a CSV file using Max/MSP. This model used a similar way of extracting unix timecode from the start times of each line in the CSV file and then creating a delayed trigger within Max/MSP to read and parse the next line.
@@ -151,7 +151,7 @@ By extracting parameters from the data such as length in meters, the average spe
 
 ## References
 
-- Thulinn, Samuel (2016). Sound maps matter: expanding cartophony 
+- Thulinn, Samuel (2016). Sound maps matter: expanding cartophony
 https://www.tandfonline.com/doi/full/10.1080/14649365.2016.1266028
 
 - The future of Micromobility

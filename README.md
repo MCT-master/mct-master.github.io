@@ -43,7 +43,7 @@ Get a G Suite account linked to your UiO account following these instructions. B
 
 Ensure that your account has been activated by logging in [here](https://www.uio.no/english/services/it/store-collaborate/gsuite/help/how-to-get-account.html). Then request access to the MCT shared G Drive by sending an email to stefano.fasciani@imv.uio.no from your UiO email account. Once you get access, check out the README.txt files in the respective folders for additional instructions.
 
-Files stored in the 'asset' folder of the Github (images only below 300 Kb in the img folder) and in the G Drive ‘MCT Blog/asset’ should be placed in the appropriate sub-folder according to their type and named YYYY_MM_DD_username_filename.extension where:
+Files stored in the 'asset' folder of the Github (images only below 300 Kb in the img folder, or code that can be executed in the browser) and in the G Drive ‘MCT Blog/asset’ should be placed in the appropriate sub-folder according to their type and named YYYY_MM_DD_username_filename.extension where:
 * YYYY: year as per associate blog post
 * MM: month as per associate blog post
 * DD: day as per associate blog post
@@ -57,7 +57,7 @@ All files that are uploaded here must be publicly accessible through their link 
 Example:
   ```
   <figure align="middle">
-     <img src="https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png" alt="alternative text" title="title text" width="auto" height="auto" />
+     <img src="https://drive.google.com/uc?export=view&amp;id=G_DRIVE_FILENAME" alt="alternative text" title="title text" width="auto" height="auto" />
      <figcaption align="middle">My Figure Caption</figcaption>
   </figure>
   ```
@@ -77,7 +77,7 @@ Example:
     ```
     <figure align="middle">
       <audio controls>
-        <source src="https://docs.google.com/uc?export=download&id=G_DRIVE_FILENAME_ID" type="audio/mpeg">
+        <source src="https://docs.google.com/uc?export=download&id=G_DRIVE_FILENAME_ID" type="audio/mpeg" volume="1.0">
         Your browser does not support audio tag.
       </audio>
       <figcaption align="middle">My Audio Caption</figcaption>

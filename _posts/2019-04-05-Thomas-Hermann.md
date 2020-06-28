@@ -4,7 +4,7 @@ title: " An Overview of Sonification by Thomas Hermann"
 date: 2019-04-05 05:00:00 +0200
 categories: Sonification
 author: Shreejay Shrestha
-image: /assets/img/thermann-photo-2009.jpg 
+image: /assets/img/thermann-photo-2009.jpg
 excerpt: "It was my privilege and honour to facilitate a guest lecture and introduce one of the 'Gurus' in the field of sonification, Dr. Thomas Hermann. He shared his enormous knowledge on sonification with hands on exercises for two days (March 28, and 29, 2019) through the MCT portal in Trondheim. I am quite excited to share my notes and will try to cover the summary of his talks in this blog."
 Keywords: Thomas Hermann, Sonification
 ---
@@ -20,7 +20,7 @@ It was my privilege and honour to facilitate a guest lecture and introduce one o
 ## Day 1
 In the first day, Thomas introduced the taxonomy and definition for sonification and auditory display, making us aware that sonification itself is relatively at its developing phase. While sound has a long tradition in science e.g. in the use of Stethoscope, Geiger Counter, machine diagnostics etc., visual elements have been dominating the processing and dissemination of information in the digital age. Nonetheless, we use all our senses to perceive the world. Thus, sonification can play a significant role in the enhancement of our perception in this era of computers by using the neglected modality of sound.
 
-### Sonification 
+### Sonification
 
 <figure>
 <img src="/assets/img/sonification_defn.JPG" width = "100%" align="center" />
@@ -29,7 +29,7 @@ In the first day, Thomas introduced the taxonomy and definition for sonification
 
 Sonification is the use of non-speech audio to convey information (Kramer et.al, 1999). Hermann(2008) has given a relatively modern definition of sonification as a technique, that uses a data set as input and produces sound signals,  if it meets the
 following conditions: (1) the sound should reflect objective properties or relation in the input data, (2) the transformation is
-systematic, (3) the sonification is reproducible, and (4) the system can be used with different data sets. 
+systematic, (3) the sonification is reproducible, and (4) the system can be used with different data sets.
 
 ### Overview of Sonification Techniques
 
@@ -40,36 +40,36 @@ systematic, (3) the sonification is reproducible, and (4) the system can be used
 
 #### Audification
 
-Audification is the process of direct translation of data into sounds. It is applicable only for structured data sources e.g. time/space etc. The following example is an audification of earthquake in Tohoku, Japan, 2011/03/11 - 2011/03/12. 
+Audification is the process of direct translation of data into sounds. It is applicable only for structured data sources e.g. time/space etc. The following example is an audification of earthquake in Tohoku, Japan, 2011/03/11 - 2011/03/12.
 
 <figure align="middle">
 <audio controls>
-<source src="/assets/sounds/SHB-S12.3.mp3" type="audio/wav" volume="0.2">
+<source src="https://docs.google.com/uc?export=download&id=1rqukdBEjwq4sUGUtS-2BIun4pZ7V_Pxm" type="audio/wav" volume="0.2">
 Your browser does not support the audio element.
 </audio>
 <figcaption><a href="http://www.sonifyer.org/sound/erdbewegung/" target="_blank">Sound example by www.sonifyer.org taken from https://sonification.de/handbook/chapters/chapter12/#S12.3</a></figcaption>
 </figure>
- 
+
 #### Earcon
 Earcons are structured sounds that serve as index for abstract messages. For example, those who are using windows operating system in their computer, may be aware of the system sounds when the computer starts or gets some error messages etc., earcons are these types of sounds. Below is another similar kind of example.
 
 <figure align="middle">
 <audio controls>
-  <source src="/assets/sounds/SHB-S14.1.mp3" type="audio/wav" volume="0.2">
+  <source src="https://docs.google.com/uc?export=download&id=1RmOCZZBBGpcf2yHNNQRgwaFYQlOW0Nth" type="audio/wav" volume="0.2">
   Your browser does not support the audio element.
 </audio>
   <figcaption><a href=" https://sonification.de/handbook/chapters/chapter14/#S14.2" target="_blank">Sound example by T. Hermann, A. Hunt and J.G. Neuhoff taken from https://sonification.de/handbook/chapters/chapter14/#S14.2</a></figcaption>
 </figure>
- 
+
 #### Auditory Icons
 It can be defined as acoustic event markers whose meaning can be understood via an association process. It is easier to understand than earcons because unlike earcons, auditory icons do not reflect abstract meaning. Auditory icons have an existing relationship between the sound and the information that it is providing.
 
 <figure align="middle">
 <audio controls>
-  <source src="/assets/sounds/SHB-S13.2.mp3" type="audio/wav" volume="0.2">
+  <source src="https://docs.google.com/uc?export=download&id=1gwSi3bhbzn_dwxOJJLUPmd5d2K3LUzDH" type="audio/wav" volume="0.2">
   Your browser does not support the audio element.
 </audio>
-  
+
 <figcaption><a href="https://sonification.de/handbook/chapters/chapter13/#S13.2" target="_blank">Sound example by T. Hermann, A. Hunt and J.G. Neuhoff taken from https://sonification.de/handbook/chapters/chapter13/#S13.2 </a></figcaption>
 </figure>
 
@@ -78,13 +78,13 @@ In this technique, a data set is mapped with different parameter of sound synthe
 
 <figure align="middle">
 <audio controls>
-  <source src="/assets/sounds/SHB-S15.3.mp3" type="audio/wav" volume="0.2">
+  <source src="https://docs.google.com/uc?export=download&id=1perNGAZsplh6Y3QlX-GJ1y3R_mqaLgkU" type="audio/wav" volume="0.2">
   Your browser does not support the audio element.
 </audio>
     <figcaption><a href="https://sonification.de/handbook/chapters/chapter15/#S15.3" target="_blank">Sound example by T. Hermann, A. Hunt and J.G. Neuhoff taken from https://sonification.de/handbook/chapters/chapter15/#S15.3 </a></figcaption>
 </figure>
- 
-## Day 2 
+
+## Day 2
 In the second day, Thomas talked about sonification techniques beyond parameter mapping. These include **Model based sonification (MBS)** and **Wave Space Sonification (WSS)**.
 
 ### Model Based Sonification (MBS)
@@ -124,20 +124,3 @@ Hermann, T. (2008). *TAXONOMY AND DEFINITIONS FOR SONIFICATION AND AUDITORY DISP
 Hermann, T., Hunt, A., & Neuhoff, J. G. (2011). *The Sonification Handbook (1st ed.)*. Berlin: Logos Publishing House. Retrieved from:        <a href="https://sonification.de/handbook/" target="_blank">https://sonification.de/handbook/</a>.
 
 Kramer, G., Bargar, R., Barrass, S., Berger, J., Evreinov, G., Tecumseh Fitch, W., … Tipei, S. (1999). *Sonification Report: Status of      the Field and Research Agenda*. International Community for Auditory Display. Retrieved from: <a href= "http://www.icad.org/websiteV2.0/References/nsf.html" target="_blank">http://www.icad.org/websiteV2.0/References/nsf.html</a>.
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

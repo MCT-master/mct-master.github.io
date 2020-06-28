@@ -29,23 +29,23 @@ The video below shows how we passed a battery current through a loudspeaker, whi
 Below are some audio clips that we used in our sampler. The end performance didn't turn out that well, due to some technical challenges with Pd. We will make a better performance tomorrow!
 
 <audio controls>
-  <source src="/assets/sounds/physical_comp/splash.wav" type="audio/wav">
+  <source src="https://docs.google.com/uc?export=download&id=1S3LGg7p3v86RIsRZKJ4larZLS4Q-R5Le" type="audio/wav">
 Your browser does not support the audio element.
 </audio>
 
 <audio controls>
-  <source src="/assets/sounds/physical_comp/ice.wav" type="audio/wav">
+  <source src="https://docs.google.com/uc?export=download&id=1yL4OCPgAkTYhOaP4iKpyKruPrGJrOo9s" type="audio/wav">
   Your browser does not support the audio element.
 </audio>
 <audio controls>
-  <source src="/assets/sounds/physical_comp/loop3.wav" type="audio/wav">
+  <source src="https://docs.google.com/uc?export=download&id=13EBTeJgai2Dy1hD3ll3VDvD5SX_yx-Op" type="audio/wav">
   Your browser does not support the audio element.
 </audio>
 <audio controls>
-  <source src="/assets/sounds/physical_comp/pattern.wav" type="audio/wav">
+  <source src="https://docs.google.com/uc?export=download&id=1ZirX4wACpdJ4OITeoU-67t7ASBVHUk6w" type="audio/wav">
   Your browser does not support the audio element.
 </audio>
 <audio controls>
-  <source src="/assets/sounds/physical_comp/noise1.wav" type="audio/wav">
+  <source src="https://docs.google.com/uc?export=download&id=1MVj3AX6m14giVB0zNsVqhVZjCvbCbH5R" type="audio/wav">
   Your browser does not support the audio element.
 </audio>

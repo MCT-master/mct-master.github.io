@@ -33,7 +33,7 @@ Ashane and Mari found a group room, and pretty soon our annoyance was turned int
 
 <figure align="middle">
 <audio controls="">
-<source src="/assets/sounds/string11.wav" type="audio/wav" volume="0.2">
+<source src="https://docs.google.com/uc?export=download&id=1GMK5EI36q390Tzh2_Mdzv0_t126De8oW" type="audio/wav" volume="0.2">
 Your browser does not support the audio element.
 </audio>
 <figcaption>Crazy sound. Warning! This might be loud</figcaption>
@@ -43,7 +43,7 @@ Bit by bit we were able to make more crazy sounds, and then we learned how to ma
 
 <figure align="middle">
 <audio controls="">
-<source src="/assets/sounds/Task3Mari.wav" type="audio/wav" volume="0.2">
+<source src="https://docs.google.com/uc?export=download&id=1PWixqKyf3nCUudTCCbSlQ6OYmI6CMPnL" type="audio/wav" volume="0.2">
 Your browser does not support the audio element.
 </audio>
 <figcaption>Crazy song. Warning! This might be loud</figcaption>
@@ -58,7 +58,7 @@ On Thursday, we learned how to make VST instruments and plugins with Csound and 
 
 <figure align="middle">
 <audio controls="">
-<source src="/assets/sounds/Mari_and_Shreejay_cross_campus_jam_with_lola.mp3" type="audio/mp3" volume="0.2" >
+<source src="https://docs.google.com/uc?export=download&id=1-SeC_gOKCe3Pzorc5WOeMHVoNlWhPPcf" type="audio/mp3" volume="0.2" >
 Your browser does not support the audio element.
 </audio>
 <figcaption>Shreejay and Mari's improv</figcaption>
@@ -99,7 +99,7 @@ Here is a video clip and an audio recording from our performance:
 
 <figure align="middle">
 <audio controls="">
-<source src="/assets/sounds/group_B_DSP_performance_sneak_peak.wav" type="audio/wav" volume="0.2" />
+<source src="https://docs.google.com/uc?export=download&id=1JVc2gi7LViTkYmPLBlSsHxBZku0goWt4" type="audio/wav" volume="0.2" />
 Your browser does not support the audio element.
 </audio>
 <figcaption>The beginning of our performance recorded in Trondheim</figcaption>

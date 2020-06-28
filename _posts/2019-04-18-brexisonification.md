@@ -53,7 +53,7 @@ When deciding how to approach creating the sonification system, we decided to st
 One advantage to this method is that if we use M4L for different sonifications, we become more adept to the program. Eventually we might be more adept at M4L  and advance to creating auditory displays that can be fed various data sets.
 Another bonus is that we have experience with ableton, that made the mapping part a lot easier after processing the data - we could then foreseeably get a prototype up in the limited time we had.
 ### The Patch
-Here is our completed audio patch! Details can be found in this [text file](/assets/code/VPatch2.txt). You are very welcome to download the patch to look in more detail or try out! Just copy the code and paste it into a new patch.
+Here is our completed audio patch! Details can be found in this [text file](https://docs.google.com/uc?export=download&id=1kmZgQ25a4VH2_nvEO1asEX5w7fo7Xx52). You are very welcome to download the patch to look in more detail or try out! Just copy the code and paste it into a new patch.
 <figure>
   <img src="/assets/img/sonification/audpatch.jpg" alt="Audio patch" width="70%" align="middle"/>
   <figcaption><strong>Audio Patch</strong></figcaption>

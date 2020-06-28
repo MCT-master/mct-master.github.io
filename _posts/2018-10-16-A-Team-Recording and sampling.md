@@ -84,7 +84,7 @@ In Trondheim we used two sets of 4 samples, one straight and one reversed (coded
     </td>
     <td>
       <audio controls>
-        <source src="https://raw.githubusercontent.com/MCT-master/mct-master.github.io/master/assets/sounds/Ateam_keyboard.mp3" type="audio/mpeg">
+        <source src="https://docs.google.com/uc?export=download&id=1JhGO0NrVPrc5OvUtNVRhFKpu1zTn8O_9" type="audio/mpeg">
         Your browser does not support the audio element.
       </audio>
     </td>
@@ -98,7 +98,7 @@ In Trondheim we used two sets of 4 samples, one straight and one reversed (coded
     </td>
     <td>
       <audio controls>
-        <source src="https://raw.githubusercontent.com/MCT-master/mct-master.github.io/master/assets/sounds/Ateam_speakingBox.mp3" type="audio/mpeg">
+        <source src="https://docs.google.com/uc?export=download&id=1J9VVfy1_UBI_B5bAqGz7Q3k6sQPRHvp4" type="audio/mpeg">
         Your browser does not support the audio element.
       </audio>
     </td>
@@ -111,7 +111,7 @@ In Trondheim we used two sets of 4 samples, one straight and one reversed (coded
     </td>
     <td>
       <audio controls>
-        <source src="https://raw.githubusercontent.com/MCT-master/mct-master.github.io/master/assets/sounds/Ateam_hihat.mp3" type="audio/mpeg">
+        <source src="https://docs.google.com/uc?export=download&id=1qcfhu8S0eeRljNZjX7mmpUMLVDcGT9kl" type="audio/mpeg">
         Your browser does not support the audio element.
       </audio>
     </td>
@@ -124,7 +124,7 @@ In Trondheim we used two sets of 4 samples, one straight and one reversed (coded
     </td>
     <td>
       <audio controls>
-        <source src="https://raw.githubusercontent.com/MCT-master/mct-master.github.io/master/assets/sounds/Ateam_water.mp3" type="audio/mpeg">
+        <source src="https://docs.google.com/uc?export=download&id=1yR63EFp48hrK6v3uvpHUa0TinpsBmUcf" type="audio/mpeg">
         Your browser does not support the audio element.
       </audio>
     </td>

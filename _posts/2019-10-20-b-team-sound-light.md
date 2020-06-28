@@ -58,7 +58,7 @@ Here's a photo of the config (minus the LED and light sensor)
 
 We really made an attempt, that much can be said. And, in fact, most of the components made their way into completion. The LED was responding to the audio signal in a dynamic way, the knobs and buttons were configured to interact with the patch (for a brief moment) and the light sensor was scaled to recieved light. All that was needed was to put it all together and throw in a phone. Yet, knowing how long this process itself took, one can be sure those final tasks alone would have taken a considerable amount of time. And we were out of time.
 
-So, we resorted to playing with the synth through PureData from our laptops and sending the audio signal from our headphone jack to a speaker locally. It was quite a nice performance in itself and we were able to listen and respond to the subtle changes in texture and pitch that each of us were making through our patch. In reflection, there was a massive gap in our sense of how long this project would take and the computation details we hadn't had experience with yet. I think we made a great attempt and learned quite a lot about working with the Bela devices, audio routing, electrical engineering, and coding in PureData. It was overwhelming and perhaps we hit it _too_ head on, but oh well! 
+So, we resorted to playing with the synth through PureData from our laptops and sending the audio signal from our headphone jack to a speaker locally. It was quite a nice performance in itself and we were able to listen and respond to the subtle changes in texture and pitch that each of us were making through our patch. In reflection, there was a massive gap in our sense of how long this project would take and the computation details we hadn't had experience with yet. I think we made a great attempt and learned quite a lot about working with the Bela devices, audio routing, electrical engineering, and coding in PureData. It was overwhelming and perhaps we hit it _too_ head on, but oh well!
 
 ### In Oslo
 
@@ -71,7 +71,7 @@ So, we resorted to playing with the synth through PureData from our laptops and 
 And here is a recording from our performance in Oslo.
 
 <audio controls>
-  <source src="/assets/audio/b-team/oslo_performance.mp3" type="audio/mp3">
+  <source src="https://docs.google.com/uc?export=download&id=1X9-pgoJsz-y8zeiS2f9TwcqiPqBfyKOU" type="audio/mp3">
 </audio>
 
 ## Update: And yet!
