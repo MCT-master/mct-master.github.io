@@ -39,7 +39,7 @@ Ashane Silva is a drummer, audio producer, composer, and the founder of the audi
 * [The Terra Tomorrow YouTube](https://www.youtube.com/channel/UCVXikii-kPspIPeG-MqVVgQ)
 * [Ashane Silva's YouTube](https://www.youtube.com/user/Ashanous)
 
-![Photo of Ashane Silva](/assets/img/AshaneSilva.jpeg "Ashane Silva")
+![Photo of Ashane Silva](/assets/img/2018_08_22_stefanof_AshaneSilva.jpeg "Ashane Silva")
 
 ### Mari Lesteberg
 
