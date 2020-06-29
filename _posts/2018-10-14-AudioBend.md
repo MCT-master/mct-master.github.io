@@ -26,7 +26,7 @@ The circuit made to sit top of the Bela Cape and sensors were connected to the c
 2. Acceleroeter
 
    <figure>
-   <img src="/assets/img/ACC.jpg" width = "50%" align="center" />
+   <img src="/assets/img/2018_10_14_stefanof_ACC.jpg" width = "50%" align="center" />
    </figure>
 
 3. Ultrasonic Sensor

@@ -4,12 +4,12 @@ title: "A-team - ART IS ANYTHING YOU CAN GET AWAY WITH"
 date: 2018-10-22 19:08:00 +0200
 categories: Physical-Computing
 author: EW, SR, SH, JNV
-image: /assets/img/Ateam_pipe.jpg
+image: /assets/img/2018_10_22_stefanof_Ateam_pipe.jpg
 excerpt: "We were set our end of week task, incorporating the human interaction technology we have been exploring all week (and in our previous blog posts). After these few days of training - it was finally time to put it to the test, and design an instrument!"
 ---
 
 <figure>
-<img src="https://raw.githubusercontent.com/MCT-master/mct-master.github.io/master/assets/img/Ateam_pipe.jpg" alt="This Is Not a Pipe" width="70%" align="middle">
+<img src="/assets/img/2018_10_22_stefanof_Ateam_pipe.jpg" alt="This Is Not a Pipe" width="70%" align="middle">
 <figcaption align="middle"><strong>This Is Not a Pipe</strong></figcaption>
 </figure>
 
@@ -28,13 +28,13 @@ We came up with the idea of having a signal chain that passes “through” the 
 Mobile phones have been around for quite a while, and has solidified into the public's mind as a standard communication device. So, we decided to use a phone as the tool to send the signal over to the other campus. There were a few reasons for this. Firstly, it is a common device, those in the public watching would relate (hopefully) to what was going on at a glance, without needing to be explained. It also shows the accessibility of such an instrument setup - in theory it can be done by anyone with a phone. Also it allowed us some options for performance. This was utilised by Jorgen using the app OSCHook, we mapped parameters from the phones movement (up/down, left/right and tilt) to modulation of choice in the signal chain. This, along with the fact we can move around the room with the phone, meant we could potentially have an expressive instrument - that was also instantly recognisable (and hopefully understandable) for those viewing the show. Lastly, a phones microphone will have some degradation/coloration of the sound, that will give it a textual change during the process.
 
 <figure>
-<img src="https://raw.githubusercontent.com/MCT-master/mct-master.github.io/master/assets/img/Ateam_feedback.jpg" alt="Basic Feedback diagram" width="70%" align="middle">
+<img src="/assets/img/2018_10_22_stefanof_Ateam_feedback.jpg" alt="Basic Feedback diagram" width="70%" align="middle">
 </figure>
 
 Of with this kind of audio loop - there is an elephant in the room - the issue of feedback. We have previously seen a lecture on the possibilities of using latency as a signal to process audio. Well in theory - we could utilise feedback as part of the instrument? This was a concept we would of liked to explore, but half a day is way too little time to make feedback an ally, there are lots of considerations (and experiments) to possibly get that to work. The set up also had no limiter (as far as we were aware) and so we didn’t want to risk blowing speakers/amps/laptops or our ears!
 
 <figure>
-<img src="https://raw.githubusercontent.com/MCT-master/mct-master.github.io/master/assets/img/Ateam_feedbackDiag.png" alt="Basic Feedback diagram" width="50%" align="middle">
+<img src="/assets/img/2018_10_22_stefanof_Ateam_feedbackDiag.png" alt="Basic Feedback diagram" width="50%" align="middle">
 <figcaption align="middle"><strong>Basic Feedback diagram</strong></figcaption>
 </figure>
 
@@ -43,19 +43,19 @@ So, like in Darth Vader in revenge of the Sith “if you are not with me - then 
 The main source sound came from a patch Sam had made with Korgs “little bits”. It was a reese patch - whereby the main bulk of the sound comes from two phasing oscillators only slightly out of pitch with each other. This makes the oscillators clash with each other sonically, creating a thicker sound with movement, that changes with the subtlest of pitch change for either oscillator. It was done with two saw waves, then a keyboard was used to control the overall main pitch, and a filter and delay at the end for modulation; sound crafting and flavour. On top of this Espen had control over the phone movement to adjust the sound input further, and also accompanied with the sampler playing some percussion on the laptop, generated from the visual studio code project recorded and set up a couple of days ago This was then sent to Trondheim via the phone.
 
 <figure>
-<img src="https://raw.githubusercontent.com/MCT-master/mct-master.github.io/master/assets/img/Ateam_whispers.jpeg" alt="Basic Feedback diagram" width="70%" align="middle">
+<img src="/assets/img/2018_10_22_stefanof_Ateam_whispers.jpeg" alt="Basic Feedback diagram" width="70%" align="middle">
 <figcaption align="middle"><strong>Sams “Little bits” synth setup</strong></figcaption>
 </figure>
 
 In Trondheim Sepehr worked on setting up the analog Korg modules, as another expansion to the instrument, by receiving the signal from the manipulated sound, coming from the Oslo and being processed with spring delay and a frequency shifter on Jørgen’s laptop. The chain for included a microphone, delay, filter on one side and a noise maker on the other side, both going to the mixer and then to the speaker. The spring delay effect on the signal being sent from the oslo, was controlled with a phone, using its motion sensors routed over the UDP connection to a Max for Live device in Ableton. Finally both Jorgens processed through Ableton and Sepehrs analog signal both played out at the same time in both campuses.
 
 <figure>
-<img src="https://raw.githubusercontent.com/MCT-master/mct-master.github.io/master/assets/img/Ateam_chain.jpeg" alt="Basic Feedback diagram" width="70%" align="middle">
+<img src="/assets/img/2018_10_22_stefanof_Ateam_chain.jpeg" alt="Basic Feedback diagram" width="70%" align="middle">
 <figcaption align="middle"><strong>Trondheim output Map</strong></figcaption>
 </figure>
 
 <figure>
-<img src="https://raw.githubusercontent.com/MCT-master/mct-master.github.io/master/assets/img/Ateam_abletonFlow.png" alt="Basic Feedback diagram" width="70%" align="middle">
+<img src="/assets/img/2018_10_22_stefanof_Ateam_abletonFlow.png" alt="Basic Feedback diagram" width="70%" align="middle">
 <figcaption align="middle"><strong>Jørgens Ableton Chain</strong></figcaption>
 </figure>
 
@@ -70,7 +70,7 @@ However, with Sam’s phone having only 10% battery left and no available power 
 As the clock was ticking towards performance things got a little heated, as everyone got a little stressed. With 5 minutes left we wrapped up, everybody barking at each other, and once more told our self that this is an experimental concept - Or rather - an experiment. If everything failed, we could always refer to Murphy’s law! So, after some nail biting 15 minutes, it was our turn: Some fiddling and confusion (and biting some more nails!) we were ready for the event: It started fine. Then, after a minute or something, Oslo realized we could not hear Trondheim. Everything stopped. Then, as if in some kind of anthill, everyone in the room started to check things out. One minute and 30 seconds later it worked, and - EUREKA!
 
 <figure>
-<img src="https://raw.githubusercontent.com/MCT-master/mct-master.github.io/master/assets/img/Ateam_samEspen.jpg" alt="Basic Feedback diagram" width="70%" align="middle">
+<img src="/assets/img/2018_10_22_stefanof_Ateam_samEspen.jpg" alt="Basic Feedback diagram" width="70%" align="middle">
 <figcaption align="middle"><strong>Sam and Espen performing</strong></figcaption>
 </figure>
 
@@ -79,8 +79,11 @@ We ended up with a concept that seemed to actually kind of work! Sam as a Virtuo
 As a basis for an idea this could go on to further experimentation and ideas, different sound sources, possibly many locations, as well as utilising the feedback for effect. Other ways you could “play” this instrument is using the world around you as a input signal - the portability of the telephone is advantageous in this way. Even acoustic experiments passing the signal back and forth until it is unrecognisable could be an idea…… Possibilities seem endless!
 
 <figure align="middle">
-<iframe src="https://drive.google.com/a/uio.no/file/d/1Dk7e5DZC7Wf2OEyDNf0F2rUVVk6nQR_m/preview" width="640" height="480"></iframe>
-<figcaption><strong>Performance</strong></figcaption>
+  <video width="640" height="480" controls>
+    <source src="https://docs.google.com/uc?export=download&id=1Dk7e5DZC7Wf2OEyDNf0F2rUVVk6nQR_m" type='video/mp4'>
+    Your browser does not support video tag.
+  </video>
+  <figcaption><strong>Performance</strong></figcaption>
 </figure>
 
 **TEAM A**

@@ -73,7 +73,7 @@ Sam had created a wave based instrument in CSound, and went on to further proces
 Once loaded up as a VST in Ableton Live, 2 oscillator VSTs were run in parallel (so effects could be added individually in ableton) These oscillators were then tuned so they were slightly out of phase, creating a movement and width to the sound.
 
 <figure align="middle">
-<img src="/assets/img/Ateam_ablChain2.jpg" alt="" width="60%">
+<img src="/assets/img/2018_11_18_stefanof_Ateam_ablChain2.jpg" alt="" width="60%">
 <figcaption align="middle"><strong></strong></figcaption>
 </figure>
 
@@ -105,17 +105,17 @@ These two oscillators are then both combined and run through a fx chain to mould
 - Ableton Limiter - Keep a ceiling on the volume
 
 <figure align="middle">
-<img src="/assets/img/Ateam_ablChain.jpg" alt="" width="80%">
+<img src="/assets/img/2018_11_18_stefanof_Ateam_ablChain.jpg" alt="" width="80%">
 <figcaption align="middle"><strong></strong></figcaption>
 </figure>
 
 <figure align="middle">
-<img src="/assets/img/Ateam_ablChain3.jpg" alt="" width="80%">
+<img src="/assets/img/2018_11_18_stefanof_Ateam_ablChain3.jpg" alt="" width="80%">
 <figcaption align="middle"><strong></strong></figcaption>
 </figure>
 
 <figure align="middle">
-<img src="/assets/img/Ateam_ablChain5.jpg" alt="" width="80%">
+<img src="/assets/img/2018_11_18_stefanof_Ateam_ablChain5.jpg" alt="" width="80%">
 <figcaption align="middle"><strong></strong></figcaption>
 </figure>
 
@@ -128,7 +128,7 @@ During the performance It was used as a sub bed, staying in the low below 100 hz
 A drum patch made earlier was also used in Sams Ableton Live project. This is a group of operator FM synthesised drums that are velocity sensitive, so you can have all the drums on one midi clip, and pitch them as well. They have been heavily processed previously. As stated before, the synth signal was ducked out during the kicks and snares (they were running silent as a ghost track to trigger the compressor)
 
 <figure align="middle">
-<img src="/assets/img/Ateam_ablChain4.jpg" alt="" width="80%">
+<img src="/assets/img/2018_11_18_stefanof_Ateam_ablChain4.jpg" alt="" width="80%">
 <figcaption align="middle"><strong></strong></figcaption>
 </figure>
 

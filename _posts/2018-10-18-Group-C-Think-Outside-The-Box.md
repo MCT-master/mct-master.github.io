@@ -20,14 +20,14 @@ Wikipedia describe interaction as ‘a kind of action that occur as two or more 
 Later in the day we experimented with the Arduino Kit which is Open-source electronic prototyping platform enabling users to create interactive electronic objects. It was a fun experience because many of us were new to the concept of designing and building our own electric boards.
 
 <figure>
-<img src="/assets/img/Arduino.jpg" alt="Arduino" width="80%" align="middle"/>
+<img src="/assets/img/2018_10_18_stefanof_Arduino.jpg" alt="Arduino" width="80%" align="middle"/>
 <figcaption>Fig 1: Arduino </figcaption>
 </figure>
 
 &nbsp;
 
 <figure>
-<img src="/assets/img/Arduino-Kit.jpg" alt="Arduino kit" width="80%" align="middle"/>
+<img src="/assets/img/2018_10_18_stefanof_Arduino-Kit.jpg" alt="Arduino kit" width="80%" align="middle"/>
 <figcaption>Fig 2: Arduino kit </figcaption>
 </figure>
 

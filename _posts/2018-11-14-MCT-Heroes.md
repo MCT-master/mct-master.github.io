@@ -55,7 +55,7 @@ Most notable as a film composer, he has made the scores for movies such as Chari
 Text: Elias Sukken Andersen
 
 <figure>
-<img src="/assets/img/914812_1469589553301871_1561685244_n.jpg" alt="patch_patch" width="45%" align="middle"/>
+<img src="/assets/img/2018_11_14_stefanof_odden.jpg" alt="patch_patch" width="45%" align="middle"/>
 <figcaption></figcaption>
 </figure>
 
@@ -185,7 +185,7 @@ Harold Burroughs Rhodes (1910-2000) was born in California, United States. He st
 Text: Ashane Silva
 
 <figure>
-<img src="/assets/img/35383293_465482750577589_892664087245225984_n.jpg" alt="patch_patch" width="60%" align="middle"/>
+<img src="/assets/img/2018_11_14_stefanof_manson.jpg" alt="patch_patch" width="60%" align="middle"/>
 <figcaption></figcaption>
 </figure>
 
