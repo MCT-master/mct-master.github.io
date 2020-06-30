@@ -4,11 +4,11 @@ title:  "Meet MCT Group B"
 date:   2018-08-22 13:23:30 +0200
 categories: MCT
 author: Dmitry Vasilev, Ashane Silva, Mari Lesteberg & Eigil Aandahl
-image: /assets/img/Group-B-Y1.jpeg
+image: /assets/img/2018_08_23_stefanof_Group-B-Y1.jpeg
 excerpt: "<strong>Team name</strong>: D.A.M.E. – We are a diverse and multicultural group with different yet complementary practical skills, theoretical knowledge, and personal characteristics. Yet, the unifying agreement for our group is that music is key. We strongly believe in creative application of technology in musical performance and composition, communication, sound synthesis and music production."
 ---
 
-![Photo of Group B](/assets/img/Group-B-Y1.jpeg "Group B")
+![Photo of Group B](/assets/img/2018_08_23_stefanof_Group-B-Y1.jpeg "Group B")
 
 **Team name**: D.A.M.E. – We are a diverse and multicultural group with different yet complementary practical skills, theoretical knowledge, and personal characteristics. Yet, the unifying agreement for our group is that music is key. We strongly believe in creative application of technology in musical performance and composition, communication, sound synthesis and music production.
 

@@ -33,7 +33,7 @@ We put up two condenser microphones, one in front of the presenters and one for 
 The presentation went well, except for Tico occasionally dropping out. Our audio was still running through Zoom, so our presentation was not affected by the dropouts.
 
 <figure>
-<img src="https://raw.githubusercontent.com/MCT-master/mct-master.github.io/master/assets/img/Presentation_setup.jpg" alt="Oslo Presentation set-up" width="50%" align="middle"/>
+<img src="/assets/img/2018_10_03_stefanof_Presentation_setup.jpg" alt="Oslo Presentation set-up" width="50%" align="middle"/>
 <figcaption>Fig 1: Presentation set-up in the Oslo Portal</figcaption>
 </figure>
 
@@ -41,7 +41,7 @@ The presentation went well, except for Tico occasionally dropping out. Our audio
 ## Setup in Trondheim
 
 <figure>
-<img src="https://raw.githubusercontent.com/MCT-master/mct-master.github.io/master/assets/img/jnv_portal.jpg" alt="Trondheim portal" width="50%" align="middle"/>
+<img src="/assets/img/2018_09_10_stefanof_jnv_portal.jpg" alt="Trondheim portal" width="50%" align="middle"/>
 <figcaption>Fig 2: Portal screens</figcaption>
 </figure>
 
@@ -49,7 +49,7 @@ The presentation went well, except for Tico occasionally dropping out. Our audio
 Since the Tico camera was on the side of the room, the picture that was being sent to Oslo didn’t include all of people present in the class, back in Trondheim. Therefore we managed to find a better angle for the camera to have all the people in the room, in the picture; and that was done via putting the camera on the center speaker in the room and rearranging the speakers in the room.
 
 <figure>
-<img src="https://raw.githubusercontent.com/MCT-master/mct-master.github.io/master/assets/img/IMG_3774.JPG" alt="TICO Camera" width="50%">
+<img src="/assets/img/2018_10_03_stefanof_IMG_3774.JPG" alt="TICO Camera" width="50%">
 <figcaption><strong>Fig 3: Tico Camera</strong></figcaption>
 </figure>
 

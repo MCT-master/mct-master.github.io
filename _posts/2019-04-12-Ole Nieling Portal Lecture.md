@@ -53,7 +53,7 @@ During Ole’s preparation for this project he derived some inspiration. Childre
 Ole wanted to produce a learning instrument for children that could be more like playing with clay – a musical sandbox of sorts. This will differ from the plastic, fake instruments regularly on the market today.
 
 <figure align="middle">
-<img src="/assets/img/inst4kids.jpg" alt="" width="50%">
+<img src="/assets/img/2019_04_12_stefanof_inst4kids.jpg" alt="" width="50%">
 <figcaption align="middle"><strong>OLME prototypes</strong></figcaption>
 </figure>
 

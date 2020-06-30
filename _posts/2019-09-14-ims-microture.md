@@ -4,13 +4,13 @@ title: 'Microture'
 date: 2019-10-13 13:25:00 +0200
 categories: Interactive-Systems
 author: Sepehr Haghighi
-image: /assets/img/IMS2.jpg
+image: /assets/img/2019_10_13_stefanof_IMS2.jpg
 excerpt: 'Microture is an interactive music system, based on manipulation of the input sound (microphone sound) with small gestures..'
 Keywords: Interactive Music System, Gesture, Augmentation
 ---
 Microture is an interactive music system, based on manipulation of the input sound (microphone sound) with small gestures. It uses [Bela](https://bela.io/about). Bela is an embedded computing platform for creating beautifully responsive interactive applications. Bela provides ultra-low latency, high quality audio, analog and digital I/O in a tiny self-contained package that can be easily embedded. Built upon the [BeagleBone](https://beagleboard.org/) family of open-source embedded computers, Bela combines the processing power of an embedded computer with the timing precision and connectivity of a microcontroller.
 <figure>
-<img src="/assets/img/IMS2.jpg" width = "85%" align="center" />
+<img src="/assets/img/2019_10_13_stefanof_IMS2.jpg" width = "85%" align="center" />
 <figcaption><strong></strong></figcaption>
 </figure>
 
@@ -53,7 +53,7 @@ Sensors being used in this system are:
 * Slider
 
 <figure>
-<img src="/assets/img/IMS3.jpg" width = "85%" align="center" />
+<img src="/assets/img/2019_10_13_stefanof_IMS3.jpg" width = "85%" align="center" />
 <figcaption><strong></strong></figcaption>
 </figure>
 
@@ -67,20 +67,20 @@ Ultrasound sensor for the distortion amount, Potentiometer for the pitch shift a
 
 **_One to two (many?) mapping:_**
 * Left hand:  
-Slider: The normal use of it controls the delay feedback and by moving it rapidly, the velocity amount is being used for engaging/ disengaging the pitch shift and distortion processing chain. 
+Slider: The normal use of it controls the delay feedback and by moving it rapidly, the velocity amount is being used for engaging/ disengaging the pitch shift and distortion processing chain.
 
 <figure>
-<img src="/assets/img/IMS1.png" width = "85%" align="center" />
+<img src="/assets/img/2019_10_13_stefanof_IMS1.png" width = "85%" align="center" />
 <figcaption><strong></strong></figcaption>
 </figure>
 
 Also, Here is a picture that shows the pure data patch.
 
 <figure>
-<img src="/assets/img/IMS4.png" width = "85%" align="center" />
+<img src="/assets/img/2019_10_13_stefanof_IMS4.png" width = "85%" align="center" />
 <figcaption><strong></strong></figcaption>
 </figure>
- 
+
 ### Expressiveness, Playability, Learning
 
 **_Expressiveness:_** Expressiveness in this case could refer to intelligent recognition of gesture in order to characterize the gesture. Of course by make the appropriate mapping and more gesture-sound mapping, more expressiveness could be acheived. But it is important to mention that the performer should achieve a level of virtuosity by more practice, in order to experience that matter.  
@@ -92,7 +92,7 @@ This is the expert user's evaluation that I received, from Karolina Jawad.
 **_Things that can be worked upon:_** audibility of what is happening through which action could be a little bit more
 direct since there are many parameters, but it is at the same instance a positive effect of complexity.
 
- 
+
 ### Present issues / Further development
 * Robustness: There should be more time spent and more relevant equipment used in order to robust the instrument
 * Moving on from the initial idea: Considering having more time to practice and build the instrument adn also having proper equipment in touch, the initial idea could be implemented.  

@@ -64,7 +64,7 @@ The LittleBits synth kit, close up  (I did not take pictures except from group B
 And through the rest of the afternoon we experimented with building mini musical instruments by setting up chains of different components from the LittleBits KIT and routing them in various ways. Everyone experimented with finding their own unique sound by creating their own unique device.
 
 <figure>
-<img src="/assets/img/LittleBits-Instrument.jpg" alt="LittleBits instrument" width="80%" align="middle"/>
+<img src="/assets/img/2018_10_18_stefanof_LittleBits-Instrument.jpg" alt="LittleBits instrument" width="80%" align="middle"/>
 <figcaption>Fig 3: LittleBits instrument </figcaption>
 </figure>
 

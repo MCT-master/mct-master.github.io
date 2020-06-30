@@ -34,7 +34,7 @@ new instruments.
 **Twitter**: [@junojensen](https://twitter.com/junojensen), [@kosolabel](https://twitter.com/kosolabel)
 [junojensen.com](http://junojensen.com/)
 
-<img src="/assets/img/JunoJensen.jpg" width="30%" />
+<img src="/assets/img/2018_08_23_stefanof_JunoJensen.jpg" width="30%" />
 
 ## Jørgen Nygård Varpe
 

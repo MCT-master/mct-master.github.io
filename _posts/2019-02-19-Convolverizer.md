@@ -89,7 +89,7 @@ Research, design and programming were carried out in collaboration so that the p
 The strategy we used has the advantage of being a very open and collaborative working style. With our group dynamics in terms of previous knowledge, we could risk that one person did most of the work and the others did less. With a shared screen and open dialogue, we prevented that.
 
 <figure align="middle">
-<img src="/assets/img/Group2.jpg" alt="The Team Working in the Group Room " width="90%">
+<img src="/assets/img/2019_02_19_stefanof_Group2.jpg" alt="The Team Working in the Group Room " width="90%">
 <figcaption><strong>The Team Working in the Group Room </strong></figcaption>
 </figure>
 

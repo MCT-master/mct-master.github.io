@@ -63,7 +63,7 @@ There is a voice which interrupts randomly the news-reports, every time you push
 
 
 <figure>
-<img src="/assets/img/joel2.jpg" width = "90%" align="center" />
+<img src="/assets/img/2019_04_30_stefanof_joel2.jpg" width = "90%" align="center" />
   <figcaption>'Do you remember?'</figcaption>
 </figure>
 
