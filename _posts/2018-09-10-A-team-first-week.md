@@ -4,12 +4,12 @@ title: "A-team - first week"
 date: 2018-09-10 16:19:42 +0200
 categories: Portal
 author: JJ, EW, SR, SH, JNV
-image: /assets/img/jnv_portal.jpg
+image: /assets/img/2018_09_10_stefanof_jnv_portal.jpg
 excerpt: The first week at The Portal was interesting. Most of the equipment was not ready for use, and the TICO system network card crashed two days before opening ceremony. Our group, Jørgen, Espen, Sam and Juno, started working on Monday 27. August, and tried to set up the Polycom system as a backup for the week in the Portal.
 ---
 
 <figure>
-<img src="/assets/img/jnv_portal.jpg" alt="Trondheim portal room" width="50%">
+<img src="/assets/img/2018_09_10_stefanof_jnv_portal.jpg" alt="Trondheim portal room" width="50%">
 <figcaption><strong>Fig 2: The portal setup in Trondheim</strong></figcaption>
 </figure>
 
@@ -22,7 +22,7 @@ Our group, Jørgen, Espen, Sam and Juno, started working on Monday 27. August, a
 Polycom is a [video conference system]()
 
 <figure>
-<img src="/assets/img/polycom.jpg" alt="Polycom" width="50%">
+<img src="/assets/img/2018_09_10_stefanof_polycom.jpg" alt="Polycom" width="50%">
 <figcaption><strong>Fig 1: The Polycom</strong></figcaption>
 </figure>
 
@@ -34,12 +34,12 @@ Polycom is a [video conference system]()
 In order to set up the sound system in the temporary portal room back in Trondheim, we (Jørgen and Sepehr) used 4 microphones (Cardioid polar pattern) to capture the sound of the people; each capturing approximately 2 people, sitting on a table (we had 4 tables in the room). The signal went to the Mixer we had up and running via 4 separate channels. After that the signal traveled from 2 outputs (left and right) of the mixer to the left and right input of the sound card, of the main computer in the temporary portal room.
 
 <figure>
-<img src="/assets/img/jnv_portal.jpg" alt="Trondheim portal room" width="50%">
+<img src="/assets/img/2018_09_10_stefanof_jnv_portal.jpg" alt="Trondheim portal room" width="50%">
 <figcaption><strong>Fig 2: The portal setup in Trondheim</strong></figcaption>
 </figure>
 
 <figure>
-<img src="/assets/img/jnv_mixer.jpg" alt="mixer" width="50%">
+<img src="/assets/img/2018_09_10_stefanof_jnv_mixer.jpg" alt="mixer" width="50%">
 <figcaption><strong>Fig 3: The mixer</strong></figcaption>
 </figure>
 
@@ -146,26 +146,26 @@ So, first week working on the Portal. There has been progress on getting the TIC
 One aspect of the portal that we have adjusted is the table and mic placement in Oslo. First we adjusted the table alignment. We moved the two back tables into a horizontal position, so firstly the students will be closer to the camera, and the wider length at the back fits the camera view better. It made the Oslo students slightly better to see from Trondheim, and it also helped for the mic placement.
 
 <figure>
-<img src="/assets/img/image_from_ios-2.jpg" alt="The portal room" width="50%">
+<img src="/assets/img/2018_09_10_stefanof_image_from_ios-2.jpg" alt="The portal room" width="50%">
 <figcaption><strong>Fig 4: The portal room</strong></figcaption>
 </figure>
 
 The set up is two condenser mics (AKG C414) and two dynamic (Shure SM58). After some experimentation and with Jorgen and Sepir sound checking from the other side, we found that the condenser mics were better positioned at the front of the class near the screen, and the dynamic mics placed for the students at the back. We tested this by moving to each seat in the class and testing by speaking and whispering into the mics, and asking Trondheim how clearly we could be heard.
 
 <figure>
-<img src="/assets/img/image_from_ios-3.jpg" alt="The mic setup" width="50%">
+<img src="/assets/img/2018_09_10_stefanof_image_from_ios-3.jpg" alt="The mic setup" width="50%">
 <figcaption><strong>Fig 5: The microphone setup</strong></figcaption>
 </figure>
 
 <figure>
-<img src="/assets/img/image_from_ios-1.jpg" alt="AKG microphone" width="50%">
+<img src="/assets/img/2018_09_10_stefanof_image_from_ios-1.jpg" alt="AKG microphone" width="50%">
 <figcaption><strong>Fig 6: AKG microphone</strong></figcaption>
 </figure>
 
 We found the cardioid setting on the AKG was the clearest for this classroom setting. The dynamic mics are on stands, which can be moved around both the back tables. We suggest that if you can move the mice closer to you when you are speaking through the portal from the back tables - especially if your voice is a little quieter! This works practically, but spoils some of the immersion potential of the portal, you are very aware of the separation when you have to consciously move the mic each time someone at the back wants to communicate.
 
 <figure>
-<img src="/assets/img/image_from_ios.jpg" alt="The mixer" width="50%">
+<img src="/assets/img/2018_09_10_stefanof_image_from_ios.jpg" alt="The mixer" width="50%">
 <figcaption><strong>Fig 7: The mixer</strong></figcaption>
 </figure>
 

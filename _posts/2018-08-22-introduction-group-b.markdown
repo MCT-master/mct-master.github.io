@@ -65,6 +65,6 @@ Eigil Aandahl \(pronounced _Aygil On'dahl_\) :loud_sound:
 24 y old from Tromsø in northern Norway. BA in music technology from NTNU. Plays percussion and synthesizers, with a particular interest in modular synthesizers interfacing with digital tech. Is not that active on social media, but can be found on [Facebook](https://www.facebook.com/eigil.aandahl), [Instagram](https://www.instagram.com/eigil94/), and [Discord](https://discordapp.com/) as Eigil94.
 Other activities include swimming, hiking and playing different videogames, and can be found on [Steam](https://steamcommunity.com/id/eigil94).
 
-![Photo of Eigil](/assets/img/EigilAandahl.jpg)
+![Photo of Eigil](/assets/img/2018_08_22_stefanof_EigilAandahl.jpg)
 
 <eigil94@gmail.com>

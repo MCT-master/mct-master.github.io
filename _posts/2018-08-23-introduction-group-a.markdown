@@ -8,7 +8,7 @@ image: /assets/img/Group-A-Y1.jpg
 excerpt: "With a background from <strong>music, media, journalism, sound engineering, electronics and programming</strong>; the A-team aims to approach the MCT program with <strong>enthusiasm, curiosity and professionalism</strong>. We believe that our <strong>diversity</strong> and varied skill set will be a catalyst to achieive <strong>artistic innovation</strong> in a hyper technological world."
 ---
 
-![Photo of Group A](/assets/img/Group-A-Y1.jpg "Group A")
+![Photo of Group A](/assets/img/2018_08_23_stefanof_Group-A-Y1.jpg "Group A")
 
 # A-Team
 
@@ -22,7 +22,7 @@ A 32 year old hailing from UK, and now living in Oslo, Sam 'Dr' Roman is primari
 specializing in **Ableton live**, with experience founding and **promoting music events** and groups in both London and UK. Sam also has
 studied **journalism & Photography** in London.
 
-<img src="/assets/img/SamRoman.jpg" width="30%" />
+<img src="/assets/img/2018_08_23_stefanof_SamRoman.jpg" width="30%" />
 
 ## Juno Jensen
 Dreaming about the universe - **composing, producing, recording, singing and performing**; Juno has 16 years of experience as a
@@ -42,7 +42,7 @@ Jørgen Nygård Varpe is a 26 year old from Førde; Norway. He has a Bachelor's 
 **Music Technology**, has a background from playing bass guitar in bands, and has in the recent years worked with **music production**,
 **recording** and **sound design**. Jørgen also has experience with **programming** for web, sound and Arduino.
 
-<img src="/assets/img/JorgenNygardVarpe.jpg" width="30%" />
+<img src="/assets/img/2018_08_23_stefanof_JorgenNygardVarpe.jpg" width="30%" />
 
 ## Espen Wik
 
@@ -50,7 +50,7 @@ Espen Wik is a **video producer, photographer and editor**, located in Beitostø
 independent production companies. Espen has a former **music education** from **The University of Oslo, The Music Conservatory in
 Buskerud and The Music Conservatory in Oslo.**
 
-<img src="/assets/img/EspenWik.jpg" width="30%" />
+<img src="/assets/img/2018_08_23_stefanof_EspenWik.jpg" width="30%" />
 
 ## Sepehr Haghighi
 

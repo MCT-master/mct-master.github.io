@@ -4,7 +4,7 @@ title:  "MCT Heroes"
 date:   2018-11-14 14:23
 categories: HCI
 author: Eirik Dahl and Karolina Jawad
-image: /assets/img/Frank-Zappa.jpg
+image: /assets/img/2018_11_14_stefanof_Frank-Zappa.jpg
 excerpt: "During our Human Computer interaction seminar, Anna Xambó asked us to create a blog post with notable people in music technology that inspire us. Here are the submissions from the class."
 ---
 
@@ -17,7 +17,7 @@ Text: Mari Lesteberg
 
 
 <figure>
-<img src="/assets/img/Frank-Zappa.jpg" alt="patch_patch" width="60%" align="middle"/>
+<img src="/assets/img/2018_11_14_stefanof_Frank-Zappa.jpg" alt="patch_patch" width="60%" align="middle"/>
 <figcaption></figcaption>
 </figure>
 
@@ -35,7 +35,7 @@ Frank Zappa was an American composer, musician and producer born in 1940 in Mary
 Text: Eigil Aandahl
 
 <figure>
-<img src="/assets/img/vangelis.jpg" alt="patch_patch" width="60%" align="middle"/>
+<img src="/assets/img/2018_11_14_stefanof_vangelis.jpg" alt="patch_patch" width="60%" align="middle"/>
 <figcaption></figcaption>
 </figure>
 
@@ -78,7 +78,7 @@ Related work/accomplishment:
 Text: Jonas Bjordal
 
 <figure>
-<img src="/assets/img/image_489.jpg" alt="patch_patch" width="45%" align="middle"/>
+<img src="/assets/img/2018_11_14_stefanof_image_489.jpg" alt="patch_patch" width="45%" align="middle"/>
 <figcaption></figcaption>
 </figure>
 
@@ -103,7 +103,7 @@ Today Frankel is making updates for Reaper on a regular basis listening to the r
 Text: Eirik Dahl
 
 <figure>
-<img src="/assets/img/Robert-Fripp.jpg" alt="patch_patch" width="60%" align="middle"/>
+<img src="/assets/img/2018_11_14_stefanof_Robert-Fripp.jpg" alt="patch_patch" width="60%" align="middle"/>
 <figcaption></figcaption>
 </figure>
 
@@ -124,7 +124,7 @@ Text: Sepehr Haghighi
 
 
 <figure>
-<img src="/assets/img/Keith-Rowe.jpg" alt="patch_patch" width="60%" align="middle"/>
+<img src="/assets/img/2018_11_14_stefanof_Keith-Rowe.jpg" alt="patch_patch" width="60%" align="middle"/>
 <figcaption></figcaption>
 </figure>
 
@@ -145,7 +145,7 @@ He was the pioneer of Electro Acoustic Improvisation (EAI) and many artists in r
 Text: Karolina Jawad
 
 <figure>
-<img src="/assets/img/Laurie-Spiegel.jpg" alt="foto via the verge com" width="60%" align="middle"/>
+<img src="/assets/img/2018_11_14_stefanof_Laurie-Spiegel.jpg" alt="foto via the verge com" width="60%" align="middle"/>
 <figcaption></figcaption>
 </figure>
 
@@ -167,7 +167,7 @@ Text: Jørgen Nygård Varpe
 
 
 <figure>
-<img src="/assets/img/Harold-Burroughs-Rhodes.jpg" alt="patch_patch" width="60%" align="middle"/>
+<img src="/assets/img/2018_11_14_stefanof_Harold-Burroughs-Rhodes.jpg" alt="patch_patch" width="60%" align="middle"/>
 <figcaption></figcaption>
 </figure>
 
@@ -205,7 +205,7 @@ Misha can be recognized as a pioneer of the “Djent” movement in the modern h
 Text: Samuel Roman
 
 <figure>
-<img src="/assets/img/Liam-Howlett.jpg" alt="patch_patch" width="60%" align="middle"/>
+<img src="/assets/img/2018_11_14_stefanof_Liam-Howlett.jpg" alt="patch_patch" width="60%" align="middle"/>
 <figcaption></figcaption>
 </figure>
 
@@ -225,7 +225,7 @@ He is a classically trained pianist and DJ.  During the 1980s he was attracted t
 Text: Shreejay Shrestha
 
 <figure>
-<img src="/assets/img/Tom-Morello.jpg" alt="patch_patch" width="60%" align="middle"/>
+<img src="/assets/img/2018_11_14_stefanof_Tom-Morello.jpg" alt="patch_patch" width="60%" align="middle"/>
 <figcaption></figcaption>
 </figure>
 
@@ -244,7 +244,7 @@ Born in May 30, 1964, Thomas Baptiste Morello is known as Tom Morello. He is an 
 Text: Guy Sion
 
 <figure>
-<img src="/assets/img/Lars-Dietrich.jpg" alt="patch_patch" width="60%" align="middle"/>
+<img src="/assets/img/2018_11_14_stefanof_Lars-Dietrich.jpg" alt="patch_patch" width="60%" align="middle"/>
 <figcaption></figcaption>
 </figure>
 
@@ -260,7 +260,7 @@ Lars Dietrich is a Dutch saxophonist, composer and electronic musician. He grew 
 Text: Espen Wik
 
 <figure>
-<img src="/assets/img/we-stockhausen_1960carchives_stockausenfoundationformusic.jpg" alt="patch_patch" width="50%" align="middle"/>
+<img src="/assets/img/2018_11_14_stefanof_stockhausen.jpg" alt="patch_patch" width="50%" align="middle"/>
 <figcaption></figcaption>
 </figure>
 

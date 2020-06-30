@@ -4,7 +4,7 @@ title: "A generic overview to the 'Sound in Space' exhibition at KIT"
 date: 2019-04-30 12:30:00 +0200
 categories: Sonification
 author: Karolina Jawad
-image: /assets/img/egg.jpg
+image: /assets/img/2019_04_30_stefanof_egg.jpg
 excerpt: "Marking the final event before Easter and from our Sonification and Sound design course I was tasked to visit the group exhibition 'Sound in Space' that took place on the 11th of April at Gallery KIT, Trondheim.
 It was also the closing event for the sound art course in which music-technology and fine art academy students (NTNU) could participate."
 Keywords: Sonification, Human Computer interaction
@@ -34,7 +34,7 @@ The context of interactive sound art can challenge new experiences with music an
 
 
 <figure>
-<img src="/assets/img/speaking_fox.jpg" width = "60%" align="center" />
+<img src="/assets/img/2019_04_30_stefanof_speaking_fox.jpg" width = "60%" align="center" />
   <figcaption>Talking fox made by a fine art academy student</figcaption>
 </figure>
 
@@ -90,7 +90,7 @@ Listen here:
 </figure>
 
 <figure>
-<img src="/assets/img/Emil.png" width = "100%" align="center" />
+<img src="/assets/img/2019_04_30_stefanof_Emil.png" width = "100%" align="center" />
   <figcaption>Emiel Huij's prototype</figcaption>
 </figure>
 

@@ -4,7 +4,7 @@ title: "Reflections on the christmas concert"
 date: 2019-11-30 17:57:30 +0100
 categories: Portal
 author: Ulrik, Thibault, Gaute, Rayam
-image: /assets/img/christmas19/cover.jpg
+image: /assets/img/2019_11_30_stefanof_cover.jpg
 excerpt: "Trondheim reflects on the christmas concert 2019"
 ---
 
@@ -14,7 +14,7 @@ Tuesday the 26th was set aside for the yearly christmas concert where high schoo
 
 The rest of Monday was spent on staging the Portal for a concert. This work consisted of rigging up a set of new cameras, speakers, microphones and appropriate lighting. We had to figure out how to set up the Portal so that the musicians on both sides would be able to look at each other while playing without too much effort, and that the musicians also could see the audience in Trondheim and Oslo. At the end of Monday, we were done with everything except connecting the multi-channel audio setup in Lola and mixing the instruments together. The picture below shows the state of the Portal at the end of Monday.
 
-![The state of the Portal after Monday's rigging session](/assets/img/christmas19/portal_monday.jpg)
+![The state of the Portal after Monday's rigging session](/assets/img/2019_11_30_stefanof_portal_monday.jpg)
 
 Tuesday was spent on setting up a multi-channel audio connection between the two campuses, and to mix the audio. Surprisingly, there were some hiccups with the Lola connection, and we initially received a lot of clicks and pops through our Midas mixer. Initial attempts to fix the issue included changing the buffer size and verifying sample rates all over, but nothing helped significantly. After a while, we found out that the issue was on our side. After some further debugging, it became clear that the issue was related to the conversion of the signal in the RME card. There happened to be an extra RME card in the aforementioned portable Portal setup, so we swapped the two cards, which solved all our problems. Thanks to great problem solving by Daniel who saved the day.
 
