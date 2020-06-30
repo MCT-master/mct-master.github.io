@@ -9,14 +9,14 @@ excerpt: "Final week before christmas. After months of experimentation with micr
 ---
 
 <figure align="middle">
-<img src="/assets/img/Ateam_dropouts.PNG" alt="" width="70%">
+<img src="/assets/img/2018_11_29_stefanof_Ateam_dropouts.PNG" alt="" width="70%">
 </figure>
 <br>
 
 ### Oslo - Rearrange in the membrane
 
 <figure align="middle">
-<img src="/assets/img/Ateam_CableMess.jpg" alt="" width="70%">
+<img src="/assets/img/2018_11_29_stefanof_Ateam_CableMess.jpg" alt="" width="70%">
 <figcaption align="middle"><strong>“Spaghetti Junction” - aka the portal before</strong></figcaption>
 </figure>
 
@@ -27,7 +27,7 @@ The main aim in Oslo was to move the _LOLA_ and _TICO_ set up to the other end o
 Monday we got together, with many of the _MCT team_, and moved the whole setup. I present to you the new, improved portal room….
 
 <figure align="middle">
-<img src="/assets/img/Ateam_tidyAF.jpg" alt="" width="70%">
+<img src="/assets/img/2018_11_29_stefanof_Ateam_tidyAF.jpg" alt="" width="70%">
 <figcaption align="middle"><strong>Oslo's new portal room</strong></figcaption>
 </figure>
 
@@ -49,7 +49,7 @@ After a week with Øyvind Brandtsegg, exploring _Digital Signal Processing_ (DSP
 On monday we rearranged the tables and placed two condenser microphones in front of the tables, as you can see in the picture below. This is how Oslo sees Trondheim, being captured by a _Huddlecam PTZ camera_ over _TICO_. Yes, we connected _TICO_, and it looks really good!
 
 <figure align="middle">
-<img src="/assets/img/Ateam_trondheim.jpg" alt="" width="70%">
+<img src="/assets/img/2018_11_29_stefanof_Ateam_trondheim.jpg" alt="" width="70%">
 <figcaption align="middle"><strong>Trondheim looking good! <i>(The HUGE cable in front of the camera was removed)</i></strong></figcaption>
 </figure>
 

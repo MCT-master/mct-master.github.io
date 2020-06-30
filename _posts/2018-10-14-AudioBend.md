@@ -4,7 +4,7 @@ title: 'AudioBend'
 date: 2019-10-14 17:16:42 +0200
 categories: Interactive-Systems
 author: Ashane Silva
-image: /assets/img/AudioBend.jpg
+image: /assets/img/2019_10_14_stefanof_AudioBend.jpg
 excerpt: 'My project idea for the Interactive Music Systems was to build a glove that can manipulate sound.  It was actually inspired by seeing the “mi.mu Gloves”.  The paper on the “Data Glove” gave me ideas on the design aspect of the glove although the way it works is a bit more different than what I use in my glove. “Data glove” uses multiple flex sensors on the fingers and force sensitive sensors to contact the finger tips and an accelerometer to get data from the wrist control. In my glove I used flex sensor on index finger, 3 – axis accelerometer on my hand and a Distance Ultrasonic sensor on my palm. Attaching those stuff to the glove was a bit tricky but “ducktape” saved my life.'
 ---
 
@@ -20,7 +20,7 @@ The circuit made to sit top of the Bela Cape and sensors were connected to the c
 1. Flex Sensor
 
    <figure>
-   <img src="/assets/img/flex.jpg" width = "50%" align="center" />
+   <img src="/assets/img/2019_10_14_stefanof_flex.jpg" width = "50%" align="center" />
    </figure>
 
 2. Acceleroeter
@@ -31,7 +31,7 @@ The circuit made to sit top of the Bela Cape and sensors were connected to the c
 
 3. Ultrasonic Sensor
    <figure>
-   <img src="/assets/img/ULTRA.jpg" width = "50%" align="center" />
+   <img src="/assets/img/2019_10_14_stefanof_ULTRA.jpg" width = "50%" align="center" />
    </figure>
 
 # PD sound Module.
@@ -39,7 +39,7 @@ The circuit made to sit top of the Bela Cape and sensors were connected to the c
 The Pure data patch is based on granular synthesis. It has following sections. And It needs and audio sample and I used a pad sample.
 
 <figure>
-<img src="/assets/img/SOUNDM.png" width = "50%" align="center" />
+<img src="/assets/img/2019_10_14_stefanof_SOUNDM.png" width = "50%" align="center" />
 </figure>
 
 # The Mapping
