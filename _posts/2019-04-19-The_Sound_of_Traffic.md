@@ -236,7 +236,7 @@ queue.put(t0 + delay + onset, sc.msg, ("/n_free", 1236))
  </figure>
 
 <figure>
-<img src="/assets/img/Bus_NE_SE.png" width = "75%" align="center" />
+<img src="/assets/img/2019_04_19_stefanof_Bus_NE_SE.png" width = "75%" align="center" />
   <figcaption>Figure 6: Prototype-2, Buses & Coaches in the North East & South East Region</figcaption>
 </figure>
 
@@ -257,7 +257,7 @@ queue.put(t0 + delay + onset, sc.msg, ("/n_free", 1236))
 </figure>
 
 <figure>
-<img src="/assets/img/Car_NE_SE.png" width = "75%" align="center" />
+<img src="/assets/img/2019_04_19_stefanof_Car_NE_SE.png" width = "75%" align="center" />
   <figcaption>Figure 7: Prototype-2, Cars & Taxies in the North East & South East Region</figcaption>
 </figure>
 
@@ -278,7 +278,7 @@ queue.put(t0 + delay + onset, sc.msg, ("/n_free", 1236))
 </figure>
 
 <figure>
-<img src="/assets/img/Bike_NE_SE.png" width = "75%" align="center" />
+<img src="/assets/img/2019_04_19_stefanof_Bike_NE_SE.png" width = "75%" align="center" />
   <figcaption>Figure 8: Prototype-2, Motorbikes in the North East & South East Region</figcaption>
 </figure>
 

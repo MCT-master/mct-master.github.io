@@ -4,18 +4,18 @@ title:  "How to stream content from the portal"
 date:   2019-01-30 16:40:00 +0200
 categories: Portal
 author: Eigil Aandahl & Sepehr Haghighi
-image: /assets/img/broadcasting.jpg
+image: /assets/img/2019_01_30_stefanof_broadcasting.jpg
 excerpt: "In this blogpost, we will try to explain in more detail how these streams have been set up using OBS, Open Broadcaster Software and Youtube Live while being connected between Trondheim and Oslo. This can be of use for anyone looking to set up a co-located stream of a speaker or performance."
 
 ---
 
 <figure align="middle">
-<img src="/assets/img/broadcasting.jpg" alt="Broadcasting header image" width="70%">
+<img src="/assets/img/2019_01_30_stefanof_broadcasting.jpg" alt="Broadcasting header image" width="70%">
 </figure>
 <br>
 
 
-In 2006, [Time Magazine names "You" as the person of the year](http://content.time.com/time/magazine/article/0,9171,1570810,00.html). This was because of the explosion of community based content and the impact people on the internet could have. Since then, the accessibility of creating and sharing content online has increased tremendously, and the ability to broadcast sound and video has been similarly democratised. We at MCT have also been exploring ways of broadcasting some of what goes on in The Portal to a wider audience (NTNU/Trondheim, UiO/Oslo and online viewers, particularly in the context of [WoNoMute and the monthly talks by women in music technology](http://wonomute.no/). 
+In 2006, [Time Magazine names "You" as the person of the year](http://content.time.com/time/magazine/article/0,9171,1570810,00.html). This was because of the explosion of community based content and the impact people on the internet could have. Since then, the accessibility of creating and sharing content online has increased tremendously, and the ability to broadcast sound and video has been similarly democratised. We at MCT have also been exploring ways of broadcasting some of what goes on in The Portal to a wider audience (NTNU/Trondheim, UiO/Oslo and online viewers, particularly in the context of [WoNoMute and the monthly talks by women in music technology](http://wonomute.no/).
 
 In this blogpost, we will try to explain in more detail how these streams have been set up using [OBS, Open Broadcaster Software](https://github.com/MCT-master/Portal/wiki/Open-Broadcaster-Software-Studio) and [Youtube Live](https://www.youtube.com/channel/UC4R8DWoMoI7CAwX8_LjQHig/about) while being connected between Trondheim and Oslo. This can be of use for anyone looking to set up a co-located stream of a speaker or performance.
 
@@ -45,24 +45,24 @@ A couple of notes on streaming with Youtube. Compared to some of the other solut
 Here we present how we have setup streaming from The Portal. It should be noted that this is only one of many possible solutions, and might not be exactly how we will do this in the future.
 
    In order to have a proper communication, two computers are needed in the place that the presenter is and one on the other side of The Portal. The computers in Trondheim are used for streaming, setting up LOLA for audio sharing and video sharing (presentation and live videos), using Zoom video conference. The third computer (in Oslo) is used for receiving and sending the sound and image, via LOLA and Zoom video conference. Also a mixer is required to mix the sounds in the presenter's place. Below we shall explain the signal chain and the way that audio/visual aspect of this presentation could be set up. See also the flowchart below for an overview of the different audio and video signals going between Trondheim, Oslo and streaming.
-   
+
    <figure align="middle">
-<img src="/assets/img/Flowchartstreaming.jpg" alt="Flowchart for the streaming setup" width="70%">
+<img src="/assets/img/2019_01_30_stefanof_Flowchartstreaming.jpg" alt="Flowchart for the streaming setup" width="70%">
 <figcaption align="middle"><strong>Flowchart for the streaming setup between Oslo and Trondheim.</strong></figcaption>
 </figure>
-    
+
   First we will look more thouroughly at the audio setup.
     There could in this case be three audio sources in Trondheim, where the presenter is, and one in Oslo to pickup questions from the audience.
-    The audio sources in Trondheim consist of: 
-    
-* 1 - Presenter Mic 
-* 2 - Presentation material (presenter's laptop) 
+    The audio sources in Trondheim consist of:
+
+* 1 - Presenter Mic
+* 2 - Presentation material (presenter's laptop)
 * 3 - Audience Mic
 
 Those sources are going to the mixer and then sent to Oslo and played back via LOLA system. The same thing happens with the sound from  Oslo. The audience mic in Oslo is going to be received in Trondheim via LOLA and then played back.
     In the end, the sound from the mixer (consisting of all of the sound sources from the two sides) goes to the streaming computer and is played back in the stream.
-    
-   When it comes to the video, the process gets more complicated. Starting from the Trondheim's side, there are three video sources. 
+
+   When it comes to the video, the process gets more complicated. Starting from the Trondheim's side, there are three video sources.
 * 1 - Presenter camera
 * 2 - Presentation material (presenter's laptop)
 * 3 - Audience camera
@@ -75,4 +75,4 @@ Also there is one camera in Oslo to capture the audience. For video communicatio
 That sums up the technical setup we have been using to stream talks from the Portal between Trondheim, Oslo and the wider web through Youtube.
 
 ### Final Remarks
-As stated, the setup described here is only how we have done it lately for the WoNoMute talks, but it is perhaps not the optimal solution, and more trials to improve on the setup are certainly ongoing. It is anyway indicative of the the complex but rewarding activity of connecting places and people, letting them take part in events when they are happening. Hopefully this has been an illuminating read, but if not, [we can probably be reached for answers to your questions](mailto:eigil94@gmail.com). 
+As stated, the setup described here is only how we have done it lately for the WoNoMute talks, but it is perhaps not the optimal solution, and more trials to improve on the setup are certainly ongoing. It is anyway indicative of the the complex but rewarding activity of connecting places and people, letting them take part in events when they are happening. Hopefully this has been an illuminating read, but if not, [we can probably be reached for answers to your questions](mailto:eigil94@gmail.com).

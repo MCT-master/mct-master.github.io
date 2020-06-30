@@ -4,7 +4,7 @@ title:  "Group B, DSP workshop"
 date:   2018-11-23 13:50:00 +0200
 categories: DSP
 author: Mari Lesteberg, Ashane Silva, Shreejay Shrestha & Eigil Aandahl
-image: /assets/img/groupB/mariashane.jpg
+image: /assets/img/2018_11_23_stefanof_mariashane.jpg
 excerpt: "The 4 day DSP workshop introduced some basics of Digital Signal Processing techniques. We were given examples in Csound that focused on physical modeling of a string, and also how to use Csound as a DSP-tool. The exercises allowed us to take ownership of the codes by modifying and creating new sounds. We used simple operations like addition and multiplication to process the digital signals. We enjoyed experimenting with digital waveguides to model sounds travelling through strings and also manipulating with reverbs delay, envelope etc. Trondheim team also built an instrument with a piece of wood connected to a contact mic and used it in some of the tasks."
 ---
 
@@ -21,7 +21,7 @@ The 4 day DSP workshop introduced some basics of Digital Signal Processing techn
 Until now, the DSP workshop must have been one of the funniest weeks of the MCT Introduction course, and one of the weeks with the steepest learning curve for several of us. The week started with a Csound test that was unbelievably difficult for some of us, and more easy for others of us. Those of us who thought the test was difficult, were maybe a little worried about what this week would be bringing of challenges. At least *one* of us, was worried if this week was going to include a lot of math. As it seemed like Csound mostly was a program for solving math problems, not making music... or?
 
 <figure>
-<img src="/assets/img/groupB/kulsupersynth.jpg" alt="Mari's synthesizer" width="50%">
+<img src="/assets/img/2018_11_23_stefanof_kulsupersynth.jpg" alt="Mari's synthesizer" width="50%">
     <figcaption>Mari's supersynth </figcaption>
 </figure>
 
@@ -73,7 +73,7 @@ Then the two sound signal was sent to Trondheim through LoLa for further process
 Then the signal was sent back again, and we think the result was a very nice and relaxing ambient soundscape. Quote from one of Mari's friends: "I could listen to this a whole day".
 
 <figure>
-<img src="https://github.com/MCT-master/mct-master.github.io/blob/master/assets/img/groupB/supersynth.jpg?raw=true" alt="csound" width="50%">
+<img src="/assets/img/2018_11_23_stefanof_supersynth.jpg" alt="csound" width="50%">
     <figcaption>Csound running with Cabbage in Reaper</figcaption>
 </figure>
 
@@ -86,7 +86,7 @@ The final day of the workshop was leading up to a group performance using LoLa t
 Shreejay couldn't join us that day, so our instrument would consist of three "nodes" with Mari's Csound synthesizer being the first in the chain. Before our soundcheck, we were discussing what kind of structure we wanted for our performance. We decided that Mari was starting, by playing long notes on her Cabbage synth. Then the signal went to be processed in Trondheim by Eigil before being sent back to Oslo and Ashane's processing. Ashane's sound was then sent back again to Eigil a second time and the final result was played in both cities. This might be a bit confusing, so we have made this helpful diagram to illustrate the connection:
 
 <figure>
-    <img src="/assets/img/group_B_DSP_diagram.png" alt="signal diagram" width="50%">
+    <img src="/assets/img/2018_11_23_stefanof_group_B_DSP_diagram.png" alt="signal diagram" width="50%">
          <figcaption>Our performance signal path</figcaption>
 </figure>
 

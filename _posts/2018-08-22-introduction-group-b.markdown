@@ -26,7 +26,7 @@ Acoustical Engineer and musician. Recent graduate with a M.Sc. in acoustics and 
 * [Bandcamp](https://machinesque.bandcamp.com/)
 * [SoundCloud](https://soundcloud.com/machinesque/)
 
-![Photo of Dmitry Vasilev](/assets/img/DmitryVasilev.jpeg "Dmitry Vasilev")
+![Photo of Dmitry Vasilev](/assets/img/2018_08_22_stefanof_DmitryVasilev.jpeg "Dmitry Vasilev")
 
 
 ### Ashane Silva

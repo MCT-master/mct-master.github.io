@@ -45,7 +45,7 @@ The set-up during the ceremony was a work in progress, with the Trondheim portal
 	One thing to note on the performance was the link between each performers actions and the sound being made. Our own experience during sound testing and the performance itself was quite different regarding this, and with more people making sound in the performance it was more difficult to hear what we as individuals were doing within the large droning sound.
 
 <figure>
-	<img src="/assets/img/Bela_and_Myo.jpg" alt="Picture of Bela and Myo">
+	<img src="/assets/img/2018_09_07_stefanof_Bela_and_Myo.jpg" alt="Picture of Bela and Myo">
 	<figcaption>Fig.3 The Bela microcontroller and Myo armband. (Photo: Eigil Aandahl)</figcaption>
 </figure>
 

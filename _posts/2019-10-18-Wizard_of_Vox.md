@@ -38,7 +38,7 @@ All these sounds have been modelled in pd using subtractive synthesis:
 - Filtering techniches for obstruants: band pass/band stop filtering
 
 <figure>
-<img src="/assets/img/flow.png" width="80%" height="80%" align="center" />
+<img src="/assets/img/2019_10_18_stefanof_flow.png" width="80%" height="80%" align="center" />
 <figcaption><strong>Figure 2: Audio flow chart</strong></figcaption>
 </figure>
 

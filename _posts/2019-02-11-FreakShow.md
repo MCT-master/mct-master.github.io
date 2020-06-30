@@ -4,7 +4,7 @@ title: "Freak Show"
 date: 2019-02-11 03:59:00 +0200
 categories: Audio-Programming
 author: Sepehr Haghighi
-image: /assets/img/freakshow.jpg
+image: /assets/img/2019_02_11_stefanof_freakshow.jpg
 excerpt: "As my first experience working with Web Audio API, utilizing JS, HTML and CSS; it was quite a challenge, but a pleasant one that lead to the outcome that I wanted and also broadened my perspective, in regards of my future plans."
 ---
 

@@ -4,14 +4,14 @@ title: 'Sonification of Standstill Recordings '
 date: 2020-05-13 15:00:00 +0200
 categories: Masters
 author: Ashane Silva
-image: /assets/img/blogcover.PNG
+image: /assets/img/2020_05_13_stefanof_blogcover.png
 excerpt: 'The goal of this thesis was to develop and experiment with a set of sonification tools to explore participant data from standstill competitions. Using data from the 2012 Norwegian Championship of Standstill, three sonification models were developed using the Max/MSP programming environment. The first section of the thesis introduces sonification as a method for data exploration and discusses different sonification strategies. Momentary Displacement of the position was derived from the position data and parameter mapping methods were used to map the data features with sound parameters. The displacement of position in the XY plane or the position changes along the Z-Axis can be mapped either to white-noise or to a sine tone. The data variables control the amplitude and a filter cut-off frequency of the white noise or the amplitude and frequency of the sine tone. Moreover, using sound spatialization together with sonification was explored by mapping position coordinates to spatial parameters of a sine tone. A “falling” effect of the standing posture was identified through the sonification. Also audible were the participants’ breathing patterns and postural adjustments. All in all, the implemented sonification methods can be effectively used to get an overview of the standstill dataset.'
 Keywords: Masterthesis, Max, Sonification, Standstill
 ---
 
 ## Introduction
 
-Music and body motion are strongly interconnected.As a drummer, I always feel strongly connected to the music with my motion in a performance and I am fascinated by how a genre or the type of music influences the body movements. During the studies in Music, Communication and Technology study program, I had the opportunity to actively participate in the Norwegian Championship for Standstill competition in 2019 and grasp the methods of the whole process starting from setting up the Motion Capture system to choosing the final winner of the competition. The MoCap system outputs a rich continuous data stream with a larger number of data points and my motivation behind the thesis was to combine this data stream with sound to hear the participants’ movements. Moreover, this implementation can be used as an instrument for a “Standstill performance” and opens a new door for a sonic interaction space with human micromotion.
+Music and body motion are strongly interconnected. As a drummer, I always feel strongly connected to the music with my motion in a performance and I am fascinated by how a genre or the type of music influences the body movements. During the studies in Music, Communication and Technology study program, I had the opportunity to actively participate in the Norwegian Championship for Standstill competition in 2019 and grasp the methods of the whole process starting from setting up the Motion Capture system to choosing the final winner of the competition. The MoCap system outputs a rich continuous data stream with a larger number of data points and my motivation behind the thesis was to combine this data stream with sound to hear the participants’ movements. Moreover, this implementation can be used as an instrument for a “Standstill performance” and opens a new door for a sonic interaction space with human micromotion.
 
 
 ## Research Questions
@@ -20,7 +20,7 @@ The thesis is based on One main research question and two other sub-questions. F
 
 #### How can sonification be used as a method to explore music-related micro-motion?
 
-During the Norwegian Championship of Standstill competition, the participants are in a forced condition to not move. And based on past studies, there is statistical evidence that music stimuli have an impact on standing still. Apart from using a visualization method to analyze the micromotion, sonification can be used to listen to the data and find out any audible patterns. The main objective of this question is to find out what kind of difference can be noticed in the motion during the music stimuli is played and whether the sonification can reveal any information that was not visible in statistical studies. 
+During the Norwegian Championship of Standstill competition, the participants are in a forced condition to not move. And based on past studies, there is statistical evidence that music stimuli have an impact on standing still. Apart from using a visualization method to analyze the micromotion, sonification can be used to listen to the data and find out any audible patterns. The main objective of this question is to find out what kind of difference can be noticed in the motion during the music stimuli is played and whether the sonification can reveal any information that was not visible in statistical studies.
 
 1. What kind of motion patterns are audible from the standstill competition data?  
 2. How can spatial audio be used in the sonification of human standstill?
@@ -41,7 +41,7 @@ The second data set is based on the demographic data of each participant and con
 
 ### Sonification Strategies
 
-I used parameter mapping sonification with three different approaches which are, 
+I used parameter mapping sonification with three different approaches which are,
 
 1. Sonification of individual participant data.
 2. Sonification of group average position data.
@@ -68,7 +68,7 @@ As presented in Figure 3.4, displacement position values in the XY plane or posi
     </iframe>
   <figcaption>Video demo:Sonification of Individual Participant Data</figcaption>
 </figure>
-  
+
 # 2. Sonification of Group Average Position Data
 
 Figure 3.4 is an extract from the max patch that calculates average displacement values for each x, y, z Axes for two participant groups. However, this patch is only compatible with the 2012 standstill data and since the average values depend on the number of participants in the group, further customizations are necessary to use it with other standstill competition data sets. In the mapping, a similar approach to the individual participant mapping has being followed. The average position values are used to calculate the average displacement position values in the XY plane and mapped to control the noise amplitude and cut-off frequency or the Sine tone frequency and amplitude. Also, the average Z-axis values can be used to control the parameters of the noise section or the sine tone.
@@ -218,4 +218,3 @@ Worrall, D., Bylstra, M., Barrass, S., & Dean, R. (2007). SoniPy: The design of 
 Worrall, D., Tan, D., & Vanderdonckt, J. (2019). Sonification Design: From Data to Intelligible Soundfields. Cham: Cham: Springer International Publishing.
 
 Zhao, H., Plaisant, C., Shneiderman, B., & Duraiswami, R. (2004). Sonification of Geo-Referenced Data for Auditory Information Seeking: Design Principle and Pilot Study. Paper presented at the ICAD.
-

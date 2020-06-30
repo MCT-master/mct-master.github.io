@@ -66,7 +66,7 @@ After manically trying to solve Pauls copper drumstick and metal rod riddles (mo
 
 Furthermore, choosing a very short amplitude envelope resulted in some clipping when triggering the audio samples, an effect which was used musically in the performance and generated a new iterated dimension to an otherwise “flowey” sound texture.
 
-![alek pd patch](/assets/img/group-c/pd_aleks_pc.jpg)
+![alek pd patch](/assets/img/2019_10_15_stefanof_pd_aleks_pc.jpg)
 
 # Thomas
 

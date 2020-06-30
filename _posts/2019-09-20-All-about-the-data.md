@@ -4,7 +4,7 @@ title:  "Machine Learning, it's all about the data"
 date:   2019-09-20 00:00:00 +0200
 categories: Music-and-Machine-Learning
 author: Eigil Aandahl
-image: /assets/img/data-blur.jpg
+image: /assets/img/2019_09_20_eigila_data-blur.jpg
 excerpt: "For my machine learning project, I wanted to see if I could teach my laptop to distinguish between different types of music using a large amount of data. Using metadata from a large dataset for music analysis, I tested different machine learning classifiers with supervised learning to distinguish between tracks labeled belonging to 'Rock' and 'Electronic'. The project was developed using Python and libraries for data analysis and machine learning."
 ---
 
@@ -16,7 +16,7 @@ I managed to make some progress in the end, but these things take time, so it is
 
 ### The dataset
 Sourcing or collecting data can be both costly and time consuming, but luckily for me and others looking for large amounts of music data, someone has already done the work for us. I was lucky enough to find a dataset that was both large and applicable for the task at hand.
-[FMA: A Dataset for Music Analysis](https://github.com/mdeff/fma) is a large dataset containing free and legal music along with metadata and extracted features. 
+[FMA: A Dataset for Music Analysis](https://github.com/mdeff/fma) is a large dataset containing free and legal music along with metadata and extracted features.
 The dataset is sourced from [The Free Music Archive](https://freemusicarchive.org/), and contains 917 GiB and 343 days of Creative Commons-licensed audio from 106,574 tracks from 16,341 artists and 14,854 albums.
 In other words, a whole lot of ones and zeroes.
 
@@ -29,16 +29,16 @@ Much like in an excel table, the data I was working with was organised in a .csv
 By selecting items with the genres I was looking for and picking the relevant columns, I made a new list of items that could be correlated with the features for each item. This selection numbered 18845 examples which were split with a 70/30 ratio for learning and testing. The last part was to select features and normalise the values.
 
 ### Teaching the models
-I tested four different machine learning algorithms with [Scikit-learn](https://scikit-learn.org/stable/) to see how they performed both in accuracy and time. Each model gave an accuracy of its predictions, and using a [Jupyter Notebook command](https://ipython.readthedocs.io/en/stable/interactive/magics.html#magic-time) I could see how long it took for the CPU to execute a given command. 
+I tested four different machine learning algorithms with [Scikit-learn](https://scikit-learn.org/stable/) to see how they performed both in accuracy and time. Each model gave an accuracy of its predictions, and using a [Jupyter Notebook command](https://ipython.readthedocs.io/en/stable/interactive/magics.html#magic-time) I could see how long it took for the CPU to execute a given command.
 
-[Gaussian naïve bayes](https://en.wikipedia.org/wiki/Naive_Bayes_classifier#Gaussian_naive_Bayes) gave the worst result of the four models with an accuracy of about 66%, but it only took 24.9 ms to train the model. 
+[Gaussian naïve bayes](https://en.wikipedia.org/wiki/Naive_Bayes_classifier#Gaussian_naive_Bayes) gave the worst result of the four models with an accuracy of about 66%, but it only took 24.9 ms to train the model.
 [K-nearest neighbour](https://en.wikipedia.org/wiki/K-nearest_neighbors_algorithm) was also quick, but it performed much better with an accuracy of about 74%.  
 The [Support Vector Machine](https://en.wikipedia.org/wiki/Support-vector_machine) I tried was much slower to train than the other models, using about 5.44 seconds. It also performed slightly lower than some of the others with about 72% accuracy.
-The last model I tried was a [Multilayer Perceptron](https://en.wikipedia.org/wiki/Multilayer_perceptron), which is a basic neural network. This managed to get the best performance with 75% accuracy after tweaking some of the settings, ending up with four hidden layers of six neurons each. It was however also slower to train, taking 3.77 seconds. 
+The last model I tried was a [Multilayer Perceptron](https://en.wikipedia.org/wiki/Multilayer_perceptron), which is a basic neural network. This managed to get the best performance with 75% accuracy after tweaking some of the settings, ending up with four hidden layers of six neurons each. It was however also slower to train, taking 3.77 seconds.
 Below is a graph of the loss curve showing how the model improved its performance as it learns from the data.
 
 <figure>
-<img src="/assets/img/loss-curve-eigil.png" width = "80%" align="center" />
+<img src="/assets/img/2019_09_20_eigila_loss-curve-eigil.png" width = "80%" align="center" />
 <figcaption><strong>Loss prediction of MLP</strong></figcaption>
 </figure>
 

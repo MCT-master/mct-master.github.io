@@ -4,7 +4,7 @@ title: "The Giant Steps Player"
 date: 2019-02-11 20:00:00 +0100
 categories: Audio-Programming
 author: Guy Sion
-image: /assets/img/giantplayer.PNG
+image: /assets/img/2019_02_11_stefanof_giantplayer.PNG
 excerpt: "As part of the MCT master program we are being introduced to a variety of technologies for creating music and sounds. We have just finished a week long workshop learning about Audio programing and web audio API. The benefits of this technology are helpful and relevant in areas like art, entertainment or education. We were introduced to several ways for creating and manipulating sound, follow tutorials and experiment on our own during the days. I must admit that I do not have intensive knowledge in programing in general and javaScript in particular. Many failures accrued while trying, from simple syntax errors to flawed design. But understanding the idea behind each process and striving towards the wanted result was an important progress."
 Keywords: Web Audio API, JavaScript, Tone.js, Oscillator, Giant Steps, Jazz, Melody, Timing
 
@@ -33,7 +33,7 @@ Besides the fact that almost everything was new to me, the most important points
 3. Don't be afraid to (miserably) fail, it's part of the process.
 4. Keep your friend close but your programmer friends even closer.
 
-## Resources 
+## Resources
 During the week I was introduced to many great sites, tutorials and videos which really helped me understand the potential of Web Audio and the implementation of objects within my code. Using the web-browser's view source option is another helpful tool for figuring out the coding behind many of the available examples online.
 
 For Web Audio API I recommend checking out <a href="https://developer.mozilla.org/en-US/docs/Web/API/Web_Audio_API" target="_blank">the API itself</a> and <a href="https://www.toptal.com/web/web-audio-api-tutorial" target="_blank">this Web Audio API tutorial.</a>

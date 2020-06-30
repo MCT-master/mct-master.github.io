@@ -51,3 +51,11 @@ Y – Acceleration mapped to sine LFO frequency and the cutoff.
 Z –acceleration mapped to Sawtooth LFO
 Flex sensor - speed of the sample.
 Ultrasound sensor is mapped to Resonance Frequency.
+
+<figure>
+<img src="/assets/img/2019_10_14_stefanof_GLOVE2.jpg" width = "50%" align="center" />
+</figure>
+
+<figure>
+<img src="/assets/img/2019_10_14_stefanof_GLOVE1.jpg" width = "50%" align="center" />
+</figure>
