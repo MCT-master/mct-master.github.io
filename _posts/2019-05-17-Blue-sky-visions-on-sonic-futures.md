@@ -4,7 +4,7 @@ title: "Blue sky visions on sonic futures"
 date: 2019-05-17 18:30:00 +0200
 categories: Sonification
 author: Karolina Jawad
-image: /assets/img/sonification/Pedro-Pestana.jpeg
+image: /assets/image/sonification/Pedro-Pestana.jpeg
 excerpt: "Pedro Duarte Pestana was the final guest speaker who joined us virtually with his presentation 
 'Career Management in Music Technology / Knowledge Engineering in Music Technology and Sonic Arts' from Porto.
 Pedro was the first student in Portugal who held a PhD in computer music. He works as a researcher and consulter for emerging audio technologies and intelligent systems."
@@ -26,7 +26,7 @@ Pedro was the first student in Portugal who held a PhD in computer music. He tea
 
 
 <figure>
-  <img src="/assets/img/sonification/pedro_academia.JPG " width = "80%" align="center" />
+  <img src="/assets/image/sonification/pedro_academia.JPG " width = "80%" align="center" />
   <figcaption>Biographical overview. Retrieved from Pedro Pestana's presentation</figcaption>
 </figure>
 
@@ -45,7 +45,7 @@ especially one interesting case study among the presented. In that, sound design
 Based on his own career, he pointed out possible career options and sees great potential in "audio analytics" in particular, as reflected in the figure below.
 
 <figure>
-  <img src="/assets/img/sonification/a_blue_sky_vision_of_the_future.JPG " width = "80%" align="center" />
+  <img src="/assets/image/sonification/a_blue_sky_vision_of_the_future.JPG " width = "80%" align="center" />
   <figcaption>Paths and directions in music technology. Retrieved from Pedro Pestana's presentation.</figcaption>
 </figure>
 

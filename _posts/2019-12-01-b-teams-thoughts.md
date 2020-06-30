@@ -4,7 +4,7 @@ title: "The B Team Wraps up the Portal"
 date: 2019-12-1 16:30:00 +0200
 categories: Portal
 author: Jackson Goode, Jarle Steinhovden, Simon Sandvik
-image: /assets/img/b-team/x-mas.jpg
+image: /assets/image/b-team/x-mas.jpg
 excerpt: "We made it out of the Portal, now what?"
 Keywords: Portal, Reflections, Concert
 ---
@@ -15,7 +15,7 @@ Navigating the MCT Portal been an incredibly interesting journey so far. The pro
 But on the flip side, the Portal has also been a source of stress for students and teachers alike and has led us to make improvements over the course of the semester. Though many issues remain, I believe we have made considerable progress and have a clear vision of how we ought to improve it in the coming semesters.
 
 <figure>
-    <img src="/assets/img/b-team/x-mas.jpg" width="650" />
+    <img src="/assets/image/b-team/x-mas.jpg" width="650" />
     <figcaption>Here's a shot of this year's X-mas concert: a culmination of our technical efforts!</figcaption>
 <figure>
 
@@ -24,7 +24,7 @@ But on the flip side, the Portal has also been a source of stress for students a
 Two of the more prominent learning outcomes of the portal course has been becoming familiar with the mixing board and its capabilities as well as the attention to the character of sound during live sessions. We spent a lot of time with the M32 Midas mixer and as a result, the students of the MCT program were able to deftly handle the mapped channels, effects, and hardware when configurations needed to be changed. Because of each of our individual backgrounds, some of us were more experienced with these audio interfaces than others. This led to teaching roles within the student groups at Oslo and Trondheim that were able to assist with bonding as the semester began and fill in the gaps of our formal education. One consequence of this was that when there arrived situations that called for a comprehensive understanding of a particular system, the experienced students often took to the role instead of those who were less familiar. We also became attune to the quality of the audio that we were receiving from Trondheim and during musical performances. Most of this concerned the reduction of feedback and hum within the system but I would also argue that it made us more attentive listeners in the process.
 
 <figure>
-    <img src="/assets/img/b-team/feedback.png" width="500">
+    <img src="/assets/image/b-team/feedback.png" width="500">
     <figcaption>A lovely diagram by Jarle.</figcaption>
 </figure>
 

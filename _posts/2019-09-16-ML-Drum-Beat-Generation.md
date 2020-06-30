@@ -3,7 +3,7 @@ layout: post
 title: 'MIDI drum beat generation'
 date: 2019-09-16 16:00:00 +0200
 categories: Music-and-Machine-Learning
-image: /assets/img/Elias/Rock_Drum-Beat.png
+image: /assets/image/Elias/Rock_Drum-Beat.png
 author: Elias Sukken Andersen
 Keywords: Workshop, Machine learning, Recurrent Neural Network, MIDI
 ---

@@ -4,7 +4,7 @@ title: 'Microphone Testing Results'
 date: 2019-10-21 18:00:00 +0200
 categories: Portal
 author: Jackson Goode
-image: /assets/img/portal/many_mics.png
+image: /assets/image/portal/many_mics.png
 excerpt: "We've spent a few days (in addition to the many miscellanous hours during class) reconfiguring the Portal and testing out new hardware and how it might improve the quality of our sound."
 ---
 We've spent a few days (in addition to the many miscellanous hours during class) reconfiguring the Portal and testing out new hardware and how it might improve the quality of our sound. Here are a list of microphones we were able to test over the MCT 4021 class. This list will likely be updated with any new mics we test and other miscellaneous notes we find about our experiences streaming with them.
@@ -25,7 +25,7 @@ These criteria were loosely based around these qualities of a microphone and the
 ### MD421 (in Oslo)
 
 <figure>
-<img src="/assets/img/portal/md421.jpg" width = "30%">
+<img src="/assets/image/portal/md421.jpg" width = "30%">
 </figure>
 
 	• needs more gain
@@ -38,7 +38,7 @@ These criteria were loosely based around these qualities of a microphone and the
 ### SM7b (in Trondheim)
 
 <figure>
-<img src="/assets/img/portal/sm7b.jpg" width = "30%">
+<img src="/assets/image/portal/sm7b.jpg" width = "30%">
 </figure>
 
     • dryer
@@ -53,7 +53,7 @@ These criteria were loosely based around these qualities of a microphone and the
 ### Sennheiser 835 (in Oslo)
 
 <figure>
-<img src="/assets/img/portal/s835.jpg" width = "30%">
+<img src="/assets/image/portal/s835.jpg" width = "30%">
 </figure>
 
     • drier
@@ -70,7 +70,7 @@ These criteria were loosely based around these qualities of a microphone and the
 ### Boundary mic (in Trondheim)
 
 <figure>
-<img src="/assets/img/portal/boundary_mic.jpg" width = "30%">
+<img src="/assets/image/portal/boundary_mic.jpg" width = "30%">
 </figure>
 
     • space wise, very little clutter
@@ -81,7 +81,7 @@ These criteria were loosely based around these qualities of a microphone and the
 ### Shotgun mic (in Trondheim)
 
 <figure>
-<img src="/assets/img/portal/shotgun_mic.jpg" width = "30%"/>
+<img src="/assets/image/portal/shotgun_mic.jpg" width = "30%"/>
 </figure>
 
     • clear and collected
@@ -93,7 +93,7 @@ These criteria were loosely based around these qualities of a microphone and the
 ### AT AE5100 (X/Y Stereo) (in Oslo)
 
 <figure>
-<img src="/assets/img/portal/ae5100.jpg" width = "30%"/>
+<img src="/assets/image/portal/ae5100.jpg" width = "30%"/>
 </figure>
 
     • clear and transparent
@@ -106,7 +106,7 @@ These criteria were loosely based around these qualities of a microphone and the
 ### Overhead mic
 
 <figure>
-<img src="/assets/img/portal/biamp.jpg" width = "30%">
+<img src="/assets/image/portal/biamp.jpg" width = "30%">
 </figure>
 
     • good spatialization

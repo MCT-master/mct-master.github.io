@@ -4,7 +4,7 @@ title: "I scream, you scream, we all scream for livestream"
 date: 2020-05-18 22:00:00 +0100
 categories: Portal
 author: Rayam Pinto
-image: /assets/img/gaute/Rayam.jpg
+image: /assets/image/gaute/Rayam.jpg
 excerpt: "Some cameras won't allow you to film for more than 30 minutes, don't use those."
 Keywords: Stream, concert, corona, telematic 
 --- 
@@ -18,7 +18,7 @@ After doing some research, we came to the conclusion that [OBS Studio](https://o
 Have good lighting on stands. 3-point lighting with soft-boxes are preferred. The LED lights are the most reasonable type of lights for this task. When utilizing lamp bulbs, they are very hot and if you don't have a proper dimmer it is overpowering, being even uncomfortable to the artist in the scene. If you don't have proper material, like a diffuser for example, you are gonna deal with harsh lighting, which is not aesthetically appealing and it doesn't look professional at all. By the other hand, when it comes to LED lights, in most models you have much more control of the intensity and other features of the light. Even in the cheapest models, you can find temperature control, intensity (dimmering) and some of them come with a soft-box for diffusing the lights. The LED lights are also much lighter and portable, requiring cheaper stands and less effort to transport it and set it up.
 
 <figure>
-<img src="/assets/img/gaute/lamps.jpg" width = "50%" align="center" />
+<img src="/assets/image/gaute/lamps.jpg" width = "50%" align="center" />
 </figure>
 
 We have used 2 spot lights, but they were too big and too heavy for the task. No need to overkill with lighting and melt the artists during the performance. On the other hand, they were very useful, especially because we had a dimmer to control the power of the lights. They were well used when the face and other details of the subject in the scene were a bit in the shadow.
@@ -43,7 +43,7 @@ Similar to Gamma, it is better used for small corrections. If your video is dark
 When mixing for live broadcast, you got to think differently than if you were mixing for a concert venue.
 
 <figure>
-<img src="/assets/img/gaute/mixer.jpg" width = "100%" align="center" />
+<img src="/assets/image/gaute/mixer.jpg" width = "100%" align="center" />
 <figcaption><strong>Waves LV1 and Yamaha HS8</strong></figcaption>
 </figure>
 

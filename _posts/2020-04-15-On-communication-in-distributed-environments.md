@@ -4,7 +4,7 @@ title: "On communication in distributed environments"
 date: 2020-04-15 14:20:00 +0200
 categories: Portal
 author: Karolina Jawad
-image: /assets/img/Oceans/ise_karolina.jpg
+image: /assets/image/Oceans/ise_karolina.jpg
 excerpt: "Photo by Dr. Andrea Glang-Tossing. At ISE Europe, a trade fair in Amsterdam ( 11.02.-14.02. 2020) I was presenting together with SALTO the MCT course at the AVIXA Higher Education Conference. 
 Researchers and students were invited to highlight emerging innovative methods
 that enhance learning and teaching experiences through AV technologies. The ISE Europe is the world's biggest pro AV event for integrated systems, with 80000 visitors and 1400 vendors, spread over a dozens of halls. 
@@ -13,7 +13,7 @@ Keywords: AV, Portal, Women in AV, Women in technology, Lockdown, MCT, COVID19, 
 --- 
 
 <figure text-align="center">
-    <img src="/assets/img/Oceans/group_pic_ise.jpg" width="600px">
+    <img src="/assets/image/Oceans/group_pic_ise.jpg" width="600px">
     <figcaption>The presenters and the host Gill Ferrell</figcaption>
 </figure>
 

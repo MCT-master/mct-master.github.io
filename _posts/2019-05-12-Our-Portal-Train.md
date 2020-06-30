@@ -4,13 +4,13 @@ title: "Scenarios in the Trondheim Portal during the spring semester-2019"
 date: 2019-05-13 01:30:00 +0200
 categories: Portal
 author: Shreejay Shrestha
-image: /assets/img/cj/portaltog.jpg
+image: /assets/image/cj/portaltog.jpg
 excerpt: "We have had numerous scenarios set up in the portal in the period of January-May 2019. Each of the scenarios are unique and therefore serve specific functions. This blog presents four of such scenarios with a bit of discussions on the advantages and challenges with the set ups."
 Keywords: Portal, Scenarios
 ---
 
 <figure>
-  <img src="/assets/img/cj/portaltog.jpg " width = "100%" align="center" />
+  <img src="/assets/image/cj/portaltog.jpg " width = "100%" align="center" />
   <figcaption>Vår Portaltog i Trondheim</figcaption>
 </figure>
 
@@ -28,12 +28,12 @@ Further, we have been using <a href="http://zoom.us/" target="_blank">**Zoom**</
 #### Physical Layout
 
  <figure>
-  <img src="/assets/img/cj/meeting_v.jpg " width = "100%" align="center" />
+  <img src="/assets/image/cj/meeting_v.jpg " width = "100%" align="center" />
   <figcaption>Layout-1: V-shaped lecture facing Screen 1</figcaption>
 </figure>
 
  <figure>
-  <img src="/assets/img/cj/lecture_v.jpg " width = "100%" align="center" />
+  <img src="/assets/image/cj/lecture_v.jpg " width = "100%" align="center" />
   <figcaption>Layout-2: V-shaped lecture facing Screen 1 with frontal space for teacher</figcaption>
 </figure>
 
@@ -52,12 +52,12 @@ When it comes to screens, Screen-1 has been mostly used to display the presentat
 #### Physical Layout
 
  <figure>
-  <img src="/assets/img/cj/lecture_L.jpg " width = "100%" align="center" />
+  <img src="/assets/image/cj/lecture_L.jpg " width = "100%" align="center" />
   <figcaption>Layout-3: L-shaped lecture facing Screen 1</figcaption>
 </figure>
 
 <figure>
-  <img src="/assets/img/cj/sonification_talks.jpg " width = "100%" align="center" />
+  <img src="/assets/image/cj/sonification_talks.jpg " width = "100%" align="center" />
   <figcaption>Layout-4: L-shaped presentation facing Screen 1 with presenter in front</figcaption>
 </figure>
 
@@ -74,7 +74,7 @@ The audio solution for both Layout-3 and Layout-4 is, more or less the same in c
 Although all the scenarios are different from one another, but most of them have only few dissimilarities. In my experience, the layout of WoNomute is quite similar to Layout-2. The only big difference is the V-shape is changed into a linear array of seating for the audience, cam-2 is located at far end corner close to Screen-3 and there is an additional camera, the cam-2. However, it is an open talk show where the number of audienceS taking part can go from 20-25 at each end. Perhaps, the portal in Oslo can house a bit more than that. But the most interesting part is, the talk show is streamed live online. It adds in some kicks to the crew members sometimes because we have seen many strange technical difficulties that make it challenging to do the job. Nonetheless, right from the beginning of the semester, we have been able to make a stable layout (Layout-5) for hosting the talks. It also involves a bit of physical works on removing all tables out and bringing in enough chairs and vice versa after the end of the talk.
 
  <figure>
-  <img src="/assets/img/cj/wonomute_talks.jpg " width = "100%" align="center" />
+  <img src="/assets/image/cj/wonomute_talks.jpg " width = "100%" align="center" />
   <figcaption>Layout-5: Wonomute facing Screen 1</figcaption>
 </figure>
 

@@ -4,12 +4,12 @@ title:  "Group B, day 2 of Physical computing"
 date:   2018-10-18 00:30:00 +0200
 categories: Physical-Computing
 author: Mari Lesteberg, Dmitry Vasilev, Ashane Silva, Shreejay Shreshta & Eigil Aandahl
-image: /assets/img/p_c_1.png
+image: /assets/image/p_c_1.png
 excerpt: "Today, the session was about creating an audio web application that reacts to inputs of mobile sensor data. First, we tried to identify different types of sensors and their capabilities by trying out different android and iOs sensor apps. Then the application was made based on the movements and orientation of the mobile phone."
 ---
 
 <figure>
-<img src="/assets/img/p_c_1.png" alt="" width="40%" />
+<img src="/assets/image/p_c_1.png" alt="" width="40%" />
 <figcaption></figcaption>
 </figure>
 
@@ -27,17 +27,17 @@ It was a new and challenging experience for all of us but fun! Compared to the p
 Here are some pictures from the day's activities:
 
 <figure>
-<img src="/assets/img/p_c_2.png" alt="" width="40%" />
+<img src="/assets/image/p_c_2.png" alt="" width="40%" />
 <figcaption>Accelerometer picking up movement data</figcaption>
 </figure>
 
 <figure>
-<img src="/assets/img/p_c_3.png" alt="" width="40%" />
+<img src="/assets/image/p_c_3.png" alt="" width="40%" />
 <figcaption></figcaption>
 </figure>
 
 <figure>
-<img src="/assets/img/p_c_4.jpg" alt="" width="40%" />
+<img src="/assets/image/p_c_4.jpg" alt="" width="40%" />
 <figcaption></figcaption>
 </figure>
 

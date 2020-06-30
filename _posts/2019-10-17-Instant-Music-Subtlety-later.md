@@ -33,7 +33,7 @@ When drafting ideas in unknown territory one can become overwhelmed with the she
 
 
 <figure>
-  <img src="/assets/img/Oceans/k_patch.JPG " width = "100%" align="center" />
+  <img src="/assets/image/Oceans/k_patch.JPG " width = "100%" align="center" />
   <figcaption>Pure Data Patch with all effects</figcaption>
 </figure>
 

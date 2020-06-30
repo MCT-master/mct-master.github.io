@@ -4,7 +4,7 @@ title: "Staggering towards the light"
 date: 2019-12-30 23:58:42 +0200
 categories: HCI
 author: Thomas Anda, Aleksander Tidemann, Paul Koenig & Tom Ignatius
-image: /assets/img/2019_12_30_stefanof_HCI.jpg
+image: /assets/image/2019_12_30_stefanof_HCI.jpg
 excerpt: "During a hackathon in our introduction course to physical computing, we developed a prototype of a DMI. In our blog post from this project we explained how the system was built and gave a short summary of our performance. In this blog post however, we will look at the instrument from an HCI-perspective. Where the main focus will be a summary of the problem space, the research question, the methodology used and our main findings and contributions. "
 ---
 
@@ -36,6 +36,6 @@ In conclusion we succeeded in creating a functional and unique instrument with a
 Through this project we showed how music technologists can develop new and exiting DMI’s in a green and sustainable manner. The garbage can is full of usable materials one can use in the pursuit of musical greatness.
 
 <figure>
- <img src="/assets/img/2019_12_30_stefanof_HCI.jpg" align="center" alt="Behind the scenes"/>
+ <img src="/assets/image/2019_12_30_stefanof_HCI.jpg" align="center" alt="Behind the scenes"/>
  <figcaption>Behind the scenes</figcaption>
 </figure>

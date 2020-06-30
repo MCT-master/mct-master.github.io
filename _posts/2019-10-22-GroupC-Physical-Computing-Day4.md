@@ -4,7 +4,7 @@ title: "Physical Computing: Heckathon: Group C"
 date: 2019-10-22 18:00:00 +0200
 categories: Physical-Computing
 author: Paul, Thomas, Iggy, Aleksander
-image: /assets/img/group-c/trump.jpg
+image: /assets/image/group-c/trump.jpg
 excerpt: "Taking our cue from the main theme of the Day 4 Hackathon of “Recycling”, Team C chose the 2017 U.S. withdrawal from the Paris Agreement on climate change mitigation as a central theme in our work."
 ---
 ## Paris (Paris.. Paris.. )
@@ -13,7 +13,7 @@ In a June 1, 2017 televised announcement, President Donald Trump announced the w
 
 Or, if not beautiful, at least we could defend it as a personal expression of political art.
 
-![the band](/assets/img/group-c/heckathon.jpg)
+![the band](/assets/image/group-c/heckathon.jpg)
 
 ## How we done it
 
@@ -66,7 +66,7 @@ After manically trying to solve Pauls copper drumstick and metal rod riddles (mo
 
 Furthermore, choosing a very short amplitude envelope resulted in some clipping when triggering the audio samples, an effect which was used musically in the performance and generated a new iterated dimension to an otherwise “flowey” sound texture.
 
-![alek pd patch](/assets/img/2019_10_15_stefanof_pd_aleks_pc.jpg)
+![alek pd patch](/assets/image/2019_10_15_stefanof_pd_aleks_pc.jpg)
 
 # Thomas
 
@@ -90,7 +90,7 @@ To make a homemade variable resistor one needs a conductor (a wire, rod, etc) th
 
 Nichrome wire of the sort used to make heater elements would have been ideal, but surprisingly, I didn’t find any of that lying about. So, I decided to try making a wire-wound resistor out of the bit of found wire, wrapped around a drum stick I “recycled” from the MCT portal.
 
-![Rod](/assets/img/group-c/rod.jpg)
+![Rod](/assets/image/group-c/rod.jpg)
 
 Turns out, the resistance in this wire was only minimal along its length. After the corrosion was partly rubbed off, it was revealed to be what looks like 14 gauge copper wire; an excellent conductor of the type used to wire houses. Basically, I would need a couple miles of this wire wrapped a very large insulator to get the results I wanted. But, it looked cool and we were able to make some unexpected noises with it (see performance).
 

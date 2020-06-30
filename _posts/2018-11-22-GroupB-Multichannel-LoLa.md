@@ -4,13 +4,13 @@ title:  "Group B, LoLa multichannel audio"
 date:   2018-11-22 14:00:00 +0200
 categories: Portal
 author: Mari Lesteberg, Ashane Silva, Shreejay Shrestha & Eigil Aandahl
-image: /assets/img/2018_11_22_stefanof_MultiChannelBox.jpg
+image: /assets/image/2018_11_22_stefanof_MultiChannelBox.jpg
 excerpt: "The objective this week was very clear from the start, we had to set up multichannel audio for LoLa. There was just one problem: our great LoLa supervisor, Anders, was sick, and we were left to figure out things on our own. This was of course a
 great challenge, but we like challenges. It might take a little more time, but it's another experience when you are forced to try and fail on your own. Often you also learn much more when you're not being fed all the answers from an expert."
 ---
 
 <figure>
-<img src="/assets/img/2018_11_22_stefanof_MultiChannelBox.jpg" alt="Converter boxes" width="50%" />
+<img src="/assets/image/2018_11_22_stefanof_MultiChannelBox.jpg" alt="Converter boxes" width="50%" />
   <figcaption> The A/D and D/A converters in Oslo </figcaption>
 </figure>
 
@@ -36,12 +36,12 @@ two speakers and a Shure SM58 microphone, but still, nothing. Again, the only th
 and noises.
 
 <figure>
-<img src="/assets/img/2018_11_22_stefanof_MultiMultiOutput.jpg" alt="Breakout cables" width="50%" />
+<img src="/assets/image/2018_11_22_stefanof_MultiMultiOutput.jpg" alt="Breakout cables" width="50%" />
   <figcaption>Breakout cables for analog signals </figcaption>
 </figure>
 
 <figure>
-<img src="/assets/img/2018_11_22_stefanof_InputLolaRME.jpg" alt="preamp inputs" width="50%" />
+<img src="/assets/image/2018_11_22_stefanof_InputLolaRME.jpg" alt="preamp inputs" width="50%" />
   <figcaption> Preamp inputs</figcaption>
 </figure>
 ## AD/DA converters. What are they?
@@ -51,7 +51,7 @@ In Oslo, we used two converters to get sound in and out of LoLa. We used an RME 
 Well, we used a Solid State Logic XLogic Alpha-Link MADI AX as a Digital to Analog converter (because we are now converting the digital audio from the PC sound card to analog audio). The PC soundcard is connected to an SSL Alpha - Link converter using another Optical cable. But to route the outputs to speakers we had use a breakout cable whcih was connected to the SSL converter.Basically now we have multi-channel audio from LoLa.
 
 <figure>
-<img src="/assets/img/2018_11_22_stefanof_Group_B_LoLa_converters_1.jpg" alt="Power switch">
+<img src="/assets/image/2018_11_22_stefanof_Group_B_LoLa_converters_1.jpg" alt="Power switch">
   <figcaption> The button has been switched on.</figcaption>
 </figure>
 
@@ -61,7 +61,7 @@ How can we control the levels? That is where the RME Total MiX software comes in
 
 
 <figure>
-<img src="/assets/img/2018_11_22_stefanof_Group_B_LoLa_RME_TotalMix.jpg" alt="TotalMix window">
+<img src="/assets/image/2018_11_22_stefanof_Group_B_LoLa_RME_TotalMix.jpg" alt="TotalMix window">
   <figcaption>Routing signals in TotalMix</figcaption>
 </figure>
 

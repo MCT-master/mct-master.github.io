@@ -5,11 +5,11 @@ title: "Brexisonification"
 date: 2019-04-19 21:40:00 +0100
 categories: Sonification
 author: Sam Roman, Sepehr Haghighi, Eirik Dahl
-image: /assets/img/sonification/brexit.jpg
+image: /assets/image/sonification/brexit.jpg
 excerpt: The goal in the project is to sonify Brexit, in a way that the audience could interpret new insight from the data through audio.
 ---
 <figure>
-  <img src="/assets/img/sonification/brexit2.jpg" alt="Brexit" width="70%" align="middle"/>
+  <img src="/assets/image/sonification/brexit2.jpg" alt="Brexit" width="70%" align="middle"/>
   <figcaption><strong></strong></figcaption>
 </figure>
 
@@ -38,7 +38,7 @@ Lastly, going in to the project we had a clearer idea on what parts of the data 
 ## Our system
 
 <figure>
-  <img src="/assets/img/sonification/technologies.png" alt="technologies" width="70%" align="middle"/>
+  <img src="/assets/image/sonification/technologies.png" alt="technologies" width="70%" align="middle"/>
   <figcaption><strong>Technologies Used</strong></figcaption>
 </figure>
 
@@ -55,7 +55,7 @@ Another bonus is that we have experience with ableton, that made the mapping par
 ### The Patch
 Here is our completed audio patch! Details can be found in this [text file](https://docs.google.com/uc?export=download&id=1kmZgQ25a4VH2_nvEO1asEX5w7fo7Xx52). You are very welcome to download the patch to look in more detail or try out! Just copy the code and paste it into a new patch.
 <figure>
-  <img src="/assets/img/sonification/audpatch.jpg" alt="Audio patch" width="70%" align="middle"/>
+  <img src="/assets/image/sonification/audpatch.jpg" alt="Audio patch" width="70%" align="middle"/>
   <figcaption><strong>Audio Patch</strong></figcaption>
 </figure>
 #### Audio Patch
@@ -82,7 +82,7 @@ On the other, deeper level, we have the ominous drone sound. This is mapped to a
 As each area progressed, the drone would rise a semitone - acting as a information as to when the next area is being played, but also giving a narrative to the whole composition, intensifying the mood further with each rising tone.
 
 <figure>
-  <img src="/assets/img/sonification/maxpatch2.jpg" alt="Mapping" width="70%" align="middle"/>
+  <img src="/assets/image/sonification/maxpatch2.jpg" alt="Mapping" width="70%" align="middle"/>
   <figcaption><strong>Drone sound in ableton live sampler</strong></figcaption>
 </figure>
 
@@ -90,7 +90,7 @@ As each area progressed, the drone would rise a semitone - acting as a informati
 We then synthesised a “bleep” sound, that we used to represent the overall Electorate (people) amount in each area went to vote - up to 2 million! The bleep would rise in pitch as the amount that voted in the area went up. This gave some context, the counties in england can have very different sized populations, so this represented that factor in the demo. (Synthesized sonification).
 
 <figure>
-  <img src="/assets/img/sonification/maxpatch3.jpg" alt="Mapping" width="70%" align="middle"/>
+  <img src="/assets/image/sonification/maxpatch3.jpg" alt="Mapping" width="70%" align="middle"/>
   <figcaption><strong>The use of synthesized sound in Ableton Live</strong></figcaption>
 </figure>
 
@@ -99,7 +99,7 @@ We then synthesised a “bleep” sound, that we used to represent the overall E
 * Reverb was also mapped to the whole percentage who voted as a counter mapping. It was done in a way so that fewer votes created more reverb. (Effects sonification)
 
 <figure>
-  <img src="/assets/img/sonification/maxpatch4.jpg" alt="Mapping" width="70%" align="middle"/>
+  <img src="/assets/image/sonification/maxpatch4.jpg" alt="Mapping" width="70%" align="middle"/>
   <figcaption><strong>The use of effects in Ableton Live</strong></figcaption>
 </figure>
 
@@ -109,7 +109,7 @@ Also as an afterthought, we decided to try and make a data reactive video that w
 To accompany this, we also ported the area names to the M4L patch in presentation mode, so that on screen this information could help reinforce the sonification, and make sense of the video image. On another note, it was very useful when checking to see if the sonification was working properly!
 
 <figure>
-  <img src="/assets/img/sonification/maxpatch1.jpg" alt="Mapping" width="70%" align="middle"/>
+  <img src="/assets/image/sonification/maxpatch1.jpg" alt="Mapping" width="70%" align="middle"/>
   <figcaption><strong>Mapping the visuals in Ableton Live</strong></figcaption>
 </figure>
 
@@ -142,7 +142,7 @@ As noted in our report we managed to implement Symbolic, Metaphoric, and Iconic 
 Maybe too much? At least for us we were exploring the possibilities that this craft has to offer, while at the same time doing some experimentation!
 
 <figure>
-  <img src="/assets/img/sonification/funnybrexit.jpg" alt="Mapping" width="20%" align="middle"/>
+  <img src="/assets/image/sonification/funnybrexit.jpg" alt="Mapping" width="20%" align="middle"/>
   <figcaption><strong></strong></figcaption>
 </figure>
 

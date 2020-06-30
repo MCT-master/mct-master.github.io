@@ -4,7 +4,7 @@ title: 'UltraGrid'
 date: 2019-09-22 16:00:00 +0200
 categories: Portal
 author: Aleksander Tidemann, Thomas Anda, Paul Koenig, Tom Ignatius
-image: /assets/img/group-c/ultragrid.jpg
+image: /assets/image/group-c/ultragrid.jpg
 excerpt: 'Exploring an alternative audio and video network transmission software in the MCT portal.'
 Keywords: Portal, Network transmission, ultragrid
 ---
@@ -25,7 +25,7 @@ Highly Flexible | userfriendliness
 
 The installation and run format of UltraGrid is command line based, which means it does not have a proper GUI at the moment. However, they are currently working on implimenting a GUI which will make it much more practically applicable and user friendly in the near future.
 
-![alt text](/assets/img/group-c/ultragrid_gui.jpg "Current GUI") <font size="2"> [Figure 1]</font>
+![alt text](/assets/image/group-c/ultragrid_gui.jpg "Current GUI") <font size="2"> [Figure 1]</font>
 
 ## Installation process
 
@@ -51,7 +51,7 @@ Our first priority was to check the LoLa computer's specs to see if it was compa
 
 Step 1 went smoothly for both campuses, however we encountered problems with step 2 and 3 in Oslo when trying to make UltraGrid connect and recognize the computer's capture card, the Blackmagic Intensity pro 4k also known as "Decklink" (*see figure 2*). This is the device which we will use to receive high quality HDMI video information that will be transmitted to the external location. Our plan to resolve is by rebooting or finding relevant updates for the capture card. 
 
-![alt text](/assets/img/group-c/Blackmagic1.jpg "Error") <font size="2"> [Figure 2]</font>
+![alt text](/assets/image/group-c/Blackmagic1.jpg "Error") <font size="2"> [Figure 2]</font>
 
 On the other hand, step 4 was successful in Oslo. We managed to recieve an audio stream from the local portaudio soundcard on the LoLa pc. However, we did not manage to explore receiving audio from the other soundcards, due to the complications with steps 2 and 3. 
 

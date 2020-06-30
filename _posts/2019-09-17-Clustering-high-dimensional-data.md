@@ -4,7 +4,7 @@ title: 'Clustering high dimensional data'
 date: 2019-09-17 23:50:00 +0200
 categories: Music-and-Machine-Learning
 author: Karolina Jawad
-image: /assets/img/Oceans/high_dimensions_ship.png
+image: /assets/image/Oceans/high_dimensions_ship.png
 excerpt: 'In the project for Music and Machine Learning I was using raw audio data to see how well the K-Mean clustering technique would work for structuring and classifying an unlabelled data-set of voice recordings. '
 Keywords: Clustering, K-Means, Feature Extraction, Voice, Affection, Phonation, Creativity, Vowels, Data Mining, Unsupervised Learning, Vocal Training, Mel Spektrogram
 ---
@@ -27,7 +27,7 @@ It was not only helpfull for the understanding that the procedures presented in 
 In the data mining process the computation of features is the first step. From all the different features (high dimensional data) a subset of features have to be selected and dimensional reduction applied, otherwise the clustering algorithm will have a hard time allocating the nearest neighbour of the data points. In this project only one feature was tested.
 
 <figure>
-<img src="/assets/img/Oceans/features.png" width = "80%" align="center" />
+<img src="/assets/image/Oceans/features.png" width = "80%" align="center" />
 <figcaption><strong> Figure 1: Short-term power spectrum of a sound with the 64 mel spectogram</strong></figcaption>
 </figure>
 
@@ -41,7 +41,7 @@ As a method of classification the data can be segmented through shared attribute
 After running test/training the data in K-Means there are three centroids detectable around which the data is clustering:
 
 <figure>
-<img src="/assets/img/Oceans/clustering.png" width = "80%" align="center" />
+<img src="/assets/image/Oceans/clustering.png" width = "80%" align="center" />
 <figcaption><strong>Figure 2: Data structuring by K-Mean</strong></figcaption>
 </figure>
 

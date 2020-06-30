@@ -4,7 +4,7 @@ title: "Smokey and the Bandwidth"
 date: 2020-04-04 23:00:00 +0200
 categories: Portal
 author: Paul Koenig
-image: /assets/img/PK/70s_CB.JPG
+image: /assets/image/PK/70s_CB.JPG
 excerpt: "Hijacking Old Tech for New Uses" 
 Keywords: Citizens' Band, CB Radio, Online Collaboration, Latency
 --- 
@@ -60,7 +60,7 @@ Now, since none of that made any sense, I made a diagram. See Figure 1.
 
 
 <figure>
-    <img src="/assets/img/PK/CB_Monitoring_Flow.jpg" width="800">
+    <img src="/assets/image/PK/CB_Monitoring_Flow.jpg" width="800">
     <figcaption>Fig 1. How It Works</figcaption>
 </figure>
 

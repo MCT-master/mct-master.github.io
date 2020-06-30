@@ -4,7 +4,7 @@ title: "The Wavesynth"
 date: 2019-02-10 21:45:00 +0100
 categories: Audio-Programming
 author: Jørgen Varpe
-image: /assets/img/wavesynth.jpg
+image: /assets/image/wavesynth.jpg
 excerpt: During the first workshop week in the course Audio Programming, I have been working on a project which I have called "The Wavesynth". I have called it this because I have chosen to use wavetables to shape the output of an oscillator. I have not made a wavetable synthesizer like for instance <a href="https://www.ableton.com/en/packs/wavetable/" target="_blank">Ableton's Wavetable</a>, where you can interpolate between waves. instead I use some wavetables created by <a href="https://github.com/GoogleChromeLabs/web-audio-samples/tree/gh-pages/samples/audio/wave-tables" target="_blank">Google Chrome Labs</a> to make it sound like "real" instruments. The synth is played by using the computer keyboard, and the user can choose the output sound, and adjust three different effects to shape the it the way they want. The synthesizer is made using web technologies, including HTML, JavaScript, Web Audio API, and more.
 ---
 
@@ -22,12 +22,12 @@ During class we went through the basics of HTML, javaScript and the Web Audio AP
 ### The keyboard
 
 <figure>
-  <img src="/assets/img/varpe/keyboard.jpg" alt="synth piano keys" width="50%" align="middle"/>
+  <img src="/assets/image/varpe/keyboard.jpg" alt="synth piano keys" width="50%" align="middle"/>
   <figcaption><strong>Synth piano keys</strong></figcaption>
 </figure>
 
 <figure>
-  <img src="/assets/img/varpe/tast.PNG" alt="computer keyboard" width="50%" align="middle"/>
+  <img src="/assets/image/varpe/tast.PNG" alt="computer keyboard" width="50%" align="middle"/>
   <figcaption><strong>Computer keyboard</strong></figcaption>
 </figure>
 
@@ -40,7 +40,7 @@ The piano keys are created using HTML5 Canvas, a way of creating graphics on the
 After a day without making any sounds, only working with on making the keyboard and the key triggering logic, I felt I had to start producing sounds. Day 2 was on, and I wanted the synthesizer to be polyphonic. I wrote, tested, edited, tested, looked for examples, copied examples, edited, tested, and so on. It did not work, and stress came along...
 
 <figure>
-  <img src="/assets/img/varpe/codeStress.jpg" alt="Stressed out by code" width="50%" align="middle"/>
+  <img src="/assets/image/varpe/codeStress.jpg" alt="Stressed out by code" width="50%" align="middle"/>
   <figcaption></figcaption>
 </figure>
 
@@ -67,7 +67,7 @@ Not being so happy with the result, I decided to use some of my weekend on clean
 I ended up with three effects. A lowpass-filter with adjustable cut-off, a delay with adjustable delay time, and a tremolo effect with adjustable tremolo speed. The user can activate and deactivate these effects with a corresponding button and use sliders to adjust the effects.
 
 <figure>
-  <img src="/assets/img/varpe/dropdown.PNG" alt="The Wavesynth" width="50%" align="middle"/>
+  <img src="/assets/image/varpe/dropdown.PNG" alt="The Wavesynth" width="50%" align="middle"/>
   <figcaption><strong>The Wavesynth</strong></figcaption>
 </figure>
 

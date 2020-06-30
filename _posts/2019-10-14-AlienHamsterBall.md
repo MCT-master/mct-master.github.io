@@ -4,7 +4,7 @@ title: 'Alien_Hamster_Ball'
 date: 2019-10-14 13:30:00 +0200
 categories: Interactive-Systems
 author: Samuel Damien Roman
-image: /assets/img/2019_10_14_stefanof_hamsterball4.jpg
+image: /assets/image/2019_10_14_stefanof_hamsterball4.jpg
 excerpt: 'The Alien Hamster ball - an instrument expressed through a 3D space'
 Keywords: Interactive Music Systems, Bela, Sensors, Pure Data, IMS, Interactive Music Systems, NIME, MCT
 ---
@@ -22,7 +22,7 @@ https://mct-master.github.io/audio-programming/2019/02/11/Alien-Reese.html
 
 Also to a lesser extent i was inspired by a group project presented in the first year exploring the use of feedback in a collaborative instrument, and wanted to combine these elements to create a wholly new one.
 
-<img src="/assets/img/2019_10_14_stefanof_hamsterball3.jpg" width="40%" height="40%" align="center" />
+<img src="/assets/image/2019_10_14_stefanof_hamsterball3.jpg" width="40%" height="40%" align="center" />
 <figcaption><strong>The Prototype</strong></figcaption>
 </figure>
 
@@ -34,7 +34,7 @@ The “Smart instruments are often not smart” principle, in that the instrumen
 
 And of course - “Everyday objects suggest amusing controllers.”
 
-<img src="/assets/img/2019_10_14_stefanof_hamsterball6.png" width="60%" height="60%" align="center" />
+<img src="/assets/image/2019_10_14_stefanof_hamsterball6.png" width="60%" height="60%" align="center" />
 
 I used three types of sensor - Accelerometer, microphone and 3 potentiometers.
 
@@ -45,7 +45,7 @@ I used three types of sensor - Accelerometer, microphone and 3 potentiometers.
 - Potentiometers are for adjustments of other basic functions and FX, for expression and shaping.
 
 <figure>
-<img src="/assets/img/2019_10_14_stefanof_hamsterball5.png" width="60%" height="60%" align="center" />
+<img src="/assets/image/2019_10_14_stefanof_hamsterball5.png" width="60%" height="60%" align="center" />
 <figcaption><strong>X-Axis</strong></figcaption>
 </figure>
 
@@ -61,7 +61,7 @@ Also when moving the ball along the axis it is easier to control with a smaller 
 At the same time, the sub oscillator moves along the same axis - just 3 hrz below. This results in the two oscillations phase together at all times, thickening up the sound. The sub is a sine and adds thickness rather than the more extreme saw used for Osc2.
 As well as this, the wave shape of Osc 1 will cycle fully from a sine to a square over the range, adding further complexity. Lastly, a subtle increase in the delay amount will occur as the frequencies move higher in the spectrum. This acted as a sweetener to the harsher, thinner frequencies higher in the spectrum, and helped keeping the sound aesthetically pleasing at all angles.
 
-<img src="/assets/img/2019_10_14_stefanof_hamsterball2.jpg" width="40%" height="40%" align="center" />
+<img src="/assets/image/2019_10_14_stefanof_hamsterball2.jpg" width="40%" height="40%" align="center" />
 <figcaption><strong>The Failed Prototype</strong></figcaption>
 </figure>
 The functionality of the ball as a concept has many possible future uses. Throwing? a game of catch? Juggling? Rolling the ball on the floor? football? Could also put a hamster inside… 

@@ -4,13 +4,13 @@ title:  "Portal Jam 23 January 2019, Documentation from Oslo Team"
 date:   2019-01-23 16:40:00 +0200
 categories: Portal
 author: Mari Lesteberg, Ashane Silva, Elias Sukken Andersen
-image: /assets/img/mari/PortalJam.png
+image: /assets/image/mari/PortalJam.png
 excerpt: "On the 23 of January, we were testing out to jam together through the Portal."
 
 ---
 # Portal Jam 23 January 2019, Documentation from Oslo Team
 
-![Portal Jam](/assets/img/mari/PortalJam.png "Portal Jam")
+![Portal Jam](/assets/image/mari/PortalJam.png "Portal Jam")
 
 
 ## Preparing for the experiment
@@ -45,17 +45,17 @@ Guitar: Jonas or Sepehr.
 
 #### Recording Audio from Midas Mixer to PC:
 
-![Recording Audio from Midas Mixer to PC](/assets/img/mari/mixerrecord.jpg "Recording Audio from Midas Mixer to PC")
+![Recording Audio from Midas Mixer to PC](/assets/image/mari/mixerrecord.jpg "Recording Audio from Midas Mixer to PC")
 
 #### Connecting to Lola:
 
-![Connecting to Lola](/assets/img/mari/lolaconnect.jpg "Connecting to Lola")
+![Connecting to Lola](/assets/image/mari/lolaconnect.jpg "Connecting to Lola")
 
 
 
 #### Preparing the Portal for the jam:
 
-![Preparing the Portal](/assets/img/mari/portalprepare.jpg "Preparing the Portal")
+![Preparing the Portal](/assets/image/mari/portalprepare.jpg "Preparing the Portal")
 
 
 

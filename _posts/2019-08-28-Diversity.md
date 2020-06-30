@@ -4,7 +4,7 @@ title: Reflections on diversity
 date: 2019-08-27 12:31:00 +0100
 categories: WoNoMute
 author: Magda Futyma, Thibault Jaccard, Tom Ignatius, Simon Rønsholm Sandvik, Ulrik Antoniussen Halmøy
-image: /assets/img/WoNoMute.jpg
+image: /assets/image/WoNoMute.jpg
 excerpt: "First year students in Trondheim reflects on diversity in MCT"
 ---
 *This post is a collection of thoughts on how to bring more diversity into the domain of MCT. It was written by the first years students in Trondheim during the first week.*

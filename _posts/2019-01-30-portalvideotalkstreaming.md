@@ -4,13 +4,13 @@ title:  "How to stream content from the portal"
 date:   2019-01-30 16:40:00 +0200
 categories: Portal
 author: Eigil Aandahl & Sepehr Haghighi
-image: /assets/img/2019_01_30_stefanof_broadcasting.jpg
+image: /assets/image/2019_01_30_stefanof_broadcasting.jpg
 excerpt: "In this blogpost, we will try to explain in more detail how these streams have been set up using OBS, Open Broadcaster Software and Youtube Live while being connected between Trondheim and Oslo. This can be of use for anyone looking to set up a co-located stream of a speaker or performance."
 
 ---
 
 <figure align="middle">
-<img src="/assets/img/2019_01_30_stefanof_broadcasting.jpg" alt="Broadcasting header image" width="70%">
+<img src="/assets/image/2019_01_30_stefanof_broadcasting.jpg" alt="Broadcasting header image" width="70%">
 </figure>
 <br>
 
@@ -28,7 +28,7 @@ The end goal of our streams has been to broadcast talks and events in the portal
 When setting up a scene in OBS, it is possible to add many different sources and move them around, such as text, images, video, and even audio that can be mixed within the software. In studio mode, it is possible make edits to scenes without the edits going out before a transition is made. Furthermore, the sources can be modified, chroma keyed (made transparent using for example a green-screen), filtered and cropped. Below is a screenshot of OBS in studio mode with two scenes. The image on the right is what would be the output if we were to click "start streaming" to a live feed. The image on the left is a preview of what the output would be when transitioning, and changes made to the composition here is not streamed.
 
 <figure align="middle">
-<img src="/assets/img/OBSscreenshot.png" alt="OBS in studio mode" width="70%">
+<img src="/assets/image/OBSscreenshot.png" alt="OBS in studio mode" width="70%">
 <figcaption align="middle"><strong>OBS in studio mode with two scenes.</strong></figcaption>
 </figure>
 
@@ -47,7 +47,7 @@ Here we present how we have setup streaming from The Portal. It should be noted 
    In order to have a proper communication, two computers are needed in the place that the presenter is and one on the other side of The Portal. The computers in Trondheim are used for streaming, setting up LOLA for audio sharing and video sharing (presentation and live videos), using Zoom video conference. The third computer (in Oslo) is used for receiving and sending the sound and image, via LOLA and Zoom video conference. Also a mixer is required to mix the sounds in the presenter's place. Below we shall explain the signal chain and the way that audio/visual aspect of this presentation could be set up. See also the flowchart below for an overview of the different audio and video signals going between Trondheim, Oslo and streaming.
 
    <figure align="middle">
-<img src="/assets/img/2019_01_30_stefanof_Flowchartstreaming.jpg" alt="Flowchart for the streaming setup" width="70%">
+<img src="/assets/image/2019_01_30_stefanof_Flowchartstreaming.jpg" alt="Flowchart for the streaming setup" width="70%">
 <figcaption align="middle"><strong>Flowchart for the streaming setup between Oslo and Trondheim.</strong></figcaption>
 </figure>
 

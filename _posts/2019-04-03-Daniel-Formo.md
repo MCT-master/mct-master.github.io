@@ -4,13 +4,13 @@ title: "Using Speech As Musical Material"
 date: 2019-04-03 22:00:00 +0200
 categories: Sonification
 author: Jørgen Nygård Varpe
-image: /assets/img/varpe/Daniel_Formo.jpg   
+image: /assets/image/varpe/Daniel_Formo.jpg   
 excerpt: "As a part of a three-week workshop in the course Sonification and Sound design at MCT, we were lucky to have Daniel Formo as a guest speaker."
 Keywords: Daniel Formo, The Orchestra of Speech, sonification, speech and music
 ---
 
 <figure>
-<img src="/assets/img/varpe/Daniel_Formo.jpg" width = "100%" align="center" />
+<img src="/assets/image/varpe/Daniel_Formo.jpg" width = "100%" align="center" />
 </figure>
 
 ## Daniel Formo
@@ -22,7 +22,7 @@ Daniel Formo (born 1978) works as a musician, composer and researcher within a b
 The Orchestra of speech explores the close relationship between music and speech, with the focus being on improvised music and everyday conversation. Daniel talks about the immense complexity of human speech, which he wants to translate into other sounds, using his unique instrument, created in Max. He is not interested in the semantic content of speech, but rather the utterances as an act – as vocal gestures, and looks for speech genres as musical expression. Speech genres being a common social language, like for instance; Smalltalk, interrogation, quarrel, baby talk etc. 
 
 <figure>
-<img src="/assets/img/varpe/orchestraOfSpeech.PNG" width = "85%" align="center" />
+<img src="/assets/image/varpe/orchestraOfSpeech.PNG" width = "85%" align="center" />
 <figcaption><strong>The Orchestra of Speech system</strong></figcaption>
 </figure>
 

@@ -4,14 +4,14 @@ title: "The Sound of Traffic - Sonic Vehicle Pathelormeter"
 date: 2019-04-19 17:00:00 +0200
 categories: Sonification
 author: Ashane Silva, Karolina Jawad, Shreejay Shrestha
-image: /assets/img/sonification/blog_header.JPG
+image: /assets/image/sonification/blog_header.JPG
 excerpt: "Is it possible to transmit complex data-sets within an instance of a sound, so the content gets revealed? As communication and dissemination of information in our modern digital world has been highly dominated by visual aspects it led to the fact that the modality of sound got neglected. In order to test the hypothesis, the project presents a model for sonification of temporal-spatial traffic data, based on principle of Parametric Mapping Sonification (PMSon) technique."
 Keywords: Sonification
 
 ---
 
 <figure>
-<img src="/assets/img/sonification/blog_header.JPG" width = "100%" align="center" />
+<img src="/assets/image/sonification/blog_header.JPG" width = "100%" align="center" />
   <figcaption>Figure1: The Sound of Traffic</figcaption>
 </figure>
 
@@ -24,7 +24,7 @@ and so on. Our idea was quite like the latter approach. Hence, we decided to go 
 
 ## Data set
 <figure>
-<img src="/assets/img/sonification/map_3region.jpg" width = "90%" align="center" />
+<img src="/assets/image/sonification/map_3region.jpg" width = "90%" align="center" />
   <figcaption>Figure 2: Method for Selecting Data</figcaption>
 </figure>
 
@@ -44,7 +44,7 @@ The data has been collected from <a href="https://www.dft.gov.uk/traffic-counts/
 We chose to work with JavaScript to create our first prototype. The number of buses in each particular region was directly mapped into a frequency of an oscillator by using the “map ()” method in P5.js. Figure 3 below gives an overview of the mapping method. Here, for example, the minimum to maximum range of number of bus in each region is mapped to the minimum to maximum range of frequency.
 
 <figure>
-<img src="/assets/img/cj/mapping_proto1.JPG" width = "100%" align="center" />
+<img src="/assets/image/cj/mapping_proto1.JPG" width = "100%" align="center" />
 <figcaption>Figure 3: Mapping method in Prototype 1</figcaption>
 </figure>
 
@@ -104,7 +104,7 @@ function dataReady1(data1){
   ```
 ### Prototype 2 with Python and Supercollider
 <figure>
-<img src="/assets/img/cj/system drawing2.JPG" width = "65%" align="center" />
+<img src="/assets/image/cj/system drawing2.JPG" width = "65%" align="center" />
 <figcaption>Figure 4: Prototype 2, System Diagram</figcaption>
 </figure>
 
@@ -142,7 +142,7 @@ m = Synth.new(\motogp)
 Similarly, Figure 5 below highlights the mapping of different parameters for the prototype 2. Here, for example, the minimum to maximum range of number of bus in each region is mapped to both of the minimum to maximum range of frequency and the minimum to maximum range of amplitude and so on. Therefore, for buses, the change in frequency and amplitude gives the idea of increase or decrease in number of buses in the selected region with respect to time. The speed of oscillation and change of amplitude signify the rise or fall of number of car/taxies in the region of choice with time. Similarly, for the motorbikes, the change in frequency and amplitude gives the information of change in number of motorbikes with respect to time in the selected region.
 
 <figure>
-<img src="/assets/img/cj/mapping_proto_2.JPG" width = "100%" align="center" />
+<img src="/assets/image/cj/mapping_proto_2.JPG" width = "100%" align="center" />
  <figcaption>Figure 5: Mapping method in Prototype 2</figcaption>
 </figure>
 
@@ -236,7 +236,7 @@ queue.put(t0 + delay + onset, sc.msg, ("/n_free", 1236))
  </figure>
 
 <figure>
-<img src="/assets/img/2019_04_19_stefanof_Bus_NE_SE.png" width = "75%" align="center" />
+<img src="/assets/image/2019_04_19_stefanof_Bus_NE_SE.png" width = "75%" align="center" />
   <figcaption>Figure 6: Prototype-2, Buses & Coaches in the North East & South East Region</figcaption>
 </figure>
 
@@ -257,7 +257,7 @@ queue.put(t0 + delay + onset, sc.msg, ("/n_free", 1236))
 </figure>
 
 <figure>
-<img src="/assets/img/2019_04_19_stefanof_Car_NE_SE.png" width = "75%" align="center" />
+<img src="/assets/image/2019_04_19_stefanof_Car_NE_SE.png" width = "75%" align="center" />
   <figcaption>Figure 7: Prototype-2, Cars & Taxies in the North East & South East Region</figcaption>
 </figure>
 
@@ -278,7 +278,7 @@ queue.put(t0 + delay + onset, sc.msg, ("/n_free", 1236))
 </figure>
 
 <figure>
-<img src="/assets/img/2019_04_19_stefanof_Bike_NE_SE.png" width = "75%" align="center" />
+<img src="/assets/image/2019_04_19_stefanof_Bike_NE_SE.png" width = "75%" align="center" />
   <figcaption>Figure 8: Prototype-2, Motorbikes in the North East & South East Region</figcaption>
 </figure>
 
@@ -288,7 +288,7 @@ We bet you would also like to listen to the sonification of the third region of 
 ## Project Timeline & Contributions
 
 <figure>
-<img src="/assets/img/cj/timeline2.jpg" width = "100%" align="center" />
+<img src="/assets/image/cj/timeline2.jpg" width = "100%" align="center" />
   <figcaption>Figure 9: Project Timeline</figcaption>
 </figure>
 
@@ -297,7 +297,7 @@ We bet you would also like to listen to the sonification of the third region of 
 
 
 <figure>
-<img src="/assets/img/cj/contribution3.jpg" width = "70%" align="center" />
+<img src="/assets/image/cj/contribution3.jpg" width = "70%" align="center" />
   <figcaption>Figure 10: Division of labour</figcaption>
 </figure>
 

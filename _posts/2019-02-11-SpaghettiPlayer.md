@@ -5,7 +5,7 @@ title: "The Spaghetti Code Music Player"
 date: 2019-02-11 17:00:00 +0100
 categories: Audio-Programming
 author: Mari Lesteberg
-image: /assets/img/mari/Spaghetti2.jpg
+image: /assets/image/mari/Spaghetti2.jpg
 excerpt: The <a href="https://fractionmari.github.io/SpaghettiPlayer/">Spaghetti Code Music Player</a> is a simple music player that is loaded with one of my own tracks. The player allows you to play and stop the tune, turn on and off a delay effect and control a filter with your computer mouse. The player also has a volume control.
 
 ---
@@ -18,7 +18,7 @@ excerpt: The <a href="https://fractionmari.github.io/SpaghettiPlayer/">Spaghetti
 This has been an intense week with a steep learning curve for me, but I have enjoyed it so much. HTML and web design was a huge hobby for me back in the 90's when I was little, and this week I have been reminded of how fun it is to be creative with code. To try and fail, endlessly googling for solutions when nothing works, troubleshooting for hours and hours, getting no sleep. And the rush you get when it finally works! 
 
 _Take a look at the evolution of the Spaghetti Player_
-<img src="/assets/img/mari/collage_player.jpg" alt="Evolution of the player" width="100%" />
+<img src="/assets/image/mari/collage_player.jpg" alt="Evolution of the player" width="100%" />
 
 The <a href="https://fractionmari.github.io/SpaghettiPlayer/">Spaghetti Code Music Player</a> is a simple music player that is loaded with one of my own tracks. The player allows you to play and stop the tune, turn on and off a delay effect and control a filter with your computer mouse. The player also has a volume control.
 
@@ -51,7 +51,7 @@ By the end of this day there were still some issues with my code:
 For the next couple of days, I also wanted to try to add more parameters to my player, and also include more of what I had learned in this course so far.
 
 *At the end of the day, my player looked something like this:*
-<img src="/assets/img/mari/PlayerV1.jpg" alt="Funky colours" width="60%" />
+<img src="/assets/image/mari/PlayerV1.jpg" alt="Funky colours" width="60%" />
 
 ## Research Journal, Mini Project, day 2
 
@@ -81,7 +81,7 @@ I find that I'm learning new things all the time. Along the way, I am also takin
 
 This day I used _hours_ on trying to implement a visualizer in music player; the intention was to make it look like something like this:
 
-<img src="/assets/img/mari/Visualizer.jpg" alt="Player with visualizer" width="60%" />
+<img src="/assets/image/mari/Visualizer.jpg" alt="Player with visualizer" width="60%" />
 
 The visualizer code was also taken from the <a href="https://webaudioapi.com/samples/visualizer/">Web Audio Samples Page</a>, and this screenshot is taken during the endless trying and failing sessions when I tried to merge the visualizer code into my code. From the screen shot, it looks like it's working, but when the visualizer was working, my effects didn't work and vice versa. I couldn't succeed with implementing the visualizer into my player, unfortunately, because coders also need to sleep. I did several attempts during the week and weekend, but it seemed unpossible. 
 
@@ -128,7 +128,7 @@ I used a lot of time to try to make a volume knob to my "new" project. By this p
 
 *This was how my player looked by now:*
 
-<img src="/assets/img/mari/PlayerV2.jpg" alt="90's nostalgia!" width="60%" />
+<img src="/assets/image/mari/PlayerV2.jpg" alt="90's nostalgia!" width="60%" />
 
 *90's nostalgia!*
 
@@ -165,10 +165,10 @@ I wanted my player to look good in browsers for both phones and computer, and to
  
 This is the container that my whole player is placed within. When I use `margin: 0 auto;`, `width: auto;` and `max-width: 500x`, I say that the margins of container should adjust to the window. But I chose a maximum-width of 500 px, to prevent it from looking enormous on web browsers. There were still some problems with the margins of the container. It looked symmetrical at this point, but I had placed the buttons in containers inside the container, and when I shrunk the browser window enough, the buttons ended on top of each other. Didn't look good at all. I thought a solution could be to place the buttons inside of a table instead, but then it didn't look symmetrical any more. Wow, what a dilemma:
 
-<img src="/assets/img/mari/collage2.jpg" alt="What a mess" width="60%" />
+<img src="/assets/image/mari/collage2.jpg" alt="What a mess" width="60%" />
 
 Later I took a close-up photo of my colourful sock and used that as a background. Then I used too much time on trying to make the text look good on top of the background picture. I could have used weeks on trying to make it look better, but I had to draw the line somewhere and declare the player finished, give it a try if you want: <a href="https://fractionmari.github.io/SpaghettiPlayer/">https://fractionmari.github.io/SpaghettiPlayer/</a>. And here is the link to the gitHub repository: <a href="https://github.com/FractionMari/SpaghettiPlayer">https://github.com/FractionMari/SpaghettiPlayer</a>
 
 By the way, this is how the player looks on a mobile phone:
 
-<img src="/assets/img/mari/SpaghettiMobile.jpg" alt="" width="40%" />
+<img src="/assets/image/mari/SpaghettiMobile.jpg" alt="" width="40%" />

@@ -114,7 +114,7 @@ These are the available categories that can be used:
 * Projects
 * Sonification
 
-The first image used in the blog post can be used to appear in the homepage. This should be defined as `image: /assets/img/name-of-file.jpg`
+The first image used in the blog post can be used to appear in the homepage. This should be defined as `image: /assets/image/name-of-file.jpg`
 
 Finally, the use of a short excerpt is encouraged to control the text that should appear in the homepage: `excerpt: "A short summary, typically copy-pasting the first paragraph of the blog post."`
 
@@ -129,7 +129,7 @@ title: "Welcome to Jekyll!"
 date: 2018-08-21 10:10:42 +0200
 categories: Portal
 author: Name Surname
-image: /assets/img/name-of-file.jpg OR https://drive.google.com/uc?export=view&amp;id=G_DRIVE_FILENAME
+image: /assets/image/name-of-file.jpg OR https://drive.google.com/uc?export=view&amp;id=G_DRIVE_FILENAME
 excerpt: "A short summary, typically copy-pasting the first paragraph of the blog post."
 ---
 

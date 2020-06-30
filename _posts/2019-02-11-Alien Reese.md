@@ -5,7 +5,7 @@ title: "Reese da Alien!"
 date: 2019-02-11 16:10:42 +0200
 categories: Audio-Programming
 author: Sam Roman
-image: /assets/img/2019_02_11_stefanof_alienwareplus.jpg
+image: /assets/image/2019_02_11_stefanof_alienwareplus.jpg
 excerpt: The project I have developed on over the first week of web audio based programing is called Reese da Alien - a web based synth of sorts with mouse functionality. The idea is that the program presents a relatively novel way of producing a reese, by the user moving around the mouse on the the page to find different sweet spots as they affect the pitch and amplitude of two oscillators with the movements. The persona of the application came after early in development I likened the sounds to an alien talking – I felt it a fitting title for the weird, abrasive sounds that the program creates.
 
 ---
@@ -64,14 +64,14 @@ On day 3 when asking for help with my project I was told to possibly start from 
 the one point that I started to feel more comfortable coding was when I took control of the routing. One of the challenges I faced was that in the first couple of days in the workshop I was trying to achieve results by copying and pasting various examples of code – with mixed or no results. This technique of trial and error in the end helped me formulate my idea, and it was satisfying eventually (although stressful before!) once I worked out how to organise the routing of nodes properly. The original routing was simple like this:
 
 <figure align="middle">
-<img src="/assets/img/old flow.jpg" alt="" width="70%">
+<img src="/assets/image/old flow.jpg" alt="" width="70%">
 <figcaption align="middle"><strong>“Routing day 1 & 2”</strong></figcaption>
 </figure>
 
 The aspect that I was confused about was the volume node. With experience in using DAW’s, I didn’t take volume to be a node, rather as a parameter that is attached to in this case, the oscillators. It is a small difference – but not knowing that it was a node in its own right confused me when I tried to expand on the project. The flow diagram of the project currently looks like this:
 
 <figure align="middle">
-<img src="/assets/img/2019_02_11_stefanof_Alien_Reese_Flow.jpg" alt="" width="70%">
+<img src="/assets/image/2019_02_11_stefanof_Alien_Reese_Flow.jpg" alt="" width="70%">
 <figcaption align="middle"><strong>“Routing day 3 & 4”</strong></figcaption>
 </figure>
 

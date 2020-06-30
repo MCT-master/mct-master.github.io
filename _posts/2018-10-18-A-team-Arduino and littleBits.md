@@ -4,13 +4,13 @@ title: "A-team - From Attack of the Code to Revenge of the Synth"
 date: 2018-10-18 22:19:42 +0200
 categories: Physical-Computing
 author: JJ, EW, SR, SH, JNV
-image: /assets/img/Ateam_synthRevenge.jpg
+image: /assets/image/Ateam_synthRevenge.jpg
 excerpt: "Today we first unpacked a  Arduino microcontroller each, making circuits and controlling them with the Arduino IDE. We firstly ran a code to make an LED blink, then adjusting to our blinking rate of choice. We then controlled a piezo speaker with a script, programming melody by adjusting pitch and beat for each note."
 ---
 
 <figure>
 <a href="https://mct-master.github.io/the/portal/2018/10/18/A-team-Arduino-and-littleBits.html">
-<img src="/assets/img/2018_10_18_stefanof_Ateam_synthRevenge.jpg" alt="Star wars and synths" width="70%" align="middle"></a>
+<img src="/assets/image/2018_10_18_stefanof_Ateam_synthRevenge.jpg" alt="Star wars and synths" width="70%" align="middle"></a>
 </figure>
 
 ## Arduino
@@ -19,7 +19,7 @@ Today we first unpacked a  Arduino microcontroller each, making circuits and con
 We also found out that you need java installed on your computer for Arduino to work, after one of us in Oslo struggled to get past a stream of red error messages on the first task. Good to know!  just in case you don't have it installed already.
 
 <figure>
-<img src="/assets/img/2018-10-18_stefanof_Ateam_Arduino.jpg?raw=true" alt="Arduino" align="middle" width="30%">
+<img src="/assets/image/2018-10-18_stefanof_Ateam_Arduino.jpg?raw=true" alt="Arduino" align="middle" width="30%">
 <figcaption><strong>Arduino</strong></figcaption>
 </figure>
 
@@ -27,7 +27,7 @@ We also found out that you need java installed on your computer for Arduino to w
 Afterwards we used the Korg littleBits, a modular analog synthesizer. Unpacking it felt a bit like christmas, fresh box with toys inside, full of joy and possibilities, and we knew we could play with them all afternoon! We firstly had some time to figure out how to fit together these magic little magnetic lego pieces, experimenting with various signal chain possibilities. After tweaking to get a patch we liked, we got together for a impromptu performance.
 
 <figure>
-<img src="/assets/img/2018_10_18_stefanof_Ateam_littleBits.jpg" alt="Korg littleBits" align="middle" width="50%">
+<img src="/assets/image/2018_10_18_stefanof_Ateam_littleBits.jpg" alt="Korg littleBits" align="middle" width="50%">
 <figcaption><strong>Korg littleBits</strong></figcaption>
 </figure>
 

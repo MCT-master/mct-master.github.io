@@ -4,7 +4,7 @@ title: "Group C - Thinking outside the box"
 date: 2018-10-18 22:00:00 +0200
 categories: Physical-Computing
 author: Karolina, Guy, Eirik and Elias
-image: /assets/img/Arduino.jpg
+image: /assets/image/Arduino.jpg
 excerpt: "We started our day with a short preview off the blog posts describing our experiences form the 2nd day. We continued with a short presentation of Anna Xambo’s performance ‘Imaginary Berlin’ at the Web Audio Conference 2018 where audience participation was an integral part of the performance."
 ---
 
@@ -20,14 +20,14 @@ Wikipedia describe interaction as ‘a kind of action that occur as two or more 
 Later in the day we experimented with the Arduino Kit which is Open-source electronic prototyping platform enabling users to create interactive electronic objects. It was a fun experience because many of us were new to the concept of designing and building our own electric boards.
 
 <figure>
-<img src="/assets/img/2018_10_18_stefanof_Arduino.jpg" alt="Arduino" width="80%" align="middle"/>
+<img src="/assets/image/2018_10_18_stefanof_Arduino.jpg" alt="Arduino" width="80%" align="middle"/>
 <figcaption>Fig 1: Arduino </figcaption>
 </figure>
 
 &nbsp;
 
 <figure>
-<img src="/assets/img/2018_10_18_stefanof_Arduino-Kit.jpg" alt="Arduino kit" width="80%" align="middle"/>
+<img src="/assets/image/2018_10_18_stefanof_Arduino-Kit.jpg" alt="Arduino kit" width="80%" align="middle"/>
 <figcaption>Fig 2: Arduino kit </figcaption>
 </figure>
 
@@ -64,7 +64,7 @@ The LittleBits synth kit, close up  (I did not take pictures except from group B
 And through the rest of the afternoon we experimented with building mini musical instruments by setting up chains of different components from the LittleBits KIT and routing them in various ways. Everyone experimented with finding their own unique sound by creating their own unique device.
 
 <figure>
-<img src="/assets/img/2018_10_18_stefanof_LittleBits-Instrument.jpg" alt="LittleBits instrument" width="80%" align="middle"/>
+<img src="/assets/image/2018_10_18_stefanof_LittleBits-Instrument.jpg" alt="LittleBits instrument" width="80%" align="middle"/>
 <figcaption>Fig 3: LittleBits instrument </figcaption>
 </figure>
 

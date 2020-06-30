@@ -4,13 +4,13 @@ title: 'Microture'
 date: 2019-10-13 13:25:00 +0200
 categories: Interactive-Systems
 author: Sepehr Haghighi
-image: /assets/img/2019_10_13_stefanof_IMS2.jpg
+image: /assets/image/2019_10_13_stefanof_IMS2.jpg
 excerpt: 'Microture is an interactive music system, based on manipulation of the input sound (microphone sound) with small gestures..'
 Keywords: Interactive Music System, Gesture, Augmentation
 ---
 Microture is an interactive music system, based on manipulation of the input sound (microphone sound) with small gestures. It uses [Bela](https://bela.io/about). Bela is an embedded computing platform for creating beautifully responsive interactive applications. Bela provides ultra-low latency, high quality audio, analog and digital I/O in a tiny self-contained package that can be easily embedded. Built upon the [BeagleBone](https://beagleboard.org/) family of open-source embedded computers, Bela combines the processing power of an embedded computer with the timing precision and connectivity of a microcontroller.
 <figure>
-<img src="/assets/img/2019_10_13_stefanof_IMS2.jpg" width = "85%" align="center" />
+<img src="/assets/image/2019_10_13_stefanof_IMS2.jpg" width = "85%" align="center" />
 <figcaption><strong></strong></figcaption>
 </figure>
 
@@ -53,7 +53,7 @@ Sensors being used in this system are:
 * Slider
 
 <figure>
-<img src="/assets/img/2019_10_13_stefanof_IMS3.jpg" width = "85%" align="center" />
+<img src="/assets/image/2019_10_13_stefanof_IMS3.jpg" width = "85%" align="center" />
 <figcaption><strong></strong></figcaption>
 </figure>
 
@@ -70,14 +70,14 @@ Ultrasound sensor for the distortion amount, Potentiometer for the pitch shift a
 Slider: The normal use of it controls the delay feedback and by moving it rapidly, the velocity amount is being used for engaging/ disengaging the pitch shift and distortion processing chain.
 
 <figure>
-<img src="/assets/img/2019_10_13_stefanof_IMS1.png" width = "85%" align="center" />
+<img src="/assets/image/2019_10_13_stefanof_IMS1.png" width = "85%" align="center" />
 <figcaption><strong></strong></figcaption>
 </figure>
 
 Also, Here is a picture that shows the pure data patch.
 
 <figure>
-<img src="/assets/img/2019_10_13_stefanof_IMS4.png" width = "85%" align="center" />
+<img src="/assets/image/2019_10_13_stefanof_IMS4.png" width = "85%" align="center" />
 <figcaption><strong></strong></figcaption>
 </figure>
 

@@ -4,7 +4,7 @@ title: "Freak Show"
 date: 2019-02-11 03:59:00 +0200
 categories: Audio-Programming
 author: Sepehr Haghighi
-image: /assets/img/2019_02_11_stefanof_freakshow.jpg
+image: /assets/image/2019_02_11_stefanof_freakshow.jpg
 excerpt: "As my first experience working with Web Audio API, utilizing JS, HTML and CSS; it was quite a challenge, but a pleasant one that lead to the outcome that I wanted and also broadened my perspective, in regards of my future plans."
 ---
 
@@ -13,7 +13,7 @@ At the start, I have to mention that these seven days, were quite challenging to
 The idea of the project is to have a basic interactive experience. There is a Troll picture on the screen and a silly laugh, associated to it. They amount of delay time and size of the troll picture is related to the placement of the mouse and with the cursor movement, they shall change as well.
 
 <figure>
-<img src="/assets/img/troll.png" width = "50%" height = "50%" align="center" />
+<img src="/assets/image/troll.png" width = "50%" height = "50%" align="center" />
 </figure>
 
 With the movement of the mouse, from left to right, the value of the elements - delay time and the size of the picture – increase and also there is a slider placed in the page to control the amount of the delay itself (dry/wet). The whole project is based on utilizing JS for running and also CSS is used in order to make it more appealing.

@@ -4,7 +4,7 @@ title:  "Machine Learning, it's all about the data"
 date:   2019-09-20 00:00:00 +0200
 categories: Music-and-Machine-Learning
 author: Eigil Aandahl
-image: /assets/img/2019_09_20_eigila_data-blur.jpg
+image: /assets/image/2019_09_20_eigila_data-blur.jpg
 excerpt: "For my machine learning project, I wanted to see if I could teach my laptop to distinguish between different types of music using a large amount of data. Using metadata from a large dataset for music analysis, I tested different machine learning classifiers with supervised learning to distinguish between tracks labeled belonging to 'Rock' and 'Electronic'. The project was developed using Python and libraries for data analysis and machine learning."
 ---
 
@@ -38,7 +38,7 @@ The last model I tried was a [Multilayer Perceptron](https://en.wikipedia.org/wi
 Below is a graph of the loss curve showing how the model improved its performance as it learns from the data.
 
 <figure>
-<img src="/assets/img/2019_09_20_eigila_loss-curve-eigil.png" width = "80%" align="center" />
+<img src="/assets/image/2019_09_20_eigila_loss-curve-eigil.png" width = "80%" align="center" />
 <figcaption><strong>Loss prediction of MLP</strong></figcaption>
 </figure>
 

@@ -4,7 +4,7 @@ title: "Reflections on the christmas concert"
 date: 2019-11-30 17:57:30 +0100
 categories: Portal
 author: Ulrik, Thibault, Gaute, Rayam
-image: /assets/img/2019_11_30_stefanof_cover.jpg
+image: /assets/image/2019_11_30_stefanof_cover.jpg
 excerpt: "Trondheim reflects on the christmas concert 2019"
 ---
 
@@ -14,7 +14,7 @@ Tuesday the 26th was set aside for the yearly christmas concert where high schoo
 
 The rest of Monday was spent on staging the Portal for a concert. This work consisted of rigging up a set of new cameras, speakers, microphones and appropriate lighting. We had to figure out how to set up the Portal so that the musicians on both sides would be able to look at each other while playing without too much effort, and that the musicians also could see the audience in Trondheim and Oslo. At the end of Monday, we were done with everything except connecting the multi-channel audio setup in Lola and mixing the instruments together. The picture below shows the state of the Portal at the end of Monday.
 
-![The state of the Portal after Monday's rigging session](/assets/img/2019_11_30_stefanof_portal_monday.jpg)
+![The state of the Portal after Monday's rigging session](/assets/image/2019_11_30_stefanof_portal_monday.jpg)
 
 Tuesday was spent on setting up a multi-channel audio connection between the two campuses, and to mix the audio. Surprisingly, there were some hiccups with the Lola connection, and we initially received a lot of clicks and pops through our Midas mixer. Initial attempts to fix the issue included changing the buffer size and verifying sample rates all over, but nothing helped significantly. After a while, we found out that the issue was on our side. After some further debugging, it became clear that the issue was related to the conversion of the signal in the RME card. There happened to be an extra RME card in the aforementioned portable Portal setup, so we swapped the two cards, which solved all our problems. Thanks to great problem solving by Daniel who saved the day.
 
@@ -23,7 +23,7 @@ Tuesday was spent on setting up a multi-channel audio connection between the two
 
 The high school students arrived two hours before the concert, in order for us to be able to mix the instruments on both sides together. The students had agreed to play some jazz standards beforehand, which they practiced playing together during the soundcheck to get a feeling of how to play together in the Portal. Feedback from the students from Trondheim suggested that they had a fun experience playing in the Portal. They were suprised by how well it worked playing together over the Portal. The picture below was taken during the performance. Faces are anonymized due to privacy reasons. If we get consent from the students, a video will be published from the performance.
 
-![Performance](/assets/img/christmas19/cover.jpg)
+![Performance](/assets/image/christmas19/cover.jpg)
 
 
 ## Reflections

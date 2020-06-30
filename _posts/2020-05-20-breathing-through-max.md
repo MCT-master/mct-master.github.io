@@ -4,7 +4,7 @@ title: "Breathing through Max"
 date: 2020-05-18 22:00:00 +0100
 categories: Motion-Tracking
 author: Jackson Goode
-image: /assets/img/jacksong/distance.png
+image: /assets/image/jacksong/distance.png
 excerpt: "For the COVID-19 version of motion-tracking, I developed a system to track your rate of breath and sonify it through Max. It emphasized the tenants of biofeedback and hopes to serve as a responsive system for stress relief."
 Keywords: Max, sonification, breathing, hci, meditation, stress-relief
 --- 
@@ -29,7 +29,7 @@ Most of these apps transmit their sensor data over a UDP connection using the OS
 To work around this, I wrote a python script that acted as a node to receive, format the stream into proper OSC messages, and finally, send the data locally to a specified port within Max. The script operated by receiving a row of data, splitting the list of data points into an array, and then sending each index of the array as a pair with a specified OSC message. I used the messages “/x”, “/y”, and “/z” as shorthand for the x, y, z, acceleration data. Once this was passed into Max, the data was able to be handled the same way as any other OSC message.
 
 <figure>
-    <img src="/assets/img/jacksong/breathing-code.png" width="600px">
+    <img src="/assets/image/jacksong/breathing-code.png" width="600px">
     <figcaption>Sample of the code used to transport the messages into Max</figcaption>
 </figure>
 
@@ -38,14 +38,14 @@ After some initial testing of various sensors and positions during recording, I 
 Reading the CSV data into Max was achieved by loading each line of the CSV as a text file from which I could use a [metro] object to iterate through the [coll] dictionary that stored the sensor data ([I stole this bit of Max data](https://cycling74.com/forums/importing-from-excel-csv-questions/)). From Max, I could visualize the data stream easily using a [multislider] window. I then set out to smooth this data through a variety of techniques. I found that a reliable method of smoothing the noisy data was to create a buffer of the last x number of samples (with [zl.stream]) and then output the mean ([mean]) of that sliding window. The larger the number of samples, the smoother the data, yet this stunts some of the local dynamics within the stream and creates latency. After exploring further I found a 3rd party object [dot.denoise.sliding] that includes better logic for excluding outliers within streams.
  
 <figure>
-    <img src="/assets/img/jacksong/noisey.png" width="720px">
+    <img src="/assets/image/jacksong/noisey.png" width="720px">
     <figcaption>Before and after de-noising the stream</figcaption>
 </figure>
 
 This returns to an observation I noticed when looking at sensor data. I noticed that one of the gyroscope sensors also was repeating in a rhythmic pattern, but much faster and pronounced than breathing should be. I realized that these were pronounced fulgurations of my heartbeat and that these impulses were actually affecting the accelerometer sensor data I was analyzing from the y-axis.
 
 <figure>
-    <img src="/assets/img/jacksong/gyro-and-accel.png" width="600px">
+    <img src="/assets/image/jacksong/gyro-and-accel.png" width="600px">
     <figcaption>Notice the fast paced impulses from the gyroscope sensor</figcaption>
 </figure>
  
@@ -56,7 +56,7 @@ I tried number of techniques to suppress the improper max/mins that would appear
 I further enhanced this solution by making the distance dynamically shifted by an average of the distance between the last 5 max and mins.
 
 <figure>
-    <img src="/assets/img/jacksong/distance.png" width="600px">
+    <img src="/assets/image/jacksong/distance.png" width="600px">
     <figcaption>Gating the frequent max/mins</figcaption>
 </figure>
 

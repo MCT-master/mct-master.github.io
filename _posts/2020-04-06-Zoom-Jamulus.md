@@ -4,7 +4,7 @@ title: "Zoom and other streaming services for jamming"
 date: 2020-04-06 11:10:20 +0200
 categories: Portal
 author: Gaute Wardenær
-image: /assets/img/gaute/zoom.jpg
+image: /assets/image/gaute/zoom.jpg
 excerpt: "One thing you can do is to enable the option of 'preserve original audio' in Zoom."
 Keywords: Zoom, Jamming, Jamulus, MCT, Internet, Cake
 ---

@@ -4,7 +4,7 @@ title: The Immersive Portal
 date: 2020-02-24 18:00:00 +0200
 categories: Portal
 author: Class of 2021
-image: /assets/img/portal/ambisonics.jpg
+image: /assets/image/portal/ambisonics.jpg
 excerpt: The MCT portal is rigged for ambisonics to fit a virtual classroom in a classroom
 Keywords: Portal, Spatialization, Ambisonics, IEM
 --- 
@@ -14,7 +14,7 @@ Keywords: Portal, Spatialization, Ambisonics, IEM
 Initial tests on a simple binaural setup between the Trondheim and Oslo portals gave some insights into what rendered “effective” sonic placement, and also what: not so much. Using the [IEM Software Suite](https://plugins.iem.at/), we were able to create an ambisonic enviroment over a two classroom setup. There was a bit of difficultly regarding the previous complexity of our configuration involving the Lola system.
 
 <figure>
-    <img src="/assets/img/portal/room_encoder.png" width="640" height="480">
+    <img src="/assets/image/portal/room_encoder.png" width="640" height="480">
     <figcaption>IEM Room Encoder</figcaption>
 </figure>
 
@@ -22,13 +22,13 @@ Here are some screenshots for those who are interested of what it would look lik
 <div class="row" style="display:flex">
     <div class="column" style="flex:33.3%; padding:10px">
         <figure>
-            <img src="/assets/img/portal/reaper_setup.png" style="width:100%">
+            <img src="/assets/image/portal/reaper_setup.png" style="width:100%">
             <figcaption>Reaper setup</figcaption>
         </figure>
     </div>
     <div class="column" style="flex:33.3%; padding:10px">
         <figure>
-            <img src="/assets/img/portal/reaper_routing.png" style="width:100%">
+            <img src="/assets/image/portal/reaper_routing.png" style="width:100%">
             <figcaption>Reaper routing</figcaption>
         </figure>
     </div>

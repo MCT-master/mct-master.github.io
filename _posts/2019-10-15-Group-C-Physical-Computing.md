@@ -4,13 +4,13 @@ title: 'Physical Computing Day One: Victorian Synthesizer Madness! Group C Repor
 date: 2019-10-15 17:18:00 +0200
 categories: Physical-Computing
 author: Paul, Aleksander, Thomas, and Iggy
-image: /assets/img/2019_10_15_stefanof_BenFElectric.jpg
+image: /assets/image/2019_10_15_stefanof_BenFElectric.jpg
 excerpt: 'The first day of Physical Computing started and ended with a bit of confusion in the Portal, but that is par for the course. Once we set up the various cameras and microphones, and dealt with feedback, echo, etc, the fun began! '
 ---
 
 ## Physical Computing Day One: Victorian Synthesizer Madness! Group C Reports In From Heck
 
-<img src="/assets/img/2019_10_15_stefanof_GroupCWorking1.jpg" width="80%" height="80%" align="center" />
+<img src="/assets/image/2019_10_15_stefanof_GroupCWorking1.jpg" width="80%" height="80%" align="center" />
 
 The first day of Physical Computing started and ended with a bit of confusion in the Portal, but that is par for the course. Once we set up the various cameras and microphones, and dealt with feedback, echo, etc, the fun began!
 
@@ -32,7 +32,7 @@ The piezo was variously rubbed and scraped across various surfaces while the han
 
 Meanwhile, Aleks used the very non-Victorian computer program PureData to create a basic sampler-looper, and using a jerry-rigged small speaker as a microphone, proceeded to sample the noise we created, manipulate it in real time, then feed the sound back through one of the battery powered amps. Various echos, feedback loops, and howls that literally peeled the paint off the ceiling was the sonic result.
 
-![aleks PD day 1](/assets/img/2019_10_15_stefanof_pd_aleks_pc.jpg)
+![aleks PD day 1](/assets/image/2019_10_15_stefanof_pd_aleks_pc.jpg)
 
 We played all this for like, I don’t know, 5 minutes? When the last howls of the demon we had aroused faded and we emerged once again, blinking in the glare of the bright sunlight as if awakening from a dream, our comrades greeted us with a most thunderous applause.
 

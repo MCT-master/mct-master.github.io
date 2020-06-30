@@ -4,12 +4,12 @@ title: "A-team - Phone sensors, servers and javascript"
 date: 2018-10-18
 categories: Physical-Computing
 author: JJ, EW, SR, SH, JNV
-image: /assets/img/Ateam_sixDegrees.jpg
+image: /assets/image/Ateam_sixDegrees.jpg
 excerpt: "So, day two of coding was pretty much like day one: It startet with total confusion. Confusion then driftet into anxiety followed by panic. Then hysterically laughter and something that could be mistaken for self confidence because what I wrote in the code actually worked. Only difference today was that I thought I was having a hart attack around lunchtime, but it was only low blood sugar and dehydration. Coming home I went for a long run in the woods, looking for a Wolfpack I could join, just to make my life a little easier. Didn't find one so I limped my way back through the woods, trying to summarize the day, but the only word that came to my mind was revenge. Made it home just before dark. Tomorrow is another day. Probably."
 ---
 
 <figure>
-<img src="/assets/img/2018_10_18_stefanof_Ateam_sixDegrees.jpg" alt="Six degrees of freedom" width="50%" align="middle">
+<img src="/assets/image/2018_10_18_stefanof_Ateam_sixDegrees.jpg" alt="Six degrees of freedom" width="50%" align="middle">
 <figcaption><strong>Six degrees of freedom</strong></figcaption>
 </figure>
 
@@ -26,7 +26,7 @@ excerpt: "So, day two of coding was pretty much like day one: It startet with to
 The first assignment was to download some sensor checking apps on our smart phones and compare them together. Espen and Sepehr both figured one of the most suitable apps for this purpose were “Sensor Kinetiks” which displayed several types of sensor data, and included the ability to record the data for more analysis. For Sam on android, Sensorlab was the most intuitive, showing all sensors on one page in graph form.
 
 <figure>
-<img src="/assets/img/2018_10_18_stefanof_Ateam_sensorApp.jpg" alt="Sensor app" align="middle">
+<img src="/assets/image/2018_10_18_stefanof_Ateam_sensorApp.jpg" alt="Sensor app" align="middle">
 <figcaption><strong>Sensor kinetiks</strong></figcaption>
 </figure>
 
@@ -38,7 +38,7 @@ First we had to connect our phones to our local web servers, using the phone’s
 When connected to the server, the one´s using iPhones did not see any sensor data displayed in the browser. Deleting the method on line 23 in the first exercise solved this issue. This was clearly not supported by iPhone…..
 
 <figure>
-<img src="/assets/img/2018_10_18_stefanof_Ateam_methodNotSupp.png" alt="Javascript code" align="middle">
+<img src="/assets/image/2018_10_18_stefanof_Ateam_methodNotSupp.png" alt="Javascript code" align="middle">
 <figcaption><strong>Method on line 23 not supported</strong></figcaption>
 </figure>
 
@@ -52,7 +52,7 @@ Over in Oslo, Sam had managed to get the iberlin.js code to work… sort of. The
 To be able to join the performance, Jørgen managed to use an app he had coded before. This app is coded in javascript using the Web Audio Api, and uses the deviceorientation event to get sensor data. By pushing and holding the buttons that you can see in the picture below, samples are played. A lowpass filter is applied by moving the phone back/forward and a delay is applied by moving it up/down.
 
 <figure>
-<img src="/assets/img/2018-10-18_stefanof_Ateam_jorgenApp.jpg" alt="Jørgen's sampler in browser" width="50%" align="middle">
+<img src="/assets/image/2018-10-18_stefanof_Ateam_jorgenApp.jpg" alt="Jørgen's sampler in browser" width="50%" align="middle">
 <figcaption><strong>Jørgen's sampler in browser</strong></figcaption>
 </figure>
 

@@ -4,11 +4,11 @@ title:  "Meet MCT Group B"
 date:   2018-08-22 13:23:30 +0200
 categories: MCT
 author: Dmitry Vasilev, Ashane Silva, Mari Lesteberg & Eigil Aandahl
-image: /assets/img/2018_08_23_stefanof_Group-B-Y1.jpeg
+image: /assets/image/2018_08_23_stefanof_Group-B-Y1.jpeg
 excerpt: "<strong>Team name</strong>: D.A.M.E. – We are a diverse and multicultural group with different yet complementary practical skills, theoretical knowledge, and personal characteristics. Yet, the unifying agreement for our group is that music is key. We strongly believe in creative application of technology in musical performance and composition, communication, sound synthesis and music production."
 ---
 
-![Photo of Group B](/assets/img/2018_08_23_stefanof_Group-B-Y1.jpeg "Group B")
+![Photo of Group B](/assets/image/2018_08_23_stefanof_Group-B-Y1.jpeg "Group B")
 
 **Team name**: D.A.M.E. – We are a diverse and multicultural group with different yet complementary practical skills, theoretical knowledge, and personal characteristics. Yet, the unifying agreement for our group is that music is key. We strongly believe in creative application of technology in musical performance and composition, communication, sound synthesis and music production.
 
@@ -26,7 +26,7 @@ Acoustical Engineer and musician. Recent graduate with a M.Sc. in acoustics and 
 * [Bandcamp](https://machinesque.bandcamp.com/)
 * [SoundCloud](https://soundcloud.com/machinesque/)
 
-![Photo of Dmitry Vasilev](/assets/img/2018_08_22_stefanof_DmitryVasilev.jpeg "Dmitry Vasilev")
+![Photo of Dmitry Vasilev](/assets/image/2018_08_22_stefanof_DmitryVasilev.jpeg "Dmitry Vasilev")
 
 
 ### Ashane Silva
@@ -39,7 +39,7 @@ Ashane Silva is a drummer, audio producer, composer, and the founder of the audi
 * [The Terra Tomorrow YouTube](https://www.youtube.com/channel/UCVXikii-kPspIPeG-MqVVgQ)
 * [Ashane Silva's YouTube](https://www.youtube.com/user/Ashanous)
 
-![Photo of Ashane Silva](/assets/img/2018_08_22_stefanof_AshaneSilva.jpeg "Ashane Silva")
+![Photo of Ashane Silva](/assets/image/2018_08_22_stefanof_AshaneSilva.jpeg "Ashane Silva")
 
 ### Mari Lesteberg
 
@@ -56,7 +56,7 @@ Mari is a vocalist, keyboard player, composer and producer, located in Oslo. Her
 * [Suburban Savages on Facebook](https://www.facebook.com/SuburbanSavages)
 * [Suburban Savages on Bandcamp](https://suburbansavages.bandcamp.com/)
 
-![Photo of Mari Lesteberg](/assets/img/MariBilde.jpg "Mari Lesteberg")
+![Photo of Mari Lesteberg](/assets/image/MariBilde.jpg "Mari Lesteberg")
 
 
 ### Eigil Aandahl
@@ -65,6 +65,6 @@ Eigil Aandahl \(pronounced _Aygil On'dahl_\) :loud_sound:
 24 y old from Tromsø in northern Norway. BA in music technology from NTNU. Plays percussion and synthesizers, with a particular interest in modular synthesizers interfacing with digital tech. Is not that active on social media, but can be found on [Facebook](https://www.facebook.com/eigil.aandahl), [Instagram](https://www.instagram.com/eigil94/), and [Discord](https://discordapp.com/) as Eigil94.
 Other activities include swimming, hiking and playing different videogames, and can be found on [Steam](https://steamcommunity.com/id/eigil94).
 
-![Photo of Eigil](/assets/img/2018_08_22_stefanof_EigilAandahl.jpg)
+![Photo of Eigil](/assets/image/2018_08_22_stefanof_EigilAandahl.jpg)
 
 <eigil94@gmail.com>

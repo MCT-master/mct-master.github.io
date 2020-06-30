@@ -4,12 +4,12 @@ title:  "Group B, Short cables and LoLa"
 date:   2018-11-06 02:00:00 +0200
 categories: Portal
 author: Mari Lesteberg, Ashane Silva, Shreejay Shreshta & Eigil Aandahl
-image: /assets/img/2018_11_06_stefanof_flag-flagpole-italy-pexels.jpg
+image: /assets/image/2018_11_06_stefanof_flag-flagpole-italy-pexels.jpg
 excerpt: "A few weeks ago we worked on setting up LoLa in the portal. This blogpost got a bit delayed, but we are back!"
 ---
 
 <figure>
-<img src="/assets/img/2018_11_06_stefanof_flag-flagpole-italy-pexels.jpg" alt="Italian flag" width="40%" />
+<img src="/assets/image/2018_11_06_stefanof_flag-flagpole-italy-pexels.jpg" alt="Italian flag" width="40%" />
 </figure>
 
 A few weeks ago we worked on setting up LoLa in the portal. This blogpost got a bit delayed, but we are back!
@@ -19,21 +19,21 @@ Developed by Conservatorio di Musica Giuseppe Tartini from Trieste in collaborat
 In Oslo, we got a lot of help from [Anders](https://www.hf.uio.no/english/people/admin/fac/it-av/andeta/index.html), our guru. He taught us everything we needed to know about LoLa. First, we connected LoLa with the local network to try out the setup. We found out that it was time to use the extended classroom solution with a BenQ projector and started to move furniture and equipment for LoLa to the projector wall in the Oslo Portal. As mentioned, you can't use just any equipment you want with LoLa. LoLa is choosy, LoLa knows what she wants. There is only one computer in the Oslo portal that runs LoLa, and this computer has to be exclusivly for LoLa only. LoLa also requires particular models of USB-3 cameras, and the USB cable used with these cameras must be less than 3 meters, which is sooo short. We were using a [Ximea camera](https://www.ximea.com/) in Oslo, and a [Point Grey camera](https://www.ptgrey.com/) in Trondheim, both should be compatible with LoLa. So if you want to move the camera somewhere, you have to move the whole computer. And that's not just a tiny laptop, that is a 10 kg giga Fractal Design cabinet stuffed with the best you can get regarding computer components. Anders says, by the way, that the computer would be a brilliant computer for gaming. But that is not gonna happen. This computer is for LoLa only.
 
 <figure>
-<img src="/assets/img/2018_11_06_stefanof_Lola_camera.jpg" alt="Camera mounted" width="40%" />
+<img src="/assets/image/2018_11_06_stefanof_Lola_camera.jpg" alt="Camera mounted" width="40%" />
 <figcaption>Fig 1: Ximea USB-3 camera in Oslo</figcaption>
 </figure>
 
 So, after moving all the equipment to the projector wall, we started trying out different settings with LoLa. We started with the lowest resolution, choosing black and white over colours. But for some reason, Oslo kept streaming in colours, even when choosing black and white. We soon figured out that we couldn't really send much data over the local network before the image got frozen due to high bandwidth usage.
 
 <figure>
-<img src="/assets/img/2018_11_06_stefanof_Lola_setup1.jpg" alt="Audio setup for LoLa" width="40%" />
+<img src="/assets/image/2018_11_06_stefanof_Lola_setup1.jpg" alt="Audio setup for LoLa" width="40%" />
 <figcaption>Fig 2:  LoLa setup interface</figcaption>
 </figure>
 
 In Trondheim, we had a similarly specced computer with a quite powerful GPU, soundcard and memory. However, to our great frustration, the computer malfunctioned when trying to run LoLa, leaking memory and running at full capacity all the time (see figure 3).
 
 <figure>
-<img src="/assets/img/2018_11_06_stefanof_Lola_memory_usage_high.PNG" alt="Task manager showing high CPU and memory usage">
+<img src="/assets/image/2018_11_06_stefanof_Lola_memory_usage_high.PNG" alt="Task manager showing high CPU and memory usage">
   <figcaption>Fig 3: Trondheim computer performance malfunction</figcaption>
  </figure>
 

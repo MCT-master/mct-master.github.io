@@ -4,7 +4,7 @@ title:  "Documentation and recommendations from the latest Portal Jam"
 date:   2019-02-10 19:00 +0200
 categories: Portal
 author: Karolina Jawad, Eirik Dahl, Espen Wik, Shreejay Shrestha, Jørgen Varpe
-image: /assets/img/portal_jam19.jpg
+image: /assets/image/portal_jam19.jpg
 excerpt: "As the Portal is still in its infancy, pushing and exploring its technical possibilities is an ongoing process. We still encounter 
 different issues while actually seeking a smooth and standardized setup of the signal routing and performance space. At the end it is about 
 optimizing the telematic experience but not getting stucked in technicalities at the same time."
@@ -35,7 +35,7 @@ For some parts of the jam we chose to use the click track from the drums in Oslo
 
 
 <figure align="middle">
-<img src="/assets/img/signal_flow_chart.jpg" alt="Broadcasting header image" width="100%">
+<img src="/assets/image/signal_flow_chart.jpg" alt="Broadcasting header image" width="100%">
 </figure>
 <br>
 

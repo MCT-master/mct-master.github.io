@@ -4,7 +4,7 @@ title: "It's not just phase, mom!"
 date: 2019-08-24 14:57:20 +0100
 categories: DSP
 author: Gaute Wardenær
-image: /assets/img/gaute/SMAART.jpeg
+image: /assets/image/gaute/SMAART.jpeg
 excerpt: "Why phase coherency in loudspeakers matters."
 ---
 ## Buzzwords 
@@ -31,7 +31,7 @@ Yes, you do, all the time.
 
 Imagine a typical loudspeaker, say the Yamaha NS10 
 <figure>
-  <img src="/assets/img/gaute/NS10.jpeg" width = "100%" align="center" />
+  <img src="/assets/image/gaute/NS10.jpeg" width = "100%" align="center" />
   <figcaption>The most iconic studio monitor</figcaption>
 </figure>
 While true that you can obtain almost perfect time alignment with the drivers in these speakers by sitting dead center of the stereo pair, with equal distance to the drivers in both the horizontal and vertical plane - in reality you can't, but crossover distortion and the like is a whole nother story -, but let's be realistic here, when do you ever sit exactly like this? Not at a concert, that's for sure. 

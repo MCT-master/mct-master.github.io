@@ -4,12 +4,12 @@ title: "A-team - Recording and sampling"
 date: 2018-10-16
 categories: Physical-Computing
 author: JJ, EW, SR, SH, JNV
-image: /assets/img/2018_10_16_stefanof_Ateam_getOut.jpg
+image: /assets/image/2018_10_16_stefanof_Ateam_getOut.jpg
 excerpt: "Today we recorded sounds using three techniques; Circuit sniffing, earbuds through mini-amplifier, and with a contact mic. We then used some of the sounds we recorded in a sampler, made using web technologies, including javascript with the library P5.js."
 ---
 
 <figure>
-<img src="/assets/img/2018_10_16_stefanof_Ateam_getOut.jpg" alt="el panel" width="50%" align="middle">
+<img src="/assets/image/2018_10_16_stefanof_Ateam_getOut.jpg" alt="el panel" width="50%" align="middle">
 <figcaption><strong>Crazy sounds this way</strong></figcaption>
 </figure>
 
@@ -35,7 +35,7 @@ Then we had more luck on to the fuse box, located in one of the hallways in the 
 </figure>
 
 <figure>
-<img src="/assets/img/2018_10_16_stefanof_Ateam_elTavle.jpg" alt="el panel" width="50%" align="middle">
+<img src="/assets/image/2018_10_16_stefanof_Ateam_elTavle.jpg" alt="el panel" width="50%" align="middle">
 <figcaption><strong>El panel</strong></figcaption>
 </figure>
 
@@ -58,7 +58,7 @@ Then we went to the kitchen, testing to record sound from a microwave oven (when
 </figure>
 
 <figure>
-<img src="/assets/img/2018_10_16_stefanof_Ateam_micro.jpg" alt="Microwave" width="50%" align="middle">
+<img src="/assets/image/2018_10_16_stefanof_Ateam_micro.jpg" alt="Microwave" width="50%" align="middle">
 <figcaption><strong>Microwave</strong></figcaption>
 </figure>
 

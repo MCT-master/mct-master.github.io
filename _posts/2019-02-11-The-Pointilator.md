@@ -4,7 +4,7 @@ title:  "The Pointilator Sequence Synthesizer"
 date:   2019-02-11 17:00:00 +0200
 categories: Audio-Programming
 author: Eigil Aandahl
-image: /assets/img/pointilator.png
+image: /assets/image/pointilator.png
 excerpt: "The Pointilator sequence synth is an experimental instrument that can be played directly from a web browser! It is tested to work with Opera and Chrome, but does not work in Safari.
 	It is based around entering a sequence of notes as points on a Canvas that registers each click and draws a circle where the note was put. It can then play back the notes from left to right with the height of the click translating to pitch.
   The result is a sequencing synthesizer that has a finely detailed scope in both time and pitch, although it is not easy to control based on traditional musical scales or rhythmic time."
@@ -12,7 +12,7 @@ excerpt: "The Pointilator sequence synth is an experimental instrument that can 
 ---
 
 <figure align="middle">
-<img src="/assets/img/pointilator.png" alt="The Pointilator GUI." width="70%">
+<img src="/assets/image/pointilator.png" alt="The Pointilator GUI." width="70%">
 </figure>
 
 ### Introduction
@@ -33,7 +33,7 @@ I will come back to how this was achieved, but first I will provide a quick time
 ### Timeline
 
 <figure align="middle">
-<img src="/assets/img/pointilatordiagram.png" alt="Diagram showing the development of the project over 4 days." width="80%">
+<img src="/assets/image/pointilatordiagram.png" alt="Diagram showing the development of the project over 4 days." width="80%">
 </figure>
 
 When I started out on the first day of the workshop, I worked on a sampler instrument that would use a Convolver node to create reverb, but this proved less inspiring than I had thought, and after just achieving sound and some improvements in the program structure, I abandoned this angle for the project.

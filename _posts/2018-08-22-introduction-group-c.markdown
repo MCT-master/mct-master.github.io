@@ -4,7 +4,7 @@ title:  "Meet MCT Group C"
 date:   2018-08-22 14:54:46 +0200
 categories: MCT
 author: Karolina Jawad, Elias Andersen & Jonas Bjordal
-image: /assets/img/2018_08_22_stefanof_Group-C-Y1.jpg
+image: /assets/image/2018_08_22_stefanof_Group-C-Y1.jpg
 excerpt: "We are an international group of students with different background in
 humanities, programming, music and music production based in Oslo and
 Trondheim. Even though we just got together without knowing each other
@@ -16,7 +16,7 @@ think our biggest challenge is that we are placed in to different cities
 and not possible to meet physically."
 ---
 
-![Photo of Group C](/assets/img/2018_08_22_stefanof_Group-C-Y1.jpg "Group C")
+![Photo of Group C](/assets/image/2018_08_22_stefanof_Group-C-Y1.jpg "Group C")
 
 We are an international group of students with different background in
 humanities, programming, music and music production based in Oslo and

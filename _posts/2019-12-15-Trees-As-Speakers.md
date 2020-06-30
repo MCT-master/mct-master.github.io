@@ -4,7 +4,7 @@ title: "Tree as Speakers"
 date: 2019-12-15 21:00:00 +0200
 categories: Projects
 author: Ashane Silva, Shreejay Shrestha and Jørgen Nygård Varpe
-image: /assets/img/varpe/treerec.JPG
+image: /assets/image/varpe/treerec.JPG
 excerpt: "A project in collaboration with ÅF engineering. The goal of the project was to create a non-intrusive soundscape and/or noise-masking installations in an outdoor public space by using trees as speakers, installing audio exciters on trees."
 Keywords: Trees as speakers, exciters, field recordings, analysis, frequency response, noise masking
 ---
@@ -42,19 +42,19 @@ It all started when we received equipment from ÅF engineering. Two problems aro
 
 - The amplifiers required a power supply of 32V
   <figure>
-  <img src="/assets/img/varpe/sd250.png" width = "50%" />
+  <img src="/assets/image/varpe/sd250.png" width = "50%" />
   <figcaption><strong>sd250</strong></figcaption>
   </figure>
 - The exciters were meant for glass application.
   <figure>
-  <img src="/assets/img/varpe/sd1g.png" width = "50%" />
+  <img src="/assets/image/varpe/sd1g.png" width = "50%" />
   <figcaption><strong>sd1g</strong></figcaption>
   </figure>
 
 We knew we would get this type of transducer, but we saw it as problematic to use these outdoors in the cold winter. Luckily, we were able to borrow the same type of exciters from Øyvind Brandtsegg, but with a surface mount plate, made for wood application. This made it easier for us to mount.
 
 <figure>
-<img src="/assets/img/varpe/sd1gsm.png" width = "50%" />
+<img src="/assets/image/varpe/sd1gsm.png" width = "50%" />
 <figcaption><strong>sd1gsm</strong></figcaption>
 </figure>
 We tried to solve the issue of portable power supply in several ways:
@@ -73,19 +73,19 @@ Before being able to go outside we got familiarized with the equipment and a sof
 At Tømmerholtdammen in Trondheim, a remote and quiet place, two types of trees (birch and spruce) were picked, where we also investigated different sizes.
 
 <figure>
-<img src="/assets/img/varpe/birch.jpg" width = "50%" />
+<img src="/assets/image/varpe/birch.jpg" width = "50%" />
 <figcaption><strong>birch</strong></figcaption>
 </figure>
 
 <figure>
-<img src="/assets/img/varpe/spruce.jpg" width = "72%" />
+<img src="/assets/image/varpe/spruce.jpg" width = "72%" />
 <figcaption><strong>Spruce</strong></figcaption>
 </figure>
 
 To improve transmission from the exciter to the tree, we carved out a flat surface. Since we did not have any shovels nor waterproof exciters, we decided to start by mounting the exciters on the tree trunk.
 
 <figure>
-<img src="/assets/img/varpe/exciterOnTree.jpg" width = "50%" />
+<img src="/assets/image/varpe/exciterOnTree.jpg" width = "50%" />
 <figcaption><strong>Spruce</strong></figcaption>
 </figure>
 
@@ -119,34 +119,34 @@ The initial visualization consists of so many data points that made it impossibl
 1. Comparing small birch tree with one exciter and two exciters. The results showed that overall the number of Exciters doesn’t seem to affect the frequency response other than levels.
 
    <figure>
-   <img src="/assets/img/Trees as speakers/figure2.jpg" width = "50%" align="center" />
+   <img src="/assets/image/Trees as speakers/figure2.jpg" width = "50%" align="center" />
    <figcaption><strong>Blue: 2 exciters, red: 1 exciter</strong></figcaption>
    </figure>
 
 2. We had to investigate if the number of trees can affect the produced frequency content. From the results, we identified that using one exciter per each tree tends to produce a slight drop in 100 Hz - 380 Hz range. This might be due to microphone placement, pointing between the trees.
 
    <figure>
-     <img src="/assets/img/Trees as speakers/figure3.jpg" width = "50%" align="center" />
+     <img src="/assets/image/Trees as speakers/figure3.jpg" width = "50%" align="center" />
      <figcaption><strong>Green: 2 trees, red: 2 exciters on 1 tree</strong></figcaption>
    </figure>
 
 3. We analyzed the frequency responses of birch, Spruce and the large birch tree. The results were interesting and led to some ambiguity about the recording itself. According to the graph, the large birch tree is producing lower frequencies in the 100 Hz -200 Hz region. Then we had to make sure it was not due to background noise. The recording had a background noise of rain which was not possible to clean or remove during the editing process because it will drastically affect the frequency response graph.
 
    <figure>
-       <img src="/assets/img/Trees as speakers/figure4.jpg" width = "50%" align="center" />
+       <img src="/assets/image/Trees as speakers/figure4.jpg" width = "50%" align="center" />
        <figcaption><strong>Red: Big birch, blue: spruce, green: small birch</strong></figcaption>
       </figure>
 
 4. We created frequency response graphs of the background noise in the recording by choosing 1-3s clips of the background noise. And also created another frequency response graph by using the half-length sinusoidal sweeps (so the sweeps will start from 500 Hz- This step was for further confirmation that the low end was not produced by any background noise). As the final result, it suggests that the larger birch tree produces more low frequency content.
 
    <figure>
-   <img src="/assets/img/Trees as speakers/figure5.jpg" width = "50%" align="center" />
+   <img src="/assets/image/Trees as speakers/figure5.jpg" width = "50%" align="center" />
    <figcaption><strong>Green: Big birch, Black: small birch, red: bg-noise big birch, purple: bg-noise small birch, yellow: bg-noise spruce </strong></figcaption>
    </figure>
 
 5. According to the urban noise analysis we did, higher levels of low-frequency content below 100 Hz should be produced from trees to mask public noise. By listening and looking at the frequency spectrum, We realized that vehicles contribute most to the low frequencies in urban noise. We concluded that this kind of system is not suitable for noise masking but more appropriate as sound installations.Trees can be used in office spaces to play background music to break the extreme silence. Also, interactive installations can be done in public parks and children parks. As an example, playing sounds through trees which will trigger if a person gets closer to trees.
    <figure>
-   <img src="/assets/img/Trees as speakers/figure6.jpg" width = "50%" align="center" />
+   <img src="/assets/image/Trees as speakers/figure6.jpg" width = "50%" align="center" />
    <figcaption><strong>Black: Trondheim city noise</strong></figcaption>
    </figure>
 

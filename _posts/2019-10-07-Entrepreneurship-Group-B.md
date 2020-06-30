@@ -4,7 +4,7 @@ title: 'Entrepreneurship for MCT - Group B'
 date: 2019-10-07 22:18:00 +0200
 categories: Entrepreneurship
 author: Paul Koenig, Gaute Wardenær, Magda Futyma, Ulrik Antoniussen Halmøy
-image: /assets/img/2019_10_07_stefanof_andvari.png
+image: /assets/image/2019_10_07_stefanof_andvari.png
 excerpt: 'Summary of MCT4015 project from group B'
 Keywords: Entrepreneurship, Andvarì
 ---
@@ -29,7 +29,7 @@ Action Log and Learning Diary to document our research, we would then get togeth
 as a group via Zoom to discuss strategy and brainstorm new ideas.
 
 <figure>
-  <img src="/assets/img/2019_10_07_stefanof_andvari_flowchart.png" alt="Flowchart of the development process"/>
+  <img src="/assets/image/2019_10_07_stefanof_andvari_flowchart.png" alt="Flowchart of the development process"/>
   <figcaption>Flowchart of the development process</figcaption>
 </figure>
 
@@ -52,7 +52,7 @@ inestimable value, the Andvarì, with a perfect blend of Nordic design, high tec
 and impeccable workmanship will fit seamlessly into any audiophile’s dream system.
 
 <figure>
-  <img src="/assets/img/2019_10_07_stefanof_andvari_3d.png" alt="3D model of the Andvarì" width="300" height="300" />
+  <img src="/assets/image/2019_10_07_stefanof_andvari_3d.png" alt="3D model of the Andvarì" width="300" height="300" />
   <figcaption>3D model of the Andvarì</figcaption>
 </figure>
 

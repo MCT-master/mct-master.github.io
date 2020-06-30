@@ -1,6 +1,6 @@
 ---
 layout: post
-image: /assets/img/montage_portal.jpg
+image: /assets/image/montage_portal.jpg
 title:  "A two week wrap-up of Group C"
 date:   2018-10-29 23:00
 categories: Portal

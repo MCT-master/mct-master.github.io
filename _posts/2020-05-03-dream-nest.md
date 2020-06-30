@@ -4,7 +4,7 @@ title: Soundscapes for Dream Nest
 date: 2020-05-03 10:00:00 +0200
 categories: Projects
 author: Jackson, Paul & Iggy
-image: /assets/img/jacksong/baby-spa.jpg
+image: /assets/image/jacksong/baby-spa.jpg
 excerpt: "For the spring applied project we created music for a hardware specific device to relax colicy babies in a collaboration with our external partner, Dream Nest. Our final product is a six track EP, engineered to put your baby to sleep (we hope!)"
 Keywords: MCT, Dream Nest, sound engine
 --- 
@@ -37,7 +37,7 @@ Listening to recordings taken from inside the stomach were also quite illuminati
 All these elements are filtered in the high and upper-mid frequency ranges to attempt to properly represent the actual intra-uterine environment. 
 
 <figure>
-    <img src="/assets/img/jacksong/dn-eq.jpg" width="500px"/>
+    <img src="/assets/image/jacksong/dn-eq.jpg" width="500px"/>
     <figcaption>An example of the EQ that we applied globally to the mix</figcaption>
 </figure>
 
@@ -72,7 +72,7 @@ In reference to the above scientific literature, our proposed “sound engine”
 In order to create a working model of our sound engine, we implemented a demonstration app in MobMuPlat, using [Pure Data](https://puredata.info/) as our programming language. The app combines our original music, synthesized womb sounds, and recordings of the maternal heartbeat and voice of a real, actual mother (Paul’s wife, Erin). 
 
 <figure>
-    <img src="/assets/img/jacksong/dn-pd.jpg" width="500px"/>
+    <img src="/assets/image/jacksong/dn-pd.jpg" width="500px"/>
     <figcaption>A shot of the Pure Data patch for our demo app</figcaption>
 </figure>
 

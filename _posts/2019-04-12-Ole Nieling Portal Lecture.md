@@ -5,7 +5,7 @@ http://www.ole.wtf/
 I had the pleasure of introducing Ole Neiling, a extradisciplinary 'life-style' artist. This was part of a series of lectures held over the portal in the sonification and sound design module..
 
 <figure align="middle">
-<img src="/assets/img/Ole n sam portal.jpeg" alt="" width="70%">
+<img src="/assets/image/Ole n sam portal.jpeg" alt="" width="70%">
 <figcaption align="middle"><strong>Sam Roman (me) introducing Ole over the portal</strong></figcaption>
 </figure>
 
@@ -25,7 +25,7 @@ Ole’s themes he discusses are; Music and language, what makes you human, what 
 ### Project Examples
 
 <figure align="middle">
-<img src="/assets/img/skauhytt neiling.jpeg" alt="" width="70%">
+<img src="/assets/image/skauhytt neiling.jpeg" alt="" width="70%">
 <figcaption align="middle"><strong></strong></figcaption>
 </figure>
 
@@ -36,7 +36,7 @@ Another project mentioned was Esoterrorism - mobile FM radio pirating, with all 
 A good proportion of the talk was discussing how we, and children learn. One project could be seen as quite controversial - “my first fire”. This is a surprising twist to the “kids do not play with fire” social norm. For Ole, this kit is a way to get into a discussion about how mans relationship with fire has changed, and especially children in cities that could benefit from some teaching on how to start - and control a fundamental part of human history - fire. As Ole states at least some discussion may come from it.
 
 <figure align="middle">
-<img src="/assets/img/firstfire Neiling.jpeg" alt="" width="50%">
+<img src="/assets/image/firstfire Neiling.jpeg" alt="" width="50%">
 <figcaption align="middle"><strong></strong></figcaption>
 </figure>
 
@@ -46,14 +46,14 @@ Children learn a universal language early on, and learn far deeper than an adult
 During Ole’s preparation for this project he derived some inspiration. Children are almost continually in a state off flow (1975 Mihaly Csikszentmihalyi) and humans can have a ‘eureka’ moment (Pythagoras, Kairos). It should look inviting for exploration - a space station console is shown as an example of what a child would love to play with!  Lift buttons also are great for excitement with children- always responsive, lights up and moves the lift instantly!
 
 <figure align="middle">
-<img src="/assets/img/2019_04_12_stefanof_54_OLMEt.jpg" alt="" width="50%">
+<img src="/assets/image/2019_04_12_stefanof_54_OLMEt.jpg" alt="" width="50%">
 <figcaption align="middle"><strong>OLME prototypes</strong></figcaption>
 </figure>
 
 Ole wanted to produce a learning instrument for children that could be more like playing with clay – a musical sandbox of sorts. This will differ from the plastic, fake instruments regularly on the market today.
 
 <figure align="middle">
-<img src="/assets/img/2019_04_12_stefanof_inst4kids.jpg" alt="" width="50%">
+<img src="/assets/image/2019_04_12_stefanof_inst4kids.jpg" alt="" width="50%">
 <figcaption align="middle"><strong>OLME prototypes</strong></figcaption>
 </figure>
 

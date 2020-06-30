@@ -4,12 +4,12 @@ title:  "Group B, Circuit sniffing and sampling"
 date:   2018-10-17 00:30:00 +0200
 categories: Physical-Computing
 author: Mari Lesteberg, Dmitry Vasilev, Ashane Silva, Shreejay Shreshta & Eigil Aandahl
-image: /assets/img/piano_piezo.png
+image: /assets/image/piano_piezo.png
 excerpt: "During today's workshop, we hunted for sounds created by electromagnetic interferences and vibrations using headphones, contact mics, and portable speakers. Then we 'hacked' a p5.js sampler to play the found sounds from our laptops."
 ---
 
 <figure>
-<img src="/assets/img/piano_piezo.PNG" alt="Piezo on piano" width="90%" />
+<img src="/assets/image/piano_piezo.PNG" alt="Piezo on piano" width="90%" />
 <figcaption>Fig 1: Contact mic directly on piano strings</figcaption>
 </figure>
 

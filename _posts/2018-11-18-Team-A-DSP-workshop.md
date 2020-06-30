@@ -4,12 +4,12 @@ title: "A-team - DSP workshop blog"
 date: 2018-11-22 16:19:42 +0200
 categories: DSP
 author: Jørgen Varpe, Sepehr Haghighi, Espen Wik, Sam Roman
-image: /assets/img/2018_11_22_stefanof_Ateam_dsp.png
+image: /assets/image/2018_11_22_stefanof_Ateam_dsp.png
 excerpt: "On the final DSP class we were bringing it all together - and performing our combined CSound based creations! Having the day to develop on our instruments, we prepared for performing with the other groups at 2 o’clock. After finding our respective rooms, We had a A-Team meeting on how to finish off our sounds,and devise a plan of action for our performance."
 ---
 
 <figure align="middle">
-<img src="/assets/img/2018_11_22_stefanof_Ateam_dsp.png" alt="" width="100%">
+<img src="/assets/image/2018_11_22_stefanof_Ateam_dsp.png" alt="" width="100%">
 </figure>
 <br>
 
@@ -26,7 +26,7 @@ On the final DSP class we were bringing it all together - and performing our com
 
 <center><strong>The Band - The A Team</strong></center>
 <figure align="middle">
-<img src="/assets/img/2018_11_22_stefanof_Ateam_Ateam.jpg" alt="" width="70%">
+<img src="/assets/image/2018_11_22_stefanof_Ateam_Ateam.jpg" alt="" width="70%">
 <figcaption align="middle"><strong></strong></figcaption>
 </figure>
 
@@ -66,21 +66,21 @@ Below you can see the signal chain of our group. Please make the embedded flowch
 Sam had created a wave based instrument in CSound, and went on to further process and mangle in Ableton live. The idea behind the instruments creation was to make a full sounding reese sound, by phasing two oscillators together. During the workshop Sam had created a instrument patch in CSound using the vco2 opcode, with inspiration from a tutorial on the cabbage website. The vco2 was used to produce a saw wave, with iamp opcode determining the amplitude of the signal, and to output the signal as audio. The code was then imported to cabbage, adding a basic keyboard user interface,and exported as a VST.
 
 <figure align="middle">
-<img src="/assets/img/2018_11_18_stefanof_Ateam_CsoundCode.jpg" alt="" width="50%">
+<img src="/assets/image/2018_11_18_stefanof_Ateam_CsoundCode.jpg" alt="" width="50%">
 <figcaption align="middle"><strong></strong></figcaption>
 </figure>
 
 Once loaded up as a VST in Ableton Live, 2 oscillator VSTs were run in parallel (so effects could be added individually in ableton) These oscillators were then tuned so they were slightly out of phase, creating a movement and width to the sound.
 
 <figure align="middle">
-<img src="/assets/img/2018_11_18_stefanof_Ateam_ablChain2.jpg" alt="" width="60%">
+<img src="/assets/image/2018_11_18_stefanof_Ateam_ablChain2.jpg" alt="" width="60%">
 <figcaption align="middle"><strong></strong></figcaption>
 </figure>
 
 On the first oscillator a frequency shifter was added to morph this phasing further as a parameter for performance. The sound was staccato, a filter would be used later as a sculpting tool for composition and expression.
 
 <figure align="middle">
-<img src="/assets/img/2018_11_18_stefanof_Ateam_ablPlugin2.jpg" alt="" width="60%">
+<img src="/assets/image/2018_11_18_stefanof_Ateam_ablPlugin2.jpg" alt="" width="60%">
 <figcaption align="middle"><strong></strong></figcaption>
 </figure>
 
@@ -88,7 +88,7 @@ These two oscillators are then both combined and run through a fx chain to mould
 
 <center><strong>Sam's FX Chain</strong></center>
 <figure align="middle">
-<img src="/assets/img/2018_11_18_stefanof_Ateam_ablPlugin.png" alt="" width="80%">
+<img src="/assets/image/2018_11_18_stefanof_Ateam_ablPlugin.png" alt="" width="80%">
 <figcaption align="middle"><strong></strong></figcaption>
 </figure>
 
@@ -105,17 +105,17 @@ These two oscillators are then both combined and run through a fx chain to mould
 - Ableton Limiter - Keep a ceiling on the volume
 
 <figure align="middle">
-<img src="/assets/img/2018_11_18_stefanof_Ateam_ablChain.jpg" alt="" width="80%">
+<img src="/assets/image/2018_11_18_stefanof_Ateam_ablChain.jpg" alt="" width="80%">
 <figcaption align="middle"><strong></strong></figcaption>
 </figure>
 
 <figure align="middle">
-<img src="/assets/img/2018_11_18_stefanof_Ateam_ablChain3.jpg" alt="" width="80%">
+<img src="/assets/image/2018_11_18_stefanof_Ateam_ablChain3.jpg" alt="" width="80%">
 <figcaption align="middle"><strong></strong></figcaption>
 </figure>
 
 <figure align="middle">
-<img src="/assets/img/2018_11_18_stefanof_Ateam_ablChain5.jpg" alt="" width="80%">
+<img src="/assets/image/2018_11_18_stefanof_Ateam_ablChain5.jpg" alt="" width="80%">
 <figcaption align="middle"><strong></strong></figcaption>
 </figure>
 
@@ -128,7 +128,7 @@ During the performance It was used as a sub bed, staying in the low below 100 hz
 A drum patch made earlier was also used in Sams Ableton Live project. This is a group of operator FM synthesised drums that are velocity sensitive, so you can have all the drums on one midi clip, and pitch them as well. They have been heavily processed previously. As stated before, the synth signal was ducked out during the kicks and snares (they were running silent as a ghost track to trigger the compressor)
 
 <figure align="middle">
-<img src="/assets/img/2018_11_18_stefanof_Ateam_ablChain4.jpg" alt="" width="80%">
+<img src="/assets/image/2018_11_18_stefanof_Ateam_ablChain4.jpg" alt="" width="80%">
 <figcaption align="middle"><strong></strong></figcaption>
 </figure>
 
@@ -147,7 +147,7 @@ The sounds that were played had a relation to WW2, using a voice connecting on a
 Jørgen focused on exploring physical modeling of a string in Csound. He used waveguide synthesis to make two strings, and put one string inside the other, making a total string consisting of the two. he then added reverb on the output of the second string. More information on the DSP methods and signal flow is found in the flowchart if you click Jørgen’s computer-icon. To make this usable as an instrument and as a plugin, knobs were added to control the feedback-amount of the different strings. In this way he could tailor the sound the way he wanted. Autogain was added to prevent the output from exploding when adjusting these parameters. Knobs for controlling the reverb-effect, the cutoff for the lowpass filter on the strings, the frequency-shift, and the main output volume, was also added to the plugin. You can see the plugin in the picture below.
 
 <figure align="middle">
-<img src="/assets/img/2018_11_18_stefanof_Ateam_CsoundPlugin.png" alt="" width="80%">
+<img src="/assets/image/2018_11_18_stefanof_Ateam_CsoundPlugin.png" alt="" width="80%">
 <figcaption align="middle"><strong></strong></figcaption>
 </figure>
 
@@ -171,7 +171,7 @@ The feedback knob on the plugin was in charge of changing the pitch a little bit
 In the end, there was a low pass filter used to roll off everything after 20hz and the whole plugin was being controlled by a dry/wet knob.
 
 <figure align="middle">
-<img src="/assets/img/2018_11_18_stefanof_Ateam_sepehr2.png" alt="" width="70%">
+<img src="/assets/image/2018_11_18_stefanof_Ateam_sepehr2.png" alt="" width="70%">
 <figcaption align="middle"><strong></strong></figcaption>
 </figure>
 
@@ -184,7 +184,7 @@ In the end, there was a low pass filter used to roll off everything after 20hz a
 - Izotope Ozone Maximizer: for limiting the output to avoid any sudden transients and loud sounds
 
 <figure align="middle">
-<img src="/assets/img/2018_11_18_stefanof_Ateam_sepehr.png" alt="" width="70%">
+<img src="/assets/image/2018_11_18_stefanof_Ateam_sepehr.png" alt="" width="70%">
 <figcaption align="middle"><strong></strong></figcaption>
 </figure>
 

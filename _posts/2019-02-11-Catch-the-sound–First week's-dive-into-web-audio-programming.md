@@ -4,7 +4,7 @@ title:  "Catch the wave – First week's dive into web audio programming"
 date:   2019-02-11 16:40 +0100
 categories: Audio-Programming
 author: Karolina Jawad
-image: /assets/img/2019_02_11_stefanof_darft1_audio_website.png
+image: /assets/image/2019_02_11_stefanof_darft1_audio_website.png
 excerpt: "It is possible to create simple, but effective applications on the web browser, even without prior knowledge.
 However, it took way longer to implement those ideas, but luckily there was always someone around to ask."
 
@@ -28,7 +28,7 @@ Inspired by the tone.js and its <a href="https://tonejs.github.io/">examples on 
 
 
 <figure align="middle">
-<img src="/assets/img/2019_02_11_stefanof_darft1_audio_website.png" alt="Broadcasting header image" width="100%">
+<img src="/assets/image/2019_02_11_stefanof_darft1_audio_website.png" alt="Broadcasting header image" width="100%">
 </figure>
 <br>
 

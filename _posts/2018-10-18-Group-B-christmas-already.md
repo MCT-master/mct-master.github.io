@@ -23,12 +23,12 @@ This let us put together simple synthesizer modules and make lots of different s
 It was really fun to play with Oscillators, Filters, mini keyboards, delays and sequencers. We also noticed the tiny randomizer held a great potential for doing magical things. We tried various setups. The combination of sequencer and random noise maker could build up to a beat making system. Further, we tried combining two oscillators with the keyboard and sequencer to make cool synthesizer sounds and arpeggiators, and it was possible to make spooky sounds by combining a lot of delay effects.  It got quite noisy though in the portal when everyone was trying out different sounds with their instruments.
 
 
-<img src="/assets/img/2018_10_18_stefanof_Little bits.jpg" alt="littleBits instrument">
+<img src="/assets/image/2018_10_18_stefanof_Little bits.jpg" alt="littleBits instrument">
 
 <br>
 
 
-<img src="/assets/img/2018_10_18_stefanof_Littlebits.jpg" alt="littleBits">
+<img src="/assets/image/2018_10_18_stefanof_Littlebits.jpg" alt="littleBits">
 
 
 Afterwards, we got to jam with our instruments both in groups and all together. This was also the first time using [LOLA](https://lola.conts.it/) to play music together in the portal. It was however not a test of playing traditional music, as this was a much more free-form synthesizer jam. Perhaps tomorrow's instrument prototypes will reveal more of the advantages of using LOLA for music.

@@ -4,13 +4,13 @@ title: " An Overview of Sonification by Thomas Hermann"
 date: 2019-04-05 05:00:00 +0200
 categories: Sonification
 author: Shreejay Shrestha
-image: /assets/img/thermann-photo-2009.jpg
+image: /assets/image/thermann-photo-2009.jpg
 excerpt: "It was my privilege and honour to facilitate a guest lecture and introduce one of the 'Gurus' in the field of sonification, Dr. Thomas Hermann. He shared his enormous knowledge on sonification with hands on exercises for two days (March 28, and 29, 2019) through the MCT portal in Trondheim. I am quite excited to share my notes and will try to cover the summary of his talks in this blog."
 Keywords: Thomas Hermann, Sonification
 ---
 
 <figure>
-<img src="/assets/img/thermann-photo-2009.jpg " width = "100%" align="center" />
+<img src="/assets/image/thermann-photo-2009.jpg " width = "100%" align="center" />
   <figcaption>Dr. Thomas Hermann</figcaption>
   <figcaption><a href="https://sonification.de/thermann/thermann-photo-2009/" target="_blank">Pic Source: https://sonification.de/</a></figcaption>
 </figure>
@@ -23,7 +23,7 @@ In the first day, Thomas introduced the taxonomy and definition for sonification
 ### Sonification
 
 <figure>
-<img src="/assets/img/sonification_defn.JPG" width = "100%" align="center" />
+<img src="/assets/image/sonification_defn.JPG" width = "100%" align="center" />
 <figcaption><a href="http://www.icad.org/Proceedings/2008/Hermann2008.pdf" target="_blank">Diagram reproduced from T. Hermann (2008), TAXONOMY AND DEFINITIONS FOR SONIFICATION AND AUDITORY DISPLAY,http://www.icad.org/Proceedings/2008/Hermann2008.pdf</a></figcaption>
 </figure>
 
@@ -34,7 +34,7 @@ systematic, (3) the sonification is reproducible, and (4) the system can be used
 ### Overview of Sonification Techniques
 
 <figure>
-<img src="/assets/img/sonification techniques.JPG" width = "100%" align="center" />
+<img src="/assets/image/sonification techniques.JPG" width = "100%" align="center" />
 <figcaption><a href="https://sonification.de/media/SonTechniques.png" target="_blank">Figure adapted from https://sonification.de/media/SonTechniques.png</a></figcaption>
 </figure>
 
@@ -91,7 +91,7 @@ In the second day, Thomas talked about sonification techniques beyond parameter 
 In **MBS**, a data set is used to construct a virtual data object in a state of equilibrium. The object is then allowed to be **interfered by human interaction** which transfers **energy** over the object and produces a temporal signal that can be **sonified**. It is very different from **PMSon** and has many benefits over it. For instance, **PMSon** is about mapping certain sound sequence to data and user has no control over sounds produced. In contrast, **MBS** does not work at all without interference of a user. Moreover, user can control the sound depending upon how he/she interacts with the model. **MBS** can be designed in a very physically plausible way, for instance by respecting Newton's third law of motion: **For every action there is an equal and opposite reaction**.
 
 <figure>
-<img src="/assets/img/mbs.png" width = "100%" align="center" />
+<img src="/assets/image/mbs.png" width = "100%" align="center" />
 <figcaption><a href="https://sonification.de/handbook/chapters/chapter16/" target="_blank">Diagram reproduced from Hermann, T., Hunt, A., & Neuhoff, J. G.(2011), The Sonification Handbook, https://sonification.de/handbook/chapters/chapter16/</a></figcaption>
 </figure>
 
@@ -99,7 +99,7 @@ In **MBS**, a data set is used to construct a virtual data object in a state of 
 **WSS** is a newly established novel class of sonification technique for time-space indexed data.  Hermann (2018) defines **WSS** as the transformation of data into sound signal by sampling **wave space function** while moving along the **embedded trajectory** by means of chosen **time-advancement morphing**. It provides a system for defining (1) geometric objects (trajectories) from time-sequenced data and (2) a wave space of equal dimensionality. In essence, the time series navigates a high-dimensional wave space and probes it's sound to create the sonification. For more detail, please follow Thomas’s paper on <a href="https://pub.uni-bielefeld.de/record/2919707" target="_blank">WSS</a>.
 
 <figure>
-<img src="/assets/img/WSS.JPG" width = "100%" align="center" />
+<img src="/assets/image/WSS.JPG" width = "100%" align="center" />
 <figcaption><a href="https://pub.uni-bielefeld.de/record/2919707" target="_blank">Diagram reproduced from T. Hermann (2018), WAVE SPACE SONIFICATION, https://pub.uni-bielefeld.de/record/2919707</a></figcaption>
 </figure>
 

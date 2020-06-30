@@ -4,7 +4,7 @@ title: Group C Learns to Think about how Machines Learn to Think
 date: 2019-11-25 17:00:00 +0200
 categories: Music-and-Machine-Learning
 author: Paul Koenig, Aleksander Tidemann, Tom Ignatius, Thomas Anda
-image: /assets/img/group-c/cat.png
+image: /assets/image/group-c/cat.png
 excerpt: "Wherein we describe the denouement of MCT4000, Module #9: Machine Learning." 
 ---
 
@@ -29,7 +29,7 @@ On the last day of the ML workshop, we had to perform with our Wekinator program
 
 One of the observations we noticed is that despite the XY value being linear, the machine learning done would be far from it. As we were using basically a two dimensional, two axis graph, we were using the regression method. In the picture below, we see that after plotting just three initial points that the graph starts to non-linearly flatten out at the end without any recorded points.
 
-![image](/assets/img/group-c/wek.png)
+![image](/assets/image/group-c/wek.png)
 
 Which leads on to our next observation of the training of the program. Our team member, Tom (Iggy), tried plotting three points with the left and right of the bottom of the Y axis changing pitch and the top right changing the filter. However the machine couldn’t logically presume that he wanted the top left hand corner of the screen to filter the lowest pitch from the initial plots.
 
@@ -43,7 +43,7 @@ On day 3 of our ML workshop, we got introduced to a python library called Sci-ki
 
 The data sets consisted of 4 classes with a total of 200 audio files. Our first training set had examples of cats, guns, birds, and handclaps, while the other featured modular synth-shots, orchestral, nature, and bird sounds. As shown in images below, the complete training procedure resulted in two models with an average classifier accuracy of eighty percent. 
 
-![teamC](/assets/img/group-c/teamcaccuracy.jpg) ![teamA](/assets/img/group-c/teamaaccuracy.jpg)
+![teamC](/assets/image/group-c/teamcaccuracy.jpg) ![teamA](/assets/image/group-c/teamaaccuracy.jpg)
 
 Much to our surprise, it was much harder to achieve higher accuracy with the first training set then with the second. It seems that audio with similar frequency density and sonic characteristics are more demanding to classify. The findings, therefore, indicate that a diversity of labeled data can be beneficial when using these techniques and tools. This provided insight into the possible structural limitations of our program as well as knowledge about the connection between accurate machine learning classifiers and training procedures. 
 
