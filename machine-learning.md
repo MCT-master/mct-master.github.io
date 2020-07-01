@@ -1,17 +1,17 @@
 ---
 layout: page
-title: Audio Programming
-permalink: /audio-programming/
+title: Machine Learning
+permalink: /machine-learning/
 ---
 
-The blog posts of this section relate to the course [**MCT4048 Audio Programming**](https://www.ntnu.edu/studies/courses/MCT4048). The aim of the course is to provide a solid foundation in digital signal processing and audio-based application development. Integration of relevant technologies and platforms will play an important part, as well as developing user-ready applications.
+The blog posts of this section relate to the course [**MCT4047 Music and Machine Learning**](https://www.uio.no/studier/emner/hf/imv/MCT4047). The aim of the course is to develop knowledge of and practical experience with machine learning algorithms applied in music analysis, music information retrieval, interactive music systems, and sound synthesis.
 
 <br />
 
 {%- if site.posts.size > 0 -%}
   <!-- <h2 class="post-list-heading">{{ page.list_title | default: "Posts" }}</h2> -->
   <ul class="post-list">
-    {%- for post in site.categories.audio-programming -%}
+    {%- for post in site.categories.machine-learning -%}
     <li>
       {%- if post.image -%}
       <img src="{{ post.image | prepend: site.baseurl }}" alt="{{ post.title }}" title="{{ post.title }}">
@@ -35,11 +35,4 @@ The blog posts of this section relate to the course [**MCT4048 Audio Programming
     </li>
     {%- endfor -%}
   </ul>
-{%- endif -%}
-
-<!-- Hack from https://github.com/jekyll/jekyll/issues/2538 -->
-{% capture difference %} {{ site.posts | size | minus:1 }} {% endcapture %}
-<!-- {% unless difference contains '-' %} -->
-<!-- ***No posts... yet.*** -->
- <!-- Your code will now be dependent on page.tags being empty -->
-<!-- {% endunless %} -->
+  {%- endif -%}

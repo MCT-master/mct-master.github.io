@@ -2,7 +2,7 @@
 layout: post
 title: "The Wavesynth"
 date: 2019-02-10 21:45:00 +0100
-categories: Audio-Programming
+categories: audio-programming
 author: Jørgen Varpe
 image: /assets/image/wavesynth.jpg
 excerpt: During the first workshop week in the course Audio Programming, I have been working on a project which I have called "The Wavesynth". I have called it this because I have chosen to use wavetables to shape the output of an oscillator. I have not made a wavetable synthesizer like for instance <a href="https://www.ableton.com/en/packs/wavetable/" target="_blank">Ableton's Wavetable</a>, where you can interpolate between waves. instead I use some wavetables created by <a href="https://github.com/GoogleChromeLabs/web-audio-samples/tree/gh-pages/samples/audio/wave-tables" target="_blank">Google Chrome Labs</a> to make it sound like "real" instruments. The synth is played by using the computer keyboard, and the user can choose the output sound, and adjust three different effects to shape the it the way they want. The synthesizer is made using web technologies, including HTML, JavaScript, Web Audio API, and more.

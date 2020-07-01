@@ -2,7 +2,7 @@
 layout: post
 title: "The importance of sound quality"
 date: 2019-09-27 17:57:30 +0100
-categories: Portal
+categories: portal
 author: Ulrik Antoniussen Halmøy, Thibault Jaccard
 image: https://miro.medium.com/max/700/1*_nfcMeFBpSY-eIwD2cgPYw.jpeg
 excerpt: "Reflections after several lectures with less sub-optimal sound quality"

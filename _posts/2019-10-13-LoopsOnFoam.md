@@ -2,7 +2,7 @@
 layout: post
 title: 'LoopsOnFoam'
 date: 2019-10-13 13:30:00 +0200
-categories: Interactive-Systems
+categories: interactive-music-systems
 author: Jørgen Nygård Varpe
 image: /assets/image/varpe/LoopsOnFoam.jpg
 excerpt: 'During a 2-week intensive workshop in the course Interactive Music Systems I worked on the development of an instrument prototype, which I named LoopsOnFoam.'

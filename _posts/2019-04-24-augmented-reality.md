@@ -2,7 +2,7 @@
 layout: post
 title:  "Augmented Reality"
 date:   2019-05-10 16:40:00 +0200
-categories: Portal
+categories: portal
 author: Mari Lesteberg, Sam Roman, Karolina Jawad, Jørgen Varpe, Sepehr Saghigi
 image: /assets/image/2019_05_10_stefanof_cheesy2.jpg
 excerpt: "In the final Portal workshop of this semester we were looking at Ambisonics as a potential way to create an augmented auditory space from the perspective of sound."

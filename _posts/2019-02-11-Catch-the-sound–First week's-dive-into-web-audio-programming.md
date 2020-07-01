@@ -2,7 +2,7 @@
 layout: post
 title:  "Catch the wave – First week's dive into web audio programming"
 date:   2019-02-11 16:40 +0100
-categories: Audio-Programming
+categories: audio-programming
 author: Karolina Jawad
 image: /assets/image/2019_02_11_stefanof_darft1_audio_website.png
 excerpt: "It is possible to create simple, but effective applications on the web browser, even without prior knowledge.

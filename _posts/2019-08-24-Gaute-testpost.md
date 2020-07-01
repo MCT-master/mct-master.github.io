@@ -2,7 +2,7 @@
 layout: post
 title: "It's not just phase, mom!"
 date: 2019-08-24 14:57:20 +0100
-categories: DSP
+categories: digital-audio
 author: Gaute Wardenær
 image: /assets/image/2019_08_24_stefanof_SMAART.jpeg
 excerpt: "Why phase coherency in loudspeakers matters."

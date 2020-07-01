@@ -2,7 +2,7 @@
 layout: post
 title: MoCap Recap - Two weeks recap of a Motion Tracking workshop
 date: 2019-04-01 21:45:00 +0200
-categories: Motion-Tracking
+categories: motion-tracking
 author: Guy Sion, Sam Roman, Elias Anderson
 image:
 excerpt: "During weeks 10-11 we attended the Music related motion tracking course (MCT4043) as part of the MCT program.

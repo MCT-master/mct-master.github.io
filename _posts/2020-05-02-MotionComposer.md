@@ -2,8 +2,8 @@
 layout: post
 title: MotionComposer
 date: 2020-05-02 19:00:00 +0200
-categories: Projects
-author: Aleksander, Rayam, Simon & Thibault
+categories: applied-project
+author: Aleksander, Rayam, Simon, Thibault
 image: /assets/image/rayam/MotionComposer_Interface-V02.png
 excerpt: "MotionComposer is a motion capture device that lets people make music with gestures. This is the presentation of our applied project, where we worked on building a new instrument for this device."
 Keywords: MCT, Applied Project, MotionComposer
@@ -129,7 +129,7 @@ We made a video showing the MoShape in action, in the phase of tests with Robert
 <iframe width="832" height="468" src="https://www.youtube.com/embed/V-sW18gO4dA" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
 </iframe>
 </p>
-  
+
 ## Conclusion
 
 This project has been a great opportunity for us to learn more about audio programming in Pure Data, but also learning a lot about OSC communication and motion capture. We are satisfied with the result, but we will continue working on it in hope of seing our instrument implemented in the commercialised product. The relation with our ecternal partner is very good, and we are proud of the current state of our synth. This first professional experience has been instructive for us all, and gives us a better idea of what working in the music technology indutry looks like. We can't wait for the next applied project!

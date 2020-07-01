@@ -1,17 +1,17 @@
 ---
 layout: page
-title: MCT Master's Program
-permalink: /mct-program/
+title: Music Cognition
+permalink: /music-cognition/
 ---
 
-The blog posts of this section showcase activities around the [Music, Communication & Technology (MCT)](https://www.uio.no/english/studies/programmes/mct-master/)'s master program. MCT is an international, joint master's programme between NTNU and UiO, the two largest universities in Norway.
+The blog posts of this section relate to the module **Music Cognition** in the course [**MCT4000 Introduction to Music, Communication and Technology**](https://www.ntnu.edu/studies/courses/MCT4000). The aim of the module is to provide an introduction to Music Cognition, which concerns processes that are especially vital in music performance and music listening. 
 
 <br />
 
 {%- if site.posts.size > 0 -%}
   <!-- <h2 class="post-list-heading">{{ page.list_title | default: "Posts" }}</h2> -->
   <ul class="post-list">
-    {%- for post in site.categories.MCT -%}
+    {%- for post in site.categories.music-cognition -%}
     <li>
       {%- if post.image -%}
       <img src="{{ post.image | prepend: site.baseurl }}" alt="{{ post.title }}" title="{{ post.title }}">

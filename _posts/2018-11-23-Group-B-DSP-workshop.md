@@ -2,8 +2,8 @@
 layout: post
 title:  "Group B, DSP workshop"
 date:   2018-11-23 13:50:00 +0200
-categories: DSP
-author: Mari Lesteberg, Ashane Silva, Shreejay Shrestha & Eigil Aandahl
+categories: digital-audio
+author: Mari Lesteberg, Ashane Silva, Shreejay Shrestha, Eigil Aandahl
 image: /assets/image/2018_11_23_stefanof_mariashane.jpg
 excerpt: "The 4 day DSP workshop introduced some basics of Digital Signal Processing techniques. We were given examples in Csound that focused on physical modeling of a string, and also how to use Csound as a DSP-tool. The exercises allowed us to take ownership of the codes by modifying and creating new sounds. We used simple operations like addition and multiplication to process the digital signals. We enjoyed experimenting with digital waveguides to model sounds travelling through strings and also manipulating with reverbs delay, envelope etc. Trondheim team also built an instrument with a piece of wood connected to a contact mic and used it in some of the tasks."
 ---

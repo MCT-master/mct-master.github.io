@@ -2,7 +2,7 @@
 layout: post
 title: "MuX -playground for real-time sound exploration"
 date: 2019-04-14 00:00:00 +0200
-categories: Sonification
+categories: sonification
 author: Ashane Silva
 image: /assets/image/2019_04-14_stefanof_Edo-min.jpg
 excerpt: "It was so fascinating to have Edo Fouilloux in the MCT sonification seminar series. Edo is a visual innovator and a multidisciplinary craftsman of graphics, sound, computing, and interaction. He co-founded Decochon in 2015 to work with Mixed Reality (XR) technologies. MuX is a pioneering software in the field of interactive music in virtual reality systems. Edo demonstrated the concepts and philosophies inside Mux, where it is possible to build and play new instruments in the virtual space."

@@ -1,14 +1,13 @@
 ---
 layout: page
-title: WoNoMute
-permalink: /wonomute/
+title: Miscellaneous
+permalink: /miscellaneous/
 ---
 
-
 {%- if site.posts.size > 0 -%}
-
+  <!-- <h2 class="post-list-heading">{{ page.list_title | default: "Posts" }}</h2> -->
   <ul class="post-list">
-    {%- for post in site.categories.WoNoMute -%}
+    {%- for post in site.categories.miscellaneous -%}
     <li>
       {%- if post.image -%}
       <img src="{{ post.image | prepend: site.baseurl }}" alt="{{ post.title }}" title="{{ post.title }}">

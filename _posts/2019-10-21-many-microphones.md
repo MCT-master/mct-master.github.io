@@ -2,7 +2,7 @@
 layout: post
 title: 'Microphone Testing Results'
 date: 2019-10-21 18:00:00 +0200
-categories: Portal
+categories: portal
 author: Jackson Goode
 image: /assets/image/portal/many_mics.png
 excerpt: "We've spent a few days (in addition to the many miscellanous hours during class) reconfiguring the Portal and testing out new hardware and how it might improve the quality of our sound."

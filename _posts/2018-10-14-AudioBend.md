@@ -2,7 +2,7 @@
 layout: post
 title: 'AudioBend'
 date: 2019-10-14 17:16:42 +0200
-categories: Interactive-Systems
+categories: interactive-music-systems
 author: Ashane Silva
 image: /assets/image/2019_10_14_stefanof_AudioBend.jpg
 excerpt: 'My project idea for the Interactive Music Systems was to build a glove that can manipulate sound.  It was actually inspired by seeing the “mi.mu Gloves”.  The paper on the “Data Glove” gave me ideas on the design aspect of the glove although the way it works is a bit more different than what I use in my glove. “Data glove” uses multiple flex sensors on the fingers and force sensitive sensors to contact the finger tips and an accelerometer to get data from the wrist control. In my glove I used flex sensor on index finger, 3 – axis accelerometer on my hand and a Distance Ultrasonic sensor on my palm. Attaching those stuff to the glove was a bit tricky but “ducktape” saved my life.'

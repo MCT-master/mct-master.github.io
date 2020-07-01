@@ -2,7 +2,7 @@
 layout: post
 title: 'Wizard_of_Vox'
 date: 2019-10-18 13:30:00 +0200
-categories: Interactive-Systems
+categories: interactive-music-systems
 author: Notto J. W. Thelle
 image: /assets/image/result.jpg
 excerpt: 'Wizard Of Vox - Wizard Of Vox is a gesture-based speech synthesis system that can be can be “made to speak”'

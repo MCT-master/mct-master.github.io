@@ -2,7 +2,7 @@
 layout: post
 title: "On communication in distributed environments"
 date: 2020-04-15 14:20:00 +0200
-categories: Portal
+categories: portal
 author: Karolina Jawad
 image: /assets/image/Oceans/ise_karolina.jpg
 excerpt: "Photo by Dr. Andrea Glang-Tossing. At ISE Europe, a trade fair in Amsterdam ( 11.02.-14.02. 2020) I was presenting together with SALTO the MCT course at the AVIXA Higher Education Conference. 

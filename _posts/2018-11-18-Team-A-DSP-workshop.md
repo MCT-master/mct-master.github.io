@@ -2,7 +2,7 @@
 layout: post
 title: "A-team - DSP workshop blog"
 date: 2018-11-22 16:19:42 +0200
-categories: DSP
+categories: digital-audio
 author: Jørgen Varpe, Sepehr Haghighi, Espen Wik, Sam Roman
 image: /assets/image/2018_11_22_stefanof_Ateam_dsp.png
 excerpt: "On the final DSP class we were bringing it all together - and performing our combined CSound based creations! Having the day to develop on our instruments, we prepared for performing with the other groups at 2 o’clock. After finding our respective rooms, We had a A-Team meeting on how to finish off our sounds,and devise a plan of action for our performance."

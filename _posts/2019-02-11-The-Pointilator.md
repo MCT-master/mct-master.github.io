@@ -2,7 +2,7 @@
 layout: post
 title:  "The Pointilator Sequence Synthesizer"
 date:   2019-02-11 17:00:00 +0200
-categories: Audio-Programming
+categories: audio-programming
 author: Eigil Aandahl
 image: /assets/image/pointilator.png
 excerpt: "The Pointilator sequence synth is an experimental instrument that can be played directly from a web browser! It is tested to work with Opera and Chrome, but does not work in Safari.

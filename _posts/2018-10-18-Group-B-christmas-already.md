@@ -2,8 +2,8 @@
 layout: post
 title:  "Group B, Christmas already?!"
 date:   2018-10-18 23:30:00 +0200
-categories: Physical-Computing
-author: Mari Lesteberg, Dmitry Vasilev, Ashane Silva, Shreejay Shreshta & Eigil Aandahl
+categories: physical-computing
+author: Mari Lesteberg, Dmitry Vasilev, Ashane Silva, Shreejay Shreshta, Eigil Aandahl
 image: https://drive.google.com/uc?export=view&amp;id=1WoJLkfz07t8j7yAQmgQ0M_VkYIboAoAq
 excerpt: "It was a great day today. We played with Arduino kits, made christmas lights and melodies like Twinkle Twinkle Little Star, Super Mario and Imperial March"
 ---

@@ -2,8 +2,8 @@
 layout: post
 title:  "Group B, Short cables and LoLa"
 date:   2018-11-06 02:00:00 +0200
-categories: Portal
-author: Mari Lesteberg, Ashane Silva, Shreejay Shreshta & Eigil Aandahl
+categories: portal
+author: Mari Lesteberg, Ashane Silva, Shreejay Shreshta, Eigil Aandahl
 image: /assets/image/2018_11_06_stefanof_flag-flagpole-italy-pexels.jpg
 excerpt: "A few weeks ago we worked on setting up LoLa in the portal. This blogpost got a bit delayed, but we are back!"
 ---

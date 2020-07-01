@@ -2,7 +2,7 @@
 layout: post
 title: 'The B Team Dives in Deep (Learning!)'
 date: 2019-11-25 19:30:00 +0100
-categories: Music-and-Machine-Learning
+categories: machine-learning
 author: Jackson Goode, Jarle Steinhovden, Simon Sandvik
 image: /assets/image/2019_11_25_stefanof_ml_final.jpg
 excerpt: 'Well, here we are, at the end of a semester where one of the most challenging courses remain - only Rebecca Fiebrink can save us now.'

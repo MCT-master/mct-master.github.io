@@ -2,7 +2,7 @@
 layout: post
 title:  "The Sounds We Like"
 date:   2019-01-23 23:25:00 +0200
-categories: Sonification
+categories: sonification
 author: Guy Sion
 excerpt: "For our first lesson in the Sonification and Sound Design course, we were asked to give a short presentation of a sonification or a sound design of choice. It was interesting to see the variety of examples among our classmates. Each of us brought a unique example and explained what is it about? why did they choose it? and how does it relate to our work at the MCT program?"
 

@@ -2,7 +2,7 @@
 layout: post
 title: "Scenarios in the Trondheim Portal during the spring semester-2019"
 date: 2019-05-13 01:30:00 +0200
-categories: Portal
+categories: portal
 author: Shreejay Shrestha
 image: /assets/image/2019_05_13_stefanof_portaltog.jpg
 excerpt: "We have had numerous scenarios set up in the portal in the period of January-May 2019. Each of the scenarios are unique and therefore serve specific functions. This blog presents four of such scenarios with a bit of discussions on the advantages and challenges with the set ups."

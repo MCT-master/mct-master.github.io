@@ -2,7 +2,7 @@
 layout: post
 title: "Breathing through Max"
 date: 2020-05-18 22:00:00 +0100
-categories: Motion-Tracking
+categories: motion-tracking
 author: Jackson Goode
 image: /assets/image/2020_05_20_jacksong_distance.png
 excerpt: "For the COVID-19 version of motion-tracking, I developed a system to track your rate of breath and sonify it through Max. It emphasized the tenants of biofeedback and hopes to serve as a responsive system for stress relief."

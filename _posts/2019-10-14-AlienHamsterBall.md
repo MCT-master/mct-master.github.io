@@ -2,7 +2,7 @@
 layout: post
 title: 'Alien_Hamster_Ball'
 date: 2019-10-14 13:30:00 +0200
-categories: Interactive-Systems
+categories: interactive-music-systems
 author: Samuel Damien Roman
 image: /assets/image/2019_10_14_stefanof_hamsterball4.jpg
 excerpt: 'The Alien Hamster ball - an instrument expressed through a 3D space'

@@ -1,27 +1,17 @@
 ---
 layout: page
-title: Courses
-permalink: /courses/
+title: Human-Computer Interaction
+permalink: /human-computer-interation/
 ---
+
+The blog posts of this section relate to the module **Human-Computer Interaction** in the course [**MCT4000 Introduction to Music, Communication and Technology**](https://www.ntnu.edu/studies/courses/MCT4000). The aim of the module is to discover the theory and practice in the field of human-computer interaction applied to music technology.
+
+<br />
 
 {%- if site.posts.size > 0 -%}
   <!-- <h2 class="post-list-heading">{{ page.list_title | default: "Posts" }}</h2> -->
   <ul class="post-list">
-    {%- for post in site.posts -%}
-    {%- if post.categories contains 'Portal'
-    or post.categories contains 'Audio-Programming'
-    or post.categories contains 'DSP'
-    or post.categories contains 'Entrepreneurship'
-    or post.categories contains 'HCI'
-    or post.categories contains 'Interactive-Systems'
-    or post.categories contains 'Masters'
-    or post.categories contains 'Motion-Tracking'
-    or post.categories contains 'Music-and-Machine-Learning'
-    or post.categories contains 'Physical-Computing'
-    or post.categories contains 'Projects'
-    or post.categories contains 'Sonification'
-    -%}
-
+    {%- for post in site.categories.human-computer-interaction -%}
     <li>
       {%- if post.image -%}
       <img src="{{ post.image | prepend: site.baseurl }}" alt="{{ post.title }}" title="{{ post.title }}">
@@ -29,8 +19,6 @@ permalink: /courses/
       {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
       <span class="post-meta">{{ post.date | date: date_format }}</span>
       <span class="post-meta">• {{ post.author }}</span>
-      <br />
-      <span class="post-meta"><strong>{{ post.categories }}</strong></span>
       <h3>
         <a class="post-link" href="{{ post.url | relative_url }}">
           {{ post.title | escape }}
@@ -45,9 +33,6 @@ permalink: /courses/
       </a>
       </h4>
     </li>
-    {%- endif -%}    
     {%- endfor -%}
   </ul>
-  {%- else -%}
-  <p>No posts yet.</p>
   {%- endif -%}

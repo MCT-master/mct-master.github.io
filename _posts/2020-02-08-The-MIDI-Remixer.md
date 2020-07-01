@@ -2,7 +2,7 @@
 layout: post
 title: "The MIDI Remixer"
 date: 2020-02-08 12:00:00 +0200
-categories: Audio-Programming
+categories: audio-programming
 author: Aleksander Tidemann
 image: /assets/image/Tidemann/bach.jpg
 excerpt: "This sequencer based poly FM-synthesizer invites its users to remix and play with some of Johann Sebastian Bach's most famous preludes and fuges."

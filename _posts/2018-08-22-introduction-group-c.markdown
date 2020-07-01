@@ -1,9 +1,9 @@
 ---
 layout: post
-title:  "Meet MCT Group C"
+title:  "Meet MCT Group C 2018"
 date:   2018-08-22 14:54:46 +0200
-categories: MCT
-author: Karolina Jawad, Elias Andersen & Jonas Bjordal
+categories: people
+author: Karolina Jawad, Elias Andersen, Jonas Bjordal
 image: /assets/image/2018_08_22_stefanof_Group-C-Y1.jpg
 excerpt: "We are an international group of students with different background in
 humanities, programming, music and music production based in Oslo and

@@ -2,7 +2,7 @@
 layout: post
 title:  "Documentation and recommendations from the latest Portal Jam"
 date:   2019-02-10 19:00 +0200
-categories: Portal
+categories: portal
 author: Karolina Jawad, Eirik Dahl, Espen Wik, Shreejay Shrestha, Jørgen Varpe
 image: /assets/image/portal_jam19.jpg
 excerpt: "As the Portal is still in its infancy, pushing and exploring its technical possibilities is an ongoing process. We still encounter

@@ -2,7 +2,7 @@
 layout: post
 title: Weather Music
 date: 2020-03-09 20:00:00 +0200
-categories: Sonification
+categories: sonification
 author: Aleksander Tidemann, Jarle Steinhovden, Gaute Timian Dahl Wardenær, Tom Ignatius Wee
 image: /assets/image/sunset.jpg
 excerpt: "Experiencing weather is a multi-sensory and complex experience. The objective of our sonification project was to sonify the weather through the use of online video streams."

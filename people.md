@@ -1,17 +1,17 @@
 ---
 layout: page
-title: DSP Workshop
-permalink: /dsp/
+title: People
+permalink: /people/
 ---
 
-The blog posts of this section relate to the workshop **DSP** in the course **MCT4000 Introduction to Music, Communication and Technology**. The aim of the course is to explore basic signal processing techniques, physical models and waveguides, implement these techniques for practical experimentation in own projects, and combine as well as creatively utilize these tools for new applications.
+The blog posts of this section present the various author of this blog, which are the students of the **Music, Communication & Technology (MCT)** master's programme. MCT is an international, joint master's programme between [**NTNU**](https://www.ntnu.edu/studies/mmct) and [**UiO**](https://www.uio.no/english/studies/programmes/mct-master/), the two largest universities in Norway.
 
 <br />
 
 {%- if site.posts.size > 0 -%}
   <!-- <h2 class="post-list-heading">{{ page.list_title | default: "Posts" }}</h2> -->
   <ul class="post-list">
-    {%- for post in site.categories.DSP -%}
+    {%- for post in site.categories.people -%}
     <li>
       {%- if post.image -%}
       <img src="{{ post.image | prepend: site.baseurl }}" alt="{{ post.title }}" title="{{ post.title }}">

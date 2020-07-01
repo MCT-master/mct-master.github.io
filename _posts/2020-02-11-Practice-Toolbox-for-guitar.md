@@ -2,23 +2,23 @@
 layout: post
 title: "Practice-Toolbox-for-students-of-music"
 date: 2020-02-10 10:00:00 +0200
-categories: Audio-Programming
+categories: audio-programming
 author: Thomas Anda
 image: "/assets/image/thomas/thomas_pd.png"
 excerpt: "In our audio programming course we were tasked to make a PD-patch without any restrictions on what it should be. I wanted to make something useful I could incorporate in my daily practice routine, and also distribute to some of my guitar students."
 Keywords: Audio Programming, Pure Data, MCT4048
---- 
+---
 
 # Overview
 
-In our audio programming course we were tasked to make a PD-patch without any restrictions on what it should be. I wanted to make something useful I could incorporate in my daily practice routine, and also distribute to some of my guitar students. I set out to make a practice toolbox wich would cover several different topics, but where the main focus is on rhythm, time-feel and developing your visualisation of the guitar-neck. I had no previous experience in using PD, so the learning curve during these two weeks was quite steep. Luckily we had great access to help from both Øystein in Trondheim and George in Oslo and I managed to incorporate most of my ideas into the patch. In addition to the patch I also made a MobMuPlat-integration so anyone who choose to use the patch can interact with it on their mobile phone. 
+In our audio programming course we were tasked to make a PD-patch without any restrictions on what it should be. I wanted to make something useful I could incorporate in my daily practice routine, and also distribute to some of my guitar students. I set out to make a practice toolbox wich would cover several different topics, but where the main focus is on rhythm, time-feel and developing your visualisation of the guitar-neck. I had no previous experience in using PD, so the learning curve during these two weeks was quite steep. Luckily we had great access to help from both Øystein in Trondheim and George in Oslo and I managed to incorporate most of my ideas into the patch. In addition to the patch I also made a MobMuPlat-integration so anyone who choose to use the patch can interact with it on their mobile phone.
 
 # The system
 
 My main patch consists of several different modules which all serves a dif-
-ferent purpose. The modules labeled "rhythm generator" was my rst addition to the
+ferent purpose. The modules labeled "rhythm generator" was myrst addition to the
 patch. It consists of a metronome which cycles through 4 bars in 4/4, with an
-accented click on the first beat of each bar. I used the counter-object from Cy-
+accented click on thefirst beat of each bar. I used the counter-object from Cy-
 clone and also made a makeshift spigot-object. It is just a sub-patch consisting
 of several spigots to clean up the already messy brute-force infested patch.
 In my formula generator I got good help from Georgios to figure out
@@ -58,7 +58,7 @@ in the counter object that I didn't understand.
 </figure>
 
 My looper/recorder I also picked up from a YouTube-video. I experienced
-some problems with this particular module. The first time it starts, it has to
+some problems with this particular module. Thefirst time it starts, it has to
 go through the whole length of bars before the recording starts. And after that
 you get a count-in for three beats. 4 or 2 would of course be better, but it does
 its job. The goal here was to make a tool for practicing time-feel and sense of
@@ -67,7 +67,7 @@ or of the grid. This works of course only if you let the sound out through your
 speakers.
 
 <figure>
- <img src="assets/img/thomas/looperthomas.png" align="center" alt="looperthomas"/>
+ <img src="assets/image/thomas/looperthomas.png" align="center" alt="looperthomas"/>
  <figcaption>Looper</figcaption>
 </figure>
 
@@ -76,7 +76,7 @@ made a decent looking GUI for myself and my students to interact with.
 
 # Reflection
 
-As a final conclusion I think that most of what I wanted to achieve with this
+As afinal conclusion I think that most of what I wanted to achieve with this
 project was accomplished. As a newcomer to the world of Pure Data the learning
 experience was quite good. I spent a lot of time on debugging and planning.
 And many sleepless nights to make this work and look nice. This patch should

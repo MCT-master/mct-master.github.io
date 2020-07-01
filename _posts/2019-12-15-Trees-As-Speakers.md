@@ -2,7 +2,7 @@
 layout: post
 title: "Tree as Speakers"
 date: 2019-12-15 21:00:00 +0200
-categories: Projects
+categories: applied-project
 author: Ashane Silva, Shreejay Shrestha and Jørgen Nygård Varpe
 image: /assets/image/varpe/treerec.JPG
 excerpt: "A project in collaboration with ÅF engineering. The goal of the project was to create a non-intrusive soundscape and/or noise-masking installations in an outdoor public space by using trees as speakers, installing audio exciters on trees."

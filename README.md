@@ -113,14 +113,25 @@ In order to let the system organize the blog posts automatically by chronologica
 
 These are the available categories that can be used:
 
-* Audio-Programming
-* DSP
-* HCI
-* Motion-Tracking
-* Physical-Computing
-* Portal
-* Projects
-* Sonification
+* applied-project
+* audio-programming
+* digital-audio
+* entrepreneurship
+* human-computer-interaction
+* interactive-music-systems
+* machine-learning
+* masters-thesis
+* miscellaneous
+* music-cognition
+* motion-tracking
+* other
+* people
+* physical-computing
+* portal
+* research-methods
+* scientific-computing
+* sonification
+* spatial-audio
 
 The first image used in the blog post can be used to appear in the homepage. This should be defined as `image: /assets/image/name-of-file.jpg`
 
@@ -135,9 +146,10 @@ Required structure of the markdown file for a news post:
 layout: post
 title: "Welcome to Jekyll!"
 date: 2018-08-21 10:10:42 +0200
-categories: Portal
+categories: portal
 author: Name Surname
 image: /assets/image/name-of-file.jpg OR https://drive.google.com/uc?export=view&amp;id=G_DRIVE_FILENAME
+Keywords: comma, separated, list, of, keywords
 excerpt: "A short summary, typically copy-pasting the first paragraph of the blog post."
 ---
 

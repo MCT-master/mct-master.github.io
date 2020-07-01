@@ -2,7 +2,7 @@
 layout: post
 title:  "The B Team: To Heck and Back"
 date:   2019-10-15 18:00:00 +0200
-categories: Physical-Computing
+categories: physical-computing
 author: Jackson Goode, Magda, Simon Sandvik, and Jarle Steinhovden
 image: /assets/image/2019_10_15_stefanof_lastday.webp
 

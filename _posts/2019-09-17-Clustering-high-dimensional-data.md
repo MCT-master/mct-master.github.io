@@ -2,7 +2,7 @@
 layout: post
 title: 'Clustering high dimensional data'
 date: 2019-09-17 23:50:00 +0200
-categories: Music-and-Machine-Learning
+categories: machine-learning
 author: Karolina Jawad
 image: /assets/image/Oceans/high_dimensions_ship.png
 excerpt: 'In the project for Music and Machine Learning I was using raw audio data to see how well the K-Mean clustering technique would work for structuring and classifying an unlabelled data-set of voice recordings. '

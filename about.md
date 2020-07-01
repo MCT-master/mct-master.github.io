@@ -4,16 +4,14 @@ title: About
 permalink: /about/
 ---
 
-This is the student-led blog related to the [Music, Communication & Technology (MCT)](https://www.uio.no/english/studies/programmes/mct-master/)'s master program. MCT is an international, joint master's programme between NTNU and UiO, the two largest universities in Norway.
+This is the student-led blog related to the **Music, Communication & Technology (MCT)**() master's programme. MCT is an international, joint master's programme between [**NTNU**](https://www.ntnu.edu/studies/mmct) and [**UiO**](https://www.uio.no/english/studies/programmes/mct-master/), the two largest universities in Norway.
 
-![MCT image](/assets/image/mct-master-630.jpg "MCT image")
+![MCT image](/assets/image/2018_08_01_stefanof_mct-master-630.jpg "MCT image")
 
 ## MCT Students
 
-### UiO, Oslo
-
-#### 2018-2020
-
+### 2018-2020
+#### UiO, Oslo
 * Andersen, Elias
 * Lesteberg, Mari
 * Roman, Sam
@@ -21,20 +19,7 @@ This is the student-led blog related to the [Music, Communication & Technology (
 * Sion, Guy
 * Wik, Espen
 
-#### 2019-2021
-
-* Anda, Thomas
-* Goode, Jackson
-* Koenig, Paul
-* Luna, Rayam
-* Steinhovden, Jarle
-* Tidemann, Aleksander
-* Wardenær, Gaute
-
-### NTNU, Trondheim
-
-#### 2018-2020
-
+#### NTNU, Trondheim
 * Aandahl, Eigil
 * Bjordal, Jonas
 * Dahl, Eirik
@@ -43,12 +28,23 @@ This is the student-led blog related to the [Music, Communication & Technology (
 * Shrestha, Shreejay
 * Varpe, Jørgen Nygård
 
-#### 2019-2021
+### 2019-2021
+#### UiO, Oslo
+* Anda, Thomas
+* Goode, Jackson
+* Koenig, Paul
+* Luna, Rayam
+* Steinhovden, Jarle
+* Tidemann, Aleksander
+* Wardenær, Gaute
 
+#### NTNU, Trondheim
 * Halmøy, Ulrick
 * Ignatius, Tom
 * Jaccard, Thibault
 * Sandvik, Simon
+* Futyma, Magda
+
 
 <!--
 

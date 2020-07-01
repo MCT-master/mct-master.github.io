@@ -2,7 +2,7 @@
 layout: post
 title: 'Could DSP it?'
 date: 2019-09-16 15:00:00 +0200
-categories: Portal
+categories: portal
 author: Jackson Goode
 image: /assets/image/2019_09_16_stefanof_polarity.jpg
 excerpt: 'Is polarity the solution?'

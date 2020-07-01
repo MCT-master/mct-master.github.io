@@ -2,7 +2,7 @@
 layout: post
 title:  "Exhibition 'Metaverk' in Trondheim: DSP, Csound orchestras and bone feedback"
 date:   2018-11-11 23:50
-categories: DSP
+categories: digital-audio
 author: Karolina Jawad
 image: /assets/image/patch_metaverk.jpg
 excerpt: <html>Once you enter <strong><a href="http://metamorf.no">Metamorph</a></strong>, an art and technology space in the old town of Trondheim (Bakklandet), you will immediately become part of the generative soundscape of the exhibition <strong><a href="https://teks.no">'Metaverk'</a></strong>.</html>

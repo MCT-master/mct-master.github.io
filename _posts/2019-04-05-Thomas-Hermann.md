@@ -2,7 +2,7 @@
 layout: post
 title: " An Overview of Sonification by Thomas Hermann"
 date: 2019-04-05 05:00:00 +0200
-categories: Sonification
+categories: sonification
 author: Shreejay Shrestha
 image: /assets/image/thermann-photo-2009.jpg
 excerpt: "It was my privilege and honour to facilitate a guest lecture and introduce one of the 'Gurus' in the field of sonification, Dr. Thomas Hermann. He shared his enormous knowledge on sonification with hands on exercises for two days (March 28, and 29, 2019) through the MCT portal in Trondheim. I am quite excited to share my notes and will try to cover the summary of his talks in this blog."

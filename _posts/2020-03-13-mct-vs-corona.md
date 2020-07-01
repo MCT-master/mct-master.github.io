@@ -2,9 +2,9 @@
 layout: post
 title: MCT vs. Corona
 date: 2020-03-13 20:00:00 +0200
-categories: MCT
+categories: miscellaneous
 author: Class of 2021
-image: /assets/image/ccourse.jpg
+image: /assets/image/2020_03_13_stefanof_ccourse.jpg
 excerpt: "In light of the recent microbial world war, we have taken matters into our own hands by sharing audio programming expertise through small introductory courses on Zoom."
 Keywords: MCT, C++, Audio Programming
 ---
@@ -15,7 +15,7 @@ If we have learned anything over these past seven months, its how to deal with e
 
 ![Dual screens](/assets/image/2020_03_13_stefanof_ccourse2.jpg)
 
-For our next installment, we have the privilege of enjoying a "series" on the power and grace of programming in Python, conducted by our very own Jackson Goode. Who knows what will follow, there is certainly no shortage of relevant topics and knowledgable people in our class. This tragedy seems to be the beginning of a totally new MCT chapter, a unique opportunity to further explore our field in new ways. 
+For our next installment, we have the privilege of enjoying a "series" on the power and grace of programming in Python, conducted by our very own Jackson Goode. Who knows what will follow, there is certainly no shortage of relevant topics and knowledgable people in our class. This tragedy seems to be the beginning of a totally new MCT chapter, a unique opportunity to further explore our field in new ways.
 
 Our hearts out to all who have been affected by the virus and those (many many) less fortunate than us.
 

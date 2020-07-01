@@ -2,7 +2,7 @@
 layout: post
 title: "Smokey and the Bandwidth"
 date: 2020-04-04 23:00:00 +0200
-categories: Portal
+categories: portal
 author: Paul Koenig
 image: /assets/image/PK/70s_CB.JPG
 excerpt: "Hijacking Old Tech for New Uses" 

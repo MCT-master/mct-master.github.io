@@ -2,7 +2,7 @@
 layout: post
 title: 'Physical computing Day 1 - Group B'
 date: 2019-10-15 17:00 +0200
-categories: Physical-Computing
+categories: physical-computing
 author: Rayam, Gaute, Thibault, Ulrik
 image: /assets/image/pd_groupb.png
 excerpt: 'First day of physical computing'

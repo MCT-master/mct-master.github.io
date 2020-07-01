@@ -2,8 +2,8 @@
 layout: post
 title:  "Group B, Making the Percampler"
 date:   2018-10-22 12:10:00 +0200
-categories: Physical-Computing
-author: Mari Lesteberg, Dmitry Vasilev, Ashane Silva, Shreejay Shreshta & Eigil Aandahl
+categories: physical-computing
+author: Mari Lesteberg, Dmitry Vasilev, Ashane Silva, Shreejay Shreshta, Eigil Aandahl
 image: /assets/image/percampler_header.jpg
 excerpt: "The Final day of the physical computing was based on creating a custom made instrument based on the knowledge and experience gained from the past three days. We had to figure out if we wanted to make one instrument, which could be played across the two campuses, or if we would choose to make two different instruments that could complement each other."
 ---

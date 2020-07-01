@@ -2,7 +2,7 @@
 layout: post
 title: "Experiencing Ambisonics Binaurally"
 date: 2019-05-19 09:00:00 +0200
-categories: Portal
+categories: portal
 author: Guy Sion
 image:
 excerpt: "During the MCT2022 Physical-virtual communication course we have had two sessions where we explored multichannel and ambisonic decoding. The first session, on February 27th, was mainly about recording a four channel A-format stream with an Ambisonic 360 sound microphone. We converted the A-format mic signal into a full-sphere surround sound format which was then decoded to 8 loudspeakers layout we placed evenly across the portal space. We have used the AIIRADecoder from the free and open source IEM plug-in suite."

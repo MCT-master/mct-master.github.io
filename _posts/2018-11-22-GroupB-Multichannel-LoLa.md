@@ -2,8 +2,8 @@
 layout: post
 title:  "Group B, LoLa multichannel audio"
 date:   2018-11-22 14:00:00 +0200
-categories: Portal
-author: Mari Lesteberg, Ashane Silva, Shreejay Shrestha & Eigil Aandahl
+categories: portal
+author: Mari Lesteberg, Ashane Silva, Shreejay Shrestha, Eigil Aandahl
 image: /assets/image/2018_11_22_stefanof_MultiChannelBox.jpg
 excerpt: "The objective this week was very clear from the start, we had to set up multichannel audio for LoLa. There was just one problem: our great LoLa supervisor, Anders, was sick, and we were left to figure out things on our own. This was of course a
 great challenge, but we like challenges. It might take a little more time, but it's another experience when you are forced to try and fail on your own. Often you also learn much more when you're not being fed all the answers from an expert."

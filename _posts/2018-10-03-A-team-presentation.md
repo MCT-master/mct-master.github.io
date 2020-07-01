@@ -2,8 +2,8 @@
 layout: post
 title: "Group A - Setting up for a joint group presentation"
 date: 2018-10-03 12:53:00 +0200
-categories: Portal
-author: Sam, Juno, Espen, Jørgen & Sepehr
+categories: portal
+author: Sam, Juno, Espen, Jørgen, Sepehr
 image: /assets/image/2018_10_03_stefanof_Presentation_setup.jpg
 excerpt: "Our portal has been suffering from both audial and visual issues since the beginning of the MCT program. We solve one problem and the next is just waiting in line to show itself. <strong>NOW</strong>, we all had an exam just around the corner, an exam where we were going to hold a presentation in the portal across campuses. <strong>The importance of a working portal now felt very crucial</strong> With this in mind we started working on visibility, audibility and reliability."
 ---

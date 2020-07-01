@@ -2,7 +2,7 @@
 layout: post
 title:  "Machine Learning, it's all about the data"
 date:   2019-09-20 00:00:00 +0200
-categories: Music-and-Machine-Learning
+categories: machine-learning
 author: Eigil Aandahl
 image: /assets/image/2019_09_20_eigila_data-blur.jpg
 excerpt: "For my machine learning project, I wanted to see if I could teach my laptop to distinguish between different types of music using a large amount of data. Using metadata from a large dataset for music analysis, I tested different machine learning classifiers with supervised learning to distinguish between tracks labeled belonging to 'Rock' and 'Electronic'. The project was developed using Python and libraries for data analysis and machine learning."

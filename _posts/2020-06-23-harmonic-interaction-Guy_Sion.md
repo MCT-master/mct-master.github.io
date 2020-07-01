@@ -2,7 +2,7 @@
 layout: post
 title: "Harmonic interaction for monophonic instruments through musical phrase to scale recognition"
 date: 2020-06-23 15:00:00 +0200
-categories: Masters
+categories: masters-thesis
 author: Guy Sion
 image: /assets/image/2020_06_23_guysi_System_blogPic.png
 excerpt: "Introducing a novel approach for the augmentation of acoustic instrument by providing musicians playing monophonic instruments the ability produce and control the harmonic outcome of their performance. This approach is integrated in an interactive music system that tracks the notes played by the instrument, analyzes an improvised melodic phrase, and identifies the harmonic environment in which the phrase is played. This information is then used as the input of a sound generating module which generate harmonic textures in accordance with the identified scale. "

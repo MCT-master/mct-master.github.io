@@ -2,7 +2,7 @@
 layout: post
 title: "Strumming through space and OSC"
 date: 2020-02-10 18:00:00 +0200
-categories: Audio-Programming
+categories: audio-programming
 author: Jackson Goode
 image: /assets/image/2020_02_10_jacksong_oscguitar-logo.png
 excerpt: "A gesture-driven guitar built in Puredata and utilizing OSC"

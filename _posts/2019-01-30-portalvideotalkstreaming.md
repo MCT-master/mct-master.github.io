@@ -2,8 +2,8 @@
 layout: post
 title:  "How to stream content from the portal"
 date:   2019-01-30 16:40:00 +0200
-categories: Portal
-author: Eigil Aandahl & Sepehr Haghighi
+categories: portal
+author: Eigil Aandahl, Sepehr Haghighi
 image: /assets/image/2019_01_30_stefanof_broadcasting.jpg
 excerpt: "In this blogpost, we will try to explain in more detail how these streams have been set up using OBS, Open Broadcaster Software and Youtube Live while being connected between Trondheim and Oslo. This can be of use for anyone looking to set up a co-located stream of a speaker or performance."
 

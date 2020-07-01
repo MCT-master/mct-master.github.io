@@ -2,9 +2,9 @@
 layout: post
 title: 'Spatial Trip - a Spatial Audio Composition'
 date: 2019-11-03 11:00:00 +0200
-categories: Spatial-Audio
+categories: spatial-audio
 author: Ashane Silva, Sam Roman, Elias Andersen, Guy Sion
-image:
+image: https://drive.google.com/uc?export=view&amp;id=19n6wP7R5adbooElhZCrpKU3tlxFTweOn
 excerpt: 'In this project, we recorded and synthesized sounds with spatial aspects which is meant to be heard over headphones or loudspeakers (8-channel setup in Oslo/Trondheim). Coming to simulate both the indoor and outdoor real and or fictional scenarios.'
 Keywords: Workshop, Spatial Audio, 3D Sound, Ambisonics, MCT4044,
 ---

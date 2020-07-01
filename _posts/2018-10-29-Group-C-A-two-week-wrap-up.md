@@ -3,8 +3,8 @@ layout: post
 image: /assets/image/montage_portal.jpg
 title:  "A two week wrap-up of Group C"
 date:   2018-10-29 23:00
-categories: Portal
-author: Karolina Jawad & Jonas Bjordal, Elias Andersen, Guy Sion, Eirik Dahl
+categories: portal
+author: Karolina Jawad, Jonas Bjordal, Elias Andersen, Guy Sion, Eirik Dahl
 image:
 excerpt: "We've learned a lot in those two weeks. But due to our tight schedule with a big workload there was hardly any time left to improve on our teach/study environment in the portal. In Trondheim we got a handover from group B on how to deal with LOLA. Our task was then to reinstall the LOLA system, but with some important extra package that was missing."
 ---

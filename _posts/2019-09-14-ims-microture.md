@@ -2,7 +2,7 @@
 layout: post
 title: 'Microture'
 date: 2019-10-13 13:25:00 +0200
-categories: Interactive-Systems
+categories: interactive-music-systems
 author: Sepehr Haghighi
 image: /assets/image/2019_10_13_stefanof_IMS2.jpg
 excerpt: 'Microture is an interactive music system, based on manipulation of the input sound (microphone sound) with small gestures..'

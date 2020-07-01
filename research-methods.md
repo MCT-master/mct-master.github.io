@@ -1,17 +1,17 @@
 ---
 layout: page
-title: Audio Programming
-permalink: /audio-programming/
+title: Research Methods
+permalink: /research-methods/
 ---
 
-The blog posts of this section relate to the course [**MCT4048 Audio Programming**](https://www.ntnu.edu/studies/courses/MCT4048). The aim of the course is to provide a solid foundation in digital signal processing and audio-based application development. Integration of relevant technologies and platforms will play an important part, as well as developing user-ready applications.
+The blog posts of this section relate to the course [**MCT4010 – Research Methods, Tools and Issues in MCT**](https://www.uio.no/studier/emner/hf/imv/MCT4010/). The aim of the course is to develop knowledge of and skills in various research methods, tools and issues in the field of music, communication and technology. These range from qualitative to quantitative methods, and from artistic to scientific perspectives, and will prepare the student for carrying out research and development in the field.
 
 <br />
 
 {%- if site.posts.size > 0 -%}
   <!-- <h2 class="post-list-heading">{{ page.list_title | default: "Posts" }}</h2> -->
   <ul class="post-list">
-    {%- for post in site.categories.audio-programming -%}
+    {%- for post in site.categories.research-methods -%}
     <li>
       {%- if post.image -%}
       <img src="{{ post.image | prepend: site.baseurl }}" alt="{{ post.title }}" title="{{ post.title }}">

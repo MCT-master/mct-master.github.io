@@ -2,8 +2,8 @@
 layout: post
 title:  "Group B, day 2 of Physical computing"
 date:   2018-10-18 00:30:00 +0200
-categories: Physical-Computing
-author: Mari Lesteberg, Dmitry Vasilev, Ashane Silva, Shreejay Shreshta & Eigil Aandahl
+categories: physical-computing
+author: Mari Lesteberg, Dmitry Vasilev, Ashane Silva, Shreejay Shreshta, Eigil Aandahl
 image: /assets/image/p_c_1.png
 excerpt: "Today, the session was about creating an audio web application that reacts to inputs of mobile sensor data. First, we tried to identify different types of sensors and their capabilities by trying out different android and iOs sensor apps. Then the application was made based on the movements and orientation of the mobile phone."
 ---

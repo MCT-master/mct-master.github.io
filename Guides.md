@@ -1,7 +1,7 @@
 ---
 layout: page
-title: How to prepare for a Master's in Music, Communication and Technology
-permalink: /prepare/
+title: Guides
+permalink: /Guides/
 ---
 
 Our diverse group of students include artists, coders, school teachers, managers, hackers, audio engineers, and journalists. Their backgrounds are in media science, architecture, computer science, theatre, film, music, acoustics, and more. Check out our <a href="https://mct-master.github.io">student blog</a> to see some of their activities.

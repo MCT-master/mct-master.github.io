@@ -2,7 +2,7 @@
 layout: post
 title: 'Picture Carmen'
 date: 2019-12-11 11:00:00 +0200
-categories: Projects
+categories: applied-project
 author: Guy Sion, Espen Wik, Sepehr Haghighi
 image: /assets/image/picture-carmen/bixet-carmen-opera.jpg
 excerpt: 'Promotional video for a new chamber production of the Opera ‘Carmen’'

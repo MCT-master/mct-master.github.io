@@ -2,7 +2,7 @@
 layout: post
 title: 'Portal Flowchart'
 date: 2019-10-10 16:00:00 +0200
-categories: Portal
+categories: portal
 author: Aleksander Tidemann, Jackson Goode, Paul Koenig, Tom Ignatius
 image: /assets/image/2019_10_10_stefanof_flow.png
 excerpt: 'The MCT portal has been subject to many configurations over the last couple of months. In this post, we explore how flowcharts may help us see a brighter tomorrow (we need as much light as we can get here).'

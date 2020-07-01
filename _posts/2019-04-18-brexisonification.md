@@ -3,7 +3,7 @@
 layout: post
 title: "Brexisonification"
 date: 2019-04-19 21:40:00 +0100
-categories: Sonification
+categories: sonification
 author: Sam Roman, Sepehr Haghighi, Eirik Dahl
 image: /assets/image/sonification/brexit.jpg
 excerpt: The goal in the project is to sonify Brexit, in a way that the audience could interpret new insight from the data through audio.

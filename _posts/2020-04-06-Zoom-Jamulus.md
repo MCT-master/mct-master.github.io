@@ -2,7 +2,7 @@
 layout: post
 title: "Zoom and other streaming services for jamming"
 date: 2020-04-06 11:10:20 +0200
-categories: Portal
+categories: portal
 author: Gaute Wardenær
 image: /assets/image/2020_04_06_stefanof_zoom.jpg
 excerpt: "One thing you can do is to enable the option of 'preserve original audio' in Zoom."

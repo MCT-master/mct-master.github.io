@@ -2,7 +2,7 @@
 layout: post
 title: 'Seismerssion: Retrospectives on an Audio-visual installations'
 date: 2019-07-14 14:42:00 +0200
-categories: Projects
+categories: applied-project
 author: Karolina Jawad, Espen Wik, Sepehr Haghighi Shreejay Shrestha and Jørgen Nygard Varpe
 image: /assets/image/Oceans/fb_header.JPG
 excerpt: 'Seismerssion is the title we gave our Applied Project in the context of the MCT spring semester 2019. This audio-visual installation is dedicated to the widely unknown issue of sound pollution in the ocean. In collaboration with NTNU Oceans, an intership was established to develop and implement a public installation concept for 2 different venues.'

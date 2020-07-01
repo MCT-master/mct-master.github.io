@@ -1,40 +1,49 @@
 toc:
-  - title: Courses
-    url: /courses
+  - title: Topics
+    url: /topics
     subfolderitems:
       - page: Audio Programming
         url: /audio-programming/
-      - page: DSP
-        url: /dsp/
+      - page: Digital Audio
+        url: /digital-audio/
       - page: Entrepreneurship
         url: /entrepreneurship/
-      - page: HCI
-        url: /hci/
-      - page: Interactive Systems
-        url: /interactive-systems/
-      - page: Master's Theses
-        url: /masters/
+      - page: Human-Computer Interation
+        url: /human-computer-interation/
+      - page: Interactive Music Systems
+        url: /interactive-music-systems/
+      - page: Machine Learning
+        url: /machine-learning/
       - page: Motion Tracking
         url: /motion-tracking/
-      - page: Music and Machine Learning
-        url: /music-and-ml/
+      - page: Music Cognition
+        url: /music-cognition/
       - page: Physical Computing
         url: /physical-computing/
+      - page: Research Methods
+        url: /research-methods/
+      - page: Scientific Computing
+        url: /scientific-computing/
       - page: Sonification
-        url: /sonification-sound-design/
+        url: /sonification/
       - page: Spatial Audio
         url: /spatial-audio/
-      - page: WoNoMute
-        url: /wonomute/    
+      - page: Miscellaneous
+        url: /miscellaneous/
+  - title: Projects
+    url: /projects/
+    subfolderitems:
+      - page: Applied Projects
+        url: /applied-projects/
+      - page: Master's Theses
+        url: /masters-theses/
   - title: Portal
     url: /portal/
-  - title: Projects
-    url: /projects/    
-  - title: Master's Program
-    url: /mct-program/
+  - title: People
+    url: /people/
   - title: About
     url: /about/
-  - title: Preparation
-    url: /prepare/
+  - title: Guides
+    url: /Guides/
   - title: Search
     url: /search/

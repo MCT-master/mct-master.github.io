@@ -2,7 +2,7 @@
 layout: post
 title: 'Classification of string instruments'
 date: 2019-09-14 13:25:00 +0200
-categories: Music-and-Machine-Learning
+categories: machine-learning
 author: Jørgen Nygård Varpe
 image: /assets/image/varpe/spectrogram.PNG
 excerpt: 'During a 2 week intensive workshop in the course Music and Machine Learning I had to develop a machine learning system for the field of music technlogy.'

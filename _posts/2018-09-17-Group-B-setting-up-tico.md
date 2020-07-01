@@ -2,8 +2,8 @@
 layout: post
 title:  "M.A.D.E - setting up Tico"
 date:   2018-09-17 15:43:00 +0200
-categories: Portal
-author: Mari Lesteberg, Dmitry Vasilev, Ashane Silva & Eigil Aandahl
+categories: portal
+author: Mari Lesteberg, Dmitry Vasilev, Ashane Silva, Eigil Aandahl
 image: /assets/image/TICO_signal.jpg
 excerpt: "The number one priority this week was to get Tico up and running. The previous week, all lectures and communication between the two campuses had been through Zoom, and quite a lot of time had been consumed by solving technical problems and issues regarding the Zoom connection."
 ---

@@ -2,7 +2,7 @@
 layout: post
 title: "Physical Computing: Heckathon: Group C"
 date: 2019-10-22 18:00:00 +0200
-categories: Physical-Computing
+categories: physical-computing
 author: Paul, Thomas, Iggy, Aleksander
 image: /assets/image/2019_10_22_stefanof_trump.jpg
 excerpt: "Taking our cue from the main theme of the Day 4 Hackathon of “Recycling”, Team C chose the 2017 U.S. withdrawal from the Paris Agreement on climate change mitigation as a central theme in our work."

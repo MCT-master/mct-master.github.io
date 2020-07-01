@@ -2,7 +2,7 @@
 layout: post
 title: a t-SNE adventure
 date: 2020-05-21 00:00:10 +0200
-categories: Motion-Tracking
+categories: motion-tracking
 author: Ulrik antoniussen Halmøy
 image: /assets/image/ulrikah/tsne_cover.jpg
 excerpt: "A system for interactive exploration of sound clusters with phone sensors"

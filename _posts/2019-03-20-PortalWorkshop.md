@@ -2,7 +2,7 @@
 layout: post
 title:  "Repairing scissors and preparing the portal for talks"
 date:   2019-03-20 16:40:00 +0200
-categories: Portal
+categories: portal
 author: Mari Lesteberg, Elias Sukken Andersen
 image: /assets/image/mari/brokenscissors.jpg
 excerpt: ""

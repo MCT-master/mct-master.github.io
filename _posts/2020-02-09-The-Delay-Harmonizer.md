@@ -2,7 +2,7 @@
 layout: post
 title: "The Delay Harmonizer"
 date: 2020-02-09 20:00:00 +0200
-categories: Audio-Programming
+categories: audio-programming
 author: Thibault Jaccard
 image: /assets/image/thibault/delay_harmonizer.jpg
 excerpt: "This chord generator uses a variable length delay fed by a microphone input as sound source."

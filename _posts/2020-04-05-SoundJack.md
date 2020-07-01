@@ -2,7 +2,7 @@
 layout: post
 title: Exploring SoundJack
 date: 2020-04-05 19:00:00 +0200
-categories: Portal
+categories: portal
 author: Aleksander, Rayam & Thibault
 image: /assets/image/Tidemann/soundjack_logo.jpg
 excerpt: "SoundJack is a p2p browser-based low-latency telematic communications system."

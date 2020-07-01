@@ -2,7 +2,7 @@
 layout: post
 title: 'Entrepreneurship for MCT - Group B'
 date: 2019-10-07 22:18:00 +0200
-categories: Entrepreneurship
+categories: entrepreneurship
 author: Paul Koenig, Gaute Wardenær, Magda Futyma, Ulrik Antoniussen Halmøy
 image: /assets/image/2019_10_07_stefanof_andvari.png
 excerpt: 'Summary of MCT4015 project from group B'

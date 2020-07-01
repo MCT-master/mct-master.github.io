@@ -2,7 +2,7 @@
 layout: post
 title: 'The Fønvind Device'
 date: 2019-10-18 9:10:00 +0200
-categories: Interactive-Systems
+categories: interactive-music-systems
 author: Eigil Aandahl
 image: /assets/image/2019_10_18_stefanof_fonvinddevice.jpg
 excerpt: "For my interactive music systems project, I wanted to make use of the Bela's analog inputs and outputs to make a synthesizer capable of producing not only sound, but also analog control signals that can be used with an analog modular synthesizer. This post goes briefly through some of the features and the design of my system, and at the end there is a video demonstration of the system in use."

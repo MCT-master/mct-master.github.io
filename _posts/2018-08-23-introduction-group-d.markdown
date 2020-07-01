@@ -1,10 +1,10 @@
 ---
 layout: post
-title:  "Meet MCT Group D"
+title:  "Meet MCT Group D 2018"
 date:   2018-08-23 11:23:00 +0200
-categories: MCT
+categories: people
 author: Shreejay Shrestha, Eirik Dahl, Guy Sion, Armando Gonzalez Sosto
-image:
+image: https://drive.google.com/uc?export=view&amp;id=1yqBPdfbFqWyWJ9RG9oFq4eS4kqhSttS-
 excerpt: Group D includes <strong>Shreejay Shrestha</strong> and <strong>Eirik Dahl</strong> from <em>NTNU</em>, and <strong>Guy Sion</strong> and <strong>Armando Gonzalez Sosto</strong> from <em>UiO</em>. The members of the group come from diverse professional backgrounds in education, architecture, music technology, and improvisation. The group’s interests are wide ranging, yet overlapping. Some interests include researching the possibilities of network-based audio collaboration as it relates to rehearsals and recording sessions, utilizing the portal as a tool for remote collaboration. The members of the group also wish to apply a thorough understanding of music technology in their own musical work and therapeutic applications.
 ---
 

@@ -2,7 +2,7 @@
 layout: post
 title: "Blue sky visions on sonic futures"
 date: 2019-05-17 18:30:00 +0200
-categories: Sonification
+categories: sonification
 author: Karolina Jawad
 image: /assets/image/sonification/Pedro-Pestana.jpeg
 excerpt: "Pedro Duarte Pestana was the final guest speaker who joined us virtually with his presentation 

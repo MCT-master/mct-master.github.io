@@ -2,7 +2,7 @@
 layout: post
 title: Making Noises With |noise~|
 date: 2020-02-12 00:24:00 +0200
-categories: Audio-Programming
+categories: audio-programming
 author: Paul Koenig
 image: /assets/image/2020_02_12_paulgk_ProgrammingParadise.jpg
 excerpt: "Wherein I attempt to either program paradise or just make bacon-frying noises, which could be the same thing, actually"

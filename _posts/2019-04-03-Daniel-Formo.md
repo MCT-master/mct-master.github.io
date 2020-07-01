@@ -2,7 +2,7 @@
 layout: post
 title: "Using Speech As Musical Material"
 date: 2019-04-03 22:00:00 +0200
-categories: Sonification
+categories: sonification
 author: Jørgen Nygård Varpe
 image: /assets/image/varpe/Daniel_Formo.jpg   
 excerpt: "As a part of a three-week workshop in the course Sonification and Sound design at MCT, we were lucky to have Daniel Formo as a guest speaker."

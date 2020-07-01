@@ -2,7 +2,7 @@
 layout: post
 title: "C. whatever comes along the way"
 date: 2018-10-17 10:10:42 +0200
-categories: Physical-Computing
+categories: physical-computing
 author: Karolina, Guy, Elias and Eirik
 image:
 excerpt: "To wrap it up, the first workshop day on 'physical computing' surprised us in many ways.

@@ -2,7 +2,7 @@
 layout: post
 title: 'Multi-Layer Perceptron Classifier of Dry/Wet Saxophone Sound'
 date: 2019-09-16 11:00:00 +0200
-categories: Music-and-Machine-Learning
+categories: machine-learning
 author: Guy Sion
 image:
 excerpt: 'The application I have decided to work on is of a machine learning model that can ultimately differentiate between a saxophone sound with effect (wet) and without effect (dry).'

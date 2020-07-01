@@ -2,7 +2,7 @@
 layout: post
 title: "A-team - Phone sensors, servers and javascript"
 date: 2018-10-18
-categories: Physical-Computing
+categories: physical-computing
 author: JJ, EW, SR, SH, JNV
 image: /assets/image/2018_10_18_stefanof_Ateam_sixDegrees.jpg
 excerpt: "So, day two of coding was pretty much like day one: It startet with total confusion. Confusion then driftet into anxiety followed by panic. Then hysterically laughter and something that could be mistaken for self confidence because what I wrote in the code actually worked. Only difference today was that I thought I was having a hart attack around lunchtime, but it was only low blood sugar and dehydration. Coming home I went for a long run in the woods, looking for a Wolfpack I could join, just to make my life a little easier. Didn't find one so I limped my way back through the woods, trying to summarize the day, but the only word that came to my mind was revenge. Made it home just before dark. Tomorrow is another day. Probably."

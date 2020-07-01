@@ -2,7 +2,7 @@
 layout: post
 title:  "MCT Heroes"
 date:   2018-11-14 14:23
-categories: HCI
+categories: human-computer-interaction
 author: Eirik Dahl and Karolina Jawad
 image: /assets/image/2018_11_14_stefanof_Frank-Zappa.jpg
 excerpt: "During our Human Computer interaction seminar, Anna Xambó asked us to create a blog post with notable people in music technology that inspire us. Here are the submissions from the class."
