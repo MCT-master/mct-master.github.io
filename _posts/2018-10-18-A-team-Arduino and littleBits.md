@@ -4,7 +4,7 @@ title: "A-team - From Attack of the Code to Revenge of the Synth"
 date: 2018-10-18 22:19:42 +0200
 categories: Physical-Computing
 author: JJ, EW, SR, SH, JNV
-image: /assets/image/Ateam_synthRevenge.jpg
+image: /assets/image/2018_10_18_stefanof_Ateam_synthRevenge.jpg
 excerpt: "Today we first unpacked a  Arduino microcontroller each, making circuits and controlling them with the Arduino IDE. We firstly ran a code to make an LED blink, then adjusting to our blinking rate of choice. We then controlled a piezo speaker with a script, programming melody by adjusting pitch and beat for each note."
 ---
 

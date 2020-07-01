@@ -4,7 +4,7 @@ title: How music related motion tracking can sound
 date: 2019-04-24 18:45:00 +0200
 categories: Motion-Tracking
 author: Karolina Jawad, Jørgen Varpe, Eirik Dahl
-image: \assets\img\mocap_pic_ei.png  
+image: \assets\image\mocap_pic_ei.png  
 excerpt: "During the course 'Music related Motion Tracking' there were several approaches among the students to realize their ideas. The Opti-Track system, new to all of us consists of infrared-cameras, markers and a software with calibration tools. We were exploring
 the functions from scratch during the first week when hosting the 'Nordic-stand-still-championship' on both campus."
 Keywords: Air drumming, Motion Caption, Movment, MoCap, Gestures, Virtual Drum sticks, OptiTrack
@@ -26,7 +26,7 @@ It was a good opportunity to familiarize with the procedure and work flow of mot
 
 
 ## Second week
-Even though most of us were not familiar with methodological concepts of sonification, it was what we ended up doing in the second week. Different skills, interests and backgrounds in our group formed an idea that turned out to be very feasible within the given time frame: Mapping an impulsive sound to an impulsive action in order to create a virtual/air percussion instrument. 
+Even though most of us were not familiar with methodological concepts of sonification, it was what we ended up doing in the second week. Different skills, interests and backgrounds in our group formed an idea that turned out to be very feasible within the given time frame: Mapping an impulsive sound to an impulsive action in order to create a virtual/air percussion instrument.
 
 
 ## Forming ideas

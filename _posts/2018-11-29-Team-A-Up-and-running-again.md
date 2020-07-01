@@ -4,7 +4,7 @@ title: "A-team - Getting the portal up and running...again"
 date: 2018-11-29 16:19:42 +0200
 categories: Portal
 author: Jørgen Varpe, Sepehr Haghighi, Espen Wik, Sam Roman
-image: /assets/image/Ateam_dropouts.PNG
+image: /assets/image/2018_11_29_stefanof_Ateam_dropouts.PNG
 excerpt: "Final week before christmas. After months of experimentation with microphones, lectures with _TICO_, workshops with _Zoom_, jams with _LOLA_ and routing on the _Midas_ mixer - the portal is in disarray."
 ---
 

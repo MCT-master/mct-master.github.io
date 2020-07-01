@@ -4,7 +4,7 @@ title: "Group C - Thinking outside the box"
 date: 2018-10-18 22:00:00 +0200
 categories: Physical-Computing
 author: Karolina, Guy, Eirik and Elias
-image: /assets/image/Arduino.jpg
+image: /assets/image/2018_10_18_stefanof_Arduino.jpg
 excerpt: "We started our day with a short preview off the blog posts describing our experiences form the 2nd day. We continued with a short presentation of Anna Xambo’s performance ‘Imaginary Berlin’ at the Web Audio Conference 2018 where audience participation was an integral part of the performance."
 ---
 
