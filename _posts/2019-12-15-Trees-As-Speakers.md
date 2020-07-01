@@ -97,8 +97,12 @@ When we listened to the recordings of the first field trip, we could hear that t
 
 Please take a look at this awesome video made by Shreejay, showing the field recording process:
 
+</figure>
 <figure align="middle">
-<iframe src="https://drive.google.com/file/d/1r4zD_1c08RPz9xuifuXNNkxxTMGX-Uo5/preview" width="640" height="480"></iframe>
+<video width="640" height="480" controls>
+  <source src="https://docs.google.com/uc?export=download&id=1nS81NQ_MBLkN3sb_dGn3ZJujUHaHPIhm">
+  Your browser does not support video tag.
+</video>
 <figcaption><strong>Field recordings</strong></figcaption>
 </figure>
 

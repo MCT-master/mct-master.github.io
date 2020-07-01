@@ -31,9 +31,14 @@ We were given the time to experiment with this setup. Several class members have
 
 <p>I stood in the middle of the four-microphone setup and played into each of the mics at a time. During the first round of the melody, I played segments of the song into each different mic, and for the second round of the tune, I played (almost) each note into a different mic. That resulted in an audio clip where you can hear me play parts of the melody in four positions (Front-Right, Front-Left, Back-Right, Back-Left). I would recommend listening to this audio clip with headphones to be able to clearly identify the direction I am playing from (from the listeners perspective).
 
-<p><center><iframe src="https://drive.google.com/file/d/1xhMuN5UaaoMb17ZL2lCtVsPyNd4t_W4N/preview" width="640" height="480"></iframe></center>
+<figure align="middle">
+   <audio controls>
+     <source src="https://docs.google.com/uc?export=download&id=1xhMuN5UaaoMb17ZL2lCtVsPyNd4t_W4N" type="audio/mpeg" volume="1.0">
+     Your browser does not support audio tag.
+   </audio>
+</figure>
 
-<p>When listening to it again in a quiet environment at home, I now wish I had more time to experiment with playing longer tones while moving between the microphones (maybe a ballade would fit better next time?). I wanted to hear the movement of my sound in the spatial environment. 
+<p>When listening to it again in a quiet environment at home, I now wish I had more time to experiment with playing longer tones while moving between the microphones (maybe a ballade would fit better next time?). I wanted to hear the movement of my sound in the spatial environment.
 
 <p>In any case, I decided to continue the extermination at home with several sound effects like footsteps, a clock ticking and writing marker. I placed all sound samples on an audio track containing the E4L Source Panner device and mapped the Azimuth knob to a physical knob on my midi controller.
 

@@ -78,11 +78,13 @@ Since the sound that we used for convolution was an intense Drums solo, the dyna
 <br />
 However, we missed the opportunity to make our performance (including positioning us within more camera resources, a clear announcement of the start of the event) more demonstrative for lack of time, which ultimately affected our performativity. In the feedback round the audience reported a glitch in sound during the performance, we suspect that in connection with the process of buffering and dry gain. In addition, the connected (old) computer was no longer in good condition during the performance after a few hours of coding. When we performed again for the live demo, which you can see below, the glitch was almost not audible anymore.<br />
 <br />
-<figure >
-  <iframe src="https://drive.google.com/file/d/1U4RPrFbGGsFwFvYulBRb_0NFe2QqM05x/preview" width="640" height="480" align="middle"></iframe>
-  <figcaption><strong>Team performing with the Convolverizer</strong></figcaption>        
+
+<figure align="middle">
+<video width="640" height="480" controls>
+  <source src="https://docs.google.com/uc?export=download&id=1U4RPrFbGGsFwFvYulBRb_0NFe2QqM05x" type='video/mp4'>
+  Your browser does not support video tag.
+</video>
 </figure>
-<br>
 
 ## Working Style
 Research, design and programming were carried out in collaboration so that the prototype developed in a constant discussion and joint evaluation of the application. We established a main hub in one of the group rooms and put the code from [Visual Studio Code](https://code.visualstudio.com/) on the screen. From there, we brainstormed and prototyped together.

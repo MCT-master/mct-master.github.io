@@ -13,17 +13,17 @@ Keywords: Portal, Visual, Camera
 
 Below are screenshots from the testing of different cameras.
 
-<figure text-align="center">
-<iframe src="https://drive.google.com/file/d/1-9pzQdGinDA6cDNKd4tG_9StjqdSPpo7/preview" width="640" height="400"></iframe>
-<figcaption>VHD-V302</figcaption>
+<figure align="middle">
+   <img src="https://drive.google.com/uc?export=view&amp;id=1-9pzQdGinDA6cDNKd4tG_9StjqdSPpo7" width="auto" height="auto" />
+   <figcaption align="middle">VHD-V302</figcaption>
 </figure>
 
-<figure text-align="center">
-<iframe src="https://drive.google.com/file/d/1hYTiuypRuXadGSXtQ-TssHBcnOWHi7CT/preview" width="640" height="400"></iframe>
-<figcaption>Logitech</figcaption>
+<figure align="middle">
+   <img src="https://drive.google.com/uc?export=view&amp;id=1hYTiuypRuXadGSXtQ-TssHBcnOWHi7CT" width="auto" height="auto" />
+   <figcaption align="middle">Logitech</figcaption>
 </figure>
 
-<figure text-align="center">
-<iframe src="https://drive.google.com/file/d/1MQgpUToQ2ycY0CtwmHW-ux45RhW8K-qZ/preview" width="640" height="400"></iframe>
-<figcaption>Huddly</figcaption>
+<figure align="middle">
+   <img src="https://drive.google.com/uc?export=view&amp;id=1MQgpUToQ2ycY0CtwmHW-ux45RhW8K-qZ" width="auto" height="auto" />
+   <figcaption align="middle">Huddly</figcaption>
 </figure>

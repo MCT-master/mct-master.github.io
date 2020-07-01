@@ -15,66 +15,71 @@ In this project, we recorded and synthesized sounds with spatial aspects which i
 Our composition is made out of four scenes lasting 1 minute each.<br>
 **Scene I** - At home - The whole composition based on a person who suffers with schizophrenia that he hears voices inside his head sometimes. The starting scene is based on day to day activities happens in a busy morning in the kitchen.<br>
 **Scene II** - After the accident - Connecting between the morning scene and the accident scene is the TV rapport about an accident. This scene can be an unforgotten experience or maybe memory. We are listening from a point of view of a person that is laying on the ground, facing upwards by a highway after an accident. As the scene develops, more help is arriving connecting us to the next scene at the hospital.<br>
-**Scene III** - Connecting the accident scene and the space scene. This seen follows the person lying on the ground from previous scene. The person is badly injured and needs medical help. The person finds himself lying on an operating table at the hospital.<br> 
+**Scene III** - Connecting the accident scene and the space scene. This seen follows the person lying on the ground from previous scene. The person is badly injured and needs medical help. The person finds himself lying on an operating table at the hospital.<br>
 **Scene IV** - As a ambisonic composition, it is quite ironic to do a scene in the absolute silence of space!
-As the subject of our piece has elements of abstract mental struggle, and a clear death scene - we felt it fitting that the last scene would be ambiguous, or other wordly - there is no clear understanding of what happens beyond death…..<br> 
+As the subject of our piece has elements of abstract mental struggle, and a clear death scene - we felt it fitting that the last scene would be ambiguous, or other wordly - there is no clear understanding of what happens beyond death…..<br>
 
 
 ## Have a listen to our result (Headphones required):
 
-<iframe src="https://drive.google.com/file/d/1V_d_rpn-oNy3mKUS9BAlRkp8rTwAmI9r/preview" width="640" height="480"></iframe>
+<figure align="middle">
+   <audio controls>
+     <source src="https://docs.google.com/uc?export=download&id=1V_d_rpn-oNy3mKUS9BAlRkp8rTwAmI9r" type="audio/mpeg" volume="1.0">
+     Your browser does not support audio tag.
+   </audio>
+</figure>
 
 ## Complete scene and timeline description
 
 **Scene 1 - At Home - Ashane Silva**
 
 Concept:
-The whole composition based on a person who suffers with schizophrenia that he hears voices inside his head sometimes. The starting scene is based on day to day activities happens in a busy morning in the kitchen. 
+The whole composition based on a person who suffers with schizophrenia that he hears voices inside his head sometimes. The starting scene is based on day to day activities happens in a busy morning in the kitchen.
 
-Sounds: 
-A basic scenario in a kitchen was recorded using a soundfield recording in a first person’s perspective. The recording includes, sounds of water pouring into a glass, opening a door, opening and closing cupboards, stirring in a cup. The recording was done in multiple takes and combined together. 
+Sounds:
+A basic scenario in a kitchen was recorded using a soundfield recording in a first person’s perspective. The recording includes, sounds of water pouring into a glass, opening a door, opening and closing cupboards, stirring in a cup. The recording was done in multiple takes and combined together.
 
-Additionally, Some voice recordings were done to create the voices that the main character hears in his head. The phrases are referring to the accident scene which he starts to regret. Mainly multiple samples of normal voice and whispering voices were recorded. 
+Additionally, Some voice recordings were done to create the voices that the main character hears in his head. The phrases are referring to the accident scene which he starts to regret. Mainly multiple samples of normal voice and whispering voices were recorded.
 
 **Soundfield mic and converting to B-Format**
 
 The raw state of the audio consists of LF, RF, LB, RB recordings and converted to B-Format(Ambix) which has W, X, Y, Z axis for rotation. The B-format source was directly routed to the decoder.<br>
-W – a pressure signal corresponding to the output from an omnidirectional microphone<br> 
+W – a pressure signal corresponding to the output from an omnidirectional microphone<br>
 X – the front-to-back directional information<br>  
-Y – the left-to-right directional information<br> 
-Z – the up-to-down directional information<br> 
+Y – the left-to-right directional information<br>
+Z – the up-to-down directional information<br>
 
-Extra sounds:<br> 
-Multiple samples has been used to emphasize a busy environment. 
+Extra sounds:<br>
+Multiple samples has been used to emphasize a busy environment.
 
-Timeline:<br> 
+Timeline:<br>
 Door opens, kitchen work, people chatting
-Cat sound, phone rings, crying baby. 
-Turning on the radio, News, 
-The character turns towards the radio and turns back to front position. 
-Voices starts to appear in his head. 
+Cat sound, phone rings, crying baby.
+Turning on the radio, News,
+The character turns towards the radio and turns back to front position.
+Voices starts to appear in his head.
 
-Scene:<br> 
-The scene starts with the person entering the kitchen and doing some basic work. He washed a cup andt trying to make some tea. And opens one of the cupboards and take some food packets. Once he entered the room the cat starts to make noise which can be heard far from behind and also moves around back left and front-right later.Then a phone starts to ring and a baby wakes up to that sound and starts crying..And also there are some  people talking in another room and also a person goes down the stairs of the other side of the wall. 
+Scene:<br>
+The scene starts with the person entering the kitchen and doing some basic work. He washed a cup andt trying to make some tea. And opens one of the cupboards and take some food packets. Once he entered the room the cat starts to make noise which can be heard far from behind and also moves around back left and front-right later.Then a phone starts to ring and a baby wakes up to that sound and starts crying..And also there are some  people talking in another room and also a person goes down the stairs of the other side of the wall.
 
-The was used with automating the source from right back to left back. And a low pass filtering has been done cut recreate the perception of the object moving away. 
+The was used with automating the source from right back to left back. And a low pass filtering has been done cut recreate the perception of the object moving away.
 
 After the radio turned on, the scene rotates as the character face towards the radio and in few seconds the scene rotates back to previous state.
 
-Creating voices<br> 
-This section is not meant to sound realistic but more dramatic and create more tension. After news stating about an accident the character starts to remind of a past situation. And he speaks “ Oh not again” , “ another accident” and suddenly other voices starts to appear in his head. The main voice is placed in front while other voices moving around the 360 soundfield. 
+Creating voices<br>
+This section is not meant to sound realistic but more dramatic and create more tension. After news stating about an accident the character starts to remind of a past situation. And he speaks “ Oh not again” , “ another accident” and suddenly other voices starts to appear in his head. The main voice is placed in front while other voices moving around the 360 soundfield.
 
-### Effects and plugins. 
+### Effects and plugins.
 
 **Plugins from the IEM plugin suite**
 
-**Multi-Encoder** - Once instance of the multi encoder was used to place the sound samples of cat, baby crying,Phone ringing and people talking. Each sample is placed differently  in the 360 degrees soundfield by controlling the azimuth angle and automating to add some movement. 
+**Multi-Encoder** - Once instance of the multi encoder was used to place the sound samples of cat, baby crying,Phone ringing and people talking. Each sample is placed differently  in the 360 degrees soundfield by controlling the azimuth angle and automating to add some movement.
 
 
 ![Muti-Encoder](https://drive.google.com/uc?export=view&amp;id=19n6wP7R5adbooElhZCrpKU3tlxFTweOn "Muti-Encoder")
 
 
-**Lowpass Filtering** - adding Low pass filtering for the samples that has to be placed a bit far in the soundfield. This more like additional reinforcement with the gain adjustment to move objects further away from the listener. 
+**Lowpass Filtering** - adding Low pass filtering for the samples that has to be placed a bit far in the soundfield. This more like additional reinforcement with the gain adjustment to move objects further away from the listener.
 
 **Room Encoder** -  Room encoder was used to create a large space that include stairs.  The position of the person was automated from right back to left back. And the cutoff frequency of the  low pass filtering has been automated to add a better perception of distance and the size of the environment.
 
@@ -84,13 +89,13 @@ This section is not meant to sound realistic but more dramatic and create more t
 
 ![Automation](https://drive.google.com/uc?export=view&amp;id=1Gc-X1L6n_s85sewmmGxB1dzwRYENnnBI "Automation")
 
-**Dual Delay** -  This was used to add repetitions for voices and automation of the delay time to add a pitch warping effect to voices add the very end. The delay added more glue to the section with voices and also gave a better transition to the next scene. 
+**Dual Delay** -  This was used to add repetitions for voices and automation of the delay time to add a pitch warping effect to voices add the very end. The delay added more glue to the section with voices and also gave a better transition to the next scene.
 
 ![Dual-Delay](https://drive.google.com/uc?export=view&amp;id=1iH0t2PCq8_pTR5gItNUdEZn1876q7IQR "Dual-Delay")
 
 **Scene 2 - After the accident - Guy Sion**
 
-Connecting between the morning scene and the accident scene is the TV rapport about an accident. This scene can be an unforgotten experience or maybe memory. We are listening from a point of view of a person that is laying on the ground, facing upwards by a highway after an accident. As the scene develops, more help is arriving connecting us to the next scene at the hospital. 
+Connecting between the morning scene and the accident scene is the TV rapport about an accident. This scene can be an unforgotten experience or maybe memory. We are listening from a point of view of a person that is laying on the ground, facing upwards by a highway after an accident. As the scene develops, more help is arriving connecting us to the next scene at the hospital.
 
 The scene starts with a loud Thunder composed of two layers: mid-high and a deep dark/far thunders, together with rain sample. The dark/far thunder continues playing through the scene, setting up the scene’s spatial depth - it is raining, there is a storm in the distance.
 
@@ -102,20 +107,20 @@ We can hear the heavy breathing of the person, breathings that will slow down as
 A car is stopping by to assist. A door is open and we can hear a baby crying from within the car. Someone is running out of the car to approach the person on the ground, calling for his attention as he gets closer. Reverb is applied over the voice offering help to give the feeling that those words have been registered by the person on the ground who might be losing conscious.
 
 Timeline:<br>
-Thunders - 2 layers, Rain, Ambiance/Traffic - Ambisonic (original recording), Road.<br> 
-A car breaks - front right to back right<br> 
-A car door opens and closes - a baby crying being (EQ change)<br> 
-Steps (wet ground) and Voice (Ashane) approaching<br> 
-More Steps<br> 
-Another car door opens and closes<br> 
-Police radio is being heard<br> 
-Violins with a long tail reverb. Intervals: 5th up (uplifting), 5th up down to 4th (suspension), 5th up and up to the major 7th (hopeful).<br> 
+Thunders - 2 layers, Rain, Ambiance/Traffic - Ambisonic (original recording), Road.<br>
+A car breaks - front right to back right<br>
+A car door opens and closes - a baby crying being (EQ change)<br>
+Steps (wet ground) and Voice (Ashane) approaching<br>
+More Steps<br>
+Another car door opens and closes<br>
+Police radio is being heard<br>
+Violins with a long tail reverb. Intervals: 5th up (uplifting), 5th up down to 4th (suspension), 5th up and up to the major 7th (hopeful).<br>
 An ambulance is being heard in the background, passing by buildings.<br>
 
 **Scene 3 - The Hospital - Elias Andersen**
 
 Concept:<br>
-Connecting the accident scene and the space scene. This seen follows the person lying on the ground from previous scene. The person is badly injured and needs medical help. The person finds himself lying on an operating table at the hospital. 
+Connecting the accident scene and the space scene. This seen follows the person lying on the ground from previous scene. The person is badly injured and needs medical help. The person finds himself lying on an operating table at the hospital.
 
 Timeline (Person lying on operating table):<br>
 Breathing, heartbeat, heart monitoring beeping and doctor speaking while taking on rubber gloves.<br>
@@ -132,7 +137,7 @@ All the sound samples used are taken from freesound.org, except from the doctor 
 The sound of the doctor speaking is a recording of Sam talking. This recording was done in the studio in Oslo with the AKG C414 XLS microphone.
 
 Effects used:<br>
-Multi encoder: The melancholic sound are placed in the space using the multi encoder. They are played in a stereo perspective, moving 360 degrees from 180 degrees to -180 degrees. 
+Multi encoder: The melancholic sound are placed in the space using the multi encoder. They are played in a stereo perspective, moving 360 degrees from 180 degrees to -180 degrees.
 
 Room encoder:<br>
 All the other sounds are placed in the space with a room encoder. The reason is that the scene takes place in a fixed sized room and is there for easy to place in the room to make it sound realistic; like you are in that room. I also used the room synchronization to get the perspective that the sounds are all in the same space/room.
@@ -166,14 +171,14 @@ Augmentation of the scene - breaking down of reality
 Sound sources<br>
 Recording - Stairs in ZEB building.
 
-The stairs in the ZEB building are made of stone and are four floors high, with good isolation of sounds from outside the stairwell. This space had a long reverb time, and I used as representations of a tunnel in a ship. This sample i used for a quiet ambience bed inside the ship, designed to be a similar acoustic space. The whistle I did for testing - however i liked the mood of the sound and decided to keep it in. 
+The stairs in the ZEB building are made of stone and are four floors high, with good isolation of sounds from outside the stairwell. This space had a long reverb time, and I used as representations of a tunnel in a ship. This sample i used for a quiet ambience bed inside the ship, designed to be a similar acoustic space. The whistle I did for testing - however i liked the mood of the sound and decided to keep it in.
 
 Sampled sources<br>
-Action Sounds 
+Action Sounds
 
 Footsteps - The sample represents walking down the tunnel and is in constant movement,  This is in stereo, and put up in elevation, and panned slightly to the front. I found this gave the most realistic spatial position to imitate hearing your own footsteps within a long, metal tunnel like space with large reverberation. Having the sample in stereo spreads the sound over a 90 degree angle. The sample came from hitting a shoe on a radiator!
 
-Metal - To compliment this, there are metal clunk sounds, that fill out the footsteps and other actions. This are panned differently, and give the imagery of a clunky, metallic structure that creaks as it is walked down. 
+Metal - To compliment this, there are metal clunk sounds, that fill out the footsteps and other actions. This are panned differently, and give the imagery of a clunky, metallic structure that creaks as it is walked down.
 
 Airlock Open & Close - There are three different samples that make up the opening and closing of the ship. These are positioned in the centre on the first sample, then pans to the left as the swoosh goes - similar to a sliding door. The next sample is the loudest - and signifies the full opening. This is positioned the opposite, starts on the left of the listener then swipes to the middle. This was to show the airlock closed behind the listener. This is where there is silence for a second - this is to signify the change of space for the character. The is a last swoosh for the opening of the main station. An impulse response of a car garage ha was used on the door - modulated quite extremely to enhance the power. It had the right “metallic” quality i was looking for.
 
@@ -188,6 +193,6 @@ Percussive glitch - This element was made through experimentation. I used E4L sp
 Heavy Human Breathing - This is the same sample used in the roadside scene, which adds a nice touch of continuity. This is used later to show the human reaction to such a scene, and for us as the viewer to understand his condition. It is also twisted and stretched later on, panning increases in intensity. As breathing is one of the most human sounds in the world, it was intentionally used to break convention, and let the listener know that reality is getting distorted.
 
 Ambient Sounds:<br>
-Space drones - 3 layered sounds at the start to signify space. 2 starts out stereo image out of the front sides, one on each side then collapses into the very centre before the door. 
+Space drones - 3 layered sounds at the start to signify space. 2 starts out stereo image out of the front sides, one on each side then collapses into the very centre before the door.
 
 Pad - There is a tonal pad that sets the tone of the scene in the ship. The pitch is raised at the end to signify the crescendo finale.
