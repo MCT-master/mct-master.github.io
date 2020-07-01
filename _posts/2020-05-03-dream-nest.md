@@ -4,11 +4,11 @@ title: Soundscapes for Dream Nest
 date: 2020-05-03 10:00:00 +0200
 categories: Projects
 author: Jackson, Paul & Iggy
-image: /assets/image/jacksong/baby-spa.jpg
+image: /assets/image/2020_05_03_jacksong_baby-spa.jpg
 excerpt: "For the spring applied project we created music for a hardware specific device to relax colicy babies in a collaboration with our external partner, Dream Nest. Our final product is a six track EP, engineered to put your baby to sleep (we hope!)"
 Keywords: MCT, Dream Nest, sound engine
---- 
-The Dream Nest is a therapeutic product that uses low-frequency sound waves to sooth infants that suffer from various colic or stress related problems, in particular those associated with pre-term birth. 
+---
+The Dream Nest is a therapeutic product that uses low-frequency sound waves to sooth infants that suffer from various colic or stress related problems, in particular those associated with pre-term birth.
 
 ### What music is best for babies?
 
@@ -24,7 +24,7 @@ Our major questions we aimed to answer were:
 
 ### Some insights from research
 
-Recent research supports the benefit of music listening in the cognitive and emotional development of pre-term infants (Standley 2002; Lejeune, et al 2019; Sanchez 2019). The types of music that seem to best calm infants has been studied as well (Keith et al 2009; Haslbeck 2012; Loewy et al 2013). 
+Recent research supports the benefit of music listening in the cognitive and emotional development of pre-term infants (Standley 2002; Lejeune, et al 2019; Sanchez 2019). The types of music that seem to best calm infants has been studied as well (Keith et al 2009; Haslbeck 2012; Loewy et al 2013).
 
 In addition, the sound of the maternal heartbeat and voice has also been found to positively affect auditory plasticity in the brains of premature infants (Webb, et al 2015).
 
@@ -34,14 +34,14 @@ Listening to recordings taken from inside the stomach were also quite illuminati
 
 ### The music
 
-All these elements are filtered in the high and upper-mid frequency ranges to attempt to properly represent the actual intra-uterine environment. 
+All these elements are filtered in the high and upper-mid frequency ranges to attempt to properly represent the actual intra-uterine environment.
 
 <figure>
-    <img src="/assets/image/jacksong/dn-eq.jpg" width="500px"/>
+    <img src="/assets/image/2020_05_03_jacksong_dn-eq.jpg" width="500px"/>
     <figcaption>An example of the EQ that we applied globally to the mix</figcaption>
 </figure>
 
-We created a total of six original musical pieces of a duration exceeding 10 minutes each, with instrumentation including acoustic guitar, piano, bass and synthesized pads. In addition, each composition was edited to include a shorter, loop-able segment, making a total of 12 musical pieces. 
+We created a total of six original musical pieces of a duration exceeding 10 minutes each, with instrumentation including acoustic guitar, piano, bass and synthesized pads. In addition, each composition was edited to include a shorter, loop-able segment, making a total of 12 musical pieces.
 
 Samples of these musical works can be listened to here:
 
@@ -62,23 +62,23 @@ Samples of these musical works can be listened to here:
 
 ### Our sound engine
 
-In reference to the above scientific literature, our proposed “sound engine” for the Dream Nest incorporates the following elements: 
+In reference to the above scientific literature, our proposed “sound engine” for the Dream Nest incorporates the following elements:
 
 * Original music composed specifically for Dream Nest
 * The mother’s recorded heartbeat
 * The mother’s voice (reading a story, singing, etc.)
 * Various synthesized “womb” sounds
 
-In order to create a working model of our sound engine, we implemented a demonstration app in MobMuPlat, using [Pure Data](https://puredata.info/) as our programming language. The app combines our original music, synthesized womb sounds, and recordings of the maternal heartbeat and voice of a real, actual mother (Paul’s wife, Erin). 
+In order to create a working model of our sound engine, we implemented a demonstration app in MobMuPlat, using [Pure Data](https://puredata.info/) as our programming language. The app combines our original music, synthesized womb sounds, and recordings of the maternal heartbeat and voice of a real, actual mother (Paul’s wife, Erin).
 
 <figure>
-    <img src="/assets/image/jacksong/dn-pd.jpg" width="500px"/>
+    <img src="/assets/image/2020_05_03_jacksong_dn-pd.jpg" width="500px"/>
     <figcaption>A shot of the Pure Data patch for our demo app</figcaption>
 </figure>
 
-Recording the mother’s voice is easy to do with a smartphone or laptop, but the heartbeat is a little more difficult. Ideally, a stethoscope microphone would be used for best results. Build-ing an effective stethoscope microphone is not too difficult or expensive, and perhaps one or two could be kept on hand to loan out to new Dream Nest users. In the references we have included an instructional on the construction of a simple electronic stethoscope microphone (Bhaskar 2012). 
+Recording the mother’s voice is easy to do with a smartphone or laptop, but the heartbeat is a little more difficult. Ideally, a stethoscope microphone would be used for best results. Build-ing an effective stethoscope microphone is not too difficult or expensive, and perhaps one or two could be kept on hand to loan out to new Dream Nest users. In the references we have included an instructional on the construction of a simple electronic stethoscope microphone (Bhaskar 2012).
 
-The various sound sources are combined in a simple, mixer-like interface allowing the end user to select or deselect elements and set the individual volumes of each to optimize playback on various types of audio equipment. 
+The various sound sources are combined in a simple, mixer-like interface allowing the end user to select or deselect elements and set the individual volumes of each to optimize playback on various types of audio equipment.
 
 A short demonstration of the app is here:
 
@@ -94,14 +94,14 @@ Our Pure Data code for the app [is here](https://drive.google.com/open?id=16snQb
 
 Testing our creations on actual infant-subjects is unfortunately beyond the scope of this project, so much work remains to be done. We based our approach to this problem on the scientific research in the field, but we can’t be sure at this point which elements of our project work and which don’t. The unexpected imposition of COVID-19 quarantine definitely delayed some testing that would have taken place on the part of our industry partner, who no longer was able to continue Dream Nest testing at the local hospital’s neonatal unit.  
 
-Having said that, we think it’s a good start. In the design of the eventual Dream Nest app that will pair with the Dream Nest itself and allow parents/caregivers to control and personalize the experience for their little ones, we recommend the following: 
+Having said that, we think it’s a good start. In the design of the eventual Dream Nest app that will pair with the Dream Nest itself and allow parents/caregivers to control and personalize the experience for their little ones, we recommend the following:
 
 * A multi-channel mixer interface for the sound engine
-* An expandable library of musical composition and loops to choose from 
+* An expandable library of musical composition and loops to choose from
 * The ability for each mother to record her own voice and heartbeat to be mixed into the over-all soundscape
 * A selection of synthesized or sampled “womb sounds” to complete the sound environment
 
-From the app, the parent/caregiver can then stream the sound to either the Dream Nest itself (if the final design allows for it) or an external bluetooth or wifi enabled speaker system. Because of the importance of the low-frequency spectrum in authentically replicating the womb environment, we recommend a good quality speaker with excellent low-frequency reproduction. 
+From the app, the parent/caregiver can then stream the sound to either the Dream Nest itself (if the final design allows for it) or an external bluetooth or wifi enabled speaker system. Because of the importance of the low-frequency spectrum in authentically replicating the womb environment, we recommend a good quality speaker with excellent low-frequency reproduction.
 
 The Sonos line of WiFi speakers are already found in many households, and would be a good choice, but there are many others that would be suitable.
 

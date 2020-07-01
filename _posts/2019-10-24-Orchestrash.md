@@ -4,7 +4,7 @@ title: 'Orchestrash hackathon performance'
 date: 2019-10-24 13:40:30 +0100
 categories: Physical-Computing
 author: Rayam, Gaute, Thibault, Ulrik
-image: /assets/image/group_a/recycle_orchestra.jpg
+image: /assets/image/2019_10_24_stefanof_recycle_orchestra.jpg
 excerpt: 'The title of our project is "Orchestrash" inspired by the theme of the competition and our approach to solving it, by making individual instruments controlled by recycled materials and "recycling" sound by sampling'
 ---
 
@@ -40,7 +40,7 @@ The *Trasheremin* is an instrument based on the touchless gesture control of the
 
 ### Sampler/looper (Ulrik)
 
-![Sampler / looper](/assets/image/group_a/ulrik_sampler.jpg)
+![Sampler / looper](/assets/image/2019_10_24_stefanof_ulrik_sampler.jpg)
 
 The sampler was the main rhytmical instrument in the performance. It was a very rudimentary four voice sampler, with four corresponding recording buttons, some of which can be seen in the photo above. One of the sample slots was mapped to a pitch shifter, that I received as a sub module by Thibault, which in turn was controllable by a rotary potentiometer. The samples were recorded live through the analog input on the Bela. During the development and the performance, a contact microphone was used on different sound sources to make the recording. However, any analog sound source could have been used, as the analog input on the Bela supported any 3.5 mm jack connection.
 
@@ -48,7 +48,7 @@ The recording of a sample started when the corresponding button was pressed, and
 
 ### Resonator (Thibault)
 
-![Pd patch of the resonator](/assets/image/group_a/thibault_patch.jpg)
+![Pd patch of the resonator](/assets/image/2019_10_24_stefanof_thibault_patch.jpg)
 
 This instrument aims to make music out of acoustic feedback. To do so, a glass bottle is used as a resonator. A microphone is placed inside it, and a speaker lies under it. Routing the microphone to the speaker in Pure Data immediately creates an annoying high pitched feedback. In order to control the pitch, I downloaded a pitch [shifter patch](https://github.com/umlaeute/pd-vanilla/blob/master/doc/3.audio.examples/G09.pitchshift.pd). By mapping a rotary potentiometer to the transposition amount, I managed to find some frequencies producing an interesting sound. But the instrument was just producing a steady pitch, with very few controlling possibilities, as most frequencies would not let feedback grow, and the resulting sound was very week. The best sounding frequency was correspond to a B note, but the rest of the groupe was working in a C minor scale. By adding water into the bottle, I managed to pitch the behaviour of the bottle up to a steady C note.
 
@@ -60,7 +60,7 @@ The bass instrument consists of a fairly basic sawtooth wave being fed into a hi
 
 The input to Bela was a pressure sensor attached to a plastic bottle, underneath a tight strap. When the bottle was squeezed, the walls of the bottle would expand and push more against the strap, giving different levels to the pressure sensor. The pressure sensor sent voltage variations to Bela where the PD patch converted the voltage variations into integral numbers. The integral numbers were then fed into a "select" object, which sends out a message to the different outputs, depending on the input. The different outputs were then patched to six different sawtooth oscillators, each corresponding to a note in the chosen scale.
 
-![Pardon the birds nest](/assets/image/group_a/Birdsnest.JPG)
+![Pardon the birds nest](/assets/image/2019_10_24_stefanof_Birdsnest.JPG)
 
 The design of the patch could be improved in the future by mapping buttons to transpose it to different scales, more inputs for controlling effects, more advanced oscillators etc. But all in all, I am happy with the result, it did the job and sounded pretty bad-ass.
 

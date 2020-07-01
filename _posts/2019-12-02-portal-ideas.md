@@ -4,7 +4,7 @@ title: 'Portal ideas'
 date: 2019-12-02 13:40:30 +0100
 categories: Portal
 author: Rayam, Gaute, Thibault, Ulrik
-image: /assets/image/group_a/portal1.jpg
+image: /assets/image/2019_12_02_stefanof_portal1.jpg
 excerpt: 'Instead of starting up the M32 every day, recalling the correct preset, adjusting the faders, turning on the screens, turning on the speakers, opening LOLA, connecting to the other side, pulling your hair out because nothing will work... Imagine just pressing a button and it all just works. '
 ---
 
@@ -22,12 +22,12 @@ The portal is in dire need of a fixed setup that "just works" when you press the
 <figcaption><strong>   </strong></figcaption>
 </figure>
 
-As you all are very familiar with, we rely on the Midas M32 for our audio processing. This is great, isn't it? Having faders, lots of I/O, buttons for everything, a maze of menus, a decent amount of inherent latency, the worlds least intuitive snapshot-solution, lots of room for error... What? You don't like using the M32 on a daily basis? Don't worry, there are others freaks like you out there, and solutions to your despair: Let me introduce you to the audio processor! 
+As you all are very familiar with, we rely on the Midas M32 for our audio processing. This is great, isn't it? Having faders, lots of I/O, buttons for everything, a maze of menus, a decent amount of inherent latency, the worlds least intuitive snapshot-solution, lots of room for error... What? You don't like using the M32 on a daily basis? Don't worry, there are others freaks like you out there, and solutions to your despair: Let me introduce you to the audio processor!
 
 A processor, unlike a live sound mixer, is a device that is meant to sit in a rack and process audio with very little outside interaction. Think of a very flexible mixer which you program once, plug all your cables into and later interact with through a very simple UI.
 
 <figure>
-<img src="/assets/image/group_a/tesira.jpg" align="center" />
+<img src="/assets/image/2019_12_02_stefanof_tesira.jpg" align="center" />
 <figcaption><strong> A typical audio processor </strong></figcaption>
 </figure>
 
@@ -38,7 +38,7 @@ A processor, unlike a live sound mixer, is a device that is meant to sit in a ra
 When you first set up a processor from scratch, it can take some time. One usually has to patch everything from the ground up, in a way that closely resembles working in Pure Data. The beauty of this is that you can get exactly the functionality you what you want from it! Once this is done, you store the settings and if you have done everything right, you hopefully won't have to see that menu for many months.
 
 <figure>
-<img src="/assets/image/group_a/tesira_software.png" align="center" />
+<img src="/assets/image/2019_12_02_stefanof_tesira_software.png" align="center" />
 <figcaption><strong>The software used to program a processor</strong></figcaption>
 </figure>
 
@@ -48,7 +48,7 @@ Instead of starting up the M32 every day, recalling the correct preset, adjustin
 That dream could become a reality through a simple touch panel, some clever programming and a GPIO-relay. In short; a GPIO is a way for digital devices to communicate with the outside world through analog on/off messages. This opens up a world of possibilities when it comes to automation, since you now can make your processor control a power strip powering the other equipment, trigger events on another device, maybe even talk to a Raspberry PI or a Bela?
 
 <figure>
-<img src="/assets/image/group_a/biamp_controller.png" align="center" />
+<img src="/assets/image/2019_12_02_stefanof_biamp_controller.png" align="center" />
 <figcaption><strong>No, it's not an ipod classic</strong></figcaption>
 </figure>
 
@@ -84,6 +84,6 @@ Maybe it's not very high-tech MCT, but putting up good old physical absorbents i
 
 Molton is extremely cheap, so is Rockwool and regular floor carpets at IKEA or the local flea market. This might be the easiest way to greatly improve our day to day experience of being in the portal. Further improvements could maybe involve some plants? An MCT cat? The possibilities are almost endless.
 <figure>
-<img src="/assets/image/group_a/cat.jpg" align="center" />
+<img src="/assets/image/2019_12_02_stefanof_cat.jpg" align="center" />
 <figcaption><strong>The MCT cats</strong></figcaption>
 </figure>

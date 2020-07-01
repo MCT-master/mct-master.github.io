@@ -4,7 +4,7 @@ title: 'Prototyping musical instruments'
 date: 2019-12-27 12:00:00 +0200
 categories: HCI
 author: Rayam, Gaute, Thibault, Ulrik
-image: /assets/image/group_a/recycle_orchestra_thumb.jpg
+image: /assets/image/2019_12_27_stefanof_recycle_orchestra_thumb.jpg
 excerpt: 'Prototyping musical instruments in the name of recycling - exploring Orchestrash from an HCI point of view'
 Keywords: HCI, Bela, Physical Computing, Orchestrash
 ---
@@ -22,7 +22,7 @@ The system presented here consists of a four instruments ensemble aiming to make
 Our interpretation of the theme was to a large extent related to the notion of reusing sounds, through techniques such as feedback, sampling and looping. We decided that we also should try to use recyclable materials as sound sources and controllers as much as possible, e.g. by recording sounds from a plastic water bottle and a cleaned-out yoghurt tray. Using objects that don’t traditionally belong in music performance turned out to foster different creative approaches during prototyping and while performing. Looking back, this could very well be related to Cook’s principle that "Everyday objects suggest amusing controllers" (Cook, 2017). Moving away from traditional controllers and sounds liberated us in the creative process, and also augmented the improvisational structure of the performance.
 
 <figure>
- <img src="/assets/image/group_a/drone_diagram.png" align="center" alt="Diagram of the drone instrument"/>
+ <img src="/assets/image/2019_12_27_stefanof_drone_diagram.png" align="center" alt="Diagram of the drone instrument"/>
  <figcaption>Component diagram of the drone instrument</figcaption>
 </figure>
 
@@ -31,7 +31,7 @@ Our interpretation of the theme was to a large extent related to the notion of r
 Considering that the telematic system we used when performing the music (networked musical performance over LOLA) had such a high impact on the musical expression, it is fair to say that the inherent properties of the telematic system became a big part of the performance in total. This builds on the idea of "musicking" elaborated in Small (1998), where it is not only the musical performance of the artists, but all the properties of the system that play into the action-perception loop and thereby plays a part in the entire "musicking" performance.
 
 <figure>
- <img src="/assets/image/group_a/lola_orchestrash.png" align="center" alt="Networked music performance over LOLA"/>
+ <img src="/assets/image/2019_12_27_stefanof_lola_orchestrash.png" align="center" alt="Networked music performance over LOLA"/>
  <figcaption>Networked music performance over LOLA</figcaption>
 </figure>
 

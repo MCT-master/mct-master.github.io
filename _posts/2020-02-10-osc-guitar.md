@@ -4,7 +4,7 @@ title: "Strumming through space and OSC"
 date: 2020-02-10 18:00:00 +0200
 categories: Audio-Programming
 author: Jackson Goode
-image: /assets/image/jacksong/oscguitar-logo.png
+image: /assets/image/2020_02_10_jacksong_oscguitar-logo.png
 excerpt: "A gesture-driven guitar built in Puredata and utilizing OSC"
 Keywords: Guitar, OSC, Puredata
 ---
@@ -14,7 +14,7 @@ Keywords: Guitar, OSC, Puredata
 My second project for the audio programming course was to accurately simulate a guitar strum in Puredata using the sensor information sent from a mobile device in motion. I wanted its interaction to be reflective of the direction, speed, and acoustic uniqueness of a real guitar strum. By uniqueness I mean the qualities of a strum that are not necessarily intended by the musician, like the intensity of each string strike and the delay between each individual string as the fingers (or pick) slide across the strings. These additions make both the sound and the experience of strumming quite realistic and, as implemented in this patch, benefit the realism of the virtual strum. However, a number of unforeseen difficulties made the feat of a seamless gesture-to-sound production quite a challenge. As I will discuss, one of the greatest barriers to responsiveness was network latency and the inability for native-local interfacing within both Puredata and sensor data on my mobile device.
 
 <figure>
-    <img src="/assets/image/jacksong/oscguitar-g-main.png" width="600" align="center" alt="Frontpage of Pd patch">
+    <img src="/assets/image/2020_02_10_jacksong_oscguitar-g-main.png" width="600" align="center" alt="Frontpage of Pd patch">
     <figcaption>Frontpage of Pd patch</figcaption>
 </figure>
 
@@ -23,21 +23,21 @@ My second project for the audio programming course was to accurately simulate a 
 I began the project with a detailed search for an accurate model of a string. While I could have built a simple string, the focus of my work was integrating the string model into a framework from which it could serve as a guitar. The string was built using a digital waveguide model by [Edgar J. Berdahl and Julius O. Smith](https://ccrma.stanford.edu/realsimple/waveguideintro/). Their model is quite good, both to the ear and to the standards of Stanford’s Department of Music.
 
 <figure>
-    <img src="/assets/image/jacksong/oscguitar-g-waveguide.png" width="600" align="center" alt="Waveguide model of a string">
+    <img src="/assets/image/2020_02_10_jacksong_oscguitar-g-waveguide.png" width="600" align="center" alt="Waveguide model of a string">
     <figcaption>Waveguide model of a string</figcaption>
 </figure>
 
 However, the model was not designed in a way to be used in polyphony. To correct their design, I renamed each array, send, and receive to be unique for each instance of the waveguide model using a prefix of “$0-”. This allowed each object to be instantiated with a unique identity and as a result, enabled the messages passed by each of the six strings to exist without overwriting potential shared arrays or variables. I also reformatted some of their code to better fit my purposes like adding inlets and outlets that would communicate with the main patch and the six strings in concert. I also cleaned and reorganized their layouts to make more functional sense.
 
 <figure>
-    <img src="/assets/image/jacksong/oscguitar-g-model.png" width="600" align="center" alt="The guitar model sub-patch">
+    <img src="/assets/image/2020_02_10_jacksong_oscguitar-g-model.png" width="600" align="center" alt="The guitar model sub-patch">
     <figcaption>The guitar model sub-patch</figcaption>
 </figure>
 
 Once the strings were in place, I assigned the fundamental frequency of each string of four chords to four messages and made a simple metronome to send a chord pattern to play the chords (for a non-interactive demo). To create a delay between each string I used the “pipe” object prior to reaching the waveguide model. The delays’ right-hand argument allows for an input number, whose sign (positive of negative) determines whether the string delays will cascade downwards or upwards. The expression also considers randomness by calling six variables that were assigned six random numbers included in the sub-patch “rnd-strings”.
 
 <figure>
-    <img src="/assets/image/jacksong/oscguitar-rnd-strings.png" width="600" allign="center" alt="Sub-patch for the randomizer">
+    <img src="/assets/image/2020_02_10_jacksong_oscguitar-rnd-strings.png" width="600" allign="center" alt="Sub-patch for the randomizer">
     <figcaption>Sub-patch for the randomizer</figcaption>
 </figure>
 
@@ -52,7 +52,7 @@ These random variables are created on every “strum-bang”, a global variable 
 The last step was into employ a method to send OSC messages from my smartphone’s accelerometer. I used the Android app [Sensors2OSC](https://github.com/SensorApps/Sensors2OSC) to send OSC messages from the gravity and linear acceleration sensors in the phone. The “mrpeach” external library facilitated receiving these messages into the patch. I chose the gravity sensor over the accelerometer sensor because the tilt values that correspond to rotating the top of the phone downwards and upwards were distinctly positive and negative as the top the crossed over the y-axis (horizon).
 
 <figure>
-    <img src="/assets/image/jacksong/oscguitar-g-osc.png" width="600" allign="center" alt="Receiving and manipulating OSC data from the phone">
+    <img src="/assets/image/2020_02_10_jacksong_oscguitar-g-osc.png" width="600" allign="center" alt="Receiving and manipulating OSC data from the phone">
     <figcaption>Receiving and manipulating OSC data from the phone</figcaption>
 </figure>
 
@@ -84,4 +84,3 @@ _Plucked String Digital Waveguide Model_. https://ccrma.stanford.edu/realsimple/
 _SensorApps/Sensors2OSC_. 2014. SensorApps, 2020. GitHub, https://github.com/SensorApps/Sensors2OSC.
 
 _Sensors2OSC - Sensors2_. https://sensors2.org/osc/. Accessed 7 Feb. 2020.
-
