@@ -57,9 +57,9 @@ I probably don’t need to explain this one, but it’s included for its simple 
 
 All of these patches were combined into an app using MobMuPlat! Now I can take the weather with me everywhere I go. It’s especially fun, and perverse, to listen to the rain on headphones, while walking home in the rain. Who does that? I do, apparently.
 
-<figure>
-    <iframe src="https://drive.google.com/file/d/1gWHBN_J_e-_OvU_9OisvmYefqB22yzOJ/preview" width="400" height="480" align="center" frameborder="0" allowfullscreen="true" alt="Mesmerising GUI"></iframe>
-    <figcaption>Mesmerising GUI</figcaption>
+<figure align="middle">
+   <img src="https://drive.google.com/uc?export=view&amp;id=1gWHBN_J_e-_OvU_9OisvmYefqB22yzOJ" alt="alternative text" title="title text" width="auto" height="480" />
+   <figcaption>Mesmerising GUI</figcaption>
 </figure>
 
 For all of these patches, I am deeply indebted to a series of online tutorials by Obiwannabe, who I believe to actually be Andy J Farnell, author of an excellent book on Pd sound synthesis (Farnell, 2010) . I also did a bit of reading in Tony Hillerson’s book, Programming Sound With Pure Data (Hillerson, 2014).

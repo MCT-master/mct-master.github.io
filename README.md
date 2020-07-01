@@ -57,7 +57,7 @@ All files that are uploaded here must be publicly accessible through their link 
 Example:
   ```
   <figure align="middle">
-     <img src="https://drive.google.com/uc?export=view&amp;id=G_DRIVE_FILENAME" alt="alternative text" title="title text" width="auto" height="auto" />
+     <img src="https://drive.google.com/uc?export=view&amp;id=G_DRIVE_FILENAME" alt="alternative text" title="title text" width="640" height="auto" />
      <figcaption align="middle">My Figure Caption</figcaption>
   </figure>
   ```
@@ -65,7 +65,7 @@ Example:
 * To embed a VIDEO with the HTML video element (use mp4 format):
   ```
   <figure align="middle">
-    <video height="100%" width="100%" controls>
+    <video width="640" height="auto" controls>
       <source src="https://docs.google.com/uc?export=download&id=G_DRIVE_FILENAME_ID" type='video/mp4'>
       Your browser does not support video tag.
     </video>
@@ -76,7 +76,7 @@ Example:
 * To embed a VIDEO with the HTML video element (for filer larger than 100MB):
   ```
   <figure align="middle">
-    <iframe src="https://drive.google.com/file/d/G_DRIVE_FILENAME_ID/preview" width="640" height="480" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    <iframe src="https://drive.google.com/file/d/G_DRIVE_FILENAME_ID/preview" width="640" height="auto" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
     <figcaption>My Video Caption</figcaption>
   </figure>
   ```

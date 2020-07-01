@@ -7,7 +7,7 @@ author: Aleksander, Rayam, Simon & Thibault
 image: /assets/image/rayam/MotionComposer_Interface-V02.png
 excerpt: "MotionComposer is a motion capture device that lets people make music with gestures. This is the presentation of our applied project, where we worked on building a new instrument for this device."
 Keywords: MCT, Applied Project, MotionComposer
---- 
+---
 
 ## Introduction
 
@@ -19,7 +19,7 @@ The [MotionComposer](http://motioncomposer.de/) is a device that lets users use 
     <img src="/assets/image/thibault/motion_composer.png" width="600px">
     <figcaption>MotionComposer 3.0</figcaption>
 </figure>
- 
+
 The hardware device, which we have not contributed to build at all, consists of an embedded computer running Linux, two HD cameras and a wirelessly connected android tablet for the user interface. On the latter, the user can switch between different playing modes. Our goal was to develop one of them.
 
 The MotionComposer analyses the video data coming from the cameras and detects the type of movements according to a “movement alphabet”. Depending on the motion input, a corresponding OSC message is sent to the Pure Data patches of the current mode. The MC has also an audio interface and can send sound to powerful speakers.
@@ -82,26 +82,16 @@ The parameters of the effects implementend had to be adjusted and re-scaled seve
 
 While researching movement-to-sound literature, we were inspired by the idea of making a virtual model and using it as a point of departure. This virtual model would be centered around specific body poses (a combination of various movement tracking data points) and correlate specific sound environments to said poses, as seen in the image below. Then, we would be able to reproduce the desired soundscapes by doing certain predetermined poses.
 
-<figure text-align="center">
-<iframe src="https://drive.google.com/file/d/1cwoTNPubBXgW2Mc6otyhgWNfr7LhQi88/preview"
-width="600"
-height="236.67"
-frameborder="0"
-scrolling="no">
-</iframe>
-<figcaption>Skogstad,Nymoen, de Quay, & Refsum, 2012, p.3</figcaption>
+<figure align="middle">
+   <img src="https://drive.google.com/uc?export=view&amp;id=1cwoTNPubBXgW2Mc6otyhgWNfr7LhQi88" awidth="auto" height="auto" />
+   <figcaption>Skogstad,Nymoen, de Quay, & Refsum, 2012, p.3</figcaption>
 </figure>
 
 This culminated in two Pure Data abstractions that could imitate 2 specific motion gestures performed over time, as seen in the image below. Practically, this meant that we could move one slider (representing time) and output independent data streams of both arms (horizontally and vertically), body position, head movement, and general height, correlating to the position of the given limbs at a given time.
 
-<figure text-align="center">
-<iframe src="https://drive.google.com/file/d/1Dwj9x7vpAWYwaPPAbjzAXJn-ERNoFgPP/preview"
-width="800"
-height="191"
-frameborder="0"
-scrolling="no">
-</iframe>
-<figcaption>Two gesture examples</figcaption>
+<figure align="middle">
+   <img src="https://drive.google.com/uc?export=view&amp;id=1Dwj9x7vpAWYwaPPAbjzAXJn-ERNoFgPP" awidth="auto" height="auto" />
+   <figcaption>Two gesture examples</figcaption>
 </figure>
 
 Using this mapping scheme to experiment with the synthesizer enabled us to make certain key development decisions early on, like limiting synthesis control parameters. We could then start collaborating with our external partner with a beta version of our sound engine that was already calibrated, to some degree, to deal with movement as its control parameters.
@@ -114,20 +104,16 @@ Our workflow from there was highly shaped by our digital means of communication.
 
 The Motion Composer consists of 3 modules; the tracking module(camera), the control module(brain), and the musical environments. These all make up a bidirectional communications system which is maintained and controlled by the hardware`s integrated Linux machine.
 
-<figure text-align="center">
-<iframe src="https://drive.google.com/file/d/1laHUMx2-Z_z4nXvHYzpoTtOvzSboDAyg/preview"
-width="588.5"
-height="218"
-frameborder="0"
-scrolling="no"></iframe>
-<figcaption>Movement alphabet</figcaption>
+<figure align="middle">
+   <img src="https://drive.google.com/uc?export=view&amp;id=1laHUMx2-Z_z4nXvHYzpoTtOvzSboDAyg" awidth="auto" height="auto" />
+   <figcaption>Movement alphabet</figcaption>
 </figure>
 
 For a musical environment to get movement data from the tracking module, and subsequently to produce sound from that data, it has to send and receive various OSC-messages back and forth between the control and tracking module using the systems designated syntax, as seen in the image above. Luckily, a multitude of Pure Data packages allows for quick and reliable OSC-routing so we were able to integrate this in a relatively short period of time.
 
 ## The GUI
 
-In the finishing phase, we invested in designing a GUI. It is a beta-prototype with minimalist aesthetics, made for improving the user experience and to create a better perspective of our product for the stakeholders. 
+In the finishing phase, we invested in designing a GUI. It is a beta-prototype with minimalist aesthetics, made for improving the user experience and to create a better perspective of our product for the stakeholders.
 
 <figure text-align="center">
     <img src="/assets/image/rayam/MotionComposer_Interface-V02.png"

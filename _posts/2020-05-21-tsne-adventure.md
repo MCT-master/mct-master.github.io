@@ -6,8 +6,8 @@ categories: Motion-Tracking
 author: Ulrik antoniussen Halmøy
 image: /assets/image/ulrikah/tsne_cover.jpg
 excerpt: "A system for interactive exploration of sound clusters with phone sensors"
-Keywords: MCT, motion tracking, machine learning, Max 
---- 
+Keywords: MCT, motion tracking, machine learning, Max
+---
 
 ## Idea
 
@@ -28,7 +28,7 @@ The Max patch controls the visual and auditory elements. It communicates with a 
 
 ## Method
 
-The initial plan for the interactive environment was to create a 1:1 room-scale virtual mirror of an actual room, e.g. a living room. By using a phone to trigger samples through measurements of the jerk (derivative of acceleration), the user would then be able to move around in the room and explore the sounds. With an optical tracking system, there would be no need for a phone to do this. Instead, one could use a suitable physical object, e.g. a drumstick, attach a reflective marker to it, and then use the jerk of that marker to determine a hit. 
+The initial plan for the interactive environment was to create a 1:1 room-scale virtual mirror of an actual room, e.g. a living room. By using a phone to trigger samples through measurements of the jerk (derivative of acceleration), the user would then be able to move around in the room and explore the sounds. With an optical tracking system, there would be no need for a phone to do this. Instead, one could use a suitable physical object, e.g. a drumstick, attach a reflective marker to it, and then use the jerk of that marker to determine a hit.
 
 Extracting position from the phone sensors (by double integration of the accelerometer values) turned out to be more difficult than expected. The complications were mainly related to noisy accelerometer values and corresponding drifting. After a couple of failed attempts to try to obtain a smooth experience by going through resources provided by the course professor, I decided to use the gyroscope in the phone to control the position instead. The way I ended up doing this was by mapping the pitch, yaw and roll to the velocity vector of a virtual *controller object*, inspired by [ball-in-a-maze puzzles](https://en.wikipedia.org/wiki/Ball-in-a-maze_puzzle). In the figure below, the orange object represents this controller object. The grey spheres are samples.
 
@@ -43,10 +43,9 @@ To determine which sample to trigger, I picked the sample with the lowest euclid
 
 To avoid that successive jerk values triggers the same sample too frequently, I also added a cooldown of 200 ms between each sample trigger.
 
-<figure>
-  <iframe src="https://drive.google.com/file/d/1Rr27mY5PxZa5s01Ib1_nuVA3ez9bAUIS/preview" height="340px" width="600px" frameborder="0">
-  </iframe>
-  <figcaption>Jerk movement</figcaption>
+<figure align="middle">
+   <img src="https://drive.google.com/uc?export=view&amp;id=1Rr27mY5PxZa5s01Ib1_nuVA3ez9bAUIS" width="auto" height="auto"/>
+   <figcaption>Jerk movement</figcaption>
 </figure>
 
 ## Reflections and future work
@@ -61,7 +60,7 @@ Due to the multifaceted nature of the project, the auditory output of the system
 
 **Clustering**
 
-To cluster the files, I used an implementation of the t-distributed Stochastic Neighbor Embedding algorithm (t-SNE) from [scikit-learn](https://scikit-learn.org/stable/modules/generated/sklearn.manifold.TSNE.html). t-SNE's strength is visualising high-dimensional data <sup>[1]</sup>. For this project, I extracted features based on root mean square value of the audio signal, mel-frequency cepstrum, spectral contrast and spectral centroid. 
+To cluster the files, I used an implementation of the t-distributed Stochastic Neighbor Embedding algorithm (t-SNE) from [scikit-learn](https://scikit-learn.org/stable/modules/generated/sklearn.manifold.TSNE.html). t-SNE's strength is visualising high-dimensional data <sup>[1]</sup>. For this project, I extracted features based on root mean square value of the audio signal, mel-frequency cepstrum, spectral contrast and spectral centroid.
 
 The end result, as seen in figure of the virtual model, does not contain many distinct clusters, which was a bit disappointing. Perhaps it was due to the relatively sparse feature extractors. Even though I experimented with a range of different perplexity values to get the best result (see figure below), I would like to try other methods of clustering in the future. One possibility that I thought of at the very end of the project was to choose a set of *exactly three* features, and to map the samples according to the mean values of those features, each representing an axis in the 3D space. In that way, the sample would be distributed linearly on the axes by some known feature extraction method. This could potentially make it more understandable for the user why the samples are placed where they are. Future work could also include looking into ways of letting the user change the feature extractors themselves.
 

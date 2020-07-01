@@ -35,7 +35,9 @@ For making the sonification, I decided to use the Max/MSP environment. Due to th
 
 From the recorded data, two data sets were available to use for the sonification. The first data set consists of all the x, y, z position data for each participant, which is 273 columns and 35601 rows of data.
 
-<iframe src="https://drive.google.com/file/d/1vtT1hC1Ckerw4z7TeIAE8M6-QY2hUP74/preview" width="640" height="480"></iframe>
+<figure align="middle">
+   <img src="https://drive.google.com/uc?export=view&amp;id=1vtT1hC1Ckerw4z7TeIAE8M6-QY2hUP74" width="auto" height="auto"/>
+</figure>
 
 The second data set is based on the demographic data of each participant and consists of quantitative and qualitative data. I like to mention the data variables that consist of the participant demographic data set. Which are the group each participant belongs( A, B, C, D, E, F, G, H, P), Participant number, Age, Sex, Height, Music listening hours per week, Music performing/production hours per week, Dance hours per week, Exercise hours per week. And some measurements were based on a Likert-Scale: Tiresome experience of the session (1 to 5), Experienced any motion (1 to 5), Experienced any motion during the music segment (1 to 5). Two other variables indicate if the participant had their eyes open/close or had locked knees/or not during the experiment.
 
@@ -56,37 +58,45 @@ Instead of directly mapping the x, y, position data, a new variable is defined w
 
 Figure 3.3 shows a part of the patch which calculates the change of the position (displacement). First, the displacement of position is calculated for each axis of data. In each moment, the previous position value is subtracted from the current position value and the absolute value is calculated. By using this value, the displacement can be derived for each plane (XY, YZ, XZ) by pairing the sums of individual position displacements for each x, y and z Axes. According to the results of the study by Jensenius et al. (2017), most motion is happening in the XY plane, and in the sonification, primarily the displacement of the XY plane is considered.
 
-<iframe src="https://drive.google.com/file/d/1aohUcrhjWsG7wPfxUM0yARAtQUuXBBZz/preview" width="640" height="480">
-</iframe>
-
+<figure align="middle">
+   <img src="https://drive.google.com/uc?export=view&amp;id=1aohUcrhjWsG7wPfxUM0yARAtQUuXBBZz" width="auto" height="auto"/>
+</figure>
 
 # 1 . Sonification of Individual Participant Data
 
 As presented in Figure 3.4, displacement position values in the XY plane or position values of the Z-Axis can be selected for the sonification. For mapping in the noise section, the total displacement of position in the XY plane or the position values from the Z-Axis can be mapped to the amplitude of the noise and to the cut-off frequency.
-<figure>
-    <iframe src="https://drive.google.com/file/d/1xvFtMTk9JoAdgBtTlEA6MhKAZvW5xpXP/preview" width="640" height="480">
-    </iframe>
-  <figcaption>Video demo:Sonification of Individual Participant Data</figcaption>
+
+<figure align="middle">
+<video height="100%" width="100%" controls>
+  <source src="https://docs.google.com/uc?export=download&id=1xvFtMTk9JoAdgBtTlEA6MhKAZvW5xpXP" type='video/mp4'>
+  Your browser does not support video tag.
+</video>
+<figcaption>Video demo:Sonification of Individual Participant Data</figcaption>
 </figure>
 
 # 2. Sonification of Group Average Position Data
 
 Figure 3.4 is an extract from the max patch that calculates average displacement values for each x, y, z Axes for two participant groups. However, this patch is only compatible with the 2012 standstill data and since the average values depend on the number of participants in the group, further customizations are necessary to use it with other standstill competition data sets. In the mapping, a similar approach to the individual participant mapping has being followed. The average position values are used to calculate the average displacement position values in the XY plane and mapped to control the noise amplitude and cut-off frequency or the Sine tone frequency and amplitude. Also, the average Z-axis values can be used to control the parameters of the noise section or the sine tone.
 
-<figure>
-    <iframe src="https://drive.google.com/file/d/1hQTCJw3Yapqzc2M3OA-5LzpASSQsmchS/preview" width="640" height="480">
-    </iframe>
-   <figcaption>Video demo:Sonification of Individual Participant Data</figcaption>
+<figure align="middle">
+<video height="100%" width="100%" controls>
+  <source src="https://docs.google.com/uc?export=download&id=1hQTCJw3Yapqzc2M3OA-5LzpASSQsmchS" type='video/mp4'>
+  Your browser does not support video tag.
+</video>
+<figcaption>Video demo:Sonification of Individual Participant Data</figcaption>
 </figure>
 
 # 3. Using Spatial Sound with Individual Position Data.
 
 The third approach of the sonification is to apply spatialization for the position data. The position values of x, y, z Axes represent a location in the three-dimensional space and these values are used to “sonify” the motion using spatial attributes of a sound. The spatialization approach is developed by using the ICTS10 ambisonics module for Max/MSP. It allows to simply input cartesian coordinates (X, Y, Z) or spherical coordinates (Azimuth, Elevation, and Distance) and render the sound output for a speaker system or headphones. In this patch, the position data is only controlling spatial parameters of a sine tone.
 
-<figure>
-    <iframe src="https://drive.google.com/file/d/1-qs3sRC4eqNxCAcG0iSB3VScT2wnG_Vn/preview" width="640" height="480">
-    </iframe>
-   <figcaption>Video demo:Using Spatial Sound with Individual Position Data</figcaption>
+
+<figure align="middle">
+<video height="100%" width="100%" controls>
+  <source src="https://docs.google.com/uc?export=download&id=1-qs3sRC4eqNxCAcG0iSB3VScT2wnG_Vn" type='video/mp4'>
+  Your browser does not support video tag.
+</video>
+<figcaption>Video demo:Using Spatial Sound with Individual Position Data</figcaption>
 </figure>
 
 ## Results
@@ -95,8 +105,11 @@ The third approach of the sonification is to apply spatialization for the positi
 
 First, I would mention the results for the mapping of white noise with data variables. The mapping of white noise to displacement position variable with a 100 Hz sample rate of data playback, produced a sound of rising and falling of the frequency filtering and the amplitude. These fluctuations were present for all three participants. These up and down movements of the sound can be distinguishable in three levels. First, a darker sound can be noticed with less volume which stays much stable with fewer fluctuations. These low fluctuations of the noise can probably explain by the stability of the standing still. Secondly, a much sharper rising and falling of the noise is noticeable for 5-15 seconds periods of time. The periodicity of these sounds is not sharply consistent. These sounds are shorter rises that last for about 2 seconds but clearly stands out from the much stable darker noise. These rising and falling of the noise can be related to the breathing patterns of the participants. Statistical evidence was found in previous standstill studies regarding similar periodic movements (Jensenius & Bjerkestrand, 2011). Thirdly, sudden quick bursts of the noise can be noticed, and they occur less frequently and not in any noticeable cycle. This type of sound may be occurring due to postural adjustments of the participants. As described in a study by Jensenius and Bjerkestrand (2011), some “spikes” that appear every 2-3 minutes were noticed in the analysis and these were assumed as postural re-adjustments.
 
-<figure>
-   <iframe src="https://drive.google.com/file/d/1wwF6w1uiyAbl1GEEH65wRipRvgTWbw1G/preview" width="640" height="80"></iframe>
+<figure align="middle">
+   <audio controls>
+     <source src="https://docs.google.com/uc?export=download&id=1wwF6w1uiyAbl1GEEH65wRipRvgTWbw1G" type="audio/mpeg" volume="1.0">
+     Your browser does not support audio tag.
+   </audio>
    <figcaption>Audio: displacement of position of Participant 1 mapped to white noise in 100Hz data playback rate </figcaption>
 </figure>
 
@@ -106,8 +119,11 @@ Moreover, an interesting phenomenon was noticed in the mapping of Z-Axis values.
 
 Let's listen to an audio sample.
 
-<figure>
-   <iframe src="https://drive.google.com/file/d/1jgHQxJ5A3S7nSafv_jrYbp6kvkKlNgX3/preview" width="640" height="80"></iframe>
+<figure align="middle">
+   <audio controls>
+     <source src="https://docs.google.com/uc?export=download&id=1jgHQxJ5A3S7nSafv_jrYbp6kvkKlNgX3" type="audio/mpeg" volume="1.0">
+     Your browser does not support audio tag.
+   </audio>
    <figcaption>Audio: Z-Axis values of Participant 1 mapped to Sine tone in 800Hz data playback rate </figcaption>
 </figure>
 

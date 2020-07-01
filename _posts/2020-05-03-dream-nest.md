@@ -45,19 +45,28 @@ We created a total of six original musical pieces of a duration exceeding 10 min
 
 Samples of these musical works can be listened to here:
 
-<figure>
-    <iframe src="https://drive.google.com/file/d/147RvgDU_VF3wKGiAywOIjXeQ-TZ7DHJc/preview" width="500px" height="60px" text-align="center" frameborder="0"></iframe>
-    <figcaption>God Natt - Paul</figcaption>
+<figure align="middle">
+   <audio controls>
+     <source src="https://docs.google.com/uc?export=download&id=147RvgDU_VF3wKGiAywOIjXeQ-TZ7DHJc" type="audio/mpeg" volume="1.0">
+     Your browser does not support audio tag.
+   </audio>
+   <figcaption>God Natt - Paul</figcaption>
 </figure>
 
-<figure>
-    <iframe src="https://drive.google.com/file/d/1MyxV7N94pueT34hJ65BeD3HNKYktVSdK/preview" width="500px" height="60px" text-align="center" frameborder="0"></iframe>
-    <figcaption>So Ro - Jackson</figcaption>
+<figure align="middle">
+   <audio controls>
+     <source src="https://docs.google.com/uc?export=download&id=1MyxV7N94pueT34hJ65BeD3HNKYktVSdK" type="audio/mpeg" volume="1.0">
+     Your browser does not support audio tag.
+   </audio>
+   <figcaption>So Ro - Jackson</figcaption>
 </figure>
 
-<figure>
-    <iframe src="https://drive.google.com/file/d/1e18IMUfAIosg5caqtUWqK3XX97JHXP3T/preview" width="500px" height="60px" text-align="center" frameborder="0"></iframe>
-    <figcaption>Sov Godt - Iggy</figcaption>
+<figure align="middle">
+   <audio controls>
+     <source src="https://docs.google.com/uc?export=download&id=1e18IMUfAIosg5caqtUWqK3XX97JHXP3T" type="audio/mpeg" volume="1.0">
+     Your browser does not support audio tag.
+   </audio>
+   <figcaption>Sov Godt - Iggy</figcaption>
 </figure>
 
 ### Our sound engine
@@ -82,10 +91,12 @@ The various sound sources are combined in a simple, mixer-like interface allowin
 
 A short demonstration of the app is here:
 
-<figure>
-    <iframe src="https://drive.google.com/file/d/1RQSaxzYciynBS0PKyzhC57O0ErnbJ_la/preview" height="340px" width="600px" frameborder="0">
-    </iframe>
-    <figcaption>Video of the MobMuPlat interface</figcaption>
+<figure align="middle">
+<video height="100%" width="100%" controls>
+  <source src="https://docs.google.com/uc?export=download&id=1RQSaxzYciynBS0PKyzhC57O0ErnbJ_la" type='video/mp4'>
+  Your browser does not support video tag.
+</video>
+<figcaption>Video of the MobMuPlat interface</figcaption>
 </figure>
 
 Our Pure Data code for the app [is here](https://drive.google.com/open?id=16snQbv1wQ5fd8B3dTthX6eqprnb7fOmt)
