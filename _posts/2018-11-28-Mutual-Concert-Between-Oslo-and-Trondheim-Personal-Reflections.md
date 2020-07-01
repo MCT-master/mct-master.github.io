@@ -10,7 +10,7 @@ excerpt: "The mutual concert between Oslo and Trondheim at the schools on Novemb
 ---
 
 <figure>
-<img src="https://github.com/MCT-master/mct-master.github.io/blob/master/assets/image/mct_concert_guy.jpg?raw=true?raw=true" alt="Setting up" width="70%" />
+<img src="/assets/image/mct_concert_guy.jpg" alt="Setting up" width="70%" />
 </figure>
 
 The mutual concert between Oslo and Trondheim at the schools on November 27th, and it’s successful end result represents the end of a long process which we were trained in the many aspects of playing together over the portal. We have learned about sound and acoustics, about amplification and mixing, video, audio, and network systems, cognition, perception, and last and not least, team work. I feel that the team worked very well and pulled through considering all the technical difficulties. In a way, I feel we all took part in a small historical event, where two groups of high-school students, in two separate locations, managed to play together.

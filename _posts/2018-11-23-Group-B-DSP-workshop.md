@@ -9,7 +9,7 @@ excerpt: "The 4 day DSP workshop introduced some basics of Digital Signal Proces
 ---
 
 <figure>
-<img src="https://github.com/MCT-master/mct-master.github.io/blob/master/assets/image/groupB/mariashane.jpg?raw=true" alt="csound" width="70%" />
+<img src="/assets/image/2018_11_23_stefanof_mariashane.jpg" alt="csound" width="70%" />
 </figure>
 
 ## Abstract

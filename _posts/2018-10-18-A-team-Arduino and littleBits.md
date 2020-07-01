@@ -19,7 +19,7 @@ Today we first unpacked a  Arduino microcontroller each, making circuits and con
 We also found out that you need java installed on your computer for Arduino to work, after one of us in Oslo struggled to get past a stream of red error messages on the first task. Good to know!  just in case you don't have it installed already.
 
 <figure>
-<img src="/assets/image/2018-10-18_stefanof_Ateam_Arduino.jpg?raw=true" alt="Arduino" align="middle" width="30%">
+<img src="/assets/image/2018-10-18_stefanof_Ateam_Arduino.jpg" alt="Arduino" align="middle" width="30%">
 <figcaption><strong>Arduino</strong></figcaption>
 </figure>
 
