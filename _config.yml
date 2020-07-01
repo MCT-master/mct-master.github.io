@@ -22,7 +22,7 @@ baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://mct-master.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: MCT_master
 github_username:  MCT-master
-google_analytics: 'UA-131306863-1'
+google_analytics: 'UA-29541937-2'
 # Comments
 comments:
   provider: disqus
