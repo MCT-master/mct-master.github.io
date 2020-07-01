@@ -4,7 +4,7 @@ title:  "The B Team: Mini-Hackathon"
 date:   2019-10-24 12:00:00 +0200
 categories: Physical-Computing
 author: Jackson Goode, Magda Futyma, Simon Sandvik, and Jarle Steinhovden
-image: /assets/image/b-team/bela_device.jpg
+image: /assets/image/2019_10_20_stefanof_bela_device.jpg
 excerpt: "For the MCT 4000 mini-hackathon in the physical computing module we tried to send sound at the speed of light."
 ---
 ## Sound at the Speed of Light
@@ -40,19 +40,19 @@ We thought that since the additive synthesis was largely complete (we were wrong
 
 The synthesizer was built using an additive synthesis using the harmonic series. The partials can be spread or condensed using a knob as well as the fundamental for the series. Four of harmonics were considered partials that had unique factors that were able to be manipulated. Factors that shift the frequency of these partials can be randomized with a click as well as the overall "color" of the sound - the basic principle of additive synthesis being the potential to reproduce "any" sound by manipulating the amplitude of a fundamental frequency's partials. In short, there were three knobs, adjusting, volume, fundamental frequency, and width of partials as well as three buttons that acted to initialize, as well as randomize some features.
 
-![Pd patch](/assets/image/b-team/jarle_patch.png)
+![Pd patch](/assets/image/2019_10_20_stefanof_jarle_patch.png)
 
 The light sensor configuration was being worked on in Trondheim, which would be able to scale the light being received from the phone screen into values that would be able to increase and decrease the volume of the synth. This was being worked on by Simon and Magda to fit the scaling of the sensor to the max/min brightness of the LED. Trondheim was also mirroring the setup we had built in Oslo. Coordination was a huge obsticle when it came to setting up four devices in parallel over two campuses.
 
 Here is a picture of the light sensor clamped by two alligator cables.
 
-<img src="/assets/image/b-team/light_sensor.jpg" width="50%" height="50%" align="center"/>
+<img src="/assets/image/2019_10_20_stefanof_light_sensor.jpg" width="50%" height="50%" align="center"/>
 
 In Oslo, we were working on mapping the knobs and buttons to work with the Pd patch as well as figuring out how to make an LED's brightness reflect the amplitude of the sound that we were outputting from the bela through our synth. We discovered that since LED's only have two states (on/off) we had to instead modify the frequency of the LED's pulses so that it was perceived as being more or less bright (see [pulse width modulation](https://en.wikipedia.org/wiki/Pulse-width_modulation)).
 
 Here's a photo of the config (minus the LED and light sensor)
 
-<img src="/assets/image/b-team/bela.jpg" width="50%" height="50%" align="center"/>
+<img src="/assets/image/2019_10_20_stefanof_bela.jpg" width="50%" height="50%" align="center"/>
 
 ## Running out of time :(
 
@@ -62,11 +62,11 @@ So, we resorted to playing with the synth through PureData from our laptops and 
 
 ### In Oslo
 
-![Oslo](/assets/image/b-team/oslo_physcomp.jpg)
+![Oslo](/assets/image/2019_10_20_stefanof_oslo_physcomp.jpg)
 
 ### In Trondheim
 
-![Trondheim](/assets/image/b-team/trond_physcomp.jpg)
+![Trondheim](/assets/image/2019_10_20_stefanof_trond_physcomp.jpg)
 
 And here is a recording from our performance in Oslo.
 

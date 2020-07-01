@@ -4,22 +4,22 @@ title: "Scenarios in the Trondheim Portal during the spring semester-2019"
 date: 2019-05-13 01:30:00 +0200
 categories: Portal
 author: Shreejay Shrestha
-image: /assets/image/cj/portaltog.jpg
+image: /assets/image/2019_05_13_stefanof_portaltog.jpg
 excerpt: "We have had numerous scenarios set up in the portal in the period of January-May 2019. Each of the scenarios are unique and therefore serve specific functions. This blog presents four of such scenarios with a bit of discussions on the advantages and challenges with the set ups."
 Keywords: Portal, Scenarios
 ---
 
 <figure>
-  <img src="/assets/image/cj/portaltog.jpg " width = "100%" align="center" />
+  <img src="/assets/image/2019_05_13_stefanof_portaltog.jpg " width = "100%" align="center" />
   <figcaption>Vår Portaltog i Trondheim</figcaption>
 </figure>
 
-### Introduction 
+### Introduction
 
 There are many blogs in <a href="https://mct-master.github.io/" target="_blank">**The blog of MCT**</a> explaining various technologies and audio set up that we have been exploring in the portal. However, only few of them have addressed the overall physical layout of the portal with technical equipment using various technologies to meet specific tasks, for example, <a href="https://mct-master.github.io/portal/2018/09/10/A-team-first-week.html" target="_blank">**A-team-First Week**</a>, <a href="https://mct-master.github.io/portal/2018/09/17/Group-B-setting-up-tico.html" target="_blank">**M.A.D.E - setting up Tico**</a> and <a href="https://mct-master.github.io/portal/2018/10/03/A-team-presentation.html" target="_blank">**Group A - Setting up for a joint group presentation**</a>. While completing one whole year of the **MCT Studies** and spending one semester in the new portal in Trondheim, we have had different scenarios in the portal for different events like lecture, seminar, conference meeting and so on. We also hosted a series of talks, workshops and started both running and streaming of the <a href="http://wonomute.no/" target="_blank">**WoNomute**</a> from the portal. This blog is an attempt to fill the gaps and documents how the portal in Trondheim has been used to facilitate different modes of communication in various events during the spring semester from January-May 2019, highlighting on the physical layout and technical solutions opted during those occasions.
 
 ### Logistics & Modes of Communication
-We have been working with three display screens for visual solutions in the portal in Trondheim. As shown in Layout 1 below, **Screen 1** is a unit combined with 4 separate screens (each of approx. 140cm x 79 cm) which links with each other and works as a single big screen (approx. 280cm x 157 cm). **Screen 2** is a 65-inch TV mounted on a mobile stand and **Screen 3** is a full length wall finished with special paints for making it a screen suitable for projectors. So far, the physical layouts of the portal have been created based upon the choice of these display units. 
+We have been working with three display screens for visual solutions in the portal in Trondheim. As shown in Layout 1 below, **Screen 1** is a unit combined with 4 separate screens (each of approx. 140cm x 79 cm) which links with each other and works as a single big screen (approx. 280cm x 157 cm). **Screen 2** is a 65-inch TV mounted on a mobile stand and **Screen 3** is a full length wall finished with special paints for making it a screen suitable for projectors. So far, the physical layouts of the portal have been created based upon the choice of these display units.
 
 Further, we have been using <a href="http://zoom.us/" target="_blank">**Zoom**</a> as a primary mode of communication between the two campuses in Trondheim and Oslo. Although it has a bit of issue with latency, it has been working quite well. Moreover, we have been having a stable and uninterrupted connection via zoom all through the semester. There is a dedicated computer which is only used to run the zoom in the portal. In addition to Zoom, we have been using <a href="https://lola.conts.it/" target="_blank">**LOLA**</a> to transmit the audio between the two campuses. It also has its own dedicated computer which is more powerful than the Zoom pc. But most of the times, we are using Zoom only for video conference while LOLA for the audio as the latter delivers a low latency high quality audio solution. However, we have used ZOOM for both audio and video solution on few occasions when LOLA did not work. Among other technologies, we have TICO and Polycom available for both audio and visual modes of communication. However, we never worked with TICO in this semester and Polycom was just used for some testing couple of times. Besides, for managing the audio signals we have been using the Midas 'm32' mixer. There are of course a lot of other equipment like different types of microphones, cables, cameras, switch boxes and so on and details regarding them have not been covered in this blog.
 
@@ -28,12 +28,12 @@ Further, we have been using <a href="http://zoom.us/" target="_blank">**Zoom**</
 #### Physical Layout
 
  <figure>
-  <img src="/assets/image/cj/meeting_v.jpg " width = "100%" align="center" />
+  <img src="/assets/image/2019_05_13_stefanof_meeting_v.jpg " width = "100%" align="center" />
   <figcaption>Layout-1: V-shaped lecture facing Screen 1</figcaption>
 </figure>
 
  <figure>
-  <img src="/assets/image/cj/lecture_v.jpg " width = "100%" align="center" />
+  <img src="/assets/image/2019_05_13_stefanof_lecture_v.jpg " width = "100%" align="center" />
   <figcaption>Layout-2: V-shaped lecture facing Screen 1 with frontal space for teacher</figcaption>
 </figure>
 
@@ -52,12 +52,12 @@ When it comes to screens, Screen-1 has been mostly used to display the presentat
 #### Physical Layout
 
  <figure>
-  <img src="/assets/image/cj/lecture_L.jpg " width = "100%" align="center" />
+  <img src="/assets/image/2019_05_13_stefanof_lecture_L.jpg " width = "100%" align="center" />
   <figcaption>Layout-3: L-shaped lecture facing Screen 1</figcaption>
 </figure>
 
 <figure>
-  <img src="/assets/image/cj/sonification_talks.jpg " width = "100%" align="center" />
+  <img src="/assets/image/2019_05_13_stefanof_sonification_talks.jpg " width = "100%" align="center" />
   <figcaption>Layout-4: L-shaped presentation facing Screen 1 with presenter in front</figcaption>
 </figure>
 
@@ -65,7 +65,7 @@ We had to try a new set up for hosting a series of talks from experts and proces
 
 #### Technical solutions, Advantage & Challenges
 
-The audio solution for both Layout-3 and Layout-4 is, more or less the same in comparison to previous scenarios. Similarly, the visual solution for Layout-3 and Layout-4 is also similar to that of Layout-1 and Layout-2 respectively. However, there is an advantage in Layout-4 for visual solution over the Layout-2 mainly because of the location of the Screen-1, Screen-2 and position of the presenter. Here the presenter can look at the Screen-2 and at the same time maintain an eye contact with the Oslo portal as the cam-2 is closer to the Screen-2. The presenter's position also makes it easy to communicate well with the Trondheim students and again the Trondheim students can also communicate well with the portal in Oslo as Screen-2 is just in front of them. However, the two campuses are still at around 60 degrees to the presenter. That means he/she can only focus on one campus at a time. In order to have an eye contact with both campuses at the same time, Layout-2 could be a promising solution with Oslo being projected on the Screen-3 and cam-2 being moved closer to the Screen-3. 
+The audio solution for both Layout-3 and Layout-4 is, more or less the same in comparison to previous scenarios. Similarly, the visual solution for Layout-3 and Layout-4 is also similar to that of Layout-1 and Layout-2 respectively. However, there is an advantage in Layout-4 for visual solution over the Layout-2 mainly because of the location of the Screen-1, Screen-2 and position of the presenter. Here the presenter can look at the Screen-2 and at the same time maintain an eye contact with the Oslo portal as the cam-2 is closer to the Screen-2. The presenter's position also makes it easy to communicate well with the Trondheim students and again the Trondheim students can also communicate well with the portal in Oslo as Screen-2 is just in front of them. However, the two campuses are still at around 60 degrees to the presenter. That means he/she can only focus on one campus at a time. In order to have an eye contact with both campuses at the same time, Layout-2 could be a promising solution with Oslo being projected on the Screen-3 and cam-2 being moved closer to the Screen-3.
 
 ###  Scenario-3: WoNoMute
 
@@ -74,7 +74,7 @@ The audio solution for both Layout-3 and Layout-4 is, more or less the same in c
 Although all the scenarios are different from one another, but most of them have only few dissimilarities. In my experience, the layout of WoNomute is quite similar to Layout-2. The only big difference is the V-shape is changed into a linear array of seating for the audience, cam-2 is located at far end corner close to Screen-3 and there is an additional camera, the cam-2. However, it is an open talk show where the number of audienceS taking part can go from 20-25 at each end. Perhaps, the portal in Oslo can house a bit more than that. But the most interesting part is, the talk show is streamed live online. It adds in some kicks to the crew members sometimes because we have seen many strange technical difficulties that make it challenging to do the job. Nonetheless, right from the beginning of the semester, we have been able to make a stable layout (Layout-5) for hosting the talks. It also involves a bit of physical works on removing all tables out and bringing in enough chairs and vice versa after the end of the talk.
 
  <figure>
-  <img src="/assets/image/cj/wonomute_talks.jpg " width = "100%" align="center" />
+  <img src="/assets/image/2019_05_13_stefanof_wonomute_talks.jpg " width = "100%" align="center" />
   <figcaption>Layout-5: Wonomute facing Screen 1</figcaption>
 </figure>
 
@@ -87,4 +87,3 @@ And regarding the challenge with getting the Oslo audience in both of the screen
 
 ### Acknowledgement
 We have been greatly successful in organizing and re-organizing different scenarios in the portal as per the requirement of the set ups. However, this would not have been possible without the help of our dedicated teachers and all of us 💪🏽 hard working students😜. Thus, I would like to take this opportunity to thank our teachers: Robin Støkert, Daniel Formo, Andreas Bergsland, Anna Xambo and Anders Tveit for their guidance and support in creating different audio-visual scenarios during the entire semester. I would also like to extend my heartfelt gratitude to all of my batchmates for being out there and working together in solving problems and issues in setting up the portal. Thank you all!
-

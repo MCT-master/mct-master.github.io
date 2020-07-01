@@ -4,7 +4,7 @@ title: 'Trippi BySykkel Sounds'
 date: 2019-12-15 23:00:00 +0200
 categories: Projects
 author: Eigil Aandahl, Elias S. Andersen, Karolina Jawad, Sam D. Roman
-image: /assets/image/Elias/Bicycle.png
+image: /assets/image/2019_12_15_stefanof_Bicycle.png
 excerpt: 'Portray city bike user data into a sonified, interactive display by making use of public space and public data.’'
 Keywords: Applied project, Sonification, Soundmap, City Bike, Urban Sharing
 ---
@@ -16,7 +16,7 @@ In the context of the MCT Applied Project 2, our group collaborated with the ext
 ## Division of Labour
 
 <figure>
-<img src="/assets/image/Elias/DivisionOfLabour.png" width = "100%" align="center" />
+<img src="/assets/image/2019_12_15_stefanof_DivisionOfLabour.png" width = "100%" align="center" />
 </figure>
 
 We were all working together on the development process however, we were able to recall each of our areas of expertise.
@@ -34,7 +34,7 @@ Sound maps appeared to be a good solution for combining sonification and visuals
 To what extent can the prototype play with patterns, commonalities and casualties that lie in the data? Can our model of soundmap/cartophonic model portray or even affect micro mobility?
 
 <figure>
-<img src="/assets/image/Elias/Inspiration.jpg" width = "100%" align="center" />
+<img src="/assets/image/2019_12_15_stefanof_Inspiration.jpg" width = "100%" align="center" />
 </figure>
 
 ## Sound Design

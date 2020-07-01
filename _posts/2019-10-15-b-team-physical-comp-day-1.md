@@ -4,7 +4,8 @@ title:  "The B Team: To Heck and Back"
 date:   2019-10-15 18:00:00 +0200
 categories: Physical-Computing
 author: Jackson Goode, Magda, Simon Sandvik, and Jarle Steinhovden
-image: /assets/image/b-team/lastday.webp
+image: /assets/image/2019_10_15_stefanof_lastday.webp
+
 excerpt: "Today we began our experiments with some lofi hardware, simple contact mics, speakers, batteries, and some crocodile cables to connect it all. We left in pieces."
 ---
 ## The B Team makes an attempt
@@ -12,7 +13,7 @@ excerpt: "Today we began our experiments with some lofi hardware, simple contact
 Today we began our experiments with some lofi hardware, simple contact mics, speakers, batteries, and some crocodile cables to connect it all. This class is focused on providing us with a basic understanding of how we would be able to create sound from analog materials in a workshop based enviroment. Below are some of the objects we recorded with an how we managed to do it. You may click on the header links to listen to the sounds we recorded from Freesound.org!
 
 ## In Trondheim
-For all the below in Trondheim, a jack cable was plugged to the speaker, and on the other end there was a contact mic conntected to an alligator cable. 
+For all the below in Trondheim, a jack cable was plugged to the speaker, and on the other end there was a contact mic conntected to an alligator cable.
 
 ### [Bottle elastic band](https://freesound.org/people/jacksongoode/sounds/488517/)
 - Contact mic was attached to the plastic bottle with a piece of tape
@@ -34,7 +35,7 @@ Simon kept the bottle with his knees, putting the elastic band on the top and pu
 - Problem: the mic wasn’t too stable on the roll because of its surface
 
 ### [Plastic box pressure](https://freesound.org/people/jacksongoode/sounds/488514/)
-- The contact mic was attached to the soft plastic box which was laying on the table 
+- The contact mic was attached to the soft plastic box which was laying on the table
 - The surface of the box was being touched quickly with different pressure
 - The sound was recorded with pocket Roland recorded put in front of the speaker
 
@@ -51,7 +52,7 @@ In Oslo, we did not have the amplifiers to really pull out delicate sounds from 
 ### [Completing a circuit with a knife](https://freesound.org/people/jacksongoode/sounds/488518/)
 - We passed a 9V battery through a metal knife and then connected the other end to a speaker
 - We then completed the circuit by running one alligator end along a metal knife
-- The frequent contacts that happened as the rough metal end of the alligator clip rubbed against the knife handle made for a rough, scratchy and distorted sound 
+- The frequent contacts that happened as the rough metal end of the alligator clip rubbed against the knife handle made for a rough, scratchy and distorted sound
 
 
 ### [Rubbing against fabric](https://freesound.org/people/jacksongoode/sounds/488519/)
