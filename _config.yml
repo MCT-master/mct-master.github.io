@@ -17,7 +17,7 @@
 title: The MCT Blog
 email: mct-info@imv.uio.no
 description: >- # this means to ignore newlines until "baseurl:"
-  This is the blog of the Music, Communication & Technology (MCT) joint Master's programme in between NTNU and UiO.
+  This is the blog of the Music, Communication & Technology (MCT) joint Master's programme between NTNU and UiO.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://mct-master.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: MCT_master
@@ -34,8 +34,13 @@ markdown: kramdown
 theme: minima
 plugins:
   - jekyll-feed
+  - jekyll-paginate
 
 show_excerpts: true
+
+paginate: 7
+
+paginate_path: "/blog/page:num/"
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list

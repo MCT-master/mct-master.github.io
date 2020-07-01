@@ -1,18 +1,24 @@
 ---
 layout: default
 ---
+<!-- Just some nice to have styles for the pager buttons -->
+<style>
+  ul.pager { text-align: center; list-style: none; }
+  ul.pager li {display: inline;border: 1px solid black; padding: 10px; margin: 5px;}
+</style>
 
 <div class="home">
-  <!-- {%- if page.title -%}
-    <h1 class="page-heading">{{ page.title }}</h1>
-  {%- endif -%} -->
 
-  <!-- {{ content }} -->
-  <h2 class="post-list-heading">The Latest</h2>
-  {%- if site.posts.size > 0 -%}
-    <!-- <h2 class="post-list-heading">{{ page.list_title | default: "Posts" }}</h2> -->
-    <ul class="post-list">
-      {%- for post in site.posts limit:10 -%}
+  <h1 class="page-heading">Latest</h1>
+
+  {{ content }}
+
+  <ul class="post-list">
+    <!--
+        Here is the main paginator logic called.
+        All calls to site.posts should be replaced by paginator.posts
+    -->
+    {% for post in paginator.posts %}
       <li>
         {%- if post.image -%}
         <img src="{{ post.image | prepend: site.baseurl }}" alt="{{ post.title }}" title="{{ post.title }}">
@@ -27,24 +33,32 @@ layout: default
         <!-- <span class="post-meta"><strong>{{category.name}}</strong></span> -->
         <!-- {%- endif -%} -->
         <!-- {%- endfor -%} -->
-        <h3>
-          <a class="post-link" href="{{ post.url | relative_url }}">
-            {{ post.title | escape }}
-          </a>
-        </h3>
-        {%- if site.show_excerpts -%}
-          {{ post.excerpt }}
-        {%- endif -%}
-        <h4>
-        <a href="{{ post.url | relative_url }}">
-          Read more
-        </a>
-        </h4>
-      </li>
-      {%- endfor -%}
-    </ul>
 
-    <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | relative_url }}">via RSS</a></p>
-  {%- endif -%}
+        <h2>
+          <a class="post-link" href="{{ post.url | relative_url }}">{{ post.title | escape }}</a>
+        </h2>
+      </li>
+    {% endfor %}
+  </ul>
+
+  <!--
+    Showing buttons to move to the next and to the previous list of posts (pager buttons).
+  -->
+  {% if paginator.total_pages > 1 %}
+  <ul class="pager">
+      {% if paginator.previous_page %}
+      <li class="previous">
+          <a href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}">&larr; Newer Posts</a>
+      </li>
+      {% endif %}
+      {% if paginator.next_page %}
+      <li class="next">
+          <a href="{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' }}">Older Posts &rarr;</a>
+      </li>
+      {% endif %}
+  </ul>
+  {% endif %}
+
+  <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | relative_url }}">via RSS</a></p>
 
 </div>
