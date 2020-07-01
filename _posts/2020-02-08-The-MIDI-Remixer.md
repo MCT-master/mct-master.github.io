@@ -50,9 +50,9 @@ The sequencer features the following functions:
 
 The polysynthesis of the application was inspired by a [Youtube Tutorial](https://www.youtube.com/watch?v=mvtN7de6Oko) on building simple FM-synthesis in Pure Data, as seen in the image below. I went for something very simple and melancholic due to the previously discussed purpose of the application. Therefore, I believe too much sound control and complexity in the synthesis could distract the user from the application main purpose.
 
-<figure text-align="center">
-<iframe src="https://drive.google.com/file/d/1_kCl5EBGmioHCc8DXBVhqIJNDoupxCEq/preview" width="640" height="400"></iframe>
-<figcaption>FM</figcaption>
+<figure align="middle">
+   <img src="https://drive.google.com/uc?export=view&amp;id=1_kCl5EBGmioHCc8DXBVhqIJNDoupxCEq" width="auto" height="auto" />
+   <figcaption align="middle">FM</figcaption>
 </figure>
 
 However, not all parameters all fixed. I implemented some OSC-control to effect something resembling a filter (modulation index) as well as the total reverb amount. The OSC-control messages come from TUIOpad, a smartphone application that sends X and Y parameters, among many, to the patch in realtime.

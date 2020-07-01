@@ -73,16 +73,24 @@ Example:
   </figure>
   ```
 
-  * To embed AUDIO with the HTML audio element (audio/mpeg format for mp3, or audio/wav for wave):
-    ```
-    <figure align="middle">
-      <audio controls>
-        <source src="https://docs.google.com/uc?export=download&id=G_DRIVE_FILENAME_ID" type="audio/mpeg" volume="1.0">
-        Your browser does not support audio tag.
-      </audio>
-      <figcaption align="middle">My Audio Caption</figcaption>
-    </figure>
-    ```
+* To embed a VIDEO with the HTML video element (for filer larger than 100MB):
+  ```
+  <figure align="middle">
+    <iframe src="https://drive.google.com/file/d/G_DRIVE_FILENAME_ID/preview" width="640" height="480" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    <figcaption>My Video Caption</figcaption>
+  </figure>
+  ```
+
+* To embed AUDIO with the HTML audio element (audio/mpeg format for mp3, or audio/wav for wave):
+  ```
+  <figure align="middle">
+    <audio controls>
+      <source src="https://docs.google.com/uc?export=download&id=G_DRIVE_FILENAME_ID" type="audio/mpeg" volume="1.0">
+      Your browser does not support audio tag.
+    </audio>
+    <figcaption align="middle">My Audio Caption</figcaption>
+  </figure>
+  ```
 
 More info on embedding videos are available [here](https://support.google.com/blogger/thread/1950766?hl=en).
 

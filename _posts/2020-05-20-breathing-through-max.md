@@ -68,7 +68,11 @@ After debugging the system for quite some time, I may not be able to provide the
 
 There are still some unanswered questions I have about more technical aspects of the system. The first being the latency contributed form formatting UDP messages in a Python node and then passing it on to Max. I was fine with this compromise considering the app’s considerable logging speed (100Hz) which enabled much of the noise to be averaged. Another question is one of compatibility: If I were to use another sensor app that was able to directly send OSC data, perhaps at a lower logging rate, would this dramatically affect the system’s ability to identify peaks and troughs? For future work, the system’s reception logic should allow general purpose OSC enabled apps to connect to the system in addition to SensorLog for better compatibility.
 
-<figure>
-    <iframe src="https://drive.google.com/file/d/1G64dQ5iub0O7MClNNkbH5ktVX5hHf0e8/preview" width="600px" height="502px" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen alt="A demo of the system"></iframe>
+
+<figure align="middle">
+<video height="100%" width="100%" controls>
+  <source src="https://docs.google.com/uc?export=download&id=1G64dQ5iub0O7MClNNkbH5ktVX5hHf0e8" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen alt="A demo of the system" type='video/mp4'>
+  Your browser does not support video tag.
+</video>
     <figcaption>A demo of the system using pre-recorded data</figcaption>
 </figure>

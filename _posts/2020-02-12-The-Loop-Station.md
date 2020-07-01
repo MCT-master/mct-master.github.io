@@ -7,7 +7,7 @@ author: Rayam Luna
 image: /assets/image/rayam/2020_02_11_rayaml_blog-cover-small.jpg
 excerpt: "This is an attempt to create a Loop Station with features that I wish I had in such a pedal / software."
 Keywords: Audio Programming, Pure Data, MCT4048, Loop, Playback, Record
---- 
+---
 
 ## [ Overview ]
 
@@ -15,14 +15,9 @@ When you switch from being the user of a product, to become the one who is build
 
 With four independent channels routed to integrated FX busses, such as pitch_shift and reverb, this Loop Station promisses to attend a lot of needs of artists that use loopers to jam in live performances or as tool in the creative process of composing.
 
-<p align="center">
-  <iframe
-     frameborder="0"
-     width="840"
-     height="530"
-     src="https://drive.google.com/file/d/1uA2-cSqUJZKz0q6C7xz_v4XxDX117IXC/preview">
-  </iframe>
-</p>
+<figure align="middle">
+   <img src="https://drive.google.com/uc?export=view&amp;id=1uA2-cSqUJZKz0q6C7xz_v4XxDX117IXC" width="auto" height="auto" />
+</figure>
 
 ## [ Features~ ]
 
@@ -38,20 +33,15 @@ The Loop Station is designer to be used for live performances, but also, as a to
 
 When implementing the features mentioned above, I started by the most important first: the loop record and playback functions. To create the overdub, a **bang** feeds a counter which goes through selections and bang triggers that pass the signal in the right order to calculate the time/size of each sample, record, stop recording and play it in a loop. This way is possible to start a recording tapping one key once, and if you tap again it stops interrupts the audio input that is sending to [tabwrite~ ]. Then the [timer ] is activated, so we can extract the exact duration of the sample recorded and send it to the array receiving the loops. A [line~ 10] was used to open/interrupt the signal without pops and clicks on the sound output.
 
-<p align="center">
-  <iframe
-     frameborder="0"
-     width="840"
-     height="480"
-     src="https://drive.google.com/file/d/12yCnNmtEd-CfSkXJF13r0ifS6X5tJXS0/preview">
-  </iframe>
-</p>
+<figure align="middle">
+   <img src="https://drive.google.com/uc?export=view&amp;id=12yCnNmtEd-CfSkXJF13r0ifS6X5tJXS0" width="auto" height="auto" />
+</figure>
 
 ## [ Drum Machine ]
 
 Play drums using your body or any other surface as the beat generator! When implementing the Drum Machine, my intention was to provide a creative way to generate beats in a Live Loop Performance, creating an expressive and spontaneous experience within the process of composing and improvising layers in a song. To make it happen, Pure Data has to detect an acoustic audio input distinguish it by frequency region and attack, and by these features, bang the assigned beat samples for each type of audio received.
 
-When designing this function, I did several tests using the objects **[bonk~ ]** and **[fiddle~ ]**, to see which one would be more accurate detecting and reading the audio input features and unpacking it into distinct data. This process is very useful to trigger sounds based on specific aspects of the acoustic sound produced. After testing different sound sources and initial arguments for each one of the objects mentioned, **[fiddle~ ]** proved to be more accurate to the task. It detects attacks and the amplitudes very well, and send the domain frequency and its partials unpacked in numbers. Which is very useful to trigger different beat samples based on the frequency range and attack of the specifc sounds produced by hi-hat, snare, and bass drum. 
+When designing this function, I did several tests using the objects **[bonk~ ]** and **[fiddle~ ]**, to see which one would be more accurate detecting and reading the audio input features and unpacking it into distinct data. This process is very useful to trigger sounds based on specific aspects of the acoustic sound produced. After testing different sound sources and initial arguments for each one of the objects mentioned, **[fiddle~ ]** proved to be more accurate to the task. It detects attacks and the amplitudes very well, and send the domain frequency and its partials unpacked in numbers. Which is very useful to trigger different beat samples based on the frequency range and attack of the specifc sounds produced by hi-hat, snare, and bass drum.
 
 It works cool, but it is still very unstable and needs a silent and controlled environment to avoid random frequency and attack detection. I am still developing this function, refining the arguments, specially the amplitude and attack, to filter the audio information in a way that makes it more controllable. "Audio is wild", as mentioned during the course. To get around this issue, while I am developing this function, I provided two modes for the Drum Machine function, one is the described above Body Drum, and the other is the Beat Pad, in which I assigned the beat samples to different midi notes, in a more common, but stable approach.
 
