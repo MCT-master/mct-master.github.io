@@ -4,6 +4,7 @@ title:  "The Sounds We Like"
 date:   2019-01-23 23:25:00 +0200
 categories: sonification
 author: Guy Sion
+image: /assets/image/2018_08_01_stefanof_mct-master-630.jpg
 excerpt: "For our first lesson in the Sonification and Sound Design course, we were asked to give a short presentation of a sonification or a sound design of choice. It was interesting to see the variety of examples among our classmates. Each of us brought a unique example and explained what is it about? why did they choose it? and how does it relate to our work at the MCT program?"
 
 ---
@@ -76,9 +77,6 @@ In 2011 Nissan was the first to introduce an artificial car sound for its electr
 
 ## Sam Roman - Examples of practical use of sonification
 Two examples of basic sonification, a heart rate monitor and a truck reversing, that are quite similar sonically but mean different things when are in different settings were presented by Sam.
-<p align="center">
-   <iframe width="560" height="315" src="https://www.youtube.com/embed/7gMxaZsfFkE" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-</p>
 <p align="center">
    <iframe width="560" height="315" src="https://www.youtube.com/embed/GVm8pFDxUjU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </p>

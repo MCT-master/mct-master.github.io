@@ -4,7 +4,7 @@ title: "The Magic Piano"
 date: 2019-02-22 15:30:00 +0200
 categories: audio-programming
 author: Jørgen Nygård Varpe, Ashane Silva, Guy Sion
-image: 
+image: https://drive.google.com/uc?export=view&amp;id=1SZC-3empqY8VX8JjaFi_Euq0VG_GiuIb
 excerpt: "During our second week learning about Audio programing and web Audio API we were divided into groups and had to come up with an idea for a final project. The main challenges were to find an idea that is doable within 4 days, to code collaboratively and to prepare for the presentation of our project. Guy had an Idea for building a piano keyboard that will help beginners play a simple melody and Ashane and Jørgen agreed to collaborate and join forces in creating 'The Magic Piano'."
 Keywords: Web Audio API, JavaScript, Tone.js, CSS, HTML, NexusUI, JSON, Piano, Education
 ---
@@ -31,13 +31,13 @@ Building the Magic Piano using web technologies has several advantages that fit 
 
 ## Developing the Magic Piano
 
-### MIDI Messages 
+### MIDI Messages
 
 As this project was to be developed using web technologies, we wanted to use some libraries to make the build process easier and faster. We decided to use <a href="https://nexus-js.github.io/ui/api/#Piano" target="_blank">NexusUI's</a> piano keyboard interface, and the framework Tone.js to generate sound. We knew we wanted to trigger sound using a MIDI-keyboard, and luckily for us, our teacher Anna Xambó had already provided us with a JavaScript code snippet which accepts MIDI-data. We could then create a function which handled this data, to be used for triggering a note of a melody. See the code snippet below.
 
     //if (navigator.requestMIDIAccess) {
       navigator.requestMIDIAccess({
-          sysex: false // this defaults to 'false' and we won't be covering sysex in this article. 
+          sysex: false // this defaults to 'false' and we won't be covering sysex in this article.
       }).then(onMIDISuccess, onMIDIFailure);
       } else {
       alert("No MIDI support in your browser.");
@@ -69,7 +69,7 @@ Before adding a function which would play through a melody with each piano keyst
 
 ### From MIDI to JSON
 
-As we were going to use the same melody for playback as well as for the user interaction, we first came up with an idea to play through a MIDI-file. It ended up being challenging to get JavaScript to handle MIDI-data. We tried to implement a library called <a href="https://www.npmjs.com/package/midi-player-js" target="_blank">MIDIPlayerJS</a> to get it to work, but the library itself seemed to have some fault, preventing it from working. 
+As we were going to use the same melody for playback as well as for the user interaction, we first came up with an idea to play through a MIDI-file. It ended up being challenging to get JavaScript to handle MIDI-data. We tried to implement a library called <a href="https://www.npmjs.com/package/midi-player-js" target="_blank">MIDIPlayerJS</a> to get it to work, but the library itself seemed to have some fault, preventing it from working.
 
 As <a href="https://www.w3schools.com/whatis/whatis_json.asp" target="_blank">JSON</a> (JavaScript Object Notation) is a file format used for storing and transporting text data, and we knew it was easy to handle for JavaScript, we started looking for ways to convert MIDI-files to JSON-files. It didn’t take long before we found an easy way to convert, using a website called <a href="https://www.visipiano.com/midi-to-json-converter/" target="_blank">Visipiano</a>. Using Ableton, Guy created the MIDI files for the two songs we were about to use (ABCD and Alle Fugler). The only thing we had to do, was to drag it into this website, and then download it as a JSON-file, ready for implementation.
 
@@ -198,7 +198,7 @@ As you can see below, some changes had to be made to make the playback-function 
     Tone.Transport.bpm.value = 120;
 
     function play(time){
-        synth.triggerAttackRelease(noteNames[currentNoteIndex2], noteDurations[currentNoteIndex2], time); 
+        synth.triggerAttackRelease(noteNames[currentNoteIndex2], noteDurations[currentNoteIndex2], time);
         currentNoteIndex2 = (currentNoteIndex2 + 1) % noteNames.length;
         if(currentNoteIndex2 == 0){                                         //This is for making it possible to press play after song is finished, not having to press "stop" first
             Tone.Transport.stop();

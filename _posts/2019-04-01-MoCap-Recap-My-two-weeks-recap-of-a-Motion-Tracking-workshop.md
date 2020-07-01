@@ -4,7 +4,7 @@ title: MoCap Recap - Two weeks recap of a Motion Tracking workshop
 date: 2019-04-01 21:45:00 +0200
 categories: motion-tracking
 author: Guy Sion, Sam Roman, Elias Anderson
-image:
+image: https://drive.google.com/uc?export=view&amp;id=14y2hMf6U-iRUfkCX7dmSJog8iFwvUYhR
 excerpt: "During weeks 10-11 we attended the Music related motion tracking course (MCT4043) as part of the MCT program.
 The week started with the installation of the OptiTrack system in Oslo, placement of cameras, connecting wires to
 hubs and software installation and setup. we got familiar with the Motive:Body software and was able to run
