@@ -7,10 +7,10 @@
   </form>
 </div>
 
-<script type="text/javascript" src="{{ "fetch.js" | relative_url }}"></script>
+<script type="text/javascript" src="{{ "utils/fetch.js" | relative_url }}"></script>
 
 <script type="text/javascript">
-  const endpoint = '{{ "search.json" | relative_url }}';
+  const endpoint = '{{ "utils/search.json" | relative_url }}';
   const pages = [];
 
   fetch(endpoint)
