@@ -33,10 +33,19 @@ layout: default
         <!-- <span class="post-meta"><strong>{{category.name}}</strong></span> -->
         <!-- {%- endif -%} -->
         <!-- {%- endfor -%} -->
-
-        <h2>
-          <a class="post-link" href="{{ post.url | relative_url }}">{{ post.title | escape }}</a>
-        </h2>
+        <h3>
+          <a class="post-link" href="{{ post.url | relative_url }}">
+            {{ post.title | escape }}
+          </a>
+        </h3>
+        {%- if site.show_excerpts -%}
+          {{ post.excerpt }}
+        {%- endif -%}
+        <h4>
+        <a href="{{ post.url | relative_url }}">
+          Read more
+        </a>
+        </h4>
       </li>
     {% endfor %}
   </ul>
