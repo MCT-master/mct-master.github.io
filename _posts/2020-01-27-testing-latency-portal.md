@@ -4,7 +4,7 @@ title: "Testing Latency in the Portal"
 date: 2020-01-27 12:00:00 +0200
 categories: portal
 author: Class of 2021
-image: /assets/image/portal/latency.jpg
+image: /assets/image/2020_01_27_aleksati_latency.jpg
 excerpt: "We 'officially' test some the latency in the Oslo and Trondheim Portal"
 Keywords: Latency, Portal, Sound
 ---
@@ -13,7 +13,7 @@ Keywords: Latency, Portal, Sound
 For the internal latency tests, we used the [Audacity tutorial](https://manual.audacityteam.org/man/latency_test.html) but keeping the distance from the mics to speakers the same. The basic idea is that we opened an instance of Audacity and generated a click-track to send through the speakers which was then recorded by the mics and received into Audacity as another track. We then measured the average difference in time between these two tracks.
 
 <figure text-align="center">
-    <img src="/assets/image/portal/latencycorrection.png" width="75%">
+    <img src="/assets/image/2020_01_27_aleksati_latencycorrection.png" width="75%">
     <figcaption>Measuring latency in Audacity</figcaption>
 </figure>
 
@@ -26,7 +26,7 @@ In Oslo, it was fairly easy to install Audacity on the LOLA machine and properly
 As Audacity doesn’t accept Asio as audio driver, very few audio device manipulations are possible. We discovered that the audio is routed to the Analog 1/2 channel in Oslo, while in Trondheim the sound is coming from ADAT 1/2. Without Asio, it was impossible to choose the latter as audio input in Audacity. For that reason, we had to download and use Reaper in Trondheim. But the latency testing process was the same. We obtained a latency of 25 ms.
 
 <figure text-align="center">
-    <img src="/assets/image/portal/totalmix.png" width="50%">
+    <img src="/assets/image/2020_01_27_aleksati_totalmix.png" width="50%">
     <figcaption>Differences in the TotalMix</figcaption>
 </figure>
 
@@ -54,8 +54,8 @@ The constants that we used to measure the end to end latency:
 | Oslo receiving (AVG)      | 23.5      | 32.3                               | 33.2                    |
 
 
-As can be seen in the table above, the total end to end latency ranges from 32.8 ms - 52.5 ms, depending on the local configuration. 
+As can be seen in the table above, the total end to end latency ranges from 32.8 ms - 52.5 ms, depending on the local configuration.
 
 Regarding the other data measurements (jitter, packet loss, video resolution etc.), we noticed that latency varied the least. It seems like Zoom’s algorithms prioritize maintaining a constant low latency over e.g. good video resolution.
 
-One surprising result that came up during these measurements were the acoustic latencies from the speaker/listener to microphone/loudspeakers, respectively. The distance from the speakers to the audience in Trondheim is approximately equal to half of latency of sending that same audio between the two cities. While our minds have been focused on optimizing network latency, it suddenly became apparent that there are obvious acoustic latencies that could be optimized as well. The long distance from loudspeaker to ear in Trondheim can be improved by sending the incoming Lola audio to some loudspeakers that are closer to our ears (around 1.5 meters), which would reduce the end to end latency for the audience in Trondheim by close to 12 ms, from the calculation (5.5 - 1.5)/340 * 1000 = 11.76 ms. 
+One surprising result that came up during these measurements were the acoustic latencies from the speaker/listener to microphone/loudspeakers, respectively. The distance from the speakers to the audience in Trondheim is approximately equal to half of latency of sending that same audio between the two cities. While our minds have been focused on optimizing network latency, it suddenly became apparent that there are obvious acoustic latencies that could be optimized as well. The long distance from loudspeaker to ear in Trondheim can be improved by sending the incoming Lola audio to some loudspeakers that are closer to our ears (around 1.5 meters), which would reduce the end to end latency for the audience in Trondheim by close to 12 ms, from the calculation (5.5 - 1.5)/340 * 1000 = 11.76 ms.

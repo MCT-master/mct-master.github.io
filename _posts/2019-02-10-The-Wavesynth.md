@@ -22,12 +22,12 @@ During class we went through the basics of HTML, javaScript and the Web Audio AP
 ### The keyboard
 
 <figure>
-  <img src="/assets/image/varpe/keyboard.jpg" alt="synth piano keys" width="50%" align="middle"/>
+  <img src="/assets/image/2019_02_10_varpe_keyboard.jpg" alt="synth piano keys" width="50%" align="middle"/>
   <figcaption><strong>Synth piano keys</strong></figcaption>
 </figure>
 
 <figure>
-  <img src="/assets/image/varpe/tast.PNG" alt="computer keyboard" width="50%" align="middle"/>
+  <img src="/assets/image/2019_02_10_varpe_tast.PNG" alt="computer keyboard" width="50%" align="middle"/>
   <figcaption><strong>Computer keyboard</strong></figcaption>
 </figure>
 
@@ -40,7 +40,7 @@ The piano keys are created using HTML5 Canvas, a way of creating graphics on the
 After a day without making any sounds, only working with on making the keyboard and the key triggering logic, I felt I had to start producing sounds. Day 2 was on, and I wanted the synthesizer to be polyphonic. I wrote, tested, edited, tested, looked for examples, copied examples, edited, tested, and so on. It did not work, and stress came along...
 
 <figure>
-  <img src="/assets/image/varpe/codeStress.jpg" alt="Stressed out by code" width="50%" align="middle"/>
+  <img src="/assets/image/2019_02_10_varpe_codeStress.jpg" alt="Stressed out by code" width="50%" align="middle"/>
   <figcaption></figcaption>
 </figure>
 
@@ -67,7 +67,7 @@ Not being so happy with the result, I decided to use some of my weekend on clean
 I ended up with three effects. A lowpass-filter with adjustable cut-off, a delay with adjustable delay time, and a tremolo effect with adjustable tremolo speed. The user can activate and deactivate these effects with a corresponding button and use sliders to adjust the effects.
 
 <figure>
-  <img src="/assets/image/varpe/dropdown.PNG" alt="The Wavesynth" width="50%" align="middle"/>
+  <img src="/assets/image/2019_02_10_varpe_dropdown.PNG" alt="The Wavesynth" width="50%" align="middle"/>
   <figcaption><strong>The Wavesynth</strong></figcaption>
 </figure>
 

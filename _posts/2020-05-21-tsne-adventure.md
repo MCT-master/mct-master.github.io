@@ -4,7 +4,7 @@ title: a t-SNE adventure
 date: 2020-05-21 00:00:10 +0200
 categories: motion-tracking
 author: Ulrik antoniussen Halmøy
-image: /assets/image/ulrikah/tsne_cover.jpg
+image: /assets/image/2020_05_21_ulrikah_tsne_cover.jpg
 excerpt: "A system for interactive exploration of sound clusters with phone sensors"
 Keywords: MCT, motion tracking, machine learning, Max
 ---
@@ -33,7 +33,7 @@ The initial plan for the interactive environment was to create a 1:1 room-scale 
 Extracting position from the phone sensors (by double integration of the accelerometer values) turned out to be more difficult than expected. The complications were mainly related to noisy accelerometer values and corresponding drifting. After a couple of failed attempts to try to obtain a smooth experience by going through resources provided by the course professor, I decided to use the gyroscope in the phone to control the position instead. The way I ended up doing this was by mapping the pitch, yaw and roll to the velocity vector of a virtual *controller object*, inspired by [ball-in-a-maze puzzles](https://en.wikipedia.org/wiki/Ball-in-a-maze_puzzle). In the figure below, the orange object represents this controller object. The grey spheres are samples.
 
 <figure>
-    <img src="/assets/image/ulrikah/tsne_cover.jpg" width="70%" align="center" />
+    <img src="/assets/image/2020_05_21_ulrikah_tsne_cover.jpg" width="70%" align="center" />
     <figcaption>Virtual model with the controller in the middle</figcaption>
 </figure>
 
@@ -65,7 +65,7 @@ To cluster the files, I used an implementation of the t-distributed Stochastic N
 The end result, as seen in figure of the virtual model, does not contain many distinct clusters, which was a bit disappointing. Perhaps it was due to the relatively sparse feature extractors. Even though I experimented with a range of different perplexity values to get the best result (see figure below), I would like to try other methods of clustering in the future. One possibility that I thought of at the very end of the project was to choose a set of *exactly three* features, and to map the samples according to the mean values of those features, each representing an axis in the 3D space. In that way, the sample would be distributed linearly on the axes by some known feature extraction method. This could potentially make it more understandable for the user why the samples are placed where they are. Future work could also include looking into ways of letting the user change the feature extractors themselves.
 
 <figure>
-    <img src="/assets/image/ulrikah/tsne_perplexity.png" width="70%" align="center" />
+    <img src="/assets/image/2020_05_21_ulrikah_tsne_perplexity.png" width="70%" align="center" />
     <figcaption>Perplexity values [5, 10, 20]</figcaption>
 </figure>
 

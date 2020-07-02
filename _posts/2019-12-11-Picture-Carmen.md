@@ -4,7 +4,7 @@ title: 'Picture Carmen'
 date: 2019-12-11 11:00:00 +0200
 categories: applied-project
 author: Guy Sion, Espen Wik, Sepehr Haghighi
-image: /assets/image/picture-carmen/bixet-carmen-opera.jpg
+image: /assets/image/2019_12_11_aleksati_bixet_carmen_opera.jpg
 excerpt: 'Promotional video for a new chamber production of the Opera ‘Carmen’'
 Keywords: Applied project, Opera, Video, Promotion, LoLa, Portal
 ---
@@ -42,7 +42,7 @@ Espen and Guy prepared the portal to record the violinist and two guitarists. Af
 ### In Trondheim
 
 <figure>
-<img src="/assets/image/picture-carmen/trondheim.jpg" width = "100%" align="center" />
+<img src="/assets/image/2019_12_11_aleksati_trondheim.jpg" width = "100%" align="center" />
 </figure>
 
 Sepehr prepared the portal for the audio recording of the singer as well as the video broadcasting of the singer over zoom. He monitored the Ableton session recording from Oslo via shared screen and troubleshooting all audio issues that came up during the recording session.
@@ -50,14 +50,14 @@ Sepehr prepared the portal for the audio recording of the singer as well as the 
 ## The Audio Recording
 
 <figure>
-<img src="/assets/image/picture-carmen/musicians1.jpg" width = "100%" align="center" />
+<img src="/assets/image/2019_12_11_aleksati_musicians1.jpg" width = "100%" align="center" />
 </figure>
 
 The recording of the audio took place before the video filming. Since the lead singer was based in Trondheim we planned a test-recording with “Carmen” placed in Trondheim and the musicians in Oslo, using LOLA. The musicians had to be placed in a way so that they could observe each other efficiently on the screen, however, the visual latency did not allow visual cues. In regards to the space limitations of the portal in Oslo, we did not have many options available for the tracking. We could not find an ideal place for the instruments to have a stereo recording. Therefore close-miking multichannel recording was the best choice - rather than different stereo techniques that are usual in recording chamber music. Also, considering the possibility of post-production that was the best choice possible. All microphones used in the recording were AKG C414. We monitored the sound and chose the placements in regards to that.
 We recorded three takes of each of the three songs we agreed on with the musicians.
 
 <figure>
-<img src="/assets/image/picture-carmen/ableton.jpg" width = "100%" align="center" />
+<img src="/assets/image/2019_12_11_aleksati_ableton.jpg" width = "100%" align="center" />
 </figure>
 
 ### Routing
@@ -72,7 +72,7 @@ As a backup, a laptop was connected to the mixer, using it as an interface. So i
 Following you can find a diagram of the routing:
 
 <figure>
-<img src="/assets/image/picture-carmen/routing.jpg" width = "100%" align="center" />
+<img src="/assets/image/2019_12_11_aleksati_routing.jpg" width = "100%" align="center" />
 </figure>
 
 Later on, the audio files were shared over google drive and Sepehr prepared a rough mix of the chosen takes to be sent to the musicians. Once we agreed with the musicians on the specific musical segments that should be featured in the video. After receiving additional feedback from the musicians (mix, reverb, panning, etc.), the final mixing and mastering were done.
@@ -91,7 +91,7 @@ Regarding the main total shot, there were two basic challenges: First balancing 
 ### Editing
 
 <figure>
-<img src="/assets/image/picture-carmen/editing.jpg" width = "100%" align="center" />
+<img src="/assets/image/2019_12_11_aleksati_editing.jpg" width = "100%" align="center" />
 </figure>
 
 The overall challenge, as no surprise, was synchronization - in all parts. Getting all the footage into sync - or at least to look as if it was in sync.

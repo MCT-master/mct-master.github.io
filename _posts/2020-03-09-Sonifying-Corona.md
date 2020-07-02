@@ -4,10 +4,10 @@ title: Sonifying The Coronavirus Pandemic
 date: 2020-03-09 16:30:00 +0200
 categories: sonification
 author: Rayam Soeiro, Paul Koenig, Simon Sandvik, Donho Kwak
-image: /assets/image/PK/CoronavirusPreview.png
+image: /assets/image/2020_03_09_aleksati_CoronavirusPreview.png
 excerpt: Finding a voice for difficult data
 Keywords: Coronavirus, COVID-19, Sonification
---- 
+---
 
 ## Introduction
 
@@ -19,12 +19,12 @@ After initial discussions, we developed a game plan to create our sonification u
 2. Total Recovered
 3. Total Fatalities
 
-Our initial idea was to create a worldwide “orchestra” of sounds by superimposing the layout of a traditional symphony orchestra over a map of the world. By rotating the symphonic layout 90 degrees counter-clockwise, we centered the strings over China with the rest of the orchestra fanning out in a westward direction (see fig.1). We quickly realized that it would be better to assign instruments by general region rather than country, because with over 80 countries reporting at the time of this writing, we would not only quickly run out of instruments, but also run the risk of creating sonic soup out of the data. 
+Our initial idea was to create a worldwide “orchestra” of sounds by superimposing the layout of a traditional symphony orchestra over a map of the world. By rotating the symphonic layout 90 degrees counter-clockwise, we centered the strings over China with the rest of the orchestra fanning out in a westward direction (see fig.1). We quickly realized that it would be better to assign instruments by general region rather than country, because with over 80 countries reporting at the time of this writing, we would not only quickly run out of instruments, but also run the risk of creating sonic soup out of the data.
 
 Figure 1 shows our initial thinking on how to approach the instrumentation by region.
 
 <figure>
-    <img src="/assets/image/PK/Instrumentation_Map.png" width="640" height="340">
+    <img src="/assets/image/2020_03_09_aleksati_Instrumentation_Map.png" width="640" height="340">
     <figcaption>Fig 1 Initial Instrument Assignments By Region</figcaption>
 </figure>
 
@@ -45,7 +45,7 @@ Rayam, Paul, and Dongho on the Oslo side collaborated on implementing the sonifi
 Every reporting country’s coordinates are compared with these set numbers to determine which region they belonged in. Using the Pythagorean theorem (a2+b2=c2) we triangulated the location in comparison to the predetermined set points, and then sent each data string to one of eight channels assigned to each one of the selected regions.
 
 <figure>
-    <img src="/assets/image/PK/Instrumentation_By_Region.png" width="640" height="180">
+    <img src="/assets/image/2020_03_09_aleksati_Instrumentation_By_Region.png" width="640" height="180">
     <figcaption>Fig. 2 Final Orchestral Layout</figcaption>
 </figure>
 
@@ -67,7 +67,7 @@ There was a huge amount of data to work with, and we needed to narrow our focus 
 Each day’s worth of data is allotted 3000ms of sonic space to unfold. Each region’s data is delayed slightly from the prior region to allow the data sonic space to be better understood by the listener. See fig. 3.
 
 <figure>
-    <img src="/assets/image/PK/Delay_Onset.png" width="398" height="304">
+    <img src="/assets/image/2020_03_09_aleksati_Delay_Onset.png" width="398" height="304">
     <figcaption>Fig. 3 Delay Onset By Region</figcaption>
 </figure>
 

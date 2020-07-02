@@ -4,14 +4,14 @@ title: "The Sound of Traffic - Sonic Vehicle Pathelormeter"
 date: 2019-04-19 17:00:00 +0200
 categories: sonification
 author: Ashane Silva, Karolina Jawad, Shreejay Shrestha
-image: /assets/image/sonification/blog_header.JPG
+image: /assets/image/2019_04_19_aleksati_blog_header.JPG
 excerpt: "Is it possible to transmit complex data-sets within an instance of a sound, so the content gets revealed? As communication and dissemination of information in our modern digital world has been highly dominated by visual aspects it led to the fact that the modality of sound got neglected. In order to test the hypothesis, the project presents a model for sonification of temporal-spatial traffic data, based on principle of Parametric Mapping Sonification (PMSon) technique."
 Keywords: Sonification
 
 ---
 
 <figure>
-<img src="/assets/image/sonification/blog_header.JPG" width = "100%" align="center" />
+<img src="/assets/image/2019_04_19_aleksati_blog_header.JPG" width = "100%" align="center" />
   <figcaption>Figure1: The Sound of Traffic</figcaption>
 </figure>
 
@@ -24,7 +24,7 @@ and so on. Our idea was quite like the latter approach. Hence, we decided to go 
 
 ## Data set
 <figure>
-<img src="/assets/image/sonification/map_3region.jpg" width = "90%" align="center" />
+<img src="/assets/image/2019_04_19_aleksati_map_3region.jpg" width = "90%" align="center" />
   <figcaption>Figure 2: Method for Selecting Data</figcaption>
 </figure>
 

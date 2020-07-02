@@ -4,7 +4,7 @@ title: "[ pd Loop Station ]"
 date: 2020-02-13 20:00:00 +0200
 categories: audio-programming
 author: Rayam Luna
-image: /assets/image/rayam/2020_02_11_rayaml_blog-cover-small.jpg
+image: /assets/image/2020_02_11_rayaml_blog-cover-small.jpg
 excerpt: "This is an attempt to create a Loop Station with features that I wish I had in such a pedal / software."
 Keywords: Audio Programming, Pure Data, MCT4048, Loop, Playback, Record
 ---

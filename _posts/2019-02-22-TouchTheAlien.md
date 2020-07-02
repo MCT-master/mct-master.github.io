@@ -5,7 +5,7 @@ title: "Touch the Alien"
 date: 2019-02-22 17:00:00 +0100
 categories: audio-programming
 author: Eigil Aandahl, Jonas Bjordal, Mari Lesteberg, Sam Roman
-image: /assets/image/touchaliensynth/touch-the-alien.png
+image: /assets/image/2019_02_22_aleksati_touch_the_alien.png
 excerpt: "The web audio synth 'Touch the Alien', a project by Eigil Aandahl, Sam Roman, Jonas Bjordal and Mari Lesteberg at the master's programme Music, Communication and Technology at University of Oslo and Norwegian University of Science and Technology. The application offers touchscreen functionality, Oscillators, FM Oscillator &  Delay, phaser, Chorus & Filter on Dry/wet slider,Canvas UI with follow visual FX	and it's alien themed for your pleasure!"
 
 ---
@@ -52,20 +52,20 @@ Consultation with extraterrestrial races (coders)
 
 
 
-#### Eigil <img src="/assets/image/touchaliensynth/eigil.png" alt="" width="10%" />
+#### Eigil <img src="/assets/image/2019_02_22_aleksati_eigil.png" alt="" width="10%" />
 
 Eigil used his experience with web technologies and coding to make the canvas work as the interactive centerpiece of the instrument, and then he made the connections to the audio functions, making the instrument playable. He was also responsible for the [live demo](http://folk.ntnu.no/eigilaa/public_html/Touch-the-alien/).
 
-#### Jonas <img src="/assets/image/touchaliensynth/jonas.png" alt="" width="10%" />
+#### Jonas <img src="/assets/image/2019_02_22_aleksati_jonas.png" alt="" width="10%" />
 During the first day was bug fixing and generally advising and cleaning up the code from Sam's <a href="https://mct-master.github.io/audio-programming/2019/02/11/Alien-Reese.html" target="_blank">Sam's Reese the Alien synth</a>. Unfourtunatly Jonas was unwell for the later part of the project development.
 
 
-#### Mari <img src="/assets/image/touchaliensynth/mari.png" alt="" width="10%" />
+#### Mari <img src="/assets/image/2019_02_22_aleksati_mari.png" alt="" width="10%" />
 
 Mari contributed with her acquired Javascript knowledge from last week, about filter nodes, the interactivity between the sound and faders and buttons, and the responsive design with CSS. During the week, her main responsibility in the team was to research the <a href="https://developer.mozilla.org/en-US/docs/Web/API/Touch_events" target="_blank"> touch event functionality </a>, that would allow our final product to work on touch screen devices. She also made a <a href="https://www.youtube.com/watch?v=xl7XN5LBFpA" target="_blank">prototype</a> that implemented a canvas with drawing function into the sound- and aesthetic design of <a href="https://mct-master.github.io/audio-programming/2019/02/11/Alien-Reese.html" target="_blank">Sam's Reese the Alien synth</a>.
 
 
-#### Sam <img src="/assets/image/touchaliensynth/sam.png" alt="" width="10%" />
+#### Sam <img src="/assets/image/2019_02_22_aleksati_alien_sam.png" alt="" width="10%" />
 
 Sam took the role of expanding and improving the functionality of the audio code for the synth. This included utilising the <a href="https://github.com/Theodeus/tuna/wiki/Getting-started" target="_blank">Tuna.js</a>
  library for new effect nodes, expanding the audio parameters from the original <a href="https://mct-master.github.io/audio-programming/2019/02/11/Alien-Reese.html" target="_blank">Sam's Reese the Alien synth</a> prototype made a week ago.
@@ -126,7 +126,7 @@ On the last day, we finished the prototype by combining all codes together and m
 The original inspiration for the project was Sam’s Alien synth. Originally made for experimenting with phasing and clashing frequencies, it also utilised the computer keyboard to effect the frequency of the second oscillator. The idea started as a reese bass creator, however the move to use canvas and touchscreen functionality was a natural progression for the project – it makes the page more accessible and easy to use, as well as a more modern incarnation to present this project.
 
 #### Pointilator synth
-<img src="/assets/image/touchaliensynth/pointilator.png" alt="" width="70%" />
+<img src="/assets/image/2019_02_22_aleksati_alien_pointilator.png" alt="" width="70%" />
 
 Eigil's Pointilator synth from the first week was the basis and inspiration for using Canvas to draw visual feedback when playing.
 Instead of having continous sound when clicked, it played note events based on the static and stored position of clicks in sequence.
@@ -134,7 +134,12 @@ Instead of having continous sound when clicked, it played note events based on t
 
 
 #### Hello there human.
-<img src="/assets/image/touchaliensynth/hellohuman.gif" alt="" width="70%" />
+
+<figure align="middle">
+   <img src="https://drive.google.com/uc?export=view&amp;id=1W7iuqTerYjX7gXoXZkTJK-PeSNvbsAr3" width="auto" height="auto" />
+   <figcaption></figcaption>
+</figure>
+
 This was the prototype for the canvas pad after the first day, and as you can see, the canvas draws a line after the mouse pointer which fades over time. Some features for the drawing was still not implemented at this point, but the main style and functionality was already working.
 
 #### Prototype: - Reece Da Alien with sonified drawing pad
@@ -153,7 +158,7 @@ The process of developing this prototype was described earlier in this blog post
 
 ## Flowchart
 
-<img src="/assets/image/touchaliensynth/flowchart.jpg" alt="" width="70%" />
+<img src="/assets/image/2019_02_22_aleksati_flowchart.jpg" alt="" width="70%" />
 
 This is the signal chain for the prototype’s audio code. It includes the 2 saw oscillators, FM oscillator and audio player brought over from the alien synth from last week. New additions include everything located right of the output node on the graph – the 3 audio FX and the dry/wet routing.
 
@@ -264,7 +269,7 @@ For a more responsive design, the Canvas could be adjusted to fit the screen siz
 If we had the time, we would have liked to make it more like an actual sonified drawing pad (a bit like MS Paint), adding a function that allows you to play and store the drawing, so you can play it over and over again, like in the Pointilator.
 Expanding on this, we could make a function that allows you to draw with different colours and textures. Different colours represented by different instruments or timbres.
 
-<img src="/assets/image/touchaliensynth/touch-the-alien.png" alt="" width="70%" />
+<img src="/assets/image/2019_02_22_aleksati_touch_the_alien.png" alt="" width="70%" />
 
 ## Closing remarks
 In the end, we are pleased with the result and experience we got from Anna's workshop. Perhaps this project or something based on it could be presented by us as a paper or workshop during the [2019 Web Audio Conference](https://www.ntnu.edu/wac2019) in December, who knows?

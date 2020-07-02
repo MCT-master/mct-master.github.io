@@ -4,7 +4,7 @@ title: "Practice-Toolbox-for-students-of-music"
 date: 2020-02-10 10:00:00 +0200
 categories: audio-programming
 author: Thomas Anda
-image: "/assets/image/thomas/thomas_pd.png"
+image: "/assets/image/2020_02_11_aleksati_thomas_pd.png"
 excerpt: "In our audio programming course we were tasked to make a PD-patch without any restrictions on what it should be. I wanted to make something useful I could incorporate in my daily practice routine, and also distribute to some of my guitar students."
 Keywords: Audio Programming, Pure Data, MCT4048
 ---
@@ -31,17 +31,17 @@ same technique to generate the random patterns in the h-radios in the module
 below.
 
 <figure>
- <img src="/assets/image/thomas/formula.png" align="center" alt="formula"/>
+ <img src="/assets/image/2020_02_11_aleksati_formula.png" align="center" alt="formula"/>
  <figcaption>Formula generator</figcaption>
 </figure>
 
 <figure>
- <img src="/assets/image/thomas/rhythm.png" align="center" alt="rhythm"/>
+ <img src="/assets/image/2020_02_11_aleksati_rhythm.png" align="center" alt="rhythm"/>
  <figcaption>Rhythm Generator</figcaption>
 </figure>
 
 <figure>
- <img src="/assets/image/thomas/mobmu.png" align="center" alt="mobmu"/>
+ <img src="/assets/image/2020_02_11_aleksati_mobmu.png" align="center" alt="mobmu"/>
  <figcaption>MobMuPlat interface</figcaption>
 </figure>
 
@@ -53,7 +53,7 @@ get it working when the time signature is set to 4, due to some weird behaviour
 in the counter object that I didn't understand.
 
 <figure>
- <img src="/assets/image/thomas/metronom.png" align="center" alt="Metronom"/>
+ <img src="/assets/image/2020_02_11_aleksati_metronom.png" align="center" alt="Metronom"/>
  <figcaption>Metronome</figcaption>
 </figure>
 
