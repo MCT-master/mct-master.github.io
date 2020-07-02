@@ -4,7 +4,7 @@ title: MotionComposer
 date: 2020-05-02 19:00:00 +0200
 categories: applied-project
 author: Aleksander, Rayam, Simon, Thibault
-image: /assets/image/rayam/MotionComposer_Interface-V02.png
+image: /assets/image/rayam/Motioncomposer_Interface-V02.png
 excerpt: "MotionComposer is a motion capture device that lets people make music with gestures. This is the presentation of our applied project, where we worked on building a new instrument for this device."
 Keywords: MCT, Applied Project, MotionComposer
 ---
@@ -116,7 +116,7 @@ For a musical environment to get movement data from the tracking module, and sub
 In the finishing phase, we invested in designing a GUI. It is a beta-prototype with minimalist aesthetics, made for improving the user experience and to create a better perspective of our product for the stakeholders.
 
 <figure text-align="center">
-    <img src="/assets/image/rayam/MotionComposer_Interface-V02.png"
+    <img src="/assets/image/rayam/Motioncomposer_Interface-V02.png"
     width="600px">
     <figcaption>MoShape GUI</figcaption>
 </figure>
