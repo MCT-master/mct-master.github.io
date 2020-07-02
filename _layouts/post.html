@@ -8,10 +8,26 @@ layout: default
     <p class="post-meta">
       <time class="dt-published" datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">
         {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
-        {{ page.date | date: date_format }}
+        {{ page.date | date: date_format }} •
       </time>
       {%- if page.author -%}
-        • <span itemprop="author" itemscope itemtype="http://schema.org/Person"><span class="p-author h-card" itemprop="name">{{ page.author }}</span></span>
+        {% assign authorlist = page.author | split: ", " %}
+          {% for member in authorlist %}
+          {% assign author = site.authors | where: 'name', member | first %}
+          {% if forloop.last == false %}
+            {% if author %}
+              <a href="{{ author.url }}">{{ author.name }},</a>
+            {% else %}
+              {{ member }},
+            {% endif %}
+          {% else %}
+            {% if author %}
+              <a href="{{ author.url }}">{{ author.name }}</a>
+            {% else %}
+              {{ member }}
+            {% endif %}
+          {% endif %}
+        {% endfor %}
       {%- endif -%}</p>
   </header>
 

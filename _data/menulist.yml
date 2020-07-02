@@ -1,6 +1,6 @@
 toc:
   - title: Topics
-    url: /topics
+    url: /alltopics/
     subfolderitems:
       - page: Audio Programming
         url: /audio-programming/

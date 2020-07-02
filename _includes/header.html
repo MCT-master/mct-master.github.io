@@ -7,11 +7,7 @@
     <nav class="site-nav">
       <ul>
         {% for item in site.data.menulist.toc %}
-          {% if item.title == "Search" %}
-            <li><a class=page-link href="{{ item.url | relative_url }}">&#128269;</a>
-          {% else %}
-            <li><a class="page-link" href="{{ item.url | relative_url }}">{{ item.title | escape }}</a>
-          {% endif %}
+          <li><a class="page-link" href="{{ item.url | relative_url }}">{{ item.title | escape }}</a>
           <ul class="dropdown">
             {% for entry in item.subfolderitems %}
             <li><a href="{{ entry.url }}">{{ entry.page }}</a></li>

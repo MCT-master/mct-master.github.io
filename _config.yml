@@ -19,7 +19,7 @@ email: mct-info@imv.uio.no
 description: >- # this means to ignore newlines until "baseurl:"
   This is the blog of the Music, Communication & Technology (MCT) joint Master's programme between NTNU and UiO.
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "http://mct-master.github.io" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://mct-master.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: MCT_master
 github_username:  MCT-master
 google_analytics: 'UA-29541937-2'
@@ -38,7 +38,18 @@ plugins:
 
 show_excerpts: true
 
-paginate: 5
+collections:
+  authors:
+    output: true
+
+defaults:
+  - scope:
+      path: ""
+      type: "authors"
+    values:
+      layout: "author"
+
+paginate: 7
 
 paginate_path: "/blog/page:num/"
 

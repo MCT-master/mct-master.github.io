@@ -12,38 +12,36 @@ This is the student-led blog related to the **Music, Communication & Technology 
 
 ### 2018-2020
 #### UiO, Oslo
-* Andersen, Elias
-* Lesteberg, Mari
-* Roman, Sam
-* Silva, Ashane
-* Sion, Guy
-* Wik, Espen
+* [Elias Andersen](/authors/eliasandersen.html)
+* [Mari Lesteberg](/authors/marilesteberg.html)
+* [Sam Roman](/authors/samroman.html)
+* [Ashane Silva](/authors/ashanesilva.html)
+* [Guy Sion](/authors/guysion.html)
+* [Espen Wik](/authors/espenwik.html)
 
 #### NTNU, Trondheim
-* Aandahl, Eigil
-* Bjordal, Jonas
-* Dahl, Eirik
-* Haghighi, Sepehr
-* Jawad, Karolina
-* Shrestha, Shreejay
-* Varpe, Jørgen Nygård
+* [Eigil Aandahl](/authors/eigilaandahl.html)
+* [Eirik Dahl](/authors/eirikdahl.html)
+* [Sepehr Haghighi](/authors/sepehrhaghighi.html)
+* [Karolina Jawad](/authors/karolinajawad.html)
+* [Shreejay Shrestha](/authors/shreejayshrestha.html)
+* [Jørgen Varpe](/authors/jørgenvarpe.html)
 
 ### 2019-2021
 #### UiO, Oslo
-* Anda, Thomas
-* Goode, Jackson
-* Koenig, Paul
-* Luna, Rayam
-* Steinhovden, Jarle
-* Tidemann, Aleksander
-* Wardenær, Gaute
+* [Thomas Anda](/authors/thomasanda.html)
+* [Jackson Goode](/authors/jacksongoode.html)
+* [Paul Koenig](/authors/paulkoenig.html)
+* [Rayam Luna](/authors/rayamluna.html)
+* [Jarle Steinhovden](/authors/jarlesteinhovden.html)
+* [Aleksander Tidemann](/authors/aleksandertidemann.html)
+* [Gaute Wardenær](/authors/gautewardenær.html)
 
 #### NTNU, Trondheim
-* Halmøy, Ulrick
-* Ignatius, Tom
-* Jaccard, Thibault
-* Sandvik, Simon
-* Futyma, Magda
+* [Ulrik Halmøy](/authors/ulrikhalmøy.html)
+* [Tom Ignatius](/authors/tomignatius.html)
+* [Thibault Jaccard](/authors/thibaultjaccard.html)
+* [Simon Sandvik](/authors/simonsandvik.html)
 
 
 <!--

@@ -1,7 +1,7 @@
 ---
 layout: page
-title: Topics
-permalink: /topics/
+title: All Topics
+permalink: /alltopics/
 ---
 
 {%- if site.posts.size > 0 -%}
