@@ -85,7 +85,7 @@ We chose to film the same sequence from three different parts of the opera, from
 The light equipment in use are mainly 3 battery-driven LED mats with dimmer. Two of them also with variable color temperature. All this, together with the fact that they don’t get warm, makes them very versatile and easy to move around, something that helps a lot when in need of a fast workflow.
 Then, regarding the main shot of the musicians, we wanted a steady camera movement, adding a more dynamic design to the film and chose to use a slider, with a motion control system - also easy to mount and use. The camera, a Panasonic LUMIX GH4 is a lightweight, versatile camera, with a micro four third sensor. For these shots, we used an Olympus Zuiko 12 - 40 zoom lens.
 
-For close-ups; we used a lens from Voightländer, with an extreme aperture and light sensitivity, that gives a very shallow depth of field, to add a kind of movie-feeling to the visual design. 
+For close-ups; we used a lens from Voightländer, with an extreme aperture and light sensitivity, that gives a very shallow depth of field, to add a kind of movie-feeling to the visual design.
 Regarding the main total shot, there were two basic challenges: First balancing the light in the room with the bright screen - obviously, we needed to make compromises. Then we have the fact that the singer on the screen is not in visual sync with the musicians, something that also leads to compromises when it comes to editing.
 
 ### Editing
@@ -94,7 +94,7 @@ Regarding the main total shot, there were two basic challenges: First balancing 
 <img src="/assets/image/picture-carmen/editing.jpg" width = "100%" align="center" />
 </figure>
 
-The overall challenge, as no surprise, was synchronization - in all parts. Getting all the footage into sync - or at least to look as if it was in sync. 
+The overall challenge, as no surprise, was synchronization - in all parts. Getting all the footage into sync - or at least to look as if it was in sync.
 You really have to pay attention while editing this kind of material - one false move and everything moves out sync.
 A special problem occured due to the fact that the different music takes, that were used in the final mix, had small, variations in tempo. In other words, the final mix of the songs, that were to be used in the video, at some points consisted of different takes than the one the musicians originally used for playback, when recording. So, on the video timeline, the clip used for video would start in sync with the final audio mix of the song, and get out of sync as it played along.
 
@@ -105,7 +105,7 @@ Another advantage of using this method was the division of the workload into sma
 ### Video
 Finally, following you can watch the two different versions of the video (Norsk and English):
 #### Norsk version:
-[![Norsk Version](/assets/image/musicvideo.png)](https://vimeo.com/379255012 "Carmen (Norsk version) - Click to Watch!")
+[![Norsk Version](/assets/image/2019_12_11_aleksati_musicvideo.png)](https://vimeo.com/379255012 "Carmen (Norsk version) - Click to Watch!")
 
 #### English version:
-[![English Version](/assets/image/musicvideo.png)](https://vimeo.com/379254811 "Carmen (English version) - Click to Watch!")
+[![English Version](/assets/image/2019_12_11_aleksati_musicvideo.png)](https://vimeo.com/379254811 "Carmen (English version) - Click to Watch!")

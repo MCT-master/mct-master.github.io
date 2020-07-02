@@ -28,7 +28,7 @@ The end goal of our streams has been to broadcast talks and events in the portal
 When setting up a scene in OBS, it is possible to add many different sources and move them around, such as text, images, video, and even audio that can be mixed within the software. In studio mode, it is possible make edits to scenes without the edits going out before a transition is made. Furthermore, the sources can be modified, chroma keyed (made transparent using for example a green-screen), filtered and cropped. Below is a screenshot of OBS in studio mode with two scenes. The image on the right is what would be the output if we were to click "start streaming" to a live feed. The image on the left is a preview of what the output would be when transitioning, and changes made to the composition here is not streamed.
 
 <figure align="middle">
-<img src="/assets/image/OBSscreenshot.png" alt="OBS in studio mode" width="70%">
+<img src="/assets/image/2019_01_30_aleksati_OBSscreenshot.png" alt="OBS in studio mode" width="70%">
 <figcaption align="middle"><strong>OBS in studio mode with two scenes.</strong></figcaption>
 </figure>
 

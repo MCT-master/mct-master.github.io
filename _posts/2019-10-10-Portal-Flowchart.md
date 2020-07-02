@@ -33,7 +33,7 @@ The routing and interplay between the LoLa PC (with RME soundcard) and Midas mix
 
 Eventually, (we hope and pray) we might have a system that begins with an overhead mic directly to LoLa or Zoom, and use a breakout cable to pass Oslo inputs through the Midas mixer when we need it. Having a well-funtioning setup with as few wires, sliders, or settings to configure is the current dream for Gaute at least.
 
-![LoLa and Midas Flowchart](/assets/image/2019_10_10_stefanof_Midas-lola-flowchart.jpg)
+![LoLa and Midas Flowchart](/assets/image/2019_10_10_aleksati_Midas_lola_flowchart.jpg)
 
 # Summary
 

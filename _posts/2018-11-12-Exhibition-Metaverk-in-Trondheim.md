@@ -4,12 +4,12 @@ title:  "Exhibition 'Metaverk' in Trondheim: DSP, Csound orchestras and bone fee
 date:   2018-11-11 23:50
 categories: digital-audio
 author: Karolina Jawad
-image: /assets/image/patch_metaverk.jpg
+image: /assets/image/2018_11_12_aleksati_patch_metaverk.jpg
 excerpt: <html>Once you enter <strong><a href="http://metamorf.no">Metamorph</a></strong>, an art and technology space in the old town of Trondheim (Bakklandet), you will immediately become part of the generative soundscape of the exhibition <strong><a href="https://teks.no">'Metaverk'</a></strong>.</html>
 ---
 
 <figure>
-<img src="/assets/image/patch_metaverk.jpg" alt="patch_patch" width="60%" align="middle"/>
+<img src="/assets/image/2018_11_12_aleksati_patch_metaverk.jpg" alt="patch_patch" width="60%" align="middle"/>
 <figcaption>Patch, patch</figcaption>
 </figure>
 

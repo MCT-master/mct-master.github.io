@@ -64,7 +64,7 @@ On day 3 when asking for help with my project I was told to possibly start from 
 the one point that I started to feel more comfortable coding was when I took control of the routing. One of the challenges I faced was that in the first couple of days in the workshop I was trying to achieve results by copying and pasting various examples of code – with mixed or no results. This technique of trial and error in the end helped me formulate my idea, and it was satisfying eventually (although stressful before!) once I worked out how to organise the routing of nodes properly. The original routing was simple like this:
 
 <figure align="middle">
-<img src="/assets/image/old flow.jpg" alt="" width="70%">
+<img src="/assets/image/2019_02_11_aleksati_old_flow.jpg" alt="" width="70%">
 <figcaption align="middle"><strong>“Routing day 1 & 2”</strong></figcaption>
 </figure>
 

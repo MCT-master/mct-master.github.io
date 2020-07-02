@@ -56,7 +56,7 @@ Mari is a vocalist, keyboard player, composer and producer, located in Oslo. Her
 * [Suburban Savages on Facebook](https://www.facebook.com/SuburbanSavages)
 * [Suburban Savages on Bandcamp](https://suburbansavages.bandcamp.com/)
 
-![Photo of Mari Lesteberg](/assets/image/MariBilde.jpg "Mari Lesteberg")
+![Photo of Mari Lesteberg](/assets/image/2018_08_22_aleksati_MariBilde.jpg "Mari Lesteberg")
 
 
 ### Eigil Aandahl

@@ -4,7 +4,7 @@ title: 'Physical computing Day 1 - Group B'
 date: 2019-10-15 17:00 +0200
 categories: physical-computing
 author: Rayam, Gaute, Thibault, Ulrik
-image: /assets/image/pd_groupb.png
+image: /assets/image/2019_10_15_aleksati_pd_groupb.png
 excerpt: 'First day of physical computing'
 Keywords: Physical computing, Hardware hacking, circuit sniffing, Bela, Pure Data
 ---
@@ -13,7 +13,7 @@ The first day of the physical computing course was for the most part spent explo
 
 For the workshop part, each group was supposed to create a variety of sounds from sniffing circuits, experimenting with hardware and circuits and from soundwalking. After collecting the sounds, we put them into a Pd sampler, which would later be used for a performance in the Portal. The Pd patch can be seen below.
 
-<img src="/assets/image/pd_groupb.png">
+<img src="/assets/image/2019_10_15_aleksati_pd_groupb.png">
 
 We decided that we would do the sound collection part separately in Trondheim and Oslo, and then meet again to play with the collected sounds over Zoom. In Trondheim, we first recorded a small hardware jam and then split it up into one-shot samples. After that, we went outside to collect a different range of sounds, and ended up including sounds of ice breaking and splashing water.
 

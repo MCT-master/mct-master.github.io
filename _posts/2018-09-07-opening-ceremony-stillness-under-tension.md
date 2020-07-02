@@ -4,11 +4,11 @@ title:  "Stillness under Tension, An interactive performance between two cities"
 date:   2018-09-07 19:17:10 +0200
 categories: miscellaneous
 author: Karolina Jawad, Mari Lesteberg, Eigil Aandahl
-image: /assets/image/muscle_band_performance.jpg
+image: /assets/image/2018_09_07_aleksati_muscle_band_performance.jpg
 excerpt: "On 29th of August, 2018, Eigil, Karolina and Mari from the Masters programme in MCT, together with three professors, Alexander, Charles and Anna, performed with the Muscle Band at the Portal opening ceremony at the University of Oslo and NTNU in Trondheim. This was a musical performance that took place in two different places at the same time. How is that possible?"
 ---
 <figure>
-  <img src="/assets/image/muscle_band_performance.jpg" alt="Performance picture">
+  <img src="/assets/image/2018_09_07_aleksati_muscle_band_performance.jpg" alt="Performance picture">
   <figcaption>Fig.1 The performance as seen in Oslo. (Photo: Dmitry Vasilev)</figcaption>
 </figure>
 
@@ -34,7 +34,7 @@ So, what was this *Muscle Band Performance* all about? Not *all* of the members 
 	Each of us wore an armband at one of our arms, and to say it simply, these bracelets were our instruments. To make any sound at all we had to stand as still as we could. Then we could modify the timbre of the sound by gently flexing our arm muscles. The whole scenario must have looked and sounded like it was taken right out of a science fiction movie!
 
 <figure>
-	<img src="/assets/image/Myo_on_arm.jpg" alt="Picture of Myo on arm" width="35%">
+	<img src="/assets/image/2018_09_07_aleksati_Myo_on_arm.jpg" alt="Picture of Myo on arm" width="35%">
 	<figcaption>Fig.2 How the Myo armband is placed on the arm. (Photo: Eigil Aandahl)</figcaption>
 </figure>
 

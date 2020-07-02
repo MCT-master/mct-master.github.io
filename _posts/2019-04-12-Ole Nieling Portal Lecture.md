@@ -5,7 +5,7 @@ http://www.ole.wtf/
 I had the pleasure of introducing Ole Neiling, a extradisciplinary 'life-style' artist. This was part of a series of lectures held over the portal in the sonification and sound design module..
 
 <figure align="middle">
-<img src="/assets/image/Ole n sam portal.jpeg" alt="" width="70%">
+<img src="/assets/image/2019_04_12_aleksati_Ole_n_sam_portal.jpeg" alt="" width="70%">
 <figcaption align="middle"><strong>Sam Roman (me) introducing Ole over the portal</strong></figcaption>
 </figure>
 
@@ -25,7 +25,7 @@ Ole’s themes he discusses are; Music and language, what makes you human, what 
 ### Project Examples
 
 <figure align="middle">
-<img src="/assets/image/skauhytt neiling.jpeg" alt="" width="70%">
+<img src="/assets/image/2019_04_12_aleksati_skauhytt_neiling.jpeg" alt="" width="70%">
 <figcaption align="middle"><strong></strong></figcaption>
 </figure>
 

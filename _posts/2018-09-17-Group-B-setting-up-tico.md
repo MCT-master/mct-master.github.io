@@ -4,12 +4,12 @@ title:  "M.A.D.E - setting up Tico"
 date:   2018-09-17 15:43:00 +0200
 categories: portal
 author: Mari Lesteberg, Dmitry Vasilev, Ashane Silva, Eigil Aandahl
-image: /assets/image/TICO_signal.jpg
+image: /assets/image/2018_09_17_aleksati_TICO_signal.jpg
 excerpt: "The number one priority this week was to get Tico up and running. The previous week, all lectures and communication between the two campuses had been through Zoom, and quite a lot of time had been consumed by solving technical problems and issues regarding the Zoom connection."
 ---
 
 <figure>
-<img src="/assets/image/TICO_signal.jpg" alt="Tico Box" width="75%" />
+<img src="/assets/image/2018_09_17_aleksati_TICO_signal.jpg" alt="Tico Box" width="75%" />
 <figcaption>Fig 1: The Tico Box in Oslo </figcaption>
 </figure>
 
@@ -46,14 +46,14 @@ We decided upon using two condenser microphones in between of two tables, as sho
 table set-up for teaching situations was very similar to the set-up from previous week.
 
 <figure>
-<img src="/assets/image/PortalOslo.jpg" alt="Set-up Oslo Portal" width="75%" />
+<img src="/assets/image/2018_09_17_aleksati_PortalOslo.jpg" alt="Set-up Oslo Portal" width="75%" />
 <figcaption>Fig 2: Set- up Oslo Portal</figcaption>
 </figure>
 
 <br> <!-- Linebreak to separate caption from next paragraph -->
 
 <figure>
-<img src="/assets/image/Set_up_Oslo.png" alt="Set-up Oslo Portal" width="100%" />
+<img src="/assets/image/2018_09_17_aleksati_Set_up_Oslo.png" alt="Set-up Oslo Portal" width="100%" />
 <figcaption>Fig 3: Set- up Oslo Portal</figcaption>
 </figure>
 
@@ -64,7 +64,7 @@ But why do we even need Zoom in the first place, when the Portal technology shou
 ### Tico dropping out
 
 <figure>
-<img src="/assets/image/TicoPortal_094237_attention.jpeg" alt="Close-up of Oslo screen black">
+<img src="/assets/image/2018_09_17_aleksati_TicoPortal_attention.jpeg" alt="Close-up of Oslo screen black">
   <figcaption>Fig 4: Oslo screen when Tico connection broke </figcaption>
 </figure>
 
@@ -77,12 +77,12 @@ was  intentionally to be used for streaming sound and the Power Point presentati
 Tico connection, we had to switch between the slides and the Zoom video to see people talking.
 
 <figure>
-<img src="/assets/image/TicoPortal_094237_attentioncrop.jpg" alt="Oslo screens black" width="50%" />
+<img src="/assets/image/2018_09_17_aleksati_TicoPortal_attentioncrop.jpg" alt="Oslo screens black" width="50%" />
 <figcaption>Fig 5: Broken Tico connection </figcaption>
 </figure>
 <br>
 <figure>
-<img src="/assets/image/TicoPortal_094249 copy.jpg" alt="Oslo screens turning back on" width="50%" />
+<img src="/assets/image/2018_09_17_aleksati_TicoPortal_2.jpg" alt="Oslo screens turning back on" width="50%" />
 <figcaption>Fig 6: Tico connection getting back up </figcaption>
 </figure>
 

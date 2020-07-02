@@ -1,6 +1,6 @@
 ---
 layout: post
-image: /assets/image/montage_portal.jpg
+image: /assets/image/2018_10_29_aleksati_montage_portal.jpg
 title:  "A two week wrap-up of Group C"
 date:   2018-10-29 23:00
 categories: portal

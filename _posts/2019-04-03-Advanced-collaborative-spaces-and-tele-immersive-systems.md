@@ -4,13 +4,13 @@ title:  "Advanced collaborative spaces, tele-immersive systems and the Nidarøs 
 date:   2019-04-03 14:40
 categories: sonification
 author: Karolina Jawad
-image: /assets/image/nidaros_collage_leif.jpg
+image: /assets/image/2019_04_03_aleksati_nidaros_collage_leif.jpg
 excerpt: "Leif Arne Rønningen introduced us to 'Advanced Collaboration Spaces, requirements and possible realisations' and to the 'Nidarø Sulpture', a dynamic vision and audio sculpture. In both parts Leif's main research areas on tele-immersive collaboration systems and low latency networks are at the forfront."
 
 ---
 
 <figure>
-<img src="/assets/image/nidaros_collage_leif.jpg" alt="Collage created by Leif Arne Rønningen" width="100%" align="middle"/>
+<img src="/assets/image/2019_04_03_aleksati_nidaros_collage_leif.jpg" alt="Collage created by Leif Arne Rønningen" width="100%" align="middle"/>
 <figcaption>Nidarø-Sculpture, collage created by Leif Arne Rønningen</figcaption>
 </figure>
 

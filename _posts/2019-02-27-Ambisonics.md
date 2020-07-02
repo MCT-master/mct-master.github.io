@@ -16,12 +16,12 @@ On 27 February 2019, we had a workshop on Ambisonics and the SoundField micropho
 We made a session in Reaper with bus tracks for the purpose of encoding and decoding the signals.  The inputs from the soundfiled SPS200 microphone was converted from A-format to B-format using the "surroundZone2 plugin" which is completely free to use.  
 
 
-<img src="/assets/image/sourrondzoneB.png" width="80%" height="80%"/>
+<img src="/assets/image/2019_02_27_aleksati_sourrondzoneB.png" width="80%" height="80%"/>
 
 
 The next was to convert the B-format to B-format (ambix) by using the "soundfield plugin" by "RODE"
 
-<img src="/assets/image/rode.PNG" width="80%" height="80%" />
+<img src="/assets/image/2019_02_27_aleksati_rode.PNG" width="80%" height="80%" />
 
 Later in the chain we used the AIRADecoder to decode the audio in to the speaker setup.
 
@@ -33,16 +33,16 @@ We learned that you can have as many speakers as you like, but at least 4 speake
 
 We managed to tryout the "MultiEncoder" from IEM plugin suite to encode multiple input and also used the "binauraldecoder" to decode and listen to the audio with headohones.
 
-<img src="/assets/image/multiencoderIEM.PNG" width="40%" height="40%"   />
+<img src="/assets/image/2019_02_27_aleksati_multiencoderIEM.PNG" width="40%" height="40%"   />
 
 
 <img src="/assets/image/2019_02_27_stefanof_Binural.PNG" />
 
 This was the chain flow: Midas mixer - > Computer - > mixer - > Lola - > Speakers
 
-After the lecture, we started to set up the portals with eight speakers, that had to be placed with the right angle relative to each other. In Oslo, we chose not to mount the speakers in the sealing, but to set up a non-permanent with speaker stands instead. It is important to set the speakers at the correct spot with right angle and the same distance from where we set the middle point. It is also important to set the same volume for all the speakers. The reason why this is important is that the volume and the distance to the speakers will interfer with Ambisonic, since volume is the main factor to make this immersive space. 
+After the lecture, we started to set up the portals with eight speakers, that had to be placed with the right angle relative to each other. In Oslo, we chose not to mount the speakers in the sealing, but to set up a non-permanent with speaker stands instead. It is important to set the speakers at the correct spot with right angle and the same distance from where we set the middle point. It is also important to set the same volume for all the speakers. The reason why this is important is that the volume and the distance to the speakers will interfer with Ambisonic, since volume is the main factor to make this immersive space.
 
-<img src="/assets/image/speakersetup_portalAmbisonic.jpg" width="80%" height="80%" />
+<img src="/assets/image/2019_02_27_aleksati_speakersetup_portalAmbisonic.jpg" width="80%" height="80%" />
 
 
 ## Experimenting with E4L Reverb

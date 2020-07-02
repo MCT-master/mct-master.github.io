@@ -4,11 +4,11 @@ title:  "Group B, Making the Percampler"
 date:   2018-10-22 12:10:00 +0200
 categories: physical-computing
 author: Mari Lesteberg, Dmitry Vasilev, Ashane Silva, Shreejay Shreshta, Eigil Aandahl
-image: /assets/image/percampler_header.jpg
+image: /assets/image/2018_10_22_aleksati_percampler_header.jpg
 excerpt: "The Final day of the physical computing was based on creating a custom made instrument based on the knowledge and experience gained from the past three days. We had to figure out if we wanted to make one instrument, which could be played across the two campuses, or if we would choose to make two different instruments that could complement each other."
 ---
 
-<img src="/assets/image/percampler_header.jpg" alt="Trondheim Percampler instrument">
+<img src="/assets/image/2018_10_22_aleksati_percampler_header.jpg" alt="Trondheim Percampler instrument">
 
 ## The Percampler:
 The Final day of the physical computing was based on creating a custom made instrument based on the knowledge and experience gained from the past three days. We had to figure out if we wanted to make one instrument, which could be played across the two campuses, or if we would choose to make two different instruments that could complement each other.
@@ -18,7 +18,7 @@ In the morning we brainstormed different ideas about what exactly we could be ab
 From Trondheim, Eigil and Shreejay suggested the idea on using a contact microphone as an input for the LittleBits and producing beats and percussive elements in real time. The idea was to incorporate the soundwalk and circuit sniffing techniques for real-time sound sampling into the Percampler. This idea perfectly fit the analog-digital hybrid concept, and while performers in Oslo played with the digital sampler, performers in Trondheim supplied the analog sounds, noises, and feedback by utilising the contact mic, cymbals, and an amplifier connected to the LittleBits delay effect to produce and alter sounds through analog means. The instrument was packaged together in a portable design as can be seen here:
 
 <figure>
-  <img src="/assets/image/trondheim_percampler_inside.jpg" alt="Trondheim Percampler LittleBits">
+  <img src="/assets/image/2018_10_22_aleksati_trondheim_percampler_inside.jpg" alt="Trondheim Percampler LittleBits">
   <figcaption>Inside the Trondheim Percampler instrument</figcaption>
 </figure>
 
