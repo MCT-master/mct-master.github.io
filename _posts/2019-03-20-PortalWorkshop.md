@@ -4,7 +4,7 @@ title:  "Repairing scissors and preparing the portal for talks"
 date:   2019-03-20 16:40:00 +0200
 categories: portal
 author: Mari Lesteberg, Elias Sukken Andersen
-image: /assets/image/mari/brokenscissors.jpg
+image: /assets/image/2019_03_20_aleksati_brokenscissors.jpg
 excerpt: ""
 
 ---
@@ -12,31 +12,31 @@ excerpt: ""
 
 On 20 March 2019, the MCT team were tidying up the portal and rearranging the Portal for talks. We have collected some pictures from the day, enjoy the slideshow:
 
-<img src="/assets/image/mari/movingcamera2.jpg"  />
+<img src="/assets/image/2019_03_20_aleksati_movingcamera2.jpg"  />
 
 _Ashane working on the best camera position_
 
-<img src="/assets/image/mari/finalcamerasolution.jpg"  />
+<img src="/assets/image/2019_03_20_aleksati_finalcamerasolution.jpg"  />
 
 _Final camera solution! We figured out in the end that the roof is not an optimal position for cameras._
 
-<img src="/assets/image/mari/movingdrumkit.jpg" />
+<img src="/assets/image/2019_03_20_aleksati_movingdrumkit.jpg" />
 
 _To move an electrical drum kit is not the easiest task. It needs to be disassembled and everything._
 
-<img src="/assets/image/mari/brokenscissors.jpg"  />
+<img src="/assets/image/2019_03_20_aleksati_brokenscissors.jpg"  />
 
 _How is it even possible to break a pair of scissors?!_
 
-<img src="/assets/image/mari/xlrcables.jpg"  />
+<img src="/assets/image/2019_03_20_aleksati_xlrcables.jpg"  />
 
 _Need an extra XLR cable?_
 
-<img src="/assets/image/mari/labeling1.jpg" />
+<img src="/assets/image/2019_03_20_aleksati_labeling1.jpg" />
 
 _Or a power cable?_
 
-<img src="/assets/image/mari/mic1.jpg" />
+<img src="/assets/image/2019_03_20_aleksati_mic1.jpg" />
 
 _All microphones are now labeled with numbers from 1-4. No more confusion!_
 

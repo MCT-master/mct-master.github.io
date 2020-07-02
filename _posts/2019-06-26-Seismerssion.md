@@ -4,7 +4,7 @@ title: 'Seismerssion: Retrospectives on an Audio-visual installations'
 date: 2019-07-14 14:42:00 +0200
 categories: applied-project
 author: Karolina Jawad, Espen Wik, Sepehr Haghighi Shreejay Shrestha and Jørgen Nygard Varpe
-image: /assets/image/Oceans/fb_header.JPG
+image: /assets/image/2019_06_26_aleksati_fb_header.JPG
 excerpt: 'Seismerssion is the title we gave our Applied Project in the context of the MCT spring semester 2019. This audio-visual installation is dedicated to the widely unknown issue of sound pollution in the ocean. In collaboration with NTNU Oceans, an intership was established to develop and implement a public installation concept for 2 different venues.'
 Keywords: Art and Science, NTNU Ocean Week 2019, The Big Challenge Festival 2019, NTNU Oceans, Sound Pollution, sonic arts, multi-modality, human computer interaction, marine life, Posyx
 ---
@@ -43,13 +43,13 @@ The overall process of creating the Max for Live device can be summed up in thes
 - Adding video playback for two projectors, and making videos turn red when “stage rumbler platform” is activated, using Jitter (Figure2).
 
 <figure>
-<img src="/assets/image/Oceans/max_oceans.png" width="100%" align="center" />
+<img src="/assets/image/2019_06_26_aleksati_max_oceans.png" width="100%" align="center" />
 <figcaption>Figure 2</figcaption>
 </figure>
 
 
 <figure>
-<img src="/assets/image/Oceans/zone_oceans.png" width="100%" align="center" />
+<img src="/assets/image/2019_06_26_aleksati_zone_oceans.png" width="100%" align="center" />
 <figcaption>Figure 3</figcaption>
 </figure>
 
@@ -58,7 +58,7 @@ In Ableton Live every zone is organized in session view, each on its own track (
 
 
 <figure>
-<img src="/assets/image/Oceans/rumbler_oceans.png" width="100%" align="center" />
+<img src="/assets/image/2019_06_26_aleksati_rumbler_oceans.png" width="100%" align="center" />
 <figcaption>Figure 4</figcaption>
 </figure>
 
@@ -76,5 +76,5 @@ Beside the scientific facts on reflection seismology provided by the HFI and the
 As a group we have managed to combine our different knowledge and skills, combining visuals, audio and technology to create an installation that communicated the real-world issue of noise pollution in a new and interesting way. We have worked well together as a team and have divided roles to be able to get the installation finished in time.
 
 <figure>
-<img src="https://raw.githubusercontent.com/MCT-master/mct-master.github.io/master/assets/image/Oceans/group_1.JPG" width="100%" align="center" />
+<img src="https://raw.githubusercontent.com/MCT-master/mct-master.github.io/master/assets/image/2019_06_26_aleksati_group_1.JPG" width="100%" align="center" />
 </figure>

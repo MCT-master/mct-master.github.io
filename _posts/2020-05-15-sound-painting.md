@@ -4,7 +4,7 @@ title: Sound Painting
 date: 2020-05-15 00:00:10 +0200
 categories: motion-tracking
 author: Aleksander Tidemann
-image: /assets/image/Tidemann/sound-painting.jpg
+image: /assets/image/2020_05_15_aleksati_sound_painting.jpg
 excerpt: "An application that tracks, visualizes and sonifies the motion of colors."
 Keywords: MCT, Motion Tracking, Color tracking, maxMSP
 ---

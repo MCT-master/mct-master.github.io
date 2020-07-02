@@ -4,7 +4,7 @@ title: 'Classification of string instruments'
 date: 2019-09-14 13:25:00 +0200
 categories: machine-learning
 author: Jørgen Nygård Varpe
-image: /assets/image/varpe/spectrogram.PNG
+image: /assets/image/2019_09_14_varpe_spectrogram.PNG
 excerpt: 'During a 2 week intensive workshop in the course Music and Machine Learning I had to develop a machine learning system for the field of music technlogy.'
 Keywords: Workshop, Machine learning, classification, feature extraction, MFCC, SVM
 ---
@@ -26,7 +26,7 @@ I can divide my system into three main processes:
 - Model training and prediction (dark red)
 
 <figure>
-<img src="/assets/image/varpe/flow.png" width = "100%" align="center" />
+<img src="/assets/image/2019_09_14_varpe_flow.png" width = "100%" align="center" />
 <figcaption><strong>System flow</strong></figcaption>
 </figure>
 
@@ -35,7 +35,7 @@ I can divide my system into three main processes:
 The data preparation part is where you would get rid of noise, silence etc. in the dataset; get rid of random variables that will mess up the classification. In my case I had 39 samples of each instrument. I chose to trim each file (total of 117) to last for 1 second from the first note onset. This was of course done with python code (with the help of a package called Librosa), or else I would have had a really boring time.
 
 <figure>
-<img src="/assets/image/varpe/trimming.PNG" width = "70%" align="center" />
+<img src="/assets/image/2019_09_14_varpe_trimming.PNG" width = "70%" align="center" />
 <figcaption><strong>Audio trimming</strong></figcaption>
 </figure>
 
@@ -44,7 +44,7 @@ The data preparation part is where you would get rid of noise, silence etc. in t
 The machine learning algorithm works with numbers. Which numbers is up to me, and of course it should be numbers that tells some characteristic of the data. I chose to give my ML algorithm something called Mel frequency cepstral coefficients (MFCCs). Pretty self-explainable, right? No, absolutely not..."MFCCs are short time power spectral representation of a signal and represents psychoacoustic property of the human auditory system". Now, when that is completely clear for everyone, why do I give the ML algorithm this? Well, it turns out to be one of the most, if not THE most popular feature when working with speech recognition, genre classification, music insformation retrival and more. One of the reasons for this is that it tells something about the timbre of the sound. Exactly what I want to separate my instruments by, so great.
 
 <figure>
-<img src="/assets/image/varpe/spectrogram.PNG" width = "80%" align="center" />
+<img src="/assets/image/2019_09_14_varpe_spectrogram.PNG" width = "80%" align="center" />
 <figcaption><strong>Spectrogram showing 39 guitar samples stacked on a row, and MFCCs on the columns</strong></figcaption>
 </figure>
 
@@ -53,6 +53,6 @@ The machine learning algorithm works with numbers. Which numbers is up to me, an
 So, when I had the "timbre" of each sample of each instrument, I just gave 80% of the data to an ML classifier called support-vector machines (SVM) as training data, and 20% as test data, tweeked some parameters to make it throw my data into a higher dimensional feature space, and then a few ms later it told me that it had classified everything with a 100% accuracy. Could not be any better than that right? Turns out it is not a problem for a machine to classify between three similar string instruments, if you give it some good data that is.
 
 <figure>
-<img src="/assets/image/varpe/score.PNG" width = "80%" align="center" />
+<img src="/assets/image/2019_09_14_varpe_score.PNG" width = "80%" align="center" />
 <figcaption><strong>SVM report</strong></figcaption>
 </figure>

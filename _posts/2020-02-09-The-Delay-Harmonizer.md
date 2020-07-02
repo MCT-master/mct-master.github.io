@@ -4,10 +4,10 @@ title: "The Delay Harmonizer"
 date: 2020-02-09 20:00:00 +0200
 categories: audio-programming
 author: Thibault Jaccard
-image: /assets/image/thibault/delay_harmonizer.jpg
+image: /assets/image/2020_02_09_aleksati_delay_harmonizer.jpg
 excerpt: "This chord generator uses a variable length delay fed by a microphone input as sound source."
 Keywords: Audio Programming, Pure Data, MCT4048
---- 
+---
 
 ## Overview
 
@@ -19,7 +19,7 @@ This project consists of a four notes chord generator, using a microphone feedin
 To choose the chord(s), two methods are possible. The first is using the chord selector, which consist of three selectors, the key (arranged in fifths, Db = 0, Ab = 1, …, F# = 11), the type (major = 0 and melodic minor = 1) and the degree (I = 0, II = 1, …, VII = 6). The latter defines which chord within the chosen scale will be sent. For example, let’s consider the C major key. The degree I will be the C major quadriad (Cmaj7), the degree II will be Dm7, then III = Em7, IV = Fmaj7, V = G7, VI = Am7 and VII = Bm7b5. Those three selectors can be found in the middle left part of the patch shown in the image below. One limitation of this system is that sixth, ninth, eleventh and thirteenth chords cannot be accessed, as well as diminished seventh, sus, and any other types. But as every key is available, there are still a lot of chord progression possibilities. Those three selectors can either be accessed in the patch or using a Launchpad Pro, for which the pads are mapped to show colors corresponding to the PD selectors. The latter is the best solution, as it does not require the use of a mouse, and is therefore way more playable.
 
 <figure>
- <img src="/assets/image/thibault/delay_harmonizer.jpg" align="center" alt="Pure Data patch"/>
+ <img src="/assets/image/2020_02_09_aleksati_delay_harmonizer.jpg" align="center" alt="Pure Data patch"/>
  <figcaption>Pure Data patch (UI) of the Delay Harmonizer</figcaption>
 </figure>
 

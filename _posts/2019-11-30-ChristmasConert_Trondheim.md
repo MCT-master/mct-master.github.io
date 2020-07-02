@@ -3,7 +3,7 @@ layout: post
 title: "Reflections on the christmas concert"
 date: 2019-11-30 17:57:30 +0100
 categories: portal
-author: Ulrik, Thibault, Gaute, Rayam
+author: Ulrik Halmøy, Thibault, Gaute, Rayam
 image: /assets/image/2019_11_30_stefanof_cover.jpg
 excerpt: "Trondheim reflects on the christmas concert 2019"
 ---

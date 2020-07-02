@@ -4,7 +4,7 @@ title: "Ambisonics!"
 date: 2019-02-27 16:40:00 +0200
 categories: portal
 author: Mari Lesteberg, Elias Sukken Andersen, Ashane Silva
-image: /assets/image/mari/2702scrsh.png
+image: /assets/image/2019_02_27_aleksati_2702scrsh.png
 excerpt: "On 27 February 2019, we had a workshop on Ambisonics in the portal course. Anders Tveit gave us a lecture on how to encode and decode sound inputs from Lola, using the AIIRADecoder in Reaper."
 
 ---
@@ -25,7 +25,7 @@ The next was to convert the B-format to B-format (ambix) by using the "soundfiel
 
 Later in the chain we used the AIRADecoder to decode the audio in to the speaker setup.
 
-<img src="/assets/image/mari/2702scrsh.png" width="80%" height="80%" />
+<img src="/assets/image/2019_02_27_aleksati_2702scrsh.png" width="80%" height="80%" />
 
 We learned that you can have as many speakers as you like, but at least 4 speakers. Then we discussed what microphone shape/pattern to use, like omni, heart-shape etc.
 
@@ -59,4 +59,4 @@ To get the angle and the distance between the speakers was not as easy as we fir
 
 _Trying to measure up the dictance between the speakers in the middle of a cable jungle_
 
-<img src="/assets/image/mari/27feb2.jpg" />
+<img src="/assets/image/2019_02_27_aleksati_27feb2.jpg" />

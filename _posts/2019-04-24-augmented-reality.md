@@ -12,7 +12,7 @@ excerpt: "In the final Portal workshop of this semester we were looking at Ambis
 ## Creating a virtual/augmented immersive space with Ambisonics in the Portal
 
 <figure>
-<img src="/assets/image/mari/24apr3.jpg" align="center" />
+<img src="/assets/image/2019_04_24_aleksati_24apr3.jpg" align="center" />
 </figure>
 
 On the 24 of April, we went into groups to solve a task handed out by Anders Tveit. Our group’s (Karolina, Sam, Sepehr, Jørgen and Mari) task was to create a virtual/augmented immersive space, using Polycom or Zoom for video and a DAW of any choice together with MIDAS mixer and LOLA for sound. We chose to use Ableton Live together with [Envelope for Live plugins](http://www.envelop.us/software) (E4L), and a <a href="https://github.com/MeltingPlanet/M4L_OSCDeviceControl" target="_blank">custom OSC M4L (Max for live) device</a>.
@@ -32,7 +32,7 @@ We decided to create an immersive space that included both a natural space and a
 In regards to the natural sounds, we used a waterfall and a birds singing sound. For the augmented reality part we used two microphones, each being placed in a corner of the room. These 4 sound sources were sent to Ableton, imported into the E4L Source Panner. This device takes a stereo input and encodes it into 16 channels of high order ambisonics. We chose to place one sound source in each corner of the augmented space. All four sound sources were then sent to a E4L Master Bus, which decoded the sources to binaural. In the end we had an immersive space which included both a natural and an augmented.
 
 <figure>
-<img src="/assets/image/mari/24apr5.jpg" align="center" />
+<img src="/assets/image/2019_04_24_aleksati_24apr5.jpg" align="center" />
 </figure>
 
 
@@ -41,7 +41,7 @@ For the next step we wanted the user to be in control of his/her placement in th
 In order to have the user in control of his or her placement in the immersive space, we used a mobile app by the name of [OSC Controller](https://play.google.com/store/apps/details?id=com.ffsmultimedia.osccontroller&hl=en_US). We chose to use 4 sliders that could send OSC messages to our Max for Live device called OSC Device Control. Each of these sliders were then used to control the radius of our four sound sources. In this way, the user could control his/her distance from the sound sources in the space.
 
 <figure>
-<img src="/assets/image/mari/oscapp.png" width="40%" align="center" />
+<img src="/assets/image/2019_04_24_aleksati_oscapp.png" width="40%" align="center" />
 </figure>
 
 
@@ -58,7 +58,7 @@ The M4L device is built using the M4L Live API. With this you can use any applic
 
 
 <figure>
-<img src="/assets/image/varpe/OSCDeviceControl.PNG" width = "100%" align="center" />
+<img src="/assets/image/2019_04_24_varpe_OSCDeviceControl.PNG" width = "100%" align="center" />
 </figure>
 
 In the plugin you choose a port you want to use for communication over UDP (9999 is default). The plugin is set to receive OSC messages from four sliders from the Osc Controller app by default. These four addresses can be changed to fit your OSC controller of choice, and you can choose which device and parameter each address will control.
@@ -71,5 +71,5 @@ In the portal in Trondheim we have now available both an optical tracking system
 When testing our system, we were facing a few issues that made it difficult to get enough time to make the system work exactly like we first have imagined. At least on the Oslo side, we first couldn’t get the OSC controller to work on both phones. But eventually, we got it working on one of the phones, and we could start testing out the system. To calibrate the MAX patch with the OSC controller and with Ableton, we had to use a scale object in the MAX patch. This was working fine with one fader, controlling one parameter, but a problem occurred when we wanted to add an extra dimension to the system, with a second fader.  Unfortunately, we had too little time to solve this problem before the final testing of the system.
 
 <figure>
-<img src="/assets/image/mari/24apr1.jpg" align="center" />
+<img src="/assets/image/2019_04_24_aleksati_24apr1.jpg" align="center" />
 </figure>
