@@ -52,7 +52,7 @@ Over in Oslo, Sam had managed to get the iberlin.js code to work… sort of. The
 To be able to join the performance, Jørgen managed to use an app he had coded before. This app is coded in javascript using the Web Audio Api, and uses the deviceorientation event to get sensor data. By pushing and holding the buttons that you can see in the picture below, samples are played. A lowpass filter is applied by moving the phone back/forward and a delay is applied by moving it up/down.
 
 <figure>
-<img src="/assets/image/2018-10-18_stefanof_Ateam_jorgenApp.jpg" alt="Jørgen's sampler in browser" width="50%" align="middle">
+<img src="/assets/image/2018_10_18_stefanof_Ateam_jorgenApp.jpg" alt="Jørgen's sampler in browser" width="50%" align="middle">
 <figcaption><strong>Jørgen's sampler in browser</strong></figcaption>
 </figure>
 
