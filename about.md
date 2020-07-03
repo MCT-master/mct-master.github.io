@@ -4,7 +4,7 @@ title: About
 permalink: /about/
 ---
 
-This is the student-led blog related to the **Music, Communication & Technology (MCT)**() master's programme. MCT is an international, joint master's programme between [**NTNU**](https://www.ntnu.edu/studies/mmct) and [**UiO**](https://www.uio.no/english/studies/programmes/mct-master/), the two largest universities in Norway.
+This is the student-led blog related to the **Music, Communication & Technology (MCT)** master's programme. MCT is an international, joint master's programme between [**NTNU**](https://www.ntnu.edu/studies/mmct) and [**UiO**](https://www.uio.no/english/studies/programmes/mct-master/), the two largest universities in Norway.
 
 ![MCT image](/assets/image/2018_08_01_stefanof_mct-master-630.jpg "MCT image")
 
