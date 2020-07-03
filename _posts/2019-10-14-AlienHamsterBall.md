@@ -3,7 +3,7 @@ layout: post
 title: 'Alien_Hamster_Ball'
 date: 2019-10-14 13:30:00 +0200
 categories: interactive-music-systems
-author: Samuel Damien Roman
+author: Samuel Roman
 image: /assets/image/2019_10_14_stefanof_hamsterball4.jpg
 excerpt: 'The Alien Hamster ball - an instrument expressed through a 3D space'
 Keywords: Interactive Music Systems, Bela, Sensors, Pure Data, IMS, Interactive Music Systems, NIME, MCT
@@ -64,7 +64,7 @@ As well as this, the wave shape of Osc 1 will cycle fully from a sine to a squar
 <img src="/assets/image/2019_10_14_stefanof_hamsterball2.jpg" width="40%" height="40%" align="center" />
 <figcaption><strong>The Failed Prototype</strong></figcaption>
 </figure>
-The functionality of the ball as a concept has many possible future uses. Throwing? a game of catch? Juggling? Rolling the ball on the floor? football? Could also put a hamster inside… 
+The functionality of the ball as a concept has many possible future uses. Throwing? a game of catch? Juggling? Rolling the ball on the floor? football? Could also put a hamster inside…
 
 With some more time, i believe i could create the prototype i aimed for, and maybe even try some of these techniques out. Unfortunately i had little time to play with the instrument, and so feedback is lacking on that part.
 

@@ -3,7 +3,7 @@ layout: post
 title: 'Physical Computing Day One: Victorian Synthesizer Madness! Group C Reports In From Heck'
 date: 2019-10-15 17:18:00 +0200
 categories: physical-computing
-author: Paul, Aleksander, Thomas, and Iggy
+author: Paul Koenig, Aleksander Tidemann, Thomas Anda, Tom Ignatius
 image: /assets/image/2019_10_15_stefanof_BenFElectric.jpg
 excerpt: 'The first day of Physical Computing started and ended with a bit of confusion in the Portal, but that is par for the course. Once we set up the various cameras and microphones, and dealt with feedback, echo, etc, the fun began! '
 ---

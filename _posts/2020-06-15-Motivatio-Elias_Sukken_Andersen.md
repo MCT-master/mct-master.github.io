@@ -1,11 +1,11 @@
 ---
 layout: post
-title: 'Motivatio'
+title: 'Motivato'
 date: 2020-06-15 13:00:00 +0200
 categories: masters-thesis
-author: Elias Sukken Andersen
+author: Elias Andersen
 image: /assets/image/2020_06_15_stefanof_Diagram_Motivatio.jpg
-excerpt: "Motivatio: A standalone music selection system for seamless technology-mediated audience participation."
+excerpt: "Motivato: A standalone music selection system for seamless technology-mediated audience participation."
 Keywords: TMAP, design, music, technology
 ---
 

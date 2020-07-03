@@ -3,7 +3,7 @@ layout: post
 title: Soundscapes for Dream Nest
 date: 2020-05-03 10:00:00 +0200
 categories: applied-project
-author: Jackson, Paul & Iggy
+author: Jackson Goode, Paul Koenig, Tom Ignatius
 image: /assets/image/2020_05_03_jacksong_baby-spa.jpg
 excerpt: "For the spring applied project we created music for a hardware specific device to relax colicy babies in a collaboration with our external partner, Dream Nest. Our final product is a six track EP, engineered to put your baby to sleep (we hope!)"
 Keywords: MCT, Dream Nest, sound engine

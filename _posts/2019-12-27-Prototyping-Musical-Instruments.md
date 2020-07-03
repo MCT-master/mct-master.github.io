@@ -3,7 +3,7 @@ layout: post
 title: 'Prototyping musical instruments'
 date: 2019-12-27 12:00:00 +0200
 categories: human-computer-interaction
-author: Rayam, Gaute, Thibault, Ulrik
+author: Rayam Luna, Gaute Wardenær, Thibault Jaccard, Ulrik Halmøy
 image: /assets/image/2019_12_27_stefanof_recycle_orchestra_thumb.jpg
 excerpt: 'Prototyping musical instruments in the name of recycling - exploring Orchestrash from an HCI point of view'
 Keywords: HCI, Bela, Physical Computing, Orchestrash

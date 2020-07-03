@@ -3,7 +3,7 @@ layout: post
 title: "The Magic Piano"
 date: 2019-02-22 15:30:00 +0200
 categories: audio-programming
-author: Jørgen Nygård Varpe, Ashane Silva, Guy Sion
+author: Jørgen Varpe, Ashane Silva, Guy Sion
 image: https://drive.google.com/uc?export=view&amp;id=1SZC-3empqY8VX8JjaFi_Euq0VG_GiuIb
 excerpt: "During our second week learning about Audio programing and web Audio API we were divided into groups and had to come up with an idea for a final project. The main challenges were to find an idea that is doable within 4 days, to code collaboratively and to prepare for the presentation of our project. Guy had an Idea for building a piano keyboard that will help beginners play a simple melody and Ashane and Jørgen agreed to collaborate and join forces in creating 'The Magic Piano'."
 Keywords: Web Audio API, JavaScript, Tone.js, CSS, HTML, NexusUI, JSON, Piano, Education

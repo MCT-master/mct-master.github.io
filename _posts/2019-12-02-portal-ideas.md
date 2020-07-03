@@ -3,7 +3,7 @@ layout: post
 title: 'Portal ideas'
 date: 2019-12-02 13:40:30 +0100
 categories: portal
-author: Rayam, Gaute, Thibault, Ulrik
+author: Rayam Luna, Gaute Wardenær, Thibault Jaccard, Ulrik Halmøy
 image: /assets/image/2019_12_02_stefanof_portal1.jpg
 excerpt: 'Instead of starting up the M32 every day, recalling the correct preset, adjusting the faders, turning on the screens, turning on the speakers, opening LOLA, connecting to the other side, pulling your hair out because nothing will work... Imagine just pressing a button and it all just works. '
 ---

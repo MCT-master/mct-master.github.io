@@ -3,7 +3,7 @@ layout: post
 title:  "The B Team: To Heck and Back"
 date:   2019-10-15 18:00:00 +0200
 categories: physical-computing
-author: Jackson Goode, Magda, Simon Sandvik, and Jarle Steinhovden
+author: Jackson Goode, Magda Futyma, Simon Sandvik, and Jarle Steinhovden
 image: /assets/image/2019_10_15_stefanof_lastday.webp
 
 excerpt: "Today we began our experiments with some lofi hardware, simple contact mics, speakers, batteries, and some crocodile cables to connect it all. We left in pieces."

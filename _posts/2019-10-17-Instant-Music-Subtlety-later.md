@@ -4,7 +4,7 @@ title: "Instant Music, Subtlety later"
 date: 2019-10-17 23:45:00 +0200
 categories: interactive-music-systems
 author: Karolina Jawad
-image: \assets\image\Oceans\tableau_vivre_nouveau.jpg
+image: /assets/image/2019_10_17_aleksati_k_patch.JPG
 excerpt: "When drafting ideas in unknown territory one can become
 overwhelmed with the sheer endless options to create an IMS (interactive music system). Here a real-time processing
 board for voice with gesture control."

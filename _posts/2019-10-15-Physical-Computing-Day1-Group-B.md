@@ -3,7 +3,7 @@ layout: post
 title: 'Physical computing Day 1 - Group B'
 date: 2019-10-15 17:00 +0200
 categories: physical-computing
-author: Rayam, Gaute, Thibault, Ulrik
+author: Rayam Luna, Gaute Wardenær, Thibault Jaccard, Ulrik Halmøy
 image: /assets/image/2019_10_15_aleksati_pd_groupb.png
 excerpt: 'First day of physical computing'
 Keywords: Physical computing, Hardware hacking, circuit sniffing, Bela, Pure Data

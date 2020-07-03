@@ -3,7 +3,7 @@ layout: post
 title: "I scream, you scream, we all scream for livestream"
 date: 2020-05-18 22:00:00 +0100
 categories: portal
-author: Rayam Pinto
+author: Rayam Luna
 image: /assets/image/2020_05_18_stefanof_Rayam.jpg
 excerpt: "Some cameras won't allow you to film for more than 30 minutes, don't use those."
 Keywords: Stream, concert, corona, telematic

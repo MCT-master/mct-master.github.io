@@ -1,10 +1,10 @@
 ---
 layout: post
-title: "C. whatever comes along the way"
+title: "Group C - Whatever comes along the way"
 date: 2018-10-17 10:10:42 +0200
 categories: physical-computing
-author: Karolina, Guy, Elias and Eirik
-image:
+author: Karolina Jawad, Elias Andersen, Eirik Dahl, Guy Sion
+image: /assets/image/2018_08_01_stefanof_MCT.jpg
 excerpt: "To wrap it up, the first workshop day on 'physical computing' surprised us in many ways.
 Exposed to new tools in webtechnology we were able to create a little jamsession.  
 Some of the tools were familiar, some of them less. To start with the hardest

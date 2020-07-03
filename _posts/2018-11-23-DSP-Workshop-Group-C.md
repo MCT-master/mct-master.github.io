@@ -3,7 +3,7 @@ layout: post
 title:  "DSP Workshop Group C"
 date:   2018-11-23 15:43
 categories: digital-audio
-author: Jonas, Eirik, Karolina , Elias & Guy
+author: Jonas Bjordal, Karolina Jawad, Elias Andersen, Guy Sion, Eirik Dahl
 image: /assets/image/2018_11_23_stefanof_DSP-group-C-workshop-Oslo-instrument-signal-flow.png
 excerpt: "During our DSP workshop we were introduced to several tools and techniques for creating, manipulating and controlling sound. We started exploring Csound and waveguides. We learned a bit about the code in Csound, setting inputs and outputs and rendering the result to audio files."
 ---

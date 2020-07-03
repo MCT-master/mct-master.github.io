@@ -3,7 +3,7 @@ layout: post
 title: "Staggering towards the light"
 date: 2019-12-30 23:58:42 +0200
 categories: human-computer-interaction
-author: Thomas Anda, Aleksander Tidemann, Paul Koenig & Tom Ignatius
+author: Thomas Anda, Aleksander Tidemann, Paul Koenig, Tom Ignatius
 image: /assets/image/2019_12_30_stefanof_HCI.jpg
 excerpt: "During a hackathon in our introduction course to physical computing, we developed a prototype of a DMI. In our blog post from this project we explained how the system was built and gave a short summary of our performance. In this blog post however, we will look at the instrument from an HCI-perspective. Where the main focus will be a summary of the problem space, the research question, the methodology used and our main findings and contributions. "
 ---

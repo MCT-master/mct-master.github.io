@@ -1,7 +1,7 @@
 ---
 layout: default
 ---
-<h1>{{ page.name }}'s Posts</h1>
+<h1>{{ page.name }}'s Work</h1>
 
 {{ content }}
   <!-- <h2 class="post-list-heading">{{ page.list_title | default: "Posts" }}</h2> -->
@@ -31,14 +31,6 @@ layout: default
           {{ post.title | escape }}
         </a>
       </h3>
-      {%- if site.show_excerpts -%}
-        {{ post.excerpt }}
-      {%- endif -%}
-      <h4>
-      <a href="{{ post.url | relative_url }}">
-        Read more
-      </a>
-      </h4>
     </li>
     {% endif %}
   {% endfor %}

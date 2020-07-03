@@ -3,7 +3,7 @@ layout: post
 title: "A-team - first week"
 date: 2018-09-10 16:19:42 +0200
 categories: portal
-author: JJ, EW, SR, SH, JNV
+author: Juno Jensen, Espen Wik, Sam Roman, Jørgen Varpe, Sepehr Haghighi
 image: /assets/image/2018_09_10_stefanof_jnv_portal.jpg
 excerpt: The first week at The Portal was interesting. Most of the equipment was not ready for use, and the TICO system network card crashed two days before opening ceremony. Our group, Jørgen, Espen, Sam and Juno, started working on Monday 27. August, and tried to set up the Polycom system as a backup for the week in the Portal.
 ---

@@ -3,7 +3,7 @@ layout: post
 title: 'Wizard_of_Vox'
 date: 2019-10-18 13:30:00 +0200
 categories: interactive-music-systems
-author: Notto J. W. Thelle
+author: Notto Thelle
 image: /assets/image/2019_10_18_aleksati_wow_result.jpg
 excerpt: 'Wizard Of Vox - Wizard Of Vox is a gesture-based speech synthesis system that can be can be “made to speak”'
 Keywords: Interactive Music Systems, Bela, Sensors, Pure Data, IMS, Interactive Music Systems, NIME, MCT

@@ -3,7 +3,7 @@ layout: post
 title: Reflections on diversity
 date: 2019-08-27 12:31:00 +0100
 categories: miscellaneous
-author: Magda Futyma, Thibault Jaccard, Tom Ignatius, Simon Rønsholm Sandvik, Ulrik Antoniussen Halmøy
+author: Magda Futyma, Thibault Jaccard, Tom Ignatius, Simon Sandvik, Ulrik Antoniussen Halmøy
 image: /assets/image/2019_08_28_aleksati_WoNoMute.jpg
 excerpt: "First year students in Trondheim reflects on diversity in MCT"
 ---

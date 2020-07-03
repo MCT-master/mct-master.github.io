@@ -4,7 +4,7 @@ layout: post
 title: "The Mono Synth"
 date: 2019-02-10 22:45:00 +0100
 categories: audio-programming
-author: Eirik Dahl (code credit. Jørgen Varpe)
+author: Eirik Dahl
 image: /assets/image/2019_02_11_aleksati_Monosynth.jpg
 excerpt: This blog post outlines the production of the MonoSynth. The Mono Synth is drawn by Jørgen N. Varpe, who also wrote a lot of the code. The objective of this prototype was to improve my familiarity with coding, and at the same time be able to have a working chromatic instrument. Working with a cromatic instrument is interesting because it allows me to have a less abstract understanding of what happens in the code - behind the scenes if you will.
 

@@ -4,7 +4,7 @@ title: 'MIDI drum beat generation'
 date: 2019-09-16 16:00:00 +0200
 categories: machine-learning
 image: /assets/image/2019_09_16_stefanof_Rock_Drum-Beat.png
-author: Elias Sukken Andersen
+author: Elias Andersen
 Keywords: Workshop, Machine learning, Recurrent Neural Network, MIDI
 excerpt: "Most music production today depend strongly on technology, from the beginning of a songs creation, till the the last final tunings during mix and master. Still their is usually many human aspect involved, like singing, humans playing instruments, humans using a music making software etc.."
 ---

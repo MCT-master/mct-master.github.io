@@ -3,7 +3,7 @@ layout: post
 title: a t-SNE adventure
 date: 2020-05-21 00:00:10 +0200
 categories: motion-tracking
-author: Ulrik antoniussen Halmøy
+author: Ulrik Halmøy
 image: /assets/image/2020_05_21_ulrikah_tsne_cover.jpg
 excerpt: "A system for interactive exploration of sound clusters with phone sensors"
 Keywords: MCT, motion tracking, machine learning, Max

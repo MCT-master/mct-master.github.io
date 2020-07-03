@@ -3,7 +3,7 @@ layout: post
 title: 'Orchestrash hackathon performance'
 date: 2019-10-24 13:40:30 +0100
 categories: physical-computing
-author: Rayam, Gaute, Thibault, Ulrik
+author: Rayam Luna, Gaute Wardenær, Thibault Jaccard, Ulrik Halmøy
 image: /assets/image/2019_10_24_stefanof_recycle_orchestra.jpg
 excerpt: 'The title of our project is "Orchestrash" inspired by the theme of the competition and our approach to solving it, by making individual instruments controlled by recycled materials and "recycling" sound by sampling'
 ---

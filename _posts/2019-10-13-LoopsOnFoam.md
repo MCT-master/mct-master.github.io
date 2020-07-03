@@ -3,7 +3,7 @@ layout: post
 title: 'LoopsOnFoam'
 date: 2019-10-13 13:30:00 +0200
 categories: interactive-music-systems
-author: Jørgen Nygård Varpe
+author: Jørgen Varpe
 image: /assets/image/2019_10_13_varpe_LoopsOnFoam.jpg
 excerpt: 'During a 2-week intensive workshop in the course Interactive Music Systems I worked on the development of an instrument prototype, which I named LoopsOnFoam.'
 Keywords: Interactive Music Systems, IMS, Bela, Sensors, Pure Data

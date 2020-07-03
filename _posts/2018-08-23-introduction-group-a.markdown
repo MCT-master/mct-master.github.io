@@ -3,7 +3,7 @@ layout: post
 title:  "Meet MCT Group A 2018"
 date:   2018-08-23 10:48:00 +0200
 categories: people
-author: Sam Roman, Juno Jensen, Jørgen Nygård Varpe, Espen Wik
+author: Sam Roman, Juno Jensen, Jørgen Varpe, Espen Wik
 image: /assets/image/2018_08_23_stefanof_Group-A-Y1.jpg
 excerpt: "With a background from <strong>music, media, journalism, sound engineering, electronics and programming</strong>; the A-team aims to approach the MCT program with <strong>enthusiasm, curiosity and professionalism</strong>. We believe that our <strong>diversity</strong> and varied skill set will be a catalyst to achieive <strong>artistic innovation</strong> in a hyper technological world."
 ---

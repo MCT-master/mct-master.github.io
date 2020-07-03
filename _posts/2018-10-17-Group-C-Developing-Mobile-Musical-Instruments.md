@@ -3,7 +3,7 @@ layout: post
 title: "Group C - Developing mobile musical instruments"
 date: 2018-10-17 21:00:00 +0200
 categories: physical-computing
-author: Karolina, Guy and Elias
+author: Karolina Jawad, Elias Andersen, Guy Sion
 image: /assets/image/2018_10_17_aleksati_video-hacking-blog.jpg
 excerpt: "We can use the sensors in various ways when building a musical instrument on our phones. Sensors can be assigned to different parameters in music like pitch, volume etc. we can also apply several filters to various sensors and affect our instrument’s timber."
 ---

@@ -3,7 +3,7 @@ layout: post
 title: 'Trippi BySykkel Sounds'
 date: 2019-12-15 23:00:00 +0200
 categories: applied-project
-author: Eigil Aandahl, Elias S. Andersen, Karolina Jawad, Sam D. Roman
+author: Eigil Aandahl, Elias Andersen, Karolina Jawad, Sam Roman
 image: /assets/image/2019_12_15_stefanof_Bicycle.png
 excerpt: 'Portray city bike user data into a sonified, interactive display by making use of public space and public data.’'
 Keywords: Applied project, Sonification, Soundmap, City Bike, Urban Sharing

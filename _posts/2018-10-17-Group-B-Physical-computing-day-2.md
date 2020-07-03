@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Group B, day 2 of Physical computing"
+title:  "Group B - Day 2 of Physical computing"
 date:   2018-10-18 00:30:00 +0200
 categories: physical-computing
 author: Mari Lesteberg, Dmitry Vasilev, Ashane Silva, Shreejay Shreshta, Eigil Aandahl

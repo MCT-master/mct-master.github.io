@@ -3,7 +3,7 @@ layout: post
 title:  "Portal Jam 23 January 2019, Documentation from Oslo Team"
 date:   2019-01-23 16:40:00 +0200
 categories: portal
-author: Mari Lesteberg, Ashane Silva, Elias Sukken Andersen
+author: Mari Lesteberg, Ashane Silva, Elias Andersen
 image: /assets/image/2019_01_23_aleksati_PortalJam.png
 excerpt: "On the 23 of January, we were testing out to jam together through the Portal."
 

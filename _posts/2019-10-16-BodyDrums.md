@@ -3,7 +3,7 @@ layout: post
 title: 'Body Drums - A wearable drumset'
 date: 2019-10-12 11:00:00 +0200
 categories: interactive-music-systems
-author: Elias Sukken Andersen
+author: Elias Andersen
 image: /assets/image/2019_10_12_stefanof_Belasetup.png
 Keywords: Workshop, IMS, Interactive Music Systems, Drums, Augmented Instrument, C++, Bela
 ---

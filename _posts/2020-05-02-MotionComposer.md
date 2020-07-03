@@ -3,7 +3,7 @@ layout: post
 title: MotionComposer
 date: 2020-05-02 19:00:00 +0200
 categories: applied-project
-author: Aleksander, Rayam, Simon, Thibault
+author: Aleksander Tidemann, Rayam Luna, Simon Sandvik, Thibault Jaccard
 image: /assets/image/2020_05_02_aleksati_MotionComposer_Interface_V02.png
 excerpt: "MotionComposer is a motion capture device that lets people make music with gestures. This is the presentation of our applied project, where we worked on building a new instrument for this device."
 Keywords: MCT, Applied Project, MotionComposer
