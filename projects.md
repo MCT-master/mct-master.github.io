@@ -20,7 +20,7 @@ permalink: /projects/
       <span class="post-meta">{{ post.date | date: date_format }}</span>
       <span class="post-meta">• {{ post.author }}</span>
       <br />
-      <span class="post-meta"><strong>{{ post.categories }}</strong></span>
+      <span class="post-meta"><strong>{{ post.categories | join: ", " }}</strong></span>
       <h3 align="left">
         <a class="post-link" href="{{ post.url | relative_url }}">
           {{ post.title | escape }}

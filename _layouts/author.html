@@ -12,7 +12,7 @@ layout: default
     -->
   {% for post in site.posts %}
     {% if post.author contains page.name %}
-    <a href="{{ post.url }}">{{ post.title }}</a> <span class="post-meta">({{ post.categories }})</span><br/>
+    <a href="{{ post.url }}">{{ post.title }}</a> <span class="post-meta">({{ post.categories | join: ", " }})</span><br/>
     {% endif %}
   {% endfor %}
 </ul>

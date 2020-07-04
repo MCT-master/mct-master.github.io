@@ -56,6 +56,27 @@ paginate: 5
 
 paginate_path: "/blog/page:num/"
 
+categories:
+  - applied-project
+  - audio-programming
+  - digital-audio
+  - entrepreneurship
+  - human-computer-interaction
+  - interactive-music-systems
+  - machine-learning
+  - masters-thesis
+  - miscellaneous
+  - music-cognition
+  - motion-tracking
+  - other
+  - people
+  - physical-computing
+  - portal
+  - research-methods
+  - scientific-computing
+  - sonification
+  - spatial-audio
+
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
 # to override the default setting.

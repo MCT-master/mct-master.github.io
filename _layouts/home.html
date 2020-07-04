@@ -34,12 +34,7 @@ head {
         <span class="post-meta">{{ post.date | date: date_format }}</span>
         <span class="post-meta">• {{ post.author }}</span>
         <br />
-        <span class="post-meta"><strong>{{ post.categories }}</strong></span>
-        <!-- {%- for category in site.data.categories -%} -->
-        <!-- {%- if post.categories == category.slug -%} -->
-        <!-- <span class="post-meta"><strong>{{category.name}}</strong></span> -->
-        <!-- {%- endif -%} -->
-        <!-- {%- endfor -%} -->
+        <span class="post-meta"><strong>{{ post.categories | join: ", " }}</strong></span>
         <h3 align="left">
           <a class="post-link" href="{{ post.url | relative_url }}">
             {{ post.title | escape }}
