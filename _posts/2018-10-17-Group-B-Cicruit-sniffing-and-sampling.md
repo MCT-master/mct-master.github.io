@@ -9,7 +9,7 @@ excerpt: "During today's workshop, we hunted for sounds created by electromagnet
 ---
 
 <figure>
-<img src="/assets/image/2018_10_17_aleksati_piano_piezo.PNG" alt="Piezo on piano" width="90%" />
+<img src="/assets/image/2018_10_17_aleksati_piano_piezo.png" alt="Piezo on piano" width="90%" />
 <figcaption>Fig 1: Contact mic directly on piano strings</figcaption>
 </figure>
 
