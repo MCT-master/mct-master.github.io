@@ -12,36 +12,36 @@ This is the student-led blog related to the **Music, Communication & Technology 
 
 ### 2018-2020
 #### UiO, Oslo
-* [Elias Andersen](/authors/eliasandersen.html)
-* [Mari Lesteberg](/authors/marilesteberg.html)
-* [Sam Roman](/authors/samroman.html)
-* [Ashane Silva](/authors/ashanesilva.html)
-* [Guy Sion](/authors/guysion.html)
-* [Espen Wik](/authors/espenwik.html)
+&nbsp;&nbsp;&nbsp;[Elias Andersen](/authors/eliasandersen.html)
+&nbsp;&nbsp;&nbsp;[Mari Lesteberg](/authors/marilesteberg.html)
+&nbsp;&nbsp;&nbsp;[Sam Roman](/authors/samroman.html)
+&nbsp;&nbsp;&nbsp;[Ashane Silva](/authors/ashanesilva.html)
+&nbsp;&nbsp;&nbsp;[Guy Sion](/authors/guysion.html)
+&nbsp;&nbsp;&nbsp;[Espen Wik](/authors/espenwik.html)
 
 #### NTNU, Trondheim
-* [Eigil Aandahl](/authors/eigilaandahl.html)
-* [Eirik Dahl](/authors/eirikdahl.html)
-* [Sepehr Haghighi](/authors/sepehrhaghighi.html)
-* [Karolina Jawad](/authors/karolinajawad.html)
-* [Shreejay Shrestha](/authors/shreejayshrestha.html)
-* [Jørgen Varpe](/authors/jørgenvarpe.html)
+&nbsp;&nbsp;&nbsp;[Eigil Aandahl](/authors/eigilaandahl.html)
+&nbsp;&nbsp;&nbsp;[Eirik Dahl](/authors/eirikdahl.html)
+&nbsp;&nbsp;&nbsp;[Sepehr Haghighi](/authors/sepehrhaghighi.html)
+&nbsp;&nbsp;&nbsp;[Karolina Jawad](/authors/karolinajawad.html)
+&nbsp;&nbsp;&nbsp;[Shreejay Shrestha](/authors/shreejayshrestha.html)
+&nbsp;&nbsp;&nbsp;[Jørgen Varpe](/authors/jørgenvarpe.html)
 
 ### 2019-2021
 #### UiO, Oslo
-* [Thomas Anda](/authors/thomasanda.html)
-* [Jackson Goode](/authors/jacksongoode.html)
-* [Paul Koenig](/authors/paulkoenig.html)
-* [Rayam Luna](/authors/rayamluna.html)
-* [Jarle Steinhovden](/authors/jarlesteinhovden.html)
-* [Aleksander Tidemann](/authors/aleksandertidemann.html)
-* [Gaute Wardenær](/authors/gautewardenær.html)
+&nbsp;&nbsp;&nbsp;[Thomas Anda](/authors/thomasanda.html)
+&nbsp;&nbsp;&nbsp;[Jackson Goode](/authors/jacksongoode.html)
+&nbsp;&nbsp;&nbsp;[Paul Koenig](/authors/paulkoenig.html)
+&nbsp;&nbsp;&nbsp;[Rayam Luna](/authors/rayamluna.html)
+&nbsp;&nbsp;&nbsp;[Jarle Steinhovden](/authors/jarlesteinhovden.html)
+&nbsp;&nbsp;&nbsp;[Aleksander Tidemann](/authors/aleksandertidemann.html)
+&nbsp;&nbsp;&nbsp;[Gaute Wardenær](/authors/gautewardenær.html)
 
 #### NTNU, Trondheim
-* [Ulrik Halmøy](/authors/ulrikhalmøy.html)
-* [Tom Ignatius](/authors/tomignatius.html)
-* [Thibault Jaccard](/authors/thibaultjaccard.html)
-* [Simon Sandvik](/authors/simonsandvik.html)
+&nbsp;&nbsp;&nbsp;[Ulrik Halmøy](/authors/ulrikhalmøy.html)
+&nbsp;&nbsp;&nbsp;[Tom Ignatius](/authors/tomignatius.html)
+&nbsp;&nbsp;&nbsp;[Thibault Jaccard](/authors/thibaultjaccard.html)
+&nbsp;&nbsp;&nbsp;[Simon Sandvik](/authors/simonsandvik.html)
 
 
 <!--
