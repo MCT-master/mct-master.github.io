@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "A-team - ART IS ANYTHING YOU CAN GET AWAY WITH"
+title: "A-team - Art is anything you can get away with"
 date: 2018-10-22 19:08:00 +0200
 categories: physical-computing
 author: Espen Wik, Sam Roman, Jørgen Varpe, Sepehr Haghighi
