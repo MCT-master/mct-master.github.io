@@ -96,9 +96,7 @@ but also within them." (Vorvoreanu et al., 2019, p.11)
 
 
 ## Mixed Methods
-In particular, the two research sub-questions (see Section “Research Question” in
-1 ) are addressed with a mixed methods approach (Lazar, 2017) of combining qualitative and quantitative research methods. According to Adams, Lunt, and Cairns
-(2008), using mixed methods is helpful for understanding how technology is subjectively and collectively experienced and perceived by different user groups. Beyond that, mixed methods can provide a balanced reflection of an issue. It will give a more differentiated account on the objectives as mixed methods serve both to gain
+In particular, the two research sub-questions are addressed with a mixed methods approach (Lazar, 2017) of combining qualitative and quantitative research methods. According to Adams, Lunt, and Cairns (2008), using mixed methods is helpful for understanding how technology is subjectively and collectively experienced and perceived by different user groups. Beyond that, mixed methods can provide a balanced reflection of an issue. It will give a more differentiated account on the objectives as mixed methods serve both to gain
 deep insights from experts in one field and to contrast their impressions with a wide range of experiences The participants of both the interviews and the online survey
 share overall similar backgrounds and interests.
 
@@ -134,7 +132,7 @@ texture of the designed objects are sent as messages that are part of our langua
 structures that deal with meaning, as Demirbilek and Sener (2003) explain. These
 attributes would communicate with users and can therefore never be contextually
 neutral. Vorvoreanu et al. (2019) stress, while leaning on Bardzell (2010), that attention to individual differences within genders can be emphasised by the notion of
-pluralism rather than universality. This approach supports individual differences
+pluralism rather than universality. Approaching the design of interfaces could support individual differences
 and non-binary notions of gender identification, which can embrace also other underrepresented groups.
 
 
