@@ -67,7 +67,7 @@ gender shapes musical tools?
 through visual cues?
 
 ## Background 
-# Gendered Artefacts in Music Technology?
+### Gendered Artefacts in Music Technology?
 According to Lucas, Ortiz, and Schroeder (2019), in commercial DMI production the product designers would often encapsulate the goals, behaviours and abilities of a broad
 target user group into a fictional archetype known as persona when designing DMIs.
 This approach implicates that commercial forces bypass large parts of the population. MacKenzie and Wajcman (1999) wrote that technologies can be designed, consciously
@@ -77,7 +77,7 @@ Therefore, music technology and musical instruments, like any other technology, 
 as well act as cultural and symbolic artefacts that absorb political content around
 access to, respectively, physical ability, gender, socio-economic status, class and cultural hierarchies (Morreale et al., 2020; Zeiner-Henriksen, 2014).
 
-# Gender HCI – Inspirational scholar review
+### Gender HCI – Inspirational scholar review
 Barth (2012) considered the current interface trends as predominantly biased towards male users as they have been considered the ’default’ gender in computing for decades. Gender HCI (Cassell, 2002) or feminist HCI (Bardzell, 2010) established in the last decade under the influence of HCI, design research (Demirbilek and Sener, 2003), STS, gender studies and psychology. This approach is a tool to deconstruct how gender identities shape the design and use of technological items (Bardzell, 2010). 
 For example examined Livingstone (1992) the ratings of participants that
 were asked to assign a symbolic gender to domestic technologies in brown goods
@@ -102,12 +102,12 @@ In particular, the two research sub-questions (see Section “Research Question�
 deep insights from experts in one field and to contrast their impressions with a wide range of experiences The participants of both the interviews and the online survey
 share overall similar backgrounds and interests.
 
-# Method 1 – Interview Analysis
+### Method 1 – Interview Analysis
 
 The first research sub-question has been addressed by means of analysing the interviews with women experts in the field of musical interface design, music technology research and artistic practise. Through initial exploration, different thematic patterns emerged that could potentially be explored. However, the most profound thematic cluster emerged when analysing statements in relation to music technology and engineering. We could analyse that the language of music technology, especially the term ‘music technology’ in academia carries ideas of activities that are stereotypically gendered.
 
 
-# Method 2 – Online Survey 
+### Method 2 – Online Survey 
 
 This study investigates the gender perception of hardware in music and audio. Hundred and
 eleven participants took part in an online survey with questions on colour, shape
@@ -125,7 +125,19 @@ male as to observe in Figure 1.
 
 In the gender assignments there were differences occurring among the gender groups, but they were of minor degrees.
 
-## Reflections and future work
+## Discussion & Final Remarks
+### Universal, Pluralistic or Neutral interfaces?
+As noted in Oost (2003), many objects and artefacts designed for "everyone" without
+a specific user group in mind are based, often unconsciously, on a one-sided user
+image. This could possibly be reflected in its semantics. Colour, shape, form and
+texture of the designed objects are sent as messages that are part of our language
+structures that deal with meaning, as Demirbilek and Sener (2003) explain. These
+attributes would communicate with users and can therefore never be contextually
+neutral. Vorvoreanu et al. (2019) stress, while leaning on Bardzell (2010), that attention to individual differences within genders can be emphasised by the notion of
+pluralism rather than universality. This approach supports individual differences
+and non-binary notions of gender identification, which can embrace also other underrepresented groups.
+
+
 ## References
 Barth, Derrick Ryan (2012). “Designing the Gender-Neutral User Experience”.Worcester, MA, USA:Worcester Polytechnic Institute.
 
