@@ -61,9 +61,9 @@ following main research question:
 To what extent established hardware for audio and music can communicate
 issues related to gender?
 This main research question is tackled by the following two research sub-questions:
- How can language of live interfaces in music inform about whether and how
+-  How can language of live interfaces in music inform about whether and how
 gender shapes musical tools?
- To what extent can gender bias in the design of musical interfaces be detected
+-  To what extent can gender bias in the design of musical interfaces be detected
 through visual cues?
 
 ## Background 
@@ -155,3 +155,7 @@ Vihma, Susann (2010). “On Design Semiotics”. In: MEI Objects & Communication
 
 Vorvoreanu, Mihaela et al. (2019). “From Gender Biases to Gender-Inclusive Design: An Empirical Investigation”. In: Proceedings of the 2019 CHI Conference on Human
 Factors in Computing Systems - CHI ’19. Glasgow, Scotland, UK:ACMPress, pp. 1–14.
+
+Xambó, Anna (2018). “Who Are theWomen Authors in NIME?—Improving Gender Balance in NIME Research”. In: Proceedings of the International Conference on New Interfaces for Musical Expression. Blacksburg, Virginia, USA, pp. 174–177.
+
+Zeiner-Henriksen, Hans T. (2014). “Old Instruments, New Agendas: The Chemical Brothers and the ARP 2600”. In: Dancecult 6.1, pp. 26–40.
