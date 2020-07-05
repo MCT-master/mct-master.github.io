@@ -8,7 +8,7 @@ image: /assets/image/2020_07_05_karolinajawad_continuum.png
 excerpt: "This dissertation looks into investigating the design of hardware
 for audio and music which is commonly associated with the term ‘music technology’ under the aspect of
 Gender-HCI, studies on science and technology as well as design research."
-Keywords: Audio interfaces, musical interfaces, Gender HCI, Inclusion, Pluralism, WoNoMute, DMI, Interaction Design
+Keywords: NIME, Audio interfaces, musical interfaces, Gender HCI, Inclusion, Pluralism, WoNoMute, DMI, Interaction Design
 ---
 
 
@@ -77,7 +77,7 @@ Therefore, music technology and musical instruments, like any other technology, 
 as well act as cultural and symbolic artefacts that absorb political content around
 access to, respectively, physical ability, gender, socio-economic status, class and cultural hierarchies (Morreale et al., 2020; Zeiner-Henriksen, 2014).
 
-### Gender HCI – Inspirational scholar review
+### Gender HCI – Inspiring Approaches
 Barth (2012) considered the current interface trends as predominantly biased towards male users as they have been considered the ’default’ gender in computing for decades. Gender HCI (Cassell, 2002) or feminist HCI (Bardzell, 2010) established in the last decade under the influence of HCI, design research (Demirbilek and Sener, 2003), STS, gender studies and psychology. This approach is a tool to deconstruct how gender identities shape the design and use of technological items (Bardzell, 2010). 
 For example examined Livingstone (1992) the ratings of participants that
 were asked to assign a symbolic gender to domestic technologies in brown goods
