@@ -8,7 +8,7 @@ image: /assets/image/2020_05_03_jacksong_baby-spa.jpg
 excerpt: "For the spring applied project we created music for a hardware specific device to relax colicy babies in a collaboration with our external partner, Dream Nest. Our final product is a six track EP, engineered to put your baby to sleep (we hope!)"
 Keywords: MCT, Dream Nest, sound engine
 ---
-The Dream Nest is a therapeutic product that uses low-frequency sound waves to sooth infants that suffer from various colic or stress related problems, in particular those associated with pre-term birth.
+The Dream Nest is a therapeutic product that uses low-frequency sound waves to sooth infants that suffer from various colic or stress related problems, in particular those associated with pre-term birth. The "nest" acts as a crib where sound therapy hopes to ease the tension of these babies. In addition to the low-frequency sound stimulation, our external partner wanted music elements. 
 
 ### What music is best for babies?
 
@@ -71,7 +71,7 @@ Samples of these musical works can be listened to here:
 
 ### Our sound engine
 
-In reference to the above scientific literature, our proposed “sound engine” for the Dream Nest incorporates the following elements:
+Though we decided to produce the Dream Nest EP as our major deliverable, one of our original ideas a generative sound engine was also something we wanted to work on. In reference to the above scientific literature, our proposed “sound engine” for the Dream Nest incorporates the following elements:
 
 * Original music composed specifically for Dream Nest
 * The mother’s recorded heartbeat
@@ -92,14 +92,12 @@ The various sound sources are combined in a simple, mixer-like interface allowin
 A short demonstration of the app is here:
 
 <figure align="middle">
-<video height="100%" width="100%" controls>
-  <source src="https://docs.google.com/uc?export=download&id=1RQSaxzYciynBS0PKyzhC57O0ErnbJ_la" type='video/mp4'>
-  Your browser does not support video tag.
-</video>
-<figcaption>Video of the MobMuPlat interface</figcaption>
+  <video height="100%" width="100%" controls>
+    <source src="https://docs.google.com/uc?export=download&id=1RQSaxzYciynBS0PKyzhC57O0ErnbJ_la" type='video/mp4'>
+    Your browser does not support video tag.
+  </video>
+  <figcaption>Video of the MobMuPlat interface</figcaption>
 </figure>
-
-Our Pure Data code for the app [is here](https://drive.google.com/open?id=16snQbv1wQ5fd8B3dTthX6eqprnb7fOmt)
 
 ### Future work
 
