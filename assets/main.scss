@@ -179,8 +179,8 @@ a {
     line-height: $base-line-height;
     display: inline;
     //padding: 5px 10px;
+    &:visited {color: $brand-color; }
     &:hover { color: darken($brand-color, 20%); }
-    &:visited {color: darken($brand-color, 0%); }
   }
 }
 
