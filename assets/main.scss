@@ -187,7 +187,7 @@ a {
 .dropdown li {
   padding: .5rem;
   color: $brand-color;
-  &:visited { color: $brand-color; }
+  //&:visited { color: $brand-color; }
 }
 
 ul.dropdown li {
@@ -342,13 +342,13 @@ iframe {
   display: table;
 }
 
-.post-link {
-  display: block;
-  &:visited {
-    color: $brand-color;
-  }
-  &:hover {
-    color: darken($brand-color, 20%);
-    text-decoration: none;
-  }
-}
+//.post-link {
+//  display: block;
+//  &:visited {
+//    color: $brand-color;
+//  }
+//  &:hover {
+//    color: darken($brand-color, 20%);
+//    text-decoration: none;
+//  }
+//}
