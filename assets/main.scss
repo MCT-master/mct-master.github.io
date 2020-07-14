@@ -128,6 +128,12 @@ iframe {
   padding-right: .5em;
   position: relative;
   text-align: left;
+  .page-link {
+    line-height: $base-line-height;
+    display: inline;
+    //padding: 5px 10px;
+    &:hover { color: darken($brand-color, 20%); }
+  }
 }
 
 ul.dropdown li {
