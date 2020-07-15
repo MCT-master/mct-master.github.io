@@ -41,6 +41,7 @@ plugins:
 
 show_excerpts: true
 
+#this is needed to generate the author pages
 collections:
   authors:
     output: true
@@ -52,10 +53,12 @@ defaults:
     values:
       layout: "author"
 
+#this is needed to paginate the list of posts in the homepage
 paginate: 5
 
 paginate_path: "/blog/page:num/"
 
+#allowed categories
 categories:
   - applied-project
   - audio-programming
