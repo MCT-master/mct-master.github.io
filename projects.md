@@ -9,32 +9,10 @@ permalink: /projects/
   <ul class="post-list">
     {%- for post in site.posts -%}
     {%- if post.categories contains 'applied-project'
-    or post.categories contains 'masters-thesis'
-    -%}
+    or post.categories contains 'masters-thesis' -%}
 
-    <li>
-      {%- if post.image -%}
-      <img src="{{ post.image | prepend: site.baseurl }}" alt="{{ post.title }}" title="{{ post.title }}">
-      {%- endif -%}
-      {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
-      <span class="post-meta">{{ post.date | date: date_format }}</span>
-      <span class="post-meta">• {{ post.author }}</span>
-      <br />
-      <span class="post-meta"><strong>{{ post.categories | join: ", " }}</strong></span>
-      <h3 align="left">
-        <a class="post-link" href="{{ post.url | relative_url }}">
-          {{ post.title | escape }}
-        </a>
-      </h3>
-      {%- if site.show_excerpts -%}
-        {{ post.excerpt }}
-      {%- endif -%}
-      <h4>
-      <a href="{{ post.url | relative_url }}">
-        Read more
-      </a>
-      </h4>
-    </li>
+    {%- include list-body.html -%}
+
     {%- endif -%}    
     {%- endfor -%}
   </ul>
