@@ -4,7 +4,7 @@ title: "Meet MCT Group A 2020"
 date: 2020-08-21 15:17:00 +0200
 categories: people
 author: Leigh Murray, Alena Clim, Abhishek Choubey  
-image: /assets/image/2020_08_21_group_a.jpeg
+image: /assets/image/2020_08_21_leigh_group_a.jpeg
 excerpt: "Alena wanted to call us KitKat but we all decided against it."
 ---
 
@@ -51,7 +51,7 @@ If we were to use only two words to describe Alena, they would be beautiful arti
 
 ## All about Abhishek Choubey (pronounced Chou-Bay)
 
-![Photo of Abhishek Choubey](/assets/image/2020_08_21_leigh_abhishek.jpeg "Abhishek Choubey")
+![Photo of Abhishek Choubey](/assets/image/2020_08_21_leigh_abhishek.jpg "Abhishek Choubey")
 
 
 Abhishek calls himself a music nerd and music hunter, always on the lookout for good music (recommendations more than welcome). Just like everyone at the MCT, he also has music in his heart. He loves chill electronic beats with lush atmospheres, which is also evident in the productions which he releases under his Artist alias, “Neerr”. He has a wide gamut of interests which he will try converging in the MCT program. Having done his undergrad in Electronics & Instrumentation Engineering he started living music full time.  He has also been DJing here & there and loves it. Heavily obsessed with reverb and how it changes the audio he tries to take listeners on a spatial experience with his music. His favorite artists are Flume,Odesza, Shallou & Two Lanes. What are yours? Send him an email.
