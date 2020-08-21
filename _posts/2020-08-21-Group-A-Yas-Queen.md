@@ -18,18 +18,31 @@ excerpt: "Alena wanted to call us KitKat but we all decided against it."
 ### Fun Version
 
 L: Alena wanted to call us KitKat but we all decided against it. This brought us closer together as a team.
+
 A: Moreover, Leigh made fun of my grammar, while I complimented his smile. After this, he decided to call the team Yas Queen, because he promised to agree on everything I’ll say.
+
 C: IDK I envy you guys because you have lovely cats and I don't have any pets :( We had a cow before, but not anymore.
+
 A: That’s so sad to hear… holy cow…
-C: it's literally holy in India, but it's almost alright for me.
+
+C: it's literally holy in India.
+
 L: Sounds like a delicious pet to have. Alena has low Iron in her blood and needs to eat red meat, but cows are holy in India, so we have an internal conflict we will have to overcome.
+
 A: After some struggles, we decided that I’ll just look for some other red meat to eat…
+
 L: I suggest elg, it’s quite popular in Norway. (and not holy in india as far as I know).
+
 A: If you ever saw an elg in India, it was most certainly holy.
+
 C: I am a vegetarian, guys, so it doesn't matter what you guys eat.
+
 A: Here goes the hope that we’ll have pepperoni pizza together.
+
 C: I will have just the base of the pizza.
+
 L: It’s all about the bass.
+
 A: ALL.
 
 ### Boring Version
@@ -67,9 +80,6 @@ Abhishek calls himself a music nerd and music hunter, always on the lookout for 
 ![Photo of Leigh Murray](/assets/image/2020_08_21_leigh_me.jpg "Leigh Murray")
 
 Leigh comes from an academic background of games and web development. He began playing piano at the age of 3, trumpet at 6 and guitar at 9.  When covid hit in 2020 he began to get back into music production and decided to look for courses to develop his skills in this area. The MCT course at UiO was the perfect opportunity to bring together this background of games development, music and interest in psychology/neuroscience.
-
-* [Website](https://pkgregory.com)
-
 
 ## Team Skills
 
