@@ -1,20 +1,19 @@
 ---
 layout: post
-title:  "The design and evaluation of the Gyroshuffle"
-date:   2020-07-31 17:14:00 +0200
+title: The design and evaluation of the Gyroshuffle
+date: 2020-07-31 17:14:00 +0200
 categories: masters-thesis
 author: Sam Roman
-image: /assets/image/2018_08_01_stefanof_mct-master-630.jpg
+image: /assets/image/2020_07_31_samuero_myohands.jpg
 keywords: NIME, Myo, Real-time, IMS, HCI, Interactive Music System, instrumentation, dance
-excerpt: "The aim of this study is to develop and evaluate the Gyroshuffle, a real time rhythmic instrument played with body movement. It is theorised that moving to the rhythm, whilst controlling the rhythm is possible with the Gyroshuffle, blurring the lines between dancing and producing music" in real time."
-
+excerpt: "The aim of this study is to develop and evaluate the Gyroshuffle, a real time rhythmic instrument played with body movement. It is theorised that moving to the rhythm, whilst controlling the rhythm is possible with the Gyroshuffle, blurring the lines between dancing and producing music in real time."
 ---
 
 # The design and evaluation of the Gyroshuffle
 #### A real-time quantised rhythmic instrument
 
 <figure align="middle">
-<img src="/assets/image/2020_07_31_samuero_myohands" width="95%"/>
+<img src="/assets/image/2020_07_31_samuero_myohands.jpg" width="95%"/>
 <figcaption><strong>Myo armbands in hands</strong></figcaption>
 </figure>
 
@@ -23,14 +22,14 @@ The aim of this study is to develop and evaluate the Gyroshuffle, a real time 
 ### Gyroshuffle mapping diagram & demonstration
 
 <figure align="middle">
-<img src="/assets/image/2020_07_31_samuero_gesturesmyo" width="95%"/>
+<img src="/assets/image/2020_07_31_samuero_gesturesmyo.jpg" width="95%"/>
 <figcaption><strong>Gestures of the Gyroshuffle</strong></figcaption>
 </figure>
 
 
 <figure align="middle">
-<img src="/assets/image/2020_07_31_samuero_mappingmyo" width="95%"/>
+<img src="/assets/image/2020_07_31_samuero_mappingmyo.jpg" width="95%"/>
 <figcaption><strong>Full mapping of the Gyroshuffle</strong></figcaption>
 </figure>
 
-https://youtu.be/i4VecWkun-A
+<iframe width="800" height="450" src="https://www.youtube.com/embed/i4VecWkun-A" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
