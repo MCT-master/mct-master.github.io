@@ -51,7 +51,7 @@ This is the student-led blog related to the **Music, Communication & Technology 
 &nbsp;&nbsp;&nbsp;[Leigh Murray]()  
 &nbsp;&nbsp;&nbsp;[Henrik Sveen](/authors/henriksveen.html)  
 &nbsp;&nbsp;&nbsp;[Pedro Lucas](/authors/pedrolucas.html)  
-&nbsp;&nbsp;&nbsp;[Joni Mok]()
+&nbsp;&nbsp;&nbsp;[Joni Mok]()   
 &nbsp;&nbsp;&nbsp;[Wenbo Yi](/authors/wenboyi.html)
 
 #### NTNU, Trondheim
