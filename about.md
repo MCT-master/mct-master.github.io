@@ -43,6 +43,22 @@ This is the student-led blog related to the **Music, Communication & Technology 
 &nbsp;&nbsp;&nbsp;[Thibault Jaccard](/authors/thibaultjaccard.html)  
 &nbsp;&nbsp;&nbsp;[Simon Sandvik](/authors/simonsandvik.html)  
 
+### 2020-2022
+#### UiO, Oslo
+&nbsp;&nbsp;&nbsp;[Alena Clim]()  
+&nbsp;&nbsp;&nbsp;[Stephen Gardener]()  
+&nbsp;&nbsp;&nbsp;[Anders Lidal](/authors/anderslidal.html)  
+&nbsp;&nbsp;&nbsp;[Leigh Murray]()  
+&nbsp;&nbsp;&nbsp;[Henrik Sveen](/authors/henriksveen.html)  
+&nbsp;&nbsp;&nbsp;[Pedro Lucas](/authors/pedrolucas.html)  
+&nbsp;&nbsp;&nbsp;[Joni Mok]()
+&nbsp;&nbsp;&nbsp;[Wenbo Yi](/authors/wenboyi.html)
+
+#### NTNU, Trondheim
+&nbsp;&nbsp;&nbsp;[Willie Mandeville](/authors/williemandeville.html)  
+&nbsp;&nbsp;&nbsp;[Lindsay Charles](/authors/lindsaycharles.html)  
+&nbsp;&nbsp;&nbsp;[Abhishek Choubey](/authors/abhishekchoubey.html)  
+
 
 <!--
 
