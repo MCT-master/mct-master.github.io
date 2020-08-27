@@ -84,3 +84,16 @@ Leigh comes from an academic background of games and web development. He began p
 ## Team Skills
 
 ![Padlet](/assets/image/2020_08_21_leigh_padlet.jpg "Padlet")
+
+
+## Team Reflections
+
+
+During these first two weeks, we did a lot of fun and interesting activities, while discovering new opportunities and challenges, as it’s the first 100% digital course we are attending. We are a small team but fun, nicely balanced from a skills perspective and very diverse, all being from different countries. The short presentations and the quiz helped understand our various cultural and academic backgrounds and minimize the unconscious biases that might have been present in our class. Something to consider might be to have each class member do similar presentations about themselves in addition to their hometowns as it would help bring the whole class further together as we still don’t know our other classmates very well.
+
+At the team level, we are still trying to find the best ways to collaborate on tasks.  This far, we utilised google docs so that we can all contribute simultaneously - it is great for gathering ideas but can result in a less coherent final product and a feeling of “stepping on each other's toes”. It was useful to have these introductory tasks, as we realised we should consider alternative platforms for future and more complex projects. 
+
+It was interesting to see that technology can make things less managed - everyone has equal responsibility within a flat team structure in contrast to a hierarchy with a team leader. In our previous experience, team projects would have each member write their own contribution and then a single member would be responsible for collating them. This is something we may consider for future tasks as it doesn’t rely on everyone being available at the same time (important with different time zones/work schedules) and allows team members to work individually in the way that best suits themselves. Combining our abilities and learning from each other is something we are looking forward to. 
+
+It was a bit disheartening to hear from the graduating students that they faced a lot of difficulties in the course despite being on campus together, and how glad they were that they didn’t have to overcome these challenges in addition to the “covid” related issues we are facing this semester. However, we are sure it will be worth the wait to meet physically - and through the Portal (hopefully in the second semester 🤞 !)
+
