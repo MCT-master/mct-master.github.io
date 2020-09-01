@@ -71,9 +71,9 @@ There are still some unanswered questions I have about more technical aspects of
 You can find the code [here](https://github.com/jacksonmgoode/breathingthroughmax) along with a setup.
 
 <figure align="middle">
-<video height="100%" width="100%" controls>
-  <source src="https://docs.google.com/uc?export=download&id=1G64dQ5iub0O7MClNNkbH5ktVX5hHf0e8" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen alt="A demo of the system" type='video/mp4'>
-  Your browser does not support video tag.
-</video>
+    <video height="100%" width="100%" controls>
+    <source src="https://docs.google.com/uc?export=download&id=1G64dQ5iub0O7MClNNkbH5ktVX5hHf0e8" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen alt="A demo of the system" type='video/mp4'>
+    Your browser does not support video tag.
+    </video>
     <figcaption>A demo of the system using pre-recorded data</figcaption>
 </figure>
