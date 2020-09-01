@@ -9,12 +9,17 @@ excerpt: "The class of 2021 recently presented broadly on networking and audio w
 Keywords: Portal, audio, networking, cross-campus
 ---
 
+### Audio in the Portal
+
 <figure align="middle">
-    <iframe src="https://drive.google.com/file/d/1lmmMjimdmNrnFy_MT7jGKR6gRbFkyB4z/view" width="800px" height="480px" allow="accelerometer; autoplay; encrypted-media; gyroscope" allowfullscreen></iframe>
+    <iframe src="https://drive.google.com/file/d/1lmmMjimdmNrnFy_MT7jGKR6gRbFkyB4z/preview" width="800px" height="480px" allowfullscreen></iframe>
     <figcaption>Our presentation on audio</figcaption>
 </figure>
 
+
+### A Brief on Network Audio
+
 <figure align="middle">
-    <iframe src="https://drive.google.com/file/d/1Gis9vvUJioKamzqrBFqPP7CJc0c8LntS/view" width="800px" height="480px" allow="accelerometer; autoplay; encrypted-media; gyroscope" allowfullscreen></iframe>
+    <iframe src="https://drive.google.com/file/d/1Gis9vvUJioKamzqrBFqPP7CJc0c8LntS/preview" width="800px" height="480px" allowfullscreen></iframe>
     <figcaption>Our presentation on networking</figcaption>
 </figure>
