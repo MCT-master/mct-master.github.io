@@ -2,7 +2,7 @@
 layout: post
 title: "Jamulus, or jamu-less?"
 date: 2020-09-03 10:30:00 +0200
-categories: miscellaneous
+categories: portal
 author: Pedro Lucas, Willie Mandeville, Henrik Sveen, Anders Lidal
 image: /assets/image/2020_09_03_williakm_groupb_jamulus.png
 keywords: jamulus, music, latency
