@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Jamulus: Can y** hear *e now?"
+title: "Jamulus: Can y-- hear -e now?"
 date: 2020-09-06 20:12:57 +0200
 categories: portal
 author: Alena Clim, Leigh Murray, Abhishek Choubey 
@@ -9,7 +9,7 @@ keywords: jamulus, latency, jamming
 excerpt: "During the second session of the Physical-Virtual Communication and Music course from 2020, we had our first experience with telematic music performance. It was not the greatest jam we ever had, but we learned from it."
 ---
 
-# Jamulus: Can y** hear *e now?
+# Jamulus: Can y-- hear -e now?
 
 During the second session of the Physical-Virtual Communication and Music course from 2020, we had our first experience with telematic music performance. It was not the greatest jam we ever had, but we learned from it.
 
