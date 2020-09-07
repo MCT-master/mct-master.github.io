@@ -29,3 +29,5 @@ In reflections of what we tried out during the jam, we all agreed that we should
 
 Nevertheless, we enjoyed listening to Team B, we found they did a fantastic job. The reason behind could also be because of the locations, most of the members were in the same region and they also chose the right ambient music to jam on.
 Finally, the experience of our first jamulus experience was awkward and rather frustrating.
+
+![Wenbo's metronome](/assets/image/2020_09_07_team_c_metronome.jpg "Wenbo's 2020_09_07_team_c_metronome")
