@@ -28,3 +28,15 @@ The real challenge was to place yourself and your co-musicians in the mix. To ke
 
 ### Audiovisual
 The experience also made clear that playing together is not only about hearing – but also about seeing – each other. When jamming with other people, especially people you haven’t played with before and don’t know musically, seeing is essential. It might be another experience if we had tried a standard song everyone knew really well, but without being able to communicate visually while playing (we tried to use Zoom for this simultaneously and found it more confusing than no visuals at all), Jamulus and other services like it will remain good ideas that haven’t yet been successfully executed.
+
+### Jamulus Epilogue - Can’t Forget About Human Error
+
+One week later...
+
+In a follow-up Jamulus session, we had hoped to experiment with more rhythmically dynamic music. It had been helpful to lean on an ambient approach in our first Jamulus session, but we hoped to learn more about the specifics of our latency problems by pairing off in duos or trios with the fourth participant listening for latency details that are harder to hear when playing.
+
+However, much to our surprise, Jamulus appeared during our second session to be performing much worse than it had previously. Latency was less consistent in its length, and one group member reported that the value for ‘Overall Delay’ on his end was ping-ponging back and forth between 20ms and over 200ms. It seemed that Jamulus was just not having a good day.
+
+But wait! Right when we were about to blame Jamulus for everything, we realized the root of the problem was actually the dreaded human error. While attempting to use Jamulus the group was simultaneously uploading over .6 GB of audio files to a shared dropbox. Oops. Obviously we had found a very, very effective way to ensure that our Jamulus experience would suffer.
+
+The moral of this story is nuanced. Is Jamulus perfect? No, issues of timing and visual experience that we detailed after our first session are valid problems that limited the satisfaction we found in using Jamulus. However, our second session proved just how important it is to optimize the conditions in which one is using Jamulus. The more that the human user can help Jamulus succeed by minimizing any other computing demands, the better Jamulus will be.
