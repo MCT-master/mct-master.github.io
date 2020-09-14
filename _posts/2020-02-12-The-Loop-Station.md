@@ -13,7 +13,7 @@ Keywords: Audio Programming, Pure Data, MCT4048, Loop, Playback, Record
 
 When you switch from being the user of a product, to become the one who is building the product that you need yourself, things change completely. This is an attempt to create a Loop Station with features that I wish I had in such a pedal / software.
 
-With four independent channels routed to integrated FX busses, such as pitch_shift and reverb, this Loop Station promisses to attend a lot of needs of artists that use loopers to jam in live performances or as tool in the creative process of composing.
+With four independent channels routed to integrated FX busses, such as pitch_shift and reverb, this Loop Station aims to attend several needs of artists that use loopers to jam in live performances or as tool in the creative process of composing.
 
 <figure align="middle">
    <img src="https://drive.google.com/uc?export=view&amp;id=1uA2-cSqUJZKz0q6C7xz_v4XxDX117IXC" width="auto" height="auto" />
