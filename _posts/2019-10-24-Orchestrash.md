@@ -30,6 +30,13 @@ Sensors:
 - Microphone placed in a glass bottle.
 - Buttons to trigger samples.
 
+## Hackathon Performance
+
+<p align="center">
+<iframe width="832" height="468" src="https://youtu.be/xXK0Q3u_iQ0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+</iframe>
+</p>
+
 ## Instruments
 
 Below, each of us will present their instrument.
