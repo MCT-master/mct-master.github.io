@@ -6,7 +6,7 @@ categories: portal
 author: Alena Clim, Leigh Murray, Abhishek Choubey 
 image: /assets/image/2020-09-06-alenacl-team-a.jpg
 keywords: jamulus, latency, jamming
-excerpt: "During the second session of the Physical-Virtual Communication and Music course from 2020, we had our first experience with telematic music performance. It was not the greatest jam we ever had, but we learned from it."
+excerpt: "During the second session of the Physical-Virtual Communication and Music course from 2020, we had our first experience with telematic music performance. It was not the greatest jam we ever had, but we learned from it. "
 ---
 
 # Jamulus: Can y-- hear -e now?
@@ -34,3 +34,18 @@ We conducted a trace-route to see how international network traffic reached Tron
 After the disappointing session, we started seeing the experience from the perspective of the audience while other teams tried testing Jamulus on the (Trondheim) Jamulus server. Listening to them jam along with each other was also not so smooth of an experience, but it was definitely better than what we experienced. Due to the latency and delay, it was hard to follow their jam as they played along with a metronome that one of the team members had on. We were watching them via Zoom, and listening to them play through Jamulus. With this experience it is evident that jamming together is not just about playing musical instruments, but rather about the physical emotion and certain cues that musicians exchange make analog jamming the fun that it is.
 
 Given the simplicity of setting up a Jamulus server (it took us around 30 minutes) and there are only 3 groups in our class we would recommend having a Jamulus server set up for each group in the future so that we can all practice simultaneously.
+
+
+### Second experience: another chance?
+
+In our second attempt to make music together using Jamulus, we had hoped that we would atleast get connected and be able to play some music, unlike our previous disheartening experience, and our expectations were satisfied to a point. We were all able to connect to Jamulus (albeit Choubey and Leigh’s devices would crash if both Zoom and Jamulus would be connected to audio) and we could listen to each other, but did we make music together? Not so much.
+
+Last time we tried to synchronize an electric guitar, an ukulele and a classical guitar, but this time we decided to only use an acoustic guitar and ukulele together with a shaker that would keep the rhythm. This time around, Alena also had a wired connection, and her latency was reduced to 63 ms. However, when trying to play together, using a metronome for reference, we only managed to be in sync two by two: if two of us appeared to be playing at the same time, the third would be totally off the rhythm. 
+
+![Jamming while referencing a metronome.](/assets/image/2020_09_14_alenacl_metronome_jamming.jpg "Metronome reference.")
+
+Trying to solve the latency problem, we jammed at a very low tempo, around 40bpm. Playing at such low tempo was impractical, from a musical point of view, but it improved our coordination … slightly. With the metronome as our reference we all kept in mind our delay and managed to play in sync for a few seconds. However, the musical output sounded robotic and even nostalgic, as it felt like we were just learning to play the instruments rather than jamming together. 
+
+In conclusion, our second session of using Jamulus came with some improvement. On the technological front, we were able to connect to Jamulus and hear each other play! On  the musical front, we still could not play music together in the wide sense. We played our instruments in sync and created an (interesting) musical output; however, it couldn’t be called jamming by any traditional means.
+
+Based on our experience, Jamulus is an acceptable platform for online jamming - with some restrictions. If the latency between musicians is higher than 20-30 ms and/or there is a substantial physical distance between them, only two people can play together and be in sync. If the latency for all participants is lower than that (or they are all in the same area), then it is most likely possible to have more people jam together. It is very good practice to have wired internet connection (both due to its increased stability and bandwidth), and it’s good to combine different types of instruments. 
