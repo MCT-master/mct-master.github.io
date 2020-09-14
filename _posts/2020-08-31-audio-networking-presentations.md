@@ -4,7 +4,7 @@ title: "Audio and Networking in the Portal - Presentations"
 date: 2020-08-31 22:00:00 +0100
 categories: portal
 author: Jackson Goode
-image: 
+image: /assets/image/2018_08_01_stefanof_mct-master-630.jpg
 excerpt: "The class of 2021 recently presented broadly on networking and audio within the context of the Portal. Presentations are included in this blog post as pdfs."
 Keywords: Portal, audio, networking, cross-campus
 ---
