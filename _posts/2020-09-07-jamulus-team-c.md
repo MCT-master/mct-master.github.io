@@ -34,7 +34,7 @@ Finally, the experience of our first jamulus experience was awkward and rather f
 
 
 # Jamulus II : Interesting and Comic
-![Group C Jamulus](/assets/image/2020_09_group_c_jam.jpg "Group C Jam")
+![Group C Jamulus](/assets/image/2020_09_14_group_c_jam.jpg)
 
 
 A week later...
