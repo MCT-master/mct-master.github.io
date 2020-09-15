@@ -32,10 +32,12 @@ Finally, the experience of our first jamulus experience was awkward and rather f
 
 ![Wenbo's metronome](/assets/image/2020_09_07_team_c_metronome.jpg "Wenbo's 2020_09_07_team_c_metronome")
 
+
 # Jamulus II : Interesting and Comic
+![Group C Jamulus](/assets/image/2020_09_group_c_jam.jpg "Group C Jam")
 
 
-A week later.
+A week later...
 
 Our second attempt to jam in the Jamulus. This time, from our learnings from the past session, most of us chucked away our own musical instruments, Stephan’s bass, Wenbo’s piano and Joni’s flute. Instead we tried to use VST's on iPads routing it directly into the jamulus, digital piano as synthesisers and experimented with another song that doesn't require time precision but focuses on improvisation.
 
