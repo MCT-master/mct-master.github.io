@@ -143,7 +143,7 @@ a {
 .post-content {
   margin-bottom: $spacing-unit;
 
-  h2 {
+  h1 {
     @include relative-font-size(1.75);
 
     @include media-query($on-laptop) {
@@ -151,7 +151,7 @@ a {
     }
   }
 
-  h3 {
+  h2 {
     @include relative-font-size(1.375);
 
     @include media-query($on-laptop) {
@@ -159,7 +159,7 @@ a {
     }
   }
 
-  h4 {
+  h3 {
     @include relative-font-size(1.125);
 
     @include media-query($on-laptop) {
