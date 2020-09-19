@@ -92,7 +92,7 @@ As seen in the first table above, the first comparisons were not as bad as antic
 
 At best, I only managed to decrease the differences by approximately 2-3\% when adding 1/4 of artificial training data. The lack of performance variation from extending the dataset in this way can indicate sub-optimal algorithm parameters, dataset quality and/or dataset size. Most likely due to the latter..
 
-# Discussion
+# Concluding Remarks
 Evaluating performance metrics of a machine learning model depends on the system in question. I set out to prove that using Spotify data to train a machine learning model was feasible, and I believe this project has proved this concept.
 
 The obvious dataset limitations were largely attributed to an inefficient process of gathering and labeling data. I believe that the system could have been better if the theme of the project was adjusted. For instance, comparisons of baroque composers or different musical genres could have facilitated a more effective data collection process. Alternatively, a more specialized focus, for instance on only piano sonatas or preludes, could also have yielded better results despite having a shortage of data.
