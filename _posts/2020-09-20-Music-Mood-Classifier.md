@@ -81,21 +81,21 @@ During the evaluation of the impact that each feature extraction caused on the s
 
 * Chroma Features
 
-- https://musicinformationretrieval.com/chroma.html
+https://musicinformationretrieval.com/chroma.html
 
-- https://en.wikipedia.org/wiki/Chroma_feature
+https://en.wikipedia.org/wiki/Chroma_feature
 
 Chroma-based features are efficient for analyzing music whose pitches can be meaningful for the categorization. They extract harmonic and melodic attributes of audio, being consistent to changes in timbre and instrumentation, and having a close correlation to harmony.
 
 * Chroma Constant-Q
 
-- https://en.wikipedia.org/wiki/Constant-Q_transform
+https://en.wikipedia.org/wiki/Constant-Q_transform
 
-- https://www.hindawi.com/journals/cin/2016/6172453/
+https://www.hindawi.com/journals/cin/2016/6172453/
 
-- http://academics.wellesley.edu/Physics/brown/pubs/cq1stPaper.pdf
+http://academics.wellesley.edu/Physics/brown/pubs/cq1stPaper.pdf
 
-- https://dsp.stackexchange.com/questions/43811/what-is-the-difference-between-constant-q-transform-and-wavelet-transform-and-wh
+https://dsp.stackexchange.com/questions/43811/what-is-the-difference-between-constant-q-transform-and-wavelet-transform-and-wh
 
 A chroma vector indicates how much energy of each pitch class is present in the signal. The constant Q transform
 can be used for automatic recognition of musical keys based on accumulated chroma content.
@@ -104,9 +104,9 @@ songs.
 
 * Tonnetz
 
-- https://en.wikipedia.org/wiki/Tonnetz
+https://en.wikipedia.org/wiki/Tonnetz
 
-- https://dl.acm.org/doi/10.1145/1178723.1178727
+https://dl.acm.org/doi/10.1145/1178723.1178727
 
 Experiments show that Tonnetz can successfully detect harmonic changes such as chord boundaries in musical audio.
 
@@ -114,11 +114,11 @@ This way, Tonnetz was utilized to help distinguish between audio samples with rh
 
 * Tempogram
 
-- https://musicinformationretrieval.com/tempo_estimation.html
+https://musicinformationretrieval.com/tempo_estimation.html
 
-- https://ieeexplore.ieee.org/document/7178003
+https://ieeexplore.ieee.org/document/7178003
 
-- http://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.400.1218
+http://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.400.1218
 
 Tempogram indicates the prevalence of certain tempi at each moment in time, developed to characterize tempo variation and local pulse in the audio signal.
 
@@ -126,7 +126,7 @@ This feature was chosen to identify clear dierences between high tempo songs an
 
 * Spectral Contrast
 
-- http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.583.7201&rep=rep1&type=pdf
+http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.583.7201&rep=rep1&type=pdf
 
 For most music, the strong spectral peaks roughly correspond with harmonic components; while non-harmonic
 components, or noises, often appear at spectral valleys. Precious studies show that spectral Contrast provide a
@@ -136,15 +136,15 @@ For that reason, Spectral Contrast was included in the features combination.
 
 * Zero Crossing Rate
 
-- https://en.wikipedia.org/wiki/Zero-crossing_rate
+https://en.wikipedia.org/wiki/Zero-crossing_rate
 
-- http://mir.dei.uc.pt/pdf/Theses/MOODetector/Panda%20MSc%20Thesis%202010.pdf
+http://mir.dei.uc.pt/pdf/Theses/MOODetector/Panda%20MSc%20Thesis%202010.pdf
 
 The zero-crossing rate is the rate at which the signal changes from positive to zero to negative or from negative to zero to positive, which turns to be useful to classify percussive sounds. Also, it can be used as a simple indicator of noisiness. As most of the songs at the Aggressive category are under heavy metal genre or have similar characteristics when it comes to noisy content, distortion and fast percussive sounds, this feature was useful to discriminate this category against the others, having higher zero crossing values than calm songs.
 
 * RMS
 
-- https://www.sweetwater.com/insync/rms-root-mean-square/#:~:text=With%20audio%2C%20the%20signal%20value,effective%20power%20of%20the%20signa
+https://www.sweetwater.com/insync/rms-root-mean-square/#:~:text=With%20audio%2C%20the%20signal%20value,effective%20power%20of%20the%20signa
 
 RMS has as result a value that makes an eective representation of the power of the signal. Also interesting
 to use for the same reason as the feature mentioned above, including a more clear classication of Uplifting
@@ -164,14 +164,15 @@ At first the system was trained and tested with a smaller data set, which was 40
 
 After increasing the data set, the accuracy results were more consistent, not varying as much, but surprisingly, the classification of Melancholic and Calm became much worse than before, when it was classifying Calm songs correctly but misunderstanding the dierences between Melancholic and Calm songs, classifying many Melancholic songs as Calm. It is reasonably comprehensive, since the two categories are very related for some similarities on the audio features. After increasing the data set, these two categories turned to be very badly classied, but the Uplifting and Aggressive songs kept the good results.
 
+
 <figure text-align="center">
-    <img src="/assets/image/2020_09_20_rayaml_precision" width="600px">
-    <figcaption>2D Valence-Arousal emotion space (Russell, 1980)</figcaption>
+    <img src="/assets/image/2020_09_20_rayaml_precision.png" width="600px">
+    <figcaption>Precision</figcaption>
 </figure>
 
 <figure text-align="center">
-    <img src="/assets/image/2020_09_20_rayaml_ConfusionMatrix-graph" width="600px">
-    <figcaption>2D Valence-Arousal emotion space (Russell, 1980)</figcaption>
+    <img src="/assets/image/2020_09_20_rayaml_ConfusionMatrix-graph.png" width="600px">
+    <figcaption>Confusion Matrix</figcaption>
 </figure>
 
 ## Conclusions
