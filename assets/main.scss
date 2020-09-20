@@ -166,6 +166,15 @@ a {
       @include relative-font-size(1.075);
     }
   }
+
+  h4 {
+    @include relative-font-size(1.075);
+
+    @include media-query($on-laptop) {
+      @include relative-font-size(1.025);
+    }
+  }
+
 }
 
 .site-nav{
