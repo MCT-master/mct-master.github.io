@@ -22,14 +22,14 @@ Most of the music theory relies on *Mark Levine*’s jazz theorizing (Levine 199
 The *Weimar Jazz Database* (Pfleiderer 2017) contains manual transcriptions of 456 famous jazz monophonic solos. One of them, *Benny Goodman*'s improvisation on *Handful of Keys*, is shown in **fig. 1** as a PDF score.
 
 <figure align="middle">
-   <img src="/assets/image/2020_09_21_thibault_handful_of_keys.png" width="auto" height="auto"/>
+   <img src="/assets/image/2020_09_21_thibault_handful_of_keys.png" width="auto" height="400"/>
    <figcaption><strong>Fig. 1</strong>: <em>Handful of Keys</em> as a score </figcaption>
 </figure>
 
 In the database, chords are represented as strings, and notes as MIDI pitches. Notes that are missing harmonic context (notated N.C.) are simply discarded. **Fig. 2** reveals what exact data is being retrieved from *Handful of Keys* (song no 15 in the *WJazzD*).
 
 <figure align="middle">
-   <img src="/assets/image/2020_09_21_thibault_15.png" width="auto" height="auto"/>
+   <img src="/assets/image/2020_09_21_thibault_15.png" width="auto" height="600"/>
    <figcaption><strong>Fig. 2</strong>: <em>Handful of Keys</em> as a data set </figcaption>
 </figure>
 
@@ -56,12 +56,12 @@ The features represent the harmonic contexts of any chord. Many notations and ne
 The relative pitch classes (rpc) are defined as the difference (%12) between the chord notes’ pitch classes and the pitch class of the current chord’s fundamental. **Fig. 3** shows a sample of features associated to a target. **Fig. 4** aims to represent the data set by showing the slight differences between major and minor 6th cases in the *WJazzD*.
 
 <figure align="middle">
-   <img src="/assets/image/2020_09_21_thibault_features_and_target.png" width="auto" height="auto"/>
+   <img src="/assets/image/2020_09_21_thibault_features_and_target.png" width="800" height="auto"/>
    <figcaption><strong>Fig. 3</strong>: Features and target </figcaption>
 </figure>
 
 <figure align="middle">
-   <img src="/assets/image/2020_09_21_thibault_rpc_plot.png" width="auto" height="auto"/>
+   <img src="/assets/image/2020_09_21_thibault_rpc_plot.png" width="800" height="auto"/>
    <figcaption><strong>Fig. 4</strong>: Proportion of each rpc for each neighbouring chord, classed by most probable alteration</figcaption>
 </figure>
 
