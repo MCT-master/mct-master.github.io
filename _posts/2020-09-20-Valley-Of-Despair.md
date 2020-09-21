@@ -20,7 +20,7 @@ MCT4047 is a tough course. There’s no sugarcoating it. Machine learning is a h
 Or, maybe not. If you have a good background in maths, some programming skill, and a fully-functioning frontal lobe, it’s easy! How nice for you. As for me, all I can say is time will beat you like a rented mule. Add in a deep suspicion of robits and a pernicious latent Luddism in general, and I’m pretty much that old guy at the park shouting at the kids to get their damn computers off my park bench.
 
 <figure align="middle">
-<img src="/assets/image/2020_09_20_paulgk_Dunning_Kruger.jpeg" width="80%"/>
+<img src="/assets/image/2020_09_20_paulgk_Dunning_Kruger.png" width="80%"/>
 <figcaption><strong>figure 1: Dunning-Kruger Curve</strong></figcaption>
 </figure>
 
