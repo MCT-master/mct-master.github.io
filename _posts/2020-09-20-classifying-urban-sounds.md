@@ -9,7 +9,7 @@ keywords: machine learning, keras, cnn, urbansound8K
 excerpt: How well does a convolution neural network perform at detecting multiple classes within a single sample? This experiment explores augmenting the UrbanSound8K database to test a well performing CNN architecture in a multi-label, multi-class scenerio.
 ---
 
-# Enviromental Sound Classification to the Max
+# Environmental Sound Classification over Concurrent Samples
 
 Given the short two week span to develop a machine learning model, I decided on repurposing some pre-existing methods in approaching environmental sound classification.  Environmental sound classification (ESC) is a field that benefits well from machine learning techniques, as the data examined will always be unique and noisy. Two well known databases, UrbanSound8K (US8K) [5] and ESC-50 [9] provide recordings from Freesound.org, trimmed, labeled and grouped into categories for analysis. This system attempts to utilise a convolution neural network (CNN) on an augmented UrbanSound8K dataset for multi-label classification.
 
