@@ -29,7 +29,7 @@ The *Weimar Jazz Database* (Pfleiderer 2017) contains manual transcriptions of 4
 In the database, chords are represented as strings, and notes as MIDI pitches. Notes that are missing harmonic context (notated N.C.) are simply discarded. **Fig. 2** reveals what exact data is being retrieved from *Handful of Keys* (song no 15 in the *WJazzD*).
 
 <figure align="middle">
-   <img src="/assets/image/2020_09_21_thibault_15.png" width="400" height="auto"/>
+   <img src="/assets/image/2020_09_21_thibault_15.png" width="550" height="auto"/>
    <figcaption><strong>Fig. 2</strong>: <em>Handful of Keys</em> as a data set </figcaption>
 </figure>
 
