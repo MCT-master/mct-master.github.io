@@ -1,10 +1,10 @@
 ---
 layout: post
-title: ""
+title: "ML something creative"
 date: 2020-09-21 21:41:01 +0100
 categories: machine-learning
 author: Gaute Wardenær
-image: https://images.app.goo.gl/NjPaMWQomtvkq9rr6
+image: https://drive.google.com/file/d/10tY2TyeQ99lL88RzYrceQLE05WK3FoD2/view?usp=sharing
 keywords: machine, learning, ritalin, frustration
 excerpt: "Intuition tells me that a larger network should be better. More is more, as Yngwie says, but that is definitely not the case."
 ---
