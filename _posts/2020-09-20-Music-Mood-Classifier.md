@@ -146,7 +146,7 @@ RMS has as result a value that makes an eective representation of the power of 
 to use for the same reason as the feature mentioned above, including a more clear classication of Uplifting
 songs.
 
-## Implementation
+## [ Implementation ]
 
 Right in the beginning, on the feature extraction step, it was important to observe that some of the features extracted needed to have the values in time preserved, which means that features such as Tempogram get useless when the mean is calculated, due to its strong correlation with the dynamic changes in time. Features such as RMS had the calculated mean
 
@@ -154,7 +154,7 @@ This way, the data frame regarding the features created a table of 432 columns o
 
 After scaling the features and merging everything into one data segment, the table was recongured to present only numbers. For the training step a repeated k-Fold Cross-Validation for Model Evaluation was used with 10 folds and a 70/30 split, having 280 examples for the training set and 120 for the testing set. The accuracy average was 0.41, varying between around 0.35 and 0.45 between the repeated training.
 
-## Evaluation
+## [ Evaluation ]
 
 At first the system was trained and tested with a smaller data set, which was 40 songs per class, and it was showing better accuracy scores, but also when the random state was changed, it could vary from high scores to very low scores, showing inconsistent results each time that the model was trained and tested again.
 
