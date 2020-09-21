@@ -36,9 +36,9 @@ $brand-color-6:    #598c14;
  * Headings
  */
 h1, h2, h3, h4, h5, h6 {
-    font-family: $heading-family;
-    font-weight: 700;
-    color: $brand-color;
+  font-family: $heading-family;
+  font-weight: 700;
+  color: $brand-color;
 }
 
 $grey-color:       #828282;
@@ -85,16 +85,16 @@ $on-laptop:        800px;
   }
 }
 
-//@media screen and (max-width: 600px) {
-  //.site-nav {
-  //color: $brand-color;
-  //position: relative;
-  //top: 0;
-  //right: 0;
-  //left: 0;
-  //margin-bottom: .5em;
-  //}
-//}
+@media screen and (max-width: 600px) {
+  .site-nav {
+    color: $brand-color;
+    position: relative;
+    top: 0;
+    right: 0;
+    left: 0;
+    margin-bottom: .5em;
+  }
+}
 
 .post-content {
   text-align: justify;
