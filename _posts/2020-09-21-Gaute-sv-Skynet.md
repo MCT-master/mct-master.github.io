@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Postcard from The Valley of Despair"
+title: ""
 date: 2020-09-21 21:41:01 +0100
 categories: machine-learning
 author: Gaute Wardenær
