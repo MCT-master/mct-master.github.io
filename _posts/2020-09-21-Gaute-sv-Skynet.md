@@ -6,7 +6,7 @@ categories: machine-learning
 author: Gaute Wardenær
 image: https://images.app.goo.gl/NjPaMWQomtvkq9rr6
 keywords: machine, learning, ritalin, frustration
-excerpt: "Intuition tells me that a larger network should be better, "more is more" as Yngwie says, but that is definitely not the case."
+excerpt: "Intuition tells me that a larger network should be better. More is more, as Yngwie says, but that is definitely not the case."
 ---
 
 ## 10th of September
