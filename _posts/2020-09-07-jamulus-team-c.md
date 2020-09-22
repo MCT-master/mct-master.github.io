@@ -4,7 +4,7 @@ title: "Jamulus test session."
 date: 2020-09-07 06:30:20 +0200
 categories: portal
 author: Stephen Gardener, Wenbo Yi, Joni Mok, Lindsay Charles
-image: /assets/image/2020_09_07_team_c_metronome.jpg
+image: /assets/image/2020_09_07_stephedg_team_c_metronome.jpg
 keywords: jamulus, latency, jamming
 excerpt: "Can a physical metronome keep us in time? Experiences from the jamulus test session in the Physical-Virtual Communication and Music course."
 ---
@@ -30,11 +30,11 @@ In reflections of what we tried out during the jam, we all agreed that we should
 Nevertheless, we enjoyed listening to Team B, we found they did a fantastic job. The reason behind could also be because of the locations, most of the members were in the same region and they also chose the right ambient music to jam on.
 Finally, the experience of our first jamulus experience was awkward and rather frustrating.
 
-![Wenbo's metronome](/assets/image/2020_09_07_team_c_metronome.jpg "Wenbo's 2020_09_07_team_c_metronome")
+![Wenbo's metronome](/assets/image/2020_09_07_stephedg_team_c_metronome.jpg "Wenbo's 2020_09_07_team_c_metronome")
 
 
 # Jamulus II : Interesting and Comic
-![Group C Jamulus](/assets/image/2020_09_14_group_c_jam.jpg)
+![Group C Jamulus](/assets/image/2020_09_14_stephedg_team_c_jam.jpg)
 
 
 A week later...
