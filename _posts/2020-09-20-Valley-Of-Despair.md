@@ -34,7 +34,8 @@ Except there’s a catch: you only have two weeks to prepare. Hahaha! Good luck,
 ## An Attempt to Explain My Project:
 
 I tried to come up with something reasonable, something I could get my mind around, something that wouldn’t compel me to fling anything precious into a volcano. A simple classifier or something. And so, I came across the Google datasets on spoken language. That looked fun, or something. Maybe I could discover something about the underlying musicality of language? Is that a feature one can extract? Well, we can try. Read on.
-The Data Set:
+
+## The Data Set:
 
 I made a dataset by cutting down Google’s extensive set (like 18,000 examples) of short, spoken English phrases into 100 examples each in 11 different classes, making a total dataset of 1100 examples. Files were all 48kHz, 16-bit Wave audio. Six different regional dialects were represented, from Great Britain and Ireland, separated into male and female speakers. Intrepid readers who can multiply will note that there should therefore be 12 classes, not 11; apparently all the Irish gals were too busy takin’ a whirl ‘round the Salthill Prom with Mr. Earle to be bothered with this nonsense, so Ireland was only represented by the dudes.
 

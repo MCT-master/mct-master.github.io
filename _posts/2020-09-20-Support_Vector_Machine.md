@@ -20,7 +20,7 @@ The other extraction includes RMS levels, spectral bandwidth, spectral contrast,
 The feature extraction took a very long time to execute due to the huge collection of music and file size. The extraction was designated with a label as well from the file name. However due to the nature of the very long processing, I then saved the information into a csv file using a pandas data frame which I then converted it back into a numpy array.
 Using a scatter plot through matplotlib, I first tried to experiment if I could find any meaningful correlations to ensure that I have the necessary feature extractions for this project. In the python file, there would be three scatter plots, plotting out correlations of RMS to spectral flatness variance, spectral contrast with spectral rolloff and RMS with spectral rolloff.
  
-![Scatterplot](/assets/image/2020_09_21_tomi_scatter.png)
+![Scatterplot](/assets/image/2020_09_21_tomi_scatter.jpg)
 figure 1. RMS vs Spectral Flatness Variance
 
 ## ML Algorithm

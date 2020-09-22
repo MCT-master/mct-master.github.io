@@ -1,10 +1,10 @@
 ---
 layout: post
-title: Classifying Urban Sounds in a Novel Multi-label Database
+title: Classifying Urban Sounds in a Multi-label Database
 date: 2020-09-20 06:30:20 +0200
 categories: machine-learning
 author: Jackson Goode
-image: 
+image: 'https://miro.medium.com/max/700/1*D_yXVrrJD1Y46Z1T0OTOVA.png'
 keywords: machine learning, keras, cnn, urbansound8K
 excerpt: How well does a convolution neural network perform at detecting multiple classes within a single sample? This experiment explores augmenting the UrbanSound8K database to test a well performing CNN architecture in a multi-label, multi-class scenerio.
 ---
@@ -16,7 +16,7 @@ Given the short two week span to develop a machine learning model, I decided on 
 UrbanSound8K contains over 8000 sound files separated by categories of sounds typically found in an urban setting. Instead of exclusive categorical labels however, the dataset has been recreated with the purpose of exploring how a successful architecture might perform on multi-label samples rather than simply single multi-class sounds. Thus, this project investigates how well a successful architecture for classifying the US8K database might generalise to a multi-label scenario in a new database composed of overlaid sound pairs.
 
 <figure>
-    <img alt="UrbanSound8K classes" src='/assets/image/2020_09_20_jacksong_us8k_spec.png'/>
+    <img alt="UrbanSound8K classes" src='/assets/image/2020_09_20_jacksong_us8k_spec.jpg'/>
     <figcaption>Spectrograms of three UrbanSound8K classes</figcaption>
 </figure>
 
