@@ -15,7 +15,9 @@ layout: default
     {% for post in paginator.posts %}
       <li>
         {%- if post.image -%}
-        <img src="{{ post.image | prepend: site.baseurl }}" alt="{{ post.title }}" title="{{ post.title }}">
+          <img src="{{ post.image | prepend: site.baseurl }}" alt="{{ post.title }}" title="{{ post.title }}">
+        {%- else -%}
+          <img src="/assets/image/2018_08_01_stefanof_mct-master-630.jpg" alt="{{ post.title }}" title="{{ post.title }}">
         {%- endif -%}
         {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
         <span class="post-meta">{{ post.date | date: date_format }}</span>
