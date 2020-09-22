@@ -4,7 +4,7 @@ title: "Beneficial Unintelligence"
 date: 2020-09-21 08:00:00 +0200
 categories: machine-learning
 author: Mari Lesteberg
-image: http://i2.cdn.turner.com/cnn/dam/assets/140312125126-robot-musicians-horizontal-gallery.jpg
+image: /assets/image/2020_09_22_FractionMari_robot_guitarist.jpg
 keywords: artificial-intelligence, ai, support-vector-machine, dadabot, robot music
 excerpt: "In the future, when the robots take over the world, we all will be listening to 24/7 live streamed death metal until infinity"
 ---
@@ -24,7 +24,8 @@ Or to create a music buddy, who could be my new band mate, something like Dr. Sq
 <br>
 Or an android guitarist with 78 fingers. This is what I need in my band obviously. My Guitar Pro compositions from 2007 (with guitar tabs that demanded the guitarist to have at least 3 hands with 7 fingers each), could have it’s renaissance: 
 
-![Robot guitarist](http://i2.cdn.turner.com/cnn/dam/assets/140312125126-robot-musicians-horizontal-gallery.jpg"This robot guitarist would never have any problems learning my 21 fingers- and three hands-demanding Guitar Pro tabs")
+![Robot guitarist](/assets/image/2020_09_22_FractionMari_robot_guitarist.jpg "This robot guitarist would never have any problems learning my 21 fingers- and three hands-demanding Guitar Pro tabs")
+Image source: [http://edition.cnn.com/2014/03/14/tech/meet-the-robot-guitarist/index.html](http://edition.cnn.com/2014/03/14/tech/meet-the-robot-guitarist/index.html)
 
  
 So what’s machine learning? It can be many things. It can be something that learns, after you give it a lot of data with labels attached, and after some training, it tries to predict something (supervised learning). Or it can be an algorithm that on it’s own organizes loads of data into lumps, without labels, and it’s called clustering or unsupervised learning. 
