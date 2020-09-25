@@ -15,9 +15,9 @@ A few of us were taught by RITMO Post-doc, George Sioros, the basics of the moti
 
 We ended up doing a simple recording on the lower half of the body, see below!
 
-<figure style="float: none">
-  <video height="100%" width="100%" controls>
-    <source src="https://drive.google.com/uc?&id=1-2Us6s5uPNTO0IYfWfRbaQBnhWCHKHAq" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen alt="Jackson jumping around" type='video/mp4'>
+<figure>
+  <video width="600px" controls>
+    <source src="https://drive.google.com/uc?&id=1-2Us6s5uPNTO0IYfWfRbaQBnhWCHKHAq" type='video/mp4'>
   </video>
   <figcaption>Jackson jumping around synced with Motive, the motion tracking software</figcaption>
 </figure>
