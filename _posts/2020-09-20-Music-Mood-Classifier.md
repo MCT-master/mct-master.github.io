@@ -11,17 +11,17 @@ Keywords: Machine Learning, Python, MCT4047, Feature, Mood, Classification
 
 ## [ Overview ]
 
-This is a first experimentation with music mood classification by getting familiarity with baisc Machine Learning algorithms and Librosa. The conceptualization of this project came from a personal motivation of connecting music technology to musci therapy. A first step into the direction of creating an application for machine recognition of music emotion and classification. This is also a starting point to a future project which attempts to be an application
+This is a first experimentation with music mood classification by getting familiarity with basic Machine Learning algorithms and Librosa. The conceptualization of this project came from a personal motivation of connecting music technology to music therapy. A first step into the direction of creating an application for machine recognition of music emotion and classification. This is also a starting point to a future project which attempts to be an application
 able to identify the user's mood and predict variations, suggesting music accordingly to the actual mental state
-and particular prole of that user.
+and particular profile of that user.
 
 Music and emotion are concepts deeply connected to human experience. Hence music is known for its capability
 to change the mood of the listener and drive feelings. Thereby, Machine Learning turns to be an efficient tool
 for recognizing human emotions in music, which can be useful when it comes to the selection and suggestion of
-music for specic user's needs amongst the enormous amount of music data digitally available. 
+music for specific user's needs amongst the enormous amount of music data digitally available.
 
-Here I will describe a frustated attemp of using Machine Learning for the music emotion recognition, exploring
-techniques, tools and experiments within a combination of audio features to reach the best performance possible due the size of my dataset and available time to work on it. 
+Here I will describe a frustrated attempt of using Machine Learning for the music emotion recognition, exploring
+techniques, tools and experiments within a combination of audio features to reach the best performance possible due the size of my dataset and available time to work on it.
 
 ## [ Emotion ]
 
@@ -53,7 +53,7 @@ In this way:
 
 ## [ Data Set ]
 
-The data set used for training and classication was the FMA: A Dataset For Music Analysis, from Github.
+The data set used for training and classification was the FMA: A Dataset For Music Analysis, from Github.
 
 * [Data set: GitHub FMA](https://github.com/mdeff/fma)
 
@@ -64,18 +64,17 @@ For this project I used small fraction of this data set, which is listed at the 
 * [fma_small.zip](https://os.unil.cloud.switch.ch/fma/fma_small.zip)
 
 It contains 8,000 tracks of 30 seconds. From this file, 400 tracks were selected, being 100 tracks addressed for
-each of the four categories. The collection of songs were tagged with the type of emotion that they convey. The pre-computed features were not used to this project, since one of the goals was to compare dierent combinations
-of feature extraction to nd the best accuracy specic for the task.
+each of the four categories. The collection of songs were tagged with the type of emotion that they convey. The pre-computed features were not used to this project, since one of the goals was to compare different combinations
+of feature extraction to find the best accuracy specific for the task.
 
 ## [ Features ]
 
 The perception of emotion on music is typically related to a combination of acoustic attributes. Tempo,
 pitch, loudness, and timbre can be linked to arousal, while mode and harmony are usually related to valence.
 
-432 features were extracted from the audio files. The feature extraction methods were selected based on the characteristics of each pre-determined category. For instance, "Calm" and "Melancholic" can be very similar
-in tempo and energy, but dierentiate on harmonic and melodic content.
+432 features were extracted from the audio files. The feature extraction methods were selected based on the characteristics of each pre-determined category. For instance, "Calm" and "Melancholic" can be very similar in tempo and energy, but differentiate on harmonic and melodic content.
 
-The same happens to "Uplifting" and "Aggressive", where they have similar overall energy, but dierent tempo, tonal content, timbre, and dynamic.
+The same happens to "Uplifting" and "Aggressive", where they have similar overall energy, but different tempo, tonal content, timbre, and dynamic.
 
 During the evaluation of the impact that each feature extraction caused on the system efficacy, it was possible to observe that some features did not add much on the accuracy score but contributed to the consistency of the results between several training with distinct data split and random state numbers (repeated k-Fold Cross Validation).
 
@@ -118,7 +117,7 @@ This way, Tonnetz was utilized to help distinguish between audio samples with rh
 
 Tempogram indicates the prevalence of certain tempi at each moment in time, developed to characterize tempo variation and local pulse in the audio signal.
 
-This feature was chosen to identify clear dierences between high tempo songs and soft songs, which can be useful for classifying correctly Aggressive and Uplifting songs against Melancholic and Calm samples.
+This feature was chosen to identify clear differenced between high tempo songs and soft songs, which can be useful for classifying correctly Aggressive and Uplifting songs against Melancholic and Calm samples.
 
 * Spectral Contrast
 
@@ -126,7 +125,7 @@ This feature was chosen to identify clear dierences between high tempo songs an
 
 For most music, the strong spectral peaks roughly correspond with harmonic components; while non-harmonic
 components, or noises, often appear at spectral valleys. Precious studies show that spectral Contrast provide a
-good discrimination in music type classication, performing better than MFCC for the task.
+good discrimination in music type classification, performing better than MFCC for the task.
 The Aggressive songs of this data generally show a lot of power on the high frequencies and noisy audio.
 For that reason, Spectral Contrast was included in the features combination.
 
@@ -142,23 +141,21 @@ The zero-crossing rate is the rate at which the signal changes from positive to 
 
 [Root Mean Square](https://www.sweetwater.com/insync/rms-root-mean-square/#:~:text=With%20audio%2C%20the%20signal%20value,effective%20power%20of%20the%20signa)
 
-RMS has as result a value that makes an eective representation of the power of the signal. Also interesting
-to use for the same reason as the feature mentioned above, including a more clear classication of Uplifting
-songs.
+RMS has as result a value that makes an effective representation of the power of the signal. Also interesting to use for the same reason as the feature mentioned above, including a more clear classification of Uplifting songs.
 
 ## [ Implementation ]
 
-Right in the beginning, on the feature extraction step, it was important to observe that some of the features extracted needed to have the values in time preserved, which means that features such as Tempogram get useless when the mean is calculated, due to its strong correlation with the dynamic changes in time. Features such as RMS had the calculated mean
+Right in the beginning, on the feature extraction step, it was important to observe that some of the features extracted needed to have the values in time preserved, which means that features such as Tempogram get useless when the mean is calculated, due to its strong correlation with the dynamic changes in time. Features such as RMS had the calculated mean.
 
-This way, the data frame regarding the features created a table of 432 columns of features, excluding the labels and names. Also for this reason, the labels of the features couldn't be indicated in the columns of the table, resulting in numbers indicating each column instead. 
+This way, the data frame regarding the features created a table of 432 columns of features, excluding the labels and names. Also for this reason, the labels of the features couldn't be indicated in the columns of the table, resulting in numbers indicating each column instead.
 
-After scaling the features and merging everything into one data segment, the table was recongured to present only numbers. For the training step a repeated k-Fold Cross-Validation for Model Evaluation was used with 10 folds and a 70/30 split, having 280 examples for the training set and 120 for the testing set. The accuracy average was 0.41, varying between around 0.35 and 0.45 between the repeated training.
+After scaling the features and merging everything into one data segment, the table was reconfigured to present only numbers. For the training step a repeated k-Fold Cross-Validation for Model Evaluation was used with 10 folds and a 70/30 split, having 280 examples for the training set and 120 for the testing set. The accuracy average was 0.41, varying between around 0.35 and 0.45 between the repeated training.
 
 ## [ Evaluation ]
 
 At first the system was trained and tested with a smaller data set, which was 40 songs per class, and it was showing better accuracy scores, but also when the random state was changed, it could vary from high scores to very low scores, showing inconsistent results each time that the model was trained and tested again.
 
-After increasing the data set, the accuracy results were more consistent, not varying as much, but surprisingly, the classification of Melancholic and Calm became much worse than before, when it was classifying Calm songs correctly but misunderstanding the dierences between Melancholic and Calm songs, classifying many Melancholic songs as Calm. It is reasonably comprehensive, since the two categories are very related for some similarities on the audio features. After increasing the data set, these two categories turned to be very badly classied, but the Uplifting and Aggressive songs kept the good results.
+After increasing the data set, the accuracy results were more consistent, not varying as much, but surprisingly, the classification of Melancholic and Calm became much worse than before, when it was classifying Calm songs correctly but misunderstanding the differences between Melancholic and Calm songs, classifying many Melancholic songs as Calm. It is reasonably comprehensive, since the two categories are very related for some similarities on the audio features. After increasing the data set, these two categories turned to be very badly classified, but the Uplifting and Aggressive songs kept the good results.
 
 
 <figure text-align="center">
@@ -173,17 +170,11 @@ After increasing the data set, the accuracy results were more consistent, not va
 
 ## Conclusions
 
-It was a very important experience to understand the issues of classifyin such sensitive characteristics as emotional content by automatizing a system that can distinguish subtle differences on human percepetion of emotion.
+It was a very important experience to understand the issues of classifying such sensitive characteristics as emotional content by automatizing a system that can distinguish subtle differences on human perception of emotion.
 
-The system proved to be accurate classifying Uplifting and Aggressive songs, but inecient when it comes
-to Calm and Melancholic categories. It can indicate that the features and machine learning techniques used
-were suitable for the identication of tempo, percussive dynamics and energy, but not as ecient to distinguish
-melodic and harmonic content.
+The system proved to be accurate classifying Uplifting and Aggressive songs, but inefficient when it comes to Calm and Melancholic categories. It can indicate that the features and machine learning techniques used were suitable for the identification of tempo, percussive dynamics and energy, but not as efficient to distinguish melodic and harmonic content.
 
 Also, it is possible to see correlations between the features and that this system could have being split in
-two sections, one dedicated to classify arousal and the other for valence. The data set size has to be taking in consideration as well, a bigger data set would supply more data material
-for the system to be trained and provide consistent results.
+two sections, one dedicated to classify arousal and the other for valence. The data set size has to be taking in consideration as well, a bigger data set would supply more data material for the system to be trained and provide consistent results.
 
-Furthermore, future solutions could involve choosing a dierent approach for the categorization of the emo-
-tions, excluding xed emotion labels as the ones used in this project, but instead considering the continuous
-distribution of the songs amongst the negative and positive valence and arousal values.
+Furthermore, future solutions could involve choosing a different approach for the categorization of the emotions, excluding emotion labels as the ones used in this project, but instead considering the continuous distribution of the songs amongst the negative and positive valence and arousal values.
