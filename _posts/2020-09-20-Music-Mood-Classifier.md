@@ -177,4 +177,4 @@ The system proved to be accurate classifying Uplifting and Aggressive songs, but
 Also, it is possible to see correlations between the features and that this system could have being split in
 two sections, one dedicated to classify arousal and the other for valence. The data set size has to be taking in consideration as well, a bigger data set would supply more data material for the system to be trained and provide consistent results.
 
-Furthermore, future solutions could involve choosing a different approach for the categorization of the emotions, excluding emotion labels as the ones used in this project, but instead considering the continuous distribution of the songs amongst the negative and positive valence and arousal values.
+Furthermore, future solutions could involve choosing a different approach for the categorization of the emotions, excluding emotion labels as the ones used in this project, but instead considering the continuous distribution of the songs amongst the negative and positive valence and arousal values.
