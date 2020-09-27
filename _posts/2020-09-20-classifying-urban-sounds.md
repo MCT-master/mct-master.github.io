@@ -64,16 +64,16 @@ Two tracks of audio were chosen after testing the capabilities with three concur
 In addition to the creation of a script to fabricate and label a multi-labeled dataset, I augmented the scripts used to evaluate a CNN on the original UrbanSound8K database to suit this new multi-label scenario. The actual feature processing was identical to the one-sound-per-sample database. The audio data’s features (mel-spectrogram) were extracted and filtered with [librosa](https://librosa.org/doc/latest/generated/librosa.feature.melspectrogram.html?highlight=mel#librosa.feature.melspectrogram).
 
 <figure>
-    <img width='560px' alt='One example of the mel-spectrogram feature' src='/assets/image/2020_09_020_jacksong_spec_1.png'/>
+    <img width='560px' alt='One example of the mel-spectrogram feature' src='/assets/image/2020_09_20_jacksong_spec_1.png'/>
     <figcaption>One example of the mel-spectrogram feature</figcaption>
 </figure>
 
 <figure>
-    <img width='560px' alt='Another example' src='/assets/image/2020_09_020_jacksong_spec_2.png'/>
+    <img width='560px' alt='Another example' src='/assets/image/2020_09_20_jacksong_spec_2.png'/>
     <figcaption>Another example</figcaption>
 </figure>
 
-Most of my efforts here went into changing how the labels were being processed. The network used to train and test the data was fashioned with the Keras wrapper for TensorFlow and other ML backends. Keras was chosen as it offers the ability to construct neural networks at a lower level than the sklearn package whilst being fairly novice-friendly.
+Most of my efforts here went into changing how the labels were being processed. The network used to train and test the data was fashioned with the Keras wrapper for TensorFlow and other ML backends. Keras was chosen as it offers the ability to construcasdast neural networks at a lower level than the sklearn package whilst being fairly novice-friendly.
 
 ## Model tuning for new dataset
 
