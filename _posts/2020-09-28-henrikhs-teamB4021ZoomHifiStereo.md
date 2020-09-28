@@ -4,7 +4,7 @@ title: "Zoom - High Fidelity and Stereo"
 date: 2020-09-28 15:00:00 +0200
 categories: portal
 author: Pedro Lucas, Willie Mandeville, Henrik Sveen, Anders Lidal
-image: /assets/image/2020-09-28-henrikhs-zoomImage.png
+image: /assets/image/2020_09_28_henrikhs_zoomImage.png
 keywords: zoom, music, high-fidelity-mode, stereo, hi-fi, lo-fi
 excerpt: "For the members of Team B, Zoom meetings are an everyday occurrence. Like most people during the covid era, we spend much of our professional time communicating from the comfort of our living rooms. These days, using Zoom feels akin to wearing clothes; we’re almost always doing it (sometimes even at the same time)."
 ---
