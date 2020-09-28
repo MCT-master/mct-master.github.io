@@ -69,3 +69,7 @@ Pedál's usability is undermined by the impossibility to connect to more than on
 It's hard to see who this app is targeted at.  When people record audio for someone, rarely do they want to send it to a producer in RAW form.  Typically they will want to redo sections, apply effects or just tidy it up a bit.  But for the sake of argument lets say you want to stream directly to someone else and let them have the unedited audio files immediately rather than saving them to your drive and sending it to them via some other means e.g. shared Dropbox.  How often is someone likely to do this? If pedal becomes a producer's preferred method of working with clients, how easy is it going to be for them to convince their client to subscribe to pedal for $5/month for a one off session? Its probable best working scenario is when two producers are working on a song and want to share and monitor files immediately, it will also help if there are audio plugins which are not common to both the producers and want to use them in runtime on the audio while producing a song.
 
 But if this is what you want, you can also use Audacity and save your files to a shared Dropbox, where you would then be able to have different versions saved. And if you want to use the app for jamming, there are free apps available with less latency, which allow more than two users at a time to join (see for example [Jamulus](https://mct-master.github.io/portal/2020/09/06/jamulus-team-a.html)).
+
+##### Note
+
+All three of us are using Windows 10. 
