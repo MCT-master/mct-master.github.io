@@ -11,7 +11,9 @@ excerpt: "Another week, another audio-streaming platform to test. Here is Team A
 
 # Pedál
 
-Pedál is a cross plattform service to stream audio, speak, share screen, and record high quality audio together.
+![Pedal Logo.](/assets/image/2020_09_26_alenacl_pedal_logo.png)
+
+According to their website, [Pedál](https://miidbaby.com/) is "a cross plattform service to stream audio, speak, share screen, and record high quality audio together" and "the simplest way to make music together online."
 
 ## User Interface Design
 
