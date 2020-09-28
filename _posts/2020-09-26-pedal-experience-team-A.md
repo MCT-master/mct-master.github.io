@@ -6,25 +6,25 @@ categories: portal
 author: Alena Clim, Leigh Murray, Abhishek Choubey
 image: /assets/image/2020_09_26_pedal_interface.png
 keywords: Pedál, latency, jamming
-excerpt: "Another week, another audio-streaming platform to test. Here is Team A's impressions of Pedál. According to their website, [Pedál](https://miidbaby.com/) is "a cross plattform service to stream audio, speak, share screen, and record high quality audio together" and "the simplest way to make music together online.""
+excerpt: "Another week, another audio-streaming platform to test. Here is Team A's impressions of Pedál. According to their website, [Pedál](https://miidbaby.com/) is "a cross platform service to stream audio, speak, share screen, and record high quality audio together" and "the simplest way to make music together online.""
 ---
 
 # Pedál
 
-![Pedal Logo.](/assets/image/2020_09_26_alenacl_pedal_logo.png)
+![Pedal Logo.](\assets\image\2020_09_28_abhishec_pedal_logo_square.jpg)
 
-[Pedál](https://miidbaby.com/) is "a cross plattform service to stream audio, speak, share screen, and record high quality audio together" and "the simplest way to make music together online."
+[Pedál](https://miidbaby.com/) is "a cross platform service to stream audio, speak, share screen, and record high quality audio together" and "the simplest way to make music together online."
 
 ## User Interface Design
 
 As the name suggests, this app is designed to look like a footpedal, the type you would use to add audio effects to your guitar.  Typically these pedals only have one button which enables or disables the effect.  This is great for physical pedals while you're playing guitar, but for a desktop app? - not so much.
-In order to keep with the pedal asthetic, all the features of the program are hidden from the user. Even what the main pedal button does is not immediately clear.
+In order to keep with the pedal aesthetic, all the features of the program are hidden from the user. Even what the main pedal button does is not immediately clear.
 
 So, lets go through a few things.
 
 How do you think you would **configure your input and output devices**? Maybe the "settings" cog at the top right, that sounds reasonable.
 
-![Pedal Seetings.](/assets/image/2020_09_26_pedal_settings.png)
+![Pedal Settings.](/assets/image/2020_09_26_pedal_settings.png)
 
 Nope, that just lets you Quit, Subscribe and Share Screen.
 
@@ -40,7 +40,7 @@ To actually **connect to someone else**, you click on the UV meter on the right,
 
 So what are the two windows below the UV meters?  The top one is your WAV/MIDI recordings and the bottom one is the WAV/MIDI recordings of the person you're connected to.
 
-Yes, there is a **user guide** (if you care to scroll down to the bottom of their website and click "knowlege base" and then scroll to the bottom of that webpage) but this is a simple app and it's 2020, you shouldn't have to RTFM.
+Yes, there is a **user guide** (if you care to scroll down to the bottom of their website and click "knowledge base" and then scroll to the bottom of that webpage) but this is a simple app and it's 2020, you shouldn't have to RTFM.
 
 ## Features
 
@@ -58,11 +58,11 @@ There is a **"BPM"** you can set when you're sending midi, but there's no click 
 
 ## Impressions
 
-When we were testing this software we found that the **latency** of audio using the Pedal app was actually slightly higher than the latency of Zoom's audio which is not great for a platform made specifically for streamming and recording high quality audio.
+When we were testing this software we found that the **latency** of audio using the Pedal app was actually slightly higher than the latency of Zoom's audio which is not great for a platform made specifically for streaming and recording high quality audio.
 
-Regarding the option to **share screen** to the person you're connected to, as indows user we encountered a surprising bug. Even after we stopped sharing the screen, the "shared screen" window didn't close from the other person's screen, it stayed there as a black window confusing and dark until manually closed.
+Regarding the option to **share screen** to the person you're connected to, as Windows user we encountered a surprising bug. Even after we stopped sharing the screen, the "shared screen" window didn't close from the other person's screen, it stayed there as a black window confusing and dark until manually closed.
 
-Pedál's usability is undermined by the impossibility to connect to more than one other person. We still haven't figured out if it's possible, and if yes, how - it's not clear based on their user guide either. Latency issues asside, the quality of the audio is quite alright - that is, if you're careful to **select the proper drive**! If not, then you get stuck into an infinite loop and end up having feedback issues.
+Pedál's usability is undermined by the impossibility to connect to more than one other person. We still haven't figured out if it's possible, and if yes, how - it's not clear based on their user guide either. Latency issues aside, the quality of the audio is quite alright - that is, if you're careful to **select the proper drive**! If not, then you get stuck into an infinite loop and end up having feedback issues.
 
 ## Summary
 
