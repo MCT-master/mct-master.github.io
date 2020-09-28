@@ -4,7 +4,7 @@ title: "Pedál to the Metal"
 date: 2020-09-26 20:12:57 +0200
 categories: portal
 author: Alena Clim, Leigh Murray, Abhishek Choubey
-image: /assets/image/2020_09_26_pedal_interface.png
+image: \assets\image\2020_09_28_abhishec_pedal_logo_square.jpg
 keywords: Pedál, latency, jamming
 excerpt: "Another week, another audio-streaming platform to test. Here is Team A's impressions of Pedál. According to their website, Pedál is a cross platform service to stream audio, speak, share screen, and record high quality audio together and the simplest way to make music together online."
 ---
