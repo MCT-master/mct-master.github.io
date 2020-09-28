@@ -6,7 +6,7 @@ categories: portal
 author: Alena Clim, Leigh Murray, Abhishek Choubey
 image: /assets/image/2020_09_26_pedal_interface.png
 keywords: Pedál, latency, jamming
-excerpt: "Another week, another audio-streaming platform to test. Here is Team A's impressions of Pedál."
+excerpt: "Another week, another audio-streaming platform to test. Here is Team A's impressions of Pedál. According to their website, [Pedál](https://miidbaby.com/) is "a cross plattform service to stream audio, speak, share screen, and record high quality audio together" and "the simplest way to make music together online.""
 ---
 
 # Pedál
