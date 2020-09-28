@@ -13,7 +13,7 @@ excerpt: "Another week, another audio-streaming platform to test. Here is Team A
 
 ![Pedal Logo.](/assets/image/2020_09_26_alenacl_pedal_logo.png)
 
-According to their website, [Pedál](https://miidbaby.com/) is "a cross plattform service to stream audio, speak, share screen, and record high quality audio together" and "the simplest way to make music together online."
+[Pedál](https://miidbaby.com/) is "a cross plattform service to stream audio, speak, share screen, and record high quality audio together" and "the simplest way to make music together online."
 
 ## User Interface Design
 
@@ -22,7 +22,7 @@ In order to keep with the pedal asthetic, all the features of the program are hi
 
 So, lets go through a few things.
 
-How do you think you would **configure your input and output devices**? Maybe the "settings" cog at the top right, that sounds reasonable. 
+How do you think you would **configure your input and output devices**? Maybe the "settings" cog at the top right, that sounds reasonable.
 
 ![Pedal Seetings.](/assets/image/2020_09_26_pedal_settings.png)
 
@@ -60,13 +60,12 @@ There is a **"BPM"** you can set when you're sending midi, but there's no click 
 
 When we were testing this software we found that the **latency** of audio using the Pedal app was actually slightly higher than the latency of Zoom's audio which is not great for a platform made specifically for streamming and recording high quality audio.
 
-Regarding the option to **share screen** to the person you're connected to, as Windows user we encountered a surprising bug. Even after we stopped sharing the screen, the "shared screen" window didn't close from the other person's screen, it stayed there as a black window confusing and dark until manually closed.
+Regarding the option to **share screen** to the person you're connected to, as indows user we encountered a surprising bug. Even after we stopped sharing the screen, the "shared screen" window didn't close from the other person's screen, it stayed there as a black window confusing and dark until manually closed.
 
-Pedál's usability is undermined by the impossibility to connect to more than one other person. We still haven't figured out if it's possible, and if yes, how - it's not clear based on their user guide either. Latency issues asside, the quality of the audio is quite alright - that is, if you're careful to **select the proper drive**! If not, then you get stuck into an infinite loop and end up having feedback issues. 
+Pedál's usability is undermined by the impossibility to connect to more than one other person. We still haven't figured out if it's possible, and if yes, how - it's not clear based on their user guide either. Latency issues asside, the quality of the audio is quite alright - that is, if you're careful to **select the proper drive**! If not, then you get stuck into an infinite loop and end up having feedback issues.
 
 ## Summary
 
-It's hard to see who this app is targeted at.  When people record audio for someone, very rarely do they want to send it to a producer in RAW form.  Typically they will want to redo sections, apply effects or just tidy it up a bit.  But for the sake of arguement lets say you want to stream directly to someone else and let them have the unedited audio files immediately rather than saving them to your drive and sending it to them via some other means e.g. shared Dropbox.  How often is someone likely to do this? If pedal becomes a producer's preferred method of working with clients, how easy is it going to be for them to convince their client to subscribe to pedal for $5/month for a one off session?
+It's hard to see who this app is targeted at.  When people record audio for someone, rarely do they want to send it to a producer in RAW form.  Typically they will want to redo sections, apply effects or just tidy it up a bit.  But for the sake of argument lets say you want to stream directly to someone else and let them have the unedited audio files immediately rather than saving them to your drive and sending it to them via some other means e.g. shared Dropbox.  How often is someone likely to do this? If pedal becomes a producer's preferred method of working with clients, how easy is it going to be for them to convince their client to subscribe to pedal for $5/month for a one off session? Its probable best working scenario is when two producers are working on a song and want to share and monitor files immediately, it will also help if there are audio plugins which are not common to both the producers and want to use them in runtime on the audio while producing a song.
 
-If this is what you want, I don't see why you wouldn't just use Audacity and save your files to a shared Dropbox, where you would then be able to have different versions saved. And if you want to use the app for jamming, there are free apps available with less latency, which allow more than two users at a time to join (see for example [Jamulus](https://mct-master.github.io/portal/2020/09/06/jamulus-team-a.html)).
-
+But if this is what you want, you can also use Audacity and save your files to a shared Dropbox, where you would then be able to have different versions saved. And if you want to use the app for jamming, there are free apps available with less latency, which allow more than two users at a time to join (see for example [Jamulus](https://mct-master.github.io/portal/2020/09/06/jamulus-team-a.html)).
