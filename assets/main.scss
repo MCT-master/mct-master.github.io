@@ -10,7 +10,6 @@
 $roboto-slab: 'Roboto Slab', serif;
 $open-sans: 'Open Sans', sans-serif;
 
-
 // Our variables
 //$base-font-family: "Helvetica Neue", Helvetica, Arial, sans-serif
 $heading-family: "Roboto Slab", Arial, sans-serif;
@@ -64,11 +63,14 @@ $on-laptop:        800px;
 @import "minima";
 
 .site-header {
-  border-top: 0px solid #424242;
+  border-top: 0;
+  padding-top: 1em;
+  padding-bottom: 0.5em;
 }
 
 .site-title {
-  //@include relative-font-size(1.625);
+  // @include relative-font-size(1.625);
+  font-size: 32px;
   color: $brand-color;
   font-weight: 300;
   letter-spacing: -1px;
@@ -85,7 +87,26 @@ $on-laptop:        800px;
   }
 }
 
+.site-logo {
+  float: left;
+  width: 46px;
+  height: 46px;
+  margin: 0 16px 0 0;
+  outline: 0 !important;
+}
+
 @media screen and (max-width: 600px) {
+  .site-title {
+    text-align: center;
+    float: none;
+    display: block;
+
+    & > img {
+      float: none;
+      margin: 0 16px 16px 0
+    }
+  }
+
   .site-nav {
     color: $brand-color;
     position: relative;
@@ -101,9 +122,9 @@ $on-laptop:        800px;
   overflow-wrap: break-word;
 }
 
-.custom-heading{
-    margin-bottom:30px;
-}
+// .custom-heading { // I believe this is unused now
+//   margin-bottom: 30px;
+// }
 
 a {
   color: $brand-color;
@@ -140,7 +161,7 @@ a {
   }
 }
 
-.post-content {
+.post > .post-content {
   margin-bottom: $spacing-unit;
 
   h1 {
@@ -177,10 +198,11 @@ a {
 
 }
 
-.site-nav{
+
+.site-nav {
   float: right;
-  padding-left: .5em;
-  padding-right: .5em;
+  padding-left: 1em;
+  // padding-right: .5em;
   position: relative;
   text-align: left;
   .page-link {
@@ -280,8 +302,26 @@ nav ul li ul li {
 //  width: 100%;
 //}
 
-.post-content h4 {
-  margin-bottom: 0;
+.read-more  {
+  margin-top: 1em;
+}
+
+.read-more > a {
+  color: #333;
+  text-decoration: none;
+  padding: 6px 10px;
+  border-radius: 6px;
+  background-color: rgba(3,3,3, 0.1);
+  transition: .15s;
+}
+
+.read-more > a:hover {
+  background-color: rgba(3,3,3, 0.05);
+}
+
+.previous, .next {
+  font-weight: 500;
+  font-size: 1.25em;
 }
 
 .form--search input {
@@ -293,18 +333,18 @@ nav ul li ul li {
   margin: 0 10px 20px;
 }
 
-.wrapper img, .wrapper video, .wrapper iframe {
+.page-content img, .page-content video, .page-content iframe {
   border-radius: 8px;
   max-width: 100%;
-  box-shadow: 1px 3px 10px #888888;
+  box-shadow: 1px 3px 8px #aaa;
   margin: 1em;
 }
 
-.wrapper figure, .wrapper img, .wrapper video {
+.page-content figure, .page-content img, .page-content video {
   height: auto;
 }
 
-.wrapper figure, .wrapper img, .wrapper video, .wrapper iframe {
+.page-content figure, .page-content img, .page-content video, .page-content iframe {
   text-align: center;
   font-style: italic;
   font-size: smaller;
@@ -314,7 +354,7 @@ nav ul li ul li {
   display: table;
 }
 
-.wrapper figcaption {
+.page-content figcaption {
   display: table-caption;
   caption-side: bottom;
 }
@@ -323,19 +363,19 @@ iframe {
   border: 0;
 }
 
-.wrapper caption {
+.page-content caption {
   display: table-caption;
   text-align: center;
   position: relative;
 }
 
 .post-list img {
-  width: 40%;
+  width: 33.3%;
   float: right;
   display: absolute;
   //padding: 0 3% 1% 0;
-  margin: 0 0 1em 1em;
-  box-shadow: 1px 3px 10px #888888;
+  margin: 0 0 0 3em;
+  box-shadow: 1px 3px 8px #aaa;
 }
 
 .post-list li {

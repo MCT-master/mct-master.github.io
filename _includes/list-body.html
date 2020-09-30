@@ -13,9 +13,9 @@
   {%- if site.show_excerpts -%}
     {{ post.excerpt }}
   {%- endif -%}
-  <h4>
-  <a href="{{ post.url | relative_url }}">
-    Read more
-  </a>
-  </h4>
+  <p class="read-more">
+    <a href="{{ post.url | relative_url }}">
+      Read more
+    </a>
+  </p>
 </li>
