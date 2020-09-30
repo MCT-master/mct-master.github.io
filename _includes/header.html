@@ -2,7 +2,9 @@
 
   <div class="wrapper">
 
-    <a class="site-title" href="{{ "/" | relative_url}}">{{ site.title | escape }}</a>
+    <a class="site-title" href="{{ "/" | relative_url}}">
+      <img class="site-logo" src="{{ site.logo || relative_url }}" />{{ site.title | escape }}
+    </a>
 
     <nav class="site-nav">
       <ul>
