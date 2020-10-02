@@ -9,7 +9,7 @@ keywords: motion tracking, OptiTrack, motion, workshop
 excerpt: "Since our spring semester of motion tracking was a purely digital experience, a few of us got to together to quickly test out the OptiTrack system within the Portal."
 ---
 
-A few of us were taught by RITMO Post-doc, George Sioros, the basics of the motion tracking system (OptiTrack) hidden in the rafters of the UiO portal. While we only had two days, it was interesting to explore the technicalities involved in setting up and running an interface like this. The accuracy of the system was exceptionally high and robust even during rapid movement.
+A few of us were taught by RITMO post-doc, George Sioros, the basics of the motion tracking system (OptiTrack) hidden in the rafters of the UiO portal. While we only had two days, it was interesting to explore the technicalities involved in setting up and running an interface like this. The accuracy of the system was exceptionally high and robust even during rapid movement.
 
 We ended up doing a simple recording on the lower half of the body, see below!
 

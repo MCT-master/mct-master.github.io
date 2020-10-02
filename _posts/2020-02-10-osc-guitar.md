@@ -69,7 +69,7 @@ Unfortunately, one of the first issues I recognized was the latency that appeare
 
 The audio within the video was recorded internally (oddly the pops only appeared after video editing - my computer was struggling with that fabulous transition).
 
-All in all, this project was a great introduction to Puredata and definitely taught us the general principles of the language as well as some of the challenges you only encounter in hour 11 of debugging. While making this a standalone app would require a bit more investigation into MobMuPlat or some other Pd host-able interface, I think my goals were met. And when the network connection is good and the thresholds are polished, it's quite suprising how responsive a network connection can be.
+All in all, this project was a great introduction to Puredata and definitely taught us the general principles of the language as well as some of the challenges you only encounter in hour 11 of debugging. While making this a standalone app would require a bit more investigation into MobMuPlat or some other Pd host-able interface, I think my goals were met. And when the network connection is good and the thresholds are polished, it's quite surprising how responsive a network connection can be.
 
 My project's code can be found [here](https://github.com/jacksonmgoode/osc-guitar).
 

@@ -1,64 +1,55 @@
 ---
 # Only the main Sass file needs front matter (the dashes are enough)
 ---
+
 @charset "utf-8";
 
 // Google Fonts
 @import url(https://fonts.googleapis.com/css?family=Roboto+Slab|Open+Sans:400italic,700italic,400,700);
 
 // Font Variables
-$roboto-slab: 'Roboto Slab', serif;
-$open-sans: 'Open Sans', sans-serif;
+$roboto-slab: "Roboto Slab", serif;
+$open-sans: "Open Sans", sans-serif;
 
 // Our variables
-//$base-font-family: "Helvetica Neue", Helvetica, Arial, sans-serif
 $heading-family: "Roboto Slab", Arial, sans-serif;
 $base-font-family: "Open Sans", Arial, sans-serif;
-$base-font-size:   16px;
+$base-font-size: 16px;
 $base-font-weight: 400;
-$small-font-size:  $base-font-size * 0.875;
+$small-font-size: $base-font-size * 0.875;
 $base-line-height: 1.5;
+$spacing-unit: 30px;
 
-$spacing-unit:     30px;
-
-$text-color:       #333;
+// Colors
+$text-color: #333;
 $background-color: #fdfdfd;
-$brand-color:      #8764b4;
-$brand-color-1:    #bf033b;
-$brand-color-2:    #f00a36;
-$brand-color-3:    #ed3b21;
-$brand-color-4:    #ff6908;
-$brand-color-5:    #ffc719;
-$brand-color-6:    #598c14;
+$brand-color: #8764b4;
+$brand-color-1: #bf033b;
+$brand-color-2: #f00a36;
+$brand-color-3: #ed3b21;
+$brand-color-4: #ff6908;
+$brand-color-5: #ffc719;
+$brand-color-6: #598c14;
+$grey-color: #828282;
+$grey-color-light: lighten($grey-color, 40%);
+$grey-color-dark: darken($grey-color, 25%);
 
-/**
- * Headings
- */
-h1, h2, h3, h4, h5, h6 {
+// Width of the content area
+$content-width: 900px;
+$on-palm: 600px;
+$on-laptop: 800px;
+
+// Headings
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
   font-family: $heading-family;
   font-weight: 700;
   color: $brand-color;
 }
-
-$grey-color:       #828282;
-$grey-color-light: lighten($grey-color, 40%);
-$grey-color-dark:  darken($grey-color, 25%);
-
-// Width of the content area
-$content-width:    900px;
-$on-palm:          600px;
-$on-laptop:        800px;
-
-// Minima also includes a mixin for defining media queries.
-// Use media queries like this:
-// @include media-query($on-palm) {
-//     .wrapper {
-//         padding-right: $spacing-unit / 2;
-//         padding-left: $spacing-unit / 2;
-//     }
-// }
-
-// Import partials from the `minima` theme.
 
 @import "minima";
 
@@ -77,11 +68,6 @@ $on-laptop:        800px;
   margin-bottom: 0;
   float: left;
 
-  //@include media-query($on-palm) {
-  //  padding-right: 45px;
-  //}
-
-  &,
   &:visited {
     color: $brand-color;
   }
@@ -104,7 +90,7 @@ $on-laptop:        800px;
 
     & > img {
       float: none;
-      margin: 0 16px 16px 0
+      margin: 0 16px 16px 0;
     }
   }
 
@@ -114,7 +100,7 @@ $on-laptop:        800px;
     top: 0;
     right: 0;
     left: 0;
-    margin-bottom: .5em;
+    margin-bottom: 0.5em;
   }
 }
 
@@ -122,10 +108,6 @@ $on-laptop:        800px;
   text-align: justify;
   overflow-wrap: break-word;
 }
-
-// .custom-heading { // I believe this is unused now
-//   margin-bottom: 30px;
-// }
 
 a {
   color: $brand-color;
@@ -149,7 +131,6 @@ a {
     }
   }
 }
-
 
 .post-title {
   @include relative-font-size(2.25);
@@ -196,7 +177,6 @@ a {
       @include relative-font-size(1.025);
     }
   }
-
 }
 
 .site-nav {
@@ -208,16 +188,17 @@ a {
     color: $brand-color;
     line-height: $base-line-height;
     display: inline-block;
-    &:visited {color: $brand-color; }
-    &:hover { color: darken($brand-color, 20%); }
+    &:visited {
+      color: $brand-color;
+    }
+    &:hover {
+      color: darken($brand-color, 20%);
+    }
   }
 }
 
-// .site-nav li:not(:last-child) {
-//   margin-right: 20px; }
-
 .dropdown li {
-  padding: .5rem;
+  padding: 0.5rem;
   color: $brand-color;
   //&:visited { color: $brand-color; }
 }
@@ -227,8 +208,8 @@ ul.dropdown li {
 }
 
 nav ul.dropdown li {
- display: block;
- //border: 2px white solid;
+  display: block;
+  //border: 2px white solid;
 }
 
 nav ul {
@@ -243,14 +224,13 @@ nav li {
   text-align: left;
   //padding: 0.5rem;
   //position: relative;
-}
+  & a {
+    color: $brand-color;
+  }
 
-nav li a {
-  color: $brand-color;
-}
-
-nav li:hover {
-  cursor: pointer;
+  &:hover {
+    cursor: pointer;
+  }
 }
 
 nav ul.dropdown {
@@ -259,7 +239,7 @@ nav ul.dropdown {
   display: block;
   visibility: hidden;
   opacity: 0;
-  transition: visibility .1s, opacity 0.1s;
+  transition: visibility 0.1s, opacity 0.1s;
   left: inherit;
   margin-left: -14px;
   border-radius: 6px;
@@ -277,31 +257,38 @@ nav ul li ul li {
   width: 100%;
 }
 
-.read-more  {
+.read-more {
   margin-top: 1em;
+
+  & > a {
+    color: #333;
+    text-decoration: none;
+    padding: 6px 8px;
+    border-radius: 6px;
+    background-color: rgba(240, 240, 240, 1);
+    transition: 0.1s;
+
+    &:hover {
+      background-color: rgba(240, 240, 240, 0.75);
+      box-shadow: 0 1px 2px rgba(0, 0, 0, 0.15);
+    }
+  }
 }
 
-.read-more > a {
-  color: #333;
-  text-decoration: none;
-  padding: 6px 8px;
-  border-radius: 6px;
-  background-color: rgba(6,6,6, 0.1);
-  transition: .1s;
-}
-
-.read-more > a:hover {
-  background-color: rgba(6,6,6, 0.05);
-}
-
-.previous, .next {
+.previous,
+.next {
   font-weight: 500;
   font-size: 1.15em;
 }
 
+form#contact-form {
+  text-align: center;
+}
+
 #search {
+  text-align: left;
   height: 40px;
-  width: 100%;
+  width: 80%;
   font-size: 1em;
   border-radius: 30px;
   padding: 0 30px;
@@ -309,21 +296,65 @@ nav ul li ul li {
 }
 
 #list {
-  padding: 20px;
+  text-align: left;
+  margin: auto;
+  width: 80%;
 }
 
-.page-content img, .page-content video, .page-content iframe {
+.item.item--result {
+  margin: 20px auto;
+  background-color: rgba(240, 240, 240, 1);
+  // background-color: $grey-color;
+  border-radius: 20px;
+  transition: 0.1s;
+
+  &:hover {
+    background-color: rgba(240, 240, 240, 0.75);
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.15);
+
+    & .article.typeset > h4 {
+      background-color: rgba(230, 230, 230, 0.75);
+    }
+
+  }
+}
+
+.article.typeset {
+  padding: 20px;
+
+  & > h4 {
+    color: $text-color;
+    background-color: rgba(230, 230, 230, 1);
+    border-radius: 20px 20px 0 0;
+    margin: -20px -20px 10px -20px;
+    padding: 20px 20px 10px 20px;
+  }
+
+  & > p {
+    margin: 0;
+  }
+}
+
+.page-content img,
+.page-content video,
+.page-content iframe {
   border-radius: 8px;
   max-width: 100%;
-  box-shadow: 1px 3px 8px #aaa;
+  box-shadow: 1px 3px 8px rgba(0, 0, 0, 0.5);
   margin: 1em;
 }
 
-.page-content figure, .page-content img, .page-content video {
+.page-content figure,
+.page-content img,
+.page-content video {
   height: auto;
+  border: 0;
 }
 
-.page-content figure, .page-content img, .page-content video, .page-content iframe {
+.page-content figure,
+.page-content img,
+.page-content video,
+.page-content iframe {
   text-align: center;
   font-style: italic;
   font-size: smaller;
@@ -338,10 +369,6 @@ nav ul li ul li {
   caption-side: bottom;
 }
 
-iframe {
-  border: 0;
-}
-
 .page-content caption {
   display: table-caption;
   text-align: center;
@@ -351,14 +378,14 @@ iframe {
 .post-list img {
   width: 33.3%;
   float: right;
-  display: absolute;
+  display: block;
   //padding: 0 3% 1% 0;
   margin: 0 0 0 3em;
-  box-shadow: 1px 3px 8px #aaa;
+  box-shadow: 1px 3px 8px rgba(0, 0, 0, 0.5);
 }
 
 .post-list li {
-  border-top: 0.1em dotted #DEDEDE;
+  border-top: 0.1em dotted #dedede;
   padding-top: 1.5em;
   padding-bottom: 1.5em;
   margin-bottom: 0 !important;
@@ -369,14 +396,3 @@ iframe {
   clear: both;
   display: table;
 }
-
-//.post-link {
-//  display: block;
-//  &:visited {
-//    color: $brand-color;
-//  }
-//  &:hover {
-//    color: darken($brand-color, 20%);
-//    text-decoration: none;
-//  }
-//}

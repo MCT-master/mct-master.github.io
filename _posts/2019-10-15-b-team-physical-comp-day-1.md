@@ -10,10 +10,10 @@ excerpt: "Today we began our experiments with some lofi hardware, simple contact
 ---
 ## The B Team makes an attempt
 
-Today we began our experiments with some lofi hardware, simple contact mics, speakers, batteries, and some crocodile cables to connect it all. This class is focused on providing us with a basic understanding of how we would be able to create sound from analog materials in a workshop based enviroment. Below are some of the objects we recorded with an how we managed to do it. You may click on the header links to listen to the sounds we recorded from Freesound.org!
+Today we began our experiments with some lofi hardware, simple contact mics, speakers, batteries, and some crocodile cables to connect it all. This class is focused on providing us with a basic understanding of how we would be able to create sound from analog materials in a workshop based environment. Below are some of the objects we recorded with an how we managed to do it. You may click on the header links to listen to the sounds we recorded from Freesound.org!
 
 ## In Trondheim
-For all the below in Trondheim, a jack cable was plugged to the speaker, and on the other end there was a contact mic conntected to an alligator cable.
+For all the below in Trondheim, a jack cable was plugged to the speaker, and on the other end there was a contact mic connected to an alligator cable.
 
 ### [Bottle elastic band](https://freesound.org/people/jacksongoode/sounds/488517/)
 - Contact mic was attached to the plastic bottle with a piece of tape
