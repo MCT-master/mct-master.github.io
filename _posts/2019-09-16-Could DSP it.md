@@ -22,12 +22,12 @@ We are music technology students, of course we can find a more effective solutio
 
 The last two weeks were spent studying digital signal processing. One main feature of our studies was listening to the effect of the various filters we had applied to our sample sounds. To better understand the transformations at play, we creating two tracks, one with the sample and filter applied and the other with just the untampered sample whose polarity was inverted. The result of playing both at once was the effects' transformations heard in isolation (because the inverted track would be "canceling" the original track's waveform resulting in silence).
 
-![alt text](https://drive.google.com/uc?export=view&amp;id=1Q4cpxP6-2WiC7w8ULXNW7QIJoCM2OrkX "Magic!")
+![Magic!](https://drive.google.com/uc?export=view&amp;id=1Q4cpxP6-2WiC7w8ULXNW7QIJoCM2OrkX "Magic!")
 
 Well, I was thinking about all of this new found knowledge one day last week and realized there might be some practical use of inverting the polarity of a signal with live sound interfaces. I made the comment to Jarle who first told me to never call polarity inversion "phase flipping" (see here) but then politely said that this might be a potential solution.
 
-We walked over to the mixer, selected the channels we were receiving from Trondhiem and inverted their polarity and - success! No echo, no feedback. All of our problems were solved and I graduated the master's program early. But really, what is going on and why does that work?
+We walked over to the mixer, selected the channels we were receiving from Trondheim and inverted their polarity and - success! No echo, no feedback. All of our problems were solved and I graduated the master's program early. But really, what is going on and why does that work?
 
 ## Here's why
 
-As with our example with isolation the effects of filters and such, reversing the polarity of the channel will actively reduce feedback when it begins to loop, as the sound that we recieve from our mics in Oslo will be flipped compared to the sound we recieve from Trondhiem. These two sound sources, coming from their mics through our speakers and our mics to their speakers will collide "out of phase" if a feedback loop ever begins - thereby reducing the peak frequencies that were causing so many issues. What a simple solution to a complicated system.
+As with our example with isolation the effects of filters and such, reversing the polarity of the channel will actively reduce feedback when it begins to loop, as the sound that we receive from our mics in Oslo will be flipped compared to the sound we receive from Trondheim. These two sound sources, coming from their mics through our speakers and our mics to their speakers will collide "out of phase" if a feedback loop ever begins - thereby reducing the peak frequencies that were causing so many issues. What a simple solution to a complicated system.
