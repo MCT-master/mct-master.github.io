@@ -5,11 +5,12 @@ date: 2019-10-21 18:00:00 +0200
 categories: portal
 author: Jackson Goode
 image: /assets/image/2019_10_21_aleksati_many_mics.png
-excerpt: "We've spent a few days (in addition to the many miscellanous hours during class) reconfiguring the Portal and testing out new hardware and how it might improve the quality of our sound."
+excerpt: "We've spent a few days (in addition to the many miscellaneous hours during class) reconfiguring the Portal and testing out new hardware and how it might improve the quality of our sound."
 ---
-We've spent a few days (in addition to the many miscellanous hours during class) reconfiguring the Portal and testing out new hardware and how it might improve the quality of our sound. Here are a list of microphones we were able to test over the MCT 4021 class. This list will likely be updated with any new mics we test and other miscellaneous notes we find about our experiences streaming with them.
 
-### Microphone criteria
+We've spent a few days (in addition to the many miscellaneous hours during class) reconfiguring the Portal and testing out new hardware and how it might improve the quality of our sound. Here are a list of microphones we were able to test over the MCT 4021 class. This list will likely be updated with any new mics we test and other miscellaneous notes we find about our experiences streaming with them.
+
+# Microphone criteria
 
 These criteria were loosely based around these qualities of a microphone and their general usability during class and for performances we may have to setup. Maintaining this balance that allows us to keep quick access to the default classroom model.
 
@@ -17,7 +18,7 @@ These criteria were loosely based around these qualities of a microphone and the
 - power needed to drive
 - dynamic range
 - quality
-- noise floor - high pitch whine? on Trondhiem - size and usability/practicality - sound texture (perceptual)
+- noise floor - high pitch whine? on Trondheim - size and usability/practicality - sound texture (perceptual)
 - pattern control
 - position, static
 - directionality
@@ -25,7 +26,7 @@ These criteria were loosely based around these qualities of a microphone and the
 ### MD421 (in Oslo)
 
 <figure>
-<img src="/assets/image/2019_10_21_aleksati_md421.jpg" width = "30%">
+    <img src="/assets/image/2019_10_21_aleksati_md421.jpg" width="360px">
 </figure>
 
 	• needs more gain
@@ -38,7 +39,7 @@ These criteria were loosely based around these qualities of a microphone and the
 ### SM7b (in Trondheim)
 
 <figure>
-<img src="/assets/image/2019_10_21_aleksati_sm7b.jpg" width = "30%">
+    <img src="/assets/image/2019_10_21_aleksati_sm7b.jpg" width="360px">
 </figure>
 
     • dryer
@@ -53,7 +54,7 @@ These criteria were loosely based around these qualities of a microphone and the
 ### Sennheiser 835 (in Oslo)
 
 <figure>
-<img src="/assets/image/2019_10_21_aleksati_s835.jpg" width = "30%">
+    <img src="/assets/image/2019_10_21_aleksati_s835.jpg" width="360px">
 </figure>
 
     • drier
@@ -70,7 +71,7 @@ These criteria were loosely based around these qualities of a microphone and the
 ### Boundary mic (in Trondheim)
 
 <figure>
-<img src="/assets/image/2019_10_21_alekasti_boundary_mic.jpg" width = "30%">
+    <img src="/assets/image/2019_10_21_alekasti_boundary_mic.jpg" width="360px">
 </figure>
 
     • space wise, very little clutter
@@ -81,7 +82,7 @@ These criteria were loosely based around these qualities of a microphone and the
 ### Shotgun mic (in Trondheim)
 
 <figure>
-<img src="/assets/image/2019_10_21_aleksati_shotgun_mic.jpg" width = "30%"/>
+    <img src="/assets/image/2019_10_21_aleksati_shotgun_mic.jpg" width="360px"/>
 </figure>
 
     • clear and collected
@@ -93,7 +94,7 @@ These criteria were loosely based around these qualities of a microphone and the
 ### AT AE5100 (X/Y Stereo) (in Oslo)
 
 <figure>
-<img src="/assets/image/2019_10_21_aleksati_ae5100.jpg" width = "30%"/>
+    <img src="/assets/image/2019_10_21_aleksati_ae5100.jpg" width="360px"/>
 </figure>
 
     • clear and transparent
@@ -106,7 +107,7 @@ These criteria were loosely based around these qualities of a microphone and the
 ### Overhead mic
 
 <figure>
-<img src="/assets/image/2019_10_21_aleksati_biamp.jpg" width = "30%">
+    <img src="/assets/image/2019_10_21_aleksati_biamp.jpg" width="360px">
 </figure>
 
     • good spatialization

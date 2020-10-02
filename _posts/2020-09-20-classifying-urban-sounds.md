@@ -121,7 +121,9 @@ Not all of the details of the network employed have been fully elaborated and it
 
 One obvious challenge in mixing sounds as was performed in this experiment is the perceptual presence of the sound within the sample. This is actually accounted for by a subjective estimate in the taxonomy of the UrbanSound8K database where they determine if the category was a foreground or background sound. For categories like “air_conditioner” and “engine_idling”, poor classification performance would be expected when mixing sounds of these classes due to their lack of a sonic shape - they mostly consist of white noise. One might predict then that these categories were over-predicted on average across all sounds. Indeed, that does appear to be the case and this can be seen through the confusion matrix.
 
-Another issue tied to the source database was its sheer size. The total time required to load around 9000 .wav files makes it prohibitively expensive when tuning parameters, or in this case, adapting the processing of files for a new problem space. K-fold validation would have been helpful in estimating the average accuracy of the model and providing greater confidence in our reflections of the model but there was not enough time to do so. 
+Another issue tied to the source database was its sheer size. The total time required to load around 9000 .wav files makes it prohibitively expensive when tuning parameters, or in this case, adapting the processing of files for a new problem space. K-fold validation would have been helpful in estimating the average accuracy of the model and providing greater confidence in our reflections of the model but there was not enough time to do so.
+
+Code and instructions for setting up this project can be found [here](https://github.com/jacksonmgoode/enc-multi-label).
 
 ## References
 
