@@ -38,7 +38,7 @@ This is the student-led blog related to the **Music, Communication & Technology 
 &nbsp;&nbsp;&nbsp;[Gaute Wardenær](/authors/gautewardenær.html)
 
 #### NTNU, Trondheim
-&nbsp;&nbsp;&nbsp;[Ulrik Halmøy](/authors/ulrikhalmøy.html)
+&nbsp;&nbsp;&nbsp;[Ulrik Halmøy](/authors/ulrikhalmoy.html)
 &nbsp;&nbsp;&nbsp;[Tom Ignatius](/authors/tomignatius.html)
 &nbsp;&nbsp;&nbsp;[Thibault Jaccard](/authors/thibaultjaccard.html)
 &nbsp;&nbsp;&nbsp;[Simon Sandvik](/authors/simonsandvik.html)
