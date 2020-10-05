@@ -25,6 +25,8 @@ twitter_username: MCT_master
 github_username:  MCT-master
 youtube_username: UCRWv7-fkWIKiYxm-iQrdV1w # hacked the social.html imported from minima 2.5.1 to override problem with channel URL
 google_analytics: 'UA-29541937-2'
+rss: RSS feed
+
 # Comments
 comments:
   provider: disqus
