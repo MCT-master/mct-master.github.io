@@ -60,19 +60,16 @@ layout: default
   -->
   {% if paginator.total_pages > 1 %}
   <ul class="pager">
-      {% if paginator.previous_page %}
+    {% if paginator.previous_page %}
       <li class="previous">
           <a href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}">&larr; Newer posts</a>
       </li>
-      {% endif %}
-      {% if paginator.next_page %}
+    {% endif %}
+    {% if paginator.next_page %}
       <li class="next">
           <a href="{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' }}">Older posts &rarr;</a>
       </li>
-      {% endif %}
+    {% endif %}
   </ul>
   {% endif %}
-
-  <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | relative_url }}">via RSS</a></p>
-
 </div>
