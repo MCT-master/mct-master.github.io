@@ -8,56 +8,56 @@ This is the student-led blog related to the **Music, Communication & Technology 
 
 ![MCT image](/assets/image/2018_08_01_stefanof_mct-master-630.jpg "MCT image")
 
-## MCT Students
+# MCT Students
 
-### 2018-2020
+## 2018-2020
 #### UiO, Oslo
-&nbsp;&nbsp;&nbsp;[Elias Andersen](/authors/eliasandersen.html)
-&nbsp;&nbsp;&nbsp;[Mari Lesteberg](/authors/marilesteberg.html)
-&nbsp;&nbsp;&nbsp;[Sam Roman](/authors/samroman.html)
-&nbsp;&nbsp;&nbsp;[Ashane Silva](/authors/ashanesilva.html)
-&nbsp;&nbsp;&nbsp;[Guy Sion](/authors/guysion.html)
-&nbsp;&nbsp;&nbsp;[Espen Wik](/authors/espenwik.html)
+&nbsp;&nbsp;&nbsp;[Elias Andersen](/authors/eliasandersen.html)  
+&nbsp;&nbsp;&nbsp;[Mari Lesteberg](/authors/marilesteberg.html)  
+&nbsp;&nbsp;&nbsp;[Sam Roman](/authors/samroman.html)  
+&nbsp;&nbsp;&nbsp;[Ashane Silva](/authors/ashanesilva.html)  
+&nbsp;&nbsp;&nbsp;[Guy Sion](/authors/guysion.html)  
+&nbsp;&nbsp;&nbsp;[Espen Wik](/authors/espenwik.html)  
 
 #### NTNU, Trondheim
-&nbsp;&nbsp;&nbsp;[Eigil Aandahl](/authors/eigilaandahl.html)
-&nbsp;&nbsp;&nbsp;[Eirik Dahl](/authors/eirikdahl.html)
-&nbsp;&nbsp;&nbsp;[Sepehr Haghighi](/authors/sepehrhaghighi.html)
-&nbsp;&nbsp;&nbsp;[Karolina Jawad](/authors/karolinajawad.html)
-&nbsp;&nbsp;&nbsp;[Shreejay Shrestha](/authors/shreejayshrestha.html)
-&nbsp;&nbsp;&nbsp;[Jørgen Varpe](/authors/jørgenvarpe.html)
+&nbsp;&nbsp;&nbsp;[Eigil Aandahl](/authors/eigilaandahl.html)  
+&nbsp;&nbsp;&nbsp;[Eirik Dahl](/authors/eirikdahl.html)  
+&nbsp;&nbsp;&nbsp;[Sepehr Haghighi](/authors/sepehrhaghighi.html)  
+&nbsp;&nbsp;&nbsp;[Karolina Jawad](/authors/karolinajawad.html)  
+&nbsp;&nbsp;&nbsp;[Shreejay Shrestha](/authors/shreejayshrestha.html)  
+&nbsp;&nbsp;&nbsp;[Jørgen Varpe](/authors/jørgenvarpe.html)  
 
-### 2019-2021
+## 2019-2021
 #### UiO, Oslo
-&nbsp;&nbsp;&nbsp;[Thomas Anda](/authors/thomasanda.html)
-&nbsp;&nbsp;&nbsp;[Jackson Goode](/authors/jacksongoode.html)
-&nbsp;&nbsp;&nbsp;[Paul Koenig](/authors/paulkoenig.html)
-&nbsp;&nbsp;&nbsp;[Rayam Luna](/authors/rayamluna.html)
-&nbsp;&nbsp;&nbsp;[Jarle Steinhovden](/authors/jarlesteinhovden.html)
-&nbsp;&nbsp;&nbsp;[Aleksander Tidemann](/authors/aleksandertidemann.html)
+&nbsp;&nbsp;&nbsp;[Thomas Anda](/authors/thomasanda.html)  
+&nbsp;&nbsp;&nbsp;[Jackson Goode](/authors/jacksongoode.html)  
+&nbsp;&nbsp;&nbsp;[Paul Koenig](/authors/paulkoenig.html)  
+&nbsp;&nbsp;&nbsp;[Rayam Luna](/authors/rayamluna.html)  
+&nbsp;&nbsp;&nbsp;[Jarle Steinhovden](/authors/jarlesteinhovden.html)  
+&nbsp;&nbsp;&nbsp;[Aleksander Tidemann](/authors/aleksandertidemann.html)  
 &nbsp;&nbsp;&nbsp;[Gaute Wardenær](/authors/gautewardenær.html)
 
 #### NTNU, Trondheim
-&nbsp;&nbsp;&nbsp;[Ulrik Halmøy](/authors/ulrikhalmoy.html)
-&nbsp;&nbsp;&nbsp;[Tom Ignatius](/authors/tomignatius.html)
-&nbsp;&nbsp;&nbsp;[Thibault Jaccard](/authors/thibaultjaccard.html)
-&nbsp;&nbsp;&nbsp;[Simon Sandvik](/authors/simonsandvik.html)
+&nbsp;&nbsp;&nbsp;[Ulrik Halmøy](/authors/ulrikhalmoy.html)  
+&nbsp;&nbsp;&nbsp;[Tom Ignatius](/authors/tomignatius.html)  
+&nbsp;&nbsp;&nbsp;[Thibault Jaccard](/authors/thibaultjaccard.html)  
+&nbsp;&nbsp;&nbsp;[Simon Sandvik](/authors/simonsandvik.html)  
 
-### 2020-2022
+## 2020-2022
 #### UiO, Oslo
-&nbsp;&nbsp;&nbsp;[Alena Clim](/authors/alenaclim.html)
-&nbsp;&nbsp;&nbsp;[Stephen Gardener](/authors/stephengardener.html)
-&nbsp;&nbsp;&nbsp;[Anders Lidal](/authors/anderslidal.html)
-&nbsp;&nbsp;&nbsp;[Leigh Murray](/authors/leighmurray.html)
-&nbsp;&nbsp;&nbsp;[Henrik Sveen](/authors/henriksveen.html)
-&nbsp;&nbsp;&nbsp;[Pedro Lucas](/authors/pedrolucas.html)
-&nbsp;&nbsp;&nbsp;[Joni Mok](/authors/jonimok.html) 
-&nbsp;&nbsp;&nbsp;[Wenbo Yi](/authors/wenboyi.html)
+&nbsp;&nbsp;&nbsp;[Alena Clim](/authors/alenaclim.html)  
+&nbsp;&nbsp;&nbsp;[Stephen Gardener](/authors/stephengardener.html)  
+&nbsp;&nbsp;&nbsp;[Anders Lidal](/authors/anderslidal.html)  
+&nbsp;&nbsp;&nbsp;[Leigh Murray](/authors/leighmurray.html)  
+&nbsp;&nbsp;&nbsp;[Henrik Sveen](/authors/henriksveen.html)  
+&nbsp;&nbsp;&nbsp;[Pedro Lucas](/authors/pedrolucas.html)  
+&nbsp;&nbsp;&nbsp;[Joni Mok](/authors/jonimok.html)  
+&nbsp;&nbsp;&nbsp;[Wenbo Yi](/authors/wenboyi.html)  
 
 #### NTNU, Trondheim
-&nbsp;&nbsp;&nbsp;[Willie Mandeville](/authors/williemandeville.html)
-&nbsp;&nbsp;&nbsp;[Lindsay Charles](/authors/lindsaycharles.html)
-&nbsp;&nbsp;&nbsp;[Abhishek Choubey](/authors/abhishekchoubey.html)
+&nbsp;&nbsp;&nbsp;[Willie Mandeville](/authors/williemandeville.html)  
+&nbsp;&nbsp;&nbsp;[Lindsay Charles](/authors/lindsaycharles.html)  
+&nbsp;&nbsp;&nbsp;[Abhishek Choubey](/authors/abhishekchoubey.html)  
 
 
 <!--
