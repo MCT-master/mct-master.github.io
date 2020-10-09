@@ -279,6 +279,7 @@ nav ul li ul li {
 ul.pager {
   border-top: 0.1em dotted #dedede;
   padding-top: 2em;
+  margin: auto;
 }
 
 .previous,
@@ -324,7 +325,7 @@ form#contact-form {
   padding-top: 15px;
   width: 80%;
   max-height: 100vh;
-  overflow: scroll;
+  overflow: auto;
 }
 
 .list.list--results > p {

@@ -17,7 +17,7 @@
 title: The MCT Blog
 email: mct-info@imv.uio.no
 description: >- # this means to ignore newlines until "baseurl:"
-  This is the student-run blog of the Music, Communication & Technology (MCT) joint Master's programme between NTNU and UiO
+  The student-led blog of the Music, Communication & Technology (MCT) joint Master's programme between NTNU and UiO
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://mct-master.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 logo: "/assets/image/2020_09_29_jacksong_mct_logo_small.png"
