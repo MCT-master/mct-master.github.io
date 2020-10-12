@@ -3,9 +3,9 @@ layout: post
 title: "Audio and Networking in the Portal - Presentations"
 date: 2020-08-31 22:00:00 +0200
 categories: portal
-author: Jackson Goode
+author: Thomas Anda, Jackson Goode, Paul Koenig, Rayam Luna, Jarle Steinhovden, Aleksander Tidemann, Gaute Wardenær, Ulrik Halmøy, Tom Ignatius, Thibault Jaccard, Simon Sandvik
 excerpt: "The class of 2021 recently presented broadly on networking and audio within the context of the Portal. Presentations are included in this blog post as pdfs."
-keywords: Portal, audio, networking, cross-campus
+keywords: Portal, audio, networking, cross-campus, lecture, presentation
 ---
 
 ### Audio in the Portal
