@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Musicking with JackTrip, Jamulus, and SoundJack - Presentations"
+title: "Musicking with JackTrip, JamKazam, and SoundJack - Presentations"
 date: 2020-10-08 22:00:00 +0200
 categories: portal
 author: Thomas Anda, Jackson Goode, Paul Koenig, Rayam Luna, Jarle Steinhovden, Aleksander Tidemann, Gaute Wardenær, Ulrik Halmøy, Tom Ignatius, Thibault Jaccard, Simon Sandvik
