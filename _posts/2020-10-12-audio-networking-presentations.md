@@ -1,9 +1,10 @@
 ---
 layout: post
 title: "Musicking with JackTrip, Jamulus, and SoundJack - Presentations"
-date: 2020-10-8 22:00:00 +0200
+date: 2020-10-08 22:00:00 +0200
 categories: portal
 author: Jackson Goode
+image: \assets\image\2020_10_08_jacksong_musicking_pres.png
 excerpt: "The class of 2021 recently presented on JackTrip, SoundJack and Jamulus."
 keywords: Portal, audio, networking, cross-campus
 ---
