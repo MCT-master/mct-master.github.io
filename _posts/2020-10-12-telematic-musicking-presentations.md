@@ -3,10 +3,10 @@ layout: post
 title: "Musicking with JackTrip, Jamulus, and SoundJack - Presentations"
 date: 2020-10-08 22:00:00 +0200
 categories: portal
-author: Jackson Goode
+author: Thomas Anda, Jackson Goode, Paul Koenig, Rayam Luna, Jarle Steinhovden, Aleksander Tidemann, Gaute Wardenær, Ulrik Halmøy, Tom Ignatius, Thibault Jaccard, Simon Sandvik
 image: \assets\image\2020_10_08_jacksong_musicking_pres.png
-excerpt: "The class of 2021 recently presented on JackTrip, SoundJack and Jamulus."
-keywords: Portal, audio, networking, cross-campus
+excerpt: "The class of 2021 presented on JackTrip, SoundJack and JamKazam and their networked musicking potential. Presentations are included in this blog post as pdfs."
+keywords: Networking, cross-campus, musicking, jamming, presentation
 ---
 
 ### SoundJack
@@ -21,4 +21,11 @@ keywords: Portal, audio, networking, cross-campus
 <figure align="middle">
     <iframe src="https://drive.google.com/file/d/1-FJZeX91aBp4nbCHQzvVTysq4e-nykfR/preview" width="800px" height="480px" allowfullscreen></iframe>
     <figcaption>Our presentation on JackTrip</figcaption>
+</figure>
+
+### JamKazam
+
+<figure align="middle">
+    <iframe src="https://drive.google.com/file/d/1-JVwY2j7RpRr24R83pkDzjZQcKvRV4v2/preview" width="800px" height="480px" allowfullscreen></iframe>
+    <figcaption>Our presentation on JamKazam</figcaption>
 </figure>
