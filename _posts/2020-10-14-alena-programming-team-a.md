@@ -11,11 +11,11 @@ excerpt: "Team A's reflection on the midterm scientific computing assignment. Sh
 
 # Assignment description
 
-##### Input components
+### Input components
 
 A folder with several audio files (.wav) and a CSV file containing the descriptions of each audio file (i.e. labels) - each file is a recording of one acoustic musical instrument of different length and formal (i.e. sampling rate and number of channels).
 
-##### Tasks
+### Tasks
 
 Write a python program which creates (and saves) another CSV file with extra columns for each audio file:
     - the average Root Mean Square (rms)
@@ -28,7 +28,7 @@ The program should also display (and save to a file) scatter plots with color co
     - Zero Crossing Rate (zcr) vs Spectral Centroid (cent)
     - Root Mean Square (rms) vs Spectral Centroid (cent)
 
-##### Submissions
+### Submissions
 
     - Submit once immediately after class.
     - Submit one more time the whole code after a few days.
