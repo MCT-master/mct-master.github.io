@@ -2,7 +2,7 @@
 layout: post
 title: "Scientific Computing Midterm"
 date: 2020-10-14 16:16:16 +0200
-categories: scientific computing
+categories: "scientific-computing"
 author: Alena Clim, Leigh Murray, Abhishek Choubey
 image: /assets/image/2020_10_15_abhishec_pythonlogo.jpeg
 keywords: python, jupyter notebook, audio files, numpy, pandas, matplotlib, librosa
