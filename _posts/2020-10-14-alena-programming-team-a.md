@@ -4,7 +4,7 @@ title: "Scientific Computing Midterm"
 date: 2020-10-14 16:16:16 +0200
 categories: scientific computing
 author: Alena Clim, Leigh Murray, Abhishek Choubey
-image: \assets\image\2020_09_28_abhishec_pedal_logo_square.jpg
+image: /assets/image/2020_10_15_abhishec_pythonlogo.jpeg
 keywords: python, jupyter notebook, audio files, numpy, pandas, matplotlib, librosa
 excerpt: "Team A's reflection on the midterm scientific computing assignment. Shortly, this had a purpose of creation of a general python program that would read audio files from a specified folder based on a csv file and would output another csv file with an added values for each individual audio file: the average Root Mean Square, Zero Crossing Rate, Spectral Centroid. Moreover, the program displays and saves to a file several scatterplots."
 ---
