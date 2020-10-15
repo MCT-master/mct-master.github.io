@@ -14,7 +14,7 @@ excerpt: "Team B reflects on a week of coding ups and downs."
 
 The B team is a particularly diverse group of individuals. Even by the standards of the MCT program, we have unusually eclectic skill sets. Often this variety is a strength, but for this assignment that may not have really been the case. Read on for four **very** different perspectives on a brief adventure in problem solving.
 
-A bit of background. The task: creating a new csv file containing data from an original csv file and defining specific attributes of 60 individual wav files. Some of the knowledge needed for the task is easy if you have programming experience. It's a matter of knowing what functions to use, and which functions exist.
+A bit of background. The task: creating a new csv file containing data from an original csv file and defining specific attributes of 60 individual wav files. Some of the knowledge needed for the task is easy if you have programming experience. It's a matter of knowing what functions to use, and what functionality already existing.
 
 The task wasn't too clear on that we shouldn't be aware what's in the csv-file. We couldn't see the file, so we went for retrieving the header data rather than printing it to tell us what the headers are, requiring a level of human interpretation.
 
@@ -31,3 +31,15 @@ Looking to the future! I have a lot to learn. The more masterful coders of Team 
 <figure style="float: auto">
    <img src="/assets/image/2020_.png" alt="Alternate Text" title="it's kind of messy, but i liked that look for this project" width="auto"/> <figcaption>Face of instrument</figcaption>
 </figure>
+
+#### Then Anders enters …
+… giving Willie a real competition on being the most confused coder in the room.
+Given the task, and starting to code the last hour of the class, wasn't the best way to start the weekend, I'll admit. What I achieved in 45 minutes, was mostly a pseudo-code, just to wrap my head around what should be done. But the next 6-7 hours was mostly googling my error-messages and reading things i didn't understand on interwebz like geeksforgeeks, stackoverflow and a ton of other places. I also went through everything we had done in previous sessions, without getting far.
+I also understood the task as not looking into the csv-file, to write a program that would do what it should do, without me knowing anything about the contents of the original file. So when I quite quickly manage to read and display the csv-file, I felt like cheating.
+Looking at others solutions feels rewarding, especially when I understand what's going on … I even feel like it might be something I can do in the future, but I still need a lot of practice. In good coding-practice I'll steal a wise man's words to end with:
+
+  <i>"Looking to the future! I have a lot to learn. The more masterful coders of Team B have identified some resources for me to utilize as I try to catch up. I hope to someday be coding in style and laugh at tasks like this, but, until that day comes, I will remain the most easily confused coder in the room."</i>
+  (W. Mandeville, 2020)
+  <figure style="float: auto">
+     <img src="/assets/image/2020_10_15_anderlid_coding.png" alt="Alternate Text" title="Oh no!" width="auto"/>
+  </figure>
