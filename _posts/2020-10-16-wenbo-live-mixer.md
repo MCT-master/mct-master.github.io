@@ -14,13 +14,12 @@ excerpt: "How does it look to control audio effects in real-time using gestures?
 For this project, my dream of using my phone as a sensor to perform electro-acoustic music was ended by the frustrating stability of the latest OSX. So I tried to build a system that could change the audio effects with gestures for real-time interaction. I think it would make the EDM live concert even more frenetic if I could incorporate more physical performance into the shows.
 
 ## The Demo
-
 <figure style="float: none">
   <video width="auto" controls>
-    <source src="https://drive.google.com/file/d/1dB5nXqjR_QBLNhzr4kKEGWTg9ejkD44G/" type='video/mp4'>
+    <source src="https://drive.google.com/file/d/1dB5nXqjR_QBLNhzr4kKEGWTg9ejkD44G/view" type='video/mp4'>
     Alternate Text
   </video>
-  <figcaption></figcaption>
+  <figcaption> A demo video with Chi Dao</figcaption>
 </figure>
 
 ## The construction of a simple interactive system
