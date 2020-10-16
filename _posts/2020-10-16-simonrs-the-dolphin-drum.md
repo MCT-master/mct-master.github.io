@@ -9,11 +9,9 @@ excerpt: "My granular synthesis percussive instrument from the Interactive Music
 keywords: gesture, interactive, bela, pure-data
 ---
 
-<figure style="float: none">
-  <video width="auto" controls>
-    <source src="https://drive.google.com/file/d/1ld_yuh3EQwUXwS7ytfOPc7yBt21ZIeeK/view?usp=sharing" type='video/mp4'>
-  </video>
-  <figcaption>Demonstration of the Instrument</figcaption>
+<figure>
+<iframe width="450" height="253" src="https://youtu.be/Gr4fOyIvK0w" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen align="middle"></iframe>
+<figcaption><strong>A short demonstration of the instrument</strong></figcaption>
 </figure>
 
 #This is the dolphin drum.
