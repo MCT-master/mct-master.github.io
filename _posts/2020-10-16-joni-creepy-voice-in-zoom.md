@@ -16,7 +16,7 @@ It was rather challenging to push me to think from my toe than the way I normall
 
 Here I am sharing a basic design process of how a designer normally works:
 
-[![Designpro](/assets/image/2020-10-16-design-process.png)
+![Designpro](/assets/image/2020-10-16-design-process.png)
 
 We start with understanding the problem by conducting a series of qualitative research, such as in-depth interviews, in order to gain insights.
 
@@ -47,7 +47,7 @@ So, back to the Zoom thing, if we are to continue doing this for another months 
 
 Since Zoom is having a lot of new features and updates pretty regularly, I thought- why not? Let’s have a ‘Mindfulness feature’! If mindfulness is rather a trend in 21st century, why don’t we simply put this inside our favourite Zoom? See the suggestion below (and welcome to have a gaze on my cat collection):
 
-[!zoom](/assets/image/2020-10-16-joni-zoom.png)
+![zoom](/assets/image/2020-10-16-joni-zoom.png)
 
 # Ostinato
 
@@ -55,18 +55,18 @@ For the final stage of prototyping, since we had few options to collect OSC data
 
 Then, I started with testing the original FaceOSC that was linked to Canvas, it was a rather complicated version where training my unskilled facial expression was impossible. I connected it with Wekinator with raw 132 inputs. In parallel, I ran with Processing and sound. I recorded the voice from one of my loved ones via Zoom, so I edited the wav files in audacity just to crop them into individual files.
 
-[!Audacity](/assets/image/2020-10-16-joni-audacity_1.jpg)
+![Audacity](/assets/image/2020-10-16-joni-audacity_1.jpg)
 
-[!Weki1](/assets/image/2020-10-16-joni-wekinator_1.jpg)
+![Weki1](/assets/image/2020-10-16-joni-wekinator_1.jpg)
 
-[!Processing](/assets/image/2020-10-16-joni-processing_1.jpg)
+![Processing](/assets/image/2020-10-16-joni-processing_1.jpg)
 
 
 The first attempt at working with this version of FaceOSC failed. The sound did not come as I trained my facial expression. This version of facial expression capture is a very tricky one if I am not good at separate the movements of my e.g. eyebrows and eye movements, or if my mouth is not big enough (big enough to sip a shot of Jägermeister), I am not able to train proper data in Wekinator.
 
 So, I discovered another version of FaceOSC with 14 inputs. The setup on Wekinator was way easier than the first one, see below:
 
-[!Weki2](/assets/image/2020-10-16-joni-weki2.jpg)
+![Weki2](/assets/image/2020-10-16-joni-weki2.jpg)
 
 # Finale
 
