@@ -34,13 +34,13 @@ First step was to send data from my phone to the OSC Router and then in Reaper. 
 
 2. Go to `OSC address setup` to select which sensor data you want to transmit (e.g. the `Compass` and `Light` data) and see the related paths/parameters for each sensor (e.g. `/orientation/azimuth`). 
 
-![oscHook](/assets/image/2020_10_15_alena_oscHook.jpg)
+![oscHook](/assets/image/2020_10_16_alena_oscHook.jpg)
 
 #### OSCRouter and Reaper
 
 The OSC Router interface shows the incoming data on the left (info about the oscHook app) and the outgoing data (info about`Reaper) on the right. 
 
-![OSCRouter Interface](/assets/image/2020_10_15_alena_osc_empty_line.jpeg)
+![OSCRouter Interface](/assets/image/2020_10_16_alena_osc_empty_line.jpeg)
 
 ###### Incoming IP
 
@@ -51,7 +51,7 @@ The OSC Router interface shows the incoming data on the left (info about the osc
 
 5. Add another line for each different sesorsdata (e.g. if you want to use all parameters of the `Compass` you need to fill them in separately).
 
-![OSCRouter Example](/assets/image/2020_10_15_alena_osc_parameters.jpeg)
+![OSCRouter Example](/assets/image/2020_10_16_alena_osc_parameters.jpeg)
 
 ###### Reaper settings
 
@@ -60,7 +60,7 @@ The OSC Router interface shows the incoming data on the left (info about the osc
 3. Give a name to the device (e.g. "Test") and set the mode to Local Port.
 4. Set a port for the `local listen port` (e.g. 8000) and write your `Local IP` (e.g. 193.157.251.241).
 
-![Reaper Preferences](/assets/image/2020_10_15_alena_reaper_preferences.jpg)
+![Reaper Preferences](/assets/image/2020_10_16_alena_reaper_preferences.jpg)
 
 ###### Outgoing IP
 
