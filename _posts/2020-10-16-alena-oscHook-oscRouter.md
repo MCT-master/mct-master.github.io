@@ -34,7 +34,7 @@ First step was to send data from my phone to the OSC Router and then in Reaper. 
 
 2. Go to `OSC address setup` to select which sensor data you want to transmit (e.g. the `Compass` and `Light` data) and see the related paths/parameters for each sensor (e.g. `/orientation/azimuth`). 
 
-![oscHook](/assets/image/2020_10-15_alena_oscHook.jpg)
+![oscHook](/assets/image/2020_10_15_alena_oscHook.jpg)
 
 #### OSCRouter and Reaper
 
@@ -96,33 +96,33 @@ Checking each track individually, and knowing the effects I wanted to use, I dec
 
 ##### Track 4: Malaysian Djembe
 
-Effect: Pitch Delay (Sound Hack) --- Octave
-Sensor: Rotation Vector --- r4
+- Effect: Pitch Delay (Sound Hack) --- Octave
+- Sensor: Rotation Vector --- r4
 
 ##### Track 5: Percussion 1
 
-Effect: ReaPitch (Cockos) --- Volume
-Sensor: Rotation Vector --- r1
+- Effect: ReaPitch (Cockos) --- Volume
+- Sensor: Rotation Vector --- r1
 
 ##### Track 11: Psaltery
 
-Effect: Delay (Sound Hack) --- Resonance
-Sensor: Light
+- Effect: Delay (Sound Hack) --- Resonance
+- Sensor: Light
 
 ##### Track 12: Pad 1
 
-Effect: Delay (Sound Hack) --- Time
-Sensor: Compass --- azimuth
+- Effect: Delay (Sound Hack) --- Time
+- Sensor: Compass --- azimuth
 
 ##### Track 13: Pad 2
 
-Effect: Bubbler (Sound Hack) --- Grain Size
-Sensor: Compass --- roll
+- Effect: Bubbler (Sound Hack) --- Grain Size
+- Sensor: Compass --- roll
 
 ##### Track 15: Violas
 
-Effect: ReaPitch (Cockos) --- Volume
-Sensor: Rotation Vector --- r1
+- Effect: ReaPitch (Cockos) --- Volume
+- Sensor: Rotation Vector --- r1
 
 ### Scaling 
 
@@ -153,7 +153,7 @@ The way I imagined it, each audience member would get the oscHook app and get co
 
 Of course, there would be hard to have control over when the audience members are using their phones to influence the performance. However, this can be solved if the effects controlled by the sensors would be time-bounded - for example the `Rotation Vector` would have control of the `bubbler` effect on track 5 only between second 1:21 - 1:35. In my view in would make for a highly interactive, messy, and maybe sloppy but amazing performance. 
 
-##### Limitations and final thoughts 
+### Limitations and final thoughts 
 
 The biggest limitation of this project was probably my own lack of knowledge regarding audio processing. Have I known more about audio effects and how to use them, the tasks would have been easier and the demo nicer. While playing with it I had many ideas of how I wanted to make it sound like, but I didn't know how to do it. That's why the order of the steps I took might seem a bit  strange: I found some effects I liked and then looked for a track they would fit on, intead of thinking "ah, this track needs a bit of this and a bit of that to sound better". 
 
