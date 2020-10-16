@@ -18,21 +18,21 @@ A folder with several audio files (.wav) and a CSV file containing the descripti
 ### Tasks
 
 Write a python program which creates (and saves) another CSV file with extra columns for each audio file:
-    - the average Root Mean Square (rms)
-    - the average Zero Crossing Rate (zcr)
-    - the average Spectral Centroid (cent)
-    - a positive integer number representing each label (e.g., 0 for all instruments X, etc.)
+ * the average Root Mean Square (rms)
+ * the average Zero Crossing Rate (zcr)
+ * the average Spectral Centroid (cent)
+ * a positive integer number representing each label (e.g., 0 for all instruments X, etc.)
 
 The program should also display (and save to a file) scatter plots with color code entries per instrument, labeled axis and a legend of:
-    - Root Mean Square (rms) vs Zero Crossing Rate (zcr)
-    - Zero Crossing Rate (zcr) vs Spectral Centroid (cent)
-    - Root Mean Square (rms) vs Spectral Centroid (cent)
+ * Root Mean Square (rms) vs Zero Crossing Rate (zcr)
+ * Zero Crossing Rate (zcr) vs Spectral Centroid (cent)
+ * Root Mean Square (rms) vs Spectral Centroid (cent)
 
 ### Submissions
 
-    - Submit once immediately after class.
-    - Submit one more time the whole code after a few days.
-    - Submit the final version after reviewing the reference solution with documented additional changes (if any).
+ * Submit once immediately after class.
+ * Submit one more time the whole code after a few days.
+ * Submit the final version after reviewing the reference solution with documented additional changes (if any).
 
 
 ## Alena's reflection
