@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Reflections on Scientific Computing (The B Teams Bares All)"
+title: "Reflections on Scientific Computing (The B Team Bares All)"
 date: 2020-10-15 16:00:00 +0200
 categories: scientific-computing
 author: Pedro Lucas, Willie Mandeville, Henrik Sveen, Anders Lidal
