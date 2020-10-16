@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Team Cs reflections on Scientific Computing"
+title: "Team C's reflections on Scientific Computing"
 date: 2020-10-15 16:00:00 +0200
 categories: scientific-computing
 author: Joni Mok, Stephen Gardener, Wenbo Yi, Lindsay Charles
@@ -9,8 +9,6 @@ keywords: python, jupyter notebook, audio-files, numpy, pandas, matplotlib, libr
 excerpt:
 ---
 
-
-# Mid-term Scientific computing assignment reflections
 
 Despite our diverse professional backgrounds, three of us are pretty much beginner pythonista. 
 All of our code seems pretty readable. Joni's code is very clean, possible because she's a designer, with good commenting. Wenbo favoured a single cell for his code. Upon the review on everyone’s submissions, we agreed that our team activity in the future has to increase.
