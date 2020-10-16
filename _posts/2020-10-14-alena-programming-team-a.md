@@ -56,7 +56,6 @@ This was a fun assignment to work upon, perfectly summing up all the things we h
 Talking about the programming style of my teammates, both Leigh & Alena have a similar one in my opinion, whereas Leigh’s approach maintains a low level programming, Alena’s style is more open. I believe I have a lot to learn and my teammates' high level knowledge will help me a lot to become a sound programmer (pun intended).
 
 
-
 ## Other thoughts
 
 Overall, the content of this course has been well structured to bring newcomers up to speed while still offering challenges and new technologies for experienced software developers.
