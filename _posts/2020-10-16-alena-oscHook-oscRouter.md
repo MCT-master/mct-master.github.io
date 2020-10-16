@@ -6,15 +6,14 @@ categories: physical-computing
 author: Alena Clim
 image: /assets/image/2020_10_16_alena_reaper.jpg
 keywords: oscHook, OSCRouter, Reaper, sensordata, audio processing
-excerpt: "
-Quick guide on how to set up the OSC tools for Android and Windows. Sending sensordata from your phone to the OSC Router and trasmitting it to Reaper to control parameters of audio processing. For noobs."
+excerpt: "Fun and not too complicated interactive audio processing.Using oscHook to transmit sensordata from an Android phone to OSC Router and then to Reaper to control the values of certain effects' parameters."
 ---
 
 ## Introduction (task + idea)
 
 For our Physical Computing project we had to use sensor data to control certain parameters of audio processing using already-built software, in order to get a basic understanding of data sources and the linkup to musical parameters. 
 
-Having had no previous experience in this field, and (very) limited knowledge on how to use a DAW, my idea was to transmit data from my phone's sensors, using __oscHook__, through the __OSC Router__ to Reaper and controll some of the effects applied on different tracks of a song in real-time. A simple enough idea... if you know what you're doing, which I was not. 
+Having had no previous experience in this field, and (very) limited knowledge on how to use a DAW, my idea was to transmit data from my phone's sensors, using __oscHook__, through the __OSC Router__ to __Reaper__ and controll some of the effects applied on different tracks of a song in real-time. A simple enough idea... if you know what you're doing, which I was not. 
 
 For this assignment I used the following softwares:
  * [oscHook](https://play.google.com/store/apps/details?id=com.hollyhook.oscHook&hl=en_US) (for Android)
@@ -38,7 +37,7 @@ First step was to send data from my phone to the __OSC Router__ and then in Reap
 
 #### OSCRouter and Reaper
 
-The __OSC Router__ interface shows the incoming data on the left (info about the __oscHook__ app) and the outgoing data (info about`Reaper) on the right. 
+The __OSC Router__ interface shows the incoming data on the left (info about the __oscHook__ app) and the outgoing data (info about __Reaper__) on the right. 
 
 ![OSCRouter Interface](/assets/image/2020_10_16_alena_osc_empty_line.jpeg)
 
@@ -55,7 +54,7 @@ The __OSC Router__ interface shows the incoming data on the left (info about the
 
 ###### Reaper settings
 
-1. Open Reaper, go to Preferences and then to Control/OSC/web.
+1. Open __Reaper__, go to Preferences and then to Control/OSC/web.
 2. Add a Control Surface Mode = OSC (Open Source Control).
 3. Give a name to the device (e.g. "Test") and set the mode to Local Port.
 4. Set a port for the `local listen port` (e.g. 8000) and write your `Local IP` (e.g. 193.157.251.241).
@@ -65,15 +64,15 @@ The __OSC Router__ interface shows the incoming data on the left (info about the
 ###### Outgoing IP
 
 1. Use the 127.0.0.1 IP address for the `Outgoing IP` (that's an "internal IP", because you're sending the data between two apps/softwares on the same computer).
-2. Write the port you chose in Reaper in the `Port` (e.g. 8000).
-3. In the folder you saved Reaper (probably in the C: partition) find a document with setup information for defining paths for editing audio effects of certain tracks. The only one I used is "n/track/@/fx/@/fxparam/@/value", where you will need to remove the "n" at the beginning and for each "@" write the number of the track, the effect and the parameter respectively. See the photo with the __OSC Router__ Incoming IP example from earlier, the Outgoing IP details are also visible.
+2. Write the port you chose in __Reaper__ in the `Port` (e.g. 8000).
+3. In the folder you saved __Reaper__ (probably in the C: partition) find a document with setup information for defining paths for editing audio effects of certain tracks. The only one I used is "n/track/@/fx/@/fxparam/@/value", where you will need to remove the "n" at the beginning and for each "@" write the number of the track, the effect and the parameter respectively. See the photo with the __OSC Router__ Incoming IP example from earlier, the Outgoing IP details are also visible.
 5. For the `Min` and `Max` write the scaling of the effects' parameter (e.g. between 0-1).
 
 #### Troubleshooting and other notes
 
 1. For a more reliable data trasmission try to change the `OSC timing` (e.g. re-sending data every 100 ms) in the __oscHook__ app.
 
-2. To minimalize the delay between the movement of the phone (so the sensor data) and the change in effect parameters (in Reaper), only send the data for the sensor that you need. This can be chose in `OSC address setup` in the __oscHook__ app (e.g. only the `Compas` data).
+2. To minimalize the delay between the movement of the phone (so the sensor data) and the change in effect parameters (in __Reaper__), only send the data for the sensor that you need. This can be chose in `OSC address setup` in the __oscHook__ app (e.g. only the `Compas` data).
 
 3. Remember to connect both devices (your phone where you have __oscHook__ and the computer where you have the __OSCRouter__) to the same wi-fi. 
 
@@ -83,7 +82,7 @@ The __OSC Router__ interface shows the incoming data on the left (info about the
 
 As I mentioned before, I have no previous experience with audio processing, so I couldn't create a song from scratch. I searched for one on [Mixing Secrets](https://www.cambridge-mt.com/ms/mtk/) and downloaded Sun Drenched by Mike Skalandunas.
 
-In terms of effects, I downloaded the [Sound Hack Delay Trio](https://www.soundhack.com/freeware/) and used the `bubbler`, the `delay` and `pitch delay`. I also used Reaper's built-in Cockos `ReaPitch`. I used certain sensors and parameters transmitted by __oscHook__ to control parameters of these effects. See below more details of each effect, how it was controlled and the scaling. 
+In terms of effects, I downloaded the [Sound Hack Delay Trio](https://www.soundhack.com/freeware/) and used the `bubbler`, the `delay` and `pitch delay`. I also used __Reaper__'s built-in Cockos `ReaPitch`. I used certain sensors and parameters transmitted by __oscHook__ to control parameters of these effects. See below more details of each effect, how it was controlled and the scaling. 
 
 ### Audio tracks with their effects
 
@@ -132,7 +131,7 @@ For a smoother control of the parameters' values, I changed the scaling manually
 
 ## Performance demo + (time axis sheet)
 
-Here is the video of the final performance. On the front camera view you can see the way I'm moving the phone to control the parameters' values. In Reaper you can notice the effects' windows and how the bars are moving based on the phone's movements. 
+Here is the video of the final performance. On the front camera view you can see the way I'm moving the phone to control the parameters' values. In __Reaper__ you can notice the effects' windows and how the bars are moving based on the phone's movements. 
 
 <figure style="float: none">
   <video width="auto" controls>
@@ -141,7 +140,7 @@ Here is the video of the final performance. On the front camera view you can see
   <figcaption>Interactive OSC-Reaper Performance</figcaption>
 </figure>
 
-Here is the "sheet" I used to know when to use what effect, based on the time axis of the song. In order to minimize the delay between transmitting the data to the __OSC Router__ and then to Reaper to control the effects' parameters, I sent the `Compass` data and the `Rotation Vector` only when needed it - aproximatively halfway through the song I went to the `OSC address setup`, unchecked `Compass` and check `Rotation Vector`. The `Light` sensor was always on, since it was not taking that much bandwidth. 
+Here is the "sheet" I used to know when to use what effect, based on the time axis of the song. In order to minimize the delay between transmitting the data to the __OSC Router__ and then to __Reaper__ to control the effects' parameters, I sent the `Compass` data and the `Rotation Vector` only when needed it - aproximatively halfway through the song I went to the `OSC address setup`, unchecked `Compass` and check `Rotation Vector`. The `Light` sensor was always on, since it was not taking that much bandwidth. 
 
 ![Movements sheet.](/assets/image/2020_10_16_alena_sheet.jpg)
 
