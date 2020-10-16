@@ -11,7 +11,7 @@ keywords: gesture, interactive, bela, pure-data
 
 <figure style="float: none">
   <video width="auto" controls>
-    <source src="https://drive.google.com/file/d/1ld_yuh3EQwUXwS7ytfOPc7yBt21ZIeeK/view?usp=sharing" type='video/mp4'>
+    <source src="https://drive.google.com/file/d/1ld_yuh3EQwUXwS7ytfOPc7yBt21ZIeeK/preview" type='video/mp4'>
   </video>
   <figcaption>Demonstration of the Instrument</figcaption>
 </figure>
