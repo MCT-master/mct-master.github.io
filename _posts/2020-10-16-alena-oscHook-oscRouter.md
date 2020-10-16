@@ -135,7 +135,7 @@ Here is the video of the final performance. On the front camera view you can see
 
 <figure style="float: none">
   <video width="auto" controls>
-    <source src="https://www.youtube.com/results?search_query=phantom+of+the+opera+nightwish" type='video/mp4'>
+    <source src="https://drive.google.com/file/d/1HPjX4_uwv2OOuDzTGMNiSalQZszaIugw/view?usp=sharing" type='video/mp4'>
   </video>
   <figcaption>Interactive OSC-Reaper Performance</figcaption>
 </figure>
