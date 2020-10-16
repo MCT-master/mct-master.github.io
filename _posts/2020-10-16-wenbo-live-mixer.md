@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "A Live Mixer made from mobile devices"
-date: 2020-10-15 20:00:00 +0200
+date: 2020-10-16 20:00:00 +0200
 categories: physical-computing
 author: Wenbo Yi
 image: /assets/image/2020_10_16_wenbo_title.png
@@ -27,11 +27,11 @@ For this project, my dream of using my phone as a sensor to perform electro-acou
 
 In general, I use the OSCRouter and TouchOSC Bridge on the computer to implant the Reaper as a central hub for transmitting OSC information from the mobile device. On the mobile side, on the one hand, I use my Android phone's oscHook to transmit light sensor and gyroscope data as part of signals, controlling the bypass of some plug-ins and the amount of reverberation of the track; on the other hand, I use my iPad's TouchOSC to control parameters that need to be precisely controlled, such as Pan, Pitch, EQ, etc. In the Demo, you can see that my left hand primarily controls the TouchOSC on the iPad, and my right hand holds the phone's light sensor and gyroscope.
 
-![Plug-ins on Reaper](assets/image/2020_10_16_wenbo_reaper.png)
+![Plug-ins on Reaper](/assets/image/2020_10_16_wenbo_reaper.png)
 
 More specifically, I connected oscHook to the desktop and linked the OSC data to Wekinator, a user-friendly machine learning application for classifying data; the reason for this is that the range of data emitted by the sensor is very large; also, delays usually higher than 100ms which make real-time control difficult to achieve. But in the Wekinator, the software processed a wide range of data in different lighting conditions classifying the data as 0 and 1, corresponding to plug-ins on and off. At the beginning of the music, my hand covered the sensor, and this bypassed the EQ and compressor, making the drum sounds soft; and as the development of the music, I released my hand, and the EQ and compression were applied to the track, thus making the music more exciting; Besides, the change in the phone's gyroscope data corresponds to the amount of track sent to the reverb track, and when I flipped the phone over, the amount of reverb increased with the phone's rotation.
 
-![Wekinator](assets/image/2020_10_16_wenbo_wekinator.png)
+![Wekinator](/assets/image/2020_10_16_wenbo_wekinator.png)
 
 I originally wanted to control more of the effect through sensors. Sadly, I found out through practice that the application latency made it challenging to guarantee the result, so I abandoned that idea in favor of controlling more of the tracks in real-time through TouchOSC, a sophisticated OSC control app with multiple presets. It allows user to control the parameters of the PAN and some of the plug-ins precisely with the button. The sound image and pitch shifts in the Demo are all controlled by TouchOSC.
 
