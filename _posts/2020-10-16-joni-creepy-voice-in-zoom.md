@@ -76,7 +76,7 @@ What else can I write on? I have to admit that I am really not a programmer alth
 [![FaceOSC](/assets/image/2020_10_16_joni_cover.png)](https://www.youtube.com/watch?v=jVwoz0PIpYE&feature=youtu.be&ab_channel=mok614)
 
 
-Please click to view video.
+Please click to view the video.
 Imagine if I am having quirky facial expressions during Zoom meeting and I turn my 'mindfulness mode' on, the voice of my loved one will communicate with me based on how I act in front of the camera. It could be heart-warming and creepy at the same time.
 
 
