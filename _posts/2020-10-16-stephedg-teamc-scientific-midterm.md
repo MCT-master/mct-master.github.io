@@ -4,13 +4,13 @@ title: "Team C's reflections on Scientific Computing"
 date: 2020-10-15 16:00:00 +0200
 categories: scientific-computing
 author: Joni Mok, Stephen Gardener, Wenbo Yi, Lindsay Charles
-image: 
+image: /assets/image/2020_08_21_stephedg_group_c.jpg
 keywords: python, jupyter notebook, audio-files, numpy, pandas, matplotlib, librosa
 excerpt:
 ---
 
 
-Despite our diverse professional backgrounds, three of us are pretty much beginner pythonista. 
+Despite our diverse professional backgrounds, three of us are pretty much beginner pythonista.
 All of our code seems pretty readable. Joni's code is very clean, possible because she's a designer, with good commenting. Wenbo favoured a single cell for his code. Upon the review on everyone’s submissions, we agreed that our team activity in the future has to increase.
 Meister Stephen will have to be more patient with us!
 
@@ -50,5 +50,3 @@ I didn't have a clue in how to start or which logic to use to solve this task. F
 Going through all the previous notes, I decided to seek some help from my class mates, and find out how they are approaching the problem.
 
 At the end, I could identify the main logic and approach which I found resourceful to me and executed it sooner than I thought. 
-
-
