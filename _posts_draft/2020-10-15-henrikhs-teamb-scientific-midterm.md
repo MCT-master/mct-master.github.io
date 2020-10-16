@@ -33,10 +33,6 @@ My initial attempts to create useful code made it as far as seeing the csv file 
 
 Looking to the future! I have a lot to learn. The more masterful coders of Team B have identified some resources for me to utilize as I try to catch up. I hope to someday be coding in style and laugh at tasks like this, but, until that day comes, I will remain the most easily confused coder in the room.
 
-<figure style="float: auto">
-   <img src="/assets/image/2020_.png" alt="Alternate Text" title="it's kind of messy, but i liked that look for this project" width="auto"/> <figcaption>Face of instrument</figcaption>
-</figure>
-
 #### Then Anders enters …
 … giving Willie a real competition on being the most confused coder in the room.
 Given the task, and starting to code the last hour of the class, wasn't the best way to start the weekend, I'll admit. What I achieved in 45 minutes, was mostly a pseudo-code, just to wrap my head around what should be done. But the next 6-7 hours was mostly googling my error-messages and reading things i didn't understand on interwebz like geeksforgeeks, stackoverflow and a ton of other places. I also went through everything we had done in previous sessions, without getting far.
