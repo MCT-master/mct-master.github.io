@@ -1,20 +1,22 @@
 ---
 layout: post
 title: "The Dolphin Drum"
-date: 2020-16-10 12:01:00 +0200
+date: 2020-10-16 12:01:00 +0200
 categories: interactive-music-systems
-author: Simon Rønsholm Sandvik
-image: /assets/image/2020-10-16-simonrs-vase.png
+author: Simon Sandvik
+image: /assets/image/2020_10_16_simonrs_vase.png
 excerpt: "My granular synthesis percussive instrument from the Interactive Music Systems course."
 keywords: gesture, interactive, bela, pure-data
 ---
 
-<figure>
-<iframe width="450" height="253" src="https://youtu.be/Gr4fOyIvK0w" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen align="middle"></iframe>
-<figcaption><strong>A short demonstration of the instrument</strong></figcaption>
+<figure style="float: none">
+  <video width="auto" controls>
+    <source src="https://drive.google.com/file/d/1ld_yuh3EQwUXwS7ytfOPc7yBt21ZIeeK/preview" type='video/mp4'>
+  </video>
+  <figcaption>Demonstration of the Instrument</figcaption>
 </figure>
 
-#This is the dolphin drum.
+# The Dolphin Drum.
 
 For my project I have turned a vase into a percussive tactile instrument based on granular synthesis.
 It is a hollow vase with different textures making it ideal for a range of use as a sound generator.
@@ -40,3 +42,7 @@ While the instrument has a range of dynamics, these dynamics are easy to control
 “a perspective of interactive music systems that focuses on the shared creative aspect of the process in which the computer influences the performer as much as the performer influences the computer …An interactive system has the potential for variation and unpredictability in its response, and depending on the context may well be considered more in terms of a composition or structured improvisation rather than an instrument.” (Drummond 2009)
 I think this resonates quite well with the instrument. There is a large element of continuous feedback, between performer and system due to the amount of delay as well as actual system feedback. I found myself continuously adjusting to the system response to aim for a coherent soundscape. The name of dolphin drum somewhat emphasizes this. While the dolphin uses echolocation, this system equally provides feedback in how to navigate, also it sounds a bit similar at times. 
 
+## References
+Drummond J “, Understanding Interactive Systems”
+Organised Sound, Volume 14, Issue 2
+August 2009 , pp. 124-133
