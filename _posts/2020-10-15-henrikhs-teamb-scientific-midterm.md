@@ -1,20 +1,20 @@
 ---
 layout: post
-title: "B-Team's Scientific Midterm Reflection"
+title: "Reflections on Scientific Computing (The B Teams Bares All)"
 date: 2020-10-15 16:00:00 +0200
 categories: scientific-computing
 author: Pedro Lucas, Willie Mandeville, Henrik Sveen, Anders Lidal
-image: \assets\image\
+image: /assets/image/2020_08_21_anderlid_B_Team_2020.jpg
 keywords: python, jupyter notebook, audio-files, numpy, pandas, matplotlib, librosa
 excerpt: "Team B reflects on a week of coding ups and downs."
 ---
 
 
-# B-team reflection
+# A Midterm Reflection
 
-The B team is a particularly diverse group of individuals. Even by the standards of the MCT program, we have unusually eclectic skill sets. Often this variety is a strength, but for this assignment that may not have really been the case. Read on for four **very** different perspectives on a brief adventure in problem solving.
+The B team is a professionally diverse group of individuals. Even by the standards of the MCT program, we have unusually eclectic skill sets. Often this variety is a strength, but for this assignment that may not have really been the case. Read on for four **very** different perspectives on a brief adventure in problem solving.
 
-A bit of background. The task: creating a new csv file containing data from an original csv file and defining specific attributes of 60 individual wav files. Some of the knowledge needed for the task is easy if you have programming experience. It's a matter of knowing what functions to use, and what functionality already existing.
+A bit of background. The task: creating a new csv file containing data from an original csv file and defining specific attributes of 60 individual wav files. Some of the knowledge needed for the task is easy if you have programming experience. It's a matter of knowing what functions to use, and what functionality already exists.
 
 The task wasn't too clear on that we shouldn't be aware what's in the csv-file. We couldn't see the file, so we went for retrieving the header data rather than printing it to tell us what the headers are, requiring a level of human interpretation.
 
