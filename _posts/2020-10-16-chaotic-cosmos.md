@@ -37,8 +37,10 @@ Well, after spending quite a lot of time tweaking parameters in OSCulator, to pr
 <i>Note: I started on a kind of composition sending MIDI-notes from Logic to the Moog, but it really didn't work, since the three oscillators started to tune with my movements, due to some OSC sent from GyrOSC. So I went with a drone only, with some fiddling on top from the guitar … please bare with me.)</i>
 
 <figure style="float: none">
-   <iframe src="https://drive.google.com/file/d/15EFFvLm5BMDdUvwEnTOxNUiAgYO33Dca/view?usp=sharing" width="800" height="500" frameborder="0" allowfullscreen></iframe>
-   <figcaption><i>Chaos … or cosmos?</i></figcaption>
+   <iframe src="https://drive.google.com/file/d/15EFFvLm5BMDdUvwEnTOxNUiAgYO33Dca/preview" width="auto" frameborder="0" allowfullscreen></iframe>
+   <figcaption><i>Cosmos … or still chaos?</i></figcaption>
 </figure>
+
+
 
 I think it worked quite well as a performance tool, and it was fun using it. But I experienced that what worked one day, didn’t work quite as well the next day, and tweaking it wouldn’t help for the next time I turned it on. But anyway, with the scaling of the outgoing data in OSCulator it still worked alright, and I really enjoyed playing with it. Unless I grow more arms in the near future, I can see myself actually implementing something like this in a live performance setting.
