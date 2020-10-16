@@ -4,7 +4,7 @@ title: "Real-time audio processing with oscHook and Reaper"
 date: 2020-10-16 12:39:36 +0200
 categories: physical-computing
 author: Alena Clim
-image: /assets/image/2020-10-16-alena-reaper.jpeg
+image: /assets/image/2020_10_16_alena_reaper.jpeg
 keywords: oscHook, OSCRouter, Reaper, sensordata, audio processing
 excerpt: "
 Quick guide on how to set up the OSC tools for Android and Windows. Sending sensordata from your phone to the OSC Router and trasmitting it to Reaper to control parameters of audio processing. For noobs."
@@ -34,13 +34,13 @@ First step was to send data from my phone to the OSC Router and then in Reaper. 
 
 2. Go to `OSC address setup` to select which sensor data you want to transmit (e.g. the `Compass` and `Light` data) and see the related paths/parameters for each sensor (e.g. `/orientation/azimuth`). 
 
-![oscHook](/assets/image/2020-10-15-alena-oscHook.jpg)
+![oscHook](/assets/image/2020_10-15_alena_oscHook.jpg)
 
 #### OSCRouter and Reaper
 
 The OSC Router interface shows the incoming data on the left (info about the oscHook app) and the outgoing data (info about`Reaper) on the right. 
 
-![OSCRouter Interface](/assets/image/2020-10-15-alena-osc-empty-line.jpeg)
+![OSCRouter Interface](/assets/image/2020_10_15_alena_osc_empty_line.jpeg)
 
 ###### Incoming IP
 
@@ -51,7 +51,7 @@ The OSC Router interface shows the incoming data on the left (info about the osc
 
 5. Add another line for each different sesorsdata (e.g. if you want to use all parameters of the `Compass` you need to fill them in separately).
 
-![OSCRouter Example](/assets/image/2020-10-15-alena-osc-parameters.jpeg)
+![OSCRouter Example](/assets/image/2020_10_15_alena_osc_parameters.jpeg)
 
 ###### Reaper settings
 
@@ -60,7 +60,7 @@ The OSC Router interface shows the incoming data on the left (info about the osc
 3. Give a name to the device (e.g. "Test") and set the mode to Local Port.
 4. Set a port for the `local listen port` (e.g. 8000) and write your `Local IP` (e.g. 193.157.251.241).
 
-![Reaper Preferences](/assets/image/2020-10-15-alena-reaper-preferences.jpg)
+![Reaper Preferences](/assets/image/2020_10_15_alena_reaper_preferences.jpg)
 
 ###### Outgoing IP
 
@@ -91,8 +91,8 @@ Checking each track individually, and knowing the effects I wanted to use, I dec
 
 ##### Track 1: French Horn 2
 
-Effect: Pitch Delay (Sound Hack) --- Pitch Factor
-Sensor: Rotation Vector --- r4
+- Effect: Pitch Delay (Sound Hack) --- Pitch Factor
+- Sensor: Rotation Vector --- r4
 
 ##### Track 4: Malaysian Djembe
 
@@ -128,7 +128,7 @@ Sensor: Rotation Vector --- r1
 
 For a smoother control of the parameters' values, I changed the scaling manually for each effect. Below it's a screenshot of my final OSCRouter settings.
 
-![OSCRouter Final](/assets/image/2020-10-16-alena-osc-final.jpg)
+![OSCRouter Final](/assets/image/2020_10_16_alena_osc_final.jpg)
 
 ## Performance demo + (time axis sheet)
 
@@ -143,7 +143,7 @@ Here is the video of the final performance. On the front camera view you can see
 
 Here is the "sheet" I used to know when to use what effect, based on the time axis of the song. In order to minimize the delay between transmitting the data to the OSC Router and then to Reaper to control the effects' parameters, I sent the `Compass` data and the `Rotation Vector` only when needed it - aproximatively halfway through the song I went to the `OSC address setup`, unchecked `Compass` and check `Rotation Vector`. The `Light` sensor was always on, since it was not taking that much bandwidth. 
 
-![Movements sheet.](/assets/image/2020-10-16-alena-sheet.jpg)
+![Movements sheet.](/assets/image/2020_10_16_alena_sheet.jpg)
 
 ## Usability
 
