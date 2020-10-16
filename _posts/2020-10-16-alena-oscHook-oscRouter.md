@@ -34,7 +34,7 @@ First step was to send data from my phone to the OSC Router and then in Reaper. 
 
 2. Go to `OSC address setup` to select which sensor data you want to transmit (e.g. the `Compass` and `Light` data) and see the related paths/parameters for each sensor (e.g. `/orientation/azimuth`). 
 
-![_oscHook_](/assets/image/2020_10_16_alena__oscHook_.jpg)
+![_oscHook_](/assets/image/2020_10_16_alena_oscHook.jpg)
 
 #### OSCRouter and Reaper
 
@@ -149,7 +149,7 @@ Here is the "sheet" I used to know when to use what effect, based on the time ax
 
 Originally, I thought of a way to make classical music performances more interactive and interesting (especially for the youth). In the example described in this blog post I didn't use a classical song, but the concepts are the same. 
 
-The way I imagined it, each audience member would get the __oscHook__ app and get control over an instrument. Then, during the performance, there would be specific times when the can send data to the OSC Router on the (let's call it) conductor's compuetr who has everything set up from before: what sensor controls what effect and parameter. 
+The way I imagined it, each audience member would get the _oscHook_ app and get control over an instrument. Then, during the performance, there would be specific times when the can send data to the OSC Router on the (let's call it) conductor's compuetr who has everything set up from before: what sensor controls what effect and parameter. 
 
 Of course, there would be hard to have control over when the audience members are using their phones to influence the performance. However, this can be solved if the effects controlled by the sensors would be time-bounded - for example the `Rotation Vector` would have control of the `bubbler` effect on track 5 only between second 1:21 - 1:35. In my view in would make for a highly interactive, messy, and maybe sloppy but amazing performance. 
 
