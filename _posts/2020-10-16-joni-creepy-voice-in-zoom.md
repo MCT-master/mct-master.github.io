@@ -63,7 +63,7 @@ Then, I started with testing the original FaceOSC that was linked to Canvas, it 
 
 ![Processing](/assets/image/2020-10-16-joni-processing_1.jpg)
 
-The first attempt at working with this version of FaceOSC failed. The sound did not come as I trained my facial expression. This version of facial expression capture is a very tricky one if I am not good at separate the movements of my e.g. eyebrows and eye movements, or if my mouths are big enough (big enough to sip a shot of Jägermeister), I am not able to train proper data in Wekinator.
+The first attempt at working with this version of FaceOSC failed. The sound did not come as I trained my facial expression. This version of facial expression capture is a very tricky one if I am not good at separate the movements of my e.g. eyebrows and eye movements, or if my mouth is not big enough (big enough to sip a shot of Jägermeister), I am not able to train proper data in Wekinator.
 
 So, I discovered another version of FaceOSC with 14 inputs. The setup on Wekinator was way easier than the first one, see below:
 
