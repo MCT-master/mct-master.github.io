@@ -4,7 +4,7 @@ title: "A Live Mixer made from mobile devices"
 date: 2020-10-15 20:00:00 +0200
 categories: physical-computing
 author: Wenbo Yi
-image: /assets/image/2020_10_14_henrikhs_etude_de_dog.png
+image: /assets/image/2020_10_16_wenbo_title.png
 keywords: physical-computing, TouchOSC, oscHook, EDM
 excerpt: "How does it look to control audio effects in real-time using gestures?"
 ---
