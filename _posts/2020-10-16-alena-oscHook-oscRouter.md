@@ -138,7 +138,7 @@ Here is the video of the final performance. On the front camera view you can see
   <video width="auto" controls>
     <source src="https://drive.google.com/uc?&id=1jJ_Dj7sIF9OlgAdQaIYWOjzyR2WgWUTW" type='video/mp4'>
   </video>
-  <figcaption>Strumming Performance</figcaption>
+  <figcaption>Interactive OSC-Reaper Performance</figcaption>
 </figure>
 
 Here is the "sheet" I used to know when to use what effect, based on the time axis of the song. In order to minimize the delay between transmitting the data to the OSC Router and then to Reaper to control the effects' parameters, I sent the `Compass` data and the `Rotation Vector` only when needed it - aproximatively halfway through the song I went to the `OSC address setup`, unchecked `Compass` and check `Rotation Vector`. The `Light` sensor was always on, since it was not taking that much bandwidth. 
