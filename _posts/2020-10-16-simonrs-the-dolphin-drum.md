@@ -16,7 +16,7 @@ keywords: gesture, interactive, bela, pure-data
   <figcaption>Demonstration of the Instrument</figcaption>
 </figure>
 
-#This is the dolphin drum.
+# The Dolphin Drum.
 
 For my project I have turned a vase into a percussive tactile instrument based on granular synthesis.
 It is a hollow vase with different textures making it ideal for a range of use as a sound generator.
