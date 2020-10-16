@@ -14,10 +14,10 @@ Quick guide on how to set up the OSC tools for Android and Windows. Sending sens
 
 For our Physical Computing project we had to use sensor data to control certain parameters of audio processing using already-built software, in order to get a basic understanding of data sources and the linkup to musical parameters. 
 
-Having had no previous experience in this field, and (very) limited knowledge on how to use a DAW, my idea was to transmit data from my phone's sensors, using oscHook, through the OSC Router to Reaper and controll some of the effects applied on different tracks of a song in real-time. A simple enough idea... if you know what you're doing, which I was not. 
+Having had no previous experience in this field, and (very) limited knowledge on how to use a DAW, my idea was to transmit data from my phone's sensors, using _oscHook_, through the OSC Router to Reaper and controll some of the effects applied on different tracks of a song in real-time. A simple enough idea... if you know what you're doing, which I was not. 
 
 For this assignment I used the following softwares:
- * [oscHook](https://play.google.com/store/apps/details?id=com.hollyhook.oscHook&hl=en_US) (for Android)
+ * [_oscHook_](https://play.google.com/store/apps/details?id=com.hollyhook.oscHook&hl=en_US) (for Android)
  * [OSCRouter](https://github.com/ETCLabs/OSCRouter) 
  * [Reaper](https://www.reaper.fm/)
 
@@ -28,25 +28,25 @@ As a novice regardig both parts of this task - on one hand seding sensordata to 
 
 First step was to send data from my phone to the OSC Router and then in Reaper. After installing the necessary software and with some help, I managed to do it successfully, but I found it important to document the process - if nothing else, for future reference since it's likely that I will forget some steps and get frustrated if I ever try to do it again from scratch. Also because it was a substantial step, taking me almost as much time as the other part of the task. So, in this section I will write a few important steps that shouldn't be skipped and some troubleshooting notes.
 
-#### oscHook
+#### _oscHook_
 
 1. Go to `IP/port setup` and write the IP address (e.g. 192.168.1.51) and the port you want to use (e.g. 7400). An easy way to find this is to open a command window (on Windows) and type "ipconfig" and it will show there.
 
 2. Go to `OSC address setup` to select which sensor data you want to transmit (e.g. the `Compass` and `Light` data) and see the related paths/parameters for each sensor (e.g. `/orientation/azimuth`). 
 
-![oscHook](/assets/image/2020_10_16_alena_oscHook.jpg)
+![_oscHook_](/assets/image/2020_10_16_alena__oscHook_.jpg)
 
 #### OSCRouter and Reaper
 
-The OSC Router interface shows the incoming data on the left (info about the oscHook app) and the outgoing data (info about`Reaper) on the right. 
+The OSC Router interface shows the incoming data on the left (info about the _oscHook_ app) and the outgoing data (info about`Reaper) on the right. 
 
 ![OSCRouter Interface](/assets/image/2020_10_16_alena_osc_empty_line.jpeg)
 
 ###### Incoming IP
 
 1. Defining the `Label` and the `Incoming IP` is optional.
-2. The port has to be the same as the one used in the oscHook app (e.g. 7400).
-3. The `path` depends on the sensor and the parameter data you'll be sending from the  oscHook and can be found under `OSC address setup` (e.g. `/orientation/azimuth`)
+2. The port has to be the same as the one used in the _oscHook_ app (e.g. 7400).
+3. The `path` depends on the sensor and the parameter data you'll be sending from the  _oscHook_ and can be found under `OSC address setup` (e.g. `/orientation/azimuth`)
 4. The `Min` and `Max` values refer to the scalling of the sensors' parameters (e.g. for `Compass`, the `azimuth` parameter is scalled between -180 and 180).
 
 5. Add another line for each different sesorsdata (e.g. if you want to use all parameters of the `Compass` you need to fill them in separately).
@@ -71,11 +71,11 @@ The OSC Router interface shows the incoming data on the left (info about the osc
 
 #### Troubleshooting and other notes
 
-1. For a more reliable data trasmission try to change the `OSC timing` (e.g. re-sending data every 100 ms) in the oscHook app.
+1. For a more reliable data trasmission try to change the `OSC timing` (e.g. re-sending data every 100 ms) in the _oscHook_ app.
 
-2. To minimalize the delay between the movement of the phone (so the sensor data) and the change in effect parameters (in Reaper), only send the data for the sensor that you need. This can be chose in `OSC address setup` in the oscHook app (e.g. only the `Compas` data).
+2. To minimalize the delay between the movement of the phone (so the sensor data) and the change in effect parameters (in Reaper), only send the data for the sensor that you need. This can be chose in `OSC address setup` in the _oscHook_ app (e.g. only the `Compas` data).
 
-3. Remember to connect both devices (your phone where you have oscHook and the computer where you have the OSCRouter) to the same wi-fi. 
+3. Remember to connect both devices (your phone where you have _oscHook_ and the computer where you have the OSCRouter) to the same wi-fi. 
 
 4. If you are changing the wi-fi you're connected to, you most likely have to restart the OSCRouter, to change the network permissions.
 
@@ -83,7 +83,7 @@ The OSC Router interface shows the incoming data on the left (info about the osc
 
 As I mentioned before, I have no previous experience with audio processing, so I couldn't create a song from scratch. I searched for one on [Mixing Secrets](https://www.cambridge-mt.com/ms/mtk/) and downloaded Sun Drenched by Mike Skalandunas.
 
-In terms of effects, I downloaded the [Sound Hack Delay Trio](https://www.soundhack.com/freeware/) and used the `bubbler`, the `delay` and `pitch delay`. I also used Reaper's built-in Cockos `ReaPitch`. I used certain sensors and parameters transmitted by oscHook to control parameters of these effects. See below more details of each effect, how it was controlled and the scaling. 
+In terms of effects, I downloaded the [Sound Hack Delay Trio](https://www.soundhack.com/freeware/) and used the `bubbler`, the `delay` and `pitch delay`. I also used Reaper's built-in Cockos `ReaPitch`. I used certain sensors and parameters transmitted by _oscHook_ to control parameters of these effects. See below more details of each effect, how it was controlled and the scaling. 
 
 ### Audio tracks with their effects
 
@@ -149,7 +149,7 @@ Here is the "sheet" I used to know when to use what effect, based on the time ax
 
 Originally, I thought of a way to make classical music performances more interactive and interesting (especially for the youth). In the example described in this blog post I didn't use a classical song, but the concepts are the same. 
 
-The way I imagined it, each audience member would get the oscHook app and get control over an instrument. Then, during the performance, there would be specific times when the can send data to the OSC Router on the (let's call it) conductor's compuetr who has everything set up from before: what sensor controls what effect and parameter. 
+The way I imagined it, each audience member would get the __oscHook__ app and get control over an instrument. Then, during the performance, there would be specific times when the can send data to the OSC Router on the (let's call it) conductor's compuetr who has everything set up from before: what sensor controls what effect and parameter. 
 
 Of course, there would be hard to have control over when the audience members are using their phones to influence the performance. However, this can be solved if the effects controlled by the sensors would be time-bounded - for example the `Rotation Vector` would have control of the `bubbler` effect on track 5 only between second 1:21 - 1:35. In my view in would make for a highly interactive, messy, and maybe sloppy but amazing performance. 
 
