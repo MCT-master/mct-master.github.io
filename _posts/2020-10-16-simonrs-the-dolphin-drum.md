@@ -4,7 +4,7 @@ title: "The Dolphin Drum"
 date: 2020-10-16 12:01:00 +0200
 categories: interactive-music-systems
 author: Simon Sandvik
-image: /assets/image/2020-10-16-simonrs-vase.png
+image: /assets/image/2020_10_16_simonrs_vase.png
 excerpt: "My granular synthesis percussive instrument from the Interactive Music Systems course."
 keywords: gesture, interactive, bela, pure-data
 ---
@@ -40,3 +40,7 @@ While the instrument has a range of dynamics, these dynamics are easy to control
 “a perspective of interactive music systems that focuses on the shared creative aspect of the process in which the computer influences the performer as much as the performer influences the computer …An interactive system has the potential for variation and unpredictability in its response, and depending on the context may well be considered more in terms of a composition or structured improvisation rather than an instrument.” (Drummond 2009)
 I think this resonates quite well with the instrument. There is a large element of continuous feedback, between performer and system due to the amount of delay as well as actual system feedback. I found myself continuously adjusting to the system response to aim for a coherent soundscape. The name of dolphin drum somewhat emphasizes this. While the dolphin uses echolocation, this system equally provides feedback in how to navigate, also it sounds a bit similar at times. 
 
+## References
+Drummond J “, Understanding Interactive Systems”
+Organised Sound, Volume 14, Issue 2
+August 2009 , pp. 124-133
