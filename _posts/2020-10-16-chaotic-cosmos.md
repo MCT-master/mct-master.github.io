@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "cOSmoChaos"
-date: 2020-10-1 18:00:00 +0200
+date: 2020-10-16 20:00:00 +0200
 categories: physical-computing
 author: Anders Lidal
 image: /assets/image/2020_10_16_anderlid_hardware2.jpg
@@ -25,20 +25,23 @@ So what I wanted to achieve was to make a setup that can be a little chaotic, a 
 
 As you might notice, this is not the normal way to connect audio, as there are feedback loops created between the TR-8 and the Moog (marked with green and red pointers). So the sound coming out can potentially be a little chaotic and for some ears also unpleasant, but processing any audio through the external input on the Moog Voyager is always nice in my ears, and was also one of the more chaotic elements to try to control and make cosmos out of.
 
-####GyrOSC to OSCulator
+#### GyrOSC to OSCulator
 Communication between GyrOSC and OSCulator is very easy to set up and get going. Just make sure to put in your computer’s IP fin GyrOSC and make sure the port on both GyrOSC and OSCulator matches. Preset on OSCulator was port 8000, so I used that. When you activate different features in GyrOSC, they immediately show up in OSCulator, where you the can scale the MIDI-data you’re sending out, and of course choose MIDI-channel and what MIDI-data to send. You can also easily invert the datas, but what you can’t do, is to make your own labels for it. This can make everything a little chaotic to start with, because you may not immediately understand which sensors are at play all the time. So that would be an improvement to implement in OSCulator, I’d say. And maybe I should actually contribute to the development by buying it, so I don’t need to have it stop every 20 minutes to tell me to do so …
 
 Next step is to start setting up GyrOSC and OSCulator to control different parameters on both the TR-8 and the Voyager, and try to make some sort of action-sound control, or sound gesture resemblance, in the sense that there is analogy between the sounds and the movements, even though I’m working with electronic instruments here.
 
-####Performance
+#### Performance
 I wanted to emphasize the instrument I was facing, i.e. facing the Voyager, should favor the sound from it and get the drum-machine more in the background, and vice versa. This is—at least in theory—obtainable by simply rising/lowering the volume of the respective hardware, or giving different effects to them. I was also trying to filter the Voyager heavily when facing down, as well as using something towards infinite feedback delay on the TR-8 at the same time, with less kick and snare coming out. And so on.
 
 Well, after spending quite a lot of time tweaking parameters in OSCulator, to provide me with the control I wanted, I had to realize that there will always be many surprises. The calibration in GyrOSC/iPhone is not very stable, even though you can only press one button in the app to re-calibrate. So at last I just had to a little performance.
+
 <i>Note: I started on a kind of composition sending MIDI-notes from Logic to the Moog, but it really didn't work, since the three oscillators started to tune with my movements, due to some OSC sent from GyrOSC. So I went with a drone only, with some fiddling on top from the guitar … please bare with me.)</i>
 
 <figure style="float: none">
-   <iframe src="https://drive.google.com/file/d/15EFFvLm5BMDdUvwEnTOxNUiAgYO33Dca/view?usp=sharing" width="800" height="500" frameborder="0" allowfullscreen></iframe>
-   <figcaption><i>Chaos … or cosmos?</i></figcaption>
+   <iframe src="https://drive.google.com/file/d/15EFFvLm5BMDdUvwEnTOxNUiAgYO33Dca/preview" width="800" height="500" frameborder="0" allowfullscreen></iframe>
+   <figcaption><i>Cosmos … or still chaos?</i></figcaption>
 </figure>
 
+
+#### Conclusion
 I think it worked quite well as a performance tool, and it was fun using it. But I experienced that what worked one day, didn’t work quite as well the next day, and tweaking it wouldn’t help for the next time I turned it on. But anyway, with the scaling of the outgoing data in OSCulator it still worked alright, and I really enjoyed playing with it. Unless I grow more arms in the near future, I can see myself actually implementing something like this in a live performance setting.
