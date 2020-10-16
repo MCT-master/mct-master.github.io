@@ -2,10 +2,11 @@
 layout: post
 title: "The Dolphin Drum"
 date: 2020-16-10 12:01:00 +0200
-categories: Interactive Music Systems
+categories: interactive-music-systems
 author: Simon Rønsholm Sandvik
 image: /assets/image/2020-10-16-simonrs-vase.png
 excerpt: "My granular synthesis percussive instrument from the Interactive Music Systems course."
+keywords: gesture, interactive, bela, pure-data
 ---
 
 <figure>
