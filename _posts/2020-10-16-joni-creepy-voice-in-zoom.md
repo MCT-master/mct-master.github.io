@@ -71,7 +71,7 @@ So, I discovered another version of FaceOSC with 14 inputs. The setup on Wekinat
 
 # Finale
 
-What else can I write on? I have to admit that I am really not a programmer although am an interaction designer, to me, if the prototype can show the developers about my ideas work, then we normally work together in order for running user testing iteratively…. I might be able to explain more about the tech part when I continually make progress in the MCT course. This few-day project was a ‘heart attack’ to me at first. However, upon making my ideas into some forms, I heartfeltly felt less heartache. Now I can fathom why Samuel Beckett wrote the way he wrote...
+What else can I write on? I have to admit that I am really not a programmer although am an interaction designer, to me, if the prototype can show the developers about my ideas, then we normally work together in order for running user testing iteratively…. I might be able to explain more about the tech part when I continually make progress in the MCT course. This few-day project was a ‘heart attack’ to me at first. However, upon making my ideas into some forms, I heartfeltly felt less heartache. Now I can fathom why Samuel Beckett wrote the way he wrote...
 
 [![FaceOSC](/assets/image/2020_10_16_joni_cover.png)](https://www.youtube.com/watch?v=jVwoz0PIpYE&feature=youtu.be&ab_channel=mok614)
 
