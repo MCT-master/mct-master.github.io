@@ -140,11 +140,6 @@ For a smoother control of the parameters' values, I changed the scaling manually
   <figcaption>Interactive OSC-Reaper Performance</figcaption>
 </figure>
 
-<figure style="float: none">
-   <iframe src="https://drive.google.com/file/d/DRIVE_FILE_ID/preview" width="1280" height="720" frameborder="0" allowfullscreen></iframe>
-   <figcaption>Caption Text</figcaption>
-</figure>
-
 Here is the "sheet" I used to know when to use what effect, based on the time axis of the song. In order to minimize the delay between transmitting the data to the __OSC Router__ and then to __Reaper__ to control the effects' parameters, I sent the `Compass` data and the `Rotation Vector` only when needed it - aproximatively halfway through the song I went to the `OSC address setup`, unchecked `Compass` and check `Rotation Vector`. The `Light` sensor was always on, since it was not taking that much bandwidth. 
 
 ![Movements sheet.](/assets/image/2020_10_16_alena_sheet.jpg)
