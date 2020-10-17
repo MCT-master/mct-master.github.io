@@ -84,7 +84,7 @@ The first attempt at working with this version of FaceOSC failed. The sound did 
 
 So, I discovered another version of FaceOSC with 14 inputs. The setup on Wekinator was way easier than the first one, see below:
 
-
+<figure>
 <img src="/assets/image/2020_10_16_joni_weki_2.jpg" alt="The Patch" width="%" align="middle"/>
 <figcaption>Fig 6: Wekinator 2</figcaption>
 </figure>
