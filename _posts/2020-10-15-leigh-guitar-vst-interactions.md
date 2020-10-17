@@ -2,7 +2,7 @@
 layout: post
 title: "Making virtual guitar playing feel more natural"
 date: 2020-10-15 12:00:00 +0200
-categories: interactive-music-systems physical-computing
+categories: physical-computing
 author: Leigh Murray
 image: \assets\image\2020_10_15_leigh_strumsession.jpg
 excerpt: "Can using sensors, buttons and joysticks to play a virtual Guitar resemble the experience of playing a real guitar and result in a more natural performance than using a keyboard for input?"
