@@ -18,21 +18,21 @@ A folder with several audio files (.wav) and a CSV file containing the descripti
 ### Tasks
 
 Write a python program which creates (and saves) another CSV file with extra columns for each audio file:
-    - the average Root Mean Square (rms)
-    - the average Zero Crossing Rate (zcr)
-    - the average Spectral Centroid (cent)
-    - a positive integer number representing each label (e.g., 0 for all instruments X, etc.)
+ * the average Root Mean Square (rms)
+ * the average Zero Crossing Rate (zcr)
+ * the average Spectral Centroid (cent)
+ * a positive integer number representing each label (e.g., 0 for all instruments X, etc.)
 
 The program should also display (and save to a file) scatter plots with color code entries per instrument, labeled axis and a legend of:
-    - Root Mean Square (rms) vs Zero Crossing Rate (zcr)
-    - Zero Crossing Rate (zcr) vs Spectral Centroid (cent)
-    - Root Mean Square (rms) vs Spectral Centroid (cent)
+ * Root Mean Square (rms) vs Zero Crossing Rate (zcr)
+ * Zero Crossing Rate (zcr) vs Spectral Centroid (cent)
+ * Root Mean Square (rms) vs Spectral Centroid (cent)
 
 ### Submissions
 
-    - Submit once immediately after class.
-    - Submit one more time the whole code after a few days.
-    - Submit the final version after reviewing the reference solution with documented additional changes (if any).
+ * Submit once immediately after class.
+ * Submit one more time the whole code after a few days.
+ * Submit the final version after reviewing the reference solution with documented additional changes (if any).
 
 
 ## Alena's reflection
@@ -54,7 +54,6 @@ After reviewing the example solution and my teammates original submissions I lea
 This was a fun assignment to work upon, perfectly summing up all the things we have learned midway through the course. There were three submissions in total, and my code improved a lot after every submission. After submitting a very abstract Jupyter with tons of things happening in it in the first submission, and putting all of my weekend in it, I felt a sense of fulfilment when the code finally worked. Since I don’t have an adequate programming background, I wanted to have a working program which satisfies all the conditions first not worrying about the efficacy much, and without taking help or inspiration from my teammates or other people's code, therefore I made a choice of not looking at the codes of my teammates until I was able to do so. Which didn't turn out to be a comforting decision, as I had to really work hard to convert my logic or the algorithm that I had in my mind into code. After having made the program to work and seeing how Leigh and Alena approached the assignment, I understood what the code I made needed in the next iteration (the third submission), the areas of improvement rightly noted by both of my teammates - a proper structure and the redundancy fact. I needed functions upon which I effectuated in the last submission. This assignment helped to realize where I am at, things I am good at and areas I need to work upon, also completing it have made me confident and optimistic towards the enchanting world of Scientific Computing.
 
 Talking about the programming style of my teammates, both Leigh & Alena have a similar one in my opinion, whereas Leigh’s approach maintains a low level programming, Alena’s style is more open. I believe I have a lot to learn and my teammates' high level knowledge will help me a lot to become a sound programmer (pun intended).
-
 
 
 ## Other thoughts
