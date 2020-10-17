@@ -16,6 +16,7 @@ It was rather challenging to push me to think from my toe than the way I normall
 
 Here I am sharing a basic design process of how a designer normally works:
 
+<figure>
 <img src="/assets/image/2020_10_16_joni_design_p.png" alt="The Patch" width="%" align="middle"/>
 <figcaption>Fig 1: Basic Design Process</figcaption>
 </figure>
@@ -49,7 +50,7 @@ So, back to the Zoom thing, if we are to continue doing this for another months 
 
 Since Zoom is having a lot of new features and updates pretty regularly, I thought- why not? Let’s have a ‘Mindfulness feature’! If mindfulness is rather a trend in 21st century, why don’t we simply put this inside our favourite Zoom? See the suggestion below (and welcome to have a gaze on my cat collection):
 
-
+<figure>
 <img src="/assets/image/2020_10_16_joni_zoom.png" alt="The Patch" width="%" align="middle"/>
 <figcaption>Fig 2: Zoom's new feature</figcaption>
 </figure>
@@ -62,17 +63,17 @@ For the final stage of prototyping, since we had few options to collect OSC data
 Then, I started with testing the original FaceOSC that was linked to Canvas, it was a rather complicated version where training my unskilled facial expression was impossible. I connected it with Wekinator with raw 132 inputs. In parallel, I ran with Processing and sound. I recorded the voice from one of my loved ones via Zoom, so I edited the wav files in audacity just to crop them into individual files.
 
 
-
+<figure>
 <img src="/assets/image/2020_10_16_joni_audacity_1.jpg" alt="The Patch" width="%" align="middle"/>
 <figcaption>Fig 3: Audacity</figcaption>
 </figure>
 
-
+<figure>
 <img src="/assets/image/2020_10_16_joni_wekinator_1.jpg" alt="The Patch" width="%" align="middle"/>
 <figcaption>Fig 4: Wekinator 1</figcaption>
 </figure>
 
-
+<figure>
 <img src="/assets/image/2020_10_16_joni_processing_1.jpg" alt="The Patch" width="%" align="middle"/>
 <figcaption>Fig 5: Processing</figcaption>
 </figure>
