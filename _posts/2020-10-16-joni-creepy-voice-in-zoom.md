@@ -2,7 +2,7 @@
 layout: post
 title: "The voice of a loved one"
 date: 2020-10-16 12:00:00 +0200
-categories: interactive-music-systems physical-computing
+categories: physical-computing
 author: Joni Mok
 image: \assets\image\2020_10_16_joni_cover.png
 excerpt: "Can AI really know what our facial expressions mean?"
