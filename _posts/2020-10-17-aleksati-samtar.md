@@ -21,7 +21,7 @@ In light of these reflections, I decided to prototype an augmented electric guit
 </figure>
 
 # Design
-You trigger samples in the SamTar by hitting the only string currently available on the guitar. Simple. Furthermore, the hit does not only trigger the samples but also adjusts the gain and amplitude of the sample played. Another feature that is controlled by this trigger is a sample-and-hold function. If you play two consecutive "notes" at a certain speed, the current sample will hold.
+To trigger samples on the SamTar you basically hit the only string currently available on the instrument. Simple enough. The hits do not only trigger the samples but also adjusts the gain and amplitude of the samples played. Another feature that is controlled by the main trigger mechanism is a sample-and-hold function. If you play two consecutive "notes" at a certain speed, the current sample will hold.
 
 <!--
 <figure style="float: none">
@@ -32,7 +32,7 @@ You trigger samples in the SamTar by hitting the only string currently available
 -->
 
 ### Sample Space
-To categorize and organize samples, I created a 2D sample-space in Pure Data. The purpose of such a space was to enable easy and dynamic navigation of sample clusters from the SamTar. This space consists of multiple **scenes** (tracks) each with n-number of **segments** (section within a track), filled with x-number of **audio files/samples**. Also, as a general principle, I wanted the project to focus on how minimal input can control complex processes, so essentially how "one-to-many" mappings can benefit "one-man-band" type instruments (Morreale, McPherson 2019, p.2). The result was a simple button, mounted on the guitar, that skips segments and scenes when pressed.
+To categorize and organize samples, I created a 2D sample-space in Pure Data. The purpose of such a space was to enable easy and dynamic navigation of sample clusters from the SamTar itself. This space consists of multiple **scenes** (tracks) each with n-number of **segments** (section within a track), filled with x-number of **audio files/samples**. Also, as a general principle, I wanted to focus on how minimal input could control complex processes, so essentially how "one-to-many" mappings could benefit "one-man-band" type instruments (Morreale, McPherson 2019, p.2). The result was a simple button, mounted on the guitar, that skips segments and scenes when pressed.
 
 In my prototyped version I was able to implement an LED array in [**p5**](https://p5js.org/) visually displaying the "location" of the player in the current sample-space. Optimally, this would be implemented in a physical Adafruit NeoPixel LED array mounted on the instrument itself.
 
@@ -43,7 +43,7 @@ In my prototyped version I was able to implement an LED array in [**p5**](https:
 </figure>
 
 ### Randomness
-When in a segment, the system chooses a random sequence of two samples that are looped when hitting the string of the guitar. However, to enable a more exploratory experience I added a rotary knob (0 - 100) that adjusts the probability a single hit has of changing the current sample sequence to a new one. For instance, if the knob is at 40 the next trigger will have a 40% chance of changing the sample sequence and a 60% chance of staying on the same two samples.
+When in a segment, the system chooses a random sequence of two samples that are looped when hitting the string of the guitar. To enable a exploratory interaction I added a rotary knob (0 - 100) that adjusts the probability a trigger has of changing the current sample sequence to a new one. For instance, if the knob is at 40 the next trigger will have a 40% chance of changing the sample sequence and a 60% chance of staying on the same two samples.
 
 ### Effects
 For some further variation, a designed a few effects to facilitate some sound manipulation options. As the players left hand is completely free during play I put a soft potentiometer on the back of the guitar neck that controls the overall pitch of the samples. Furthermore, a chorus distortion was added for the ability to go full rock n roll, enabled by a simple switch on the mounted Bela board.   
@@ -61,12 +61,10 @@ For some further variation, a designed a few effects to facilitate some sound ma
 </figure>
 
 # Evaluation
-Technically the prototyped system performed surprisingly well with negligible latency and reliable runtime. Also, the performance of the instrument indicates that the conceptual idea and intent of the system was more or less successful. With this, I mean that the balance between its "mastery range", playability, and its general interactivity was such that it warrants further exploration and prototyping.
+Technically the prototyped system performed surprisingly well with negligible latency and reliable runtime. Also, the performance of the instrument indicated that the conceptual idea and intent of the system was more or less successful. With this, I mean that the balance between its "mastery range", playability, and general interactivity was such that it warrants further exploration and prototyping. If this work is to be undertaken then several things would have to be tested and considered:
 
-For future work, several things would have to be tested and considered:
-
-* More strings and sample-space control.
-    * The first critical feedback that struck me was the relationship between the sample space the main trigger. Maybe it would be better to keep all 6 strings, map the signal pitch to individual samples and the envelope of the signal to pitch or duration of the samples played.
+* More strings and updated sample-space control.
+    * It struck me that the relationship between the sample-space and the sample triggering could be optimized and extended. Maybe it would be better to keep all 6 strings, map the signal pitch to individual samples and the envelope of the signal to pitch or duration of the samples played. Or something along these lines.
 
 * Re-develop the trigger system.
     * As mentioned above, the system performed technically just fine. However, the trigger system does exhibit unwanted cut-offs and the occasional glitch which suggests re-development or improvements are in order.
