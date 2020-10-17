@@ -42,5 +42,5 @@ Looking at others solutions feels rewarding, especially when I understand what's
   <i>"Looking to the future! I have a lot to learn. The more masterful coders of Team B have identified some resources for me to utilize as I try to catch up. I hope to someday be coding in style and laugh at tasks like this, but, until that day comes, I will remain the most easily confused coder in the room."</i>
   (W. Mandeville, 2020)
   <figure style="float: auto">
-     <img src="/assets/image/2020_10_15_anderlid_coding.png" alt="Alternate Text" title="Oh no!" width="auto"/>
+     <img src="/assets/image/2020_10_15_anderlid_coding.jpg" alt="Alternate Text" title="Oh no!" width="auto"/>
   </figure>
