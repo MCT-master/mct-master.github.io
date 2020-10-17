@@ -5,7 +5,7 @@ date: 2020-10-17 12:00:00 +0200
 categories: interactive-music-systems
 author: Aleksander Tidemann
 image: https://drive.google.com/uc?&id=1dKDq3RLrZBW-r_vLVaGINXp-HPBdiArH
-keywords: interactive-music-systems, augmented instrument, hyper-instrument, Bela, micro-controller, pure data, javascript p5, python, sample-based music, electric guitar, NIME, MCT
+keywords: Interactive Music Systems, augmented instrument, hyper-instrument, Bela, micro-controller, pure data, javascript p5, python, sample-based music, electric guitar, NIME, MCT
 excerpt: "An interactive music system exploring sample-based music and improvisation through an augmented electric guitar "
 ---
 
