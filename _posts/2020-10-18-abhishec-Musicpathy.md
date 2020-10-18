@@ -25,25 +25,25 @@ So to make music together live over the internet and still be technologically en
 
 To jam live together we used the following software/tools :
 
-[**1. Ableton:**](https://www.ableton.com/en/)
+[1. Ableton:](https://www.ableton.com/en/)
 The Digital Audio Workstation of our preference, any DAW can be used.
 
-[**2. rtpMIDI:**](https://www.tobias-erichsen.de/software/rtpmidi.html)
+[2. rtpMIDI:](https://www.tobias-erichsen.de/software/rtpmidi.html)
 rtpMIDI is a virtual MIDI driver that sends MIDI data over the network.
 
-[**3. Hamachi (VPN):**](https://www.vpn.net/)
+[3. Hamachi (VPN):](https://www.vpn.net/)
 Since rtpMIDI sends data over the network, you need to have a LAN connection to be able to do so, or else you need to do port forwarding. Hamachi here fits as it makes a virtual LAN like network enabling the exchange of MIDI information.
 
-[**4. OSChook (Android):**](https://play.google.com/store/apps/details?id=com.hollyhook.oscHook&hl=en_US)
+[4. OSChook (Android):](https://play.google.com/store/apps/details?id=com.hollyhook.oscHook&hl=en_US)
 This is the android application that reads data from different sensors and sends OSC messages to the OSC receiver.
 
-[**5. OSCRouter:**](https://github.com/ETCLabs/OSCRouter)
+[5. OSCRouter:](https://github.com/ETCLabs/OSCRouter)
 OSCRouter receives the OSC messages and routes it to the application on your system that uses them to control things.
 
-[**6. LiveGrabber:**](https://www.showsync.com/tools)
+[6. LiveGrabber:](https://www.showsync.com/tools)
 This is free MAX for Live plugin and is used to take data from OSCRouter and then control different effects in Ableton.
 
-**7. Midi controller(Arduino Micro):**
+7. Midi controller(Arduino Micro):
 Any MIDI controller works but we used the self-made MIDI controller that is based on the Arduino Micro with an analog multiplexer for many inputs, it has 18 buttons, 8 rotary potentiometers, 2 linear potentiometers out of them one acts as a channel controller and two buttons are octave shifters.
 The program was written in C, for Arduino and sends MIDI data as output. The buttons are Sanwa arcade, which has a super-fast reaction time.
 
@@ -57,14 +57,14 @@ The basic flow of the setup is as follows: Lindsay sends MIDI data to Abhishek�
 For controlling the instrument setup into Abhishek’s Ableton using Lindsay’s MIDI controller we tried sending data over the network and since we both were on a wired connection, the latency that we always fight with at MCT, was very decent at about 37ms.
 The MIDI controller is directly plugged in via USB to the system, rtpMIDI takes the input data and sends it to Ableton’s instrument rack to the receiving port setup in Ableton, over a virtual VPN network made through Hamachi. There’s a flexibility of controlling multiple channels and playing them all at the same time by mapping the controller inputs to different instruments and parameters.
 
-![MIDI Setup signal flow.](\assets\image\2020_10_18_abhishec_MIDI_setup.jpg)
+![MIDI Setup signal flow.](\assets\image\2020_10_18_abhishec_MIDI_setup.jpg =640x480 "MIDI Setup signal flow")
 
 
 **OSC:**
 
 To control the audio effects of Ableton via the smartphone, OSChook app installed in the phone takes data from different sensors and converts it to OSC messages that are sent to the OSC router’s receiving port, this messages are directed towards LiveGrabber plugin. LiveGrabber takes the data and uses it to control the effects mapped to the ParamGrabber plugin.
 
-![OSC Setup signal flow.](\assets\image\2020_10_18_abhishec_MIDI_setup.jpg)
+![OSC Setup signal flow.](\assets\image\2020_10_18_abhishec_MIDI_setup.jpg =640x480 "OSC Setup signal flow")
 
 
 
@@ -73,10 +73,10 @@ To control the audio effects of Ableton via the smartphone, OSChook app installe
 To have a structure in the song we agreed to make a basic arrangement with drums and keys, which gave us a base track to jam upon. Here's a video from one of our sessions:
 
 <figure style="float: none">
-  <video width="480" controls>
+  <video width="auto" controls>
     <source src="https://drive.google.com/file/d/1v8Don0tcLSeIFhigIWDBklWw9w8o8e2r/view?usp=sharing" type='video/mp4'>
   </video>
-  <figcaption>Jam Session. </figcaption>
+  <figcaption>Jam Session</figcaption>
 </figure>
 
 
