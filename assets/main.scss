@@ -324,7 +324,7 @@ form#contact-form {
   margin: -15px auto auto auto;
   padding-top: 15px;
   width: 80%;
-  max-height: 100vh;
+  max-height: 620px;
   overflow: auto;
 }
 
@@ -374,13 +374,13 @@ form#contact-form {
   max-width: 100%;
   box-shadow: 1px 3px 8px rgba(0, 0, 0, 0.5);
   margin: 1em;
+  border: 0;
 }
 
 .page-content figure,
 .page-content img,
 .page-content video {
   height: auto;
-  border: 0;
 }
 
 .page-content figure,
