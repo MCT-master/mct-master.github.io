@@ -57,14 +57,14 @@ The basic flow of the setup is as follows: Lindsay sends MIDI data to Abhishek�
 For controlling the instrument setup into Abhishek’s Ableton using Lindsay’s MIDI controller we tried sending data over the network and since we both were on a wired connection, the latency that we always fight with at MCT, was very decent at about 37ms.
 The MIDI controller is directly plugged in via USB to the system, rtpMIDI takes the input data and sends it to Ableton’s instrument rack to the receiving port setup in Ableton, over a virtual VPN network made through Hamachi. There’s a flexibility of controlling multiple channels and playing them all at the same time by mapping the controller inputs to different instruments and parameters.
 
-![MIDI Setup signal flow.](\assets\image\2020_10_18_abhishec_MIDI_setup.jpg =640x480 "MIDI Setup signal flow")
+![MIDI Setup signal flow.](\assets\image\2020_10_18_abhishec_MIDI_setup.jpg "MIDI Setup signal flow")
 
 
 **OSC:**
 
 To control the audio effects of Ableton via the smartphone, OSChook app installed in the phone takes data from different sensors and converts it to OSC messages that are sent to the OSC router’s receiving port, this messages are directed towards LiveGrabber plugin. LiveGrabber takes the data and uses it to control the effects mapped to the ParamGrabber plugin.
 
-![OSC Setup signal flow.](\assets\image\2020_10_18_abhishec_MIDI_setup.jpg =640x480 "OSC Setup signal flow")
+![OSC Setup signal flow.](\assets\image\2020_10_18_abhishec_MIDI_setup.jpg "OSC Setup signal flow")
 
 
 
