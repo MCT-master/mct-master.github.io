@@ -3,7 +3,7 @@ layout: post
 title: "The singing shelf bracket"
 date: 2020-10-18 23:59:59 +0200
 categories: interactive-music-systems
-author: Name1 Surname1, Name2 Surname2 
+author: Mari Lesteberg
 image: /assets/image/2020_10_18_FractionMari_shelfbracket.jpg
 keywords: interactive music systems, bela, hci, pure data, pd, physical computing, breadboard, arduino, prototyping, instrument creating, interactive music controller, embedded interactive system
 excerpt: "Pure Data (PD) has a lot of possibilities, but when getting the opportunity of putting together all of those digital features into the real word: with real wires, real buttons, real sensors - I must admit - I got a little over-excited!"
