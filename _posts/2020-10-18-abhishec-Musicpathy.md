@@ -43,7 +43,7 @@ OSCRouter receives the OSC messages and routes it to the application on your sys
 [6. LiveGrabber:](https://www.showsync.com/tools)
 This is free MAX for Live plugin and is used to take data from OSCRouter and then control different effects in Ableton.
 
-7. Midi controller(Arduino Micro):
+[7. Midi controller(Arduino Micro):]()
 Any MIDI controller works but we used the self-made MIDI controller that is based on the Arduino Micro with an analog multiplexer for many inputs, it has 18 buttons, 8 rotary potentiometers, 2 linear potentiometers out of them one acts as a channel controller and two buttons are octave shifters.
 The program was written in C, for Arduino and sends MIDI data as output. The buttons are Sanwa arcade, which has a super-fast reaction time.
 
@@ -57,14 +57,14 @@ The basic flow of the setup is as follows: Lindsay sends MIDI data to Abhishek�
 For controlling the instrument setup into Abhishek’s Ableton using Lindsay’s MIDI controller we tried sending data over the network and since we both were on a wired connection, the latency that we always fight with at MCT, was very decent at about 37ms.
 The MIDI controller is directly plugged in via USB to the system, rtpMIDI takes the input data and sends it to Ableton’s instrument rack to the receiving port setup in Ableton, over a virtual VPN network made through Hamachi. There’s a flexibility of controlling multiple channels and playing them all at the same time by mapping the controller inputs to different instruments and parameters.
 
-![MIDI Setup signal flow.](\assets\image\2020_10_18_abhishec_MIDI_setup.jpg "MIDI Setup signal flow")
+![MIDI Setup signal flow.](\assets\image\2020_10_18_abhishec_MIDI_setup.jpg)
 
 
 **OSC:**
 
 To control the audio effects of Ableton via the smartphone, OSChook app installed in the phone takes data from different sensors and converts it to OSC messages that are sent to the OSC router’s receiving port, this messages are directed towards LiveGrabber plugin. LiveGrabber takes the data and uses it to control the effects mapped to the ParamGrabber plugin.
 
-![OSC Setup signal flow.](\assets\image\2020_10_18_abhishec_MIDI_setup.jpg "OSC Setup signal flow")
+![OSC Setup signal flow.](\assets\image\2020_10_18_abhishec_MIDI_setup.jpg)
 
 
 
