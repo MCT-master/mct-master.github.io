@@ -64,7 +64,7 @@ The MIDI controller is directly plugged in via USB to the system, rtpMIDI takes 
 
 To control the audio effects of Ableton via the smartphone, OSChook app installed in the phone takes data from different sensors and converts it to OSC messages that are sent to the OSC router’s receiving port, this messages are directed towards LiveGrabber plugin. LiveGrabber takes the data and uses it to control the effects mapped to the ParamGrabber plugin.
 
-![OSC Setup signal flow.](\assets\image\2020_10_18_abhishec_MIDI_setup.jpg)
+![OSC Setup signal flow.](\assets\image\2020_10_18_abhishec_OSC_setup.jpg)
 
 
 
