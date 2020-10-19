@@ -4,7 +4,7 @@ title: A Tangible Mind
 date: 2020-10-17 12:00:00 +0200
 categories: interactive-music-systems
 author: Jackson Goode
-# image: /assets/image/
+image: /assets/image/2020_10_16_jacksong_bela.jpg
 excerpt: "My granular synthesis percussive instrument from the Interactive Music Systems course."
 keywords: gesture, interactive, bela, pure-data
 ---
