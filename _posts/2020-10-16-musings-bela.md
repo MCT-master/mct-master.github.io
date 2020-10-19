@@ -1,6 +1,6 @@
 ---
 layout: post
-title: A Tangible Mind
+title: Musings with Bela
 date: 2020-10-16 12:00:00 +0200
 categories: interactive-music-systems
 author: Jackson Goode
@@ -55,8 +55,8 @@ Two articles held my interest during the time I spent conceptualizing and design
 These principles were helpful as a means of comparing my proposed instrument against others but also for a class of features to focus on as I developed it. For Musings with Bela, this is how we might visualize its capacity as an instrument:
 
 <figure>
-    <img src="/assets/image/2020_10_16_jacksong_musings_dim_space.png">
-    <figcaption> Participants sleeping for Music for Sleeping & Waking Minds (2011-2012)</figcaption>
+    <img src="/assets/image/2020_10_16_jacksong_dim_space.png">
+    <figcaption>Musings with Bela's dimension space</figcaption>
 </figure>
 
 The second paper, A Framework for the Evaluation of Digital Musical Instruments by O'Modhrain takes ups a similar issue with the absence of well defined lenses through which we can consider, criticize and explain a musical instrument (O'Modhrain, 2011). O'Modhrain suggest that taking the perspective of not only a musician or designer when building an IMS, but also that of an audience member or even a manufacturer. These novel perspectives force an author to consider their instrument from angles that are not typically confronted until after the instrument has been built.
