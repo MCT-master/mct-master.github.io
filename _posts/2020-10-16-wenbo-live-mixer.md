@@ -44,11 +44,20 @@ More specifically, I connected oscHook to the desktop and linked the OSC data to
 
 I originally wanted to control more of the effect through sensors. Sadly, I found out through practice that the application latency made it challenging to guarantee the result, so I abandoned that idea in favor of controlling more of the tracks in real-time through TouchOSC, a sophisticated OSC control app with multiple presets. It allows user to control the parameters of the PAN and some of the plug-ins precisely with the button. The sound image and pitch shifts in the Demo are all controlled by TouchOSC.
 
+
+
+![OSCRouter](/assets/image/2020_10_18_wenbo_oscrouter.png)
+
+
+
+
 ## The problems
 
 
 
 As an audio engineer accustomed to using Pro Tools and Logic Pro X, neither of the two well-known DAWs could support different OSC applications well. Obviously, Reaper and Abelton Live are better answers for this project. Meanwhile, I found that when passing OSC data using different platform applications, it often failed to link (e.g., Android to Mac OSX), and my attempts to use FaceOSC to recognize facial movements failed due to my OSX system version. Moreover, when using the light sensor, data that is used during the day does not usually work well in the evening. After spent a lot of time testing different application. I realized the sensors and applications on consumer electronics don't work well for this kind of professional needs, so perhaps using more common tools like Wii controller, digital pad, and custom sensors would be a better choice for this project.
+
+
 
 ## The reflection
 
