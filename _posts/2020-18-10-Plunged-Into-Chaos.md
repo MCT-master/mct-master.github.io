@@ -86,8 +86,9 @@ And, lastly. How does it sound? Well here’s the video:
 And for those that are still interested, my (slightly more serious) slide presentation on the interface:
 
 <figure align="middle">
-    <iframe src="https://drive.google.com/file/d/1aACvqSfc0_MF1Ok9DD3S5SQUwbZnrU9U/view?usp=sharing" width="800px" height="480px" allowfullscreen></iframe>
-    <figcaption><strong>Slides. With presentation notes! (for full disclosure)<strong></figcaption></figure>
+    <iframe src="https://drive.google.com/file/d/1aACvqSfc0_MF1Ok9DD3S5SQUwbZnrU9U/preview" width="800px" height="480px" allowfullscreen></iframe>
+    <figcaption>Presenting: The Presentation</figcaption>
+</figure>
 
 
 
