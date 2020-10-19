@@ -31,7 +31,7 @@ To trigger samples on the SamTar you basically hit the only string currently ava
 </figure>
 -->
 
-### Sample Space
+#### Sample Space
 To categorize and organize samples, I created a 2D sample-space in Pure Data. The purpose of such a space was to enable easy and dynamic navigation of sample clusters from the SamTar itself. This space consists of multiple **scenes** (tracks) each with n-number of **segments** (section within a track), filled with x-number of **audio files/samples**. Also, as a general principle, I wanted to focus on how minimal input could control complex processes, so essentially how "one-to-many" mappings could benefit "one-man-band" type instruments (Morreale, McPherson 2019, p.2). The result was a simple button, mounted on the guitar, that skips segments and scenes when pressed.
 
 In my prototyped version I was able to implement an LED array in [**p5**](https://p5js.org/) visually displaying the "location" of the player in the current sample-space. Optimally, this would be implemented in a physical Adafruit NeoPixel LED array mounted on the instrument itself.
@@ -39,14 +39,14 @@ In my prototyped version I was able to implement an LED array in [**p5**](https:
 <figure style="float: none">
    <img src="https://drive.google.com/uc?&id=1zP7nkt65MSUmwzCwiYIxl2jiBpfJ5_8b"
    alt="Alternate Text" title="Image Title" width="680" />
-   <figcaption>The sample-space is inspired by Ableton Lives session view, helping player navigate through sample-spaces. However, in the SamTar, the green circles represent segments containing multiples samples each. </figcaption>
+   <figcaption>The SamTar's sample-space is inspired by Ableton Live's session view. However, the implementation is one step more high-level meaning the green circles represent segments containing multiples samples each. </figcaption>
 </figure>
 
-### Randomness
+#### Randomness
 When in a segment, the system chooses a random sequence of two samples that are looped when hitting the string of the guitar. To enable a exploratory interaction I added a rotary knob (0 - 100) that adjusts the probability a trigger has of changing the current sample sequence to a new one. For instance, if the knob is at 40 the next trigger will have a 40% chance of changing the sample sequence and a 60% chance of staying on the same two samples.
 
-### Effects
-For some further variation, a designed a few effects to facilitate some sound manipulation options. As the players left hand is completely free during play I put a soft potentiometer on the back of the guitar neck that controls the overall pitch of the samples. Furthermore, a chorus distortion was added for the ability to go full rock n roll, enabled by a simple switch on the mounted Bela board.   
+#### Effects
+For some further variation, a designed a few effects to facilitate some sound manipulation. As the players left hand is completely free during play I put a soft potentiometer on the back of the guitar neck that controls the overall pitch of the samples. Furthermore, a chorus distortion was added for the ability to go full rock n roll, enabled by a simple switch on the mounted Bela board.   
 
 <figure style="float: left">
    <img src="https://drive.google.com/uc?&id=1sQ3KHMasfQl_Tb_ADtZW3c0EE0yIPfqe"
@@ -57,7 +57,7 @@ For some further variation, a designed a few effects to facilitate some sound ma
 <figure style="float: none">
    <img src="https://drive.google.com/uc?&id=1XWhg09pVIW4sNTJYqNk7b9ICy1NkMorN"
    alt="Alternate Text" title="Image Title" width="320" />
-   <figcaption>The use of Command strips is a cheap, strong and effective way to mount micro-controllers in gravity-defying locations.</figcaption>
+   <figcaption>The use of Command Strips is a cheap, strong and effective way to mount micro-controllers in gravity-defying locations.</figcaption>
 </figure>
 
 # Evaluation
@@ -72,7 +72,7 @@ Technically the prototyped system performed surprisingly well with negligible la
 * More diagnostics.
     * Additionally to the proposed LED array, more diagnostic displays should be explored that give users more insight into the current state of the system.
 
-# Inspirational Sources
+# Relevant Sources
 Cook, P. R. (2006). *Re-Designing Principles for Computer Music Controllers: A Case Study of SqueezeVox Maggie*. in Proceedings of the 6th international conference on New Interfaces for Musical Expression.
 
 Gonzalez Sanchez, V. E., Martin, C. P., Zelechowska, A., Bjerkestrand, K. A. V., Johnson, V., & Jensenius, A. R. (2018). *Bela-Based Augmented Acoustic Guitars for Sonic Microinteraction.* In Proceedings of the International Conference on New Interfaces for Musical Expression. Zenodo. https://doi.org/10.5281/zenodo.1302599
