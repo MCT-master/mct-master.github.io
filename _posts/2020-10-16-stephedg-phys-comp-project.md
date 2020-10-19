@@ -2,7 +2,7 @@
 layout: post
 title: "Improvised electronica with TouchOSC"
 date: 2020-10-16 17:00:00 +0200
-categories: interactive-music-systems physical-computing
+categories: physical-computing
 author: Stephen Gardener
 image: https://hexler.net/gfx/_software/touchosc-15.png
 excerpt: "In this project, I wanted to explore the options available when performing electronic music live with no pre-recorded / pre-sequenced material."
@@ -13,7 +13,7 @@ In this project, I wanted to explore the options available when performing elect
 
 In a band or orchestra, you have multiple musicians, each focusing on a particular instrument. For electronic music makers, we have an entire suite of sound generators (instruments) and sequencers (the performers) in our laptop, and the question becomes - how can we translate an electronic composition on a laptop into something that can be performed in a live situation? The obvious answer would be to assemble a band, with each person controlling a single part on their laptop or with a synth, in order to keep the one-to-one ratio of performer and instrument. Another option is to look upon the laptop as an orchestra of musicians, with each sequencer / synth combination being a part controlled by an individual ‘performer’. In this way, you become the conductor, directing the musicians (sequencers) at a higher level. Such a system, designed correctly, could allow for a great deal of compositional and improvisational freedom in a performance context, and my project was a first attempt at looking into some of the options that would be available to such a performer.
 
-As I wanted individual control over all parts at the same time, I limited the number of parts to four - two melodic parts, a harmony part and a rhythm section. I put together a system using Reason Players (Dual Arpeggio, Scales & Chords, Beat Map and Note Echo) which I could feed with single notes, and let them generate the melodies, harmonies and beats. 
+As I wanted individual control over all parts at the same time, I limited the number of parts to four - two melodic parts, a harmony part and a rhythm section. I put together a system using Reason Players (Dual Arpeggio, Scales & Chords, Beat Map and Note Echo) which I could feed with single notes, and let them generate the melodies, harmonies and beats.
 
 <figure style="float: none">
     <iframe src="https://drive.google.com/file/d/1_YgCD0Wx22rZaVOnwaqpeO4hCRWMwnI8/preview" width="430" height="500"></iframe>
@@ -29,11 +29,11 @@ My custom layout included buttons 1 - 7 for triggering the notes in a D mixolydi
 
 ![TouchOSC layout](/assets/image/2020_10_16_stephedg_touchosc.png)
 
-The two melody parts were handled by Native Instruments Monark and U-he Repro-1 soft synths. The note received from TouchOSC was turned into a 4 note chord and sent through two arpeggios set at two different rates and lengths in order to generate an interesting rhythm. 
+The two melody parts were handled by Native Instruments Monark and U-he Repro-1 soft synths. The note received from TouchOSC was turned into a 4 note chord and sent through two arpeggios set at two different rates and lengths in order to generate an interesting rhythm.
 
-The first group of sliders controlled these melody parts - one I assigned to the Note Echo (MIDI echo) device, allowing me to introduce additional notes which would vary in pitch (a subsequent player mapped these notes back to the D7 scale). The other slider I assigned to the Monarks third oscillator, allowing me to shift the octave up and down, in essence introducing an additional note/voice to the melody. 
+The first group of sliders controlled these melody parts - one I assigned to the Note Echo (MIDI echo) device, allowing me to introduce additional notes which would vary in pitch (a subsequent player mapped these notes back to the D7 scale). The other slider I assigned to the Monarks third oscillator, allowing me to shift the octave up and down, in essence introducing an additional note/voice to the melody.
 
-The second group of controls were for the harmony part. This was a synth pad played by U-he Repro-5 soft synth, and the note received from TouchOSC was mapped to a chord using the Chords & Scales player. I used the sliders to adjust sound parameters (cutoff frequency and the introduction of a tremolo effect) rather than notes for this part. 
+The second group of controls were for the harmony part. This was a synth pad played by U-he Repro-5 soft synth, and the note received from TouchOSC was mapped to a chord using the Chords & Scales player. I used the sliders to adjust sound parameters (cutoff frequency and the introduction of a tremolo effect) rather than notes for this part.
 
 The final group of controls controlled the bass and drums, with a slider for a beat-repeat effect, and a button for muting / unmuting the part.
 I used Ableton Live as the host for the VSTs and the Reason rack plugins. TouchOSC on the phone connected via the TouchOSC Bridge app to the Max for Live Connection Kit device running in Ableton, which then allowed me to map the TouchOSC controls to Ableton.
