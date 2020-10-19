@@ -9,7 +9,7 @@ keywords: oompa-doompa, plungers, NIME, God, Whitesnake, Plato
 excerpt: "Wherein the lowly Oompa-Doompa assumes its ultimate form."
 ---
 
-## Plunged Into Chaos
+## A Little Context
 
 Beloved by plumbers, sexual deviants and trombonists, the venerable toilet plunger (or ‘force cup’) was invented in 1874 by a New York confectioner named John Savage Hawley. Hawley was a man of many talents, holding patents for, among other things, an improved type of corn-cob pipe and a method for the manufacture of chocolate cigars.
 
@@ -58,7 +58,7 @@ Fig. 2 shows the rather quite interesting circuit I used to measure values from 
 <figcaption><strong>figure 2: Blah Blah Blah, Science</strong></figcaption>
 </figure>
 
-Fig. 3 shows the mounting of the volume sensor. It’s a very sensitive little beast, but with practice the player can control onsets, volume swells and tremolo-like effects, at least until it breaks, which it most likely will. To avoid this, I strapped it down with zip-ties with the zeal of a cartoon villain tying a damsel to the railway tracks. Done.
+Fig. 3 shows the mounting of the volume sensor. It’s a very sensitive little beast, but with practice the player can control onsets, volume swells and tremolo-like effects, at least until it breaks, which it most likely will. To avoid this, I zip-tied it down with the zeal of a cartoon villain tying a damsel to the railway tracks. Done.
 
 <figure align="middle">
 <img src="/assets/image/2020_10_18_paulgk_Mounting_A_FSR.jpeg" width="80%"/>
@@ -77,11 +77,11 @@ I ran the wires very neatly down the back of the handle, secured with double-sid
 And, lastly. How does it sound? Well here’s the video:
 
 <figure style="float: none">
-  <video width="680" controls>
-    <source src="https://youtu.be/gEq9EnWrApc?t=153" type='video/mp4'>
-  </video>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/gEq9EnWrApc?start=153" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
   <figcaption><strong>Something not quite approaching Chaos</strong></figcaption>
-  </figure>
+</figure>
+
 
 And for those that are still interested, my (slightly more serious) slide presentation on the interface:
 
