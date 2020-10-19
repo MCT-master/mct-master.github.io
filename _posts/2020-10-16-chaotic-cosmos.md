@@ -45,3 +45,5 @@ Well, after spending quite a lot of time tweaking parameters in OSCulator, to pr
 
 #### Conclusion
 I think it worked quite well as a performance tool, and it was fun using it. But I experienced that what worked one day, didn’t work quite as well the next day, and tweaking it wouldn’t help for the next time I turned it on. But anyway, with the scaling of the outgoing data in OSCulator it still worked alright, and I really enjoyed playing with it. Unless I grow more arms in the near future, I can see myself actually implementing something like this in a live performance setting.
+
+<i>Final note: I could also see this as a fun addition to add to some guitar-FX pedals that take MIDI-cc messages, but it might also take away too much of the shoegazing …</i>
