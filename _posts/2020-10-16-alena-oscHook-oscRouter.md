@@ -25,7 +25,7 @@ For this assignment I used the following softwares:
 
 As a novice regardig both parts of this task - on one hand seding sensordata to a DAW in real-time to control parameters' values and on the other hand tweaking parameters and effects in a DAW for audio processing purposes - I had to approach things systematically.
 
-First step was to send data from my phone to the __OSC Router__ and then in Reaper. After installing the necessary software and with some help, I managed to do it successfully, but I found it important to document the process - if nothing else, for future reference since it's likely that I will forget some steps and get frustrated if I ever try to do it again from scratch. Also because it was a substantial step, taking me almost as much time as the other part of the task. So, in this section I will write a few important steps that shouldn't be skipped and some troubleshooting notes.
+First step was to send data from my phone to the __OSC Router__ and then in __Reaper__. After installing the necessary software and with some help, I managed to do it successfully, but I found it important to document the process - if nothing else, for future reference since it's likely that I will forget some steps and get frustrated if I ever try to do it again from scratch. Also because it was a substantial step, taking me almost as much time as the other part of the task. So, in this section I will write a few important steps that shouldn't be skipped and some troubleshooting notes.
 
 #### oscHook
 
@@ -125,11 +125,13 @@ Checking each track individually, and knowing the effects I wanted to use, I dec
 
 ### Scaling
 
-For a smoother control of the parameters' values, I changed the scaling manually for each effect. Below it's a screenshot of my final __OSCRouter__ settings.
+For a smoother control of the parameters' values, I changed the scaling manually for each effect. Below it's a screenshot of my final __OSCRouter__ settings. 
 
 ![OSCRouter Final](/assets/image/2020_10_16_alena_osc_final.jpg)
 
 ## Performance demo + (time axis sheet)
+
+__Important note!__ After scaling the parameters, try to keep the exact same light conditions before recording or working on it again. You might notice that the scalling is totally off if you scale the parameters in the middle of the day, near a window, and then record a demo at midnight with only a lamp for light (as it was my case).
 
 [Here](https://drive.google.com/file/d/1HPjX4_uwv2OOuDzTGMNiSalQZszaIugw/view?usp=sharing) is the video of the final performance. On the front camera view you can see the way I'm moving the phone to control the parameters' values. In __Reaper__ you can notice the effects' windows and how the bars are moving based on the phone's movements. 
 
