@@ -72,13 +72,12 @@ To control the audio effects of Ableton via the smartphone, OSChook app installe
 
 To have a structure in the song we agreed to make a basic arrangement with drums and keys, which gave us a base track to jam upon. Here's a video from one of our sessions:
 
-<figure style="float: none">
-  <video width="auto" controls>
-    <source src="https://drive.google.com/file/d/1v8Don0tcLSeIFhigIWDBklWw9w8o8e2r/view?usp=sharing" type='video/mp4'>
-  </video>
-  <figcaption>Jam Session</figcaption>
-</figure>
 
+
+<figure style="float: none">
+    <iframe width="1287" height="496" src="https://www.youtube.com/embed/5juMNZlkK3U" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    <figcaption>Perfomance</figcaption>
+</figure>
 
 
 
@@ -91,4 +90,4 @@ I really enjoyed making music with Abhishek although I did not have any experien
 
 #### Abhishek’s Reflection:
 
-The whole process was super fun and felt like we were in a hackathon or something, setting up connections and then finally making music was a different experience, although it still cannot replace the physical jams, this one was the best and closest to the physical jam session we used to have in the pre-covid era. Nevertheless, the best part of this setup is that once everything is fixed and connected, the next time you want to jam again you don’t need to do it from scratch, just plug in the controller, start the DAW and you’re pretty much ready to go making it super easy to have more jams with Lindsay. The next iteration of this setup for me will be to include acoustic instruments in the jam, use FaceOsc to control the effects, and increase the precision and accuracy of OSC controls.
+The whole process was super fun and felt like we were in a hackathon or something, setting up connections and then finally making music was a different experience, although it still cannot replace the physical jams, this one was the best and closest to the physical jam session we used to have in the pre-covid era. Nevertheless, the best part of this setup is that once everything is fixed and connected, the next time you want to jam again you don’t need to do it from scratch, just plug in the controller, start the DAW and you’re pretty much ready to go, making it super easy to have more jams with Lindsay. The next iteration of this setup for me will be to include acoustic instruments in the jam, use FaceOsc to control the effects, and increase the precision and accuracy of OSC controls.
