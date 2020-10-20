@@ -83,11 +83,11 @@ The results in the performance were way distant comparing to the experience that
 
 - The microphone during testing phase didn't capture any sound feedback since I was using earphones as monitors for testing. So the funcions like lighting up the led blowing the microphone, opening-up the filters and envelopes and activating the arpeggiator got all messy during the performance, since it was capturing the loud sound coming from the monitors and interpreting as the user blowing the microphone or screaming.
 
-<figure style="float: none">
-    <iframe width="560" height="315" src="https://youtu.be/gEq9EnWrApc?t=1053" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-    <figcaption><strong>Performance</strong></figcaption>
-</figure>
+<p align="center">
+<iframe width="832" height="468" src="https://youtu.be/gEq9EnWrApc?t=1053" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+</iframe>
+</p>
 
 ## Reflection
 
-Time management. The best that I can say here is that time management is essential to any project, and of course it was a key point for my project. As I spent much time on the theoretical conceptualization, ideas and studying the subject, I didn't have time enought to spend testing the system out of my house bubble. In real action. That lack of management made me go from a stable and interesting performance at home, to a messy and unpredictable performance in public.
+Time management. The best that I can say here is that time management is essential to any project, and of course it was a key point for my project. As I spent much time on the theoretical conceptualization, ideas and studying the subject, I didn't have time enough to spend testing the system out of my house bubble. In real action. That lack of management made me go from a stable and interesting performance at home, to a messy and unpredictable performance in public.
