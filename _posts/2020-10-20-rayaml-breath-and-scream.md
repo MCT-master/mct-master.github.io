@@ -4,7 +4,7 @@ title: "Breathe the light, scream arpeggios!"
 date: 2020-10-20 16:59:00 +0200
 categories: interactive-music-systems
 author: Rayam Luna
-image: https://drive.google.com/file/d/11KY7PHbtyyPhBpWDWS2qk-_kYhlEIxK4
+image: https://drive.google.com/uc?&id=11KY7PHbtyyPhBpWDWS2qk-_kYhlEIxK4
 excerpt: "Multisensorial music interface aiming to provide a synesthetic experience. Touch, light, breathe, scream - make sound!"
 keywords: light, synesthesia, interactive, bela, pure-data
 ---
@@ -22,43 +22,40 @@ There are basisc two modes, one is the [ standard mode ] which is a simple synth
 The design process started when I realized the importance of sketching the ideas with pen and paper. It helped a lot to clarify some toughts and visualize the ideas in practical way. Drawing, listing components and possible mappings and noting alternatives, were extremely important as a starting point for this project.
 
 <figure style="float: none">
-   <img src="https://drive.google.com/file/d/1tKlYZtWqpNkexQLyU1gevzyFbOj0m7Fq"
-   alt="Alternate Text" title="Image Title" width="680" />
+   <img src="https://drive.google.com/uc?&id=1tKlYZtWqpNkexQLyU1gevzyFbOj0m7Fq" title="Sketch" width="360px" />
    <figcaption>Sketch</figcaption>
 </figure>
 
 After that I started to design a prototype digitally, that way I could organize the ideas and make the draw more clear and simple to understand in order to visualize the disposition of the sensors, wires and material used for the interface.
 
 <figure style="float: none">
-   <img src="https://drive.google.com/file/d/1lgxDUSHPP-gcV7jHP0-y5yjeaq3mRJTf"
-   alt="Alternate Text" title="Image Title" width="680" />
+   <img src="https://drive.google.com/uc?&id=1lgxDUSHPP-gcV7jHP0-y5yjeaq3mRJTf" title="Prototype" width="680px" />
    <figcaption>Prototype</figcaption>
 </figure>
 
 The next step was to design a scheme for the connections between the sensors and Bela using a software called Fritzing.
 
 <figure style="float: none">
-   <img src="https://drive.google.com/file/d/1VIP43cnX2OGx_wXFYa49W-ged1vDfwOT"
-   alt="Alternate Text" title="Image Title" width="680" />
+   <iframe src="https://drive.google.com/file/d/1VIP43cnX2OGx_wXFYa49W-ged1vDfwOT/preview" title="Fritzing" width="680px" height="500px"></iframe>
    <figcaption>Fritzing</figcaption>
 </figure>
 
 ## Components
 
-Flex Sensor 2.2"
+### Flex Sensor 2.2"
 
 - Tactile sensory experience
 - Controls Pitch when in [ standard mode ]
 - Controls Root note octave, scale, and sequency pattern when in [ scream mode ]
 
-Electret Microphone
+### Electret Microphone
 
 - Breath and Scream activations
 - LED lights up like a flame! [ standard mode ]
 - Acid filters and Evelopes open up [ scream mode ]
 - Activates arpeggiator when scream! (total madnassss!) [ scream mode ]
 
-Flex + Electret Microphone [ scream mode ]
+### Flex + Electret Microphone [ scream mode ]
 
 That combination of sensors was a creative solution that I had to come up with at the last hours before the presentation. It happened because my Accelerometer sensor stopped working around 01:30 of the night before the performance. Some of the functions bellow require a sequence of interactions and range of values.
 
@@ -70,8 +67,7 @@ That combination of sensors was a creative solution that I had to come up with a
 ## The System
 
 <figure style="float: none">
-   <img src="https://drive.google.com/file/d/1rwnXN1XT92lu2HsZts-iPSo9Ono3VtUG"
-   alt="Alternate Text" title="Image Title" width="680" />
+   <img src="https://drive.google.com/uc?&id=1rwnXN1XT92lu2HsZts-iPSo9Ono3VtUG" title="The IMS" width="680px" />
    <figcaption>The IMS</figcaption>
 </figure>
 
@@ -84,7 +80,7 @@ The results in the performance were way distant comparing to the experience that
 - The microphone during testing phase didn't capture any sound feedback since I was using earphones as monitors for testing. So the funcions like lighting up the led blowing the microphone, opening-up the filters and envelopes and activating the arpeggiator got all messy during the performance, since it was capturing the loud sound coming from the monitors and interpreting as the user blowing the microphone or screaming.
 
 <figure style="float: none">
-    <iframe width="560" height="315" src="https://youtu.be/gEq9EnWrApc?t=1053" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    <iframe width="640px" height="360px" src="https://www.youtube-nocookie.com/embed/gEq9EnWrApc?start=1054" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
     <figcaption><strong>Performance</strong></figcaption>
 </figure>
 
