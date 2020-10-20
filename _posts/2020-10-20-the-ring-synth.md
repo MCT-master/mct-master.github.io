@@ -67,10 +67,10 @@ The frequency extracted from the voice is mapped to the fundamental synthesis fr
 
 Here is a video of the system in action. Last third of the video presents the instrument being used with random noise as audio input, so the pitch jumps all the time.
 
-<div align="center">
-    <iframe width="560" height="315" src="http://www.youtube.com/watch?v=G6x0lBIT2lw/zsYjsgm4Psg" frameborder="0" allowfullscreen>
-    </iframe>
-</div>
+<p align="center">
+<iframe width="832" height="468" src="http://www.youtube.com/embed/G6x0lBIT2lw" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+</iframe>
+</p>
 
 ## Reflection
 
