@@ -9,11 +9,11 @@ excerpt: "A tale of accelerometers, knobs, an EEG and the attempt to tame sound 
 keywords: bela, interactive, EEG, pure-data, python, sonification
 ---
 
-For my project in the Interactive Music Systems course, I decided to work with a portable EEG reader, a Bela coupled with an accelerometer and potentiometers. Little did I know how hard it would be to join both software and hardware within an interactive package. 
+For my project in the Interactive Music Systems course, I decided to work with a (portable EEG reader)[https://choosemuse.com/] and a [Bela](https://bela.io/) coupled with an accelerometer and potentiometers. Little did I know how much of a challenge it is to join both software and hardware within an interactive package.
 
 # Inspiration
 
-Coming from a undergraduate degree in cognitive science, I've always wanted to work with (read hack) an electroencephalogram (EEG) for some kind of artistic performance or instrument. While I have worked with a more traditional systems that require head-caps and conductive gel, I have never had the opportunity to test out some of the many different portable systems that have come out in the last decade. After reaching out to [Alexander Jensenius](https://arj.no), I was able to borrow a system from a researcher at RITMO - which I'll cover later in the hardware section.
+Coming from a undergraduate degree in cognitive science, I've always wanted to work with (read hack) an [electroencephalogram](https://en.wikipedia.org/wiki/Electroencephalography) (EEG) for some kind of artistic performance or instrument. While I have worked with a more traditional systems that require head-caps and conductive gel, I have never had the opportunity to test out some of the many different portable systems that have come out in the last decade. After reaching out to [Alexander Jensenius](https://arj.no), I was able to borrow a system from a researcher at RITMO - which I'll cover later in the hardware section.
 
 ## Artistic examples
 
