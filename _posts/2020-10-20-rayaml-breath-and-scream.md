@@ -79,10 +79,6 @@ The results in the performance were way distant comparing to the experience that
 
 - The microphone during testing phase didn't capture any sound feedback since I was using earphones as monitors for testing. So the funcions like lighting up the led blowing the microphone, opening-up the filters and envelopes and activating the arpeggiator got all messy during the performance, since it was capturing the loud sound coming from the monitors and interpreting as the user blowing the microphone or screaming.
 
-<p align="center">
-<iframe width="832" height="468" src="https://youtu.be/gEq9EnWrApc?t=1053" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
-</iframe>
-</p>
 <figure style="float: none">
     <iframe width="640px" height="360px" src="https://www.youtube-nocookie.com/embed/gEq9EnWrApc?start=1053" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
     <figcaption><strong>Performance</strong></figcaption>
