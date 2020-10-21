@@ -24,6 +24,7 @@ $spacing-unit: 30px;
 $text-color: #333;
 $background-color: #fdfdfd;
 $brand-color: #8764b4;
+$brand-color-dark: darken($brand-color, 20%);
 $brand-color-1: #bf033b;
 $brand-color-2: #f00a36;
 $brand-color-3: #ed3b21;
@@ -120,7 +121,7 @@ a {
   }
 
   &:hover {
-    color: darken($brand-color, 20%);
+    color: $brand-color-dark;
     text-decoration: none;
   }
 
@@ -197,29 +198,41 @@ a {
     color: $brand-color;
     line-height: $base-line-height;
     display: inline-block;
+    cursor: pointer;
 
     &:visited {
       color: $brand-color;
     }
 
     &:hover {
-      color: darken($brand-color, 20%);
+      color: $brand-color-dark;
     }
   }
 }
 
-.dropdown li {
-  padding: 0.5rem;
-  color: $brand-color;
-  //&:visited { color: $brand-color; }
+@media screen and (max-width: 600px) { // proper header formating for mobile
+  .site-nav {
+    padding: 0 1em 0;
+    text-align: center;
+    
+    .page-link {
+      margin: 0;
+    }
+  }
+
+  .post-content .post-list img { // put images above posts (not enough space to right)
+    width: 80%;
+    float: none;
+    margin-bottom: 1em;
+  }
 }
 
 ul.dropdown li {
-  line-height: 100%;
-}
-
-nav ul.dropdown li {
   display: block;
+  line-height: 100%;
+  color: $brand-color;
+  padding: 0.5rem;
+  //&:visited { color: $brand-color; }
   //border: 2px white solid;
 }
 
@@ -238,30 +251,44 @@ nav li {
   & a {
     color: $brand-color;
   }
-
-  &:hover {
-    cursor: pointer;
-  }
 }
 
 nav ul.dropdown {
   position: absolute;
-  background: #eee;
   display: block;
-  visibility: hidden;
-  opacity: 0;
-  transition: visibility 0.1s, opacity 0.1s;
   left: inherit;
+  background: #eee;
   margin-left: -14px;
   border-radius: 6px;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.15);
   padding: 6px;
+
+  opacity: 0;
+  visibility: hidden;
+  transition: visibility 0.1s, opacity 0.1s;
 }
 
-nav ul li:hover > ul.dropdown {
+.dropbtn {
+  cursor: pointer;
+}
+
+.dropcheck { // trick to toggle dropdown (should be hidden) 
+  display: none;
+}
+
+.dropcheck:checked + .dropdown {
   visibility: visible;
   opacity: 1;
   z-index: 100;
 }
+
+// @media screen and (max-width: 600px) {
+//   nav ul li:focus > ul.dropdown {
+//     visibility: visible;
+//     opacity: 1;
+//     z-index: 100;
+//   }
+// }
 
 nav ul li ul li {
   clear: both;
