@@ -153,6 +153,13 @@ a {
     @include media-query($on-laptop) {
       @include relative-font-size(1.652);
     }
+
+    &:after {
+      content: ' ';
+      display: block;
+      border: 1px solid $grey-color-light;
+    }
+
   }
 
   h2 {
@@ -185,13 +192,16 @@ a {
   padding-left: 1em;
   position: relative;
   text-align: left;
+
   .page-link {
     color: $brand-color;
     line-height: $base-line-height;
     display: inline-block;
+
     &:visited {
       color: $brand-color;
     }
+
     &:hover {
       color: darken($brand-color, 20%);
     }
@@ -375,6 +385,10 @@ form#contact-form {
   box-shadow: 1px 3px 8px rgba(0, 0, 0, 0.5);
   margin: 1em;
   border: 0;
+}
+
+.no-shadow { // for removing dropshadow from media
+  box-shadow: none !important;
 }
 
 .page-content figure,
