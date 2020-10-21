@@ -30,6 +30,6 @@ permalink: /alltopics/
       {%- endif -%}  
     {%- endfor -%}
   </ul>
-  {%- else -%}
-    <p>No posts yet.</p>
-  {%- endif -%}
+{%- else -%}
+  <p>No posts yet.</p>
+{%- endif -%}
