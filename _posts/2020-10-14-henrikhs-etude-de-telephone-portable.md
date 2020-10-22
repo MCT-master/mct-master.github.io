@@ -4,7 +4,7 @@ title: "Étude de téléphone portable et popsocket"
 date: 2020-10-14 20:00:00 +0200
 categories: physical-computing
 author: Henrik Sveen
-image: /assets/image/2020_10_14_henrikhs_etude_de_dog.png
+image: /assets/image/2020_10_14_henrikhs_etude_de_dog.jpg
 keywords: physical-computing, maxmsp, delay, dog, music, gyrosc, osc
 excerpt: "Click to see a cute dog making strange music. Unbelievable. I think that sums it up."
 ---
@@ -25,7 +25,7 @@ The sequencer part has one hardcoded melody and another melody that is making 8 
 </figure>
 
 <figure style="float: auto">
-   <img src="/assets/image/2020_10_14_henrikhs_dogdelay.png" alt="Alternate Text" title="good luck zooming in, also a very messy patch.." width="auto"/> <figcaption>Inside of instrument</figcaption>
+   <img src="/assets/image/2020_10_14_henrikhs_dogdelay.jpg" alt="Alternate Text" title="good luck zooming in, also a very messy patch.." width="auto"/> <figcaption>Inside of instrument</figcaption>
 </figure>
 
 #### But why?
