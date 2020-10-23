@@ -322,18 +322,21 @@ ul.pager {
   border-top: 0.1em dotted #dedede;
   padding-top: 2em;
   margin: auto;
+  list-style: none;
+  text-align: center;
 }
 
 .previous,
 .next {
+  display: inline;
   font-weight: 500;
-  padding: 6px 0;
+  padding: 6px;
   // font-size: 1.15em;
 
   & > a {
     color: #333;
     text-decoration: none;
-    padding: 6px 8px;
+    padding: 6px 12px;
     border-radius: 6px;
     background-color: rgba(240, 240, 240, 1);
     transition: 0.1s;
