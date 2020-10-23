@@ -221,9 +221,9 @@ a {
   }
 
   .post-content .post-list img { // put images above posts (not enough space to right)
-    width: 80%;
+    width: 90%;
     float: none;
-    margin-bottom: 1em;
+    margin: 1em auto;
   }
 }
 
@@ -253,6 +253,8 @@ nav li {
   }
 }
 
+// Dropdown
+
 nav ul.dropdown {
   position: absolute;
   display: block;
@@ -268,17 +270,17 @@ nav ul.dropdown {
   transition: visibility 0.1s, opacity 0.1s;
 }
 
-.dropbtn {
+.drop-btn {
   cursor: pointer;
 }
 
-.dropcheck { // trick to toggle dropdown (should be hidden) 
+.drop-check { // trick to toggle dropdown (should be hidden) 
   display: none;
 }
 
-.dropcheck:checked + .dropdown {
-  visibility: visible;
+.drop-check:checked ~ .dropdown {
   opacity: 1;
+  visibility: visible;
   z-index: 100;
 }
 
@@ -295,9 +297,12 @@ nav ul li ul li {
   width: 100%;
 }
 
-.read-more {
-  margin-top: 1em;
+// Buttons on blog
 
+.read-more {
+  padding: 6px 0;
+  margin: 0;
+  
   & > a {
     color: #333;
     text-decoration: none;
@@ -322,6 +327,7 @@ ul.pager {
 .previous,
 .next {
   font-weight: 500;
+  padding: 6px 0;
   // font-size: 1.15em;
 
   & > a {
@@ -339,6 +345,8 @@ ul.pager {
   }
 }
 
+// Search page
+
 form#contact-form {
   text-align: center;
 }
@@ -353,7 +361,6 @@ form#contact-form {
   padding: 0 30px;
   outline: none;
   z-index: 99;
-
 }
 
 #list {
@@ -448,24 +455,27 @@ form#contact-form {
   position: relative;
 }
 
-.post-list img {
-  width: 33.3%;
-  float: right;
-  display: block;
-  //padding: 0 3% 1% 0;
-  margin: 0 0 0 3em;
-  box-shadow: 1px 3px 8px rgba(0, 0, 0, 0.5);
-}
-
 .post-list li {
   border-top: 0.1em dotted #dedede;
-  padding-top: 1.5em;
-  padding-bottom: 1.5em;
+  padding: 1.5em 0;
   margin-bottom: 0 !important;
-}
 
-.post-list li::after {
-  content: "";
-  clear: both;
-  display: table;
+  & img {
+    width: 33.3%;
+    float: right;
+    display: block;
+    //padding: 0 3% 1% 0;
+    margin: 0 0 0 3em;
+    box-shadow: 1px 3px 8px rgba(0, 0, 0, 0.5);
+  }
+
+  & .post-excerpt {
+    margin: 1em auto;
+  }
+
+  &:after {
+    content: "";
+    clear: both;
+    display: table;
+  }
 }
