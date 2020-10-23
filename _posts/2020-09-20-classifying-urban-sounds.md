@@ -123,7 +123,7 @@ One obvious challenge in mixing sounds as was performed in this experiment is th
 
 Another issue tied to the source database was its sheer size. The total time required to load around 9000 .wav files makes it prohibitively expensive when tuning parameters, or in this case, adapting the processing of files for a new problem space. K-fold validation would have been helpful in estimating the average accuracy of the model and providing greater confidence in our reflections of the model but there was not enough time to do so.
 
-Code and instructions for setting up this project can be found [here](https://github.com/jacksonmgoode/enc-multi-label).
+Code and instructions for setting up this project can be found [here](https://github.com/jacksongoode/enc-multi-label).
 
 # References
 

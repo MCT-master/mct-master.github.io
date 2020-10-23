@@ -10,20 +10,19 @@
       <ul>
         {% for item in site.data.menulist.toc %}
           <li class="page-link">
+          {% if item.subfolderitems.size > 0 %}
+            <label class="drop-btn" for="{{ item.title }}">{{ item.title | escape }}</label>
+            <input id="{{ item.title }}" class="drop-check" name="drop-check" type="checkbox">
+            
+            <ul class="dropdown">
+              {% for entry in item.subfolderitems %}
+                <li><a href="{{ entry.url }}">{{ entry.page }}</a></li>
+              {% endfor %}
+            </ul>
 
-            {% if item.subfolderitems.size > 0 %}
-              <label class="dropbtn" for="{{ item.title }}">{{ item.title | escape }}</label>
-              <input id="{{ item.title }}" class="dropcheck" type="checkbox">
-              
-              <ul class="dropdown">
-                {% for entry in item.subfolderitems %}
-                  <li><a href="{{ entry.url }}">{{ entry.page }}</a></li>
-                {% endfor %}
-              </ul>
-
-            {% else %}
-              <a href="{{ item.url | relative_url }}">{{ item.title | escape }}</a>
-            {% endif %}
+          {% else %}
+            <a href="{{ item.url | relative_url }}">{{ item.title | escape }}</a>
+          {% endif %}
           </li>
         {% endfor %}
       </ul>
