@@ -24,19 +24,21 @@ layout: default
         <span class="post-meta">• {{ post.author }}</span>
         <br />
         <span class="post-meta"><strong>{{ post.categories | join: ", " }}</strong></span>
-        <h3 align="left">
-          <a class="post-link" href="{{ post.url | relative_url }}">
-            {{ post.title | escape }}
-          </a>
-        </h3>
-        {%- if site.show_excerpts -%}
-          {{ post.excerpt }}
-        {%- endif -%}
-        <p class="read-more">
-          <a href="{{ post.url | relative_url }}">
-            Read more
-          </a>
-        </p>
+        <div>
+          <h3 align="left">
+            <a class="post-link" href="{{ post.url | relative_url }}">
+              {{ post.title | escape }}
+            </a>
+          </h3>
+          {%- if site.show_excerpts -%}
+            <p class="post-excerpt">{{ post.excerpt }}</p>
+          {%- endif -%}
+          <p class="read-more">
+            <a href="{{ post.url | relative_url }}">
+              Read more
+            </a>
+          </p>
+        </div>
       </li>
     {% endfor %}
   </ul>
