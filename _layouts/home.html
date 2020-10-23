@@ -24,38 +24,22 @@ layout: default
         <span class="post-meta">• {{ post.author }}</span>
         <br />
         <span class="post-meta"><strong>{{ post.categories | join: ", " }}</strong></span>
-        <div>
-          <h3 align="left">
-            <a class="post-link" href="{{ post.url | relative_url }}">
-              {{ post.title | escape }}
-            </a>
-          </h3>
-          {%- if site.show_excerpts -%}
-            <p class="post-excerpt">{{ post.excerpt }}</p>
-          {%- endif -%}
-          <p class="read-more">
-            <a href="{{ post.url | relative_url }}">
-              Read more
-            </a>
-          </p>
-        </div>
+        <h3 align="left">
+          <a class="post-link" href="{{ post.url | relative_url }}">
+            {{ post.title | escape }}
+          </a>
+        </h3>
+        {%- if site.show_excerpts -%}
+          <p class="post-excerpt">{{ post.excerpt }}</p>
+        {%- endif -%}
+        <p class="read-more">
+          <a href="{{ post.url | relative_url }}">
+            Read more
+          </a>
+        </p>
       </li>
     {% endfor %}
   </ul>
-
-  <!-- Just some nice to have styles for the pager buttons -->
-  <style>
-    ul.pager { text-align: center; list-style: none; }
-    ul.pager li {display: inline;border: 0px solid grey; padding: 5px; margin: 5px;}
-  </style>
-
-  <style>
-  head {
-    border: 1px solid black;
-    margin: 500px 50px 75px 100px;
-    background-color: lightblue;
-  }
-  </style>
 
   <!--
     Showing buttons to move to the next and to the previous list of posts (pager buttons).

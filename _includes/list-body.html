@@ -11,7 +11,7 @@
     </a>
   </h3>
   {%- if site.show_excerpts -%}
-    {{ post.excerpt }}
+    <p class="post-excerpt">{{ post.excerpt }}</p>
   {%- endif -%}
   <p class="read-more">
     <a href="{{ post.url | relative_url }}">
