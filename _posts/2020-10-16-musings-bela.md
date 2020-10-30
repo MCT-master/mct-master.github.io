@@ -9,7 +9,7 @@ excerpt: "A tale of accelerometers, knobs, an EEG and the attempt to tame sound 
 keywords: bela, interactive, EEG, pure-data, python, sonification
 ---
 
-For my project in the Interactive Music Systems course, I decided to work with a (portable EEG reader)[https://choosemuse.com/] and a [Bela](https://bela.io/) coupled with an accelerometer and potentiometers. Little did I know how much of a challenge it is to join both software and hardware within an interactive package.
+For my project in the Interactive Music Systems course, I decided to work with a [portable EEG reader](https://choosemuse.com/) and a [Bela](https://bela.io/) coupled with an accelerometer and potentiometers. Little did I know how much of a challenge it is to join both software and hardware within an interactive package.
 
 # Inspiration
 
@@ -73,9 +73,9 @@ The device actually made use of the breadboard it was wired to as a frame to hol
     </figure>
 </div>
 
-A [Muse](https://choosemuse.com/) (2016) portable eeg headband, graciously borrowed from RITMO, was another major hardware device incorporated within my IMS. I had read through my preliminary research that this device would be easily hackable. Imagine my frustration after finding out all developer resources for the device were discontinued (ARJ you liar!). Unbroken, I pushed forward and ended up modifying a completely unknown Python package to finally interface with the device.
+A [Muse](https://choosemuse.com/) (2016) portable eeg headband, graciously borrowed from RITMO, was another major hardware device incorporated within my IMS. I had read through my preliminary research that this device might be easily hackable. Imagine my sadness after finding out all developer resources for the device were discontinued (ARJ you liar!). Unbroken, I pushed forward and ended up modifying a completely unknown Python package to finally interface with the device.
 
-Nevertheless, the device's specs were quite impressive with 4 electrodes recording at 256Hz and an all-day battery life (no joke). Unfortunately, the fact that the device streamed through Bluetooth meant that my laptop would necessarily be involved (I wouldn't _dare_ attempt it on the Bela (Okay, maybe if I had another week!)).
+Nevertheless, the device's specs are quite impressive with 4 electrodes recording at 256Hz and an all-day battery life (no joke). Unfortunately, the fact that the device streamed through Bluetooth meant that my laptop would necessarily be involved (I wouldn't _dare_ attempt it on the Bela (Okay, maybe if I had another week!)).
 
 # Software
 
