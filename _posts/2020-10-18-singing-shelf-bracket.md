@@ -39,3 +39,7 @@ I wish this course lasted for more than just TWO WEEKS!!! And on the last day, w
 
 This diagram shows the mapping of the instrument:
 ![Mapping of the instrument](/assets/image/2020_10_18_FractionMari_diagram.png "Mapping of the instrument")
+
+Demonstration of the instrument:
+<br>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/gEq9EnWrApc?start=453" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
