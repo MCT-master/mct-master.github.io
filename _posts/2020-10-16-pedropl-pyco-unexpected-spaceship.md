@@ -24,9 +24,9 @@ This project is the result of the task required for the Physical Computing modul
 
 I have experience in game development and multimedia systems by using the [Unity](https://unity.com/) game engine. A widely used platform for interactive systems, mainly intended for game development but not limited to it. So I proposed to implement two applications, a mobile controller for an Android device, and a PC application (in my laptop) that receives the data from that controller and generates synchronized sounds and visuals.
 
-However, It just raised the question of what I actually would do in a short time. At that point, I started to think about the performance. My intention was to have a base percussion track and build musical layers at the top of that, manipulate some sound and effects parameters in real-time, and reflect it in a ethereal visual environment according to the music.
+However, It just raised the question of what I actually would do in a short time. At that point, I started to think about the performance. My intention was to have a base percussion track and build musical layers at the top of that, manipulate some sound and effects parameters in real-time, and reflect it in an ethereal visual environment according to the music.
 
-To some extent, I think that I managed some of my vision, but it was a quasi-improvised process, mainly regarding the visuals because the combination of graphic effects and objects results in an strange experience in the space. In fact, the central object, which is a flattened sphere, looks like an spaceship (an UFO some mates said) and I was not aware of that.
+To some extent, I think that I managed some of my vision, but it was a quasi-improvised process, mainly regarding the visuals because the combination of graphic effects and objects results in a strange experience in the space. In fact, the central object, which is a flattened sphere, looks like a spaceship (an UFO some mates said) and I was not aware of that.
 
 In addition to the **unexpected spaceship**, some classmates highlighted the use of the blending of colors and shapes. Therefore, after a "deep introspection" I came to the conclusion that it was like a **psychedelic journey of an unexpected spaceship**. Maybe some of you agree.
 
