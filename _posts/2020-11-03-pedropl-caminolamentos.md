@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "\"El Camino de los Lamentos\": A performance using custom Csound VST Plugins"
+title: "'El Camino de los Lamentos': A performance using custom Csound VST Plugins"
 date: 2020-11-03 21:00:00 +0100
 categories: digital-audio
 author: Pedro Lucas
