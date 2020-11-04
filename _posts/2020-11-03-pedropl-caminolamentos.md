@@ -6,7 +6,7 @@ categories: digital-audio
 author: Pedro Lucas
 image: /assets/image/2020_11_03_pedropl_caminolamentosfi.png
 keywords: digital-audio, csound, cabbage, fm, pitch-scaling, reverb, stereo-delay
-excerpt: "This performance is using two VST plugins produced in Cabbage through Csound. A synthesizer based on elemental waveforms, FM modulation, and stereo delay, and an audio effect for pitch scaling and reverb."
+excerpt: "This performance is using two VST plugins produced in Cabbage through Csound. A synthesizer based on elemental waveforms, frequency modulation, and stereo delay, and an audio effect for pitch scaling and reverb."
 ---
 
 As part of the project for Digital Audio module regarding MCT4000 course, you will find below a video for a performance that uses an effect and a synthesizer implemented in [CSound](https://csound.com), which were exported through [Cabbage](https://cabbageaudio.com/). Besides, I used the looping capabilities of [Ableton Live](https://www.ableton.com/en/) together with a specialized Ableton controller (AKAI APC40), a MIDI keyboard controller (AKAI MPK mini), an electric guitar, and my voice.
@@ -17,6 +17,17 @@ I called this song in Spanish **"El Camino de los Lamentos"** (The Road of Lamen
    <iframe src="https://drive.google.com/file/d/1dTJUETmONpHimkObivHVd7YGBSHp6pom/preview" width="1024" height="576" frameborder="0" allowfullscreen></iframe>
    <figcaption>The Performance</figcaption>
 </figure>
+
+## The Performance
+
+This performance is a looping session that starts with a pre-recorded drums base, then, it continues with arpeggios from an electric guitar with a reverb given by the custom VST plugin effect with a little pitch scaling amount. The next part is a melody with the same schema, but in this case the pitch scaling is more noticeable because it has less reverb and a little modulation effect that makes a slightly change of pitch in time.
+
+After some guitar playing, I continue with the synthesizer VST plugin by using a square wave. Firstly, a chord base is played with a small value in the cut off frequency of the low pass filter and a high resonance, then I change those values to have more frequencies into that base. Here, the panning effect can be listened slightly.
+
+The next loop track is about a simple melody with a very noticeable moving panning regarding the delay. Here I change some parameters in real-time to demonstrate the effect of changes in the low pass filter and frequency modulation.
+
+Finally, I used the effect over my own voice by scaling the pitch on a fifth (+7) or a complete octave (+12) and sometimes back to normal (0). The performance ends with the same percussion as the beginning and the volume decaying slowly and manually.
+
 
 ## Plugins Development
 
@@ -34,7 +45,7 @@ The image above depicts the interface for the synthesizer I implemented. It can 
 
 * **ADSR Envelope:** The **madsr** opcode is used to modulate the amplitude of the wave generated every time a key from a MIDI controller is pressed. Only the attack and release parameters are exposed as knobs, while the decay and sustain are fixed.
 
-*	**FM Modulation:** A sine LFO works as a modulator for the frequency of the source wave and is controlled via two parameters: **Mod Amp** and **Mod Freq**, which correspond to the amplitude and frequency of the modulation signal, respectively.
+*	**Frequency Modulation:** A sine LFO works as a modulator for the frequency of the source wave and is controlled via two parameters: **Mod Amp** and **Mod Freq**, which correspond to the amplitude and frequency of the modulation signal, respectively.
 
 *	**Output and Display:** The resulting signal is added to a global signal that is processed by instrument 2 as well as displayed in the interface as a waveform plot **Time vs Amplitude**.
 
@@ -91,7 +102,7 @@ The development of a digital instrument or effect is a challenging task because 
 
 It could be difficult at the beginning to think in this way, but it is important to know the basis of the platform that is being used and explore the tools that it provides in order to build interesting applications.
 
-I tried to implement these plugins as general-purpose components for a performance. Despite they have particular elements, I think they are useful for several compositions. In the case of the synthesizer, various type of waves can be used and shaped in a smooth or harsh way, or even deformed it completely by the FM modulation feature. The effect also can be regulated according to the needs of the musician, both can be easily modified for live performance or a recording session.
+I tried to implement these plugins as general-purpose components for a performance. Despite they have particular elements, I think they are useful for several compositions. In the case of the synthesizer, various type of waves can be used and shaped in a smooth or harsh way, or even deformed it completely by the frequency modulation feature. The effect also can be regulated according to the needs of the musician, both can be easily modified for live performance or a recording session.
 
 ## Get the Plugins
 
