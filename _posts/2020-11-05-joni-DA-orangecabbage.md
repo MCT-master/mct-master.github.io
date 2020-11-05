@@ -56,12 +56,12 @@ In the future, I would like to explore ways to combine Csound in software engine
 
 ### Reference
 
-https://forum.cabbageaudio.com/t/understandig-how-cabbage-csound-works/219
+(https://forum.cabbageaudio.com/t/understandig-how-cabbage-csound-works/219)
 
-https://www.wikiaudio.org/adsr-envelope/#:~:text=An%20ADSR%20envelope%20is%20a,often%20its%20loudness%20over%20time
+(https://www.wikiaudio.org/adsr-envelope/#:~:text=An%20ADSR%20envelope%20is%20a,often%20its%20loudness%20over%20time)
 
-http://www.csounds.com/chapter1/
+(http://www.csounds.com/chapter1/)
 
-https://gist.github.com/juniorxsound/33f75fc4dadde18942e561670c80f3f0
+(https://gist.github.com/juniorxsound/33f75fc4dadde18942e561670c80f3f0)
 
-https://www.musicworks.ca/featured-article/featured-article/ondes-martenot-making-new-waves
+(https://www.musicworks.ca/featured-article/featured-article/ondes-martenot-making-new-waves)
