@@ -31,6 +31,15 @@ The second knob ‘Vibrato’ controls the “send” level to the chorus effect
 3.  *Waveform*:
 The last, but not the least important knob, ‘Waveform’ lets players select what type of waveform they like to use as a base. Earlier I mentioned the wooden drawer in the revised Ondes, but I haven’t mentioned what is inside it. It is a drawer with a group of switches controlling the timbre. These select sine, triangle, square and pulse waves, or pink noise. In this project, I prototyped sine waves, pulse waves and square waves.
 
+<figure>
+<img src="/assets/image/2020_11_05_joni_ocbrand.jpg" alt="The Patch" width="%" align="middle"/>
+<figcaption>Fig 1: Brand and UI Guideline</figcaption>
+</figure>
+
+<figure>
+<img src="/assets/image/2020_11_05_joni_ocstructure.jpg" alt="The Patch" width="%" align="middle"/>
+<figcaption>Fig 2: Code structures</figcaption>
+</figure>
 
 #### Video demo:
 
