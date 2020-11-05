@@ -15,7 +15,7 @@ The Ondes Martenot was an electronic instrument invented by Maurice Martenot in 
 
 ## Analogue-Digital:
 
-The analogue interface of an Ondes Martenot was originally a metal ring. Players slid up and down on the metal wire with their right index finger to create ‘theremin-like’ sweeps in tones (through oscillations in vacuum tubes). The later generations added moveable keys that allow players to create vibrato when the metal wire was wiggled. Martenot later invented a new wooden frame that featured a drawer containing a haptic-sensitive glass ‘lozenge’ to control the sound. 
+The analogue interface of an Ondes Martenot was originally a metal ring. Players slid up and down on the metal wire with their right index finger to create ‘theremin-like’ sweeps in tones (through oscillations in vacuum tubes). The later generations added moveable keys that allow players to create vibrato when the metal wire was wiggled. Martenot later invented a new wooden frame that featured a drawer containing a haptic-sensitive glass ‘lozenge’ to control the sound.
 
 Its amplification system is interesting. In the later development, it had 3 additional loudspeakers, one of which had the speaker cone replaced by a gong. Another had a resonance chamber laced with 12 tuned strings. These modified speakers would add a metallic timbre from the gong along with resonant, clinking tones from the strings. A question is how can I mimic this with Csound?
 
@@ -37,13 +37,11 @@ The last, but not the least important knob, ‘Waveform’ lets players select w
 
 The following video is a demo to show how the synthesiser works.
 
-
 <figure style="float: none">
-  <video width="auto" controls>
-    <source src="https://youtu.be/zss6kU7rlJc" type='video/mp4'>
-  </video>
-  <figcaption>Demo</figcaption>
+    <iframe width="1287" height="496" src="https://youtu.be/zss6kU7rlJc" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    <figcaption>Video Demo</figcaption>
 </figure>
+
 
 
 Now, we can imagine that the pulse waves and square waves become rather dissonant as the ‘tone’ knob turns up. It becomes even more obvious in the upper octaves. Buzz seems to be built to handle sine waves. So it starts getting ‘mad’ when you ask it to add another pulse or square wave at the frequency. It does make some bass sounds, though, especially when you turn the ‘vibrato’ knob all the way up.
