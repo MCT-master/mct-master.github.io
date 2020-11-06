@@ -12,7 +12,7 @@ excerpt: "An easy to use and fun plugin to make your sound smooth as butter."
 
 ## Butter: A tool to make your sound smooth as butter.
 
-####Introduction:
+#### Introduction:
 
 Since the time I got introduced to the world of DAW’s and producing music electronically in general, a part of me was always fascinated by behind the scenes of the tool that I used, to create something palatable to the ears on the blank canvas of my DAW. I wondered how would the song transfer from one effect to the other or how are these sine waves and square waves getting generated? Coming from an engineering background the signal flow of the sound behind those easy to manipulate looking knobs was always at the back of my mind, while the front end of it was busy creating creative things. The short module on Digital Audio was a nice introduction to the behind the scenes I always wanted to know about. So I took this opportunity to peak into the scenes and create a tool of my own, which had all the effects that I love and have easy to manipulate knobs, and after a lot of trial and error, plus with a little bit of help, I made Butter
 
