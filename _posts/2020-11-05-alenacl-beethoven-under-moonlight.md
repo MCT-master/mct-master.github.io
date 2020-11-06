@@ -86,9 +86,7 @@ Although defining frequencies for the notes to be played is alright, it can get 
 
 ### CSound final score and demo
 
-This is the final __CSound__ program: two instruments that would imitate the right and left hand of a piano player, and an exerpt of the score. Using a [Tempo and Note Length Calculator](http://www.harmoniccycle.com/hc/music-07-tempo_and_note_length.htm) I calculated the durations of each note based on a BMP = 51 (_Largo_). Knowing the [frequencies](https://pages.mtu.edu/~suits/notefreqs.html) of notes was also useful at different stages of this project. 
-
-![Movements sheet.](/assets/image/2020_10_16_alena_sheet.jpg)
+[Here]() is the final __CSound__ program. Using a [Tempo and Note Length Calculator](http://www.harmoniccycle.com/hc/music-07-tempo_and_note_length.htm) I calculated the durations of each note based on a BMP = 51 (_Largo_). Knowing the [frequencies](https://pages.mtu.edu/~suits/notefreqs.html) of notes was also useful at different stages of this project. 
 
 [Here]() is a demo video of the final "performance" of the first few bars of "Moonlight Sonata" by Beethoven. 
 
