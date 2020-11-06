@@ -18,6 +18,10 @@ This VST plugins is a sound synthesizer for simulating real acoustic piano in [C
 Below is my Demo:
 ## Demo
 
+<figure style="float: none">
+    <iframe width="800" height="480" src="https://www.youtube-nocookie.com/embed/T2XVUEAWKZw" frameborder="0" allowfullscreen></iframe>
+    <figcaption>Demo with Scale</figcaption>
+</figure>
 
 ## Method
 
