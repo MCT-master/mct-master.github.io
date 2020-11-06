@@ -47,10 +47,9 @@ The last, but not the least important knob, ‘Waveform’ lets players select w
 The following video is a demo to show how the synthesiser works.
 
 <figure style="float: none">
-    <iframe width="1287" height="496" src="https://youtu.be/zss6kU7rlJc" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    <iframe width="800" height="480" src="https://www.youtube.com/embed/zss6kU7rlJc" frameborder="0" allowfullscreen></iframe>
     <figcaption>Video Demo</figcaption>
 </figure>
-
 
 
 Now, we can imagine that the pulse waves and square waves become rather dissonant as the ‘tone’ knob turns up. It becomes even more obvious in the upper octaves. Buzz seems to be built to handle sine waves. So it starts getting ‘mad’ when you ask it to add another pulse or square wave at the frequency. It does make some bass sounds, though, especially when you turn the ‘vibrato’ knob all the way up.
@@ -65,12 +64,12 @@ In the future, I would like to explore ways to combine Csound in software engine
 
 ### Reference
 
-(https://forum.cabbageaudio.com/t/understandig-how-cabbage-csound-works/219)
+[https://forum.cabbageaudio.com/t/understandig-how-cabbage-csound-works/219](https://forum.cabbageaudio.com/t/understandig-how-cabbage-csound-works/219)
 
-(https://www.wikiaudio.org/adsr-envelope/#:~:text=An%20ADSR%20envelope%20is%20a,often%20its%20loudness%20over%20time)
+[https://www.wikiaudio.org/adsr-envelope/#:~:text=An%20ADSR%20envelope%20is%20a,often%20its%20loudness%20over%20time](https://www.wikiaudio.org/adsr-envelope/#:~:text=An%20ADSR%20envelope%20is%20a,often%20its%20loudness%20over%20time)
 
-(http://www.csounds.com/chapter1/)
+[http://www.csounds.com/chapter1/](http://www.csounds.com/chapter1/)
 
-(https://gist.github.com/juniorxsound/33f75fc4dadde18942e561670c80f3f0)
+[https://gist.github.com/juniorxsound/33f75fc4dadde18942e561670c80f3f0](https://gist.github.com/juniorxsound/33f75fc4dadde18942e561670c80f3f0)
 
-(https://www.musicworks.ca/featured-article/featured-article/ondes-martenot-making-new-waves)
+[https://www.musicworks.ca/featured-article/featured-article/ondes-martenot-making-new-waves](https://www.musicworks.ca/featured-article/featured-article/ondes-martenot-making-new-waves)
