@@ -21,7 +21,7 @@ Equal temperament, the division of the octave into 12 equal parts to produce the
 
 Before equal temperament became widespread (some semblance of it has likely always been around in less codified forms) music theorists and performers of different eras utilized a variety of different tuning systems. Renaissance music typically remained in keys with fewer sharps and flats, allowing for tuning systems in which certain chords sounded delightful while others sounded horrendous. The same applied somewhat to Baroque music, however, as harmonies grew more complex, the rougher qualities of far-flung keys likely actually became a compositional and expressive tool that keyboard players could exploit. Today, bowed string players, singers, and other instrumentalists who can adjust intonation while playing may color notes in pursuit of purer intervals, but the constant presence of keyboard and fretted string instruments really drives everything toward equal temperament.
 
-For the purposes of this blog post (since as much as I’d love to go full tuning nerd, the assignment is to write about Csound and not tuning histories) let’s stick with an oversimplified outline of tuning systems.Tuning approaches moved from concepts like Pythagoras’ system (developed in the 6th century BC and based on pure intervals from the harmonic series) toward systems like just intonation and meantone temperament (based on sequences of pure or almost pure intervals) before settling (from roughly the tail end of 18th century onward) into today’s general adherence to equal temperament.
+For the purposes of this blog post (since as much as I’d love to go full tuning nerd, the assignment is to write about Csound and not tuning histories) let’s stick with an oversimplified outline of tuning systems. Tuning approaches moved from concepts like Pythagoras’ system (developed in the 6th century BC and based on pure intervals from the harmonic series) toward systems like just intonation and meantone temperament (based on sequences of pure or almost pure intervals) before settling (from roughly the tail end of 18th century onward) into today’s general adherence to equal temperament.
 
 ## The VSTi
 
@@ -39,7 +39,7 @@ I used Cabbage to assemble a series of *if* statements pertaining to each note i
 
 For my purposes, this little VSTi is useful for exploring early keyboard and plucked string music. A desire to hear different temperaments in musical contexts isn’t convincing enough to drive most keyboard players to retune their instruments every five minutes, however being able to toggle between them makes it much easier to consider how tuning decisions could affect a piece or repertoire. Basically, it’s a fun toy for making nerdy activities even nerdier.
 
-Watch the video below for a taste of the different temperaments in action. 
+Watch the video below for a taste of the different temperaments in action.
 
 <figure style="float: none">
   <video width="auto" controls>
