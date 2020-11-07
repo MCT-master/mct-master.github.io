@@ -34,7 +34,10 @@ The output from all these opcodes gets added and is then passed to the Filter ef
 
 #### Demo:
 
-<iframe width="1287" height="496" src="https://www.youtube.com/watch?v=5vDHtQfnJFo&feature=youtu.be&ab_channel=AbhishekChoubey" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<figure style="float: none">
+    <iframe width="800" height="480" src="https://www.youtube.com/watch?v=5vDHtQfnJFo&feature=youtu.be&ab_channel=AbhishekChoubey" frameborder="0" allowfullscreen></iframe>
+    <figcaption>Butter in performance</figcaption>
+</figure>
 
 #### Final thoughts & Future Developments:
 
