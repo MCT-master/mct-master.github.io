@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Butter"
+title: "Butter: a multi-effect plugin"
 date: 2020-11-06 11:45:00 +0200
 categories: digital-audio
 author: Abhishek Choubey
@@ -35,9 +35,11 @@ The output from all these opcodes gets added and is then passed to the Filter ef
 #### Demo:
 
 <figure style="float: none">
-    <iframe width="800" height="480" src="https://www.youtube.com/watch?v=5vDHtQfnJFo&feature=youtu.be&ab_channel=AbhishekChoubey" frameborder="0" allowfullscreen></iframe>
-    <figcaption>Butter in performance</figcaption>
+   <iframe src="https://drive.google.com/file/d/1OsphESQ7jzbhQqNMciNYmo2gvZKselXQ/view?usp=sharing" width="auto" frameborder="0" allowfullscreen></iframe>
+   <figcaption>Butter in Performance</figcaption>
 </figure>
+
+
 
 #### Final thoughts & Future Developments:
 
