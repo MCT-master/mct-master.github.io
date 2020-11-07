@@ -95,15 +95,17 @@ Although defining frequencies for the notes to be played is alright, it can get 
   <video width="auto" controls>
     <source src="https://drive.google.com/file/d/1TR05VM9QG7z2vZSkP18NDb7nGTIEYQQk/view?usp=sharing" type='video/mp4'>
   </video>
-  <figcaption>Interactive OSC-Reaper Performance</figcaption>
+  <figcaption>CSound Moonlight Sonata</figcaption>
 </figure>
 
 ## Overall impressions
----
----
----
 
+It was a nice experience to read so much about oscillators and ways to module sound and creating the score was really fun, even if a bit tedious as well. 
+This assignment helped me understand more about the basis of __CSound__. Before this, I knew nothing about sound modulation and how we can use the frequency and amplitude of sounds, so even the simple notion of creating an oscillator slightly confused me. I can now say that I familiarized myself with the concept of creating different types of oscillators and I know how to use the "interface" of CSound (e.g. I know how to create an instrument and how to controll it from the score). I even got the chance to use the manual when looking for `linseg`. 
+However, for me, the most interesting part was to read the theory behind these techniques, and finally understand (at least a few of) the concepts behind digital audio.
 
+---
+---
 #### References
 
 [Chowning, J. (1973)](https://www.aes.org/e-lib/browse.cfm?elib=1954). "The Synthesis of Complex Audio Spectra by Means of Frequency Modulation" (PDF). Journal of the Audio Engineering Society. 21 (7).
