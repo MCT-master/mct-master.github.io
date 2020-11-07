@@ -4,9 +4,9 @@ title: "Beethoven under Moonlight"
 date: 2020-11-05 18:09:38 +0200
 categories: digital-audio
 author: Alena Clim
-image: \assets\image\2020_11_05_alenacl_moonlight_sonata_bill_bell.jpg
+image: \assets\image\2020_11_05_alenacl_moonlight.jpg
 keywords: csound, FM synthesis, amplitude envelope, digital audio, moonlight sonata
-excerpt: "Creating a CSound project that uses Frequency Modulation synthesis (carrier and modulating oscillator) and "plays" the first few bars of the Moonlight Sonata by Beethoven based on a score."
+excerpt: "Creating a CSound project that uses Frequency Modulation synthesis (carrier and modulating oscillator) and plays the first few bars of the Moonlight Sonata by Beethoven based on a score."
 ---
 # Beethoven under Moonlight using CSound
 
@@ -103,6 +103,8 @@ Although defining frequencies for the notes to be played is alright, it can get 
 It was a nice experience to read so much about oscillators and ways to module sound and creating the score was really fun, even if a bit tedious as well. 
 This assignment helped me understand more about the basis of __CSound__. Before this, I knew nothing about sound modulation and how we can use the frequency and amplitude of sounds, so even the simple notion of creating an oscillator slightly confused me. I can now say that I familiarized myself with the concept of creating different types of oscillators and I know how to use the "interface" of CSound (e.g. I know how to create an instrument and how to controll it from the score). I even got the chance to use the manual when looking for `linseg`. 
 However, for me, the most interesting part was to read the theory behind these techniques, and finally understand (at least a few of) the concepts behind digital audio.
+
+
 
 ---
 ---
