@@ -10,11 +10,13 @@ excerpt: "Creating a CSound project that uses Frequency Modulation synthesis (ca
 ---
 # Beethoven under Moonlight using CSound
 
+![Beethoven Moonlight Sonata](\assets\image\2020_11_05_alenacl_moonlight.jpg)
+
 ## Introduction
 
 During the Digital Audio module we've been given a basic introduction to __CSound__, a domain-specific programming language for audio programming. In class, we covered the basics of this language: the syntax, structure, a few syntesis techniques, and effects based on delay, distorsion and filtering. For the individual projects we each wrote a functioning Csound program in the form of an audio generator and/or a processing unit for incoming audio. 
 
-With these freshly-acquired knowledge about __CSound__ and the assignment instructions I designed my idea. Sound effects are fascinating to me, but still a bit of a mistery; on the other hand, I have quite some experience with acoustic instruments (especially pianos). Having said this, I decided to ease into the world of digital audio by writing a __CSound__ program that would imitate as closely as possible the sound of an acoustic instrument while "performing" a classical piece of music. 
+With these freshly-acquired knowledge about __CSound__ and the assignment instructions I designed my idea. Sound effects are fascinating to me, but still a bit of a mistery; on the other hand, I have quite some experience with acoustic instruments (especially pianos). Having said this, I decided to ease into the world of digital audio by writing a __CSound__ program that would imitate as closely as possible the sound of an acoustic instrument while "performing" a classical piece of music. For me, this was a theoretical assignment as much as it was practical.
 
 In 2020 people all around the globe are celebrating the 250th anniversary of the birth of _Ludwig van Beethoven_ (1770-1827). During the years I performed classical music, I played several pieces composed by him for piano and I always found them extremely... fullfilling to play and full of emotions. This, together with the special significance of this year inspired me to choose his "Moonlight Sonata" for the present assignment. 
 
