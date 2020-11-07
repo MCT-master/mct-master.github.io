@@ -95,10 +95,10 @@ Although defining frequencies for the notes to be played is alright, it can get 
 
 <figure style="float: none">
   <video width="auto" controls>
-    <source src="https://drive.google.com/file/d/1TR05VM9QG7z2vZSkP18NDb7nGTIEYQQk/view?usp=sharing" type='video/mp4'>
+    <source src="https://drive.google.com/file/d/1TR05VM9QG7z2vZSkP18NDb7nGTIEYQQk/view?usp=sharing" >
   </video>
   <figcaption>CSound Moonlight Sonata</figcaption>
-</figure>
+</figure> 
 
 ## Overall impressions
 
