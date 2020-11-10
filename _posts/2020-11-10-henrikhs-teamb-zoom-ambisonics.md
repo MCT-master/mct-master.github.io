@@ -1,19 +1,24 @@
 ---
 layout: post
 title: "Zoom + Ambisonics"
-date: 2020-11-02 15:00:00 +0200
+date: 2020-11-10 15:00:00 +0200
 categories: portal
 author: Pedro Lucas, Willie Mandeville, Henrik Sveen, Anders Lidal
-image: /assets/image/
+image: /assets/image/2020_11_10_henrikhs_zoomInReaper.jpg
 keywords: zoom, immersive, reaper, iem, binaural, ambisonics,
 excerpt: "Talking together in an online room is an interesting topic, as the mono summed communication in regular Zoom can be tiring when meeting for several hours a day. Could ambisonics in digital communication be the solution we're all waiting for?"
 ---
+
 
 The dynamics of talking together in an online room make for an interesting topic, as the mono summed communication in regular Zoom can be tiring when meeting for several hours a day. Comparatively, playing around with *HighFidelity* on the first day of MCT 4021 was a real eye-opener. Suddenly it was way easier to follow who-said-what and the feeling of organic conversation was immediately more natural. I (Henrik) have been testing this with different friends the last months, and the feedback has been more or less the same - that this way of communicating feels more natural than the traditional Zoom/Skype/Teams.
 
 In light of these and similar technologies, Team B thinks that there is huge potential for reviving the effectiveness of online communication with easy steps toward more humanizing. It’s easier and more natural to be in the immersive field of ambisonics, and also there is a level of “togetherness” in having this common room feeling. It’s obviously how we would talk if we were in the same room, and we think that adding acoustics to the digital platform will make it more user-friendly for people now working long online hours.
 
 Before a recent MCT4021 class we experimented with using BlackHole for routing sound. We then had success with routing sound from Zoom into Reaper for ambisonics, but less success doing it the other way around. The culprit of this difference appeared to be Zoom's inability to deal with the BlackHole sound driver consistently. We’re not sure why they made it like this, but “it’s just the way it is”, as Tupac once said. Nevertheless, routing this way with aggregate (for Mac) turned out to work fine for Team B at least. Combining the audio interface with ZoomAudioDevice enables us to send the stereo signal from Reaper where the ambisonic magic happens with the IEM plugins. *Using binaural decoding of course.* But sadly this wasn’t going be a ready solution for everyone in the class of 2020.
+
+<figure style="float: auto">
+   <img src="/assets/image/2020_11_10_henrikhs_zoomInReaper.jpg" alt="Should show picture..." title="" width="auto"/> <figcaption></figcaption>
+</figure>
 
 The class experience of getting a dozen users, roughly ⅔ Mac users and ⅓ Windows users all up and running on the stereo, manipulable setup we’d been hoping for was not particularly smooth. Even some users running identical Catalina operating systems to those used by successful participants were unable to efficiently get everything working. It seems that in an ideal world this approach (creating an aggregate device and routing through reaper to zoom) would be a strong improvement on the current reality of zoom meetings, however if the first 45 minutes of each meeting needs to be fighting with technology it is unlikely that anyone would enjoy this. Our class success rate over 90 minutes was around 45%.
 
