@@ -37,7 +37,6 @@ The output from all these opcodes gets added and is then passed to the Filter ef
 <figure style="float: none">
   <video width="auto" controls>
     <source src="https://www.youtube.com/watch?v=5vDHtQfnJFo&feature=youtu.be&ab_channel=AbhishekChoubey" type='video/mp4'>
-    Should show a video...
   </video>
   <figcaption>Butter in Performance</figcaption>
 </figure>
