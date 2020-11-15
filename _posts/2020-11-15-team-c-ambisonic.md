@@ -9,7 +9,7 @@ keywords: zoom, immersive, reaper, iem, binaural, ambisonics,
 excerpt: "An immersive audio as a tool to keep our state of mind ‘saint’."
 ---
 
-Ever since the pandemic brings struggles to everyone’s life and the society as large. Zoom, or other online communication tools such as Teams have integrated in our lives. No matter if we are having business meetings or communicating with families and friends abroad, these online communication tools bridge the gap in ways that the old-fashioned communication methods couldn’t do. Such as sending emails or making telephone calls. Despite those old methods that can effectively create communication channels, it was never a whole package like Zoom or other meeting platforms can provide. Since March 2020, we are all facing some kind of difficulties in different aspects in our lives. It could be the lockdowns cause different types of transportation frustrations. Most of us need to meet business partners, colleagues or families in the digital town. WIth the restrictions of social distancing makes nearly everything become physically-impossible.
+Ever since the pandemic brings struggles to everyone’s life and the society as large. Zoom, or other online communication tools such as Teams have integrated in our lives. No matter if we are having business meetings or communicating with families and friends abroad, these online communication tools bridge the gap in ways that the old-fashioned communication methods couldn’t do. Such as sending emails or making telephone calls. Despite those old methods that can effectively create communication channels, it was never a whole package like Zoom or other meeting platforms can provide. Since March 2020, we are all facing some kind of difficulties in different aspects in our lives. It could be the lockdowns cause different types of transportation frustrations. Most of us need to meet business partners, colleagues or families in the digital town. With the restrictions of social distancing makes nearly everything become physically-impossible.
 
 
 Zoom or other tools are functional in most sense, from seeing the faces of your co-workers to listening to stereo quality audio. However, in terms of the psychological needs of users, this is the aspect Team C thinks  that Zoom can be improved and become more accessible in the future.
@@ -55,10 +55,10 @@ So, if we create meaning with this feature, it becomes a possibility for our men
 
 ## Potential Jamulus supplement?
 
-In the 2 Jamulus sessions we had in the MCT 4021, we also tried to combine with Zoom. We tried to test out how we could make music-making online more real as in the physical world. However, during the Team C sessions, the flute was too loud to keep other instruments audible. Despite there were settings in the Jamulus server in which we could turn the volume down. The one-dimensional, flat audio outputs in our computer were rather hard to make the experience enjoyable. If Ambisonic applies in this situation, it allows us to control the distances of a sound source, it seems possible to enhance the future Jamulus-Zoom experience.
+In the 2 Jamulus sessions we had in the MCT 4021, we also tried to combine with Zoom. We tried to test out how we could make music-making online more real as in the physical world. However, during the Team C sessions, the flute was too loud to keep other instruments audible. Despite there were settings in the Jamulus server in which we could turn the volume down. The one-dimensional, flat audio outputs in our computers were rather hard to make the experience enjoyable. If Ambisonic applies in this situation, it allows us to control the distances of the sound sources, hence, it seems possible to enhance the future Jamulus-Zoom experience.
 
 
-## High Fidelity on Zoom?
+## High Fidelity in Zoom?
 
 
 In the first session as we mentioned earlier, *High Fidelity* (HF) was a fun tool for us to socialise with sound. If this platform emerges in Zoom directly, we can envision our ‘main Zoom room’, where we see all our co-workers at once. With HF here, we can imagine to move or scale the size of the co-workers, in the meanwhile, scale their voices and volume around. It is possible to enhance the user experience. However, first and foremost, we need to test further with more users. It is rather subjective if we make any judgement here.
