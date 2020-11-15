@@ -44,7 +44,7 @@ In the ambisonic session with 13 participants, approximately  ⅔ Mac users and 
 ## Impression
 
 
-It could be an interesting idea and is fun, however, its potential usage is not much if there is no particular purpose. Imagine if we are in a serious business meeting, why would we need such an effect? Why do we need to mess around in the 3D spatial audio? Who has the time to do this unless they are interested in the sound field?
+It could be an interesting idea and is fun, however, its potential usage is not much if there is no particular purpose. Imagine if we are in a serious business meeting, why do we need such an effect? Why do we need to mess around in the 3D spatial audio? Who has the time to do this unless they are interested in the sound field?
 
 
 ## Purpose of this
