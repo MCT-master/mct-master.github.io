@@ -72,6 +72,6 @@ In the first session as we mentioned earlier, *High Fidelity* (HF) was a fun too
    <img src="/assets/image/2020_11_16_joni_ambisonic_zoom.gif" alt="Should show picture..." title="" width="auto"/> <figcaption></figcaption>
 </figure>
 
-
+The idea creating a virtual meeting table in the Zoom, it allows us to choose where we sit in the room. In the meanwhile, it gives flexibility that we can move the other participants around. The further we move the participant, the less we can hear their voice. This is an idea of mimicking the real-life meeting situation.
 
 Finally, ambisonic is possible to create meaningful experience in Zoom in terms of our psychological needs.
