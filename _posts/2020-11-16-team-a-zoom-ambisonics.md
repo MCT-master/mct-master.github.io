@@ -31,7 +31,7 @@ The first part of this signal flow is achieved by using __Reaper__ as the host D
 
 Don’t forget to select __Cable Output driver__ as the input device in Zoom’s audio settings.
 
-![Zoom Setting for Ambisonics](/assets/image/2020_11_16_abhishec_ambisonic_zoom_settings.png)
+![Zoom Setting for Ambisonics](/assets/image/2020_11_16_abhishec_ambisonic_zoom_settings.PNG)
 
 
 
