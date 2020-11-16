@@ -4,7 +4,7 @@ title: "Ambisonic as a ‘mental’ management tool in Zoom?"
 date: 2020-11-14 15:00:00 +0200
 categories: portal
 author: Joni Mok, Stephen Gardener, Wenbo Yi, Lindsay Charles
-image: /assets/image/2020_08_21_stephedg_group_c.jpg
+image: /assets/image/2020_11_16_joni_ambisonic_zoom.gif
 keywords: zoom, immersive, reaper, iem, binaural, ambisonics,
 excerpt: "An immersive audio as a tool to keep our state of mind peaceful."
 ---
@@ -69,7 +69,7 @@ High Fidelity on Zoom?
 In the first session as we mentioned earlier, *High Fidelity* (HF) was a fun tool for us to socialise with sound. If this platform emerges in Zoom directly, we can envision our ‘main Zoom room’, where we see all our co-workers at once. With HF here, we can imagine to move or scale the size of the co-workers, in the meanwhile, scale their voices and volume around. It is possible to enhance the user experience. However, first and foremost, we need to test further with more users. It is rather subjective if we make any judgement here.
 
 <figure style="float: auto">
-   <img src="/assets/image/2020_11_16_joni_ambisonic_zoom.gif" alt="Should show picture..." title="" width="auto"/> <figcaption></figcaption>
+   <img src="/assets/image/2020_11_16_joni_ambisonic_zoom.gif" alt="An idea for the future Zoom meeting room" title="" width="auto"/> <figcaption></figcaption>
 </figure>
 
 The idea creating a virtual meeting table in the Zoom, it allows us to choose where we sit in the room. In the meanwhile, it gives flexibility that we can move the other participants around. The further we move the participant, the less we can hear their voice. This is an idea of mimicking the real-life meeting situation.
