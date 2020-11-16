@@ -50,3 +50,7 @@ We were still a little nervous a stranger might jump into our cosy video chat, s
 Jitsi Meet has a nice 'recents' list, which allows you to jump straight back into any rooms from previous sessions. Unfortunately we found that it didn't remember the password we had set, and not only that, but it didn't warn us this time. 
 
 Jitsi is free and open source, and we were really hoping for it to be a viable and more ethical alternative to the Zooms of this world, but for us it was a disaster. In terms of UX, it is user-unfriendly to the extreme and even worse, it's clumsy attempts at security are leaving people vulnerable. Until the Jitsi team sort out these issues, our recommendation is to look elsewhere.
+
+# Update
+
+Shortly after we published this post, there was a big update to the [Jitsi Meet](https://meet.jit.si) mobile apps, fixing quite a few of the issues we came across. We have also been pointed in the direction of [https://meet.web.net](https://meet.web.net), a web based client for Jitsi that works really well, and offers a much improved user experience. We would still recommend avoiding Jitsi Desktop, but both the web and mobile apps are beginning to look like viable alternatives for online video meetings.
