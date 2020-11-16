@@ -31,7 +31,7 @@ This is where Ambisonic can be the potential to solve this problem.
 
 During our MCT 4021 first session, we explored *High Fidelity*. It is an online immersive platform that allows us to socialise with 3D spatial sound and explore the location of others through auditory experience. The idea behind it is to illustrate the real-life situation, where the further the person stands from the microphone, the lower the volume of their voice. If someone stands right next to you, for sure, their voice is clearer and audible to you. If it is on the left? Or on the right. Ambisonic allows us to explore the sound distances in a digital environment. It has a huge potential to create a better user experience that feels ‘real’. For Virtual Reality(VR) is focusing majority on visual and spatial dimensions, why don’t we focus on audio as well?
 
- 
+
 The future possibilities for implementing ambisonic (3D spatial audio) in Zoom or other online communication tools are enormous. In the meanwhile, if developed carefully, it could be a tool that nurtures our psychological needs.
 
 
@@ -48,7 +48,7 @@ Impression:
 
 It could be an interesting idea and is fun, however, what is its practical application?. Imagine if we are in a serious business meeting, why would we need such an effect? Why do we need to mess around in the 3D spatial audio? Who has the time to do this unless they are interested in the sound field?
 
-((I think the reason it is useful is because it lets the mind use less effort in determining the location of people in the virtual space. I imagine that having six floating voices is not a natural condition whereas we have cognitive systems evolved to place people in the space we share. Mobile ‘phone users in cars use too much brain power while talking compared to drivers chatting with a person in the car)).
+((I((Joni here)) think the reason it is useful is because it lets the mind use less effort in determining the location of people in the virtual space. I imagine that having six floating voices is not a natural condition whereas we have cognitive systems evolved to place people in the space we share. Mobile ‘phone users in cars use too much brain power while talking compared to drivers chatting with a person in the car)).
 
 
 Purpose of this:
