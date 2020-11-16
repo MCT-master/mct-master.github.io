@@ -68,5 +68,10 @@ High Fidelity on Zoom?
 
 In the first session as we mentioned earlier, *High Fidelity* (HF) was a fun tool for us to socialise with sound. If this platform emerges in Zoom directly, we can envision our ‘main Zoom room’, where we see all our co-workers at once. With HF here, we can imagine to move or scale the size of the co-workers, in the meanwhile, scale their voices and volume around. It is possible to enhance the user experience. However, first and foremost, we need to test further with more users. It is rather subjective if we make any judgement here.
 
+<figure style="float: auto">
+   <img src="/assets/image/2020_11_16_joni_ambisonic_zoom.jpg" alt="Should show picture..." title="" width="auto"/> <figcaption></figcaption>
+</figure>
+
+
 
 Finally, ambisonic is possible to create meaningful experience in Zoom in terms of our psychological needs.
