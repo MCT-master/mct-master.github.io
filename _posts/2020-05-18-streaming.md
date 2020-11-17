@@ -52,7 +52,7 @@ Use the compressors the same way as you would in any other mix (try to be tastef
 
 #### Monitoring
 When doing a stream, good monitoring is key.
-The most dificult thing is to separate yourself from the acoustic output of the band, since this will make it very hard to have a correct perception of what the remote audience will hear.
+The most difficult thing is to separate yourself from the acoustic output of the band, since this will make it very hard to have a correct perception of what the remote audience will hear.
 
 #### Microphones
 Streaming a concert through a camera is a very different thing than a live concert. Since cameras often zoom close to the face of the people singing or the instrument being played and the audience does not have the distractions they do at a concert, you have to keep in mind that the microphones can become obstructive in the image. Try as best as you can to select discrete or visually pleasing microphones and it will look a lot better than using regular stage-mics.
