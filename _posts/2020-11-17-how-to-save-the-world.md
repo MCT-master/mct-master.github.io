@@ -9,9 +9,9 @@ keywords: aliens, area 51, Slim Whitman, deadcat, Navigational Spatiality, Jesus
 exerpt: Don't run! We come in peace!
 ---
 
-#####Brought to you by Alexander "Ack-Ack" Tidemann and Paul "Raygun" Koenig
+##### Brought to you by Alexander "Ack-Ack" Tidemann and Paul "Raygun" Koenig
 
-##The Dramaturgy, if you will
+## The Dramaturgy, if you will
 
 For MCT4044 (Spatial Audio), we were tasked with the . . . task of designing, recording and mixing a spatialized audio composition. The composition was expected to have a clear dramaturgy, a unifying and coherent concept and realization, loads of action, excitement, and a mind-blowing climax that will simply blast your tits into next week. (I'm paraphrasing the requirements here.)
 
@@ -32,7 +32,7 @@ Figure 1 shows our storyboard/timeline.
 <figcaption><strong>figure 1: A Dramaturgy, if you will</strong></figcaption>
 </figure>
 
-##Sound-Field Recordings
+## Sound-Field Recordings
 
 We made a total of seven sound-field recordings in outdoor environments around Blindern and Marienlyst. Each recording was approximately two-and-a-half minutes long, and captured an array of environmental sounds ranging from basketballs bouncing, children shrieking, birds yelling, and cars larking about to lunatics stomping through puddles while playing the harmonica.
 
@@ -45,17 +45,17 @@ Figure 2 shows one of our microphone setups, just outside the backdoor of the Fy
 <figcaption><strong>figure 1: Not An Old Wool Sock</strong></figcaption>
 </figure>
 
-##Making The Spaceships
+## Making The Spaceships
 
 Using a Korg MS-20 synth, Aleks created some great spaceship sounds for the project. Ever keeping in the forefront of his mind the concept of *immersivity through spacial presence* (Roads 2015, p. 278) he toiled for days or minutes to fashion immersivity from the rank dust of insensate sound-oscillator ejaculate, via the technique of *having multiple sound files for a single source*.
 
 Five different mono audio files were created to represent the same object at different locations, as follows: Sound 1: Appearing Craft. Sound 2: Hovering Craft. Sound 3: Craft Near Listener. Sound 4: Craft Flying Away. Sound 5: Craft Plummeting Towards Ground.
 
-##Chaos Ensues
+## Chaos Ensues
 
 What would an alien attack be without shrieking humans? For this sound effect, we used samples of actual shrieking humans that Iggy (the Samplemaster) sent along, including one of Barney from The Simpsons, episode 142 (we suspect). To create the aural illusion of people running about in blind, abject terror, we implemented Azimuth Rotation in Reaper (using Ambix and IEM plugins) to make the voices move around. To further increase tension, we increased the volume and proximity of the alien presence to create a more oppressive effect.
 
-##Enter: Our Savior (Not Jesus . . . OR IS HE??)
+## Enter: Our Savior (Not Jesus . . . OR IS HE??)
 
 For the hero guy, I made a simple mono recording in a specially designed acoustic chamber (my bedroom) of a suitable family-friendly song appropriate to the project. We then created the sonic effect of our hero-musician traveling through the soundscape through the use of source-panning automation, EQ and volume. Everywhere our hero goes, the music-intolerant aliens lose control of their spacecraft, crash and explode.
 
@@ -63,13 +63,13 @@ In this way we immerse our subject in the environment through processing (Barret
 
 (Explosion sounds courtesy of Freesound.com.)
 
-##The World, Saved
+## The World, Saved
 
 And so, the world is yet again saved by the power of music. We enjoyed the project, and felt like we were successful in telling a fairly action-packed story in just over three minutes. Had we had more time, there's a lot more we could have done to increase the realism of the environment, from more careful (re. very time-consuming) automation of eq and effects, to adding more sounds and smells (burnt alien in 3rd order smell-o-sonics, anyone?) to complete the illusion.
 
 But, much like our hobo hero, I'm afraid we gotta move on. There's a garage floor somewhere with our name on it.
 
-##References
+## References
 
 Barrett, Natasha. (2020) “Spatial Music Composition,” n.d., 15.
 
