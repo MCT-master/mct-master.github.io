@@ -26,7 +26,7 @@ The first of these was [Alvin Lucier's](https://en.wikipedia.org/wiki/Alvin_Luci
     <figcaption>Alvin Lucier's "Music for Solo Performer" (1965)</figcaption>
 </figure>
 
-The second performance that offered insights in using EEG's in a sonic environment was Ouzounian et al.'s Music for Sleeping & Waking Minds (2011-2012). In their piece, they asked multiple participants to wear EEG sensors as they spent a night in a collective slumber. Over the course of the night, their brain waves (in passing through the various oscillatory states of sleep) was represented in sound and light.
+The second performance that offered insights in using EEG's in a sonic environment was Ouzounian et al.'s Music for Sleeping & Waking Minds (2011-2012). In their piece, they asked multiple participants to wear EEG sensors as they spent a night in a collective slumber. Over the course of the night, their brain waves (in passing through the various oscillatory states of sleep) were represented in sound and light.
 
 <figure>
     <iframe src="https://player.vimeo.com/video/30261043?byline=0&portrait=0" width="560" height="315" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
@@ -56,7 +56,7 @@ These principles were helpful as a means of comparing my proposed instrument aga
     <figcaption>Musings with Bela's dimension space</figcaption>
 </figure>
 
-The second paper, A Framework for the Evaluation of Digital Musical Instruments by O'Modhrain takes ups a similar issue with the absence of well defined lenses through which we can consider, criticize and explain a musical instrument (O'Modhrain, 2011). O'Modhrain suggest that taking the perspective of not only a musician or designer when building an IMS, but also that of an audience member or even a manufacturer. These novel perspectives force an author to consider their instrument from angles that are not typically confronted until after the instrument has been built.
+The second paper, A Framework for the Evaluation of Digital Musical Instruments by O'Modhrain takes up a similar issue with the absence of well defined lenses through which we can consider, criticize and explain a musical instrument (O'Modhrain, 2011). O'Modhrain suggest that taking the perspective of not only a musician or designer when building an IMS, but also that of an audience member or even a manufacturer. These novel perspectives force an author to consider their instrument from angles that are not typically confronted until after the instrument has been built. In both articles, it is clear that building a musical interface is a project whose treatment must be considered with others in mind.
 
 # Hardware
 
