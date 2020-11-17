@@ -83,6 +83,13 @@ For violin recording, a piezoelectric pickup was used. For ambisonic encoding, t
 
 ### Simon
 
+In my scene the listener enters a warzone in the midst of a bad dream.
+He is heard running through a corridor together with other soldiers and as the doors open we can hear guns blazing from different directions. We enter a larger area where some futuristic cyborg monstrosity is unleashing its attack.
+
+My primary drive was that I wanted to work with diegetic sounds. I have previously worked with sound design and quite enjoy it. As many of the sound libraries I have collected over the years are game related, I had a lot of fitting material on hand for a warzone scene.
+I visually sketched out a scene before starting at the beginning and adding sounds.
+The IEM suite became my most important tools. In particular, the RoomEncoder, to bring all my monotracks into ambisonics. The plugin allowed me to automate both listener and emitter position which gave me decent control over directionality and movement. One of the challenges that became apparent, was that this plugin is limited to one sound source per instance. This forced me to use an increasing amount of this plugin as I kept adding more sounds to the soundscape. The futility in that approach both became apparent in CPU cost and a non-optimal workflow. Another problem I faced was the dynamic range in my soundscape. Having minor sonic details such as breathing and the rustling of clothes noticeable while guns are blazing in other side of the room became a never-ending struggle of balancing the mix. While I think the overall result was decent, I would not have approached such a task in the same manner if I were to do sound design within ambisonic again. I would believe working in a game engine such as unity and fmod/wwise would give a better visual representation of localization and would be better suited for such a task especially considering the increasing amount of spatialization plugins available.
+
 # Working at Notam
 
 Iggy and Ulrik got the chance to work in [Notam](https://notam.no/)'s spatial audio studio. The studio is equipped with 24 loudspeakers in a hemisphere, evenly distributed approximately 2.5 meters from the listener. It was a great experience, and made it easier to become fully immersed in the world of spatial audio.
