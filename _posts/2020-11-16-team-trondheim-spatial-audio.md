@@ -4,7 +4,7 @@ title: "Music for dreams"
 date: 2020-11-16 12:01:00 +0200
 categories: spatial-audio
 author: Ulrik Halmøy, Tom Ignatius, Simon Sandvik, Thibault Jaccard
-image: https://drive.google.com/uc?&id=1A5ktq_fYVdR90OOE_ZU8L76pwDs_-VQr
+image: /assets/image/2020_11_17_ulrikah_iggy_at_notam.jpg
 keywords: immersive, reaper, iem, binaural, ambisonics, spatial audio
 excerpt: "We tried to make a spatial audio composition based around a dream"
 ---
@@ -26,9 +26,52 @@ The figure below shows an animation of the idea behind our composition.
 
 **INSERT GIF**
 
+The final composition can we listened to in binaural below. Make sure to use a headset when you listen to it.
+
+<figure style="float: none">
+  <audio controls>
+    <source src="https://drive.google.com/uc?&id=1MugB0apktjGKg8BlLtT5TkQ1KqndOZG_" type="audio/mpeg">
+    Binaural rendering of the final composition
+  </audio>
+  <figcaption></figcaption>
+</figure>
+
 ### Iggy
 
 ### Ulrik
+
+The goal I had for my part was to compose music for abstract dream-like space, where different types of sounds move along trajectories above and around the listeners head. I got inspiration from how dreams suddenly appear and disappear without any, in a seemingly unpredictable manner.
+
+**Recordings**
+
+I did a few recordings with the Zoom H3 VR ambisonics microphone when I was in Trondheim the first week of the course. Two of them were used in the composition.
+
+<figure>
+<img src="/assets/image/2020_11_17_ulrikah_recording_construction_work.jpg" alt="Recording of some construction work in Trondheim" width="75%" align="middle">
+<figcaption>Recording of some construction work in Trondheim</figcaption>
+</figure>
+
+The first recording was used as a background element in the composition. It was recorded outdoors in an space with sound sources coming from multiple directions and distances, as well as the general noise of the city. The recording helped providing a spatial context for the other elements in the composition.
+
+<figure>
+<img src="/assets/image/2020_11_17_ulrikah_recording_indoor.jpg" alt="Recording of a metal stick scraping the floor in the Portal" width="75%" align="middle">
+<figcaption>Recording of a metal stick scraping the floor in the Portal</figcaption>
+</figure>
+
+I also recorded a metal stick that I dragged around the microphone in clockwise order. Iggy had a cool idea of adding a delayed version of this recording on top of the original one, and rotating it the other way around the listeners head. It created an interesting whirlwhind effect that I ended up including in my composition.
+
+**Spat**
+
+<figure>
+<img src="/assets/image/2020_11_17_ulrikah_spat.jpg" alt="Spat experiments" width="75%" align="middle">
+<figcaption>Spat experiments</figcaption>
+</figure>
+
+After having heard very promising words from Natasha about the software, I was curious to look into [Spat](https://forum.ircam.fr/projects/detail/spat/). I decided to process one sample with different variations of a spectral delay, record six slightly different versions of it, and use these six samples in a sound cluster in my composition. This was my take on destructuring a sound in space, a concept that I borrowed from Natasha Barrett's [WoNoMute talk](https://www.youtube.com/watch?v=CQhzOM3ZFF4) last year. I really liked this way of working with spatial audio, and I'm definitively going to use Max and Spat a lot more the next time I work on a spatial audio project.
+
+**Other sources**
+
+There are a couple of other sound sources that I put into my composition as well, such as the drone in the background and the drum breaks that are approaching the listener around `01:26`. I just experimented with positioning them around in space, and automating the position until I felt that it sounded somewhat natural.
 
 ### Thibault
 
@@ -40,12 +83,17 @@ For violin recording, a piezoelectric pickup was used. For ambisonic encoding, t
 
 ### Simon
 
-## Workflow
-
-Some words about how we were in different cities and had to work together mostly over Zoom.
-
 # Working at Notam
 
-Iggy and Ulrik got the chance to work in Notam's spatial audio studio. That studio is equipped with 24 loudspeakers in a hemisphere, evenly distributed approximately 2.5 meters from the listener. It was a great experience, and made it easier to become fully immersed in the world of spatial audio.
+Iggy and Ulrik got the chance to work in [Notam](https://notam.no/)'s spatial audio studio. The studio is equipped with 24 loudspeakers in a hemisphere, evenly distributed approximately 2.5 meters from the listener. It was a great experience, and made it easier to become fully immersed in the world of spatial audio.
 
-![The 24 channel loudspeaker setup at Notam](https://drive.google.com/uc?&id=1A5ktq_fYVdR90OOE_ZU8L76pwDs_-VQr "The 24 channel loudspeaker setup at Notam") -->
+![The 24 channel loudspeaker setup at Notam](https://drive.google.com/uc?&id=1A5ktq_fYVdR90OOE_ZU8L76pwDs_-VQr "The 24 channel loudspeaker setup at Notam")
+
+# Slides for presentation
+
+If you're more interested in our project, you can have a look at our slides below. Feel free to contact us about the project as well.
+
+<figure align="middle">
+    <iframe src="https://drive.google.com/file/d/12QEWTfdwI5XPl7UhPdjjuyFlnRg8HRWJ/preview" width="800px" height="460px" allowfullscreen></iframe>
+    <figcaption>The slides for our presentation</figcaption>
+</figure>
