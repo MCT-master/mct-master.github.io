@@ -9,7 +9,7 @@ keywords: aliens, area 51, Slim Whitman, deadcat, Navigational Spatiality, Jesus
 exerpt: Don't run! We come in peace!
 ---
 
-##### Brought to you by Alexander "Ack-Ack" Tidemann and Paul "Raygun" Koenig
+Brought to you by Aleks 'Ack-Ack' Tidemann and Paul 'Ray Gun' Koenig
 
 ## The Dramaturgy, if you will
 
@@ -17,7 +17,7 @@ For MCT4044 (Spatial Audio), we were tasked with the . . . task of designing, re
 
 Shamelessly ripping off the 1996 cult-classic film 'Mars Attacks!', we decided to tell our harrowing story-in-sound as a dramatic tale of alien invasion and eventual repulsion.
 
-Because the unrelenting lethality of Slim Whitman's voice is well known by now, and also because neither I nor Aleks can yodel, we decided that our fearless (and perhaps clueless) hero would take on a slightly different form.
+Because the unrelenting lethality of Slim Whitman's voice is by now well known, and also because neither I nor Aleks can yodel, we decided that our fearless (and perhaps clueless) hero would take a slightly different form.
 
 In the guise of a possibly-homeless street performer, our doughty busker repels the aliens with a combination of harmonica, guitar, and questionable lyrics about snorting coke off of someone's garage floor (we take no responsibility for his poor life-choices).
 
@@ -57,7 +57,7 @@ What would an alien attack be without shrieking humans? For this sound effect, w
 
 ## Enter: Our Savior (Not Jesus . . . OR IS HE??)
 
-For the hero guy, I made a simple mono recording in a specially designed acoustic chamber (my bedroom) of a suitable family-friendly song appropriate to the project. We then created the sonic effect of our hero-musician traveling through the soundscape through the use of source-panning automation, EQ and volume. Everywhere our hero goes, the music-intolerant aliens lose control of their spacecraft, crash and explode.
+For the hero guy, I made a simple mono recording in a specially designed acoustic chamber (my bedroom) of a suitable family-friendly song appropriate to the project. We then created the sonic effect of our hero-musician traveling through the soundscape through the use of source-panning automation, EQ and volume. Everywhere our hero goes, the music-intolerant aliens lose control of their spacecraft, crash and explode, much like the composition professors at my old alma mater when I approached them with a piece of tonal music written purely for the pleasure of 'note-based' music.  
 
 In this way we immerse our subject in the environment through processing (Barrett 2020; Roads 2015).
 
