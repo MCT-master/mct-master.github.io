@@ -6,7 +6,7 @@ categories: spatial-audio
 author: Alexander Tidemann, Paul Koenig
 image: /assets/image/2020_17_11_paulgk_TheInvasionBegins.jpg
 keywords: aliens, area 51, Slim Whitman, deadcat, Navigational Spatiality, Jesus
-exerpt: Don't run! We come in peace!
+excerpt: Don't run! We come in peace!
 ---
 
 Brought to you by Aleks 'Ack-Ack' Tidemann and Paul 'Ray Gun' Koenig
