@@ -3,7 +3,7 @@ layout: post
 title: "How To Save The World In Three Chords"
 date: 2020-11-17 20:00:00
 categories: spatial-audio
-author: Alexander Tidemann, Paul Koenig
+author: Aleksander Tidemann, Paul Koenig
 image: /assets/image/2020_17_11_paulgk_TheInvasionBegins.jpg
 keywords: aliens, area 51, Slim Whitman, deadcat, Navigational Spatiality, Jesus
 excerpt: Don't run! We come in peace!
@@ -13,7 +13,7 @@ Brought to you by Aleks 'Ack-Ack' Tidemann and Paul 'Ray Gun' Koenig
 
 ## The Dramaturgy, if you will
 
-For MCT4044 (Spatial Audio), we were tasked with the . . . task of designing, recording and mixing a spatialized audio composition. The composition was expected to have a clear dramaturgy, a unifying and coherent concept and realization, loads of action, excitement, and a mind-blowing climax that will simply blast your tits into next week. (I'm paraphrasing the requirements here.)
+For MCT4044 (Spatial Audio), we were tasked with the . . . task of designing, recording and mixing a spatialized audio composition. The composition was expected to have a clear dramaturgy, a unifying and coherent concept and realization, loads of action, excitement, and a mind-blowing climax that will simply blast your socks into next week. (I'm paraphrasing the requirements here.)
 
 Shamelessly ripping off the 1996 cult-classic film 'Mars Attacks!', we decided to tell our harrowing story-in-sound as a dramatic tale of alien invasion and eventual repulsion.
 
@@ -38,7 +38,7 @@ We made a total of seven sound-field recordings in outdoor environments around B
 
 This seemed like just the perfect, idyllic sort of scene to be obliterated by malice-filled alien beings.
 
-Figure 2 shows one of our microphone setups, just outside the backdoor of the Fysikkbyggning. Since we couldn't find a deadcat (wind-shield) for the rather expensive Soundfield microphone, we improvised with a lua, or "deadhat", which was loosely-woven and somewhat hairy, for a lua. It worked well enough, and no doubt better than an old wool sock, though this was not tested.
+Figure 2 shows one of our microphone setups, just outside the backdoor of the Fysikkbygning. Since we couldn't find a deadcat (wind-shield) for the rather expensive Soundfield microphone, we improvised with a lua, or "deadhat", which was loosely-woven and somewhat hairy, for a lua. It worked well enough, and no doubt better than an old wool sock, though this was not tested.
 
 <figure align="middle">
 <img src="/assets/image/2020_17_11_paulgk_Fysikkbyggning.jpg" width="80%"/>
@@ -53,9 +53,9 @@ Five different mono audio files were created to represent the same object at dif
 
 ## Chaos Ensues
 
-What would an alien attack be without shrieking humans? For this sound effect, we used samples of actual shrieking humans that Iggy (the Samplemaster) sent along, including one of Barney from The Simpsons, episode 142 (we suspect). To create the aural illusion of people running about in blind, abject terror, we implemented Azimuth Rotation in Reaper (using Ambix and IEM plugins) to make the voices move around. To further increase tension, we increased the volume and proximity of the alien presence to create a more oppressive effect.
+What would an alien attack be without shrieking humans? For this sound effect, we used samples of actual shrieking humans that Iggy (the Samplemaster) sent along, including one of Barney from The Simpsons, episode 142 (we suspect). To create the aural illusion of people running about in blind, abject terror, we implemented collective rotation (using the master azimuth feature of the IEM multiencoder) to make the voices move around. To further increase tension, we increased the volume and proximity of the alien presence to create a more oppressive effect.
 
-## Enter: Our Savior (Not Jesus . . . OR IS HE??)
+## Enter: Our Savior (Not Jesus... OR IS HE??)
 
 For the hero guy, I made a simple mono recording in a specially designed acoustic chamber (my bedroom) of a suitable family-friendly song appropriate to the project. We then created the sonic effect of our hero-musician traveling through the soundscape through the use of source-panning automation, EQ and volume. Everywhere our hero goes, the music-intolerant aliens lose control of their spacecraft, crash and explode, much like the composition professors at my old alma mater when I approached them with a piece of tonal music written purely for the pleasure of 'note-based' music.  
 
