@@ -24,7 +24,9 @@ Iggy also made the outro to the composition where the main character wakes up fr
 
 The figure below shows an animation of the idea behind our composition.
 
-**INSERT GIF**
+![Animation of composition idea](https://drive.google.com/uc?&id=1iJEjl23tBZtFttddYPl88KwmRMVn7M-c "Animation of composition idea")
+
+
 
 The final composition can we listened to in binaural below. Make sure to use a headset when you listen to it.
 
