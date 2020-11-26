@@ -15,6 +15,14 @@ The MCT4044 course happened right in the middle of an increasing lockdown of the
 
 So the main theme behind our composition was inspired by this stressful situation, and we decided that we wanted to explore the search for “peace and calmness in a chaotic world”. 
 
+## Listen to our track
+<figure style="width: 80%;">
+    <audio controls style="width: 100%; border-radius: 16px;">
+        <source src="https://drive.google.com/uc?&id=1-O_5ek6F_8w6HuHtIy5QZFAPgx81kNJg" type="audio/mpeg">
+    </audio>
+    <figcaption>Beginning with Thomas, then Jackson and finishing with Mari</figcaption>
+</figure>
+
 # Beginning with Thomas
 
 <figure>
@@ -55,7 +63,7 @@ The sections of this piece are as follows:
 Here are some images of the various locations recorded:
 
 <div style="display: flex;">
-    <div style="flex-direction: column; flex: 1;">
+    <div style="flex-direction: column; flex: 1; margin: 1em;">
         <figure>
             <img width="360px" src="/assets/image/2020_11_16_jacksong_top_staircase.jpg" />
             <figcaption>Top of the staircase</figcaption>
@@ -69,7 +77,7 @@ Here are some images of the various locations recorded:
             <figcaption>Looking down</figcaption>
         </figure>
     </div>
-    <div style="flex-direction: column; flex: 1;">
+    <div style="flex-direction: column; flex: 1; margin: 1em;">
         <figure>
             <img width="360px" src="/assets/image/2020_11_16_jacksong_portal.jpg" />
             <figcaption>Inside the portal</figcaption>
@@ -91,12 +99,12 @@ Though an explanation of every transformation would take too long for this post,
 
 # Mari concludes
 
-<div style="display: flex; flex-direction: row; justify-content: center;">
-    <figure style="flex: 1; margin: 1em;">
+<div style="display: flex; flex-direction: row; align-items: center;">
+    <figure style="flex: 1;  margin: 1em;">
         <img src="/assets/image/2020_11_16_jacksong_mari_train.jpg" style="height: 340px;" />
         <figcaption>Mari in the train station</figcaption>
     </figure>
-    <figure style="flex: 1; margin: 1em;">
+    <figure style="flex: 2; margin: 1em;">
         <img src="/assets/image/2020_11_16_jacksong_mari_train_2.jpg" style="height: 340px;" />
         <figcaption>The passing train</figcaption>
     </figure>
