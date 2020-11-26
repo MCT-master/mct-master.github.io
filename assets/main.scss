@@ -358,7 +358,7 @@ form#contact-form {
   position: relative;
   text-align: left;
   height: 40px;
-  width: 80%;
+  width: 90%;
   font-size: 1em;
   border-radius: 30px;
   padding: 0 30px;
@@ -370,7 +370,7 @@ form#contact-form {
   text-align: left;
   margin: -15px auto auto auto;
   padding-top: 15px;
-  width: 80%;
+  width: 90%;
   max-height: 620px;
   overflow: auto;
 }
@@ -420,7 +420,6 @@ form#contact-form {
   border-radius: 8px;
   max-width: 100%;
   box-shadow: 1px 3px 8px rgba(0, 0, 0, 0.5);
-  margin: 1em;
   border: 0;
 }
 
@@ -442,8 +441,7 @@ form#contact-form {
   font-style: italic;
   font-size: smaller;
   text-indent: 0;
-  margin-left: auto;
-  margin-right: auto;
+  margin: 1em auto;
   display: table;
 }
 
@@ -480,5 +478,24 @@ form#contact-form {
     content: "";
     clear: both;
     display: table;
+  }
+}
+
+.student-list {
+  margin: 1em;
+
+  & h2 {
+    margin-top: 15px;
+    margin-bottom: 5px;
+  }
+  & details {
+    margin: 5px auto;
+  }
+  & h4 {
+    display: inline;
+  }
+  & a {
+    margin-left: 1.5em;
+    display: block;
   }
 }
