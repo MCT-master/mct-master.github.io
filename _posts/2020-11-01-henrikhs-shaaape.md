@@ -15,7 +15,7 @@ excerpt: "Distorting signals with ghost signals."
 Introducing *shaaape*, a tanh distortion effect unit based on an idea of driving a signal with an added "ghost signal". The inspiration is based on how loud low frequencies effect higher frequencies in speakers. How a loud sub bass can cause fluttering in the treble (trouble in the treble). So I went about trying to recreate the effect as a plugin so it could be used musically.
 
 #### Processing
-The input signal is being distorted summed with a "ghost signal" (in this case a sine wave and a filtered random oscillator. Hereby reffered to as GS.) which is being phased out of the output signal. The benefit of dealing with digital distortion is that a signal can be distorted identically in two places. So the GS is not only being distorted in the main distortion, it is also being distorted equally much in it's own distortion channel. The purpose of this is to create a distorted GS that is equal to the GS distorted in the main distortion so that it can be phased out after the main distortion. It's a tounge-twister, so hopefully this illustration will help understanding what's going on.
+The input signal is being distorted summed with a "ghost signal" (in this case a sine wave and a filtered random oscillator. Hereby referred to as GS.) which is being phased out of the output signal. The benefit of dealing with digital distortion is that a signal can be distorted identically in two places. So the GS is not only being distorted in the main distortion, it is also being distorted equally much in it's own distortion channel. The purpose of this is to create a distorted GS that is equal to the GS distorted in the main distortion so that it can be phased out after the main distortion. It's a tounge-twister, so hopefully this illustration will help understanding what's going on.
 
 <figure style="float: auto">
    <img src="/assets/image/2020_11_01_henrikhs_shape of shaaape.png" alt="Should show picture..." title="great job, you understand it now!" width="auto"/> <figcaption>Illustrating the shape of shaaape we see that it is an quite easy way of processing</figcaption>
@@ -86,4 +86,4 @@ I have done my best to set proper gain-staging for the signal path, though I exp
 
 If you want to try it, please do so. Below are the vst/vst3/au files to download. Mind that if you're an AU user, you should also include the "shaaape_01.csd" in your Components folder. Else it won't work. It's a Cabbage thing. Have fun.
 
-# [Downlaod *shaaape* for free!](https://drive.google.com/file/d/1U6R0T-2-sQSocErvTCZ4g-ePTNFC590P/view?usp=sharing)
+# [Download *shaaape* for free!](https://drive.google.com/file/d/1U6R0T-2-sQSocErvTCZ4g-ePTNFC590P/view?usp=sharing)

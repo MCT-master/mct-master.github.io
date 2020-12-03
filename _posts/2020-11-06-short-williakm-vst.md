@@ -42,7 +42,7 @@ For my purposes, this little VSTi is useful for exploring early keyboard and plu
 Watch the video below for a taste of the different temperaments in action.
 
 <figure style="float: none">
-  <video width="auto" controls>
+  <video width="640" height="360" controls>
     <source src="https://drive.google.com/uc?&id=14jkjVbHpTbzafSe0UTC_7UqAvfnV-ZSq" type='video/mp4'>
     Alternate Text
   </video>
