@@ -5,7 +5,7 @@ date: 2020-12-02 15:00:00 +0200
 categories: scientific-computing
 author: Joni Mok
 image: \assets\image\2020_12_03_joni_dark_tetris.jpg
-excerpt: "Scientific Computer assignment for a non-programmer, please don't expect anything special when you see the title about DARK Tetris, even I really want to create that..."
+excerpt: "Scientific Computing assignment for a non-programmer, please don't expect anything special when you see the title about DARK Tetris, even I really want to create that..."
 keywords: slicing, python, tempo, rms, spectral centroid
 ---
 
