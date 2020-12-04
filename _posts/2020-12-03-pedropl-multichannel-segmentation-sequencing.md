@@ -70,7 +70,7 @@ The segments are taken from the complete data structure. As the exact number of 
 
 This merging process intercalates between signals for each channel, for example, segment 0 from file 0 is merge with segment 0 from file 1, then segment 1 from file 0 and segment 1 from file 1, and so on. Also, the order of the segments is inverted for odd channels, which gives a very noticeable effect in the channels when they are heard simultaneously.
 
-The effect of this strategy is reflected in the image below. It represents the output generated that used the input songs mentioned previously. Here, each slice is differentiated within the waveform according to the corresponding input, also it is noticeable how the spectral centroid is increasing or decreasing per each channel. Considering that this is a vector-based image,  you can open a new tab and zoom in [here](https://drive.google.com/uc?&id=13Ufmji9xDyoxQ4jik4v0VfAdODs3rzOu){:target="_blank" rel="noopener"}
+The effect of this strategy is reflected in the image below. It represents the output generated that used the input songs mentioned previously. Here, each slice is differentiated within the waveform according to the corresponding input, also it is noticeable how the spectral centroid is increasing or decreasing per each channel. Considering that this is a vector-based image,  you can open a new tab and zoom in [here](https://drive.google.com/uc?&id=1q5ON-U7aDWOuGbUkHJuNt2Fu1j9NPdI2){:target="_blank" rel="noopener"}
 
 
 <figure style="float: auto">
