@@ -16,7 +16,7 @@ Combine and reorganize segments of audio from two distinct audio files in an ord
 
 As the aural qualities of the final reorganized audio file didn’t matter within the context of this assignment, I didn’t spend a whole lot of time considering the musical properties of my two files. My only aural interest in these selections was ensuring that the instrumentation between my source files was noticeably different.  I selected a Kyrie from a Mass by Johannes Ockeghem and a Fugue for piano by Dmitri Shostakovich. Each less than two minutes long, these selections are both fairly monochromatic in texture, but I find them pleasing.
 
-Having selected these two pieces, I then decided to divide each into 5-second segments and reorganize these segments by maximum audio within each segment. All fairly straightforward once I wrapped my head around the right steps.
+Having selected these two pieces, I then decided to divide each into 5-second segments and reorganize these segments by ascending maximum amplitude within each segment. All fairly straightforward once I wrapped my head around the right steps.
 
 Because these audio files are, of course, copyrighted I won't be including them here in my post, but do yourself a favor and go look these pieces up. They're the opening Kyrie from Ockeghem's *Missa prolationum* and the second Fugue from Shostakovich's *24 Preludes and Fugues*.
 
