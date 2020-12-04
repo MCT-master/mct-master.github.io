@@ -13,6 +13,12 @@ And … it’s a though one …
 
 Even though it initially stroke me as a hard task, it also seemed to be some fun ways of handling audio in here, slicing two songs and rearrange all slice into one new.
 
+<figure style="float: auto">
+   <img src="/assets/image/2020_12_04_anderlid_exam_front.jpg" alt="Alternate Text" title="Waveform, descending loudness" width="auto"/>
+   <figcaption><i>Situations</i></figcaption>
+</figure>
+
+
 ### Graphic score no. 5
 I decided to go for a program that outputs audio-files inspired by John Teske’s Six Graphic Scores, no. 5, starting with heavy loudness moving towards silence. Teske’s no 5 also evolves around a center pitch, which I didn’t work with, I mainly wanted to make my output waves look similar to his graphic score, which essentially should give a somewhat recognizable audible output.
 
