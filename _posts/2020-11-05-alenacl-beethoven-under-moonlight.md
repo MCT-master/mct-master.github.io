@@ -94,8 +94,8 @@ Although defining frequencies for the notes to be played is alright, it can get 
 [Here](https://drive.google.com/file/d/1TR05VM9QG7z2vZSkP18NDb7nGTIEYQQk/view?usp=sharing) is a demo video of the final "performance" of the first few bars of "Moonlight Sonata" by Beethoven using a slightly peculiar sound - somewhere between a marimba and a vibraphone. 
 
 <figure style="float: none">
-  <video width="auto" controls>
-    <source src="https://drive.google.com/file/d/1TR05VM9QG7z2vZSkP18NDb7nGTIEYQQk/view?usp=sharing" >
+  <video width="640" height="360" controls>
+    <source src="https://drive.google.com/uc?&id=1TR05VM9QG7z2vZSkP18NDb7nGTIEYQQk" type="video/mp4" >
   </video>
   <figcaption>CSound Moonlight Sonata</figcaption>
 </figure> 

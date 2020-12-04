@@ -35,11 +35,9 @@ The output from all these opcodes gets added and is then passed to the Filter ef
 #### Demo:
 
 <figure style="float: none">
-   <iframe src="https://drive.google.com/file/d/1OsphESQ7jzbhQqNMciNYmo2gvZKselXQ/preview" width="auto" frameborder="0" allowfullscreen></iframe>
+   <iframe src="https://drive.google.com/file/d/1OsphESQ7jzbhQqNMciNYmo2gvZKselXQ/preview" width="640" height="360" frameborder="0" allowfullscreen></iframe>
    <figcaption>Butter in Performance</figcaption>
 </figure>
-
-
 
 #### Final thoughts & Future Developments:
 
