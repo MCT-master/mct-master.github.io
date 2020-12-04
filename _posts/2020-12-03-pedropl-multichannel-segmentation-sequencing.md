@@ -29,7 +29,7 @@ The resulting output is the next one:
 
 <figure style="float: none">
   <audio controls>
-    <source src="https://drive.google.com/uc?&id=1m03PeVbXx3QrWzaE4iA3ww3NFoHCm135" type="audio/mpeg">
+    <source src="https://drive.google.com/uc?&id=1PcpwgwJTgq_iXrxur0N3NbAFAfGS_Qg0" type="audio/mpeg">
     Output Audio File
   </audio>
   <figcaption>Output Audio File</figcaption>
@@ -74,7 +74,7 @@ The effect of this strategy is reflected in the image below. It represents the o
 
 
 <figure style="float: auto">
-   <img src="https://drive.google.com/uc?&id=13Ufmji9xDyoxQ4jik4v0VfAdODs3rzOu" alt="Output Visualization" title="Output Visualization" width="auto"/> <figcaption>Output Visualization</figcaption>
+   <img src="https://drive.google.com/uc?&id=1q5ON-U7aDWOuGbUkHJuNt2Fu1j9NPdI2" alt="Output Visualization" title="Output Visualization" width="auto"/> <figcaption>Output Visualization</figcaption>
 </figure>
 
 
