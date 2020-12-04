@@ -4,7 +4,7 @@ title: "Dark Tetris"
 date: 2020-12-03 18:00:00 +0200
 categories: scientific-computing
 author: Joni Mok
-image: \assets\image\2020_12_03_joni_dark_tetris.gif
+image: \assets\image\2020_12_03_joni_dark_tetris.jpg
 excerpt: "Scientific Computer assignment for a non-programmer, please don't expect anything special when you see the title about DARK Tetris, even I really want to create that..."
 keywords: slicing, python, tempo, rms, spectral centroid
 ---
@@ -12,7 +12,7 @@ keywords: slicing, python, tempo, rms, spectral centroid
 #### What?
 
 The final assignment in the Scientific Computing module was to take out self-chosen audio segments from two audio files, to analyse their features  and to combine them into one audio file. We also needed to visualise both songs and the slicing points and create a new csv file with the features that we have analysed with the help of the Librosa library.
- 
+
 #### What resulted?
 I merged a piece of music from the game Tetris and a song called Veil of Elysium, originally by a power metal band called Kamelot.   Originally, I wanted to merge “Tetris” with the other song so as to give it a heavy metal quality, meaning that the rather cute sounding Tetris would become darker and heavier. Very unsurprisingly, as a novice Pythonista here, I ended up putting the “epic” (a style of Heavy Metal) beginnings of the two audio files into one. In addition, I focused on the downbeats (onsets) and set as a ¼ tempo.
 
