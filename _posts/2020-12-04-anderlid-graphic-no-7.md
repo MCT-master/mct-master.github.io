@@ -38,15 +38,13 @@ After brainstorming for five hours, staring out in the air for four, 17 hours of
 
 The short length of the segments should indicate that whatever input I use, the output will be a new composition, rather than a remix of the two songs. And to me the sonic result is actually very appealing to me, which brings me to the …
 
+### Conclusion
+The very last words in the assignment text are «The sonic appeal of the output of your program does not contribute to your grade.»
+To motivate myself, I had the sonic appeal of the output as one of my goals for this task, but what’s appealing to me, might not be appealing to you, so leaving it out the grading is probably a good idea.
+At the end — apart from some very frustrating moments — I had some good 72 hours working with this, and despite all the things I know should be done better and more effective, I’m very happy with the result.
+
 <figure style="float: none">
   <audio controls>
     <source src="https://drive.google.com/1MgAfA148tp_PKap7DYzGmMks6LqtpqK5" type="audio/mpeg">
   </audio>
 </figure>
-
-1MgAfA148tp_PKap7DYzGmMks6LqtpqK5/view?usp=sharing
-
-### Conclusion
-The very last words in the assignment text are «The sonic appeal of the output of your program does not contribute to your grade.»
-To motivate myself, I had the sonic appeal of the output as one of my goals for this task, but what’s appealing to me, might not be appealing to you, so leaving it out the grading is probably a good idea.
-At the end — apart from some very frustrating moments — I had some good 72 hours working with this, and despite all the things I know should be done better and more effective, I’m very happy with the result.
