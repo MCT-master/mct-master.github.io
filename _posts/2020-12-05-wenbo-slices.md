@@ -5,13 +5,13 @@ date: 2020-12-05 15:00:00 +0200
 categories: scientific-computing
 author: Wenbo Yi
 image: /assets/image/2020_12_05_wenbo_output.png
-excerpt: "Slicing up two songs and re-joining them with four kinds of features."
+excerpt: "Slicing up the music and reorganize them with four kinds of Librosa features."
 keywords: Python, Librosa, Programming, Slicing, Tempo, Final
 ---
 
 # Task Overview
 
-The task for the final exam for scientific computing was 
+The task for the final exam for scientific computing was
 *requires us to write a Python program which sequences audio segments extracted from two selected songs according to arbitrary analytical criteria. The program takes as input two audio files, each containing a song you select, and it produces as an output audio file, a visualization of the sequenced audio, a CSV file with details of the all audio segments, and several metrics printed on screen.*
 
 # Solution Overview
