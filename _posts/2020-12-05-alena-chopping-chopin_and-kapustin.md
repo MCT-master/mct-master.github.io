@@ -33,7 +33,7 @@ _Note_: For simplicity, I used an universal sample rate of 44100 Hz. For this, I
 We were allowed to slice each audio file in an arbitrary number of segments based on any criteria we chose. Before trying anything fancier, I wanted to have a basic, working program, so I started by writing a function that slices an audio input every 2 seconds (every 88200 samples). That worked out nicely from a programming point of view, but the final audio sequence wasn't anything special, it was chopped up without retaining anything melodic from the input songs. 
 
 <figure style="float: auto">
-   <img src="/assets/image/2020_12_05_alena_chopin_kapustin_audacity.jpg" alt="The Waveforms" title="Chopin and Kapustin Waveforms" width="auto"/> <figcaption>Waveforms</figcaption>
+   <img src="/assets/image/2020_12_05_alena_chopin_kapustin_audacity.JPG" alt="The Waveforms" title="Waveforms" width="auto"/> <figcaption>Chopin and Kapustin Waveforms</figcaption>
 </figure>
 
 Observing the waveforms of the two songs, I realised that Chopin's prelude was nicely structured in chunks and this gave me the idea to try to split it based on this. So next, I wrote a function what would slice an audio input based on the onsets of the songs, the "peaks" in the melody. I tried the same with Kapustin's prelude, but that ended up chopped into 500 something slices, very very short slices, which wasn't nice at all for the final audio. In the end, I decided to slice Chopin's prelude based on its onsets - it provided 73 slices - and Kapustin's prelude every 2 seconds - it provided 61 slices. 
