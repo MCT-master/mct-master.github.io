@@ -61,14 +61,13 @@ you can listen to the final season output and the 13 minute output down below:
 
 <figure style="float: none">
   <audio controls>
-    <source src="https://drive.google.com/uc?&id=1EAxNj0XNWWrYbUxpZNVGM63M_Ey6GBoxb" type="audio/mpeg">
+    <source src="https://drive.google.com/uc?&id=1EAxNj0XNWWrYbUxpZNVGM63M_Ey6GBox" type="audio/mpeg">
     Should show a media player
   </audio>
-  <figcaption>The Hybrid Season</figcaption>
+  <figcaption>The sent & received</figcaption>
 </figure>
 
-
-The season waveform with increasing RMS values:
+The season mix waveform with increasing RMS values:
 
 <figure style="float: auto">
    <img src="/assets/image/2020_12_05_abhishec_waveform_rms.PNG" alt="Alternate Text" title="Waveform, ascending RMS loudness" width="auto"/>
