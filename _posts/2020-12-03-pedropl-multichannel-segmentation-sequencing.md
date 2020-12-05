@@ -4,7 +4,7 @@ title: "Segmentation and Sequencing from and to Multichannel Audio Files"
 date: 2020-12-04 5:30:00 +0100
 categories: scientific-computing
 author: Pedro Lucas
-image: \assets\image\2020_12_03_pedropl_multichannel_segmentation_sequencing.png
+image: /assets/image/2020_12_03_pedropl_multichannel_segmentation_sequencing.png
 excerpt: "The strategy explained here considers the slicing of stereo audio files and the production of a new stereo output file based on a multichannel solution. The spectral centroid is used to reorder and intercalate segments in an ascending or descending order according to some rules."
 keywords: segmentation, sequencing, spectral centroid, stereo, multichannel
 ---
