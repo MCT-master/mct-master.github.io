@@ -17,12 +17,12 @@ The Scientific Computing module within the MCT4000 course was the longest and mo
 The melodicity of the final song - can we even call it a song? audio sequence? - didn't matter, I didn't overthink the selection phase. I thought it would b a good idea for the two initial songs to be 2 minutes or less (for computational purposes), so I went searching through Frédéric Chopin's Preludes. I remembered than Nikolai Kapustin, inspired by the way Chopin composed a prelude for each key, did the same in opus 53, with his "Jazz Preludes", so an idea formed: I would chose one prelude by Chopin and one by Kapustin! Pretty smooth, eh? I wanted to chose either the same key or a major/minor combination, but the pairs I checked out were either too different in length or too different in rhythm, so I ended up choosing the Prelude in do minor by Chopin and the Prelude in fa minor by Kapustin - both minor keys, just the way I like them. These are the versions I used:
 
 <figure style="float: none">
-    <iframe src="https://www.youtube.com/watch?v=XeX4X_1_lo0" frameborder="0" allowfullscreen></iframe>
+    <iframe src="https://www.youtube.com/embed/XeX4X_1_lo0" frameborder="0" allowfullscreen></iframe>
     <figcaption>Chopin - Prelude op 28 no 20</figcaption>
 </figure>
 
 <figure style="float: none">
-    <iframe src="https://www.youtube.com/watch?v=K2NIMXa30e8" frameborder="0" allowfullscreen></iframe>
+    <iframe src="https://www.youtube.com/embed/K2NIMXa30e8" frameborder="0" allowfullscreen></iframe>
     <figcaption>Kapustin - Prelude no 53 no 18</figcaption>
 </figure>
 
