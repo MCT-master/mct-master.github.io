@@ -5,7 +5,7 @@ date: 2020-12-05 00:00:00 +0200
 categories: scientific-computing
 author: Anders Lidal
 image: /assets/image/2020_12_04_anderlid_exam_front.jpg
-keywords: python, slicing, segmentation, contemporary music, coding, rms, programming
+keywords: python, slicing, segmentation, contemporary music, coding, rms, programming, cat, kitten
 excerpt: "So … it’s 00:01 in Oslo, December 1st, and the final SciComp assignment is here …
 And … it’s a though one …
 2345 words … AI must be involved here …"
@@ -23,7 +23,7 @@ Even though it initially stroke me as a hard task, it also seemed to be some fun
 I decided to go for a program that outputs audio-files inspired by John Teske’s Six Graphic Scores, no. 5, starting with heavy loudness moving towards silence. Teske’s no 5 also evolves around a center pitch, which I didn’t work with, I mainly wanted to make my output waves look similar to his graphic score, which essentially should give a somewhat recognizable audible output.
 
 <figure style="float: none">
-    <iframe width="auto" height="320" src="https://youtu.be/bE7wrqxK-Ks?t=776" frameborder="0" allowfullscreen></iframe>
+    <iframe width="auto" height="320" src="https://www.youtube.com/embed/bE7wrqxK-Ks" frameborder="0" allowfullscreen></iframe>
     <figcaption>John Teske - Six Graphic Scores, no. 5</figcaption>
 </figure>
 
@@ -51,6 +51,6 @@ At the end — apart from some very frustrating moments — I had some good 72 h
 
 <figure style="float: none">
   <audio controls>
-    <source src="https://drive.google.com/1MgAfA148tp_PKap7DYzGmMks6LqtpqK5" type="audio/mpeg">
+    <source src="https://drive.google.com/uc?&id=1MgAfA148tp_PKap7DYzGmMks6LqtpqK5" type="audio/mpeg">
   </audio>
 </figure>
