@@ -6,7 +6,7 @@ categories: scientific-computing
 author: Alena Clim
 image: /assets/image/2020_12_05_alena_preludes.jpg
 keywords: slicing, segmenting, onsets, python, librosa, rms, spectral flatness
-excerpt: "Chopping and Cropping classical music into something unrecognizable."
+excerpt: "Chopping a prelude by Chopin and one by Kapustin and then merging the slices based on their loudness (RMS) and tonality (Spectral Flatness)."
 ---
 ## Chopping Chopin and Kapustin preludes
 
