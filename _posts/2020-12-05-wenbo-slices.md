@@ -11,11 +11,12 @@ keywords: Python, Librosa, Programming, Slicing, Tempo, Final
 
 # Task Overview
 
-The task for the final exam for scientific computing was *requires us to write a Python program which sequences audio segments extracted from two selected songs according to arbitrary analytical criteria. The program takes as input two audio files, each containing a song you select, and it produces as an output audio file, a visualization of the sequenced audio, a CSV file with details of the all audio segments, and several metrics printed on screen.*
+The task for the final exam for scientific computing was 
+*requires us to write a Python program which sequences audio segments extracted from two selected songs according to arbitrary analytical criteria. The program takes as input two audio files, each containing a song you select, and it produces as an output audio file, a visualization of the sequenced audio, a CSV file with details of the all audio segments, and several metrics printed on screen.*
 
 # Solution Overview
 
-My solution was to import two audio files into a panda data frame after slicing them rhythmically, sorts and reorganizes slices using the four kinds of calculated Librosa features as the principle.¶
+My solution was to import two audio files into a panda data frame after slicing them rhythmically, sorts and reorganizes slices using the four kinds of calculated Librosa features as the principle.
 
 The **segmentation** strategy: Slicing an audio signal in segments of fixed and duration related to the tempo and arranging them on Numpy array.
 
@@ -28,7 +29,7 @@ I chose to use two songs I created myself a long time ago, and I chose two piece
     <source src="https://drive.google.com/uc?&id=1jIBIbbmT4Ga29HBsc5IXOD4eYYyk_AY8" type="audio/mpeg">
     Glass.Wav
   </audio>
-  <figcaption>Song One</figcaption>
+  <figcaption>Glass.wav</figcaption>
 </figure>
 
 
@@ -37,7 +38,7 @@ I chose to use two songs I created myself a long time ago, and I chose two piece
     <source src="https://drive.google.com/uc?&id=1Z-o_YJHEFETehkJ_P34MQzS7CyZyOJzj" type="audio/mpeg">
     Runaway.Wav
   </audio>
-  <figcaption>Song Two</figcaption>
+  <figcaption>Runaway.wav</figcaption>
 </figure>
 
 
