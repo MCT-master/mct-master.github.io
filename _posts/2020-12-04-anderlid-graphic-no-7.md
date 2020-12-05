@@ -23,7 +23,7 @@ Even though it initially stroke me as a hard task, it also seemed to be some fun
 I decided to go for a program that outputs audio-files inspired by John Teske’s Six Graphic Scores, no. 5, starting with heavy loudness moving towards silence. Teske’s no 5 also evolves around a center pitch, which I didn’t work with, I mainly wanted to make my output waves look similar to his graphic score, which essentially should give a somewhat recognizable audible output.
 
 <figure style="float: none">
-    <iframe width="auto" height="320" src="https://www.youtube.com/embed/bE7wrqxK-Ks" frameborder="0" allowfullscreen></iframe>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/bE7wrqxK-Ks?start=775" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
     <figcaption>John Teske - Six Graphic Scores, no. 5</figcaption>
 </figure>
 
