@@ -40,6 +40,12 @@ $content-width: 900px;
 $on-palm: 600px;
 $on-laptop: 800px;
 
+// Add padding to mobile
+.wrapper {
+  padding-right: 30px !important;
+  padding-left: 30px !important;
+}
+
 // Headings
 h1,
 h2,
@@ -106,7 +112,7 @@ h6 {
 }
 
 .post-content {
-  text-align: justify;
+  // text-align: justify;
   overflow-wrap: break-word;
   margin-bottom: 0;
 }
@@ -219,10 +225,11 @@ a {
       margin: 0;
     }
   }
-
   .post-content .post-list img {
     // put images above posts (not enough space to right)
-    width: 90%;
+    width: 100%;
+    max-height: 180px;
+    object-fit: cover;
     float: none;
     margin: 1em auto;
   }
@@ -249,7 +256,7 @@ nav li {
   text-align: left;
   //padding: 0.5rem;
   //position: relative;
-  & a {
+  a {
     color: $brand-color;
   }
 }
@@ -315,7 +322,7 @@ nav ul li ul li {
 
     &:hover {
       background-color: rgba(240, 240, 240, 0.75);
-      box-shadow: 0 1px 2px rgba(0, 0, 0, 0.15);
+      box-shadow: 0 1px 4px rgba(0, 0, 0, 0.15);
     }
   }
 }
@@ -345,7 +352,7 @@ ul.pager {
 
     &:hover {
       background-color: rgba(240, 240, 240, 0.75);
-      box-shadow: 0 1px 2px rgba(0, 0, 0, 0.15);
+      box-shadow: 0 1px 4px rgba(0, 0, 0, 0.15);
     }
   }
 }
@@ -393,7 +400,7 @@ form#contact-form {
     background-color: rgba(240, 240, 240, 0.75);
     box-shadow: 0 1px 4px rgba(0, 0, 0, 0.15);
 
-    & .article.typeset > h4 {
+    .article.typeset > h4 {
       background-color: rgba(230, 230, 230, 0.75);
     }
   }
@@ -415,64 +422,68 @@ form#contact-form {
   }
 }
 
+// Media styling
+
 .no-shadow {
   // for removing dropshadow from media
   box-shadow: none !important;
 }
 
-.page-content img,
-.page-content video,
-.page-content iframe {
-  border-radius: 8px;
-  max-width: 100%;
-  box-shadow: 1px 3px 8px rgba(0, 0, 0, 0.5);
-  border: 0;
+.page-content { // everywhere
+  img, video, iframe, audio {
+    border-radius: 8px;
+    max-width: 100%;
+    box-shadow: 1px 3px 8px rgba(0, 0, 0, 0.5);
+    border: 0;
+  }
 }
 
-.page-content figure,
-.page-content img,
-.page-content video {
-  height: auto;
+.post.h-entry { // only in posts
+  .post-content {
+    figure, audio {
+      min-width: 80%; // when unset
+    }
+    figure, img, video {
+      height: auto;
+    }
+    figure, img, video, iframe {
+      text-align: center;
+      font-style: italic;
+      font-size: smaller;
+      text-indent: 0;
+      margin: 1em auto;
+      display: table;
+    }
+    figcaption {
+      display: table-caption;
+      caption-side: bottom;
+    }
+    caption {
+      display: table-caption;
+      text-align: center;
+      position: relative;
+    }
+  }
 }
 
-.page-content figure,
-.page-content img,
-.page-content video,
-.page-content iframe {
-  text-align: center;
-  font-style: italic;
-  font-size: smaller;
-  text-indent: 0;
-  margin: 1em auto;
-  display: table;
-}
-
-.page-content figcaption {
-  display: table-caption;
-  caption-side: bottom;
-}
-
-.page-content caption {
-  display: table-caption;
-  text-align: center;
-  position: relative;
-}
+// Post list styling
 
 .post-list li {
   border-top: 0.1em dotted #dedede;
   padding: 1.5em 0;
   margin-bottom: 0 !important;
 
-  & img {
-    width: 33.3%;
-    float: right;
+  img {
     display: block;
-    //padding: 0 3% 1% 0;
+    float: right;
+    width: 33.3%;
+    max-height: 300px;
+    object-fit: cover; // if images are too tall, crop them
     margin: 0 0 0 3em;
     box-shadow: 1px 3px 8px rgba(0, 0, 0, 0.5);
   }
 
-  & .post-excerpt {
+  .post-excerpt {
     margin: 1em auto;
   }
 
@@ -486,17 +497,17 @@ form#contact-form {
 .student-list {
   margin: 1em;
 
-  & h2 {
+  h2 {
     margin-top: 15px;
     margin-bottom: 5px;
   }
-  & details {
+  details {
     margin: 5px auto;
   }
-  & h4 {
+  h4 {
     display: inline;
   }
-  & a {
+  a {
     margin-left: 1.5em;
     display: block;
   }
