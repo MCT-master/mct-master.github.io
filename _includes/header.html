@@ -11,12 +11,11 @@
         {% for item in site.data.menulist.toc %}
           <li class="page-link">
           {% if item.subfolderitems.size > 0 %}
-            <label class="drop-btn" for="{{ item.title }}">{{ item.title | escape }}</label>
-            <input id="{{ item.title }}" class="drop-check" name="drop-check" type="checkbox">
-            
+
+            <a href='#' class="drop-btn">{{ item.title | escape }}</a>
             <ul class="dropdown">
               {% for entry in item.subfolderitems %}
-                <li><a href="{{ entry.url }}">{{ entry.page }}</a></li>
+                <a href="{{ entry.url }}"><li>{{ entry.page }}</li></a>
               {% endfor %}
             </ul>
 
