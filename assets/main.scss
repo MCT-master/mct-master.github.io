@@ -235,75 +235,55 @@ a {
   }
 }
 
-ul.dropdown li {
-  display: block;
-  line-height: 100%;
-  color: $brand-color;
-  padding: 0.5rem;
-  //&:visited { color: $brand-color; }
-  //border: 2px white solid;
-}
-
-nav ul {
-  list-style: none;
-  margin: 0;
-}
-
-nav li {
-  color: #fff;
-  display: inline;
-  text-decoration: none;
-  text-align: left;
-  //padding: 0.5rem;
-  //position: relative;
-  a {
-    color: $brand-color;
-  }
-}
-
-// Dropdown
-
-nav ul.dropdown {
-  position: absolute;
-  display: block;
-  left: inherit;
-  background: #eee;
-  margin-left: -14px;
-  border-radius: 6px;
-  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.15);
-  padding: 6px;
-
-  opacity: 0;
-  visibility: hidden;
-  transition: visibility 0.1s, opacity 0.1s;
-}
-
-.drop-btn {
-  cursor: pointer;
-}
-
-.drop-check {
-  // trick to toggle dropdown (should be hidden)
-  display: none;
-}
-
-.drop-check:checked ~ .dropdown {
-  opacity: 1;
-  visibility: visible;
-  z-index: 100;
-}
-
-// @media screen and (max-width: 600px) {
-//   nav ul li:focus > ul.dropdown {
-//     visibility: visible;
-//     opacity: 1;
-//     z-index: 100;
-//   }
-// }
+// Navigation and dropdown (no JS)
 
 nav ul li ul li {
   clear: both;
   width: 100%;
+}
+
+nav {
+  ul {
+    list-style: none;
+    margin: 0;
+
+    &.dropdown {
+      position: absolute;
+      display: block;
+      z-index: 3;
+      left: inherit;
+      background: #eee;
+      margin-left: -14px;
+      border-radius: 6px;
+      padding: 6px;
+      box-shadow: 0 1px 4px rgba(0, 0, 0, 0.15);
+      opacity: 0;
+      visibility: hidden;
+      transition: visibility .3s, opacity 0.2s;
+      
+      li {
+        display: block;
+        line-height: 100%;
+        color: $brand-color;
+        padding: 0.5rem;
+      }
+    }
+  }
+
+  li {
+    color: #fff;
+    display: inline;
+    text-decoration: none;
+    text-align: left;
+    a {
+      color: $brand-color;
+    }
+  }
+}
+
+.drop-btn:focus + .dropdown { // a beautiful trick for dropdowns
+  opacity: 1;
+  visibility: visible;
 }
 
 // Buttons on blog
@@ -372,7 +352,7 @@ form#contact-form {
   border-radius: 30px;
   padding: 0 30px;
   outline: none;
-  z-index: 99;
+  z-index: 2;
 }
 
 #list {
