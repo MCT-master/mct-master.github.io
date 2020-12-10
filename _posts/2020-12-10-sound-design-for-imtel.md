@@ -5,11 +5,11 @@ date: 2020-12-10 12:00:00 +0200
 categories: applied-projects
 author: Simon Rønsholm Sandvik, Thibault Jaccard
 image: https://www.michigandaily.com/sites/default/files/leg/imagecache/fullnode/video%20game%20illustration.jpeg
-excerpt: "?"
+excerpt: "For the applied project 2, we worked on enhancing the sound components of a VR language learning application in Unity"
 Keywords: VR, Unity, Game-Development, SteamAudio, FMOD, Sound-Design
 ---
 
-##Project Overview
+## Project Overview
 
 For the Applied Projects 2 course, the team consisted of Thibault and Simon.
 We were given IMTEL as our external partner, a research group focusing on developing VR and AR applications for learning purposes.
@@ -18,19 +18,19 @@ The project was a language learning application. In it, several people can conne
 
 The application consists of two scenes, a Kafé scene and a Forest one. Each scene contains different objects (e.g. table and cake in the Kafé, tent and campfire in the forest).
 
-##Our solution
+## Our solution
 
 Our solution for the project was to introduce audio middleware for the game, FMOD, and provide basic documentation of workflow to utilize this.
 We improved the sound design for the game and added spatialization for an improved immersive experience.
 
 <figure>
-    <iframe width="560" height="315" src="https://youtu.be/0p6tdIcdqaI" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+    <iframe width="560" height="315" src="https://www.youtube.com/watch?v=0p6tdIcdqaI" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
     </iframe>
     <figcaption>Snippet from the Kafé scenes</figcaption>
 </figure>
 
 
-##FMOD
+## FMOD
 
 FMOD is a middleware and engine to handle game audio. Most who have previous experience with working with audio will immediately find familiarities with the UI being similar to that of a DAW and having many of the same functionalities.
 Using audio middleware has certain advantages. FMOD allows
@@ -50,7 +50,7 @@ of the bigger contributors to game size and loading times.
 </figure>
 
 
-##SteamAudio
+## SteamAudio
 
 SteamAudio is a spatializer that can virtualize the audio through the ambisonics format and decode it binaurally, and add geometrically and materially correct reverberation greatly improving immersion, which is important for VR-enabled games. By using the steam audio source, material, and geometry components within Unity we can achieve a realistic and immersive soundscape.
 
@@ -60,7 +60,7 @@ SteamAudio is a spatializer that can virtualize the audio through the ambisonics
     <figcaption>SteamAudio plugin for FMOD</figcaption>
 </figure>
 
-##Process
+## Process
 
 The first step was to dig into the existing project, and try to understand the existing implementation. The general architecture was done using the Unity GUI, but a lot of the logic was hiding in C# scripts. We therefore spent hours reading and meeting with programmers to make sense out of it.
 
@@ -68,7 +68,7 @@ Then, what turned out to be the most time consuming process has been setting up 
 
 Then came the most interesting part, the actual sound design and implementation. We switched off the Unity audio engine, therefore disabling the existing sounds, and implemented all our sounds using the FMOD sound engine. All the words were created using the Google text-to-speech services, exported and integrated as wav files. We also did some sound design, especially for the environmental sounds, such as the Kafé background music and crows croaks in the Forest.
 
-##Issues we faced
+## Issues we faced
 
 Originally we were 4 team members, but losing Rayam and Jarle along the way left us having to reduce the workload and our ambitions.
 
