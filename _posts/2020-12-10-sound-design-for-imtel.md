@@ -24,7 +24,7 @@ Our solution for the project was to introduce audio middleware for the game, FMO
 We improved the sound design for the game and added spatialization for an improved immersive experience.
 
 <figure>
-    <iframe width="560" height="315" src="https://www.youtube.com/watch?v=0p6tdIcdqaI" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/0p6tdIcdqaI" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
     </iframe>
     <figcaption>Snippet from the Kafé scenes</figcaption>
 </figure>
