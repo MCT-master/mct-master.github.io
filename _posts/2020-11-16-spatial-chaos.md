@@ -99,16 +99,10 @@ Though an explanation of every transformation would take too long for this post,
 
 # Mari concludes
 
-<div style="display: flex; flex-direction: row; align-items: center;">
-    <figure style="flex: 1;  margin: 1em;">
-        <img src="/assets/image/2020_11_16_jacksong_mari_train.jpg" style="height: 340px;" />
-        <figcaption>Mari in the train station</figcaption>
-    </figure>
-    <figure style="flex: 2; margin: 1em;">
-        <img src="/assets/image/2020_11_16_jacksong_mari_train_2.jpg" style="height: 340px;" />
-        <figcaption>The passing train</figcaption>
-    </figure>
-</div>
+<figure>
+    <img src="/assets/image/2020_11_16_jacksong_mari_train_2.jpg" style="height: 340px;" />
+    <figcaption>The passing train</figcaption>
+</figure>
 
 My part of the composition is a mix of ambisonic recordings that were done in Nationaltheatret Train Station together with Jackson. In the west entrance of Nationaltheatret train station, there is an acoustic sculpture. Some special kind of architecture in this room is creating a special “flutter” effect, and the reverberation time is remarkably long. 
 
