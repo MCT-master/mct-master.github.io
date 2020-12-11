@@ -8,6 +8,7 @@ image: https://miidbaby.com/pedal.png
 excerpt: "For our external partner, Pedál, we wanted to document and expand how multi-user interactions took place.  "
 Keywords: VR, Unity, Game-Development, SteamAudio, FMOD, Sound-Design
 ---
+
 # A Plan for Pedal
 
 <div style="text-align: center;">
@@ -19,23 +20,45 @@ Keywords: VR, Unity, Game-Development, SteamAudio, FMOD, Sound-Design
     </figure>
 </div>
 
+## Table of contents
+
+-   [A Plan for Pedal](#a-plan-for-pedal)
+    -   [What is Pedal?](#what-is-pedal)
+    -   [Initial Proposals](#initial-proposals)
+-   [How would it work? - User evaluation](#how-would-it-work---user-evaluation)
+    -   [Initial Study](#initial-study)
+    -   [Case Study 1](#case-study-1)
+    -   [Case Study 2](#case-study-2)
+    -   [Case Study 3](#case-study-3)
+    -   [Reflections from the case studies](#reflections-from-the-case-studies)
+-   [How would it function? Experiments with WebRTC](#how-would-it-function---experiments-with-webrtc)
+    -   [WebRTC](#webrtc)
+    -   [Development and evaluation of <em>naive</em> multi-user P2P](#development-and-evaluation-of-naive-multi-user-p2p)
+    -   [Possible system architecture for multi-user in Pedál](#possible-system-architecture-for-multi-user-in-pedál)
+-   [How would it look? - Prototype of UI/UX](#how-would-it-look---prototype-of-uiux)
+    -   [A new concept for a listener gallery](#a-new-concept-for-a-listener-gallery)
+    -   [What's new?](#whats-new)
+    -   [More users, more problems](#more-users-more-problems)
+-   [Conclusion](#conclusion)
+
 ## What is Pedal?
 
 Pedal is a software that enables musicians to remotely collaborate in real time. Some of its main features are the ability to stream both voice and system audio (from a DAW) between two collaborators. There is also the ability to drag and drop audio and MIDI clips to send from one collaborator to another, as well as a recording functionality to record directly into Pedal. Pedal is minimal and has a design reminiscent of analog guitar pedals. It’s not intended for live rehearsal (like JamKazam, JackTrip, etc), but instead is optimized for collaborative beat-making, songwriting, and recording sessions.
 
 A platform for musicians to collaborate:
-- Audio stream from mic & session
-- Drag and drop file sharing
-- Recording audio and MIDI clips
-- Contacts for friends
-- Minimal, unobtrusive
+
+-   Audio stream from mic & session
+-   Drag and drop file sharing
+-   Recording audio and MIDI clips
+-   Contacts for friends
+-   Minimal, unobtrusive
 
 ## Initial Proposals
 
-From the initial proposals we received from the Pedal team we selected two concepts we wanted to pursue, one to document the workflow of Pedal and suggest improvements, and the other, to draw from this experience and propose a prototype that would allow more than 2 users to collaborate. 
+From the initial proposals we received from the Pedal team we selected two concepts we wanted to pursue, one to document the workflow of Pedal and suggest improvements, and the other, to draw from this experience and propose a prototype that would allow more than 2 users to collaborate.
 
-* Research the workflow of Pedál by doing a collaborative project, document the process and suggest improvements for the partner
-* Research and describe, and possibly prototype a multi-user (2+) functionality for Pedál
+-   Research the workflow of Pedál by doing a collaborative project, document the process and suggest improvements for the partner
+-   Research and describe, and possibly prototype a multi-user (2+) functionality for Pedál
 
 We further refined these proposals after discussing it with the Pedal team and decided to take a three tiered approach, where each layer would provide insights unto the next. Each of us tackled an angle of this project that we each had experience in and met throughout to discuss our findings and developments. Our research question was:
 
@@ -48,15 +71,15 @@ implementation was explored, as well as UI/UX design of the GUI itself. We divid
 
 ### Breakdown of work
 
-__Workflow - Iggy, Paul__
+**Workflow - Iggy, Paul**
 
 Evaluation and improvements through collaborative musical project
 
-__UI/UX Design - Jackson__
+**UI/UX Design - Jackson**
 
 Evaluation of current design and development mock faceplate for multi-user interface
 
-__Implementation - Ulrik__
+**Implementation - Ulrik**
 
 Working with WebRTC to develop and evaluate P2P functionality with multiple users
 
@@ -114,26 +137,62 @@ This would allow the group to create the necessary environment to give the multi
 
 ## Reflections from the case studies
 
-- Point of Connections
-    - No Processing Flexibilities
-    - No fold-back listening for the producer while musician is recording
-    - Pedál lacks effects
-    - Lack of Plugin format - The flexibility of a transmission and receiving plugin node would allow for easier integration of SMPTE and file sharing.
-- Transmission and receiving points
-    - Lack of transmission to multiple listeners
-    - Multiple participants means multiple licenses
-- Lack of MIDI control or SMPTE integration
-    - Recording artists needing to press record adds an extra step.
-    - SMPTE integration would allow for the recording to be snapped into place in the DAW
-- UI/UX
-    - Very compact, consolidated
-        - Not much room to expand
-    - Simplicity, few labels
-        - Balance between function and simplicity
+-   Point of Connections
+    -   No Processing Flexibilities
+    -   No fold-back listening for the producer while musician is recording
+    -   Pedál lacks effects
+    -   Lack of Plugin format - The flexibility of a transmission and receiving plugin node would allow for easier integration of SMPTE and file sharing.
+-   Transmission and receiving points
+    -   Lack of transmission to multiple listeners
+    -   Multiple participants means multiple licenses
+-   Lack of MIDI control or SMPTE integration
+    -   Recording artists needing to press record adds an extra step.
+    -   SMPTE integration would allow for the recording to be snapped into place in the DAW
+-   UI/UX
+    -   Very compact, consolidated
+        -   Not much room to expand
+    -   Simplicity, few labels
+        -   Balance between function and simplicity
 
-# How would it function? - Experiments with WebRTC
+# How would it function? Experiments with WebRTC
 
-Ulrik's section here
+In the experiments with [WebRTC](https://webrtc.org/), our goal was to find out how the WebRTC underpinnings of Pedál possibly could be extended to work for multiple users.
+
+## WebRTC
+
+WebRTC is an web API for streaming multi-media content (text, audio, video). It wraps around multiple standards, protocols and other API’s.
+
+WebRTC works peer-to-peer (P2P). P2P networks require all peers to create independent connections to all other peers. This means that the total amount of data that each peer has to send and receive increase with the size of the network, and many of the streams will be duplicates. Also, the latencies depend on the respective network connections which result in larger synchronization problems.
+
+The most common workaround for larger P2P networks is to have a set of specialized relay servers that has the role of receiving and forwarding data from and to peers. This takes the load of the peers, but in turn centralizes the transmission. It is also costly to maintain these servers as you have to have many of them.
+
+## Development and evaluation of _naive_ multi-user P2P
+
+We developed a functioning P2P video and audio streaming application that handles multiple users. It’s a rudimentary implementation of a WebRTC service that just connects all the people who joins the session. It can be tested by going to [https://handshakers.herokuapp.com/](https://handshakers.herokuapp.com/). The code can be found here: [https://github.com/ulrikah](https://github.com/ulrikah)
+
+The purpose was to learn more about WebRTC, but also to be able to evaluate between us how P2P networks scale with more than two participants. The screenshot that you can see is from an evaluation session we did a couple of weeks ago.
+
+<figure>
+    <img src="/assets/image/2020_12_11_ulrikah_peers_demo.jpg" width="60%">
+    <figcaption>Screenshot from an evaluation session of our developed multi-user P2P application</figcaption>
+</figure>
+
+When there were only two of us connected, the service worked exactly how we hoped it to work. The latency was approximately as good as it is when using Zoom or Discord. When we were three in the session together, it become noticeably more difficult to communicate with each other. When all four were connected, it was practically not possible to maintain a conversation. This evaluation only reinforced the theory that naive P2P networks don’t scale very well.
+
+## Possible system architecture for multi-user in Pedál
+
+By using some of the results from the case studies as well as examining the properties of Pedál a bit more in detail, we sketched out a theoretical suggestion of a possible multi-user system architecture for Pedál. Below is a diagram showing how we envisioned this system architecture.
+
+<figure>
+    <img src="/assets/image/2020_12_11_ulrikah_proposed_arch.png" width="60%">
+    <figcaption>Possible system architecture for multi-user in Pedál</figcaption>
+</figure>
+
+The core idea behind this architecture is that the host controls which participant to collaborate with inside the GUI of the Pedál. Only the collaborator and the host are connected through a P2P connection since this connection is the most critical one in terms of latency.
+
+The host and the musician send two duplex audio streams, one for the actual music and another for talkback. All of these channels are aggregated within the host’s Pedál and sent as one mono stream to the relay server. This stream contains the music and the talkback channels from both the host and the collaborator, and is forwarded from the relay server to the listeners. In return, the listeners send their talkback channels to the relay server. The server aggregates these channels and sends it as one mono stream to the host.
+
+In this way, all the peers are able to hear each other. The P2P connection between host and the musician can be prioritized, and can be of high audio quality.
 
 # How would it look? - Prototype of UI/UX
 
@@ -144,34 +203,28 @@ Ulrik's section here
 
 ## A new concept for a listener gallery
 
-Consistency with Pedál UI
-    - Minimalism, essentialism
-    - Conserve space maintain functionality
-Collaborator/listener user state
-    - Promotion function by host
-    - Follows Ulrik’s work
-A collapsible audience
-    - Thin, unobtrusive
-    - Listeners cannot add files or share
-    - Can be muted, kicked
+Consistency with Pedál UI - Minimalism, essentialism - Conserve space maintain functionality
+Collaborator/listener user state - Promotion function by host - Follows Ulrik’s work
+A collapsible audience - Thin, unobtrusive - Listeners cannot add files or share - Can be muted, kicked
 
 As mentioned before, our varied angles were able to inform and benefit each of our tasks. For UI this brought to mind a concept of separating collaborators and listeners, where collaborators are still two users (host and another person) and listeners could be additional guests that have access to the audio streams of the collaborators but cannot share files or record. This attempts to simplify a complex problem, both from a technical perspective and design perspective and builds off of the suggestions and potential optimizations that Ulrik mentioned in his architecture.
 
 ## What's new?
 
-* A new “Invite” button appears to add new guests to the session. It switches between feature sets when 2+ users are present and keeps unused elements hidden
+-   A new “Invite” button appears to add new guests to the session. It switches between feature sets when 2+ users are present and keeps unused elements hidden
 
-* An audience gallery row is filled with listener dots. The luminance of dot as VU meter (speaker volume)
+-   An audience gallery row is filled with listener dots. The luminance of dot as VU meter (speaker volume)
 
-* A new “End” button appears that allows a host to close the session for everyone
+-   A new “End” button appears that allows a host to close the session for everyone
 
 ## More users, more problems
 
 There was a major difficulty that came along with more users, how would a host go about managing them?. The solution was a modal menu for each user that was activated upon click.
-* Host has control of management
-* Individually mute, add friend for all listeners
-* Only host can kick (don’t be rowdy!)
-* Promoting is how listeners can become collaborators, able to share files, send tracks to the host, as usual
+
+-   Host has control of management
+-   Individually mute, add friend for all listeners
+-   Only host can kick (don’t be rowdy!)
+-   Promoting is how listeners can become collaborators, able to share files, send tracks to the host, as usual
 
 This is a basic prototype of bringing this idea into fruition without rearranging the entire UI or making dramatic changes.
 
