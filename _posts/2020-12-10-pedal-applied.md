@@ -4,12 +4,12 @@ title: "Expanding Collaboration in Pedál"
 date: 2020-12-10 12:00:00 +0200
 categories: applied-projects
 author: Ulrik Halmøy, Paul Koenig, Tom Ignatius, Jackson Goode
-image: https://miidbaby.com/pedal.png
+image: https://miidbaby.com/Pedal.png
 excerpt: "For our external partner, Pedál, we wanted to document and expand how multi-user interactions took place.  "
-Keywords: VR, Unity, Game-Development, SteamAudio, FMOD, Sound-Design
+Keywords: pedal, ui, ux, webrtc, documentation, collaboration, utility
 ---
 
-# A Plan for Pedal
+# A Plan for Pedál
 
 <div style="text-align: center;">
     <figure style="display:inline-block; min-width: 40%;">
@@ -22,8 +22,8 @@ Keywords: VR, Unity, Game-Development, SteamAudio, FMOD, Sound-Design
 
 ## Table of contents
 
--   [A Plan for Pedal](#a-plan-for-pedal)
-    -   [What is Pedal?](#what-is-pedal)
+-   [A Plan for Pedál](#a-plan-for-pedál)
+    -   [What is Pedál?](#what-is-pedál)
     -   [Initial Proposals](#initial-proposals)
 -   [How would it work? - User evaluation](#how-would-it-work---user-evaluation)
     -   [Initial Study](#initial-study)
@@ -41,9 +41,9 @@ Keywords: VR, Unity, Game-Development, SteamAudio, FMOD, Sound-Design
     -   [More users, more problems](#more-users-more-problems)
 -   [Conclusion](#conclusion)
 
-## What is Pedal?
+## What is Pedál?
 
-Pedal is a software that enables musicians to remotely collaborate in real time. Some of its main features are the ability to stream both voice and system audio (from a DAW) between two collaborators. There is also the ability to drag and drop audio and MIDI clips to send from one collaborator to another, as well as a recording functionality to record directly into Pedal. Pedal is minimal and has a design reminiscent of analog guitar pedals. It’s not intended for live rehearsal (like JamKazam, JackTrip, etc), but instead is optimized for collaborative beat-making, songwriting, and recording sessions.
+Pedál is a software that enables musicians to remotely collaborate in real time. Some of its main features are the ability to stream both voice and system audio (from a DAW) between two collaborators. There is also the ability to drag and drop audio and MIDI clips to send from one collaborator to another, as well as a recording functionality to record directly into Pedál. Pedál is minimal and has a design reminiscent of analog guitar Pedáls. It’s not intended for live rehearsal (like JamKazam, JackTrip, etc), but instead is optimized for collaborative beat-making, songwriting, and recording sessions.
 
 A platform for musicians to collaborate:
 
@@ -55,12 +55,12 @@ A platform for musicians to collaborate:
 
 ## Initial Proposals
 
-From the initial proposals we received from the Pedal team we selected two concepts we wanted to pursue, one to document the workflow of Pedal and suggest improvements, and the other, to draw from this experience and propose a prototype that would allow more than 2 users to collaborate.
+From the initial proposals we received from the Pedál team we selected two concepts we wanted to pursue, one to document the workflow of Pedál and suggest improvements, and the other, to draw from this experience and propose a prototype that would allow more than 2 users to collaborate.
 
 -   Research the workflow of Pedál by doing a collaborative project, document the process and suggest improvements for the partner
 -   Research and describe, and possibly prototype a multi-user (2+) functionality for Pedál
 
-We further refined these proposals after discussing it with the Pedal team and decided to take a three tiered approach, where each layer would provide insights unto the next. Each of us tackled an angle of this project that we each had experience in and met throughout to discuss our findings and developments. Our research question was:
+We further refined these proposals after discussing it with the Pedál team and decided to take a three tiered approach, where each layer would provide insights unto the next. Each of us tackled an angle of this project that we each had experience in and met throughout to discuss our findings and developments. Our research question was:
 
 ### How can Pedál develop towards a 2+ user functionality from the perspectives of workflow evaluation, user design, and implementation?
 
@@ -95,7 +95,7 @@ This translated into three broad questions that we attempted to answer through o
 
 ### Initial Study:
 
-In our initial study of pedal we set out to examine the app as it exists, using a couple of different
+In our initial study of Pedál we set out to examine the app as it exists, using a couple of different
 scenarios so that we could properly evaluate its pros and cons.
 
 These different scenarios - we call them case studies here - were
@@ -127,13 +127,13 @@ Otherwise, the findings were very much the same as the first study. The violinis
 
 ### Case Study 3:
 
-Using the information we had from the first three studies, it was Tom’s job to create a scenario where Pedal would be magically transformed into a multi-user experience using a three program solution.
+Using the information we had from the first three studies, it was Tom’s job to create a scenario where Pedál would be magically transformed into a multi-user experience using a three program solution.
 
-1. Pedal - Used as the main seat to exchange files and conversations.
+1. Pedál - Used as the main seat to exchange files and conversations.
 2. Listento -Used to broadcast the signal from the DAW.
 3. Discord - Used for group conversations. Very flexible
 
-This would allow the group to create the necessary environment to give the multi-user experience of what we presume Pedal with multi-user capabilities would be like. The results were ideal for this particular use case. However the user in the main seat had to ensure they turned off their output in Pedal and use Listento and Discord as the main source of receiving the broadcast and talking on discord.
+This would allow the group to create the necessary environment to give the multi-user experience of what we presume Pedál with multi-user capabilities would be like. The results were ideal for this particular use case. However the user in the main seat had to ensure they turned off their output in Pedál and use Listento and Discord as the main source of receiving the broadcast and talking on discord.
 
 ## Reflections from the case studies
 
@@ -198,7 +198,7 @@ In this way, all the peers are able to hear each other. The P2P connection betwe
 
 <figure>
     <img src="/assets/image/2020_12_10_jacksong_pedal_ui.gif" width="200px">
-    <figcaption>Pedal</figcaption>
+    <figcaption>Pedál</figcaption>
 </figure>
 
 ## A new concept for a listener gallery
@@ -230,10 +230,10 @@ This is a basic prototype of bringing this idea into fruition without rearrangin
 
 # Conclusion
 
-Our research, both in the workflow and the technical implementation and design of Pedal. In our experience and documentation with Pedal, we proposed a number of improvements regarding the design and future mechanics, like native DAW integration, that would make using Pedal a more fluid experience for the end-user.
+Our research, both in the workflow and the technical implementation and design of Pedál. In our experience and documentation with Pedál, we proposed a number of improvements regarding the design and future mechanics, like native DAW integration, that would make using Pedál a more fluid experience for the end-user.
 
-Moving on to the experiments pursued by Ulrik with WebRTC, we can conclude that while WebRTC is an incredible technology for serverless, low-latency communication across two peers, as the number of the users increase, the technology is unable to cope with the network demand. Pedal will need to answer the questions, “Who needs to hear what? At which quality and at which latency?”, define clear use cases, and finding methods to optimize network capacity thereafter.
+Moving on to the experiments pursued by Ulrik with WebRTC, we can conclude that while WebRTC is an incredible technology for serverless, low-latency communication across two peers, as the number of the users increase, the technology is unable to cope with the network demand. Pedál will need to answer the questions, “Who needs to hear what? At which quality and at which latency?”, define clear use cases, and finding methods to optimize network capacity thereafter.
 
-As for the UI, Jackson's work suggests a prototype design that accommodates Pedal's design language, but there will still be challenges in unifying this experience across all participants (collaborators and listeners).
+As for the UI, Jackson's work suggests a prototype design that accommodates Pedál's design language, but there will still be challenges in unifying this experience across all participants (collaborators and listeners).
 
-Pedal fulfills a sweet spot for many musicians and beat-makers and we're excited to see the company develop.
+Pedál fulfills a sweet spot for many musicians and beat-makers and we're excited to see the company develop.
