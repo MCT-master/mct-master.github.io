@@ -120,7 +120,7 @@ If you hear a song that contains features like 100-110bpm, acoustic folk music, 
 
 The beauty of this is it's simplicity: the system only needs to store a data-table of features on the device and fetch music and metadata containing features from a database, via an API. This maintains both light weight performance and privacy.
 
-![A diagram showing the data flow within the application](/assets/image/Signalflow.png)
+![A diagram showing the data flow within the application](/assets/image/2020-12-12-Signalflow.jpg)
 
 ### Classification and Labeling of New Music
 
