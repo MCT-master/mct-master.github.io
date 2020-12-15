@@ -43,4 +43,4 @@ I also found that the system offered new and unique affordances for patchability
 
 The video is made using [OBS, Open Broadcaster Software](https://obsproject.com/), to record the screen of the Windows machine running VCV Rack and Max/MSP together with video of the hardware modular synthesizer filmed with a GoPro Hero5. Audio is tapped from various places in the full patch and mixed within the MOTU sound card before being recorded, specifically the sixth input on the ES-6 module on the hardware modular synthesizer and from VCV, channels 7 and 8 are used as final output to the mix.
 
-<iframe width="800" height="450" src="https://www.youtube.com/watch?v=eMDdWJepKVI" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="800" height="450" src="https://www.youtube.com/embed/eMDdWJepKVI" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
