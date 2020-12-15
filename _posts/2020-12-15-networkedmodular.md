@@ -6,7 +6,7 @@ categories: masters-thesis
 author: Eigil Aandahl
 image: /assets/image/2020_12_15_eigil94_eurorack.jpg
 keywords: NIME, modular, NMP, IMS, Interactive Music System, instrumentation, Modular synthesis
-excerpt: " excerpt from introduction here "
+excerpt: " In my thesis project, I present an approach to interconnecting modular synthesizer systems using a prototype multi-channel audio network solution made with Max/MSP. The research explores emergent affordances of such a system in the context of telematics and network music performance. At the bottom of this post there is a video demonstrating the prototype in action.  "
 ---
 
 #### Introduction
