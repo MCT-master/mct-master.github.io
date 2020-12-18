@@ -2,7 +2,7 @@
 layout: post
 title: "Expanding Collaboration in Pedál"
 date: 2020-12-10 12:00:00 +0200
-categories: applied-projects
+categories: applied-project
 author: Ulrik Halmøy, Paul Koenig, Tom Ignatius, Jackson Goode
 image: https://miidbaby.com/pedal.png
 excerpt: "For our external partner, Pedál, we wanted to document and expand how multi-user interactions took place.  "
