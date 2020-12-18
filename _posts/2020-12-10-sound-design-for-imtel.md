@@ -2,7 +2,7 @@
 layout: post
 title: "Sound Design for IMTEL"
 date: 2020-12-10 12:00:00 +0200
-categories: applied-projects
+categories: applied-project
 author: Simon Rønsholm Sandvik, Thibault Jaccard
 image: https://www.michigandaily.com/sites/default/files/leg/imagecache/fullnode/video%20game%20illustration.jpeg
 excerpt: "For the applied project 2, we worked on enhancing the sound components of a VR language learning application in Unity"
