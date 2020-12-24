@@ -197,7 +197,7 @@ In this way, all the peers are able to hear each other. The P2P connection betwe
 # How would it look? - Prototype of UI/UX
 
 <figure>
-    <img src="/assets/image/2020_12_10_jacksong_pedal_ui.gif" width="200px">
+    <img src="https://drive.google.com/uc?&id=1eiSpntx1U_UjdvnpA8iD0LQRV_-24uyV" width="200px">
     <figcaption>Pedál</figcaption>
 </figure>
 
