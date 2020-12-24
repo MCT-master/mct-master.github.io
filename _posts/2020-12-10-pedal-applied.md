@@ -203,28 +203,33 @@ In this way, all the peers are able to hear each other. The P2P connection betwe
 
 ## A new concept for a listener gallery
 
-Consistency with Pedál UI - Minimalism, essentialism - Conserve space maintain functionality
-Collaborator/listener user state - Promotion function by host - Follows Ulrik’s work
-A collapsible audience - Thin, unobtrusive - Listeners cannot add files or share - Can be muted, kicked
+Consistency with Pedál UI
+- Minimalism, essentialism
+- Conserve space maintain functionality
+Collaborator/listener user state 
+- Promotion function by host 
+- Follows Ulrik’s work
+A collapsible audience 
+- Thin, unobtrusive
+- Listeners cannot add files or share 
+- Can be muted, kicked
 
 As mentioned before, our varied angles were able to inform and benefit each of our tasks. For UI this brought to mind a concept of separating collaborators and listeners, where collaborators are still two users (host and another person) and listeners could be additional guests that have access to the audio streams of the collaborators but cannot share files or record. This attempts to simplify a complex problem, both from a technical perspective and design perspective and builds off of the suggestions and potential optimizations that Ulrik mentioned in his architecture.
 
 ## What's new?
 
--   A new “Invite” button appears to add new guests to the session. It switches between feature sets when 2+ users are present and keeps unused elements hidden
-
--   An audience gallery row is filled with listener dots. The luminance of dot as VU meter (speaker volume)
-
--   A new “End” button appears that allows a host to close the session for everyone
+- A new “Invite” button appears to add new guests to the session. It switches between feature sets when 2+ users are present and keeps unused elements hidden
+- An audience gallery row is filled with listener dots. The luminance of dot as VU meter (speaker volume)
+- A new “End” button appears that allows a host to close the session for everyone
 
 ## More users, more problems
 
 There was a major difficulty that came along with more users, how would a host go about managing them?. The solution was a modal menu for each user that was activated upon click.
 
--   Host has control of management
--   Individually mute, add friend for all listeners
--   Only host can kick (don’t be rowdy!)
--   Promoting is how listeners can become collaborators, able to share files, send tracks to the host, as usual
+- Host has control of management
+- Individually mute, add friend for all listeners
+- Only host can kick (don’t be rowdy!)
+- Promoting is how listeners can become collaborators, able to share files, send tracks to the host, as usual
 
 This is a basic prototype of bringing this idea into fruition without rearranging the entire UI or making dramatic changes.
 
