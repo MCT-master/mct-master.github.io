@@ -3,20 +3,20 @@ layout: post
 title: "Trinity: Triple Threat"
 date: 2021-02-18 18:00:00 +0200
 categories: audio-programming
-author: Abhishek Choubey, Tom Iggy, Lindsay Charles
-image: /assets/image/2021_18_02_abhishec_trinity_trinity.JPG
+author: Abhishek Choubey, Tom Ignatius, Lindsay Charles
+image: /assets/image/2021_18_02_abhishec_trinity_trinity.jpg
 keywords: audio programming, effect, Audio, DSP, Music, Csound, Reverb, Chorus, Granular, Shimmer, modulation
 excerpt: "Trinity: What happens when you combine Grain shimmer + Chorus + Stereo Width? Click to find."
 ---
 
 
 
-### TRINITY
+# TRINITY
 
 TRIPLE DSP FOR TRIPLE THE FUN
 
 
-##### CONCEPT
+## CONCEPT
 
 ***What is Trinity?***
 
@@ -33,22 +33,24 @@ The eventual individual processing would be then summed accordingly through the 
 
 
 
-##### SIGNAL FLOW:
+## SIGNAL FLOW:
 
-![Signal Flow](/assets/image/2021_18_02_abhishec_signalflow_trinity.PNG "Signal Flow Trinity")
-
+<figure style="float: none">
+   <img src="/assets/image/2021_18_02_abhishec_signalflow_trinity.png" alt="Alternate Text" title="Image Title" width="auto" />
+   <figcaption>Caption Text</figcaption>
+</figure>
 The signal flow of Trinity is simple and linear with a few quirks to give it its signature sound. The inputs of the DAW go into the shimmer then into the chorus and lastly processed through the width matrix at the end. However, what makes the effect complex is the feedback of the granular processing is fed by the chorus output and not the first pass of the shimmer.
 
 The chorus operates with four voices. Two voices are assigned to each of the two inputs. The resulting output of the chorus is 4 channels that are then fed to the width and pan control that allows for those 4 voices to be spread in the stereo field.
 
 
 
-##### THE ELEMENTS
+## THE ELEMENTS
 
 ***Shimmer:***
 
 <figure style="float: auto">
-   <img src="/assets/image/2021_18_02_abhishec_shimmer_trinity.PNG" alt="Alternate Text" title="Waveform, ascending RMS loudness" width="300" height="auto"/>
+   <img src="/assets/image/2021_18_02_abhishec_shimmer_trinity.png" alt="Alternate Text" title="Waveform, ascending RMS loudness" width="300" height="auto"/>
    <figcaption><i></i></figcaption>
 </figure>
 
@@ -63,7 +65,7 @@ The feedback input is processed post to the chorus effect. The 4 signals are sum
 ***Chorus:***
 
 <figure style="float: auto">
-   <img src="/assets/image/2021_18_02_abhishec_chorus_trinity.PNG" alt="Alternate Text" title="Waveform, ascending RMS loudness" width="300"/>
+   <img src="/assets/image/2021_18_02_abhishec_chorus_trinity.png" alt="Alternate Text" title="Waveform, ascending RMS loudness" width="300"/>
    <figcaption><i></i></figcaption>
 </figure>
 
@@ -76,7 +78,7 @@ The four outputs of the chorus as mentioned before are fed back into the reverb 
 ***Stereo Width:***
 
 <figure style="float: auto">
-   <img src="/assets/image/2021_18_02_abhishec_width_trinity.PNG" alt="Alternate Text" title="Waveform, ascending RMS loudness" width="300"/>
+   <img src="/assets/image/2021_18_02_abhishec_width_trinity.png" alt="Alternate Text" title="Waveform, ascending RMS loudness" width="300"/>
    <figcaption><i></i></figcaption>
 </figure>
 
@@ -88,11 +90,11 @@ The Panning effect can only be noticed when the width is less than maximum as th
 
 
 
-##### ARCHITECTURE & DESIGN
+## ARCHITECTURE & DESIGN
 
 
 <figure style="float: auto">
-   <img src="/assets/image/2021_18_02_abhishec_trinity_trinity.JPG" alt="Alternate Text" title="Waveform, ascending RMS loudness" width="400"/>
+   <img src="/assets/image/2021_18_02_abhishec_trinity_trinity.jpg" alt="Alternate Text" title="Waveform, ascending RMS loudness" width="400"/>
    <figcaption><i></i></figcaption>
 </figure>
 
@@ -102,7 +104,7 @@ The design of Trinity is based on Retrowave aesthetics rooted in the 80’s. It 
 The architecture of the program was to restrict the effects from being rearranged and used purely as a chorus or just as a shimmer. Trinity is therefore not a multi-effect plugin but purely an effect of it’s own character. Therefore, it only ranges from the original signal to the “trinity” effect adjustable between them through the dry and wet.
 
 
-##### DEMO
+## DEMO
 
 
 <figure style="float: none">
@@ -113,7 +115,7 @@ The architecture of the program was to restrict the effects from being rearrange
 
 **Download Trinity here** [Trinity](https://drive.google.com/file/d/13B5mM7f4-Aeq9u3DqZ59jE3LZe58rcVn/view?usp=sharing)
 
-##### FINAL THOUGHTS: REFLECTIONS
+## FINAL THOUGHTS: REFLECTIONS
 
 
 ***Iggy:***
