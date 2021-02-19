@@ -39,18 +39,14 @@ The workshop lasted for two weeks (Figure 1). We planned to spend the first week
 ##### 1.3 Concept development
 
 We aimed to develop a program that can:
+* Capture the user/patient’s heart rate
+* Play simulated heartbeat at the captured rate
+*  The simulated heartbeat gradually (controllable) synchronises to the desired rate (controllable) over time
 
 <figure style="float: auto">
    <img src="/assets/image/2021_19_02_joni_flow.jpg" alt="Alternate Text" title="Flowchart of the programme" width="auto"/>
    <figcaption><center>Figure 3. Concept development 1</center></figcaption>
 </figure>
-
-
-We aimed to develop a program that can:
-
-* Capture the user/patient’s heart rate
-* Play simulated heartbeat at the captured rate
-*  The simulated heartbeat gradually (controllable) synchronises to the desired rate (controllable) over time
 
 
 <figure style="float: auto">
@@ -103,7 +99,7 @@ We then studied the envelope of our acoustic model (Figure 7). For the time bein
 
 
 <figure style="float: auto">
-   <img src="/assets/image/2021_19_02_joni_waveform1.png" alt="Alternate Text" title="Flowchart of the programme" width="auto"/> <figcaption><center>Figure 7. Waveform of a recorded heartbeat</center></figcaption>
+   <img src="/assets/image/2021_19_02_joni_waveform1.png" alt="Alternate Text" title="Flowchart of the programme" width="800"/> <figcaption><center>Figure 7. Waveform of a recorded heartbeat</center></figcaption>
 </figure>
 
 <figure style="float: none">
@@ -121,7 +117,7 @@ We then studied the envelope of our acoustic model (Figure 7). For the time bein
 </figure>
 
 <figure style="float: auto">
-   <img src="/assets/image/2021_19_02_joni_waveform2.png" alt="Alternate Text" title="Flowchart of the programme" width="auto"/> <figcaption><center>Figure 9. Waveform of the simulated heartbeat
+   <img src="/assets/image/2021_19_02_joni_waveform2.png" alt="Alternate Text" title="Flowchart of the programme" width="800"/> <figcaption><center>Figure 9. Waveform of the simulated heartbeat
 </center>
 </figcaption>
 </figure>
