@@ -1,8 +1,8 @@
 ---
 layout: post
 title: "Get unstressed with Stress-less"
-date: 2021-02-02 18:00:00 +0200
-categories: audio programming
+date: 2021-02-19 15:00:00 +0200
+categories: audio-programming
 author: Joni Mok, Dongho Kwak
 image: /assets/image/2021_19_02_joni_stressless.png
 keywords: csound, python, PLL, OSC, reverb
@@ -53,6 +53,14 @@ Capturing heart rate
 As illustrated in Figure 3, we needed to be able to capture the user/patient’s heart rate. We have adapted the [Eulerian video magnification](https://github.com/rohintangirala/eulerian-remote-heartrate-detection) (EVM) as our tool to capture heart rate remotely. EVM is a computational technique for visualising subtle colour and motion variations in ordinary videos by making the variations larger. EVM helps to detect small changes that are usually not possible to see with naked eye. Some of the other applications can be recovering sounds from detecting vibrations of objects in distance and characterise material properties. This technique can help to enhance digital healthcare experience for both patients and doctors. More information can be found on this [website](https://github.com/rohintangirala/eulerian-remote-heartrate-detection).
 
 For our prototype, we have adapted EVM in Python. After analysing a video recording (.mov) of the user/patient’s face, EVM outputs a heart rate (in BPM). This value is then sent to Csound via OSC.
+
+#### Phase-locked loop (PLL)
+
+
+<figure style="float: auto">
+   <img src="/assets/image/2021_19_02_joni_pll.png" alt="Alternate Text" title="Flowchart of the programme" width="auto"/>
+   <figcaption>Figure 4. The PLL magic</figcaption>
+</figure>
 
 #### Our vision
 
