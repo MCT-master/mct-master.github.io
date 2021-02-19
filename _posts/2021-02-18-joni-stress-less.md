@@ -48,9 +48,9 @@ We aimed to develop a program that can:
 
 We aimed to develop a program that can:
 
-*1* Capture the user/patient’s heart rate
-*2* Play simulated heartbeat at the captured rate
-*3* The simulated heartbeat gradually (controllable) synchronises to the desired rate (controllable) over time
+* Capture the user/patient’s heart rate
+* Play simulated heartbeat at the captured rate
+*  The simulated heartbeat gradually (controllable) synchronises to the desired rate (controllable) over time
 
 
 <figure style="float: auto">
@@ -170,7 +170,7 @@ In our future vision of this project, this idea of using video heart rate analys
 
 <figure style="float: auto">
    <img src="/assets/image/2021_19_02_joni_futurevision.jpg" alt="Alternate Text" title="Flowchart of the programme" width="auto"/>
-   <figcaption><center>Figure 12. Future digital healthcare systems </center></figcaption>
+   <figcaption><center>Figure 11. Future digital healthcare systems </center></figcaption>
 </figure>
 
 
