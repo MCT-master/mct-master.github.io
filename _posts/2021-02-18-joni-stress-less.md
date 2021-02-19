@@ -9,19 +9,16 @@ keywords: csound, python, PLL, OSC, reverb
 excerpt: "Acoustically-triggered heart rate entrainment (AHRE)"
 ---
 
-<figure style="float: auto">
-   <img src="/assets/image/2021_19_02_joni_stressless.png" alt="" title="" width="auto"/> <figcaption></figcaption>
-</figure>
 
-#### Introduction
+#### 1. Introduction
 
-##### Background to the project
+##### 1. 1 Background to the project
 
 The heart is one of the most important parts of the body. It is not by chance that it was already studied during the ancient times, for example by Aristotle (The History of the Heart, n.d.). Since William Harvey’s discovery in the 17th century, there have been even more interests in studying the heart (Ribatti, 2009). One of the interesting features of the heart is the heart rates. The heart rate is an important indication of the status of a person’s health, and there have been efforts to show how the heart rate could be entrained to acoustic stimulus (Saperston, 1993). More recently, fast paced music was shown to entrain the heart rate (Hong et al., 2011). However, these outcomes have been debated and experimentally illustrated (drum beats were used as a stimulus) that there is no strong relationship between acoustic stimulus and heart rate (Mütze et al., 2018). Before we settle on that, it is also important to note that the fetal heart was able to be entrained to the mother’s heart rate through the fetal auditory system (Ivanov et al., 2009). Perhaps, the studies where unnatural stimulus was used, such as complex and fast paced music and drum strokes, should be re-evaluated against experimental studies where more natural acoustic stimulus (i.e., heartbeat) was used. To the best of our knowledge, there has not been a study where real heartbeats or realistically simulated heartbeats through (either recordings or artificially constructed through audio programming) were used to entrain the heart rates.
 
 This is where Stress-less comes in as an audio environment and therapeutic device where users can tune into the desired pace and sounding heartbeats. The audio parameters will give the user control to manipulate the pace and certain qualities/characteristics of the audio. It first collects the heart rate from the user remotely with a video processing and plays back heartbeats at the rate according to the captured data. The pace gradually changes towards the desired (e.g., resting- or energized-state) heart rate. This is developed and aimed to be used as a therapeutic device privately and also with health professionals in their practice, preferably with full-range loudspeakers for more effective entertainment.
 
-##### The timeline and overall plan
+##### 1.2 The timeline and overall plan
 
 <figure style="float: auto">
    <img src="/assets/image/2021_19_02_joni_timeline.png" alt="Alternate Text" title="Waveform, ascending RMS loudness" width="auto"/>
@@ -38,15 +35,22 @@ The workshop lasted for two weeks (Figure 1). We planned to spend the first week
 
 
 
-##### Flowchart
+##### 1.3 Hypothesis
+
+We aimed to develop a program that can:
+
+*1.* Capture the user/patient’s heart rate
+*2.* Play simulated heartbeat at the captured rate
+*3.* The simulated heartbeat gradually (controllable) synchronises to the desired rate (controllable) over time
+
 
 <figure style="float: auto">
-   <img src="/assets/image/2021_19_02_joni_flowchart.png" alt="Alternate Text" title="Flowchart of the programme" width="auto"/>
-   <figcaption>Figure 3. Flowchart</figcaption>
+   <img src="/assets/image/2021_19_02_joni_flow.png" alt="Alternate Text" title="Flowchart of the programme" width="auto"/>
+   <figcaption>Figure 3. Hypothesis based on heart beat entrain theory</figcaption>
 </figure>
 
 
-#### Programming languages
+#### 2. Programming languages
 
 We used Csound and Python for our prototype. The two languages are connected via [Open Sound Control (OSC)](https://en.wikipedia.org/wiki/Open_Sound_Control). We discuss the challenges and solutions we dealt with during the two weeks here.
 Capturing heart rate
@@ -54,21 +58,85 @@ As illustrated in Figure 3, we needed to be able to capture the user/patient’s
 
 For our prototype, we have adapted EVM in Python. After analysing a video recording (.mov) of the user/patient’s face, EVM outputs a heart rate (in BPM). This value is then sent to Csound via OSC.
 
-#### Phase-locked loop (PLL)
+#### 3. Phase-locked loop (PLL)
+
+PLL is used as our control system in Csound (Opcode) where the synchronisation processing takes place. PLL user defined opcode in our case takes a clock pulse, initial frequency, frequency adjust gain, and phase adjust gain as inputs. By adjusting the frequency and phase adjust gains, we could control how slow or fast it takes until the input pulse is synchronised with the clock (Figure 4).
 
 
 <figure style="float: auto">
    <img src="/assets/image/2021_19_02_joni_pll.png" alt="Alternate Text" title="Flowchart of the programme" width="auto"/>
-   <figcaption>Figure 4. The PLL magic</figcaption>
+   <figcaption>Figure 4. Frequency and phase gain adjustment in the PLL opcode
+</figcaption>
 </figure>
 
-#### Our vision
 
-In our future vision of this project, this idea of using video heart rate analysis technique can be implemented in online GP consultation, so that the patients and doctors do not need to necessarily meet physically. It can reduce a lot of time spent in the whole travelling journey  from home to the doctors. In addition, with an on-going pandemic, and economic downturn, we believe that this idea can accelerate the evolution of healthcare ecosystems. As we move forward, organisations can consider ways to use healthcare ecosystems to improve patient experience and health, while reducing total costs.  
+
+#### 4. The prototype demonstration
+
+<figure style="float: none">
+    <iframe src="https://www.youtube.com/embed/WjpwNp7l798" frameborder="0" allowfullscreen></iframe>
+    <figcaption>Heartbeat entrainment</figcaption>
+</figure>
+
+
+##### 5. Sonification
+
+In order to synthesize a heartbeat sound, we needed to understand some of the basic acoustic characteristics of real heartbeat sound. This was an important step as we wanted to create a sound that resembles a real heart.
+
+The first step we took was to run Fourier Transform to find the fundamental frequency from our acoustic model. We concluded that the most important frequency content is around 75~85 Hz as illustrated in Figure 6.
+
+
+<figure style="float: auto">
+   <img src="/assets/image/2021_19_02_joni_fft.png" alt="Alternate Text" title="Flowchart of the programme" width="auto"/> <figcaption>Figure 6. Fourier Transform result</figcaption>
+</figure>
+
+We then studied the envelope of our acoustic model (Figure 6). For the time being, we were able to imitate this on another language (MAX/MSP, Figure 7).
+
+
+<figure style="float: auto">
+   <img src="/assets/image/2021_19_02_joni_waveform1.png" alt="Alternate Text" title="Flowchart of the programme" width="auto"/> <figcaption>Figure 6. Waveform of a recorded heartbeat
+</figcaption>
+</figure>
+
+<figure style="float: none">
+  <audio controls>
+    <source src="https://drive.google.com/1taz_f3GP4QZYEIzZn-EQx3YRTXui2HJh/view?usp=sharing" type="audio/mpeg">
+    Song One
+  </audio>
+  <figcaption>Song One</figcaption>
+</figure>
+
+<figure style="float: auto">
+   <img src="/assets/image/2021_19_02_joni_maxmsp.png" alt="Alternate Text" title="Flowchart of the programme" width="auto"/> <figcaption>Figure 7. MAX/MSP patch: Heartbeat simulation demo
+</figcaption>
+</figure>
+
+<figure style="float: none">
+  <audio controls>
+    <source src="https://drive.google.com/12hY6wIi9ia6j3q3wVuQlQ50LVGOuehGl/view?usp=sharing" type="audio/mpeg">
+    Song One
+  </audio>
+  <figcaption>Song One</figcaption>
+</figure>
+
+
+#### 6. Reflection
+
+
+
+
+
+<figure style="float: auto">
+   <img src="/assets/image/2021_19_02_joni_stressless.png" alt="" title="" width="auto"/> <figcaption>Figure 6. Video heart rate capture tools</figcaption>
+</figure>
+
+#### 7. Our vision
+
+In our future vision of this project, this idea of using video heart rate analysis technique can be implemented in online GP consultation, so that the patients and doctors do not need to necessarily meet physically. It can reduce a lot of time spent in the whole travelling journey  from home to the doctors. In addition, with an on-going pandemic, and economic downturn, we believe that this idea can accelerate the evolution of healthcare ecosystems. As we move forward, organisations can consider ways to use healthcare ecosystems to improve patient experience and health, while reducing total costs.
 
 <figure style="float: auto">
    <img src="/assets/image/2021_19_02_joni_futurevision.jpg" alt="Alternate Text" title="Flowchart of the programme" width="auto"/>
-   <figcaption>Figure 6. Future digital healthcare systems </figcaption>
+   <figcaption>Figure 7. Future digital healthcare systems </figcaption>
 </figure>
 
 
