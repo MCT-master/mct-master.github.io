@@ -111,7 +111,7 @@ The architecture of the program was to restrict the effects from being rearrange
 
 <figure style="float: none">
    <iframe src="" width="640" height="360" frameborder="0" allowfullscreen></iframe>
-   <figcaption>Butter in Performance</figcaption>
+   <figcaption>Trinity_Demo</figcaption>
 </figure>
 
 
