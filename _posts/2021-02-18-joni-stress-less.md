@@ -133,6 +133,7 @@ We then studied the envelope of our acoustic model (Figure 7). For the time bein
 </figure>
 
 
+
 #### 6. Reflection
 
 *Dongho:*
