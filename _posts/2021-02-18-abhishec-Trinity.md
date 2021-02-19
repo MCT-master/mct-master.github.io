@@ -4,9 +4,9 @@ title: "Trinity: Triple Threat"
 date: 2021-02-18 18:00:00 +0200
 categories: Audio programming
 author: Abhishek Choubey, Tom Iggy, Lindsay Charles
-image: /assets/image/
+image: /assets/image/2021_18_02_abhishec_trinity_trinity.JPG
 keywords: audio programming, effect, Audio, DSP, Music, Csound, Reverb, Chorus, Granular, Shimmer, modulation
-excerpt: "Trinity: What happens when you combine Grain shimmer + Chorus + Stereo Width?"
+excerpt: "Trinity: What happens when you combine Grain shimmer + Chorus + Stereo Width? Click to find."
 ---
 
 
@@ -52,7 +52,7 @@ The chorus operates with four voices. Two voices are assigned to each of the two
 ***Shimmer:***
 
 <figure style="float: auto">
-   <img src="/assets/image/2021_18_02_abhishec_shimmer_trinity.PNG" alt="Alternate Text" title="Waveform, ascending RMS loudness" width="auto"/>
+   <img src="/assets/image/2021_18_02_abhishec_shimmer_trinity.PNG" alt="Alternate Text" title="Waveform, ascending RMS loudness" width="300"/>
    <figcaption><i></i></figcaption>
 </figure>
 
