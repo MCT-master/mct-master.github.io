@@ -4,7 +4,7 @@ title: "Get unstressed with Stress-less"
 date: 2021-02-19 15:00:00 +0200
 categories: audio-programming
 author: Joni Mok, Dongho Kwak
-image: /assets/image/2021_19_02_joni_stressless.png
+image: /assets/image/2021_19_02_joni_cover.jpg
 keywords: csound, python, PLL, OSC, reverb
 excerpt: "Acoustically-triggered heart rate entrainment (AHRE)"
 ---
