@@ -35,11 +35,7 @@ The eventual individual processing would be then summed accordingly through the 
 
 ##### SIGNAL FLOW:
 
-
-<figure style="float: auto">
-   <img src="/assets/image/2021_18_02_abhishec_signalflow_trinity.PNG" alt="Alternate Text" title="Waveform, ascending RMS loudness" width="auto"/>
-   <figcaption><i>Trinity_Signal_Flow</i></figcaption>
-</figure>
+![Signal Flow](/assets/image/2021_18_02_abhishec_signalflow_trinity.PNG "Signal Flow Trinity")
 
 The signal flow of Trinity is simple and linear with a few quirks to give it its signature sound. The inputs of the DAW go into the shimmer then into the chorus and lastly processed through the width matrix at the end. However, what makes the effect complex is the feedback of the granular processing is fed by the chorus output and not the first pass of the shimmer.
 
