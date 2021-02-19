@@ -127,13 +127,13 @@ We then studied the envelope of our acoustic model (Figure 7). For the time bein
 </figure>
 
 
-<figure style="float: none"><center>
+<figure style="float: none">
   <audio controls>
     <source src="https://drive.google.com/uc?&id=1taz_f3GP4QZYEIzZn-EQx3YRTXui2HJh
 " type="audio/mpeg">
     Song One
   </audio>
-  <figcaption><center>Simulated heartbeats</center></figcaption></center>
+  <figcaption><center>Simulated heartbeats</center></figcaption>
 </figure>
 
 
