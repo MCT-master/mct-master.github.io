@@ -12,28 +12,24 @@ excerpt: "ccc"
 # Funky Balls
 ________________add an image in the beginning?___________
 
-#### Assignment description / Requirements (can be deleted)
-
-- Group project
-- Develop an application of audio programming: Csound for the audio processing combined with another interface for the rest (e.g., PythonAPI, Web, OSC, VST). 
-
 ## The idea
 
-therapeutical de-stressing audio tool
-theoretical background
-        To what degree you have explored new audio programming techniques (new to you!)
-        A well defined purpose for the audio application (what does it do and why is that a good thing?)
-        Interfacing and accessibility for the intended user
-        Concurrent Multi-user - “Let’s play together” = multi-user = connectivity, communication through sound, without semantic content
+We started by considering the effects of music on the human brain and all the amazing music therapy techniques discovered so far. Then we looked for some examples of studies about music therapy and stress to understand more about how they are correlated (and if?). We found the [MISTRESS project](https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&ved=2ahUKEwikwv23qPbuAhXwpIsKHfL7DlkQFjABegQIAhAD&url=https%3A%2F%2Fdanishsound.org%2Fwp-content%2Fuploads%2F2018%2F10%2FMISTRESS_Phase1_Report.pdf&usg=AOvVaw1s214Cl7_42xLTUh1_PFX5) by Rudi Agius, part of the [Danish Sound Cluster](https://danishsound.org/) where they analysed the effects of music intervention on stress reduction - and the results are that of course it helps! We also found a [paper](https://ieeexplore.ieee.org/document/7557197/authors#authors) about a study where they used music as a non-invasive technique of identifying stress in people (they used EEg and noticed that the brainwaves were substantially different before and after listening to music). 
+
+Now, of course these studies are not enough for undebatable evidence, but we took it at face value that music is good for de-stressing and we extrapolated until we came up with the idea of creating a **de-stressing audio tool**. It would allow both people with and without (digital?) musical background to play around with some instruments / tracks and several effects, and in general _make_ music in an unconventional way (is this too much to say?). It would facilitate communication through sound, without semantic content, among people who would mix / play together.
+
+To concretise, we decided to create a web interface for any type of user for the purpose of de-stressing through making / mixing / playing around with music. It would include blobs/shapes of different colors: some would represent effects (e.g., reverb, harmonise, delay) and other would represent instruments or tracks (e.g., drums, cellos, synth, piano) and the users would then be able to move these blobs around and they would interact with each other and voila! mix / make new music. See the next sections for more details about the further inspiration and implementation.
+
 
 ## Inspiration
+
+These platforms inspired us:
 
 YUME - HELIOS
 Chrome Music Lab
 Gøy
 Finding Love
 Bouncy Notes
-
 
 ## Implementation
 
@@ -54,7 +50,7 @@ Effects:
 - **Reverb**: it reverberates an input audio signal with a “natural room” frequency response. Slider changes the reverb time [(reverb)](http://www.csounds.com/manual/html/reverb.html).
 - **String Resonator** (our waveguide!): a string resonator with variable fundamental frequency. Slider changes the fundamental frequency values [(streson)](http://www.csounds.com/manual/html/streson.html).
 - **Delay**: it delays an input signal by some time interval, with feedback. It's a combination between delayr and delayw. Slider changes the feedback ratio [(delay)](http://www.csounds.com/manual/html/delay.html).
-- **Bit-crusher**: Slider controls the bit depth (custom opcode).
+- **Bit-crusher**: Slider controls the bit depth (custom opcode). !!!!link? !!!
 - **Harmoniser**: it analyzes an audio input and generates harmonizing "voices" (or frequencies) in synchrony. The slider controls the ‘lowest expected frequency’ of the input [(harmon)](http://www.csounds.com/manual/html/harmon.html).
 
 ### Simple interface
@@ -70,7 +66,7 @@ ________________add an image or small video with the last version of sliders?___
 Adding dynamic effects and changing colors and adding the instructions. Also adding the possibility of another song. 
 Modifying effects without user interaction
 Visual feedback of dynamic changes
-____add sumary of how to use it i'd say____
+____add sumary of how to use it i'd say, or at least a few instructions otherwise people are gonna get frustrated____!!!!!
 
 ________________add a small demo video with the last version___________
 
