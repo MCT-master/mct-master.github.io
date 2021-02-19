@@ -18,11 +18,12 @@ The heart is one of the most important parts of the body. It is not by chance th
 
 This is where Stress-less comes in as an audio environment and therapeutic device where users can tune into the desired pace and sounding heartbeats. The audio parameters will give the user control to manipulate the pace and certain qualities/characteristics of the audio. It first collects the heart rate from the user remotely with a video processing and plays back heartbeats at the rate according to the captured data. The pace gradually changes towards the desired (e.g., resting- or energized-state) heart rate. This is developed and aimed to be used as a therapeutic device privately and also with health professionals in their practice, preferably with full-range loudspeakers for more effective entertainment.
 
+
 ##### 1.2 The timeline and overall plan
 
-<figure style="float: auto">
+<figure style="float: auto"><center>
    <img src="/assets/image/2021_19_02_joni_timeline.png" alt="Alternate Text" title="Waveform, ascending RMS loudness" width="auto"/>
-   <figcaption>Figure 1. The timeline and overall plan</figcaption>
+   <figcaption><center>Figure 1. Project Timeline</center></figcaption></center>
 </figure>
 
 The workshop lasted for two weeks (Figure 1). We planned to spend the first week doing research on the topic (heart rate entrainment) and go through the ideation process (Figure 2) while running some basic experiments on Csound. Since everyone in this project was new to Csound, we planned to spend a decent amount of time understanding the basic elements (e.g., structure, syntax) of the language in the first week. With this limitation, we realised that we won’t have enough time to have our “dream program” fully working within two weeks. So by the end of the second week, we planned to have a basic prototype completed. Also, considering our background (a mixture of music technology and design) and limited amount of time, we decided to divide our work into segments depending on our expertise while taking up enough new audio programming challenges for everyone.
@@ -30,23 +31,31 @@ The workshop lasted for two weeks (Figure 1). We planned to spend the first week
 
 <figure style="float: auto">
    <img src="/assets/image/2021_19_02_joni_ideation.jpg" alt="Alternate Text" title="Ideation process" width="auto"/>
-   <figcaption>Figure 2. Ideation process</figcaption>
+   <figcaption><center>Figure 2. Ideation process</center></figcaption>
 </figure>
 
 
 
-##### 1.3 Hypothesis
+##### 1.3 Concept development
 
 We aimed to develop a program that can:
 
-*1.* Capture the user/patient’s heart rate
-*2.* Play simulated heartbeat at the captured rate
-*3.* The simulated heartbeat gradually (controllable) synchronises to the desired rate (controllable) over time
+<figure style="float: auto">
+   <img src="/assets/image/2021_19_02_joni_flow.jpg" alt="Alternate Text" title="Flowchart of the programme" width="auto"/>
+   <figcaption><center>Figure 3. Concept development 1</center></figcaption>
+</figure>
+
+
+We aimed to develop a program that can:
+
+*1* Capture the user/patient’s heart rate
+*2* Play simulated heartbeat at the captured rate
+*3* The simulated heartbeat gradually (controllable) synchronises to the desired rate (controllable) over time
 
 
 <figure style="float: auto">
-   <img src="/assets/image/2021_19_02_joni_flow.png" alt="Alternate Text" title="Flowchart of the programme" width="auto"/>
-   <figcaption>Figure 3. Hypothesis based on heart beat entrain theory</figcaption>
+   <img src="/assets/image/2021_19_02_joni_flowchart.png" alt="Alternate Text" title="Flowchart of the programme" width="auto"/>
+   <figcaption><center>Figure 4. Concept development 2</center></figcaption>
 </figure>
 
 
@@ -65,8 +74,8 @@ PLL is used as our control system in Csound (Opcode) where the synchronisation p
 
 <figure style="float: auto">
    <img src="/assets/image/2021_19_02_joni_pll.png" alt="Alternate Text" title="Flowchart of the programme" width="auto"/>
-   <figcaption>Figure 4. Frequency and phase gain adjustment in the PLL opcode
-</figcaption>
+   <figcaption><center>Figure 4. Frequency and phase gain adjustment in the PLL opcode
+</center></figcaption>
 </figure>
 
 
@@ -74,8 +83,8 @@ PLL is used as our control system in Csound (Opcode) where the synchronisation p
 #### 4. The prototype demonstration
 
 <figure style="float: none">
-    <iframe src="https://www.youtube.com/embed/WjpwNp7l798" frameborder="0" allowfullscreen></iframe>
-    <figcaption>Heartbeat entrainment</figcaption>
+    <center><iframe src="https://www.youtube.com/embed/WjpwNp7l798" width="640" height="360" frameborder="0" allowfullscreen></iframe></center>
+    <figcaption><center>Synchronisation demonstration</center></figcaption>
 </figure>
 
 
@@ -87,47 +96,78 @@ The first step we took was to run Fourier Transform to find the fundamental freq
 
 
 <figure style="float: auto">
-   <img src="/assets/image/2021_19_02_joni_fft.png" alt="Alternate Text" title="Flowchart of the programme" width="auto"/> <figcaption>Figure 6. Fourier Transform result</figcaption>
+   <img src="/assets/image/2021_19_02_joni_fft.png" alt="Alternate Text" title="Flowchart of the programme" width="auto"/> <figcaption><center>Figure 6. Fourier Transform result</center></figcaption>
 </figure>
 
-We then studied the envelope of our acoustic model (Figure 6). For the time being, we were able to imitate this on another language (MAX/MSP, Figure 7).
+We then studied the envelope of our acoustic model (Figure 7). For the time being, we were able to imitate this on another language (MAX/MSP, Figure 8).
 
+
+<figure style="float: auto"><center>
+   <img src="/assets/image/2021_19_02_joni_waveform1.png" alt="Alternate Text" title="Flowchart of the programme" width="auto"/> <figcaption><center>Figure 7. Waveform of a recorded heartbeat</center>
+</figcaption>
+</center></figure>
+
+<figure style="float: none"><center>
+  <audio controls>
+    <source src="https://drive.google.com/uc?&id=12hY6wIi9ia6j3q3wVuQlQ50LVGOuehGl/view?usp=sharing" type="audio/mpeg">
+    Real Heart Beat
+  </audio>
+  <figcaption><center>Real heartbeats</center></figcaption>
+  </center></figure>
+
+
+<figure style="float: auto"><center>
+   <img src="/assets/image/2021_19_02_joni_maxmsp.png" alt="Alternate Text" title="Flowchart of the programme" width="auto"/> <figcaption><center>Figure 8. MAX/MSP patch: Heartbeat simulation demo</center>
+</figcaption>
+</center></figure>
 
 <figure style="float: auto">
-   <img src="/assets/image/2021_19_02_joni_waveform1.png" alt="Alternate Text" title="Flowchart of the programme" width="auto"/> <figcaption>Figure 6. Waveform of a recorded heartbeat
+   <img src="/assets/image/2021_19_02_joni_waveform2.png" alt="Alternate Text" title="Flowchart of the programme" width="auto"/> <figcaption><center>Figure 8. Waveform of the simulated heartbeat
+</center>
 </figcaption>
 </figure>
 
-<figure style="float: none">
+
+
+
+
+
+
+<figure style="float: none"><center>
   <audio controls>
-    <source src="https://drive.google.com/1taz_f3GP4QZYEIzZn-EQx3YRTXui2HJh/view?usp=sharing" type="audio/mpeg">
+    <source src="https://drive.google.com/uc?&id=1taz_f3GP4QZYEIzZn-EQx3YRTXui2HJh/view?usp=sharing
+" type="audio/mpeg">
     Song One
   </audio>
-  <figcaption>Song One</figcaption>
-</figure>
-
-<figure style="float: auto">
-   <img src="/assets/image/2021_19_02_joni_maxmsp.png" alt="Alternate Text" title="Flowchart of the programme" width="auto"/> <figcaption>Figure 7. MAX/MSP patch: Heartbeat simulation demo
-</figcaption>
-</figure>
-
-<figure style="float: none">
-  <audio controls>
-    <source src="https://drive.google.com/12hY6wIi9ia6j3q3wVuQlQ50LVGOuehGl/view?usp=sharing" type="audio/mpeg">
-    Song One
-  </audio>
-  <figcaption>Song One</figcaption>
+  <figcaption><center>Simulated heartbeats</center></figcaption></center>
 </figure>
 
 
 #### 6. Reflection
 
+*Dongho:*
 
 
+
+Considering we were very new to Csound, we have made great progress within the given time frame. We managed to develop a working prototype using a new language! This prototype will be a good foundation and model to develop the program further in the future. More in depth understanding of the core features of the prototype will help the future development which will require more time and effort.
+
+It would have been great to spend more time on examining the acoustic sound quality and characteristics of real heartbeat sounds. The direction we took (FFT and qualitative envelope analysis) and its result seems like it’s a good starting point. Perhaps, there is a room for other musical features in the future development than only imitating the real heartbeat sound. This should be explored and experimented further.
+
+Although there is disagreement among in the current literature whether or not acoustic stimulus has an impact on heart rate entrainment, there seems to be a great research opportunity. As mentioned earlier, more range of controllable stimuli should be explored. Also, there seems to be an opportunity for development of a therapeutic device for private use and healthcare environments.
+
+
+
+*Joni:*
+
+With the limited time, we were able to capture the heart rate using video analysis in Python and perform synchronisation through PLL in Csound. What we have established in this workshop has given us a good starting point to develop our app idea in the future (Figure 9). The heart rate synchronised technology will have more features, such as allowing users to change the EQ and set the standard heart rate of their own. Additional features include suitable mindfulness music or soundscapes to users whenever their heart rate is detected as more than average.
+
+Furthermore, the aesthetic aspects of the heartbeat sound could be better and that we could add more layers. In our app idea, it is designed for users who can keep track of their heartbeat by taking a video.
+
+Finally, in the past two weeks, I have learned a lot and my brain fried in a good way. Now, I am able to interpret and modify codes more efficiently and gain understanding of the fundamentals of digital audio signal processing.
 
 
 <figure style="float: auto">
-   <img src="/assets/image/2021_19_02_joni_stressless.png" alt="" title="" width="auto"/> <figcaption>Figure 6. Video heart rate capture tools</figcaption>
+   <img src="/assets/image/2021_19_02_joni_stressless.png" alt="" title="" width="auto"/> <figcaption><center>Figure 9. Video heart rate capture tools with therapeutic support</center></figcaption>
 </figure>
 
 #### 7. Our vision
@@ -136,7 +176,7 @@ In our future vision of this project, this idea of using video heart rate analys
 
 <figure style="float: auto">
    <img src="/assets/image/2021_19_02_joni_futurevision.jpg" alt="Alternate Text" title="Flowchart of the programme" width="auto"/>
-   <figcaption>Figure 7. Future digital healthcare systems </figcaption>
+   <figcaption><center>Figure 10. Future digital healthcare systems </center></figcaption>
 </figure>
 
 
