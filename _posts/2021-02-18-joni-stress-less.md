@@ -23,7 +23,7 @@ This is where Stress-less comes in as an audio environment and therapeutic devic
 
 <figure style="float: auto"><center>
    <img src="/assets/image/2021_19_02_joni_timeline.png" alt="Alternate Text" title="Waveform, ascending RMS loudness" width="auto"/>
-   <figcaption><center>Figure 1. Project Timeline</center></figcaption></center>
+   <figcaption>Figure 1. Project Timeline</figcaption></center>
 </figure>
 
 The workshop lasted for two weeks (Figure 1). We planned to spend the first week doing research on the topic (heart rate entrainment) and go through the ideation process (Figure 2) while running some basic experiments on Csound. Since everyone in this project was new to Csound, we planned to spend a decent amount of time understanding the basic elements (e.g., structure, syntax) of the language in the first week. With this limitation, we realised that we won’t have enough time to have our “dream program” fully working within two weeks. So by the end of the second week, we planned to have a basic prototype completed. Also, considering our background (a mixture of music technology and design) and limited amount of time, we decided to divide our work into segments depending on our expertise while taking up enough new audio programming challenges for everyone.
@@ -69,12 +69,12 @@ For our prototype, we have adapted EVM in Python. After analysing a video record
 
 #### 3. Phase-locked loop (PLL)
 
-PLL is used as our control system in Csound (Opcode) where the synchronisation processing takes place. PLL user defined opcode in our case takes a clock pulse, initial frequency, frequency adjust gain, and phase adjust gain as inputs. By adjusting the frequency and phase adjust gains, we could control how slow or fast it takes until the input pulse is synchronised with the clock (Figure 4).
+PLL is used as our control system in Csound (Opcode) where the synchronisation processing takes place. PLL user defined opcode in our case takes a clock pulse, initial frequency, frequency adjust gain, and phase adjust gain as inputs. By adjusting the frequency and phase adjust gains, we could control how slow or fast it takes until the input pulse is synchronised with the clock (Figure 5).
 
 
 <figure style="float: auto">
    <img src="/assets/image/2021_19_02_joni_pll.png" alt="Alternate Text" title="Flowchart of the programme" width="auto"/>
-   <figcaption><center>Figure 4. Frequency and phase gain adjustment in the PLL opcode
+   <figcaption><center>Figure 5. Frequency and phase gain adjustment in the PLL opcode
 </center></figcaption>
 </figure>
 
@@ -88,7 +88,7 @@ PLL is used as our control system in Csound (Opcode) where the synchronisation p
 </figure>
 
 
-##### 5. Sonification
+#### 5. Sonification
 
 In order to synthesize a heartbeat sound, we needed to understand some of the basic acoustic characteristics of real heartbeat sound. This was an important step as we wanted to create a sound that resembles a real heart.
 
@@ -103,17 +103,16 @@ We then studied the envelope of our acoustic model (Figure 7). For the time bein
 
 
 <figure style="float: auto"><center>
-   <img src="/assets/image/2021_19_02_joni_waveform1.png" alt="Alternate Text" title="Flowchart of the programme" width="auto"/> <figcaption><center>Figure 7. Waveform of a recorded heartbeat</center>
-</figcaption>
-</center></figure>
+   <img src="/assets/image/2021_19_02_joni_waveform1.png" alt="Alternate Text" title="Flowchart of the programme" width="auto"/> <figcaption>Figure 7. Waveform of a recorded heartbeat</figcaption></center>
+</figure>
 
 <figure style="float: none"><center>
   <audio controls>
-    <source src="https://drive.google.com/uc?&id=12hY6wIi9ia6j3q3wVuQlQ50LVGOuehGl/view?usp=sharing" type="audio/mpeg">
+    <source src="https://drive.google.com/uc?&id=12hY6wIi9ia6j3q3wVuQlQ50LVGOuehGl" type="audio/mpeg">
     Real Heart Beat
   </audio>
-  <figcaption><center>Real heartbeats</center></figcaption>
-  </center></figure>
+  <figcaption>Real heartbeats</figcaption></center>
+</figure>
 
 
 <figure style="float: auto"><center>
@@ -122,20 +121,15 @@ We then studied the envelope of our acoustic model (Figure 7). For the time bein
 </center></figure>
 
 <figure style="float: auto">
-   <img src="/assets/image/2021_19_02_joni_waveform2.png" alt="Alternate Text" title="Flowchart of the programme" width="auto"/> <figcaption><center>Figure 8. Waveform of the simulated heartbeat
+   <img src="/assets/image/2021_19_02_joni_waveform2.png" alt="Alternate Text" title="Flowchart of the programme" width="auto"/> <figcaption><center>Figure 9. Waveform of the simulated heartbeat
 </center>
 </figcaption>
 </figure>
 
 
-
-
-
-
-
 <figure style="float: none"><center>
   <audio controls>
-    <source src="https://drive.google.com/uc?&id=1taz_f3GP4QZYEIzZn-EQx3YRTXui2HJh/view?usp=sharing
+    <source src="https://drive.google.com/uc?&id=1taz_f3GP4QZYEIzZn-EQx3YRTXui2HJh
 " type="audio/mpeg">
     Song One
   </audio>
@@ -167,7 +161,7 @@ Finally, in the past two weeks, I have learned a lot and my brain fried in a goo
 
 
 <figure style="float: auto">
-   <img src="/assets/image/2021_19_02_joni_stressless.png" alt="" title="" width="auto"/> <figcaption><center>Figure 9. Video heart rate capture tools with therapeutic support</center></figcaption>
+   <img src="/assets/image/2021_19_02_joni_stressless.png" alt="" title="" width="auto"/> <figcaption><center>Figure 10. Video heart rate capture tools with therapeutic support</center></figcaption>
 </figure>
 
 #### 7. Our vision
@@ -176,7 +170,7 @@ In our future vision of this project, this idea of using video heart rate analys
 
 <figure style="float: auto">
    <img src="/assets/image/2021_19_02_joni_futurevision.jpg" alt="Alternate Text" title="Flowchart of the programme" width="auto"/>
-   <figcaption><center>Figure 10. Future digital healthcare systems </center></figcaption>
+   <figcaption><center>Figure 12. Future digital healthcare systems </center></figcaption>
 </figure>
 
 
