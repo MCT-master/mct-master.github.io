@@ -67,7 +67,7 @@ As illustrated in Figure 3, we needed to be able to capture the user/patient’s
 
 For our prototype, we have adapted EVM in Python. After analysing a video recording (.mov) of the user/patient’s face, EVM outputs a heart rate (in BPM). This value is then sent to Csound via OSC.
 
-#### 3. Phase-locked loop (PLL)
+##### 2.2 Phase-locked loop (PLL)
 
 PLL is used as our control system in Csound (Opcode) where the synchronisation processing takes place. PLL user defined opcode in our case takes a clock pulse, initial frequency, frequency adjust gain, and phase adjust gain as inputs. By adjusting the frequency and phase adjust gains, we could control how slow or fast it takes until the input pulse is synchronised with the clock (Figure 5).
 
