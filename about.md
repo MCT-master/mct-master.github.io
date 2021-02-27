@@ -10,10 +10,19 @@ This is the student-led blog related to the **Music, Communication & Technology 
 
 More information regarding the master's program offered by the University of Oslo can be found [here](https://www.uio.no/english/studies/programmes/mct-master/).
 
-Additional links to official media accounts for the programme:
+<br/>
+
+Official media accounts of the MCT programme:
 * [YouTube](https://youtube.com/channel/UCRWv7-fkWIKiYxm-iQrdV1w/videos)
 * [Twitter](https://www.twitter.com/MCT_master)
 * [GitHub](https://github.com/MCT-master)
+
+<br/>
+
+Other websites and blogs led by students of the MCT programme:
+* [WoNoMute](https://youtube.com/channel/UCRWv7-fkWIKiYxm-iQrdV1w/videos) - website and blog of the organization Women Nordic Music Technology.
+* [Can You Hear Me?](https://mct-master.github.io/canyouhearme/) - wiki and guide for an ever expanding list of audio-video communication softwares.
+
 
 <!--
 
