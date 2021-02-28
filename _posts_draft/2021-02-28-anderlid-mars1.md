@@ -1,0 +1,44 @@
+---
+layout: post
+title: "Twinkle Twinkle (sad) Little Mars"
+date: 2021-02-28 16:00:00 +0200
+categories: audio programming
+author: Henrik Sveen, Anders Lidal, Pedro Lucas, Willie Mandeville
+image: /assets/image/2021_28_02_anderlid_marsKO.jpg
+keywords: portal, telematic music, feedback, LoLa, latency
+excerpt: "Finally the B-boys got found some hours one evening to spend in the portal, Willie up north, and Pedro, Henrik and Anders down south. This was the first day on their Mission to Mars. Enter our B-oyager, and join us."
+---
+
+<figure style="float: auto">
+   <img src="/assets/image/2021_28_02_anderlid_marsKO.jpg" alt="" title="" width="auto"/> <figcaption></figcaption>
+</figure>
+
+
+
+
+#### The Mission
+On the evening of February 22nd, the very first sounds ever recorded on Mars were made available to the world. Just some blowing in the wind, but still Anders was inspired to go on a Mission to Mars, sampled the sounds on his tiny Pocket Operator K.O! and called up  the rest of the B-boys, who of course immediately commenced countdown, engines on. So on February 23rd, we took our protein pills and put our helmets on.
+
+#### Ground control
+But as usual, there were some issues on the ground, feedback amongst them. We had more issues with feedback when intercity talking to each other than expected. Our goal was to first try to set up and gain our portals to make talking and communicating verbally easier than we so far have experienced in classes, but even after gaining every connected microphones nicely, we didn’t quite achieve what we wanted. So we did some compremising and moved on to connecting some instruments.
+
+In Trondheim Willie played a picked-up western guitar, connected directly to the Midas M32, and used some onboard effects for it. In Oslo Pedro had brought his guitar, his PC and AKAI midi-board, everything connected via his sound-interface and lined in to the Midas M32, while Henrik played his sweet little Teenage Engineering OP-1, also directly into the mixer, and Anders, mostly sitting behind the control-panel (M32) connected his K.O! with a looped wind-sample from Mars.
+
+
+
+#### Twinkle twinkle
+The countdown started, and soon we set out into the unknown, without knowing where to start, but it didn’t take long before we saw familiar constellations, and also heard the saddest version of «Twinkle Twinkle Little Star» from Henrik’s OP-‘ on top of the floating reverberated and delayed plucking of Willie’s guitar, and some outerwordly sounds from Pedro’s computer along with his guitarpicking. Mars is far away, even when passing the moon, but when we listened closely, we could also hear the wind blowing in a rhythmic pattern on our supposedly desolate red destination.
+
+<figure style="float: none">
+<iframe width="560" height="315" src="https://www.youtube.com/embed/kBGme7aHJD0" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<figcaption>In space no one can hear you scream, but they might hear Twinkle Twinkle … sad version.</figcaption>
+</figure>
+
+
+### Back to earth
+
+Behind the control panel of our B-oyager we discovered a severe error, that could possibly explain some of our feedbacking issues before take-off. We returned to earth to start debugging and solve the issue: Even when no local instruments at UiO where sent to the master, they were very much there. That could be expected after sending our mix to Trondheim, and then possibly getting it back via microphones there. But as it firstly didn’t sound like room-sound, and secondly since all microphones at NTNU were muted, we dug deeper.
+What we discovered was that our signal sent to NTNU (stereotrack via LoLa) was internally routed back to our mix, on the same tracks we received NTNU’s LoLa.
+Before we figured out a way to try and solve the issue, the NTNU-portal was abandoned. We will explore this further, and hopefully our next attempt will take us one small step closer to Mars.
+
+Video!!!!!! Pedro?
