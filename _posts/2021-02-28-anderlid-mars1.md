@@ -35,4 +35,7 @@ What we discovered was that our signal sent to NTNU (stereo track via LoLa) was 
 
 Before we figured out a way to try and solve the issue, the NTNU-portal was abandoned due to budget cuts at NASA. All American astronauts in the B-oyager program are now expected to fund further expeditions via NASA's new dog-walking business. Once Willie has finished walking the dogs of various wealthy senators, we will explore this further, and hopefully our next attempt will take us one small step closer to Mars.
 
-Video!!!!!! Pedro?
+<figure style="float: none">
+   <iframe src="https://drive.google.com/file/d/1pcifyh1ljD11CVpFRojSeGIOFsfojGHN/preview" width="1024" height="576" frameborder="0" allowfullscreen></iframe>
+   <figcaption>Oslo, we have a problem !!!!</figcaption>
+</figure>
