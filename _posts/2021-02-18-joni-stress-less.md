@@ -4,7 +4,7 @@ title: "Get unstressed with Stress-less"
 date: 2021-02-19 15:00:00 +0200
 categories: audio-programming
 author: Joni Mok, Dongho Kwak
-image: /assets/image/2021_19_02_joni_stressless.png
+image: /assets/image/2021_02_19_joni_stressless.png
 keywords: csound, python, PLL, OSC, reverb
 excerpt: "Acoustically-triggered heart rate entrainment (AHRE)"
 ---
@@ -23,7 +23,7 @@ This is where Stress-less comes in as an audio environment and therapeutic devic
 ##### 1.2 The timeline and overall plan
 
 <figure style="float: auto">
-   <img src="/assets/image/2021_19_02_joni_timeline.png" alt="Alternate Text" title="Waveform, ascending RMS loudness" width="auto"/>
+   <img src="/assets/image/2021_02_19_joni_timeline.png" alt="Alternate Text" title="Waveform, ascending RMS loudness" width="auto"/>
    <figcaption><center>Figure 1. Project Timeline</center></figcaption>
 </figure>
 
@@ -32,7 +32,7 @@ The workshop lasted for two weeks (Figure 1). We planned to spend the first week
 
 
 <figure style="float: auto">
-   <img src="/assets/image/2021_19_02_joni_ideation.jpg" alt="Alternate Text" title="Ideation process" width="auto"/>
+   <img src="/assets/image/2021_02_19_joni_ideation.jpg" alt="Alternate Text" title="Ideation process" width="auto"/>
    <figcaption><center>Figure 2. Ideation process</center></figcaption>
 </figure>
 
@@ -46,13 +46,13 @@ We aimed to develop a program that can:
 * The simulated heartbeat gradually (controllable) synchronises to the desired rate (controllable) over time
 
 <figure style="float: auto">
-   <img src="/assets/image/2021_19_02_joni_flow.jpg" alt="Alternate Text" title="Flowchart of the programme" width="auto"/>
+   <img src="/assets/image/2021_02_19_joni_flow.jpg" alt="Alternate Text" title="Flowchart of the programme" width="auto"/>
    <figcaption><center>Figure 3. Concept development 1</center></figcaption>
 </figure>
 
 
 <figure style="float: auto">
-   <img src="/assets/image/2021_19_02_joni_flowchart.png" alt="Alternate Text" title="Flowchart of the programme" width="auto"/>
+   <img src="/assets/image/2021_02_19_joni_flowchart.png" alt="Alternate Text" title="Flowchart of the programme" width="auto"/>
    <figcaption><center>Figure 4. Concept development 2</center></figcaption>
 </figure>
 
@@ -73,7 +73,7 @@ PLL is used as our control system in Csound (Opcode) where the synchronisation p
 
 
 <figure style="float: auto">
-   <img src="/assets/image/2021_19_02_joni_pll.png" alt="Alternate Text" title="Flowchart of the programme" width="auto"/>
+   <img src="/assets/image/2021_02_19_joni_pll.png" alt="Alternate Text" title="Flowchart of the programme" width="auto"/>
    <figcaption><center>Figure 5. Frequency and phase gain adjustment in the PLL opcode
 </center></figcaption>
 </figure>
@@ -97,14 +97,14 @@ The first step we took was to run Fourier Transform to find the fundamental freq
 
 
 <figure style="float: auto">
-   <img src="/assets/image/2021_19_02_joni_fft.png" alt="Alternate Text" title="Flowchart of the programme" width="auto"/> <figcaption><center>Figure 6. Fourier Transform result</center></figcaption>
+   <img src="/assets/image/2021_02_19_joni_fft.png" alt="Alternate Text" title="Flowchart of the programme" width="auto"/> <figcaption><center>Figure 6. Fourier Transform result</center></figcaption>
 </figure>
 
 We then studied the envelope of our acoustic model (Figure 7). For the time being, we were able to imitate this on another audio programming language (MAX/MSP, Figure 8), as we needed more time to implement this in Csound, and created a demo.
 
 
 <figure style="float: auto">
-   <img src="/assets/image/2021_19_02_joni_waveform1.png" alt="Alternate Text" title="Flowchart of the programme" width="800"/> <figcaption><center>Figure 7. Waveform of a recorded heartbeat</center></figcaption>
+   <img src="/assets/image/2021_02_19_joni_waveform1.png" alt="Alternate Text" title="Flowchart of the programme" width="800"/> <figcaption><center>Figure 7. Waveform of a recorded heartbeat</center></figcaption>
 </figure>
 
 <figure style="float: none">
@@ -117,7 +117,7 @@ We then studied the envelope of our acoustic model (Figure 7). For the time bein
 
 
 <figure style="float: auto">
-   <img src="/assets/image/2021_19_02_joni_maxmsp.png" alt="Alternate Text" title="Flowchart of the programme" width="auto"/> <figcaption><center>Figure 8. MAX/MSP patch: Heartbeat simulation demo</center>
+   <img src="/assets/image/2021_02_19_joni_maxmsp.png" alt="Alternate Text" title="Flowchart of the programme" width="auto"/> <figcaption><center>Figure 8. MAX/MSP patch: Heartbeat simulation demo</center>
 </figcaption>
 </figure>
 
@@ -125,7 +125,7 @@ The result of the demo (Figure 9) resembles the real heartbeat to some extent, b
 
 
 <figure style="float: auto">
-   <img src="/assets/image/2021_19_02_joni_waveform2.png" alt="Alternate Text" title="Flowchart of the programme" width="800"/> <figcaption><center>Figure 9. Waveform of the simulated heartbeat
+   <img src="/assets/image/2021_02_19_joni_waveform2.png" alt="Alternate Text" title="Flowchart of the programme" width="800"/> <figcaption><center>Figure 9. Waveform of the simulated heartbeat
 </center>
 </figcaption>
 </figure>
@@ -164,7 +164,7 @@ Finally, in the past two weeks, I have learned a lot and my brain fried in a goo
 
 
 <figure style="float: auto">
-   <img src="/assets/image/2021_19_02_joni_stressless.png" alt="" title="" width="auto"/> <figcaption><center>Figure 9. Our app idea as a video heart rate capture tools</center></figcaption>
+   <img src="/assets/image/2021_02_19_joni_stressless.png" alt="" title="" width="auto"/> <figcaption><center>Figure 9. Our app idea as a video heart rate capture tools</center></figcaption>
 </figure>
 
 #### 7. Our vision
@@ -172,7 +172,7 @@ Finally, in the past two weeks, I have learned a lot and my brain fried in a goo
 In our future vision of this project, this idea of using video heart rate analysis technique can be implemented in online GP consultation, so that the patients and doctors do not need to necessarily meet physically. It can reduce a lot of time spent in the whole travelling journey  from home to the doctors. In addition, with an on-going pandemic, and economic downturn, we believe that this idea can accelerate the evolution of healthcare ecosystems. As we move forward, organisations can consider ways to use healthcare ecosystems to improve patient experience and health, while reducing total costs.
 
 <figure style="float: auto">
-   <img src="/assets/image/2021_19_02_joni_futurevision.jpg" alt="Alternate Text" title="Flowchart of the programme" width="auto"/>
+   <img src="/assets/image/2021_02_19_joni_futurevision.jpg" alt="Alternate Text" title="Flowchart of the programme" width="auto"/>
    <figcaption><center>Figure 11. Future digital healthcare systems </center></figcaption>
 </figure>
 
