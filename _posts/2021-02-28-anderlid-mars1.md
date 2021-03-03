@@ -6,7 +6,7 @@ categories: portal
 author: Henrik Sveen, Anders Lidal, Pedro Lucas, Willie Mandeville
 image: /assets/image/2021_02_28_anderlid_marsKO.jpg
 keywords: portal, telematic-music, feedback, LoLa, latency
-excerpt: "Finally the B-boys got found some hours one evening to spend in the portal, Willie up north, and Pedro, Henrik and Anders down south. This was the first day on their Mission to Mars. Enter our B-oyager, and join us."
+excerpt: "Finally the B-boys found some hours one evening to spend in the portal, Willie up north, and Pedro, Henrik and Anders down south. This was the first day on their Mission to Mars. Enter our B-oyager, and join us."
 ---
 
 <figure style="float: auto">
