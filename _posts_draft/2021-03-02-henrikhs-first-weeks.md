@@ -1,18 +1,18 @@
 ---
 layout: post
-title: "Team B Related Early Portal Work"
+title: "First Weeks Of Portaling With Team B"
 date: 2021-03-02 16:00:00 +0200
 categories: portal
 author: Henrik Sveen, Anders Lidal, Pedro Lucas, Willie Mandeville
 image: /assets/image/
 keywords: portal, telematic-music, feedback, LoLa, latency
-excerpt: "Starting to figure out the Portal and what we did/found out in the first weeks using it."
+excerpt: "Starting to figure out the Portal and what we did/found out in the first weeks using it. How to play and some feedback fixing."
 ---
 
 #### Playing together
 My experience with telematic music performance has been close to nonexistent prior to joining the MCT master’s program. Not that doing music online is something I find totally uninteresting, but I think it has to do with my line of work and the relevance of doing music online instead of in the same physical space. So the experience has been quite new to me. Last fall we jumped into playing online together from our homes using JamKazam and such, which was a bumpy ride for many of us. Much because of struggles getting servers up and running, but also then having everything connected and figuring out how to navigate musically without seeing each other properly. It quickly became messy.
 
-So with this experience in our telematic backpacks, playing together in the Portal seemed promising as the room is set up to be more audiovisual than explicitly audioal. With everything running, which took some time, the first obstacle was getting the sound right. Sending many people’s instruments on a stereo connection, without a proper soundcheck, is a pretentious project for new Portalers. Trondheim had issues hearing us with well balanced levels, and we had issues hearing them when playing. So we figured trying fewer people playing and sending two instruments as one on the left channel and one on the right channel gave more flexibility. That gives each campus the ability to mix two instruments individually as a «multichannel» setup for a total of four (two by two) musicians.
+So with this experience in our telematic backpacks, playing together in the Portal seemed promising as the room is set up to be more audiovisual than explicitly audial. With everything running, which took some time, the first obstacle was getting the sound right. Sending many people’s instruments on a stereo connection, without a proper soundcheck, is a pretentious project for new Portalers. Trondheim had issues hearing us with well balanced levels, and we had issues hearing them when playing. So we figured trying fewer people playing and sending two instruments as one on the left channel and one on the right channel gave more flexibility. That gives each campus the ability to mix two instruments individually as a «multichannel» setup for a total of four (two by two) musicians.
 
 Having some control over the sound, the next obstacle was musical rather than technical. As many of us know, it can be hard playing together for the first time. Especially when not physically together and having some audience. Not being that used to just jamming around, we quickly figured out that picking a song to play that all of us knew was probably a good idea. And it worked in a way. Here’s a snippet of All of Us, playing «All of Me».
 
