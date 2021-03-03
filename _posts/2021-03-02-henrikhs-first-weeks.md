@@ -1,13 +1,22 @@
 ---
 layout: post
 title: "First Weeks Of Portaling With Team B"
-date: 2021-03-02 16:00:00 +0200
+date: 2021-03-03 09:30:00 +0200
 categories: portal
 author: Henrik Sveen, Anders Lidal, Pedro Lucas, Willie Mandeville
-image: /assets/image/
+image: /assets/image/2021_03_03_henrikhs_teamb_portal_first.jpg
 keywords: portal, telematic-music, feedback, LoLa, latency
 excerpt: "Starting to figure out the Portal and what we did/found out in the first weeks using it. How to play and some feedback fixing."
 ---
+
+<figure style="float: auto">
+   <img src="/assets/image/2021_03_03_henrikhs_teamb_portal_first.jpg" alt="" title="" width="auto"/> <figcaption>EQ-ing the master bus</figcaption>
+</figure>
+
+              The following section
+                        presents Henrik's reflection
+                                      on Team B's direction
+                                                    in Portal connection
 
 #### Playing together
 My experience with telematic music performance has been close to nonexistent prior to joining the MCT master’s program. Not that doing music online is something I find totally uninteresting, but I think it has to do with my line of work and the relevance of doing music online instead of in the same physical space. So the experience has been quite new to me. Last fall we jumped into playing online together from our homes using JamKazam and such, which was a bumpy ride for many of us. Much because of struggles getting servers up and running, but also then having everything connected and figuring out how to navigate musically without seeing each other properly. It quickly became messy.
