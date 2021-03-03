@@ -4,13 +4,13 @@ title: "Twinkle Twinkle (sad) Little Mars"
 date: 2021-02-28 16:00:00 +0200
 categories: portal
 author: Henrik Sveen, Anders Lidal, Pedro Lucas, Willie Mandeville
-image: /assets/image/2021_28_02_anderlid_marsKO.jpg
+image: /assets/image/2021_02_28_anderlid_marsKO.jpg
 keywords: portal, telematic-music, feedback, LoLa, latency
 excerpt: "Finally the B-boys got found some hours one evening to spend in the portal, Willie up north, and Pedro, Henrik and Anders down south. This was the first day on their Mission to Mars. Enter our B-oyager, and join us."
 ---
 
 <figure style="float: auto">
-   <img src="/assets/image/2021_28_02_anderlid_marsKO.jpg" alt="" title="" width="auto"/> <figcaption></figcaption>
+   <img src="/assets/image/2021_02_28_anderlid_marsKO.jpg" alt="" title="" width="auto"/> <figcaption></figcaption>
 </figure>
 
 #### The Mission
