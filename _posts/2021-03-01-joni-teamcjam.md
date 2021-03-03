@@ -4,7 +4,7 @@ title: "Liebesgruß or we can put that 'Liebe' aside"
 date: 2021-02-28 16:00:00 +0200
 categories: portal
 author: Joni Mok, Wenbo Yi, Lindsay Charles, Stephen Gardener
-image: /assets/image/2021_01_03_teamc1.jpg
+image: /assets/image/2021_03_01_joni_teamc1.jpg
 keywords: portal, telematic-music, feedback, LoLa, latency
 excerpt: "It's simply a gruß from Team C with our first telematic setup."
 ---
