@@ -4,7 +4,7 @@ title: "How To Save The World In Three Chords"
 date: 2020-11-17 20:00:00
 categories: spatial-audio
 author: Aleksander Tidemann, Paul Koenig
-image: /assets/image/2020_17_11_paulgk_TheInvasionBegins.jpg
+image: /assets/image/2020_11_17paulgk_TheInvasionBegins.jpg
 keywords: aliens, area 51, Slim Whitman, deadcat, Navigational Spatiality, Jesus
 excerpt: Don't run! We come in peace!
 ---
@@ -28,7 +28,7 @@ In other words, we strove to create an aural environment whereby the listener co
 Figure 1 shows our storyboard/timeline.
 
 <figure align="middle">
-<img src="/assets/image/2020_17_11_paulgk_DramaTimeline.png" width="80%"/>
+<img src="/assets/image/2020_11_17_paulgk_DramaTimeline.png" width="80%"/>
 <figcaption><strong>figure 1: A Dramaturgy, if you will</strong></figcaption>
 </figure>
 
@@ -41,7 +41,7 @@ This seemed like just the perfect, idyllic sort of scene to be obliterated by ma
 Figure 2 shows one of our microphone setups, just outside the backdoor of the Fysikkbygning. Since we couldn't find a deadcat (wind-shield) for the rather expensive Soundfield microphone, we improvised with a lua, or "deadhat", which was loosely-woven and somewhat hairy, for a lua. It worked well enough, and no doubt better than an old wool sock, though this was not tested.
 
 <figure align="middle">
-<img src="/assets/image/2020_17_11_paulgk_Fysikkbyggning.jpg" width="80%"/>
+<img src="/assets/image/2020_11_17_paulgk_Fysikkbyggning.jpg" width="80%"/>
 <figcaption><strong>figure 1: Not An Old Wool Sock</strong></figcaption>
 </figure>
 
