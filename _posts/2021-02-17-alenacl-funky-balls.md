@@ -4,12 +4,12 @@ title: "Funky Balls"
 date: 2021-02-17 20:00:00 +0200
 categories: audio-programming
 author: Alena Clim, Leigh Murray
-image: /assets/image/2021_02_19_leigh_funkyballs.gif
+image: https://drive.google.com/uc?&id=1kGDge7EupNHvVLgeMAcSurz44bmASHGO
 keywords: csound, reverb, bit crusher, delay, moog diode, string resonator, harmoniser
 excerpt: "Want a more organic and dynamic way of mixing and applying effects? Experiment with funky balls!"
 ---
 
-![Funkyballs](/assets/image/2021_02_19_leigh_funkyballs.gif)
+![Funkyballs](https://drive.google.com/uc?&id=1kGDge7EupNHvVLgeMAcSurz44bmASHGO)
 
 ## The idea
 
@@ -64,7 +64,7 @@ Effects:
 
 With all the tracks and effects shown in the image above, it is easy to become overwhelmed. So we wanted to create a simple user interface that hides this complexity and lets the user focus on exploring the different sounds and effects.  We found the [Paper JS](http://paperjs.org/examples/meta-balls/) metaballs example and it seemed to suit our use-case perfectly.
 
-![Metaballs](/assets/image/2021_02_19_leigh_metaballs.gif)
+![Metaballs](https://drive.google.com/uc?&id=1TBbYduy9oC9wDhP2TxUsPdYA9JytUenK)
 
 We wanted a minimalist user interface that doesn't immediately let the user know what circle represents which instrument or effect. This is to encouring exploring and relying on the audio feedback to influence the user's choices.
 
@@ -76,7 +76,7 @@ To combat the static look and sound when the user is not interacting, we impleme
 
 Finally we wanted to allow different multi-tracks for different user experiences, so we chose a second song the user can experiment with, and made it very easy to implement more through the use of a url parameter.
 
-![Funkyballs](/assets/image/2021_02_19_leigh_funkyballs.gif)
+![Funkyballs](https://drive.google.com/uc?&id=1kGDge7EupNHvVLgeMAcSurz44bmASHGO)
 
 ### Getting started
 
