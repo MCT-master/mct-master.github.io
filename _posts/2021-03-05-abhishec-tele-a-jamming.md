@@ -2,13 +2,15 @@
 layout: post
 title: " Tele-A-Jammin: the recipe"
 date: 2021-03-05 10:00:00 +0200
-categories: Portal
+categories: portal
 author: Abhishek Choubey, Alena Clim, Leigh Murray
-image:
+image: /assets/image/2021_03_09_abhishec_teama_portal.jpeg
 keywords: jamming, portal, teleperformance, lola, tico, zoom
 excerpt: "Our portal experience mapped on a delicious Jam recipe"
 ---
-
+<figure style="float: auto">
+   <img src="/assets/image/2021_03_09_abhishec_teama_portal.jpeg" alt="" title="" width="auto"/> <figcaption>Setting up portal</figcaption>
+</figure>
 # Tele-A-Jammin
 
 As the spring comes and fruits will be ready to harvest in no time, have you thought of making some jam? After several hiccups, the 2020 MCT generation is finally allowed to access the portal, so this is team A(wesome)’s first attempt at a jam in the NTNU-UiO portals.
@@ -53,6 +55,8 @@ Here is our recordings. We can only say that we hope you’ll see progress soon!
 </figure>
 
 <figure style="float: none">
-   <iframe src="https://drive.google.com/file/d/DRIVE_FILE_ID/preview" width="auto" frameborder="0" allowfullscreen></iframe>
-   <figcaption>Video recording of the jam</figcaption>
+  <video width="auto" controls>
+    <source src="https://drive.google.com/uc?&id=1OMXzISuXqmiKzcVx5NvyV1SH0NvtEfah" type='video/mp4'>
+  </video>
+  <figcaption>Playing in the portal</figcaption>
 </figure>
