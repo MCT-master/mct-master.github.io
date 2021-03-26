@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Pixel by pixel"
-date: 2021-03-26 02:00:00 +0200
+date: 2021-03-26 01:00:00 +0200
 categories: sonification
 author: Anders Lidal, Mari Lesteberg, Sebastian Olsen
 image: /assets/image/2021_03_25_fractionMari_grumpy.png
