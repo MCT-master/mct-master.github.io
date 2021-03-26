@@ -54,7 +54,7 @@ Here is a short demonstration of the sonification of the same picture with the s
 </figure>
 
 
-####The mapping
+#### The mapping
 
 Just like System Sound’s Pillars of Creation Sonification, the pitch values are mapped to the vertical axis, and the time values are mapped to the horizontal axis. In the development of the app, we have been trying out several different ways of mappings, but in the end, we figured that since most people are used to perceive the horizontal axis as time in visual representation of music, we'd do the same here.
 
@@ -96,7 +96,7 @@ So after some learning from Mari, we started working on each our ends, Anders dr
 
 In the end-result, Mari took care of the main coding, Sebastian worked with synthezisers in tone.js, and Anders recorded synth drums and got the drum machine playing drums, as well as tweaking the design to fit his youth. In addition we all tried to get the grasp of both Javascript, HTML and CSS.
 
-####The MIDI rigidness vs. the RGB randomness
+#### The MIDI rigidness vs. the RGB randomness
 
 When using RGB data of an image as a starting point for sonification, one could wonder what the purpose is. An image could basically be *anything*, so why not just use a random generator instead? It indeed depends on how the system is used. The element of chance is key. The system affords an infinite number of possible sonifications, according to how the user decides to use it. Also one image could “sound” in so many different ways, based on the number of different dimensions that are decided upon, as well as the sensitivity value.
 
