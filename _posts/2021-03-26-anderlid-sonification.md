@@ -14,7 +14,7 @@ excerpt: "The pixel sequencer is an interactive web app for sonification of imag
 </figure>
 
 
-The pixel sequencer is an interactive web app for sonification of images, written in Javascript, CSS and HTML. The user can upload an image, decide on parameters like size (up to 16 pixels horizontally and vertically) and sensitivity. The image is then pixelated, and colour parameters from the image is the basis for the sonification of the image.
+[The pixel sequencer](https://limesack.github.io/MCT4046/Javascript/index_draft8.html) is an interactive web app for sonification of images, written in Javascript, CSS and HTML. The user can upload an image, decide on parameters like size (up to 16 pixels horizontally and vertically) and sensitivity. The image is then pixelated, and colour parameters from the image is the basis for the sonification of the image.
 
 #### The idea
 Making music based on a picture is not a new thing. Recent artists, like youtuber Andrew Huang has experimented with the use of MIDI notes on a piano roll to create a playable picture. The different MIDI notes on the piano roll appear to be pixels that form a picture, and what you get is a composition that sounds like a musical piece. Andrew Huang’s [Glorious Midi Unicorn](https://www.youtube.com/watch?v=i3tiuGVDDkk&t=4s) is a neat example.
