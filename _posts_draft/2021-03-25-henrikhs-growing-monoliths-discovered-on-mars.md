@@ -1,11 +1,11 @@
 ---
 layout: post
 title: "Growing Monoliths Discovered On Mars"
-date: 2021-03-26 15:00:00 +0200
+date: 2021-03-26 23:00:00 +0200
 categories: sonification
 author: Henrik Sveen, Stephen Gardener, Pedro Lucas
 image: /assets/image/2021_03_25_henrikhs_marsgame.jpg
-keywords: sonification, mars, game
+keywords: sonification, mars, game, unity, python, osc, maxmsp
 excerpt: "Mars is a hot topic these days, and weather seems to always be a hot topic too. So how about making a project with both? We ended up gamifying the weather on Mars by discovirng the musical potential it may have."
 ---
 <figure style="float: auto">
@@ -16,7 +16,7 @@ excerpt: "Mars is a hot topic these days, and weather seems to always be a hot t
 A lot of things is sonificationable, which maybe is both the beauty and the beast when dealing with sonification. After a brainstorming session our group quickly landed on Mars as a topic for our sonification project. It has this spacious timeless mysteriousness to it and is highly relevant as research is being carried out more than ever before. So what to sonify? Weather of course. We humans love weather, whether it’s bad or good, doesn’t matter. We simply love it. But once we’ve talked about the weather here on earth, what more should we talk about? Yes, exactly, the weather on Mars. Mars has weather too and we were eager to work with the sonification of it.
 
 #### Roles and Contribution
-A team benefit we had is our individual strengths in programming. We quickly landed tasks for each member. Pedro has experience with game programming and development, so it made sense assigning that task to him. Stephen was chosen as backend developer due to his strong capabilities in computer programming, whereas Henrik was chosen to do the sound engine working with Max/MSP and sound synthesis. This distribution felt good and we were confident that this would provide us solid ground for executing the project.
+A team benefit we had is our individual strengths in programming. We quickly landed tasks for each member. Pedro has experience with game programming and development, so it made sense assigning that task to him. Stephen was chosen as backend developer due to his strong capabilities in computer programming, whereas Henrik was chosen to do the sound engine working with Max/MSP and sound synthesis. This distribution felt good and we were confident that this would provide us solid ground for executing the project. Finally, we all worked together on the sonification itself, deciding how the martian weather data would be interpreted and how the game mechanics would influence the audio and music.
 
 #### The Process
 So the first thing we needed was some weather data. Weather isn’t updated as frequent on Mars, so after going through some datasets we finally found what we were looking for. A daily weather datasheet. The data will always be one week old, as NASA wants to keep that as a secret buffer. So not much to do about that. The dataset has, among other values, temperature, pressure and radiation as some key factors, which we thought could be nice to work with.
