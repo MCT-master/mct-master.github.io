@@ -136,12 +136,10 @@ Here follows a brief presentation how different parameters of the sound are affe
 ## Demonstration
 
 <figure style="float: none">
-  <video width="auto" controls>
-    <source src="https://drive.google.com/uc?&id=1R0wqUIgvsisiVw2tNLlIJ_gRg0L9LxGf" type='video/mp4'>
-    Alternate Text
-  </video>
-  <figcaption>Aurora_sonified_by_valkyrie</figcaption>
+   <iframe src="https://drive.google.com/file/d/1R0wqUIgvsisiVw2tNLlIJ_gRg0L9LxGf/preview" width="auto" frameborder="0" allowfullscreen></iframe>
+   <figcaption>Aurora_sonified_by_valkyrie</figcaption>
 </figure>
+
 
 ## Endnotes and Future Developments
 
