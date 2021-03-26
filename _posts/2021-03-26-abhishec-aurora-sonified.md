@@ -4,13 +4,13 @@ title: "Valkyrie: Aurora Sonified"
 date: 2021-03-26 13:00:00 +0200
 categories: sonification
 author: Abhishek Choubey, Lindsay Charles, Joel Vide Hynsjö
-image: /assets/image/2021_03_26_abhishec_valkyrie_synth.png
+image: /assets/image/2021_03_26_abhishec_valkyrie_synth.PNG
 keywords: sonification, audio programming,aurora, northern lights, Audio, DSP, Music, Csound, python, aurora,
 excerpt: "The sound of Aurora sonified in a synth"
 ---
 
 <figure style="float: auto">
-   <img src="/assets/image/2021_03_26_abhishec_valkyrie_synth.png" alt="" title="Valkyrie_synth" width="auto"/> <figcaption></figcaption>
+   <img src="/assets/image/2021_03_26_abhishec_valkyrie_synth.PNG" alt="" title="Valkyrie_synth" width="auto"/> <figcaption></figcaption>
 </figure>
 
 
@@ -138,10 +138,10 @@ Here follows a brief presentation how different parameters of the sound are affe
 <figure style="float: none">
   <video width="auto" controls>
     <source src="https://drive.google.com/uc?&id=1R0wqUIgvsisiVw2tNLlIJ_gRg0L9LxGf" type='video/mp4'>
+    Alternate Text
   </video>
   <figcaption>Aurora_sonified_by_valkyrie</figcaption>
 </figure>
-
 
 ## Endnotes and Future Developments
 
@@ -157,10 +157,13 @@ In this quest of chasing the aurora in the given timeframe, we are happy and fee
 
 
 #### Useful links
+
 Real time solar wind data:
 https://www.swpc.noaa.gov/products/real-time-solar-wind
+
 Space weather data:
 https://www.swpc.noaa.gov/communities/space-weather-enthusiasts
+
 Aurora information:
 https://en.wikipedia.org/wiki/Aurora
 https://site.uit.no/spaceweather/what-are-the-northern-lights-aurora/
