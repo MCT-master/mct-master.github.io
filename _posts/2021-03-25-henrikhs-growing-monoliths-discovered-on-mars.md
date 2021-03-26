@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Growing Monoliths Discovered On Mars"
-date: 2021-03-26 16:00:00 +0200
+date: 2021-03-26 18:00:00 +0200
 categories: sonification
 author: Henrik Sveen, Stephen Gardener, Pedro Lucas
 image: /assets/image/2021_03_25_henrikhs_marsgame.jpg
@@ -25,6 +25,10 @@ So how to work them? With sonification projects we often find that you as a «us
 #### The Data
 It made sense to use Python to parse and manage the Martian weather data, as well as to handle communication between the Unity game engine and Max/MSP.
 Communication was set up using Open Sound Control (OSC), with the script acting as both a OSC client and server. The script steps through the daily (or sol-y - the Martian day is called a Sol) weather data that has been compiled into a JSON file, adjusts it based on in-game actions, and then sends that data out to Max and Unity. Talking of in-game actions, what is this game actually about?
+
+<figure style="float: auto">
+   <img src="/assets/image/2021_03_26_henrikhs_dataflow.png" alt="" title="he really knows how to work that axe" width="auto"/> <figcaption>Dataflow via OSC between Python, Unity and Max/MSP</figcaption>
+</figure>
 
 #### The Game
 The game is a driving based game. The scenery is of course Mars. You’re driving the Preservance Rover on the planet, discovering it. Out of the blue monoliths are starting to pop up and you have to drive into them to explore and discover the secrets of the monoliths. Driving into the monolith breaks it, and based on the size it will have an effect on which way (better or worse) the weather is changed towards, the music playing based on weather and impact collision and also some damage to the vehicle. Greater monoliths earn you more damage, but obviously also more points. And don’t worry, as you drive on Mars you will discover health packs. Breaking small monoliths will improve weather while big monoliths make it worse. In nice weather the pressure is higher, so the monoliths will grow slower. This will give you many small slow growing monoliths that don’t give you much points, so it gets harder and harder to avoid them as you wanna keep them growing so you can hit the big ones for real point gathering. The other way around when the monoliths grow big they will become dangerous and you will have to navigate around them so you don’t destroy the vehicle in the chase for discovering smaller monoliths that will make the weather better and the monoliths smaller again. When the monoliths reach maximum height, they become so dangerous that they will knock you out in one hit, so you would want to knock them down before that happens. It’s a game of balancing the climate and not being greedy for points as you at the same time don’t want to go too safe only hitting the small ones. In a way a metaphor to what’s going on with the climate on planet Earth too.
@@ -97,5 +101,4 @@ The «start game» and «game over» over melody lines are referring to ***2001:
 
 #### End Note
 Working on a project like this has been slightly different than other technical tasks we’ve done in MCT. We ended up using a lot of time actually figuring out what the game should be like to make the most sense, and the same thing goes for figuring out what the audio was going to be like. These parts took a while probably because there are so many possibilities and going through many revisions of ideas and evaluating them is a tedious process. But we feel like we got there in the end. We were all able to use our own skills in the project. Pedro did some excellent game programming and sew it all together, Stephen treated datasets crushed the numbers and Henrik got to play around with synthesis and build a sound engine. Small details ended up being the hardest part, but in retrospect we’re happy we took time to fix them.
-ABOUT PLAYING THE GAME
-IMPROVEMENTS FOR FUTURE
+Playing the game is really fun, and the music adds excitement to the gameplay when it reacts on your treatment of the weather data. Things we have thought about is making the car speed up throughout the gameplay as you gain higher scores, that way the difficulty would increase. Another element we would want to include is another enemy, and being in the 2001: space odyssey universe - what better than gorillas chasing you for destroying their precious monoliths? That was also the feedback from Stephen's son, he missed the element of being chased by robots (gorillas, or maybe even gorilla robots). So we all have something to look forward to here.
