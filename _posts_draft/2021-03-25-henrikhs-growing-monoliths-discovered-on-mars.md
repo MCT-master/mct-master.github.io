@@ -1,12 +1,12 @@
 ---
 layout: post
 title: "Growing Monoliths Discovered On Mars"
-date: 2021-03-26 23:00:00 +0200
+date: 2021-03-26 16:00:00 +0200
 categories: sonification
 author: Henrik Sveen, Stephen Gardener, Pedro Lucas
 image: /assets/image/2021_03_25_henrikhs_marsgame.jpg
 keywords: sonification, mars, game, unity, python, osc, maxmsp
-excerpt: "Mars is a hot topic these days, and weather seems to always be a hot topic too. So how about making a project with both? We ended up gamifying the weather on Mars by discovirng the musical potential it may have."
+excerpt: "Mars is a hot topic these days, and weather seems to always be a hot topic too. So how about making a project with both? We ended up gamifying the weather on Mars by discovering the musical potential it may have."
 ---
 <figure style="float: auto">
    <img src="/assets/image/2021_03_25_henrikhs_marsgame.jpg" alt="" title="he really knows how to work that axe" width="auto"/> <figcaption></figcaption>
@@ -29,8 +29,22 @@ Communication was set up using Open Sound Control (OSC), with the script acting 
 #### The Game
 The game is a driving based game. The scenery is of course Mars. You’re driving the Preservance Rover on the planet, discovering it. Out of the blue monoliths are starting to pop up and you have to drive into them to explore and discover the secrets of the monoliths. Driving into the monolith breaks it, and based on the size it will have an effect on which way (better or worse) the weather is changed towards, the music playing based on weather and impact collision and also some damage to the vehicle. Greater monoliths earn you more damage, but obviously also more points. And don’t worry, as you drive on Mars you will discover health packs. Breaking small monoliths will improve weather while big monoliths make it worse. In nice weather the pressure is higher, so the monoliths will grow slower. This will give you many small slow growing monoliths that don’t give you much points, so it gets harder and harder to avoid them as you wanna keep them growing so you can hit the big ones for real point gathering. The other way around when the monoliths grow big they will become dangerous and you will have to navigate around them so you don’t destroy the vehicle in the chase for discovering smaller monoliths that will make the weather better and the monoliths smaller again. When the monoliths reach maximum height, they become so dangerous that they will knock you out in one hit, so you would want to knock them down before that happens. It’s a game of balancing the climate and not being greedy for points as you at the same time don’t want to go too safe only hitting the small ones. In a way a metaphor to what’s going on with the climate on planet Earth too.
 
-#### Game Development (Pedro)
+#### Game Development
 
+The game was developed in the **Unity** game engine and uses a portion of code from the game [Shrinking Planet](https://ldjam.com/events/ludum-dare/38/shrinking-planet), which was implemented in the *Ludum Dare* game jam. The referenced code is intended to move an object around an sphere. From that base, we implemented the mechanics related to the gameplay described before involving the interaction between the Python and the Max/MSP modules through OSC messages (an open source library for OSC in Unity can be found [here](https://thomasfredericks.github.io/UnityOSC/)). Besides these interactions, the game reacts visually to the influence of the weather by using three parameters: *Weather*, *Pressure*, and *Radiation*. The *weather* parameter allows to set the environment to a hot, moderate, or cold state, which changes the color for the space background and the planet surface; the *pressure* modify a 'dizziness' visual effect in the whole rendering; and the *radiation* changes the intensity of three directional lights that points towards the planet.
+
+The game goal was set to earn score points and try to avoid losing life amount. This data is shown in an interface on top of the screen. When the player dies, an interface covering the whole screen is presented to inform the user that he or she has lost and require to start a new game. Also, the current weather state is shown all the time in the top-center of the screen.
+
+In the next section we will explain the work behind the audio, which is partially reproduced in Unity for specific sound effects such as a monolith hit, health pack, game status (new game or game over) and the car engine. Some little audio manipulation and triggering logic was develop in this case. For the car engine, the sample is looped infinitely and changed in pitch when the player increases or decreases the speed, also the panning changes when the car turns left or right. The monolith hit is played according to the height of the object that is hit and the sample to play is chosen randomly from a pool of similar sounds with little variations in order to avoid a monotonous sound landscape. In a similar way, the health pack sound is slightly changed in pitch and volume for give variation to the gameplay.
+
+We used third-party elements to enrich the visuals of the game which can be found in the following list:
+
+* [Shrinking Planet: Source Code](https://ldjam.com/events/ludum-dare/38/shrinking-planet)
+* [UnityOSC](https://thomasfredericks.github.io/UnityOSC/)
+* [Mars Perseverance Rover, 3D Model](https://mars.nasa.gov/resources/25042/mars-perseverance-rover-3d-model/)
+* [Mars Planet, 3D Model](https://sketchfab.com/3d-models/mars-7b14d8d8a5b94626a4b2a8a4455297d6)
+* [Monolith, 3D Model](https://sketchfab.com/3d-models/monolith-2-go-c461bc7581064db597e8988829c2f5b4)
+* [Unity Skyboxes](https://assetstore.unity.com/packages/2d/textures-materials/sky/skybox-series-free-103633)
 
 #### The Music
 Almost all audio is synthesized using Max/MSP. Before making the actual music we started with synthesizing the sound of Mars. The week before we started working on the project NASA released the first recordings of sound on Mars. This «noise» was something that could be synthesized. The benefit of synthesizing it rather than using the recording is the general feeling over time, as the synthesized noise will never repeat itself like a looped noise recording. It’s also easier to synthesize it in stereo rather than using the mono recording from Mars, so in general it feels a little more immersive and nice.
@@ -53,7 +67,7 @@ The sound for collecting health pack is inspired by classic retro games - a shor
     <source src="https://drive.google.com/uc?&id=1V9rWKE8IChIymt7WN5kOTB0gFHAW-x9c" type="audio/mpeg">
     Should show a media player
   </audio>
-  <figcaption>Helth Pack</figcaption>
+  <figcaption>Health Pack</figcaption>
 </figure>
 
 The «start game» and «game over» over melody lines are referring to ***2001: A Space Odyssey*** by using ***An der schönen, blauen Donau*** by J. Strauss as the base for the melody. The whole game itself kind of refers to that movie with the mystical space thematics and the monoliths, or should we say monoliths, occurring on an undiscovered planet. When you start the game it has a major scale snippet playing, and a classic minor scale variation in a slower tempo for the game over version. The fast major one is used at the start to motivate you, and the slow minor one at the end shows compassion with the user loosing the game. They are all based on a simple sine wave synth to fit well with the music playing in the game.
@@ -74,6 +88,12 @@ The «start game» and «game over» over melody lines are referring to ***2001:
   <figcaption>Game Over</figcaption>
 </figure>
 
+#### Demonstration Video
+
+<figure style="float: none">
+   <iframe src="https://drive.google.com/file/d/1ESr6EUC88-UNGb7XdT8s-tu6AKuyoP2s/preview" width="1024" height="576" frameborder="0" allowfullscreen></iframe>
+   <figcaption>Gameplay Demonstration</figcaption>
+</figure>
 
 #### End Note
 Working on a project like this has been slightly different than other technical tasks we’ve done in MCT. We ended up using a lot of time actually figuring out what the game should be like to make the most sense, and the same thing goes for figuring out what the audio was going to be like. These parts took a while probably because there are so many possibilities and going through many revisions of ideas and evaluating them is a tedious process. But we feel like we got there in the end. We were all able to use our own skills in the project. Pedro did some excellent game programming and sew it all together, Stephen treated datasets crushed the numbers and Henrik got to play around with synthesis and build a sound engine. Small details ended up being the hardest part, but in retrospect we’re happy we took time to fix them.
