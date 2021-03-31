@@ -45,7 +45,7 @@ the need for multiple audio files within the game project itself, which can be o
 of the bigger contributors to game size and loading times.
 
 <figure>
-    <img src="https://www.fmod.com/assets/img-studio/feature-for-sound-designers.jpg" width="650">
+    <img src="/assets/image/2021_03_31_thibault_fmod.jpeg" width="650">
     <figcaption>A project in FMOD</figcaption>
 </figure>
 
