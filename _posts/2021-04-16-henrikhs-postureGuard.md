@@ -8,6 +8,9 @@ image: /assets/image/2021_04_16_henrikhs_greatPosture.jpeg
 keywords: motion tracking, sonification, posture, max, msp, jitter
 excerpt: "Back pains, neck pains, shoulder pains - what do they all have in common? They are caused by bad posture while working on a laptop. So I tried to make a program that makes the laptop help you to maintain a good posture while working."
 ---
+<figure style="float: auto">
+   <img src="/assets/image/2021_04_16_henrikhs_wdyg.jpeg" alt="" title="Accumulated displacement" width="auto"/> <figcaption>Accumulated displacement of markers for top back, top head and front head.</figcaption>
+</figure>
 
 #### The Idea
 The last 15 years of my life working on laptops has been more or less a daily routine, and I can’t see it becoming less relevant the older I get. 7 years ago I started to feel shoulder and upper back pains, and a physiotherapist didn’t take long to tell me that my posture while working on a laptop was the reason for my troubles. He showed me how to sit and what to do, but of course, following his advise turned out to be way harder than it should’ve been. That being completely my responsibility and not the physiotherapist’s. Lately these pains have been knocking on my shoulders’ doors again, and once again I’ll have to deal with it.
@@ -22,10 +25,11 @@ To analyze my posture I did an optical motion capture in the lab using OptiTrack
 
 What I found from the plot of these markers was that my «top head», or just head, was the most moving body part when slowly falling into a «bend-over-laptop» posture. The neck also moved quite a bit, but the head, being placed on top of the neck, still had the biggest displacement. From this I started thinking that if my head is in a good position, then the rest of my neck and back will naturally be placed in a good position giving a good overall posture. A good posture is usually when the ears align with the resting shoulders with an open chest (Morrison, 2018).
 
+
 <figure style="float: none">
   <video width="auto" controls>
-    <source src="https://drive.google.com/file/d/1M0dMnd2CIXSKmqgr-5tr7g_klGjwM-lw/preview" type='video/mp4'>
-    Alternate Text
+    <source src="https://drive.google.com/uc?&id=1M0dMnd2CIXSKmqgr-5tr7g_klGjwM-lw" type='video/mp4'>
+    Should show a video player
   </video>
   <figcaption>Video of optical motion capture done with OptiTrack Motive</figcaption>
 </figure>
@@ -42,12 +46,52 @@ For the task itself working with the webcam and video capture at the core made s
 #### Capturing Motion
 For the video capture the computer webcam ended up being sufficient for handling the whole tracking task. The projects is made in Max/MSP with Jitter, and having read about OpenCV I figured a well known package to use in Max/MSP is Jean-Marc Pelletier’s cv.jit - Computer Vision for Jitter. It offers many of the same things, but in the work environment of Max/MSP. To start with, working with color tracking seemed like a possible approach, selecting a color and tracking it and finding bounds of the colored area to draw a shape around it. This worked for the purpose of tracking colors, but for the purpose of tracking body posture it didn’t do a great job as face colors are organic and not strong like the colors of for instance post-it notes. So face colors were detected a lot of places. When looking through the cv.jit library I came across the cv.jit.faces object, which offers face tracking. Tracking faces made sense as that is mainly what the computer sees when someone is working on it. The function works in a way that it looks for the general basics of a face (two eyes, a nose in the middle and a mouth below) and returns the square bounds in pixels around the face. Working with it for a while revealed that this method was excellent for the task of tracking posture using the head/face as marker. The tracker draws a square around the faces it’s tracking and provides bounds given in pixels for each line. The benefit of this was that this square will increase in size when moving closer to the computer and get smaller the further away the user is. This is used as a Z coordinate in the video capture, making it possible for the computer to analyze proximity of the face at any time. This was a big step for the project to reach the end goal and carries out the main motion tracking. However, there are limitations to how this function tracks and that’s where the phones’ gyro data gets useful. For instance, there is no stable way to track via video if the head is tilted in the up and down position, nor does it track the sideways tilt. By using the phone, as an intermediate gyro-tracker solution, because of the inconvenience of having a phone attached to the back of your head while working, it’s way more detailed and easier to keep track of posture. This also opened up for notifying the user of what specifically was going wrong with the posture. Is it your head that is starting to tilt down, are you leaning over to the side or are you simply too close to the screen? Another great feature with the phone is the roll, which in this case tracks which way you’re looking. This has been used to switch off the alarms when the user is not looking at the screen, which is convenient if the user feels like looking out a window or talk to someone in the room without being alarmed about posture.
 
-<figure style="float: auto">
-   <img src="/assets/image/2021_04_16_henrikhs_tooClose.jpeg" alt="" title="Accumulated displacement" width="auto"/> <figcaption>Program says you're "TOO CLOSE" to the computer screen</figcaption>
+
+<figure style="float: none">
+  <video width="auto" controls>
+    <source src="https://drive.google.com/uc?&id=1-nHbLs2Eqe4kvEkdtyFLZiEanm6YcpIh" type='video/mp4'>
+    Should show a video player
+  </video>
+  <figcaption>The basics of Posture Guard - tracking face and proximoty via webcam</figcaption>
 </figure>
 
 #### Sonification of Posture
 For the video capture and tracking there are two different alarms, one subtle mode which is based on sine waves with sonic and rhythmic phasing i stereo, and there’s an «obnoxious» one which sounds more like a traditional siren alarm system. Mainly so you can choose a way to be alarmed. The alarms becomes more intense as the user approaches the computer, which serves as a sonification of the proximity between user and computer. When gyro tracking is connected, additional sounds are played. When pitch is detecting a forward tilted neck, it plays a rising sine wave based on how low the neck is, telling the user how much he or she needs to raise the neck back to an upright position. The yaw is tracking sideways tilt, and has a wind type effect blowing towards the left when the user tilts right, and vice versa, so the user is encouraged to tilt the neck back up in an upright position from the current position. This makes use of the bodily metaphors and verticality we know of in the relation between sound and motion and should serve as a logical sound mapping being intuitive for the user to understand. All sounds are synthesized real time inside the running patch for modulation control and flexibility.
+
+
+<figure style="float: none">
+  <audio controls>
+    <source src="https://drive.google.com/uc?&id=1zmCzWJh51-IijLx-657CR2wLGQLOaVHI" type="audio/mpeg">
+    Should show a media player
+  </audio>
+  <figcaption>Nice alarm mode moving very close to the screen and back</figcaption>
+</figure>
+
+
+<figure style="float: none">
+  <audio controls>
+    <source src="https://drive.google.com/uc?&id=1-K3_zjGFQpDPkqnTl9LGnW7MrWiy3tRX" type="audio/mpeg">
+    Should show a media player
+  </audio>
+  <figcaption>Obnoxious alarm mode moving very close to the screen and back</figcaption>
+</figure>
+
+<figure style="float: none">
+  <audio controls>
+    <source src="https://drive.google.com/uc?&id=1as8zkMiOSVusVhNG2-IpqIVJEiY2QaEm" type="audio/mpeg">
+    Should show a media player
+  </audio>
+  <figcaption>Neck tilt (pitch) mapped to pitch where tone height tells you according to verticality how much you need to correct your neck tilt to obtain good posture</figcaption>
+</figure>
+
+<figure style="float: none">
+  <audio controls>
+    <source src="https://drive.google.com/uc?&id=1U1jJTHXTJO1P37eHp-4TXZfHIo6sR9mJ" type="audio/mpeg">
+    Should show a media player
+  </audio>
+  <figcaption>Sideways neck movement where sound tells you which direction you should move your neck on the left/right plane to obtain good posture</figcaption>
+</figure>
+
 
 #### Usage
 Regarding use it quickly became clear that parameters like sensitivity and reaction time had to be incorporated, as it’s pretty annoying having the alarm trigger at small movements or if you just want to have a closer look at the screen for a short period of time. This posture guard only reacts when you move closer, and not away from the computer due to many chairs having a «lean back» function which isn’t necessarily a bad thing for posture. Unless working from a very backwards heavy posture.
