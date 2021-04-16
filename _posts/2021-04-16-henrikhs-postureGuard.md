@@ -1,15 +1,15 @@
 ---
 layout: post
 title: "Posture Guard"
-date: 2021-04-16 18:00:00 +0200
+date: 2021-04-16 13:00:00 +0200
 categories: motion-tracking
 author: Henrik Sveen
 image: /assets/image/2021_04_16_henrikhs_greatPosture.jpeg
 keywords: motion tracking, sonification, posture, max, msp, jitter
-excerpt: "Back pains, neck pains, shoulder pains - what do they all have in common? They are caused by bad posture while working on a laptop. So I tried to make a program that makes the laptop help you to maintain a good posture while working."
+excerpt: "Back pains, neck pains, shoulder pains - what do they all have in common? They are caused by bad posture while working on a laptop. So I made a program that makes the laptop help out maintaining a good posture while working."
 ---
 <figure style="float: auto">
-   <img src="/assets/image/2021_04_16_henrikhs_wdyg.jpeg" alt="" title="Accumulated displacement" width="auto"/> <figcaption>Accumulated displacement of markers for top back, top head and front head.</figcaption>
+   <img src="/assets/image/2021_04_16_henrikhs_wdyg.jpeg" alt="" title="Accumulated displacement" width="250"/> <figcaption></figcaption>
 </figure>
 
 #### The Idea
@@ -27,7 +27,7 @@ What I found from the plot of these markers was that my «top head», or just he
 
 
 <figure style="float: none">
-  <video width="auto" controls>
+  <video width="500" controls>
     <source src="https://drive.google.com/uc?&id=1M0dMnd2CIXSKmqgr-5tr7g_klGjwM-lw" type='video/mp4'>
     Should show a video player
   </video>
@@ -48,11 +48,11 @@ For the video capture the computer webcam ended up being sufficient for handling
 
 
 <figure style="float: none">
-  <video width="auto" controls>
+  <video width="500" controls>
     <source src="https://drive.google.com/uc?&id=1-nHbLs2Eqe4kvEkdtyFLZiEanm6YcpIh" type='video/mp4'>
     Should show a video player
   </video>
-  <figcaption>The basics of Posture Guard - tracking face and proximoty via webcam</figcaption>
+  <figcaption>The basics of Posture Guard - tracking face and proximity via webcam</figcaption>
 </figure>
 
 #### Sonification of Posture
@@ -64,7 +64,7 @@ For the video capture and tracking there are two different alarms, one subtle mo
     <source src="https://drive.google.com/uc?&id=1zmCzWJh51-IijLx-657CR2wLGQLOaVHI" type="audio/mpeg">
     Should show a media player
   </audio>
-  <figcaption>Nice alarm mode moving very close to the screen and back</figcaption>
+  <figcaption>Nice alarm mode moving very close to the screen and back.</figcaption>
 </figure>
 
 
@@ -73,7 +73,7 @@ For the video capture and tracking there are two different alarms, one subtle mo
     <source src="https://drive.google.com/uc?&id=1-K3_zjGFQpDPkqnTl9LGnW7MrWiy3tRX" type="audio/mpeg">
     Should show a media player
   </audio>
-  <figcaption>Obnoxious alarm mode moving very close to the screen and back</figcaption>
+  <figcaption>Obnoxious alarm mode moving very close to the screen and back.</figcaption>
 </figure>
 
 <figure style="float: none">
@@ -81,20 +81,19 @@ For the video capture and tracking there are two different alarms, one subtle mo
     <source src="https://drive.google.com/uc?&id=1as8zkMiOSVusVhNG2-IpqIVJEiY2QaEm" type="audio/mpeg">
     Should show a media player
   </audio>
-  <figcaption>Neck tilt (pitch) mapped to pitch where tone height tells you according to verticality how much you need to correct your neck tilt to obtain good posture</figcaption>
+  <figcaption>Neck tilt (pitch) mapped to pitch where tone height tells you according to verticality how much you need to correct your neck tilt to obtain good posture.</figcaption>
 </figure>
 
 <figure style="float: none">
   <audio controls>
-    <source src="https://drive.google.com/uc?&id=1U1jJTHXTJO1P37eHp-4TXZfHIo6sR9mJ" type="audio/mpeg">
+    <source src="https://drive.google.com/uc?&id=1QQPoND3-j9tsOnk7a5Ebjpr3GyialvKo" type="audio/mpeg">
     Should show a media player
   </audio>
-  <figcaption>Sideways neck movement where sound tells you which direction you should move your neck on the left/right plane to obtain good posture</figcaption>
+  <figcaption>Sideways neck movement where sound tells you which direction you should move your neck on the left/right plane to obtain good posture. In the example the head is first leaning too much to the right, triggering a signal that signifies you should be moving more to the left, and the second is the other way around.</figcaption>
 </figure>
 
-
 #### Usage
-Regarding use it quickly became clear that parameters like sensitivity and reaction time had to be incorporated, as it’s pretty annoying having the alarm trigger at small movements or if you just want to have a closer look at the screen for a short period of time. This posture guard only reacts when you move closer, and not away from the computer due to many chairs having a «lean back» function which isn’t necessarily a bad thing for posture. Unless working from a very backwards heavy posture.
+Regarding use it quickly became clear that parameters like sensitivity and reaction time had to be incorporated, as it’s pretty annoying having the alarm trigger at small movements or if you just want to have a closer look at the screen for a short period of time. This posture guard only reacts when you move closer, and not away from the computer due to many chairs having a «lean back» function which isn’t necessarily a bad thing for posture. Unless working from a very backwards heavy posture. The mode saying asking where you went was made so that if the program doesn't detect a face, it stops the alarms so it doesn't play an annoying alarm sound with no one present. Highly beneficial when sitting in an open office or if you're wearing wireless headphones and go to grab a coffee.
 
 #### Conclusion
-Using the Posture Guard is quite interesting as I get to know how often I actually descend from a healthy posture while working on a computer. Which is quite often. At least that has been my experience. As a helper it’s both nice to have and annoying, even though I did my best to make it as gentle as possible. The system doesn’t require any external markers or gadgets, unless used with a phone in gyro mode, but still it feels like something that is quite responsive to what you do. Using the camera’s sense of face size for tracking proximity was an eye opener for working with a three dimensional space captured by one camera alone. This could also be applied for simple strong colored objects when tracking colors, keeping track of the size of the bounds found by the camera. For improvement finding a smaller and more user friendly gyrometer with a wireless connection is a god idea as the gyro mode gives a pretty detailed tracking of the whole neck and head parts. The face tracking itself is a pretty processor heavy task, and something to work on with. Scaling the video helps, and this could probably be scaled down further for lighter processing, even though using 240x160 was sufficient for use on my computer system, giving a pixelated video monitor. A solution for this would be to do the tracking on scaled video data and then scaling it back up when drawing the text and figures on the monitor. But then again, it’s only for visual monitoring purposes in a program where sound is used to notify the user. I did test the program while running video chat and an Ableton Live project, and my computer still works.
+Using the Posture Guard is quite interesting as I get to know how often I actually descend from a healthy posture while working on a computer. Which is quite often. At least that has been my experience. As a helper it’s both nice to have and annoying, even though I did my best to make it as gentle as possible. The system doesn’t require any external markers or gadgets, unless used with a phone in gyro mode, but still it feels like something that is quite responsive to what you do. Using the camera’s sense of face size for tracking proximity was an eye opener for working with a three dimensional space captured by one camera alone. This could also be applied for simple strong colored objects when tracking colors, keeping track of the size of the bounds found by the camera. For improvement finding a smaller and more user friendly gyrometer with a wireless connection is a god idea as the gyro mode gives a pretty detailed tracking of the whole neck and head parts. The face tracking itself is a pretty processor heavy task, and something to work on with. Scaling the video helps, and this could probably be scaled down further for lighter processing, even though using 240x160 was sufficient for use on my computer system, giving a pixelated video monitor. A solution for this would be to do the tracking on scaled video data and then scaling it back up when drawing the text and figures on the monitor. But then again, it’s only for visual monitoring purposes in a program where sound is used to notify the user. I did test the program while running video chat and an Ableton Live project, and my computer still works. Thank you.
