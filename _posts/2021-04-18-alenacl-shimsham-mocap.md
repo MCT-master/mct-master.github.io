@@ -12,7 +12,7 @@ excerpt: "We've learned about motion capture in a research environment. But what
 # Music-related motion capture
 
 <figure style="float: auto">
-   <img src="/assets/image/2021_04_18_alenacl_blender_retargeting.JPG" alt="" title="Blender retargeting" width="450"/> <figcaption></figcaption>
+   <img src="/assets/image/2021_04_18_alenacl_blender_retargeting.JPG" alt="" title="Blender retargeting" width="700"/> <figcaption></figcaption>
 </figure>
 
 ## My background and inspiration
@@ -98,7 +98,7 @@ When plotting the speed of the left and right tip of toes markers for all three 
   <figcaption>Animation of stormtrooper and monkey dancing Shim-Sham</figcaption>
 </figure>
 
-![Stormtrooper and monkey dancing shim sham](https://drive.google.com/file/d/1J_fd1sMNDdVMffEq6CpMU8WPTXEn43ur/view?usp=sharing)
+![Stormtrooper and monkey dancing shim sham](https://drive.google.com/uc?&id=1J_fd1sMNDdVMffEq6CpMU8WPTXEn43ur)
 
 ## Final thoughts
 
