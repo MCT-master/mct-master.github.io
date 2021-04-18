@@ -12,7 +12,7 @@ excerpt: "We've learned about motion capture in a research environment. But what
 # Music-related motion capture
 
 <figure style="float: auto">
-   <img src="/assets/image/2021_04_18_alenacl_blender_retargeting.jpeg" alt="" title="Blender retargeting" width="250"/> <figcaption></figcaption>
+   <img src="/assets/image/2021_04_18_alenacl_blender_retargeting.JPG" alt="" title="Blender retargeting" width="250"/> <figcaption></figcaption>
 </figure>
 
 ## My background and inspiration
@@ -63,25 +63,25 @@ When I came up with this project idea, I was interested to see if the notion of 
 In the graphs below, the distance travelled for all markers in the three takes are shown. Visually, this seems to be in line with my intuition - you can see how in the first take, the legs and feet are moving significantly more than the rest of the body, whereas in the other takes the rest of the body is starting to move more and more - especially in the graph for the first take, the legs and feet are having a significantly different curve: the curves in the upper part of the graph are for the knees, shins, ankles, and toes. I calculated the average amount of displacement along each axis for the three takes, and the values are also consistent with this idea. The dancer himself mentioned after the recording that in the second take started to focus on moving the upper body (and booty!) as well as the moves with the feet, and that in the third take he tried to focus on everything (and stumbled upon some steps). A more sistematic study (with more takes) is necessary to find a definitive answer, though.
 
 <figure style="float: auto">
-   <img src="/assets/image/2021_04_18_alenacl_distance_all.jpeg" alt="" title="Three graphs from three takes with the distance travelled of all markers"/> <figcaption>All markers distance travelled</figcaption>
+   <img src="/assets/image/2021_04_18_alenacl_distance_all.JPG" alt="" title="Three graphs from three takes with the distance travelled of all markers"/> <figcaption>All markers distance travelled</figcaption>
 </figure>
 
 After considering the previous graphs, I was interested to see which markers had the most movement that was relevant for the performed dance move - going with the right foot in front once, then the left, then twice with the right, like in the dancing clip. Logically, the tip of the toes marker had the most movement, and also the most relevant. Here we can see the displacement of the toe tip markers positioned along the Y (posterior-anterior) axis. We can also start to notice the exact moves of the feet (and where the dancer stumbled over his steps a bit). 
 
 <figure style="float: auto">
-   <img src="/assets/image/2021_04_18_alenacl_displacement_along_Y.jpeg" alt="" title="The tip of the foot markers' displacement along Y axis"/> <figcaption>Foot tip markers' displacement along Y axis</figcaption>
+   <img src="/assets/image/2021_04_18_alenacl_displacement_along_Y.JPG" alt="" title="The tip of the foot markers' displacement along Y axis"/> <figcaption>Foot tip markers' displacement along Y axis</figcaption>
 </figure>
 
 When analysing the speed of the markers I checked the trajectories for the knee, shin and ankle markers as well as for the toes, and all showed a clear indication of the dance moves. However, the markers placed on the tip of the toes gave the biggest amount of information (as expected) - you can observe this in the graph below, where all the markers of the right leg and foot in the first try are plotted.
 
 <figure style="float: auto">
-   <img src="/assets/image/2021_04_18_alenacl_markers_right_leg.jpeg" alt="" title="Right leg and foot markers' speed"/> <figcaption>Right leg and foot speed</figcaption>
+   <img src="/assets/image/2021_04_18_alenacl_markers_right_leg.JPG" alt="" title="Right leg and foot markers' speed"/> <figcaption>Right leg and foot speed</figcaption>
 </figure>
 
 When plotting the speed of the left and right tip of toes markers for all three takes, the dance move performed becomes entirely obvious. We see two peaks for each move (speed was used to move the foot in front and again to take the foot back), and we can observe how the speed for the right and left foot differ. The mistakes become quite obvious as well (when there are more peaks than necessary for the move). 
 
 <figure style="float: auto">
-   <img src="/assets/image/2021_04_18_alenacl_speed_both_tips.jpeg" alt="" title="Both tips of the feet's speed"/> <figcaption>Speed of both feet toe tips</figcaption>
+   <img src="/assets/image/2021_04_18_alenacl_speed_both_tips.JPG" alt="" title="Both tips of the feet's speed"/> <figcaption>Speed of both feet toe tips</figcaption>
 </figure>
 
 
