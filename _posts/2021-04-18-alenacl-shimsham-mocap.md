@@ -92,13 +92,18 @@ When plotting the speed of the left and right tip of toes markers for all three 
 
 <figure style="float: none">
   <video width="300" controls>
-    <source src="https://drive.google.com/file/d/1J_fd1sMNDdVMffEq6CpMU8WPTXEn43ur/view?usp=sharing" type='video/mp4'>
+    <source src="https://drive.google.com/file/d/1J_fd1sMNDdVMffEq6CpMU8WPTXEn43ur/preview" type='video/mp4'>
     Video player?
   </video>
   <figcaption>Animation of stormtrooper and monkey dancing Shim-Sham</figcaption>
 </figure>
 
 ![Stormtrooper and monkey dancing shim sham](https://drive.google.com/uc?&id=1J_fd1sMNDdVMffEq6CpMU8WPTXEn43ur)
+
+<figure style="float: none">
+   <iframe src="https://drive.google.com/file/d/1J_fd1sMNDdVMffEq6CpMU8WPTXEn43ur/preview" width="1024" height="576" frameborder="0" allowfullscreen></iframe>
+   <figcaption>Stormtrooper and monkey dancing shim sham</figcaption>
+</figure>
 
 ## Final thoughts
 
