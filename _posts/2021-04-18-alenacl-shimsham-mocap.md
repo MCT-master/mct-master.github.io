@@ -38,15 +38,7 @@ Creating a skeleton was way easier than in Qualsis. I used a predefined skeleton
 After this, recording the data was quite straightforward. Below you can see a [short sneak peak](https://drive.google.com/file/d/1IDtiNDjm2YH3wb3CtvauvtRK8kx5ppes/preview) from during one of the recordings. Exporting the data for anlaysis went smoothly as well. 
 
 <figure style="float: none">
-  <video width="300" controls>
-    <source src="https://drive.google.com/file/d/1IDtiNDjm2YH3wb3CtvauvtRK8kx5ppes/view" type='video'>
-    Video player?
-  </video>
-  <figcaption>Sneak Peak from the lab during data aquisition</figcaption>
-</figure>
-
-<figure style="float: none">
-   <iframe src="https://drive.google.com/file/d/1IDtiNDjm2YH3wb3CtvauvtRK8kx5ppes/preview" width="500" height="300" frameborder="0" allowfullscreen></iframe>
+   <iframe src="https://drive.google.com/file/d/1IDtiNDjm2YH3wb3CtvauvtRK8kx5ppes/preview" width="600" height="400" frameborder="0" allowfullscreen></iframe>
    <figcaption>Sneak Peak from the lab during data aquisition</figcaption>
 </figure>
 
