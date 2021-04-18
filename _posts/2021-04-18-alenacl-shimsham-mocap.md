@@ -98,6 +98,8 @@ When plotting the speed of the left and right tip of toes markers for all three 
   <figcaption>Animation of stormtrooper and monkey dancing Shim-Sham</figcaption>
 </figure>
 
+![Stormtrooper and monkey dancing shim sham](https://drive.google.com/file/d/1J_fd1sMNDdVMffEq6CpMU8WPTXEn43ur/view?usp=sharing)
+
 ## Final thoughts
 
 Through this project, I had two man goals and I believe I managed to reach them both. On one hand, I wanted to learn how to go through the entire timeline of a mocap based project - from data aquisition to data analysis. This step was entirely successful - I managed to have a very clean data aquisition, and the analysis showed proof of what I intuitively believed to be true before. Arguably, I could have done a more complex analysis, and in future projects I will focus on extracting more information from the mocap data than the basics and on having better roots on existing literature. The purpose of the analysis should have also been clearer, and less exploratory, for which I apologize. 
