@@ -87,5 +87,21 @@ I believe that there is a lot more to discover in this filed, and numerous resea
 In essence this is trying to find out on a broader scale what makes good recordings, that also correlates with the musicians who recorded it. We all have experienced recording some part, and when you hear it again after post processing, your comment is: «Cool … who’s playing?», haven’t we.
 
 <figure style="float: auto">
-   <img src="/assets/image/2021_04_18_anderlid_fig7.jpg" alt="" title="" width="auto"/> <figcaption>Fig. 7 shows the beautiful waggling in the y-axis, again, wet-monitored on the left, dry-monitored on the right.</figcaption>
+   <img src="/assets/image/2021_04_18_anderlid_fig7.jpg" alt="" title="" width="auto"/> <figcaption>Fig. 7 shows the beautiful waggling in the y-axis, again, wet-monitored on the left, dry-monitored on the right, showing the more wavy motions when listening to the actual end result.</figcaption>
+</figure>
+
+<figure style="float: none">
+  <audio controls>
+    <source src="https://drive.google.com/uc?&id=1Yuc7W9Vus_ZbPDMmZvwIqOg0ubDHSZWV" type="audio/mpeg">
+    Should show a media player
+  </audio>
+  <figcaption>Wet signal, dry monitored.</figcaption>
+</figure>
+
+<figure style="float: none">
+  <audio controls>
+    <source src="https://drive.google.com/uc?&id=1qZSvJhZ4s9Iae2hAs9wzDdgTtgJJikq4" type="audio/mpeg">
+    Should show a media player
+  </audio>
+  <figcaption>Wet signal, wet monitored.</figcaption>
 </figure>
