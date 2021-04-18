@@ -232,13 +232,8 @@ be explored further. I also find it more rewarding exploring easily
 available tools. Rather than having to rely upon expensive closed off
 systems, I find the cheap and open resources much more attractive.
 
-<figure style="float: none">
-  <app>
-    <source src="https://drive.google.com/uc?&id=1dEGuaeAYb7n5pUj6ffcwBWmoit9yBpYr" type="video/mp4">
-    Should show a media player
-  </audio>
-  <figcaption>Demonstration of basic prototype</figcaption>
-</figure>
+
+<iframe src="https://drive.google.com/uc?&id=1dEGuaeAYb7n5pUj6ffcwBWmoit9yBpYr" style="border:0px #ffffff none;" name="myiFrame" scrolling="no" frameborder="1" marginheight="0px" marginwidth="0px" height="400px" width="600px" allowfullscreen></iframe>
 
 Resources used in this project:
 
