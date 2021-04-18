@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Motion, emotion in recording"
+title: "Motion (and emotion) in recording"
 date: 2021-04-18 23:00:00 +0200
 categories: motion-tracking
 author: Anders Lidal
