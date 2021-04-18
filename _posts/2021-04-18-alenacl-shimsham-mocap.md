@@ -12,7 +12,7 @@ excerpt: "We've learned about motion capture in a research environment. But what
 # Music-related motion capture
 
 <figure style="float: auto">
-   <img src="/assets/image/2021_04_18_alenacl_blender_retargeting.JPG" alt="" title="Blender retargeting" width="250"/> <figcaption></figcaption>
+   <img src="/assets/image/2021_04_18_alenacl_blender_retargeting.JPG" alt="" title="Blender retargeting" width="450"/> <figcaption></figcaption>
 </figure>
 
 ## My background and inspiration
@@ -39,7 +39,7 @@ After this, recording the data was quite straightforward. Below you can see a sh
 
 <figure style="float: none">
   <video width="300" controls>
-    <source src="https://drive.google.com/file/d/1IDtiNDjm2YH3wb3CtvauvtRK8kx5ppes/view?usp=sharing" type='video/mp4'>
+    <source src="https://drive.google.com/file/d/1IDtiNDjm2YH3wb3CtvauvtRK8kx5ppes/view?usp=sharing" type='video'>
     Video player?
   </video>
   <figcaption>Sneak Peak from the lab during data aquisition</figcaption>
@@ -52,7 +52,7 @@ After exporting the mocap data as .csv files, I analysed them with the Jupyter N
 
 <figure style="float: none">
   <video width="500" controls>
-    <source src="https://drive.google.com/file/d/15Igi0M600iwcFVd32vrwiuuZKVsGMmv_/view?usp=sharing" type='video/mp4'>
+    <source src="https://drive.google.com/file/d/15Igi0M600iwcFVd32vrwiuuZKVsGMmv_/view?usp=sharing" type='Video'>
     Video player?
   </video>
   <figcaption>Short exerpt of the Shim Sham dance used in analysis</figcaption>
