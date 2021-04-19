@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Exploring the inﬂuence of expressive body movements on audio parameters of piano performances"
+title: "Exploring the influence of expressive body movement on audio parameters of piano performances"
 date: 2021-04-19 00:30:00 +0200
 categories: motion-tracking
 author: Wenbo Yi
@@ -15,7 +15,7 @@ Musicians move in many ways when performing music, expressive body movements are
 
 In previous empirical studies, researchers have mainly focused on the cross-modal perception between movement and sound. For example, visual and auditory information is found to be closely linked, influencing the listener's judgment of the musical performance(Dahl and Friberg, 2007; Castellano et al., 2007). Early research showed that non-musicians mainly use visual cues to perceive expressiveness in violin and piano performances(Davidson, 1993), more recent research demonstrated that although both auditory and visual kinematic cues contribute greatly to the perception of musical expressivity, the effect of visual kinematic cues appears to be stronger(Vuoskoski et al., 2014, 2016). Moreover, Massie-Laberge stated that auditors can distinguish pianists’ different expressive performances in three modalities (audioonly, visual-only, or audio-visual) but are better in the audio-visual modality, and the body movement may have a perceptual impact on expressive parameters (Juchniewicz, 2008; Massie-Laberge et al., 2016, 2018).
 
-However, how expressive body movement affects the audio parameters of the music performance remains relatively low progress. Therefore, this project aims to synthesize the method developed by Davidson(1993, 1994) and Wandely(2002) on expressive music performance in different states, to explore the differences in audio parameters and also the body movement features of piano solo performances under three body movement conditions: *Deadpan*, *Normal*, and *Exaggerated*. *Normal* is defined as the body movements required for normal performance, the performer does not deliberately change his body movements. *Deadpan* is defined as using only the body movements necessary for the performance and reducing all body movements as much as possible. *Exaggerated* is defined as an exaggerated expressive body movement, which increases the range of expressive body movement as much as possible when performing. The three different performance conditions all require the pianist to keep the artistic expression as similar as possible.
+However, how expressive body movement affects the audio parameters of the music performance remains relatively low progress. Therefore, this project aims to synthesize the method developed by Davidson(1993, 1994) and Wandely(2002) on expressive music performance in different states, to explore the differences in audio parameters and also the body movement features of piano solo performances under three body movement conditions: **Deadpan**, **Normal**, and **Exaggerated**. **Normal** is defined as the body movements required for normal performance, the performer does not deliberately change his body movements. **Deadpan** is defined as using only the body movements necessary for the performance and reducing all body movements as much as possible. **Exaggerated** is defined as an exaggerated expressive body movement, which increases the range of expressive body movement as much as possible when performing. The three different performance conditions all require the pianist to keep the artistic expression as similar as possible.
 
 My main research questions include the following two points: 1) How audio parameters are affected by a modiﬁcation in expressive body movements? 2) How expressive body movement change when playing under different conditions? I hypothesize that changes in expressive body movement will affect tempo and performance dynamics, and head movement may change drastically under different conditions.
 
@@ -30,23 +30,23 @@ Due to the epidemic and time constraints, the current experiment will only have 
 
 For the selection of excerpts, three tracks from three composers from the same period, a total of six excerpts were selected, according to the technical difficulty of the music score, all the excerpts were divided into three levels: difficult, medium and easy
 
-• [Hungarian Rhapsody No.2, S.244/2](https://www.youtube.com/watch?v=v95I6kGghmk)-Franz Liszt, Marked as Liszt 1(easy), Liszt 2(difficult), Liszt 3(difficult)
+• [Hungarian Rhapsody No.2, S.244/2](https://www.youtube.com/watch?v=v95I6kGghmk)-Franz Liszt, Marked as *Liszt 1(easy)*, *Liszt 2(difficult)*, *Liszt 3(difficult)*.
 
-• [Ballade No.1, Op.23](https://www.youtube.com/watch?v=Ce8p0VcTbuA)-Frédéric Chopin, Marked as Chopin1(medium), Chopin2(easy)
+• [Ballade No.1, Op.23](https://www.youtube.com/watch?v=Ce8p0VcTbuA)-Frédéric Chopin, Marked as *Chopin1(medium)*, *Chopin2(easy)*.
 
-• [6 Klavierstücke, Op.118](https://www.youtube.com/watch?v=OQYX8wUu5rI)-Johannes Brahms, Marked as Brahms1(medium)
+• [6 Klavierstücke, Op.118](https://www.youtube.com/watch?v=OQYX8wUu5rI)-Johannes Brahms, Marked as *Brahms1(medium)*.
 
 ## 2.2 Procedure
 
-Each excerpt was performed in order in three different conditions three times: Normal, Deadpan, Exaggerated, a total of 54 files were recorded.
+Each excerpt was performed in order in three different conditions three times: Normal, Deadpan, Exaggerated, a total of **54 files** were recorded.
 
-In Motion Capture section, motion data were collected, at a 120 frames per second, with a 8-camera Opti-track Motion Capture in University of Oslo, MCT Portal. Using 25 passive reflective markers on the performer’s heads, wrists, shoulders, torso, elbows and arms, the placement of markers on performer’s body is listed in Figure 1.
+In **Motion Capture** section, motion data were collected, at a **120** frames per second, with a 8-camera Opti-track Motion Capture in University of Oslo, [MCT Portal](https://www.hf.uio.no/imv/english/about/rooms-and-equipment/mct-portal/). Using 25 passive reflective markers on the performer’s **heads**, **wrists**, **shoulders**, **torso**, **elbows** and **arms**, the placement of markers on performer’s body is listed in Figure 1.
 
 <figure style="float: auto">
    <img src="/assets/image/2021_04_19_wenbo_figure1.png" alt="" title="Figure 1. Upper body skeleton on Opti-track"/> <figcaption>Figure 1. Upper body skeleton on Opti-track</figcaption>
 </figure>
 
-In audio recording section, audio and MIDI files were recorded by a pair of AKG C414 microphones in AB Stereo Format and MIDI output through SSL 2+ Audio Interface, sampled at 48 kHz, 24 bit.
+In **audio recording** section, audio and MIDI files were recorded by a pair of AKG C414 microphones in AB Stereo Format and MIDI output through SSL 2+ Audio Interface, sampled at 48 kHz, 24 bit.
 
 <figure style="float: auto">
    <img src="/assets/image/2021_04_19_wenbo_figure2.png" alt="" title="Figure 2. Recording Setup"/> <figcaption>Figure 2. Recording Setup</figcaption>
@@ -60,11 +60,11 @@ Motion capture data will be analyzed through [Qualisys](https://www.qualisys.com
 
 ## 3.1 Audio analysis
 
-Three audio parameters were analyzed: Duration, RMS and Pulse Clarity. The Duration and RMS were analyzed by Python Librosa package, and the latter parameter was analyzed by MIR Toolbox. Because the last parameter changes too drastically between the performances of the same excerpts, so only Duration and RMS were used in this project.
+Three audio parameters were analyzed: *Duration*, *RMS* and *Pulse Clarity*. The Duration and RMS were analyzed by Python Librosa package, and the latter parameter was analyzed by MIR Toolbox. Because the last parameter changes too drastically between the performances of the same excerpts, so only Duration and RMS were used in this project.
 
 ### Duration
 
-In this section, I directly compared the duration of the same excerpt in three conditions. After calculating the average duration and variance for the six excerpts in three conditions(sorted from easy to difficult), I found that the difficult excerpts become faster with restricted body movement. In addition, the modified body movements made the easy level excerpts like Brahms1/Chopin1 slower than the normal version. Moreover, the body movement modifications rarely affect the duration in the two excerpts with the lowest difficulty factors, which also the two slowest excerpts.
+In this section, I directly compared the **duration** of the same excerpt in three conditions. After calculating the average duration and variance for the six excerpts in three conditions(sorted from easy to difficult), I found that the difficult excerpts become faster with restricted body movement. In addition, the modified body movements made the easy level excerpts like Brahms1/Chopin1 slower than the normal version. Moreover, the body movement modifications rarely affect the duration in the two excerpts with the lowest difficulty factors, which also the two slowest excerpts.
 
 From the perspective of variance, I found that restricting body movement can affect the performance’s duration more than exaggerating them. and it is also matches the performer’s subjective feeling: It is more difficult to control the performance by restricting body movement than exaggerating body movement.
 
@@ -78,7 +78,7 @@ From the perspective of variance, I found that restricting body movement can aff
 
 ### Dynamic
 
-The RMS indicates the average energy of the audio file, as all the files recorded in the same amplifier level, mic position, and piano position, so comparing the average RMS for audio files between the different conditions gives an indication for the dynamic of the performance.
+The **RMS** indicates the average energy of the audio file, as all the files recorded in the same amplifier level, mic position, and piano position, so comparing the average RMS for audio files between the different conditions gives an indication for the dynamic of the performance.
 
 As the data stated in Figure 4, I found that in the two difficult excerpts, the dynamics were significantly reduced under the exaggerated condition. According to the performer’s feedback, this is likely because the difficulty and the higher speed of the notes made hands span a lot, and the exaggerated movements made the fingers touches shallower and the sound intensity becomes less, which is typical of a lack of control in piano pedagogy. Moreover, from the RMS Variance, it is clear that exaggerated condition could affect more on RMS.
 
@@ -97,9 +97,9 @@ In this section, motion capture data of three excerpts (Brahms1, Liszt3, Chopin2
 
 ### Movement Velocity
 
-By calculating the average movement velocity of each part of the body, I found that under the three movement conditions of all six excerpts, the movement velocity of the head and wrist are the fastest, and the velocity of the shoulder and torso are the slowest. Moreover, the velocity of the wrist is positively correlated with the tempo of the excerpt.
+By calculating the average **movement velocity** of each part of the body, I found that under the three movement conditions of all six excerpts, the movement velocity of the head and wrist are the fastest, and the velocity of the shoulder and torso are the slowest. Moreover, the velocity of the wrist is positively correlated with the tempo of the excerpt.
 
-When comparing the movement variance of three different conditions, I found that the variance of the velocity of the head is the largest, but there is almost no change in the wrist. My assumption is that the movement velocity of the wrist is mainly related to the difficulty, tempo, and structure of the music itself, and has less connection with expressive body movement during the performance.
+When comparing the movement velocity variance of three different conditions, I found that the variance of the velocity of the head is the largest, but there is almost no change in the wrist. My assumption is that the movement velocity of the wrist is mainly related to the difficulty, tempo, and structure of the music itself, and has less connection with expressive body movement during the performance.
 
 <figure style="float: auto">
    <img src="/assets/image/2021_04_19_wenbo_figure7.png" alt="" title="Figure 7. Average movement velocity of Brahms op.118"/> <figcaption>Figure 7. Average movement velocity of Brahms op.118</figcaption>
@@ -112,7 +112,7 @@ When comparing the movement variance of three different conditions, I found that
 
 ### Quantity of Movement
 
-In the QoM analysis, I found that the amount of head and shoulder movement is the highest, while the wrist is the lowest. This pattern also has been found in other excerpts, which is related to classic piano performance skill, that is, stability of the wrist is vital to maintaining the tone of a classic piano piece.
+In the **QoM** analysis, I found that the amount of head and shoulder movement is the highest, while the wrist is the lowest. This pattern also has been found in other excerpts, which is related to classic piano performance skill, that is, stability of the wrist is vital to maintaining the tone of a classic piano piece.
 
 As for the variance of QoM in three conditions. The change in head movement was the most variable across the three conditions, followed closely by the shoulders and elbows. Meanwhile, through qualitative observation, I found that in the Deadpan condition, the amount of head movement is significantly reduced. This may be because, from a kinematics point of view, the direct contribution of head movement to sound-producing activity is not obvious enough.
 
@@ -127,7 +127,7 @@ As for the variance of QoM in three conditions. The change in head movement was 
 
 # 4. CONCLUSION
 
-Through the analysis of audio, we can draw the following tentative conclusions:
+Through the analysis of **audio**, we can draw the following tentative conclusions:
 
 • Changes in expressive body movements affect the tempo and dynamics of the piano performance, which is related to the difficulty of the music, with the higher the difficulty factor the bigger the impact on the music.
 
@@ -135,7 +135,7 @@ Through the analysis of audio, we can draw the following tentative conclusions:
 
 • Exaggerated expressive body movements may affect sound dynamic significantly.
 
-From the analysis of body movement, we can also have following conclusions:
+From the analysis of **body movement**, we can also have following initial conclusions:
 
 • The head, wrists move faster during the piano performance, while the arms and shoulders move the slowest.
 
