@@ -130,22 +130,28 @@ As for the variance of QoM in three conditions. The change in head movement was 
 Through the analysis of audio, we can draw the following tentative conclusions:
 
 • Changes in expressive body movements affect the tempo and dynamics of the piano performance, which is related to the difficulty of the music, with the higher the difficulty factor the bigger the impact on the music.
+
 • Comparing with exaggerated expressive body movements, restricting expressive body movements will affect music performance more drastically.
+
 • Exaggerated expressive body movements may affect sound dynamic significantly.
 
 From the analysis of body movement, we can also have following conclusions:
 
 • The head, wrists move faster during the piano performance, while the arms and shoulders move the slowest.
+
 • The movement velocity of the head, shoulders and torso is greatly affected by playing under different conditions, while the wrist and elbows are hardly affected by restrictions or exaggerated conditions.
+
 • The head and shoulders have the largest QoM, while the wrist QoM is the smallest.
+
 • The QoM of head varies significantly in different conditions.
+
 • The expressive body movement are closely linked to piano pedagogy.
 
 # 5. Reflection and Future Work
 
 Through this exploration and analysis of expressive body movements in piano performances, it is not difficult to find that body movement have a very obvious impact on the audio parameters of piano performance. This also matches the previous empirical research (Davidson 1993,1996; Vines et al., 2003; Dahl and Friberg, 2007; Massie-Laberge et al., 2016, 2018). However, in this experiment, there was only one participant, both audio and body movement data was not comprehensive enough. Moreover, the use of the electric piano during the recording affected the performer's performance to some extent. Hence, the conclusions can only be used for reference.
 
-In future work, in addition to study the variation of audio parameters from a more detailed, micro-structured level, exploring the subjective perception of the music produced under different expressive body movement conditions is also a worthwhile research direction. The combination of subjective and objective analysis method will certainly provide a more comprehensive and convincing perspective for this research.
+In future work, in addition to study the variation of audio parameters from a more detailed, micro-structured level, exploring the subjective perception of the music produced under different expressive body movement conditions is also a worthwhile research direction. The combination of subjective and objective analysis method will certainly provide a more comprehensive and convincing way out for this research.
 
 # 6. REFERENCE
 
