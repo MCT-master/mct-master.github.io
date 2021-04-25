@@ -182,3 +182,7 @@ Vuoskoski, J. K., Thompson, M. R., Clarke, E. F., & Spence, C. (2014). Crossmoda
 Vuoskoski, J. K., Thompson, M. R., Spence, C., & Clarke, E. F. (2016). Interaction of sight and sound in the perception and experience of musical performance. Music Perception: An Interdisciplinary Journal, 33(4), 457-471.
 
 Vuoskoski, J. K., Gatti, E., Spence, C., & Clarke, E. F. (2016). Do visual cues intensify the emotional responses evoked by musical performance? A psychophysiological investigation. Psychomusicology: Music, Mind, and Brain, 26(2), 179.
+
+Jensenius, Alexander Refsum; Wanderley, Marcelo M.; Godøy, Rolf Inge & Leman, Marc (2010). Musical Gestures: concepts and methods in research, In Rolf Inge Godøy & Marc Leman (ed.),  Musical Gestures: Sound, Movement, and Meaning.  Routledge.  ISBN 978-0-415-99887-1.
+
+Leman, Marc & Godøy, Rolf Inge (2010). Why Study Musical Gestures?, In Rolf Inge Godøy & Marc Leman (ed.),  Musical Gestures: Sound, Movement, and Meaning.  Routledge.  ISBN 978-0-415-99887-1.
