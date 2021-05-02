@@ -13,6 +13,14 @@ excerpt: "It's simply a gruß from Team C with our first telematic setup."
    <img src="/assets/image/2021_03_01_joni_teamc1.jpg" alt="" title="" width="auto"/> <figcaption></figcaption>
 </figure>
 
+
+The following section
+          presents Joni's reflection
+                        on Team C's direction
+                                      in Portal connection.
+In this blog post, both Lindsay and Wenbo reported the setup in Trondheim and Oslo.
+
+
 #### Trondheim's call for love
 
 On 24th February during the winter break,  the most introverted C-team from Trondheim and Oslo creeped into the MCT Portal in the middle (not of the night) of the day. The solo Trondheim crew was able to rock the whole Portal by himself (Well-done Lindsay!).
