@@ -14,11 +14,7 @@ excerpt: "It's simply a gruß from Team C with our first telematic setup."
 </figure>
 
 
-The following section
-          presents Joni's reflection
-                        on Team C's direction
-                                      in Portal connection.
-In this blog post, both Lindsay and Wenbo reported the setup in Trondheim and Oslo.
+The following section presents Joni's reflection on Team C's direction in Portal connection. Lindsay and Wenbo reported the setup in Trondheim and Oslo.
 
 
 #### Trondheim's call for love
