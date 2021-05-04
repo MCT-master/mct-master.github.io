@@ -38,4 +38,6 @@ For the mic setup, we set up an AKG C414 mic for the bass and one for the flute.
 
 ##### Quick comment about the music
 
-Few complications that occurred during practice were sudden dropouts in the LOLA communications,
+Like for our previous rehearsals, getting everything set up and working probably took a lot longer than it should have, but once we had it figured out things went reasonably smoothly. The latency, while noticeable, wasn't overly offputting, and we managed to have a productive session.
+About half way through the practice the connection with LOLA was abruptly lost, and it took us a while to work out what had happened. Restarting the LOLA computer on the Oslo side got things working again, allowing us to get back to rehearsals.
+Salut d’amour was sounding better with practice, and so we decided to have a more electronic focused jam with the time we had left. Lindsay and Wenbo connected up their laptops and MIDI controllers, while Stephen plugged in his Elektron Digitakt drum machine. Synthetic beats and some mean keyboard action ensued. With everything tied to the drum machine, the music felt tight and natural to play over LOLA. Despite this, we decided to push on with our acoustic songs rather than introduce any last minute changes to our set. Maybe we can take a more electronic approach next semester!
