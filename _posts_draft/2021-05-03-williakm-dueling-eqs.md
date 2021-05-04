@@ -9,6 +9,8 @@ keywords:  portal, telematic-music, concert, LoLa, live-performance
 excerpt: "How do I sound? Good? What does good mean? How do I sound? Sigh..."
 ---
 
+# Making Our Musical Sounds
+
 Tone. Tone tone tone tone tone. For many musicians, a perfect tone is the dimension of music-making that is most elusive. Whether playing an acoustic instrument or an electric one, tone is often what separates the good from the great.
 
 But with our attention in the Portal so completely consumed by combating latency, setting up scenes, and often just successfully turning everything on, tone is understandably one of the last things that gets considered. Success has thus far been measured by audible sound, minimal feedback, and the fact that nothing has burst into flames. Those of us who are tonally concerned do of course have the opportunity to EQ at the mixer (or wherever else in the signal chain it might make sense), but here’s where things get tricky.
