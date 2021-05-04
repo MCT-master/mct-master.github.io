@@ -4,7 +4,7 @@ title: "Dispatch from the Portal: Dueling EQs"
 date: 2021-05-03 10:00:00 +0200
 categories: portal
 author: Henrik Sveen, Anders Lidal, Pedro Lucas, Willie Mandeville
-image: /assets/image/2021_05_03_williakm_midasEQ.jpg
+image: /assets/image/2021_05_04_williakm_midasEQ2.jpeg
 keywords:  portal, telematic-music, concert, LoLa, live-performance
 excerpt: "How do I sound? Good? What does good mean? How do I sound? Sigh..."
 ---
