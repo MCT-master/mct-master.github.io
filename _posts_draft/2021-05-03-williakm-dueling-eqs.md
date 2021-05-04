@@ -4,7 +4,7 @@ title: "Dispatch from the Portal: Dueling EQs"
 date: 2021-05-03 10:00:00 +0200
 categories: portal
 author: Henrik Sveen, Anders Lidal, Pedro Lucas, Willie Mandeville
-image: /assets/image/2021_05_01_pedropl_teambconcert.jpg
+image: /assets/image/2021_05_03_williakm_midasEQ.jpg
 keywords:  portal, telematic-music, concert, LoLa, live-performance
 excerpt: "How do I sound? Good? What does good mean? How do I sound? Sigh..."
 ---
@@ -25,4 +25,6 @@ Having removed feedback dangers, the important next step seems to be an increase
 
 # Increasing Awareness
 
-With our recent telematic performance there was suddenly a third layer to consider. EQ-ing between the two Portals is problematic enough, but, with the audio also routed from Oslo out to our livestream, there was an audience to consider. In addition to having functional audio for successful telematic collaboration, there needed to be an end-product that was enjoyable and matched the music conceptions of the performers at each Portal. Whether we succeeded in achieving a viable musical or artistic experience for the individual musicians is a topic for another blog post, but listening back to the livestream definitely provided some surprises. For those of us on the Trondheim side of things, some things that sounded great during performance sounded extremely different in the final product. Likewise, some textures that sounded thin in the Portal sounded much richer in the livestream audio. This opportunity to hear our complete performances offered some serious surprises and things to consider for future Portals.  
+With our recent telematic performance there was suddenly a third layer to consider. EQ-ing between the two Portals is problematic enough, but, with the audio also routed from Oslo out to our livestream, there was an audience as well. In addition to having functional audio for successful telematic collaboration, there needed to be an end-product that was enjoyable and matched the musical conceptions of the performers at each Portal. Whether we succeeded in achieving a viable musical or artistic experience for the individual musicians is a topic for another blog post, but listening back to the livestream definitely provided some surprises. For those of us on the Trondheim side of things, some things that sounded great during performance sounded extremely different in the final product. Likewise, some textures that sounded thin in the Portal sounded much richer in the livestream audio.
+
+# Future Solutions
