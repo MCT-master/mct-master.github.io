@@ -6,7 +6,7 @@ categories: portal
 author: Alena Clim
 image: /assets/image/2021_05_04_alenacl_cover_photo.JPG
 keywords:  portal, telematic-music, telematic-communications, LoLa, TICO, midas-m32
-excerpt: "Alena's experience in the MCT Portal during the spring 2021 semester and her evolution from a complete beginner to an almost-average user of a technical and awesome room like the MCT Portal."
+excerpt: "The experiences I had in the MCT Portal during the spring 2021 semester and my evolution from a complete beginner to an almost-average user of a technical and awesome room like the MCT Portal."
 ---
 
 # The MCT Portal in Oslo: a noob's quick guide and experiences
