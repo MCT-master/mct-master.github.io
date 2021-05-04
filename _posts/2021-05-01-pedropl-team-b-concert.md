@@ -6,7 +6,7 @@ categories: portal
 author: Henrik Sveen, Anders Lidal, Pedro Lucas, Willie Mandeville
 image: /assets/image/2021_05_01_pedropl_teambconcert.jpg
 keywords:  portal, telematic-music, concert, LoLa, live-performance
-excerpt: "Team B improvising music in the End of Semester Concert - Spring 2021."
+excerpt: "We'll do it live. Team B gets its groove Bach."
 ---
 
 # Introduction
@@ -23,7 +23,7 @@ For the grand finale of MCT4022 we, Team B, wanted to play something that should
 
 #### Anders' Instrumentation
 
-Being a pedal freak, I connected three pedals to aux 1 and three to aux 2 on the mixer. In the aux 1 loop I used a Chase Bliss Audio Mood -> Gamechanger Audio Plus, the latter with a Red Panda Particle in its own effect loop. Without going into too much details, all three of them are able to sample and play back incoming signals (in very different ways), as well as having a blend function, making it possible to let signal through without being effected. In this loop I tapped signal from all of my teammates, one at a time.
+Being a pedal freak, I connected three pedals to aux 1 and three to aux 2 on the mixer. In the aux 1 loop I used a Chase Bliss Audio Mood -> Gamechanger Audio Plus, the latter with a Red Panda Particle in its own effect loop. Without going into too much detail, all three of them are able to sample and play back incoming signals (in very different ways), as well as having a blend function, making it possible to let signal through without being effected. In this loop I tapped signal from all of my teammates, one at a time.
 
 <figure style="float: none">
    <img src="/assets/image/2021_05_04_anderlid_pedals.jpg" alt="Henrik's Instrumentation" title="Henrik's Instrumentation" width="auto" />
@@ -36,7 +36,7 @@ And yeah, I also played a few notes on the bass.
 
 #### Henrik's Instrumentation
 
-For the performance I played the Teenage Engineering OP-1. We rehearsed with having both Anders and myself processing Willie's guitar, but we quickly figured it got way too messy way too fast. So the solution was assigning the processing role to Anders and me using the OP-1 to play rhythmic patterns for the first part of the performance and switching to a piano for the second part. I then also used the onboard delay effect to create some ambient texture to the sound, blending it with the heavily processed signal from Anders. Speaking of Anders - he also processed my sound locally. Having one of the driest signals, my role was also to be a kind of clock in the performance. Especially for Willie who’s listening situation was slightly different from ours.
+For the performance I played the Teenage Engineering OP-1. We rehearsed with having both Anders and myself processing Willie's guitar, but we quickly figured it got way too messy way too fast. So the solution was assigning the processing role to Anders and me using the OP-1 to play rhythmic patterns for the first part of the performance and switching to a piano for the second part. I then also used the onboard delay effect to create some ambient texture to the sound, blending it with the heavily processed signal from Anders. Speaking of Anders - he also processed my sound locally. Having one of the driest signals, my role was also to be a kind of clock in the performance. Especially for Willie whose listening situation was slightly different from ours.
 
 <figure style="float: none">
    <img src="/assets/image/2021_05_02_henrikhs_henrikop1.jpg" alt="Henrik's Instrumentation" title="Henrik's Instrumentation" width="auto" />
