@@ -24,16 +24,16 @@ Streaming a telematic performance is a challenging process that demands the effo
 
 Here we'll quickly go through some of the audio management process behind the MCT-master students of 2020's end-of-semester concert <i>In Space We Make Music.</i>
 
-<figure style="float: none">
-   <img src="/assets/image/2021_05_04_anderlid_mixerinputs.jpg" alt="Input Channels in MIDAS Mixer" title="Input Channels in MIDAS Mixer" width="auto" />
-   <figcaption>Input Channels in MIDAS Mixer</figcaption>
-</figure>
-
 
 
 ### Input Organization
 
 For the concert we decided to use different *Scenes* (on the mixer) for each group, since each group had quite different setups with regards to instrumentation and such. That way we could easily switch scene between performances, instead of muting and unmuting different tracks, as well as gainstaging each track. Another advantage is of course that each team can practice and set up their scene with effects, dynamics and such as they please.
+
+<figure style="float: none">
+   <img src="/assets/image/2021_05_04_anderlid_mixerinputs.jpg" alt="Input Channels in MIDAS Mixer" title="Input Channels in MIDAS Mixer" width="auto" />
+   <figcaption><i>Input Channels in MIDAS Mixer.</i></figcaption>
+</figure>
 
 So the idea was to create a base scene called *Concert*, and each group using that for further developing thei unique scene. After having the full overview of each groups instrumentation, we started setting up the mixer as shown in the schematics below:
 
