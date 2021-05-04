@@ -24,8 +24,8 @@ Although we knew about the MIDAS M32 mixer and all its specifications and routin
 Few routines which made the mixer setup much simpler and easier for us are:
 1.	Try to work in groups of 3 or more people.
 2.	Always communicate and be loud about the tweaks you are making, so that others can guide you, if something goes wrong.
-3.	Do not be afraid to try out new parameters and settings.
-More technical steps can be found [here:](https://www.sweetwater.com/sweetcare/articles/mixer-quickstart-guide/)
+3.	Do not be afraid to try out new parameters and settings. More technical steps can be found [here](https://www.sweetwater.com/sweetcare/articles/mixer-quickstart-guide/)
+
 The primary learnings, playing music and communicating with each other in the team are:
 -	Everyone is always concerned about how their instrument sounds on either end. So, we had to make sure, the gain stage and mixes on both ends are perfectly done, giving us one master control of how much is sent over to the other end.
 -	Being ‘Patient’ while one end is trying to solve issues.
