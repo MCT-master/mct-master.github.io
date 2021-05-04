@@ -4,14 +4,16 @@ title: "The MCT Portal through the eyes of a noob"
 date: 2021-05-04 16:28:00 +0200
 categories: portal
 author: Alena Clim
-image: /assets/image/2021_05_04_alenacl_portal_concert_funny_alena.JPG
+image: /assets/image/2021_05_04_alenacl_cover_photo.JPG
 keywords:  portal, telematic-music, telematic-communications, LoLa, TICO, midas-m32
 excerpt: "Alena's experience in the Portal during the spring 2021 semester and what she learned."
 ---
 
 # The MCT Portal in Oslo: a noob's guide and experiences
 
-------------add image-----------------
+<figure style="float: auto">
+   <img src="/assets/image/2021_05_04_alenacl_portal_concert_setup.jpeg" alt="" title="Concert setup" width="700"/> <figcaption>"Concert setup</figcaption>
+</figure>
 
 ## First steps in the MCT Portal
 
@@ -33,13 +35,17 @@ In the portal we have two main communication channels that we use "daily" (meani
 
 - We first establish a (__Zoom__)[https://zoom.us/] connection, using the logitech meetup!!!!!!!!!!!!!1 camera and speaker. This is our backup plan, in case the low latency channels are not working immediately and need additional troubleshooting. We also have an alternative zoom at the back of the Portal used to show a different angle (for example during classes when it's necessary to show the mixer). It is not possible to use Zoom for telematic performances, the latency is simply too big.
 
-- After Zoom is up and running, we establish an audio conection using (__LoLa__)[https://lola.conts.it/], our LOw LAtency and high quality software based transmission system. We pair this up with a video connection using (__TICO__)[https://www.tico-alliance.org/technology], our hardware based TIny COdec compression technology - tiny in complexity, latency and compression. For this we use a (Minrray PTZ)[https://minriglory.com/products-item/hd-ptz-camera-uv510a/] camera (Pan-Tilt-Zoom) which has an unbelievably awsome image quality. This camera is also linked to the Zoom Room PC, but this semester e only used it for TICO. For telematic performances, this LoLa-TICO solution is the only one worth trying, and even then it will not be possible to play completely on time. 
+- After Zoom is up and running, we establish an audio conection using (__LoLa__)[https://lola.conts.it/], our LOw LAtency and high quality software based transmission system. We pair this up with a video connection using (__TICO__)[https://www.tico-alliance.org/technology], our hardware based TIny COdec compression technology - tiny in complexity, latency and compression. For this we use a (Minrray PTZ)[https://minriglory.com/products-item/hd-ptz-camera-uv510a/] camera (Pan-Tilt-Zoom) which has an unbelievably awsome image quality. This camera is also linked to the Zoom Room PC, but this semester e only used it for TICO. For telematic performances, this LoLa-TICO solution is the only one worth trying, and even then it will not be possible to play completely on time. See a snippet of our rehearsals below: 
+
+--- ad short video---
 
 ### Technicalities
 
 To facilitate the communication and performance in this special room there are a few other worth noting devices I had to familiarize myself with, or at least understand their purpose. And I'm not talking about the speakers or screens in the room, that's quite intuitive. I'm talking about the mixer (I postponed talking about this one enough), the stage box and the HDMI matrix. 
 
 - __The Mixer__: Even having had no experience with audio-visual technologies before (more than my laptop, phone, a semi-professional Sony camera my dad had and the (Microlab)[http://microlab.com/en/catalog/2.1-stereosystem/wired/m-500u/] speaker system I got as a present for my 18th birthday), I still knew how a cool mixer is supposed to look like - a relatively big box like item, with a lot of butons, _knobs_ and _faders_ (yes, I learned the correct names just recently), and milions of cables sticking out of it, connected to a bunch of instruments, speakers and microphones. Pretty basic, really. Not! It took me at least two classes to be brave enough to even start discovering how to use our (Midas M32 Mixer)[https://www.midasconsoles.com/product.html?modelCode=P0B3I] more than just look at what other people did. In time, however, I learned more and more about it and stopped intimidating me that much. I still haven't used it to its entire capacity, probably more like half, but I'm proud of my progress. I went from not knowing what an XLR cable is and anything about input channels, preamlifiers, auxiliary channels, mix buses to actually being able to connect an instrument or microphone to the mixer and routing it to the output I wanted (for example, sending the sound only to LoLa and the room speakers, but no Zoom), controlling its gain and getting rid of the feedback (and avoiding it in the first place), and saving my setup preferrences in a separate scene. I just had to give it time, ask a lot of questions and practice/try as much as possible and learn from my mistakes; it ends up being quite logical after a while. 
+
+-----------image with the mixer and panick------------
 
 - __The Stagebox__: This name is intuitive enough, but I still had to research its correct usage. It is an interface that simply connects microphones, speakers and instruments to the mixer, allowing for a longer distance between the "stage" and the sound desk. In the Portal, it's useful because the room is quite long, with a lot of microphones and instruments and speakers places everywhere; so, it simplifies setup to have a stage box in front of the room and the mixer in the back and also helps with not having too long cables. 
 
@@ -59,10 +65,12 @@ This semester I also attended the Music-related motion tracking course ((MCT 404
 
 For the end of semester concert, my responsabilities were a bit less technically inclined on the day. I was part of the promo and design team, and although we did a good job having everything ready on time, our Facebook posts were deleted by the curators and we didn't get permission to post in time to promote the concert properly. During the concert day, I was a presenter and although I have some experience with this position, I have to say it was weirder than I thought to present in front of a camera instead of a room of people, and not be able to "feel the crowd". I stumbled a bit over my words, but it ended up good - I managed to charm our _extremely_ large audience and they didn't mind. 
 
-As part of the A(wsome) ansamble, I played the piano first with some midi effects and then without any. It was a completely new experience for me from two points of view: a) I was only ever part of classical music ensamples, so I had no experience playing in a band in the rock-jazzy sense or an electric instrument for that matter; b) For me, experiencing the telematic performance and working with the latency and all other implications was new and frustrating at times, same as for everybody. The performance ended up being successful, and I did manage to feel part of a band, even if we were not all in the same room. For more details about our mixing and instrumentation, check out (this other post)[add_link_here_after_making_post], and for a recording of our live stream (go here)[https://drive.google.com/file/d/1UTRGchcC7rU0YwJZLOneQ3BQVtsnc1Ic/view?usp=sharing] (you might want to skip the first several minutes while we worked out some sound issues).
+----add mute video---
+
+As part of the A(wsome) ensemble, I played the piano first with some midi effects and then without any. It was a completely new experience for me from two points of view: a) I was only ever part of classical music ensamples, so I had no experience playing in a band in the rock-jazzy sense or an electric instrument for that matter; b) For me, experiencing the telematic performance and working with the latency and all other implications was new and frustrating at times, same as for everybody. The performance ended up being successful, and I did manage to feel part of a band, even if we were not all in the same room. For more details about our mixing and instrumentation, check out (this other post)[add_link_here_after_making_post], and for a recording of our live stream (go here)[https://drive.google.com/file/d/1UTRGchcC7rU0YwJZLOneQ3BQVtsnc1Ic/view?usp=sharing] (you might want to skip the first several minutes while we worked out some sound issues).
 
 <figure style="float: auto">
-   <img src="/assets/image/2021_05_04_alenacl_portal_mixer_nook.jpg" alt="" title="Mixer nook" width="400"/> <figcaption>"MCT Portal mixer nook</figcaption>
+   <img src="/assets/image/2021_05_04_alenacl_team_a_concert.JPG" alt="" title="Concert ensemble A" width="600"/> <figcaption>"Concert ensemble A(wsome)</figcaption>
 </figure>
 
 ## Reflections
@@ -70,3 +78,7 @@ As part of the A(wsome) ansamble, I played the piano first with some midi effect
 I have to say that in the beginning of the semester I was extremely skeptical towards "telematic performances", I couldn't see how that would work in a nice way. At the end of the semester, I'm still skeptical, but only because as a classical musician it does not have enough warmth for me - I don't feel the audience and the other musicians the same - and the entire electronic setup fills up my attention with unwanted background noise and unexpected issues that would never appear when you only have your (analog!) instrument and an audience (sure, the audience is sometimes noisy as well, but in a different way than dozens of devices around you). Also, I now certainly know how telematic performances work, their ups and downs and that they have the potential of working, providing you erase your previous musical experiences and take it as it is - a way for musicians across the world to connect and play music together from hundrens or thousands of kilometers away, which is in and of itself a huge accomplishment. 
 
 Besides the telematic performance aspect, this course taught be a lot about audio visual technologies in genearal, which is something I've been meaning to understand more about. It is great to now know enough to not feel completely lost around a studio, for example, or concert setup. Even if I still have a long way to go to reach the level of some of my classmates, I believe I made the most out of this course. There were frustrating aspects of the course, but it was awsome to finally be on campus and do something practical, learn from my own mistakes, and have such a nice end of semester concert. Thank you for this course!
+
+<figure style="float: auto">
+   <img src="/assets/image/2021_05_04_alenacl_concert_2020_generation.JPG" alt="" title="2020 generation" width="700"/> <figcaption>"MCT Portal concert generation 2020</figcaption>
+</figure>
