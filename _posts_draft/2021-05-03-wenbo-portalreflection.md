@@ -1,9 +1,9 @@
 ---
 layout: post
-title: "End of semester personal reflections for the Portal experience"
+title: "End of semester reflections for the Portal experience"
 date: 2021-05-01 09:00:00 +0200
 categories: portal
-author: Wenbo Yi
+author: Wenbo Yi, Lindsay Charles, Stephen Gardener
 image: assets/image/2021_05_02_wenboyi_performance.JPG
 keywords: portal, telematic-music, concert, LoLa, live-performance
 excerpt: "The first physical portal experience during the pandemic"
