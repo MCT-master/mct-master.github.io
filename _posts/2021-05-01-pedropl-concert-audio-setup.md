@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "End of Semester Concert - Spring 2021: Audio Setup"
-date: 2021-05-01 09:00:00 +0200
+date: 2021-05-04 09:00:00 +0200
 categories: portal
 author: Anders Lidal, Pedro Lucas
 image: /assets/image/2021_05_01_pedropl_consoleconcert.jpg
