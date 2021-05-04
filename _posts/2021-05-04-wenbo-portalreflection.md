@@ -81,6 +81,6 @@ Reflecting on the concert, it was fun and engaging to play spontaneously with Gu
 
 # 4. Our Concert!
 
-Come and hear our concert!
+Come and hear our concert, and **huge thanks to Guy and his magnificent saxophone skills!**
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/tUqhI0R3DDA" title="MCT 2020 Musical Performance" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
