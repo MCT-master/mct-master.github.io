@@ -86,3 +86,7 @@ For the first song we had Choubey leading at NTNU and Alena and Leigh played alo
    <iframe src="https://drive.google.com/file/d/1PFUTTneyel37_DM7LM9JD3CkTUBjFnS3/preview" width="600" height="400" frameborder="0" allowfullscreen></iframe>
    <figcaption>Ensemble A(wesome) rehearsal: Choubey's drums</figcaption>
 </figure>
+
+## Final thoughts
+
+Having a concert to prepare for gave us some proper incentive and motivated us to practice and experiment with effects and different instrumentations to get the best sound possible under the circumstances. Although we experienced some frustrating moments, in the end our work was repayed during the concert. It was a great and new experience!
