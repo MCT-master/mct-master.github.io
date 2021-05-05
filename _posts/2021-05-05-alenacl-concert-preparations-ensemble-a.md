@@ -44,7 +44,7 @@ We also thought of routing the guitar signal through Ableton and then send it to
 
 <figure style="float: none">
   <audio controls>
-    <source src="https://drive.google.com/file/d/1WygL4RXUQRMX8vrRscRuApqjzPxUcRxv" type="audio/mpeg">
+    <source src="https://drive.google.com/uc?&id=1WygL4RXUQRMX8vrRscRuApqjzPxUcRxv" type="audio/mpeg">
     Intro by The xx with mixer reverb
   </audio>
   <figcaption>Intro with mixer reverb</figcaption>
@@ -59,13 +59,13 @@ Here you can watch our final performance of this song:
 
 ## Instrumentation
 
-After using the instrumentation of drums, piano and guitar for our first song we wanted to try something different with the second. We decided to play [“Near Light” by Ólafur Arnalds](https://www.youtube.com/watch?v=0kYc55bXJFI). We had discussed the possibility of Choubey using ableton to integrate some kind of percussion or mixing which resulted in the choice to go with a drum kit.
+After using the instrumentation of drums, piano and guitar for our first song we wanted to try something different with the second. We decided to play [“Near Light” by Ólafur Arnalds](https://www.youtube.com/watch?v=0kYc55bXJFI). We had discussed the possibility of Choubey using Ableton to integrate some kind of percussion or mixing which resulted in the choice to go with a drum kit.
 
 We also wanted to integrate the lead synthesiser sound using Ableton from a laptop on the UiO side but due to the latency we couldn’t think of a good way of implementing it.  There needs to be some concession for elasticity in the tempo when the performers play together since the latency is not always predictable, so trying to trigger an instrument to begin at a specified tempo in the middle of the performance, and continue at that tempo until the end was problematic.  By the time we trigger the Ableton track we could be at a completely different tempo, and the synthesiser does not provide enough of a steady tempo or sound for us to follow it as the lead.  We could have implemented a click track that Alena could play along to from the start of the song, but since the song starts with a rubato feel it would have ruined the expressiveness. This is not a problem that’s caused by the telematic performance but it is exacerbated by it, since it may have been possible to synchronise with the instrument to a certain degree if it was in one location but also synchronising over a delayed connection was too difficult.
 
 <figure style="float: none">
   <audio controls>
-    <source src="https://drive.google.com/file/d/1TF_MoxlXqGGHxfLSXX6dB_KDbRyTUjge" type="audio/mpeg">
+    <source src="https://drive.google.com/uc?&id=1TF_MoxlXqGGHxfLSXX6dB_KDbRyTUjge" type="audio/mpeg">
     Near Light with two pianos and midi drums
   </audio>
   <figcaption>Near light with two pianos and midi drums</figcaption>
