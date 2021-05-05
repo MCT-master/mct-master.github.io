@@ -30,7 +30,7 @@ Our first attempt was to take the guitar signal from NTNU and apply the in-built
 
 <figure style="float: none">
   <audio controls>
-    <source src="https://drive.google.com/file/d/1WygL4RXUQRMX8vrRscRuApqjzPxUcRxv" type="audio/mpeg">
+    <source src="https://drive.google.com/uc?&id=1WygL4RXUQRMX8vrRscRuApqjzPxUcRxv" type="audio/mpeg">
     Intro by The xx with mixer reverb
   </audio>
   <figcaption>Intro with mixer reverb</figcaption>
@@ -59,7 +59,7 @@ We also wanted to integrate the lead synthesiser sound using Ableton from a lapt
 
 <figure style="float: none">
   <audio controls>
-    <source src="https://drive.google.com/file/d/1TF_MoxlXqGGHxfLSXX6dB_KDbRyTUjge" type="audio/mpeg">
+    <source src="https://drive.google.com/uc?&id=1TF_MoxlXqGGHxfLSXX6dB_KDbRyTUjge" type="audio/mpeg">
     Near Light with two pianos and midi drums
   </audio>
   <figcaption>Near light with two pianos and midi drums</figcaption>
