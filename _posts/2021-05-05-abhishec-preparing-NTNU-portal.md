@@ -4,7 +4,7 @@ title: "Preparing NTNU portal for the spring 2021 Concert."
 date: 2021-05-05 10:10:00 +0200
 categories: portal
 author: Abhishek Choubey
-image: /assets/image/2021_05_05_abhishec_NTNU_portal_concert_excerpt.JPG
+image: /assets/image/2021_05_05_abhishec_NTNU_portal_concert_excerpt.jpg
 keywords:  portal, telematic-music, telematic-communications, LoLa, TICO, midas-m32
 excerpt: "How the NTNU Portal was setup for the spring concert."
 ---
@@ -48,4 +48,4 @@ Willie was the main person responsible for all the communication and the equipme
    <img src="/assets/image/2021_05_05_abhishec_spring_cohort.jpg" alt="" title="Midas hall effect" width=auto/> <figcaption>Portal Spring 2021 Cohort. </figcaption>
 </figure>
 
-After doing the portal course digitally for the first semester, I was pretty excited to have hands-on experience with all the advanced technology we had in portals, physically meeting and doing some work together again felt good for a change. My main goal was to learn more about the do’s and don’t’s of being in this virtual-physical space, and also to learn the MIDAS M32 mixer which can get complicated and can feel like rocket science at times. After Organizing a “Telematic Concert” and playing also listening to my classmates jam together, I can safely say that I have to a certain extent achieved my goals. The routing within the MIDAS M32 is still a complicated problem I would like to solve and dig deep into, but overall it was a fruitful experience. Thank you Eigil, Guy, and everyone for the course.
+After doing the portal course digitally for the first semester, I was pretty excited to have hands-on experience with all the advanced technology we had in portals, physically meeting and doing some work together again felt good for a change. My main goal was to learn more about the do’s and don’ts of being in this virtual-physical space, and also to learn the MIDAS M32 mixer which can get complicated and can feel like rocket science at times. After Organizing a “Telematic Concert” and playing also listening to my classmates jam together, I can safely say that I have to a certain extent achieved my goals. The routing within the MIDAS M32 is still a complicated problem I would like to solve and dig deep into, but overall it was a fruitful experience. Thank you Eigil, Guy, and everyone for the course.
