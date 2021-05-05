@@ -28,14 +28,6 @@ While practicing the song [‘Intro’ by ‘The xx’](https://www.youtube.com/
 
 Our first attempt was to take the guitar signal from NTNU and apply the in-built reverb effects provided by the Midas M32 mixer. Again, this was not very intuitive and it was more luck in the end that made it work rather than understanding what we were doing initially. As shown in the screenshot below, the effects are usually applied to buses.  Instead of this setup, we applied the effect directly to the NTNU track. The problem with this implementation was that Choubey at NTNU couldn’t hear the guitar with the reverb since it was only applied at UiO after we received his signal. At the NTNU side we only had a bit of EQ and a soft compression on the output signal.
 
-<figure style="float: none">
-  <audio controls>
-    <source src="https://drive.google.com/uc?&id=1WygL4RXUQRMX8vrRscRuApqjzPxUcRxv" type="audio/mpeg">
-    Intro by The xx with mixer reverb
-  </audio>
-  <figcaption>Intro with mixer reverb</figcaption>
-</figure>
-
 <figure style="float: auto">
    <img src="/assets/image/2021_05_04_leigh_midas_hall_effect.jpg" alt="" title="Midas hall effect" width=auto/> <figcaption>Midas mixer hall effect</figcaption>
 </figure>
@@ -50,6 +42,20 @@ During our first few sessions Choubey was micing up the Guitar amplifier using A
 
 We also thought of routing the guitar signal through Ableton and then send it to UiO, but since reverb was added directly on the signal at the UiO side, and there was basic EQing and compression at the NTNU side, we didn't implement this approach, as it felt redundant. But it could have made the setup even more flexible"
 
+<figure style="float: none">
+  <audio controls>
+    <source src="https://drive.google.com/file/d/1WygL4RXUQRMX8vrRscRuApqjzPxUcRxv" type="audio/mpeg">
+    Intro by The xx with mixer reverb
+  </audio>
+  <figcaption>Intro with mixer reverb</figcaption>
+</figure>
+
+Here you can watch our final performance of this song:
+
+<figure style="float: none">
+   <iframe src="https://drive.google.com/file/d/1t33Is8iGUGwXFFU4iuzdcxa193P-LGUe/preview" width="600" height="400" frameborder="0" allowfullscreen></iframe>
+   <figcaption>Ensemble A(wesome): "Intro" by The XX </figcaption>
+</figure>
 
 ## Instrumentation
 
@@ -59,7 +65,7 @@ We also wanted to integrate the lead synthesiser sound using Ableton from a lapt
 
 <figure style="float: none">
   <audio controls>
-    <source src="https://drive.google.com/uc?&id=1TF_MoxlXqGGHxfLSXX6dB_KDbRyTUjge" type="audio/mpeg">
+    <source src="https://drive.google.com/file/d/1TF_MoxlXqGGHxfLSXX6dB_KDbRyTUjge" type="audio/mpeg">
     Near Light with two pianos and midi drums
   </audio>
   <figcaption>Near light with two pianos and midi drums</figcaption>
@@ -79,14 +85,6 @@ For the first song we had Choubey leading at NTNU and Alena and Leigh played alo
 <figure style="float: none">
    <iframe src="https://drive.google.com/file/d/1PFUTTneyel37_DM7LM9JD3CkTUBjFnS3/preview" width="600" height="400" frameborder="0" allowfullscreen></iframe>
    <figcaption>Ensemble A(wesome) rehearsal: Choubey's drums</figcaption>
-</figure>
-
-
-## Here you can watch our final performance of this song:
-
-<figure style="float: none">
-   <iframe src="https://drive.google.com/file/d/1t33Is8iGUGwXFFU4iuzdcxa193P-LGUe/preview" width="600" height="400" frameborder="0" allowfullscreen></iframe>
-   <figcaption>Ensemble A(wesome): "Intro" by The XX </figcaption>
 </figure>
 
 ## Final thoughts
