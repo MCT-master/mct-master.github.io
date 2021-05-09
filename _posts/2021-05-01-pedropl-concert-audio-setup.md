@@ -93,7 +93,7 @@ Anders and Pedro participated in several portal sections in classes and outside 
 #### Anders' last reflections
 
 Having some experience with both live and studio mixing, this was a fun task for me. I'm not very fond of digital mixers, they offer possibilities that's not available in analog mixers, so to explore some of those have been interesting. Luckily, when I get lost in the menus, I've had good people around me to lead me back on track. Both Pedro, Leigh and Henrik has been invaluable in different situations. The concert ran quite smoothly, even though Alena sometimes was muted when talking (due to slow scene shifting because of numeral confirmations required by stupid Midas).
-It was also rewarding to me to use my analog (and digital) effect pedals and the mixer itself as my main instrument for this telematic performance, and I would definately do something like this again … maybe already next semester.
+It was also rewarding to me to use my analog (and digital) effect pedals and the mixer itself as my main instrument for this telematic performance, and I would definitely do something like this again … maybe already next semester.
 
 #### Pedro’s last reflections
 
