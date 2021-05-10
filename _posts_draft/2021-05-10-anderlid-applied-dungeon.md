@@ -26,5 +26,5 @@ excerpt: "First time we entered the videolab, it was basically a storage room, f
 
 <figure style="float: none">
 <iframe width="560" height="315" src="https://www.youtube.com/embed/tUqhI0R3DDA?start=536" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-<figcaption>Team B - Concert Excerpt.</figcaption>
+<figcaption><i>Team B - Concert Excerpt.</i></figcaption>
 </figure>
