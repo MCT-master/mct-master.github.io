@@ -9,9 +9,7 @@ keywords:  portal, telematic-music, LoLa, live-performance, jacktrip, applied pr
 excerpt: "First time we entered the videolab, it was basically a storage room, full of outdated audio equipment and also hardware we would use. The ceiling lights didn’t work, and the cleaning personal hadn’t been there for quite a while."
 ---
 
-# MCT Portal II - The Dungeon
 
-## Introduction
 
 One of the main objectives of the MCT Master’s program is to equip its students with personal and technical skills that are highly relevant for real-life challenges. The Applied Project courses are two opportunities for students to apply their music-technological knowledge in creative ways by completing complex projects in real-life settings and interdisciplinary teams.
 This semester, the Musicology Department (IMV) decided to use available resources (software and hardware) to create another portal, where students can experiment and explore audio-visual technologies in search for high quality, high speed and low latency transmissions.
