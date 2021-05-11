@@ -127,14 +127,14 @@ Since most NOMONO users will connect their products via headphones, we rendered 
 
 ## Ambisonics Field Recordings for Testing and Inclusion in Sound Logo(s)
 
-One of the products which Nomono is working on is a web-based software that performs signal processing, noise reduction, and sibilance detection algorithms in a dialogue-based setting on ambisonic recordings. To test out their software, the MCT team were tasked with the additional deliverable of ambisonic field/test recordings.
+One of the products which NOMONO is working on is a web-based software that performs signal processing, noise reduction, and sibilance detection algorithms in a dialogue-based setting on ambisonic recordings. To test out their software, the MCT team were tasked with the additional deliverable of ambisonic field/test recordings.
 
 <figure style="float: none">
    <img src="/assets/image/2021_05_011_williakm_NomonoTestRecordings.jpg" alt="Recording ambisonic audio" title="" width="auto" />
    <figcaption>Exploring Trondheim in the hunt for sounds</figcaption>
 </figure>
 
-As you can see in the above images, we used an ambisonic microphone, the Zoom H3-VR, to record sounds from all over Trondheim to use in the sound logos. We recorded ski and river sounds in Bymarka. Sea water, seagulls and train sounds by the fjord. Church bells and conversations at Nidarosdomen. We also recorded conversations in a large tunnel with an enormous natural reverb as seen in the bottom right image. Abhishek and Lindsay recorded group conversations at Bumerang, an organisation that lends sports equipment, and Resykkell, a bicycle workshop. They also recorded multilingual conversations which included Hindi, Malwi Kannada, Odia, Bengali, and Persian, as well as differently accented English, among their friends. These sounds were delivered in raw format without processing to Nomono, who will use them for testing and improving their noise-cancellation technologies.    
+As you can see in the above images, we used an ambisonic microphone, the Zoom H3-VR, to record sounds from all over Trondheim to use in the sound logos. We recorded ski and river sounds in Bymarka. Sea water, seagulls and train sounds by the fjord. Church bells and conversations at Nidarosdomen. We also recorded conversations in a large tunnel with an enormous natural reverb as seen in the bottom right image. Abhishek and Lindsay recorded group conversations at Bumerang, an organisation that lends sports equipment, and Resykkell, a bicycle workshop. They also recorded multilingual conversations which included Hindi, Malwi Kannada, Odia, Bengali, and Persian, as well as differently accented English, among their friends. These sounds were delivered in raw format without processing to NOMONO, who will use them for testing and improving their noise-cancellation technologies.    
 
 # Conclusion
 
