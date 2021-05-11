@@ -4,7 +4,7 @@ title: "MCT Portal II - The Dungeon"
 date: 2021-05-10 20:00:00 +0200
 categories: applied-project
 author: Henrik Sveen, Anders Lidal, Leigh Murray, Alena Clim
-image: /assets/image/2021_05_10_anderlid_dungeon.jpg
+image: /assets/image/2021_05_10_anderlid_videodungeon.jpg
 keywords:  portal, telematic-music, LoLa, live-performance, jacktrip, applied project
 excerpt: "First time we entered the videolab, it was basically a storage room, full of outdated audio equipment and also hardware we would use. The ceiling lights didn’t work, and the cleaning personal hadn’t been there for quite a while."
 ---
@@ -14,30 +14,30 @@ excerpt: "First time we entered the videolab, it was basically a storage room, f
 ## Introduction
 
 One of the main objectives of the MCT Master’s program is to equip its students with personal and technical skills that are highly relevant for real-life challenges. The Applied Project courses are two opportunities for students to apply their music-technological knowledge in creative ways by completing complex projects in real-life settings and interdisciplinary teams.
-This semester, the Musicology Department (IMV) decided to use available (software and hardware) resources to create another portal, where students can experiment and explore audio-visual technologies in search for high quality, high speed and low latency transmissions.
+This semester, the Musicology Department (IMV) decided to use available resources (software and hardware) to create another portal, where students can experiment and explore audio-visual technologies in search for high quality, high speed and low latency transmissions.
 
 ## The Dungeon
 
 For our applied project we were assigned to make a second portal that would be based on, and expand beyond, the functionalities of the existing portal. The MCT Portal is a room at IMV that is able to connect to other rooms in the world with very low latency. Usually through a software called LoLa.
 
 For setting up another one of these rooms we analyzed in depth how the Portal treats audio regarding receiving and sending. The room we were given to repurpose was the Videolab, previously used for recording and editing audio and video. Our proposal kept many of the functionalities of the Videolab and we expanded it to also work as a portal.
-Flexibility and ease of use has been two important factors for us while working and developing what we named the Dungeon. The name relates to the Portal upstairs in a mythical fashion and is very describing for the room itself - located in the basement, with no windows and low ceiling, and dungeon-y vibes.
+Flexibility and ease of use has been two important factors for us while working and developing what we named the Dungeon. The name relates to the Portal upstairs in a mythical fashion and is very describing for the room itself – located in the basement, with no windows and low ceiling, and dungeon-y vibes.
 
 ## Explanation and evaluation
 
-The proposed solution was designed to implement and expand on the functionality of the existing Portal at UiO whilst trying to reduce complexity. To this end, a second LoLa PC was set up in the Dungeon and connected to a 32 channel analogue mixer, a Mackie 32-8. Channels 1-20 are used for microphones and inputs while channels 21-32 are used for receiving signals from Zoom, LoLa and JackTrip through Zoom-computer, RME Fireface 800 interface and MacMini. The mixer is set up so audio can be passed through the faders to whatever submix you wish to use, and the B-mix knobs can be applied for a separate monitor mix in the Dungeon. This is fairly similar to the way the Midas mixer is set up in the Portal, which should make it easier to use the Dungeon if you already know how to operate the Portal. In total there are 480 knobs plus 512 buttons just for the mixer channels, so making sure they are all reset can be a little tiring after a hard day’s work in the Dungeon. The mixer and the audio setup is documented in this diagram and mixer chart explaining all channels and how they should be reset after use.
+The proposed solution was designed to implement and expand on the functionality of the existing Portal at UiO, whilst trying to reduce complexity. To this end, a second LoLa PC was set up in the Dungeon and connected to a 32 channel analogue mixer, a Mackie 32-8. Channels 1-20 are used for microphones and inputs while channels 21-32 are used for receiving signals from Zoom, LoLa and JackTrip through Zoom-computer, RME Fireface 800 interface and Mac Mini. The mixer is set up so audio can be passed through the faders to whatever submix you wish to use, and the B-mix knobs can be applied for a separate monitor mix in the Dungeon. This is fairly similar to the way the Midas M32 mixer is set up in the MCT Portal, which should make it easier to use the Dungeon if you already know how to operate the portal upstairs. In total there are 480 knobs plus 512 buttons just for the mixer channels, so making sure they are all reset can be a little tiring after a hard day’s work in the Dungeon. The mixer and the audio setup is documented in this diagram and mixer chart explaining all channels and how they should be reset after use.
 
 <figure style="float: none">
    <img src="/assets/image/2021_05_10_henrikhs_DungeonAudioDiagram.png" alt="Henrik's Instrumentation" title="Dungeon Audio Diagram" width="auto" />
-   <figcaption>Dungeon Audio Diagram</figcaption>
+   <figcaption><i>Dungeon Audio Diagram.</i></figcaption>
 </figure>
 
 <figure style="float: none">
    <img src="/assets/image/2021_05_10_henrikhs_DungeonMixerChart.jpg" alt="Henrik's Instrumentation" title="Dungeon Mixer Chart" width="auto" />
-   <figcaption>Dungeon Mixer Chart</figcaption>
+   <figcaption><i>Dungeon Mixer Chart.</i></figcaption>
 </figure>
 
-To expand on the functionality of the room, we had three different networks patched to the ethernet ports in the room; the Audio/Visual network which allows access and control of the SDI cameras and displays (a PC is supplied for this but not set up), the UiO network which is connected to the Zoom and Mac Mini allowing allowing connections to JackTrip, and the LoLa network for the LoLa PC.  This provides for several different audio/visual configurations that include onsite and external connections, something previously unachievable with the Portal’s setup.
+To expand on the functionality of the room, we had three different networks patched to the ethernet ports in the room; the audio/visual network which allows access and control of the SDI cameras and displays (a PC is supplied for this but not set up), the UiO network which is connected to the Zoom and Mac Mini allowing allowing connections to JackTrip, and the LoLa network for the LoLa PC.  This provides for several different audio/visual configurations that include onsite and external connections, something previously unachievable with the MCT Portal’s setup.
 
 Two DAWs (Ableton and Reaper) have been installed on the Mac Mini which allows people to use a large variety of virtual instruments as well as multi-track recordings, that previously was only able to be done if users provided their own laptop and software.  With the secondary speakers set up and connected to the McONE audio switcher, users are able to preserve the stereo field and audio experience while working directly on the PC and continue to use the room as a “video room”.
 
@@ -51,26 +51,30 @@ For our demo we used a connection between the Portal and the Dungeon using JackT
 
 <figure style="float: none">
    <iframe src="https://drive.google.com/file/d/1r5XUluiKmsNdroVMfWKJIylfOg92w9dG/preview" width=auto height=auto frameborder="0" allowfullscreen></iframe>
-   <figcaption>Live Demo over JackTrip</figcaption>
+   <figcaption><i>Live Demo over JackTrip.</i></figcaption>
 </figure>
 
 ## Deliverables and Documentation
 
 The main and most obvious deliverable for this project was the room itself, evolving from something a bit more than a storage space to an aesthetically pleasant room with high quality audio-visual technologies ready to be used for extended classroom, telematic performance and other use cases.
 
-_Before..._
+<b>Before ...</b>
 <figure style="float: none">
    <img src="/assets/image/2021_05_10_anderlid_videolab.jpg"  width="auto" />
    <figcaption><i>Our first glance at the videolab.</i></figcaption>
 </figure>
-_Conceptualization..._
+
+<b>Conceptualization ...</b>
+
 <figure style="float: none">
    <img src="/assets/image/2021_05_10_alena_dungeon_conceptualization.JPG"  width="auto" />
    <figcaption><i>Conceptualization of the Dungeon.</i></figcaption>
 </figure>
-_After..._
+
+<b>After ...</b>
+
 <figure style="float: none">
-   <img src="/assets/image/2021_05_10_alena_dungeon_today.JPG"  width="auto" />
+   <img src="/assets/image/2021_05_10_anderlid_dungeon.jpg"  width="auto" />
    <figcaption><i>The Dungeon today.</i></figcaption>
 </figure>
 
