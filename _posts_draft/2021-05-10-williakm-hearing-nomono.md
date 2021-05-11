@@ -1,21 +1,21 @@
 ---
 layout: post
 title: "HEARING NOMONO: Our Journey into Audio Branding and Feedback Sounds"
-date: 2021-05-011 10:00:00 +0200
+date: 2021-05-11 10:00:00 +0200
 categories: applied-project
 author: Abhishek Choubey, Lindsay Charles, Willie Mandeville, Wenbo Yi
-image: /assets/image/2021_05_11_williakm_ambisonicFieldRecording.jpeg
+image: /assets/image/2021_05_11_wenboy_cover.png
 keywords:  ambisonics, audio-branding, audio-feedback, sound-logos, field-recording
-excerpt: "Audio branding and audio feedback are everywhere . This semester, we tried our hand at designing some for a young, Trondheim-based audio technology company."
+excerpt: "Audio branding and audio feedback are everywhere. This semester, we tried our hand at designing some for a young, Trondheim-based audio technology company."
 ---
-Regardless of whether you’re reading this blog post on a phone, tablet, or computer, your device is capable of producing audio feedback sounds. And if you’ve watched any advertisement or media today, then you’ve undoubtedly heard a sound logo. Almost all human interaction with modern technology is predicated on responses to audible prompts and memorable branding, so the development of these sonic materials is an important part of any design process. We worked with NOMONO, a young Trondheim-based company, on the development of audio branding and audio feedback materials for their first hardware and software products.
+Regardless of whether you’re reading this blog post on a phone, tablet, or computer, your device is capable of producing audio feedback sounds. And if you’ve watched any advertisement or media today, then you’ve undoubtedly heard a sound logo. Almost all human interaction with modern technology is predicated on responses to audible prompts and memorable branding, so the development of these sonic materials is an important part of any design process. We worked with [NOMONO](https://nomono.co/), a young Trondheim-based company, on the development of audio branding and audio feedback materials for their first hardware and software products.
 
 # A Bit About NOMONO
 
 Founded in Trondheim in 2019, NOMONO's mission is the development of innovative audio solutions for podcasters and storytellers in a variety of audio mediums. Currently the company is deep in the development stage for its initial hardware and software offerings (although if you’re reading this then it’s likely that the products have been released and our NDA has been lifted!). These products are designed for the recording and processing of ambisonic audio via a standalone ambisonic hardware platform (four lavalier microphones and a central ambisonic microphone all housed in a sturdy charging container) and an accompanying app and cloud storage platform for the management and processing of the audio created via the hardware platform.
 
 <figure style="float: none">
-   <img src="/assets/image/2021_05_011_williakm_NomonoHardware.jpeg" alt="Nomono Hardware" title="" width="auto" />
+   <img src="/assets/image/2021_05_11_williakm_NomonoHardware.jpeg" alt="Nomono Hardware" title="" width="auto" />
    <figcaption>NOMONO's ambisonic recording hardware</figcaption>
 </figure>
 
@@ -26,7 +26,7 @@ At the time we entered the project, NOMONO was still settling on the final aesth
 Although our initial plan was to design audio feedback sounds for mapping to specific user actions and processes, the NOMONO timeline grew delayed to the point where this wasn’t feasible. Thankfully, the discussions regarding NOMONO's aesthetics and culture led us to a generalised approach that was feasible given the development limitations while allowing us to capture NOMONO's aesthetic in our sonic materials. Our solution was to develop three sound libraries, each consisting of a set of 12 feedback sounds (four positive, four negative, and four processing). These libraries, **earthBound**, **skySphere**, and **interStellar**, depict the gradient between the Earth and outer space. They were inspired by the NOMONO team’s emphasis on merging dichotomies such as old and new, simple and complex, and intuitive yet innovative. From the documentation we provided to NOMONO:
 
 <figure style="float: none">
-   <img src="/assets/image/2021_05_011_williakm_soundlibraryimages.jpg" alt="Sound Libraries" title="" width="auto" />
+   <img src="/assets/image/2021_05_11_williakm_soundlibraryimages.jpg" alt="Sound Libraries" title="" width="auto" />
    <figcaption>Our three sound libraries</figcaption>
 </figure>
 
@@ -35,9 +35,10 @@ Although our initial plan was to design audio feedback sounds for mapping to spe
 ## Sound Logo(s): Terrestrial -> Celestial
 
 <figure style="float: none">
-   <img src="/assets/image/2021_05_011_williakm_SoundLogoMelody.jpeg" alt="Sound Logo Melody"" width="auto" />
+   <img src="/assets/image/2021_05_11_williakm_SoundLogoMelody.jpeg" alt="Sound Logo Melody" title="" width="auto" />
    <figcaption>The motif at the heart of the NOMONO sound logo</figcaption>
 </figure>
+
 
 Having developed the interpretation of NOMONO's aesthetic/design/cultural character, we then designed iterations of the sound logo to match each of the sound libraries, giving NOMONO flexibility in future use of the materials. As can be seen above, the melodic motif that grounds each sound logo iteration is simply shaped and harmonically simple. Lacking harmonic information regarding its major or minor modality, the motif can be deployed in many different settings to achieve different effects.
 
@@ -112,14 +113,14 @@ The interStellar library was designed to bring the user/listener to an intangibl
 For the mixing session, we rendered the Mono, Stereo and 5.1 surround tracks into 64 tracks of 7th order Ambisonics via IEM Encoder, combined with 1st order ambisonics ambient tracks from Trondheim field recording.
 
 <figure style="float: none">
-   <img src="/assets/image/2021_05_011_williakm_ambisonicsDiagram.jpeg" alt="Ambisonics Diagram"" width="auto" />
+   <img src="/assets/image/2021_05_11_williakm_ambisonicsDiagram.jpeg" alt="Ambisonics Diagram" title="" width="auto" />
    <figcaption>How it all works</figcaption>
 </figure>
 
 In discussions with NOMONO, they emphasised that the ambisonics should not be about sound flying everywhere, but about making all sound elements more clear. That was also the principle behind our production. Instead of overly automating excessive panning, we used the features of Ambisonics to shape an immersive, highly characteristic sound space. We assigned the low frequency part of the ambient sound to the bottom of the Ambisonics sound field, while distributing the mid and high frequency sound effects higher in the spherical space. In contrast, all melodic instruments are arranged horizontally, or at a smaller elevation angle, at the front of the audience.
 
 <figure style="float: none">
-   <img src="/assets/image/2021_05_011_williakm_energyvisualizer.png" alt="Ambisonics Energy Visualizer" title="" width="auto" />
+   <img src="/assets/image/2021_05_11_williakm_energyvisualizer.png" alt="Ambisonics Energy Visualizer" title="" width="auto" />
    <figcaption>Distributing audio in space</figcaption>
 </figure>
 
@@ -130,11 +131,11 @@ Since most NOMONO users will connect their products via headphones, we rendered 
 One of the products which NOMONO is working on is a web-based software that performs signal processing, noise reduction, and sibilance detection algorithms in a dialogue-based setting on ambisonic recordings. To test out their software, the MCT team were tasked with the additional deliverable of ambisonic field/test recordings.
 
 <figure style="float: none">
-   <img src="/assets/image/2021_05_011_williakm_NomonoTestRecordings.jpg" alt="Recording ambisonic audio" title="" width="auto" />
+   <img src="/assets/image/2021_05_11_williakm_ambisonicFieldRecording.jpeg" alt="Recording ambisonic audio" title="" width="auto" />
    <figcaption>Exploring Trondheim in the hunt for sounds</figcaption>
 </figure>
 
-As you can see in the above images, we used an ambisonic microphone, the Zoom H3-VR, to record sounds from all over Trondheim to use in the sound logos. We recorded ski and river sounds in Bymarka. Sea water, seagulls and train sounds by the fjord. Church bells and conversations at Nidarosdomen. We also recorded conversations in a large tunnel with an enormous natural reverb as seen in the bottom right image. Abhishek and Lindsay recorded group conversations at Bumerang, an organisation that lends sports equipment, and Resykkell, a bicycle workshop. They also recorded multilingual conversations which included Hindi, Malwi Kannada, Odia, Bengali, and Persian, as well as differently accented English, among their friends. These sounds were delivered in raw format without processing to NOMONO, who will use them for testing and improving their noise-cancellation technologies.    
+As you can see in the above images, we used an ambisonic microphone, the [Zoom H3-VR](https://zoomcorp.com/en/ca/handheld-recorders/handheld-recorders/h3-vr-360-audio-recorder/), to record sounds from all over Trondheim to use in the sound logos. We recorded ski and river sounds in Bymarka. Sea water, seagulls and train sounds by the fjord. Church bells and conversations at Nidarosdomen. We also recorded conversations in a large tunnel with an enormous natural reverb as seen in the bottom right image. Abhishek and Lindsay recorded group conversations at Bumerang, an organisation that lends sports equipment, and Resykkell, a bicycle workshop. They also recorded multilingual conversations which included Hindi, Malwi Kannada, Odia, Bengali, and Persian, as well as differently accented English, among their friends. These sounds were delivered in raw format without processing to NOMONO, who will use them for testing and improving their noise-cancellation technologies.    
 
 # Conclusion
 
