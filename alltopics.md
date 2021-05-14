@@ -15,7 +15,7 @@ permalink: /alltopics/
           or post.categories contains 'human-computer-interaction'
           or post.categories contains 'interactive-music-systems'
           or post.categories contains 'machine-learning'
-          or post.categories contains 'masters-theses'
+          or post.categories contains 'masters-thesis'
           or post.categories contains 'miscellaneous'
           or post.categories contains 'music-cognition'
           or post.categories contains 'motion-tracking'
