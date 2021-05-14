@@ -20,13 +20,13 @@ sitemap: false
   {% endfor %}
   {% assign pages = site.html_pages | where_exp:'doc','doc.sitemap != false' | where_exp:'doc','doc.title != null' %}
   {% for page in pages %}
-  {
-    "title": {{ page.title | jsonify }},
-    "author": {{ page.author | markdownify | strip_html | jsonify }},
-    "excerpt": {{ page.excerpt | markdownify | strip_html | jsonify }},
-    "content": {{ page.content | markdownify | strip_html | jsonify }},
-    "url": {{ site.baseurl | append: page.url | jsonify }}
-  }{% unless forloop.last %},{% endunless %}
+    {
+      "title": {{ page.title | jsonify }},
+      "author": {{ page.author | markdownify | strip_html | jsonify }},
+      "excerpt": {{ page.excerpt | markdownify | strip_html | jsonify }},
+      "content": {{ page.content | markdownify | strip_html | jsonify }},
+      "url": {{ site.baseurl | append: page.url | jsonify }}
+    }{% unless forloop.last %},{% endunless %}
   {% endfor %}
 ]
 {% endcapture %}

@@ -33,3 +33,6 @@ gem "wdm", "~> 0.1.0" if Gem.win_platform?
 gem 'jekyll-paginate'
 
 gem "webrick", "~> 1.7"
+
+# For redirects
+gem 'jekyll-redirect-from'
