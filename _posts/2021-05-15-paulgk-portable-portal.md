@@ -11,7 +11,7 @@ excerpt: "Working toward a cogent ecological framework for technological-aid dev
 
 <figure style="float: none">
   <iframe width="800" height="500"
-      src="https://youtu.be/fpgfBIX_IaQ"
+      src="https://youtube.com/embed/fpgfBIX_IaQ"
       title="YouTube video player"
       frameborder="0"
       allow="accelerometer;
@@ -26,7 +26,7 @@ excerpt: "Working toward a cogent ecological framework for technological-aid dev
 </figure>
 
 <figure style="float: none">
-<iframe width="560" height="315" src="https://youtu.be/fpgfBIX_IaQ" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://youtube.com/embed/fpgfBIX_IaQ" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
   <figcaption><strong>Introduction to the Portable Portal</strong></figcaption>
 </figure>
