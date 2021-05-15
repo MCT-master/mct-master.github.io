@@ -4,7 +4,7 @@ title: "How To Save The World In Three Chords"
 date: 2020-11-17 20:00:00
 categories: spatial-audio
 author: Aleksander Tidemann, Paul Koenig
-image: /assets/image/2020_11_17paulgk_TheInvasionBegins.jpg
+image: /assets/image/2020_11_17_paulgk_TheInvasionBegins.jpg
 keywords: aliens, area 51, Slim Whitman, deadcat, Navigational Spatiality, Jesus
 excerpt: Don't run! We come in peace!
 ---
