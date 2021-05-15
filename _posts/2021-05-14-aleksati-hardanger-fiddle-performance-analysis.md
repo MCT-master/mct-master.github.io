@@ -5,8 +5,8 @@ date: 2021-05-14 12:10:00 +0200
 categories: masters-thesis
 author: Aleksander Tidemann
 image: https://drive.google.com/uc?export=view&amp;id=1chRYzWPplCWthdpzvY1AgIRPmHMPE-qD
-keywords:  MCT, Master's thesis, Audio programming, HCI, CMA, Scandinavian folk music studies
-excerpt: "Post under construction ..."
+keywords:  MCT, Master's thesis, Audio programming, HCI, CMA, MIR, Scandinavian folk music studies
+excerpt: "This thesis presents the development and evaluation of two software applications that integrate contemporary research perspectives on the complex rhythmical structuring of Hardanger fiddle springar performances, in collaboration with the MIRAGE research project."
 ---
 
 <figure style="float: none">
@@ -26,4 +26,5 @@ excerpt: "Post under construction ..."
 </figcaption>
 </figure>
 
-The rest of this post is under construction ...
+<br/>
+Post is under construction ...
