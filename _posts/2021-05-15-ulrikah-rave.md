@@ -4,7 +4,7 @@ title: "Reinforcement learning for use in cross-adaptive audio processing"
 date: 2021-05-15 09:24:00 +0200
 categories: masters-thesis
 author: Ulrik Halmøy
-image: /assets/image/default.jpg
+image: /assets/image/2021_05_19_ulrikah_thesis_sysarch.png
 keywords:  reinforcement learning, cross-adaptive audio processing, master's thesis
 excerpt: "This thesis is a study of reinforcement learning as a possible method for finding mappings in cross-adaptive audio effects"
 ---
