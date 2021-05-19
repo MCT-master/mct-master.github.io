@@ -39,6 +39,8 @@ The toolkit I developed consisted of three modules, implemented in [MaxMSP](http
 </figcaption>
 </figure>
 
+Source code for this project is available on [GitHub](https://github.com/AleksanderTidemann/hardanger-fiddle-performance-analysis).
+
 #### Evaluation
 The evaluation featured both qualitative and quantitative methods. First, two operational tests were designed to assess the technical accuracy and general usability of modules 2 and 3, in particular, measuring whether the module results were consistent with contemporary performance studies and symbolic representations of the music (musical notation). Second, a questionnaire was administered directly following an online presentation, held on March 4th, 2021. The questionnaire featured fourteen questions designed to collect systematic feedback on more aesthetic and conceptual aspects of the prototypes.
 
