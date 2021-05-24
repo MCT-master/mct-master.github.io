@@ -14,6 +14,8 @@ excerpt: "Working toward a cogent ecological framework for technological-aid dev
 <figcaption><strong></strong></figcaption>
 </figure>
 
+<br>
+
 ## The Portable Portal
 
 The objective of this study was to research and design a distance-teaching system to be used by the girls and young women of [Speak Up For The Poor’s](https://www.speakupforthepoor.org/) Girl’s Education Program (GEP). Speak Up is a nonprofit organization working in Bangladesh, with the primary area of its focus being on the rural Dalit community. As girls in these communities are very vulnerable to child marriage, sex trafficking, and other exploitation and violence, keeping them in school is an essential goal of the GEP as this is the best way to ensure they have a chance of reaching their full potential. Many of the girls in this program have gone on to higher education and professional training, returning to their communities as advocates for and inspiration to future generations of girls. The video below gives a brief introduction to the Portable Portal and Speak Up:
@@ -95,7 +97,7 @@ The website contains three main pages, as follows:
 Student users logging on to the website with a PP device will be automatically logged on with access to the basic functions described on the Student workflow diagram (see figure 2).
 
 <figure align="middle">
-<img src="/assets/image/2021_05_24_paulgk_UserWorkflow.png" width="80%"/>
+<img src="/assets/image/2021_05_24_paulgk_UserWorkflow.png" width="100%"/>
 <figcaption><strong>Figure 2: Student Workflow</strong></figcaption>
 </figure>
 
@@ -104,19 +106,19 @@ Instructors logging on with instructor credentials allow additional functions, m
 
 <br>
 
-
-
 <figure align="middle">
-<img src="/assets/image/2021_05_24_paulgk_InstructorWorkflow.png" width="80%"/>
+<img src="/assets/image/2021_05_24_paulgk_InstructorWorkflow.png" width="100%"/>
 <figcaption><strong>Figure 3: Instructor Workflow</strong></figcaption>
 </figure>
+
+<br>
 
 #### Physical Device
 
 The PP consists of a heavy-duty road case containing a monitor screen, webcam, microphones, cellular modem, audio amplifier and speakers, a battery-backup UPS (uninterruptible power supply), and a micro-computer.
 
 <figure align="middle">
-<img src="/assets/image/2021_05_15_paulgk_PPFrontFigure.png" width="80%"/>
+<img src="/assets/image/2021_05_15_paulgk_PPFrontFigure.png" width="100%"/>
 <figcaption><strong>Figure 4: Front Panel</strong></figcaption>
 </figure>
 
@@ -124,11 +126,11 @@ Figure 4 shows the front panel of the PP with the cover removed, revealing the m
 
 
 <figure align="middle">
-<img src="/assets/image/2021_05_15_paulgk_PPRearFigure copy.png" width="80%"/>
+<img src="/assets/image/2021_05_15_paulgk_PPRearFigure copy.png" width="100%"/>
 <figcaption><strong>Figure 5: Rear</strong></figcaption>
 </figure>
 
-Behind the rear cover of the device (figure 3) is revealed the options for powering the device (i); a standard wall plug for when grid power is available, and a pair of screw terminals for attaching to a 12 volt DC source such as a standard car battery for use when grid power is unavailable or unreliable. The device will prioritize grid power if connected to both. A green led lights to indicate that the unit is properly connected, while red indicates a problem such as insufficient battery power or a reversed polarity connection (not visible in figure 5). Powering the device on is a simple matter of plugging it in or attaching to a battery, switching the unit on, and affirming that the led has lit green. To power down, the user has to simply turn off and unplug the unit. An internal UPS assures that the micro-computer shuts down properly.
+Behind the rear cover of the device (figure 5) is revealed the options for powering the device (i); a standard wall plug for when grid power is available, and a pair of screw terminals for attaching to a 12 volt DC source such as a standard car battery for use when grid power is unavailable or unreliable. The device will prioritize grid power if connected to both. A green led lights to indicate that the unit is properly connected, while red indicates a problem such as insufficient battery power or a reversed polarity connection (not visible in figure 5). Powering the device on is a simple matter of plugging it in or attaching to a battery, switching the unit on, and affirming that the led has lit green. To power down, the user has to simply turn off and unplug the unit. An internal UPS assures that the micro-computer shuts down properly.
 
 All other components of the system are protected by a shroud that attaches via screws to the inside of the case. The shroud can be easily removed for service.
 
