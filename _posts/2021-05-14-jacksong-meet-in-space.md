@@ -4,7 +4,7 @@ title: "Toward a Telepresence of Sound: Video Conferencing in Spatial Audio"
 date: 2021-05-18 12:00:00 +0200
 categories: masters-thesis
 author: Jackson Goode
-image: /assets/image/default.jpg
+image: /assets/image/2021_05_18_jacksong_orientations.jpg
 keywords:  spatial audio, video conferencing, psychoacoustics, jitsi meet, master's thesis
 excerpt: "Teleconferencing in spatial audio with the help of Jitsi Meet and Web Audio"
 redirect_from:
