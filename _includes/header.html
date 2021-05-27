@@ -27,4 +27,16 @@
       </ul>
     </nav>
   </div>
+
+  <!--get the URL, and set the current NAVBAR title class to active.-->
+  <script src="{{"utils/jquery.js" | relative_url }}"></script>
+  <script type="text/javascript">
+    $(document).ready(function() {
+      let target = "nav ul li a";
+      var path = window.location.pathname;
+      var element = $(target + "[href='" + path + "']");
+      element.addClass("active");
+    });
+  </script>
+
 </header>
