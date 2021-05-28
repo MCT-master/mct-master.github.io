@@ -50,18 +50,6 @@ $on-laptop: 800px;
   padding-left: 30px !important;
 }
 
-// Headings
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-  font-family: $heading-family;
-  font-weight: 700;
-  color: $brand-color;
-}
-
 @import "minima";
 
 
@@ -221,12 +209,25 @@ a {
 .post-title {
   @include relative-font-size(2.25);
   letter-spacing: -1px;
-  line-height: 1;
+  line-height: 1.2;
   overflow-wrap: break-word;
 
   @include media-query($on-laptop) {
     @include relative-font-size(2);
   }
+}
+
+
+////////////////////// Headings ////////////////////////
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: $heading-family;
+  font-weight: $base-font-weight-links;
+  color: $brand-color-2;
 }
 
 .post > .post-content {
@@ -305,9 +306,10 @@ body::-webkit-scrollbar-thumb {
   background: $brand-color-2;
   border-radius: 6px;
 }
-////////////////////////////////////////
+////////////////////////////////
 
-// Buttons on blog
+
+//Buttons on blog
 .read-more {
   padding: 6px 0;
   margin: 0;
@@ -329,7 +331,6 @@ body::-webkit-scrollbar-thumb {
 }
 
 ul.pager {
-  border-top: 0.1em dotted #dedede;
   padding-top: 2em;
   margin: auto;
   list-style: none;
