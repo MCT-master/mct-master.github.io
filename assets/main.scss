@@ -5,28 +5,32 @@
 @charset "utf-8";
 
 // Google Fonts
-@import url(https://fonts.googleapis.com/css?family=Roboto+Slab|Open+Sans:400italic,700italic,400,700);
+@import url(https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,400;1,600;1,700;1,800&display=swap);
 
 // Font Variables
 $roboto-slab: "Roboto Slab", serif;
 $open-sans: "Open Sans", sans-serif;
 
 // Our variables
-$heading-family: "Roboto Slab", Arial, sans-serif;
+$heading-family: "Open Sans", Arial, sans-serif;
 $base-font-family: "Open Sans", Arial, sans-serif;
 $base-font-size: 16px;
-$base-font-weight: 400;
+$base-font-weight: 300;
+$base-font-weight-links: 400;
+$base-font-weight-large: 600;
 $small-font-size: $base-font-size * 0.875;
 $base-line-height: 1.5;
 $spacing-unit: 30px;
 
 // Colors
 $text-color: #333;
+$brand-color: #333;
 $background-color: #fdfdfd;
-$brand-color: #8764b4;
-$brand-color-dark: darken($brand-color, 20%);
+//$brand-color: #8764b4;
+//$brand-color: rgb(54, 54, 54);
+$brand-color-dark: darken($brand-color, 50%);
 $brand-color-1: #bf033b;
-$brand-color-2: #f00a36;
+$brand-color-2: #273252;
 $brand-color-3: #ed3b21;
 $brand-color-4: #ff6908;
 $brand-color-5: #ffc719;
@@ -60,24 +64,29 @@ h6 {
 
 @import "minima";
 
-.site-header {
+
+//////////// EVERYTHING BELOW IS IN THE HEADER //////////////////////
+.site-header { // the header itself
+  position: fixed;
+  width: 100%;
+  background-color: $background-color;
+  z-index: 3;
+  opacity: 0.9;
+
   border-top: 0;
-  padding-top: 1em;
-  padding-bottom: 0.5em;
+  border-radius: 6px;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.3);
 }
 
 .site-title {
   // @include relative-font-size(1.625);
   font-size: 28px;
   color: $brand-color;
-  font-weight: 300;
+  font-weight: $base-font-weight;
   letter-spacing: -1px;
   margin-bottom: 0;
   float: left;
-
-  &:visited {
-    color: $brand-color;
-  }
+  opacity: 1;
 }
 
 .site-logo {
@@ -87,6 +96,71 @@ h6 {
   margin: 4px 16px 0 0;
   outline: 0 !important;
 }
+
+.site-nav { //Navbar
+  position: relative;
+  float: right;
+  padding-left: 1em;
+  text-align: left;
+  margin-top: 4px;
+
+  .page-link { // containers for the navbar titles
+    color: $brand-color;
+    line-height: $base-line-height;
+    display: inline-block;
+  }
+}
+
+nav ul li a { // all the navbar titles
+  font-weight: $base-font-weight;
+   &:hover {
+     font-weight: $base-font-weight-links;
+   }
+}
+
+nav ul li a.active,
+nav ul li ul a.active { // the currently active NAVBAR tabs.
+  font-weight: $base-font-weight-links;
+  opacity: 1;
+  li {
+    opacity: 1;
+  }
+}
+
+nav ul { // dropdown menu
+    margin: 0;
+    &.dropdown {
+      position: absolute;
+      display: block;
+      z-index: 3;
+      left: inherit;
+      background: $background-color;
+      margin-top: 5px;
+      border-radius: 6px;
+      padding: 4px;
+      box-shadow: 0 1px 4px rgba(0, 0, 0, 0.3);
+      opacity: 0;
+      visibility: hidden;
+      transition: visibility .2s, opacity .2s ease-in-out;
+
+      li { // this is the pagelinks in the dropdown menu.
+        display: block;
+        line-height: 100%;
+        padding: 0.5rem;
+        border-radius: 6px;
+        opacity: 0.7;
+        transition: box-shadow .2s, opacity .2s ease-in-out;
+        &:hover {
+          opacity: 1;
+          box-shadow: 0 1px 4px rgba(0, 0, 0, 0.3);
+        }
+      }
+    }
+  }
+
+// When you hover over the dropdown navbar tabs, the menu appears.
+.page-link:hover .dropdown {visibility: visible; opacity: 1;}
+//////////// EVERYTHING ABOVE IS IN THE HEADER //////////////////////
 
 @media screen and (max-width: 600px) {
   .site-title {
@@ -112,22 +186,25 @@ h6 {
 }
 
 .post-content {
-  // text-align: justify;
   overflow-wrap: break-word;
   margin-bottom: 0;
 }
 
+///////// all the clickable links in the blog /////////
 a {
-  color: $brand-color;
+  color: $brand-color-2;
+  font-weight: $base-font-weight-links;
+  opacity: 0.7;
   text-decoration: none;
+  transition: color .2s, opacity .2s ease-in-out;
 
   &:visited {
-    color: $brand-color;
+    color: $brand-color-2;
     text-decoration: none;
   }
 
   &:hover {
-    color: $brand-color-dark;
+    opacity: 1;
     text-decoration: none;
   }
 
@@ -139,6 +216,7 @@ a {
     }
   }
 }
+/////////////////////////////////////////////////
 
 .post-title {
   @include relative-font-size(2.25);
@@ -193,27 +271,6 @@ a {
   }
 }
 
-.site-nav {
-  float: right;
-  padding-left: 1em;
-  position: relative;
-  text-align: left;
-
-  .page-link {
-    color: $brand-color;
-    line-height: $base-line-height;
-    display: inline-block;
-    cursor: pointer;
-
-    &:visited {
-      color: $brand-color;
-    }
-
-    &:hover {
-      color: $brand-color-dark;
-    }
-  }
-}
 
 @media screen and (max-width: 600px) {
   // proper header formating for mobile
@@ -235,74 +292,38 @@ a {
   }
 }
 
-// Navigation and dropdown (no JS)
-
-nav ul li ul li {
-  clear: both;
-  width: 100%;
+/////////// page scrollbar /////////////
+body::-webkit-scrollbar {
+  width: 0.4rem;
 }
 
-nav {
-  ul {
-    list-style: none;
-    margin: 0;
-
-    &.dropdown {
-      position: absolute;
-      display: block;
-      z-index: 3;
-      left: inherit;
-      background: #eee;
-      margin-left: -14px;
-      border-radius: 6px;
-      padding: 6px;
-      box-shadow: 0 1px 4px rgba(0, 0, 0, 0.3);
-      opacity: 0;
-      visibility: hidden;
-      transition: visibility .3s, opacity 0.2s;
-      
-      li {
-        display: block;
-        line-height: 100%;
-        color: $brand-color;
-        padding: 0.5rem;
-      }
-    }
-  }
-
-  li {
-    color: #fff;
-    display: inline;
-    text-decoration: none;
-    text-align: left;
-    a {
-      color: $brand-color;
-    }
-  }
+body::-webkit-scrollbar-track {
+  background: $background-color;
 }
 
-.drop-btn:focus + .dropdown { // a beautiful trick for dropdowns
-  opacity: 1;
-  visibility: visible;
+body::-webkit-scrollbar-thumb {
+  background: $brand-color-2;
+  border-radius: 6px;
 }
+////////////////////////////////////////
 
 // Buttons on blog
-
 .read-more {
   padding: 6px 0;
   margin: 0;
 
   & > a {
-    color: #333;
+    color: $text-color;
     text-decoration: none;
     padding: 6px 12px;
     border-radius: 6px;
-    background-color: rgba(240, 240, 240, 1);
-    transition: 0.1s;
-
+    box-shadow: 0px 0px 1px 1px $brand-color-2;
+    transition: color .3s, box-shadow .2s, background-color .2s, font-size .4s ease-in-out;
     &:hover {
-      background-color: rgba(240, 240, 240, 0.75);
-      box-shadow: 0 1px 4px rgba(0, 0, 0, 0.3);
+      box-shadow: 0px 0px 0px 0px $brand-color-2;
+      background-color: lighten($brand-color-2, 50%);
+      color: #fff;
+      font-size: $base-font-size - 1;
     }
   }
 }
@@ -410,6 +431,7 @@ form#contact-form {
 }
 
 .page-content { // everywhere
+  padding-top: 100px; //because we have a fixed header (travels with srolling)
   img, video, iframe, audio {
     border-radius: 8px;
     max-width: 100%;
@@ -447,9 +469,8 @@ form#contact-form {
 }
 
 // Post list styling
-
 .post-list li {
-  border-top: 0.1em dotted #dedede;
+  border-bottom: 0.1em dotted #dedede;
   padding: 1.5em 0;
   margin-bottom: 0 !important;
 
