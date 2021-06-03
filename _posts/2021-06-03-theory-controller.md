@@ -13,8 +13,8 @@ Keywords: Music Theory, IMS, Mapping, SpaceMouse, JavaScript
 
 <iframe id="theory-controller"
     title="theory-controller"
-    width="600"
-    height="350"
+    width="700"
+    height="425"
     frameBorder="0"
     scrolling="no"
     src="https://thiblejack.ch/theory-controller/">
