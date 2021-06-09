@@ -513,3 +513,11 @@ form#contact-form {
     display: block;
   }
 }
+
+// When we want to print a blogpost (or export as PDF), we remove the header (navigation bar)
+@media print {
+  // remove the header.
+   .site-header { visibility: hidden; }
+   // remove the padding, so the title is at the top of the page.
+   .page-content { padding-top:0px; }
+}
