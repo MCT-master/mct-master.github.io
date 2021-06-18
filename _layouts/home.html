@@ -3,41 +3,48 @@ layout: default
 ---
 
 <div class="post-content">
-
   <!--<head><h1 class="custom-heading">Latest</h1></head>-->
 
   <!-- <h2 class="post-list-heading">{{ page.list_title | default: "Posts" }}</h2> -->
+
   <ul class="post-list">
     <!--
         Here is the main paginator logic called.
         All calls to site.posts should be replaced by paginator.posts
     -->
     {% for post in paginator.posts %}
-      <li>
-        {%- if post.image -%}
-          <img src="{{ post.image | prepend: site.baseurl }}" alt="{{ post.title }}" title="{{ post.title }}">
-        {%- else -%}
-          <img src="/assets/image/2018_08_01_stefanof_mct-master-630.jpg" alt="{{ post.title }}" title="{{ post.title }}">
-        {%- endif -%}
-        {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
-        <span class="post-meta">{{ post.date | date: date_format }}</span>
-        <span class="post-meta">• {{ post.author }}</span>
-        <br />
-        <span class="post-meta"><strong>{{ post.categories | join: ", " }}</strong></span>
-        <h3 align="left">
-          <a class="post-link" href="{{ post.url | relative_url }}">
-            {{ post.title | escape }}
-          </a>
-        </h3>
-        {%- if site.show_excerpts -%}
-          <p class="post-excerpt">{{ post.excerpt }}</p>
-        {%- endif -%}
-        <p class="read-more">
-          <a href="{{ post.url | relative_url }}">
-            Read more
-          </a>
-        </p>
-      </li>
+    <li>
+      <a class="post-button" href="{{ post.url | relative_url }}">
+        <div class="post-left">
+          {%- assign date_format = site.minima.date_format | default: "%b %-d,
+          %Y" -%}
+          <span class="post-meta">{{ post.date | date: date_format }}</span>
+          <span class="post-meta">• {{ post.author }}</span>
+          <br />
+          <span class="post-meta"
+            ><strong>{{ post.categories | join: ", " }}</strong></span>
+          <h3>{{ post.title | escape }}</h3>
+          {%- if site.show_excerpts -%}
+            <p class="post-excerpt">{{ post.excerpt | strip_html }}</p>
+          {%- endif -%}
+        </div>
+        <div class="post-right">
+          {%- if post.image -%}
+          <img
+            src="{{ post.image | prepend: site.baseurl }}"
+            alt="{{ post.title }}"
+            title="{{ post.title }}"
+          />
+          {%- else -%}
+          <img
+            src="/assets/image/2018_08_01_stefanof_mct-master-630.jpg"
+            alt="{{ post.title }}"
+            title="{{ post.title }}"
+          />
+          {%- endif -%}
+        </div>
+      </a>
+    </li>
     {% endfor %}
   </ul>
 
@@ -47,14 +54,19 @@ layout: default
   {% if paginator.total_pages > 1 %}
   <ul class="pager">
     {% if paginator.previous_page %}
-      <li class="previous">
-          <a href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}">&larr; Newer posts</a>
-      </li>
-    {% endif %}
-    {% if paginator.next_page %}
-      <li class="next">
-          <a href="{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' }}">Older posts &rarr;</a>
-      </li>
+    <li class="previous">
+      <a
+        href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}"
+        >&larr; Newer posts</a
+      >
+    </li>
+    {% endif %} {% if paginator.next_page %}
+    <li class="next">
+      <a
+        href="{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' }}"
+        >Older posts &rarr;</a
+      >
+    </li>
     {% endif %}
   </ul>
   {% endif %}
