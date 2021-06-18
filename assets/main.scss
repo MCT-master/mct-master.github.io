@@ -52,16 +52,16 @@ $on-laptop: 800px;
 
 @import "minima";
 
-
 //////////// EVERYTHING BELOW IS IN THE HEADER //////////////////////
-.site-header { // the header itself
+.site-header {
+  // the header itself
   position: fixed;
   width: 100%;
   background-color: $background-color;
   z-index: 3;
   opacity: 0.9;
-
   border-top: 0;
+  padding-top: 1em;
   border-radius: 6px;
   box-shadow: 0 1px 4px rgba(0, 0, 0, 0.3);
 }
@@ -85,14 +85,16 @@ $on-laptop: 800px;
   outline: 0 !important;
 }
 
-.site-nav { //Navbar
+.site-nav {
+  //Navbar
   position: relative;
   float: right;
   padding-left: 1em;
   text-align: left;
   margin-top: 4px;
 
-  .page-link { // containers for the navbar titles
+  .page-link {
+    // containers for the navbar titles
     color: $brand-color;
     line-height: $base-line-height;
     display: inline-block;
@@ -107,70 +109,54 @@ $on-laptop: 800px;
 //}
 
 nav ul li a.active,
-nav ul li ul a.active { // the currently active NAVBAR tabs.
+nav ul li ul a.active {
+  // the currently active NAVBAR tabs.
   opacity: 1;
   li {
     opacity: 1;
   }
 }
 
-nav ul { // dropdown menu
-    margin: 0;
-    &.dropdown {
-      position: absolute;
-      display: block;
-      z-index: 3;
-      left: inherit;
-      background: $background-color;
-      margin-top: 5px;
-      border-radius: 6px;
-      padding: 4px;
-      box-shadow: 0 1px 4px rgba(0, 0, 0, 0.3);
-      opacity: 0;
-      visibility: hidden;
-      transition: visibility .2s, opacity .2s ease-in-out;
+nav ul {
+  // dropdown menu
+  margin: 0;
+  &.dropdown {
+    position: absolute;
+    display: block;
+    z-index: 3;
+    left: inherit;
+    background: $background-color;
+    margin-top: 5px;
+    border-radius: 6px;
+    padding: 4px;
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.3);
+    opacity: 0;
+    visibility: hidden;
+    transition: visibility 0.2s, opacity 0.2s ease-in-out;
 
-      li { // this is the pagelinks in the dropdown menu.
-        display: block;
-        line-height: 100%;
-        padding: 0.5rem;
-        border-radius: 6px;
-        opacity: 0.8;
-        transition: box-shadow .1s, opacity .1s ease-in-out;
-        &:hover {
-          opacity: 1;
-          box-shadow: 0 1px 4px rgba(0, 0, 0, 0.3);
-        }
+    li {
+      // this is the pagelinks in the dropdown menu.
+      display: block;
+      line-height: 100%;
+      padding: 0.5rem;
+      border-radius: 6px;
+      opacity: 0.9;
+      transition: box-shadow 0.1s, opacity 0.1s ease-in-out;
+
+      &:hover {
+        opacity: 1;
+        box-shadow: 0 1px 4px rgba(0, 0, 0, 0.3);
       }
     }
   }
+}
 
 // When you hover over the dropdown navbar tabs, the menu appears.
-.page-link:hover .dropdown {visibility: visible; opacity: 1;}
-//////////// EVERYTHING ABOVE IS IN THE HEADER //////////////////////
-
-@media screen and (max-width: 600px) {
-  .site-title {
-    text-align: center;
-    float: none;
-    display: block;
-    padding-left: 0;
-
-    & > img {
-      float: none;
-      margin: 0 16px 16px 0;
-    }
-  }
-
-  .site-nav {
-    color: $brand-color;
-    position: relative;
-    top: 0;
-    right: 0;
-    left: 0;
-    margin-bottom: 0.5em;
-  }
+.page-link:hover .dropdown {
+  visibility: visible;
+  opacity: 1;
 }
+//////////// EVERYTHING ABOVE IS IN THE HEADER //////////////////////
 
 .post-content {
   overflow-wrap: break-word;
@@ -183,7 +169,7 @@ a {
   font-weight: $base-font-weight-links;
   opacity: 0.8;
   text-decoration: none;
-  transition: opacity .1s ease-in-out;
+  transition: opacity 0.1s ease-in-out;
 
   &:visited {
     color: $brand-color-2;
@@ -216,14 +202,8 @@ a {
   }
 }
 
-
 ////////////////////// Headings ////////////////////////
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
+h1, h2, h3, h4, h5, h6 {
   font-family: $heading-family;
   font-weight: $base-font-weight-links;
   color: $brand-color-2;
@@ -272,25 +252,6 @@ h6 {
 }
 
 
-@media screen and (max-width: 600px) {
-  // proper header formating for mobile
-  .site-nav {
-    padding: 0 1em 0;
-    text-align: center;
-
-    .page-link {
-      margin: 0;
-    }
-  }
-  .post-content .post-list img {
-    // put images above posts (not enough space to right)
-    width: 100%;
-    max-height: 180px;
-    object-fit: cover;
-    float: none;
-    margin: 1em auto;
-  }
-}
 
 /////////// page scrollbar /////////////
 body::-webkit-scrollbar {
@@ -306,28 +267,6 @@ body::-webkit-scrollbar-thumb {
   border-radius: 6px;
 }
 ////////////////////////////////
-
-
-//Buttons on blog
-.read-more {
-  padding: 6px 0;
-  margin: 0;
-
-  & > a {
-    color: $text-color;
-    text-decoration: none;
-    padding: 6px 12px;
-    border-radius: 6px;
-    box-shadow: 0px 0px 1px 1px $brand-color-2;
-    transition: box-shadow .2s, background-color .2s, font-size .4s ease-in-out;
-    &:hover {
-      box-shadow: 0px 0px 0px 0px $brand-color-2;
-      background-color: lighten($brand-color-2, 50%);
-      font-size: $base-font-size - 1;
-      color: #fff;
-    }
-  }
-}
 
 ul.pager {
   padding-top: 2em;
@@ -430,9 +369,13 @@ form#contact-form {
   box-shadow: none !important;
 }
 
-.page-content { // everywhere
+.page-content {
+  // everywhere
   padding-top: 100px; //because we have a fixed header (travels with srolling)
-  img, video, iframe, audio {
+  img,
+  video,
+  iframe,
+  audio {
     border-radius: 8px;
     max-width: 100%;
     box-shadow: 1px 3px 8px rgba(0, 0, 0, 0.5);
@@ -440,15 +383,22 @@ form#contact-form {
   }
 }
 
-.post.h-entry { // only in posts
+.post.h-entry {
+  // only in posts
   .post-content {
-    figure, audio {
+    figure,
+    audio {
       min-width: 80%; // when unset
     }
-    figure, img, video {
+    figure,
+    img,
+    video {
       height: auto;
     }
-    figure, img, video, iframe {
+    figure,
+    img,
+    video,
+    iframe {
       text-align: center;
       font-style: italic;
       font-size: smaller;
@@ -470,28 +420,44 @@ form#contact-form {
 
 // Post list styling
 .post-list li {
-  border-bottom: 0.1em dotted #dedede;
-  padding: 1.5em 0;
-  margin-bottom: 0 !important;
+  .post-button {
+    display: flex;
+    position: relative;
+    border-radius: 6px;
+    height: 200px;
+    padding: 1em;
+    opacity: 1;
+    transition: box-shadow 0.1s ease-in-out;
+    border-bottom: 0.1em dotted #dedede;
+    overflow: hidden;
 
-  img {
-    display: block;
-    float: right;
-    width: 33.3%;
-    max-height: 300px;
-    object-fit: cover; // if images are too tall, crop them
-    margin: 0 0 0 3em;
-    box-shadow: 1px 3px 8px rgba(0, 0, 0, 0.5);
-  }
+    &:hover {
+      box-shadow: 0 0 6px rgba(0, 0, 0, 0.3);
+    }
 
-  .post-excerpt {
-    margin: 1em auto;
-  }
+    .post-left {
+      width: 75%;
+      margin-right: 1em;
 
-  &:after {
-    content: "";
-    clear: both;
-    display: table;
+      h3 {
+        font-size: 24px;
+      }
+
+      .post-excerpt {
+        min-height: 50%;
+      }
+    }
+
+    .post-right {
+      max-width: 25%;
+      display: flex;
+
+      img {
+        width: 100%;
+        object-fit: cover; // fill out images
+        box-shadow: 1px 3px 8px rgba(0, 0, 0, 0.3);
+      }
+    }
   }
 }
 
@@ -516,8 +482,76 @@ form#contact-form {
 
 // When we want to print a blogpost (or export as PDF), we remove the header (navigation bar)
 @media print {
-  // remove the header.
-   .site-header { visibility: hidden; }
-   // remove the padding, so the title is at the top of the page.
-   .page-content { padding-top:0px; }
+  // remove the header and footer
+  .site-header .site-footer {
+    visibility: hidden;
+  }
+  // remove the padding, so the title is at the top of the page.
+  .page-content {
+    padding-top: 0px;
+  }
+}
+
+
+@media screen and (max-width: 600px) {
+  .site-header {
+    position: relative;
+
+    .site-title {
+      text-align: center;
+      float: none;
+      display: block;
+      padding-left: 0;
+  
+      & > img {
+        float: none;
+        margin: 0 16px 16px 0;
+      }
+    }
+    .site-nav {
+      color: $brand-color;
+      position: relative;
+      top: 0;
+      right: 0;
+      left: 0;
+      margin-bottom: 0.5em;
+      padding: 0 1em 0;
+      text-align: center;
+  
+      .page-link {
+        margin: 0;
+      }
+    }
+  }
+
+  .page-content {
+    padding: 30px 0;
+  }
+
+  .post-list li .post-button {
+    border-bottom: 0;
+
+    .post-right {
+      max-width: 100%;
+      height: 100%;
+      position: absolute;
+      top: 0;
+      left: 0;
+      z-index: -1;
+
+      img {
+        opacity: .5;
+        mask-image: linear-gradient(to right, rgba(0,0,0,0) 50%,rgba(0,0,0,1) 100%);
+        transition: opacity 0.1s ease-in-out;
+      }
+    }
+
+    .post-left {
+      width: 100%;
+    }
+  }
+}
+
+@media screen and (max-width: 600px) {
+
 }

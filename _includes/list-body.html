@@ -1,21 +1,32 @@
 <li>
-  {%- if post.image -%}
-  <img src="{{ post.image | prepend: site.baseurl }}" alt="{{ post.title }}" title="{{ post.title }}">
-  {%- endif -%}
-  {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
-  <span class="post-meta">{{ post.date | date: date_format }}</span>
-  <span class="post-meta">• {{ post.author }}</span>
-  <h3 align="left">
-    <a class="post-link" href="{{ post.url | relative_url }}">
-      {{ post.title | escape }}
-    </a>
-  </h3>
-  {%- if site.show_excerpts -%}
-    <p class="post-excerpt">{{ post.excerpt }}</p>
-  {%- endif -%}
-  <p class="read-more">
-    <a href="{{ post.url | relative_url }}">
-      Read more
-    </a>
-  </p>
+  <a class="post-button" href="{{ post.url | relative_url }}">
+    <div class="post-left">
+      {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y"
+      -%}
+      <span class="post-meta">{{ post.date | date: date_format }}</span>
+      <span class="post-meta">• {{ post.author }}</span>
+      <br />
+      <span class="post-meta"
+        ><strong>{{ post.categories | join: ", " }}</strong></span>
+      <h3>{{ post.title | escape }}</h3>
+      {%- if site.show_excerpts -%}
+      <p class="post-excerpt">{{ post.excerpt | strip_html }}</p>
+      {%- endif -%}
+    </div>
+    <div class="post-right">
+      {%- if post.image -%}
+      <img
+        src="{{ post.image | prepend: site.baseurl }}"
+        alt="{{ post.title }}"
+        title="{{ post.title }}"
+      />
+      {%- else -%}
+      <img
+        src="/assets/image/2018_08_01_stefanof_mct-master-630.jpg"
+        alt="{{ post.title }}"
+        title="{{ post.title }}"
+      />
+      {%- endif -%}
+    </div>
+  </a>
 </li>
