@@ -48,7 +48,7 @@ By raising your hand you will gain control of the exhibit.
 Swiping gestures allows for browsing various artists featured, and a pushing gesture will play a music video of the selected artist. The prototype also makes use of proxemic interaction where users can walk onto platforms in the virtual environment to change the decade on display.
 
 <figure style="float: none">
-    <iframe width="800" height="480" src="https://youtu.be/4ak5-kiAhAw" frameborder="0" allowfullscreen></iframe>
+    <iframe width="800" height="480" src="https://www.youtube.com/embed/4ak5-kiAhAw" frameborder="0" allowfullscreen></iframe>
     <figcaption>Demo of the exhibit</figcaption>
 </figure>
 
