@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Designing Gesture-based Interactive Museum Exhibit"
-date: 2021-06-23 10:00:00 +0200
+date: 2021-06-20 10:00:00 +0200
 categories: masters-thesis
 author: Simon Sandvik
 image: /assets/image/2021_06_20_simonrs_multitudeofways.png
@@ -25,7 +25,7 @@ Direct manipulation is one of the most common methods of interaction in VR. Anot
 
 <figure>
   <img src="/assets/image/2021_06_23_simonrs_gestureinteraction.png" alt="A selection of various interaction methods" width="70%">
-  <figcaption>The reinforcement learning cycle</figcaption>
+  <figcaption>A selection of various interaction methods</figcaption>
 </figure>
 
 Discoverability of gestures is a key challenge in interactive gesture design.
@@ -43,10 +43,12 @@ Using avatars that mirror user movements is found to have effect on social accep
 
 The thesis included the design of a prototype exhibit made with Unity using the Azure Kinect DK sensor array to retrieve gesture information. By making use of the Body Tracking API and the “Azure Kinect Examples” asset provided for Unity
 The Azure Kinect Examples asset for Unity provides a way of retrieving data from the Body Tracking API directly into unity. The data provided is a skeletal joint array, from which we gestures are recognized by a hard-coded approach of relative positioning to determine states of Start positions and end positions of a discrete gesture.
+When a user or multiple users enter the sensors field of view, an avatar is created onto the scene. For each person that enters the scene the avatar will have a different color.
+By raising your hand you will gain control of the exhibit.
 Swiping gestures allows for browsing various artists featured, and a pushing gesture will play a music video of the selected artist. The prototype also makes use of proxemic interaction where users can walk onto platforms in the virtual environment to change the decade on display.
 
 <figure style="float: none">
-    <iframe width="800" height="480" src="https://drive.google.com/file/d/1kII_7_GoYhAbceBvmnl6PwoY4_7GUDxa/view?usp=sharing" frameborder="0" allowfullscreen></iframe>
+    <iframe width="800" height="480" src="https://youtu.be/4ak5-kiAhAw" frameborder="0" allowfullscreen></iframe>
     <figcaption>Demo of the exhibit</figcaption>
 </figure>
 
