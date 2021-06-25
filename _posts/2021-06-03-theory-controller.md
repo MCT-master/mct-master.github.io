@@ -35,7 +35,7 @@ The visual interface consists of a third of the circle of fifths at the bottom, 
     height="425"
     frameBorder="0"
     scrolling="no"
-    src="https://thiblejack.ch/theory-controller/">
+    src="https://thiblejack.ch/theory-controller">
 </iframe>
 
 ## Applications
