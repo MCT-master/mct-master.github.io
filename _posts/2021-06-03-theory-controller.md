@@ -21,14 +21,11 @@ The interface offers one-to-one control of three main parameters: scale class, k
 
 In additions, these scales may be accessed using other navigation means: chord type, mode in type, semitone and minor third. To control these parameters, either a SpaceMouse or mouse and keyboards may be used. You can have an overview of the mapping in the following video. You may also test the system itself in the web app down below. Use the mouse to change the three main parameters on the bottom right corner and keyboard arrows to navigate using types.
 
-<iframe
-    width="640"
-    height="480"
-    src="https://youtu.be/PS_K6YkZnro"
-    frameborder="0"
-    allow="autoplay; encrypted-media"
-    allowfullscreen>
-</iframe>
+<figure>
+    <iframe width="560" height="315" src="https://www.youtube.com/watch?v=PS_K6YkZnro" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+    </iframe>
+    <figcaption>Mapping</figcaption>
+</figure>
 
 The visual interface consists of a third of the circle of fifths at the bottom, a smaller circle of modes on top of it, containing small circles for the accessible scales. Moreover, you can see mouse navigation buttons on the bottom right corner, the six chord types on top and finally a list of the available modes in type on the right.
 
@@ -45,11 +42,8 @@ The visual interface consists of a third of the circle of fifths at the bottom, 
 
 The instrument may be used in different manners. In order to make music, it has to be used in conjunction with a compatible app. For example, you can watch below a demonstration of the Theory Controller used with a dynamic MIDI scale mapper. The selected scale is communicated using OSC, and a Pure Data patch makes the drum pad trigger a MIDI tetrad chord according to the selected mode. That way, both musicians are always harmonically in synch, while only one has control of it using the Theory Controller. All generated MIDI data are routed to virtual instruments.
 
-<iframe
-    width="640"
-    height="480"
-    src="https://youtu.be/nrOcMIe3s-Y"
-    frameborder="0"
-    allow="autoplay; encrypted-media"
-    allowfullscreen>
-</iframe>
+<figure>
+    <iframe width="560" height="315" src="https://www.youtube.com/watch?v=nrOcMIe3s-Y" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+    </iframe>
+    <figcaption>Demonstration</figcaption>
+</figure>
