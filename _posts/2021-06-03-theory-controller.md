@@ -2,7 +2,7 @@
 layout: post
 title: "Theory Controller: A Silent IMS"
 date: 2021-06-03 12:00:00 +0200
-categories: master-thesis
+categories: masters-thesis
 author: Thibault Jaccard
 image: /assets/image/2021_06_03_thiblejack_theory_controller.png
 excerpt: "Interactive system to control music theory"
