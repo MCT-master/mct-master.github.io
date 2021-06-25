@@ -38,7 +38,7 @@ The visual interface consists of a third of the circle of fifths at the bottom, 
     src="https://thiblejack.ch/theory-controller/">
 </iframe>
 
-## applications
+## Applications
 
 The instrument may be used in different manners. In order to make music, it has to be used in conjunction with a compatible app. For example, you can watch below a demonstration of the Theory Controller used with a dynamic MIDI scale mapper. The selected scale is communicated using OSC, and a Pure Data patch makes the drum pad trigger a MIDI tetrad chord according to the selected mode. That way, both musicians are always harmonically in synch, while only one has control of it using the Theory Controller. All generated MIDI data are routed to virtual instruments.
 
