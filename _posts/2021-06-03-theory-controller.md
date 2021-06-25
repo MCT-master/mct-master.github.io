@@ -19,7 +19,7 @@ The Theory Controller opens a discussion about chord progression awareness as we
 
 The interface offers one-to-one control of three main parameters: scale class, key and degree. The scale class parameter has four states (diatonic, acoustic, harmonic minor and hamronic major), the kay may be one of the twelve pitch classes, and the degree represents one of the seven heptatonic modes of the selected scale. That gives us a total of 336 scales.
 
-In additions, these scales may be accessed using other navogation means: chord type, mode in type, semitone and minor third. To control these parameters, either a SpaceMouse or mouse and keyboards may be used. You can have an overview of the mapping in the following video. You may also test the system itself in the web app down below.
+In additions, these scales may be accessed using other navigation means: chord type, mode in type, semitone and minor third. To control these parameters, either a SpaceMouse or mouse and keyboards may be used. You can have an overview of the mapping in the following video. You may also test the system itself in the web app down below. Use the mouse to change the three main parameters on the bottom right corner and keyboard arrows to navigate using types.
 
 <figure>
     <iframe width="560" height="315" src="https://youtu.be/PS_K6YkZnro" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
