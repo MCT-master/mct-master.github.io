@@ -61,7 +61,7 @@ $on-laptop: 800px;
   z-index: 3;
   opacity: 0.9;
   border-top: 0;
-  padding-top: 1em;
+  padding-top: .5em;
   border-radius: 6px;
   box-shadow: 0 1px 4px rgba(0, 0, 0, 0.3);
 }
@@ -284,10 +284,11 @@ ul.pager {
 
   & > a {
     color: #333;
-    text-decoration: none;
-    padding: 6px 12px;
-    border-radius: 6px;
     background-color: rgba(240, 240, 240, 1);
+    border: rgba(230, 230, 230, 0.75);
+    padding: 8px 20px;
+    border-radius: 6px;
+    text-decoration: none;
     transition: 0.1s;
 
     &:hover {
@@ -371,7 +372,7 @@ form#contact-form {
 
 .page-content {
   // everywhere
-  padding-top: 100px; //because we have a fixed header (travels with srolling)
+  padding-top: 100px; //because we have a fixed header (travels with scrolling)
   img,
   video,
   iframe,
@@ -436,6 +437,8 @@ form#contact-form {
     }
 
     .post-left {
+      display: block;
+      overflow: hidden;
       width: 75%;
       margin-right: 1em;
 
@@ -529,7 +532,7 @@ form#contact-form {
   }
 
   .post-list li .post-button {
-    border-bottom: 0;
+    border: 2px solid rgba(230, 230, 230, 0.75);
 
     .post-right {
       max-width: 100%;
@@ -548,6 +551,10 @@ form#contact-form {
 
     .post-left {
       width: 100%;
+
+      h3 {
+        font-size: 20px;
+      }
     }
   }
 }
