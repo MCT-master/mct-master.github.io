@@ -74,10 +74,10 @@ On this page you can find information about current and past students. Directly 
     <a href="/authors/sofiagonzalez.html">Sofia Gonzalez</a>
     <a href="/authors/olivergetz.html">Oliver Getz</a>
     <a href="/authors/kristianwentzel.html">Kristian Wentzel</a>
-    <a href="/authors/josephclemente.html">Joseh Clemente</a>
+    <a href="/authors/josephclemente.html">Joseph Clemente</a>
     <a href="/authors/joachimpoutaraud.html">Joachim Poutaraud</a>
     <a href="/authors/jakobhoydal.html">Jakob Høydal</a>
-    <a href="/authors/hughalexandervonarnim.html">Hugh Alexander Vonarnim</a>
+    <a href="/authors/hughalexandervonarnim.html">Hugh Alexander von Arnim</a>
   </details>
 </div>
 
