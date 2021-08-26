@@ -72,5 +72,5 @@ Oliver Getz is a video game composer, active in the Norwegian game development s
 
 In the past, Oliver has conducted music ensembles, organised scoring stage recordings for visual media, and developed video games. Now he is in the MCT programme to learn more about audio interactivity. Head to his website to learn more about interactive music for games or audio production for edutainment projects.
 
-- [Website](www.olivergetz.com)
-- [Music](music.olivergetz.com)
+- [Website](https://olivergetz.com)
+- [Music](https://music.olivergetz.com)
