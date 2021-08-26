@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Meet MCT Team A 2021"
-date: 2021-08-25
+date: 2021-08-27 10:15:00
 categories: people
 author: Sofía González, Joachim Poutaraud, Hugh Alexander von Arnim, Oliver Getz
 image: https://drive.google.com/uc?export=view&amp;&id=1K5upOiWgFN37KXMk3uycLP9OmsuBSefw
@@ -33,7 +33,7 @@ My name is Sofía and I come all the way from Spain because I was given the oppo
 As for my formation, I have been in the **conservatory** for four years playing violin (but that was a looong time ago), I have a degree on **English Studies** and two years of **singing lessons**. That’s why I hope to learn as much as I’m allowed here in the MCT but also as much as my brain is able to take in without exploding…
 Besides the academic details, in my free time I enjoy just about anything that’s **creative**: watching movies/TV shows, playing videogames, creative writing, drawing, baking (and eating the baked goods), singing, writing songs…you name it.
 
-- [YouTube](www.youtube.com/channel/UCnjkc3P3Cht0C72phM2jTGw)
+- [YouTube](https://www.youtube.com/channel/UCnjkc3P3Cht0C72phM2jTGw)
 - [Instagram](https://www.instagram.com/gmsoff/)
 
 ### Joachim Poutaraud
@@ -58,7 +58,7 @@ Hugh studied a Bachelor in Sound and Music Production in Germany. However, his i
 Some examples of his work include:
 
 - [Sound Installation 'Extrude' exhibited in Darmstadt, Germany](https://youtu.be/7E5Ckih0YoY)
-- [Recording and mix of the piece 'Interlude for Trombone' performed by the Landes Jugend Jazz Orchester Hessen](https://soundcloud.com/hugh-von-arnim/interlude-for-trombone)
+- [Recording and mix of the piece 'Interlude for Trombone' performed by the Landes Jugend Jazz Orchester Hessen](https://soundcloud.com/hugh-von-arnim/interlude-for-trombone/s-PJ2WohHHl4C)
 - [Composition of the piece 'Lost Time'](https://soundcloud.com/hugh-von-arnim/lost-time/s-2l1gKjCodV0)
 
 ### Oliver Getz
