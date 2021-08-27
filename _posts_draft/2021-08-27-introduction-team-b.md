@@ -4,7 +4,7 @@ title: "Meet MCT 2021 Team B"
 date: 2021-08-27 10:00:00 +0200
 categories: People
 author: Arvid Falch, Joseph Clemente, Jakob Høydal, Kristian Wentzel
-image: https://drive.google.com/uc?&id=1LjFTKMANm5qnBxupU7NS7L4XNSmmSXzK
+image: /assets/image/2021_08_27_jakobhoydal_teamB.jpg
 keywords: teams, people, bio
 excerpt: "This is the brand new, fresh from the oven, Team B from the MCT 2021 program. Come and say hi to us!"
 ---
@@ -26,7 +26,7 @@ On paper, Team B is a group of four MCT students assigned by random chance. But 
 ## Kristian Wentzel
 
 <figure style="float: none">
-   <img src="https://drive.google.com/uc?&id=1VvaPGHLeYD_s5RKH4W7SH8_1xw7kSXXU" alt="Kristian Wentzel" title="Kristian Wentzel" width="auto" />
+   <img src="https://drive.google.com/uc?&id=1z9wAyjdHqw8qOu3rosM-7x3M6BP0esxW" alt="Kristian Wentzel" title="Kristian Wentzel" width="auto" />
    <figcaption></figcaption>
 </figure>
 
@@ -82,7 +82,7 @@ Joining the MCT program, Arvid is really looking forward to explore technology w
 [Website](https://arvidfalch.com/)
 
 
-## Competency
+## Competencies
 
 <figure style="float: none">
    <img src="https://drive.google.com/uc?&id=1rrnPltxztq3_kEacPp06f_PliG09pH_h" alt="Team B" title="Team B" width="auto" />
