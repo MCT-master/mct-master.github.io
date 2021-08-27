@@ -71,7 +71,7 @@ On this page you can find information about current and past students. Directly 
   <details>
     <summary><h4>UiO, Oslo</h4></summary>
     <a href="/authors/arvidfalch.html">Arvid Falch</a>
-    <a href="/authors/sofiagonzalez.html">Sofia Gonzalez</a>
+    <a href="/authors/sofiagonzalez.html">Sofía González</a>
     <a href="/authors/olivergetz.html">Oliver Getz</a>
     <a href="/authors/kristianwentzel.html">Kristian Wentzel</a>
     <a href="/authors/josephclemente.html">Joseph Clemente</a>
