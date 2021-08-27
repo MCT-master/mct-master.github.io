@@ -13,7 +13,7 @@ excerpt: "Meet Team B from the MCT 2021 program."
 
 
 <figure style="float: none">
-   <img src="https://drive.google.com/uc?&id=1LjFTKMANm5qnBxupU7NS7L4XNSmmSXzK" alt="Alternate Text" title="Image Title" width="auto" />
+   <img src="https://drive.google.com/uc?&id=1LjFTKMANm5qnBxupU7NS7L4XNSmmSXzK" alt="Team B" title="Team B" width="auto" />
    <figcaption>Team B</figcaption>
 </figure>
 
@@ -24,8 +24,8 @@ On paper, Team B is a group of four MCT students assigned by random chance. But 
 ### Kristian Wentzel
 
 <figure style="float: none">
-   <img src="https://drive.google.com/uc?&id=15k4zn7e5ktnjzqZYUR86FOze87s5zOsC" alt="Alternate Text" title="Image Title" width="auto" />
-   <figcaption>Kristian Wentzel</figcaption>
+   <img src="https://drive.google.com/uc?&id=1VvaPGHLeYD_s5RKH4W7SH8_1xw7kSXXU" alt="Kristian Wentzel" title="Kristian Wentzel" width="auto" />
+   <figcaption></figcaption>
 </figure>
 
 Kristian is a keyboard player from a rural area in Norway called Toten. Here, he grew up to the Soul & Rhythms of his relatives. After picking up the flute to do some 17th of May marching (Editor’s note: the Norwegian national day) in the school band, he settled for the piano. Although his beloved grandfather advised him to pursue an education in Computer Science, the attraction towards a career in music was too strong. This resulted in a Bachelor’s Degree in “Music Performance”, and add-ons including “Live Electronics: Music Technology for Performers” – before finally wrapping the pieces together in attending the MCT Master’s programme.
@@ -38,7 +38,7 @@ Kristian is a father of a girl, and resides just outside of Oslo. When not perfo
 ### Joseph Clemente
 
 <figure style="float: none">
-   <img src="https://drive.google.com/uc?&id=1plhlPy6HHH_q6hd9S5gLweHEA32JdTEh" alt="Alternate Text" title="Image Title" width="auto" />
+   <img src="https://drive.google.com/uc?&id=1plhlPy6HHH_q6hd9S5gLweHEA32JdTEh" alt="Joseph Clemente" title="Joseph Clemente" width="auto" />
    <figcaption>Joseph Clemente</figcaption>
 </figure>
 
@@ -49,8 +49,8 @@ Joseph is a Computer Science major from the suburbs outside of Detroit, Michigan
 ### Jakob Høydal
 
 <figure style="float: none">
-   <img src="https://drive.google.com/uc?&id=1RFj9peiPQTNXnpjWcrJBJ0twfOoDb58G" alt="Alternate Text" title="Image Title" width="auto" />
-   <figcaption>Jakob Høydal</figcaption>
+   <img src="https://drive.google.com/uc?&id=1RFj9peiPQTNXnpjWcrJBJ0twfOoDb58G" alt="Jakob Høydal" title="Jakob Høydal" width="auto" />
+   <figcaption></figcaption>
 </figure>
 
 Jakob is a bass player and audio-engineer born in the small town of Langevåg on the west-coast of Norway. At a young age he started in the local marching-band. In his teens he figured that rock was a lot more fun. He couldn’t bring his trombone to the band, so he started to play bass. He also played the double bass for a few years, but sold it so he could travel.
@@ -62,8 +62,8 @@ Jakob looks forward to learning a lot about how things connect, and to expand hi
 ### Arvid Falch
 
 <figure style="float: none">
-   <img src="https://drive.google.com/uc?&id=1d1M42g4CZ8jC-cnFbZYGvYCxIf7qbdsL" alt="Alternate Text" title="Image Title" width="auto" />
-   <figcaption>Arvid Falch</figcaption>
+   <img src="https://drive.google.com/uc?&id=1d1M42g4CZ8jC-cnFbZYGvYCxIf7qbdsL" alt="Arvid Falch" title="Arvid Falch" width="auto" />
+   <figcaption></figcaption>
 </figure>
 
 Arvid Falch is a Norwegian music composer. He spent his formative years recording and touring with various acts and artists, until he got tired of carrying heavy amps into yet another basement club. Since then he has worked as a composer and music supervisor. He has composed music for a variety of films, TV series, apps, shorts and commercials.
@@ -73,12 +73,12 @@ Arvid is a father of two children and resides just outside Oslo, Norway. When no
 
 Joining the MCT program, Arvid is really looking forward to explore technology which could be used in post production environments and creative musical collaborations across borders.
 
-
+[Website](https://arvidfalch.com/)
 
 ## Competency
 
 <figure style="float: none">
-   <img src="https://drive.google.com/uc?&id=1rrnPltxztq3_kEacPp06f_PliG09pH_h" alt="Alternate Text" title="Image Title" width="auto" />
+   <img src="https://drive.google.com/uc?&id=1rrnPltxztq3_kEacPp06f_PliG09pH_h" alt="Team B" title="Team B" width="auto" />
    <figcaption>Team B</figcaption>
 </figure>
 
