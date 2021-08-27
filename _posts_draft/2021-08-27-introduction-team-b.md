@@ -36,7 +36,7 @@ The last decade, he has been a freelance musician performing with acts ranging f
 
 Kristian is a father of a girl, and resides just outside of Oslo. When not performing music, he can *not* be found fly fishing in the local rivers, though he’d love to partake in an evening of board games. He is excited to get this opportunity to pursue his interests further in exploring synthesizers, music technology – and learn lots of new stuff in all things related.
 
-[Instagram](https://instagram.com/wnetzel)
+- [Instagram](https://instagram.com/wnetzel)
 
 
 ## Joseph Clemente
@@ -63,6 +63,8 @@ In later years Jakob studied music production at Kristiania University College. 
 
 Jakob looks forward to learning a lot about how things connect, and to expand his knowledge about technology in the music- and audio-field.
 
+- [Instagram](https://instagram.com/yakobohoydal)
+- [Website](https://jakobhoydal.no)
 
 
 ## Arvid Falch
@@ -79,7 +81,7 @@ Arvid is a father of two children and resides just outside Oslo, Norway. When no
 
 Joining the MCT program, Arvid is really looking forward to explore technology which could be used in post production environments and creative musical collaborations across borders.
 
-[Website](https://arvidfalch.com/)
+- [Website](https://arvidfalch.com/)
 
 
 ## Competencies
