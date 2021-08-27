@@ -70,14 +70,14 @@ On this page you can find information about current and past students. Directly 
   <h2>2021-2023</h2>
   <details>
     <summary><h4>UiO, Oslo</h4></summary>
-    <a href="/authors/josephclemente.html">Joseph Clemente</a>
     <a href="/authors/arvidfalch.html">Arvid Falch</a>
-    <a href="/authors/sofiamuñoz.html">Sofia Muñoz</a>
-    <a href="/authors/jakobhøydal.html">Jakob Høydal</a>
+    <a href="/authors/sofiagonzalez.html">Sofia Gonzalez</a>
+    <a href="/authors/olivergetz.html">Oliver Getz</a>
+    <a href="/authors/kristianwentzel.html">Kristian Wentzel</a>
+    <a href="/authors/josephclemente.html">Joseph Clemente</a>
     <a href="/authors/joachimpoutaraud.html">Joachim Poutaraud</a>
-    <a href="/authors/oliverrodahl.html">Oliver Rodahl</a>
-    <a href="/authors/hughvonarnim.html">Hugh von Arnim</a>
-    <a href="/authors/kristianwentzel.html">Kristian Wentzel</a>    
+    <a href="/authors/jakobhoydal.html">Jakob Høydal</a>
+    <a href="/authors/hughalexandervonarnim.html">Hugh Alexander von Arnim</a>
   </details>
 </div>
 
@@ -91,27 +91,9 @@ Below are blog posts that present the various authors of this blog, which are th
   <!-- <h2 class="post-list-heading">{{ page.list_title | default: "Posts" }}</h2> -->
   <ul class="post-list">
     {%- for post in site.categories.people -%}
-      <li>
-        {%- if post.image -%}
-          <img src="{{ post.image | prepend: site.baseurl }}" alt="{{ post.title }}" title="{{ post.title }}">
-        {%- endif -%}
-        {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
-        <span class="post-meta">{{ post.date | date: date_format }}</span>
-        <span class="post-meta">• {{ post.author }}</span>
-        <h3 align="left">
-          <a class="post-link" href="{{ post.url | relative_url }}">
-            {{ post.title | escape }}
-          </a>
-        </h3>
-        {%- if site.show_excerpts -%}
-          <p class="post-excerpt">{{ post.excerpt }}</p>
-        {%- endif -%}
-        <p class="read-more">
-          <a href="{{ post.url | relative_url }}">
-            Read more
-          </a>
-        </p>
-      </li>
+
+    {%- include list-body.html -%}
+
     {%- endfor -%}
   </ul>
 {%- endif -%}
