@@ -59,6 +59,8 @@ Jakob is a bass player and audio-engineer born in the small town of Langevåg on
 In later years Jakob studied music production at Kristiania University College. He also freelance at the technical side of concert venues and in the broadcast-scene.
 
 Jakob looks forward to learning a lot about how things connect, and to expand his knowledge about technology in the music- and audio-field.
+- [Website](https://jakobhoydal.no)
+- [Instagram](https://www.instagram.com/yakobohoydal/)
 
 ## Arvid Falch
 
