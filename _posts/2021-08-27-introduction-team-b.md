@@ -2,11 +2,11 @@
 layout: post
 title: "Meet MCT 2021 Team B"
 date: 2021-08-27 10:00:00 +0200
-categories: People
+categories: people
 author: Arvid Falch, Joseph Clemente, Jakob Høydal, Kristian Wentzel
-image: /assets/image/2021_08_27_jakobhoydal_teamB.jpg
+image: /assets/image/2021_08_27_josephcl_teamB.jpg
 keywords: teams, people, bio
-excerpt: "This is the brand new, fresh from the oven, Team B from the MCT 2021 program. Come and say hi to us!"
+excerpt: "This is the brand new, fresh from the oven, Team B from the MCT 2021 program. Come and say hi!"
 ---
 
 # The Fab Four?
