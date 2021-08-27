@@ -76,7 +76,7 @@ Arvid is a father of two children and resides just outside Oslo, Norway. When no
 
 Joining the MCT program, Arvid is really looking forward to explore technology which could be used in post production environments and creative musical collaborations across borders.
 
-[Website](https://arvidfalch.com/)
+- [Website](https://arvidfalch.com/)
 
 ## Competency
 
