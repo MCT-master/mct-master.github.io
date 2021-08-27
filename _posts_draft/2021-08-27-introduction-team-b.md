@@ -1,12 +1,12 @@
 ---
 layout: post
 title: "Meet MCT 2021 Team B"
-date: 2021-08-25 09:00:00 +0200
+date: 2021-08-27 10:00:00 +0200
 categories: People
 author: Arvid Falch, Joseph Clemente, Jakob Høydal, Kristian Wentzel
-image:
+image: https://drive.google.com/uc?&id=1LjFTKMANm5qnBxupU7NS7L4XNSmmSXzK
 keywords: teams, people, bio
-excerpt: "Meet Team B from the MCT 2021 program."
+excerpt: "This is the brand new, fresh from the oven, Team B from the MCT 2021 program. Come and say hi to us!"
 ---
 
 # The Fab Four?
@@ -19,9 +19,11 @@ excerpt: "Meet Team B from the MCT 2021 program."
 
 
 
-On paper, Team B is a group of four MCT students assigned by random chance. But after their first few meetings, this group of three Norwegians and a lone American realized that it was truly destiny that brought them together. Bringing a wide range of musical and technical expertise to the table, Team B hopes to combine their passions into something harder, better, faster, and stronger than the sum of their parts. We’re also all pretty chill guys overall :)
+On paper, Team B is a group of four MCT students assigned by random chance. But after their first few meetings, this group of three Norwegians and a lone American realized that it was truly destiny that brought them together. Bringing a wide range of musical and technical expertise to the table, Team B hopes to combine their passions into something harder, better, faster, and stronger than the sum of their parts. We’re also all pretty chill guys overall. 😄
 
-### Kristian Wentzel
+
+
+## Kristian Wentzel
 
 <figure style="float: none">
    <img src="https://drive.google.com/uc?&id=1VvaPGHLeYD_s5RKH4W7SH8_1xw7kSXXU" alt="Kristian Wentzel" title="Kristian Wentzel" width="auto" />
@@ -34,8 +36,10 @@ The last decade, he has been a freelance musician performing with acts ranging f
 
 Kristian is a father of a girl, and resides just outside of Oslo. When not performing music, he can *not* be found fly fishing in the local rivers, though he’d love to partake in an evening of board games. He is excited to get this opportunity to pursue his interests further in exploring synthesizers, music technology – and learn lots of new stuff in all things related.
 
+[Instagram](https://instagram.com/wnetzel)
 
-### Joseph Clemente
+
+## Joseph Clemente
 
 <figure style="float: none">
    <img src="https://drive.google.com/uc?&id=1plhlPy6HHH_q6hd9S5gLweHEA32JdTEh" alt="Joseph Clemente" title="Joseph Clemente" width="auto" />
@@ -46,7 +50,7 @@ Joseph is a Computer Science major from the suburbs outside of Detroit, Michigan
 
 
 
-### Jakob Høydal
+## Jakob Høydal
 
 <figure style="float: none">
    <img src="https://drive.google.com/uc?&id=1RFj9peiPQTNXnpjWcrJBJ0twfOoDb58G" alt="Jakob Høydal" title="Jakob Høydal" width="auto" />
@@ -59,7 +63,9 @@ In later years Jakob studied music production at Kristiania University College. 
 
 Jakob looks forward to learning a lot about how things connect, and to expand his knowledge about technology in the music- and audio-field.
 
-### Arvid Falch
+
+
+## Arvid Falch
 
 <figure style="float: none">
    <img src="https://drive.google.com/uc?&id=1d1M42g4CZ8jC-cnFbZYGvYCxIf7qbdsL" alt="Arvid Falch" title="Arvid Falch" width="auto" />
@@ -75,14 +81,17 @@ Joining the MCT program, Arvid is really looking forward to explore technology w
 
 [Website](https://arvidfalch.com/)
 
+
 ## Competency
 
 <figure style="float: none">
    <img src="https://drive.google.com/uc?&id=1rrnPltxztq3_kEacPp06f_PliG09pH_h" alt="Team B" title="Team B" width="auto" />
-   <figcaption>Team B</figcaption>
+   <figcaption>Team B Competencies</figcaption>
 </figure>
 
 Team B seems to be a pretty homogeneous group regarding the personal characteristics. Taking turns and stating our characteristics oftentimes resulted in agreement and appreciative nods from fellow members. We might just be a curious bunch of empathic team players keeping it cool – luckily with one of us willing to be a leader in a pinch. 👌 In stating the practical skills, Team B realized that they’re actually already a band according to the instruments covered. The technological knowledge appears to be diverse, sporting a software developer alongside audio engineers and music theorists.
+
+
 
 ## Conclusion
 
