@@ -9,7 +9,7 @@ keywords: teams, people, bio
 excerpt: "Meet Team B from the MCT 2021 program."
 ---
 
-# The Fab Four?
+
 
 
 <figure style="float: none">
@@ -17,11 +17,12 @@ excerpt: "Meet Team B from the MCT 2021 program."
    <figcaption>Team B</figcaption>
 </figure>
 
+# The Fab Four?
 
 
 On paper, Team B is a group of four MCT students assigned by random chance. But after their first few meetings, this group of three Norwegians and a lone American realized that it was truly destiny that brought them together. Bringing a wide range of musical and technical expertise to the table, Team B hopes to combine their passions into something harder, better, faster, and stronger than the sum of their parts. We’re also all pretty chill guys overall :)
 
-### Kristian Wentzel
+## Kristian Wentzel
 
 <figure style="float: none">
    <img src="https://drive.google.com/uc?&id=15k4zn7e5ktnjzqZYUR86FOze87s5zOsC" alt="Alternate Text" title="Image Title" width="auto" />
@@ -35,7 +36,7 @@ The last decade, he has been a freelance musician performing with acts ranging f
 Kristian is a father of a girl, and resides just outside of Oslo. When not performing music, he can *not* be found fly fishing in the local rivers, though he’d love to partake in an evening of board games. He is excited to get this opportunity to pursue his interests further in exploring synthesizers, music technology – and learn lots of new stuff in all things related.
 
 
-### Joseph Clemente
+## Joseph Clemente
 
 <figure style="float: none">
    <img src="https://drive.google.com/uc?&id=1plhlPy6HHH_q6hd9S5gLweHEA32JdTEh" alt="Alternate Text" title="Image Title" width="auto" />
@@ -46,7 +47,7 @@ Joseph is a Computer Science major from the suburbs outside of Detroit, Michigan
 
 
 
-### Jakob Høydal
+## Jakob Høydal
 
 <figure style="float: none">
    <img src="https://drive.google.com/uc?&id=1RFj9peiPQTNXnpjWcrJBJ0twfOoDb58G" alt="Alternate Text" title="Image Title" width="auto" />
@@ -59,7 +60,7 @@ In later years Jakob studied music production at Kristiania University College. 
 
 Jakob looks forward to learning a lot about how things connect, and to expand his knowledge about technology in the music- and audio-field.
 
-### Arvid Falch
+## Arvid Falch
 
 <figure style="float: none">
    <img src="https://drive.google.com/uc?&id=1d1M42g4CZ8jC-cnFbZYGvYCxIf7qbdsL" alt="Alternate Text" title="Image Title" width="auto" />
