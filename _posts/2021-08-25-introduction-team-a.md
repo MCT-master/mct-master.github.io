@@ -1,18 +1,18 @@
 ---
 layout: post
 title: "Meet MCT Team A 2021"
-date: 2021-08-27 10:15:00
+date: 2021-08-27 10:15:00 +0200
 categories: people
 author: Sofía González, Joachim Poutaraud, Hugh Alexander von Arnim, Oliver Getz
-image: https://drive.google.com/uc?export=view&amp;&id=1K5upOiWgFN37KXMk3uycLP9OmsuBSefw
-except: "Introduction of the MCT Team A"
+image: /assets/image/2021_08_27_team_a_group_photo_thumbnail_01.jpg
+excerpt: "Hello! We are the new A team in town! Click here to get to know us better in our introduction post where we talk about our backgrounds, our motivations and goals."
 
 keywords: Music Production, Soundscape analysis, Singing, Music Engineering
 ---
 
 <figure style="float: none">
    <img src="https://drive.google.com/uc?&id=1K5upOiWgFN37KXMk3uycLP9OmsuBSefw" alt="Alternate Text" title="Image Title" width="auto" />
-   <figcaption>We are a team.</figcaption>
+   <figcaption>An astonishing team.</figcaption>
 </figure>
 
 # A-Team
@@ -38,9 +38,9 @@ Besides the academic details, in my free time I enjoy just about anything that�
 
 ### Joachim Poutaraud
 
-![Joachim Poutaraud](/assets/image/2021_08_26_joachipo_photo.png "Joachim Poutaraud")
+![Joachim Poutaraud](/assets/image/2021_08_27_joachipo_photo.jpg "Joachim Poutaraud")
 
-Joachim studied a Bachelor in Archaeology & History of Art and worked as an assistant engineer for the soundscape archaeology research project [Bretez : sound heritage enhancement](https://www.msh-lse.fr/projets/bretez/) directed by musicologist Mylène Pardoen. Furthermore, he was engaged as a member of the [Acoustic Task Force](https://notre-dame-de-paris.culture.gouv.fr/fr/acoustique), directed by acoustician Brian F. G. Katz and musicologist Mylène Pardoen in order to propose several acoustic models for the reconstruction of the cathedral Notre-Dame de Paris. His interests are related to **soundscape studies**, **acoustic ecology** and **ecoacoutics** and he hopes to be able to develop an interesting project in relation with the technological contributions of the MCT Master program.
+Joachim studied a Bachelor in Archaeology & History of Art and worked as an assistant engineer for the soundscape archaeology research project [Bretez : sound heritage enhancement](https://www.msh-lse.fr/projets/bretez/) directed by musicologist Mylène Pardoen. Furthermore, he was engaged as a member of the [Acoustic Task Force](https://notre-dame-de-paris.culture.gouv.fr/fr/acoustique), directed by acoustician Brian F. G. Katz and musicologist Mylène Pardoen in order to propose several acoustic models for the reconstruction of the cathedral Notre-Dame de Paris. His interests are related to soundscape studies, acoustic ecology and ecoacoutics and he hopes to be able to develop an interesting project in relation with the technological contributions of the MCT Master program.
 
 
 - [Digital portfolio](https://joachimpoutaraud.wordpress.com/)
