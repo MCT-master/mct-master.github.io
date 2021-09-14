@@ -55,13 +55,12 @@ $on-laptop: 800px;
 //////////// EVERYTHING BELOW IS IN THE HEADER //////////////////////
 .site-header {
   // the header itself
-  position: fixed;
   width: 100%;
   background-color: $background-color;
   z-index: 3;
-  opacity: 0.9;
+  opacity: 1;
   border-top: 0;
-  padding-top: .5em;
+  padding: .5em 0;
   border-radius: 6px;
   box-shadow: 0 1px 4px rgba(0, 0, 0, 0.3);
 }
@@ -86,7 +85,7 @@ $on-laptop: 800px;
 }
 
 .site-nav {
-  //Navbar
+  // navbar
   position: relative;
   float: right;
   padding-left: 1em;
@@ -110,7 +109,7 @@ $on-laptop: 800px;
 
 nav ul li a.active,
 nav ul li ul a.active {
-  // the currently active NAVBAR tabs.
+  // the currently active navbar tabs
   opacity: 1;
   li {
     opacity: 1;
@@ -129,29 +128,29 @@ nav ul {
     margin-top: 5px;
     border-radius: 6px;
     padding: 4px;
-    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.3);
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.15);
     opacity: 0;
     visibility: hidden;
-    transition: visibility 0.2s, opacity 0.2s ease-in-out;
+    transition: visibility 0.1s, opacity 0.1s ease-in-out;
 
     li {
-      // this is the pagelinks in the dropdown menu.
+      // pagelinks in the dropdown menu
       display: block;
       line-height: 100%;
       padding: 0.5rem;
       border-radius: 6px;
       opacity: 0.9;
-      transition: box-shadow 0.1s, opacity 0.1s ease-in-out;
+      transition: box-shadow 0.05s, opacity 0.05s ease-in-out;
 
       &:hover {
         opacity: 1;
-        box-shadow: 0 1px 4px rgba(0, 0, 0, 0.3);
+        box-shadow: 0 1px 4px rgba(0, 0, 0, 0.15);
       }
     }
   }
 }
 
-// When you hover over the dropdown navbar tabs, the menu appears.
+// When you hover over the dropdown navbar tabs, the menu appears
 .page-link:hover .dropdown {
   visibility: visible;
   opacity: 1;
@@ -163,7 +162,7 @@ nav ul {
   margin-bottom: 0;
 }
 
-///////// all the clickable links in the blog /////////
+///////// ALL THE CLICKABLE LINKS IN THE BLOG /////////
 a {
   color: $brand-color-2;
   font-weight: $base-font-weight-links;
@@ -202,7 +201,7 @@ a {
   }
 }
 
-////////////////////// Headings ////////////////////////
+////////////////////// HEADINGS //////////////////////
 h1, h2, h3, h4, h5, h6 {
   font-family: $heading-family;
   font-weight: $base-font-weight-links;
@@ -250,10 +249,10 @@ h1, h2, h3, h4, h5, h6 {
     }
   }
 }
+//////////////////////////////////////
 
 
-
-/////////// page scrollbar /////////////
+/////////// PAGE SCROLLBAR /////////////
 body::-webkit-scrollbar {
   width: 0.4rem;
 }
@@ -269,7 +268,7 @@ body::-webkit-scrollbar-thumb {
 ////////////////////////////////
 
 ul.pager {
-  padding-top: 2em;
+  padding-top: 1em;
   margin: auto;
   list-style: none;
   text-align: center;
@@ -364,7 +363,6 @@ form#contact-form {
 }
 
 // Media styling
-
 .no-shadow {
   // for removing dropshadow from media
   box-shadow: none !important;
@@ -372,7 +370,6 @@ form#contact-form {
 
 .page-content {
   // everywhere
-  padding-top: 100px; //because we have a fixed header (travels with scrolling)
   img,
   video,
   iframe,
@@ -421,6 +418,10 @@ form#contact-form {
 
 // Post list styling
 .post-list li {
+  border-bottom: 0.1em dotted #dedede;
+  padding: 15px 0;
+  margin-bottom: 0;
+
   .post-button {
     display: flex;
     position: relative;
@@ -429,7 +430,6 @@ form#contact-form {
     padding: 1em;
     opacity: 1;
     transition: box-shadow 0.1s ease-in-out;
-    border-bottom: 0.1em dotted #dedede;
     overflow: hidden;
 
     &:hover {
@@ -536,6 +536,7 @@ form#contact-form {
 
     .post-right {
       max-width: 100%;
+      width: 100%;
       height: 100%;
       position: absolute;
       top: 0;
@@ -543,7 +544,7 @@ form#contact-form {
       z-index: -1;
 
       img {
-        opacity: .5;
+        opacity: 0.5;
         mask-image: linear-gradient(to right, rgba(0,0,0,0) 50%,rgba(0,0,0,1) 100%);
         transition: opacity 0.1s ease-in-out;
       }
@@ -557,8 +558,4 @@ form#contact-form {
       }
     }
   }
-}
-
-@media screen and (max-width: 600px) {
-
 }
