@@ -4,9 +4,9 @@ title: "Ensemble algorithms and music classification"
 date: 2021-09-20 18:10:00 +0200
 categories: machine-learning
 author: Alena Clim
-image: /assets/image/2021_09_20_alena_music_genres_icons.png
+image: /assets/image/2021_09_20_alena_musical_genres.jpg
 keywords: genre, classification, supervised, machine-learning, FMA, knn, SVC
-excerpt: "Playing around with some supervised machine learning - genre classification is __hard__!"
+excerpt: "Playing around with some supervised machine learning - genre classification is hard!"
 ---
 
 After a long sunny summer, we started our autumn semester with a very compact and interesting course - __Machine Learning (ML)__! The course was no joke, it's great that we are done with a course by the 20th of September, but these past weeks were interse after the lethargy of the hot season. We've learnt a lot during this time, thought, and parts of that is the fact that ML is not the answer to anything. It's a very good technique for _some_ questions but not _all_... 
@@ -47,7 +47,7 @@ The models were evaluated based on their accuracy and the results of the analysi
 How badly did it actually perform, though? Below is the confusion matrix of the performance of the SVM model trained on MFCC + spectral contrast + spectral centroid. Aside from Hip-Hop, Rock, and Electronic, the rest of the genres are mostly misclassified. For example, Folk songs have been classified as Pop, Folk, International and Instrumental almost equally. Same with Pop, it was classified mostly as Folk, Hip-Hop, and equally between Pop and Electronic. So you see, the existing genre txonomy is very subjective (what is "internationl" as a genre anyways?!). 
 
 <figure style="float: auto">
-   <img src="/assets/image/2021_05_04_alena_small_fma_cent_contrast.jpg" alt="" title="Confusion matrix of SVM fed with MFCC, spectral centroid and spectral contrast" width=auto/> <figcaption>Confusion matrix for SVM</figcaption>
+   <img src="/assets/image/2021_09_20_alena_confusion_matrix_svm.jpg" alt="" title="Confusion matrix of SVM fed with MFCC, spectral centroid and spectral contrast" width=auto/> <figcaption>Confusion matrix for SVM</figcaption>
 </figure>
 
 Why did it perform so badly? Well... there's several reasons that can be the case. Firstly, I used a small dataset. Secondly, the features I chose might not have been the best representations of the data; I could have also used the 30 seconds of audio. And thirdly, look below how the data is almost one big cluster! I used a 2D representation of the spectral contrast and centroid and it looks like each genre is just a layer on top of other layers in almost the same place! Possibly these two were not the best features to use for a visual representation, but it's giving a rought idea of the complexity of the problem. 
