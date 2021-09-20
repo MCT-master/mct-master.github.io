@@ -1,10 +1,10 @@
 ---
 layout: post
-title: "Can Machine learning classify Audio effect ?"
+title: "Can Machine learning classify Audio effects, a dry to wet sound ?"
 date: 2021-09-20 21:00:00 +0200
 categories: machine-learning
 author: Abhishek Choubey
-image: /assets/image/2021_09_20_ahishec_excerpt_ml.PNG
+image: /assets/image/2021_09_20_ahishec_excerpt_ml.png
 keywords: audio, audio effects, classification, supervised, machine-learning, MLP, KNN, SVC
 excerpt: "Distortion or No Distortion - Machine learning magic"
 ---
