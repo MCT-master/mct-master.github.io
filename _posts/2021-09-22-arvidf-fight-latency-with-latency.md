@@ -39,7 +39,7 @@ The approach of both NINJAM and The Online Orchestra meets Braaschs requirement 
 
 ### Conclusion
 
-One can argue that true zero-latency is a utopian goal in telematic music systems, as it will always pose an uncertainty based on network instability, and will always be a factor in cross-continental networks due to the speed of light that electric signals cannot exceed. I would even argue that low latency telematic music systems are less inclusive in terms of availability as they will always benefit the users with the best network infrastructures and access to the highest standard of computer hardware. With this in mind, alternative approaches that do not replicate traditional performance structures should be welcomed. Hopefully with the result of creating new ideas in music such as temporally different, yet connected musical events.
+One can argue that true zero-latency is a utopian goal in telematic music systems, as it will continue to pose an uncertainty based on network instability, and will always be a factor in cross-continental networks due to the speed of light that electric signals cannot exceed. I would even argue that low latency telematic music systems are less inclusive in terms of availability as they will benefit the users with the best network infrastructures and access to the highest standard of computer hardware. With this in mind, alternative approaches that do not replicate traditional performance structures should be welcomed. Hopefully with the result of creating new ideas in music such as temporally different, yet connected musical events.
 A musical event that exists both in the past, present and the future at the same time could very well be the music of tomorrow.
 
 <h2>Works Cited</h2>
