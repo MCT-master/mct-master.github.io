@@ -16,7 +16,7 @@ excerpt: "How we stopped the music, sliced, and restarted it to make a re-synthe
   <figcaption> </figcaption>
 </figure>
 
-### Introduction
+# Introduction
 <br>
 <b>Our task was to take two audio files, write a Python program to slice them up, and join the segments from both audio files based on some features we were free to choose ourselves. We quickly agreed on choosing an original song and a cover version of the song, and made up our minds what features of the audio we would use to slice and join the audio.</b>
 <br>
@@ -31,7 +31,7 @@ In our design, we decided to create a class for each segment, which includes the
 <br>
 <br>
 
-### Results
+# Results
 
 <p style="text-align:center;">The two songs chosen for our re-synthesis:</p>
 
@@ -61,7 +61,7 @@ Since the re-synthesized song is arranged in ascending order based on the spectr
   </figure>
 <br>
 
-### Challenges
+# Challenges
 
 Unfortunately, due to the time it took to run the HPSS function and to create the combined audio array, we could not use the full songs in the final output. Instead, we shortened each song to one minute and 52 seconds.
 
