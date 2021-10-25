@@ -18,7 +18,8 @@ excerpt: "How we stopped the music, sliced, and restarted it to make a re-synthe
 
 ### Introduction
 <br>
-Our task was to take two audio files, write a Python program to slice them up, and join the segments from both audio files based on some features we were free to choose ourselves. We quickly agreed on choosing an original song and a cover version of the song, and made up our minds what features of the audio we would use to slice and join the audio.
+<b>Our task was to take two audio files, write a Python program to slice them up, and join the segments from both audio files based on some features we were free to choose ourselves. We quickly agreed on choosing an original song and a cover version of the song, and made up our minds what features of the audio we would use to slice and join the audio.</b>
+<br>
 
 “Don’t stop the music” was first recorded and released in 2007 by Rihanna. The song was written by Tawanna Dabney and Norwegian production team StarGate. Jamie Cullum recorded a cover of the song in 2009, and it is these two versions that Team B decided to chop up and put together based on features of the audio.
 
