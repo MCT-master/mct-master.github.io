@@ -57,7 +57,7 @@ Since the re-synthesized song is arranged in ascending order based on the spectr
 " type="audio/wav">
       Don’t Stop The Music, combined.
     </audio>
-    <figcaption> <i> A twelve second audio sample of our combined audio, taken in the middle of the full audio where there is more of a balance between Rihanna and Cullum’s contributions.</i></figcaption>
+    <figcaption> <i> A thirteen seconds audio sample of our combined audio, taken in the middle of the full audio where there is more of a balance between Rihanna and Cullum’s contributions.</i></figcaption>
   </figure>
 <br>
 
