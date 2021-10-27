@@ -6,7 +6,7 @@ categories: portal
 author: Hugh Alexander von Arnim, Joachim Poutaraud, Sofía González, Oliver Getz
 image: /assets/image/2021_10_25_team_a_pyhton_3_thumbnail.jpg
 keywords: python, programming, librosa, audio programming
-excerpt: "A presentation of an onset audio blending technique in Python."
+excerpt: "Blending audio tracks based on transients in Python."
 ---
 # Will it blend?
 Our most recent crazy experiment concluded with a choir of glitchy cicadas creepily singing in the middle of the night. Never heard glitchy cicadas? Well check this out:  
