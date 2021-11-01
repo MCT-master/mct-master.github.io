@@ -4,8 +4,8 @@ title: "D'n'B"
 date: 2021-11-01 10:50:00 +0100
 categories: interactive-music-systems
 author: Lindsay Charles
-image: /assets/image/2021-11-01-lindsay-D'nB-schematic.png
-keywords: interactive-music-systems, bass, drums, sounds, music-dimensions,csound, music-gestures, NIME
+image: /assets/image/2021-11-01-lindsay-D'nB-schematic.jpg
+keywords: interactive-music-systems, bass, drums, sounds, music-dimensions, csound, music-gestures, NIME
 excerpt: "Exploration and design of the 'Drum and Bass' interactive music system with Csound"
 ---
 
@@ -30,7 +30,7 @@ This is an ambidextrous system and can be interchanged according to the performe
 Below you will see the schematic diagram of the system.
 
 <figure style="float: none">
-   <img src="/assets/image/2021-11-01-lindsay-D'nB-schematic.png" alt="D'n'B Schematic diagram" title="D'n'B Schematic diagram." width="100%" />
+   <img src="/assets/image/2021-11-01-lindsay-D'nB-schematic.jpg" alt="D'n'B Schematic diagram" title="D'n'B Schematic diagram." width="100%" />
    <figcaption><i>Ethrio - Electronic Components Diagram</i></figcaption>
 </figure>
 
