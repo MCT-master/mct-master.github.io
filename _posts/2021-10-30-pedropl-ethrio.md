@@ -1,14 +1,14 @@
 ---
 layout: post
 title: "Ethrio"
-date: 2021-10-30 16:00:00 +0200
+date: 2021-11-01 07:50:00 +0100
 categories: interactive-music-systems
 author: Pedro Lucas
 image: /assets/image/2021_10_30_pedropl_ethrio_physical.jpg
 keywords: interactive-music-systems, ethereal-sounds, music-dimensions, music-gestures, NIME
 excerpt: "Ethereal sounds from the three dimensions of music: Melody, Harmony, and Rhythm."
 ---
-As musician I've always been interested in having control of multiple layers of sounds happening simultaneously in a live performance framed in an environmental perspective. Also, I personally think that the sound itself, in terms of timbral properties, is a source of inspiration for composing music and sonic exploration, especially if it has to do with sounds that are considered "Ethreal" or "not from this world", which is something that we can achieve with the use of sound synthesis.
+As a musician I've always been interested in having control of multiple layers of sounds happening simultaneously in a live performance framed in an environmental perspective. Also, I personally think that the sound itself, in terms of timbral properties, is a source of inspiration for composing music and sonic exploration, especially if it has to do with sounds that are considered "Ethreal" or "not from this world", which is something that we can achieve with the use of sound synthesis.
 
 In that sense, I took the three elemental dimensions of Western music: Melody, harmony, and rhythm, as well as audio effects, to implement a 3 in 1 instrument which can be interesting to play in terms of gestural performance. I named it **ETHRIO** as a reference to “Elthereal” for the sound characteristics and “Trio” for the three music dimensions mentioned above.
 
@@ -64,7 +64,7 @@ The following table explains the sound synthesis technique and mapping from the 
 
 Below you will find a video showing the way this instrument works.
 
-**TBA**
+**TBA (in progress)**
 
 ## Evaluation
 
