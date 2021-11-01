@@ -64,7 +64,10 @@ The following table explains the sound synthesis technique and mapping from the 
 
 Below you will find a video showing the way this instrument works.
 
-**TBA (in progress)**
+<figure style="float: none">
+   <iframe src="https://drive.google.com/file/d/1SxNp583QjGAewCS4y2XigQcXy9TO1Li2/preview" width="1024" height="576" frameborder="0" allowfullscreen></iframe>
+   <figcaption>Ethrio - Live Performance</figcaption>
+</figure>
 
 ## Evaluation
 
