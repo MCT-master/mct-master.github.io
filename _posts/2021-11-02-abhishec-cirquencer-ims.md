@@ -4,7 +4,7 @@ title: "Sequencephere-Linesequencer"
 date: 2021-11-03 10:00:00 +0100
 categories: interactive-music-systems
 author: Abhishek Choubey
-image: /assets/image/2021_11_02_abhishec_sequencphere_ims.PNG
+image: /assets/image/2021_11_02_abhishec_sequencphere_ims.png
 keywords: interactive-music-systems, synth, drums, sounds, music-dimensions, csound, music-gestures, NIME
 excerpt: "Exploration and design of a drum Sequencer and synth using Bela as an interactive music system with Csound"
 ---
