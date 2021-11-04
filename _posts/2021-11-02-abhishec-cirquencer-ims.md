@@ -26,7 +26,7 @@ The sequencer has four buttons arranged in a sequence. Each of these button is m
 The way I envisioned it to be and got pretty close to finish it is shown below in the figure.
 
 <figure style="float: none">
-   <img src="/assets/image/2021_11_02_abhishec_sequencphere_ims.PNG" alt="D'n'B Schematic diagram" title="D'n'B Schematic diagram." width="100%" />
+   <img src="/assets/image/2021_11_02_abhishec_sequencphere_ims.png" alt="D'n'B Schematic diagram" title="D'n'B Schematic diagram." width="100%" />
    <figcaption><i>sequencephere</i></figcaption>
 </figure>
 
@@ -36,7 +36,7 @@ In the ideal version, there are 6 buttons arranged in a circular fashion, that a
 But in the working model shown in the diagram below I have four buttons which are triggering the samples as intended and the corresponding LEDs glow when they are triggered. This buttons are arranged sequentially and are looped. So if a user for example triggers a kick sample using the first button in the first bar, the kick will be played in the loop in every first bar, and user can then keep updating the pattern by pressing the button and adding more samples. There is also a softpot as intended to play a melody on top of the pattern, and a rotatory potentiometer to adjust the tempo of the pattern.
 
 <figure style="float: none">
-   <img src="/assets/image/2021_11_02_abhishec_lineseq_ims.PNG" alt="D'n'B Schematic diagram" title="D'n'B Schematic diagram." width="100%" />
+   <img src="/assets/image/2021_11_02_abhishec_lineseq_ims.png" alt="D'n'B Schematic diagram" title="D'n'B Schematic diagram." width="100%" />
    <figcaption><i>Linesequencer</i></figcaption>
 </figure>
 
@@ -51,7 +51,7 @@ The list of Components I have used are as follows:
 The system design is pretty simple and has one to one mapping as shown below:
 
 <figure style="float: none">
-   <img src="/assets/image/2021_11_02_abhishec_systemdesign_ims.PNG" alt="D'n'B Schematic diagram" title="D'n'B Schematic diagram." width="100%" />
+   <img src="/assets/image/2021_11_02_abhishec_systemdesign_ims.png" alt="D'n'B Schematic diagram" title="D'n'B Schematic diagram." width="100%" />
    <figcaption><i>System design</i></figcaption>
 </figure>
 
