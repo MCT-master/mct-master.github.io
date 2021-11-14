@@ -75,6 +75,9 @@ For players, little would likely change. There would of course likely be a learn
 Until we are lucky enough to find an orchestra willing to experiment in our portals, this is all theoretical. However, I believe that there is real potential for telematic musicking in the format that I have described here. Orchestras have been successfully combating the challenges of latencies and convoluted reverberations in large concert halls for centuries now. Why wouldn’t they be capable of applying those same approaches to an arguably more controllable, telematic setting?
 
 <figure style="float: none">
-   <img src="https://drive.google.com/uc?&id=1b47AbK9qS8HyzcZfJBQPKgi4lST9hB_2" alt="Telematic Conducting" title="Telematic Conducting" width="auto" />
-   <figcaption>Telematic Conducting Lecture</figcaption>
+  <video width="auto" controls>
+    <source src="https://drive.google.com/uc?&id=1b47AbK9qS8HyzcZfJBQPKgi4lST9hB_2" type='video/mp4'>
+    Telematic Conducting Lecture
+  </video>
+  <figcaption>Telematic Conducting Lecture</figcaption>
 </figure>
