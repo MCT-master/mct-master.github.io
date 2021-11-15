@@ -6,10 +6,12 @@ categories: portal
 author: Alena Clim
 image: /assets/image/2021_11_15_alena_test_latency.png
 keywords: video-latency, streaming, codec, protocol, encoder, decoder
-excerpt: "This blogpost is made after the video lecture on the same topic and it includes a definition of video latency and other related key concepts, as well as concrete examples from the MCT portals. The aim is to explain and clarify concepts and processes rather than introduce new ideas or recommendations. Audio latency or the problem of audio-video synchronization is not discussed here."
+excerpt: "This blogpost is made after the video lecture on the same topic and it includes a definition of video latency and other related key concepts, as well as concrete examples from the MCT portals."
 ---
 
 ### Introducing Video Latency
+
+The aim of this blogpost is to explain and clarify concepts and processes rather than introduce new ideas or recommendations. Audio latency or the problem of audio-video synchronization is not discussed here.
 
 Let’s start with the beginning. __Video Latency__ is the difference between the time of capturing and that of displaying whatever video was captured. 
 
@@ -75,11 +77,9 @@ __Video Latency in the MCT Portals__
 
 Using a fun method of filming a web clock from more locations and then calculating the time difference, we tested some actual latencies:
 
-Locations	Equipment	Connection via	Network	Video Latency
-Trondheim – Oslo 	Logitech Pro cameras	Zoom	Wifi	45 ms
-Trondheim – Oslo	Logitech Pro cameras	Google Meet	Wifi	40 ms
-Oslo – Oslo 	Laptop cameras	Zoom	Wifi	37 ms
-Oslo – Oslo	Canon cam, Sony TV	Physical cables	 –	25.5 ms
+<figure style="float: auto">
+   <img src="/assets/image/2021_11_15_alena_mct_portals_video_latencies.JPG" alt="" title="Video latencies tested in the MCT portals" width=auto/> <figcaption>Video latencies tested in the UiO and NTNU portal</figcaption>
+</figure>
  
 What is this telling us? Firstly, __the latency between Trondheim and Oslo is not _that_ terrible!__ And secondly, even in the same room there’s latency to consider. 
 
