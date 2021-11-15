@@ -1,13 +1,13 @@
 ---
 layout: post
 title: "Touchpoint that can potentially improve the audio latency in a communication system"
-date: 2021-11-15 17:00:00 +0200
+date: 2021-11-14 18:00:00 +0100
 categories: portal
 author: Joni Mok
 image: /assets/image/2021_11_15_joni_1.jpeg
-keywords:  telematic, conducting, telematic-performance
+keywords: portal, communication system, audio latency
 excerpt: "Quick tips for future MCT-ers or eternal partners who will be using the MCT Portal for the first time. This article will give you some quick, practical information to start with in terms of dealing with audio latency.
-
+"
 ---
 
 ### 1 Introduction
@@ -21,11 +21,11 @@ Before diving into the technical setup, I want to look into two particular commu
 Communication models refer to the conceptual frameworks or theories that explain the way of human communication. It also represents the entire process of communication between the sender and the receiver. The purpose of a communication model intends to explain the underlying mechanism of a communication system - What happens during the information transmission process between sender and receiver? How will the message eventually deliver?  A communication model looks into the many relationships that a system involved. It explains the elements of a communication process, for example, context, encoding, decoding, channel, message, feedback, noise, sender and receiver. Shannon and Weaver propose a linear model of communication while Schramm’s model is circular. Each model predicts a slightly different response time and involves different stakeholders.
 
  <figure style="float: center">
-   <img src="/assets/image/2021_11_15_joni_sw.jpeg" alt="overview" title="" width="auto" />
+   <img src="/assets/image/2021_11_15_joni_sw.jpeg" alt="overview" title="" width="auto"/>
    <figcaption>Shannon and Weaver's Communication Model</figcaption>
 
    <figure style="float: center">
-      <img src="/assets/image/2021_11_15_joni_ss.jpeg" alt="overview" title="" width="auto" />
+      <img src="/assets/image/2021_11_15_joni_ss.jpeg" alt="overview" title="" width="auto"/>
       <figcaption>Schramm's Communication Model</figcaption>
 
 ### 3 Portal experiment
@@ -64,7 +64,7 @@ In alignment with case 1, both the 44.1 kHz and 48 kHz sampling frequencies were
 </figure>
 
 #### 3.2.2 Notes on Case 2:
-Schramm’s two-way circular communication model between sender and receiver emphasises on encoding and decoding of messages. A message is only sent when encoded by the sender and decoded after its receiving by the receiver. In this case, a further experiment in other setups would be ideal. However, based on the quick testing, it seemed like when the NTNU Lola increased its SR at 48 kHz, the latency between both UiO and NTNU decrease slightly. It could be saved for future considerations. 
+Schramm’s two-way circular communication model between sender and receiver emphasises on encoding and decoding of messages. A message is only sent when encoded by the sender and decoded after its receiving by the receiver. In this case, a further experiment in other setups would be ideal. However, based on the quick testing, it seemed like when the NTNU Lola increased its SR at 48 kHz, the latency between both UiO and NTNU decrease slightly. It could be saved for future considerations.
 
 
 
