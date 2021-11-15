@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Audio-video sync"
-date: 2021-11-15 01:00:00 +0200
+date: 2021-11-15 22:00:00 +0200
 categories: portal
 author: Anders Lidal
 image: /assets/image/2021_11_15_anderlid_txt.png
@@ -26,7 +26,10 @@ After having downloaded the footage (with sound) from my two camera sources and 
 To use Syncalia, you basically just put all footage from each camera on their own layer, and the same with the sounds; one layer containing sound from one (the same) source. No matter where on the timeline you put it, it should be fine. Then you export an .xml or .fcpxml, which are small text-files containing metadata about duration, and recording time and such. Syncalia opens these files in a swoosh, and short videos like this is synced in a couple of seconds. The you just export the synced xml-file, and import this into your video-editor again. Then you’ll have all your recordings on a consistent timeline. Super easy! You can also open these files in a text editor, to see what kind of data it’s using:
 
 <figure style="float: auto">
-   <img src="/assets/image/2021_11_15_anderlid_txt.png" alt="" title="" width="auto"/> <figcaption><i>Opening the .xml-files in a text editor can reveal what the file contains, and it should be possible to go in there and fix issues with the syncronisation. As you see, the two .MOV-files from my iPhone comes before the first Sanyo-movie, as explained in the text.</figcaption></i>
+   <img src="/assets/image/2021_11_15_anderlid_txt.png" alt="" title="" width="auto"/> <figcaption>
+   <i>
+   Opening the .xml-files in a text editor can reveal what the file contains, and it should be possible to go in there and fix issues with the syncronisation. As you see, the two .MOV-files from my iPhone comes before the first Sanyo-movie, as explained in the text.</figcaption>
+   </i>
 </figure>
 
 
@@ -64,7 +67,10 @@ Back to the difference between my old Ximea-setup and Zoom, I used my iPhone for
 
 
 <figure style="float: auto">
-   <img src="/assets/image/2021_11_15_anderlid_latency.jpg" alt="" title="" width="auto"/> <figcaption><i>In this illustration you see two pictures from the video, showing the Ximea-cam on the left and the Zoom-cam on the right monitor. The time difference between the first led being unlit is 128 ms, according to the timer over the Zoom-picture. </figcaption></i>
+   <img src="/assets/image/2021_11_15_anderlid_latency.jpg" alt="" title="" width="auto"/> <figcaption>
+   <i>
+   In this illustration you see two pictures from the video, showing the Ximea-cam on the left and the Zoom-cam on the right monitor. The time difference between the first led being unlit is 128 ms, according to the timer over the Zoom-picture. </figcaption>
+   </i>
 </figure>
 
 And now, if you like to, you can watch the video I made, but be aware, your English pronunciation might be worse after watching it.
