@@ -28,19 +28,21 @@ Between NTNU and UiO, we measured around 29ms latency for direct signals, and ar
 Researchers from the UK have used an idea to develop a system called [Online Orchestra](https://onlineorchestra.com/). In this system, the software will first check the latency of each part of the system and choose a value bigger than the latency of each part as the tempo of the music and lock the latency, e.g. setting a 500ms latency is equivalent to one beat at a 120BPM music piece, then the latency between each part is one beat. In the figure 1, When the conductor makes a command in the first beat, all the nodes, on the second beat, will receive this signal and make the sound, and these signals, delayed by another beat, return to the conductor side in the third beat and are sounded in unison. Although the sound of each node is inconsistent, at the end, the sound is perfectly harmonised in conductor’s perspective.
 
 <figure style="float: none">
-   <img src="/assets/image/2021_11_15_wenboyi_figure1.png" alt="Online Orchestra" title="Online Orchestra illustration" width="100%" />
-   <figcaption><i>Online Orchestra</i></figcaption>
+   <img src="/assets/image/2021_11_15_wenboyi_figure1.png" alt="Online Orchestra illustration" title="Online Orchestra illustration" width="100%" />
+   <figcaption><i>Online Orchestra illustration</i></figcaption>
 </figure>
+
+
 
 ## Composing for latency
 
 #### Texture Distribution
 As well as from a technical perspective, we can also compose music for latency using special arrangements. A simple solution is to distribute a texture across the ensemble. This score shows an example of this type of distributed texture. In the music score below, we can see the focus moves from the strings and vocal materials of Node 1 to flutes in Node 2, with the strings imitated in the flutes to smooth the transition. flutes have highly active materials, but this rhythmic activity does not spread to other parts of the ensemble. Latency therefore does not disrupt the overall coherence.
-
 <figure style="float: none">
    <img src="/assets/image/2021_11_15_wenboyi_figure2.png" alt="Texture distribution" title="Texture distribution" width="100%" />
-   <figcaption><i>VTexture distribution</i></figcaption>
+   <figcaption><i>Texture distribution</i></figcaption>
 </figure>
+
 
 #### Polyrhythm and Ostinato
 
@@ -57,7 +59,7 @@ The third option is to prioritize linear music organization, as opposed to verti
 
 <figure style="float: none">
    <img src="/assets/image/2021_11_15_wenboyi_figure3.png" alt="Harmony illustration" title="Harmony illustration" width="100%" />
-   <figcaption><i>Harmony illustration</i></figcaption>
+   <figcaption><i>Texture distribution</i></figcaption>
 </figure>
 
 
