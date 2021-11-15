@@ -1,7 +1,7 @@
 ---
 layout: post
 title: " Audio Latency in the Telematic Setting"
-date: 2021-11-14 22:00:00 +0100
+date: 2021-11-15 08:00:00 +0100
 categories: portal
 author: Abhishek Choubey
 image: /assets/image/2021_11_15_abhishec_audio_latency.jpg
@@ -68,6 +68,12 @@ The factors can be broadly classified into two elements: Transmission delay & Si
   6.	System latency
   7.	Computer Processing power
 
+  <figure style="float: none">
+     <img src="/assets/image/2021_11_15_abhishec_telematic_loop.png" alt="telematic loop" title="" width="auto" />
+     <figcaption></figcaption>
+  </figure>
+
+
 **Distance:** Distance is an inevitable cause of delay, considering the data is sent over an optical fibre network and it travels at the speed of light, there will be a delay in transmission, for instance, Trondheim to Oslo distance is ~400 km, so at the speed of light, the transmission time for a data packet to be sent between the two locations will be ~13ms.
 
 **Network Framework:** Data is not transmitted entirely on Fibre optics, at both ends some part of the transmission will be on copper cables/Wi-Fi/ mobile network, etc, also routers/firewalls add to latency.
@@ -86,6 +92,38 @@ The factors can be broadly classified into two elements: Transmission delay & Si
 So how can we optimize latency to be as minimum as possible? The first obvious choice is to optimize the system and the network connection we are using, by that I mean optimizing the determinant factors described above. The other option is to use an advanced system like LoLa, Jacktrip or similar, but we have to keep in mind that they have their requirements and are not easy to fulfil. Then comes the choice of embracing latency, by that I mean using latency in our favour, in the sense that performing music that does not require perfect time synchronization or learning to play with latency. We can also adjust some technical parameters like sampling rate, buffer size to achieve lower latencies. But even though we optimize all these values to their potentials, in principle, there will still be some latency that will be hard to eliminate.
 ### Testing and experiments
 We in the portals at UiO and NTNU tried to do some experiments by changing the sampling rate on the Midas M32 mixer present at both sides and also changing the host system by which we are sending the audio back and forth to check the effect of it on audio latency. During the workshop in the portal lecture, we also measured latency between the portals, in three scenarios, sending the signal back to Oslo as we received it through the mixer, putting the microphone adjacent to the loudspeaker as shown in the image below and then placing the microphone where we normally sit in the Trondheim portal so that it also adds the latency due to the distance. I also did a test in audacity at my home, in which I created a loopback system, and then recorded the signal generated in another track. You can find all the results below.
+
+<figure style="float: none">
+   <img src="/assets/image/2021_11_15_abhishec_setup_oslo.jpg" alt="telematic loop" title="" width="auto" />
+   <figcaption>Setup Oslo</figcaption>
+</figure>
+
+
+<figure style="float: none">
+   <img src="/assets/image/2021_11_15_abhishec_ntnu_setup.jpg" alt="telematic loop" title="" width="auto" />
+   <figcaption>ntnu setup without the mic hooked, I did hook it later. </figcaption>
+</figure>
+
+
+
+<figure style="float: none">
+   <img src="/assets/image/2021_11_15_abhishec_uio_ntnu_sr.png" alt="telematic loop" title="" width="auto" />
+   <figcaption>UiO-NTNU test with different sampling rate on mixer</figcaption>
+</figure>
+
+
+<figure style="float: none">
+   <img src="/assets/image/2021_11_15_abhishec_workshop_test.png" alt="telematic loop" title="" width="auto" />
+   <figcaption>Worskhop test between the portals</figcaption>
+</figure>
+
+<figure style="float: none">
+   <img src="/assets/image/2021_11_15_abhishec_home_test.png" alt="telematic loop" title="" width="auto" />
+   <figcaption>Home audacity test</figcaption>
+</figure>
+
+
+
 
 ### Video Presentation and Slides
 If you wish to hear about the topic in more detail you can watch the below video lecture and the presentation slides.
