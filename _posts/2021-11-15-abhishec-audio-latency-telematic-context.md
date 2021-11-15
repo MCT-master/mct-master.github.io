@@ -17,7 +17,7 @@ To begin with, it makes sense to define what is a telematic performance and what
 
 
 <figure style="float: none">
-   <img src="/assets/image/2021_11_15_abhishec_telematic_performance.jpg" alt="Conducting Patterns" title="" width="auto" />
+   <img src="/assets/image/2021_11_15_abhishec_telematic_performance.JPG" alt="" title="" width="auto" />
    <figcaption>Telematic performance between UiO and NTNU</figcaption>
 </figure>
 
@@ -69,7 +69,7 @@ The factors can be broadly classified into two elements: Transmission delay & Si
   7.	Computer Processing power
 
   <figure style="float: none">
-     <img src="/assets/image/2021_11_15_abhishec_telematic_loop.png" alt="telematic loop" title="" width="auto" />
+     <img src="/assets/image/2021_11_15_abhishec_telematic_loop.PNG" alt="telematic loop" title="" width="auto" />
      <figcaption></figcaption>
   </figure>
 
@@ -100,25 +100,25 @@ We in the portals at UiO and NTNU tried to do some experiments by changing the s
 
 
 <figure style="float: none">
-   <img src="/assets/image/2021_11_15_abhishec_ntnu_setup.jpg" alt="telematic loop" title="" width="auto" />
+   <img src="/assets/image/2021_11_15_abhishec_ntnu_setup.jpg" alt="telematic loop" title="" width="640" />
    <figcaption>ntnu setup without the mic hooked, I did hook it later. </figcaption>
 </figure>
 
 
 
 <figure style="float: none">
-   <img src="/assets/image/2021_11_15_abhishec_uio_ntnu_sr.png" alt="telematic loop" title="" width="auto" />
+   <img src="/assets/image/2021_11_15_abhishec_uio_ntnu_sr.PNG" alt="" title="" width="auto" />
    <figcaption>UiO-NTNU test with different sampling rate on mixer</figcaption>
 </figure>
 
 
 <figure style="float: none">
-   <img src="/assets/image/2021_11_15_abhishec_workshop_test.png" alt="telematic loop" title="" width="auto" />
+   <img src="/assets/image/2021_11_15_abhishec_workshop_test.PNG" alt="" title="" width="auto" />
    <figcaption>Worskhop test between the portals</figcaption>
 </figure>
 
 <figure style="float: none">
-   <img src="/assets/image/2021_11_15_abhishec_home_test.png" alt="telematic loop" title="" width="auto" />
+   <img src="/assets/image/2021_11_15_abhishec_home_test.PNG" alt="" title="" width="auto" />
    <figcaption>Home audacity test</figcaption>
 </figure>
 
