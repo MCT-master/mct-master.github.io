@@ -79,5 +79,5 @@ Abhishek for being in the NTNU Portal.
 
 <figure style="float: none">
     <center><iframe src="https://youtube.com/embed/47UdokqGet0" width="640" height="360" frameborder="0" allowfullscreen></iframe></center>
-    <figcaption><center>Synchronisation demonstration</center></figcaption>
+    <figcaption><center></center></figcaption>
 </figure>
