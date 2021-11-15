@@ -18,7 +18,7 @@ Whenever we are exposed to a new communication system, finding the touchpoint in
 
 Before diving into the technical setup, I want to look into two particular communication models.
 
-###Communication Models
+### Communication Models
 
 Communication models refer to the conceptual frameworks or theories that explain the way of human communication. It also represents the entire process of communication between the sender and the receiver. The purpose of a communication model intends to explain the underlying mechanism of a communication system - What happens during the information transmission process between sender and receiver? How will the message eventually deliver?  A communication model looks into the many relationships that a system involved. It explains the elements of a communication process, for example, context, encoding, decoding, channel, message, feedback, noise, sender and receiver. Shannon and Weaver propose a linear model of communication while Schramm’s model is circular. Each model predicts a slightly different response time and involves different stakeholders.
 
