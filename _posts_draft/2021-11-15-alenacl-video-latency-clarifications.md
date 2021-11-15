@@ -4,7 +4,7 @@ title: "Video latency: definition, key concepts, and examples"
 date: 2021-11-15 18:30:00 +0200
 categories: portal
 author: Alena Clim
-image: /assets/image/2021_09_20_alena_musical_genres.jpg
+image: /assets/image/2021_11_15_alena_test_latency.png
 keywords: video-latency, streaming, codec, protocol, encoder, decoder
 excerpt: "This blogpost is made after the video lecture on the same topic and it includes a definition of video latency and other related key concepts, as well as concrete examples from the MCT portals. The aim is to explain and clarify concepts and processes rather than introduce new ideas or recommendations. Audio latency or the problem of audio-video synchronization is not discussed here."
 ---
@@ -19,7 +19,9 @@ Each user case has its own latency requirements. One-way streams of live events 
 
 It is even more important to have low video latency in a two-way conference, real-time device control, or, of course, _telematics performances_ (think about playing together… and missing all the visual cues and feedback!) 
 
-***** add picture and reference *****
+<figure style="float: auto">
+   <img src="/assets/image/2021_11_15_alena_streaming_latency.JPG" alt="" title="Use case based latency" width=auto/> <figcaption>Wowza Media Systems video latencies</figcaption>
+</figure>
 
 ### Live Streaming
 Let’s quickly discuss the most important components of the streaming chain with regards to video latency (aka the ones that usually add the most lag). 
@@ -28,7 +30,9 @@ __Video encoding__ is the process of compressing raw video for it to be later tr
 
 There are two types of video encoding, __file-based__ and __live__. In the first case, encoders are used to compress and reduce the size of video content so that it uses less storage space and is easier to transfer. Since the video files are not live, the latency is rarely a key problem here.
 
-***** add picture and reference *****
+<figure style="float: auto">
+   <img src="/assets/image/2021_11_15_alena_video_latency_chain.JPG" alt="" title="Streaming workflow" width=auto/> <figcaption>Haivision representation of the streaming workflow</figcaption>
+</figure>
 
 __Live video encoding__ is the process of compressing real-time video and audio content prior to streaming – significantly reducing bandwidth while maintaining picture quality. However, depending on the type of encoder used, compressing live video can add to the glass-to-glass latency, negatively impacting the overall experience quality.
 
@@ -62,7 +66,12 @@ Once a semester or so, for our awesome telematic performances, we need to set up
 
 __Video Latency in the MCT Portals__
 
-***** add fun pictures with video latency web clock *****
+<figure style="float: auto">
+   <img src="/assets/image/2021_11_15_alena_2_way_latency_zoom.jpg" alt="" title="Testing 2 way connection latency" width=auto/> <figcaption>Testing 2-way connection over zoom</figcaption>
+</figure>
+<figure style="float: auto">
+   <img src="/assets/image/2021_11_15_alena_3_way_latency_google_meet.jpg" alt="" title="Testing 3 way connection latency" width=auto/> <figcaption>Testing 3-way connection over Google Meet</figcaption>
+</figure>
 
 Using a fun method of filming a web clock from more locations and then calculating the time difference, we tested some actual latencies:
 
