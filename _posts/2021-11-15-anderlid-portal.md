@@ -67,4 +67,8 @@ And now, if you like to, you can watch the video I made, but beware, your Englis
 
 
 <figure style="float: none">
+
 <iframe width="560" height="315" src=https://www.youtube.com/embed/7Pr-8FX7ve8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+<figcaption>A movie by Anders Salomon Lidal.</figcaption>
+</figure>
