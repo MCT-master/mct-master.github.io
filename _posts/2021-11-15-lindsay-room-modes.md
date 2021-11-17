@@ -123,10 +123,11 @@ I hope this blog post helped you gain a better understanding of room modes and t
 
 <figure style="float: none">
    <iframe src="https://drive.google.com/file/d/1vWXAirLptMtSdIoMFDi7zpu9RYOzxvY5/preview" width="1024" height="576" frameborder="0" allowfullscreen></iframe>
-   <figcaption>Presentation</figcaption>
+   <figcaption>Video Presentation</figcaption>
 </figure>
 
 Here are some other resources and tools for calculation, check out these links:
+
 [Acoustic tool for room mode calculation](https://amcoustics.com/tools/amroc?l=363&w=273&h=300&re=DIN%2018041%20-%20Music)
 
 [Room acoustics](http://www.silcom.com/~aludwig/Room_acoustics.html)
