@@ -76,14 +76,14 @@ In broadcast and education, __speech intelligibility__ is extremely important (l
 
 ### Optimizing the MCT portal and other rooms built for teleconferencing and telematic performances
 
-#### 1. "Optimum” Room Dimensions
+### 1. "Optimum” Room Dimensions
 
 If a room has evenly divisible dimensions – e.g. a height of 3 m and a length of 6 m – then it’s going to have similar modes: similar frequencies will stack upon themselves and exasperate the problem even more.
 
 So, __room dimensions are one way we can control room modes__. The standard modal approach for designing a room with good acoustics is to create as many different resonances as possible and to spread them as evenly as possible across the frequency spectrum (see the ‘Handbook for Sound Engineers’). Bigger rooms also reduce the spacing between resonances.
 
 In general, __the lower the better__ for the first resonant frequency, because this region is where the frequency response is most variable.
-#### 2. Acoustic Materials
+### 2. Acoustic Materials
 
 __Bass traps__ and large __broadband absorbers__ are absorbers of acoustic energy designed to damp low-frequency sound-energy. They are typically made from porous materials such as rockwool, mineral wool, basotect, or other types of acoustic foams, and incorporate elements such as membranes, airspaces and additional thicknesses of fiberglass (≥ 6″) – all needed to control low frequency bands.
 
@@ -104,7 +104,7 @@ _**Attention!** Porous absorbers (most commonly sound absorbing panels) don’t 
 
 For example, for a 200 Hz sound wave, the wavelength is 1125/200 = 5.6 feet; in a sound wave, the velocity is maximum (and the pressure is zero) at ¼ the wavelength from a boundary or the wall; such, a quarter of the example soundwave is 1.4 feet (0.43 meters). You read it right! You need _a lot_ of space to absorb low frequencies using porous absorption!
 
-#### 3. Optimal listener speaker locations
+### 3. Optimal listener speaker locations
 
 Modal theory tells us that a subwoofer in a room corner will excite all modes. In contrast, for a subwoofer perfectly centered along one wall, several modes will not be excited at all.
 
@@ -112,7 +112,7 @@ So, ideally, the loudspeaker should be out and away from the corners. The optima
 
 As any other resonance chamber, for a room to resonate, it needs containment. Thus, opening large windows and doors will help relieve the room modes, creating an “escape route”.
 
-#### 4. Digital pre/post Equalization
+### 4. Digital pre/post Equalization
 
 An effective way of achieving better frequency response is to apply __parametric EQ__ directly on the sound before it is sent out or on the microphone. When two rooms are virtually (and electronically) connected, such as the MCT Portals, this works like a charm – e.g. applying two filters on 35 and 63 Hz.
 Check out Stephen's video for more information of feedback equalization.
@@ -132,8 +132,7 @@ I hope this blog post helped you gain a better understanding of room modes and t
 
 
 Here are some other resources and tools for calculation, check out these links:
-
-https://amcoustics.com/tools/amroc?l=363&w=273&h=300&re=DIN%2018041%20-%20Music
-http://www.silcom.com/~aludwig/Room_acoustics.html
-http://www.acousticfrontiers.com/room-modes-101/
-http://arqen.com/bass-traps-101/placement-guide/
+[Acoustic tool for room mode calculation](https://amcoustics.com/tools/amroc?l=363&w=273&h=300&re=DIN%2018041%20-%20Music)
+[Room acoustics](http://www.silcom.com/~aludwig/Room_acoustics.html)
+[Room modes](http://www.acousticfrontiers.com/room-modes-101/)
+[Bass trap placement guide](http://arqen.com/bass-traps-101/placement-guide/)
