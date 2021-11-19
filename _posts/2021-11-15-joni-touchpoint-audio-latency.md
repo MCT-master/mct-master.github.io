@@ -6,8 +6,7 @@ categories: portal
 author: Joni Mok
 image: /assets/image/2021_11_15_joni_1.jpeg
 keywords: portal, communication system, audio latency
-excerpt: "Quick tips for future MCT-ers or external partners who will be using the MCT Portal for the first time: this article gives you practical information to start with improving audio latency.""
-"
+excerpt: "Quick tips for future MCT-ers or external partners who will be using the MCT Portal for the first time: this article gives you practical information to start with improving audio latency."
 ---
 
 Quick tips for future MCT-ers or external partners who will be using the MCT Portal for the first time: this article gives you practical information to start with improving audio latency.
