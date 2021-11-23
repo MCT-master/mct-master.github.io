@@ -120,7 +120,70 @@ It might sound like a walk in the park but don't be fooled. The computation woul
 
 But at last you could end up with something interesting, and then say some prayers hoping it would work in the final mix.
 
-
 Insert example of wavefiles before and after processing
 
+### **Music visualization**
+
+Finally, all we needed was a nice visualization of our waveforms freshly processed... Based on the most popular DAWs GUI, we could generate two waveforms style:
+
+- one similar to *Audacity* (with RMS & waveform overlapped)
+- one similar to *Traktor/Serato* DJ software (with vertical lines of the waveform color-coded by spectral centroid)
+
+To acheive this, we first had to design spectral features functions based on mathematical formulas in order to extract the features we were interested in.
+
+**Root mean square (RMS)**, defined as the square root of the mean square (the arithmetic mean of the squares of a set of numbers) **[1]**.
+
+$RMS =$ $\sqrt{{\frac{1} {n}} \sum_{i} x_{i}^2}$
+
+- $n$ is the frame length in samples
+- $x_{i} =$ Each frame
+
+**Spectral Centroid**, as the name suggests, a spectral centroid is the location of the centre of mass of the spectrum. Since the audio files were digital signals and the spectral centroid is a measure, this appears useful in the characterization of the spectrum of our processed audio file signal.
+
+$Centroid = \frac{\sum_{n=0}^{N-1} f(n) x(n)} {\sum_{n=0}^{N-1} x(n)} $
+
+- $x(n)$ is the weighted frequency value, or magnitude
+- $n$ is the bin number
+- $f(n)$ is the center frequency of the frequency bin
+
+Furthermore, coloring a waveform with spectral centroid required that we
+
+- Detect peaks with a `onset_detection` function to get the position of note onsets. Which we did by simply using the `onset_detect` function of `librosa`, allowing us to locate note onset events by picking peaks.
+
+- Compute the spectral centroid over all the time segments delimited by the detected onsets. For that part, we had to pad (again!) the time segments with zeros just before the onset and to the next onset.
+
+- Finally, using non-linear map to get gradient-effect was harder than expected. Therefore, we simply color-coded each segment based on five different centroid frequency ranges.
+
+```
+if centroid <= 59: # Sub Low
+    plt.plot(x, color='#113450')
+
+elif 60 <= centroid <= 249: # Low
+    plt.plot(x, color='#4978c0')
+
+elif 250 <= centroid <= 799: # Low Mid
+    plt.plot(x, color='#8a61d3')        
+
+elif 800 <= centroid <= 2999: # Mid
+    plt.plot(x, color='#199eb0')
+
+elif 3000 <= centroid <= 5999: # High Mid
+    plt.plot(x, color='#ffc0cb')
+
+elif 6000 <= centroid: # High
+    plt.plot(x, color='#68e17f')
+```
+At last we could end up with something quite nice and informative.
+
+<figure>
+  <img src="/assets/image/2021_11_23_joachipo_vizserato.png" alt="the misty jungle" width="100%" align="middle"/>
+
+<figcaption align="center">Coloring a waveform with spectral centroid</figcaption>
+
+</figure>
+
 After a few nights of this ordeal we then had six tracks we could sum together. (We resynthesised the lead synth with pretty midi's built in `synthesize()` function, and applied our usual processing to the track in order to have two different lead synths which we could pan). We set different amplitude values for two tracks, the `mixL` and `mixR`, and then merged them together to form a `stereo_file`. And closed our eyes and felt asleep over our computers to the sound of our very own and very first Python DAW mix.
+
+### **References**
+
+<font size="2"><p><b>[1]</b> "Root-mean-square value". A Dictionary of Physics (6 ed.). Oxford University Press. 2009. ISBN 9780199233991</p></font>
