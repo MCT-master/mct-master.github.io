@@ -107,7 +107,7 @@ Insert wet signal
 
 For filters we chose to make a function that created a FIR filter which could be either `lowpass` or `highpass`, and which did the short time fourier transform (STFT) of the signal and applied it's filtering in the frequency domain. This ensured it would be quick, and you could set parameters for passband, stopband and order of the filter in the arguments.
 
-The saturation function (aptly names softClipper) uses `numpy.arctan` and some creative math to apply saturation (or distortion if turned up), and rather than trying to explain that math; here's the code:
+The saturation function (aptly named softClipper) uses `numpy.arctan` and some creative math to apply saturation (or distortion if turned up), and rather than trying to explain that math; here's the code:
 ```
 def softClipper(audio, drive, output=0.8):
 
