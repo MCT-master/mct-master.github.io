@@ -1,11 +1,11 @@
 ---
 layout: post
-title: "Mixing a track in Python"
+title: "Mixing a multitrack project in Python"
 date: 2021-11-23 11:45:00 +0200
 categories: Scientific computing
 author: Joachim Poutaraud, Kristian Wentzel, Sofía González, Arvid Falch
-image: /assets/image/.png
-excerpt: "Attempting to mix a multitrack song with homemade FX in Python'"
+image: /assets/image/2021_11_23_arvidf_crazyrig.png
+excerpt: "Attempting to mix a multitrack song with homemade FX in our very own mini PythonDAW'"
 
 keywords: Music Production, Mixing, Python, Plugins
 
@@ -69,7 +69,7 @@ We'll come back to this gloriously inefficient way of processing audio later, bu
 
 Our tiny Python-DAW needed processing tools, and we set about to program the usual suspects in a DAW. We would need compressors, reverb, delay, saturation and filters for EQ-ing. Easy! One week until deadline? No stress.
 
-<figure style="float: auto">
+<figure style="float: right">
    <img src="/assets/image/2021_11_23_arvidf_stupid.png" alt="" title="" width="auto"/> <figcaption>
 
    Challenge accepted.</figcaption>
@@ -93,7 +93,7 @@ So it had to be improved, and that's when we made our framecompressor. It uses a
 
 We made an IIR filter on the basis of Schroeders very first algorithm for creating an artificial reverberator.
 
-Insert link to article
+[Read more about the Schroeder reverb here](https://medium.com/the-seekers-project/coding-a-basic-reverb-algorithm-part-2-an-introduction-to-audio-programming-4db79dd4e325)
 
 It uses a set up of four parallell comb filters which then runs into two cascading allpass filters. Setting the parameters takes a little guessing and praying to the binary gods, and it's not a reverb you would recommend to your favourite pop star, but it's an actual reverb and we proudly used it in our mix.
 
@@ -108,8 +108,31 @@ Insert wet signal
 For filters we chose to make a function that created a FIR filter which could be either `lowpass` or `highpass`, and which did the short time fourier transform (STFT) of the signal and applied it's filtering in the frequency domain. This ensured it would be quick, and you could set parameters for passband, stopband and order of the filter in the arguments.
 
 The saturation function (aptly names softClipper) uses `numpy.arctan` and some creative math to apply saturation (or distortion if turned up), and rather than trying to explain that math; here's the code:
+```
+def softClipper(audio, drive, output=0.8):
 
-Insert softClipper code
+    """audio = Source to be SoftClipped
+    drive = Amount of SoftClipping (Try between 10-40)
+    output = Output volume
+
+    The signal is normalized before output attenuation for better control.
+    """
+
+    # Drive can not be set to 0
+    if drive == 0:
+        drive = 1
+
+    piDivisor = 2 / np.pi
+    driver = np.arctan(audio * drive)
+
+    softclip = piDivisor * driver
+
+    #normalized = softclip/np.max(softclip)
+    softClipped = softclip * output
+
+    return softClipped
+```
+
 
 As the last of our fx we made a small function to reverse an audio segment. This maybe the only function that Python would do quicker and easier than it's more user friendly counterparts. Just `numpy.flip(audio)` and the Beatles would have been sold.
 
