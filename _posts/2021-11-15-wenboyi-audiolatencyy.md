@@ -51,7 +51,7 @@ The second method here is to arrange polyrhythm and ostinato for complex rhythm,
 
 <figure style="float: none">
    <iframe src="https://drive.google.com/file/d/10zF7AVfMGEQr-qtRyCG_QduUTuygCuxd/preview" width="1024" height="576" frameborder="0" allowfullscreen></iframe>
-   <figcaption>Presentation</figcaption>
+   <figcaption>Ostinato demonstration</figcaption>
 </figure>
 
 #### Harmony
