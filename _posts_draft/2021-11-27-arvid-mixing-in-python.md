@@ -58,13 +58,23 @@ The basic thing needed whenever things are sliced up and pasted back together ar
 
 We'll come back to this gloriously inefficient way of processing audio later, but whenever we refer to our for loop from now on, this is what we are talking about. As an example it could look something like this:
 
-(Insert picture of for loop)
+<figure style="float: auto">
+   <img src="/assets/image/2021_11_23_arvidf_forloop.png" alt="" title="" width="auto"/> <figcaption>
+
+   This is the processing of the main drum track.</figcaption>
+
+</figure>
 
 ### **Our Processing Tools**
 
 Our tiny Python-DAW needed processing tools, and we set about to program the usual suspects in a DAW. We would need compressors, reverb, delay, saturation and filters for EQ-ing. Easy! One week until deadline? No stress.
 
-(Insert some funny picture)
+<figure style="float: auto">
+   <img src="/assets/image/2021_11_23_arvidf_stupid.png" alt="" title="" width="auto"/> <figcaption>
+
+   Challenge accepted.</figcaption>
+
+</figure>
 
 ### **Compressors**
 
@@ -72,7 +82,12 @@ How does a compressor really work? Not like our first attempt. Our first compres
 
 So it had to be improved, and that's when we made our framecompressor. It uses a hanning window turned upside down as it's compression envelope and analyses and compresses frames of the audio instead of sample by sample. It's not too slow and did the job when we needed compression.
 
-Insert picture of upside down hanning window.  
+<figure style="float: auto">
+   <img src="/assets/image/2021_11_23_arvidf_hanning.png" alt="" title="" width="auto"/> <figcaption>
+
+   Upside down Hanning window with ratio set to -0.4, resulting in 0.4 compression at the most.</figcaption>
+
+</figure>    
 
 ### **Reverbs and Delay**
 
@@ -187,3 +202,144 @@ After a few nights of this ordeal we then had six tracks we could sum together. 
 ### **References**
 
 <font size="2"><p><b>[1]</b> "Root-mean-square value". A Dictionary of Physics (6 ed.). Oxford University Press. 2009. ISBN 9780199233991</p></font>
+
+
+**Original**: `py5-Bass synth.wav`
+
+<div class="waveform" id="Original"></div>
+
+<br/>
+
+**Fullmix**: `py5-fullMix.wav`
+
+<div class="waveform" id="Fullmix"></div>
+
+<br/>
+
+<style>
+.waveform {
+  display: flex;
+  flex-direction: column;
+  width: 90%;
+  margin: auto;
+}
+</style>
+
+
+
+<!-- external lib used to display waveforms -->
+<!-- <script src="https://unpkg.com/wavesurfer.js"></script> -->
+<script src="https://unpkg.com/wavesurfer.js@5.0.1/dist/wavesurfer.js"></script>
+
+
+<script>
+
+const audioSamples = [
+    // source and target
+    {
+        path: "https://github.com/wnetzel/MCT-teamA-2021/blob/main/Python%20Assignment%205/Part%202/audio/py5-Bass%20synth.wav",
+        anchor: "Original",
+        color: "#ffa600",
+        alert: false,
+    },
+    {
+        path: "https://github.com/wnetzel/MCT-teamA-2021/blob/main/Python%20Assignment%205/Part%202/audio/py5-fullMix.wav",
+        anchor: "Fullmix",
+        color: "#328d78",
+        alert: false,
+    },
+    // feature selection
+    {
+        path: "https://ulrikah.no/thesis/audio/rms_1000iters.wav",
+        anchor: "features-rms",
+        color: "#D93821",
+        alert: false,
+    },
+    {
+        path: "https://ulrikah.no/thesis/audio/all_1000iters.wav",
+        anchor: "features-all",
+        color: "#1869ca",
+        alert: false,
+    },
+    // // real-time
+    // {
+    //     path: "https://ulrikah.no/thesis/audio/all_1000iters.wav",
+    //     anchor: "offline",
+    //     color: "blue",
+    //     alert: false,
+    // },
+    {
+        path: "https://ulrikah.no/thesis/audio/live_inference.wav",
+        anchor: "online",
+        color: "red",
+        alert: true,
+    },
+    // generalizability
+    {
+        path: "https://ulrikah.no/thesis/audio/arp_sequence.wav",
+        anchor: "arp_sequence",
+        color: "#D57EBE",
+        alert: false,
+    },
+    // {
+    //     path: "https://ulrikah.no/thesis/audio/drum_beat_80s.wav",
+    //     anchor: "drum_beat_80s",
+    //     color: "#85584E",
+    //     alert: false,
+    // },
+    // {
+    //     path: "https://ulrikah.no/thesis/audio/all_1000iters_80s_target.wav",
+    //     anchor: "all_80s_target",
+    //     color: "#7F7F7F",
+    //     alert: false,
+    // },
+    {
+        path: "https://ulrikah.no/thesis/audio/all_1000iters_arps_source.wav",
+        anchor: "all_arps_source",
+        color: "#BDBC45",
+        alert: false,
+    },
+    // {
+    //     path: "https://ulrikah.no/thesis/audio/arps_80s.wav",
+    //     anchor: "arp_80s",
+    //     color: "#56BBCC",
+    //     alert: false,
+    // },
+];
+
+const addPlayText = (sample) => "Play" + (sample.alert ? "  ⚠️" : "");
+
+audioSamples.forEach((sample) => {
+    const id = sample.anchor;
+    const waveformDiv = document.querySelector("#" + id);
+
+    const playButton = document.createElement("button");
+    playButton.id = "button-" + id;
+    playButton.style.margin = "auto";
+    playButton.classList = "btn btn-primary";
+    playButton.innerText = "Play";
+
+    const wavesurfer = WaveSurfer.create({
+        container: "#" + id,
+        mediaControls: true,
+        height: 64,
+        waveColor: sample.color,
+    });
+    wavesurfer.load(sample.path);
+    wavesurfer.once("ready", () => {
+        waveformDiv.appendChild(playButton);
+        playButton.onclick = () => {
+            wavesurfer.playPause();
+            if (playButton.innerText.startsWith("Pause")) {
+                playButton.innerText = "Play";
+            } else if (playButton.innerText.startsWith("Play")) {
+                playButton.innerText = "Pause";
+            }
+        };
+    });
+    wavesurfer.once("finish", () => {
+        playButton.innerText = "Play";
+    });
+});
+
+</script>
