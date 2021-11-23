@@ -19,15 +19,23 @@ We decided to use our recently aquired Python skills to build a program that cou
 
 # **The Music**
 
-In order to mix anything we needed some music. And as our sanity was already slipping, we skipped this part until we had a program up and running. When time came to create the music our minds was so entrenched in lines of code that we almost had to write a Python program which could write music for us.
+In order to mix anything, we needed some music. And as our sanity was already slipping, we skipped this part until we had a program up and running. When time came to create the music our minds was so entrenched in lines of code that we almost had to write a Python program which could write music for us.
 
 The solution was to pick some files from an old unreleased project of Arvids band Misha Non Penguin, and then take away all processing and writing them out as mono files.
 
-We ended up with five tracks; two drum tracks, a bass synth, synth brass stabs and a plucked lead synth. On purpose we chose poorly sounding synth patches, completely unprocessed. We also had a midifile containing all the midi. The challenge was on.
+We ended up with five tracks:
+
+- two drum tracks
+- one bass synth
+- one synth brass stabs
+- one plucked lead synth.
+
+On purpose we chose poorly sounding synth patches, completely unprocessed. We also had a midifile containing all the midi. The challenge was on.
 
 # **The Program**
 
 Segmenting and rejoining segments of audio has somehow become the bread and butter of the MCT program, so the assignment required us to do this. But this was also going to enable us to apply different processing on each segment of any track, which turned out to be an interesting option in the end result.
+
 The basic thing needed whenever things are sliced up and pasted back together are some short overlap and fading functions, in order to avoid clicks and artifacts in the sound. Our approach to achieve this was the following:
 
 1. Creating an empty array of zeros called results, with the same size as the audio we'd segment.
@@ -69,47 +77,50 @@ Insert picture of upside down hanning window.
 ### **Reverbs and Delay**
 
 We made an IIR filter on the basis of Schroeders very first algorithm for creating an artificial reverberator.
+
 Insert link to article
+
 It uses a set up of four parallell comb filters which then runs into two cascading allpass filters. Setting the parameters takes a little guessing and praying to the binary gods, and it's not a reverb you would recommend to your favourite pop star, but it's an actual reverb and we proudly used it in our mix.
 
 Insert audio dry and wet of a short signal
 
-Our delay was a FIR filter impulse response generating function, which does the processing in the frequency domain and therefore is much quicker to use. By choosing a number of impulses the audio signal would then be repeated as many times as the number of impulses, with a decreasing gain. It is definetly not an all purpose delay, as it works best on small segments of audio.
+Our delay was a FIR filter impulse response generating function, which does the processing in the frequency domain and therefore is much quicker to use. By choosing a number of impulses the audio signal would then be repeated as many times as the number of impulses, with a decreasing gain. It is definitely not an all purpose delay, as it works best on small segments of audio.
 
 Insert wet signal
 
 ### **Filters and saturation**
 
-For filters we chose to make a function that created a FIRfilter which could be either lowpass or highpass, and which did the short time fourier transform of the signal and applied it's filtering in the frequency domain. This ensured it would be quick, and you could set parameters for passband, stopband and order of the filter in the arguments.
+For filters we chose to make a function that created a FIR filter which could be either `lowpass` or `highpass`, and which did the short time fourier transform (STFT) of the signal and applied it's filtering in the frequency domain. This ensured it would be quick, and you could set parameters for passband, stopband and order of the filter in the arguments.
 
-The saturation function (aptly names softClipper) uses numpy.arctan and some creative math to apply saturation (or distortion if turned up), and rather than trying to explain that math; here's the code:
+The saturation function (aptly names softClipper) uses `numpy.arctan` and some creative math to apply saturation (or distortion if turned up), and rather than trying to explain that math; here's the code:
 
 Insert softClipper code
 
-As the last of our fx we made a small function to reverse an audio segment. This maybe the only function that Python would do quicker and easier than it's more user friendly counterparts. Just numpy.flip(audio) and the Beatles would have been sold.
+As the last of our fx we made a small function to reverse an audio segment. This maybe the only function that Python would do quicker and easier than it's more user friendly counterparts. Just `numpy.flip(audio)` and the Beatles would have been sold.
 
 ### **Instruments**
 
 Our program also needed some instruments, or rather functions that could create sound. Why? Because DAWs have that. And we wanted to make a DAW in Python. Did we use any of them? Hardly. Just one of them. But it's there and maybe someone else would one day feel the need to enter the abyss of doom and attempt to use our program to mix some music.
+
 We made sine, square, sawtooth and triangle oscillators, and even a pulsewidth modulated oscillator with it's own LFO. There's also an ADS amplitude envelope.  
 
 # **Mixing the music**
 
-With our Python DAW up and running we set about to actually process the audio files. At this point of time our deadline was a point in the distant past and sleep deprivation had kicked in, but the joy of mixing in Python kept us going through the night for a couple of days in a row.
+With our Python DAW up and running, we set about to actually process the audio files. At this point of time our deadline was a point in the distant past and sleep deprivation had kicked in, but the joy of mixing in Python kept us going through the night for a couple of days in a row.
 
 The process would be something like this:
 
-1. Load one track using librosa.
+1. Load one track using `librosa`.
 2. Applying some filtering, reverb and saturation in the for loop. Maybe set up some conditional processing or change parameters in a FX every time the for loop iterated.
 3. Hit the run cell command in Jupyter notebook and wait for a couple of minutes before finally hearing the result.
 4. Changing some parameters in the FX.
 5. Repeat process from 3.
 
 It might sound like a walk in the park but don't be fooled. The computation would be deadly slow for some of our FX, and it could take hours of testing until we would achieve anything close to a pleasing result. Sometimes we'd get lucky and find some nice settings for our FX early on, while most of the time it would sound disastrously bad and require endless fiddling with the parameters and waiting for the code to run.
+
 But at last you could end up with something interesting, and then say some prayers hoping it would work in the final mix.
 
 
 Insert example of wavefiles before and after processing
 
-After a few nights of this ordeal we then had six tracks we could sum together. (We resynthesised the lead synth with pretty midi's built in synthesize() function, and applied our usual processing to the track in order to have two different lead synths which we could pan).
-We set different amplitude values for two tracks, the mixL and mixR, and then merged them together to form a stereo file. And closed our eyes and felt asleep over our computers to the sound of our very own and very first Python DAW mix.
+After a few nights of this ordeal we then had six tracks we could sum together. (We resynthesised the lead synth with pretty midi's built in `synthesize()` function, and applied our usual processing to the track in order to have two different lead synths which we could pan). We set different amplitude values for two tracks, the `mixL` and `mixR`, and then merged them together to form a `stereo_file`. And closed our eyes and felt asleep over our computers to the sound of our very own and very first Python DAW mix.
