@@ -32,6 +32,14 @@ We ended up with five tracks:
 
 On purpose we chose poorly sounding synth patches, completely unprocessed. We also had a midifile containing all the midi. The challenge was on.
 
+<figure style="float: none">
+  <audio controls>
+    <source src="https://drive.google.com/file/d/1DKxUBmOM-4pleIVld6yRwJ1geDv2_NIl/view?usp=sharing" type="audio/mpeg">
+    Mixed
+  </audio>
+  <figcaption>Listen to the original unprocessed music</figcaption>
+</figure>
+
 # **The Program**
 
 Segmenting and rejoining segments of audio has somehow become the bread and butter of the MCT program, so the assignment required us to do this. But this was also going to enable us to apply different processing on each segment of any track, which turned out to be an interesting option in the end result.
@@ -97,11 +105,32 @@ We made an IIR filter on the basis of Schroeders very first algorithm for creati
 
 It uses a set up of four parallell comb filters which then runs into two cascading allpass filters. Setting the parameters takes a little guessing and praying to the binary gods, and it's not a reverb you would recommend to your favourite pop star, but it's an actual reverb and we proudly used it in our mix.
 
-Insert audio dry and wet of a short signal
+<figure style="float: none">
+  <audio controls>
+    <source src="https://drive.google.com/file/d/1EmmJLHZjUg0wfPX7EYwxKBuVXyX58PmI/view?usp=sharing" type="audio/mpeg">
+    Unprocessed sine tone
+  </audio>
+  <figcaption>Dry sound</figcaption>
+</figure>
+
+<figure style="float: none">
+  <audio controls>
+    <source src="https://drive.google.com/file/d/1u4BDg6H8nYsuQvoxskekuOxeCCsp3qaK/view?usp=sharing" type="audio/mpeg">
+    Sine tone with our IIR Reverb
+  </audio>
+  <figcaption>Wet sound</figcaption>
+</figure>
+
 
 Our delay was a FIR filter impulse response generating function, which does the processing in the frequency domain and therefore is much quicker to use. By choosing a number of impulses the audio signal would then be repeated as many times as the number of impulses, with a decreasing gain. It is definitely not an all purpose delay, as it works best on small segments of audio.
 
-Insert wet signal
+<figure style="float: none">
+  <audio controls>
+    <source src="https://drive.google.com/file/d/1-vjA5jJk5AToPTWh1uCYy47J36KtqKbe/view?usp=sharing" type="audio/mpeg">
+    Brass stabs
+  </audio>
+  <figcaption>Brass stabs with our FIR Delay</figcaption>
+</figure>
 
 ### **Filters and saturation**
 
@@ -158,7 +187,21 @@ It might sound like a walk in the park but don't be fooled. The computation woul
 
 But at last you could end up with something interesting, and then say some prayers hoping it would work in the final mix.
 
-Insert example of wavefiles before and after processing
+<figure style="float: none">
+  <audio controls>
+    <source src="https://drive.google.com/file/d/1QXRUwerRbDsHmIf8RCD5pGigu7ZdQtar/view?usp=sharing" type="audio/mpeg">
+    Unprocessed
+  </audio>
+  <figcaption>Pluck synth unprocessed</figcaption>
+</figure>
+
+<figure style="float: none">
+  <audio controls>
+    <source src="https://drive.google.com/file/d/1fpwqIIGzpPOTmty0uZ5h7p8oQxSsAIO0/view?usp=sharing" type="audio/mpeg">
+    Mixed
+  </audio>
+  <figcaption>Pluck Synth processed by our tiny Python DAW</figcaption>
+</figure>
 
 ### **Music visualization**
 
@@ -221,6 +264,14 @@ At last we could end up with something quite nice and informative.
 </figure>
 
 After a few nights of this ordeal we then had six tracks we could sum together. (We resynthesised the lead synth with pretty midi's built in `synthesize()` function, and applied our usual processing to the track in order to have two different lead synths which we could pan). We set different amplitude values for two tracks, the `mixL` and `mixR`, and then merged them together to form a `stereo_file`. And closed our eyes and felt asleep over our computers to the sound of our very own and very first Python DAW mix.
+
+<figure style="float: none">
+  <audio controls>
+    <source src="https://drive.google.com/file/d/1a9_qXW7AXRnBgyhZpk9OBcA1a7qj3Ruo/view?usp=sharing" type="audio/mpeg">
+    Mixed
+  </audio>
+  <figcaption>Our final mix</figcaption>
+</figure>
 
 ### **References**
 
