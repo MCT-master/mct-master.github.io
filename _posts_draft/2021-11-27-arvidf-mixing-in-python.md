@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Mixing a multitrack project in Python"
-date: 2021-11-23 11:45:00 +0200
+date: 2021-11-24 12:32:00 +0200
 categories: Scientific computing
 author: Joachim Poutaraud, Kristian Wentzel, Sofía González, Arvid Falch
 image: /assets/image/2021_11_23_arvidf_crazyrig.jpg
@@ -36,7 +36,7 @@ On purpose we chose poorly sounding synth patches, completely unprocessed. We al
 
 <figure style="float: none">
   <audio controls>
-    <source src="https://drive.google.com/file/d/1DKxUBmOM-4pleIVld6yRwJ1geDv2_NIl/view?usp=sharing" type="audio/mpeg">
+    <source src="https://drive.google.com/uc?&id=1DKxUBmOM-4pleIVld6yRwJ1geDv2_NIl" type="audio/mpeg">
     Mixed
   </audio>
   <figcaption>The original unprocessed music</figcaption>
@@ -113,7 +113,7 @@ It uses a set up of four parallell comb filters which then runs into two cascadi
 
 <figure style="float: none">
   <audio controls>
-    <source src="https://drive.google.com/file/d/1EmmJLHZjUg0wfPX7EYwxKBuVXyX58PmI/view?usp=sharing" type="audio/mpeg">
+    <source src="https://drive.google.com/uc?&id=1EmmJLHZjUg0wfPX7EYwxKBuVXyX58PmI" type="audio/mpeg">
     Unprocessed sine tone
   </audio>
   <figcaption>Dry sound</figcaption>
@@ -121,7 +121,7 @@ It uses a set up of four parallell comb filters which then runs into two cascadi
 
 <figure style="float: none">
   <audio controls>
-    <source src="https://drive.google.com/file/d/1u4BDg6H8nYsuQvoxskekuOxeCCsp3qaK/view?usp=sharing" type="audio/mpeg">
+    <source src="https://drive.google.com/uc?&id=1u4BDg6H8nYsuQvoxskekuOxeCCsp3qaK" type="audio/mpeg">
     Sine tone with our IIR Reverb
   </audio>
   <figcaption>Wet sound</figcaption>
@@ -132,7 +132,7 @@ Our delay was a FIR filter impulse response generating function, which does the 
 
 <figure style="float: none">
   <audio controls>
-    <source src="https://drive.google.com/file/d/1-vjA5jJk5AToPTWh1uCYy47J36KtqKbe/view?usp=sharing" type="audio/mpeg">
+    <source src="https://drive.google.com/uc?&id=1-vjA5jJk5AToPTWh1uCYy47J36KtqKbe" type="audio/mpeg">
     Brass stabs
   </audio>
   <figcaption>Brass stabs with our FIR Delay</figcaption>
@@ -162,7 +162,7 @@ def softClipper(audio, drive, output=0.8):
 
     softclip = piDivisor * driver
 
-    #normalized = softclip/np.max(softclip)
+    normalized = softclip/np.max(softclip)
     softClipped = softclip * output
 
     return softClipped
@@ -195,7 +195,7 @@ But at last you could end up with something interesting, and then say some praye
 
 <figure style="float: none">
   <audio controls>
-    <source src="https://drive.google.com/file/d/1QXRUwerRbDsHmIf8RCD5pGigu7ZdQtar/view?usp=sharing" type="audio/mpeg">
+    <source src="https://drive.google.com/uc?&id=1QXRUwerRbDsHmIf8RCD5pGigu7ZdQtar" type="audio/mpeg">
     Unprocessed
   </audio>
   <figcaption>Pluck synth unprocessed</figcaption>
@@ -203,7 +203,7 @@ But at last you could end up with something interesting, and then say some praye
 
 <figure style="float: none">
   <audio controls>
-    <source src="https://drive.google.com/file/d/1fpwqIIGzpPOTmty0uZ5h7p8oQxSsAIO0/view?usp=sharing" type="audio/mpeg">
+    <source src="https://drive.google.com/uc?&id=1fpwqIIGzpPOTmty0uZ5h7p8oQxSsAIO0" type="audio/mpeg">
     Mixed
   </audio>
   <figcaption>Pluck Synth processed by our tiny Python DAW</figcaption>
@@ -220,14 +220,14 @@ To acheive this, we first had to design spectral features functions based on mat
 
 **Root mean square (RMS)**, defined as the square root of the mean square (the arithmetic mean of the squares of a set of numbers) **[1]**.
 
-$RMS =$ $\sqrt{{\frac{1}} {n}} \sum_{i} x_{i}^2}$
+$RMS = \sqrt{\frac{1}{n}\sum_{i} {x_{i}^2}}$
 
 - $n$ is the frame length in samples
 - $x_{i} =$ Each frame
 
 **Spectral Centroid**, as the name suggests, a spectral centroid is the location of the centre of mass of the spectrum. Since the audio files were digital signals and the spectral centroid is a measure, this appears useful in the characterization of the spectrum of our processed audio file signal.
 
-$Centroid = \frac{\sum_{n=0}^{N-1} f(n) x(n)} {\sum_{n=0}^{N-1} x(n)} $
+$Centroid =$ ${\frac{\sum_{n=0}^{N-1} f(n) x(n)} {\sum_{n=0}^{N-1} x(n)}}$
 
 - $x(n)$ is the weighted frequency value, or magnitude
 - $n$ is the bin number
@@ -273,7 +273,7 @@ After a few nights of this ordeal we then had six tracks we could sum together. 
 
 <figure style="float: none">
   <audio controls>
-    <source src="https://drive.google.com/file/d/1a9_qXW7AXRnBgyhZpk9OBcA1a7qj3Ruo/view?usp=sharing" type="audio/mpeg">
+    <source src="https://drive.google.com/uc?&id=1a9_qXW7AXRnBgyhZpk9OBcA1a7qj3Ruo" type="audio/mpeg">
     Mixed
   </audio>
   <figcaption>Our final mix</figcaption>
@@ -287,3 +287,19 @@ The code for this project is available [here.](https://github.com/wnetzel/MCT-te
 ### **References**
 
 <font size="2"><p><b>[1]</b> "Root-mean-square value". A Dictionary of Physics (6 ed.). Oxford University Press. 2009. ISBN 9780199233991</p></font>
+
+<script type="text/x-mathjax-config">
+MathJax.Hub.Config({
+tex2jax: {
+inlineMath: [['$','$'], ['\\(','\\)']],
+processEscapes: true},
+jax: ["input/TeX","input/MathML","input/AsciiMath","output/CommonHTML"],
+extensions: ["tex2jax.js","mml2jax.js","asciimath2jax.js","MathMenu.js","MathZoom.js","AssistiveMML.js", "[Contrib]/a11y/accessibility-menu.js"],
+TeX: {
+extensions: ["AMSmath.js","AMSsymbols.js","noErrors.js","noUndefined.js"],
+equationNumbers: {
+autoNumber: "AMS"
+}
+}
+});
+</script>
