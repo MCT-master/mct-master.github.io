@@ -4,7 +4,7 @@ title: "Mixing a multitrack project in Python"
 date: 2021-11-23 11:45:00 +0200
 categories: Scientific computing
 author: Joachim Poutaraud, Kristian Wentzel, Sofía González, Arvid Falch
-image: /assets/image/2021_11_23_arvidf_crazyrig.png
+image: /assets/image/2021_11_23_arvidf_crazyrig.jpg
 excerpt: "Attempting to mix a multitrack song with homemade FX in our very own mini PythonDAW'"
 
 keywords: Music Production, Mixing, Python, Plugins
@@ -16,6 +16,8 @@ keywords: Music Production, Mixing, Python, Plugins
 Being students at the MCT program is now a condition we've gotten accustomed to as our first term is gradually coming to an end. Usually we get some sort of assignments to solve every week, and most likely we will spend way too much time solving it. So when the last assignment was announced we decided to get extra ambitious and spend even more time on it, making sure our personal lives and sanity would be completely ruined come Christmas.
 
 We decided to use our recently aquired Python skills to build a program that could mix a multitrack recording. With homebrew FX and everything you'd need, basically making a tiny Python-DAW except for a nice GUI. That would have made it too slick, we wanted this to be pure code.
+
+
 
 # **The Music**
 
@@ -37,14 +39,18 @@ On purpose we chose poorly sounding synth patches, completely unprocessed. We al
     <source src="https://drive.google.com/file/d/1DKxUBmOM-4pleIVld6yRwJ1geDv2_NIl/view?usp=sharing" type="audio/mpeg">
     Mixed
   </audio>
-  <figcaption>Listen to the original unprocessed music</figcaption>
+  <figcaption>The original unprocessed music</figcaption>
 </figure>
+
+
 
 # **The Program**
 
 Segmenting and rejoining segments of audio has somehow become the bread and butter of the MCT program, so the assignment required us to do this. But this was also going to enable us to apply different processing on each segment of any track, which turned out to be an interesting option in the end result.
 
 The basic thing needed whenever things are sliced up and pasted back together are some short overlap and fading functions, in order to avoid clicks and artifacts in the sound. Our approach to achieve this was the following:
+
+
 
 1. Creating an empty array of zeros called results, with the same size as the audio we'd segment.
 
@@ -77,8 +83,8 @@ We'll come back to this gloriously inefficient way of processing audio later, bu
 
 Our tiny Python-DAW needed processing tools, and we set about to program the usual suspects in a DAW. We would need compressors, reverb, delay, saturation and filters for EQ-ing. Easy! One week until deadline? No stress.
 
-<figure style="float: right">
-   <img src="/assets/image/2021_11_23_arvidf_stupid.png" alt="" title="" width="auto"/> <figcaption>
+<figure style="float: middle">
+   <img src="/assets/image/2021_11_23_arvidf_stupid.png" alt="" title="" height="75%"/> <figcaption>
 
    Challenge accepted.</figcaption>
 
@@ -88,10 +94,10 @@ Our tiny Python-DAW needed processing tools, and we set about to program the usu
 
 How does a compressor really work? Not like our first attempt. Our first compressor went through every sample checking if it's absolute value was above a set threshold. Then it would check how much the sample amplitude exceeded the threshold, and finally multiplying it with a hardcoded value below 1. This was done in a for loop which could be ran multiple times depending on an argument in the function. After the for loop it eventually multiplied the whole signal with a makeup gain, enabling us to first compress the peaks, then turning the whole signal up a bit. In theory this little thingy did everything a compressor should do, but it did it in it's own very time consuming way.
 
-So it had to be improved, and that's when we made our framecompressor. It uses a hanning window turned upside down as it's compression envelope and analyses and compresses frames of the audio instead of sample by sample. It's not too slow and did the job when we needed compression.
+So it had to be improved, and that's when we made our framecompressor. It uses a hanning window turned upside down as it's compression envelope and analyses and compresses frames of the audio instead of sample by sample. We used a window of 2048 samples for our frames and then jumped back 1024 samples before analysing the next frame in order to have some overlap and avoid pumping in the compression. It's not too slow and did the job when we needed compression.
 
 <figure style="float: auto">
-   <img src="/assets/image/2021_11_23_arvidf_hanning.png" alt="" title="" width="auto"/> <figcaption>
+   <img src="/assets/image/2021_11_23_arvidf_hanning.png" alt="" width="auto" align="middle"/> <figcaption>
 
    Upside down Hanning window with ratio set to -0.4, resulting in 0.4 compression at the most.</figcaption>
 
@@ -136,8 +142,8 @@ Our delay was a FIR filter impulse response generating function, which does the 
 
 For filters we chose to make a function that created a FIR filter which could be either `lowpass` or `highpass`, and which did the short time fourier transform (STFT) of the signal and applied it's filtering in the frequency domain. This ensured it would be quick, and you could set parameters for passband, stopband and order of the filter in the arguments.
 
-The saturation function (aptly named softClipper) uses `numpy.arctan` and some creative math to apply saturation (or distortion if turned up), and rather than trying to explain that math; here's the code:
-```
+The saturation function (aptly named softClipper) uses `numpy.arctan` and some creative math to apply saturation (or distortion if turned up):
+```python
 def softClipper(audio, drive, output=0.8):
 
     """audio = Source to be SoftClipped
@@ -214,7 +220,7 @@ To acheive this, we first had to design spectral features functions based on mat
 
 **Root mean square (RMS)**, defined as the square root of the mean square (the arithmetic mean of the squares of a set of numbers) **[1]**.
 
-$RMS =$ $\sqrt{{\frac{1} {n}} \sum_{i} x_{i}^2}$
+$RMS =$ $\sqrt{{\frac{1}} {n}} \sum_{i} x_{i}^2}$
 
 - $n$ is the frame length in samples
 - $x_{i} =$ Each frame
@@ -235,7 +241,7 @@ Furthermore, coloring a waveform with spectral centroid required that we
 
 - Finally, using non-linear map to get gradient-effect was harder than expected. Therefore, we simply color-coded each segment based on five different centroid frequency ranges.
 
-```
+```python
 if centroid <= 59: # Sub Low
     plt.plot(x, color='#113450')
 
@@ -273,147 +279,11 @@ After a few nights of this ordeal we then had six tracks we could sum together. 
   <figcaption>Our final mix</figcaption>
 </figure>
 
+The code for this project is available [here.](https://github.com/wnetzel/MCT-teamA-2021/tree/main/Python%20Assignment%205/Part%202)
+
+
+
+
 ### **References**
 
 <font size="2"><p><b>[1]</b> "Root-mean-square value". A Dictionary of Physics (6 ed.). Oxford University Press. 2009. ISBN 9780199233991</p></font>
-
-
-**Original**: `py5-Bass synth.wav`
-
-<div class="waveform" id="Original"></div>
-
-<br/>
-
-**Fullmix**: `py5-fullMix.wav`
-
-<div class="waveform" id="Fullmix"></div>
-
-<br/>
-
-<style>
-.waveform {
-  display: flex;
-  flex-direction: column;
-  width: 90%;
-  margin: auto;
-}
-</style>
-
-
-
-<!-- external lib used to display waveforms -->
-<!-- <script src="https://unpkg.com/wavesurfer.js"></script> -->
-<script src="https://unpkg.com/wavesurfer.js@5.0.1/dist/wavesurfer.js"></script>
-
-
-<script>
-
-const audioSamples = [
-    // source and target
-    {
-        path: "https://github.com/wnetzel/MCT-teamA-2021/blob/main/Python%20Assignment%205/Part%202/audio/py5-Bass%20synth.wav",
-        anchor: "Original",
-        color: "#ffa600",
-        alert: false,
-    },
-    {
-        path: "https://github.com/wnetzel/MCT-teamA-2021/blob/main/Python%20Assignment%205/Part%202/audio/py5-fullMix.wav",
-        anchor: "Fullmix",
-        color: "#328d78",
-        alert: false,
-    },
-    // feature selection
-    {
-        path: "https://ulrikah.no/thesis/audio/rms_1000iters.wav",
-        anchor: "features-rms",
-        color: "#D93821",
-        alert: false,
-    },
-    {
-        path: "https://ulrikah.no/thesis/audio/all_1000iters.wav",
-        anchor: "features-all",
-        color: "#1869ca",
-        alert: false,
-    },
-    // // real-time
-    // {
-    //     path: "https://ulrikah.no/thesis/audio/all_1000iters.wav",
-    //     anchor: "offline",
-    //     color: "blue",
-    //     alert: false,
-    // },
-    {
-        path: "https://ulrikah.no/thesis/audio/live_inference.wav",
-        anchor: "online",
-        color: "red",
-        alert: true,
-    },
-    // generalizability
-    {
-        path: "https://ulrikah.no/thesis/audio/arp_sequence.wav",
-        anchor: "arp_sequence",
-        color: "#D57EBE",
-        alert: false,
-    },
-    // {
-    //     path: "https://ulrikah.no/thesis/audio/drum_beat_80s.wav",
-    //     anchor: "drum_beat_80s",
-    //     color: "#85584E",
-    //     alert: false,
-    // },
-    // {
-    //     path: "https://ulrikah.no/thesis/audio/all_1000iters_80s_target.wav",
-    //     anchor: "all_80s_target",
-    //     color: "#7F7F7F",
-    //     alert: false,
-    // },
-    {
-        path: "https://ulrikah.no/thesis/audio/all_1000iters_arps_source.wav",
-        anchor: "all_arps_source",
-        color: "#BDBC45",
-        alert: false,
-    },
-    // {
-    //     path: "https://ulrikah.no/thesis/audio/arps_80s.wav",
-    //     anchor: "arp_80s",
-    //     color: "#56BBCC",
-    //     alert: false,
-    // },
-];
-
-const addPlayText = (sample) => "Play" + (sample.alert ? "  ⚠️" : "");
-
-audioSamples.forEach((sample) => {
-    const id = sample.anchor;
-    const waveformDiv = document.querySelector("#" + id);
-
-    const playButton = document.createElement("button");
-    playButton.id = "button-" + id;
-    playButton.style.margin = "auto";
-    playButton.classList = "btn btn-primary";
-    playButton.innerText = "Play";
-
-    const wavesurfer = WaveSurfer.create({
-        container: "#" + id,
-        mediaControls: true,
-        height: 64,
-        waveColor: sample.color,
-    });
-    wavesurfer.load(sample.path);
-    wavesurfer.once("ready", () => {
-        waveformDiv.appendChild(playButton);
-        playButton.onclick = () => {
-            wavesurfer.playPause();
-            if (playButton.innerText.startsWith("Pause")) {
-                playButton.innerText = "Play";
-            } else if (playButton.innerText.startsWith("Play")) {
-                playButton.innerText = "Pause";
-            }
-        };
-    });
-    wavesurfer.once("finish", () => {
-        playButton.innerText = "Play";
-    });
-});
-
-</script>
