@@ -17,6 +17,7 @@ excerpt: "Inspired by how virtual communication has been adopted and integrated 
 
 
 ---
+<br>  
 
 ### Looking Back - and Feedback
 
@@ -50,6 +51,7 @@ __Complicating things__ further is the transitory latency governing the Trondhei
 __And yet,__ rules of thumb, again, dictate that if acoustic feedback occurs, it is because IT IS TOO LOUD! Gain the microphones DOWN by 6dB - or even 12dB - and that incessant ringing disappears.  
 
 ---
+<br>  
 
 ### Looking forward  
 
@@ -62,6 +64,7 @@ __ZOOM, Teams, and Skype__ have some very impressive echo-canceling algorithms w
 __Which has inspired__ this simple proposition:
 
 ---
+<br>  
 
 ### Fighting Audio Feedback with MIDI
 
@@ -70,7 +73,7 @@ __The quickSet_TotalMix.pd__ patch is directly inspired by the mentioned unmute 
 
 <figure align="left">
 
-  <img src= "assets/image/2021_11_26_jarlefst_totalMix_pd.jpg" alt="TotalMix and PureData">
+<img src="https://drive.google.com/uc?export=view&amp;id=1i1M1bTu9Q8xFYPFB80TvQq3QkcR7yOIS" alt="TotalMix and PureData">
   <figcaption>fig. 2 <i> TotalMix submixes reflected in the quickSet_patch </i>
 
 </figure>
@@ -91,10 +94,12 @@ __The__ ___"... is talking"___ presets give that when one of the LOLA nodes is t
 
 ### MIDI setup
 
-  <img src= "assets/image/2021_11_25_jarlefst_midiSettings_pd&totMix.jpg">
+<img src="https://drive.google.com/uc?export=view&amp;id=1dCT-W5Nyq40RCwHku6OlHdPCgnQlfFCo">
   <figcaption>fig. 3 <i> MIDI-setup in PureData and TotalMix </i>
 
 </figure>
+
+
 
 __Routing MIDI__ from the quickSet-patch to TotalMix and LOLA is relatively straightforward. Although LOLA is Windows only, and internal MIDI-routing can be cumbersome, all LOLA-compatible RME sound cards have dedicated MIDI-ports. This makes possible for the quickSet_PureData-patch to send its information through _any_ MIDI interface that utilizes standard 5-pin DIN-cables directly into the LOLA operating RME-card as illustrated in _fig. 3_. Here: the TotalMix MIDI input port is set to its own Fireface UCX input. Set the PureData MIDI input to what controller one wishes to use
 
@@ -112,6 +117,7 @@ __There is much__ still wanting in the quickSet_patch. A preset storing system..
 
 
 ---
+<br>  
 
 <img src="https://drive.google.com/uc?export=view&amp;id=1C8HsXwgQn3DvwlUB3AG2ZYQrxc8WKlu7" alt="M32 fader Wave" style="width:100%;height:auto;">
 
@@ -123,6 +129,7 @@ __Though serving__ no sensible purpose for any audio - and disregarding the abso
 
 
 ---
+<br>  
 
 
 __FURTHER READING:__
@@ -139,3 +146,9 @@ __FURTHER READING:__
 
 * A 5-minute video explaining and demonstrating how to maximize signal quality from any speaking-microphone:
   * [Sound Advice for Intelligible Audio](https://www.ranecommercial.com/legacy/video-5-minute-gain-structure-part2.html)  
+
+<br>  
+<br>  
+<br>  
+
+![subMix](https://drive.google.com/uc?export=view&amp;id=1jD5r-kUvaGPPzdfKoV6oM3wNZ2YdKGpG)
