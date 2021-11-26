@@ -72,11 +72,13 @@ __The quickSet_TotalMix.pd__ patch is directly inspired by the mentioned unmute 
 
 
 <figure align="left">
-
-<img src="https://drive.google.com/uc?export=view&amp;id=1i1M1bTu9Q8xFYPFB80TvQq3QkcR7yOIS" alt="TotalMix and PureData">
-  <figcaption>fig. 2 <i> TotalMix submixes reflected in the quickSet_patch </i>
-
+  <img src="https://drive.google.com/uc?export=view&amp;id=1i1M1bTu9Q8xFYPFB80TvQq3QkcR7yOIS" alt="TotalMix and PureData">
+  <figcaption>fig. 2 - <i>TotalMix submixes reflected in the quickSet_patch</i> </figcaption>
 </figure>
+
+
+
+
 
 
 __This control is made__ possible by the technological backbones providing for the Portal virtual communication. [LOLA](https://lola.conts.it): the "Low Latency AV Streaming System" requires one of six [RME]( https://www.rme-audio.de/home.html) Audio Interfaces to operate. All of these sound cards utilize the MIDI programmable _TotalMix_ software as the graphical user interface.
