@@ -97,7 +97,7 @@ __The__ ___"... is talking"___ presets give that when one of the LOLA nodes is t
 ### MIDI setup
 
 <img src="https://drive.google.com/uc?export=view&amp;id=1dCT-W5Nyq40RCwHku6OlHdPCgnQlfFCo">
-  <figcaption>fig. 3 <i> MIDI-setup in PureData and TotalMix </i>
+  <figcaption>fig. 3 <i> MIDI-setup in PureData and TotalMix </i> </figcaption>
 
 </figure>
 
