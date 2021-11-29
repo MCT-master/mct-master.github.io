@@ -12,7 +12,7 @@ keywords: virtual reality, virtual reality musical instrument, vrmi, design, tel
     <img src="/assets/image/2021_09_22_olivergr_telematic_reality_check_world.jpg" align="center" />
 </figure>
 # Introduction
-In *The Telematic Music System: Affordances for a New Instrument to Shape the Music of Tomorrow*, Braasch proposes a pragmatic way of thinking about designing telematic music applications for VR, and by extension Virtual Reality Musical Instruments (VRMIs). Here I will present this perspective along with another, discuss their usefulness, and highlight the most important principles.
+In *The Telematic Music System: Affordances for a New Instrument to Shape the Music of Tomorrow*, Braasch proposes a pragmatic way of thinking about designing telematic music applications for VR, and by extension Virtual Reality Musical Instruments (VRMIs). Here I will present this perspective along with another, discuss their usefulness, and highlight the most important principles. As you will learn, some of the design principles presented are outdated given the current pace of innovations in the field. To conclude this evaluation, I present an alternative design solution based on these two papers and my own experience in virtual reality. I am proposing a modern set of actionable design choices for creating VRMIs that appeal to the average user and invites experienced musicians to innovate musically in a novel environment.
 
 # The Affordances of VR
 When designing a virtual reality telematic application, the only way to make it useful is to focus on the affordances of the virtual environment, the properties that determine how it most intuitively should be used (Braasch, 2009). This applies whether or not there are similarities between the telematic environment and the physical world. The current standard to which we measure the quality of a virtual reality project is most often how closely it mimics the real world, which does not translate well to musical instruments for two main reasons: signal degradation and latency. VRMIs, and virtual telematic environments, will for these reasons not be able to compete with a traditional venue. It is therefore proposed that the design process starts by answering the following questions:
@@ -48,13 +48,13 @@ Few instruments in the physical world are designed with ergonomics in focus, at 
 ## Interaction
 With regards to interaction, it is not recommended to represent any part of the user’s body that is not directly needed for running the application—the physical-virtual points—as this is where the user’s attention lies.
 
-On the point of social interaction and collaborative performances, while growing, the VR audience is still small and niche. If the instrument is too complicated, few artists would want to spend hours or days learning it to perform for a small select group of people. I propose making VRMIs that are accessible to the average person as well as musicians, if the social aspect should truly be a principle of design. This would further allow integration with popular contemporary social VR environments without alienating their user base.
+On the point of social interaction and collaborative performances, while growing, the VR audience is still comparatively small. If the instrument is too complicated, few artists would want to spend hours or days learning it to perform for a niche and select group of people with the exception of an occasional marketing stunt. I propose making VRMIs that are accessible to the average person as well as musicians, if the social aspect should truly be a principle of design. This would further allow integration with popular contemporary social VR environments without alienating their user base.
 
 ## Design Principles
 With these considerations in mind, along with the desire to provide actionable points, these are the design principles I propose for the development of telematic music applications in VR:
 1. Design for all types of feedback.
 2. Extend physical instruments to translate skillsets.
-3. Do not dismiss non-realistic interactions and movement if they feel natural in the virtual environment and does not cause discomfort.
+3. Do not dismiss non-realistic interactions and movement if they feel natural in the virtual environment and do not cause discomfort.
 4. Do not disrupt the feeling of presence, necessary for accurate orientation and feedback.
 5. Represent the user’s virtual-physical interaction points (eg. hands or feet).
 6. Keep the system accessible, do not overcomplicate user input.
