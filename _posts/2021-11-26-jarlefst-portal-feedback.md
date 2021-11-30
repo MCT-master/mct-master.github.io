@@ -4,7 +4,7 @@ title: "Setting Levels in Virtual Communication"
 date: 2021-11-26 21:51:00 +0200
 categories: portal
 author: Jarle Steinhovden
-image: assets/image/2021_11_26_jarlefst_submix.png
+image: /assets/image/2021_11_26_jarlefst_submix.png
 keywords:  acoustic-feedback, puredata, max-msp, midi, osc, rme, totalmix, midas-m32
 excerpt: "Inspired by how virtual communication has been adopted and integrated in daily life around the globe, this post looks at how simple control messages might help prevent acoustic feedback."
 ---
