@@ -60,9 +60,18 @@ $on-laptop: 800px;
   z-index: 3;
   opacity: 1;
   border-top: 0;
-  padding: .5em 0;
+  padding: 0.5em 0;
   border-radius: 6px;
   box-shadow: 0 1px 4px rgba(0, 0, 0, 0.3);
+}
+
+// When we want to print a blogpost (or export as PDF)
+// remove the header and footer
+@media print {
+  .site-header,
+  .site-footer {
+    display: none !important;
+  }
 }
 
 .site-title {
@@ -99,13 +108,6 @@ $on-laptop: 800px;
     display: inline-block;
   }
 }
-
-//nav ul li a { // all the navbar titles
-//  opacity: 0.5
-//   &:hover {
-//     font-weight: $base-font-weight-links;
-//   }
-//}
 
 nav ul li a.active,
 nav ul li ul a.active {
@@ -202,7 +204,12 @@ a {
 }
 
 ////////////////////// HEADINGS //////////////////////
-h1, h2, h3, h4, h5, h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
   font-family: $heading-family;
   font-weight: $base-font-weight-links;
   color: $brand-color-2;
@@ -250,7 +257,6 @@ h1, h2, h3, h4, h5, h6 {
   }
 }
 //////////////////////////////////////
-
 
 /////////// PAGE SCROLLBAR /////////////
 body::-webkit-scrollbar {
@@ -483,19 +489,6 @@ form#contact-form {
   }
 }
 
-// When we want to print a blogpost (or export as PDF), we remove the header (navigation bar)
-@media print {
-  // remove the header and footer
-  .site-header .site-footer {
-    visibility: hidden;
-  }
-  // remove the padding, so the title is at the top of the page.
-  .page-content {
-    padding-top: 0px;
-  }
-}
-
-
 @media screen and (max-width: 600px) {
   .site-header {
     position: relative;
@@ -505,7 +498,7 @@ form#contact-form {
       float: none;
       display: block;
       padding-left: 0;
-  
+
       & > img {
         float: none;
         margin: 0 16px 16px 0;
@@ -520,7 +513,7 @@ form#contact-form {
       margin-bottom: 0.5em;
       padding: 0 1em 0;
       text-align: center;
-  
+
       .page-link {
         margin: 0;
       }
@@ -545,7 +538,11 @@ form#contact-form {
 
       img {
         opacity: 0.5;
-        mask-image: linear-gradient(to right, rgba(0,0,0,0) 50%,rgba(0,0,0,1) 100%);
+        mask-image: linear-gradient(
+          to right,
+          rgba(0, 0, 0, 0) 50%,
+          rgba(0, 0, 0, 1) 100%
+        );
         transition: opacity 0.1s ease-in-out;
       }
     }
