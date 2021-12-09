@@ -218,7 +218,7 @@ Finally, all we needed was a nice visualization of our waveforms freshly process
 
 To acheive this, we first had to design spectral features functions based on mathematical formulas in order to extract the features we were interested in.
 
-**Root mean square**, defined as the square root of the mean square (the arithmetic mean of the squares of a set of numbers) **[1]**.
+**Root mean square**, defined as the square root of the mean square (the arithmetic mean of the squares of a set of numbers).
 
 <br><img src="https://render.githubusercontent.com/render/math?math={\huge%20RMS=\sqrt{\frac{1}{n}\sum_{i}{x_{i}^2}}}" style="border: None; box-shadow: None;"><br>
 
@@ -283,26 +283,3 @@ After a few nights of this ordeal we then had six tracks we could sum together. 
 </figure>
 
 The code for this project is available [here.](https://github.com/wnetzel/MCT-teamA-2021/tree/main/Python%20Assignment%205/Part%202)
-
-
-
-
-### **References**
-
-<font size="2"><p><b>[1]</b> "Root-mean-square value". A Dictionary of Physics (6 ed.). Oxford University Press. 2009. ISBN 9780199233991</p></font>
-
-<script type="text/x-mathjax-config">
-MathJax.Hub.Config({
-tex2jax: {
-inlineMath: [['$','$'], ['\\(','\\)']],
-processEscapes: true},
-jax: ["input/TeX","input/MathML","input/AsciiMath","output/CommonHTML"],
-extensions: ["tex2jax.js","mml2jax.js","asciimath2jax.js","MathMenu.js","MathZoom.js","AssistiveMML.js", "[Contrib]/a11y/accessibility-menu.js"],
-TeX: {
-extensions: ["AMSmath.js","AMSsymbols.js","noErrors.js","noUndefined.js"],
-equationNumbers: {
-autoNumber: "AMS"
-}
-}
-});
-</script>
