@@ -45,6 +45,7 @@ Furthermore, we didn’t have proper rehearsals with all the performers in one p
 
 For the rehearsals, we split the work mostly evenly, although Jakob mainly focused on the video and LOLA setup, and Hugh on the audio setup. For the concert Jakob handled the video stream mix and kept an eye on the LOLA machine, and Hugh did the audio mixes. Three mixes were created, the *Salen* FOH mix, the LOLA mix to send to the Portal, and the streaming mix. It was sometimes a challenge to keep the routing clear in our heads, especially in terms of the different mixes. There was a challenge posed in that the streaming mix send was also the master send to FOH, and therefore it was easy to accidentally clip the streaming mix. On the whole, however, we were satisfied with our technical setup and performance.
 
+
 <center><figure style="float: none">
    <img src="/assets/image/2021_12_09_joachipo_technical.jpeg" alt="Rig" title="Technicians" width="80%" />
    <figcaption>Technicians configuring the routing</figcaption>
@@ -109,6 +110,8 @@ Several challenges needed to be taken into consideration regarding the telematic
 End of semester concert for students enrolled in the Physical-Virtual Communication and Music (MCT4024) Autumn 2021
 
 [Telematic performance](https://www.youtube.com/watch?v=-dnpzsVc32M)
+
+[Telematic concert guide](https://github.com/MCT-master/portal-wiki/wiki/Salen-Telematic-Concert-Guide)
 
 ## **Final thoughts**
 
