@@ -72,12 +72,93 @@ The basic thing needed whenever things are sliced up and pasted back together ar
 
 We'll come back to this gloriously inefficient way of processing audio later, but whenever we refer to our for loop from now on, this is what we are talking about. As an example it could look something like this:
 
-<figure style="float: auto">
-   <img src="/assets/image/2021_11_23_arvidf_forloop.png" alt="" title="" width="auto"/> <figcaption>
+```python
+# Creating the result array we will add all signals back into
+result = np.zeros(s.size)
 
-   This is the processing of the main drum track.</figcaption>
+# Temporary arrays used in the for loop
+segment = np.array([])
+seg = np.array([])
 
-</figure>
+# Setting parameters for the loop
+counter = 0
+current_beat = 0
+overlap = 0
+overlap_length = 1024
+
+
+for i in downbeats_sample_time:
+    # To check computational time and where it struggles, uncomment print(i).
+    #print(i)
+
+    counter += 1
+
+    # Slicing the segment from current_beat to the sample position i
+    seg = s[current_beat:i]    
+    # adding fade ins and outs to the segment
+    segment = fade(seg, overlap_length)
+
+    # Processing segments one by one with different FX and signal processing
+    if counter == 1:
+
+        segment = compressor(segment, 0.3, 1, 1)
+        seg_fx = IRDelay(segment, 8)
+        segment_padded = padder(segment, s, current_beat)
+        segment_fx = padder(seg_fx, s, current_beat)
+
+        segment_padded = (segment_padded + segment_fx)
+
+    elif counter == 2:
+        segment = compressor(segment, 0.3, 1, 1)
+        segment = softClipper(segment, 7)
+        segment_padded = padder(segment, s, current_beat)
+
+    elif counter == 3:
+        segment = compressor(segment, 0.3, 1, 1)
+        seg_fx = IIRReverb(segment, 20, 800, 0.78, 1700, 0.68)
+        segment_padded = padder(segment, s, current_beat)
+        segment_fx = padder(seg_fx, s, current_beat)
+
+        segment_padded = (segment_padded + segment_fx)
+
+    elif counter == 4:
+
+        segment = compressor(segment, 0.3, 1, 1)
+        segment = reverse(segment)
+        segment_padded = padder(segment, s, current_beat)
+
+    # updating the current beat for the next loop
+    current_beat = current_beat + seg.size    
+    segment_overlapped = segment_padded[overlap:segment_padded.size]
+
+    # getting the size right again by adding zeros to the end:
+    segment_final = np.pad(segment_overlapped, [0, overlap])
+
+    # Increasing overlap for next round of for loop
+    overlap = overlap + overlap_length
+
+    # Just making sure the sizes are allright
+    segment_final = sizecheck(segment_final, result)
+
+    # Resetting the counter when it reaches 4
+    if counter == 4:
+        counter = 0
+    # pasting the segments back in, one by one
+    result = result + segment_final
+
+
+# Plotting the original track compared to the result after mixing it
+plt.figure(figsize=(8, 4))
+plt.subplot(2,1,1)
+librosa.display.waveplot(s, sr=sr)
+plt.subplot(2,1,2)
+librosa.display.waveplot(result, sr=sr)
+plt.show()
+hihats = result
+
+ipd.display(ipd.Audio(s, rate=sr))
+ipd.display(ipd.Audio(hihats, rate=sr))
+```
 
 ### **Our Processing Tools**
 
