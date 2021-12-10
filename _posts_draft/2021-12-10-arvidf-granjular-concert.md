@@ -2,7 +2,7 @@
 layout: post
 title: "The Granjular Christmas Concert (Portal View)"
 date: 2021-12-10 19:24:00 +0200
-categories: Portal
+categories: portal
 author: Joseph Clemente, Kristian Wentzel, Sofía González, Arvid Falch
 image: /assets/image/2021_11_23_arvidf_going_live.jpg
 excerpt: "A report on our telematic performance in the Portal."
