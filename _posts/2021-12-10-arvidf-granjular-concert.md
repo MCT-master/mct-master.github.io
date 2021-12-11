@@ -29,7 +29,7 @@ In order to better understand the concert that we carried out, it is necessary t
 
 Telematic music can be defined as “music performed live and simultaneously across geographic locations via the internet.”  (Oliveros et al., 2009, p. 1).
 
-LoLa, as the name points out, is a “Low Latency audio visual streaming system” that provides the possibility for an accurate real-time connection between different places. It is the key piece of technology that allowed us to perform telematic music during our concert. [LoLa webpage](https://lola.conts.it/)
+LoLa, as the name points out, is a “Low Latency audio visual streaming system” that provides the possibility for an accurate real-time connection between different places. It is the key piece of technology that allowed us to perform telematic music during our concert. [LoLa webpage](https://lola.conts.it/).
 
 ## **Musical vision**
 
@@ -69,7 +69,7 @@ During the few rehearsals and test-runs in advance, the time was mostly spent on
 ## **Going live**
 
 Once we were set to go and the lights were on, we did experience some transfer issues resulting in a lot of clipping and noise from the downstairs audio stream. We crossed our fingers that our stream passed through more fluidly the other way, and started playing. After a few minutes the quality of the sound improved, and it was a lot more rewarding as an improvisational experience. Some interesting textures were created, and it felt quite natural to perform together although not located in the same room. The monitor with the visual feed of the performers from Salen was surely a great aid in order to achieve a sense of interplay and connection. The rhythms were mainly instigated from Salen, and there were never any issues with latency in regard to playing along to the rhythmic structures. We had opted not to use any midi clock or other synchronization tools, so all delay effects and rhythmic components had to be done by ear, which is always interesting when working with electronic music.
-The monitor with the visual feed of the performers from Salen helped    
+
 
 <figure style="float: none">
    <img src="/assets/image/2021_12_10_arvidf_in_concert.jpeg" alt="Concert2" title="Going live" width="65%" />
