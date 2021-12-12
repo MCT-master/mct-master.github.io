@@ -5,7 +5,7 @@ date: 2021-11-24 19:24:00 +0200
 categories: scientific-computing
 author: Joachim Poutaraud, Kristian Wentzel, Sofía González, Arvid Falch
 image: /assets/image/2021_11_23_arvidf_crazyrig.jpg
-excerpt: "Attempting to mix a multitrack song with homemade FX in our very own mini PythonDAW'"
+excerpt: "Attempting to mix a multitrack song with homemade FX in our very own mini PythonDAW"
 
 keywords: Music Production, Mixing, Python, Plugins
 
@@ -72,12 +72,93 @@ The basic thing needed whenever things are sliced up and pasted back together ar
 
 We'll come back to this gloriously inefficient way of processing audio later, but whenever we refer to our for loop from now on, this is what we are talking about. As an example it could look something like this:
 
-<figure style="float: auto">
-   <img src="/assets/image/2021_11_23_arvidf_forloop.png" alt="" title="" width="auto"/> <figcaption>
+```python
+# Creating the result array we will add all signals back into
+result = np.zeros(s.size)
 
-   This is the processing of the main drum track.</figcaption>
+# Temporary arrays used in the for loop
+segment = np.array([])
+seg = np.array([])
 
-</figure>
+# Setting parameters for the loop
+counter = 0
+current_beat = 0
+overlap = 0
+overlap_length = 1024
+
+
+for i in downbeats_sample_time:
+    # To check computational time and where it struggles, uncomment print(i).
+    #print(i)
+
+    counter += 1
+
+    # Slicing the segment from current_beat to the sample position i
+    seg = s[current_beat:i]    
+    # adding fade ins and outs to the segment
+    segment = fade(seg, overlap_length)
+
+    # Processing segments one by one with different FX and signal processing
+    if counter == 1:
+
+        segment = compressor(segment, 0.3, 1, 1)
+        seg_fx = IRDelay(segment, 8)
+        segment_padded = padder(segment, s, current_beat)
+        segment_fx = padder(seg_fx, s, current_beat)
+
+        segment_padded = (segment_padded + segment_fx)
+
+    elif counter == 2:
+        segment = compressor(segment, 0.3, 1, 1)
+        segment = softClipper(segment, 7)
+        segment_padded = padder(segment, s, current_beat)
+
+    elif counter == 3:
+        segment = compressor(segment, 0.3, 1, 1)
+        seg_fx = IIRReverb(segment, 20, 800, 0.78, 1700, 0.68)
+        segment_padded = padder(segment, s, current_beat)
+        segment_fx = padder(seg_fx, s, current_beat)
+
+        segment_padded = (segment_padded + segment_fx)
+
+    elif counter == 4:
+
+        segment = compressor(segment, 0.3, 1, 1)
+        segment = reverse(segment)
+        segment_padded = padder(segment, s, current_beat)
+
+    # updating the current beat for the next loop
+    current_beat = current_beat + seg.size    
+    segment_overlapped = segment_padded[overlap:segment_padded.size]
+
+    # getting the size right again by adding zeros to the end:
+    segment_final = np.pad(segment_overlapped, [0, overlap])
+
+    # Increasing overlap for next round of for loop
+    overlap = overlap + overlap_length
+
+    # Just making sure the sizes are allright
+    segment_final = sizecheck(segment_final, result)
+
+    # Resetting the counter when it reaches 4
+    if counter == 4:
+        counter = 0
+    # pasting the segments back in, one by one
+    result = result + segment_final
+
+
+# Plotting the original track compared to the result after mixing it
+plt.figure(figsize=(8, 4))
+plt.subplot(2,1,1)
+librosa.display.waveplot(s, sr=sr)
+plt.subplot(2,1,2)
+librosa.display.waveplot(result, sr=sr)
+plt.show()
+hihats = result
+
+ipd.display(ipd.Audio(s, rate=sr))
+ipd.display(ipd.Audio(hihats, rate=sr))
+```
 
 ### **Our Processing Tools**
 
@@ -238,35 +319,30 @@ To acheive this, we first had to design spectral features functions based on mat
 
 Furthermore, coloring a waveform with spectral centroid required that we
 
-- Detect peaks with a `onset_detection` function to get the position of note onsets. Which we did by simply using the `onset_detect` function of `librosa`, allowing us to locate note onset events by picking peaks.
+- Segment our final audio mix in a defined number of segments defined by a `frame_length` and `hop_length`
 
-- Compute the spectral centroid over all the time segments delimited by the detected onsets. For that part, we had to pad (again!) the time segments with zeros just before the onset and to the next onset.
+- Compute spectral centroid over each of the segment, add them successively on a time line, and concatenate them  
 
-- Finally, using non-linear map to get gradient-effect was harder than expected. Therefore, we simply color-coded each segment based on five different centroid frequency ranges.
+- And finally, plot the final results by reshaping our concatenate segments and time line values together and use a color gradient based on the range of the centroid values just computed
 
 ```python
-if centroid <= 59: # Sub Low
-    plt.plot(x, color='#113450')
+# Reshape the values for the plot
+points = np.array([times, segments]).T.reshape(-1, 1, 2)
+segments_reshaped = np.concatenate([points[:-1], points[1:]], axis=1)
 
-elif 60 <= centroid <= 249: # Low
-    plt.plot(x, color='#4978c0')
-
-elif 250 <= centroid <= 799: # Low Mid
-    plt.plot(x, color='#8a61d3')        
-
-elif 800 <= centroid <= 2999: # Mid
-    plt.plot(x, color='#199eb0')
-
-elif 3000 <= centroid <= 5999: # High Mid
-    plt.plot(x, color='#ffc0cb')
-
-elif 6000 <= centroid: # High
-    plt.plot(x, color='#68e17f')
+# Plot multiple colored lines on the figure using line collection
+lc = LineCollection(segments_reshaped, cmap='rainbow')
+lc.set_array(centroid) # use centroid values to determine the lines
+lc.set_linewidth(1)
+line = ax.add_collection(lc)
+cbar = fig.colorbar(line,ax=ax, label="Frequency (Hz)") # colorbar
+cbar.set_label("Frequency (Hz)", color='#f4f4f4')
+cbar.ax.tick_params(colors='#f4f4f4')
 ```
 At last we could end up with something quite nice and informative.
 
 <figure>
-  <img src="/assets/image/2021_11_23_joachipo_vizserato.png" alt="the misty jungle" width="100%" align="middle"/>
+  <img src="/assets/image/2021_12_12_joachipo_vizserato.jpg" alt="the misty jungle" width="100%" align="middle"/>
 
 <figcaption align="center">Coloring a waveform with spectral centroid</figcaption>
 
