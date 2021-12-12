@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "The telematic experience: space in sound in space"
+title: "The Telematic Experience: Space in Sound in Space"
 date: 2021-12-10 11:00:00 +0200
 categories: portal
 author: Hugh Alexander von Arnim, Jakob Høydal, Joachim Poutaraud, Oliver Getz
