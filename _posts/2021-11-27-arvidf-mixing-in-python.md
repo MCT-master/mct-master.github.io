@@ -319,35 +319,30 @@ To acheive this, we first had to design spectral features functions based on mat
 
 Furthermore, coloring a waveform with spectral centroid required that we
 
-- Detect peaks with a `onset_detection` function to get the position of note onsets. Which we did by simply using the `onset_detect` function of `librosa`, allowing us to locate note onset events by picking peaks.
+- Segment our final audio mix in a defined number of segments defined by a `frame_length` and `hop_length`
 
-- Compute the spectral centroid over all the time segments delimited by the detected onsets. For that part, we had to pad (again!) the time segments with zeros just before the onset and to the next onset.
+- Compute spectral centroid over each of the segment, add them successively on a time line, and concatenate them  
 
-- Finally, using non-linear map to get gradient-effect was harder than expected. Therefore, we simply color-coded each segment based on five different centroid frequency ranges.
+- And finally, plot the final results by reshaping our concatenate segments and time line values together and use a color gradient based on the range of the centroid values just computed
 
 ```python
-if centroid <= 59: # Sub Low
-    plt.plot(x, color='#113450')
+# Reshape the values for the plot
+points = np.array([times, segments]).T.reshape(-1, 1, 2)
+segments_reshaped = np.concatenate([points[:-1], points[1:]], axis=1)
 
-elif 60 <= centroid <= 249: # Low
-    plt.plot(x, color='#4978c0')
-
-elif 250 <= centroid <= 799: # Low Mid
-    plt.plot(x, color='#8a61d3')        
-
-elif 800 <= centroid <= 2999: # Mid
-    plt.plot(x, color='#199eb0')
-
-elif 3000 <= centroid <= 5999: # High Mid
-    plt.plot(x, color='#ffc0cb')
-
-elif 6000 <= centroid: # High
-    plt.plot(x, color='#68e17f')
+# Plot multiple colored lines on the figure using line collection
+lc = LineCollection(segments_reshaped, cmap='rainbow')
+lc.set_array(centroid) # use centroid values to determine the lines
+lc.set_linewidth(1)
+line = ax.add_collection(lc)
+cbar = fig.colorbar(line,ax=ax, label="Frequency (Hz)") # colorbar
+cbar.set_label("Frequency (Hz)", color='#f4f4f4')
+cbar.ax.tick_params(colors='#f4f4f4')
 ```
 At last we could end up with something quite nice and informative.
 
 <figure>
-  <img src="/assets/image/2021_11_23_joachipo_vizserato.png" alt="the misty jungle" width="100%" align="middle"/>
+  <img src="/assets/image/2021_12_12_joachipo_vizserato.jpg" alt="the misty jungle" width="100%" align="middle"/>
 
 <figcaption align="center">Coloring a waveform with spectral centroid</figcaption>
 
