@@ -30,6 +30,8 @@ It’s interesting to think about the ways in which we store musical information
 
 None of these digital representations provide a complete picture of what is happening in the musical work, in fact we might actually receive quite a different impression of a piece depending upon the medium in which it’s presented to us. So what happens if we take the information provided in one medium and start using it to alter the information provided in another? Can we access precepts that are more hidden in one of the types of media? And can we change it to make something completely new?These are the questions that fuelled the development of the chorale rearranger.
 
+If you want to access our Python and Pure Data code it can be found [here.](https://github.com/jpclemente97/mct-teamb-2/tree/main/python%20assignment%205/TeamB_Assignment5_Creative%20Final)
+
 # I Hear Voices
 
 Bach’s chorales are settings of Lutheran hymns, with polyphonic harmonisations split between Soprano, Alto, Tenor, and Bass (SATB) voices. When listening to a performance, these voices meld together, forming rich and complex harmony. (As an aside, the chorales were also the focus of a quite well-known computational music project, Deep Bach, where an algorithm was trained to compose music using solely the chorales as input data. Check it out [here.](https://www.flow-machines.com/history/projects/deepbach-polyphonic-music-generation-bach-chorales/))
@@ -172,19 +174,6 @@ The first step we took to process the audio was to underlay it with pure sine to
 
 After this, we passed the audio file through to [Pure Data](https://en.wikipedia.org/wiki/Pure_Data) to apply some light reverb and parallel filters with shifting centre frequencies to create some subtle movement.
 
-<figure style="float: none">
-   <img src="https://drive.google.com/uc?&id=1qqSAa7oLxQ8UYtRph4dHBd885v4cX-Bs" alt="" title="" width="auto" />
-</figure>
-
-<figure style="float: none">
-   <img src="https://drive.google.com/uc?&id=1C0gZ75S8rfJROxoH9bJLLWLY0CAlI5IG" alt="" title="" width="auto" />
-</figure>
-
-<figure style="float: none">
-   <img src="https://drive.google.com/uc?&id=14RpBw6saWqo5sbvCLLh9RGecuGwjAQw7" alt="" title="" width="auto" />
-   <figcaption>The Pure Data patch</figcaption>
-</figure>
-
 After passing the audio back into Python, we [convolved](https://en.wikipedia.org/wiki/Convolution) our piece with the impulse response ([recorded by Nick Green](https://www.archaeoacousticsscotland.org/about.html)) of the silo of a Maltese citadel in order to provide an ethereal, open sense of space.
 
 <figure style="float: none">
@@ -221,5 +210,3 @@ Another way we visualized the audio was through layering the waveform with its o
 
 # Informed by Information
 So what do the many different ways of representing musical information digitally enable us to do? We hope that through our project we’ve shown that through synthesizing many sources, it is possible to get varying views and perspectives on a musical work, and to continue on to create something new, beyond what is possible when only considering a single source.
-
-If you want to access our Python and Pure Data code it can be found [here.](https://github.com/jpclemente97/mct-teamb-2/tree/main/python%20assignment%205/TeamB_Assignment5_Creative%20Final)
