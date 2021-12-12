@@ -25,7 +25,7 @@ As Barry Truax mentioned [**[1]**](#References), composition and diffusion can b
 
 For this specific performance, two teams were split between two spaces in the Department of Musicology (Portal & Salen). As members of the team *Salen*, Hugh and Jakob focused on technical configurations and routing while Joachim and Oliver focused on the performance.
 
-### **Performer reflections**
+### **Performer Reflections**
 
 We created our systems independently, but communicated about what each of us wanted to contribute through a few in-person meetings. We agreed on constraints due to the use of several acoustic instruments, along with a general outline of the music: an improvised sound texture.
 
@@ -41,7 +41,7 @@ Furthermore, we didn’t have proper rehearsals with all the performers in one p
    <figcaption>Performers reflecting on the performance</figcaption>
 </figure></center>
 
-### **Technicians reflections**
+### **Technicians Reflections**
 
 For the rehearsals, we split the work mostly evenly, although Jakob mainly focused on the video and LOLA setup, and Hugh on the audio setup. For the concert Jakob handled the video stream mix and kept an eye on the LOLA machine, and Hugh did the audio mixes. Three mixes were created, the *Salen* FOH mix, the LOLA mix to send to the Portal, and the streaming mix. It was sometimes a challenge to keep the routing clear in our heads, especially in terms of the different mixes. There was a challenge posed in that the streaming mix send was also the master send to FOH, and therefore it was easy to accidentally clip the streaming mix. On the whole, however, we were satisfied with our technical setup and performance.
 
@@ -51,7 +51,7 @@ For the rehearsals, we split the work mostly evenly, although Jakob mainly focus
    <figcaption>Technicians configuring the routing</figcaption>
 </figure></center>
 
-## **Technical setup, softwares, settings and configurations**
+## **Technical Setup, Softwares, Settings and Configurations**
 
 ### **Communication**
 In order to communicate during the rehearsals, we primarily used the software Discord for troubleshooting. We also weren’t beyond relying upon a good old phone call when we needed to talk effectively.
@@ -101,11 +101,11 @@ In order to communicate during the rehearsals, we primarily used the software Di
 
 <br>
 
-## **The music and experience of playing telematically**
+## **The Music and Experience of Playing Telematically**
 
-Several challenges needed to be taken into consideration regarding the telematic performance. As discussed by Jonas Braasch [**[2]**](#References), these challenges remain mainly technical and involve physical-distance and latency issues. In our case, because we were still (what?) to the vagaries (Had to Google what vagaries means. Maybe a more common word here for a blog post?) of speed and bandwidth of multiple networks, and because latency problems remained a significant issue for audio-visual streaming of live telematic performance, we reflected on trying to find a new musical language working on this new time basis. Therefore, thinking of the performance as a sound texture rather than as a regular song was definitely more appropriate and manageable.
+Several challenges needed to be taken into consideration regarding the telematic performance. As discussed by Jonas Braasch [**[2]**](#References), these challenges remain mainly technical and involve physical-distance and latency issues. In our case, because we were still new to the sudden changes of speed and bandwidth of multiple networks, and because latency problems remain a significant issue for audio-visual streaming of live telematic performance, we tried to develop a new musical language working on this new time basis. With this in mind, considering our performance a structured sound texture rather than a song was more appropriate and manageable.
 
-## **Media content and relevant links**
+## **Media Content and Relevant Links**
 
 End of semester concert for students enrolled in the Physical-Virtual Communication and Music (MCT4024) Autumn 2021
 
@@ -113,7 +113,7 @@ End of semester concert for students enrolled in the Physical-Virtual Communicat
 
 [Telematic concert guide](https://github.com/MCT-master/portal-wiki/wiki/Salen-Telematic-Concert-Guide)
 
-## **Final thoughts**
+## **Final Thoughts**
 
 We were happy to have the opportunity to put the skills and theories that we had learned throughout the semester into practice, especially in a manner that allowed us to explore musical spaces that interested us. The concert also emphasized the way in which we work well as a team, with very quick division of work and no conflicts in the preparations. We are already looking forward to the next concert and to further explore aspects of *space in sound* and *sound in space*.
 
