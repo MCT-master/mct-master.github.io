@@ -15,15 +15,16 @@ keywords: Music Production, Mixing, Python, Plugins
 
 Being students at the MCT program is now a condition we've gotten accustomed to as our first term is gradually coming to an end. Usually we get some sort of assignments to solve every week, and most likely we will spend way too much time solving it. So when the last assignment was announced we decided to get extra ambitious and spend even more time on it, making sure our personal lives and sanity would be completely ruined come Christmas.
 
-We decided to use our recently aquired Python skills to build a program that could mix a multitrack recording. With homebrew FX and everything you'd need, basically making a tiny Python-DAW except for a nice GUI. That would have made it too slick, we wanted this to be pure code.
+We decided to use our recently acquired Python skills to build a program that could mix a multitrack recording. With homebrew FX and everything you'd need, basically making a tiny Python-DAW except for a nice GUI. That would have made it too slick, we wanted this to be pure code.
 
+The code for this project is available [here.](https://github.com/wnetzel/MCT-teamA-2021/tree/main/Python%20Assignment%205/Part%202)
 
 
 # **The Music**
 
 In order to mix anything, we needed some music. And as our sanity was already slipping, we skipped this part until we had a program up and running. When time came to create the music our minds was so entrenched in lines of code that we almost had to write a Python program which could write music for us.
 
-The solution was to pick some files from an old unreleased project of Arvids band Misha Non Penguin, and then take away all processing and writing them out as mono files.
+The solution was to pick some files from an old unreleased project of Arvid's band Misha Non Penguin, and then take away all processing and writing them out as mono files.
 
 We ended up with five tracks:
 
@@ -64,7 +65,7 @@ The basic thing needed whenever things are sliced up and pasted back together ar
 
 6. The segment would be zero padded (adding zeros) in the front of the segment and in the back, making the segment the same size as the original audio and our result array.
 
-7. Finally the segment would be cut in the beginning by an amount equalling to our overlap (set to 1024 samples in this project) and zeros were added in the end to make up for the samples removed in the beginning.
+7. Finally the segment would be cut in the beginning by an amount equal to our overlap (set to 1024 samples in this project) and zeros were added in the end to make up for the samples removed in the beginning.
 
 8. The overlap value would then be updated for the next loop, in which it had to be equal to it's former value + itself in order to work.
 
@@ -175,7 +176,7 @@ Our tiny Python-DAW needed processing tools, and we set about to program the usu
 
 How does a compressor really work? Not like our first attempt. Our first compressor went through every sample checking if it's absolute value was above a set threshold. Then it would check how much the sample amplitude exceeded the threshold, and finally multiplying it with a hardcoded value below 1. This was done in a for loop which could be ran multiple times depending on an argument in the function. After the for loop it eventually multiplied the whole signal with a makeup gain, enabling us to first compress the peaks, then turning the whole signal up a bit. In theory this little thingy did everything a compressor should do, but it did it in it's own very time consuming way.
 
-So it had to be improved, and that's when we made our framecompressor. It uses a hanning window turned upside down as it's compression envelope and analyses and compresses frames of the audio instead of sample by sample. We used a window of 2048 samples for our frames and then jumped back 1024 samples before analysing the next frame in order to have some overlap and avoid pumping in the compression. It's not too slow and did the job when we needed compression.
+So it had to be improved, and that's when we made our framecompressor. It uses a hanning window turned upside down as it's compression envelope and analyses and compresses frames of the audio instead of sample by sample. We used a window of 2048 samples for our frames and then jumped back 1024 samples before analyzing the next frame in order to have some overlap and avoid pumping in the compression. It's not too slow and did the job when we needed compression.
 
 <figure style="float: auto">
    <img src="/assets/image/2021_11_23_arvidf_hanning.png" alt="" width="auto" align="middle"/> <figcaption>
@@ -186,11 +187,11 @@ So it had to be improved, and that's when we made our framecompressor. It uses a
 
 ### **Reverbs and Delay**
 
-We made an IIR filter on the basis of Schroeders very first algorithm for creating an artificial reverberator.
+We made an IIR filter on the basis of Schroeder's very first algorithm for creating an artificial reverberator.
 
 [Read more about the Schroeder reverb here](https://medium.com/the-seekers-project/coding-a-basic-reverb-algorithm-part-2-an-introduction-to-audio-programming-4db79dd4e325)
 
-It uses a set up of four parallell comb filters which then runs into two cascading allpass filters. Setting the parameters takes a little guessing and praying to the binary gods, and it's not a reverb you would recommend to your favourite pop star, but it's an actual reverb and we proudly used it in our mix.
+It uses a set up of four parallel comb filters which then runs into two cascading allpass filters. Setting the parameters takes a little guessing and praying to the binary gods, and it's not a reverb you would recommend to your favorite pop star, but it's an actual reverb and we proudly used it in our mix.
 
 <figure style="float: none">
   <audio controls>
@@ -307,7 +308,7 @@ To acheive this, we first had to design spectral features functions based on mat
 
 <img src="https://render.githubusercontent.com/render/math?math={x_{i}=\text{each frame}}" style="border: None; box-shadow: None;"><br>
 
-**Spectral Centroid**, as the name suggests, a spectral centroid is the location of the centre of mass of the spectrum. Since the audio files were digital signals and the spectral centroid is a measure, this appears useful in the characterization of the spectrum of our processed audio file signal.
+**Spectral Centroid**, as the name suggests, a spectral centroid is the location of the center of mass of the spectrum. Since the audio files were digital signals and the spectral centroid is a measure, this appears useful in the characterization of the spectrum of our processed audio file signal.
 
 <br><img src="https://render.githubusercontent.com/render/math?math={\huge%20Centroid=\frac{\sum_{n=0}^{N-1}f(n)x(n)}{\sum_{n=0}^{N-1}x(n)}}" style="border: None; box-shadow: None;"><br>
 
@@ -351,7 +352,7 @@ At last we could end up with something quite nice and informative.
 
 </figure>
 
-After a few nights of this ordeal we then had six tracks we could sum together. (We resynthesised the lead synth with pretty midi's built in `synthesize()` function, and applied our usual processing to the track in order to have two different lead synths which we could pan). We set different amplitude values for two tracks, the `mixL` and `mixR`, and then merged them together to form a `stereo_file`. And closed our eyes and felt asleep over our computers to the sound of our very own and very first Python DAW mix.
+After a few nights of this ordeal we then had six tracks we could sum together. (We re-synthesized the lead synth with pretty midi's built in `synthesize()` function, and applied our usual processing to the track in order to have two different lead synths which we could pan). We set different amplitude values for two tracks, the `mixL` and `mixR`, and then merged them together to form a `stereo_file`. And closed our eyes and felt asleep over our computers to the sound of our very own and very first Python DAW mix.
 
 <figure style="float: none">
   <audio controls>
@@ -360,5 +361,3 @@ After a few nights of this ordeal we then had six tracks we could sum together. 
   </audio>
   <figcaption>Our final mix</figcaption>
 </figure>
-
-The code for this project is available [here.](https://github.com/wnetzel/MCT-teamA-2021/tree/main/Python%20Assignment%205/Part%202)
