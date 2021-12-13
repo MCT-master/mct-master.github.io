@@ -319,11 +319,13 @@ To acheive this, we first had to design spectral features functions based on mat
 
 Furthermore, coloring a waveform with spectral centroid required that we
 
-- Segment our final audio mix in a defined number of segments defined by a `frame_length` and `hop_length`
+- Compute an onset-detection function in order to locate note onset events by picking peaks in an onset strength envelope
 
-- Compute spectral centroid over each of the segment, add them successively on a time line, and concatenate them  
+- Detect peaks in the onset-detection function to get the position of note onsets
 
-- And finally, plot the final results by reshaping our concatenate segments and time line values together and use a color gradient based on the range of the centroid values just computed
+- Compute the spectral centroid over all the time segments delimited by the detected onsets
+
+- And finally, reshape the segments and time line values together and use a color gradient based on the range of the minimum and maximum centroid values of each segment
 
 ```python
 # Reshape the values for the plot
@@ -331,7 +333,8 @@ points = np.array([times, segments]).T.reshape(-1, 1, 2)
 segments_reshaped = np.concatenate([points[:-1], points[1:]], axis=1)
 
 # Plot multiple colored lines on the figure using line collection
-lc = LineCollection(segments_reshaped, cmap='rainbow')
+norm = plt.Normalize(0, max(cents)/2) # normalize centroid frequency
+lc = LineCollection(segments_reshaped, cmap='jet_r', norm=norm)
 lc.set_array(centroid) # use centroid values to determine the lines
 lc.set_linewidth(1)
 line = ax.add_collection(lc)
@@ -342,7 +345,7 @@ cbar.ax.tick_params(colors='#f4f4f4')
 At last we could end up with something quite nice and informative.
 
 <figure>
-  <img src="/assets/image/2021_12_12_joachipo_vizserato.jpg" alt="the misty jungle" width="100%" align="middle"/>
+  <img src="/assets/image/2021_12_12_joachipo_vizserato.png" alt="the misty jungle" width="100%" align="middle"/>
 
 <figcaption align="center">Coloring a waveform with spectral centroid</figcaption>
 
