@@ -196,11 +196,6 @@ The first variation sounds similar to the original, but as the variations contin
 
 We then created some waveforms in different styles, allowing us another view on the musical information of our piece. We wanted to visualize the frequency content of the stereo waveform, so we created 6 new waveforms from the originals and discarded any frequencies above, between, or below two thresholds (one between high and mid, the other between mid and low). Low frequencies are coloured red, mids are green, and blue represents high frequencies relative to the frequency content of the file. There is little blue in this plot because there is little to no audio information in the highs of the audio input as defined by our program. The light green areas are overlaps between red and green. Three tracks for each channel were then layered on top of each other to show which parts were predominantly bright, mellow, or dark in relation to time.
 
-<figure style="float: none">
-   <img src="https://drive.google.com/uc?&id=1jduqzVv52Aj1YDVyhZhiohcdHdqOv1r6" alt="" title="" width="auto" />
-   <figcaption>The waveform frequency content visualised by color</figcaption>
-</figure>
-
 Another way we visualized the audio was through layering the waveform with its own RMS, which gives a more accurate representation of loudness over time.
 
 <figure style="float: none">
