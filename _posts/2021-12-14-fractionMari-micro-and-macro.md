@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Micro and Macro: The Development of Novel Accessible Musicking Technologies"
+title: "Micro and Macro: Developing New Accessible Musicking Technologies"
 date: 2021-12-14 12:10:00 +0200
 categories: masters-thesis
 author: Mari Lesteberg
