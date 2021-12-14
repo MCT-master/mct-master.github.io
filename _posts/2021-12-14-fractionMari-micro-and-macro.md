@@ -4,7 +4,7 @@ title: "Micro and Macro: The Development of Novel Accessible Musicking Technolog
 date: 2021-12-14 12:10:00 +0200
 categories: masters-thesis
 author: Mari Lesteberg
-image: /assets/image/2021_12_13_fractionmari_macro2.0.jpg
+image: /assets/image/2021_12_13_fractionmari_comparison2.png
 keywords:  MCT, Master's thesis, Audio programming, HCI, Accessibility, Music Therapy, JavaScript
 excerpt: ""
 ---
