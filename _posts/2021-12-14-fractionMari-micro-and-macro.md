@@ -63,7 +63,7 @@ As you can see from the video above, the latency between action and sound was pr
 Macro 1.0 consist of three apps: App 1, App 2 and App 3. They are all based on web camera motion detection, but have different approaches for musical interaction. In the video below, you can see a demonstration of Macro 1.0, or try it out yourself from [this link](https://fractionmari.github.io/macro).
 
 <figure style="float: none">
-<iframe width="560" height="315" src="https://www.youtube.com/embed/vQleAqkFjdU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>  <figcaption> <i>Micro 1.0 demonstration video</i> </figcaption>  
+<iframe width="560" height="315" src="https://www.youtube.com/embed/vQleAqkFjdU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>  <figcaption> <i>Macro 1.0 demonstration video</i> </figcaption>  
 </figure>
 
 ## Macro 2.0
@@ -138,13 +138,19 @@ The goal of this Master's thesis has been to create _accessible_ web based music
 The Micro 2.1 app 1 seemed to be the most enjoyed apps among the users. Interestingly, it was showed that the apps were probably less accessible for the users without touch and mouse functionality than it would have been if touch was implemented. Even though the users reported that they had low fine motor skills, they were used to touch and mouse technology and found this easier than making gestures in the air. The exception was one of the three users who said that tilting the phone to activate buttons was easier for him than clicking a button on the mobile screen. 
 
 <figure style="float: none">
-   <img src="/assets/image/2021_12_13_fractionmari_userstudies.png" alt="Macro 2.0 iteration" title="Macro 2.0 iteration" width="100%" />
+   <img src="/assets/image/2021_12_13_fractionmari_userstudies.png" alt="User studies" title="User studies" width="100%" />
    <figcaption><i>How the users self-reported the experience with the apps</i></figcaption>
 </figure>
 
 However, only three users with low fine motor skills are not enough to generalize or make any clear conclusions, and more development and research should be done to investigate further on this technology. The obvious advantage with developing web based software is that it is made easily available and accessible to a huge amount of people. In these days with pandemic lockdowns, we are again being prevented from seeing each other, and the development of online motion tracking musicking technologies might hence be of value both for future research, but also for artistic experience. 
 
 The most important findings from the user studies was that the musicking technologies should be able to adapt and optimized to the individual in order to offer accessibility for people with low fine motor skills. For many people, touch technology might increase the accessibility, and can possibly be used in addition to motion tracking technology. Based on other accessible instruments as Motion Composer and Soundbeam, it is likely to assume that the air instrument approach still has a great potetial for accessibilty. The technology developed in this thesis offer a great potential for improvement, and when mobile and computer cameras are improved with e.g. the option for 3D interpretation of the video stream, more precise and complicated mappings can be implemented. Implementing image recognition and machine learning within the web camera based apps, can help distinguishing between different kinds of movements.
+
+<figure style="float: none">
+   <img src="/assets/image/2021_12_13_fractionmari_comparison2.png" alt="Comparison of the apps" title="Comparison of the apps" width="100%" />
+   <figcaption><i>Comparison of the Micro and the Macro apps</i></figcaption>
+</figure>
+
 
 # Links:
 
@@ -178,3 +184,4 @@ The most important findings from the user studies was that the musicking technol
 - Jensenius, A. R. (2017). Sonic Microinteraction in “the air”. In M. Lesaffre, P.-J. Maes & M.
 	Leman (Eds.), The Routledge companion to embodied music interaction (pp. 429-437).
 	Routledge.
+   
