@@ -155,7 +155,7 @@ The most important findings from the user studies was that the musicking technol
 # Links:
 
 - [Web page of the project](https://fractionmari.github.io/microandmacro/)
-- [The Master's thesis pdf]()
+- [The Master's thesis pdf](https://fractionmari.github.io/microandmacro/MASTER_THESIS_Mari_Lesteberg_Dec2021.pdf)
 - [Macro 2.1 github repository](https://github.com/FractionMari/macro3)
 - [Macro 2.0 github repository](https://github.com/FractionMari/macro2)
 - [Macro 1.0 github repository](https://github.com/FractionMari/macro)
