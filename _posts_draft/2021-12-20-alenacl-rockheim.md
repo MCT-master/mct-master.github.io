@@ -3,7 +3,7 @@ layout: post
 title: "Rockheim museum - about an interactive exhibition"
 date: 2021-12-20 10:30:00 +0200
 categories: applied-project
-author: Alena Clim, Lindsay Charles, Pedro Pablo Lucas
+author: Alena Clim, Lindsay Charles, Pedro Lucas
 image: /assets/image/2021_12_20_alenacl_rockheim.jpg
 keywords: rockheim, gesture-elicitation, gestures, interactive, exhibition, interactive-exhibition
 excerpt: "..."
@@ -39,29 +39,56 @@ __And that's when we came up with a plan...__
 
 We researched gestures in human-computer interaction (HCI) and found out a lot of taxonomies of gestures and studies on mid-air gestures in HCI applications, pros, cons and suggestions for mapping on tasks. Most notably, a study from 2010 (...) found that gesture mappings proposed by end-users were more successful than the more conceptually and physically complex ones proposed by HCI researchers. Based on this idea, we decided to conduct an experimental study right at the museum and ask people for concrete feedback.
 
-So, Pedro and Alena packed their bags and flew to Trondheim over the weeekend to get their hands dirty. We created a very short questionnaire, asking people how easy did they think it was to discover that the Time Tunnel exhibition was interactive, how much did they enjoy it once they discovered it was interactive, and what general suggestions of gesture mappings on actions and improvements they had. We arrived with this idea that people will be curious and ask and want to be involved, and we set up our questionnaires and emptied our pencilcases on high tables near the exhibition. We would have waited forever for people to express their curiosity about our presence there, so, after some time of observing their behaviour around the screen, we put on our adult pants and started asking them the questions instead, in smooth conversations instead of on paper. 
+So, Pedro and Alena packed their bags and flew to Trondheim over the weeekend to get their hands dirty. We created a very short questionnaire, asking people how easy did they think it was to discover that the Time Tunnel exhibition was interactive, how much did they enjoy it once they discovered it was interactive, and what general suggestions of gesture mappings on actions and improvements they had. We arrived with this idea that people will be curious and ask and want to be involved, and we set up our questionnaires and emptied our pencilcases on high tables near the exhibition. We would have waited forever for people to express their curiosity about our presence there, so, after some time of observing their behaviour around the screen, we put on our adult pants and started asking them the questions instead, in smooth conversations instead of on paper.
 
 >>>> add more pictures from rockheim
 
-Our trip to Rockheim was extremely productive, in one day we understood a lot more about the exhibition and how it is integrated with the rest, gathered a lot of good information from the guides (who were working with the screen and visitors for yeaaars) and spontaneous and out of the box feedback from visitors. We organized all the information in a separate section of the documentation and decided on what gesture mappings to implement, based on all the feedback and our own research and ideas. 
+Our trip to Rockheim was extremely productive, in one day we understood a lot more about the exhibition and how it is integrated with the rest, gathered a lot of good information from the guides (who were working with the screen and visitors for yeaaars) and spontaneous and out of the box feedback from visitors. We organized all the information in a separate section of the documentation and decided on what gesture mappings to implement, based on all the feedback and our own research and ideas.
 
 - __Slide or Swipe right/left__ – moving between decades and artists
-- __“Point at”__ – selecting an artist or to go back by hovering over something on the screen 
+- __“Point at”__ – selecting an artist or to go back by hovering over something on the screen
 - __Zoom in__ – choosing to hear a musical excerpt of the selected artist
-- __Zoom out__ – exit the music video 
-- __Putting hands in an X__ (or close to each other) – exit music video 
+- __Zoom out__ – exit the music video
+- __Putting hands in an X__ (or close to each other) – exit music video
 
 
 ### Our proposed solution: hardware and software setup and design
 
-Hardware: Using camera technology such as the Microsoft’s Azure Kinect when placed in front of the user would enhance the results of detection and user’s feedback perception. The Azure has a body recognition system which can be utilized to extract minute gestures and when mapped intuitively can have versatile applications.
+#### Hardware
 
-Software: The default application on the system was a basic slide show of images/artist, where the timing cannot be controlled, nor the selection of the image/artist. Our team proposed a system where the person can select the decade by pointing with his hand and using gestures to rotate and zoom in and out of the artist, he/she would prefer to listen to.
+The required equipment for this application is shown in the picture below.
+
+<figure style="float: none">
+   <img src="/assets/image/2021_12_20_pedropl_rockheim_hardware.png" alt="Hardware Setup" title="Hardware Setup" width="100%" />
+   <figcaption><i>Hardware Setup</i></figcaption>
+</figure>
+
+Using camera technology such as the Microsoft’s Azure Kinect when placed in front of the user would enhance the results of detection and user’s feedback perception. The Azure kinect has a body recognition system which can be utilized to extract minute gestures and when mapped intuitively can have versatile applications. This sophisticated sensor needs a powerful PC to run properly. Microsoft define the minimum requirements [here](https://docs.microsoft.com/en-us/azure/kinect-dk/system-requirements).
 
 
-### Demo 
+#### Software
+
+The default application was a basic slide show of images/artist, where the timing cannot be controlled, nor the selection of the image/artist. Our team proposed a system where the person can select the decade by pointing with his hand and using gestures to rotate and zoom in and out of the artist, he/she would prefer to listen to.
+
+It was designed based on the modules showed below.
+
+<figure style="float: none">
+   <img src="/assets/image/2021_12_20_pedropl_rockheim_software.png" alt="Software Modules" title="Software Modules" width="80%" />
+   <figcaption><i>Software Modules</i></figcaption>
+</figure>
+
+We used the [Azure Kinect SDK](https://docs.microsoft.com/en-us/azure/kinect-dk/body-sdk-download), [Unity Game Engine](https://unity.com/), and  [Wekinator](http://www.wekinator.org/) as the three main tools to support the development.
+
+The content behavior and the logic to manage a virtual pointer was implemented in Unity, which was communicated to Wekinator to perform gestures based on machine learning strategies. We render a virtual skeleton to provide feedback to the users which also was useful to control virtual objects through explicit programming and machine learning. In the following section you will see a demonstration of the system we achieved.
+
+
+### Demo
 
 ongoing work by lindsay to prepare
+
+### Evaluation
+
+maybe Lindsay can develop this part?
 
 ### Improvements and future recommendations
 
