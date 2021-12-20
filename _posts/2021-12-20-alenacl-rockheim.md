@@ -6,14 +6,14 @@ categories: applied-project
 author: Alena Clim, Lindsay Charles, Pedro Lucas
 image: /assets/image/2021_12_20_alenacl_rockheim.jpg
 keywords: rockheim, gesture-elicitation, gestures, interactive, exhibition, interactive-exhibition
-excerpt: "..."
+excerpt: "Anyone who visited Rockheim knows about the awesome Time Tunnel exhibition, where six screens show the history of popular Norwegian music from the 50s until today. If you have no idea what I am talking about, you should add a visit to Rockheim on your bucket list. For this project, our team had to investigate and come up with (practical and theoretical) ideas to improve the exhibition."
 ---
 
 # Rockheim museum - About an interactive exhibition
 
 <figure style="float: none">
-   <img src="/assets/image/2021_12_20_alenacl_rockheim-logo.png" alt="Rockheim Logo" title="Rockheim Logo" width="50%" />
-   <figcaption><i>Rockheim Logo</i></figcaption>
+   <img src="/assets/image/2021_12_20_alenacl_rockheim.jpg" alt="Rockheim" title="Rockheim" width="50%" />
+   <figcaption><i>Main exhibition at Rockheim</i></figcaption>
 </figure>
 
 ### Introduction
