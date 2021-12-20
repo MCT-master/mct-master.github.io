@@ -65,53 +65,41 @@ Our trip to Rockheim was extremely productive, in one day we understood a lot mo
 - __Slide or Swipe right/left__ – moving between decades and artists
 
 <figure style="float: none">
-  <audio controls>
-    <source src="https://drive.google.com/uc?&id=112VYDB3nJz4m3Xac6rbyCdtpy0AdQ0Ih" type="audio/mpeg">
-    Alternate Text
-  </audio>
-  <figcaption>Swiping Right</figcaption>
+   <iframe src="https://drive.google.com/file/d/112VYDB3nJz4m3Xac6rbyCdtpy0AdQ0Ih/preview" width="1024" height="576" frameborder="0" allowfullscreen></iframe>
+   <figcaption>Swiping Right</figcaption>
 </figure>
-
 
 <figure style="float: none">
-  <audio controls>
-    <source src="https://drive.google.com/uc?&id=1Qd38BDxx4bYTOW7SyKflJosBjUpKi2hZ" type="audio/mpeg">
-    Alternate Text
-  </audio>
-  <figcaption>Swiping Left</figcaption>
+   <iframe src="https://drive.google.com/file/d/1Qd38BDxx4bYTOW7SyKflJosBjUpKi2hZ/preview" width="1024" height="576" frameborder="0" allowfullscreen></iframe>
+   <figcaption>Swiping Left</figcaption>
 </figure>
 
-- __“Point at”__ – selecting an artist or to go back by hovering over something on the screen 
+- __“Point at”__ – selecting an artist or to go back by hovering over something on the screen
 
 <figure style="float: none">
-  <audio controls>
-    <source src="https://drive.google.com/uc?&id=1h1oydQiVet02eeB50ugHYiOEndtBw8kH" type="audio/mpeg">
-    Alternate Text
-  </audio>
-  <figcaption>Pointing</figcaption>
+   <iframe src="https://drive.google.com/file/d/1h1oydQiVet02eeB50ugHYiOEndtBw8kH/preview" width="1024" height="576" frameborder="0" allowfullscreen></iframe>
+   <figcaption>Pointing</figcaption>
 </figure>
+
 
 - __Zoom in__ – choosing to hear a musical excerpt of the selected artist
-
+-
 <figure style="float: none">
-  <audio controls>
-    <source src="https://drive.google.com/uc?&id=11ApYg0LRIWAZgdRzYYj2h6pR_jtyfiFU" type="audio/mpeg">
-    Alternate Text
-  </audio>
-  <figcaption>Pointing</figcaption>
+   <iframe src="https://drive.google.com/file/d/11ApYg0LRIWAZgdRzYYj2h6pR_jtyfiFU/preview" width="1024" height="576" frameborder="0" allowfullscreen></iframe>
+   <figcaption>Zoom in</figcaption>
 </figure>
 
-- __Zoom out__ – exit the music video 
+
+- __Zoom out__ – exit the music video
 
 <figure style="float: none">
-  <audio controls>
-    <source src="https://drive.google.com/uc?&id=1s_FKFW528jkY84OcO7nLAHwXOjRo43yT" type="audio/mpeg">
-    Alternate Text
-  </audio>
-  <figcaption>Pointing</figcaption>
+   <iframe src="https://drive.google.com/file/d/1s_FKFW528jkY84OcO7nLAHwXOjRo43yT/preview" width="1024" height="576" frameborder="0" allowfullscreen></iframe>
+   <figcaption>Zoom out</figcaption>
 </figure>
 
-- __Putting hands in an X__ (or close to each other) – exit music video 
+
+
+- __Putting hands in an X__ (or close to each other) – exit music video
 
 <figure style="float: none">
    <img src="/assets/image/2021_12_20_lindsay_close_rockheim.jpg" alt="DOA Estimation" title="Close gestures." width="75%" />
@@ -148,50 +136,47 @@ The content behavior and the logic to manage a virtual pointer was implemented i
 
 ### Demo
 
-Here you can watch a short demo of someone without prior knowledge of the project discover the final version of the prototype. 
+Here you can watch a short demo of someone without prior knowledge of the project discover the final version of the prototype.
 
 <figure style="float: none">
-  <audio controls>
-    <source src="https://drive.google.com/uc?&id=172_EaEgBzQr1nauqLi9Ii_Vh8P_zEuUc" type="audio/mpeg">
-    Alternate Text
-  </audio>
-  <figcaption>Demo of someone interacting with the prototype for the first time</figcaption>
+   <iframe src="https://drive.google.com/file/d/172_EaEgBzQr1nauqLi9Ii_Vh8P_zEuUc/preview" width="1024" height="576" frameborder="0" allowfullscreen></iframe>
+   <figcaption>Demo of a user interacting with the prototype for the first time</figcaption>
 </figure>
 
 ### Evaluation
 
- The evaluation of the prototype was done internally in the team. Each evaluation phase was approached slight different. 
- 
+ The evaluation of the prototype was done internally in the team. Each evaluation phase was approached slight different.
+
  Initially, the quality of the gesture recognition was tested, by making fast gestures and documenting the optimal speed for any gesture. Gestures which we obtained from the study in Rockheim were trained with different variations and training these gestures with Lindsay as the user and then testing it out, had promising results. The gestures we decided on after our trip to Rockheim were trainined into the model by Lindsay and then tested for accuracy.
- 
- A few other tests were also done to find the optimal position of the user in relation with the camera. The "sweet spots" we found were between 3 and 4 meters away from the camera and inside 25 degrees to the right and left from the central axis. 
- 
- For the final testing, we asked an external user wiht no previous knowledge about the project to interact with the prototype and recorded it. After this test, we observed that some gestures had to be done twice or thrice; we think it may due factors such as speed of movement, and/or training of the machine learning model with only one user. This could, however, be corrected using higher frame rates and by training the ML model with multiple and diverse users. 
- 
+
+ A few other tests were also done to find the optimal position of the user in relation with the camera. The "sweet spots" we found were between 3 and 4 meters away from the camera and inside 25 degrees to the right and left from the central axis.
+
+ For the final testing, we asked an external user wiht no previous knowledge about the project to interact with the prototype and recorded it. After this test, we observed that some gestures had to be done twice or thrice; we think it may due factors such as speed of movement, and/or training of the machine learning model with only one user. This could, however, be corrected using higher frame rates and by training the ML model with multiple and diverse users.
+
  As our main objectives were to have a working, 'fun and intuitive' prototype, we think the last test (seen partially in the demo) was genuinely satisfactory.
 
 ### What next?
 
 After integrating everything we could from the feedback, our observations and research in the prototype, we came up with a couple things that could be improved - with a little effort, the prototype will become from great to extraordinary (no bias)!
 
-- The setup could be extended based on the available space. One Azure Camera detected up to three people, but the computer didn't have enough processing power to render all the skeletons. So, by using 2 or 3 cameras, each with its own computer, it would be possible to have more than one person using the prototype in the same time. It would also be possible to add collaborative features, such as a queuing mechanism for playing the videos in order. 
+- The setup could be extended based on the available space. One Azure Camera detected up to three people, but the computer didn't have enough processing power to render all the skeletons. So, by using 2 or 3 cameras, each with its own computer, it would be possible to have more than one person using the prototype in the same time. It would also be possible to add collaborative features, such as a queuing mechanism for playing the videos in order.
 
 - The ML algorithm can be very easily improved by training the existing models with more diverse people - different physical characteristics, some standing some sitting (to improve the recognition for people using wheelchairs). The model can be extended by mapping other gestures and actions together. For example:
     - __Crossing arms__ – exit, go back or stop a music video
     - __Keeping a palm up in front of the body__ - pause or stop a video
     - __Lifting shoulders in a shrug or tilting head__ - clues/instructions appearing on the screen
 
-- From an aesthetic point of view, the graphical content should be designed properly by an expert. Our fun idea is to change the skeleton to fit the theme of the museum and perhaps based by decades - for example, if someone chooses the 70s, all of a sudden their skeleton feedback would have a big wig on. 
+- From an aesthetic point of view, the graphical content should be designed properly by an expert. Our fun idea is to change the skeleton to fit the theme of the museum and perhaps based by decades - for example, if someone chooses the 70s, all of a sudden their skeleton feedback would have a big wig on.
 
 - From the point of view of the trade-off between discover-it-yourself and instructions, there are two things that could be implemented to help people with hints, without taking away from the fun of discovering:
-    - __Screen overlays__ for the gestures that would trigger actions, without also giving the instructions of what the gesture would do. These could appear only once every 20 seconds, to grab the attention of people passing by, but still give the opportunity for self discovery. 
-    - __Screen brightness__ changes that correlate with the distance a body is being recognized away from the screen. The screens would start by being dim, and then the moment someone passes through the field of the camera they would get brighter and brighter until the person is in the ideal spot (distance wise). The screen would get dimmer again if the person gets too close to the cameras. 
+    - __Screen overlays__ for the gestures that would trigger actions, without also giving the instructions of what the gesture would do. These could appear only once every 20 seconds, to grab the attention of people passing by, but still give the opportunity for self discovery.
+    - __Screen brightness__ changes that correlate with the distance a body is being recognized away from the screen. The screens would start by being dim, and then the moment someone passes through the field of the camera they would get brighter and brighter until the person is in the ideal spot (distance wise). The screen would get dimmer again if the person gets too close to the cameras.
 
 ### Conclusion
 
 Throughout the project we changed very few things against our original plan. We managed out time quite well considering our other courses and outside work, and organized our resources accordingly. Based on each of our background and experience we split the work to make the most of the available time. If you'd like to download and use our prototype and the documentation we wrote for it, or have any questions, get in contact with us! Due to the nature of this project we can't disclose all the information publicly.
 
-Overall, this was a very fun project and a great opportunity for all of us to work on a real-world application. We learnt a lot and we're very grateful to Rockheim. 
+Overall, this was a very fun project and a great opportunity for all of us to work on a real-world application. We learnt a lot and we're very grateful to Rockheim.
 
 <figure style="float: none">
    <img src="/assets/image/2021_12_20_alenacl_retro_team.jpg" alt="Retro team" title="Retro team" width="80%" />
