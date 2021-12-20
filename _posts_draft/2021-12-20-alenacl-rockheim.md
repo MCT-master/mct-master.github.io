@@ -12,20 +12,28 @@ excerpt: "..."
 # Rockheim museum
 ## About an interactive exhibition
 
+### Introduction
+
 Rockheim is one of Norway’s most exceptional museums. It is _the_ National Museum for Popular Music from the 1950s to the present. It is housed in a former warehouse on the bay of Trondheim.
 The primary mission of the museum is to preserve and document Norwegian popular music through diverse exhibitions.
-
-
 
 One of their main permanent exhibition is known as 'The Time Tunnel' and it opened to the public on 5th August 2010.
 Rockheim’s biggest attraction presents music and artists in a cultural-historical context. The time travel starts in the 1950s, when rock first came to Norway, and continues towards the present time. Using interactive dissemination technology, the public is invited to actively participate during their visit. As part of the museum's staff the guides who are present on each floor of the museum help create a smooth experience, by assisting the audience and engaging them in conversation.
 
-Centering into one part of the exhibit is a massive screen which is located at the entrance to the floor, divided in to six segments, one for each decade, is an interactive gesture-based wall. Coming into play the MCT students investigate and provide improvements to this huge wall. 
+The massive grid of walls is located at the entrance of the floor, in front of the elevators. It consists of six displays with each orientated as portrait. From left to right they are assigned for the 50s, 60s, 70s, 80s, 90s, and 00s, respectively. Static images depicting artists of each decade are shown until someone interupt the flow by "breaking the glass". In front of the screens stickers with each decade are placed on the floor to mark where on the ceiling are the webcam sensors placed. When someone stands on a sticker, the camera detects the shape of hands or the body of person from above. The outline of the movement is overlayed on the screen with green, over the virtual glass layer over the static images. By moving the hands, the person can "break the glass over the screen", resulting in a short video of that artist playing.
 
-### Problem description + details about the existing screen
+>>>>>   insert pictures and gifs to explain this process  
 
-This main screen has 6 divisions one for each decade, each displaying the images of artists as a slide show format.  
-In front of the screen stickers are placed on the floor and above the stickers closer to the ceiling are the webcam sensors are placed, when a person stands on the stickers, the camera detects the hands or the body of person. The outline of the movement is displayed on the screen, the images on the screen are covered with a hazy layer. The movement of the hands determines the clearing of the hazy layer
+### Our applied project
+
+Since this main interactive exhibition was implemented in the museum, technology evolved considerably, and several problems became clear:
+    - it was not obvious that the exhibition was interactive;
+    - only one person at a time could use the entire exhibition;
+    - the division by decades meant that all the music created from the 2000s until now was piled unde only one screen;
+
+
+
+
 
 
 >>> add here that for this project the external partner wanted to focus more on the practical feedback rather than literature search nd theory; they wanted to know what the visitors of their museum thought about the screen and wanted to improve.
@@ -41,18 +49,20 @@ Software: The default application on the system was a basic slide show of images
 Gesture elicitation: Based on our initial research, we found that a general study of how the visitors explored and interacted with the screen was not done. This led us to propose to perform an elicitation in Rockheim physically.
 
 
-### Implementation phase: gesture elicitation at the museum, hardware and software setup and design
+### Gesture elicitation at the museum, 
 
-### Demo and thresholds
+### hardware and software setup and design
 
-### Our team and the workflow + challenges
+### Demo 
 
-### Imprevements and future recommendations
+ongoing work by lindsay to prepare
+
+### Improvements and future recommendations
 
 ### Conclusion
 
 
-
+## From last year's instructions
 1. The problem you addressed in this project.
 2. Explanation and evaluation of the proposed solution and/or the achieved
 objectives, and how these align with the requirements from the external
