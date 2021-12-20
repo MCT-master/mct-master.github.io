@@ -41,7 +41,6 @@ We researched gestures in human-computer interaction (HCI) and found out a lot o
 
 ### Gesture elicitation phase
 
-So, Pedro and Alena packed their bags and flew to Trondheim over the weeekend to get their hands dirty. We created a very short questionnaire, asking people how easy did they think it was to discover that the Time Tunnel exhibition was interactive, how much did they enjoy it once they discovered it was interactive, and what general suggestions of gesture mappings on actions and improvements they had. We arrived with this idea that people will be curious and ask and want to be involved, and we set up our questionnaires and emptied our pencilcases on high tables near the exhibition. We would have waited forever for people to express their curiosity about our presence there, so, after some time of observing their behaviour around the screen, we put on our adult pants and started asking them the questions instead, in smooth conversations instead of on paper. 
 So, Pedro and Alena packed their bags and flew to Trondheim over the weeekend to get their hands dirty. We created a very short questionnaire, asking people how easy did they think it was to discover that the Time Tunnel exhibition was interactive, how much did they enjoy it once they discovered it was interactive, and what general suggestions of gesture mappings on actions and improvements they had. We arrived with this idea that people will be curious and ask and want to be involved, and we set up our questionnaires and emptied our pencilcases on high tables near the exhibition. We would have waited forever for people to express their curiosity about our presence there, so, after some time of observing their behaviour around the screen, we put on our adult pants and started asking them the questions instead, in smooth conversations instead of on paper.
 
 >>>> add more pictures from rockheim
@@ -65,11 +64,6 @@ Our trip to Rockheim was extremely productive, in one day we understood a lot mo
 
 
 - __Putting hands in an X__ (or close to each other) – exit music video 
-- __“Point at”__ – selecting an artist or to go back by hovering over something on the screen
-- __Zoom in__ – choosing to hear a musical excerpt of the selected artist
-- __Zoom out__ – exit the music video
-- __Putting hands in an X__ (or close to each other) – exit music video
-
 
 
 ### Hardware and software setup
@@ -101,7 +95,6 @@ We used the [Azure Kinect SDK](https://docs.microsoft.com/en-us/azure/kinect-dk/
 
 The content behavior and the logic to manage a virtual pointer was implemented in Unity, which was communicated to Wekinator to perform gestures based on machine learning strategies. We render a virtual skeleton to provide feedback to the users which also was useful to control virtual objects through explicit programming and machine learning. In the following section you will see a demonstration of the system we achieved.
 
-
 ### Demo
 
 Here you can watch a short demo of someone without prior knowledge of the project discover the final version of the prototype. 
@@ -121,15 +114,13 @@ After integrating everything we could from the feedback, our observations and re
 
 - From an aesthetic point of view, the graphical content should bbe designed properly by an expert. Our fun idea is to change the skeleton to fit the theme of the museum and perhaps based by decades - for example, if someone chooses the 70s, all of a sudden their skeleton feedback would have a big wig on. 
 
-- From the point of view of the trade-off between discover-it-yourself and instructions
+- From the point of view of the trade-off between discover-it-yourself and instructions, there are two things that could be implemented to help people with hints, without taking away from the fun of discovering:
+    - __Screen overlays__ for the gestures that would trigger actions, without also giving the instructions of what the gesture would do. These could appear only once every 20 seconds, to grab the attention of people passing by, but still give the opportunity for self discovery. 
+    - __Screen brightness__ changes that correlate with the distance a body is being recognized away from the screen. The screens would start by being dim, and then the moment someone passes through the field of the camera they would get brighter and brighter until the person is in the ideal spot (distance wise). The screen would get dimmer again if the person gets too close to the cameras. 
 
-screen overlays for the gestures that would trigger actions, without also giving the instructions of what the gesture would do. These could appear only once every 20 seconds, to grab the attention of people passing by, but still give the opportunity for self discovery. See the picture below for an example of such an overlay taken from the first-time-use tutorial of a phone application.
-screen brightness changes that correlate with the distance a body is being recognized away from the screen. The screens would start by being dim, and then the moment someone passes through the field of the camera they would get brighter and brighter until the person is in the ideal spot (distance wise). The screen would get dimmer again if the person gets too close to the cameras. 
 ### Evaluation
 
 maybe Lindsay can develop this part?
-
-### Improvements and future recommendations
 
 ### Conclusion
 
@@ -144,5 +135,4 @@ partner.
 developed and/or objectives that have been achieved.
 4. Details of the project deliverables and their documentation.
 
-The blog post
-should be comprehensive without exceeding 1500 words.
+The blog post should be comprehensive without exceeding 1500 words.
