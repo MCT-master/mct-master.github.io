@@ -39,6 +39,8 @@ __And that's when we came up with a plan...__
 
 We researched gestures in human-computer interaction (HCI) and found out a lot of taxonomies of gestures and studies on mid-air gestures in HCI applications, pros, cons and suggestions for mapping on tasks. Most notably, a study from 2010 (...) found that gesture mappings proposed by end-users were more successful than the more conceptually and physically complex ones proposed by HCI researchers. Based on this idea, we decided to conduct an experimental study right at the museum and ask people for concrete feedback.
 
+### Gesture elicitation phase
+
 So, Pedro and Alena packed their bags and flew to Trondheim over the weeekend to get their hands dirty. We created a very short questionnaire, asking people how easy did they think it was to discover that the Time Tunnel exhibition was interactive, how much did they enjoy it once they discovered it was interactive, and what general suggestions of gesture mappings on actions and improvements they had. We arrived with this idea that people will be curious and ask and want to be involved, and we set up our questionnaires and emptied our pencilcases on high tables near the exhibition. We would have waited forever for people to express their curiosity about our presence there, so, after some time of observing their behaviour around the screen, we put on our adult pants and started asking them the questions instead, in smooth conversations instead of on paper. 
 
 >>>> add more pictures from rockheim
@@ -46,13 +48,26 @@ So, Pedro and Alena packed their bags and flew to Trondheim over the weeekend to
 Our trip to Rockheim was extremely productive, in one day we understood a lot more about the exhibition and how it is integrated with the rest, gathered a lot of good information from the guides (who were working with the screen and visitors for yeaaars) and spontaneous and out of the box feedback from visitors. We organized all the information in a separate section of the documentation and decided on what gesture mappings to implement, based on all the feedback and our own research and ideas. 
 
 - __Slide or Swipe right/left__ – moving between decades and artists
+
+
+
 - __“Point at”__ – selecting an artist or to go back by hovering over something on the screen 
+
+
+
 - __Zoom in__ – choosing to hear a musical excerpt of the selected artist
+
+
+
 - __Zoom out__ – exit the music video 
+
+
+
 - __Putting hands in an X__ (or close to each other) – exit music video 
 
 
-### Our proposed solution: hardware and software setup and design
+
+### Hardware and software setup
 
 Hardware: Using camera technology such as the Microsoft’s Azure Kinect when placed in front of the user would enhance the results of detection and user’s feedback perception. The Azure has a body recognition system which can be utilized to extract minute gestures and when mapped intuitively can have versatile applications.
 
@@ -61,12 +76,31 @@ Software: The default application on the system was a basic slide show of images
 
 ### Demo 
 
-ongoing work by lindsay to prepare
+Here you can watch a short demo of someone without prior knowledge of the project discover the final version of the prototype. 
 
-### Improvements and future recommendations
+>> code 
+
+### What next?
+
+After integrating everything we could from the feedback, our observations and research in the prototype, we came up with a couple things that could be improved - with a little effort, the prototype will become from great to extraordinary (no bias)!
+
+- The setup could be extended based on the available space. One Azure Camera detected up to three people, but the computer didn't have enough processing power to render all the skeletons. So, by using 2 or 3 cameras, each with its own computer, it would be possible to have more than one person using the prototype in the same time. It would also be possible to add collaborative features, such as a queuing mechanism for playing the videos in order. 
+
+- The ML algorithm can be very easily improved by training the existing models with more diverse people - different physical characteristics, some standing some sitting (to improve the recognition for people using wheelchairs). The model can be extended by mapping other gestures and actions together. For example:
+    - __Crossing arms__ – exit, go back or stop a music video
+    - __Keeping a palm up in front of the body__ - pause or stop a video
+    - __Lifting shoulders in a shrug or tilting head__ - clues/instructions appearing on the screen
+
+- From an aesthetic point of view, the graphical content should bbe designed properly by an expert. Our fun idea is to change the skeleton to fit the theme of the museum and perhaps based by decades - for example, if someone chooses the 70s, all of a sudden their skeleton feedback would have a big wig on. 
+
+- From the point of view of the trade-off between discover-it-yourself and instructions
+
+screen overlays for the gestures that would trigger actions, without also giving the instructions of what the gesture would do. These could appear only once every 20 seconds, to grab the attention of people passing by, but still give the opportunity for self discovery. See the picture below for an example of such an overlay taken from the first-time-use tutorial of a phone application.
+screen brightness changes that correlate with the distance a body is being recognized away from the screen. The screens would start by being dim, and then the moment someone passes through the field of the camera they would get brighter and brighter until the person is in the ideal spot (distance wise). The screen would get dimmer again if the person gets too close to the cameras. 
 
 ### Conclusion
 
+Throughout the project we changed very few things against our original plan. 
 
 ## From last year's instructions
 1. The problem you addressed in this project.
