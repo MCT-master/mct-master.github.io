@@ -16,7 +16,7 @@ $heading-family: "Open Sans", Arial, sans-serif;
 $base-font-family: "Open Sans", Arial, sans-serif;
 $base-font-size: 16px;
 $base-font-weight: 400;
-$base-font-weight-links: 400;
+$base-font-weight-links: 600;
 $base-font-weight-large: 600;
 $small-font-size: $base-font-size * 0.875;
 $base-line-height: 1.5;
@@ -30,7 +30,7 @@ $background-color: #fdfdfd;
 //$brand-color: rgb(54, 54, 54);
 $brand-color-dark: darken($brand-color, 50%);
 $brand-color-1: #bf033b;
-$brand-color-2: #273252;
+$brand-color-2: #2c3261;
 $brand-color-3: #ed3b21;
 $brand-color-4: #ff6908;
 $brand-color-5: #ffc719;
@@ -159,7 +159,7 @@ nav ul {
 a {
   color: $brand-color-2;
   font-weight: $base-font-weight-links;
-  opacity: 0.8;
+  opacity: 0.9;
   text-decoration: none;
   transition: opacity 0.1s ease-in-out;
 
@@ -445,6 +445,8 @@ form#contact-form {
 
       .post-excerpt {
         min-height: 50%;
+        color: $text-color;
+        font-weight: $base-font-weight;
       }
     }
 
