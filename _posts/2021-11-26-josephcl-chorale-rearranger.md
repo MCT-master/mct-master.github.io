@@ -19,16 +19,18 @@ excerpt: "Can we use Midi data to rearrange a recording of a Bach chorale?"
 It’s interesting to think about the ways in which we store musical information digitally. Different media all provide different levels of access to different precepts of a piece of music. A PDF of the score provides us with information laid out in a logical manner in case we would like to perform it ourselves; however it’s difficult to obtain information about the overall structure at a cursory glance. In comparison, a waveform of a recording of the piece allows us to quickly see the overall structure of the piece’s dynamics, but good luck trying to perform it yourself with only the waveform to work with!
 
 <figure style="float: auto">
-   <img src="/assets/image/2021_11_26_josephcl_master_of_puppets_score.png" alt="" title="" width="auto"/> 
+   <img src="/assets/image/2021_11_26_josephcl_master_of_puppets_score.png" alt="" title="" width="auto"/>
 </figure>
 
 <figure style="float: auto">
-   <img src="/assets/image/2021_11_26_josephcl_master_of_puppets_waveform.jpeg" alt="" title="" width="auto"/> 
+   <img src="/assets/image/2021_11_26_josephcl_master_of_puppets_waveform.jpeg" alt="" title="" width="auto"/>
    <figcaption> The score and the waveform of Metallica's Master of Puppets. One allows us to quickly see the dynamic range, and one allows us to perform it ourselves. </figcaption>
 </figure>
 
 
 None of these digital representations provide a complete picture of what is happening in the musical work, in fact we might actually receive quite a different impression of a piece depending upon the medium in which it’s presented to us. So what happens if we take the information provided in one medium and start using it to alter the information provided in another? Can we access precepts that are more hidden in one of the types of media? And can we change it to make something completely new?These are the questions that fuelled the development of the chorale rearranger.
+
+If you want to access our Python and Pure Data code it can be found [here.](https://github.com/jpclemente97/mct-teamb-2/tree/main/python%20assignment%205/TeamB_Assignment5_Creative%20Final)
 
 # I Hear Voices
 
@@ -172,19 +174,6 @@ The first step we took to process the audio was to underlay it with pure sine to
 
 After this, we passed the audio file through to [Pure Data](https://en.wikipedia.org/wiki/Pure_Data) to apply some light reverb and parallel filters with shifting centre frequencies to create some subtle movement.
 
-<figure style="float: none">
-   <img src="https://drive.google.com/uc?&id=1qqSAa7oLxQ8UYtRph4dHBd885v4cX-Bs" alt="" title="" width="auto" />
-</figure>
-
-<figure style="float: none">
-   <img src="https://drive.google.com/uc?&id=1C0gZ75S8rfJROxoH9bJLLWLY0CAlI5IG" alt="" title="" width="auto" />
-</figure>
-
-<figure style="float: none">
-   <img src="https://drive.google.com/uc?&id=14RpBw6saWqo5sbvCLLh9RGecuGwjAQw7" alt="" title="" width="auto" />
-   <figcaption>The Pure Data patch</figcaption>
-</figure>
-
 After passing the audio back into Python, we [convolved](https://en.wikipedia.org/wiki/Convolution) our piece with the impulse response ([recorded by Nick Green](https://www.archaeoacousticsscotland.org/about.html)) of the silo of a Maltese citadel in order to provide an ethereal, open sense of space.
 
 <figure style="float: none">
@@ -205,12 +194,7 @@ Our final, rearranged chorale sounds like this:
 
 The first variation sounds similar to the original, but as the variations continue, the textural consonances and dissonances start shifting, recontextualising what we just heard. We were pretty happy with the results!
 
-We then created some waveforms in different styles, allowing us another view on the musical information of our piece. We wanted to visualize the frequency content of the stereo waveform, so we created 6 new waveforms from the originals and discarded any frequencies above, between, or below two thresholds (high, mid, low). Low frequencies are coloured red, mids are green, and the blue represents high frequencies relative to the frequency content of the file. Three tracks for each channel were then layered on top of each other to show which parts were predominantly bright, mellow, or dark in relation to time.
-
-<figure style="float: none">
-   <img src="https://drive.google.com/uc?&id=1jduqzVv52Aj1YDVyhZhiohcdHdqOv1r6" alt="" title="" width="auto" />
-   <figcaption>The waveform coloured with respect to frequency content</figcaption>
-</figure>
+We then created some waveforms in different styles, allowing us another view on the musical information of our piece. We wanted to visualize the frequency content of the stereo waveform, so we created 6 new waveforms from the originals and discarded any frequencies above, between, or below two thresholds (one between high and mid, the other between mid and low). Low frequencies are coloured red, mids are green, and blue represents high frequencies relative to the frequency content of the file. There is little blue in this plot because there is little to no audio information in the highs of the audio input as defined by our program. The light green areas are overlaps between red and green. Three tracks for each channel were then layered on top of each other to show which parts were predominantly bright, mellow, or dark in relation to time.
 
 Another way we visualized the audio was through layering the waveform with its own RMS, which gives a more accurate representation of loudness over time.
 
@@ -221,5 +205,3 @@ Another way we visualized the audio was through layering the waveform with its o
 
 # Informed by Information
 So what do the many different ways of representing musical information digitally enable us to do? We hope that through our project we’ve shown that through synthesizing many sources, it is possible to get varying views and perspectives on a musical work, and to continue on to create something new, beyond what is possible when only considering a single source.
-
-If you want to access our Python and Pure Data code it can be found [here.](https://github.com/jpclemente97/mct-teamb-2/tree/main/python%20assignment%205/TeamB_Assignment5_Creative%20Final)
