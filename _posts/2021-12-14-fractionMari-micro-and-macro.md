@@ -71,7 +71,7 @@ Macro 1.0 consist of three apps: App 1, App 2 and App 3. They are all based on w
 With the second release I took the system a step further by introducing a button free design. The intention was to make the instrument more accessible by avoiding fine motor skill dependent actions like clicking a button with a mouse. This version includes only two apps, as app 2 and app 3 from Macro 1.0 was combined into one app. Try out the apps on [this link](https://fractionmari.github.io/macro2):
 
 <figure style="float: none">
-   <img src="/assets/image/2021_12_13_fractionmari_Macro2.0diagram.png" alt="Macro 2.0 iteration" title="Macro 2.0 iteration" width="70%" />
+   <img src="/assets/image/2021_12_13_fractionmari_Macro2.0diagram.jpg" alt="Macro 2.0 iteration" title="Macro 2.0 iteration" width="70%" />
    <figcaption><i>The Macro 2.0 version with explanation</i></figcaption>
 </figure>
 
