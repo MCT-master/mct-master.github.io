@@ -27,7 +27,7 @@ Rockheim’s biggest attraction presents music and artists in a cultural-histori
 The massive grid of screens on the wall is located at the entrance of the floor, in front of the elevators. It consists of six displays with each orientated as portrait. From left to right they are assigned for the 50s, 60s, 70s, 80s, 90s, and 00s, respectively. Static images depicting artists of each decade are shown until someone interrupt the flow by "breaking the glass". In front of the screens stickers with each decade are placed on the floor to mark where on the ceiling are the webcam sensors placed. When someone stands on a sticker, the camera detects the shape of hands or the body of person from above. The outline of the movement is over-layed on the screen with green, over the virtual glass layer over the static images. By moving the hands, the person can "break the glass over the screen", resulting in a short video of that artist playing.
 
 <figure style="float: none">
-   <iframe src="https://drive.google.com/file/d/1VPVHN6dZRySHgcCT_qeo7LIsqmWxuBrP/preview" width="1024" height="576" frameborder="0" allowfullscreen></iframe>
+   <iframe src="https://drive.google.com/file/d/1ebbUpHWENFlfVWjjLklRY4BDyAjGAFGK/preview" width="1024" height="576" frameborder="0" allowfullscreen></iframe>
    <figcaption>Screen Interaction</figcaption>
 </figure>
 
