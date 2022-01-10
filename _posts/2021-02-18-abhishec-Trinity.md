@@ -36,7 +36,7 @@ The eventual individual processing would be then summed accordingly through the 
 ## SIGNAL FLOW:
 
 <figure style="float: none">
-   <img src="/assets/image/2021_18_02_abhishec_signalflow_trinity.png" alt="Signal Flow" title="Image Title" width="auto" />
+   <img src="/assets/image/2021_02_18_abhishec_signalflow_trinity.png" alt="Signal Flow" title="Image Title" width="auto" />
    <figcaption>Caption Text</figcaption>
 </figure>
 The signal flow of Trinity is simple and linear with a few quirks to give it its signature sound. The inputs of the DAW go into the shimmer then into the chorus and lastly processed through the width matrix at the end. However, what makes the effect complex is the feedback of the granular processing is fed by the chorus output and not the first pass of the shimmer.
@@ -50,7 +50,7 @@ The chorus operates with four voices. Two voices are assigned to each of the two
 ***Shimmer:***
 
 <figure style="float: auto">
-   <img src="/assets/image/2021_18_02_abhishec_shimmer_trinity.png" alt="Shimmer" title="Waveform, ascending RMS loudness" width="300" height="auto"/>
+   <img src="/assets/image/2021_02_18_abhishec_shimmer_trinity.png" alt="Shimmer" title="Waveform, ascending RMS loudness" width="300" height="auto"/>
    <figcaption><i></i></figcaption>
 </figure>
 
@@ -65,7 +65,7 @@ The feedback input is processed post to the chorus effect. The 4 signals are sum
 ***Chorus:***
 
 <figure style="float: auto">
-   <img src="/assets/image/2021_18_02_abhishec_chorus_trinity.png" alt="Chorus" title="Waveform, ascending RMS loudness" width="300"/>
+   <img src="/assets/image/2021_02_18_abhishec_chorus_trinity.png" alt="Chorus" title="Waveform, ascending RMS loudness" width="300"/>
    <figcaption><i></i></figcaption>
 </figure>
 
@@ -78,7 +78,7 @@ The four outputs of the chorus as mentioned before are fed back into the reverb 
 ***Stereo Width:***
 
 <figure style="float: auto">
-   <img src="/assets/image/2021_18_02_abhishec_width_trinity.png" alt="Width" title="Waveform, ascending RMS loudness" width="300"/>
+   <img src="/assets/image/2021_02_18_abhishec_width_trinity.png" alt="Width" title="Waveform, ascending RMS loudness" width="300"/>
    <figcaption><i></i></figcaption>
 </figure>
 
@@ -94,7 +94,7 @@ The Panning effect can only be noticed when the width is less than maximum as th
 
 
 <figure style="float: auto">
-   <img src="/assets/image/2021_18_02_abhishec_trinity_trinity.png" alt="TRINITY" title="Waveform, ascending RMS loudness" width="400"/>
+   <img src="/assets/image/2021_02_18_abhishec_trinity_trinity.png" alt="TRINITY" title="Waveform, ascending RMS loudness" width="400"/>
    <figcaption><i></i></figcaption>
 </figure>
 
