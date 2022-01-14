@@ -37,7 +37,7 @@ However, both Soundbeam and Motion Composer are commercial products, and at the 
 </figure>
 
 
-All of this made it clear to me that the world needs a web-based musical instrument that can be controlled with motion in the air. There are several ways to do this, however, I chose to try out two different approaches: one by using a web camera and one by using a mobile phone with accelerometer and gyroscope sensors. Both approaches have two apps each, so In total I have developed four apps. However, to reach this stage, the prototypes have been trough several development steps with collection of user feedback in each stage.
+All of this made it clear to me that the world needs a web-based musical instrument that can be controlled with motion in the air. There are several ways to do this, however, I chose to try out two different approaches: one by using a web camera and one by using a mobile phone with accelerometer and gyroscope sensors. Both approaches have two apps each, so In total I have developed four apps. However, to reach this stage, the prototypes have been through several development steps with collection of user feedback in each stage.
 
 
 # The evolution of the Macro apps
@@ -50,7 +50,7 @@ All of this made it clear to me that the world needs a web-based musical instrum
 </figure>
 
 
-[The Diff Cam Engine](http://diffcam.com/) is a open source core engine that enables motion detecting in JavaScript, created by [Will Boyd](https://codersblock.com/about/). As I had learned audio programming in JavaScript through one of the [MCT courses](https://mct-master.github.io/audio-programming/2019/02/11/SpaghettiPlayer.html), I decided to start on the path of creating motion detecting web-apps for musicking.  Very quickly I found out how to use this technology to create sound:
+[The Diff Cam Engine](http://diffcam.com/) is an open source core engine that enables motion detecting in JavaScript, created by [Will Boyd](https://codersblock.com/about/). As I had learned audio programming in JavaScript through one of the [MCT courses](https://mct-master.github.io/audio-programming/2019/02/11/SpaghettiPlayer.html), I decided to start on the path of creating motion detecting web-apps for musicking.  Very quickly I found out how to use this technology to create sound:
 
 <figure>
 <iframe width="560" height="315" src="https://www.youtube.com/embed/OK11-359A4Y" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>  </iframe> <figcaption> <i>The very first motion capture musical instrument attempt</i> </figcaption>  
@@ -58,9 +58,9 @@ All of this made it clear to me that the world needs a web-based musical instrum
 
 ## Macro 1.0
 
-As you can see from the video above, the latency between action and sound was pretty big. So the next step was to lower the latency, make the system more interactive and improve how it sounded. This led to the first offical version which was released with a feedback form that asked people to test out the apps and come with feedback. This verison was called [Macro 1.0](https://fractionmari.github.io/macro) and was named after the Macro level; one of the three "spatiotemporal levels of human action" (Jensenius, 2017) (this will make more sense in the next section when I describe the Micro apps).
+As you can see from the video above, the latency between action and sound was pretty big. So the next step was to lower the latency, make the system more interactive and improve how it sounded. This led to the first official version which was released with a feedback form that asked people to test out the apps and come with feedback. This version was called [Macro 1.0](https://fractionmari.github.io/macro) and was named after the Macro level; one of the three "spatiotemporal levels of human action" (Jensenius, 2017) (this will make more sense in the next section when I describe the Micro apps).
 
-Macro 1.0 consist of three apps: App 1, App 2 and App 3. They are all based on web camera motion detection, but have different approaches for musical interaction. In the video below, you can see a demonstration of Macro 1.0, or try it out yourself from [this link](https://fractionmari.github.io/macro).
+Macro 1.0 consists of three apps: App 1, App 2 and App 3. They are all based on web camera motion detection, but have different approaches for musical interaction. In the video below, you can see a demonstration of Macro 1.0, or try it out yourself from [this link](https://fractionmari.github.io/macro).
 
 <figure style="float: none">
 <iframe width="560" height="315" src="https://www.youtube.com/embed/vQleAqkFjdU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>  <figcaption> <i>Macro 1.0 demonstration video</i> </figcaption>  
@@ -68,7 +68,7 @@ Macro 1.0 consist of three apps: App 1, App 2 and App 3. They are all based on w
 
 ## Macro 2.0
 
-With the second release I took the system a step further by introducing a button free design. The intention was to make the instrument more accessible by avoiding fine motor skill dependent actions like clicking a button with a mouse. This version includes only two apps, as app 2 and app 3 from Macro 1.0 was combined into one app. Try out the apps on [this link](https://fractionmari.github.io/macro2):
+With the second release I took the system a step further by introducing a button free design. The intention was to make the instrument more accessible by avoiding fine motor skill dependent actions like clicking a button with a mouse. This version includes only two apps, as app 2 and app 3 from Macro 1.0 were combined into one app. Try out the apps on [this link](https://fractionmari.github.io/macro2):
 
 <figure style="float: none">
    <img src="/assets/image/2021_12_13_fractionmari_Macro2.0diagram.jpg" alt="Macro 2.0 iteration" title="Macro 2.0 iteration" width="70%" />
@@ -77,7 +77,7 @@ With the second release I took the system a step further by introducing a button
 
 ## Macro 2.1
 
-The last iteration took all the feedback and tried to improve the instructions, the interaction and the visuals of the apps. App 1 is a Theremin-like musical instrument where you can control pitch on the Y axis (vertical) and select between two effects and two instruments on the X axis (horisontal). This iteration have less fucntionalities than the previous iteration, as feedback from users showed that people had problems with unintended output. Still it is a problem that the app interpret all movement as input, and the next step will be to teach the system to seperate between different kinds of gestures.
+The last iteration took all the feedback and tried to improve the instructions, the interaction and the visuals of the apps. App 1 is a Theremin-like musical instrument where you can control pitch on the Y axis (vertical) and select between two effects and two instruments on the X axis (horisontal). This iteration has less functionality than the previous iteration, as feedback from users showed that people had problems with unintended output. Still it is a problem that the app interprets all movement as input, and the next step will be to teach the system to separate between different kinds of gestures.
 
 
 
@@ -107,7 +107,7 @@ At about the same time as I was starting to create the Macro apps, I was develop
 
 ## Micro 1.0
 
-The first release of the Micro apps included three different apps with different approaches for exploration of sound and music. The apps have it's own [wiki](https://github.com/FractionMari/micro/wiki) all of the three apps are explained. You can also watch this demonstration video which describes the apps:
+The first release of the Micro apps included three different apps with different approaches for exploration of sound and music. The apps have it's own [wiki](https://github.com/FractionMari/micro/wiki) where all of the three apps are explained. You can also watch this demonstration video which describes the apps:
 
 <figure style="float: none">
 <iframe width="560" height="315" src="https://www.youtube.com/embed/G6kqDY6w_q8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
@@ -118,7 +118,7 @@ The first release of the Micro apps included three different apps with different
 
 
 ## Micro 2.0 and Micro 2.1
-With the second iteration of the Micro apps, there was a goal to remove the buttons and find a way to make the instrument entirely touch-free. This was achieved by implementing a way to make the user "hover" the buttons with a blue dot that monitored the motion of the phone. In this way, the user could both control melodies and musical parameters by tilting the phone, but also acitvate buttons by tilting the phone in different angles. However, it was not possible to avoid buttons entirely, as the accelerometer and gyroscope sensors has to be activated by a touch action. The solution was to let the button fill the whole screen.
+With the second iteration of the Micro apps, there was a goal to remove the buttons and find a way to make the instrument entirely touch-free. This was achieved by implementing a way to make the user "hover" the buttons with a blue dot that monitored the motion of the phone. In this way, the user could both control melodies and musical parameters by tilting the phone, but also activate buttons by tilting the phone in different angles. However, it was not possible to avoid buttons entirely, as the accelerometer and gyroscope sensors has to be activated by a touch action. The solution was to let the button fill the whole screen.
 
 In the app 2 of the 2.0 release, the same random groove generator as in Macro 2.0 app 2 was introduced. In the Micro 2.1 release, most functionalities were the same as in the 2.0 version, but the visuals were improved and also some of the sound design was improved.
 
@@ -133,9 +133,9 @@ The video below show a demonstration of the Micro 2.1 app 1:
 
 # User studies, reflections and further research
 
-The goal of this Master's thesis has been to create _accessible_ web based musicking technologies, which meant that it was important to test out how accessible the prototypes acually were. To narrow down the focus, I had from the beginning decided to foucs on people with low fine motor skills. I was lucky and got in contact with three informants who had low fine motor skills, and as a control group I invited three informants with normal motor skills. The main findings from the studies showed that people with low fine motor skills and the people with normal motor skills were able to interact with the prototypes on almost the same level. Both groups could explore sound and music with the apps, however, both groups encountered problems with the Macro apps creating unintended sound by interpreting all motion as input. The informants with low fine motor skills self-reported in general less enjoyment with the apps than the group with normal motor skills.
+The goal of this Master's thesis has been to create _accessible_ web based musicking technologies, which meant that it was important to test out how accessible the prototypes actually were. To narrow down the focus, I had from the beginning decided to focus on people with low fine motor skills. I was lucky and got in contact with three informants who had low fine motor skills, and as a control group I invited three informants with normal motor skills. The main findings from the studies showed that people with low fine motor skills and the people with normal motor skills were able to interact with the prototypes on almost the same level. Both groups could explore sound and music with the apps, however, both groups encountered problems with the Macro apps creating unintended sound by interpreting all motion as input. The informants with low fine motor skills self-reported in general less enjoyment with the apps than the group with normal motor skills.
 
-The Micro 2.1 app 1 seemed to be the most enjoyed apps among the users. Interestingly, it was showed that the apps were probably less accessible for the users without touch and mouse functionality than it would have been if touch was implemented. Even though the users reported that they had low fine motor skills, they were used to touch and mouse technology and found this easier than making gestures in the air. The exception was one of the three users who said that tilting the phone to activate buttons was easier for him than clicking a button on the mobile screen.
+The Micro 2.1 app 1 seemed to be the most enjoyed apps among the users. Interestingly, it was shown that the apps were probably less accessible for the users without touch and mouse functionality than it would have been if touch was implemented. Even though the users reported that they had low fine motor skills, they were used to touch and mouse technology and found this easier than making gestures in the air. The exception was one of the three users who said that tilting the phone to activate buttons was easier for him than clicking a button on the mobile screen.
 
 <figure style="float: none">
    <img src="/assets/image/2021_12_13_fractionmari_userstudies.png" alt="User studies" title="User studies" width="100%" />
@@ -144,7 +144,7 @@ The Micro 2.1 app 1 seemed to be the most enjoyed apps among the users. Interest
 
 However, only three users with low fine motor skills are not enough to generalize or make any clear conclusions, and more development and research should be done to investigate further on this technology. The obvious advantage with developing web based software is that it is made easily available and accessible to a huge amount of people. In these days with pandemic lockdowns, we are again being prevented from seeing each other, and the development of online motion tracking musicking technologies might hence be of value both for future research, but also for artistic experience.
 
-The most important findings from the user studies was that the musicking technologies should be able to adapt and optimized to the individual in order to offer accessibility for people with low fine motor skills. For many people, touch technology might increase the accessibility, and can possibly be used in addition to motion tracking technology. Based on other accessible instruments as Motion Composer and Soundbeam, it is likely to assume that the air instrument approach still has a great potetial for accessibilty. The technology developed in this thesis offer a great potential for improvement, and when mobile and computer cameras are improved with e.g. the option for 3D interpretation of the video stream, more precise and complicated mappings can be implemented. Implementing image recognition and machine learning within the web camera based apps, can help distinguishing between different kinds of movements.
+The most important findings from the user studies was that the musicking technologies should be able to adapt and optimized to the individual in order to offer accessibility for people with low fine motor skills. For many people, touch technology might increase the accessibility, and can possibly be used in addition to motion tracking technology. Based on other accessible instruments such as Motion Composer and Soundbeam, it is likely to assume that the air instrument approach still has a great potential for accessibility. The technology developed in this thesis offers a great potential for improvement, and when mobile and computer cameras are improved with e.g. the option for 3D interpretation of the video stream, more precise and complicated mappings can be implemented. Implementing image recognition and machine learning within web camera based apps, can help distinguish between different kinds of movements.
 
 <figure style="float: none">
    <img src="/assets/image/2021_12_13_fractionmari_comparison2.png" alt="Comparison of the apps" title="Comparison of the apps" width="100%" />
