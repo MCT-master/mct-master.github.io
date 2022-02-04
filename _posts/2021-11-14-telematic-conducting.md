@@ -45,7 +45,7 @@ https://www.wqxr.org/story/why-do-orchestras-play-behind-beat/
 Video latency can be defined (in a simplistic sense) as the ‘glass-to-glass’ delay between the initial capture of video and its arrival at the intended destination (the first glass being the initial camera lens and the final glass being the screen on which the video is being displayed). In its journey from start to finish, the video must traverse the chain of camera → encoder → network → decoder → final destination.
 
 <figure style="float: none">
-   <img src="/assets/image/2021_11_14_williakm_videolatencypath.png" alt="Video Path" title="" width="auto" />
+   <img src="/assets/image/2021_11_14_williakm_videolatencypath.jpg" alt="Video Path" title="" width="auto" />
    <figcaption>The journey of a Zoom meeting.</figcaption>
 </figure>
 
