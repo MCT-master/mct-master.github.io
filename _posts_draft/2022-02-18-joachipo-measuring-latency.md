@@ -46,7 +46,7 @@ We decided to perform in two constellations testing various latencies. For **MSA
 To be able to control for latency, we had to measure these first in order to ascertain a baseline. We measured the entire system and the network connection between the two UiO portals and found a total round-trip time (RTT) of 20ms.
 
 <figure style="float: none">
-   <img src="/assets/image/2022_02_18_joachipo_latency.png" alt="Network Latency only (0ms)" title="" width=80 />
+   <img src="/assets/image/2022_02_18_joachipo_latency.png" alt="Network Latency only (0ms)" title="" width="30%" />
    <figcaption>Network Latency only (0ms)</figcaption>
 </figure>
 
