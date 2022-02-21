@@ -92,11 +92,6 @@ For Kristian, it didn’t feel too strange at all to jam along with the drums. H
 
 For Kristian, the tempo and style of song had a direct influence on how much latency could be tolerated. For *Donna Lee*, difficulties in synchronizing timing could be felt at much lower latencies than for *Solar*, which didn’t feel unnatural until the latency was set to the upper limit of 50ms one-way. A factor playing into this could be that it isn’t as natural to play laid-back on a fast-paced jazz melody, compared to a medium tempo melody with improvisation. As a result, Kristian mostly paid attention to his own tempo on *Donna Lee*, while *Solar* offered the ability for more interplay between the performers. Joachim didn’t feel the changes in latency directly, except if Kristian unconsciously adapted to the increasing latency. This makes this approach a better option for jamming with friends over higher latency connections, however, it is not as well suited for faster tempos and highly rehearsed music which requires a steady tempo.
 
-<figure style="float: none">
-   <img src="/assets/image/2022_02_21_joachipo_kristian.jpg" alt="Kristian playing on the synthesizer" title="" width="auto" />
-   <figcaption>Kristian playing on the synthesizer</figcaption>
-</figure>
-
 ### **Conclusion**
 
 Attempting to work with latency, instead of treating it as something to overcome, leads to interesting results in spite of several drawbacks. The two approaches live up to their names, with the **MSA** definitely creating such a dynamic, and the **LBA** sounding appropriately laid back. Employing these techniques opens up new possibilities to play together online, even if it isn’t playing together in a way that we are used to.
