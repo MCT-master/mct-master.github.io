@@ -1,3 +1,15 @@
+---
+layout: post
+title: "How to measure latency for Network Musical Performance (NMP)?"
+date: 2022-02-21 22:00:00 +0200
+categories: portal
+author: Hugh Alexander von Arnim, Kristian Wentzel, Sofía González, Joachim Poutaraud
+image: /assets/image/2021_09_20_joachimpoutaraud_networkdelay.jpg
+excerpt: "A report on latency measurements between the UiO portals"
+
+keywords: Portal, Latency, NMP, LoLa
+---
+
 ## **Introduction**
 
 ### **How to measure latency for Network Musical Performance (NMP)?**
