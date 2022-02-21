@@ -1,11 +1,11 @@
 ---
 layout: post
-title: "How to measure latency for Network Musical Performance (NMP)?"
+title: "Mastering Latency"
 date: 2022-02-21 22:00:00 +0200
 categories: portal
 author: Hugh Alexander von Arnim, Kristian Wentzel, Sofía González, Joachim Poutaraud
 image: /assets/image/2021_09_20_joachimpoutaraud_networkdelay.jpg
-excerpt: "A report on latency measurements between the UiO portals"
+excerpt: "Testing two techniques to work with latency when playing music telematically"
 keywords: Portal, Latency, NMP, LoLa
 ---
 
@@ -17,7 +17,7 @@ The Internet is widely used for audio communication. Numerous collaboration appl
 
 We decided to test two such techniques outlined by Alexander Carôt and Christian Werner **[1]** between the portal and the video room at UiO.
 
-- Master Slave Approach (MSA) 
+- Master Slave Approach (MSA)
 - Laid Back Approach (LBA)
 
 These techniques are similar in principle, one player assumes the role of the “master”, determining the rhythmic elements of the performance. For the **MSA**, the master does not listen to the slave, allowing performances to take place at any amount of latency, whereas for the **LBA** both listen to each other and play with the latency adding a sense that the playing is relaxed, or laid back. The limit for this is around 50ms **[1]** before timing difficulties start to become noticeable.
@@ -38,24 +38,24 @@ We decided to perform in two constellations testing various latencies. For **MSA
 
  When playing music over the Internet, sound passes through several stages, which all inevitably add latency **[2]**.
 
-- Geographical latency 
+- Geographical latency
 - Internet service latency
 - Home network latency
 - Digital processing latency
 
-To be able to control for latency, we had to measure these first in order to ascertain a baseline. We measured the entire system and the network connection between the two UiO portals and found a total round-trip time (RTT) of 20ms. 
+To be able to control for latency, we had to measure these first in order to ascertain a baseline. We measured the entire system and the network connection between the two UiO portals and found a total round-trip time (RTT) of 20ms.
 
 <figure style="float: none">
-   <img src="/assets/image/2022_02_18_joachipo_latency.png" alt="Network Latency only (0ms)" title="" width="auto" />
+   <img src="/assets/image/2022_02_18_joachipo_latency.png" alt="Network Latency only (0ms)" title="" width=80 />
    <figcaption>Network Latency only (0ms)</figcaption>
 </figure>
 
-In order to control latency we added delay in the channel-strips of the individual instruments in the digital mixer in the portal.
+In order to control latency we added delay in the channel-strips of the individual instruments in the Midas M32 mixer in the portal.
 
 <figure style="float: none">
    <img src="/assets/image/2022_02_21_joachipo_delay.png" alt="Midas M32 Latency Delay" title="" width="auto" />
    <figcaption>Midas M32 Latency delay</figcaption>
-</figure> 
+</figure>
 
 We verified our 20ms measurement by setting a **RTT** of 300ms (setting the delay on the drums in the Midas to 280ms) and having the drums play a steady beat against a click at 100BPM with the keys playing along on each beat. With one beat at 100BPM having a duration of 600ms, the drummer should hear the keys with exactly two beats delay, which was the case, verifying that our measurement was correct.
 
@@ -87,10 +87,37 @@ For Kristian, it didn’t feel too strange at all to jam along with the drums. H
 
  Therefore, when playing highly rehearsed music in which responding to another player is not so important over a high latency connection, this approach is viable. However, for simply jamming with a friend, there’s another solution that might be more viable.
 
+ <figure style="float: none">
+  <audio controls>
+    <source src="https://drive.google.com/uc?&id=1AQ-Ix4XTmZvQNXjQiUqeYGL1L1SH4u0C" type="audio/wav">
+  </audio>
+  <figcaption><i>Recording from the Video Room at 50ms latency.</i></figcaption>
+</figure>
+<figure style="float: none">
+ <audio controls>
+   <source src="https://drive.google.com/uc?&id=1jnuwrSnt0y10PUZHwge4tc7Of2VF6jZv" type="audio/wav">
+ </audio>
+ <figcaption><i>Recording from the Portal at 50ms latency. Note the audible click and that the keys are behind the beat in comparison to the Video Room recording.</i></figcaption>
+</figure>
+
 
 - *Laid-Back Approach*
 
 For Kristian, the tempo and style of song had a direct influence on how much latency could be tolerated. For *Donna Lee*, difficulties in synchronizing timing could be felt at much lower latencies than for *Solar*, which didn’t feel unnatural until the latency was set to the upper limit of 50ms one-way. A factor playing into this could be that it isn’t as natural to play laid-back on a fast-paced jazz melody, compared to a medium tempo melody with improvisation. As a result, Kristian mostly paid attention to his own tempo on *Donna Lee*, while *Solar* offered the ability for more interplay between the performers. Joachim didn’t feel the changes in latency directly, except if Kristian unconsciously adapted to the increasing latency. This makes this approach a better option for jamming with friends over higher latency connections, however, it is not as well suited for faster tempos and highly rehearsed music which requires a steady tempo.
+
+<figure style="float: none">
+ <audio controls>
+   <source src="https://drive.google.com/uc?&id=1sG9I_DOXBKR1wnnTTpidgaPtQL6gw2nW" type="audio/wav">
+ </audio>
+ <figcaption><i>Solar at 50ms recorded in the Portal. The style sounds natural, but the latency was noticeable for Kristian.</i></figcaption>
+</figure>
+<figure style="float: none">
+<audio controls>
+  <source src="https://drive.google.com/uc?&id=1X5-PyfCaNaD9CeuZ_UXZEbZA8QHkE7Ud" type="audio/wav">
+</audio>
+<figcaption><i>Donna Lee at 35ms recorded in the Portal. This was the point where Kristian started to really feel the latency.</i></figcaption>
+</figure>
+
 
 <figure style="float: none">
    <img src="/assets/image/2022_02_21_joachipo_kristian.jpg" alt="Kristian playing on the synthesizer" title="" width="auto" />
@@ -107,5 +134,3 @@ Attempting to work with latency, instead of treating it as something to overcome
 <font size="2"><p><b>[1] </b> Carôt, A., & Werner, C. (2009). Fundamentals and principles of musical telepresence. Journal of Science and Technology of the Arts, 1(1), 26-37. <a href="https://doi.org/10.7559/citarj.v1i1.6">https://doi.org/10.7559/citarj.v1i1.6</a></p></font>
 
 <font size="2"><p><b>[2] </b> JackTrip. (2022). Technology. <a href="https://jacktrip.org/technology.html">https://jacktrip.org/technology.html</a></p></font>
-
-
