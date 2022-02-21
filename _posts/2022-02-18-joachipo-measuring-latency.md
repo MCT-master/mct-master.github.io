@@ -1,10 +1,10 @@
 ---
 layout: post
 title: "Mastering Latency"
-date: 2022-02-21 22:00:00 +0200
+date: 2022-02-21 21:00:00 +0200
 categories: portal
 author: Hugh Alexander von Arnim, Kristian Wentzel, Sofía González, Joachim Poutaraud
-image: /assets/image/2021_09_20_joachimpoutaraud_networkdelay.jpg
+image: /assets/image/2202_02_21_hughav_expect_delays.jpg
 excerpt: "Testing two techniques to work with latency when playing music telematically"
 keywords: Portal, Latency, NMP, LoLa
 ---
@@ -20,23 +20,28 @@ We decided to test two such techniques outlined by Alexander Carôt and Christia
 - Master Slave Approach (MSA)
 - Laid Back Approach (LBA)
 
-These techniques are similar in principle, one player assumes the role of the “master”, determining the rhythmic elements of the performance. For the **MSA**, the master does not listen to the slave, allowing performances to take place at any amount of latency, whereas for the **LBA** both listen to each other and play with the latency adding a sense that the playing is relaxed, or laid back. The limit for this is around 50ms **[[1]](#link1)** before timing difficulties start to become noticeable.
+These techniques are similar in principle. One player assumes the role of the “master”, determining the rhythmic elements of the performance. For the **MSA**, the master does not listen to the slave, allowing performances to take place at any amount of latency, whereas for the **LBA** both listen to each other and play with the latency adding a sense that the playing is relaxed, or laid back. The limit for this is around 50ms **[[1]](#link1)** before timing difficulties start to become noticeable.
+<br>
 
 <figure style="float: none">
    <img src="/assets/image/2022_02_21_joachipo_MSA.jpg" alt="Master Slave Approach (MSA)" title="" width="auto" />
    <figcaption><i>Master Slave Approach (MSA)</i></figcaption>
 </figure>
 
+<br>
+
 <figure style="float: none">
    <img src="/assets/image/2022_02_21_joachipo_delayLBA.jpg" alt="Laid Back Approach (LBA)" title="" width="auto" />
    <figcaption><i>Laid Back Approach (LBA)</i></figcaption>
 </figure>
 
-We decided to perform in two constellations testing various latencies. For **MSA**, Hugh performed electric drums in the portal, taking the role of the master while Kristian performed keys in the video room, playing various funk grooves. For **LBA**, Kristian took the role of the master, on keys, while Joachim performed saxophone, testing two jazz standards, the faster *Donna Lee*, and more moderate *Solar*.
+<br>
+
+We decided to perform in two constellations testing various latencies. For **MSA**, Hugh performed electric drums in the portal, taking the role of the master, while Kristian performed keys in the video room, playing various funk grooves. For **LBA**, Kristian took the role of the master, on keys, while Joachim performed saxophone, testing two jazz standards, the faster *Donna Lee*, and more moderate *Solar*.
 
 ### **Technical Specs**
 
- When playing music over the Internet, sound passes through several stages, which all inevitably add latency **[[2]](#link2)**.
+ When playing music over the Internet sound passes through several stages, which all inevitably add latency **[[2]](#link2)**.
 
 - Geographical latency
 - Internet service latency
@@ -45,32 +50,45 @@ We decided to perform in two constellations testing various latencies. For **MSA
 
 To be able to control for latency, we had to measure these first in order to ascertain a baseline. We measured the entire system and the network connection between the two UiO portals and found a total round-trip time (RTT) of 20ms.
 
+<br>
+
 <figure style="float: none">
-   <img src="/assets/image/2022_02_18_joachipo_latency.png" alt="Network Latency only (0ms)" title="" width="25%" />
+   <img src="/assets/image/2022_02_18_joachipo_latency.png" alt="Network Latency Only (0ms)" title="" width="auto" />
    <figcaption><i>Network Latency only (0ms)</i></figcaption>
 </figure>
 
+<br>
+
 In order to control latency we added delay in the channel-strips of the individual instruments in the Midas M32 mixer in the portal.
 
+<br>
+
 <figure style="float: none">
-   <img src="/assets/image/2022_02_21_joachipo_delay.png" alt="Midas M32 Latency Delay" title="" width="auto" />
-   <figcaption><i>Midas M32 Latency delay</i></figcaption>
+   <img src="/assets/image/2022_02_21_joachipo_delay.png" alt="Midas M32 Latency Delay" title="" width="20%" />
+   <figcaption><i>Midas M32 Latency Delay</i></figcaption>
 </figure>
+
+<br>
 
 We verified our 20ms measurement by setting a **RTT** of 300ms (setting the delay on the drums in the Midas to 280ms) and having the drums play a steady beat against a click at 100BPM with the keys playing along on each beat. With one beat at 100BPM having a duration of 600ms, the drummer should hear the keys with exactly two beats delay, which was the case, verifying that our measurement was correct.
 
 For the **MSA** and **LBA**, we employed similar baseline setups. However, there were some necessary differences to meet the requirements of each of the approaches. For the **MSA**, a click track was employed for the drummer, which was not to be sent to keys. This was generated within the drum kit, but the signal was split so that it was not also sent to the keys.
 
+<br>
 
 <figure style="float: none">
-   <img src="/assets/image/2022_02_21_hughav_MSA_Routing.jpg" alt="Routing diagram MSA" title="" width="auto" />
-   <figcaption><i>Routing diagram MSA</i></figcaption>
+   <img src="/assets/image/2022_02_21_hughav_MSA_Routing.jpg" alt="Routing diagram MSA" title="" width="80%" />
+   <figcaption><i>Routing Diagram MSA</i></figcaption>
 </figure>
 
+<br>
+
 <figure style="float: none">
-   <img src="/assets/image/2022_02_21_hughav_LBA_Routing.jpg.jpg" alt="Routing diagram LBA" title="" width="auto" />
-   <figcaption><i>Routing diagram LBA</i></figcaption>
+   <img src="/assets/image/2022_02_21_hughav_LBA_Routing.jpg.jpg" alt="Routing diagram LBA" title="" width="80%" />
+   <figcaption><i>Routing Diagram LBA</i></figcaption>
 </figure>
+
+<br>
 
 The biggest technical challenge was monitoring. For the **MSA** this was relatively simple to achieve: the drummer (master) directly monitored the drum kit since they were not to hear the keys (slave) as described in the approach, and the keys could monitor from the mixer. However, for the **LBA**, the keys (master) required monitoring from the Midas in order to also receive the saxophone (slave), and as latency was applied in the channel strip, directly monitoring this would mean that the keys would be hearing themselves with a delay. Therefore a solution was found by looping the keys into a second channel in which the delay was first added, with the original input channel being sent to the monitoring headphones.
 
@@ -78,14 +96,20 @@ The biggest technical challenge was monitoring. For the **MSA** this was relativ
 
 - *Master-Slave Approach*
 
-For Kristian, it didn’t feel too strange at all to jam along with the drums. However, since Hugh couldn’t hear the keys, there was also no way to communicate musically. This also meant that latency at any delay was not an issue, as what Kristian was doing was irrelevant to Hugh. However, for Hugh this approach didn’t really feel like taking part in a communal musical experience, as he was simply performing a certain number of agreed bars against a click track, and not hearing the music as a whole. This made it feel more like a technical exercise than a musical performance.
+For Kristian, it didn’t feel too strange to jam along with the drums. However, since Hugh couldn’t hear the keys, there was also no way to communicate musically. This also meant that latency at any delay was not an issue, as what Kristian was doing was irrelevant to Hugh. However, for Hugh this approach didn’t really feel like taking part in a communal musical experience, as he was simply performing a certain number of agreed bars against a click track, and not hearing the music as a whole. This made it feel more like a technical exercise than a musical performance.
+
+<br>
 
 <figure style="float: none">
-   <img src="/assets/image/2022_02_21_joachipo_synth.png" alt="Kristian MSA" title="" width="auto" />
-   <figcaption><i>Visible Latency between the slave recordings in video room and portal with alligned master tracks.</i></figcaption>
+   <img src="/assets/image/2022_02_21_joachipo_synth.png" alt="Kristian MSA" title="" width="75%" />
+   <figcaption><i>Visible Latency between the keys recordings in video room and portal with aligned master tracks.</i></figcaption>
 </figure>
 
- Therefore, when playing highly rehearsed music in which responding to another player is not so important over a high latency connection, this approach is viable. However, for simply jamming with a friend, there’s another solution that might be more viable.
+<br>
+
+ Therefore, when playing highly rehearsed music in which responding to another player is not so important over a high latency connection, this approach is viable. However, for simply jamming with a friend there’s another solution that might be preferable.
+
+ <br>
 
  <figure style="float: none">
   <audio controls>
@@ -93,17 +117,23 @@ For Kristian, it didn’t feel too strange at all to jam along with the drums. H
   </audio>
   <figcaption><i>Recording from the video room at 50ms latency.</i></figcaption>
 </figure>
+
+<br>
+
 <figure style="float: none">
  <audio controls>
    <source src="https://drive.google.com/uc?&id=1jnuwrSnt0y10PUZHwge4tc7Of2VF6jZv" type="audio/wav">
  </audio>
- <figcaption><i>Recording from the portal at 50ms latency. Note the audible click and that the keys are behind the beat in comparison to the Video Room recording.</i></figcaption>
+ <figcaption><i>Recording from the portal at 50ms latency. Note the audible click and that the keys are behind the beat in comparison to the video room recording.</i></figcaption>
 </figure>
 
+<br>
 
 - *Laid-Back Approach*
 
-For Kristian, the tempo and style of song had a direct influence on how much latency could be tolerated. For *Donna Lee*, difficulties in synchronizing timing could be felt at much lower latencies than for *Solar*, which didn’t feel unnatural until the latency was set to the upper limit of 50ms one-way. A factor playing into this could be that it isn’t as natural to play laid-back on a fast-paced jazz melody, compared to a medium tempo melody with improvisation. As a result, Kristian mostly paid attention to his own tempo on *Donna Lee*, while *Solar* offered the ability for more interplay between the performers. Joachim didn’t feel the changes in latency directly, except if Kristian unconsciously adapted to the increasing latency. This makes this approach a better option for jamming with friends over higher latency connections, however, it is not as well suited for faster tempos and highly rehearsed music which requires a steady tempo.
+For Kristian, the tempo and style of song had a direct influence on how much latency could be tolerated. For *Donna Lee*, difficulties in synchronizing timing could be felt at much lower latencies than for *Solar*, which didn’t feel unnatural until the latency was set to the upper limit of 50ms one-way. A factor playing into this could be that it isn’t as natural to play laid-back on a fast-paced jazz melody, compared to a medium tempo melody with improvisation. As a result, Kristian mostly paid attention to his own tempo on *Donna Lee*, while *Solar* offered the ability for more interplay between the performers. Joachim didn’t feel the changes in latency directly, except if Kristian unconsciously adapted to the increasing latency. In view of this, LBA is a better option for jamming with friends over higher latency connections. However, it is not as well suited for faster tempos and highly rehearsed music which requires a steady and synchronised tempo.
+
+<br>
 
 <figure style="float: none">
  <audio controls>
@@ -111,6 +141,9 @@ For Kristian, the tempo and style of song had a direct influence on how much lat
  </audio>
  <figcaption><i>Solar at 50ms recorded in the Portal. The style sounds natural, but the latency was noticeable for Kristian.</i></figcaption>
 </figure>
+
+<br>
+
 <figure style="float: none">
 <audio controls>
   <source src="https://drive.google.com/uc?&id=1X5-PyfCaNaD9CeuZ_UXZEbZA8QHkE7Ud" type="audio/wav">
@@ -118,9 +151,10 @@ For Kristian, the tempo and style of song had a direct influence on how much lat
 <figcaption><i>Donna Lee at 35ms recorded in the Portal. This was the point where Kristian started to really feel the latency.</i></figcaption>
 </figure>
 
+<br>
 
 <figure style="float: none">
-   <img src="/assets/image/2022_02_21_joachipo_kristian.jpg" alt="Kristian playing on the synthesizer" title="" width="auto" />
+   <img src="/assets/image/2022_02_21_joachipo_kristian.jpg" alt="Kristian playing on the synthesizer" title="" width="50%" />
    <figcaption><i>Kristian playing the synthesizer as the master</i></figcaption>
 </figure>
 
@@ -131,6 +165,6 @@ Attempting to work with latency, instead of treating it as something to overcome
 
 ### **Relevant papers and links**
 
-<font size="2"><p><b><a name="Link1">**[1]**</a> </b> Carôt, A., & Werner, C. (2009). Fundamentals and principles of musical telepresence. Journal of Science and Technology of the Arts, 1(1), 26-37. <a href="https://doi.org/10.7559/citarj.v1i1.6">https://doi.org/10.7559/citarj.v1i1.6</a></p></font>
+<font size="2"><p><b><a name="link1">[1]</a> </b> Carôt, A., & Werner, C. (2009). Fundamentals and principles of musical telepresence. Journal of Science and Technology of the Arts, 1(1), 26-37. <a href="https://doi.org/10.7559/citarj.v1i1.6">https://doi.org/10.7559/citarj.v1i1.6</a></p></font>
 
-<font size="2"><p><b><a name="Link2">**[2]**</a> </b> JackTrip. (2022). Technology. <a href="https://jacktrip.org/technology.html">https://jacktrip.org/technology.html</a></p></font>
+<font size="2"><p><b><a name="link2">[2]</a> </b> JackTrip. (2022). Technology. <a href="https://jacktrip.org/technology.html">https://jacktrip.org/technology.html</a></p></font>
