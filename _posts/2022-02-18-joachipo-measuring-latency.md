@@ -59,15 +59,39 @@ To be able to control for latency, we had to measure these first in order to asc
 
 <br>
 
-<p style='padding:0.7em; margin-right:0.7em; display: inline-block;'>
-<img src="/assets/image/2022_02_21_joachipo_delay.png" width="10%" style="zoom:30%;  float:right; margin-left:0.9em"/> 
-
-In order to control latency we added delay in the channel-strips of the individual instruments in the Midas M32 mixer in the portal.
-
-We verified our 20ms measurement by setting a <b>RTT</b> of 300ms (setting the delay on the drums in the Midas to 280ms) and having the drums play a steady beat against a click at 100BPM with the keys playing along on each beat. With one beat at 100BPM having a duration of 600ms, the drummer should hear the keys with exactly two beats delay, which was the case, verifying that our measurement was correct.
-
-For the <b>MSA</b> and <b>LBA</b>, we employed similar baseline setups. However, there were some necessary differences to meet the requirements of each of the approaches. For the <b>MSA</b>, a click track was employed for the drummer, which was not to be sent to keys. This was generated within the drum kit, but the signal was split so that it was not also sent to the keys.
-</p>
+<html>
+  <head>
+    <title>Midas M32 Latency Delay</title>
+    <style>
+      .container {
+        display: flex;
+        align-items: left;
+        justify-content: left
+      }
+      img {
+        max-width: 100%
+      }
+      .image {
+        flex-basis: 100%
+      }
+      .text {
+        padding-left: 20px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="image">
+        <img src="/assets/image/2022_02_21_joachipo_delay.png">
+      </div>
+      <div class="text">
+        <p>
+        In order to control latency we added delay in the channel-strips of the individual instruments in the Midas M32 mixer in the portal. <br><br> We verified our 20ms measurement by setting a <b>RTT</b> of 300ms (setting the delay on the drums in the Midas to 280ms) and having the drums play a steady beat against a click at 100BPM with the keys playing along on each beat. With one beat at 100BPM having a duration of 600ms, the drummer should hear the keys with exactly two beats delay, which was the case, verifying that our measurement was correct. For the <b>MSA</b> and <b>LBA</b>, we employed similar baseline setups. However, there were some necessary differences to meet the requirements of each of the approaches. For the <b>MSA</b>, a click track was employed for the drummer, which was not to be sent to keys. This was generated within the drum kit, but the signal was split so that it was not also sent to the keys.<br><br><i>Midas M32 Latency Delay</i>
+        </p>
+      </div>
+    </div>
+  </body>
+</html>
 
 <br>
 
