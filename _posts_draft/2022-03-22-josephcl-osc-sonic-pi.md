@@ -10,7 +10,7 @@ excerpt: "Easy as pi!"
 ---
 
 <figure style="float: none">
-   <img src="/assets/image/2022_03_20_josephcl_sonic_pi_header.png" alt="Alternate Text" title="Image Title" width="auto" />
+   <img src="/assets/image/2022_03_20_josephcl_sonic_pi_header.png" alt="Alternate Text" width="auto" />
 </figure>
 
 # Introduction
@@ -27,7 +27,16 @@ After our machine learning model has been trained, we must again create an OSC c
 
 # Using Sonic Pi
 
+# Video Demo
+
+<iframe src="https://drive.google.com/file/d/1FJJFYK3K052NsskuUDCboQvvTRdLcoeW/preview" width="640" height="480" allow="autoplay"></iframe>
 
 # Files
 
-You can view the jupyter notebook we used to create out data set, train our regressor, and send OSC data to Sonic Pi [here]().  Our Sonic Pi file that was used to generate sound can be found [here](). Finally, our data set can be found [here]().
+You can view the jupyter notebook we used to create out data set [here](https://github.com/jpclemente97/SonicPiOscDemo/blob/main/Dataset%20Creation.ipynb).
+
+The python file we used to train our regressor and send OSC data to Sonic Pi can be found [here](https://github.com/jpclemente97/SonicPiOscDemo/blob/main/amen_control.py).
+
+Our Sonic Pi file that was used can be found [here](https://github.com/jpclemente97/SonicPiOscDemo/blob/main/amen_control.rb). 
+
+Finally, our data set can be found [here](https://github.com/jpclemente97/SonicPiOscDemo/blob/main/data.csv).
