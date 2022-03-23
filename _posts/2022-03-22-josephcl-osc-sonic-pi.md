@@ -23,11 +23,11 @@ Our first step in this process is to create a data set to train our machine lear
 
 # Sending to Sonic Pi
 
-After our machine learning model has been trained, we must again create an OSC connection from our smartphone to Python yet again to receive live data from oscHook. However, this time our data will be used to output numbers that will correspond to parameters we will use to shape our sounds with Sonic Pi. This was not as straight-forward as first anticipated, since it involved using [AsyncIO](https://docs.python.org/3/library/asyncio.html) in combination with the [Python-OSC library](https://pypi.org/project/python-osc/) to make an async server for handling OSC inputs and ouputs. This asynchronous design uses a main loop to send OSC messages to Sonic Pi, while our OSC server receives accelerometer data from our phone through an event loop. A side effect of this design is that we had to run our main application as a .py-script instead of using a Jupyter notebook.
+After our machine learning model has been trained, we must again create an OSC connection from our smartphone to Python yet again to receive live data from oscHook. However, this time our data will be used to output numbers that will correspond to parameters we will use to shape our sounds with Sonic Pi. This was not as straight-forward as first anticipated, since it involved using [AsyncIO](https://docs.python.org/3/library/asyncio.html) in combination with the [Python-OSC library](https://pypi.org/project/python-osc/) to make an async server for handling OSC inputs and ouputs concurrently. This asynchronous design uses a main loop to send OSC messages to Sonic Pi, while our OSC server receives accelerometer data from our phone through an event loop. A "side effect" of this design is that we had to run our application as a .py-script instead of using a Jupyter notebook.
 
 # Using Sonic Pi
 
-Sonic Pi is a music creation and performance tool based on live coding. This makes our whole experiment kind of meta, as we're training a small machine learning model and OSC server in Python so we're able to make use of our accelerometer sensor creatively when we're further live-coding in Sonic Pi. For our Sonic Pi project, we decided to change the parameters a rather simple loop mainly consisting of the [Amen break](https://en.wikipedia.org/wiki/Amen_break). Our regressor's output was scaled to control the cutoff filter and playback rate of the sample. This project could be considered a proof-of-concept, showing us that there is a lot of possibilites to make more advanced and creative use of this techonology.
+Sonic Pi is a music creation and performance tool based on live coding. This makes our whole experiment kind of meta, as we're training a small machine learning model and coding an OSC server in Python so we're able to make use of our accelerometer sensor creatively when we're further live-coding in Sonic Pi. For our Sonic Pi project, we decided to change the parameters of a rather simple loop mainly consisting of the [Amen break](https://en.wikipedia.org/wiki/Amen_break). Our regressor's output was scaled to control the cutoff filter and playback rate of the sample. This project could be considered a proof-of-concept, showing us that there is a lot of possibilites to make more advanced and creative use of this techonology.
 
 # Video Demo
 
@@ -36,4 +36,3 @@ Sonic Pi is a music creation and performance tool based on live coding. This mak
 # Files
 
 You can view the GitHub repository with all of our files for this project [here](https://github.com/jpclemente97/SonicPiOscDemo).
-
