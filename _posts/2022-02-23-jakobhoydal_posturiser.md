@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Generating Music Based on Webcam Input"
-date: 2022-03-23 10:00:00 +0200
+date: 2022-03-23 11:00:00 +0200
 categories: portal
 author: Arvid Falch, Hugh Alexander von Arnim, Jakob Høydal, Joachim Poutaraud
 image: /assets/image/2022_jakobhoydal_webcamThumbnail.jpg
