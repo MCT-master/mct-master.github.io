@@ -2,7 +2,7 @@
 layout: post
 title: "Using Live OSC Data From Smartphones To Make Music With Sonic Pi"
 date: 2022-03-23 10:00:00 +0200
-categories: portal
+categories: machine-learning
 author: Joseph Clemente, Kristian Wentzel
 image: /assets/image/2022_03_20_josephcl_sonic_pi_thumbnail.png
 keywords: portal
