@@ -83,11 +83,12 @@ On this page you can find information about current and past students. Directly 
 
 # Introduction blogs
 
-Below are blog posts that present the various authors of this blog, which are the students of the **Music, Communication & Technology (MCT)** master's programme. MCT is an international, joint master's programme between [**NTNU**](https://www.ntnu.edu/studies/mmct) and [**UiO**](https://www.uio.no/english/studies/programmes/mct-master/), the two largest universities in Norway.
+Below are blog posts that present the various authors of this blog, which are the students of the **Music, Communication & Technology (MCT)** master's programme. MCT is an international, joint master's programme between [NTNU](https://www.ntnu.edu/studies/mmct) and [UiO](https://www.uio.no/english/studies/programmes/mct-master/), the two largest universities in Norway.
 
 <br />
 
 {%- if site.posts.size > 0 -%}
+
   <!-- <h2 class="post-list-heading">{{ page.list_title | default: "Posts" }}</h2> -->
   <ul class="post-list">
     {%- for post in site.categories.people -%}
@@ -95,5 +96,6 @@ Below are blog posts that present the various authors of this blog, which are th
     {%- include list-body.html -%}
 
     {%- endfor -%}
+
   </ul>
 {%- endif -%}
