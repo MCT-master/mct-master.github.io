@@ -11,7 +11,7 @@ keywords: Portal, Latency, NMP, LoLa
 
 ### **Introduction**
 
-The Internet is widely used for audio communication. Numerous collaboration applications exist that make it trivial to have a conversation with almost anyone, anywhere. So, why is performing music any different? The problem is trying to keep a common rhythm between musicians in different locations. Maintaining a shared beat is difficult if it takes too long for one musician's sound to reach another's ears, and if this time (called latency) is too long (around 25ms **[[1]](#link1)**), it can make playing music together almost impossible. However, some techniques can be employed to work *with* latency, and not against it.
+The Internet is widely used for audio communication. Numerous collaboration applications exist that make it trivial to have a conversation with almost anyone, anywhere. So, why is performing music any different? The problem is trying to keep a common rhythm between musicians in different locations. Maintaining a shared beat is difficult if it takes too long for one musician's sound to reach another's ears, and if this time (called latency) is too long (around 25ms **[[1]](#link1)**), it can make playing music together almost impossible. However, some techniques can be employed to work _with_ latency, and not against it.
 
 ### **Goals/Plans**
 
@@ -21,27 +21,22 @@ We decided to test two such techniques outlined by Alexander Carôt and Christia
 - Laid Back Approach (LBA)
 
 These techniques are similar in principle. One player assumes the role of the “master”, determining the rhythmic elements of the performance. For the **MSA**, the master does not listen to the slave, allowing performances to take place at any amount of latency, whereas for the **LBA** both listen to each other and play with the latency adding a sense that the playing is relaxed, or laid back. The limit for this is around 50ms **[[1]](#link1)** before timing difficulties start to become noticeable.
-<br>
 
 <figure style="float: none">
    <img src="/assets/image/2022_02_21_joachipo_MSA.jpg" alt="Master Slave Approach (MSA)" title="" width="auto" />
    <figcaption><i>Master Slave Approach (MSA)</i></figcaption>
 </figure>
 
-<br>
-
 <figure style="float: none">
    <img src="/assets/image/2022_02_21_joachipo_delayLBA.jpg" alt="Laid Back Approach (LBA)" title="" width="auto" />
    <figcaption><i>Laid Back Approach (LBA)</i></figcaption>
 </figure>
 
-<br>
-
-We decided to perform in two constellations testing various latencies. For **MSA**, Hugh performed electric drums in the portal, taking the role of the master, while Kristian performed keys in the video room, playing various funk grooves. For **LBA**, Kristian took the role of the master, on keys, while Joachim performed saxophone, testing two jazz standards, the faster *Donna Lee*, and more moderate *Solar*.
+We decided to perform in two constellations testing various latencies. For **MSA**, Hugh performed electric drums in the portal, taking the role of the master, while Kristian performed keys in the video room, playing various funk grooves. For **LBA**, Kristian took the role of the master, on keys, while Joachim performed saxophone, testing two jazz standards, the faster _Donna Lee_, and more moderate _Solar_.
 
 ### **Technical Specs**
 
- When playing music over the Internet sound passes through several stages, which all inevitably add latency **[[2]](#link2)**.
+When playing music over the Internet sound passes through several stages, which all inevitably add latency **[[2]](#link2)**.
 
 - Geographical latency
 - Internet service latency
@@ -113,7 +108,7 @@ The biggest technical challenge was monitoring. For the **MSA** this was relativ
 
 ### **Performance Reflections**
 
-- *Master-Slave Approach*
+- _Master-Slave Approach_
 
 For Kristian, it didn’t feel too strange to jam along with the drums. However, since Hugh couldn’t hear the keys, there was also no way to communicate musically. This also meant that latency at any delay was not an issue, as what Kristian was doing was irrelevant to Hugh. However, for Hugh this approach didn’t really feel like taking part in a communal musical experience, as he was simply performing a certain number of agreed bars against a click track, and not hearing the music as a whole. This made it feel more like a technical exercise than a musical performance.
 
@@ -126,7 +121,7 @@ For Kristian, it didn’t feel too strange to jam along with the drums. However,
 
 <br>
 
- Therefore, when playing highly rehearsed music in which responding to another player is not so important over a high latency connection, this approach is viable. However, for simply jamming with a friend there’s another solution that might be preferable.
+Therefore, when playing highly rehearsed music in which responding to another player is not so important over a high latency connection, this approach is viable. However, for simply jamming with a friend there’s another solution that might be preferable.
 
  <br>
 
@@ -148,9 +143,9 @@ For Kristian, it didn’t feel too strange to jam along with the drums. However,
 
 <br>
 
-- *Laid-Back Approach*
+- _Laid-Back Approach_
 
-For Kristian, the tempo and style of song had a direct influence on how much latency could be tolerated. For *Donna Lee*, difficulties in synchronizing timing could be felt at much lower latencies than for *Solar*, which didn’t feel unnatural until the latency was set to the upper limit of 50ms one-way. A factor playing into this could be that it isn’t as natural to play laid-back on a fast-paced jazz melody, compared to a medium tempo melody with improvisation. As a result, Kristian mostly paid attention to his own tempo on *Donna Lee*, while *Solar* offered the ability for more interplay between the performers. Joachim didn’t feel the changes in latency directly, except if Kristian unconsciously adapted to the increasing latency. In view of this, LBA is a better option for jamming with friends over higher latency connections. However, it is not as well suited for faster tempos and highly rehearsed music which requires a steady and synchronised tempo.
+For Kristian, the tempo and style of song had a direct influence on how much latency could be tolerated. For _Donna Lee_, difficulties in synchronizing timing could be felt at much lower latencies than for _Solar_, which didn’t feel unnatural until the latency was set to the upper limit of 50ms one-way. A factor playing into this could be that it isn’t as natural to play laid-back on a fast-paced jazz melody, compared to a medium tempo melody with improvisation. As a result, Kristian mostly paid attention to his own tempo on _Donna Lee_, while _Solar_ offered the ability for more interplay between the performers. Joachim didn’t feel the changes in latency directly, except if Kristian unconsciously adapted to the increasing latency. In view of this, LBA is a better option for jamming with friends over higher latency connections. However, it is not as well suited for faster tempos and highly rehearsed music which requires a steady and synchronised tempo.
 
 <br>
 
@@ -180,7 +175,6 @@ For Kristian, the tempo and style of song had a direct influence on how much lat
 ### **Conclusion**
 
 Attempting to work with latency, instead of treating it as something to overcome, leads to interesting results in spite of several drawbacks. The two approaches live up to their names, with the **MSA** definitely creating such a dynamic, and the **LBA** sounding appropriately laid back. Employing these techniques opens up new possibilities to play together online, even if it isn’t playing together in a way that we are used to.
-
 
 ### **Relevant papers and links**
 

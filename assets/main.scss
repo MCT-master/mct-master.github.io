@@ -5,33 +5,44 @@
 @charset "utf-8";
 
 // Google Fonts
-@import url(https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,400;1,600;1,700;1,800&display=swap);
+// @import url(https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,400;1,600;1,700;1,800&display=swap);
+
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Mono&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
 
 // Font Variables
-$roboto-slab: "Roboto Slab", serif;
-$open-sans: "Open Sans", sans-serif;
+// $roboto-slab: "Roboto Slab", serif;
+// $open-sans: "Open Sans", sans-serif;
+
+//$roboto-slab: "Roboto Slab", serif;
+//$open-sans: "Open Sans", sans-serif;
 
 // Our variables
-$heading-family: "Open Sans", Arial, sans-serif;
-$base-font-family: "Open Sans", Arial, sans-serif;
-$base-font-size: 16px;
+//$heading-family: "Open Sans", Arial, sans-serif;
+//$base-font-family: "Open Sans", Arial, sans-serif;
+
+$heading-family: "Roboto", Arial, sans-serif;
+$base-font-family: "Roboto", Arial, sans-serif; // "Roboto Mono", Arial, monospace;
+
+$base-font-size: 20px;
 $base-font-weight: 400;
-$base-font-weight-links: 600;
+$base-font-weight-links: 400;
 $base-font-weight-large: 600;
 $small-font-size: $base-font-size * 0.875;
-$base-line-height: 1.5;
+$smallest-font-size: $small-font-size * 0.875;
+$base-line-height: 1.6;
 $spacing-unit: 30px;
 
 // Colors
-$text-color: #333;
-$brand-color: #333;
+$text-color: rgb(0, 0, 0);
+$brand-color: rgb(0, 0, 0);
 $background-color: #fdfdfd;
 //$brand-color: #8764b4;
 //$brand-color: rgb(54, 54, 54);
 $brand-color-dark: darken($brand-color, 50%);
-$brand-color-1: #bf033b;
-$brand-color-2: #2c3261;
-$brand-color-3: #ed3b21;
+$brand-color-lighten: lighten($brand-color, 50%);
+$brand-color-1: rgb(50, 50, 50);
+$brand-color-2: #4bacfc; //#333; // for links
+$brand-color-3: #8bb3e7;
 $brand-color-4: #ff6908;
 $brand-color-5: #ffc719;
 $brand-color-6: #598c14;
@@ -52,6 +63,11 @@ $on-laptop: 800px;
 
 @import "minima";
 
+// REGULAR PARAGRAPHS IN THE BLOG
+p {
+  margin-bottom: 4%;
+}
+
 //////////// EVERYTHING BELOW IS IN THE HEADER //////////////////////
 .site-header {
   // the header itself
@@ -60,52 +76,59 @@ $on-laptop: 800px;
   z-index: 3;
   opacity: 1;
   border-top: 0;
-  padding: 0.5em 0;
+  //   padding: 0.5em 0;
   border-radius: 6px;
   box-shadow: 0 1px 4px rgba(0, 0, 0, 0.3);
 }
 
+.title-and-logo-wrapper {
+  margin-bottom: 0;
+}
+
 .site-title {
   // @include relative-font-size(1.625);
-  font-size: 28px;
-  color: $brand-color-2;
+  font-size: $base-font-size;
   font-weight: 300;
-  letter-spacing: -1px;
   margin-bottom: 0;
   float: left;
-  opacity: 1;
+  opacity: 0.6;
 }
 
 .site-logo {
   float: left;
-  width: 42px;
-  height: 42px;
-  margin: 4px 16px 0 0;
+  width: 46px;
+  height: 46px;
+  margin: 4px 10px 0 0;
   outline: 0 !important;
+  margin-bottom: 0;
 }
 
 .site-nav {
   // navbar
+  font-size: $small-font-size;
   position: relative;
   float: right;
   padding-left: 1em;
   text-align: left;
-  margin-top: 4px;
 
   .page-link {
     // containers for the navbar titles
-    color: $brand-color;
     line-height: $base-line-height;
     display: inline-block;
+    a {
+      color: $brand-color;
+    }
   }
 }
 
 nav ul li a.active,
 nav ul li ul a.active {
   // the currently active navbar tabs
-  opacity: 1;
+  font-weight: 600;
+  color: text-color;
   li {
-    opacity: 1;
+    color: $text-color;
+    font-weight: 600;
   }
 }
 
@@ -132,13 +155,10 @@ nav ul {
       line-height: 100%;
       padding: 0.5rem;
       border-radius: 6px;
-      opacity: 0.9;
-      transition: box-shadow 0.05s, opacity 0.05s ease-in-out;
-
-      &:hover {
-        opacity: 1;
-        box-shadow: 0 1px 4px rgba(0, 0, 0, 0.15);
-      }
+      //   transition: box-shadow 0.05s, opacity 0.05s ease-in-out;
+      //   &:hover {
+      //     box-shadow: 0 1px 4px rgba(0, 0, 0, 0.15);
+      //   }
     }
   }
 }
@@ -159,17 +179,14 @@ nav ul {
 a {
   color: $brand-color-2;
   font-weight: $base-font-weight-links;
-  opacity: 0.9;
   text-decoration: none;
-  transition: opacity 0.1s ease-in-out;
-
+  position: relative;
   &:visited {
     color: $brand-color-2;
     text-decoration: none;
   }
-
   &:hover {
-    opacity: 1;
+    color: $brand-color-2;
     text-decoration: none;
   }
 
@@ -181,6 +198,24 @@ a {
     }
   }
 }
+
+a::before {
+  content: "";
+  position: absolute;
+  display: block;
+  width: 100%;
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  background-color: $brand-color-2;
+  transform: scaleX(0);
+  transition: transform 0.3s ease;
+}
+
+a:hover::before {
+  transform: scaleX(1);
+}
+
 /////////////////////////////////////////////////
 
 .post-title {
@@ -203,7 +238,8 @@ h5,
 h6 {
   font-family: $heading-family;
   font-weight: $base-font-weight-links;
-  color: $brand-color-2;
+  color: $text-color;
+  //   padding-top: 5%;
 }
 
 .post > .post-content {
@@ -251,7 +287,7 @@ h6 {
 
 /////////// PAGE SCROLLBAR /////////////
 body::-webkit-scrollbar {
-  width: 0.4rem;
+  width: 0.7rem;
 }
 
 body::-webkit-scrollbar-track {
@@ -402,6 +438,7 @@ form#contact-form {
       display: table;
     }
     figcaption {
+      margin-bottom: 4%;
       display: table-caption;
       caption-side: bottom;
     }
@@ -415,7 +452,7 @@ form#contact-form {
 
 // Post list styling
 .post-list li {
-  border-bottom: 0.1em dotted #dedede;
+  //   border-bottom: 0.1em dotted #dedede;
   padding: 15px 0;
   margin-bottom: 0;
 
@@ -430,7 +467,7 @@ form#contact-form {
     overflow: hidden;
 
     &:hover {
-      box-shadow: 0 0 6px rgba(0, 0, 0, 0.3);
+      box-shadow: 0 0 2px rgba(0, 0, 0, 0.3);
     }
 
     .post-left {
@@ -441,12 +478,28 @@ form#contact-form {
 
       h3 {
         font-size: 24px;
+        font-weight: 600;
       }
 
       .post-excerpt {
+        font-size: $small-font-size;
+        // opacity: 70%;
         min-height: 50%;
         color: $text-color;
         font-weight: $base-font-weight;
+      }
+
+      .post-meta {
+        font-size: 12px; // $smallest-font-size;
+      }
+
+      .post-meta-category {
+        // font-weight: 400;
+        color: $text-color;
+        font-size: $small-font-size;
+        border: 2px solid $brand-color;
+        border-radius: 10px;
+        padding: 5px;
       }
     }
 
@@ -482,23 +535,39 @@ form#contact-form {
   }
 }
 
+@media screen and (max-width: 880px) {
+  .site-title {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 680px) {
+  .title-and-logo-wrapper {
+    display: none;
+  }
+}
+
 @media screen and (max-width: 600px) {
   .site-header {
     position: relative;
 
-    .site-title {
-      text-align: center;
-      float: none;
-      display: block;
-      padding-left: 0;
+    // .title-and-logo-wrapper {
+    //   display: none;
+    // }
+    // .site-title {
+    //   display: none;
+    //   text-align: center;
+    //   float: none;
+    //   display: block;
+    //   padding-left: 0;
+    // }
+    // .site-logo {
+    //   display: none;
+    //   float: none;
+    //   margin: 0 16px 16px 0;
+    // }
 
-      & > img {
-        float: none;
-        margin: 0 16px 16px 0;
-      }
-    }
     .site-nav {
-      color: $brand-color;
       position: relative;
       top: 0;
       right: 0;
