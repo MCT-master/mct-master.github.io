@@ -77,8 +77,9 @@ p {
   opacity: 1;
   border-top: 0;
   //   padding: 0.5em 0;
-  border-radius: 6px;
-  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.3);
+  // border-radius: 6px;
+  // box-shadow: 0 1px 4px rgba(0, 0, 0, 0.3);
+  border-bottom: 1px solid $brand-color;
 }
 
 .title-and-logo-wrapper {
@@ -91,7 +92,7 @@ p {
   font-weight: 300;
   margin-bottom: 0;
   float: left;
-  opacity: 0.6;
+  // opacity: 0.6;
 }
 
 .site-logo {
@@ -144,7 +145,8 @@ nav ul {
     margin-top: 5px;
     border-radius: 6px;
     padding: 4px;
-    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.15);
+    // box-shadow: 0 1px 4px rgba(0, 0, 0, 0.15);
+    border: 1px solid $brand-color;
     opacity: 0;
     visibility: hidden;
     transition: visibility 0.1s, opacity 0.1s ease-in-out;
@@ -215,7 +217,6 @@ a::before {
 a:hover::before {
   transform: scaleX(1);
 }
-
 /////////////////////////////////////////////////
 
 .post-title {
@@ -409,7 +410,7 @@ form#contact-form {
   audio {
     border-radius: 8px;
     max-width: 100%;
-    box-shadow: 1px 3px 8px rgba(0, 0, 0, 0.5);
+    // box-shadow: 1px 3px 8px rgba(0, 0, 0, 0.5);
     border: 0;
   }
 }
@@ -453,22 +454,33 @@ form#contact-form {
 // Post list styling
 .post-list li {
   //   border-bottom: 0.1em dotted #dedede;
-  padding: 15px 0;
+  padding: 10px 0;
   margin-bottom: 0;
-
+  
   .post-button {
+    // background-color: darken($background-color, 2%);
     display: flex;
     position: relative;
     border-radius: 6px;
     height: 200px;
     padding: 1em;
     opacity: 1;
-    transition: box-shadow 0.1s ease-in-out;
+    transition: box-shadow 0.2s ease-in-out;
     overflow: hidden;
 
+    // box-shadow: rgba(255, 255, 255, 0.2) 0px 0px 0px 1px inset, rgba(0, 0, 0, 0.7) 0px 0px 0px 1px;
+    border: 1px solid $brand-color;
+
     &:hover {
-      box-shadow: 0 0 2px rgba(0, 0, 0, 0.3);
+      // box-shadow: 0 0 4px rgba(0, 0, 0, 0.3);
+      box-shadow: rgba(255, 255, 255, 0.2) -1px 1px 0px 1px inset, rgba(0, 0, 0, 0.7) -1px 1px 0px 1px;
     }
+
+    &:hover::before {
+      // This is to override to link animation on the post cards
+      // link animation definitions begin on line 178.
+     content: none;
+   }
 
     .post-left {
       display: block;
@@ -483,10 +495,10 @@ form#contact-form {
 
       .post-excerpt {
         font-size: $small-font-size;
-        // opacity: 70%;
         min-height: 50%;
         color: $text-color;
         font-weight: $base-font-weight;
+        margin-top: 8px;
       }
 
       .post-meta {
@@ -497,7 +509,7 @@ form#contact-form {
         // font-weight: 400;
         color: $text-color;
         font-size: $small-font-size;
-        border: 2px solid $brand-color;
+        border: 1px solid $brand-color-2;
         border-radius: 10px;
         padding: 5px;
       }
@@ -510,7 +522,7 @@ form#contact-form {
       img {
         width: 100%;
         object-fit: cover; // fill out images
-        box-shadow: 1px 3px 8px rgba(0, 0, 0, 0.3);
+        box-shadow: none; // 1px 3px 8px rgba(0, 0, 0, 0.3);
       }
     }
   }
@@ -587,7 +599,7 @@ form#contact-form {
   }
 
   .post-list li .post-button {
-    border: 2px solid rgba(230, 230, 230, 0.75);
+    border: 1px solid $brand-color;
 
     .post-right {
       max-width: 100%;
