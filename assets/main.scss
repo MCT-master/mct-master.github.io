@@ -311,23 +311,28 @@ ul.pager {
 .previous,
 .next {
   display: inline;
-  font-weight: 500;
+  font-weight: 400;
   padding: 6px;
   // font-size: 1.15em;
 
   & > a {
     color: #333;
-    background-color: rgba(240, 240, 240, 1);
-    border: rgba(230, 230, 230, 0.75);
+    // background-color: rgba(240, 240, 240, 1);
+    border: 1px solid $brand-color;
     padding: 8px 20px;
     border-radius: 6px;
     text-decoration: none;
-    transition: 0.1s;
+    transition: 0.2s;
 
     &:hover {
-      background-color: rgba(240, 240, 240, 0.75);
-      box-shadow: 0 1px 4px rgba(0, 0, 0, 0.3);
+      box-shadow: rgba(255, 255, 255, 0.2) -1px 1px 0px 1px inset, rgba(0, 0, 0, 0.7) -1px 1px 0px 1px;
     }
+
+    &:hover::before {
+      // This is to override to link animation on the post cards
+      // link animation definitions begin on line 178.
+     content: none;
+   }
   }
 }
 
