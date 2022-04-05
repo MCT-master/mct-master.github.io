@@ -1,54 +1,44 @@
 ---
 layout: post
-title: "Networked Music Performances over 5G - Will It Actually Work? (part 1)"
+title: "Networked Music Performances over 5G - Will It Work? (part 1)"
 date: 2022-04-02 12:00:00 +0200
 categories: portal
 author: Aleksander Tidemann
 image: /assets/image/2022_04_01_aleksati_5g_telenor_logo.png
-keywords: networked music performances, telematic music, 5g network, Telenor Research, Lola, Jacktrip, audio and video latency
-excerpt: "We did a small experiment to test the feasibility of using 5G networks for live networked music performances. Here are the preliminary results."
+keywords: mct, uio, networked music performances, telematic music, 5g, Telenor Research, Lola, Jacktrip, audio latency, video latency
+excerpt: "In collaboration with Telenor Research, we have begun to test the feasibility of using 5G for networked music performances. Here are the preliminary results."
 ---
 
-5G is the new paradigm of telecommunication and wireless networking. But what is so great about 5G? For most users, the biggest difference from 4G to 5G will be a massive increase in network bandwidth, or sheer internett speed. Norwegian telecommunication companies like [Telenor](https://www.telenor.no/5g/) and [Telia](https://www.telia.no/nett/5g/) frequently advertise the anticipated speed of 5G, promising a mobile network that can accommodate activities such as remote-controlled surgery from afar, distributed sporting events and even networked music performances (NMP).
+5G is the new paradigm of telecommunication and wireless networking. But what is so great about 5G? For most users, the biggest difference from 4G to 5G will be a massive increase in network bandwidth. Norwegian telecommunication companies like [Telenor](https://www.telenor.no/5g/) and [Telia](https://www.telia.no/nett/5g/) frequently advertise the anticipated speed of 5G, promising a mobile network that can accommodate activities such as remote-controlled surgery from afar, distributed sporting events and even networked music performances (NMP).
 
-<figure style="float: none">
-   <img src="/assets/image/2022_04_01_aleksati_5g_telenor_logo.png" 
-   alt="logo" 
+<!-- <figure style="float: none">
+   <img src="/assets/image/2022_04_01_aleksati_5g_telenor_logo.png"
+   alt="logo"
    title="logo"
    width="80%" />
    <figcaption>replace with Telenor commercial</figcaption>
-</figure>
+</figure> -->
 
-Based on years of experience, we at [MCT](https://www.uio.no/english/studies/programmes/mct-master/) are naturally skeptical to promises of stable musicking over any sort of network. The most important reason for this is that NMPs have exceptionally high demands for low-latency communication (**SOURCE**). Usually, we don't pay much attention to the latency we experience online in everyday life. However, doing synchronous and more interactive activities over the network requires sensitivity and precision that only specialized systems can provide. The research tells us that the minimum roundtrip latency (back and forth) to conduct meaningful NMPs is 25-30ms for audio and 125-200ms for video (**SOURCE**). For perspective, this is how 25 and 30ms of audio delay sounds like:
+At [MCT](https://www.uio.no/english/studies/programmes/mct-master/), we are naturally skeptical to promises of stable musicking over any sort of network. The most important reason for this is that NMPs have exceptionally high demands for low-latency communication (**SOURCE**). Research tells us that the minimum roundtrip latency (back and forth) needed to conduct meaningful NMPs is around 25-30ms for audio and 125-200ms for video (**SOURCE**). For some perspective, this is what a 30ms delay sounds like (from left to right ear):
 
-`25ms delay:`
+<div class="waveform" id="thirtymsdemo"></div>
 
-<div class="waveform" id="source"></div>
+<br/>
 
-<br>
-
-`30ms delay:`
-
-<div class="waveform" id="target"></div>
-
-<br>
-
-Fortunately, in late 2019, Telenor Research reached out to collaborate with us and to see if their network could accommodate our demands, further exploring NMP applications of their 5G network. For the experiment, they sent a couple of custom-configured routers to use on a limited 5G network (more on this in a bit). In this post, we present our first technical experiments/experiences with the network, testing the feasibility of using 5G for live NMPs.
+Fortunately, Telenor Research was interested in collaborating with us to explore the possibility of doing NMPs on 5G. Telenor is currently involved in multiple EU-funded projects that, in part, explore the application of 5G on NMPs, including [Fudge5G](https://fudge-5g.eu/en) and [5GMediaHub](https://www.5gmediahub.eu/). To start, Telenor sent us a couple of routers to use on their first-generation 5G network (more on this in a bit). In this post, we present the results from our first experiments, including the **speed**, **stability**, and **latency** of audio/video transmission over a 5G network.
 
 # Experiment Setup
 
-It's important to clarify that the mobile network we investigated in this experiment was not the "real" 5G network. But what do I mean by this? Well, the 5G infrastructure has yet to be properly rolled out for commercial use in most of Norway. Therefore, to do our experiment, we had to make use of specially configured routers, essentially testing 5G broadband technology on a 4G system. So when we refer to the _5G network_ in this article, we really mean a limited network that is maybe representative of about 1/3 or 2/3 of 5G's true capacity.
-
-Telenor sent us two Huawei MBB Pilot 5G Routers that were configured to give us access to specific nearby packet-routing servers that, in theory, should have allowed for faster communication between our machines.
+It's important to clarify that our experiments were conducted on a first-generation 5G network, or what is also called a _non-standalone core network_ (NSA). To oversimplify things, we can think about NSA as 5G bandwidth on a 4G infrastructure. This means that our results are not representative of a fully-fledged 5G network. However, Telenor configured our routers to access specific _access point names_ (APNs). This configuration enabled p2p connectivity between our machines with faster packet routing. For the experiment, we used two Huawei MBB Pilot 5G Routers.
 
 <figure style="float: none">
    <img src="/assets/image/2022_04_01_aleksati_5g_telenor_modems_outside_salen1.jpg" alt="5g_telenor_modems_outside_salen2" title="5g_telenor_modems_outside_salen2" width="80%" />
-   <figcaption>Two Huawei MBB Pilot 5G Routers and a technician in action outside the Department of Musicology at UiO.</figcaption>
+   <figcaption>Two Huawei MBB Pilot 5G Routers, and a technician, in action outside the Department of Musicology, UiO.</figcaption>
 </figure>
 
 ## Time, Place and Coverage
 
-The experiments were carried out on March 30th, 2022, between 10am-3pm, at the Department of Musicology, University of Oslo. We got good estimates of the network reception using the routers' own location-optimizing software, and Telenor's [online coverage map](https://www.telenor.no/dekning/#dekningskart). Since the 5G reception inside our department was quite poor, we placed the routers outside further south of our department, closer to the NRK building. Here, we managed to get a pretty stable 75% coverage rate with the devices placed at 1.5 meters distance from each other.
+The experiments were carried out on March 30th, 2022, between 10am-3pm, at the Department of Musicology, University of Oslo. We got good estimates of the network reception using the routers' own location-optimizing software, and Telenor's [online coverage map](https://www.telenor.no/dekning/#dekningskart). Since the 5G reception inside our department was quite poor, we placed the routers outside and further south of our department. Here, we managed to get a pretty stable 75% coverage rate with the devices placed approximately at 1.5 meters distance from each other.
 
 <figure style="float: left">
     <div style="display:flex;">
@@ -59,14 +49,14 @@ The experiments were carried out on March 30th, 2022, between 10am-3pm, at the D
             <img src="/assets/image/2022_04_01_aleksati_5g_telenor_coverage.jpg" alt="5g_telenor_coverage" title="5g_telenor_coverage" width="auto"/>
         </div>
     </div>
-    <figcaption> Coverage report from our location outside IMV at UiO. Screenshot from the routers location-optimizing software to the left, and the Telenor coverage map of the Musicology department to the right. With borderline 5G coverage at our department, putting the routers outside helped boost the reception. Visit our exact router coordinates <a href="https://goo.gl/maps/VJXb1KhEBAaPhz4x6">here</a>.</figcaption>
+    <figcaption> Coverage report from our location at UiO. Screenshot from the routers location-optimizing software to the left, and the Telenor coverage map of the Musicology department to the right. With borderline 5G coverage at our department, putting the routers outside helped boost the reception.</figcaption>
 </figure>
 
 ## Hardware and Software
 
-Besides the Huawei routers, we used our own pair of custom built systems for NPMs, namely our _Lola racks_. These hardware racks are essentially bundles of high-end software, audio/video peripherals and networking tools which can provide the lowest possible latency on audio/video transmissions over the network, given that all other the pieces of the puzzle are correct.
+Besides the Huawei routers, we used a pair of custom built NMP rack systems, namely our _Lola racks_. These hardware modules are essentially bundles of high-end software, audio/video peripherals and networking tools which can provide the lowest possible latency on audio/video transmissions over the network, given that all other the pieces of the puzzle are correct.
 
-Full documentation and more detailed info about these _Lola racks_ will be avaliable at our GitHub soon:
+Full documentation and more detailed info about these kits can (or will) be found on our GitHub:
 
 - [https://github.com/MCT-master/NMP-Portable-Kits](https://github.com/MCT-master/NMP-Portable-Kits)
 
@@ -77,72 +67,92 @@ Full documentation and more detailed info about these _Lola racks_ will be avali
 
 The _Lola racks_ get their name from the [Lola software](https://lola.conts.it), a high-end licenced AV transmission software developed by the GARR consortium in Italy. The software requires premium GPUs, soundcards with very stable ASIO drivers (such as RME that buffer as low as 32 samples), and specialized XIMEA video cameras that send uncompressed video via USB 3 to provide ultra-low latency audio and video transmission.
 
-In addition to Lola, we used [JackTrip](https://www.jacktrip.org), another top-grade AV transmission software developed by CCRMA at Stanford University. JackTrip is audio-only and enables us to use more "normal" equiptment and paramteres to transmit uncompressed audio over the network, which in turn enables us to tolerate more jitter in the network.
+In addition to Lola, we used [JackTrip](https://www.jacktrip.org), another top-grade AV transmission software developed by CCRMA at Stanford University. JackTrip is audio-only but enables us to use more "normal" equiptment and paramteres to transmit uncompressed audio. Therefore, jackTrip enables us to tolerate more network jitter than Lola.
 
 # Method
 
-To test the feasibility of using 5G networks for live NMPs, we need to find the best tradeoff between technical stability, quality and latency. Having low latency does not mean the quality of the AV signal is usable, and vice versa. Therefore, to do this, we did three principal investigations.
+To test the feasibility of using 5G networks for live NMPs, we need to locate the best tradeoff between technical stability, quality and latency. Having low latency does not mean the quality of the AV signal is usable, and vice versa. We did three principal experiments to investigate this.
 
 ## 1. Measuring the Bandwidth
 
-By using network utility Ping and [online network speed testing](https://www.speedtest.net/) we were able to make bandwidth measurements and ping time estimates throughout the experiment to ensure that our load did not exceed the capacity of the network.
+By using an [online network speed testing](https://www.speedtest.net/), we were able to quickly make bandwidth estimates throughout the experiment, ensuring that our load did not exceed the capacity of the network.
 
 ## 2. Finding the Sweet Spot
 
-Finding the "sweet-spot" refers to finding the right software and hardware parameters such that we guarantee stable and glitch-free transmission of audio and video over the network. We fine-tuned our system by sending a constant stream of audio and video back and forth between the _Lola racks_ on the 5G network. With this, we were able to monitor the AV quality in real-time and fine-tune our parameter to acheive a glitch-free and stable transmission.
+To find the best tradeoff between technical stability and quality, we configured a loopback between our two _Lola racks_ and sent constant streams of audio and video over the network. With this, we were able to monitor the AV quality of our transmission in real-time and fine-tune parameters to acheive a glitch-free and stable state.
 
 <figure style="float: none">
     <img src="/assets/image/2022_04_01_aleksati_5g_telenor_sweetspot_method.jpg" alt="5g_telenor_sweetspot_method" title="5g_telenor_sweetspot_method" width="auto" />
-    <figcaption>Routing diagram for finding AV sweet spots. By looping back the signal to its source, we could monitor the entire system chain for jitter, noise and other unwanted artifacts.</figcaption>
+    <figcaption>Routing diagram for our sweet spot test. Each side of the network represents a Lola rack. By creating a loopback system, we could monitor the entire chain for jitter, noise and other unwanted artifacts.</figcaption>
 </figure>
 
-For the audio, we sent 2 channels of 16bit 48kHZ uncompressed audio over the network and adjusted the internal buffer/sample size to find the lowest possible number that ensured stable audio transmission over a significant period (maybe 10minutes total). For video, we used a similar a approach; adjusting the framerate, compression amount, and video resolution to find the sweet spot.
+For the audio, we sent 2 channels of 16bit 48kHZ uncompressed audio and mostly adjusted the internal buffer/sample size to find the lowest possible number that ensured stable audio transmission over a significant period (maybe 10minutes total). For video, we used a similar a approach, only adjusting the framerate, compression amount, and video resolution to find the sweet spot.
 
 ## 3. Measuring the Latency
 
-With the software and hardware parameters fine-tuned, we could now measure the audio and video latency with a similar system routing.
+With the software and hardware parameters fine-tuned, we could now measure the audio and video latency with a similar loopback system routing:
 
 <figure style="float: none">
     <img src="/assets/image/2022_04_01_aleksati_5g_telenor_latency_method.jpg" alt="5g_telenor_latency_method" title="5g_telenor_latency_method" width="auto" />
-    <figcaption>Routing diagram for measuring the audio latency. By using a similar loopback approach, we are able to send and receive audio impulses over the network and measure the roundtrip time.</figcaption>
+    <figcaption>Routing diagram for measuring the audio latency. By using a loopback approach, we can measure the round-trip latency of NMP systems from a single location.</figcaption>
 </figure>
 
-To make the audio latency measurements, we used a third system (laptop with a designated audio interface) that sent and received audio from the one of the _Lola racks_. To avoid dealing with any unwanted internal system latency, we closed output 2 to input 1 on the laptop soundcard. Identical audio signals were then sent to outputs 1 and 2 so we could measure the latency of our external system by looking at the temporal offset between input 1 and 2. In addition, by using the `-x1` argument in jackTrip we were able to measure only the audio latency over the network, bypassing the latency cause by introducing a third system.
+### Audio Latency
 
-<figure style="float: left">
-    <div style="display:flex;">
-        <div>
-            <img src="/assets/image/2022_04_01_aleksati_5g_telenor_latency_third_laptop_routing.png" 
-            alt="5g_telenor_latency_third_laptop_routing" 
-            title="5g_telenor_latency_third_laptop_routing" 
-            width="auto%" />
-        </div>
-        <div>
-            <img src="/assets/image/2022_04_01_aleksati_5g_telenor_video_latency_routing.png" 
-            alt="5g_telenor_video_latency_routing" 
-            title="5g_telenor_video_latency_routing" 
-            width="95%"/>
-        </div>
-    </div>
-    <figcaption>Additional routing diagrams of our latency measurement setup. On the left, the third system for measuring the audio latency. On the right, the general idea behind the video latency measurement.</figcaption>
+For measuring the audio latency, we conducted two test using both JackTrip and Lola:
+
+- **Digital round-trip time (digital RTT)**
+
+For digital RTT we measured the audio latency when sending an impulse from one Pc to the other, and back again. With this method, we effectively bypass the external soundcards and mixers. This gives us a good understanding of the RTT for uncompressed audio just over the network. We used jackTrip to establish a client-server connection between the two machines. Then, by using the `-x1` argument client-side, we were able to record the latency.
+
+- **Analog round-trip time (analog RTT)**
+
+For analog RTT we measured the latency for audio to travel back and forth through the entire system. We used another laptop with a designated audio interface to make these measurements. From this secondary soundcard, we sent audio impulses to the _Lola racks_ from output 1 and received the signal back again on input 1. For reference points, we closed output 2 to input 2 on the soundcard and sent identical audio impulses to outputs 1 and 2. Then, in software, we measured the analog RTT by looking at the temporal offset between inputs 1 and 2.
+
+<figure style="float: none">
+<img src="/assets/image/2022_04_01_aleksati_5g_telenor_latency_third_laptop_routing.png" 
+    alt="5g_telenor_latency_third_laptop_routing" 
+    title="5g_telenor_latency_third_laptop_routing" 
+    width="90%" />
+    <figcaption>Routing diagram of our secondary system for measuring the analog RTT. The laptop sends a short impulse to both outputs on the audio interface and records both inputs. The time difference between input 1 and 2 is the RTT.</figcaption>
 </figure>
 
-For video, we took advantage of the fact that our two Lola racks were in the same room. We sent a XIMEA video feed from one computer to the other (over the 5G network) and displayed both images in full-screen on the two PC monitors. Then, we filmed the two screens with a secondary camera and produced an appropriate excitation (a clap) in front of the XIMEA camera. The footage from the secondary camera was used to reveal the video latency by counting the number of frames of delay between the two monitors.
+### Video Latency
+
+For video, we took advantage of the fact that our two _Lola racks_ were in the same room. We sent a video feed from the Ximea camera through Lola over the network and displayed both images in full-screen on the computer monitors. We filmed the two monitors with a secondary camera before doing some simple claps 👏 in front of the Ximea camera feed. Then, we used the footage from the secondary camera to reveal the video latency by counting the number of frames of delay between the two monitors.
+
+<figure style="float: none">
+     <img src="/assets/image/2022_04_01_aleksati_5g_telenor_video_latency_routing.png" 
+        alt="5g_telenor_video_latency_routing" 
+        title="5g_telenor_video_latency_routing" 
+        width="90%"/>
+    <figcaption>Routing diagram of our video latency measurement.</figcaption>
+</figure>
 
 # Results
 
 ## Bandwidth
 
-Our speed testing results varied throughout the experiment, but multiple tests on two different servers showed an average of around 400Mbps download speed, 60Mbps upload speed, and a ping time of about 30-40ms (between one machine and the server). This indicates that transmitting, for instance, 16bit uncompressed audio at 48Khz, which requires 1.5Mbps bandwidth per channel, should be no problem. However, adding video would render us closer to the 100Mpbs/1GB range where things could get interesting. The latency results revealed an average network utility ping time of 130-200ms between our two machines, which is was more concerning.
+At our position, the network speed results averaged at around 400Mbps for download and 60Mbps for upload. This indicates that transmitting 16bit uncompressed audio at 48Khz, which requires 1.5Mbps of bandwidth, was no problem. However, adding video would render us closer to the 100Mpbs/1GB range where things could get interesting.
 
 <figure style="float: none">
     <img src="/assets/image/2022_04_01_aleksati_5g_telenor_speedtest.png" alt="5g_telenor_speedtest" title="5g_telenor_speedtest" width="80%" />
-    <figcaption>Representative speed test between the Department of Musciology, UiO and a server in Oslo through a Huawei MBB Pilot 5G Router on a limited 5G network.</figcaption>
+    <figcaption>Representative speed test between two machines at UiO, connected to a first-generation 5G network through two Huawei MBB Pilot 5G Routers.</figcaption>
 </figure>
 
 ## Sweet Spot
 
-## Latency
+## Audio Latency
+
+**JackTrip**
+
+| Sampling Rate | Buffersize | Digital RTT | Analog RTT |
+| ------------- | ---------- | ----------- | ---------- |
+| 48Khz         | 512        | 95-100ms    | **165ms**  |
+
+<div class="waveform" id="hundredandsixtyfivemsdemo"></div>
+
+<br/>
 
 With NMPs, its
 Important to explore the best tradeoff between stability/quality and latency
@@ -233,26 +243,29 @@ code {
 
 <script>
 
-const audioSamples = [
-    {
-        path: "/assets/audio/2022_04_01_aleksati_25ms_delay_demo.mp3",
-        anchor: "source",
-        color: "#ffa600",
-        alert: false,
-    },
+const myAudio = [
      {
-         path: "/assets/audio/2022_04_01_aleksati_30ms_delay_demo.mp3",
-         anchor: "target",
-         color: "#328d78",
+         path: "/assets/audio/2022_04_01_aleksati_165ms_delay_demo.mp3",
+         anchor: "hundredandsixtyfivemsdemo",
+         color: "#ffa600",
          alert: false,
-     }
+     },
+    {
+        path: "/assets/audio/2022_04_01_aleksati_30ms_delay_demo.mp3",
+        anchor: "thirtymsdemo",
+        color: "#328d78",
+        alert: false,
+    }
 ];
 
 const addPlayText = (sample) => "Play" + (sample.alert ? "  ⚠️" : "");
 
-audioSamples.forEach((sample) => {
+myAudio.forEach((sample) => {
     const id = sample.anchor;
     const waveformDiv = document.querySelector("#" + id);
+
+    console.log(sample);
+
 
     const playButton = document.createElement("button");
     playButton.id = "button-" + id;
