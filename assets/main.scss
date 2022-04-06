@@ -35,7 +35,7 @@ $spacing-unit: 30px;
 // Colors
 $text-color: rgb(0, 0, 0);
 $brand-color: rgb(0, 0, 0);
-$background-color: #fdfdfd;
+$background-color: #ffffff; //#fdfdfd;
 //$brand-color: #8764b4;
 //$brand-color: rgb(54, 54, 54);
 $brand-color-dark: darken($brand-color, 50%);
@@ -357,9 +357,9 @@ form#contact-form {
 #list {
   text-align: left;
   margin: -15px auto auto auto;
-  padding-top: 15px;
-  width: 90%;
-  max-height: 620px;
+  padding: 15px;
+  // width: 90%;
+  // max-height: 620px;
   overflow: auto;
 }
 
@@ -370,18 +370,18 @@ form#contact-form {
 
 .item.item--result {
   margin: 15px auto;
-  background-color: rgba(240, 240, 240, 1);
+  background-color: rgb(255, 255, 255); //rgba(240, 240, 240, 1);
   // background-color: $grey-color;
-  border-radius: 20px;
-  transition: 0.1s;
+  border-radius: 8px;
+  border: 1px solid $brand-color;
+  transition: 0.2s;
 
   &:hover {
-    background-color: rgba(240, 240, 240, 0.75);
-    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.3);
+    box-shadow: rgba(255, 255, 255, 0.2) -1px 1px 0px 1px inset, rgba(0, 0, 0, 0.7) -1px 1px 0px 1px;
+  }
 
-    .article.typeset > h4 {
-      background-color: rgba(230, 230, 230, 0.75);
-    }
+  a {
+    color: $text-color;
   }
 }
 
@@ -390,8 +390,10 @@ form#contact-form {
 
   & > h4 {
     color: $text-color;
-    background-color: rgba(230, 230, 230, 1);
-    border-radius: 20px 20px 0 0;
+    font-weight: 600;
+    // background-color: rgba(230, 230, 230, 1);
+    border-bottom: 1px solid $brand-color;
+    // border-radius: 20px 20px 0 0;
     margin: -20px -20px 10px -20px;
     padding: 20px 20px 10px 20px;
   }
