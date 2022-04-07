@@ -17,22 +17,45 @@ At [MCT](https://www.uio.no/english/studies/programmes/mct-master/), we have yea
 
 <br/>
 
-In late 2021, we got in touch with [Telenor Research](https://www.telenor.com/innovation/research/) to explore the feasibility of conducting NMPs over 5G. Telenor is currently involved in multiple EU-funded projects that, in part, explore the application of 5G with NMPs, including [Fudge5G](https://fudge-5g.eu/en) and [5GMediaHub](https://www.5gmediahub.eu/).
+In late 2021, we got in touch with [Telenor Research](https://www.telenor.com/innovation/research/) to explore the feasibility of conducting NMPs over 5G. Telenor is currently involved in multiple EU-funded projects that, in part, explore the application of 5G with NMPs, including [Fudge5G](https://fudge-5g.eu/en) and [5GMediaHub](https://www.5gmediahub.eu/). To start, Telenor sent us a couple of routers to use on their first-generation non-standalone 5G network. A week later, we got the opportunity to travel to Elverum to experiment with a standalone 5G network on wheels.
 
-<!-- Add that we did it in two locations -->
-
-To start, Telenor sent us a couple of routers to use on their first-generation 5G network. In this post, we present the results from our first experiment, including the **speed**, **stability**, and **latency** of audio/video transmission over a 5G network.
+In this post, we present the preliminary results from our experiments, including the **speed**, **stability**, and **latency** of audio/video transmission over a 5G network.
 
 # Experiment Setup
 
 <!-- We did two experiments at two different locations.. remove the time, place and coverage heading -->
 
-It's important to clarify that these experiments were conducted on a first-generation 5G network, also called a _non-standalone_ (NSA) core network. To oversimplify things, we can think about NSA as 5G bandwidth on a 4G infrastructure. This means that our results are not representative of a fully-fledged 5G network, or a _standalone_ (SA) core network. However, Telenor was nice enough to configure our routers to access specific _access point names_ (APNs). This configuration enabled peer-2-peer connectivity between our machines with faster packet routing. For the experiment, we used two Huawei MBB Pilot 5G Routers.
+The first experiment was conducted on a first-generation 5G network, also called a _non-standalone_ (NSA) core network. To oversimplify things, we can think about NSA as 5G bandwidth on a 4G infrastructure. However, Telenor was nice enough to configure our routers to access specific _access point names_ (APNs). This configuration enabled peer-2-peer connectivity between our machines with faster packet routing. For the experiment, we used two Huawei MBB Pilot 5G Routers.
+
+<!-- Then the other network -->
+
+This means that our results are not representative of a fully-fledged 5G network, or a _standalone_ (SA) core network.
 
 <figure style="float: none">
    <img src="/assets/image/2022_04_01_aleksati_5g_telenor_modems_outside_salen1.jpg" alt="5g_telenor_modems_outside_salen2" title="5g_telenor_modems_outside_salen2" width="80%" />
    <figcaption>Two Huawei MBB Pilot 5G Routers, and a technician, in action outside the Department of Musicology, UiO.</figcaption>
 </figure>
+
+<!-- Slideshow container -->
+<div class="slideshow-container">
+    <div class="mySlides fade">
+      <img src="/assets/image/2022_04_01_aleksati_5g_telenor_modems_outside_salen1.jpg"  style="width:100%">
+      <div class="slideShowCaption">Caption Text</div>
+    </div>
+    <div class="mySlides fade">
+      <img src="/assets/image/2022_04_01_aleksati_5g_telenor_modem_coverage.png"  style="width:100%">
+      <div class="slideShowCaption">Caption Two</div>
+    </div>
+    <!-- Next and previous buttons -->
+    <a class="slideShowPrev" onclick="plusSlides(-1)">&#10094;</a>
+    <a class="slideShowNext" onclick="plusSlides(1)">&#10095;</a>
+</div>
+
+<!-- The dots/circles -->
+<div class="slideShowDotContainer">
+  <span class="slideShowDot" onclick="currentSlide(1)"></span>
+  <span class="slideShowDot" onclick="currentSlide(2)"></span>
+</div>
 
 <!-- Insert picture of the van and setup -->
 
@@ -137,9 +160,9 @@ For video, we took advantage of the fact that our two _Lola racks_ were in the s
 
 # Results
 
-## UiO on NSA
+## UiO with the first-generation 5G (NSA)
 
-At our UiO location, the NSA network speed results averaged at around 400Mbps for download and 60Mbps for upload. This indicates that our transmission of 16bit uncompressed audio at 48Khz should have been no issue for the network, requiring about 1.5Mbps of bandwidth. However, adding video would render us closer to the 100Mpbs-1GB range where things could get interesting.
+At our UiO location, the NSA bandwidth averaged at around 400Mbps for download and 60Mbps for upload. This indicates that our transmission of 16bit uncompressed audio at 48Khz should have been no issue for the network, requiring about 1.5Mbps of bandwidth. However, adding video would render us closer to the 100Mpbs-1GB range where things could get interesting.
 
 The transmission sweet spot for audio was achieved using buffersize of 512. Experimenting with lower buffersizes resulted in massive jitter, noise, and audio dropouts. Unfortunately, the Lola software only supports buffersizes of either 64 or 32 samples. Therefore, we used jackTrip as our main audio transmission software. The optimal audio settings were following:
 
@@ -155,34 +178,22 @@ For some perspective, here is what 165ms of delay sounds like (from left to righ
 
 <br/>
 
-For video, we were able to use the Lola software with the Ximea low-latency cameras. After experimenting with various video settings and buffering tools, we achieve a stable transmission with minimal framedrops using the following settings:
+For video, we were able to use the Ximea low-latency cameras through the Lola software. After experimenting with various video settings and buffering tools, we achieve a stable transmission with minimal framedrops using the following settings:
 
 | Resolution         | FPS | Compression                      | Estimated Bandwidth |
 | ------------------ | --- | -------------------------------- | ------------------- |
 | 1024x576 RGB24 bit | 60  | M-JPEG compression (quality 60%) | 25.75 Mbit          |
 
-Using the
+With this configuration, we measured the one-way video latency between our machines to be approximatley 7 frames. At a framerate of 60FPS, this is equal to a 116ms one-way latency, or **232ms** RTT.
 
-for video:
+<figure style="float: none">
+  <video width="auto" controls>
+    <source src="https://drive.google.com/uc?&id=1sjLjNDm7uXAxQF6vCUWW25EUcB-b9Bwp" type='video/mp4'>
+  </video>
+  <figcaption>The capture of the video latency between the two Lola machines. The playback speed is 50%, so you notice double the latency than the measured one.</figcaption>
+</figure>
 
-7 frames of latency one-way = 116ms
-
-With NMPs, its
-Important to explore the best tradeoff between stability/quality and latency
-
-We only got decent result using 512 buffer size. That was the lowest buffersize we could used that sufficiently tolerated the network jitter. Otherwise, the system would be completely unusable due to massive dropouts. Again, we are only intereted in what actually works, practically.
-
-Tuning buffers in Lola helped, but did not work ..
-
-audio roundtrip was 165ms. very stable. one-way latency
-the network roundtrip was 95-100ms.
-
-Video was better. we got a decent result using ..
-adjust video buffer
-Latency of 116ms for video.
-Show the video
-
-## Elverum on 5G NOW
+## Elverum with 5G-On-Wheels (SA)
 
 <!-- Second experiment results -->
 
@@ -295,9 +306,6 @@ const addPlayText = (sample) => "Play" + (sample.alert ? "  ⚠️" : "");
 myAudio.forEach((sample) => {
     const id = sample.anchor;
     const waveformDiv = document.querySelector("#" + id);
-
-    console.log(sample);
-
 
     const playButton = document.createElement("button");
     playButton.id = "button-" + id;
