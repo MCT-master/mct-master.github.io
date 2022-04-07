@@ -325,14 +325,15 @@ ul.pager {
     transition: 0.2s;
 
     &:hover {
-      box-shadow: rgba(255, 255, 255, 0.2) -1px 1px 0px 1px inset, rgba(0, 0, 0, 0.7) -1px 1px 0px 1px;
+      box-shadow: rgba(255, 255, 255, 0.2) -1px 1px 0px 1px inset,
+        rgba(0, 0, 0, 0.7) -1px 1px 0px 1px;
     }
 
     &:hover::before {
       // This is to override to link animation on the post cards
       // link animation definitions begin on line 178.
-     content: none;
-   }
+      content: none;
+    }
   }
 }
 
@@ -377,7 +378,8 @@ form#contact-form {
   transition: 0.2s;
 
   &:hover {
-    box-shadow: rgba(255, 255, 255, 0.2) -1px 1px 0px 1px inset, rgba(0, 0, 0, 0.7) -1px 1px 0px 1px;
+    box-shadow: rgba(255, 255, 255, 0.2) -1px 1px 0px 1px inset,
+      rgba(0, 0, 0, 0.7) -1px 1px 0px 1px;
   }
 
   a {
@@ -463,7 +465,7 @@ form#contact-form {
   //   border-bottom: 0.1em dotted #dedede;
   padding: 10px 0;
   margin-bottom: 0;
-  
+
   .post-button {
     // background-color: darken($background-color, 2%);
     display: flex;
@@ -480,14 +482,15 @@ form#contact-form {
 
     &:hover {
       // box-shadow: 0 0 4px rgba(0, 0, 0, 0.3);
-      box-shadow: rgba(255, 255, 255, 0.2) -1px 1px 0px 1px inset, rgba(0, 0, 0, 0.7) -1px 1px 0px 1px;
+      box-shadow: rgba(255, 255, 255, 0.2) -1px 1px 0px 1px inset,
+        rgba(0, 0, 0, 0.7) -1px 1px 0px 1px;
     }
 
     &:hover::before {
       // This is to override to link animation on the post cards
       // link animation definitions begin on line 178.
-     content: none;
-   }
+      content: none;
+    }
 
     .post-left {
       display: block;
@@ -649,3 +652,97 @@ form#contact-form {
     padding: 0px !important;
   }
 }
+
+//////// ---------------SLIDESHOW----------------////////
+//////// ---- slideshow.js in utils folder ------////////
+//////// ---- included in post.html ------////////
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+
+/* Hide the images by default */
+.mySlides {
+  display: none;
+}
+
+/* Next & previous buttons */
+.slideShowPrev,
+.slideShowNext {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: $brand-color;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.slideShowNext {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.slideShowPrev:hover,
+.slideShowNext:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+/* Caption text */
+.slideShowCaption {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+/* The dots/bullets/indicators */
+
+.slideShowDotContainer {
+  text-align: center;
+}
+
+.slideShowDot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.slideShowActive,
+.slideShowDot:hover {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@keyframes fade {
+  from {
+    opacity: 0.4;
+  }
+  to {
+    opacity: 1;
+  }
+}
+///////////////END OF SLIDESHOW//////////////////////////
