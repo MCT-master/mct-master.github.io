@@ -25,61 +25,38 @@ In this post, we present the preliminary results from our experiments, including
 
 <!-- We did two experiments at two different locations.. remove the time, place and coverage heading -->
 
-The first experiment was conducted on a first-generation 5G network, also called a _non-standalone_ (NSA) core network. To oversimplify things, we can think about NSA as 5G bandwidth on a 4G infrastructure. However, Telenor was nice enough to configure our routers to access specific _access point names_ (APNs). This configuration enabled peer-2-peer connectivity between our machines with faster packet routing. For the experiment, we used two Huawei MBB Pilot 5G Routers.
+We conducted two experiments in two seperate locations at two seperate times on two different 5G networks.
 
-<!-- Then the other network -->
+1. The first experiment was carried out at the Department of Musicology, University of Oslo, on March 30th, 2022, on a first-generation 5G network, also known as a `non-standalone core network` (NSA). To oversimplify things, we can think about NSA as 5G bandwidth on a 4G infrastructure. However, Telenor was nice enough to configure our routers to access specific _access point names_ (APNs). This configuration enabled peer-2-peer connectivity between our machines with faster packet routing.
 
-This means that our results are not representative of a fully-fledged 5G network, or a _standalone_ (SA) core network.
+2. The second experiment was carried out in Elverum, close to Terningmoen Army Base, on April 4th, 2022, on a private 5G LAN. The network we borrowed is commonly known as the 5G network-on-wheels (NOW), a fully mobile `standalone core network` (SA) mostly used for experimental testing of various 5G applications.
 
-<figure style="float: none">
-   <img src="/assets/image/2022_04_01_aleksati_5g_telenor_modems_outside_salen1.jpg" alt="5g_telenor_modems_outside_salen2" title="5g_telenor_modems_outside_salen2" width="80%" />
-   <figcaption>Two Huawei MBB Pilot 5G Routers, and a technician, in action outside the Department of Musicology, UiO.</figcaption>
-</figure>
+For both experiments, we connected to the network using a pair of Huawei MBB Pilot 5G Routers. In experiment nr.1, we configured the routers to be in _Bridge mode_, hoping that it would create a more stable connection between our routers and boost performance.
 
 <!-- Slideshow container -->
-<div class="slideshow-container">
+<!-- <div class="slideshow-container" id="test1">
     <div class="mySlides fade">
-      <img src="/assets/image/2022_04_01_aleksati_5g_telenor_modems_outside_salen1.jpg"  style="width:100%">
-      <div class="slideShowCaption">Caption Text</div>
+      <figure style="float: none">
+        <img
+          src="/assets/image/2022_04_01_aleksati_5g_telenor_modems_outside_salen1.jpg"
+          alt="5g_telenor_modems_outside_salen2"
+          title="5g_telenor_modems_outside_salen2"
+          width="auto" />
+        <figcaption>Two Huawei MBB Pilot 5G Routers, and a technician, in action outside the Department of Musicology, UiO. Ready to test a 5G NSA network.</figcaption>
+      </figure>
     </div>
-    <div class="mySlides fade">
-      <img src="/assets/image/2022_04_01_aleksati_5g_telenor_modem_coverage.png"  style="width:100%">
-      <div class="slideShowCaption">Caption Two</div>
-    </div>
-    <!-- Next and previous buttons -->
     <a class="slideShowPrev" onclick="plusSlides(-1)">&#10094;</a>
     <a class="slideShowNext" onclick="plusSlides(1)">&#10095;</a>
-</div>
-
-<!-- The dots/circles -->
-<div class="slideShowDotContainer">
-  <span class="slideShowDot" onclick="currentSlide(1)"></span>
-  <span class="slideShowDot" onclick="currentSlide(2)"></span>
-</div>
+  <div class="slideShowDotContainer">
+    <span class="slideShowDot" id="1" onclick="currentSlide(this)"></span>
+  </div>
+</div> -->
 
 <!-- Insert picture of the van and setup -->
 
-## Time, Place and Coverage
-
-The experiments were carried out on March 30th, 2022, at the Department of Musicology, University of Oslo. We got good estimates of the network reception using the routers' own location-optimizing software, and Telenor's [online coverage map](https://www.telenor.no/dekning/#dekningskart). Since the 5G reception inside our department was quite poor, we placed the routers outside and further south of our department. Here, we managed to get a pretty stable 75% coverage rate with the devices placed approximately at 1.5 meters distance from each other.
-
-<figure style="float: left">
-    <div style="display:flex;">
-        <div>
-            <img src="/assets/image/2022_04_01_aleksati_5g_telenor_modem_coverage.png" alt="5g_telenor_modems_outside" title="5g_telenor_modems_outside" width="96%" />
-        </div>
-        <div>
-            <img src="/assets/image/2022_04_01_aleksati_5g_telenor_coverage.jpg" alt="5g_telenor_coverage" title="5g_telenor_coverage" width="auto"/>
-        </div>
-    </div>
-    <figcaption> Coverage report from our location at UiO. Screenshot from the routers location-optimizing software to the left, and the Telenor coverage map of the Musicology department to the right. With borderline 5G coverage at our department, putting the routers outside helped boost the reception.</figcaption>
-</figure>
-
-<!-- Second experiment -->
-
 ## Hardware and Software
 
-Besides the Huawei routers, we used a pair of custom-built NMP rack systems, namely our _Lola racks_. These systems are essentially bundles of high-end software, audio/video peripherals and networking tools which can provide the lowest possible latency on audio/video transmissions over the network, given that all other the pieces of the puzzle are correct.
+Besides the Huawei routers, we used MCT's portable and custom-built NMP kits, namely our _Lola racks_. These systems are essentially bundles of high-end software, audio/video peripherals and networking tools which can provide the lowest possible latency on audio/video transmissions over the network, given that all other the pieces of the puzzle are correct.
 
 Full documentation and more detailed info about these kits can (or will) be found on our GitHub:
 
@@ -92,19 +69,17 @@ Full documentation and more detailed info about these kits can (or will) be foun
     <figcaption>A pair of Lola racks in action, custom designed to provide ultra low-latency for NMPs.</figcaption>
 </figure>
 
-The _Lola racks_ get their name from the [Lola software](https://lola.conts.it), a high-end licenced AV transmission software developed at the Trieste Conservatory (Italy) in collaboration with GARR, the Italian Research and Academic Network. The software requires premium GPUs, soundcards with very stable ASIO drivers (such as RME that buffer as low as 32 samples), and specialized [Ximea video cameras](https://www.ximea.com/en/products/cameras-filtered-by-sensor-types/mq013mg-e2) that send uncompressed video via USB-3 to provide ultra-low latency audio and video transmission.
+The _Lola racks_ get their name from the [Lola software](https://lola.conts.it), a high-end licenced AV transmission software developed at the Trieste Conservatory (Italy) in collaboration with GARR, the Italian Research and Academic Network. To provide ultra-low latency, Lola requires premium GPUs, soundcards with very stable ASIO drivers (that support buffersize of 32 and 64 samples), and and specialized [Ximea video cameras](https://www.ximea.com/en/products/cameras-filtered-by-sensor-types/mq013mg-e2) that send uncompressed video via USB-3.
 
-In addition to Lola, we used [JackTrip](https://www.jacktrip.org), another top-grade AV transmission software developed by CCRMA at Stanford University (USA). JackTrip is audio-only but enables us to use more "normal" equiptment and paramteres to transmit uncompressed audio. Therefore, jackTrip enables us to tolerate more network jitter than Lola.
+In addition to Lola, we used [JackTrip](https://www.jacktrip.org), another top-grade AV transmission software developed by CCRMA at Stanford University (USA). JackTrip is audio-only but enables us to use higher buffersizes to transmit uncompressed audio. Therefore, using jackTrip can help tolerate more network jitter and unstable connections.
 
 # Method
 
-<!-- And using iPerf! -->
-
 Having low latency does not mean the quality of the AV signal is usable in a practical sense, and vice versa. Therefore, to test the feasibility of using 5G networks for NMPs, we sought to find the best tradeoff between technical stability, quality and latency in AV transmissions.
 
-## 1. Measuring the Bandwidth
+## 1. Measuring the Network Coverage and Bandwidth
 
-By using an [online network speed testing](https://www.speedtest.net/), we were able to make network bandwidth estimates throughout the experiment, ensuring that our load did not exceed the capacity of the network.
+By using the iPerf networking utilities, the Huawei routers' own location-optimizing software, Telenor's [online coverage map](https://www.telenor.no/dekning/#dekningskart) and [online tools](https://www.speedtest.net/), we were able to make network bandwidth and coverage estimates throughout the experiments, ensuring that our load did not exceed the capacity of the network.
 
 ## 2. Finding the Sweet Spots
 
@@ -162,7 +137,98 @@ For video, we took advantage of the fact that our two _Lola racks_ were in the s
 
 ## UiO with the first-generation 5G (NSA)
 
-At our UiO location, the NSA bandwidth averaged at around 400Mbps for download and 60Mbps for upload. This indicates that our transmission of 16bit uncompressed audio at 48Khz should have been no issue for the network, requiring about 1.5Mbps of bandwidth. However, adding video would render us closer to the 100Mpbs-1GB range where things could get interesting.
+We discovered that the reception inside our department was poor. After inspecting Telenor's coverage map of our location, we decided to place the routers outside further south to optimize coverage (see figure something). According to the routers' location-optimizing software, we achieved a stable 75% 5G coverage in this location. Here, we measured a stable bandwidth of 400Mbps download and 60Mbps upload speed.
+
+<!-- PITURES OF COVERAGE AND BANDWIDTH IN SLIDESHOW -->
+
+<!-- Slideshow container -->
+<!-- <div class="slideshow-container" id="test2">
+    <div class="mySlides fade">
+      <figure style="float: none">
+        <img
+          src="/assets/image/2022_04_01_aleksati_5g_telenor_modem_coverage.png"
+          alt="5g_telenor_modems_coverage"
+          title="5g_telenor_modems_coverage"
+          width="80%" />
+        <figcaption>Coverage report from our Huawei routers' internal software.</figcaption>
+      </figure>
+    </div>
+    <div class="mySlides fade">
+      <figure style="float: none">
+        <img
+          src="/assets/image/2022_04_01_aleksati_5g_telenor_coverage.jpg"
+          alt="5g_telenor_coverage"
+          title="5g_telenor_coverage"
+          width="80%" />
+        <figcaption>Telenor 5G coverage map of our UiO location. With borderline coverage at our department, putting the routers outside helped boost the reception. </figcaption>
+      </figure>
+    </div>
+    <div class="mySlides fade">
+      <figure style="float: none">
+        <img
+          src="/assets/image/2022_04_01_aleksati_5g_telenor_speedtest.png"
+          alt="5g_telenor_speedtest.png"
+          title="5g_telenor_speedtest.png"
+          width="80%" />
+        <figcaption>Representative speedtest results.</figcaption>
+      </figure>
+    </div>
+    <a class="slideShowPrev" onclick="plusSlides(-1)">&#10094;</a>
+    <a class="slideShowNext" onclick="plusSlides(1)">&#10095;</a>
+  <div class="slideShowDotContainer">
+    <span class="slideShowDot" id="1" onclick="currentSlide(this)"></span>
+    <span class="slideShowDot" id="2" onclick="currentSlide(this)"></span>
+    <span class="slideShowDot" id="3" onclick="currentSlide(this)"></span>
+  </div>
+</div> -->
+
+<!-- for testing -->
+<div class="slideshow-container" id="test2">
+    <div class="mySlides fade">
+      <figure style="float: none">
+        <img 
+          src="/assets/image/2022_04_01_aleksati_5g_telenor_modem_coverage.png" 
+          alt="5g_telenor_modems_coverage"
+          title="5g_telenor_modems_coverage"
+          width="80%" />
+        <figcaption>Coverage report from our Huawei routers' internal software.</figcaption>
+      </figure>
+    </div>
+    <div class="mySlides fade">
+      <figure style="float: none">
+        <img 
+          src="/assets/image/2022_04_01_aleksati_5g_telenor_coverage.jpg" 
+          alt="5g_telenor_coverage"
+          title="5g_telenor_coverage"
+          width="80%" />
+        <figcaption>Telenor 5G coverage map of our UiO location. With borderline coverage at our department, putting the routers outside helped boost the reception. </figcaption>
+      </figure>
+    </div>
+    <div class="mySlides fade">
+      <figure style="float: none">
+        <img 
+          src="/assets/image/2022_04_01_aleksati_5g_telenor_speedtest.png" 
+          alt="5g_telenor_speedtest.png"
+          title="5g_telenor_speedtest.png"
+          width="80%" />
+        <figcaption>Representative speedtest results.</figcaption>
+      </figure>
+    </div>
+    <a class="slideShowPrev" onclick="plusSlides(-1)">&#10094;</a>
+    <a class="slideShowNext" onclick="plusSlides(1)">&#10095;</a>
+</div>
+
+<!-- <figure style="float: left">
+    <div style="display:flex;">
+        <div>
+            <img src="/assets/image/2022_04_01_aleksati_5g_telenor_modem_coverage.png" alt="5g_telenor_modems_outside" title="5g_telenor_modems_outside" width="96%" />
+        </div>
+        <div>
+            <img src="/assets/image/2022_04_01_aleksati_5g_telenor_coverage.jpg" alt="5g_telenor_coverage" title="5g_telenor_coverage" width="auto"/>
+        </div>
+    </div>
+    <figcaption> Coverage report from our location at UiO. Screenshot from the routers location-optimizing software to the left, and the Telenor coverage map of the Musicology department to the right. With borderline 5G coverage at our department, putting the routers outside helped boost the reception.</figcaption>
+</figure> -->
 
 The transmission sweet spot for audio was achieved using buffersize of 512. Experimenting with lower buffersizes resulted in massive jitter, noise, and audio dropouts. Unfortunately, the Lola software only supports buffersizes of either 64 or 32 samples. Therefore, we used jackTrip as our main audio transmission software. The optimal audio settings were following:
 
@@ -172,11 +238,11 @@ The transmission sweet spot for audio was achieved using buffersize of 512. Expe
 
 Using the above settings, we measured a 95-100ms digital RTT and a **165ms** analog RTT. Each time the audio travels through the soundcard, it has to buffer 512 samples at 48Khz, which takes about 10ms. Doing an analog RTT measurement with our current method requires the audio to travel through the soundcard and mixers a total of 4 times. With this, we see that our two audio RRT measurements are quite consistent.
 
-For some perspective, here is what 165ms of delay sounds like (from left to right ear):
+<!-- For some perspective, here is what 165ms of delay sounds like (from left to right ear):
 
 <div class="waveform" id="hundredandsixtyfivemsdemo"></div>
 
-<br/>
+<br/> -->
 
 For video, we were able to use the Ximea low-latency cameras through the Lola software. After experimenting with various video settings and buffering tools, we achieve a stable transmission with minimal framedrops using the following settings:
 
@@ -287,12 +353,12 @@ code {
 <script>
 
 const myAudio = [
-     {
-         path: "/assets/audio/2022_04_01_aleksati_165ms_delay_demo.mp3",
-         anchor: "hundredandsixtyfivemsdemo",
-         color: "#ffa600",
-         alert: false,
-     },
+    //  {
+    //      path: "/assets/audio/2022_04_01_aleksati_165ms_delay_demo.mp3",
+    //      anchor: "hundredandsixtyfivemsdemo",
+    //      color: "#ffa600",
+    //      alert: false,
+    //  },
     {
         path: "/assets/audio/2022_04_01_aleksati_30ms_delay_demo.mp3",
         anchor: "thirtymsdemo",

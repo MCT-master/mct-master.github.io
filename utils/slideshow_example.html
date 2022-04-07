@@ -1,0 +1,50 @@
+<!-- Blog implementation -->
+<div class="slideshow-container">
+  <!-- include the images inside a mySlides fade div -->
+  <div class="mySlides fade">
+    <figure style="float: none">
+      <img src="path/to/image" alt="title" title="title" width="auto" />
+      <figcaption>Caption One</figcaption>
+    </figure>
+  </div>
+  <div class="mySlides fade">
+    <figure style="float: none">
+      <img src="path/to/image" alt="title" title="title" width="auto" />
+      <figcaption>Caption Two</figcaption>
+    </figure>
+  </div>
+  <div class="mySlides fade">
+    <figure style="float: none">
+      <img src="path/to/image" alt="title" title="title" width="auto" />
+      <figcaption>Caption Three</figcaption>
+    </figure>
+  </div>
+  <!-- Next and previous buttons on the side of the images-->
+  <a class="slideShowPrev" onclick="plusSlides(-1)">&#10094;</a>
+  <a class="slideShowNext" onclick="plusSlides(1)">&#10095;</a>
+</div>
+<!-- The dots/circles underneath the slideshow container -->
+<!-- IMPORTANT!! Copy and add one span element for every image/content you have in the slideshow -->
+<div class="slideShowDotContainer">
+  <span class="slideShowDot" onclick="currentSlide(1)"></span>
+  <span class="slideShowDot" onclick="currentSlide(2)"></span>
+  <span class="slideShowDot" onclick="currentSlide(3)"></span>
+</div>
+
+<!-- Alternative implementation -->
+<!-- <div class="slideshow-container">
+  <div class="mySlides fade">
+    <img src="path/to/image" width="auto" />
+    <div class="slideShowCaption">Caption Text</div>
+  </div>
+  <div class="mySlides fade">
+    <img src="path/to/image" width="auto" />
+    <div class="slideShowCaption">Caption Two</div>
+  </div>
+  <a class="slideShowPrev" onclick="plusSlides(-1)">&#10094;</a>
+  <a class="slideShowNext" onclick="plusSlides(1)">&#10095;</a>
+</div>
+<div class="slideShowDotContainer">
+  <span class="slideShowDot" onclick="currentSlide(1)"></span>
+  <span class="slideShowDot" onclick="currentSlide(2)"></span>
+</div> -->
