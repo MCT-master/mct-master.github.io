@@ -238,8 +238,9 @@ h4,
 h5,
 h6 {
   font-family: $heading-family;
-  font-weight: $base-font-weight-links;
+  font-weight: 600; //$base-font-weight-links;
   color: $text-color;
+  margin-bottom: 0px;
   //   padding-top: 5%;
 }
 
@@ -253,11 +254,11 @@ h6 {
       @include relative-font-size(1.652);
     }
 
-    &:after {
-      content: " ";
-      display: block;
-      border: 1px solid $grey-color-light;
-    }
+    // &:after {
+    //   content: " ";
+    //   display: block;
+    //   border: 1px solid $grey-color-light;
+    // }
   }
 
   h2 {
