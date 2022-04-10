@@ -502,6 +502,7 @@ form#contact-form {
       h3 {
         font-size: 24px;
         font-weight: 600;
+        padding-bottom: 2%;
       }
 
       .post-excerpt {
@@ -514,6 +515,7 @@ form#contact-form {
 
       .post-meta {
         font-size: 12px; // $smallest-font-size;
+        // line-height: 0.5px !important;
       }
 
       .post-meta-category {
@@ -562,33 +564,56 @@ form#contact-form {
   .site-title {
     display: none;
   }
+
+  .post-list li .post-button .post-left .post-excerpt {
+    font-size: $smallest-font-size;
+  }
 }
 
 @media screen and (max-width: 680px) {
   .title-and-logo-wrapper {
     display: none;
   }
+  .post-list li .post-button {
+    border: 1px solid $brand-color;
+
+    &:hover {
+      box-shadow: none;
+    }
+
+    .post-right {
+      max-width: 100%;
+      width: 100%;
+      height: 100%;
+      position: absolute;
+      top: 0;
+      left: 0;
+      z-index: -1;
+
+      img {
+        opacity: 0.2;
+        mask-image: linear-gradient(
+          to right,
+          rgba(0, 0, 0, 0) 50%,
+          rgba(0, 0, 0, 1) 100%
+        );
+        transition: opacity 0.1s ease-in-out;
+      }
+    }
+
+    .post-left {
+      width: 100%;
+
+      h3 {
+        font-size: 20px;
+      }
+    }
+  }
 }
 
 @media screen and (max-width: 600px) {
   .site-header {
     position: relative;
-
-    // .title-and-logo-wrapper {
-    //   display: none;
-    // }
-    // .site-title {
-    //   display: none;
-    //   text-align: center;
-    //   float: none;
-    //   display: block;
-    //   padding-left: 0;
-    // }
-    // .site-logo {
-    //   display: none;
-    //   float: none;
-    //   margin: 0 16px 16px 0;
-    // }
 
     .site-nav {
       position: relative;
@@ -607,38 +632,6 @@ form#contact-form {
 
   .page-content {
     padding: 30px 0;
-  }
-
-  .post-list li .post-button {
-    border: 1px solid $brand-color;
-
-    .post-right {
-      max-width: 100%;
-      width: 100%;
-      height: 100%;
-      position: absolute;
-      top: 0;
-      left: 0;
-      z-index: -1;
-
-      img {
-        opacity: 0.5;
-        mask-image: linear-gradient(
-          to right,
-          rgba(0, 0, 0, 0) 50%,
-          rgba(0, 0, 0, 1) 100%
-        );
-        transition: opacity 0.1s ease-in-out;
-      }
-    }
-
-    .post-left {
-      width: 100%;
-
-      h3 {
-        font-size: 20px;
-      }
-    }
   }
 }
 
@@ -668,6 +661,10 @@ form#contact-form {
 /* Hide the images by default */
 .mySlides {
   display: none;
+  figure,
+  figcaption {
+    margin-bottom: 1% !important;
+  }
 }
 
 /* Next & previous buttons */
@@ -697,17 +694,6 @@ form#contact-form {
 .slideShowPrev:hover,
 .slideShowNext:hover {
   background-color: rgba(0, 0, 0, 0.8);
-}
-
-/* Caption text */
-.slideShowCaption {
-  color: $brand-color;
-  font-size: 15px;
-  padding: 8px 12px;
-  position: absolute;
-  bottom: 8px;
-  width: 100%;
-  text-align: center;
 }
 
 /* The dots/bullets/indicators */

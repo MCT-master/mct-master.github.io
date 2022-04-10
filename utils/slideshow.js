@@ -4,7 +4,6 @@ const SLIDE_INDICES = {};
 ///// USER ACTION HANDLERS /////////
 
 const initSlideShows = () => {
-  console.log("slideshows init!");
   // get all slideshow containers in a post
   let slideContainers = document.getElementsByClassName("slideshow-container");
 
