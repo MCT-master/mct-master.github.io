@@ -15,11 +15,9 @@ excerpt: "In collaboration with Telenor Research, we explored the prospects of d
 
 At [MCT](https://www.uio.no/english/studies/programmes/mct-master/), we have been experimenting with NMPs for several years. One of the biggest challenges with playing music over the network is the exceptionally high demand for low-latency communication <small>[2] [3] [4]</small>. In fact, research tells us that the ideal roundtrip latency (back and forth between two locations) for synchronous music performances is around 25-30ms, with the maximum we can tolerate at around 40-50ms <small>[5]</small>. For some perspective:
 
-**Demo:** `30ms audio delay from left to right ear`
+**Demo -** `30ms audio delay from left to right ear:`
 
 <div class="waveform" id="thirtymsdemo"></div>
-
-<br/>
 
 In late 2021, we got in touch with Telenor to explore the feasibility of conducting NMPs over 5G. Telenor is currently involved in multiple EU-funded projects that, in part, explore the application of 5G to music technology, including [Fudge5G](https://fudge-5g.eu/en) and [5GMediaHub](https://www.5gmediahub.eu/). During a two-week period in late March 2022, we did a series of experiments on a commercial and private 5G network in collaboration with Telenor Research. In this post, we present these experiments in detail, explaining the technical setup, methods, and preliminary results.
 
@@ -27,9 +25,13 @@ In late 2021, we got in touch with Telenor to explore the feasibility of conduct
 
 We conducted two experiments in two separate locations on two different 5G networks.
 
-1. The first experiment was carried out at the Musicology Department at the University of Oslo, on March 30th 2022, on a first-generation **commercial 5G network**. Most commercial 5G networks today rely on a so-called Non-Stand-Alone (NSA) core network, the same as 4G. However, Telenor pre-configured our routers to access specific Access-Point-Names (APNs). This configuration enabled Peet To Peer (P2P) connectivity between our machines with faster packet routing.
+### Commercial 5G Experiment
 
-2. The second experiment was carried out in Elverum, close to Terningmoen Army Base, on April 4th 2022, on a 5G Network-on-Wheels (5GNoW) solution. The 5GNoW is a **private 5G network**, or Non-Public Network (NPN), that relies on a Stand-Alone (SA) core network. As we understood, these kinds of systems are mostly used for experimental testing of various 5G applications in the field.
+The first experiment was carried out at the Musicology Department at the University of Oslo, on March 30th 2022, on a first-generation commercial 5G network. Most commercial 5G networks today rely on a so-called Non-Stand-Alone (NSA) core network, the same as 4G. However, Telenor pre-configured our routers to access specific Access-Point-Names (APNs). This configuration enabled Peet To Peer (P2P) connectivity between our machines with faster packet routing.
+
+### Private 5G Experiment
+
+The second experiment was carried out in Elverum, close to Terningmoen Army Base, on April 4th 2022, on a 5G Network-on-Wheels (5GNoW) solution. The 5GNoW is a private 5G network, or Non-Public Network (NPN), that relies on a Stand-Alone (SA) core network. As we understood, these kinds of systems are mostly used for experimental testing of various 5G applications in the field.
 
 <div class="slideshow-container" id="experiment-setup">
   <div class="mySlides fade">
@@ -74,7 +76,7 @@ We conducted two experiments in two separate locations on two different 5G netwo
   </div>
 </div>
 
-## Hardware and Software
+### Hardware and Software
 
 For both experiments, we used a pair of [Huawei H138-380 CPE Pro 3 5G Routers](https://nettbutikk.emcom.no/h138-380-cpe-pro-3-5g-ruter-4g-5g-ruter-wifi-6-2-x-lan-111560-p0000028124) to connect to the network.
 
@@ -121,11 +123,11 @@ In addition to Lola, we used the JACK2 and [JackTrip](https://www.jacktrip.org) 
 
 To explore to what extent 5G can accomodate NMPs, we measured the **stability**, **quality**, and **latency** of roundtrip audio and video signals using Lola and JackTrip. In any real NMP scenario, we only care about technical configurations that render stable AV transfer over time with a minimal dropouts and other unwanted artifacts. Therefore, we only measured signal latency when the best possible tradeoff between stability and quality was found. We did three tests in each experiment:
 
-## 1. Measuring the Network Coverage and Bandwidth
+### 1) Measuring the Network Coverage and Bandwidth
 
 By using the [iPerf](https://iperf.fr/) networking utilities, the Huawei routers' own location-optimizing software, Telenor's online [coverage map](https://www.telenor.no/dekning/#dekningskart), and Ookla's [online speedtester](https://www.speedtest.net/), we were able to make network bandwidth and coverage estimates throughout the experiments, ensuring that our load did not exceed the capacity of the network.
 
-## 2. Finding the Sweet-spots
+### 2) Finding the Sweet-spots
 
 To find the best tradeoff between stability and quality, we sent a constant stream of audio and video over the network and looped the signals back to their source, as depicted in Figure 1. With this, we were able to monitor the AV quality of our connections in real-time.
 
@@ -136,7 +138,7 @@ To find the best tradeoff between stability and quality, we sent a constant stre
 
 To fine-tune the audio, we adjusted software and hardware buffer sizes to locate the lowest possible configuration that ensured a stable audio transmission over a significant period (maybe 10minutes total). For the video, we used a similar a approach, only adjusting the framerate, compression (M-JPEG) amount, and video resolution to find the sweet-spot.
 
-## 3. Measuring the Latency
+### 3) Measuring the Latency
 
 With the software and hardware parameters fine-tuned, we measured the audio and video latency with a similar loopback system:
 
@@ -144,8 +146,6 @@ With the software and hardware parameters fine-tuned, we measured the audio and 
     <img src="/assets/image/2022_04_01_aleksati_5g_telenor_latency_method.jpg" alt="5g_telenor_latency_method" title="5g_telenor_latency_method" width="auto" />
     <figcaption><b>Figure 2.</b> Routing diagram for our method of measuring the round-trip latency of NMP systems from a single location.</figcaption>
 </figure>
-
-### Audio Latency
 
 We measured the audio latency in two steps:
 
@@ -165,8 +165,6 @@ With analog RTT, we refer to the measurement of audio latency through the entire
     <figcaption>Routing diagram of our secondary system for measuring the analog RTT. The laptop sends a short impulse to both outputs on the audio interface and records both inputs. The time difference between input 1 and 2 is the analog RTT.</figcaption>
 </figure>
 
-### Video Latency
-
 For video, we took advantage of the fact that our two NMP kits were in the same room. The measure the latency, we sent a Ximea video feed of me doing some claps 👏 from one NMP kit to the other. While displaying the video feeds in full-screen on both computer monitors, we filmed the monitors with a secondary camera. Then, we used the footage from the secondary camera to determine the video latency by counting the offset in frames between the two monitors.
 
 <figure style="float: none">
@@ -179,29 +177,63 @@ For video, we took advantage of the fact that our two NMP kits were in the same 
 
 # Results
 
-## Commercial 5G
+### Commercial 5G Experiment
 
 Inside the Musicology building at UiO, the 5G reception was poor. After inspecting Telenor's coverage map of our location, we decided to place the routers outside and pre-configured them to be in Bridge mode, hoping it would generate better coverage, create a more stable connection between our routers, and boost overall performance. According to the routers' location-optimizing software, we achieved a stable 75% 5G coverage at [this location](https://goo.gl/maps/VJXb1KhEBAaPhz4x6). From here, we measured a stable 60Mbps bandwidth.
 
 The transmission sweet-spot for audio was achieved using jackTrip with a buffer size of 512. Unfortunately, experimenting with lower buffer sizes only resulted in massive jittery audio and dropouts. We found the optimal stereo audio settings to be the following:
 
-| Compression | Bit Depth | Sampling Rate | Buffersize | Notes                 |
-| ----------- | --------- | ------------- | ---------- | --------------------- |
-| 0%          | 16bit     | 48Khz         | 512        | Good and stable audio |
+<div class="Rtable Rtable--5cols Rtable--collapse">
+  <!-- Column one -->
+  <div style="order:1;" class="Rtable-cell"><b>Compression</b></div>
+  <div style="order:2;" class="Rtable-cell">0%</div>
+
+  <!-- Column two -->
+  <div style="order:1;" class="Rtable-cell"><b>Bit Depth</b></div>
+  <div style="order:2;" class="Rtable-cell">16bit</div>
+
+  <!-- Column three -->
+  <div style="order:1;" class="Rtable-cell"><b>Sampling Rate</b></div>
+  <div style="order:2;" class="Rtable-cell">48Khz</div>
+
+  <!-- Column four -->
+  <div style="order:1;" class="Rtable-cell"><b>Buffer Size</b></div>
+  <div style="order:2;" class="Rtable-cell">512</div>
+
+  <!-- Column five -->
+  <div style="order:1;" class="Rtable-cell"><b>Notes</b></div>
+  <div style="order:2;" class="Rtable-cell">Good and stable audio</div>
+</div>
 
 Using the above configuration, we measured a 110ms digital RTT and a **165ms** analog RTT of the commercial 5G network at UiO. Considering that buffering 512 samples at 48Khz takes 10ms, and that during our analog RTT measurement audio had to pass through our soundcards a total of 4 times, this kind of delta between digital and analog RTT was expected.
 
-**Demo:** `165ms audio delay from left to right ear`
+**Demo -** `165ms audio delay from left to right ear:`
 
 <div class="waveform" id="hundredandsixtyfivemsdemo"></div>
 
-<br/>
-
 For video, we were able to use the Ximea low-latency cameras with Lola as the software utilizes a different buffering strategy for video transfer. After experimenting with various settings and buffering tools, we achieved a stable transmission with some drops (mostly not visible to human eyes) using the following settings:
 
-| Compression          | Bit Depth | Resolution | FPS | Notes                    |
-| -------------------- | --------- | ---------- | --- | ------------------------ |
-| M-JPEG (quality 60%) | RGB24 bit | 1024x576   | 60  | Acceptable video quality |
+<div class="Rtable Rtable--5cols Rtable--collapse">
+  <!-- Column one -->
+  <div style="order:1;" class="Rtable-cell"><b>Compression</b></div>
+  <div style="order:2;" class="Rtable-cell">M-JPEG (quality 60%)</div>
+
+  <!-- Column two -->
+  <div style="order:1;" class="Rtable-cell"><b>Bit Depth</b></div>
+  <div style="order:2;" class="Rtable-cell">RGB24 bit</div>
+
+  <!-- Column three -->
+  <div style="order:1;" class="Rtable-cell"><b>Resolution</b></div>
+  <div style="order:2;" class="Rtable-cell">1024x576</div>
+
+  <!-- Column four -->
+  <div style="order:1;" class="Rtable-cell"><b>FPS</b></div>
+  <div style="order:2;" class="Rtable-cell">60</div>
+
+  <!-- Column five -->
+  <div style="order:1;" class="Rtable-cell"><b>Notes</b></div>
+  <div style="order:2;" class="Rtable-cell">Acceptable video quality</div>
+</div>
 
 With this configuration, we measured the one-way video latency between our machines to be approximatley 7 frames. At 60FPS, this is equal to a **116ms** latency one-way, or 232ms RTT.
 
@@ -212,24 +244,40 @@ With this configuration, we measured the one-way video latency between our machi
   <figcaption>The capture of the video latency between our two NMP kits during experiment nr.1. The playback speed is 50% so you notice double the latency than the measured one. Video by Stefano Fasciani.</figcaption>
 </figure>
 
-## Private 5GNoW
+### Private 5GNoW Experiment
 
 At Terningmoen, Elverum, time was of the essence. We only had about 3-4 hours to set up our equipment, configure the network, and do our tests. From the start, we ran into unexpected issues in the 5G modem setup with the 5GNoW van. Also, establishing UDP and TCP/UDP connections over the network was unusually slow, illuminating further network issues. Therefore, we had to settle for limited bandwidth of approximately 13-14Mbps, enough to experiment with audio.
 
 The transmission sweet-spot for audio was achieved using jackTrip with a buffer sizes of 256 and 512. At 256, we got an audibly ok quality audio, but one that was unstable over time with noticeable dropouts. At 512, the audio was clear and stable over a significant period. We found the optimal stereo audio settings to be the following:
 
-| Compression | Bit Depth | Sampling Rate | Buffersize | Notes                     |
-| ----------- | --------- | ------------- | ---------- | ------------------------- |
-| 0%          | 16bit     | 48Khz         | 256        | OK but **un**stable audio |
-| 0%          | 16Bit     | 48Khz         | 512        | Good and stable audio     |
+<div class="Rtable Rtable--5cols Rtable--collapse">
+  <!-- Column one -->
+  <div style="order:1;" class="Rtable-cell"><b>Compression</b></div>
+  <div style="order:2;" class="Rtable-cell">0%</div>
+
+  <!-- Column two -->
+  <div style="order:1;" class="Rtable-cell"><b>Bit Depth</b></div>
+  <div style="order:2;" class="Rtable-cell">16bit</div>
+
+  <!-- Column three -->
+  <div style="order:1;" class="Rtable-cell"><b>Sampling Rate</b></div>
+  <div style="order:2;" class="Rtable-cell">48Khz</div>
+
+  <!-- Column four -->
+  <div style="order:1;" class="Rtable-cell"><b>Buffer Size</b></div>
+  <div style="order:2;" class="Rtable-cell">256 and 512</div>
+
+  <!-- Column five -->
+  <div style="order:1;" class="Rtable-cell"><b>Notes</b></div>
+  <div style="order:2;" class="Rtable-cell"> <small>OK but unstable audio with 256. Good and stable audio with 512.</small></div>
+
+</div>
 
 Using the above configurations we measured a 55-60ms digital RTT and an analog RTT at **74ms** when using a buffer size of 256. Although impressive, this configuration rendered borderline audio quality that would be unpleasant in the long run. Using a buffer size of 512, we measured a 90-100ms digital RTT (similar to experiment nr.1, only slightly faster) and thus an analog RTT at about **140ms**.
 
-**Demo:** `74ms audio delay from left to right ear`
+**Demo -** `74ms audio delay from left to right ear:`
 
 <div class="waveform" id="seventyfourmsdemo"></div>
-
-<br/>
 
 # Summary and Concluding Thoughts
 
@@ -312,7 +360,8 @@ code {
   display: flex;
   flex-direction: column;
   width: 90%;
-  margin: auto;
+  /* margin: auto; */
+  margin-bottom: 30px !important;
 }
 
 </style>
