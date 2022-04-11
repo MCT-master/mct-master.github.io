@@ -1,27 +1,20 @@
----
+--- 
 # Only the main Sass file needs front matter (the dashes are enough)
----
+--- 
+
 
 @charset "utf-8";
 
 // Google Fonts
 // @import url(https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,400;1,600;1,700;1,800&display=swap);
-
 @import url("https://fonts.googleapis.com/css2?family=Roboto+Mono&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
 
-// Font Variables
-// $roboto-slab: "Roboto Slab", serif;
-// $open-sans: "Open Sans", sans-serif;
-
-//$roboto-slab: "Roboto Slab", serif;
-//$open-sans: "Open Sans", sans-serif;
-
-// Our variables
-//$heading-family: "Open Sans", Arial, sans-serif;
-//$base-font-family: "Open Sans", Arial, sans-serif;
-
-$heading-family: "Roboto", Arial, sans-serif;
-$base-font-family: "Roboto", Arial, sans-serif; // "Roboto Mono", Arial, monospace;
+$heading-family: "Roboto",
+Arial,
+sans-serif;
+$base-font-family: "Roboto",
+Arial,
+sans-serif; // "Roboto Mono", Arial, monospace;
 
 $base-font-size: 20px;
 $base-font-weight: 400;
@@ -30,14 +23,17 @@ $base-font-weight-large: 600;
 $small-font-size: $base-font-size * 0.875;
 $smallest-font-size: $small-font-size * 0.875;
 $base-line-height: 1.6;
+
 $spacing-unit: 30px;
+// For smaller screens. When does it happen?
+$media-screen-breakpoint-1: 880px;
+$media-screen-breakpoint-2: 680px;
+$media-screen-breakpoint-3: 600px;
 
 // Colors
 $text-color: rgb(0, 0, 0);
 $brand-color: rgb(0, 0, 0);
 $background-color: #ffffff; //#fdfdfd;
-//$brand-color: #8764b4;
-//$brand-color: rgb(54, 54, 54);
 $brand-color-dark: darken($brand-color, 50%);
 $brand-color-lighten: lighten($brand-color, 50%);
 $brand-color-1: rgb(50, 50, 50);
@@ -59,14 +55,11 @@ $on-laptop: 800px;
 .wrapper {
   padding-right: 30px !important;
   padding-left: 30px !important;
+  padding-bottom: 0px !important;
 }
 
 @import "minima";
 
-// REGULAR PARAGRAPHS IN THE BLOG
-p {
-  margin-bottom: 4%;
-}
 
 //////////// EVERYTHING BELOW IS IN THE HEADER //////////////////////
 .site-header {
@@ -76,9 +69,6 @@ p {
   z-index: 3;
   opacity: 1;
   border-top: 0;
-  //   padding: 0.5em 0;
-  // border-radius: 6px;
-  // box-shadow: 0 1px 4px rgba(0, 0, 0, 0.3);
   border-bottom: 1px solid $brand-color;
 }
 
@@ -90,9 +80,11 @@ p {
   // @include relative-font-size(1.625);
   font-size: $base-font-size;
   font-weight: 300;
-  margin-bottom: 0;
   float: left;
-  // opacity: 0.6;
+
+  p {
+    margin: 0px !important;
+  }
 }
 
 .site-logo {
@@ -111,11 +103,13 @@ p {
   float: right;
   padding-left: 1em;
   text-align: left;
+  padding-bottom: 0%;
 
   .page-link {
     // containers for the navbar titles
     line-height: $base-line-height;
     display: inline-block;
+
     a {
       color: $brand-color;
     }
@@ -127,6 +121,7 @@ nav ul li ul a.active {
   // the currently active navbar tabs
   font-weight: 600;
   color: text-color;
+
   li {
     color: $text-color;
     font-weight: 600;
@@ -136,6 +131,7 @@ nav ul li ul a.active {
 nav ul {
   // dropdown menu
   margin: 0;
+
   &.dropdown {
     position: absolute;
     display: block;
@@ -170,11 +166,17 @@ nav ul {
   visibility: visible;
   opacity: 1;
 }
+
 //////////// EVERYTHING ABOVE IS IN THE HEADER //////////////////////
+
 
 .post-content {
   overflow-wrap: break-word;
-  margin-bottom: 0;
+
+  // REGULAR PARAGRAPHS IN THE BLOG
+  p {
+    margin-bottom: $spacing-unit !important;
+  }
 }
 
 ///////// ALL THE CLICKABLE LINKS IN THE BLOG /////////
@@ -183,10 +185,12 @@ a {
   font-weight: $base-font-weight-links;
   text-decoration: none;
   position: relative;
+
   &:visited {
     color: $brand-color-2;
     text-decoration: none;
   }
+
   &:hover {
     color: $brand-color-2;
     text-decoration: none;
@@ -217,6 +221,7 @@ a::before {
 a:hover::before {
   transform: scaleX(1);
 }
+
 /////////////////////////////////////////////////
 
 .post-title {
@@ -241,10 +246,9 @@ h6 {
   font-weight: 600; //$base-font-weight-links;
   color: $text-color;
   margin-bottom: 0px;
-  //   padding-top: 5%;
 }
 
-.post > .post-content {
+.post>.post-content {
   margin-bottom: $spacing-unit;
 
   h1 {
@@ -285,6 +289,7 @@ h6 {
     }
   }
 }
+
 //////////////////////////////////////
 
 /////////// PAGE SCROLLBAR /////////////
@@ -300,6 +305,7 @@ body::-webkit-scrollbar-thumb {
   background: $brand-color-2;
   border-radius: 6px;
 }
+
 ////////////////////////////////
 
 ul.pager {
@@ -316,7 +322,7 @@ ul.pager {
   padding: 6px;
   // font-size: 1.15em;
 
-  & > a {
+  &>a {
     color: #333;
     // background-color: rgba(240, 240, 240, 1);
     border: 1px solid $brand-color;
@@ -365,7 +371,7 @@ form#contact-form {
   overflow: auto;
 }
 
-.list.list--results > p {
+.list.list--results>p {
   margin: 20px auto;
   text-align: center;
 }
@@ -391,7 +397,7 @@ form#contact-form {
 .article.typeset {
   padding: 20px;
 
-  & > h4 {
+  &>h4 {
     color: $text-color;
     font-weight: 600;
     // background-color: rgba(230, 230, 230, 1);
@@ -401,7 +407,7 @@ form#contact-form {
     padding: 20px 20px 10px 20px;
   }
 
-  & > p {
+  &>p {
     margin: 0;
   }
 }
@@ -413,6 +419,7 @@ form#contact-form {
 }
 
 .page-content {
+
   // everywhere
   img,
   video,
@@ -426,17 +433,21 @@ form#contact-form {
 }
 
 .post.h-entry {
+
   // only in posts
   .post-content {
+
     figure,
     audio {
       min-width: 80%; // when unset
     }
+
     figure,
     img,
     video {
       height: auto;
     }
+
     figure,
     img,
     video,
@@ -448,11 +459,13 @@ form#contact-form {
       margin: 1em auto;
       display: table;
     }
+
     figcaption {
-      margin-bottom: 4%;
+      margin-bottom: $spacing-unit;
       display: table-caption;
       caption-side: bottom;
     }
+
     caption {
       display: table-caption;
       text-align: center;
@@ -548,19 +561,22 @@ form#contact-form {
     margin-top: 15px;
     margin-bottom: 5px;
   }
+
   details {
     margin: 5px auto;
   }
+
   h4 {
     display: inline;
   }
+
   a {
     margin-left: 1.5em;
     display: block;
   }
 }
 
-@media screen and (max-width: 880px) {
+@media screen and (max-width: $media-screen-breakpoint-1) {
   .site-title {
     display: none;
   }
@@ -570,10 +586,11 @@ form#contact-form {
   }
 }
 
-@media screen and (max-width: 680px) {
+@media screen and (max-width: $media-screen-breakpoint-2) {
   .title-and-logo-wrapper {
     display: none;
   }
+
   .post-list li .post-button {
     border: 1px solid $brand-color;
 
@@ -592,11 +609,9 @@ form#contact-form {
 
       img {
         opacity: 0.2;
-        mask-image: linear-gradient(
-          to right,
-          rgba(0, 0, 0, 0) 50%,
-          rgba(0, 0, 0, 1) 100%
-        );
+        mask-image: linear-gradient(to right,
+            rgba(0, 0, 0, 0) 50%,
+            rgba(0, 0, 0, 1) 100%);
         transition: opacity 0.1s ease-in-out;
       }
     }
@@ -611,7 +626,7 @@ form#contact-form {
   }
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: $media-screen-breakpoint-3) {
   .site-header {
     position: relative;
 
@@ -638,10 +653,12 @@ form#contact-form {
 // When we want to print a blogpost (or export as PDF)
 // remove post padding, header and footer
 @media print {
+
   .site-header,
   .site-footer {
     display: none !important;
   }
+
   .page-content {
     padding: 0px !important;
   }
@@ -661,6 +678,7 @@ form#contact-form {
 /* Hide the images by default */
 .mySlides {
   display: none;
+
   figure,
   figcaption {
     margin-bottom: 1% !important;
@@ -701,7 +719,7 @@ form#contact-form {
 .slideShowDotContainer {
   text-align: center;
   margin-top: 0;
-  margin-bottom: 4%;
+  margin-bottom: $spacing-unit;
 }
 
 .slideShowDot {
@@ -730,8 +748,88 @@ form#contact-form {
   from {
     opacity: 0.4;
   }
+
   to {
     opacity: 1;
   }
 }
+
 ///////////////END OF SLIDESHOW//////////////////////////
+
+
+//////// ---------------CUSTOM HTML TABLES ----------------////////
+///////  From: https://css-tricks.com/accessible-simple-responsive-tables/ ////
+
+/* Variables
+================================== */
+$bw: 2px; // border width
+
+
+/* Tables
+================================== */
+.Rtable {
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: $spacing-unit;
+  padding: 0;
+  border-radius: .25rem;
+}
+
+.Rtable-cell {
+  box-sizing: border-box;
+  flex-grow: 1;
+  width: 100%; // Default to full width
+  padding: 0.8em 1em;
+  overflow: hidden; // Or flex might break
+  list-style: none;
+  border: solid $bw white;
+  // background: $background-color;
+  background: #EEEEFF;
+
+  >h1,
+  >h2,
+  >h3,
+  >h4,
+  >h5,
+  >h6 {
+    margin: 0;
+  }
+}
+
+/* Table column sizing
+================================== */
+.Rtable--2cols>.Rtable-cell {
+  width: 50%;
+}
+
+.Rtable--3cols>.Rtable-cell {
+  width: 33.33%;
+}
+
+.Rtable--4cols>.Rtable-cell {
+  width: 25%;
+}
+
+.Rtable--5cols>.Rtable-cell {
+  width: 20%;
+}
+
+.Rtable--6cols>.Rtable-cell {
+  width: 16.6%;
+}
+
+/* Responsive when resizing the window
+==================================== */
+@media all and (max-width: $media-screen-breakpoint-2) {
+  .Rtable--collapse {
+    display: block;
+
+    >.Rtable-cell {
+      width: 100% !important;
+    }
+
+    >.Rtable-cell--foot {
+      margin-bottom: 1em;
+    }
+  }
+}
