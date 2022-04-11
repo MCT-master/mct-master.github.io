@@ -1,4 +1,9 @@
---- # Only the main Sass file needs front matter (the dashes are enough) --- @charset "utf-8";
+--- 
+# Only the main Sass file needs front matter (the dashes are enough)
+--- 
+
+
+@charset "utf-8";
 
 // Google Fonts
 // @import url(https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,400;1,600;1,700;1,800&display=swap);
@@ -25,7 +30,6 @@ $media-screen-breakpoint-1: 880px;
 $media-screen-breakpoint-2: 680px;
 $media-screen-breakpoint-3: 600px;
 
-
 // Colors
 $text-color: rgb(0, 0, 0);
 $brand-color: rgb(0, 0, 0);
@@ -48,11 +52,11 @@ $on-palm: 600px;
 $on-laptop: 800px;
 
 // Add padding to mobile
-// .wrapper {
-//   padding-right: 30px !important;
-//   padding-left: 30px !important;
-//   padding-bottom: 0px !important;
-// }
+.wrapper {
+  padding-right: 30px !important;
+  padding-left: 30px !important;
+  padding-bottom: 0px !important;
+}
 
 @import "minima";
 
