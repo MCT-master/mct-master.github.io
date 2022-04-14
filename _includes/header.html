@@ -1,47 +1,44 @@
 <header class="site-header" role="banner">
 
-  <div class="wrapper">
+    {%- include hamburger-site-nav.html -%}
+  
+    <div class="wrapper">
+        <div class="title-and-logo-wrapper">
+            <a href="{{ "/" | relative_url}}">
+                <img class="site-logo" src="{{ site.logo || relative_url }}" />
+            </a>
+            <p class="site-title">
+            {{ site.title | escape }}
+            </p>
+        </div>
 
-    <div class="title-and-logo-wrapper">
-        <a href="{{ "/" | relative_url}}">
-            <img class="site-logo" src="{{ site.logo || relative_url }}" />
-        </a>
-        <p class="site-title">
-         {{ site.title | escape }}
-        </p>
+        <nav class="site-nav">
+        <ul>
+            {% for item in site.data.menulist.toc %}
+            <li class="page-link">
+            {% if item.subfolderitems.size > 0 %}
+
+                <a href='#' class="drop-btn" onclick="handleMenuClick(this)">{{ item.title | escape }}</a>
+                <ul class="dropdown">
+                {% for entry in item.subfolderitems %}
+                <li><a href="{{ entry.url }}">{{ entry.page }}</a></li>
+                {% endfor %}
+                </ul>
+
+            {% else %}
+                <a href="{{ item.url | relative_url }}">{{ item.title | escape }}</a>
+            {% endif %}
+            </li>
+            {% endfor %}
+        </ul>
+        </nav>
+        <nav class="hamburger-icon-nav">
+            {%- include hamburger-icon-container.html -%}
+            
+        </nav>
     </div>
 
-    <nav class="site-nav">
-      <ul>
-        {% for item in site.data.menulist.toc %}
-          <li class="page-link">
-          {% if item.subfolderitems.size > 0 %}
-
-            <a href='#' class="drop-btn">{{ item.title | escape }}</a>
-            <ul class="dropdown">
-              {% for entry in item.subfolderitems %}
-              <li><a href="{{ entry.url }}">{{ entry.page }}</a></li>
-              {% endfor %}
-            </ul>
-
-          {% else %}
-            <a href="{{ item.url | relative_url }}">{{ item.title | escape }}</a>
-          {% endif %}
-          </li>
-        {% endfor %}
-      </ul>
-    </nav>
-  </div>
-
-  <!--get the URL, and set the current NAVBAR title class to active.-->
   <script src="{{"utils/jquery.js" | relative_url }}"></script>
-  <script type="text/javascript">
-    $(document).ready(function() {
-      let target = "nav ul li a";
-      var path = window.location.pathname;
-      var element = $(target + "[href='" + path + "']");
-      element.addClass("active");
-    });
-  </script>
-
+  <script src="{{"utils/hamburger-nav.js" | relative_url }}"></script>
+  <script src="{{"utils/nav-dropdown-click-handler.js" | relative_url }}"></script>
 </header>

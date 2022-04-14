@@ -3,8 +3,9 @@ layout: default
 ---
 
 <div class="post-content">
-  <!--<head><h1 class="custom-heading">Latest</h1></head>-->
-
+  <!-- <head>
+    <h1 class="custom-heading"><u>Latest</u></h1>
+  </head> -->
   <!-- <h2 class="post-list-heading">{{ page.list_title | default: "Posts" }}</h2> -->
 
   <ul class="post-list">
@@ -13,40 +14,9 @@ layout: default
         All calls to site.posts should be replaced by paginator.posts
     -->
     {% for post in paginator.posts %}
-    <li>
-      <a class="post-button" href="{{ post.url | relative_url }}">
-        <div class="post-left">
-          <h3 class="post-title">{{ post.title | escape }}</h3>
-          <span class="post-meta-category"
-            >{{ post.categories | join: ", " }}</span
-          >
-          <br />
-          {%- assign date_format = site.minima.date_format | default: "%b %-d,
-          %Y" -%}
-          <span class="post-meta">{{ post.date | date: date_format }}</span>
-          <span class="post-meta">• {{ post.author }}</span>
-          <br />
-          {%- if site.show_excerpts -%}
-          <p class="post-excerpt">{{ post.excerpt | strip_html }}</p>
-          {%- endif -%}
-        </div>
-        <div class="post-right">
-          {%- if post.image -%}
-          <img
-            src="{{ post.image | prepend: site.baseurl }}"
-            alt="{{ post.title }}"
-            title="{{ post.title }}"
-          />
-          {%- else -%}
-          <img
-            src="/assets/image/2018_08_01_stefanof_mct-master-630.jpg"
-            alt="{{ post.title }}"
-            title="{{ post.title }}"
-          />
-          {%- endif -%}
-        </div>
-      </a>
-    </li>
+    <!--  -->
+    {%- include list-body.html -%}
+    <!--  -->
     {% endfor %}
   </ul>
 
