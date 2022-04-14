@@ -1,7 +1,6 @@
---- 
+---
 # Only the main Sass file needs front matter (the dashes are enough)
---- 
-
+---
 
 @charset "utf-8";
 
@@ -9,12 +8,8 @@
 // @import url(https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,400;1,600;1,700;1,800&display=swap);
 @import url("https://fonts.googleapis.com/css2?family=Roboto+Mono&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
 
-$heading-family: "Roboto",
-Arial,
-sans-serif;
-$base-font-family: "Roboto",
-Arial,
-sans-serif; // "Roboto Mono", Arial, monospace;
+$heading-family: "Roboto", Arial, sans-serif;
+$base-font-family: "Roboto", Arial, sans-serif; // "Roboto Mono", Arial, monospace;
 
 $base-font-size: 20px;
 $base-font-weight: 400;
@@ -22,13 +17,19 @@ $base-font-weight-links: 400;
 $base-font-weight-large: 600;
 $small-font-size: $base-font-size * 0.875;
 $smallest-font-size: $small-font-size * 0.875;
+
 $base-line-height: 1.6;
+
+$nav-line-height: 20px;
+$nav-margin-top: 18px;
 
 $spacing-unit: 30px;
 // For smaller screens. When does it happen?
 $media-screen-breakpoint-1: 880px;
 $media-screen-breakpoint-2: 680px;
 $media-screen-breakpoint-3: 600px;
+
+$post-button-height: 400px;
 
 // Colors
 $text-color: rgb(0, 0, 0);
@@ -51,39 +52,34 @@ $content-width: 900px;
 $on-palm: 600px;
 $on-laptop: 800px;
 
-// Add padding to mobile
-.wrapper {
-  padding-right: 30px !important;
-  padding-left: 30px !important;
-  padding-bottom: 0px !important;
-}
-
 @import "minima";
-
 
 //////////// EVERYTHING BELOW IS IN THE HEADER //////////////////////
 .site-header {
   // the header itself
   width: 100%;
   background-color: $background-color;
-  z-index: 3;
+  z-index: 1;
   opacity: 1;
   border-top: 0;
   border-bottom: 1px solid $brand-color;
 }
 
-.title-and-logo-wrapper {
-  margin-bottom: 0;
-}
+// .title-and-logo-wrapper {
+//   margin-bottom: 0;
+// }
 
 .site-title {
   // @include relative-font-size(1.625);
+  line-height: $nav-line-height;
   font-size: $base-font-size;
   font-weight: 300;
   float: left;
 
+  margin-top: $nav-margin-top;
+
   p {
-    margin: 0px !important;
+    margin-bottom: 0px !important;
   }
 }
 
@@ -91,61 +87,49 @@ $on-laptop: 800px;
   float: left;
   width: 46px;
   height: 46px;
-  margin: 4px 10px 0 0;
+  margin: 3px 8px 0 0;
   outline: 0 !important;
   margin-bottom: 0;
 }
 
+//////////////////////////// NAVBAR ////////////////////////////////
 .site-nav {
-  // navbar
   font-size: $small-font-size;
   position: relative;
   float: right;
   padding-left: 1em;
   text-align: left;
   padding-bottom: 0%;
+  line-height: $nav-line-height;
+  margin-top: $nav-margin-top;
 
+  // containers for the navbar titles
   .page-link {
-    // containers for the navbar titles
-    line-height: $base-line-height;
+    line-height: $nav-line-height;
     display: inline-block;
-
     a {
       color: $brand-color;
     }
   }
 }
 
-nav ul li a.active,
-nav ul li ul a.active {
-  // the currently active navbar tabs
-  font-weight: 600;
-  color: text-color;
-
-  li {
-    color: $text-color;
-    font-weight: 600;
-  }
-}
-
-nav ul {
-  // dropdown menu
+// dropdown menu
+.site-nav ul {
   margin: 0;
 
   &.dropdown {
+    background: $background-color;
     position: absolute;
     display: block;
+
     z-index: 3;
-    left: inherit;
-    background: $background-color;
     margin-top: 5px;
     border-radius: 6px;
     padding: 4px;
-    // box-shadow: 0 1px 4px rgba(0, 0, 0, 0.15);
+
     border: 1px solid $brand-color;
-    opacity: 0;
+
     visibility: hidden;
-    transition: visibility 0.1s, opacity 0.1s ease-in-out;
 
     li {
       // pagelinks in the dropdown menu
@@ -153,26 +137,151 @@ nav ul {
       line-height: 100%;
       padding: 0.5rem;
       border-radius: 6px;
-      //   transition: box-shadow 0.05s, opacity 0.05s ease-in-out;
-      //   &:hover {
-      //     box-shadow: 0 1px 4px rgba(0, 0, 0, 0.15);
-      //   }
     }
   }
 }
 
-// When you hover over the dropdown navbar tabs, the menu appears
-.page-link:hover .dropdown {
-  visibility: visible;
-  opacity: 1;
+///////////////// HAMBURGER MENU //////////////////////////////////
+.hamburger-icon-nav {
+  display: none;
+
+  position: relative;
+  float: right;
+  padding-bottom: 0%;
+  margin-top: 8px;
 }
 
-//////////// EVERYTHING ABOVE IS IN THE HEADER //////////////////////
+.hamburger-icon-container {
+  cursor: pointer;
+}
 
+.hamburger-icon-div {
+  width: 35px;
+  height: 5px;
+  background-color: $brand-color;
+  margin: 6px 0;
+}
+
+.hamburger-bar1,
+.hamburger-bar2,
+.hamburger-bar3 {
+  width: 35px;
+  height: 5px;
+  background-color: $brand-color;
+  margin: 6px 0;
+  transition: 0.4s;
+}
+
+/* Rotate first bar */
+.change .hamburger-bar1 {
+  -webkit-transform: rotate(-45deg) translate(-9px, 6px);
+  transform: rotate(-45deg) translate(-9px, 6px);
+}
+
+/* Fade out the second bar */
+.change .hamburger-bar2 {
+  opacity: 0;
+}
+
+/* Rotate last bar */
+.change .hamburger-bar3 {
+  -webkit-transform: rotate(45deg) translate(-8px, -8px);
+  transform: rotate(45deg) translate(-8px, -8px);
+}
+
+// the background the of hamburger nav
+.hamburger-menu-container {
+  display: none;
+  background-color: $background-color;
+  border-left: 1px solid $brand-color;
+
+  width: 50%;
+  height: 100vh;
+
+  // aligns to the right
+  position: fixed;
+  right: 0px;
+
+  nav {
+    padding-top: 10vh;
+    text-align: center;
+  }
+
+  nav ul {
+    // no circles in the unordered list (ul li)
+    list-style-type: none;
+    margin-left: 0px;
+  }
+
+  animation: container-to-left 0.2s linear forwards;
+}
+
+@keyframes container-to-left {
+  from {
+    right: -50%;
+  }
+  to {
+    right: 0px;
+  }
+}
+
+// the actual nav titles
+.page-link-hamburger {
+  padding: 1em;
+  a {
+    font-size: 24px;
+    color: $brand-color !important;
+  }
+}
+
+// dropdown menu ul
+.dropdown-hamburger {
+  background: $background-color;
+  position: absolute;
+  display: block;
+  padding: 4px;
+  margin: 4px;
+
+  left: 0;
+  z-index: 3;
+  width: 100%;
+
+  border-radius: 6px;
+
+  visibility: hidden;
+
+  li {
+    // pagelinks in the dropdown menu
+    display: block;
+    line-height: 100%;
+    padding: 0.35rem;
+    text-align: left !important;
+
+    a {
+      font-size: $smallest-font-size;
+    }
+  }
+}
+
+// these two classes are triggered by JS
+// to open and close the dropdown menus
+.visibilityOn {
+  visibility: visible !important;
+}
+
+// stop the ability to scroll on the page.
+.stop-scrolling {
+  height: 100%;
+  overflow: hidden;
+}
+
+//////////// EVERYTHING ABOVE IS IN THE HEADER and NAVBAR //////////////////////
 
 .post-content {
   overflow-wrap: break-word;
-
+  .custom-heading h1 {
+    margin-bottom: $spacing-unit;
+  }
   // REGULAR PARAGRAPHS IN THE BLOG
   p {
     margin-bottom: $spacing-unit !important;
@@ -248,7 +357,7 @@ h6 {
   margin-bottom: 0px;
 }
 
-.post>.post-content {
+.post > .post-content {
   margin-bottom: $spacing-unit;
 
   h1 {
@@ -257,12 +366,6 @@ h6 {
     @include media-query($on-laptop) {
       @include relative-font-size(1.652);
     }
-
-    // &:after {
-    //   content: " ";
-    //   display: block;
-    //   border: 1px solid $grey-color-light;
-    // }
   }
 
   h2 {
@@ -322,7 +425,7 @@ ul.pager {
   padding: 6px;
   // font-size: 1.15em;
 
-  &>a {
+  & > a {
     color: #333;
     // background-color: rgba(240, 240, 240, 1);
     border: 1px solid $brand-color;
@@ -371,7 +474,7 @@ form#contact-form {
   overflow: auto;
 }
 
-.list.list--results>p {
+.list.list--results > p {
   margin: 20px auto;
   text-align: center;
 }
@@ -397,7 +500,7 @@ form#contact-form {
 .article.typeset {
   padding: 20px;
 
-  &>h4 {
+  & > h4 {
     color: $text-color;
     font-weight: 600;
     // background-color: rgba(230, 230, 230, 1);
@@ -407,7 +510,7 @@ form#contact-form {
     padding: 20px 20px 10px 20px;
   }
 
-  &>p {
+  & > p {
     margin: 0;
   }
 }
@@ -419,13 +522,12 @@ form#contact-form {
 }
 
 .page-content {
-
   // everywhere
   img,
   video,
   iframe,
   audio {
-    border-radius: 8px;
+    border-radius: 6px;
     max-width: 100%;
     // box-shadow: 1px 3px 8px rgba(0, 0, 0, 0.5);
     border: 0;
@@ -433,10 +535,8 @@ form#contact-form {
 }
 
 .post.h-entry {
-
   // only in posts
   .post-content {
-
     figure,
     audio {
       min-width: 80%; // when unset
@@ -476,16 +576,15 @@ form#contact-form {
 
 // Post list styling
 .post-list li {
-  //   border-bottom: 0.1em dotted #dedede;
-  padding: 10px 0;
+  padding: 6px 0;
   margin-bottom: 0;
 
   .post-button {
-    // background-color: darken($background-color, 2%);
+    background-color: $background-color; //rgba(145,163,176,0.2);
     display: flex;
     position: relative;
     border-radius: 6px;
-    height: 200px;
+    height: $post-button-height / 2;
     padding: 1em;
     opacity: 1;
     transition: box-shadow 0.2s ease-in-out;
@@ -495,7 +594,6 @@ form#contact-form {
     border: 1px solid $brand-color;
 
     &:hover {
-      // box-shadow: 0 0 4px rgba(0, 0, 0, 0.3);
       box-shadow: rgba(255, 255, 255, 0.2) -1px 1px 0px 1px inset,
         rgba(0, 0, 0, 0.7) -1px 1px 0px 1px;
     }
@@ -506,11 +604,11 @@ form#contact-form {
       content: none;
     }
 
-    .post-left {
+    .post-right {
       display: block;
       overflow: hidden;
       width: 75%;
-      margin-right: 1em;
+      //   margin-right: 1em;
 
       h3 {
         font-size: 24px;
@@ -523,32 +621,35 @@ form#contact-form {
         min-height: 50%;
         color: $text-color;
         font-weight: $base-font-weight;
-        margin-top: 8px;
+        // margin-top: 8px;
       }
 
       .post-meta {
         font-size: 12px; // $smallest-font-size;
-        // line-height: 0.5px !important;
+        padding-top: 0.5em;
+        padding-bottom: 0.5em;
       }
 
       .post-meta-category {
         // font-weight: 400;
-        color: $text-color;
+        color: $brand-color;
         font-size: $small-font-size;
-        border: 1px solid $brand-color-2;
-        border-radius: 10px;
-        padding: 5px;
+        border: 2px solid $brand-color-2;
+        border-radius: 6px;
+        padding: 0.3em;
       }
     }
 
-    .post-right {
+    .post-left {
       max-width: 25%;
       display: flex;
+      margin-right: 1em;
 
       img {
         width: 100%;
+        height: auto;
         object-fit: cover; // fill out images
-        box-shadow: none; // 1px 3px 8px rgba(0, 0, 0, 0.3);
+        // border: 1px solid $brand-color;
       }
     }
   }
@@ -577,83 +678,81 @@ form#contact-form {
 }
 
 @media screen and (max-width: $media-screen-breakpoint-1) {
+  //   .post-list li .post-button .post-left .post-excerpt {
+  //     font-size: $smallest-font-size;
+  //   }
   .site-title {
     display: none;
   }
-
-  .post-list li .post-button .post-left .post-excerpt {
-    font-size: $smallest-font-size;
+  .hamburger-menu-container {
+    display: none;
   }
 }
 
 @media screen and (max-width: $media-screen-breakpoint-2) {
-  .title-and-logo-wrapper {
+  .site-title {
+    display: flex;
+  }
+
+  // remove the normal nav-bar
+  .site-nav {
     display: none;
   }
 
+  // add the hamburger menu
+  .hamburger-icon-nav {
+    display: inline-block;
+  }
+
+  .post-list {
+    ul {
+      overflow: auto;
+    }
+  }
+
   .post-list li .post-button {
-    border: 1px solid $brand-color;
+    display: block;
+    height: auto;
+    max-height: $post-button-height; //auto;
+    // padding: 0.5em;
 
     &:hover {
       box-shadow: none;
     }
 
-    .post-right {
+    .post-left {
       max-width: 100%;
       width: 100%;
-      height: 100%;
-      position: absolute;
-      top: 0;
-      left: 0;
-      z-index: -1;
-
-      img {
-        opacity: 0.2;
-        mask-image: linear-gradient(to right,
-            rgba(0, 0, 0, 0) 50%,
-            rgba(0, 0, 0, 1) 100%);
-        transition: opacity 0.1s ease-in-out;
-      }
+      height: auto;
+      max-height: $post-button-height / 2 - ($spacing-unit/2);
+      margin-right: 0px;
+      margin-bottom: ($spacing-unit/2);
     }
 
-    .post-left {
+    .post-right {
+      height: $post-button-height / 2;
+      max-width: 100%;
       width: 100%;
+      height: auto;
+      max-height: $post-button-height / 2;
 
-      h3 {
-        font-size: 20px;
+      box-sizing: border-box; /* NEW */
+
+      .post-meta-category {
+        // display: none;
+        font-size: $smallest-font-size;
+      }
+      .post-excerpt {
+        font-size: $smallest-font-size;
+        margin-bottom: 0px !important;
       }
     }
-  }
-}
-
-@media screen and (max-width: $media-screen-breakpoint-3) {
-  .site-header {
-    position: relative;
-
-    .site-nav {
-      position: relative;
-      top: 0;
-      right: 0;
-      left: 0;
-      margin-bottom: 0.5em;
-      padding: 0 1em 0;
-      text-align: center;
-
-      .page-link {
-        margin: 0;
-      }
-    }
-  }
-
-  .page-content {
-    padding: 30px 0;
   }
 }
 
 // When we want to print a blogpost (or export as PDF)
 // remove post padding, header and footer
 @media print {
-
   .site-header,
   .site-footer {
     display: none !important;
@@ -756,14 +855,12 @@ form#contact-form {
 
 ///////////////END OF SLIDESHOW//////////////////////////
 
-
 //////// ---------------CUSTOM HTML TABLES ----------------////////
 ///////  From: https://css-tricks.com/accessible-simple-responsive-tables/ ////
 
 /* Variables
 ================================== */
 $bw: 2px; // border width
-
 
 /* Tables
 ================================== */
@@ -772,7 +869,7 @@ $bw: 2px; // border width
   flex-wrap: wrap;
   margin-bottom: $spacing-unit;
   padding: 0;
-  border-radius: .25rem;
+  border-radius: 0.25rem;
 }
 
 .Rtable-cell {
@@ -784,37 +881,37 @@ $bw: 2px; // border width
   list-style: none;
   border: solid $bw white;
   // background: $background-color;
-  background: #EEEEFF;
+  background: #eeeeff;
 
-  >h1,
-  >h2,
-  >h3,
-  >h4,
-  >h5,
-  >h6 {
+  > h1,
+  > h2,
+  > h3,
+  > h4,
+  > h5,
+  > h6 {
     margin: 0;
   }
 }
 
 /* Table column sizing
 ================================== */
-.Rtable--2cols>.Rtable-cell {
+.Rtable--2cols > .Rtable-cell {
   width: 50%;
 }
 
-.Rtable--3cols>.Rtable-cell {
+.Rtable--3cols > .Rtable-cell {
   width: 33.33%;
 }
 
-.Rtable--4cols>.Rtable-cell {
+.Rtable--4cols > .Rtable-cell {
   width: 25%;
 }
 
-.Rtable--5cols>.Rtable-cell {
+.Rtable--5cols > .Rtable-cell {
   width: 20%;
 }
 
-.Rtable--6cols>.Rtable-cell {
+.Rtable--6cols > .Rtable-cell {
   width: 16.6%;
 }
 
@@ -824,11 +921,11 @@ $bw: 2px; // border width
   .Rtable--collapse {
     display: block;
 
-    >.Rtable-cell {
+    > .Rtable-cell {
       width: 100% !important;
     }
 
-    >.Rtable-cell--foot {
+    > .Rtable-cell--foot {
       margin-bottom: 1em;
     }
   }
