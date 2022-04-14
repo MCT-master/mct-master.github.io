@@ -1,0 +1,24 @@
+<div class="hamburger-menu-container">
+  <nav>
+    <ul>
+      {% for item in site.data.menulist.toc %}
+      <li class="page-link-hamburger">
+        {% if item.subfolderitems.size > 0 %}
+
+        <a href="#" class="drop-btn-hamburger" onclick="handleMenuClick(this)"
+          >{{ item.title | escape }}</a
+        >
+        <ul class="dropdown-hamburger">
+          {% for entry in item.subfolderitems %}
+          <li><a href="{{ entry.url }}">{{ entry.page }}</a></li>
+          {% endfor %}
+        </ul>
+
+        {% else %}
+        <a href="{{ item.url | relative_url }}">{{ item.title | escape }}</a>
+        {% endif %}
+      </li>
+      {% endfor %}
+    </ul>
+  </nav>
+</div>
