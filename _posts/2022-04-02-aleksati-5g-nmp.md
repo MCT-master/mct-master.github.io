@@ -51,7 +51,7 @@ The second experiment was carried out in Elverum, close to Terningmoen Army Base
           alt="5g_telenor_coverage"
           title="5g_telenor_coverage"
           width="auto" />
-        <figcaption>A coverage report of the commercial 5G network at our UiO location.</figcaption>
+        <figcaption>Coverage report of the commercial 5G network at our UiO location.</figcaption>
       </figure>
   </div>
   <div class="mySlides fade">
@@ -71,7 +71,7 @@ The second experiment was carried out in Elverum, close to Terningmoen Army Base
         alt="5g_now_setup"
         title="5g_now_setup"
         width="auto" />
-        <figcaption>Our setup, approxiamtley 5 meters away from the 5GNoW.</figcaption>
+        <figcaption>Our setup, approximately 5 meters away from the 5GNoW.</figcaption>
     </figure>
   </div>
 </div>
@@ -100,7 +100,7 @@ To send audio and video back and forth, we used our own portable and custom-buil
             alt="5g_racksontheroad"
             title="5g_racksontheroad"
             width="auto" />
-            <figcaption>Portable NMP kits ready for the road to Elverum.</figcaption>
+            <figcaption>Portable NMP kits ready for the road to Terningsmoen Army Base, Elverum.</figcaption>
         </figure>
     </div>
     <div class="mySlides fade">
@@ -110,7 +110,7 @@ To send audio and video back and forth, we used our own portable and custom-buil
             alt="5g_lolaracks_5gnow"
             title="5g_lolaracks_5gnow"
             width="auto" />
-            <figcaption>Setting up the NMP kits at Terningsmoen Army Base. From left: Stefano Fasciani and Aleksander Tidemann. Photo by Olai Bendik Erdal.</figcaption>
+            <figcaption>Setting up the NMP kits at Terningsmoen. From left: Stefano Fasciani and Aleksander Tidemann. Photo by Olai Bendik Erdal.</figcaption>
         </figure>
     </div>
 </div>
@@ -133,7 +133,7 @@ To find the best tradeoff between stability and quality, we sent a constant stre
 
 <figure style="float: none">
     <img src="/assets/image/2022_04_01_aleksati_5g_telenor_sweetspot_method.jpg" alt="5g_telenor_sweetspot_method" title="5g_telenor_sweetspot_method" width="auto" />
-    <figcaption><b>Figure 1.</b> Routing diagram for method of monitoring an entire NMP AV-chain for jitter, noise and other unwanted artifacts, from a single location. Each side of the network represents a unique NMP kit.</figcaption>
+    <figcaption><b>Figure 1.</b> Routing diagram of our method for monitoring the audio and video quality of a NMP system from a single location. Each side of the network represents a unique NMP kit.</figcaption>
 </figure>
 
 To fine-tune the audio, we adjusted software and hardware buffer sizes to locate the lowest possible configuration that ensured a stable audio transmission over a significant period (maybe 10minutes total). For the video, we used a similar a approach, only adjusting the framerate, compression (M-JPEG) amount, and video resolution to find the sweet-spot.
@@ -144,7 +144,7 @@ With the software and hardware parameters fine-tuned, we measured the audio and 
 
 <figure style="float: none">
     <img src="/assets/image/2022_04_01_aleksati_5g_telenor_latency_method.jpg" alt="5g_telenor_latency_method" title="5g_telenor_latency_method" width="auto" />
-    <figcaption><b>Figure 2.</b> Routing diagram for our method of measuring the round-trip latency of NMP systems from a single location.</figcaption>
+    <figcaption><b>Figure 2.</b> Routing diagram of our method for measuring the roundtrip latency of NMP systems from a single location.</figcaption>
 </figure>
 
 We measured the audio latency in two steps:
@@ -162,7 +162,7 @@ With analog RTT, we refer to the measurement of audio latency through the entire
     alt="5g_telenor_latency_third_laptop_routing"
     title="5g_telenor_latency_third_laptop_routing"
     width="90%" />
-    <figcaption>Routing diagram of our secondary system for measuring the analog RTT. The laptop sends a short impulse to both outputs on the audio interface and records both inputs. The time difference between input 1 and 2 is the analog RTT.</figcaption>
+    <figcaption>Routing diagram of our secondary system for measuring the analog RTT.</figcaption>
 </figure>
 
 For video, we took advantage of the fact that our two NMP kits were in the same room. The measure the latency, we sent a Ximea video feed of me doing some claps 👏 from one NMP kit to the other. While displaying the video feeds in full-screen on both computer monitors, we filmed the monitors with a secondary camera. Then, we used the footage from the secondary camera to determine the video latency by counting the offset in frames between the two monitors.
@@ -241,7 +241,7 @@ With this configuration, we measured the one-way video latency between our machi
   <video width="auto" controls>
     <source src="https://drive.google.com/uc?&id=1sjLjNDm7uXAxQF6vCUWW25EUcB-b9Bwp" type='video/mp4'>
   </video>
-  <figcaption>The capture of the video latency between our two NMP kits during experiment nr.1. The playback speed is 50% so you notice double the latency than the measured one. Video by Stefano Fasciani.</figcaption>
+  <figcaption>The capture of the video latency between our two NMP kits during experiment nr.1. The playback speed is 50%. Video by Stefano Fasciani.</figcaption>
 </figure>
 
 ### Private 5GNoW Experiment
