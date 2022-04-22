@@ -59,7 +59,7 @@ When measuring the `bandwidth`, we usually get two numbers related to the `uploa
 
 <figure style="float: none">
   <video width="auto" controls>
-    <source src="https://drive.google.com/file/d/11gADnOVjGB0nT8x_JZL-u1ynICH4hARi/view?usp=sharing" type='video/mov'>
+    <source src="https://drive.google.com/file/d/18tT10OIvFjFuRXjicTKrR2KVjTVjBwZl/view?usp=sharing" type='video/mp4'>
     Network Performance Tutorial
   </video>
   <figcaption>Network Performance Tutorial</figcaption>
