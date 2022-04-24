@@ -84,10 +84,9 @@ Setup:
 ##### Tips:
 - If you do not have access to many microphones, a couple should suffice for passing around.
 - As earlier, the online students should be encouraged to enable their webcams.
-
 - For group activities, either:
- 1. Use the same setup. Online students will be grouped with online students through breakout rooms. On-site students will work with the other on-site students.
- 2. Provide tablets or computers running Zoom to on-site participants. Break online students into smaller rooms, so they can collaborate with the on-site students through chat. The on-site students can still communicate through microphones.
+   - Use the same setup. Online students will be grouped with online students through breakout rooms. On-site students will work with the other on-site students.
+   - Provide tablets or computers running Zoom to on-site participants. Break online students into smaller rooms, so they can collaborate with the on-site students through chat. The on-site students can still communicate through microphones.
 
 
 <figure style="float: none">
