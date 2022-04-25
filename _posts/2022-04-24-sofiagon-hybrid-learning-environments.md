@@ -111,5 +111,11 @@ If you’re experiencing feedback, there could be multiple reasons for this:
 ### Equipment Placement
 When placing equipment, keep in mind that the students need a clear view of screens, whiteboards, and any potential teachers that may occupy the room.
 
+## Video Tutorial
+For a more in-depth explanation, check out our video:
 
-We hope that this tutorial has been useful and that you manage to successfully set up your hybrid learning environment! If you want a more in depth look, check out [this video we made](https://youtu.be/CZnjdC6T-dY)!
+<figure style="float: none">
+<iframe width="560" height="315" src="https://www.youtube.com/embed/CZnjdC6T-dY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</figure>
+
+We hope that this tutorial has been useful and that you manage to successfully set up your hybrid learning environment!
