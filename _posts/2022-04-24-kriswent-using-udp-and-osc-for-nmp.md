@@ -15,7 +15,7 @@ As MCT students, we have been exposed to Networked Music Performances ([NMP](htt
 
 <figure style="float: none">
    <img src="https://drive.google.com/uc?&id=1Td6m6q3Lf63i9YH1tNq4My6-UUvt1Zur" alt="Controlled Environment" title="" width="80%" />
-   <figcaption><i></i></figcaption>
+   <figcaption><i>Photo: Yasin Hasan – https://unsplash.com/@yasin</i></figcaption>
 </figure>
 
 ### UDP
@@ -32,14 +32,14 @@ So now that we know what UDP is, what is [OSC](https://en.wikipedia.org/wiki/Ope
 
 To do this, each participant first needs to know their public IP address. Preferably, you would want a static IP address for this, but that could prove difficult – as there are not enough static IPs for everyone. This usually won't be an issue, but you would want to check if your public IP is still the same before starting a new NMP session, since dynamic IPs are – well – _dynamic_. Your public IP can easily be found by simply [googling](https://www.google.com/search?q=what+is+my+ip) it.
 
-The second thing to take care of before jamming out and broadcasting OSC messages across the internet, is to configure port forwarding on your LAN router. (Look up your router address in your network settings, e.g. [192.168.0.1](http://192.168.0.1/)) This part makes it hard, or even impossible, to do this through a public Wi-Fi, at campus, or even at your friend’s house. Some [ISP](https://en.wikipedia.org/wiki/Internet_service_provider)'s won't even let their customers access such settings on their router.
+The second thing to take care of before jamming out and broadcasting OSC messages across the internet, is to configure port forwarding on your LAN router<sup><b>[[1]](#Footnotes)</b></sup>. (Look up your router address in your network settings, e.g. [192.168.0.1](http://192.168.0.1/)) This part makes it hard, or even impossible, to do this through a public Wi-Fi, at campus, or even at your friend’s house. Some [ISP](https://en.wikipedia.org/wiki/Internet_service_provider)'s won't even let their customers access such settings on their router.
 
 <figure style="float: none">
    <img src="/assets/image/2202_04_25_kriswent_PortForwarding.png" alt="Port Forwarding" title="" width="80%" />
    <figcaption><i>An example of port forwarding in the router settings.</i></figcaption>
 </figure>
 
-The good thing is that this setup only needs to be done on the receiver's end, due to the nature of UDP messages not establishing a two-way connection. If we assume a setting where one is controlling the other, the sender only needs to know the public IP of the receiver and decide on a [port](https://en.wikipedia.org/wiki/List_of_TCP_and_UDP_port_numbers). The receiver then needs to know the public IP of the sender and do port forwarding of messages from the chosen port of that IP to their local IP address (on an arbitrary port). **Note: Under such circumstances, TCP would've not worked.**
+The good thing is that this setup only needs to be done on the receiver's end, due to the nature of UDP messages not establishing a two-way connection. If we assume a setting where one is controlling the other, the sender only needs to know the public IP of the receiver and decide on a [port](https://en.wikipedia.org/wiki/List_of_TCP_and_UDP_port_numbers). The receiver then needs to know the public IP of the sender and do port forwarding of messages from the chosen port of that IP to their local IP address (on an arbitrary port). _Note: Under such circumstances, TCP would've not worked._
 
 ## Example #2: BespokeSynth
 
@@ -58,5 +58,11 @@ The cloud is the limit (pun intended) for how you could take advantage of this t
 In summary, we have gone through the basics of UDP and OSC, as well as three different ways to use these tools to create and manipulate music across networks. What we have shown here is only the beginning in terms of the possibilities afforded by playing music through networks. This blogpost is accompanying our video tutorial found below. We hope that you take what we have taught in this video as a basis to explore further and create your own NMP someday soon!
 
 <figure style="float: none">
-<iframe width="560" height="315" src="https://www.youtube.com/embed/AYnd_vlNUxY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="800" height="500" src="https://www.youtube.com/embed/AYnd_vlNUxY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </figure>
+
+
+### <a name="Footnotes">Footnotes</a>
+[1] Take a look at the [Port Forward](https://portforward.com/) webpage for more information on how to configure your router.
+[2] For more advanced and reliable use of OSC over UDP, look up 'Time Tags' in the [Open Sound Control Specification](https://opensoundcontrol.stanford.edu/spec-1_0.html).
+[3] CNMAT have released [ODOT](https://github.com/CNMAT/CNMAT-odot), a set of externals for even more advanced use of OSC in Pure data and Max/MSP.
