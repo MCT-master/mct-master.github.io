@@ -48,4 +48,8 @@ The cloud is the limit (pun intended) for how you could take advantage of this t
 [Here](https://youtu.be/AYnd_vlNUxY?t=528) is our last brief example, using [Sonic Pi](https://sonic-pi.net/) and based around a loop of the 'Amen' break. The gestures are controlling cutoff and beat_stretch rate of the loop.
 
 ### Conclusion
-In summary, we have gone through the basics of UDP and OSC, as well as three different ways to use these tools to create and manipulate music across networks. What we have shown here is only the beginning in terms of the possibilities afforded by playing music through networks. This blogpost is accompanying our video tutorial found [here](https://www.youtube.com/watch?v=AYnd_vlNUxY). We hope that you take what we have taught in this video as a basis to explore further and create your own NMP someday soon!
+In summary, we have gone through the basics of UDP and OSC, as well as three different ways to use these tools to create and manipulate music across networks. What we have shown here is only the beginning in terms of the possibilities afforded by playing music through networks. This blogpost is accompanying our video tutorial found below. We hope that you take what we have taught in this video as a basis to explore further and create your own NMP someday soon!
+
+<figure style="float: none">
+<iframe width="560" height="315" src="https://www.youtube.com/embed/AYnd_vlNUxY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</figure>
