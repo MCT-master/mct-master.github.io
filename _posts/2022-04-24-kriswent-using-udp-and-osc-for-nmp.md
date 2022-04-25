@@ -14,7 +14,7 @@ excerpt: "Taking advantage of light-weight control messages to do Networked Musi
 As MCT students, we have been exposed to Networked Music Performances ([NMP](https://en.wikipedia.org/wiki/Networked_music_performance)) – both in theory by reading up on the technology and research in the field, and in practice by arranging our own NMP concerts. We've been introduced to different approaches in coping with latency issues introduced when playing together in real-time by sending raw audio between each location. Are there other ways to perform music together over the internet which are not as demanding in regards to bandwidth and latency? We've looked into using lightweight control messages to create and manipulate music together. This can be done in an interactive, interdependent setting where each participant is creating music locally while influencing the music-creation process of the other(s). It can also be a setting where some participants are *manipulators* and others are *creators*, where the manipulators influence the outcome of the creators. In this tutorial, we will introduce and explain three simple, network-based musical examples using UDP messages through network connections and with the OSC protocol.
 
 <figure style="float: none">
-   <img src="https://drive.google.com/uc?&id=1Td6m6q3Lf63i9YH1tNq4My6-UUvt1Zur" alt="Controlled Environment" title="" width="auto" />
+   <img src="https://drive.google.com/uc?&id=1Td6m6q3Lf63i9YH1tNq4My6-UUvt1Zur" alt="Controlled Environment" title="" width="80%" />
    <figcaption><i></i></figcaption>
 </figure>
 
