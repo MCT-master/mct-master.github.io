@@ -15,7 +15,7 @@ As MCT students, we have been exposed to Networked Music Performances ([NMP](htt
 
 <figure style="float: none">
    <img src="https://drive.google.com/uc?&id=1Td6m6q3Lf63i9YH1tNq4My6-UUvt1Zur" alt="Controlled Environment" title="" width="auto" />
-   <figcaption><i>Give and take control</i></figcaption>
+   <figcaption><i></i></figcaption>
 </figure>
 
 ### UDP
@@ -33,7 +33,7 @@ The second thing to take care of before jamming out and broadcasting OSC message
 
 <figure style="float: none">
    <img src="/assets/image/2202_04_25_kriswent_PortForwarding.png" alt="Port Forwarding" title="" width="80%" />
-   <figcaption><i>An example of port forwarding in router settings.</i></figcaption>
+   <figcaption><i>An example of port forwarding in the router settings.</i></figcaption>
 </figure>
 
 The good thing is that this setup only needs to be done on the receiver's end, due to the nature of UDP messages not establishing a two-way connection. If we assume a setting where one is controlling the other, the sender only needs to know the public IP of the receiver and decide on a [port](https://en.wikipedia.org/wiki/List_of_TCP_and_UDP_port_numbers). The receiver then needs to know the public IP of the sender and do port forwarding of messages from the chosen port of that IP to their local IP address (on an arbitrary port). **Note: Under such circumstances, TCP would've not worked.**
