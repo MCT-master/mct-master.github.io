@@ -66,8 +66,8 @@ We hope that you take what we have taught in this video as a basis to explore fu
 ---
 
 ### <a name="Footnotes">Footnotes</a>
-[1] Take a look at the [Port Forward](https://portforward.com/) webpage for more information on how to configure your router.
+<sup>[1]</sup> Take a look at the [Port Forward](https://portforward.com/) webpage for more information on how to configure your router.
 
-[2] For more advanced and reliable use of OSC over UDP, look up 'Time Tags' in the [Open Sound Control Specification](https://opensoundcontrol.stanford.edu/spec-1_0.html).
+<sup>[2]</sup> For more advanced and reliable use of OSC over UDP, look up 'Time Tags' in the [Open Sound Control Specification](https://opensoundcontrol.stanford.edu/spec-1_0.html).
 
-[3] CNMAT have released [ODOT](https://github.com/CNMAT/CNMAT-odot), a set of externals for even more advanced use of OSC in Pure data and Max/MSP.
+<sup>[3]</sup> CNMAT have released [ODOT](https://github.com/CNMAT/CNMAT-odot), a set of externals for even more advanced use of OSC in Pure data and Max/MSP.
