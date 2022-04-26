@@ -15,7 +15,7 @@ As MCT students, we have been exposed to Networked Music Performances ([NMP](htt
 
 <figure style="float: none">
    <img src="https://drive.google.com/uc?&id=1Td6m6q3Lf63i9YH1tNq4My6-UUvt1Zur" alt="Controlled Environment" title="" width="80%" />
-   <figcaption><i>Photo: Yasin Hasan – https://unsplash.com/@yasin</i></figcaption>
+   <figcaption><i>Photo: Yasin Hasan</i></figcaption>
 </figure>
 
 ### UDP
@@ -55,12 +55,15 @@ The cloud is the limit (pun intended) for how you could take advantage of this t
 
 ### Conclusion
 
-In summary, we have gone through the basics of UDP and OSC, as well as three different ways to use these tools to create and manipulate music across networks. What we have shown here is only the beginning in terms of the possibilities afforded by playing music through networks. This blogpost is accompanying our video tutorial found below. We hope that you take what we have taught in this video as a basis to explore further and create your own NMP someday soon!
+In summary, we have gone through the basics of UDP and OSC, as well as three different ways to use these tools to create and manipulate music across networks. What we have shown here is only the beginning in terms of the possibilities afforded by playing music through networks. This blogpost is accompanying our video tutorial found below.
 
 <figure style="float: none">
 <iframe width="800" height="500" src="https://www.youtube.com/embed/AYnd_vlNUxY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </figure>
 
+We hope that you take what we have taught in this video as a basis to explore further and create your own NMP someday soon!
+
+---
 
 ### <a name="Footnotes">Footnotes</a>
 [1] Take a look at the [Port Forward](https://portforward.com/) webpage for more information on how to configure your router.
