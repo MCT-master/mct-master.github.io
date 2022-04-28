@@ -93,3 +93,35 @@ So for a seventh order encoding, we need
 Arteaga, D. (2015). Introduction to Ambisonics.
 
 Zotter, F., & Frank, M. (2019). ‘XY, MS, and First-Order Ambisonics’. Ambisonics: A Practical 3D Audio Theory for Recording, Studio Production, Sound Reinforcement, and Virtual Reality, pp. 1–22. Springer International Publishing: Cham. DOI: 10.1007/978-3-030-17207-7_1
+
+### **Image Sources**
+
+https://upload.wikimedia.org/wikipedia/commons/7/74/Real_Spherical_Harmonics_Figure_Table_Complex_Radial_Magnitude.gif
+
+https://dt7v1i9vyp3mf.cloudfront.net/styles/news_large/s3/imagelibrary/Q/QA_4-0811-qSuciyY05bdnpJjU8IQDmj8ZBfB.PaBl.jpg
+
+### **Video Tutorial Media Sources**
+
+#### **Audio**
+
+Angels in Amplifiers - I'm Alright; From https://www.cambridge-mt.com/ms/mtk/
+
+#### **Images**
+
+https://notam.no/wp-content/uploads/2019/10/siriusoriginal-studio3Web.jpg
+
+https://notam.no/wp-content/uploads/2016/09/SiriusstWeb.jpg
+
+https://blog.bestbuy.ca/wp-content/uploads/2016/07/44354i9E45BD1951EE047B.jpg
+
+https://dxarts.washington.edu/sites/dxarts/files/styles/large_full_width/public/images/dxarts_media_lab1_sm.jpg?itok=UlD5573s
+
+https://upload.wikimedia.org/wikipedia/en/f/f6/AmbisonicLogo.svg
+
+https://www.researchgate.net/publication/341128068/figure/fig1/AS:887453950939143@1588596918992/Ambisonics-spherical-harmonics-for-orders-up-to-three-FOA-includes-the-top-two-lines-of.png
+
+https://ocl-steinberg-live.steinberg.net/_storage/asset/60417/storage/JPG_large_2000px/60417-large.jpg
+
+https://i.imgur.com/Ts2fWMx.png
+
+https://i.ytimg.com/vi/l0sxyrAuB0k/maxresdefault.jpg
