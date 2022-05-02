@@ -26,7 +26,7 @@ gyroscope;
 picture-in-picture"
 allowfullscreen>
 </iframe>
-<figcaption>Relevant caption.</figcaption>
+<figcaption>Video tutorial caption.</figcaption>
 </figure>
 
 This blog post goes into a little more detail in how exactly Ambisonics works and why Ambisonics is speaker independent, for those interested in what is going on ‘under the hood’.
