@@ -15,7 +15,7 @@ keywords: Portal, Ambisonics, Spatial Audio
 
 <figure style="float: none">
 <iframe width="800" height="500"
-src=" https://youtu.be/CejOR83X6lM "
+src="https://www.youtube.com/embed/CejOR83X6lM"
 title="YouTube video player"
 frameborder="0"
 allow="accelerometer;
@@ -59,11 +59,11 @@ And this is correct! If we placed an omnidirectional microphone and three figure
 
 Intuitively, the more spherical harmonics we have, the more accurately we can reproduce our soundfield, thereby increasing the ease of sound source localisation and the size of the ‘sweet spot’. When choosing the order of Ambisonics, we are actually deciding the number of spherical harmonics that we are ‘recording’. So if we choose to encode in first order Ambisonics, we are ‘recording’ the first four spherical harmonics, in third order the first 16, and so on. As we need a channel for each harmonic, we can find the number of channels we need for an order by using the following formula:
 
-![\Large N_\mathrm{Channels}=(N_\mathrm{Order}+1](https://latex.codecogs.com/svg.latex?\Large&space;N_\mathrm{Channels}=(N_\mathrm{Order}+1)^2)
+![\Large N_\mathrm{Channels}=(N_\mathrm{Order}+1](<https://latex.codecogs.com/svg.latex?\Large&space;N_\mathrm{Channels}=(N_\mathrm{Order}+1)^2>)
 
 So to encode seventh order Ambisonics, we would require
 
-![\Large (7+1)^2=64](https://latex.codecogs.com/svg.latex?\Large&space;(7+1)^2=64)
+![\Large (7+1)^2=64](<https://latex.codecogs.com/svg.latex?\Large&space;(7+1)^2=64>)
 
 channels.
 
@@ -84,19 +84,19 @@ So for a seventh order encoding, we need
 
 ![\Large (7+1)^2=64](https://latex.codecogs.com/svg.latex?\Large&space;2\times7+1=15)
 
- channels.
+channels.
 
- However, remember that even in 2D, for first order, you still need a minimum of four channels.
+However, remember that even in 2D, for first order, you still need a minimum of four channels.
 
 ### **Summing Up**
 
--	When we mix for Ambisonics, we place objects in a virtual spherical soundfield.
-<br>
--	We then decide which spherical harmonics of the soundfield we wish to preserve by encoding the soundfield into b-format at a desired Ambisonics order. We can think of this as ‘recording’ portions of the soundfield with microphones that have polar patterns corresponding to the harmonic.
-<br>
--	As each harmonic requires a channel for encoding, we can use the formulas above to find how many channels we require for the order that we have chosen.
-<br>
--	When we decode the b-format, we are choosing which harmonics to reproduce. We can decode at a lower order (and therefore for fewer speakers) than we encoded in because the information of the lower order harmonics is still contained in the b-format signal.
+- When we mix for Ambisonics, we place objects in a virtual spherical soundfield.
+  <br>
+- We then decide which spherical harmonics of the soundfield we wish to preserve by encoding the soundfield into b-format at a desired Ambisonics order. We can think of this as ‘recording’ portions of the soundfield with microphones that have polar patterns corresponding to the harmonic.
+  <br>
+- As each harmonic requires a channel for encoding, we can use the formulas above to find how many channels we require for the order that we have chosen.
+  <br>
+- When we decode the b-format, we are choosing which harmonics to reproduce. We can decode at a lower order (and therefore for fewer speakers) than we encoded in because the information of the lower order harmonics is still contained in the b-format signal.
 
 ### **Sources and Further Reading**
 
