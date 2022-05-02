@@ -14,9 +14,19 @@ keywords: Portal, Ambisonics, Spatial Audio
 [Ambisonics](https://www.google.com/search?client=firefox-b-d&q=ambisonics) is a spatial audio format that enables a quick and easy creation of a 3D audio mix. We created a video tutorial to show you how to create an Ambisonics mix using [Reaper](https://www.reaper.fm/) and the [IEM plugin suite](https://plugins.iem.at/), which you can watch below.
 
 <figure style="float: none">
-  <video width="auto" controls>
-    <source src="https://drive.google.com/uc?&id=1I1xgaJjTRK7jGy_rz7R3E1FcxTQ6IzS6" type='video/mp4'>
-  </video>
+<iframe width="800" height="500"
+src=" https://youtu.be/CejOR83X6lM "
+title="YouTube video player"
+frameborder="0"
+allow="accelerometer;
+100%play;
+clipboard-write;
+encrypted-media;
+gyroscope;
+picture-in-picture"
+allowfullscreen>
+</iframe>
+<figcaption>Relevant caption.</figcaption>
 </figure>
 
 This blog post goes into a little more detail in how exactly Ambisonics works and why Ambisonics is speaker independent, for those interested in what is going on ‘under the hood’.
