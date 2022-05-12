@@ -1,17 +1,17 @@
 ---
 layout: post
 title: "Internet time delay: a new musical language for a new time basis"
-date: 2021-09-22 09:00:00 +0200
+date: 2021-09-20 09:00:00 +0200
 categories: portal
 author: Joachim Poutaraud
-image: /assets/image/2021_09_20_joachimpoutaraud_networkdelay.jpg
+image: /assets/image/2021_09_20_joachipo_networkdelay.jpg
 excerpt: "Logistical considerations for large-scale telematic performances involving geographically displaced contributors still remain strongly present. Therefore, if networked performers are still to the vagaries of speed and bandwidth of multiple networks and if latency  problems remain a significant issue for audio-visual streaming of live Network Music Performance (NMP), one can rather reflect on trying  to find a new musical language for a new time basis."
 
 keywords: Network Music Performance, Internet Time Delay, Physical Distance, Latency, Music Language
 ---
 
 <figure>
-  <img src="/assets/image/2021_09_20_joachimpoutaraud_networkdelay.jpg" alt="the misty jungle" width="100%" align="middle"/>
+  <img src="/assets/image/2021_09_20_joachipo_networkdelay.jpg" alt="the misty jungle" width="100%" align="middle"/>
 </figure>
 
 ### **Introduction**
