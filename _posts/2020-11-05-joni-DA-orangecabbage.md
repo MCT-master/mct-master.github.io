@@ -47,7 +47,11 @@ The last, but not the least important knob, ‘Waveform’ lets players select w
 The following video is a demo to show how the synthesiser works.
 
 <figure style="float: none">
+<<<<<<< Updated upstream
     <iframe width="800" height="480" src="https://www.youtube.com/embed/zss6kU7rlJc" frameborder="0" allowfullscreen></iframe>
+=======
+    <iframe width="800" height="480" src="https://youtu.be/zss6kU7rlJc" frameborder="0" allowfullscreen></iframe>
+>>>>>>> Stashed changes
     <figcaption>Video Demo</figcaption>
 </figure>
 
