@@ -13,7 +13,7 @@ excerpt: "Using LSTM recurrent neural networks to model two analog guitar pedals
 
 # **Using a Recurrent Neural Network to model two analog guitar effects**
 
-For my Machine Learning (ML) project this spring I chose to emulate two analog guitar effects using Recurrent Neural Networks (RNNs).  
+For my Machine Learning (ML) project this spring I chose to emulate two analog guitar effects using Recurrent Neural Networks (RNNs).    
 An analog effect is a non-linear system which changes some of the sonic characteristics of an audio source. The dry sound is input into the unit, and the resulting output is the wet audio. My chosen effects where the Boss SD-1 distortion pedal and the Wampler Black '65 tube saturator.
 
 
@@ -45,8 +45,8 @@ Using ML techniques, we are able to emulate an effect without having any prior k
 </figure>
 
 
-Normal fully connected feed forward neural networks aren't very good at this, because they are not able to keep any memory of former events. Even though my chosen effects had very short time-variances, they still affect the audio source in ways that needs to be understood in the time domain. RNNs on the other hand are able to keep some memory of former events in their cell state which makes them quite good at learning how a non-linear system like an analog distortion effect works.
-RNNs come in many forms, from the simple recurrent unit to the Gated Recurrent Unit (GRU). But the most popular and successful when it comes to audio effect modeling is the [Long Short Term Memory unit](https://colah.github.io/posts/2015-08-Understanding-LSTMs/) (LSTM).
+Normal fully connected feed forward neural networks aren't very good at this, because they are not able to keep any memory of former events. Even though my chosen effects had very short time-variances, they still affect the audio source in ways that needs to be understood in the time domain. RNNs on the other hand are able to keep some memory of former events in their cell state which makes them quite good at learning how a non-linear system like an analog distortion effect works.  
+RNNs come in many forms, from the simple recurrent unit to the Gated Recurrent Unit (GRU). But the most popular and successful when it comes to audio effect modeling is the [Long Short Term Memory unit](https://colah.github.io/posts/2015-08-Understanding-LSTMs/) (LSTM).  
 
 During my preliminary tests I quickly realized that the LSTM networks performed much better than the other RNNs. I also found that LSTMs had some peculiar challenges with audio prediction which I decided to explore. The result of this exploration was a comparative study of different LSTM architectures and different hyperparameters and how they performed modeling my chosen effects.
 
