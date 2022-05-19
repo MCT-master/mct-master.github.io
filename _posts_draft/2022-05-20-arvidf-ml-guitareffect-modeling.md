@@ -1,8 +1,8 @@
 ---
 layout: post
-title: "Using machine learning to model analog guitar pedals"
+title: "Emulating analog guitar pedals with Recurrent Neural Networks"
 date: 2022-05-20 10:30:00 +0200
-categories: machine learning
+categories: machine-learning
 author: Arvid Falch
 image: /assets/image/2022_05_19_arvidf_pedals.png
 keywords: mct, machine learning, scientific computing, analog effects
@@ -13,8 +13,8 @@ excerpt: "Using LSTM recurrent neural networks to model two analog guitar pedals
 
 # **Using a Recurrent Neural Network to model two analog guitar effects**
 
-For my Machine Learning (ML) project this spring I chose to emulate two analog guitar effects using Recurrent Neural Networks (RNNs).    
-An analog effect is a non-linear system which changes some of the sonic characteristics of an audio source. The dry sound is input into the unit, and the resulting output is the wet audio. My chosen effects where the Boss SD-1 distortion pedal and the Wampler Black '65 tube saturator.
+For my Machine Learning (ML) project I chose to emulate two analog guitar effects using Recurrent Neural Networks (RNNs).    
+An analog effect is a non-linear system which changes some of the sonic characteristics of an audio source. The *dry* sound is input into the unit, and the resulting output is the *wet* audio. My chosen effects where the **Boss SD-1** distortion pedal and the **Wampler Black '65** tube saturator.
 
 
 
@@ -61,22 +61,23 @@ I created an 8 minute audio file consisting of different audio material. This au
 
 ## **Training the models**
 
-I made five different model structures, which has either one or two LSTM layers, 16 or 32 hidden units (inside the LSTM), and accepted as input either a frame of 32 samples or 64 samples. These different structures were then trained on different dataset sizes and different number of epochs, and compared to see who performed the best.
+I made five different model structures, which has either one or two LSTM layers, 16 or 32 hidden units (inside the LSTM), and accepts as input either a frame of 32 samples or 64 samples. These different structures were then trained on different dataset sizes and different number of epochs, and compared to see who performed the best.
 
 <figure style="float: none">
-   <img src="/assets/image/2022_05_19_arvidf_models.png" alt="Models" title="" height="75%" width="auto" />
-   <figcaption><i>The five models.</i></figcaption>
+   <img src="/assets/image/2022_05_19_arvidf_models.png" alt="Models" title="" height="auto" width="70%" />
+   <figcaption><i>The five model structures.</i></figcaption>
 </figure>
 
 
-Using [Tensorflow](https://www.tensorflow.org/) with the [Keras API](https://keras.io/), I trained hundred of models, and collected evaluation metrics from all of them into a csv file which I used for analysis. It took quite some time.
+Using [Tensorflow](https://www.tensorflow.org/) with the [Keras API](https://keras.io/), I trained hundred of models, and collected evaluation metrics from all of them which I used for analysis.   
+It took quite some time.  
 And every week or so I would come up with a tiny improvement and as a result I had to redo everything from scratch.
 
 ## **Results**
 
 To put it simple, the results can be explained this way:
 
-1. The models performed better on the SD-1 than the Black 65'.
+1. The models performed better on the SD-1 than the Black 65' when we look at the evaluation metrics. But when you audition the predicted audio and the target output it's hard to tell which effect is most similar.
 
 **SD-1 True output**
 
@@ -101,18 +102,18 @@ To put it simple, the results can be explained this way:
 All the best performing models were trained on 500k frames of either 32 or 64 samples.
 
 <figure style="float: none">
-   <img src="/assets/image/2022_05_19_arvidf_SD1_perf.png" alt="SD1 Performance" title="" height="75%"  width="auto" />
+   <img src="/assets/image/2022_05_19_arvidf_SD1_perf.png" alt="SD1 Performance" title="" height="auto"  width="65%" />
    <figcaption><i>Evaluation metrics for the best performing models on the SD-1.</i></figcaption>
 </figure>
 
 <figure style="float: none">
-   <img src="/assets/image/2022_05_19_arvidf_B65_perf.png" alt="B65 Performance" title="" height="75%" width="auto" />
+   <img src="/assets/image/2022_05_19_arvidf_B65_perf.png" alt="B65 Performance" title="" height="auto%" width="65%" />
    <figcaption><i>Evaluation metrics for the best performing models on the B 65'.</i></figcaption>
 </figure>
 
 4. The evaluation metric scores did not necessarily correspond to my subjective perception of the similarity of the predicted versus the target output.
 5. The longer the models trained, the better the evaluation metric scores were, however the more they added unwanted high frequency material (noise and aliasing).
-6. Visually inspecting spectrograms and waveforms provides crucial information.
+6. Visually inspecting spectrograms and waveforms often tells a different story than the evaluation metrics.    
 
 
 <figure style="float: none">
@@ -120,11 +121,11 @@ All the best performing models were trained on 500k frames of either 32 or 64 sa
    <figcaption><i>Waveforms of dry audio, target output and predicted output.</i></figcaption>
 </figure>
 
-### **Epochs**
+### **Noise and aliasing**
 
 In ML, an epoch is one training iteration through the whole training set. The number of epochs then determines for how long the model is allowed to train. Training for too many epochs can result in overfitting, or in the case of this project; noise and aliasing.
-Here you can see how the models first learns to emulate the low frequency content, then slowly learns to add the high frequency content. After 50+ epochs it starts to add erroneous high frequent noise and aliasing artifacts.
-These examples were made with a dataset of 116 seconds of dry audio, rather small compared to the biggest datasets used for my experiments. However bigger datasets would cause the same behaviour.  
+Here you can see how the models first learn to emulate the low frequency content, then slowly learn to add the high frequency content. After 50+ epochs they start to add erroneous high frequent noise and aliasing artifacts.
+These examples were made with a dataset of 116 seconds of dry audio, rather small compared to the biggest datasets used for my experiments. However bigger datasets would cause the same behaviour:  
 
 
 <figure style="float: none">
@@ -132,6 +133,7 @@ These examples were made with a dataset of 116 seconds of dry audio, rather smal
    <figcaption><i>Spectrogram of Target Output.</i></figcaption>
 </figure>
 
+### **True output**
 <div class="waveform" id="Target_output"></div>
 
 <figure style="float: none">
@@ -139,6 +141,7 @@ These examples were made with a dataset of 116 seconds of dry audio, rather smal
    <figcaption><i>Spectrogram of prediction after 20 epochs.</i></figcaption>
 </figure>
 
+### **Predicted output after 20 epochs**
 <div class="waveform" id="20_epochs"></div>
 
 <figure style="float: none">
@@ -146,6 +149,7 @@ These examples were made with a dataset of 116 seconds of dry audio, rather smal
    <figcaption><i>Spectrogram of prediction after 35 epochs.</i></figcaption>
 </figure>
 
+### **Predicted output after 35 epochs**
 <div class="waveform" id="35_epochs"></div>
 
 <figure style="float: none">
@@ -153,6 +157,7 @@ These examples were made with a dataset of 116 seconds of dry audio, rather smal
    <figcaption><i>Spectrogram of prediction after 50 epochs.</i></figcaption>
 </figure>
 
+### **Predicted output after 50 epochs**
 <div class="waveform" id="50_epochs"></div>
 
 <figure style="float: none">
@@ -160,6 +165,7 @@ These examples were made with a dataset of 116 seconds of dry audio, rather smal
    <figcaption><i>Spectrogram of prediction after 80 epochs.</i></figcaption>
 </figure>
 
+### **Predicted output after 80 epochs**
 <div class="waveform" id="80_epochs"></div>
 
 <figure style="float: none">
@@ -167,20 +173,23 @@ These examples were made with a dataset of 116 seconds of dry audio, rather smal
    <figcaption><i>Spectrogram of prediction after 200 epochs.</i></figcaption>
 </figure>
 
+
+### **Predicted output after 200 epochs**
 <div class="waveform" id="200_epochs"></div>
 
 
 
-Insert waveforms of the same stuff underneath each spectrogram.
 
-This could however be because the LSTMs are doing a great job emulating the analog effects. All analog effects are non-linear, and non-linear systems will always produce content above the Nyquist Frequency, called the intermodulation product. Whenever audio goes through the process of Analog-to-Digital conversion, this is handled by a low pass filter filtering out the information around and above the Nyquist frequency. However if these high frequency information happens inside the digital domain, no such filtering is possible.  
+This could however be because the LSTMs are doing a great job emulating the analog effects. All analog effects are non-linear, and non-linear systems will always produce content above the [Nyquist Frequency](https://en.wikipedia.org/wiki/Nyquist_frequency), called the intermodulation product. Whenever audio goes through the process of Analog-to-Digital conversion, this is handled by a low pass filter filtering out the information around and above the Nyquist frequency. However because the high frequency content predicted by the models happens inside the digital domain, no such filtering is possible.  
 
-### **Takeaways**
+## **Takeaways**
 
-1. LSTM networks are pretty good at modeling analog effects with short time-variances. However they don't work that well if the effect has longer time-variances (phasers, chorus) or even memory (delay, reverb).
+1. LSTM networks are pretty good at modeling analog effects with short time-variances. However they don't work that well if the effect has longer time-variances (phasers, chorus) or memory (delay, reverb).
 2. It's hard to evaluate how similar a predicted audio signal is to its target audio signal. Evaluation metrics underestimate low energy high frequency information, in other words they don't "hear" the noisy stuff.
+3. Smaller and less computationally expensive models can produce pretty good results, the performance gain achieved by adding layers or more hidden units to a LSTM network are small compared to the added computational cost.
+4. Working with raw audio, the size of your dataset gets big. In this project I avoided using any feature extraction to analyse how the LSTM networks learn and predict when fed with raw audio.
 
-
+The code is available at [Github](https://github.com/arvidfalch/blackboxRNNmodeling).
 
 
 
