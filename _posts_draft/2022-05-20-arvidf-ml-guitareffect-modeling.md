@@ -23,7 +23,7 @@ An analog effect is a non-linear system which changes some of the sonic characte
    <figcaption><i>The Boss Sd-1 and Wampler Black 65'</i></figcaption>
 </figure>
 
-Audio examples of a dry sound and how it sounds after being treated by the effects:
+Audio examples of a dry sound and how it sounds after being processed through the effects:
 
 **Dry Sound**
 
@@ -37,7 +37,7 @@ Audio examples of a dry sound and how it sounds after being treated by the effec
 
 <div class="waveform" id="B65_1"></div>
 
-Using ML techniques, we are able to emulate an effect without having any prior knowledge of the effect we emulate. By feeding raw dry audio to a neural network, we can train it to predict the wet audio. More specific; we feed it a segment of dry audio and the model predict the value of the target sample of wet audio.
+Using ML techniques, we are able to emulate an effect without having any prior knowledge of the effect we emulate. This is called black-box modeling. By feeding raw dry audio to a neural network, we can train it to predict the wet audio. More specific; we feed it a segment of dry audio and the model predict the value of the target sample of wet audio.
 
 <figure style="float: none">
    <img src="/assets/image/2022_05_19_arvidf_feature_input.png" alt="Input" title="" width="auto" />
@@ -45,7 +45,7 @@ Using ML techniques, we are able to emulate an effect without having any prior k
 </figure>
 
 
-Normal fully connected feed forward neural networks aren't very good at this, because they are not able to keep any memory of former events. Even though my chosen effects had very short time-variances, they still affect the audio source in ways that needs to be understood in the time domain. RNNs on the other hand are able to keep some memory of former events in their cell state which makes them quite good at learning how a non-linear system like an analog distortion effect works.  
+Normal fully connected feed forward neural networks aren't very good at this, because they are not able to keep any memory of former events. Even though my chosen effects had very short time-variances, they still affect the audio source in ways that needs to be understood in the time domain. RNNs are able to keep some memory of former events in their cell state which makes them quite good at learning how a non-linear system like an analog distortion effect works.  
 RNNs come in many forms, from the simple recurrent unit to the Gated Recurrent Unit (GRU). But the most popular and successful when it comes to audio effect modeling is the [Long Short Term Memory unit](https://colah.github.io/posts/2015-08-Understanding-LSTMs/) (LSTM).  
 
 During my preliminary tests I quickly realized that the LSTM networks performed much better than the other RNNs. I also found that LSTMs had some peculiar challenges with audio prediction which I decided to explore. The result of this exploration was a comparative study of different LSTM architectures and different hyperparameters and how they performed modeling my chosen effects.
@@ -190,7 +190,7 @@ This could however be because the LSTMs are doing a great job emulating the anal
 3. Smaller and less computationally expensive models can produce pretty good results. The performance gain achieved by adding layers or more hidden units to a LSTM network are not necessarily worth it compared to the added computational cost and increased interference time.
 
 
-The code is available at [Github](https://github.com/arvidfalch/blackboxRNNmodeling).
+The code for this project is available at [Github](https://github.com/arvidfalch/blackboxRNNmodeling).
 
 
 
