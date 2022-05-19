@@ -189,7 +189,7 @@ This could however be because the LSTMs are doing a great job emulating the anal
 3. Smaller and less computationally expensive models can produce pretty good results, the performance gain achieved by adding layers or more hidden units to a LSTM network are small compared to the added computational cost.
 4. Working with raw audio, the size of your dataset gets big. In this project I avoided using any feature extraction to analyse how the LSTM networks learn and predict when fed with raw audio.
 
-
+The code is available at [Github](https://github.com/arvidfalch/blackboxRNNmodeling). 
 
 
 
