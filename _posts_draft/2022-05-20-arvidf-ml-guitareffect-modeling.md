@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Emulating analog guitar pedals with Recurrent Neural Networks"
-date: 2022-05-20 10:30:00 +0200
+date: 2022-05-20 00:30:00 +0200
 categories: machine-learning
 author: Arvid Falch
 image: /assets/image/2022_05_19_arvidf_pedals.png
@@ -154,7 +154,7 @@ These examples were made with a dataset of 116 seconds of dry audio, rather smal
 </figure>
 
 ### **Predicted output after 35 epochs**
-<div class="waveform" id="35_epochs"></div>
+<div class="waveform" id="a35_epochs"></div>
 
 <figure style="float: none">
    <img src="/assets/image/2022_05_19_arvidf_50epochs.png" alt="50epochs" title="" width="auto" />
@@ -162,7 +162,7 @@ These examples were made with a dataset of 116 seconds of dry audio, rather smal
 </figure>
 
 ### **Predicted output after 50 epochs**
-<div class="waveform" id="50_epochs"></div>
+<div class="waveform" id="a50_epochs"></div>
 
 <figure style="float: none">
    <img src="/assets/image/2022_05_19_arvidf_80epochs.png" alt="80epochs" title="" width="auto" />
@@ -170,7 +170,7 @@ These examples were made with a dataset of 116 seconds of dry audio, rather smal
 </figure>
 
 ### **Predicted output after 80 epochs**
-<div class="waveform" id="80_epochs"></div>
+<div class="waveform" id="a80_epochs"></div>
 <br>
 <figure style="float: none">
    <img src="/assets/image/2022_05_19_arvidf_200epochs.png" alt="200epochs" title="" width="auto" />
@@ -179,7 +179,7 @@ These examples were made with a dataset of 116 seconds of dry audio, rather smal
 
 
 ### **Predicted output after 200 epochs**
-<div class="waveform" id="200_epochs"></div>
+<div class="waveform" id="a200_epochs"></div>
 <br>
 
 
@@ -310,25 +310,25 @@ const audioSamples = [
 
      {
         path: "/assets/audio/2022_05_19_arvidf_35epochs.mp3",
-        anchor: "35_epochs",
+        anchor: "a35_epochs",
         color: "blue",
         alert: false,
       },
       {
          path: "/assets/audio/2022_05_19_arvidf_50epochs.mp3",
-         anchor: "50_epochs",
+         anchor: "a50_epochs",
          color: "blue",
          alert: false,
        },
        {
            path: "/assets/audio/2022_05_19_arvidf_80epochs.mp3",
-           anchor: "80_epochs",
+           anchor: "a80_epochs",
            color: "#ffa600",
            alert: false,
        },
        {
            path: "/assets/audio/2022_05_19_arvidf_200epochs.mp3",
-           anchor: "200_epochs",
+           anchor: "a200_epochs",
            color: "#328d78",
            alert: false,
        },
