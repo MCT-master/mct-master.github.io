@@ -43,7 +43,7 @@ The most relevant motion data feature for this experiment exported from the Vide
 Observations from the videos and the QoM.
 
 <figure style="float: none">
-   <img src="/assets/image/2022_05_19_sofiagon_qom_data.png" alt="" title="QoM of all participants" width="auto" />
+   <img src="/assets/image/2022_05_19_sofiagon_qom_data.jpg" alt="" title="QoM of all participants" width="auto" />
 </figure>
 
 ## Participant 1
