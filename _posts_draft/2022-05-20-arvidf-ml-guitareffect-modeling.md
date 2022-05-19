@@ -38,7 +38,7 @@ Audio examples of a dry sound and how it sounds after being processed through th
 <div class="waveform" id="B65_1"></div>
 
 Using ML techniques, we are able to emulate an effect without having any prior knowledge of the effect we emulate. This is called black-box modeling. By feeding raw dry audio to a neural network, we can train it to predict the wet audio. More specific; we feed it a segment of dry audio and the model predict the value of the target sample of wet audio.
-
+<br>
 <figure style="float: none">
    <img src="/assets/image/2022_05_19_arvidf_feature_input.png" alt="Input" title="" width="auto" />
    <figcaption><i>Frame of samples as input and one sample of wet audio as target output</i></figcaption>
@@ -133,51 +133,51 @@ These examples were made with a dataset of 116 seconds of dry audio, rather smal
    <img src="/assets/image/2022_05_19_arvidf_target_output.png" alt="Target" title="" width="auto" />
    <figcaption><i>Spectrogram of Target Output.</i></figcaption>
 </figure>
-
+<br>
 ### **True output**
 <div class="waveform" id="Target_output"></div>
-
+<br>
 <figure style="float: none">
    <img src="/assets/image/2022_05_19_arvidf_20epochs.png" alt="20epochs" title="" width="auto" />
    <figcaption><i>Spectrogram of prediction after 20 epochs.</i></figcaption>
 </figure>
-
+<br>
 ### **Predicted output after 20 epochs**
 <div class="waveform" id="20_epochs"></div>
-
+<br>
 <figure style="float: none">
    <img src="/assets/image/2022_05_19_arvidf_35epochs.png" alt="35epochs" title="" width="auto" />
    <figcaption><i>Spectrogram of prediction after 35 epochs.</i></figcaption>
 </figure>
-
+<br>
 ### **Predicted output after 35 epochs**
 <div class="waveform" id="35_epochs"></div>
-
+<br>
 <figure style="float: none">
    <img src="/assets/image/2022_05_19_arvidf_50epochs.png" alt="50epochs" title="" width="auto" />
    <figcaption><i>Spectrogram of prediction after 50 epochs.</i></figcaption>
 </figure>
-
+<br>
 ### **Predicted output after 50 epochs**
 <div class="waveform" id="50_epochs"></div>
-
+<br>
 <figure style="float: none">
    <img src="/assets/image/2022_05_19_arvidf_80epochs.png" alt="80epochs" title="" width="auto" />
    <figcaption><i>Spectrogram of prediction after 80 epochs.</i></figcaption>
 </figure>
-
+<br>
 ### **Predicted output after 80 epochs**
 <div class="waveform" id="80_epochs"></div>
-
+<br>
 <figure style="float: none">
    <img src="/assets/image/2022_05_19_arvidf_200epochs.png" alt="200epochs" title="" width="auto" />
    <figcaption><i>Spectrogram of prediction after 200 epochs.</i></figcaption>
 </figure>
-
+<br>
 
 ### **Predicted output after 200 epochs**
 <div class="waveform" id="200_epochs"></div>
-
+<br>
 
 
 
@@ -297,6 +297,7 @@ const audioSamples = [
          color: "#D93821",
          alert: false,
      },
+
      {
          path: "/assets/audio/2022_05_19_arvidf_20epochs.mp3",
          anchor: "20_epochs",
