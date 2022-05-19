@@ -64,7 +64,7 @@ I created an 8 minute audio file consisting of different audio material. This au
 I made five different model structures, which has either one or two LSTM layers, 16 or 32 hidden units (inside the LSTM), and accepted as input either a frame of 32 samples or 64 samples. These different structures were then trained on different dataset sizes and different number of epochs, and compared to see who performed the best.
 
 <figure style="float: none">
-   <img src="/assets/image/2022_05_19_arvidf_models.png" alt="Models" title="" width="auto" />
+   <img src="/assets/image/2022_05_19_arvidf_models.png" alt="Models" title="" height="75% width="auto" />
    <figcaption><i>The five models.</i></figcaption>
 </figure>
 
@@ -101,12 +101,12 @@ To put it simple, the results can be explained this way:
 All the best performing models were trained on 500k frames of either 32 or 64 samples.
 
 <figure style="float: none">
-   <img src="/assets/image/2022_05_19_arvidf_SD1_perf.png" alt="SD1 Performance" title="" width="auto" />
+   <img src="/assets/image/2022_05_19_arvidf_SD1_perf.png" alt="SD1 Performance" title="" height="75%  width="auto" />
    <figcaption><i>Evaluation metrics for the best performing models on the SD-1.</i></figcaption>
 </figure>
 
 <figure style="float: none">
-   <img src="/assets/image/2022_05_19_arvidf_B65_perf.png" alt="B65 Performance" title="" width="auto" />
+   <img src="/assets/image/2022_05_19_arvidf_B65_perf.png" alt="B65 Performance" title="" height="75% width="auto" />
    <figcaption><i>Evaluation metrics for the best performing models on the B 65'.</i></figcaption>
 </figure>
 
@@ -237,83 +237,83 @@ code {
 const audioSamples = [
 
     {
-        path: "https://drive.google.com/file/d/1mKtiOOMtzUQa1Ozou1jmnz2r0qWeqUFn/view?usp=sharing",
+        path: ""https://drive.google.com/uc?&id=1mKtiOOMtzUQa1Ozou1jmnz2r0qWeqUFn",
         anchor: "Dry_1",
         color: "#ffa600",
         alert: false,
     },
     {
-        path: "https://drive.google.com/file/d/1lbvtV0v-uYFEg4Q59y8RM3BVPq9FilRb/view?usp=sharing",
+        path: ""https://drive.google.com/uc?&id=1lbvtV0v-uYFEg4Q59y8RM3BVPq9FilRb",
         anchor: "SD1_1",
         color: "#328d78",
         alert: false,
     },
 
     {
-        path: "https://drive.google.com/file/d/1DzDGQxoLtHBme7wpy_y8d8maGkJdzUa3/view?usp=sharing",
+        path: ""https://drive.google.com/uc?&id=1DzDGQxoLtHBme7wpy_y8d8maGkJdzUa3",
         anchor: "B65_1",
         color: "#D93821",
         alert: false,
     },
     {
-        path: "https://drive.google.com/file/d/1wEl_lvIhuRY2j_mzI-wYZOhN4Y6esbTD/view?usp=sharing",
+        path: ""https://drive.google.com/uc?&id=1wEl_lvIhuRY2j_mzI-wYZOhN4Y6esbTD",
         anchor: "SD1_True",
         color: "#1869ca",
         alert: false,
     },
 
     {
-       path: "https://drive.google.com/file/d/14HTJUbrXPe3I0Qj2Du2K_E_o1YyT5rwL/view?usp=sharing",
+       path: ""https://drive.google.com/uc?&id=14HTJUbrXPe3I0Qj2Du2K_E_o1YyT5rwL",
        anchor: "SD1_Predicted",
        color: "blue",
        alert: false,
      },
      {
-         path: "https://drive.google.com/file/d/1npqGRivQac6LhKfNWH9E91eMy6pRyd3z/view?usp=sharing",
+         path: ""https://drive.google.com/uc?&id=1npqGRivQac6LhKfNWH9E91eMy6pRyd3z",
          anchor: "B65_True",
          color: "#ffa600",
          alert: false,
      },
      {
-         path: "https://drive.google.com/file/d/1adZ9fLmdbVOFRTCzfwoXNB1a1V1kgOSC/view?usp=sharing",
+         path: ""https://drive.google.com/uc?&id=1adZ9fLmdbVOFRTCzfwoXNB1a1V1kgOSC",
          anchor: "B65_Predicted",
          color: "#328d78",
          alert: false,
      },
 
      {
-         path: "https://drive.google.com/file/d/1J1ckPldAUqdNqm0iJiUYEKGgXNfzCwzW/view?usp=sharing",
+         path: ""https://drive.google.com/uc?&id=1J1ckPldAUqdNqm0iJiUYEKGgXNfzCwzW",
          anchor: "Target_output",
          color: "#D93821",
          alert: false,
      },
      {
-         path: "https://drive.google.com/file/d/18NQtj-TN88X40epJfKIKwRCRqRe4Fkyp/view?usp=sharing",
+         path: ""https://drive.google.com/uc?&id=18NQtj-TN88X40epJfKIKwRCRqRe4Fkyp",
          anchor: "20_epochs",
          color: "#1869ca",
          alert: false,
      },
 
      {
-        path: "https://drive.google.com/file/d/1IafeEEwyPOIgRBUWohhbbcJUBmp_FInE/view?usp=sharing",
+        path: ""https://drive.google.com/uc?&id=1IafeEEwyPOIgRBUWohhbbcJUBmp_FInE",
         anchor: "35_epochs",
         color: "blue",
         alert: false,
       },
       {
-         path: "https://drive.google.com/file/d/1FB1B2fPsPZh--wGqryFLCUO1xb2aIEx9/view?usp=sharing",
+         path: ""https://drive.google.com/uc?&id=1FB1B2fPsPZh--wGqryFLCUO1xb2aIEx9",
          anchor: "50_epochs",
          color: "blue",
          alert: false,
        },
        {
-           path: "https://drive.google.com/file/d/10m7rughAsOHkQqaiXI7Ub4TjOkb_Rriw/view?usp=sharing",
+           path: ""https://drive.google.com/uc?&id=10m7rughAsOHkQqaiXI7Ub4TjOkb_Rriw",
            anchor: "80_epochs",
            color: "#ffa600",
            alert: false,
        },
        {
-           path: "https://drive.google.com/file/d/1J2xJDvCTdVScqtM2NIJodYYLwCsyJ6GQ/view?usp=sharing",
+           path: ""https://drive.google.com/uc?&id=1J2xJDvCTdVScqtM2NIJodYYLwCsyJ6GQ",
            anchor: "200_epochs",
            color: "#328d78",
            alert: false,
