@@ -13,7 +13,7 @@ excerpt: "Using LSTM recurrent neural networks to model two analog guitar pedals
 
 # **Using a Recurrent Neural Network to model two analog guitar effects**
 
-For my Machine Learning (ML) project I chose to emulate two analog guitar effects using Recurrent Neural Networks (RNNs).    
+As a producer and guitarist, I love distortion. It's a bit like champagne, it goes with everything. So for my Machine Learning (ML) project I chose to emulate two analog guitar effects using Recurrent Neural Networks (RNNs).    
 An analog effect is a non-linear system which changes some of the sonic characteristics of an audio source. The *dry* sound is input into the unit, and the resulting output is the *wet* audio. My chosen effects where the **Boss SD-1** distortion pedal and the **Wampler Black '65** tube saturator.
 
 
