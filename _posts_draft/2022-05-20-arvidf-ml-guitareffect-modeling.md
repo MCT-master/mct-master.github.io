@@ -1,8 +1,8 @@
 ---
 layout: post
-title: "Using machine learning to model analog guitar pedals"
+title: "Emulating analog guitar pedals with Recurrent Neural Networks"
 date: 2022-05-20 10:30:00 +0200
-categories: machine learning
+categories: machine-learning
 author: Arvid Falch
 image: /assets/image/2022_05_19_arvidf_pedals.png
 keywords: mct, machine learning, scientific computing, analog effects
@@ -14,7 +14,7 @@ excerpt: "Using LSTM recurrent neural networks to model two analog guitar pedals
 # **Using a Recurrent Neural Network to model two analog guitar effects**
 
 For my Machine Learning (ML) project I chose to emulate two analog guitar effects using Recurrent Neural Networks (RNNs).    
-An analog effect is a non-linear system which changes some of the sonic characteristics of an audio source. The dry sound is input into the unit, and the resulting output is the wet audio. My chosen effects where the Boss SD-1 distortion pedal and the Wampler Black '65 tube saturator.
+An analog effect is a non-linear system which changes some of the sonic characteristics of an audio source. The *dry* sound is input into the unit, and the resulting output is the *wet* audio. My chosen effects where the **Boss SD-1** distortion pedal and the **Wampler Black '65** tube saturator.
 
 
 
@@ -77,7 +77,7 @@ And every week or so I would come up with a tiny improvement and as a result I h
 
 To put it simple, the results can be explained this way:
 
-1. The models performed better on the SD-1 than the Black 65' when we look at the evaluation metrics. But when you compare the predicted audio to the target output it's hard to tell which effect is most similar.
+1. The models performed better on the SD-1 than the Black 65' when we look at the evaluation metrics. But when you audition the predicted audio and the target output it's hard to tell which effect is most similar.
 
 **SD-1 True output**
 
@@ -113,7 +113,7 @@ All the best performing models were trained on 500k frames of either 32 or 64 sa
 
 4. The evaluation metric scores did not necessarily correspond to my subjective perception of the similarity of the predicted versus the target output.
 5. The longer the models trained, the better the evaluation metric scores were, however the more they added unwanted high frequency material (noise and aliasing).
-6. Visually inspecting spectrograms and waveforms provides crucial information.
+6. Visually inspecting spectrograms and waveforms often tells a different story than the evaluation metrics.    
 
 
 <figure style="float: none">
@@ -187,6 +187,7 @@ This could however be because the LSTMs are doing a great job emulating the anal
 1. LSTM networks are pretty good at modeling analog effects with short time-variances. However they don't work that well if the effect has longer time-variances (phasers, chorus) or memory (delay, reverb).
 2. It's hard to evaluate how similar a predicted audio signal is to its target audio signal. Evaluation metrics underestimate low energy high frequency information, in other words they don't "hear" the noisy stuff.
 3. Smaller and less computationally expensive models can produce pretty good results, the performance gain achieved by adding layers or more hidden units to a LSTM network are small compared to the added computational cost.
+4. Working with raw audio, the size of your dataset gets big. In this project I avoided using any feature extraction to analyse how the LSTM networks learn and predict when fed with raw audio.
 
 
 
