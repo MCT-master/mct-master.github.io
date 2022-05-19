@@ -77,7 +77,8 @@ And every week or so I would come up with a tiny improvement and as a result I h
 
 To put it simple, the results can be explained this way:
 
-1. The models performed better on the SD-1 than the Black 65' when we look at the evaluation metrics. But when you audition the predicted audio and the target output it's hard to tell which effect is most similar.
+1. The models performed better on the SD-1 than the Black 65' when we look at the evaluation metrics. But when you audition the predicted audio and the target output it's hard to tell which effect is most similar.  
+(*The following examples are one layer, 32 hidden units trained on 40k frames of audio.*)
 
 **SD-1 True output**
 
@@ -97,8 +98,8 @@ To put it simple, the results can be explained this way:
 <div class="waveform" id="B65_Predicted"></div>
 
 
-2. The bigger the model structure, the better the evaluation metric scores were. Evaluation metrics were the Mean Absolute Error (mae), Coefficient of Determination (R2) and Error to Signal Ratio (ESR).
-3. The bigger the dataset, the better the evaluation metric scores were.
+2. The bigger the model structure, the better the evaluation metric scores. Evaluation metrics are the Mean Absolute Error (Mae), Coefficient of Determination (R2) and Error to Signal Ratio (ESR).
+3. The bigger the dataset, the better the evaluation metric scores gets.
 All the best performing models were trained on 500k frames of either 32 or 64 samples.
 
 <figure style="float: none">
@@ -107,12 +108,12 @@ All the best performing models were trained on 500k frames of either 32 or 64 sa
 </figure>
 
 <figure style="float: none">
-   <img src="/assets/image/2022_05_19_arvidf_B65_perf.png" alt="B65 Performance" title="" height="auto%" width="65%" />
+   <img src="/assets/image/2022_05_19_arvidf_B65_perf.png" alt="B65 Performance" title="" height="auto" width="65%" />
    <figcaption><i>Evaluation metrics for the best performing models on the B 65'.</i></figcaption>
 </figure>
 
-4. The evaluation metric scores did not necessarily correspond to my subjective perception of the similarity of the predicted versus the target output.
-5. The longer the models trained, the better the evaluation metric scores were, however the more they added unwanted high frequency material (noise and aliasing).
+4. The evaluation metric scores do not necessarily correspond to my subjective perception of the similarity of the predicted versus the target output.
+5. The longer the models train, evaluation metric scores improves, but the more they added unwanted high frequency material (noise and aliasing).
 6. Visually inspecting spectrograms and waveforms often tells a different story than the evaluation metrics.    
 
 
@@ -186,8 +187,8 @@ This could however be because the LSTMs are doing a great job emulating the anal
 
 1. LSTM networks are pretty good at modeling analog effects with short time-variances. However they don't work that well if the effect has longer time-variances (phasers, chorus) or memory (delay, reverb).
 2. It's hard to evaluate how similar a predicted audio signal is to its target audio signal. Evaluation metrics underestimate low energy high frequency information, in other words they don't "hear" the noisy stuff.
-3. Smaller and less computationally expensive models can produce pretty good results, the performance gain achieved by adding layers or more hidden units to a LSTM network are small compared to the added computational cost.
-4. Working with raw audio, the size of your dataset gets big. In this project I avoided using any feature extraction to analyse how the LSTM networks learn and predict when fed with raw audio.
+3. Smaller and less computationally expensive models can produce pretty good results. The performance gain achieved by adding layers or more hidden units to a LSTM network are not necessarily worth it compared to the added computational cost and increased interference time.
+
 
 The code is available at [Github](https://github.com/arvidfalch/blackboxRNNmodeling).
 
