@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "When Hearts Beat as One – Cardiac Dynamics and Synchrony in String Quartet Performances"
-date: 2022-05-19 08:00:00 +0200
+date: 2022-05-20 06:00:00 +0200
 categories: masters-thesis
 author: Wenbo Yi
 image: /assets/image/2022_05_20_wenbo_title.png
