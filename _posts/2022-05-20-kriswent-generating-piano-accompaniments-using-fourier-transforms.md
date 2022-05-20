@@ -16,7 +16,7 @@ Translational tasks are usually tackled by using sequence to sequence (seq2seq) 
 
 <figure style="float: none">
    <img src="/assets/image/2022_05_20_kriswent_transformer.png" alt="Transformer architecture" title="" height="auto" width="70%" />
-   <figcaption><i>The Transformer architecture, sourced from a book [2] I couldn't do without this spring."</i></figcaption>
+   <figcaption><i>The Transformer architecture, sourced from a book [2] I couldn't do without this spring.</i></figcaption>
 </figure>
 
 ### FNet
@@ -53,15 +53,37 @@ The piano predictions below have the 256 first of 1024 tokens feed as an input c
 
 ### “Make You Feel My Love” – Bob Dylan
 
-Original / FNet / Transformer
+Original Accompaniment
+<audio controls>
+  <source src="https://drive.google.com/uc?&id=1Rnrebr5W7zxoqILRxUKXuOZivstsE5_d" type="audio/mpeg">
+</audio>
 
-[AUDIO EXAMPLES]
+FNet Predicted Accompaniment
+<audio controls>
+  <source src="https://drive.google.com/uc?&id=1M3iLpfYUrtNn2JqORSJURtm7xZH9VQgG" type="audio/mpeg">
+</audio>
+
+Transformer Predicted Accompaniment
+<audio controls>
+  <source src="https://drive.google.com/uc?&id=1WnazxcrKW4UurF33O7MeKU8AFsCehyst" type="audio/mpeg">
+</audio>
 
 ### “Song 186 – Segment 5” – POP909 dataset
 
-Original / FNet / Transformer
+Original Accompaniment
+<audio controls>
+  <source src="https://drive.google.com/uc?&id=118UrWOMIOs9PdaDUXJv8dG8lW03IzYkq" type="audio/mpeg">
+</audio>
 
-[AUDIO EXAMPLES]
+FNet Predicted Accompaniment
+<audio controls>
+  <source src="https://drive.google.com/uc?&id=15wTFI__YSGHYdZrMxhQouR6O0Q1L5mxl" type="audio/mpeg">
+</audio>
+
+Transformer Predicted Accompaniment
+<audio controls>
+  <source src="https://drive.google.com/uc?&id=1RsxWoWtXug5TACXxSx78yJ_czdm18Q4f" type="audio/mpeg">
+</audio>
 
 ## References
 [1] A. Vaswani, N. Shazeer, N. Parmar, J. Uszkoreit, L. Jones, A. N. Gomez, L. Kaiser, and I. Polosukhin, “Attention is all you need,” in Advances in Neural In- formation Processing Systems 30: Annual Conference on Neural Information Processing Systems (NeurIPS), 2017, pp. 5998–6008.
