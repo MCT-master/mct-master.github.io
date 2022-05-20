@@ -5,8 +5,8 @@ date:   2022-05-20 18:00:00 +0200
 categories: machine-learning
 author: Jakob Høydal
 image: /assets/image/2022_05_20_jakobhoydal_mffcc.png
-keywords: motion capture, sitting, standing, saxophone, mocap, analysis
-excerpt: "A study of saxophonist in seated vs standing position"
+keywords: machine learning, reverb, reverberation, rt60
+excerpt: "Differenciating reverberation times of wet audio signals using machine learning. "
 ---
 
 
