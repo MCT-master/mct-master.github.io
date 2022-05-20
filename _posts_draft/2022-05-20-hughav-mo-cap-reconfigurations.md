@@ -73,14 +73,14 @@ Two models were trained, one with a sample segment length of 0.1 seconds and 0.5
 <br>
 <figure style="float: none">
   <video width="auto" controls>
-    <source src="https://drive.google.com/uc?&id=1M_iO7uSIfW2CLY85gBXdEemBrH7IGKtz" type='video/x-msvideo'>
+    <source src="https://drive.google.com/uc?&id=1Jvt6v9r8T2LUMYUs3cjqmWr35PyK1QZ6" type='video/mp4'>
   </video>
   <figcaption><i>A performance with the 0.5 second model system (audio adjusted for latency)</i></figcaption>
 </figure>
 <br>
 <figure style="float: none">
   <video width="auto" controls>
-    <source src="https://drive.google.com/uc?&id=1CX3tfsvIloLgHdgSaeVvHCHyON9k9mg6" type='video/x-msvideo'>
+    <source src="https://drive.google.com/uc?&id=18tT10OIvFjFuRXjicTKrR2KVjTVjBwZl" type='video/mp4'>
   </video>
   <figcaption><i>A performance with the 0.1 second model system (audio adjusted for latency)</i></figcaption>
 </figure>
