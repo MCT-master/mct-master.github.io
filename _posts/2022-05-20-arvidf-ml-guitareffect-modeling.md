@@ -269,7 +269,7 @@ const audioSamples = [
         alert: false,
     },
     {
-        path: "/assets/audio/2022_05_19_arvidf_SD1_true.mp3",
+        path: "/assets/audio/2022_05_19_arvidf_True_SD1.mp3",
         anchor: "SD1_True",
         color: "#1869ca",
         alert: false,
@@ -282,7 +282,7 @@ const audioSamples = [
        alert: false,
      },
      {
-         path: "/assets/audio/2022_05_19_arvidf_true_B65.mp3",
+         path: "/assets/audio/2022_05_19_arvidf_True_B65.mp3",
          anchor: "B65_True",
          color: "#ffa600",
          alert: false,
