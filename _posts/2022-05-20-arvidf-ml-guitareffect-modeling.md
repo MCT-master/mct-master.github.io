@@ -13,7 +13,7 @@ excerpt: "Using LSTM recurrent neural networks to model two analog guitar pedals
 
 # **Using a Recurrent Neural Network to model two analog guitar effects**
 
-As a producer and guitarist, I love distortion. It's a bit like champagne, it goes with everything. So for my Machine Learning (ML) project I chose to emulate two analog guitar effects using Recurrent Neural Networks (RNNs).    
+As a music producer and guitarist, I love distortion. It's a bit like champagne, it goes with everything. So for my Machine Learning (ML) project I chose to emulate two analog guitar effects using Recurrent Neural Networks (RNNs).    
 An analog effect is a non-linear system which changes some of the sonic characteristics of an audio source. The *dry* sound is input into the unit, and the resulting output is the *wet* audio. My chosen effects where the **Boss SD-1** distortion pedal and the **Wampler Black '65** tube saturator.
 
 
@@ -54,7 +54,7 @@ During my preliminary tests I quickly realized that the LSTM networks performed 
 
 ## **Dataset**
 
-I created an 8 minute audio file consisting of different audio material. This audio was then recorded both dry and wet through my two effects. The three audio files (dry, SD1 and B65) was chopped up into 5 second segments, and 20% of these were set aside to be used for evaluation (The test set). The remaining 80% were the foundation for the dataset used for training the models.
+I created an 8 minute audio file consisting of different audio material. This audio was then recorded both dry and wet through my two effects. 20% of the recorded audio were set aside to be used for evaluation (The test set). The remaining 80% were the foundation for the dataset used for training the models.
 
 <figure style="float: none">
    <img src="/assets/image/2022_05_19_arvidf_DatasetDryNotated.png" alt="Dataset" title="" width="auto" />
@@ -190,7 +190,7 @@ This could however be because the LSTMs are doing a great job emulating the anal
 
 1. LSTM networks are pretty good at modeling analog effects with short time-variances. However they don't work that well if the effect has longer time-variances (phasers, chorus) or memory (delay, reverb).
 2. It's hard to evaluate how similar a predicted audio signal is to its target audio signal. Evaluation metrics underestimate low energy high frequency information, in other words they don't "hear" the noisy stuff.
-3. Smaller and less computationally expensive models can produce pretty good results. The performance gain achieved by adding layers or more hidden units to a LSTM network are not necessarily worth it compared to the added computational cost and increased interference time.
+3. Smaller and less computationally expensive models can produce pretty good results. The performance gain achieved by adding layers or more hidden units to a LSTM network are not necessarily worth it compared to the added computational cost and increased inference time.
 
 
 The code for this project is available at [Github](https://github.com/arvidfalch/blackboxRNNmodeling).
@@ -269,7 +269,7 @@ const audioSamples = [
         alert: false,
     },
     {
-        path: "/assets/audio/2022_05_19_arvidf_SD1_true.mp3",
+        path: "/assets/audio/2022_05_19_arvidf_True_SD1.mp3",
         anchor: "SD1_True",
         color: "#1869ca",
         alert: false,
@@ -282,7 +282,7 @@ const audioSamples = [
        alert: false,
      },
      {
-         path: "/assets/audio/2022_05_19_arvidf_true_B65.mp3",
+         path: "/assets/audio/2022_05_19_arvidf_True_B65.mp3",
          anchor: "B65_True",
          color: "#ffa600",
          alert: false,
