@@ -72,16 +72,34 @@ allowfullscreen>
 Two models were trained, one with a sample segment length of 0.1 seconds and 0.5 seconds. The following videos demonstrate a short performance with each, showing the video as captured by the camera (at a low resolution of 64x48) along with the motiongrams that were passed to the model.
 <br>
 <figure style="float: none">
-  <video width="auto" controls>
-    <source src="https://drive.google.com/uc?&id=1M_iO7uSIfW2CLY85gBXdEemBrH7IGKtz" type='video/x-msvideo'>
-  </video>
+<iframe width="800" height="500"
+src="https://www.youtube.com/embed/aDR_YmxUpdo "
+title="YouTube video player"
+frameborder="0"
+allow="accelerometer;
+100%play;
+clipboard-write;
+encrypted-media;
+gyroscope;
+picture-in-picture"
+allowfullscreen>
+</iframe>
   <figcaption><i>A performance with the 0.5 second model system (audio adjusted for latency)</i></figcaption>
 </figure>
 <br>
 <figure style="float: none">
-  <video width="auto" controls>
-    <source src="https://drive.google.com/uc?&id=1CX3tfsvIloLgHdgSaeVvHCHyON9k9mg6" type='video/x-msvideo'>
-  </video>
+<iframe width="800" height="500"
+src="https://www.youtube.com/embed/0lYoG2HrWxc"
+title="YouTube video player"
+frameborder="0"
+allow="accelerometer;
+100%play;
+clipboard-write;
+encrypted-media;
+gyroscope;
+picture-in-picture"
+allowfullscreen>
+</iframe>
   <figcaption><i>A performance with the 0.1 second model system (audio adjusted for latency)</i></figcaption>
 </figure>
 <br>
