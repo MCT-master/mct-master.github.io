@@ -2,7 +2,7 @@
 layout: post
 title: "Developing Techniques for Air Drumming Using Video Capture and Accelerometers"
 date: 2022-05-20 10:00:00 +0200
-categories: motion-traction
+categories: motion-tracking
 author: Joseph Clemente
 image: /assets/image/2022_05_19_josephcl_air_drumming_thumbnail.jpeg
 keywords: motion capture, motion tracking, machine learning, ML, air drumming, accelerometry, MLP, ANN
@@ -21,13 +21,13 @@ In order to tell when a drum hit should be registered in the MIDI file, we will 
 
 We must also be able to tell exactly what drums the drummer is playing at any given time using purely video data, which is a much harder task. To do this, we will be using a variety of machine learning (ML) techniques and tools. First, we need to train our ML systems using there will be 7 different postions we will use, each corresponding to which drum the left and right hand are playing. Those postions are:
 
-* Left and right hand playing a hi-hat
-* Left hand playing a snare, right hand playing a hi-hat 
-* Left and right hand playing a snare
-* Left hand playing a snare, right hand playing a ride cymbal
-* Left hand playing a snare, right hand playing a floor tom
-* Left and right hand playing a floor tom
-* Left hand playing a snare, right hand playing a crash cymbal
+- Left and right hand playing a hi-hat
+- Left hand playing a snare, right hand playing a hi-hat
+- Left and right hand playing a snare
+- Left hand playing a snare, right hand playing a ride cymbal
+- Left hand playing a snare, right hand playing a floor tom
+- Left and right hand playing a floor tom
+- Left hand playing a snare, right hand playing a crash cymbal
 
 You can view one of the test videos below, with the left hand playing a snare and right hand playing a hi-hat.
 
@@ -47,7 +47,7 @@ In order to use raw video as an input to ML systems, we will import the videos i
 
 The VideoAnalysis software was developed by the [fourMs lab](https://www.uio.no/ritmo/english/research/labs/fourms/) to perform simple motion analysis on video inputs. The inputs we will use for our ML systems that are output into a CSV by the VideoAnalysis software will be the quantity of motion, the x and y coordinates for center of motion, and the x and y coordinates of the motion bounding box’s minimum and maximum values.
 
-We will use this data in two different ways. The first will be similar to the raw video data, where we will parse the output CSV file row by row (equivalent to frame by frame) and use the afformentioned values to train the ML systems. The second will be using a [rolling average](https://pandas.pydata.org/docs/reference/api/pandas.DataFrame.rolling.html) in order to smooth the data, and then the ML systems will be trained in the same way as before. Finally, we will be using a combination of smoothed VideoAnalysis data and smoothed accelerometer data as inputs to the ML systems. 
+We will use this data in two different ways. The first will be similar to the raw video data, where we will parse the output CSV file row by row (equivalent to frame by frame) and use the afformentioned values to train the ML systems. The second will be using a [rolling average](https://pandas.pydata.org/docs/reference/api/pandas.DataFrame.rolling.html) in order to smooth the data, and then the ML systems will be trained in the same way as before. Finally, we will be using a combination of smoothed VideoAnalysis data and smoothed accelerometer data as inputs to the ML systems.
 
 # ML Techniques
 
@@ -129,7 +129,7 @@ We will be evaulating the ML systems using both qualitative and quantitative met
 
 # Conclusions
 
-As you can see from these videos, hit detection with accelerometry was very accurate, but none of the attempted techniques for position prediction worked particularly well. This could be due to a variety of factors, but my main theories are that I tested the ML systems on too many positions and due to some of the movements being incredibly similar (ex. left hand snare and right hand hi-hat vs. both hands snare), the resulting ML system just ended up getting confused. However, there were some brief flashes of success in the results for the regressor using smoothed VideoAnalysis CSV data as an input. 
+As you can see from these videos, hit detection with accelerometry was very accurate, but none of the attempted techniques for position prediction worked particularly well. This could be due to a variety of factors, but my main theories are that I tested the ML systems on too many positions and due to some of the movements being incredibly similar (ex. left hand snare and right hand hi-hat vs. both hands snare), the resulting ML system just ended up getting confused. However, there were some brief flashes of success in the results for the regressor using smoothed VideoAnalysis CSV data as an input.
 
 In general, using raw video input with as inputs to ML systems seems to not be a good way to produce accurate MIDI scores through air drumming. One possible alternativesthat may work better is using raw video data, but defining boundaries for each instrument so the onus is on the user to perform correctly instead of relying on an ML system. If ML were to still be used, a more accurate 3D rendering of arm motion using a system such as [OptiTrack](https://optitrack.com/) should be used instead of just flat, 2D video data.
 
