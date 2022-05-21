@@ -9,7 +9,7 @@ keywords:  human-machine-music, multi-agent-systems, live-algorithms, interactiv
 excerpt: "Let's make music with virtual fellows in mixed reality."
 ---
 
-This blog post presents a brief summary of my thesis. The main intention is to provide an overview of this work and multimedia material (video, audio, source code) for a complete understanding of how the system works and the results obtained from the research process. For more details you can read the full manuscript.
+This blog post presents a brief summary of my thesis. The main intention is to provide an overview of this work and multimedia material (video, audio, source code) for a complete understanding of how the system works and the results obtained from the research process. For more details you can read the [full manuscript](https://drive.google.com/file/d/1Qd8tVrP6zeflvi8x3KY2-8RAOC33sdYm/view?usp=sharing).
 
 ## Abstract
 
