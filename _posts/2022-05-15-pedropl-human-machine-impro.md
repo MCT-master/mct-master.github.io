@@ -40,9 +40,14 @@ The video below demonstrates the operation of the system from several perspectiv
 
 ### Video Demo
 
-<figure style="float: none">
+<!-- <figure style="float: none">
    <iframe src="https://drive.google.com/file/d/1qfJgAZUb33o_cZHdKHdLJDp7v0LZ_aiD/preview" width="1024" height="576" frameborder="0" allowfullscreen></iframe>
    <figcaption>System operation from 4 perspectives for a human-machine music improvisation session.</figcaption>
+</figure> -->
+
+<figure style="float: none">
+    <iframe width="1038" height="584" src="https://www.youtube.com/embed/6wm24BC5NLg" frameborder="0" allowfullscreen></iframe>
+    <figcaption>System operation from 4 perspectives for a human-machine music improvisation session.</figcaption>
 </figure>
 
 ## Evaluation
