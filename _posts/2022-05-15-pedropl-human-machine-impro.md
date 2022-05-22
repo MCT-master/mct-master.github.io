@@ -52,7 +52,7 @@ The video below demonstrates the operation of the system from several perspectiv
 
 ## Evaluation
 
-The system was evaluate for a number of 8 agents. This size was chosen from several experimentations considering the trade-off between latency and audio dropouts. The summary for the measurements based on this size is shown in the table below.
+The system was evaluated for a number of 8 agents. This size was chosen from several experimentations considering the trade-off between latency and audio dropouts. The summary for the measurements based on this size is shown in the table below.
 
 <figure style="float: none">
    <img src="/assets/image/2022_05_15_pedropl_thesis_systemmeasurements.jpg" alt="measurements" title="system measurements" width="auto" />
@@ -146,7 +146,7 @@ The mixed reality application was developed in *Unity3D* for the *Microsoft Holo
 
 ## References
 
-* Thelle, N. J. W., & Pasquier, P. (2021). Spire Muse: A Virtual Musical Partner for Creative Brainstorming. In Nime 2021. PubPub
+* Tatar, K., & Pasquier, P. (2019, 1). Musical agents: A typology and state of the art towards Musical Metacreation. Journal of New Music Research, 48 (1), 56–105.
 * Blackwell, T., Bown, O., & Young, M. (2012). Live Algorithms: Towards Autonomous Computer Improvisers. In Computers and creativity. Berlin, Heidelberg: Springer Berlin Heidelberg.
 * Blackwell, T. (2007). Swarming and Music. In Evolutionary computer music (pp.194–217). London: Springer London.
 * Turchet, L., Hamilton, R., & Camci, A. (2021). Music in Extended Realities. IEEE Access, 9 , 15810–15832.
