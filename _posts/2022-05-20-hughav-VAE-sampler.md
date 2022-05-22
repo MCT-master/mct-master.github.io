@@ -2,7 +2,7 @@
 layout: post
 title: "Generating Samples Through Dancing"
 date: 2022-05-03 09:00:00 +0200
-categories: machine-learning
+categories: portal
 author: Hugh Alexander von Arnim
 image: /assets/image/2202_05_20_hughav_performance_system_VAE.jpg
 excerpt: "Using a VAE to build a generative sampler instrument"
