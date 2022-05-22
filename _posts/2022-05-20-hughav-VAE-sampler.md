@@ -122,8 +122,8 @@ The code for a pipeline system to capture the video and audio for a dataset, tra
 
 [2] A. R. Jensenius, ‘Action-sound: Developing me-thods and tools to study music-related body movement’, Ph.D Thesis, University of Oslo, Oslo, 2007. [Online]. Available: https://www.duo.uio.no/bitstream/handle/10852/27149/jensenius-phd.pdf?sequence=1&isAllowed=y
 
-[3] A. Jensenius, ‘Some Video Abstraction Techniques for Displaying Body Movement in Analysis and Performance’, Leonardo, vol. 46, Feb. 2013, doi: 10.2307/23468117.
+[3] A. R. Jensenius, ‘Some Video Abstraction Techniques for Displaying Body Movement in Analysis and Performance’, Leonardo, vol. 46, Feb. 2013, doi: 10.2307/23468117.
 
-[4] T. Mäki-patola and P. Hämäläinen, ‘Latency To-lerance for Gesture Controlled Continuous Sound Instrument Without Tactile Feedback’, in Proc. International Computer Music Conference (ICMC, 2004, pp. 1–5.
+[4] T. Mäki-patola and P. Hämäläinen, ‘Latency Tolerance for Gesture Controlled Continuous Sound Instrument Without Tactile Feedback’, in Proc. International Computer Music Conference (ICMC, 2004, pp. 1–5.
 
 [5] R. Gehlhaar, ‘Sound= Space: an interactive musical environment’, Contemporary Music Review, vol. 6, no. 1, pp. 59–72, 1991.
