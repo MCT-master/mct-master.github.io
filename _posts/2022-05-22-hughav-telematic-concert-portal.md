@@ -5,7 +5,7 @@ date: 2022-05-26 08:00:00 +0200
 categories: portal
 author: Oliver Getz, Sofía González, Arvid Falch, Hugh Alexander von Arnim
 image: /assets/image/2022_05_26_hughav_poster_door_crop.png
-excerpt: "Telematic Concert"
+excerpt: "Guitar and Mo Cap in the Portal!"
 keywords: Telematic, Machine Learning, Network, Motion Capture
 ---
 <figure style="float: none">
