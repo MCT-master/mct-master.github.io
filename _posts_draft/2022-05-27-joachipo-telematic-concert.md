@@ -60,5 +60,9 @@ Code and instructions for setting up the program can be found [here](https://git
 
 As a quick note, with the threat of COVID finally becoming more of a distant memory, we were finally able to promote our concert in more effective ways. This both physical and virtual posters featuring the poster created by Jakob, a Facebook event, and a takeover of the [science library’s Instagram page](https://instagram.com/realfagsbiblioteket?igshid=YmMyMTA2M2Y=), where we were able to post stories and advertise our concert to the library’s 1000+ followers. 
 
+## **Additional Information**
+
+For more information on the technical details of this concert, visit our [wiki page](https://github.com/MCT-master/portal-wiki/wiki/Telematic-Concert-Between-Portal-and-Science-Library-Documentation-(Spring-2022)).
+
 
 
