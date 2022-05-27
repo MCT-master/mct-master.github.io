@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "One Last Hoorah: A Telematic Concert in the Science Library"
-date: 2022-05-26 08:00:00 +0200
+date: 2022-05-27 08:00:00 +0200
 categories: portal
 author: Jakob Høydal, Joachim Poutaraud, Joseph Clemente, Kristian Wentzel
 image: /assets/image/2022_05_26_jakoboydal_thumbnailTelematic.png
@@ -20,7 +20,7 @@ After one year at the MCT master program, we finally went out into the masses to
 ## **Telematic Gestural Interplay**
 Our first part of the concert was a performance by Joseph Clemente, Arvid Falch and Kristian Wentzel. This performance centered around the idea of a telematic interplay where gestures at one site manipulate the audio coming from the other site. At the Science Library, Kristian used a Myo armband controlling a [ZOIA](https://empresseffects.com/products/zoia) modular system to process and manipulate Arvids electric guitar playing from the Portal. What is a Myo armband? It is an inertial measurement unit (IMU) with gyroscope and accelerometer sensors, which also sports eight electromyography (EMG) sensors. This handy device is also capable of recognizing five different hand gestures out of the box. For a more in-depth look at Kristians setup, take a look at his other [blog post](https://mct-master.github.io/portal/2022/05/20/kriswent-extending-the-keyboard-through-motion-capture-and-modular-synthesis.html).
 
-To make a performance out of our concept, we added Joseph and with a [Roland SPD-SX sampling pad](https://www.roland.com/global/products/spd-sx/) at the science library, and put a keyboard in front of Kristian as well. Our feature was an improvised piece, with some agreed guidelines. Our performance was made up of four sections, where one section seamlessly flowed into the next. We decided that Kristian should start the performance with a solo piece on an extended keyboard instrument using his setup. After some time, Arvid would join in for a duo performance where Kristian manipulated Arvid. In the third section we expanded into a trio, introducing Joseph on the drum pads. For the fourth section, we added more prominent and coherent grooves with a beat to the mix before finishing off.
+To make a performance out of our concept, we added Joseph with a [Roland SPD-SX sampling pad](https://www.roland.com/global/products/spd-sx/) at the science library, and put a keyboard in front of Kristian as well. Our feature was an improvised piece, with some agreed guidelines. Our performance was made up of four sections, where one section seamlessly flowed into the next. We decided that Kristian should start the performance with a solo piece on an extended keyboard instrument using his setup. After some time, Arvid would join in for a duo performance where Kristian manipulated Arvid. In the third section we expanded into a trio, introducing Joseph on the drum pads. For the fourth section, we added more prominent and coherent grooves with a beat to the mix before finishing off.
 
 <figure style="float: none">
   <video width="auto" controls>
@@ -31,12 +31,12 @@ To make a performance out of our concept, we added Joseph and with a [Roland SPD
 
 
 ## **Telematic Interactive Systems**
-The second part of the concert has been thought as a telematic performance involving users from two different locations (i.e. the Portal and the Science Library). The idea was to (i) generate and (ii) process audio data in real-time while interacting with two types of program:
+The second part of the concert has been thought as a telematic performance involving the audience of the two different locations (i.e. the Portal and the Science Library). The idea was to allow the audience to (i) generate and (ii) process audio data in real-time while interacting with two types of program:
 
 - A program able to generate audio from the body motion of users
 - A program able to control audio effects using the hand gestures of users
 
-By receiving an audio data created by the motion of body of the users in the Portal, the users in the Science Library were able to interact by adding effects and send the processed audio data back to the Portal. The Science Library program is composed of two parts:
+By receiving the audio data created by the motion of body of the users in the Portal, the users in the Science Library were able to interact by adding effects and send the processed audio data back to the Portal. The Science Library program is composed of two parts:
 
 - A gesture interaction script written with the programming language Python
 - An audio patch written with the open source visual programming environment Pure Data
@@ -48,7 +48,7 @@ By receiving an audio data created by the motion of body of the users in the Por
 
 ### **Gestural Interactions for Multi-parameter Audio Control**
 
-To recognize hand gestures, we use the Python library [Mediapipe](https://pypi.org/project/mediapipe/), a simple way to build world-class ML solutions and applications. [MediaPipe Hands](https://google.github.io/mediapipe/solutions/hands) is a high-fidelity hand and finger tracking solution. It employs machine learning (ML) to infer 21 3D landmarks of a hand from just a single frame. That way, the user can use the index finger to trigger audio effects. Moreover, using [Open Sound Control](https://pypi.org/project/python-osc/) server and client implementations in Python, this makes it possible to send UDP packets from Python to Pure Data, to finally output audio from the soundcard of the computer. The hand gestures are thus used as controller for the multi-parameter audio effects (pitch, reverb, delay and modulation) in Pure Data.
+To recognize hand gestures, Joachim use the Python library [Mediapipe](https://pypi.org/project/mediapipe/), a simple way to build world-class ML solutions and applications. [MediaPipe Hands](https://google.github.io/mediapipe/solutions/hands) is a high-fidelity hand and finger tracking solution. It employs machine learning (ML) to infer 21 3D landmarks of a hand from just a single frame. That way, the user can use the index finger to trigger audio effects. Moreover, using [Open Sound Control](https://pypi.org/project/python-osc/) server and client implementations in Python, this makes it possible to send UDP packets from Python to Pure Data, to finally output audio from the soundcard of the computer. The hand gestures are thus used as controller for the multi-parameter audio effects (pitch, reverb, delay and modulation) in Pure Data.
 
 <figure style="float: none">
    <img src="/assets/image/2022_05_21_joachipo_pdpatch.jpg" alt="Pure Data patch" title="" width="auto"/>
