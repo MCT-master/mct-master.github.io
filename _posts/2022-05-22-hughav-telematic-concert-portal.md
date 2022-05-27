@@ -65,7 +65,7 @@ In order to promote our concert, we contacted the people responsible for the IMV
 Oliver documented the process and music systems by making a behind-the-scenes video, to showcase what can be done for telematic music concerts. A video also makes it easier to explain these complex processes in a relatively short amount of time. We used the only equipment available to us, a camcorder. As a result, some footage had to be thrown out due to clipping audio, as audio monitoring is limited on these devices. In retrospect, we should have narrated the video a bit more to make the timeline clearer and ensure the viewers know what’s happening and why. Some background music might help fill empty space in the video as well, but we managed to reduce this emptiness by overlapping dialogue between clips.
 
 <figure style="float: none">
-  <iframe src="https://drive.google.com/file/d/1pN88gwBn3dm7KsohlEY_YTiYk8Se3yrK/preview" width="640" height="480" allow="autoplay"></iframe>
+  <iframe src="https://drive.google.com/file/d/1s5nqaPa_Jl1AxryU1nO2RDgLDpChqtV8/preview" width="640" height="480" allow="autoplay"></iframe>
   <figcaption><i>Take a look behind the Scenes!</i></figcaption>
 </figure>
 
