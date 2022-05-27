@@ -24,10 +24,11 @@ To make a performance out of our concept, we added Joseph and with a [Roland SPD
 
 <figure style="float: none">
   <video width="auto" controls>
-	<source src="https://drive.google.com/uc?&id=1Y190bMaROb1r1_R2wuCOkZkA5DIJvUJe" type='video/mp4'>
+	<source src="https://drive.google.com/uc?&id=1e8UywXUnf6CuZJi_GUd66uhSYmhTuJg2" type='video/mp4'>
   </video>
   <figcaption> Video of performance</figcaption>
 </figure>
+
 
 ## **Telematic Interactive Systems**
 The second part of the concert has been thought as a telematic performance involving users from two different locations (i.e. the Portal and the Science Library). The idea was to (i) generate and (ii) process audio data in real-time while interacting with two types of program:
