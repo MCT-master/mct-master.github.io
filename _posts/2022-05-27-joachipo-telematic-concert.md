@@ -23,12 +23,9 @@ Our first part of the concert was a performance by Joseph Clemente, Arvid Falch 
 To make a performance out of our concept, we added Joseph with a [Roland SPD-SX sampling pad](https://www.roland.com/global/products/spd-sx/) at the science library, and put a keyboard in front of Kristian as well. Our feature was an improvised piece, with some agreed guidelines. Our performance was made up of four sections, where one section seamlessly flowed into the next. We decided that Kristian should start the performance with a solo piece on an extended keyboard instrument using his setup. After some time, Arvid would join in for a duo performance where Kristian manipulated Arvid. In the third section we expanded into a trio, introducing Joseph on the drum pads. For the fourth section, we added more prominent and coherent grooves with a beat to the mix before finishing off.
 
 <figure style="float: none">
-  <video width="auto" controls>
-	<source src="https://drive.google.com/uc?&id=1unIXcdE1OWvun83b3eha8tw5vUB3qUU1" type='video/mp4'>
-  </video>
-  <figcaption> Video of performance</figcaption>
+  <iframe src="https://drive.google.com/file/d/1unIXcdE1OWvun83b3eha8tw5vUB3qUU1/preview" width="640" height="480" allow="autoplay"></iframe>
+  <figcaption><i>Video of performance</i></figcaption>
 </figure>
-
 
 ## **Telematic Interactive Systems**
 The second part of the concert has been thought as a telematic performance involving the audience of the two different locations (i.e. the Portal and the Science Library). The idea was to allow the audience to (i) generate and (ii) process audio data in real-time while interacting with two types of program:
