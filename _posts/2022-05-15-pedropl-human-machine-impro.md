@@ -144,6 +144,10 @@ The mixed reality application was developed in *Unity3D* for the *Microsoft Holo
 
 * [https://github.com/pedro-lucas-bravo/mr_agent_visualizer](https://github.com/pedro-lucas-bravo/mr_agent_visualizer)
 
+The data analysis was carried out in *Python*. The data sets and code can be found in the following repository:
+
+* [https://github.com/pedro-lucas-bravo/master_thesis_data_analysis](https://github.com/pedro-lucas-bravo/master_thesis_data_analysis)
+
 ## References
 
 * Tatar, K., & Pasquier, P. (2019, 1). Musical agents: A typology and state of the art towards Musical Metacreation. Journal of New Music Research, 48 (1), 56–105.
