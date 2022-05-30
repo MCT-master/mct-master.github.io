@@ -4,12 +4,18 @@ title: "Spring Telematic Concert 2022: Portal Perspectives"
 date: 2022-05-26 08:00:00 +0200
 categories: portal
 author: Oliver Getz, Sofía González, Arvid Falch, Hugh Alexander von Arnim
-image: /assets/image/2022_05_26_hughav_poster_door_crop.png
+image: /assets/image/2022_05_26_jakoboydal_thumbnailTelematic.png
 excerpt: "Guitar and Mo Cap in the Portal!"
 keywords: Telematic, Machine Learning, Network, Motion Capture
 ---
-<figure style="float: none">
+
+<!-- <figure style="float: none">
    <img src="/assets/image/2022_05_26_hughav_poster_door.png" alt="" title="" width="auto" />
+</figure> -->
+
+<figure style="float: none">
+  <iframe src="https://drive.google.com/file/d/1s5nqaPa_Jl1AxryU1nO2RDgLDpChqtV8/preview" width="auto" allow="autoplay"></iframe>
+  <figcaption><i>Take a look behind the Scenes!</i></figcaption>
 </figure>
 
 ## **Introduction**
@@ -63,12 +69,6 @@ In order to promote our concert, we contacted the people responsible for the IMV
 ## **Behind the Scenes Documentation**
 
 Oliver documented the process and music systems by making a behind-the-scenes video, to showcase what can be done for telematic music concerts. A video also makes it easier to explain these complex processes in a relatively short amount of time. We used the only equipment available to us, a camcorder. As a result, some footage had to be thrown out due to clipping audio, as audio monitoring is limited on these devices. In retrospect, we should have narrated the video a bit more to make the timeline clearer and ensure the viewers know what’s happening and why. Some background music might help fill empty space in the video as well, but we managed to reduce this emptiness by overlapping dialogue between clips.
-
-<figure style="float: none">
-  <iframe src="https://drive.google.com/file/d/1s5nqaPa_Jl1AxryU1nO2RDgLDpChqtV8/preview" width="640" height="480" allow="autoplay"></iframe>
-  <figcaption><i>Take a look behind the Scenes!</i></figcaption>
-</figure>
-
 
 ## **Conclusions**
 
