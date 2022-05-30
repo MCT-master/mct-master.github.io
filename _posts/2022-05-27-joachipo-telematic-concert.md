@@ -9,8 +9,13 @@ excerpt: "In which we go over the most ambitious telematic concert of our MCT ca
 keywords: Telematic, Machine Learning, Network
 ---
 
-<figure style="float: none">
+<!-- <figure style="float: none">
    <img src="https://drive.google.com/uc?&id=1sNZ9DcuVc1I0w0pORxQB3sq75Q1KLgFh" width="auto"/>
+</figure> -->
+
+<figure style="float: none">
+  <iframe src="https://drive.google.com/file/d/1unIXcdE1OWvun83b3eha8tw5vUB3qUU1/preview" width="auto" allow="autoplay"></iframe>
+  <figcaption><i>Video recording from the opening act of the performance.</i></figcaption>
 </figure>
 
 # **Introduction**
@@ -18,16 +23,13 @@ keywords: Telematic, Machine Learning, Network
 After one year at the MCT master program, we finally went out into the masses to arrange a location, away from familiar locations. This time, we arranged a concert between the [science library](https://www.ub.uio.no/bibliotekene/mednat/ureal/) at Vilhelm Bjerknes hus, and the MCT Portal at ZEB. In terms of audiovisual setup, we still used the same [NMP-kits](https://github.com/MCT-master/NMP-Portable-Kits) as before, but at this concert we devided it into two section: one that was a traditional telematic concert with gestural interplay, and one with instruments created for the audience to interact with. This post is about the methods and techniques we used to create the Vilhelm Bjerknes side of the concert.
 
 ## **Telematic Gestural Interplay**
+
 Our first part of the concert was a performance by Joseph Clemente, Arvid Falch and Kristian Wentzel. This performance centered around the idea of a telematic interplay where gestures at one site manipulate the audio coming from the other site. At the Science Library, Kristian used a Myo armband controlling a [ZOIA](https://empresseffects.com/products/zoia) modular system to process and manipulate Arvids electric guitar playing from the Portal. What is a Myo armband? It is an inertial measurement unit (IMU) with gyroscope and accelerometer sensors, which also sports eight electromyography (EMG) sensors. This handy device is also capable of recognizing five different hand gestures out of the box. For a more in-depth look at Kristians setup, take a look at his other [blog post](https://mct-master.github.io/portal/2022/05/20/kriswent-extending-the-keyboard-through-motion-capture-and-modular-synthesis.html).
 
 To make a performance out of our concept, we added Joseph with a [Roland SPD-SX sampling pad](https://www.roland.com/global/products/spd-sx/) at the science library, and put a keyboard in front of Kristian as well. Our feature was an improvised piece, with some agreed guidelines. Our performance was made up of four sections, where one section seamlessly flowed into the next. We decided that Kristian should start the performance with a solo piece on an extended keyboard instrument using his setup. After some time, Arvid would join in for a duo performance where Kristian manipulated Arvid. In the third section we expanded into a trio, introducing Joseph on the drum pads. For the fourth section, we added more prominent and coherent grooves with a beat to the mix before finishing off.
 
-<figure style="float: none">
-  <iframe src="https://drive.google.com/file/d/1unIXcdE1OWvun83b3eha8tw5vUB3qUU1/preview" width="640" height="480" allow="autoplay"></iframe>
-  <figcaption><i>Video of performance</i></figcaption>
-</figure>
-
 ## **Telematic Interactive Systems**
+
 The second part of the concert has been thought as a telematic performance involving the audience of the two different locations (i.e. the Portal and the Science Library). The idea was to allow the audience to (i) generate and (ii) process audio data in real-time while interacting with two types of program:
 
 - A program able to generate audio from the body motion of users
@@ -60,4 +62,4 @@ As a quick note, with the threat of COVID finally becoming more of a distant mem
 
 ## **Additional Information**
 
-For more information on the technical details of this concert, visit our [wiki page](https://github.com/MCT-master/portal-wiki/wiki/Telematic-Concert-Between-Portal-and-Science-Library-Documentation-(Spring-2022)).
+For more information on the technical details of this concert, visit our [wiki page](https://github.com/MCT-master/portal-wiki/wiki/End-semester-Concert-Spring-2022-Between-MCT-Portal-and-Science-Library).
