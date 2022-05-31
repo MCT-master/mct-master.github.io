@@ -5,62 +5,62 @@ date: 2022-05-26 08:00:00 +0200
 categories: portal
 author: Oliver Getz, Sofía González, Arvid Falch, Hugh Alexander von Arnim
 image: /assets/image/2022_05_26_jakoboydal_thumbnailTelematic.png
-excerpt: "Guitar and Mo Cap in the Portal!"
+excerpt: "Guitar and MoCap in the Portal + behind the scenes documentary!"
 keywords: Telematic, Machine Learning, Network, Motion Capture
 ---
 
-<!-- <figure style="float: none">
-   <img src="/assets/image/2022_05_26_hughav_poster_door.png" alt="" title="" width="auto" />
-</figure> -->
+To cap off a long semester of machine learning and Motion Capture (MC) we held our final Portal course telematic concert, this time between the Portal and the Science Library at UIO. For this concert we decided to add in a little complexity; not only would we be employing interactive music systems based around machine learning and motion capture with visual components, but we would also allow the audience to participate in one section of the concert. Integrating all of these components proved a challenge, but one that we were happy to take on.
 
 <figure style="float: none">
-  <iframe src="https://drive.google.com/file/d/1s5nqaPa_Jl1AxryU1nO2RDgLDpChqtV8/preview" width="auto" allow="autoplay"></iframe>
-  <figcaption><i>Take a look behind the Scenes!</i></figcaption>
+   <iframe 
+      width="100%" 
+      height="315" 
+      src="https://www.youtube.com/embed/oQZnOlRMfy0" 
+      title="YouTube video player" 
+      frameborder="0" 
+      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+      allowfullscreen>
+   </iframe>
+  <figcaption>Take a look behind the scenes!</figcaption>
 </figure>
-
-## **Introduction**
-
-To cap off a long semester of machine learning and Motion Capture (MC) we held our final Portal course telematic concert, this time between the Portal and the Science Library at UIO. For this concert we decided to add in a little complexity; not only would we be employing interactive music systems based around machine learning and motion capture with visual components, but we would also allow the audience to participate in one section of the concert. Integrating all of these components proved a challenge, but one that we were happy to take on.
 
 ## **Performances**
 
 The concert was split into two halves, comprising two performances. The first performance was an improvisation between Arvid on electric guitar in the Portal, and Kristian on keys and Joseph on percussion at the Science Library. Kristian also added effects and looped the guitar sound from the portal using a MYO armband and a Zoia synthesizer (more on this system [here](https://mct-master.github.io/portal/2022/05/20/kriswent-extending-the-keyboard-through-motion-capture-and-modular-synthesis.html)).
 
+The piece started out minimalistic and quiet, and slowly grew in intensity. The mix between the raw guitar sound coming from the amplifier and the treated audio signal from the Science library created an interesting listening experience in the portal. Some interesting timbral textures and motifs were created during the piece, and after slowly reaching a climax the improvisation found its end in a slow, drifting fade out of reverb and delay. The performers in the Science Library were visible on two monitors in the Portal, enabling visual contact and helping the single performer in the Portal to feel as part of an ensemble.
+
 <figure style="float: none">
-   <img src="/assets/image/2022_05_26_hughav_arvid_guitar.png" alt="" title="" width="auto" />
+   <img src="/assets/image/2022_05_26_hughav_arvid_guitar.png" alt="" title="" width="100%" />
    <figcaption><i>Arvid performing</i></figcaption>
 </figure>
 
-The piece started out minimalistic and quiet, and slowly grew in intensity. The mix between the raw guitar sound coming from the amplifier and the treated audio signal from the Science library created an interesting listening experience in the portal. Some interesting timbral textures and motifs were created during the piece, and after slowly reaching a climax the improvisation found its end in a slow, drifting fade out of reverb and delay.
-
-The performers in the Science Library were visible on two monitors in the Portal, enabling visual contact and helping the single performer in the Portal to feel as part of an ensemble.
-
 The second performance involved integrated two motion controlled systems. In the Portal, Hugh set up the optical MC marker reconfiguration and sonification system (more on this system [here](https://mct-master.github.io/motion-tracking/2022/05/20/hughav-mo-cap-reconfigurations.html)), with the resulting audio being sent over LOLA to the Science Library for manipulation and effects added by Joachim’s machine learning based, gesture parameter controller. This performance was carried out by audience members briefed on the systems’ operation and asked to interact with each other. This led to some interesting results with the interactions providing musical ideas novel to both Hugh and Joachim.
-
-<figure style="float: none">
-   <img src="/assets/image/2022_05_26_hughav_mo_cap_performers.png" alt="" title="" width="auto" />
-   <figcaption><i>The motion capture performers</i></figcaption>
-</figure>
 
 However, there were several difficulties in this setup. Firstly, due to the LOLA camera and microphone setups there were no methods through which the audience members using the system on each side could communicate with each other. Secondly, due to both sides' musical output being gesture controlled and involving synthesized sound, there was some confusion on the portal side of what exactly the motion was controlling. One audience member even started moving their rigid body according to the pitch modulation effect being applied in the Science Library. Nonetheless, reports from the Portal side indicated that the audience members had fun and enjoyed both the motion controlled systems and the interaction over the LOLA network.
 
+<figure style="float: none">
+   <img src="/assets/image/2022_05_26_hughav_mo_cap_performers.png" alt="" title="" width="100%" />
+   <figcaption><i>The motion capture performers</i></figcaption>
+</figure>
+
 ## **Technical Setup**
 
-<figure style="float: none">
-   <img src="/assets/image/2022_05_26_hughav_arvid_tech.png" alt="" title="" width="auto" />
+<!-- <figure style="float: none">
+   <img src="/assets/image/2022_05_26_hughav_arvid_tech.png" alt="" title="" width="100%" />
    <figcaption><i>Arvid monitoring LOLA</i></figcaption>
-</figure>
+</figure> -->
 
 The portal technical setup was centred on the LOLA rack, used for sending both audio and video to the Science Library. For the first performance, the guitar’s output setup was sent directly for Kristian to manipulate. The MC system was a little more complex, as this involved using four computers communicating via OSC. The audio output of the system was sent directly over LOLA.
-
-<figure style="float: none">
-   <img src="/assets/image/2022_05_26_hughav_portal_concert_routing.jpg" alt="" title="" width="500" />
-   <figcaption><i>Routing in the Portal</i></figcaption>
-</figure>
 
 Additionally, the MC system also involved a visual component, showing the rigid bodies’ position which needed to be displayed in the Science Library. However, sending two video feeds (the performers’ camera and the visuals for the MC system) caused some display problems.
 
 The solution we found was to simply place a monitor showing the MC output directly in front of the camera. This worked to an extent, however this obscured the performers and could be difficult to make out on the screen sometimes. Moreover, it was difficult to draw the audience’s attention to it in the Science Library. Jakob (Science Library) suggested streaming the visual output over Zoom, as this allowed picture in picture placement on the Science Library’s side. Despite adding a large amount of latency between the Science Library’s view of the Portal performers and the visualizations, we decided that this would be the best option to clearly display them both.
+
+<figure style="float: none">
+   <img src="/assets/image/2022_05_26_hughav_portal_concert_routing.jpg" alt="" title="" width="100%" />
+   <figcaption><i>Routing in the Portal</i></figcaption>
+</figure>
 
 ## **Production**
 

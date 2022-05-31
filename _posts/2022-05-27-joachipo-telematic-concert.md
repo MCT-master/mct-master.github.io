@@ -5,22 +5,24 @@ date: 2022-05-27 08:00:00 +0200
 categories: portal
 author: Jakob Høydal, Joachim Poutaraud, Joseph Clemente, Kristian Wentzel
 image: /assets/image/2022_05_26_jakoboydal_thumbnailTelematic.png
-excerpt: "In which we go over the most ambitious telematic concert of our MCT careers"
+excerpt: "In which we go over the most ambitious telematic concert of our MCT careers."
 keywords: Telematic, Machine Learning, Network
 ---
 
-<!-- <figure style="float: none">
-   <img src="https://drive.google.com/uc?&id=1sNZ9DcuVc1I0w0pORxQB3sq75Q1KLgFh" width="auto"/>
-</figure> -->
+After one year at the MCT master program, we finally went out into the masses to arrange a location, away from familiar locations. This time, we arranged a concert between the [science library](https://www.ub.uio.no/bibliotekene/mednat/ureal/) at Vilhelm Bjerknes hus, and the MCT Portal at ZEB. In terms of audiovisual setup, we still used the same [NMP-kits](https://github.com/MCT-master/NMP-Portable-Kits) as before, but at this concert we devided it into two section: one that was a traditional telematic concert with gestural interplay, and one with instruments created for the audience to interact with. This post is about the methods and techniques we used to create the Vilhelm Bjerknes side of the concert.
 
 <figure style="float: none">
-  <iframe src="https://drive.google.com/file/d/1unIXcdE1OWvun83b3eha8tw5vUB3qUU1/preview" width="auto" allow="autoplay"></iframe>
-  <figcaption><i>Video recording from the opening act of the performance.</i></figcaption>
+   <iframe 
+      width="100%" 
+      height="315"
+      src="https://www.youtube.com/embed/to-tAgjjNkI" 
+      title="YouTube video player" 
+      frameborder="0" 
+      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+      allowfullscreen>
+   </iframe>
+  <figcaption>Video recording from the opening act.</figcaption>
 </figure>
-
-# **Introduction**
-
-After one year at the MCT master program, we finally went out into the masses to arrange a location, away from familiar locations. This time, we arranged a concert between the [science library](https://www.ub.uio.no/bibliotekene/mednat/ureal/) at Vilhelm Bjerknes hus, and the MCT Portal at ZEB. In terms of audiovisual setup, we still used the same [NMP-kits](https://github.com/MCT-master/NMP-Portable-Kits) as before, but at this concert we devided it into two section: one that was a traditional telematic concert with gestural interplay, and one with instruments created for the audience to interact with. This post is about the methods and techniques we used to create the Vilhelm Bjerknes side of the concert.
 
 ## **Telematic Gestural Interplay**
 
@@ -41,7 +43,7 @@ By receiving the audio data created by the motion of body of the users in the Po
 - An audio patch written with the open source visual programming environment Pure Data
 
 <figure style="float: none">
-   <img src="/assets/image/2022_05_21_joachipo_webcam.png" alt="Gestural Interactions" title="" width="auto"/>
+   <img src="/assets/image/2022_05_21_joachipo_webcam.png" alt="Gestural Interactions" title="" width="100%"/>
    <figcaption><i>Gestural Interactions for Multi-parameter Audio Control</i></figcaption>
 </figure>
 
@@ -50,7 +52,7 @@ By receiving the audio data created by the motion of body of the users in the Po
 To recognize hand gestures, Joachim use the Python library [Mediapipe](https://pypi.org/project/mediapipe/), a simple way to build world-class ML solutions and applications. [MediaPipe Hands](https://google.github.io/mediapipe/solutions/hands) is a high-fidelity hand and finger tracking solution. It employs machine learning (ML) to infer 21 3D landmarks of a hand from just a single frame. That way, the user can use the index finger to trigger audio effects. Moreover, using [Open Sound Control](https://pypi.org/project/python-osc/) server and client implementations in Python, this makes it possible to send UDP packets from Python to Pure Data, to finally output audio from the soundcard of the computer. The hand gestures are thus used as controller for the multi-parameter audio effects (pitch, reverb, delay and modulation) in Pure Data.
 
 <figure style="float: none">
-   <img src="/assets/image/2022_05_21_joachipo_pdpatch.jpg" alt="Pure Data patch" title="" width="auto"/>
+   <img src="/assets/image/2022_05_21_joachipo_pdpatch.jpg" alt="Pure Data patch" title="" width="100%"/>
    <figcaption><i>Audio effects in Pure Data</i></figcaption>
 </figure>
 
