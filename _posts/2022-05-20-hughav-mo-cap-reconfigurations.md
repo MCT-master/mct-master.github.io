@@ -72,15 +72,53 @@ The first case maps several bodies markers to a continuous frequency range, enab
 
 The second case maps the markers for every body to the minor pentatonic scale. This is to enable the untrained users of the interactive music system to work purely in consonances so that no choreography has to be planned.
 
-Audio examples of the five timbres coming soon…
-
 ### **Performance with the Prototype System**
 
 <br>
 <figure style="float: none">
    <img src="/assets/image/2022_05_20_hughav_guitarist.jpg" alt="" title="" width="auto" />
-   <figcaption><i>The performers forming and moving as a 'guitarist'</i></figcaption>
+   <figcaption><i>Two performers forming and moving as a 'guitarist' in a test session</i></figcaption>
 </figure>
 <br>
 
-A test performance with the prototype is soon to take place. Video and reflections coming soon…
+Below are two videos of a performance combining both use cases. Joachim and Joseph performed as dancers, with Hugh controlling the configuration. Two performances took place, with each performance being semi-planned out. The sonification version used was the pentatonic version for the second use case.
+
+For performance 1, four rigid bodies were used, one placed on each of Joseph and Joachim's hands. Conceptually, the idea was to play with the quadrilateral configured by the positions of their hands, exanding this outwards into 3 dimensional projections of a tetrahedron and unmooring points from the main body.
+
+<br>
+<figure style="float: none">
+<iframe width="800" height="500"
+src="https://www.youtube.com/embed/MZ4tcBebW8o"
+title="YouTube video player"
+frameborder="0"
+allow="accelerometer;
+100%play;
+clipboard-write;
+encrypted-media;
+gyroscope;
+picture-in-picture"
+allowfullscreen>
+</iframe>
+<figcaption><i>Performance 1</i></figcaption>
+</figure>
+<br>
+
+For performance 2, 12 rigid bodies were used. These were attached to the head, left shoulder, elbow, hand, hip, and knee of Joachim and head, right shoulder, elbow, hand, hip, and knee of Joseph. Conceptually, the performers were exploring the idea of creating a whole body out of their two halves, seeing how this allows that body to move in ways that neither Joseph or Joachim could achieve alone. As the performance continues, this body slowly becomes reconfigured, shifting towards more abstract shapes and representations.
+
+<br>
+<figure style="float: none">
+<iframe width="800" height="500"
+src="https://www.youtube.com/embed/mudjWUkghCE"
+title="YouTube video player"
+frameborder="0"
+allow="accelerometer;
+100%play;
+clipboard-write;
+encrypted-media;
+gyroscope;
+picture-in-picture"
+allowfullscreen>
+</iframe>
+<figcaption><i>Performance 2</i></figcaption>
+</figure>
+<br>
