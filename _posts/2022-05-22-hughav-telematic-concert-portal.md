@@ -4,7 +4,7 @@ title: "Spring Telematic Concert 2022: Portal Perspectives"
 date: 2022-05-26 08:00:00 +0200
 categories: portal
 author: Oliver Getz, Sofía González, Arvid Falch, Hugh Alexander von Arnim
-image: /assets/image/2022_05_26_jakoboydal_thumbnailTelematic.png
+image: /assets/image/2022_06_01_jakobhoydal_thumbnail2.jpg
 excerpt: "Guitar and MoCap in the Portal + behind the scenes documentary!"
 keywords: Telematic, Machine Learning, Network, Motion Capture
 ---
@@ -12,13 +12,13 @@ keywords: Telematic, Machine Learning, Network, Motion Capture
 To cap off a long semester of machine learning and Motion Capture (MC) we held our final Portal course telematic concert, this time between the Portal and the Science Library at UIO. For this concert we decided to add in a little complexity; not only would we be employing interactive music systems based around machine learning and motion capture with visual components, but we would also allow the audience to participate in one section of the concert. Integrating all of these components proved a challenge, but one that we were happy to take on.
 
 <figure style="float: none">
-   <iframe 
-      width="100%" 
-      height="315" 
-      src="https://www.youtube.com/embed/oQZnOlRMfy0" 
-      title="YouTube video player" 
-      frameborder="0" 
-      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+   <iframe
+      width="100%"
+      height="315"
+      src="https://www.youtube.com/embed/oQZnOlRMfy0"
+      title="YouTube video player"
+      frameborder="0"
+      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
       allowfullscreen>
    </iframe>
   <figcaption>Take a look behind the scenes!</figcaption>
