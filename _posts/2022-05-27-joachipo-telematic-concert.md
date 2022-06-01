@@ -4,7 +4,7 @@ title: "One Last Hoorah: A Telematic Concert in the Science Library"
 date: 2022-05-27 08:00:00 +0200
 categories: portal
 author: Jakob Høydal, Joachim Poutaraud, Joseph Clemente, Kristian Wentzel
-image: /assets/image/2022_05_26_jakoboydal_thumbnailTelematic.png
+image: /assets/image/2022_06_01_jakobhoydal_thumbnail1.jpg
 excerpt: "In which we go over the most ambitious telematic concert of our MCT careers."
 keywords: Telematic, Machine Learning, Network
 ---
@@ -12,13 +12,13 @@ keywords: Telematic, Machine Learning, Network
 After one year at the MCT master program, we finally went out into the masses to arrange a location, away from familiar locations. This time, we arranged a concert between the [science library](https://www.ub.uio.no/bibliotekene/mednat/ureal/) at Vilhelm Bjerknes hus, and the MCT Portal at ZEB. In terms of audiovisual setup, we still used the same [NMP-kits](https://github.com/MCT-master/NMP-Portable-Kits) as before, but at this concert we devided it into two section: one that was a traditional telematic concert with gestural interplay, and one with instruments created for the audience to interact with. This post is about the methods and techniques we used to create the Vilhelm Bjerknes side of the concert.
 
 <figure style="float: none">
-   <iframe 
-      width="100%" 
+   <iframe
+      width="100%"
       height="315"
-      src="https://www.youtube.com/embed/to-tAgjjNkI" 
-      title="YouTube video player" 
-      frameborder="0" 
-      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+      src="https://www.youtube.com/embed/to-tAgjjNkI"
+      title="YouTube video player"
+      frameborder="0"
+      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
       allowfullscreen>
    </iframe>
   <figcaption>Video recording from the opening act.</figcaption>
