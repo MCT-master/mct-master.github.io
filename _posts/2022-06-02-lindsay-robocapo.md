@@ -10,7 +10,7 @@ excerpt: "This thesis presents an augmentation device for the guitar, a robotic 
 ---
 
 <figure style="float: none">
-   <img src="/assets/image/2022_06_02_lindsay_robocapo_full.png" alt="Front View" title="RoboCapo " width="85%" />
+   <img src="/assets/image/2022_06_02_lindsay_robocapo_full.jpg" alt="Front View" title="RoboCapo " width="85%" />
    <figcaption><i>RoboCapo</i></figcaption>
 </figure>
 
@@ -100,7 +100,7 @@ The right hand’s gestures on the guitar are confined to a smaller area than th
 </figure>
 
 <figure style="float: none">
-   <img src="/assets/image/2022_06_02_lindsay_robocapo_housing.png" alt="Front View" title="RoboCapo " width="75%" />
+   <img src="/assets/image/2022_06_02_lindsay_robocapo_housing.jpg" alt="Front View" title="RoboCapo " width="75%" />
    <figcaption><i>Button Housing, CAD</i></figcaption>
 </figure>
 
