@@ -39,8 +39,8 @@ This project explored music listeners’ cross-modal associations. A 2-stage exp
 
 The general conclusion I draw from the findings of this work suggests that cross-modal correspondence is a potentially rich topic of exploration that the small-scale nature of this project only touched upon. The relation of music to vision and emotion is a three-way relation of three complex phenomena with numerous variables. Part of the phenomena are based on physical causal relations and part of them are inevitably cultural and related not to causation but to meaning and interpretation. This obvious conclusion is that research in music requires all the tools available to researchers to adequately do justice to music´s physical, cultural and emotional aspects.
 
-## Graphical summary 
+## Graphical summary
 
 <figure style="float: none">
-   <img src="/assets/image/2022_05_12_joni_infographic.jpg" alt="Graphical Summary" title="" width="auto" />
+   <img src="https://drive.google.com/uc?&id=1Dplu-oDt2J5bTyc6ERT7fnLmxrS96UPu" alt="Graphical Summary" title="" width="auto" />
 </figure>
