@@ -1,10 +1,10 @@
 ---
 layout: post
 title: "Emotional Responses to Vibro-tactile Music"
-date: 2021-12-20 10:30:00 +0200
+date: 2022-05-30 10:30:00 +0200
 categories: masters-thesis
 author: Alena Clim
-image: /assets/image/2022_05_30_alena_word_cloud_thesis.png
+image: /assets/image/2022_05_30_alena_hap-phones-fingertips.jpeg
 keywords: music-cognition, tactile, haptics, emotions, valence, arousal, empathy, emotional-response, tactile-illusions
 excerpt: "What happens when music is felt instead of heard? When music is just vibrations... can it still make people feel emotions?"
 ---
@@ -12,13 +12,13 @@ excerpt: "What happens when music is felt instead of heard? When music is just v
 # An Exploratory study of Emotional Responses to Vibro-tactile Music
 
 <figure style="float: none">
-   <img src="/assets/image/2022_05_30_alena_word_cloud_thesis.png" alt="Word Cloud" title="Word Cloud" width="50%" />
+   <img src="/assets/image/2022_05_30_alena_word_cloud_thesis.png" alt="Word Cloud" title="Word Cloud" width="auto" />
    <figcaption><i>Thesis Word Cloud</i></figcaption>
 </figure>
 
 If I were to ask you what is the first word that comes to mind when I say __MUSIC__ ... what would the answer be? Some might say their favourite genre, band or instrument, others might say _sounds_, or even _feelings_. Most of us would agree that music conveys and makes us feel certain emotions. If music is sound, and sounds are essentially mechanical vibrations, then __would vibrations make us feel something as well__? My thesis project revolved around this question...
 
-This blogpost ...
+This blogpost presents the motivation behind the study, as well as the aim, and main findings of the pilot study and the main experiment. For more detailed information about the study, please read the manuscript ([available on GitHub](https://github.com/alenaclim/mct-thesis-tactile-music)). Additional materials such as the datasets and the R-scripts can be found in the same repository.
 
 ## Motivation
 
@@ -77,20 +77,20 @@ The majority of the experts decided that the __hap-phones__ were the actuators t
 
 The goal of the main experiment was to determine the emotional responses that individuals have to vibro-tactile music. Eight excerpts were rendered to tactile illusions from [Vieillard et al., 2008](https://www.researchgate.net/publication/247496910_Happy_sad_scary_and_peaceful_musical_excerpts_for_research_on_emotions) (2 happy, 2 sad, 2 scary and 2 peaceful), and were presented in a random order. Following each excerpt, participants answered questions about the emotions they recognized in theexcerpt and the emotions they felt. This was all structured as a questionnaire, and at the end they answered 14 questions as part of the Interpersonal Reactivity Index - used to measure their empathy level (specifically, their fantasy and empathic concern). After completing the questionnaire, they were asked if they experienced any sort of associations during the vibro-tactile music.
 
-In total, 55 individuals participanted - 50 with unaffected hearing, and 5 suffering from different levels of hearing loss - and 52% of all were musicians. 
+In total, 55 individuals participanted. Only 5 suffered from different levels of hearing loss - and 52% of all were musicians. 
 
-Of all participants, 75% experienced associations during the vibro-tactile excerpts. Of these, 18 participants only experienced musical associations (e.g., EDM, musique concrete, soundtracks), 11 only imaginative (e.g., memories or life situations like dancing in a night club, skipping down the road, being at the sea side), and 12 both. With one exception, all deaf or hard of hearing participants experienced both types of associations. Musicians experienced more musical associations than non-musicians. Interestingly, music-loving non-musicians experienced more associations overall.
+Of all participants, 75% experienced musical associations (e.g., EDM, musique concrete, soundtracks), imaginative associations (e.g., memories or life situations like dancing in a night club, skipping down the road, being at the sea side), or both. With one exception, all deaf or hard of hearing participants experienced both types of associations. Musicians experienced more musical associations than non-musicians. Interestingly, music-loving non-musicians experienced more associations overall.
 
 The most important finding is that __yes, music as tactile illusions can make people feel emotions__. In almost all cases, the excerpts were considered happy or peaceful, and participants rarely felt sadness or scariness. This suggests that the experience of feeling vibro-tactile music is pleasant overall, which is in line with participants' feedback. Some even said that it feels like a "massage for the fingertips". Another interesting finding is that, instead of fine grained emotions, participants felt broaded emotions such as “liveliness”, “mellowness”, “startlement” or “unease”, which suggests that the lack of melodic information has quite a big impact on conveying emotions. 
 
 ## Future work
 
-Better exploration of which type of illusions tend to convey which type of emotions.
-    Peacefulness – sweeping, continuous illusion
-    Liveliness – impulsive, highly dynamic illusions
+The most obvious suggestion for future studies is to focus on a deaf or hard of hearing population, and even comparing them to individuals with normal hearing. If we want to create technology for them, we need to know more about the way they perceive the world aroud us. It is also important to have bigger or at least more equal samples, to have reliable results of statistical analysis. 
 
-Better translation algorithms. 
-OR
-Instead of audio-tactile rendering… compose them from scratch!
+The findings of this study seem to indicate that __music as tactile illusions__ indeed makes people experience emotions, more research is needed to find a consistent correlation between (type of) illusion and emotion. So far, sweeping, continuous tactile illusions seem to be associated with peacefulness, and impulsive, highly dynamic illusions with liveliness. Looking more into this and designing better experiments will also help and provide support for composing vibro-tactile music from scratch - it would then be easier for composers to know which illusions to use to convey certain emotions. 
 
+Regarding individual characteristics that might influence the perception and recognition of emotions in vibro-tactile music, empahty did not seem to be extremely relevant. Other characteristics should be considered in order to discover more about why and how certain people feel emotions. 
 
+This thesis could be considered as a stepping stone towards more research combining the fields of musical haptics (music technology) and music cognition, specifically regarding the study of emotions in vibro-tactile music.
+
+#### Contact me for any questions and suggestions! 
