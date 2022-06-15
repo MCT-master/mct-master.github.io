@@ -55,9 +55,11 @@ Moreover, the best apparatus for relaying clear tactile illusions was tested fro
 
 ## Findings
 
+
 In this study, three tatile illusions were used when rendering musical excerpts: __Phantom Motion__ or apparent movement (a continuous movement reminiscent of an apparent sweeping motion), __Cutaneous Rabbit__ or saltation (an impulsive movement of short impulses from one side to the other reminiscent of hopping), and __Funneling__ (an error of localization, the illusory feeling of an apparent actuator).
 
 ### Pilot Study 
+
 
 The first experiment was a pilot study with the goal of determining which pair of actuators conveyed the clearest tactile illusions and which were most comfortable to hold. For this purpose, 10 experts in relevant fields (such as music technology and music cognition) tested three tactile illusions with a pair of [commercially available piezoelectric actuators](https://www.ti.com/tool/DRV2667EVM-CT), a pair of commercially available voice-coil actuators named [__Basslets__](https://www.kickstarter.com/projects/basslet/the-basslet-a-wearable-subwoofer-for-your-body), and a pair of purpose-built actuators named __Hap-phones__ (see the picture below).
 
@@ -75,7 +77,8 @@ The majority of the experts decided that the __hap-phones__ were the actuators t
 
 ### Main Experiment
 
-The goal of the main experiment was to determine the emotional responses that individuals have to vibro-tactile music. Eight excerpts were rendered to tactile illusions from [Vieillard et al., 2008](https://www.researchgate.net/publication/247496910_Happy_sad_scary_and_peaceful_musical_excerpts_for_research_on_emotions) (2 happy, 2 sad, 2 scary and 2 peaceful), and were presented in a random order. Following each excerpt, participants answered questions about the emotions they recognized in theexcerpt and the emotions they felt. This was all structured as a questionnaire, and at the end they answered 14 questions as part of the Interpersonal Reactivity Index - used to measure their empathy level (specifically, their fantasy and empathic concern). After completing the questionnaire, they were asked if they experienced any sort of associations during the vibro-tactile music.
+
+The goal of the main experiment was to determine the emotional responses that individuals have to vibro-tactile music. Eight excerpts were rendered to tactile illusions from [Vieillard and collegues (2008)](https://www.researchgate.net/publication/247496910_Happy_sad_scary_and_peaceful_musical_excerpts_for_research_on_emotions) (2 happy, 2 sad, 2 scary and 2 peaceful), and were presented in a random order. Following each excerpt, participants answered questions about the emotions they recognized in theexcerpt and the emotions they felt. This was all structured as a questionnaire, and at the end they answered 14 questions as part of the Interpersonal Reactivity Index - used to measure their empathy level (specifically, their fantasy and empathic concern). After completing the questionnaire, they were asked if they experienced any sort of associations during the vibro-tactile music.
 
 In total, 55 individuals participanted. Only 5 suffered from different levels of hearing loss - and 52% of all were musicians. 
 
@@ -84,6 +87,7 @@ Of all participants, 75% experienced musical associations (e.g., EDM, musique co
 The most important finding is that __yes, music as tactile illusions can make people feel emotions__. In almost all cases, the excerpts were considered happy or peaceful, and participants rarely felt sadness or scariness. This suggests that the experience of feeling vibro-tactile music is pleasant overall, which is in line with participants' feedback. Some even said that it feels like a "massage for the fingertips". Another interesting finding is that, instead of fine grained emotions, participants felt broaded emotions such as “liveliness”, “mellowness”, “startlement” or “unease”, which suggests that the lack of melodic information has quite a big impact on conveying emotions. 
 
 ## Future work
+
 
 The most obvious suggestion for future studies is to focus on a deaf or hard of hearing population, and even comparing them to individuals with normal hearing. If we want to create technology for them, we need to know more about the way they perceive the world aroud us. It is also important to have bigger or at least more equal samples, to have reliable results of statistical analysis. 
 
