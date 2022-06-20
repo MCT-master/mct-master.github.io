@@ -2,7 +2,7 @@
 layout: post
 title: "Piano Accompaniment Generation Using Deep Neural Networks"
 date: 2022-05-20 17:00:00 +0200
-categories: portal
+categories: machine-learning
 author: Kristian Wentzel
 image: /assets/image/2022_05_20_kriswent_piano_robot.jpeg
 keywords: mct, machine learning, MIDI, neural networks, deep learning, transformer
