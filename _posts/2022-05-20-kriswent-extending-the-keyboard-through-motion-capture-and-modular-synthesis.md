@@ -2,7 +2,7 @@
 layout: post
 title: "Myo My – That keyboard sure tastes good with some ZOIA on top"
 date: 2022-05-20 02:00:00 +0200
-categories: portal
+categories: motion-tracking
 author: Kristian Wentzel
 image: /assets/image/2022_05_20_kriswent_spread.jpg
 keywords: mct, motion capture, gestures, IMU, EMG, modular synthesis
