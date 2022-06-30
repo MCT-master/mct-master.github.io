@@ -4,7 +4,7 @@ title: "Trinity: Triple Threat"
 date: 2021-02-18 18:00:00 +0200
 categories: audio-programming
 author: Abhishek Choubey, Tom Ignatius, Lindsay Charles
-image: /assets/image/2021_18_02_abhishec_trinity_trinity.png
+image: /assets/image/2021_02_18_abhishec_trinity_trinity.png
 keywords: audio programming, effect, Audio, DSP, Music, Csound, Reverb, Chorus, Granular, Shimmer, modulation
 excerpt: "Trinity: What happens when you combine Grain shimmer + Chorus + Stereo Width? Click to find."
 ---
