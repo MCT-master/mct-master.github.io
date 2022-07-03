@@ -20,7 +20,7 @@ The world is going through a global mental health crisis, although the tradition
 
 Music can induce down-regulation of the nervous system, providing relaxation, and in combination with technology, music technology has the potential to supply powerful tools to promote not only better mental health, but also raise awareness of internal bodily processes, supplying access to physiological data that can be valuable to manage psychophysiological processes.
 
-This blogpost is a synthesis of my master's thesis developed for the MCT program - so if you are interested in the subject, you can read the full thesis, check the code (p5js) developed, explore the literature review with scientific research on the field, as well as the supplementary material on the [Zenodo link](https://zenodo.org/record/6591937#.YpQeJZNBzh8).
+This blogpost is a synthesis of my master's thesis developed for the MCT program - so if you are interested in the subject, you can read the full thesis, check the code (p5js) developed, explore the literature review with scientific research on the field, as well as the supplementary material on [Zenodo publication](https://zenodo.org/record/6591937#.YpQeJZNBzh8).
 
 To play with and explore the prototype's (very simple) interface, access the link [Breath Painting](https://editor.p5js.org/rayam/full/TPNe9x9ww) and scroll down to find the buttons.
 
