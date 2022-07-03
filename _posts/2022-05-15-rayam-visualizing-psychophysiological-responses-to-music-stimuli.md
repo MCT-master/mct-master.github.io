@@ -9,12 +9,12 @@ keywords: breath, physiology, emotions, valence, arousal, autonomic nervous syst
 excerpt: "Music can induce down-regulation of the nervous system, and in combination with technology, it has the potential to promote wellness."
 ---
 
-# Visualizing Psychophysiological Responses to Music Stimuli
-
 <figure style="float: none">
    <img src="/assets/image/2022_05_15_rayam_visualizing_psychophysiological_responses_to_music_stimuli_2.png" alt="Word Cloud" title="Breath Painting Art" width="auto" />
    <figcaption><i>Breath Painting Art</i></figcaption>
 </figure>
+
+# Visualizing Psychophysiological Responses to Music Stimuli
 
 The world is going through a global mental health crisis, although the traditional pharmaceutical drugs available can be effective and are an important support for people with mental disorders, they often impinge harmful side effects on the patients making use of it. However, some alternative methods and tools can help support treatments in the mental health field. From the physiological realm to the cultural perspective, research show that music has the capability to modify and drive human emotions, mood, and movement. And so, music can be a powerful tool and serve as means to diminish the dependence, volume of use, and therefore side-effects of such medicine.
 
