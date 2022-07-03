@@ -6,7 +6,7 @@ categories: masters-thesis
 author: Rayam Pinto
 image: /assets/image/2022_05_15_rayam_visualizing_psychophysiological_responses_to_music_stimuli.png
 keywords: breath, physiology, emotions, valence, arousal, autonomic nervous system, data visualisation, biofeedback, gamification, interaction design, generative art, data sonification
-excerpt: "Music can induce down-regulation of the nervous system, and in combination with technology, it has the potential to promote better mental health."
+excerpt: "Music can induce down-regulation of the nervous system, and in combination with technology, it has the potential to promote wellness."
 ---
 
 # Visualizing Psychophysiological Responses to Music Stimuli
