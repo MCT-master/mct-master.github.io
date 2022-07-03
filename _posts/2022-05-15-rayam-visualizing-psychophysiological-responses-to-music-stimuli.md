@@ -95,13 +95,13 @@ As a first approach to this project, I opted for the spectrogram to represent th
 
 <figure style="float: none">
    <img src="/assets/image/2022_05_15_rayam_p5js_spectrogram_1.png"
-   alt="Pedals" title="" width="auto" />
+   alt="Spectrogram 1" title="" width="auto" />
    <figcaption><i>First test with circular audio data visualization</i></figcaption>
 </figure>
 
 <figure style="float: none">
    <img src="/assets/image/2022_05_15_rayam_p5js_spectrogram_2.png"
-   alt="Pedals" title="" width="auto" />
+   alt="Spectrogram 2" title="" width="auto" />
    <figcaption><i>Breath Painting: Audio Data Visualization (audio data only)</i></figcaption>
 </figure>
 
@@ -115,7 +115,7 @@ Following the process described below it is possible to see the iterative progre
 
 <figure style="float: none">
    <img src="/assets/image/2022_05_15_rayam_full_dots-spect.png"
-   alt="Pedals" title="" width="auto" />
+   alt="Breath Data Dots" title="" width="auto" />
    <figcaption><i>Breath data of the full session including silence gaps, represented in dots in a circular plane + respective audio spectrograms</i></figcaption>
 </figure>
 
@@ -174,25 +174,25 @@ To make viable the correlation between the musical stimuli and the respiration b
 
 <figure style="float: none">
    <img src="/assets/image/2022_05_15_rayam_shape_andre.png"
-   alt="Pedals" title="" width="auto" />
+   alt="Stimulus 1" title="" width="auto" />
    <figcaption><i>Stimulus 1 "Andre" - Breath Shape (type 1) alone. The relatively high number of petals (8), as well as the high number of lines, indicate high deviation and variance levels. The circumference sizes of this shape compared to the other examples in this document, suggest deeper breath patterns during this session. The hue value and saturation of the lines reaffirm the high variance within this session.</i></figcaption>
 </figure>
 
 <figure style="float: none">
    <img src="/assets/image/2022_05_15_rayam_shape_silence.png"
-   alt="Pedals" title="" width="auto" />
+   alt="Silence Section 3 Breath Shape" title="" width="auto" />
    <figcaption><i>Silence section 3 - Breath Shape (type 1) alone. With slightly less number of petals (7), as well as less number of lines, this shape indicates smaller deviation and variance levels. The circumference size is also smaller compared to the shape generated from the Stimulus 1 "Andre", suggesting shallower breath patterns. The hue value is low, again indicating lower variance, meaning that the subject S10 performed a more stable breathing pattern during this session.</i></figcaption>
 </figure>
 
 <figure style="float: none">
    <img src="/assets/image/2022_05_15_rayam_dots_shape_silence.png"
-   alt="Pedals" title="" width="auto" />
+   alt="Silence Section 3 Breath Shape + Dots" title="" width="auto" />
    <figcaption><i>Silence section 3 - Breath Shape (type 1) + dotted breath. By plotting the dotted breath data together with the breath shape, it is possible to confirm the shallower breath pattern by observing the low crests (peaks) and shallow troughs. The dotted graph also confirms the low deviation and variance levels.</i></figcaption>
 </figure>
 
 <figure style="float: none">
    <img src="/assets/image/2022_05_15_rayam_spec_shape_metronome.png"
-   alt="Pedals" title="" width="auto" />
+   alt="Stimulus 2 (Metronome)" title="" width="auto" />
    <figcaption><i>Stimulus 2 "Metronome" - Breath Shape (type 1) + Spectrogram. Showing considerably less number of petals (6), as well as less number of lines, this shape indicates even smaller deviation and variance levels. The circumference size is also much smaller compared to the shape generated from the Stimulus 1 "Andre", suggesting shallower breath patterns. The hue value is even lower than the one presented by the "Silence 3" session, indicating small variance. These changes suggest that the subject performed gradually more stable patterns throughout the entire session S1.</i></figcaption>
 </figure>
 
@@ -202,13 +202,13 @@ To help test and export all the arts mentioned previously, it was helpful to dev
 
 <figure style="float: none">
    <img src="/assets/image/2022_05_15_rayam_interface_buttons.png"
-   alt="Pedals" title="" width="auto" />
+   alt="Interface's Buttons" title="" width="auto" />
    <figcaption><i>Prototype's Interface: Buttons</i></figcaption>
 </figure>
 
 <figure style="float: none">
    <img src="/assets/image/2022_05_15_rayam_interface_p5js.png"
-   alt="Pedals" title="" width="auto" />
+   alt="Interface" title="" width="auto" />
    <figcaption><i>Prototype's Interface</i></figcaption>
 </figure>
 
