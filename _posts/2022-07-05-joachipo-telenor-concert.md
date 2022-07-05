@@ -34,7 +34,7 @@ We used the [5G-VINNI](https://www.5g-vinni.eu/) facility site set up at Telenor
 </figure>
 
 To connect, we used a pair of [Huawei H138-380 CPE Pro 3 5G](https://nettbutikk.emcom.no/) routers and [NMP Portable Kits](https://github.com/MCT-master/NMP-Portable-Kits/wiki) to facilitate ultra-low-latency music performances between two remote locations. These portable kits are essentially bundles of high-end software, audio/video peripherals and networking tools that can provide the lowest possible latency on audio/video transmissions over the network.
- 
+
 ### **Audio transmission**
 For transmitting audio through the network, we narrowed our options to [LOLA](lola.conts.it/) Low Latency, developed by GARR and Conservatorio G.Tartini in Italy, is a unique audio-visual streaming technology, which enables musicians to play together in real-time and [JackTrip](https://www.jacktrip.org/), a popular audio transmission application developed by CCRMA at Stanford University (USA). In comparing the test results and requirements of the project, the 5G could not accommodate the buffering requirements (very small packets) to use LOLA, therefore, we had to use JackTrip  which can work with larger buffer sizes [[2]](#references). We tested different parameters for the buffer and queue sizes and ended up with the following parameters.
 
@@ -68,38 +68,47 @@ For transmitting audio through the network, we narrowed our options to [LOLA](lo
 This relatively large buffer size (512) and queue buffer (5) resulted in 53 milliseconds of latency being added at the receiving end as the audio is buffered before playback, resulting in a Round Trip Time (RTT) of 132 milliseconds. Moreover, the upload speed, or how fast you can send information from your computer to another device or server on the internet, was actually significantly improved (127.44 Mbps) over 5G, compared to the LAN. (Average upload speed usually corresponds to 74.96 Mbps for fixed broadband, according to [Speedtest](https://www.speedtest.net/global-index). While downloading information is more common, NMP requires data to travel in the opposite direction as well. Playing live music on the network needs fast upload speeds in order to send data to the other musician's server.
 
 ### **Video transmission**
-For transmitting video through the network, we used [OBS Ninja](https://vdo.ninja/) a cutting edge Peer-to-Peer forwarding technology that offers privacy and ultra-low latency. We disabled the audio and added the maximum resolution for the video source. 
+For transmitting video through the network, we used [OBS Ninja](https://vdo.ninja/) a cutting edge Peer-to-Peer forwarding technology that offers privacy and ultra-low latency. We disabled the audio and added the maximum resolution for the video source.
 
 ## **Setup locations : Mainstage and Villa Haraløkka**
 
-<figure style="float: none">
-   <img src="/assets/image/2022_06_24_joachipo_villa.jpg" alt="Kristian performing at Villa Haraløkka" title="" width="auto" />
-   <figcaption><i>Kristian performing at Villa Haraløkka</i></figcaption>
-</figure>
- 
+
+
 ### **Setup at the Mainstage**
-The mainstage was at the Telenor HQ itself, a tent was set up next to the 5G on wheels trailer. [Picture] 
- 
+The mainstage was at the Telenor HQ itself, a tent was set up next to the 5G on wheels trailer.
+
 - [NMP Portable Kit](https://github.com/MCT-master/NMP-Portable-Kits/wiki)
 - A condenser mic for the saxophone (played by Joachim)
 - An SM58 mic to communicate and for announcements
 - A Pair of Genelec 8030a speakers as PA system
 - A Large screen for showing the video received from ‘Villa Haraløkka’
 - A XA series Canon video camera
- 
+
+<figure style="float: none">
+   <img src="/assets/image/2022_07_05_lindsay_mainstage.jpg" alt="Kristian performing at Villa Haraløkka" title="" width="auto" />
+   <figcaption><i>Mainstage</i></figcaption>
+</figure>
+
+
+
 ### **Setup at the Villa Haraløkka**
 The Villa is located around 300 meters from the Mainstage.
 
 - NMP Portable Kit
-- Two lines in from the Keyboard. (played by Kristian)
+- Two line in for the Keyboard. (played by Kristian)
 - Two SM58 microphones for communication
 - A pair of Genelec 8020a speakers for monitoring
 - A XA series Canon video camera
 
+
+<figure style="float: none">
+   <img src="/assets/image/2022_06_24_joachipo_villa.jpg" alt="Kristian performing at Villa Haraløkka" title="" width="auto" />
+   <figcaption><i>Kristian performing at Villa Haraløkka</i></figcaption>
+</figure>
 ## **Performance Reflections**
 
 When performing NMP, the problem is trying to keep a common rhythm between musicians in different locations. Maintaining a shared beat is difficult if it takes too long for one musician’s sound to reach another’s ears, and if this time (called latency) is too long (around 25ms **[1]**), it can make playing music together almost impossible. However, some techniques can be employed to work with latency, and not against it.
- 
+
 Kristian and Joachim decided to play two jazz standards ([**A Child Is Born**](https://www.youtube.com/watch?v=-M2ADUgffFE) written by Thad Jones in 1969, and [**A Night in Tunisia**](https://www.youtube.com/watch?v=v3GhgSTzAxw) written by Dizzy Gillespie around 1940–42) with medium tempo as it can tolerate slight deviations in the playing of the melody and can leave some place for the development of the melody between the chords.
 
 <figure style="float: none">
@@ -117,7 +126,7 @@ Kristian and Joachim decided to play two jazz standards ([**A Child Is Born**](h
 
 
 
-For Kristian, the tempo and style of song had a direct influence on how much latency could be tolerated. Consequently, difficulties in synchronizing timing for up tempo standards were experienced. This has already been studied in a previous blogpost on [Mastering Latency](https://mct-master.github.io/portal/2022/02/21/joachipo-measuring-latency.html). 
+For Kristian, the tempo and style of song had a direct influence on how much latency could be tolerated. Consequently, difficulties in synchronizing timing for up tempo standards were experienced. This has already been studied in a previous blogpost on [Mastering Latency](https://mct-master.github.io/portal/2022/02/21/joachipo-measuring-latency.html).
 
 In preparation for this NMP, we practiced over the Local Area Network (LAN) at UiO with artificially added latency. For the ballad “A Child Is Born”, it felt quite good to perform even when we had high latency. The more rhythmic “A Night In Tunisia” was a bit harder with high latency, where Kristian had to keep the focus mostly on his own playing so as to not lose the groove.
 
@@ -127,10 +136,9 @@ In preparation for this NMP, we practiced over the Local Area Network (LAN) at U
 </figure>
 
 Furthermore, there was not a significant difference in playing over 5G compared to the UiO LAN with added latency from the musicians point of view. The advantageous part of it was that the 5G had higher upload speeds compared to LAN which is mentioned in the technical section.
- 
+
 ### References
- 
+
 **[1]** Carôt, A., & Werner, C. (2009). *Fundamentals and principles of musical telepresence*. Journal of Science and Technology of the Arts, 1(1), 26-37. https://doi.org/10.7559/citarj.v1i1.6
 
 **[2]** Fasciani, S., & Tidermann, A. (2022, April 11). [5G Networked Music Performances - Will It Work?](https://mct-master.github.io/portal/2022/04/11/aleksati-5g-nmp.html)
-
