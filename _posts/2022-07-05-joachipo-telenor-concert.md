@@ -65,7 +65,7 @@ For transmitting audio through the network, we narrowed our options to [LOLA](lo
   </tr>
 </table>
 
-This relatively large buffer size (512) and queue buffer (5) resulted in 53 milliseconds of latency being added at the receiving end as the audio is buffered before playback, for a total Round Trip Time (RTT) of 132 milliseconds. Regarding the network, we measured a ping delay of 6ms with a upload speed, or how fast we could send information from our computer to another server in Oslo ([Blix Solutions AS](https://www.blix.com/servers/)), of 127.44 Mbps. Upload speed was significantly improved over 5G compared to the LAN (average upload speed usually corresponds to 74.96 Mbps for fixed broadband, according to [Speedtest](https://www.speedtest.net/global-index). While downloading information is more common, NMP requires data to travel in the opposite direction as well. Playing live music on the network needs fast upload speeds in order to send data to the other musician's server.
+This relatively large buffer size (512) and queue buffer (5) resulted in 53 milliseconds of latency being added at the receiving end as the audio is buffered before playback, for a total Round Trip Time (RTT) of 132 milliseconds. Regarding the network, we measured a ping delay of 6ms with a upload speed, or how fast we could send information from our computer to another server in Oslo ([Blix Solutions AS](https://www.blix.com/servers/)), of 127.44 Mbps. Upload speed was significantly improved over 5G compared to the LAN (average upload speed usually corresponds to 74.96 Mbps for fixed broadband, according to [Speedtest](https://www.speedtest.net/global-index)). While downloading information is more common, NMP requires data to travel in the opposite direction as well. Playing live music on the network needs fast upload speeds in order to send data to the other musician's server.
 
 ### **Video transmission**
 For transmitting video through the network, we used [OBS Ninja](https://vdo.ninja/) a cutting edge Peer-to-Peer forwarding technology that offers privacy and ultra-low latency. We disabled the audio and added the maximum resolution for the video source.
@@ -106,8 +106,6 @@ The Villa is located around 300 meters from the Mainstage.
    <figcaption><i>Kristian performing at Villa Haraløkka</i></figcaption>
 </figure>
 ## **Performance Reflections**
-
-When performing NMP, the problem is trying to keep a common rhythm between musicians in different locations. Maintaining a shared beat is difficult if it takes too long for one musician’s sound to reach another’s ears, and if this time (called latency) is too long (around 25ms **[1]**), it can make playing music together almost impossible. However, some techniques can be employed to work with latency, and not against it.
 
 Kristian and Joachim decided to play two jazz standards ([**A Child Is Born**](https://www.youtube.com/watch?v=-M2ADUgffFE) written by Thad Jones in 1969, and [**A Night in Tunisia**](https://www.youtube.com/watch?v=v3GhgSTzAxw) written by Dizzy Gillespie around 1940–42) with medium tempo as it can tolerate slight deviations in the playing of the melody and can leave some place for the development of the melody between the chords.
 
