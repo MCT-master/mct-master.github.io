@@ -22,23 +22,15 @@ keywords: Telematic, Network, NMP, Jazz
 
 When it comes to playing over wide area networks such as the internet, the main problem is trying to keep a common rhythm between musicians in different locations. Maintaining a shared beat is difficult if it takes too long for one musician’s sound to reach another’s ears, and if this time (called latency) is too long (around 25ms [[1]](#references)), it can make playing music together almost impossible. However, some techniques can be employed to work with latency, and not against it.
 
-In late spring 2022, we were engaged by [Telenor Research Group](https://www.telenor.com/innovation/research/) to perform a Network Music Performance (NMP) over their 5G network at the *Telenor Festivalen*. Previously, We have had extensive experience with NMP over wired networks but this was the first foray into performing over a 5G cellular network.
+In late spring 2022, we were engaged by [Telenor Research Group](https://www.telenor.com/innovation/research/) to perform a Network Music Performance (NMP) over their 5G network at the *Telenor Festival*. Previously, We have had extensive experience with NMP over wired networks but this was the first foray into performing over a 5G cellular network.
 
 ## **Technical Setup**
 
-<<<<<<< Updated upstream
-We used the [5G-VINNI](https://www.5g-vinni.eu/) facility set up at Telenor as a private 5G network for the NMP. Telenor set up this pure *standalone 5G* network for this occasion, with 80 MHz width in the 3.6 GHz band. 
-
-<figure style="float: none">
-   <img src="/assets/image/2022_06_21_joachipo_modem.jpg" alt="NMP with 5G-VINNI facility site" title="" width="60%" />
-   <figcaption><i>NMP facility site</i></figcaption>
-=======
 We used the Next Generation 5G platform by Telenor Research as an autonomous private network for the NMP. Telenor setted up a transmission with 80 Mhz in the C-Band with a pure *standalone 5G* network for the occasion.
 
 <figure style="float: none">
    <img src="/assets/image/2022_07_07_joachipo_5Ggraph.jpg" alt="Next Generation 5G platform by Telenor Research" title="" width="60%" />
    <figcaption><i>Next Generation 5G platform by Telenor Research</i></figcaption>
->>>>>>> Stashed changes
 </figure>
 
 To connect, we used a pair of [Huawei H138-380 CPE Pro 3 5G](https://nettbutikk.emcom.no/) routers and [NMP Portable Kits](https://github.com/MCT-master/NMP-Portable-Kits/wiki) to facilitate ultra-low-latency music performances between two remote locations. These portable kits are essentially bundles of high-end software, audio/video peripherals and networking tools that can provide the lowest possible latency on audio/video transmissions over the network.
@@ -137,8 +129,8 @@ For Kristian, the tempo and style of song had a direct influence on how much lat
 In preparation for this NMP, we practiced over the Local Area Network (LAN) at UiO with artificially added latency. For the ballad “A Child Is Born”, it felt quite good to perform even when we had high latency. The more rhythmic “A Night In Tunisia” was a bit harder with high latency, where Kristian had to keep the focus mostly on his own playing so as to not lose the groove.
 
 <figure style="float: none">
-   <img src="/assets/image/2022_06_24_joachipo_telenor.jpg" alt="Telenor Festivalen 2022" title="" width="auto" />
-   <figcaption><i>Network Musical Performance in Telenor Festivalen 2O22</i></figcaption>
+   <img src="/assets/image/2022_06_24_joachipo_telenor.jpg" alt="Telenor Festival 2022" title="" width="auto" />
+   <figcaption><i>Network Musical Performance in Telenor Festival 2O22</i></figcaption>
 </figure>
 
 Furthermore, there was not a significant difference in playing over 5G compared to the UiO LAN with added latency from the musicians point of view. The advantageous part of it was that the 5G had higher upload speeds compared to LAN which is mentioned in the technical section.
