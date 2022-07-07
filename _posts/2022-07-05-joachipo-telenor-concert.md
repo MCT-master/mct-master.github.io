@@ -26,11 +26,19 @@ In late spring 2022, we were engaged by [Telenor Research Group](https://www.tel
 
 ## **Technical Setup**
 
+<<<<<<< Updated upstream
 We used the [5G-VINNI](https://www.5g-vinni.eu/) facility set up at Telenor as a private 5G network for the NMP. Telenor set up this pure *standalone 5G* network for this occasion, with 80 MHz width in the 3.6 GHz band. 
 
 <figure style="float: none">
    <img src="/assets/image/2022_06_21_joachipo_modem.jpg" alt="NMP with 5G-VINNI facility site" title="" width="60%" />
    <figcaption><i>NMP facility site</i></figcaption>
+=======
+We used the Next Generation 5G platform by Telenor Research as an autonomous private network for the NMP. Telenor setted up a transmission with 80 Mhz in the C-Band with a pure *standalone 5G* network for the occasion.
+
+<figure style="float: none">
+   <img src="/assets/image/2022_07_07_joachipo_5Ggraph.jpg" alt="Next Generation 5G platform by Telenor Research" title="" width="60%" />
+   <figcaption><i>Next Generation 5G platform by Telenor Research</i></figcaption>
+>>>>>>> Stashed changes
 </figure>
 
 To connect, we used a pair of [Huawei H138-380 CPE Pro 3 5G](https://nettbutikk.emcom.no/) routers and [NMP Portable Kits](https://github.com/MCT-master/NMP-Portable-Kits/wiki) to facilitate ultra-low-latency music performances between two remote locations. These portable kits are essentially bundles of high-end software, audio/video peripherals and networking tools that can provide the lowest possible latency on audio/video transmissions over the network.
