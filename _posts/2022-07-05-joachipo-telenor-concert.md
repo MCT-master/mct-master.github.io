@@ -26,11 +26,11 @@ In late spring 2022, we were engaged by [Telenor Research Group](https://www.tel
 
 ## **Technical Setup**
 
-We used the [5G-VINNI](https://www.5g-vinni.eu/) facility site set up at Telenor as an autonomous private 5G network for the NMP. Telenor setted up a transmission with 80 MHz bandwidth in the 3.6 GHz band with a pure *standalone 5G* network for this occasion.
+We used the [5G-VINNI](https://www.5g-vinni.eu/) facility set up at Telenor as a private 5G network for the NMP. Telenor set up this pure *standalone 5G* network for this occasion, with 80 MHz width in the 3.6 GHz band. 
 
 <figure style="float: none">
    <img src="/assets/image/2022_06_21_joachipo_modem.jpg" alt="NMP with 5G-VINNI facility site" title="" width="60%" />
-   <figcaption><i>NMP with 5G-VINNI facility site</i></figcaption>
+   <figcaption><i>NMP facility site</i></figcaption>
 </figure>
 
 To connect, we used a pair of [Huawei H138-380 CPE Pro 3 5G](https://nettbutikk.emcom.no/) routers and [NMP Portable Kits](https://github.com/MCT-master/NMP-Portable-Kits/wiki) to facilitate ultra-low-latency music performances between two remote locations. These portable kits are essentially bundles of high-end software, audio/video peripherals and networking tools that can provide the lowest possible latency on audio/video transmissions over the network.
@@ -65,7 +65,7 @@ For transmitting audio through the network, we narrowed our options to [LOLA](lo
   </tr>
 </table>
 
-This relatively large buffer size (512) and queue buffer (5) resulted in 53 milliseconds of latency being added at the receiving end as the audio is buffered before playback, for a total Round Trip Time (RTT) of 132 milliseconds. Regarding the network, we measured a ping delay of 6ms with a upload speed, or how fast we could send information from our computer to another server in Oslo ([Blix Solutions AS](https://www.blix.com/servers/)), of 127.44 Mbps. Upload speed was significantly improved over 5G compared to the LAN (average upload speed usually corresponds to 74.96 Mbps for fixed broadband, according to [Speedtest](https://www.speedtest.net/global-index)). While downloading information is more common, NMP requires data to travel in the opposite direction as well. Playing live music on the network needs fast upload speeds in order to send data to the other musician's server.
+This relatively large buffer size (512) and queue buffer (5) resulted in 53 milliseconds of latency being added at the receiving end as the audio is buffered before playback, for a total Round Trip Time (RTT) of 132 milliseconds. Regarding the network, we measured a ping delay of 6 ms with an upload bandwidth of 127.44 Mbps against a testing server ([Blix Solutions AS](https://www.blix.com/servers/)). Upload speed was significantly improved over 5G compared to the LAN (average upload speed usually corresponds to 74.96 Mbps for fixed broadband, according to [Speedtest](https://www.speedtest.net/global-index)). While downloading information is more common, NMP requires data to travel in the opposite direction as well. Playing live music on the network needs fast upload speeds in order to send data to the other musician's server.
 
 ### **Video transmission**
 For transmitting video through the network, we used [OBS Ninja](https://vdo.ninja/) a cutting edge Peer-to-Peer forwarding technology that offers privacy and ultra-low latency. We disabled the audio and added the maximum resolution for the video source.
@@ -92,7 +92,7 @@ The mainstage was at the Telenor HQ itself, a tent was set up next to the 5G on 
 
 
 ### **Setup at the Villa Haraløkka**
-The Villa is located around 300 meters from the Mainstage.
+The Villa is located around 300 meters from the mainstage.
 
 - NMP Portable Kit
 - Two line in for the Keyboard. (played by Kristian)
