@@ -29,7 +29,7 @@ In late spring 2022, we were engaged by [Telenor Research Group](https://www.tel
 We used the Next Generation 5G platform by Telenor Research as an autonomous private network for the NMP. Telenor setted up a transmission with 80 Mhz in the C-Band with a pure *standalone 5G* network for the occasion.
 
 <figure style="float: none">
-   <img src="/assets/image/2022_07_07_joachipo_5Ggraph.png" alt="Next Generation 5G platform by Telenor Research" title="" width="80%" />
+   <img src="/assets/image/2022_07_07_joachipo_5Ggraph.png" alt="Next Generation 5G platform by Telenor Research" title="" width="auto" />
    <figcaption><i>Next Generation 5G platform by Telenor Research</i></figcaption>
 </figure>
 
