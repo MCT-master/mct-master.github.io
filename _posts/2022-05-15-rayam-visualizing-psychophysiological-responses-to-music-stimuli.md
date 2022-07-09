@@ -54,13 +54,13 @@ The goal of this project was to investigate how music affect human psychophysiol
 
 The prototype proposed further on in this project aimed to raise awareness of the capability of music as a tool to modify physiological patterns and consequently regulate an individual's autonomic nervous system. Music technology can support health care and psycho-therapeutic treatments, helping to prevent mental disorders such as anxiety, depression, stress, and bipolar disorder. Altogether, the combination of a biofeedback interactive system, with gamification techniques and conscious breathing can be a powerful tool to support mental health and wellness, and this project will describe how.
 
-The prototype consists in a code that gerate visualizations of breath and music data, which I am calling __"Breath Painting"__. These visualizations have the potential to feature music apps focused on relaxation and wellness, integrating gamification tools for mental health support applications, or educational purposes by raising awareness of the importance of music and respiration for the human mental health. It also can be used for the practice of resonance frequency breathing, which is proven to be an efficient technique used for regulating the autonomic nervous system.
+The prototype consists in a code that generates visualizations of breath and music data, which I am calling __"Breath Painting"__. These visualizations have the potential to feature music apps focused on relaxation and wellness, integrating gamification tools for mental health support applications, or educational purposes by raising awareness of the importance of music and respiration for the human mental health. It also can be used for the practice of resonance frequency breathing, which is proven to be an efficient technique used for regulating the autonomic nervous system.
 
 ## Breath Painting: A biofeedback based data visualization tool
 
 ___Breath Painting___ is the name given to the prototype that I developed for this project. The objective of this prototype is to provide unique visualizations of the correlation between breath data and music data from an individual's music listening experience. The prototype takes numbers as input and translates them into dynamic geometric shapes and colors, as means to convey information about the synchronization in behavior between the two types of data. For this project, the objective of the visualization is to display technical data with an artistically engaging approach. In sum, people from any educational background will be able to visualize how different types of music modulate different breathing patterns. That is why the prototype was named Breath Painting.
 
-Biofeedback and data representation techniques are not a new technology in our time, the term "biofeedback" has been explored since the late 60's, while the first heart rate data sonification device, a room-sized machine called _electrocardiograph_, has been in use since 1902. The same applies to data visualization techniques, they have been around with well-developed cartography since the 16th-century. On the other hand, the combination of all these techniques together, with modern technology and advanced apparatus, opens up a whole universe of possibilities.
+__Biofeedback__ and __data representation__ techniques are not a new technology in our time, the term "biofeedback" has been explored since the late 60's, while the first heart rate _data sonification_ device, a room-sized machine called _electrocardiograph_, has been in use since 1902. The same applies to data visualization techniques, they have been around with well-developed cartography since the 16th-century. On the other hand, the combination of all these techniques together, with modern technology and advanced apparatus, opens up a whole universe of possibilities.
 
 The possibilities provided by data representation techniques such as data visualization and data sonification are appealing to me. The fact that we can visualize the internal bodily process, and listen to alterations regarding an individual's psychophysiological activity sparkle endless creative solutions that can be at the same time, effective for medical use, and artistically instigating.
 
@@ -78,12 +78,12 @@ The participants were 42 persons signed up at the University of Oslo, without an
 
 Audio Stimuli list:
 
-1. Andre (EDM track with a low level of complexity)
-2. Metronome (Metronome track based on a drum sample)
-3. Neelix 1 (Trance track with complex rhythmic structure)
-4. Neelix 2 (Same as Neelix 1 track but different section: a rhythmic and glissando build up)
-5. Pysh (Deep house track with a steady, but slightly laid-back beat)
-6. Rhythm (Simple two-measure drum pattern)
+1. __Andre__ (EDM track with a low level of complexity)
+2. __Metronome__ (Metronome track based on a drum sample)
+3. __Neelix 1__ (Trance track with complex rhythmic structure)
+4. __Neelix 2__ (Same as Neelix 1 track but different section: a rhythmic and glissando build up)
+5. __Pysh__ (Deep house track with a steady, but slightly laid-back beat)
+6. __Rhythm__ (Simple two-measure drum pattern)
 
 ### Audio Data Visualization
 
@@ -91,7 +91,7 @@ After organizing the data received, I started working on solutions for the audio
 
 The most common type of audio signal visualization which most people recognize is the _waveform_. A waveform graphic displays the audio signal's amplitude changing in time. Adding another dimension of information along with the audio amplitude, _spectrograms_ are a more complex and detailed tool for audio data analyses. Spectrograms provide a visualization of the frequency content intensity and amplitude varying with time. Commonly, spectrograms are displayed as heatmaps. Whereas the frequency content is typically represented by the colour location on the y-axis, the amplitude is classically displayed as the brightness of the colour, and the x-axis is the time dimension.
 
-As a first approach to this project, I opted for the spectrogram to represent the audio stimulus data visually. I took this choice considering that the spectrogram provides information regarding the frequency content and amplitude of the audio, allowing interesting correlations between the audio stimulus and the breathing data responses over time. In this case, however, I opted for developing a circular spectrogram for artistic purposes. A circular representation denotes the impression of a cyclic narrative to the visualization, which relates to the cyclic character of the breath, and also to the way music has been reproduced on analog media like a vinyl record for instance. Moreover, a circular visualization looks artistically appealing to the general user, dissociating it from the classic chart style and other classical technical representations for audio data.
+As a first approach to this project, I opted for the _spectrogram_ to represent the audio stimulus data visually. I took this choice considering that the spectrogram provides information regarding the frequency content and amplitude of the audio, allowing interesting correlations between the audio stimulus and the breathing data responses over time. In this case, however, I opted for developing a circular spectrogram for artistic purposes. A circular representation denotes the impression of a cyclic narrative to the visualization, which relates to the cyclic character of the breath, and also to the way music has been reproduced on analog media like a vinyl record for instance. Moreover, a circular visualization looks artistically appealing to the general user, dissociating it from the classic chart style and other classical technical representations for audio data.
 
 <figure style="float: none">
    <img src="/assets/image/2022_05_15_rayam_p5js_spectrogram_1.png"
@@ -136,30 +136,49 @@ Once I understood the structure building the shape, I started testing how differ
 These measurements were used to create the following mappings, which are a result of a testing process with several iterations. Some of the values were mapped to fit the variable value range, e.g.: the color Hue that goes from 0 to 360.
 
 1. __Number of lines = Standard Deviation__
-    loop(i = 0; i < Deviation; i++)
+
+loop(i = 0; i < Deviation; i++)
+
 2. __Number of petals = Standard Deviation__
-    map(Std. Deviation, 0, (dataMax-dataMin)/4, 2, 15)
+
+map(Std. Deviation, 0, (dataMax-dataMin)/4, 2, 15)
+
 3. __Inner circle circumference = Minimum session's value (exhalation)__
-    dataMin/10
+
+dataMin/10
+
 4. __Outer circle circumference = Maximum session's value (inhalation)__
-    map(dataMax, dataMin, dataMax, 200, 290)
+
+map(dataMax, dataMin, dataMax, 200, 290)
+
 5. __Stroke Hue = Variance__
-    map(Variance, 0, 1000, 350, 0)
+
+map(Variance, 0, 1000, 350, 0)
+
 6. __Stroke Saturation = Mean__
-    map(Mean, dataMin, dataMax, 1, 20) * i (the saturation value is mapped Mean value to a range, between 1-20 that when multiplied for the i of the for loop, generates a movement effect)
+
+map(Mean, dataMin, dataMax, 1, 20) * i (the saturation value is mapped Mean value to a range, between 1-20 that when multiplied for the i of the for loop, generates a movement effect)
+
 7. __Rotation angle = Mean__
-    map(Mean, dataMin, dataMax, 1.5, 3)
+
+map(Mean, dataMin, dataMax, 1.5, 3)
 
 These correlations allow the user to understand the behaviour of the breath by observing the characteristics of the shape generated from the breathing session. Therefore, one can read the different arts produced from different "music-breath" sessions and compare them,  also understanding how the music 'looks like' during each session, by analysing the spectrogram of the sound listened during the session.
 
 To simplify the understanding of the mappings above, I decided to create a legend that can serve as a guide for the user to read the art generated by their "breath-painting" sessions.
 
 1. The greater the __number of lines__ (and complexity) on the shape, the bigger the __deviation__, which suggests that the breath session was unstable, varying in quality (deep or shallow breathing).
+
 2. The same applies for the __number of petals__, more petals meaning __more variation__ on the breath pattern.
+
 3. The smaller the __inner circle circumference__ is, the __deeper exhalation__ performed during the session.
+
 4. The bigger the __outer circle circumference__ is, the __deeper inhalation__ performed during the session.
+
 5. For the __color Hue value__, the warmer the color (from purple-blue-cyan-green-yellow-orange to red), the greater the __variance__ of the session was, which indicates that the user performed an __inconsistent breath__ pattern. The closer it gets to the red color, suggests a tendency to aroused states, while the more consistent the breath is, suggests calmer states represented by colder tones closer to the blue color.
+
 6. The __stroke saturation__ also indicates the level of __variance__. If the saturation is low, it means that the variance of the session was low, suggesting stable breathing patterns. The opposite applies: if the saturation is high, it indicates an unstable breathing pattern.
+
 7. The __rotation angle__ affects the shape __creating unique results__ for each session. The interpretation of this variable is not as clear and informative as the other mentioned above in this list. It is based on the __Mean__ of the breathing session, and it was mapped for __aesthetic purposes__.
 
 <figure style="float: none">
@@ -214,14 +233,14 @@ To help test and export all the arts mentioned previously, it was helpful to dev
 
 ## Future work
 
-A lot of improvement can be done to this project. There is room for exploration of the breath and sound visualizations, and the interaction between them.
+A lot of improvement can be done to this project. There is room for exploration of the ___breath and sound visualizations___, and the interaction between them.
 
 The breath shapes, for instance, can be improved in terms of clarity. One way to do that is to increase the differentiation between sessions, making the interpretation faster and clearer. As this type of data is not dramatically changing between sessions (if the user performs natural breathing), the differentiation can be enhanced with mappings that make smaller variations output greater modulations on the structures, broadening the spectrum of changes.
 
 The audio data can also be approached differently. It could become a modulator of the shapes generated by the breath data. With smart mappings, colors and other details of the geometry can convey the audio data keeping the time dimension, frequency, and amplitude information by translating it into different visual attributes of the breath shapes.
 
-Moreover, user experience research can improve significantly the efficiency of this prototype. It would be interesting to test different compositions for the visualizations and ask questions about the understanding of the users regarding the information conveyed. That would also provide input concerning user engagement. An addition that could improve the user's experience and help educate the users about their breathing patterns would be to implement a legend for understanding the quality of their breathing patterns according to the art generated. A legend can help the users to compare their type of art to reference arts that can guide them to evaluate their ___Breath Painting___. In addition, useful tips for healthy breathing can be implemented in the user interface of the prototype. These tips can be displayed according to the user's breath session, for instance, if the session shows inconsistent breath patterns, or shallow breathing, the user can get tips on how to improve their breath practices, and can be oriented to follow and align their breath pace with a suggested sedative slow music with visuals that induce a deeper and consistent breath pattern.
+Moreover, ___user experience___ research can improve significantly the efficiency of this prototype. It would be interesting to test different compositions for the visualizations and ask questions about the understanding of the users regarding the information conveyed. That would also provide input concerning user engagement. An addition that could improve the user's experience and help educate the users about their breathing patterns would be to implement a legend for understanding the quality of their breathing patterns according to the art generated. A __legend__ can help the users to compare their type of art to reference arts that can guide them to evaluate their ___Breath Painting___. In addition, useful tips for healthy breathing can be implemented in the user interface of the prototype. These tips can be displayed according to the user's breath session, for instance, if the session shows inconsistent breath patterns, or shallow breathing, the user can get tips on how to improve their breath practices, and can be oriented to follow and align their breath pace with a suggested sedative slow music with visuals that induce a deeper and consistent breath pattern.
 
-This prototype can also be developed to be interactive in real-time with sensors and devices that can open doors for biofeedback systems and gamification. It can be used for educational purposes applied to health by stimulating the user to breathe deep and slow, or leading the user to discover their particular resonant breathing frequency. For example, the visuals can respond to the user's breath in real-time, with visual rewards such as the appearance of beautiful elements, or the unpleasant visual indicators that the user is out of track with their respiration. The interactive system can play with the user's engagement by displaying new appealing elements and sounds that are triggered by the correct bio-data (in this case the breath data) input provided by the user.
+This prototype can also be developed to be ___interactive in real-time with sensors and devices___ that can open doors for ___biofeedback systems and gamification___. It can be used for __educational purposes__ applied to health by stimulating the user to breathe deep and slow, or leading the user to discover their particular resonant breathing frequency. For example, the visuals can respond to the user's breath in real-time, with visual rewards such as the appearance of beautiful elements, or the unpleasant visual indicators that the user is out of track with their respiration. The interactive system can play with the user's engagement by displaying new appealing elements and sounds that are triggered by the correct bio-data (in this case the breath data) input provided by the user.
 
-Another possible application of this type of system is generating visual elements and composing generative music simultaneously, providing an immersive experience to the user. That can be done by using the biofeedback data output coming from a breath sensor as a trigger, and modulator, for a generational music system that interacts with the visuals that are also modulated in real-time by the breath data of the user. For example, a calming environment like a forest, with nature sounds that blend into the music, together with visuals that are revealed as the user's breath syncs into a desired rate, would be an effective way to educate and induce relaxed states for the users. Kids could also benefit from other environments more appropriate for children. With playful elements, as the kid breaths slower and deeper, the environment displays colorful objects that bounce, for instance. That creates engagement, educating and motivating the child to learn healthier breath practices, consequently providing well-being.
+Another possible application of this type of system is generating visual elements and ___composing generative music___ simultaneously, providing an immersive experience to the user. That can be done by using the biofeedback data output coming from a breath sensor as a trigger, and modulator, for a generational music system that interacts with the visuals that are also modulated in real-time by the breath data of the user. For example, a calming environment like a forest, with nature sounds that blend into the music, together with visuals that are revealed as the user's breath syncs into a desired rate, would be an effective way to educate and induce relaxed states for the users. Kids could also benefit from other environments more appropriate for children. With playful elements, as the kid breaths slower and deeper, the environment displays colorful objects that bounce, for instance. That creates engagement, educating and motivating the child to learn healthier breath practices, consequently providing well-being.
