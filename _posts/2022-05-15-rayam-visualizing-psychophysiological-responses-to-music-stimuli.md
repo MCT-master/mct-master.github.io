@@ -182,8 +182,8 @@ To simplify the understanding of the mappings above, I decided to create a legen
 7. The __rotation angle__ affects the shape __creating unique results__ for each session. The interpretation of this variable is not as clear and informative as the other mentioned above in this list. It is based on the __Mean__ of the breathing session, and it was mapped for __aesthetic purposes__.
 
 <figure style="float: none">
-   <img src="/assets/image/2022_05_15_rayam_breath-painting-hue-scale-legend.jpg"
-   alt="Pedals" title="" width="auto" />
+   <img src="/assets/image/2022_05_15_rayam_breath-painting-hue-scale-legend.png"
+   alt="Hue Scale Legend" title="" width="auto" />
    <figcaption><i>Breath Painting: Hue Scale Legend</i></figcaption>
 </figure>
 
