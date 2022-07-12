@@ -69,7 +69,7 @@ When looking at previous research that focuses on music related problems, one pa
 </figure>
 
 **The database** constructed had its main origin from the OpenAir library of impulse responses[6]. Choosing 20 suitable reverberations from their library of 100 impulse responses, was done on the basis of their length and general quality. The audio-samples was sourced from different dry audio signals mainly from the apples loops library [5], [7]. As we can see in the graph below, the 100 audio-samples was a large mix of everything available with limited reverberation. Other audio-samples were sourced from anechoic recording databases with high quality recordings.
-If you want to try this database yourself, you can find it [here](https://drive.google.com/file/d/1qyJaZ_OY3htooo7IpIdOdbxP2SnsUVgi/view?usp=sharing).
+If you want to try this database yourself, you can find it [here](https://uio-my.sharepoint.com/:u:/g/personal/stefanof_uio_no/EbNELPT3tE5Jn9l4qpr8ffkB9gr0wmG-KXHYV8pgEVqWyQ?e=hIig3J).
 
 
 
