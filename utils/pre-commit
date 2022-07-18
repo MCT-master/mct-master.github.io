@@ -1,0 +1,58 @@
+#!/bin/sh
+#
+# An example hook script to verify what is about to be committed.
+# Called by "git commit" with no arguments.  The hook should
+# exit with non-zero status after issuing an appropriate message if
+# it wants to stop the commit.
+#
+# To enable this hook, rename this file to "pre-commit".
+
+# Redirect output to stderr.
+
+# Based on https://gist.github.com/jiska/587a824389bb35161f98
+# Created by Stefano Fasciani on 13 July 2022
+# Last modified by Stefano Fasciani on 18 July 2022
+
+echo "MCT Blog Pre Commit Check ..."
+
+exec 1>&2
+
+shopt -s nocasematch #for case unsensitive string match
+
+CURRENT_DIR="$(pwd)"
+HAS_ERROR=""
+WSPACEPATTERN=" |'"
+
+echo "$CURRENT_DIR"
+
+filelist=$(git diff --cached --name-only | sort | uniq)
+
+if [[ $filelist =~ $WSPACEPATTERN ]]; then
+	echo "$filelist"
+	echo "Check failed, remove whitespaces from filenames." >&2
+	exit 1
+fi
+
+for file in $filelist; do
+	if [[ $OS == *"win"* ]]; then
+		file_size=$(./utils/du.exe -b $CURRENT_DIR/$file | awk '{print $1}')
+		file_size=$((file_size / 1024))
+		file_size=$((file_size + 1))
+	else
+		file_size=$(du -k $CURRENT_DIR/$file | awk '{print $1}')
+	fi
+
+	if [ "$file_size" -gt 300 ]; then
+		echo "$file has a size of $file_size KBytes which is over the 300 KBytes limit."
+		HAS_ERROR="1"
+	fi
+done
+
+if [ "$HAS_ERROR" != "" ]; then
+    echo "Check failed, can't commit, reduce file size first." >&2
+    exit 1
+fi
+
+echo "Check passed."
+
+exit 0
