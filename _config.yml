@@ -23,7 +23,7 @@ url: "https://mct-master.github.io" # the base hostname & protocol for your site
 logo: "/assets/image/2020_09_29_jacksong_mct_logo_small.png"
 twitter_username: MCT_master
 github_username: MCT-master
-youtube_username: UCRWv7-fkWIKiYxm-iQrdV1w # hacked the social.html imported from minima 2.5.1 to override problem with channel URL
+youtube_username: MCTmaster # hacked the social.html imported from minima 2.5.1 to override problem with channel URL
 google_analytics: "UA-29541937-2"
 rss: RSS feed
 

@@ -12,7 +12,7 @@ More information regarding the master's program offered by the University of Osl
 
 Official media accounts of the MCT programme:
 
-- [YouTube](https://youtube.com/channel/UCRWv7-fkWIKiYxm-iQrdV1w/videos)
+- [YouTube](https://www.youtube.com/c/MCTmaster)
 - [Twitter](https://www.twitter.com/MCT_master)
 - [GitHub](https://github.com/MCT-master)
 

@@ -1,3 +1,3 @@
 ---
-redirect_to: https://www.youtube.com/channel/UCRWv7-fkWIKiYxm-iQrdV1w
+redirect_to: https://www.youtube.com/c/MCTmaster
 ---
