@@ -6,7 +6,7 @@ categories: masters-thesis
 author: Lindsay Charles
 image: /assets/image/2022_06_02_lindsay_robocapo_cad.jpg
 keywords:  Master's thesis, Music technology, NIME, Design, Actuated Instruments, Guitar technology
-excerpt: "This thesis presents an augmentation device for the guitar, a robotic capo mechanism that explores the emergence of new complex and meaningful modes of musical interaction."
+excerpt: "An augmentation device for the guitar, a robotic capo mechanism that explores the emergence of new complex and meaningful modes of interaction."
 ---
 
 <figure style="float: none">
