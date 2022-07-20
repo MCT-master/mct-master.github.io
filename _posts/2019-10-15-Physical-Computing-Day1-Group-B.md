@@ -2,11 +2,11 @@
 layout: post
 title: 'Physical computing Day 1 - Group B'
 date: 2019-10-15 17:00 +0200
-categories: physical-computing
+categories: interactive-music
 author: Rayam Luna, Gaute Wardenær, Thibault Jaccard, Ulrik Halmøy
 image: /assets/image/2019_10_15_aleksati_pd_groupb.png
 excerpt: 'First day of physical computing'
-Keywords: Physical computing, Hardware hacking, circuit sniffing, Bela, Pure Data
+Keywords: physical-computing, hardware-hacking, circuit-sniffing, bela, pure-data
 ---
 
 The first day of the physical computing course was for the most part spent exploring sound creation with different hardware components. We got introduced to concepts such as hardware hacking and circuit sniffing and also got to test patching in PureData.

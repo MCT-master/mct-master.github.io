@@ -2,7 +2,7 @@
 layout: post
 title: "cOSmoChaos"
 date: 2020-10-16 20:00:00 +0200
-categories: physical-computing
+categories: interactive-music
 author: Anders Lidal
 image: /assets/image/2020_10_16_anderlid_hardware2.jpg
 keywords: physical-computing, osculator, gyrosc, midi, osc, kitten, music, analog, hardware

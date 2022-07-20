@@ -2,14 +2,14 @@
 layout: post
 title: 'Prototyping musical instruments'
 date: 2019-12-27 12:00:00 +0200
-categories: human-computer-interaction
+categories: interactive-music
 author: Rayam Luna, Gaute Wardenær, Thibault Jaccard, Ulrik Halmøy
 image: /assets/image/2019_12_27_stefanof_recycle_orchestra_thumb.jpg
 excerpt: 'Prototyping musical instruments in the name of recycling - exploring Orchestrash from an HCI point of view'
-Keywords: HCI, Bela, Physical Computing, Orchestrash
+keywords: HCI, Bela, Physical Computing, Orchestrash, human-computer-interaction
 ---
 
-During the HCI course, we examined the instruments prototypes built as part of the physical computing hackathon. This blog post is a summary of our reflections of prototyping musical instruments in the name of recycling, a project we called *Orchestrash*. Where [the previous blog post](https://mct-master.github.io/physical-computing/2019/10/24/Orchestrash.html) discuss the technicalities of prototyping instruments in a physical computing environment, this one will examine Orchestrash from an HCI point of view.
+During the HCI course, we examined the instruments prototypes built as part of the physical computing hackathon. This blog post is a summary of our reflections of prototyping musical instruments in the name of recycling, a project we called *Orchestrash*. Where [the previous blog post](https://mct-master.github.io/interactive-music/2019/10/24/Orchestrash.html) discuss the technicalities of prototyping instruments in a physical computing environment, this one will examine Orchestrash from an HCI point of view.
 
 ## Introduction
 

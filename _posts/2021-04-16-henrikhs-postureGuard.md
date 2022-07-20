@@ -2,7 +2,7 @@
 layout: post
 title: "Posture Guard"
 date: 2021-04-16 13:00:00 +0200
-categories: motion-tracking
+categories: motion-capture
 author: Henrik Sveen
 image: /assets/image/2021_04_16_henrikhs_greatPosture.jpeg
 keywords: motion tracking, sonification, posture, max, msp, jitter

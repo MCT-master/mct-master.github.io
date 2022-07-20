@@ -2,7 +2,7 @@
 layout: post
 title: MCT vs. Corona
 date: 2020-03-13 20:00:00 +0200
-categories: miscellaneous
+categories: other
 author: Thomas Anda, Jackson Goode, Paul Koenig, Rayam Luna, Jarle Steinhovden, Aleksander Tidemann, Gaute Wardenær, Ulrik Halmøy, Tom Ignatius, Thibault Jaccard, Simon Sandvik
 image: /assets/image/2020_03_13_stefanof_ccourse.jpg
 excerpt: "In light of the recent microbial world war, we have taken matters into our own hands by sharing audio programming expertise through small introductory courses on Zoom."

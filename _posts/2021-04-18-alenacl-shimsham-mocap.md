@@ -2,7 +2,7 @@
 layout: post
 title: "Shim-Sham Motion Capture"
 date: 2021-04-18 18:00:00 +0200
-categories: motion-tracking
+categories: motion-capture
 author: Alena Clim
 image: /assets/image/2021_04_18_alenacl_calibrating.jpg 
 keywords: motion tracking, motion capture, animation, blender, optitrack, dancing experiment

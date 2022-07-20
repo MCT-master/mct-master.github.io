@@ -2,10 +2,11 @@
 layout: post
 title:  "Group B - Circuit sniffing and sampling"
 date:   2018-10-17 00:30:00 +0200
-categories: physical-computing
+categories: interactive-music
 author: Mari Lesteberg, Dmitry Vasilev, Ashane Silva, Shreejay Shreshta, Eigil Aandahl
 image: /assets/image/2018_10_17_aleksati_piano_piezo.png
 excerpt: "During today's workshop, we hunted for sounds created by electromagnetic interferences and vibrations using headphones, contact mics, and portable speakers. Then we 'hacked' a p5.js sampler to play the found sounds from our laptops."
+keywords: physical-computing
 ---
 
 <figure>

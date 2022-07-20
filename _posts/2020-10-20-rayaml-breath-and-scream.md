@@ -2,7 +2,7 @@
 layout: post
 title: "Breathe the light, scream arpeggios!"
 date: 2020-10-20 16:59:00 +0200
-categories: interactive-music-systems
+categories: interactive-music
 author: Rayam Luna
 image: https://drive.google.com/uc?&id=11KY7PHbtyyPhBpWDWS2qk-_kYhlEIxK4
 excerpt: "Multisensorial music interface aiming to provide a synesthetic experience. Touch, light, breathe, scream - make sound!"

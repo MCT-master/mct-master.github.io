@@ -2,7 +2,7 @@
 layout: post
 title: "Everything's Out of Tune (And Nothing Is)"
 date: 2020-11-06 18:00:00 +0200
-categories: digital-audio
+categories: audio-programming
 author: Willie Mandeville
 image: /assets/image/2020_11_06_williakm_piano.jpg
 keywords: digital-audio

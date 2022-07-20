@@ -2,10 +2,10 @@
 layout: post
 title: "Walking in Seasons"
 date: 2021-04-21 13:00:00 +0200
-categories: motion-tracking
+categories: motion-capture
 author: Abhishek Choubey, Lindsay Charles, Joel Vide Hynsjö
 image: /assets/image/2021_04_21_abhishec_wis.jpg
-keywords: sonification, motion-tracking, Audio, DSP, Music, Max MSP, python
+keywords: sonification, motion-capture, Audio, DSP, Music, Max MSP, python
 excerpt: "Sonification of motion"
 ---
 

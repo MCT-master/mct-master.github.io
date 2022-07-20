@@ -2,7 +2,7 @@
 layout: post
 title: "Kodaly EarTrainer-App"
 date: 2021-04-18 15:50:00 +0200
-categories: motion-tracking
+categories: motion-capture
 author: Thomas Anda
 image: /assets/image/2021_04_08_thomasanda_fingersOverlay.jpeg
 keywords: motion tracking, iOS, swift, cv

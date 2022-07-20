@@ -2,7 +2,7 @@
 layout: post
 title: Musings with Bela
 date: 2020-10-16 12:00:00 +0200
-categories: interactive-music-systems
+categories: interactive-music
 author: Jackson Goode
 image: /assets/image/2020_10_16_jacksong_bela.jpg
 excerpt: "A tale of accelerometers, knobs, an EEG and the attempt to tame sound with my mind. Follow along!"

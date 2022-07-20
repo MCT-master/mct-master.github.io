@@ -2,7 +2,7 @@
 layout: post
 title: "What is a gesture?"
 date: 2022-05-19 10:00:00 +0200
-categories: motion-tracking
+categories: motion-capture
 author: Sofía González
 image: /assets/image/2022_05_12_sofiagon_gesture.jpg
 keywords: gesture, gesticulation, communication, motion capture

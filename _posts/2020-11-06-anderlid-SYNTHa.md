@@ -2,7 +2,7 @@
 layout: post
 title: "SYNTHa"
 date: 2020-11-07 01:00:00 +0200
-categories: digital-audio
+categories: audio-programming
 author: Anders Lidal
 image: /assets/image/2020_11_07_anderlid_SYNTHa.jpg
 keywords: digital audio, csound, vst, cabbage, softsynth, feedback, midi, kitten, music, analog, hardware

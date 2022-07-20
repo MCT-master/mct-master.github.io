@@ -2,7 +2,7 @@
 layout: post
 title: "An air guitar experiment with OpenCV"
 date: 2021-04-17 14:35:00 +0200
-categories: motion-tracking
+categories: motion-capture
 author: Stephen Gardener
 image: /assets/image/2021_04_17_stephedg_airguitar.jpg
 keywords: motion tracking, opencv, python, guitar

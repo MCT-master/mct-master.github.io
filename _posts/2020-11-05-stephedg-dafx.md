@@ -2,7 +2,7 @@
 layout: post
 title: "Phade - a phaser delay FX"
 date: 2020-11-05 20:40:00 +0200
-categories: digital-audio
+categories: audio-programming
 author: Stephen Gardener
 image: /assets/image/2020_11_05_stephedg_plugin.jpg
 keywords: Csound, Digital Audio

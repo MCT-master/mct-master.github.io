@@ -2,7 +2,7 @@
 layout: post
 title: "SamTar"
 date: 2020-10-17 12:00:00 +0200
-categories: interactive-music-systems
+categories: interactive-music
 author: Aleksander Tidemann
 image: https://drive.google.com/uc?&id=1dKDq3RLrZBW-r_vLVaGINXp-HPBdiArH
 keywords: Interactive Music Systems, augmented instrument, hyper-instrument, Bela, micro-controller, pure data, javascript p5, python, sample-based music, electric guitar, NIME, MCT

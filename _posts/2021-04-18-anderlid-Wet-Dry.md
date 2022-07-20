@@ -2,7 +2,7 @@
 layout: post
 title: "Motion (and emotion) in recording"
 date: 2021-04-18 23:00:00 +0200
-categories: motion-tracking
+categories: motion-capture
 author: Anders Lidal
 image: /assets/image/2021_04_18_anderlid_fp.jpg
 keywords: motion tracking, wet, dry, studio, recording, monitoring

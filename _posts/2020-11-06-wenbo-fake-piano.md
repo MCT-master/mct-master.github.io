@@ -2,7 +2,7 @@
 layout: post
 title: "A fake Steinway made by Csound"
 date: 2020-11-06 11:00:00 +0200
-categories: digital-audio
+categories: audio-programming
 author: Wenbo Yi
 image: /assets/image/2020_11_06_wenbo_piano.jpg
 keywords: digital-audio, csound

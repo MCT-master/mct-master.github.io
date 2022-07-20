@@ -2,7 +2,7 @@
 layout: post
 title: "A new season of chopped music"
 date: 2020-12-05 22:00:00 +0200
-categories: scientific-computing
+categories: audio-programming
 author: Abhishek Choubey
 image: /assets/image/2020_12_05_abhishec_chop_excerpt.jpg
 excerpt: "The arbitrary mixing of two seasons (two songs representing seasons)"

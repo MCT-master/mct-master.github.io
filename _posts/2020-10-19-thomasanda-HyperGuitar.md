@@ -2,7 +2,7 @@
 layout: post
 title: "HyperGuitar"
 date: 2020-10-19 16:00:00 +0200
-categories: interactive-music-systems
+categories: interactive-music
 author: Thomas Anda
 image: https://drive.google.com/uc?&id=10tXeAXSkwHEvFaxvB0ujYXujnnnsdM3f
 keywords: Interactive Music Systems, augmented instrument, hyper-instrument, Bela, micro-controller, pure data, granular, spectral, karplus, acoustic guitar

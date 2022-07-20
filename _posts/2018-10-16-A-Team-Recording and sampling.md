@@ -2,10 +2,11 @@
 layout: post
 title: "A-team - Recording and sampling"
 date: 2018-10-16
-categories: physical-computing
+categories: interactive-music
 author: Juno Jensen, Espen Wik,  Sam Roman, Jørgen Varpe, Sepehr Haghighi
 image: /assets/image/2018_10_16_stefanof_Ateam_getOut.jpg
 excerpt: "Today we recorded sounds using three techniques; Circuit sniffing, earbuds through mini-amplifier, and with a contact mic. We then used some of the sounds we recorded in a sampler, made using web technologies, including javascript with the library P5.js."
+keywords: physical-computing
 ---
 
 <figure>

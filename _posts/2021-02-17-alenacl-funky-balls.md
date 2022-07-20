@@ -110,7 +110,7 @@ There are two "interfaces" you can choose from: the sliders (mostly useful for d
 
 ## Future improvements
 
-_Let's play together!_ Although in the beginning we wanted to create a multi-user platform, behind the scene it would have been somewhat similar to Leigh's [Kovid Keyboard](https://mct-master.github.io/digital-audio/2020/11/03/kovid-keyboard.html). That's why we decided to work on other features, such as the dynamic effects instead of taking the time to integrate the already existing code. For the future, however, this connectivity feature is important to implement.
+_Let's play together!_ Although in the beginning we wanted to create a multi-user platform, behind the scene it would have been somewhat similar to Leigh's [Kovid Keyboard](https://mct-master.github.io/audio-programming/2020/11/03/kovid-keyboard.html). That's why we decided to work on other features, such as the dynamic effects instead of taking the time to integrate the already existing code. For the future, however, this connectivity feature is important to implement.
 
 _Wanna see something cool?_ Another feature that helps with the connectivity side is to be able to save the project and send it to someone - and enable them to pick it where you left off. Sharing work and being able to save it for later is important!
 
@@ -121,9 +121,3 @@ _What if I remember the positions?_ To avoid people using the same effects on th
 _What about loops?_ As per Henrik's idea, it would be great to let the user record their own audio to create their own loops.  There is a csound for web example that takes input from the user's microphone so it would be fun to implement this feature.
 
 _How else can I controll the effects?_ It would be interesting to enable camera control. By that we mean that head/hand movements would control the position of the instruments or tracks.
-
-
-
-
-
-

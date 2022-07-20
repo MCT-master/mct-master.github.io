@@ -2,10 +2,10 @@
 layout: post
 title: "D'n'B"
 date: 2021-11-01 10:50:00 +0100
-categories: interactive-music-systems
+categories: interactive-music
 author: Lindsay Charles
 image: /assets/image/2021_11_01_lindsay_DnB_schematic.jpg
-keywords: interactive-music-systems, bass, drums, sounds, music-dimensions, csound, music-gestures, NIME
+keywords: interactive-music, bass, drums, sounds, music-dimensions, csound, music-gestures, NIME
 excerpt: "Exploration and design of the 'Drum and Bass' interactive music system with Csound"
 ---
 

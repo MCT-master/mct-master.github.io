@@ -2,10 +2,11 @@
 layout: post
 title:  "The B Team: Mini-Hackathon"
 date:   2019-10-24 12:00:00 +0200
-categories: physical-computing
+categories: interactive-music
 author: Jackson Goode, Magda Futyma, Simon Sandvik, Jarle Steinhovden
 image: /assets/image/2019_10_20_stefanof_bela_device.jpg
 excerpt: "For the MCT 4000 mini-hackathon in the physical computing module we tried to send sound at the speed of light."
+keywords: physical-computing
 ---
 ## Sound at the Speed of Light
 

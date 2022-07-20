@@ -4,32 +4,20 @@ toc:
     subfolderitems:
       - page: Audio Programming
         url: /audio-programming/
-      - page: Digital Audio
-        url: /digital-audio/
-      - page: Entrepreneurship
-        url: /entrepreneurship/
-      - page: Human-Computer Interaction
-        url: /human-computer-interaction/
-      - page: Interactive Music Systems
-        url: /interactive-music-systems/
+      - page: Interactive Music
+        url: /interactive-music/
       - page: Machine Learning
         url: /machine-learning/
-      - page: Motion Tracking
-        url: /motion-tracking/
-      - page: Music Cognition
-        url: /music-cognition/
-      - page: Physical Computing
-        url: /physical-computing/
-      - page: Research Methods
-        url: /research-methods/
-      - page: Scientific Computing
-        url: /scientific-computing/
+      - page: Motion Capture
+        url: /motion-capture/
       - page: Sonification
         url: /sonification/
       - page: Spatial Audio
         url: /spatial-audio/
-      - page: Miscellaneous
-        url: /miscellaneous/
+      - page: Other
+        url: /other/
+      - page: All Topics
+        url: /alltopics/
   - title: Projects
     url: /projects/
     subfolderitems:
@@ -37,6 +25,8 @@ toc:
         url: /applied-projects/
       - page: Master's Theses
         url: /masters-thesis/
+      - page: All Projects
+        url: /projects/
   - title: Portal
     url: /portal/
   - title: People

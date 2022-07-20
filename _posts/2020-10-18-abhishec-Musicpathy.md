@@ -2,7 +2,7 @@
 layout: post
 title: "MIDI and Effects: the Musicpathy "
 date: 2020-10-18 17:00:00 +0200
-categories: physical-computing
+categories: interactive-music
 author: Abhishek Choubey, Lindsay Charles
 image: \assets\image\2020_10_18_abhishec_musicpathy.jpg
 excerpt: "The magic of controlling instruments from 1000km apart"

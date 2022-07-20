@@ -2,7 +2,7 @@
 layout: post
 title: "The Dolphin Drum"
 date: 2020-10-16 12:01:00 +0200
-categories: interactive-music-systems
+categories: interactive-music
 author: Simon Sandvik
 image: /assets/image/2020_10_16_simonrs_vase.png
 excerpt: "My granular synthesis percussive instrument from the Interactive Music Systems course."

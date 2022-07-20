@@ -2,7 +2,7 @@
 layout: post
 title: "A Live Mixer made from mobile devices"
 date: 2020-10-16 20:00:00 +0200
-categories: physical-computing
+categories: interactive-music
 author: Wenbo Yi
 image: /assets/image/2020_10_16_wenbo_title.png
 keywords: physical-computing, TouchOSC, oscHook, EDM

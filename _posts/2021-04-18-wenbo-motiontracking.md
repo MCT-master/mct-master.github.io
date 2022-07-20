@@ -2,7 +2,7 @@
 layout: post
 title: "Exploring the influence of expressive body movement on audio parameters of piano performances"
 date: 2021-04-19 00:30:00 +0200
-categories: motion-tracking
+categories: motion-capture
 author: Wenbo Yi
 image: /assets/image/2021_04_19_wenbo_figuretitle.png
 keywords: motion tracking, body movement, music gesture, QTM, Opti-track

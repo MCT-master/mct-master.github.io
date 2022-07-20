@@ -8,21 +8,12 @@ permalink: /alltopics/
   <!-- <h2 class="post-list-heading">{{ page.list_title | default: "Posts" }}</h2> -->
   <ul class="post-list">
     {%- for post in site.posts -%}
-      {%- if post.categories contains 'applied-projects'
-          or post.categories contains 'audio-programming'
-          or post.categories contains 'digital-audio'
-          or post.categories contains 'entrepreneurship'
-          or post.categories contains 'human-computer-interaction'
-          or post.categories contains 'interactive-music-systems'
+      {%- if post.categories contains 'audio-programming'
+          or post.categories contains 'interactive-music'
           or post.categories contains 'machine-learning'
-          or post.categories contains 'masters-thesis'
-          or post.categories contains 'miscellaneous'
-          or post.categories contains 'music-cognition'
-          or post.categories contains 'motion-tracking'
+          or post.categories contains 'other'
+          or post.categories contains 'motion-capture'
           or post.categories contains 'portal'
-          or post.categories contains 'physical-computing'
-          or post.categories contains 'research-methods'
-          or post.categories contains 'scientific-computing'
           or post.categories contains 'sonification'
           or post.categories contains 'spatial-audio' -%}
 

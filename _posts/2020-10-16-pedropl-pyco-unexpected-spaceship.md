@@ -2,7 +2,7 @@
 layout: post
 title: "The Psychedelic Journey of an Unexpected Spaceship"
 date: 2020-10-16 23:00:00 +0200
-categories: physical-computing
+categories: interactive-music
 author: Pedro Lucas
 image: /assets/image/2020_10_16_pedropl_psyship.jpg
 keywords: physical-computing, sound-synthesis, unity, android, osc, mobile-sensors

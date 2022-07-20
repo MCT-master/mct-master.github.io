@@ -4,11 +4,20 @@ title: About
 permalink: /about/
 ---
 
-This is the student-led blog related to the **Music, Communication & Technology (MCT)** master's programme. MCT is an international, joint master's programme between [NTNU](https://www.ntnu.edu/studies/mmct) and [UiO](https://www.uio.no/english/studies/programmes/mct-master/), the two largest universities in Norway.
+This is the student-led blog of the the [University of Oslo (UiO)(https://www.uio.no/english/)] international master's programme in **[Music, Communication & Technology (MCT)](https://www.uio.no/english/studies/programmes/mct-master/)** offered by the [Department of Musicology](https://www.hf.uio.no/imv/english/).
+
+More information:
+- [Programme structure](https://www.uio.no/english/studies/programmes/mct-master/structure/)
+- [Learning outcomes](https://www.uio.no/english/studies/programmes/mct-master/learning-outcomes/)
+- [Why choose this programme](https://www.uio.no/english/studies/programmes/mct-master/why-choose/)
+- [Admission](https://www.uio.no/english/studies/programmes/mct-master/admission/)
+- [Study abroad](https://www.uio.no/english/studies/programmes/mct-master/abroad/)
+- [Career opportunities](https://www.uio.no/english/studies/programmes/mct-master/career/)
+- [Events](https://www.uio.no/english/studies/programmes/mct-master/events/)
+
+The MCT master was established in 2018 and until 2020 it was offered as a [cross-campus joint-programme](https://www.uio.no/english/studies/programmes/mct-master/structure/index_gml.html) between the University of Oslo (UiO) and the Norwegian University of Science and Technology (NTNU), the two largest universities in Norway.
 
 ![MCT image](/assets/image/2018_08_01_stefanof_mct-master-630.jpg "MCT image")
-
-More information regarding the master's program offered by the University of Oslo can be found [here](https://www.uio.no/english/studies/programmes/mct-master/).
 
 Official media accounts of the MCT programme:
 

@@ -2,7 +2,7 @@
 layout: post
 title: "Mixing a multitrack project in Python"
 date: 2021-11-24 19:24:00 +0200
-categories: scientific-computing
+categories: audio-programming
 author: Joachim Poutaraud, Kristian Wentzel, Sofía González, Arvid Falch
 image: /assets/image/2021_11_23_arvidf_crazyrig.jpg
 excerpt: "Attempting to mix a multitrack song with homemade FX in our very own mini PythonDAW"

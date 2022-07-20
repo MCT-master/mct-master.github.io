@@ -2,7 +2,7 @@
 layout: post
 title: "Reconfigurations: Reconfiguring the Captured Body in Dance"
 date: 2022-05-20 09:00:00 +0200
-categories: motion-tracking
+categories: motion-capture
 author: Hugh Alexander von Arnim
 image: /assets/image/2022_05_20_hughav_created_body.png
 excerpt: "Building cooperative visual, kinaesthetic, and sonic bodies"

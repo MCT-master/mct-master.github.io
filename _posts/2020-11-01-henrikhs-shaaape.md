@@ -2,7 +2,7 @@
 layout: post
 title: "Shaaape"
 date: 2020-11-02 16:00:00 +0200
-categories: digital-audio
+categories: audio-programming
 author: Henrik Sveen
 image: /assets/image/2020_11_02_henrikhs_shaaapefront.png
 keywords: digital-audio, csound, am, distortion, phasing, dsp, cabbage

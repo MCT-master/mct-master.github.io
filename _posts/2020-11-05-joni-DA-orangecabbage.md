@@ -2,7 +2,7 @@
 layout: post
 title: "Ondes Martenot's brother - Orange Cabbage"
 date: 2020-11-05 12:39:36 +0200
-categories: digital-audio
+categories: audio-programming
 author: Joni Mok
 image: /assets/image/2020_11_05_joni_occover.jpg
 keywords: Cabbage, Csound, Digital Audio

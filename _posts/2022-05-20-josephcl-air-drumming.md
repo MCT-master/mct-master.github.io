@@ -2,7 +2,7 @@
 layout: post
 title: "Developing Techniques for Air Drumming Using Video Capture and Accelerometers"
 date: 2022-05-20 10:00:00 +0200
-categories: motion-tracking
+categories: motion-capture
 author: Joseph Clemente
 image: /assets/image/2022_05_19_josephcl_air_drumming_thumbnail.jpeg
 keywords: motion capture, motion tracking, machine learning, ML, air drumming, accelerometry, MLP, ANN

@@ -2,7 +2,7 @@
 layout: post
 title: "Improvised electronica with TouchOSC"
 date: 2020-10-16 17:00:00 +0200
-categories: physical-computing
+categories: interactive-music
 author: Stephen Gardener
 image: https://hexler.net/gfx/_software/touchosc-15.png
 excerpt: "In this project, I wanted to explore the options available when performing electronic music live with no pre-recorded / pre-sequenced material."

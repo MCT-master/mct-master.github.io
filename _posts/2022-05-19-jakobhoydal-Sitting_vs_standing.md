@@ -2,7 +2,7 @@
 layout: post
 title:  "Playing music standing vs. seated; whats the difference?"
 date:   2022-05-19 17:00:00 +0200
-categories: motion-tracking
+categories: motion-capture
 author: Jakob Høydal
 image: /assets/image/2022_05_19_jakobhoydal_positions.png
 keywords: motion capture, sitting, standing, saxophone, mocap, analysis

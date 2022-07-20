@@ -2,7 +2,7 @@
 layout: post
 title:  "Stillness under Tension, An interactive performance between two cities"
 date:   2018-09-07 19:17:10 +0200
-categories: miscellaneous
+categories: other
 author: Karolina Jawad, Mari Lesteberg, Eigil Aandahl
 image: /assets/image/2018_09_07_aleksati_muscle_band_performance.jpg
 excerpt: "On 29th of August, 2018, Eigil, Karolina and Mari from the Masters programme in MCT, together with three professors, Alexander, Charles and Anna, performed with the Muscle Band at the Portal opening ceremony at the University of Oslo and NTNU in Trondheim. This was a musical performance that took place in two different places at the same time. How is that possible?"

@@ -2,7 +2,7 @@
 layout: post
 title: "Clubhouse"
 date: 2021-02-02 18:00:00 +0200
-categories: miscellaneous
+categories: other
 author: Henrik Sveen
 image: /assets/image/2021_02_02_henrikhs_clubhouse.png
 keywords: clubhouse, social media

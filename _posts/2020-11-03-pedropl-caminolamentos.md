@@ -2,7 +2,7 @@
 layout: post
 title: "'El Camino de los Lamentos': A performance using custom Csound VST Plugins"
 date: 2020-11-03 21:00:00 +0100
-categories: digital-audio
+categories: audio-programming
 author: Pedro Lucas
 image: /assets/image/2020_11_03_pedropl_caminolamentosfi.png
 keywords: digital-audio, csound, cabbage, fm, pitch-scaling, reverb, stereo-delay

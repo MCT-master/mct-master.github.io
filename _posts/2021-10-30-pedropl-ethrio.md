@@ -2,10 +2,10 @@
 layout: post
 title: "Ethrio"
 date: 2021-11-01 07:50:00 +0100
-categories: interactive-music-systems
+categories: interactive-music
 author: Pedro Lucas
 image: /assets/image/2021_10_30_pedropl_ethrio_physical.jpg
-keywords: interactive-music-systems, ethereal-sounds, music-dimensions, music-gestures, NIME
+keywords: interactive-music, ethereal-sounds, music-dimensions, music-gestures, NIME
 excerpt: "Ethereal sounds from the three dimensions of music: Melody, Harmony, and Rhythm."
 ---
 As a musician I've always been interested in having control of multiple layers of sounds happening simultaneously in a live performance framed in an environmental perspective. Also, I personally think that the sound itself, in terms of timbral properties, is a source of inspiration for composing music and sonic exploration, especially if it has to do with sounds that are considered "Ethreal" or "not from this world", which is something that we can achieve with the use of sound synthesis.

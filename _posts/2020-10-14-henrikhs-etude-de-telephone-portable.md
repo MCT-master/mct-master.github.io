@@ -2,7 +2,7 @@
 layout: post
 title: "Étude de téléphone portable et popsocket"
 date: 2020-10-14 20:00:00 +0200
-categories: physical-computing
+categories: interactive-music
 author: Henrik Sveen
 image: /assets/image/2020_10_14_henrikhs_etude_de_dog.jpg
 keywords: physical-computing, maxmsp, delay, dog, music, gyrosc, osc

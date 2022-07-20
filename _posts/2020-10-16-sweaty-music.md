@@ -2,7 +2,7 @@
 layout: post
 title: "Chance Operations, Rudimentary Pure Data (PD), and a Bunch of Spinning in Circles"
 date: 2020-10-16 18:00:00 +0200
-categories: physical-computing
+categories: interactive-music
 author: Willie Mandeville
 image: /assets/image/2020_10_16_williakm_puredata.png
 keywords: physical-computing, chance-music

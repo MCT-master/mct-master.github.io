@@ -2,7 +2,7 @@
 layout: post
 title: "The singing shelf bracket"
 date: 2020-10-18 23:59:59 +0200
-categories: interactive-music-systems
+categories: interactive-music
 author: Mari Lesteberg
 image: /assets/image/2020_10_18_FractionMari_shelfbracket.jpg
 keywords: interactive music systems, bela, hci, pure data, pd, physical computing, breadboard, arduino, prototyping, instrument creating, interactive music controller, embedded interactive system

@@ -2,10 +2,10 @@
 layout: post
 title: "The algorithmic note stack juggler"
 date: 2021-11-03 19:30:00 +0100
-categories: interactive-music-systems
+categories: interactive-music
 author: Stephen Gardener
 image: /assets/image/2021_11_03_stephedg_notestack.jpeg
-keywords: interactive-music-systems, algorithmic, csound, interactive-composition
+keywords: interactive-music, algorithmic, csound, interactive-composition
 excerpt: "Interactive composition with the Algorithmic Note Stack Juggler."
 ---
 

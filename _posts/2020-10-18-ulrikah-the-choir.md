@@ -2,7 +2,7 @@
 layout: post
 title: "Voice augmentation with sensors"
 date: 2020-10-18 12:01:00 +0200
-categories: interactive-music-systems
+categories: interactive-music
 author: Ulrik Halmøy
 image: /assets/image/2020_10_18_ulrikah_ims_cover.png
 excerpt: "Trying to achieve a choir-like effect by augmenting microphone input with sensory features"

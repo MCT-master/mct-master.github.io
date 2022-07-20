@@ -2,10 +2,10 @@
 layout: post
 title: "Real-time audio processing with oscHook and Reaper"
 date: 2020-10-16 12:39:36 +0200
-categories: physical-computing
+categories: interactive-music
 author: Alena Clim
 image: /assets/image/2020_10_16_alena_reaper.jpg
-keywords: oscHook, OSCRouter, Reaper, sensordata, audio processing
+keywords: oscHook, OSCRouter, Reaper, sensordata, audio-processing, physical-computing
 excerpt: "Fun and not too complicated interactive audio processing.Using oscHook to transmit sensordata from an Android phone to OSC Router and then to Reaper to control the values of certain effects' parameters."
 ---
 
@@ -125,7 +125,7 @@ Checking each track individually, and knowing the effects I wanted to use, I dec
 
 ### Scaling
 
-For a smoother control of the parameters' values, I changed the scaling manually for each effect. Below it's a screenshot of my final __OSCRouter__ settings. 
+For a smoother control of the parameters' values, I changed the scaling manually for each effect. Below it's a screenshot of my final __OSCRouter__ settings.
 
 ![OSCRouter Final](/assets/image/2020_10_16_alena_osc_final.jpg)
 
@@ -133,7 +133,7 @@ For a smoother control of the parameters' values, I changed the scaling manually
 
 __Important note!__ After scaling the parameters, try to keep the exact same light conditions before recording or working on it again. You might notice that the scalling is totally off if you scale the parameters in the middle of the day, near a window, and then record a demo at midnight with only a lamp for light (as it was my case).
 
-[Here](https://drive.google.com/file/d/1HPjX4_uwv2OOuDzTGMNiSalQZszaIugw/view?usp=sharing) is the video of the final performance. On the front camera view you can see the way I'm moving the phone to control the parameters' values. In __Reaper__ you can notice the effects' windows and how the bars are moving based on the phone's movements. 
+[Here](https://drive.google.com/file/d/1HPjX4_uwv2OOuDzTGMNiSalQZszaIugw/view?usp=sharing) is the video of the final performance. On the front camera view you can see the way I'm moving the phone to control the parameters' values. In __Reaper__ you can notice the effects' windows and how the bars are moving based on the phone's movements.
 
 <figure style="float: none">
   <video width="auto" controls>

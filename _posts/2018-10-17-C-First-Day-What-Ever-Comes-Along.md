@@ -2,13 +2,14 @@
 layout: post
 title: "Group C - Whatever comes along the way"
 date: 2018-10-17 10:10:42 +0200
-categories: physical-computing
+categories: interactive-music
 author: Karolina Jawad, Elias Andersen, Eirik Dahl, Guy Sion
 image: /assets/image/2018_08_01_stefanof_MCT.jpg
 excerpt: "To wrap it up, the first workshop day on 'physical computing' surprised us in many ways.
 Exposed to new tools in webtechnology we were able to create a little jamsession.  
 Some of the tools were familiar, some of them less. To start with the hardest
 challenge, around 2 or 3 out of 14 students had hands-on experiences in programming from before."
+keywords: physical-computing
 ---
 
 Listen here to a short excerpt of our noise jam today,

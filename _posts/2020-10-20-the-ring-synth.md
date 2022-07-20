@@ -2,7 +2,7 @@
 layout: post
 title: "The Ring Synth"
 date: 2020-10-20 12:01:00 +0200
-categories: interactive-music-systems
+categories: interactive-music
 author: Thibault Jaccard
 image: /assets/image/2020_10_20_thibault_the_ring_synth.png
 excerpt: "Exploring speed as sound shaping parameter"

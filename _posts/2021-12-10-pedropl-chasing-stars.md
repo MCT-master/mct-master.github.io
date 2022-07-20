@@ -5,7 +5,7 @@ date: 2021-12-10 18:00:00 +0200
 categories: spatial-audio
 author: Pedro Lucas
 image: /assets/image/2021_12_10_pedropl_chasing_stars_art.jpg
-keywords: spatial-audio, ambisonics, motion-capture, max-msp, sound-synthesis, interactive-music-systems
+keywords: spatial-audio, ambisonics, motion-capture, max-msp, sound-synthesis, interactive-music
 excerpt: "Let's explore an interactive 3D-audio application under an ethereal sound landscape."
 ---
 

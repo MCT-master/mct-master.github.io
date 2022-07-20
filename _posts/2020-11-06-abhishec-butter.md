@@ -2,7 +2,7 @@
 layout: post
 title: "Butter: a multi-effect plugin"
 date: 2020-11-06 11:45:00 +0200
-categories: digital-audio
+categories: audio-programming
 author: Abhishek Choubey
 image: /assets/image/2020_11_06_abhisec_butter.jpg
 keywords: digital-audio, csound, phase modulation, Spatial, phasing, dsp, cabbage

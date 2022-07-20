@@ -2,7 +2,7 @@
 layout: post
 title: "A Brief Workshop on Motion Tracking"
 date: 2020-09-25 12:00:00 +0200
-categories: motion-tracking
+categories: motion-capture
 author: Jackson Goode
 image: /assets/image/2020_09_25_jacksong_mocap.jpg
 keywords: motion tracking, OptiTrack, motion, workshop

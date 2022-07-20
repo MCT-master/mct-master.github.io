@@ -2,7 +2,7 @@
 layout: post
 title: "Graphic score no. 7"
 date: 2020-12-05 00:00:00 +0200
-categories: scientific-computing
+categories: audio-programming
 author: Anders Lidal
 image: /assets/image/2020_12_04_anderlid_exam_front.jpg
 keywords: python, slicing, segmentation, contemporary music, coding, rms, programming, cat, kitten

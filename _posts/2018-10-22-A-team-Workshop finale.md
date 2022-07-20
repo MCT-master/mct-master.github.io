@@ -2,10 +2,11 @@
 layout: post
 title: "A-team - Art is anything you can get away with"
 date: 2018-10-22 19:08:00 +0200
-categories: physical-computing
+categories: interactive-music
 author: Espen Wik, Sam Roman, Jørgen Varpe, Sepehr Haghighi
 image: /assets/image/2018_10_22_stefanof_Ateam_pipe.jpg
 excerpt: "We were set our end of week task, incorporating the human interaction technology we have been exploring all week (and in our previous blog posts). After these few days of training - it was finally time to put it to the test, and design an instrument!"
+keywords: physical-computing
 ---
 
 <figure>

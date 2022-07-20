@@ -2,7 +2,7 @@
 layout: post
 title: "Plunged Into Chaos"
 date: 2020-10-18 22:50:01 +0200
-categories: interactive-music-systems
+categories: interactive-music
 author: Paul Koenig
 image: /assets/image/2020_10_18_paulgk_plunger.png
 keywords: oompa-doompa, plungers, NIME, God, Whitesnake, Plato

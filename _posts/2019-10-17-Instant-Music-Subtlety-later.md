@@ -2,7 +2,7 @@
 layout: post
 title: "Instant Music, Subtlety later"
 date: 2019-10-17 23:45:00 +0200
-categories: interactive-music-systems
+categories: interactive-music
 author: Karolina Jawad
 image: /assets/image/2019_10_17_aleksati_k_patch.JPG
 excerpt: "When drafting ideas in unknown territory one can become

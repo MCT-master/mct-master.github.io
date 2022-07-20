@@ -4,7 +4,8 @@ title: Audio Programming
 permalink: /audio-programming/
 ---
 
-The blog posts of this section relate to the course [MCT4048 Audio Programming](https://www.ntnu.edu/studies/courses/MCT4048). The aim of the course is to provide a solid foundation in digital signal processing and audio-based application development. Integration of relevant technologies and platforms will play an important part, as well as developing user-ready applications.
+The blog posts of this section relate to the course [MCT4001 Introduction to Music, Communication and Technology](https://www.uio.no/studier/emner/hf/imv/MCT4001/) (from 2021), and to the discontinued course [MCT4048 Audio Programming](https://web.archive.org/web/20210414104443/https://www.ntnu.edu/studies/courses/MCT4048) (2019 to 2021). This section also includes posts from the *Digital Audio* and *Scientific Computing* modules of the discontinued course [MCT4000 Introduction to Music, Communication and Technology](https://web.archive.org/web/20210419143616/https://www.ntnu.edu/studies/courses/MCT4000) (from 2018 to 2020). The aim of these course is to develop audio signal processing and sound design knowledge as well as skills with general-purpose and audio-specific programming languages.
+
 
 {%- if site.posts.size > 0 -%}
 

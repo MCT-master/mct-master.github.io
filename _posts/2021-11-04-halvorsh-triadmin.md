@@ -2,10 +2,10 @@
 layout: post
 title: "The Triadmin"
 date: 2021-11-03 19:30:00 +0100
-categories: interactive-music-systems
+categories: interactive-music
 author: Halvor Sogn Haug
 image: /assets/image/2021_11_04_halvorsh_illustration.png
-keywords: interactive-music-systems
+keywords: interactive-music
 excerpt: "An instrument without any tangible interface."
 ---
 
