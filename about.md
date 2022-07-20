@@ -4,7 +4,7 @@ title: About
 permalink: /about/
 ---
 
-This is the student-led blog of the the [University of Oslo (UiO)(https://www.uio.no/english/)] international master's programme in **[Music, Communication & Technology (MCT)](https://www.uio.no/english/studies/programmes/mct-master/)** offered by the [Department of Musicology](https://www.hf.uio.no/imv/english/).
+This is the student-led blog of the the [University of Oslo (UiO)](https://www.uio.no/english/) international master's programme in **[Music, Communication & Technology (MCT)](https://www.uio.no/english/studies/programmes/mct-master/)** offered by the [Department of Musicology](https://www.hf.uio.no/imv/english/).
 
 More information:
 - [Programme structure](https://www.uio.no/english/studies/programmes/mct-master/structure/)
