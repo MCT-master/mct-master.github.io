@@ -24,7 +24,7 @@ const getDropDownBtns = () => {
 
 // takes an array of dropdown buttons
 // sets a ID to every dropdown button AND dropdown menu (UL html element) that is next to the dropdown buttons.
-const setIds = dropBtns => {
+const setIds = (dropBtns) => {
   for (let i = 0; i < dropBtns.length; i++) {
     let currBtn = dropBtns[i];
     currBtn.id = "b" + i;
@@ -40,7 +40,7 @@ const setIds = dropBtns => {
 };
 
 // check if an item has a dropdown class
-const checkForDropDown = item => {
+const checkForDropDown = (item) => {
   if (
     item.matches("." + hamburgerDropDownClass) ||
     item.matches("." + browserDropDownClass)
@@ -52,7 +52,7 @@ const checkForDropDown = item => {
 //////////////////////////////////////////////////////////////////////////
 
 // open and close dropdown menu.
-handleMenuClick = elem => {
+handleMenuClick = (elem) => {
   let btnId = elem.id;
   let dropDownId = "d" + btnId[1];
   let menu = document.getElementById(dropDownId);
@@ -61,12 +61,12 @@ handleMenuClick = elem => {
 
   // make sure we only show one dropdown menu at a time.
   let visibleMenus = getVisibleMenus();
-  let filteredMenus = visibleMenus.filter(menu => menu.id !== dropDownId);
+  let filteredMenus = visibleMenus.filter((menu) => menu.id !== dropDownId);
   closeMenus(filteredMenus);
 };
 
 // only one menu at a time.
-const toggleDropDown = elem => elem.classList.toggle(visibleClass);
+const toggleDropDown = (elem) => elem.classList.toggle(visibleClass);
 
 // return an array of dropdown html ul elements that have the visibleClass tag
 const getVisibleMenus = () => {
@@ -75,7 +75,7 @@ const getVisibleMenus = () => {
 };
 
 // argument is a list of html elements. returns nothing
-const closeMenus = menus => {
+const closeMenus = (menus) => {
   for (let i = 0; i < menus.length; i++) {
     menus[i].classList.remove(visibleClass);
   }
@@ -88,7 +88,7 @@ const closeAllVisibleMenus = () => {
 };
 
 ////////// if user clicks anywhere other than a dropdown button ///////////
-window.onclick = event => {
+window.onclick = (event) => {
   let btn = event.target;
 
   // if we click the dropdrop buttons, we handle that above instead
@@ -99,7 +99,7 @@ window.onclick = event => {
 };
 
 // check if an item has a dropdown button class
-const checkForButton = item => {
+const checkForButton = (item) => {
   if (
     item.matches("." + browserDropBtnClass) ||
     item.matches("." + hamburgerDropBtnClass)
