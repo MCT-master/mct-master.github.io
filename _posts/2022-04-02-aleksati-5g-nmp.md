@@ -294,7 +294,7 @@ On the other hand, although we can do more testing, some things we cannot mitiga
           src="/assets/image/2022_04_01_aleksati_5g_team_5gnow.jpg"
           alt="5g_team_5gnow"
           title="5g_team_5gnow"
-          width="auto" />
+           />
         <figcaption>A big thanks to the Telenor Research team! From front to back: Aleksander Tidemann (Department Engineer UiO), Stefano Fasciani (Professor in Musicology UiO), Kashif Mahmood (Senior Researcher Telenor), Olai Bendik Erdal (Senior Researcher Telenor) and Ole Grøndalen (Senior Researcher Telenor) </figcaption>
       </figure>
     </div>
@@ -304,7 +304,7 @@ On the other hand, although we can do more testing, some things we cannot mitiga
           src="/assets/image/2022_04_01_aleksati_5g_uio_stef_henr.jpg"
           alt="5g_uio_stef_henr"
           title="5g_uio_stef_henr"
-          width="auto" />
+         />
         <figcaption>Also, a big thanks to research assistant Henrik Haraldsveen for helping out with the Oslo-side experiment.</figcaption>
       </figure>
     </div>

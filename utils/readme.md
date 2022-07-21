@@ -12,9 +12,9 @@ Folder for adding additional utils that can come to good use on the blog. Please
 
 ## slideshow.js and slideshow_example.html
 
-These two files that enable an image (or other content) slideshow in the blogposts. With the slideshow, you can scroll horizontally through a series images. This is great for mobile viewing or where you want to show multiple images of a specific thing. The `slideshow.js` is included as a script to the `_layouts/post.html`. There is also a series of CSS classes in `assets/main.scss` associated with the slideshow implimentation.
+These two files enable a slideshow feature in the blogposts. The `slideshow.js` is included as a script to the `_layouts/post.html`. There is also a series of CSS classes in `assets/main.scss` associated with the slideshow implimentation.
 
-For a complete example of how to implement the feature in a blogpost, check out the `slideshow_example.html`.
+For an example of how to use the feature in a blogpost, check out the `slideshow_example.html` in the utils folder.
 
 ## hamburger-nav.js
 
