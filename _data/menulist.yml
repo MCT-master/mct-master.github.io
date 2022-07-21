@@ -1,6 +1,5 @@
 toc:
   - title: Topics
-    url: /alltopics/
     subfolderitems:
       - page: Audio Programming
         url: /audio-programming/
@@ -19,7 +18,6 @@ toc:
       - page: All Topics
         url: /alltopics/
   - title: Projects
-    url: /projects/
     subfolderitems:
       - page: Applied Projects
         url: /applied-projects/
