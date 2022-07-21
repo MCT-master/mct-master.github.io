@@ -11,14 +11,14 @@ const initSlideShows = () => {
   if (!slideContainers.length) return;
 
   // add Next and Previous navigation arrows to each slideContainer
-  Object.values(slideContainers).forEach(slideContainer => {
+  Object.values(slideContainers).forEach((slideContainer) => {
     const { next, prev } = createNextPrevArrows();
     slideContainer.appendChild(next);
     slideContainer.appendChild(prev);
   });
 
   // add appropriate number of dots underneath each slideshow container
-  Object.values(slideContainers).forEach(slideContainer => {
+  Object.values(slideContainers).forEach((slideContainer) => {
     let slides = getClassElemsFromContainer(slideContainer, "div", "mySlides");
     let dotContainer = createDotsContainer(slides.length, slideContainer.id);
 
@@ -31,7 +31,7 @@ const initSlideShows = () => {
   });
 
   // reset the slidecontainers to show the INIT_SLIDE_ID img
-  Object.values(slideContainers).forEach(slideContainer => {
+  Object.values(slideContainers).forEach((slideContainer) => {
     updateSlideIndex(slideContainer.id, INIT_SLIDE_ID);
     showSlide(slideContainer);
   });
@@ -39,7 +39,7 @@ const initSlideShows = () => {
 
 // Next/previous controls
 // update the SLIDE_INDICES and show the desired slideId
-const handleNextClick = event => {
+const handleNextClick = (event) => {
   const slideContainerId = event.target.parentNode.id;
   let slideId = SLIDE_INDICES[slideContainerId]["value"];
   updateSlideIndex(slideContainerId, slideId + 1);
@@ -50,7 +50,7 @@ const handleNextClick = event => {
 };
 
 // update the SLIDE_INDICES and show the desired slideId
-const handlePrevClick = event => {
+const handlePrevClick = (event) => {
   const slideContainerId = event.target.parentNode.id;
   let slideId = SLIDE_INDICES[slideContainerId]["value"];
   updateSlideIndex(slideContainerId, slideId - 1);
@@ -62,7 +62,7 @@ const handlePrevClick = event => {
 
 // onClick event handler for the dots under the slideshow
 // update the SLIDE_INDICES and show the desired slideId
-const handleDotClick = dot => {
+const handleDotClick = (dot) => {
   let slideId = Number(dot.target.id);
   let dotContainer = dot.target.parentNode;
   let slideContainerId = dotContainer.getAttribute("slideshowid");
@@ -76,7 +76,7 @@ const handleDotClick = dot => {
 //////////////////UTILS FUNCTIONS///////////////////////
 
 // based on a slideContainer and the SLIDE_INDICES object, show the desired img and dot on page
-const showSlide = slideContainer => {
+const showSlide = (slideContainer) => {
   let slides = getSlides(slideContainer);
   let dots = getDots(slideContainer.id);
 
@@ -149,7 +149,7 @@ const getClassElemsFromContainer = (
   targetClassName
 ) => {
   let container_elems = container.getElementsByTagName(targetElems);
-  let relevant_elems = Object.values(container_elems).filter(div =>
+  let relevant_elems = Object.values(container_elems).filter((div) =>
     div.classList.value.includes(targetClassName)
   );
   return relevant_elems;
@@ -158,7 +158,7 @@ const getClassElemsFromContainer = (
 // reset slides in a slideshow
 // set the display property to "none" on all slides
 // takes an object of class "mySlides" div elements
-const resetSlides = slides => {
+const resetSlides = (slides) => {
   for (let i = 0; i < slides.length; i++) {
     slides[i].style.display = "none";
   }
@@ -167,20 +167,20 @@ const resetSlides = slides => {
 // reset dots in a slideshow
 // replace the " slideShowActive" class with "" on all dots
 // takes an object of span elements there were in the "slideShowDotContainer" div
-const resetDots = dots => {
+const resetDots = (dots) => {
   for (let i = 0; i < dots.length; i++) {
     dots[i].className = dots[i].className.replace(" slideShowActive", "");
   }
 };
 
 // returns an object of class "mySlides" div elements
-const getSlides = slideContainer => {
+const getSlides = (slideContainer) => {
   let slides = getClassElemsFromContainer(slideContainer, "div", "mySlides");
   return slides;
 };
 
 // retuns an object of span elements in the "slideShowDotContainer" div
-const getDots = slideContainerId => {
+const getDots = (slideContainerId) => {
   let queryName = "[slideshowid=" + slideContainerId + "]";
   let dotsContainer = document.querySelectorAll(queryName);
   let dotsCollection = dotsContainer[0].getElementsByTagName("span");

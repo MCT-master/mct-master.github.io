@@ -769,7 +769,7 @@ form#contact-form {
 
 /* Slideshow container */
 .slideshow-container {
-  max-width: 1000px;
+  width: 100%;
   position: relative;
   margin: auto;
 }
@@ -777,6 +777,10 @@ form#contact-form {
 /* Hide the images by default */
 .mySlides {
   display: none;
+  
+  img {
+    max-height: 480px !important;
+  }
 
   figure,
   figcaption {
@@ -789,14 +793,14 @@ form#contact-form {
 .slideShowNext {
   cursor: pointer;
   position: absolute;
-  top: 50%;
+  top: 50%; // used to be 50%
   width: auto;
   margin-top: -22px;
   padding: 16px;
   color: $brand-color;
   font-weight: bold;
-  font-size: 18px;
-  transition: 0.6s ease;
+  font-size: 30px;
+  transition: 0.2s ease;
   border-radius: 0 3px 3px 0;
   user-select: none;
 }
@@ -808,10 +812,10 @@ form#contact-form {
 }
 
 /* On hover, add a black background color with a little bit see-through */
-.slideShowPrev:hover,
-.slideShowNext:hover {
-  background-color: rgba(0, 0, 0, 0.8);
-}
+// .slideShowPrev:hover,
+// .slideShowNext:hover {
+//   background-color: rgba(0, 0, 0, 0.8);
+// }
 
 /* The dots/bullets/indicators */
 
@@ -823,8 +827,8 @@ form#contact-form {
 
 .slideShowDot {
   cursor: pointer;
-  height: 15px;
-  width: 15px;
+  height: 8px;
+  width: 8px;
   margin: 0 2px;
   background-color: #bbb;
   border-radius: 50%;
@@ -840,7 +844,7 @@ form#contact-form {
 /* Fading animation */
 .fade {
   animation-name: fade;
-  animation-duration: 1.5s;
+  animation-duration: 0.2s;
 }
 
 @keyframes fade {

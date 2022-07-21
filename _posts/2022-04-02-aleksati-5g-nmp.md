@@ -40,7 +40,7 @@ The second experiment was carried out in Elverum, close to Terningmoen Army Base
         src="/assets/image/2022_04_01_aleksati_5g_telenor_modems_outside_salen1.jpg"
         alt="5g_telenor_modems_outside_salen2"
         title="5g_telenor_modems_outside_salen2"
-        width="auto" />
+         />
         <figcaption>Our 5G Routers in action outside the Musicology Department at UiO, ready to test the commercial NSA 5G network. </figcaption>
     </figure>
   </div>
@@ -50,7 +50,7 @@ The second experiment was carried out in Elverum, close to Terningmoen Army Base
           src="/assets/image/2022_04_01_aleksati_5g_telenor_coverage.jpg"
           alt="5g_telenor_coverage"
           title="5g_telenor_coverage"
-          width="auto" />
+         />
         <figcaption>Coverage report of the commercial 5G network at our UiO location.</figcaption>
       </figure>
   </div>
@@ -60,7 +60,7 @@ The second experiment was carried out in Elverum, close to Terningmoen Army Base
         src="/assets/image/2022_04_01_aleksati_5g_now.jpg"
         alt="5g_now"
         title="5g_now"
-        width="auto" />
+       />
         <figcaption>Telenor's 5GNoW van at Terningmoen Army Base, Elverum. Photo by Olai Bendik Erdal.</figcaption>
     </figure>
   </div>
@@ -70,7 +70,7 @@ The second experiment was carried out in Elverum, close to Terningmoen Army Base
         src="/assets/image/2022_04_01_aleksati_5g_now_setup.jpg"
         alt="5g_now_setup"
         title="5g_now_setup"
-        width="auto" />
+       />
         <figcaption>Our setup, approximately 5 meters away from the 5GNoW.</figcaption>
     </figure>
   </div>
