@@ -103,7 +103,7 @@ YYYY_MM_DD_UiOusername_filename.extension
 
 ### Embedding Links
 
-Links are text that redirects the reader to a different web address.
+Links are text that redirects the reader to a different web address. To add links, use this simple markdown syntax:
 
 ```
 [text](url)
