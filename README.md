@@ -23,7 +23,7 @@ To learn how to use the blog, and much more, visit our **[Full Documentation and
    - [Standard HTML Tables](#standard-html-tables)
    - [Responsive HTML Tables](#responsive-html-tables)
    - [Markdown Tables](#markdown-tables)
-5. [Improvements and Issues](#issues-and-improvements)
+5. [Improvements and Issues](#5-issues-and-improvements)
 
 ## 1. Serve the Blog Locally
 
@@ -300,7 +300,7 @@ We can also use markdown to generate tables in a blog post.
 
 Some websites allow you to generate the markdown code automatically, like [this page](https://www.tablesgenerator.com/markdown_tables).
 
-## Issues and Improvements
+## 5. Issues and Improvements
 
 Fixing bugs, improving existing features or adding new ones are activities continuously carried out by users of the MCT Blog. If you find anything wrong or if you have suggestions, open an issue in the blog repository and include appropriate labels. If you [open an issue](https://github.com/MCT-master/mct-master.github.io/issues), you should also take the lead or contribute towards resolving it.
 
