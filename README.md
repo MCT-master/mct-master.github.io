@@ -9,7 +9,7 @@ To learn how to use the blog, and much more, visit our **[Full Documentation and
 ## Table of Contents
 
 1. [Serve the Blog Locally](#1-serve-the-blog-locally)
-2. [Post Layout](#2-post-layout-and-placement)
+2. [Post Layout](#2-post-layout)
    - [Storing and Naming posts](#storing-and-naming-posts)
    - [Frontmatter](#frontmatter)
 3. [Multi-media](#3-multi-media)
@@ -35,7 +35,7 @@ Once you have your Jekyll environment set up, you can serve from the root blog f
 bundle exec jekyll serve
 ```
 
-## 2. Post Layout and Placement
+## 2. Post Layout
 
 Every blog post markdown file should share the same general layout and folder placement.
 
