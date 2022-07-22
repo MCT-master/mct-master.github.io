@@ -8,24 +8,24 @@ To learn how to use the blog, and much more, visit our **[Full Documentation and
 
 ## Table of Contents
 
-1. [Serve the Blog Locally](#serve-the-blog-locally)
-2. [Post Layout and Placement](#post-layout-and-placement)
-   * [Folders](#folders)
-   * [File name](#file-name)
-   * [Frontmatter](#frontmatter)
-3. [Embedding Multi-media](#embedding-multi-media)
-   * [Links](#links)
-   * [Images](#images)
-   * [Slideshow](#slideshow)
-   * [Videos](#videos)
-   * [Audio](#audio)
-4. [Tables](#tables)
-   * [Standard HTML Tables](#standard-html-tables)
-   * [Responsive HTML Tables](#responsive-html-tables)
-   * [Markdown Tables](#markdown-tables)
+1. [Serve the Blog Locally](#1-serve-the-blog-locally)
+2. [Post Layout and Placement](#2-post-layout-and-placement)
+   - [Folders](#folders)
+   - [File name](#file-name)
+   - [Frontmatter](#frontmatter)
+3. [Embedding Multi-media](#3-embedding-multi-media)
+   - [Links](#links)
+   - [Images](#images)
+   - [Slideshow](#slideshow)
+   - [Videos](#videos)
+   - [Audio](#audio)
+4. [Tables](#4-tables)
+   - [Standard HTML Tables](#standard-html-tables)
+   - [Responsive HTML Tables](#responsive-html-tables)
+   - [Markdown Tables](#markdown-tables)
 5. [Improvements and Issues](#issues-and-improvements)
 
-## Serve the Blog Locally
+## 1. Serve the Blog Locally
 
 You can serve the MCT blog locally on your machine using Jekyll. First, you need to install Ruby and Bundler as dependencies. For more details and instructions on how to set up the environment, visit [these Jekyll tutorials](https://jekyllrb.com/tutorials/using-jekyll-with-bundler/).
 
@@ -35,7 +35,7 @@ Once you have your Jekyll environment set up, you can serve from the root blog f
 bundle exec jekyll serve
 ```
 
-## Post Layout and Placement
+## 2. Post Layout and Placement
 
 Every blog post markdown file should share the same general layout and folder placement.
 
@@ -93,7 +93,7 @@ excerpt: "In collaboration with Telenor Research, we explored the prospects of d
 ---
 ```
 
-## Embedding Multi-media
+## 3. Embedding Multi-media
 
 ### Links
 
@@ -111,7 +111,7 @@ Example:
 
 ### Images
 
-The best way to add images and figures to your blog post is to use HTML and wrap a `<img/>` element in a `<figure/>` element:
+The best way to add images and figures to a blog post is to use and wrap a HTML `<img/>` element inside a `<figure/>` container:
 
 ```HTML
 <figure style="float: none">
@@ -153,9 +153,9 @@ To show more than one image at a particular place, you can combine multiple imag
 </div>
 ```
 
-**NB!** It is important that you specify a unique ID property for every slideshow in the slideshow container.
+**NB!** It is important that to specify a unique ID property for every slideshow. Use a clear and informative name.
 
-You can add as many slideshow items as you want, just remember to wrap each item in a div with the classname "mySlides fades":
+You can add as many slideshow items as you want, just remember to wrap each item like so:
 
 ```html
 <div class="mySlides fade">
@@ -167,7 +167,7 @@ Each slideshow has a max height of 480px. Therefore, to ensure the best possible
 
 ### Videos
 
-The best way to add videos to your blog posts is to wrap an `<iframe/>` element in a `<figure/>` element. We strongly recommend you use a third-party service like YouTube or Vimeo to host your videos. This will enhance performance and reduce the load time of your blog post.
+The best way to add videos to a blog post is to wrap an `<iframe/>` element inside a `<figure/>` container. We strongly recommend to use third-party service like YouTube or Vimeo to host the videos. This will enhance performance and reduce the load time of a blog post.
 
 ```html
 <figure style="float: none">
@@ -197,7 +197,7 @@ Example:
 
 ### Audio
 
-Currently, the best way to add an audio player to your blog post is to wrap an `<audio/>` element in a `<figure/` element.
+Currently, the best way to add an audio player to a blog post is to wrap a `<audio/>` element inside a `<figure/` container.
 
 ```html
 <figure style="float: none">
@@ -209,7 +209,7 @@ Currently, the best way to add an audio player to your blog post is to wrap an `
 </figure>
 ```
 
-## Tables
+## 4. Tables
 
 There are three ways you can add tables to your blog post. let's explore the three alternative ways to generate this table:
 
@@ -251,9 +251,9 @@ The standard way to create HTML tables is to use the `<table />` element. You wi
 
 ### Responsive HTML Tables
 
-The best way to add a table to your blog post is to use our responsive tables. Responsive tables are great because they will resize and re-organize themselves to fit different media screens. In other words, your tables will look good both on mobile and desktop devices.
+The best way to add a table to a blog post is to use our responsive tables. Responsive tables are great because they will resize and re-organize themselves to fit different media screens. In other words, your tables will look good both on mobile and desktop devices.
 
-To use responsive tables, we wrap multiple `<div class="Rtable-cell"/>` inside a `<div class="Rtable Rtable--3cols Rtable--collapse" />`, like so:
+To use responsive tables, wrap multiple `<div class="Rtable-cell"/>` inside a `<div class="Rtable Rtable--3cols Rtable--collapse" />` container, like so:
 
 ```html
 <div class="Rtable Rtable--3cols Rtable--collapse">
@@ -296,9 +296,9 @@ To learn more about how to use and customize these kinds of responsive tables, v
 You can also use markdown to generate tables in a blog post.
 
 ```markdown
-| Hey | Hey | Hey | Hey | Hey |
-| --- | --- | --- | --- | --- |
-| Hey | Hey | Hey | Hey | Hey |
+| Hey | Hey | Hey |
+| --- | --- | --- |
+| Hey | Hey | Hey |
 ```
 
 You can use websites that allow you to generate the markdown code automatically, like [this page](https://www.tablesgenerator.com/markdown_tables).
