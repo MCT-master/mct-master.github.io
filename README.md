@@ -9,16 +9,16 @@ To learn how to use the blog, and much more, visit our **[Full Documentation and
 ## Table of Contents
 
 1. [Serve the Blog Locally](#1-serve-the-blog-locally)
-2. [Post Layout and Placement](#2-post-layout-and-placement)
-   - [Folders](#folders)
-   - [File name](#file-name)
+2. [Post Layout](#2-post-layout-and-placement)
+   - [Storing and Naming posts](#storing-and-naming-posts)
    - [Frontmatter](#frontmatter)
-3. [Embedding Multi-media](#3-embedding-multi-media)
-   - [Links](#links)
-   - [Images](#images)
-   - [Slideshow](#slideshow)
-   - [Videos](#videos)
-   - [Audio](#audio)
+3. [Multi-media](#3-multi-media)
+   - [Storing and Naming Media](#storing-and-naming-media)
+   - [Embedding Links](#embedding-links)
+   - [Embedding Images](#embedding-images)
+   - [Embedding Slideshow](#embedding-slideshow)
+   - [Embedding Videos](#embedding-videos)
+   - [Embedding Audio](#embedding-audio)
 4. [Tables](#4-tables)
    - [Standard HTML Tables](#standard-html-tables)
    - [Responsive HTML Tables](#responsive-html-tables)
@@ -39,15 +39,13 @@ bundle exec jekyll serve
 
 Every blog post markdown file should share the same general layout and folder placement.
 
-### Folders
+### Storing and Naming posts
 
 **Drafts**
 Posts placed in the `_posts_drafts` will not be published on the blog. Use this folder for drafts and collaboratory efforts. **NB!** Files in the drafts folder are frequently deleted (once every semester) for maintenance reasons.
 
 **Ready Posts**
 Posts placed in the `_posts` folder are automatically published to the blog once you push the repo to GitHub, given they have correct file names and front matter.
-
-### File name
 
 All posts must share the same filename syntax:
 
@@ -93,9 +91,17 @@ excerpt: "In collaboration with Telenor Research, we explored the prospects of d
 ---
 ```
 
-## 3. Embedding Multi-media
+## 3. Embedding and Storing Multi-media
 
-### Links
+### Storing and Naming Media
+You can store images and audio in the ```./assets/img``` and ```./assets/audio``` folders in the blog repo, given that they are less than 300kb in size. If the media is more than 300kb, you should store them on the Uio G Suite. Read more about this process of storing and sharing files in the [guides](https://github.com/MCT-master/Guides/wiki/How-to-use-the-MCT-Blog-%E2%80%90-Embedding-and-Storage-of-Files). 
+
+All media files must share the same filename syntax: 
+```
+YYYY_MM_DD_UiOusername_filename.extension
+```
+
+### Embedding Links
 
 Links are text that redirects the reader to a different web address.
 
@@ -109,9 +115,9 @@ Example:
 [Blix Solutions AS](https://www.blix.com/servers/)
 ```
 
-### Images
+### Embedding Images
 
-The best way to add images and figures to a blog post is to use and wrap a HTML `<img/>` element inside a `<figure/>` container:
+The best way to embed images and figures to a blog post is to use and wrap a HTML `<img/>` element inside a `<figure/>` container:
 
 ```HTML
 <figure style="float: none">
@@ -132,9 +138,9 @@ It is also possible to add images using Markdown:
 ![Alternate Text](PATH-TO-IMAGE "Image Title")
 ```
 
-### Slideshow
+### Embedding Slideshow
 
-To show more than one image at a particular place, you can combine multiple images into a slideshow. To add a slideshow to your blog post, use the following HTML structure:
+To embed more than one image at a particular place, you can combine multiple images into a slideshow. To add a slideshow to your blog post, use the following HTML structure:
 
 ```html
 <div class="slideshow-container" id="ID-OF-MY-SLIDESHOW">
@@ -162,9 +168,9 @@ You can add as many slideshow items as you want, just remember to wrap each item
 
 Each slideshow has a max height of 480px. Therefore, to ensure the best possible user experience, make all slideshow images should have a height equal to or larger than 480px.
 
-### Videos
+### Embedding Videos
 
-The best way to add videos to a blog post is to wrap an `<iframe/>` element inside a `<figure/>` container. We strongly recommend to use third-party service like YouTube or Vimeo to host the videos. This will enhance performance and reduce the load time of a blog post.
+The best way to embed videos to a blog post is to wrap an `<iframe/>` element inside a `<figure/>` container. We strongly recommend to use third-party service like YouTube or Vimeo to host the videos. This will enhance performance and reduce the load time of a blog post.
 
 ```html
 <figure style="float: none">
@@ -192,9 +198,9 @@ Example:
 </figure>
 ```
 
-### Audio
+### Embedding Audio
 
-Currently, the best way to add an audio player to a blog post is to wrap a `<audio/>` element inside a `<figure/` container.
+Currently, the best way to embed audio to a blog post is to wrap a `<audio/>` element inside a `<figure/` container.
 
 ```html
 <figure style="float: none">
@@ -208,7 +214,7 @@ Currently, the best way to add an audio player to a blog post is to wrap a `<aud
 
 ## 4. Tables
 
-There are three ways you can add tables to your blog post. let's explore the three alternative ways to generate this table:
+There are three ways to embed tables to your blog post. let's explore all three alternatives to generate this table:
 
 <table>
   <tr>
