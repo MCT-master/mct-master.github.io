@@ -94,7 +94,7 @@ excerpt: "In collaboration with Telenor Research, we explored the prospects of d
 ## 3. Embedding and Storing Multi-media
 
 ### Storing and Naming Media
-You can store images and audio in the ```./assets/img``` and ```./assets/audio``` folders in the blog repo, given that they are less than 300kb in size. If the media is more than 300kb, you should store them on the Uio G Suite. Read more about this process of storing and sharing files in the [guides](https://github.com/MCT-master/Guides/wiki/How-to-use-the-MCT-Blog-%E2%80%90-Embedding-and-Storage-of-Files). 
+You can store images and audio in the ```./assets/img``` and ```./assets/audio``` folders in the blog repo, given that they are less than 300kb in size. If the media is more than 300kb, you should store them on the Uio G Suite. For more details on storing and sharing media files, visit the ["Embedding and Storage of Files" section](https://github.com/MCT-master/Guides/wiki/How-to-use-the-MCT-Blog-%E2%80%90-Embedding-and-Storage-of-Files) in the MCT Guides. 
 
 All media files must share the same filename syntax: 
 ```
