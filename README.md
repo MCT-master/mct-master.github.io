@@ -137,7 +137,6 @@ It is also possible to add images using Markdown:
 To show more than one image at a particular place, you can combine multiple images into a slideshow. To add a slideshow to your blog post, use the following HTML structure:
 
 ```html
-<!-- Include in blog post: -->
 <div class="slideshow-container" id="ID-OF-MY-SLIDESHOW">
   <div class="mySlides fade">
     <!-- Insert Figure with Img -->
@@ -148,8 +147,6 @@ To show more than one image at a particular place, you can combine multiple imag
   <div class="mySlides fade">
     <!-- Insert Figure with Img -->
   </div>
-  <!-- .... -->
-  <!-- .... -->
 </div>
 ```
 
