@@ -4,7 +4,7 @@ This is the repository for the blog of the [University of Oslo (UiO)](https://ww
 
 To learn how to use the blog, and much more, visit our **[Full Documentation and Guides.](https://github.com/MCT-master/Guides/wiki/How-to-use-the-MCT-Blog)**
 
-# Quick Guide
+# Quick User Guide
 
 ## Table of Contents
 
