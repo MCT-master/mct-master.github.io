@@ -251,7 +251,7 @@ The standard way to create HTML tables is to use the `<table />` element. You wi
 
 ### Responsive HTML Tables
 
-The best way to add a table to a blog post is to use our responsive tables. Responsive tables are great because they will resize and re-organize themselves to fit different media screens. In other words, your tables will look good both on mobile and desktop devices.
+The best way to add a table to a blog post is to use responsive tables. Responsive tables are great because they will resize and re-organize themselves to fit different media screens. In other words, your tables will look good both on mobile and desktop devices.
 
 To use responsive tables, wrap multiple `<div class="Rtable-cell"/>` inside a `<div class="Rtable Rtable--3cols Rtable--collapse" />` container, like so:
 
@@ -271,9 +271,11 @@ To use responsive tables, wrap multiple `<div class="Rtable-cell"/>` inside a `<
 </div>
 ```
 
-In the container `<div>`, we specify the number of columns our table has with the `Rtable--3cols` class.
+In the container `<div class"Rtable ...">`, specify the number of columns with the `Rtable--3cols` class.
 
-In every cell, `<div class="Rtable-cell"/>`, we specify an `"order:"` style attribute. This number represents the vertical order of the cells in our table, from top to bottom. For example, compare the top code with the code below. Both represent the same table.
+In every cell, `<div class="Rtable-cell"/>`, specify an `"order:"` style attribute. This number represents the vertical order of the cells in the table, from top to bottom. 
+
+Compare the top table with the table below. Both are the same table, only the HTML is arranged differently. This HTML arrangement will affect how the table responds to smaller screen sizes. To learn more about how this works and how to customize these kinds of responsive tables, visit [this great resource](https://css-tricks.com/accessible-simple-responsive-tables/).
 
 ```html
 <div class="Rtable Rtable--3cols Rtable--collapse">
@@ -289,11 +291,9 @@ In every cell, `<div class="Rtable-cell"/>`, we specify an `"order:"` style attr
 </div>
 ```
 
-To learn more about how to use and customize these kinds of responsive tables, visit [this great resource](https://css-tricks.com/accessible-simple-responsive-tables/).
-
 ### Markdown Tables
 
-You can also use markdown to generate tables in a blog post.
+We can also use markdown to generate tables in a blog post.
 
 ```markdown
 | Hey | Hey | Hey |
@@ -301,7 +301,7 @@ You can also use markdown to generate tables in a blog post.
 | Hey | Hey | Hey |
 ```
 
-You can use websites that allow you to generate the markdown code automatically, like [this page](https://www.tablesgenerator.com/markdown_tables).
+Some websites allow you to generate the markdown code automatically, like [this page](https://www.tablesgenerator.com/markdown_tables).
 
 ## Issues and Improvements
 
