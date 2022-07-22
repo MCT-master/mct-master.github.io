@@ -8,6 +8,7 @@ image: /assets/image/2022_06_21_joachipo_modem.jpg
 excerpt: "We played Norway's first 5G networked music performance in collaboration with Telenor Research."
 keywords: Telematic, Network, NMP, Jazz
 ---
+
 <figure style="float: none">
    <iframe
       width="100%"
@@ -22,11 +23,11 @@ keywords: Telematic, Network, NMP, Jazz
 
 When it comes to playing over wide area networks such as the internet, the main problem is trying to keep a common rhythm between musicians in different locations. Maintaining a shared beat is difficult if it takes too long for one musician’s sound to reach another’s ears, and if this time (called latency) is too long (around 25ms [[1]](#references)), it can make playing music together almost impossible. However, some techniques can be employed to work with latency, and not against it.
 
-In late spring 2022, we were engaged by [Telenor Research Group](https://www.telenor.com/innovation/research/) to perform a Network Music Performance (NMP) over their 5G network at the *Telenor Festival*. Previously, We have had extensive experience with NMP over wired networks but this was the first foray into performing over a 5G cellular network.
+In late spring 2022, we were engaged by [Telenor Research Group](https://www.telenor.com/innovation/research/) to perform a Network Music Performance (NMP) over their 5G network at the _Telenor Festival_. Previously, We have had extensive experience with NMP over wired networks but this was the first foray into performing over a 5G cellular network.
 
 ## **Technical Setup**
 
-We used the Next Generation 5G platform by Telenor Research as an autonomous private network for the NMP. Telenor setted up a transmission with 80 Mhz in the C-Band with a pure *standalone 5G* network for the occasion.
+We used the Next Generation 5G platform by Telenor Research as an autonomous private network for the NMP. Telenor setted up a transmission with 80 Mhz in the C-Band with a pure _standalone 5G_ network for the occasion.
 
 <figure style="float: none">
    <img src="/assets/image/2022_07_07_joachipo_5Ggraph.png" alt="Next Generation 5G platform by Telenor Research" title="" width="auto" />
@@ -36,7 +37,8 @@ We used the Next Generation 5G platform by Telenor Research as an autonomous pri
 To connect, we used a pair of [Huawei H138-380 CPE Pro 3 5G](https://nettbutikk.emcom.no/) routers and [NMP Portable Kits](https://github.com/MCT-master/NMP-Portable-Kits/wiki) to facilitate ultra-low-latency music performances between two remote locations. These portable kits are essentially bundles of high-end software, audio/video peripherals and networking tools that can provide the lowest possible latency on audio/video transmissions over the network.
 
 ### **Audio transmission**
-For transmitting audio through the network, we narrowed our options to [LOLA](lola.conts.it/) Low Latency, developed by GARR and Conservatorio G.Tartini in Italy, is a unique audio-visual streaming technology, which enables musicians to play together in real-time and [JackTrip](https://www.jacktrip.org/), a popular audio transmission application developed by CCRMA at Stanford University (USA). In comparing the test results and requirements of the project, the 5G could not accommodate the buffering requirements (very small packets) to use LOLA, therefore, we had to use JackTrip  which can work with larger buffer sizes [[2]](#references). We tested different parameters for the buffer and queue sizes and ended up with the following parameters.
+
+For transmitting audio through the network, we narrowed our options to [LOLA](lola.conts.it/) Low Latency, developed by GARR and Conservatorio G.Tartini in Italy, is a unique audio-visual streaming technology, which enables musicians to play together in real-time and [JackTrip](https://www.jacktrip.org/), a popular audio transmission application developed by CCRMA at Stanford University (USA). In comparing the test results and requirements of the project, the 5G could not accommodate the buffering requirements (very small packets) to use LOLA, therefore, we had to use JackTrip which can work with larger buffer sizes [[2]](#references). We tested different parameters for the buffer and queue sizes and ended up with the following parameters.
 
 <table>
   <tr>
@@ -68,13 +70,13 @@ For transmitting audio through the network, we narrowed our options to [LOLA](lo
 This relatively large buffer size (512) and queue buffer (5) resulted in 53 milliseconds of latency being added at the receiving end as the audio is buffered before playback, for a total Round Trip Time (RTT) of 132 milliseconds. Regarding the network, we measured a ping delay of 6 ms with an upload bandwidth of 127.44 Mbps against a testing server ([Blix Solutions AS](https://www.blix.com/servers/)). Upload speed was significantly improved over 5G compared to the LAN (average upload speed usually corresponds to 74.96 Mbps for fixed broadband, according to [Speedtest](https://www.speedtest.net/global-index)). While downloading information is more common, NMP requires data to travel in the opposite direction as well. Playing live music on the network needs fast upload speeds in order to send data to the other musician's server.
 
 ### **Video transmission**
+
 For transmitting video through the network, we used [OBS Ninja](https://vdo.ninja/) a cutting edge Peer-to-Peer forwarding technology that offers privacy and ultra-low latency. We disabled the audio and added the maximum resolution for the video source.
 
 ## **Setup locations : Mainstage and Villa Haraløkka**
 
-
-
 ### **Setup at the Mainstage**
+
 The mainstage was at the Telenor HQ itself, a tent was set up next to the 5G on wheels trailer.
 
 - [NMP Portable Kit](https://github.com/MCT-master/NMP-Portable-Kits/wiki)
@@ -89,9 +91,8 @@ The mainstage was at the Telenor HQ itself, a tent was set up next to the 5G on 
    <figcaption><i>Mainstage</i></figcaption>
 </figure>
 
-
-
 ### **Setup at the Villa Haraløkka**
+
 The Villa is located around 300 meters from the mainstage.
 
 - NMP Portable Kit
@@ -99,7 +100,6 @@ The Villa is located around 300 meters from the mainstage.
 - Two SM58 microphones for communication
 - A pair of Genelec 8020a speakers for monitoring
 - A XA series Canon video camera
-
 
 <figure style="float: none">
    <img src="/assets/image/2022_06_24_joachipo_villa.jpg" alt="Kristian performing at Villa Haraløkka" title="" width="auto" />
@@ -122,8 +122,6 @@ Kristian and Joachim decided to play two jazz standards ([**A Child Is Born**](h
   <figcaption></figcaption>
 </figure>
 
-
-
 For Kristian, the tempo and style of song had a direct influence on how much latency could be tolerated. Consequently, difficulties in synchronizing timing for up tempo standards were experienced. This has already been studied in a previous blogpost on [Mastering Latency](https://mct-master.github.io/portal/2022/02/21/joachipo-measuring-latency.html).
 
 In preparation for this NMP, we practiced over the Local Area Network (LAN) at UiO with artificially added latency. For the ballad “A Child Is Born”, it felt quite good to perform even when we had high latency. The more rhythmic “A Night In Tunisia” was a bit harder with high latency, where Kristian had to keep the focus mostly on his own playing so as to not lose the groove.
@@ -137,6 +135,6 @@ Furthermore, there was not a significant difference in playing over 5G compared 
 
 ### References
 
-**[1]** Carôt, A., & Werner, C. (2009). *Fundamentals and principles of musical telepresence*. Journal of Science and Technology of the Arts, 1(1), 26-37. https://doi.org/10.7559/citarj.v1i1.6
+**[1]** Carôt, A., & Werner, C. (2009). _Fundamentals and principles of musical telepresence_. Journal of Science and Technology of the Arts, 1(1), 26-37. https://doi.org/10.7559/citarj.v1i1.6
 
 **[2]** Fasciani, S., & Tidermann, A. (2022, April 11). [5G Networked Music Performances - Will It Work?](https://mct-master.github.io/portal/2022/04/11/aleksati-5g-nmp.html)
