@@ -134,7 +134,7 @@ It is also possible to add images using Markdown:
 
 ### Slideshow
 
-If you want to show more than one image at a particular place in your post, you can combine multiple images into a slideshow. To add a slideshow to your blog post, use the following HTML structure:
+To show more than one image at a particular place, you can combine multiple images into a slideshow. To add a slideshow to your blog post, use the following HTML structure:
 
 ```html
 <!-- Include in blog post: -->
