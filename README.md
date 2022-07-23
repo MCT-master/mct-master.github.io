@@ -182,9 +182,9 @@ To embed more than one image at a particular place, you can combine multiple ima
 </div>
 ```
 
-**NB!** It is important that to specify a unique ID property for every slideshow. Use a clear and informative name.
+**NB!** It is important that to specify a unique ID property for every slideshow container. Use a clear and informative name.
 
-You can add as many slideshow items as you want, just remember to wrap each item like so:
+You can add as many slideshow items as you want, just remember to wrap each item in a div with "mySlides fade" class names:
 
 ```html
 <div class="mySlides fade">
