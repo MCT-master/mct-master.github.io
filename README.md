@@ -119,7 +119,9 @@ Example:
 2019_04_19_aleksati_blog_header.jpg
 ```
 
-You can store images and audio in the ```./assets/img``` and ```./assets/audio``` folders in the blog repo, given that they are less than 300kb in size. If the media is more than 300kb, you should store them on the MCT Shared G Drive. For more details on storing and sharing media files from the G Drive, visit the ["Embedding and Storage of Files" section](https://github.com/MCT-master/Guides/wiki/How-to-use-the-MCT-Blog-%E2%80%90-Embedding-and-Storage-of-Files) in the MCT Guides.
+You can store images and audio in the ```./assets/img``` and ```./assets/audio``` folders in the blog repo, given that they are less than 300kb in size. If the media is more than 300kb, you should store them on the MCT Shared G Drive. 
+
+For more details on storing and sharing media files from the G Drive, visit the ["Embedding and Storage of Files" section](https://github.com/MCT-master/Guides/wiki/How-to-use-the-MCT-Blog-%E2%80%90-Embedding-and-Storage-of-Files) in the MCT Guides.
 
 <br>
 
