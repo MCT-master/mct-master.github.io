@@ -14,10 +14,11 @@ To learn how to use the blog, and much more, visit our **[Full Documentation and
 
 1. [Serve the Blog Locally](#1-serve-the-blog-locally)
 2. [Post Layout](#2-post-layout)
-   - [Storing and Naming posts](#storing-and-naming-posts)
+   - [Post File Naming and Storage](#post-file-naming-and-storage)
    - [Frontmatter](#frontmatter)
 3. [Multi-media](#3-multi-media)
-   - [Storing and Naming Media](#storing-and-naming-media)
+   - [Media File Naming and Storage](#media-file-naming-and-storage)
+   - [Embedding Media from MCT Shared G Drive](#embedding-media-from-mct-shared-g-drive)
    - [Embedding Links](#embedding-links)
    - [Embedding Images](#embedding-images)
    - [Embedding Slideshow](#embedding-slideshow)
@@ -31,7 +32,7 @@ To learn how to use the blog, and much more, visit our **[Full Documentation and
 
 ## 1. Serve the Blog Locally
 
-You can build the MCT blog and visualize it in the browser locally on your machine installing [Jekyll](https://jekyllrb.com/docs/installation/).
+You can build the MCT blog and visualize it in the browser locally on your machine by installing [Jekyll](https://jekyllrb.com/docs/installation/).
 
 Once you have your Jekyll environment set up, you can serve from the root blog folder using this command in the terminal:
 
@@ -47,7 +48,7 @@ Every blog post markdown file should share the same general layout and folder pl
 
 <br>
 
-### Storing and Naming posts
+### Post File Naming and Storage
 
 **Drafts**
 Posts placed in the `_posts_drafts` will not be published on the blog. Use this folder for drafts and collaboratory efforts. **NB!** Files in the drafts folder are frequently deleted (once every semester) for maintenance reasons.
@@ -107,9 +108,8 @@ excerpt: "In collaboration with Telenor Research, we explored the prospects of d
 
 <br>
 
-### Storing and Naming Media
-You can store images and audio in the ```./assets/img``` and ```./assets/audio``` folders in the blog repo, given that they are less than 300kb in size. If the media is more than 300kb, you should store them on the Uio G Suite. For more details on storing and sharing media files, visit the ["Embedding and Storage of Files" section](https://github.com/MCT-master/Guides/wiki/How-to-use-the-MCT-Blog-%E2%80%90-Embedding-and-Storage-of-Files) in the MCT Guides. 
-
+### File Naming and Storage
+ 
 All media files must share the same filename syntax, whitespaces in the filename are not allowed: 
 ```
 YYYY_MM_DD_UiOusername_filename.extension
@@ -119,6 +119,23 @@ Example:
 
 ```
 2019_04_19_aleksati_blog_header.jpg
+```
+
+You can store images and audio in the ```./assets/img``` and ```./assets/audio``` folders in the blog repo, given that they are less than 300kb in size. If the media is more than 300kb, you should store them on the MCT Shared G Drive. For more details on storing and sharing media files from the G Drive, visit the ["Embedding and Storage of Files" section](https://github.com/MCT-master/Guides/wiki/How-to-use-the-MCT-Blog-%E2%80%90-Embedding-and-Storage-of-Files) in the MCT Guides.
+
+<br>
+
+### Embedding Media from MCT Shared G Drive 
+
+When embedding files from the MCT Shared G Drive, you need to identify the [DRIVE_FILE_ID](https://github.com/MCT-master/Guides/wiki/How-to-use-the-MCT-Blog-%E2%80%90-Embedding-and-Storage-of-Files#embedding-multimedia-files) and then use the above HTML code with
+
+```HTML
+src="https://drive.google.com/uc?&id=DRIVE_FILE_ID
+```
+
+If you are using an `<iframe/>` to embed a video without the without the `<video/>` element, use
+```HTML
+<iframe src="https://drive.google.com/file/d/DRIVE_FILE_ID/preview" width="auto" frameborder="0" allowfullscreen></iframe>`
 ```
 
 <br>
@@ -244,24 +261,9 @@ Currently, the best way to embed audio to a blog post is to wrap a `<audio/>` el
 
 <br>
 
-### Embedding from G Drive 
-
-When embedding files from the MCT Shared G Drive, you need to identify the [DRIVE_FILE_ID](https://github.com/MCT-master/Guides/wiki/How-to-use-the-MCT-Blog-%E2%80%90-Embedding-and-Storage-of-Files#embedding-multimedia-files) and then use the above HTML code with
-
-```HTML
-src="https://drive.google.com/uc?&id=DRIVE_FILE_ID
-```
-
-If you are using an `<iframe/>` to embed a video without the without the `<video/>` element, use
-```HTML
-<iframe src="https://drive.google.com/file/d/DRIVE_FILE_ID/preview" width="auto" frameborder="0" allowfullscreen></iframe>`
-```
-
-<br>
-
 ## 4. Tables
 
-There are three ways to embed tables to your blog post. let's explore all three alternatives to generate this table:
+There are three ways to embed tables to your blog post. let's build one table using all three methods. This is what we will create: 
 
 <table>
   <tr>
@@ -325,9 +327,9 @@ To use responsive tables, wrap multiple `<div class="Rtable-cell"/>` inside a `<
 </div>
 ```
 
-In the container `<div class"Rtable ...">`, specify the number of columns with the `Rtable--3cols` class.
+In the container, specify the number of columns with the `Rtable--3cols` class.
 
-In every cell, `<div class="Rtable-cell"/>`, specify an `"order:"` style attribute. This number represents the vertical order of the cells in the table, from top to bottom. 
+In every cell, specify an `"order:"` style attribute. This number represents the vertical order of the cells in the table, from top to bottom. 
 
 Compare the top table with the table below. Both are the same table, only the HTML is arranged differently. This HTML arrangement will affect how the table responds to smaller screen sizes. To learn more about how this works and how to customize these kinds of responsive tables, visit [this great resource](https://css-tricks.com/accessible-simple-responsive-tables/).
 
