@@ -104,11 +104,11 @@ excerpt: "In collaboration with Telenor Research, we explored the prospects of d
 
 <br>
 
-## 3. Embedding and Storing Multi-media
+## 3. Multi-media
 
 <br>
 
-### File Naming and Storage
+### Media File Naming and Storage
  
 All media files must share the same filename syntax, whitespaces in the filename are not allowed: 
 ```
