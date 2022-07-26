@@ -106,8 +106,6 @@ excerpt: "In collaboration with Telenor Research, we explored the prospects of d
 
 ## 3. Multi-media
 
-<br>
-
 ### Media File Naming and Storage
  
 All media files must share the same filename syntax, whitespaces in the filename are not allowed: 
