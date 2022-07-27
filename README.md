@@ -8,10 +8,6 @@ To learn how to use the blog, and much more, visit our **[Full Documentation and
 
 # Quick User Guide
 
-<br>
-
-## Table of Contents
-
 1. [Serve the Blog Locally](#1-serve-the-blog-locally)
 2. [Post Layout](#2-post-layout)
    - [Post File Naming and Storage](#post-file-naming-and-storage)
