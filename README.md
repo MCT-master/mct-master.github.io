@@ -14,7 +14,6 @@ To learn how to use the blog, and much more, visit our **[Full Documentation and
    - [Frontmatter](#frontmatter)
 3. [Multi-media](#3-multi-media)
    - [Media File Naming and Storage](#media-file-naming-and-storage)
-   - [Embedding Media from MCT Shared G Drive](#embedding-media-from-mct-shared-g-drive)
    - [Embedding Links](#embedding-links)
    - [Embedding Images](#embedding-images)
    - [Embedding Slideshow](#embedding-slideshow)
@@ -115,24 +114,9 @@ Example:
 2019_04_19_aleksati_blog_header.jpg
 ```
 
-You can store images and audio in the ```./assets/img``` and ```./assets/audio``` folders in the blog repo, given that they are less than 300kb in size. If the media is more than 300kb, you should store them on the MCT Shared G Drive. 
+You can store files in the appropriate sub-folder  of ```./assets/``` in the GitHub blog repo, given that the files are less than 300KB in size. Files above 300KB must be stored in the equivalent sub-folder of the [UiO Vortex blog folder](https://www-adm.uio.no/english/studies/programmes/mct-master/blog/assets/?vrtx=admin). 
 
-For more details on storing and sharing media files from the G Drive, visit the ["Embedding and Storage of Files" section](https://github.com/MCT-master/Guides/wiki/How-to-use-the-MCT-Blog-%E2%80%90-Embedding-and-Storage-of-Files) in the MCT Guides.
-
-<br>
-
-### Embedding Media from MCT Shared G Drive 
-
-When embedding files from the MCT Shared G Drive, you need to identify the [DRIVE_FILE_ID](https://github.com/MCT-master/Guides/wiki/How-to-use-the-MCT-Blog-%E2%80%90-Embedding-and-Storage-of-Files#embedding-multimedia-files) and then use the above HTML code with
-
-```HTML
-src="https://drive.google.com/uc?&id=DRIVE_FILE_ID
-```
-
-If you are using an `<iframe/>` to embed a video without the without the `<video/>` element, use
-```HTML
-<iframe src="https://drive.google.com/file/d/DRIVE_FILE_ID/preview" width="auto" frameborder="0" allowfullscreen></iframe>`
-```
+For more details on storing and sharing media files, visit the ["Embedding and Storage of Files" section](https://github.com/MCT-master/Guides/wiki/How-to-use-the-MCT-Blog-%E2%80%90-Embedding-and-Storage-of-Files) in the MCT Guides.
 
 <br>
 
@@ -154,7 +138,7 @@ Example:
 
 ### Embedding Images
 
-The best way to embed images and figures to a blog post is to use and wrap a HTML `<img/>` element inside a `<figure/>` container:
+The best way to embed images and figures to a blog post is to use and wrap a HTML `<img>` element inside a `<figure>` container:
 
 ```HTML
 <figure style="float: none">
@@ -211,7 +195,18 @@ Each slideshow has a max height of 480px. Therefore, to ensure the best possible
 
 ### Embedding Videos
 
-The best way to embed videos to a blog post is to wrap an `<iframe/>` element inside a `<figure/>` container. We strongly recommend to use third-party service like YouTube or Vimeo to host the videos. This will enhance performance and reduce the load time of a blog post.
+The best way to embed videos in a blog post is to wrap an `<video>` element inside a `<figure>` container. Videos should be in .mp4 format.
+
+```HTML
+<figure style="float: none">
+  <video width="auto" controls>
+    <source src="PATH-TO-VIDEO" type='video/mp4'>
+  </video>
+  <figcaption>Caption Text</figcaption>
+</figure>
+```
+
+To embed videos upload on third party platforms such as Youtube or Vimeo use the `<iframe>` element inside a `<figure>` container.
 
 ```HTML
 <figure style="float: none">
@@ -221,7 +216,7 @@ The best way to embed videos to a blog post is to wrap an `<iframe/>` element in
 </figure>
 ```
 
-Example:
+Usually you can copy the `<iframe>` element with all fields precompiled directly from the third party platform (select Share -> Embed), for example:
 
 ```HTML
 <figure style="float: none">
@@ -248,7 +243,7 @@ Currently, the best way to embed audio to a blog post is to wrap a `<audio/>` el
 ```HTML
 <figure style="float: none">
   <audio controls>
-    <source src="PATH-TO-AUDIO" type="audio/mpeg" />
+    <source src="PATH-TO-AUDIO" type="audio/mpeg">
     Alternate Text
   </audio>
   <figcaption>Text Caption</figcaption>
