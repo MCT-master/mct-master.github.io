@@ -355,7 +355,6 @@ Some websites allow you to generate the markdown code automatically, like [this 
 <br>
 
 ## 5. Issues and Improvements
-
 Fixing bugs, improving existing features or adding new ones are activities continuously carried out by users of the MCT Blog. If you find anything wrong or if you have suggestions, open an issue in the blog repository and include appropriate labels. If you [open an issue](https://github.com/MCT-master/mct-master.github.io/issues), you should also take the lead or contribute towards resolving it.
 
 For more information about the blog and how to use it, visit our **[Full Documentation and Guides.](https://github.com/MCT-master/Guides/wiki/How-to-use-the-MCT-Blog)**.
