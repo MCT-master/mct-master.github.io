@@ -114,7 +114,13 @@ Example:
 2019_04_19_aleksati_blog_header.jpg
 ```
 
-You can store files in the appropriate sub-folder  of ```./assets/``` in the GitHub blog repo, given that the files are less than 300KB in size. Files above 300KB must be stored in the equivalent sub-folder of the [UiO Vortex blog folder](https://www-adm.uio.no/english/studies/programmes/mct-master/blog/assets/?vrtx=admin). 
+You can store files in the appropriate sub-folder  of ```./assets/``` in the GitHub blog repo, given that the files are less than 300KB in size. 
+
+* Paths to GitHub blog repo media ```/assets/images/filename.extension```
+
+Files above 300KB must be stored in the equivalent sub-folder of the [UiO Vortex blog folder](https://www-adm.uio.no/english/studies/programmes/mct-master/blog/assets/?vrtx=admin). 
+
+* Path to UiO Vortex folder media - ```https://www.uio.no/english/studies/programmes/mct-master/blog/assets/images/filename.extension``` 
 
 For more details on storing and sharing media files, visit the ["Embedding and Storage of Files" section](https://github.com/MCT-master/Guides/wiki/How-to-use-the-MCT-Blog-%E2%80%90-Embedding-and-Storage-of-Files) in the MCT Guides.
 
