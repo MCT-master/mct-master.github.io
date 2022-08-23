@@ -1,11 +1,11 @@
 ---
 layout: post
-title:  "Hello from Team C"
+title:  "Meet MCT Team C 2022"
 date:   2022-08-23 10:10:42 +0200
-categories: jekyll update
-author: Aysima Karcaaltincaba, 
+categories: people
+author: Alex Wastnidge, Aysima Karcaaltincaba, Fabian Stordalen, Olve Skjeggedal
 image: /assets/image/2022_08_23_aysimab_teamC.jpeg
-excerpt: "How to add a new test post"
+excerpt: "Hello from Team C"
 keywords: jekyll, blog
 ---
 
@@ -14,8 +14,28 @@ keywords: jekyll, blog
 
 <img src='/assets/image/2022_08_23_aysimab_teamC.jpeg' />
 
-## First title is something
+## About our team
 
-Today we will talk about this and that.
+We can summarise what we discussed our competences are, which diciplines we have etc
 
-The most important thing is **this**
+
+## Team members
+
+
+### Alex Wastnidge
+
+Sth about Alex
+
+### Aysima Karcaaltincaba
+
+Sth about Aysima
+
+
+### Fabian Stordalen
+
+Sth about Fabian
+
+
+### Olve Skjeggedal
+
+Sth about Olve
