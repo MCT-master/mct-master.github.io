@@ -58,6 +58,12 @@ Hello! I'm Fabian. I got Bachelor in Musicology from the University of Oslo spec
 
 ### Olve Skjeggedal
 
+<figure style="float: none">
+   <img
+      src="/assets/image/2022_08_26_olvees_blog_profile.jpg"
+      style="max-height:600px; width:auto;" />
+</figure>
+
 For more than 20 years I have been working in the international maritime and offshore energy sector within engineering, business development, project management and corporate leadership, but have now reached a point in life where I want to follow my long-running dream of dedicating myself to music related activities full-time!
 
 Despite my relatively long-running corporate career my greatest passion (apart from my children and wife) is music, which I have been doing in one form or another for most of my life. I learned basic skills and music theory in my childhood and early youth by taking lessons and playing the clarinet and classical guitar, and later I moved on to electrical guitar (and eventually also singing) which I have been doing since. I have played in several bands up through the years, and still do.
