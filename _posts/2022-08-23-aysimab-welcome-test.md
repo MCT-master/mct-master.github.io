@@ -9,15 +9,11 @@ excerpt: "Hello from Team C"
 keywords: jekyll, blog
 ---
 
-
-# We are writing here
 <figure style="float: none">
-    <img src='/assets/image/2022_08_23_aysimab_teamC.jpeg' width="auto"/>
+    <img src='https://www.uio.no/english/studies/programmes/mct-master/blog/assets/image/2022_08_23_aysimab_teamc.jpeg' width="auto"/>
 </figure>
 
 ## About our team
-
-We can summarise what we discussed our competences are, which diciplines we have etc
 
 The members of Team C all share the ambition of really getting out of our individual comfort zones as we work our way through the MCT programme! We came together with quite diverse academic and professional backgrounds, but quickly found that there is a lot of common ground between us at various levels. We look forward to collaborating, learning, sharing and hopefully creating a lot of great things together over the coming two years!
 
@@ -34,8 +30,18 @@ Sth about Alex
 
 ### Aysima Karcaaltincaba
 
-Aysima is a Software Engineer with a degree in Mathematical Engineering. She has been working as a Software Engineer for ten years and has been interested in music and performance arts meanwhile. 
+<figure style="float: none">
+   <img
+      src="/assets/image/2022_08_26_aysimab_blog_profile.jpeg"
+      style="max-height:600px; width:auto;" />
+   <figcaption>Happy creating noise in Frogner Park</figcaption>
+</figure>
 
+Aysima is a Software Engineer with a bachelor degree in Mathematical Engineering. She graduated ten years ago and has been working on cloud systems as a full stack developer. In the last three years, her role has been developing services for an online meeting platform which focuses on hybrid and remote meeting solutions, therefore she is interested in learning how hybrid and remote setups can work for music performances. 
+        
+She has been playing accordion and learning different dances for several years. Music and performance arts has been something she tried to pursuit for long time but she thinks that she couldnt have the enough dicipline and focus in order to be productive at those two areas. 
+
+She knows programming but she has no idea about sound, electronics and even music. She is seeing this programme as an oportunity to learn from others and produce solutions which brings programming, hybrid communication and music together. 
 
 ### Fabian Stordalen
 
