@@ -11,13 +11,15 @@ keywords: jekyll, blog
 
 
 # We are writing here
-
-<img src='/assets/image/2022_08_23_aysimab_teamC.jpeg' />
+<figure style="float: none">
+    <img src='/assets/image/2022_08_23_aysimab_teamC.jpeg' width="auto"/>
+</figure>
 
 ## About our team
 
 We can summarise what we discussed our competences are, which diciplines we have etc
 
+<img src='/assets/image/2022_08_25_aysimab_teamC.png' width="auto"/>
 
 ## Team members
 
@@ -28,12 +30,10 @@ Sth about Alex
 
 ### Aysima Karcaaltincaba
 
-Sth about Aysima
+Aysima is a Software Engineer with a degree in Mathematical Engineering. She has been working as a Software Engineer for ten years and has been interested in music and performance arts meanwhile. 
 
 
 ### Fabian Stordalen
-
-Sth about Fabian
 
 <figure style="float: none">
    <img
