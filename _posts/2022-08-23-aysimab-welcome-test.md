@@ -19,6 +19,10 @@ keywords: jekyll, blog
 
 We can summarise what we discussed our competences are, which diciplines we have etc
 
+The members of Team C all share the ambition of really getting out of our individual comfort zones as we work our way through the MCT programme! We came together with quite diverse academic and professional backgrounds, but quickly found that there is a lot of common ground between us at various levels. We look forward to collaborating, learning, sharing and hopefully creating a lot of great things together over the coming two years!
+
+Have a look at our individual sections below to learn more about each of us.
+
 <img src='/assets/image/2022_08_25_aysimab_teamC.png' width="auto"/>
 
 ## Team members
@@ -48,4 +52,8 @@ Hello! I'm Fabian. I got Bachelor in Musicology from the University of Oslo spec
 
 ### Olve Skjeggedal
 
-Sth about Olve
+For more than 20 years I have been working in the international maritime and offshore energy sector within engineering, business development, project management and corporate leadership, but have now reached a point in life where I want to follow my long-running dream of dedicating myself to music related activities full-time!
+
+Despite my relatively long-running corporate career my greatest passion (apart from my children and wife) is music, which I have been doing in one form or another for most of my life. I learned basic skills and music theory in my childhood and early youth by taking lessons and playing the clarinet and classical guitar, and later I moved on to electrical guitar (and eventually also singing) which I have been doing since. I have played in several bands up through the years, and still do.
+
+I am Norwegian and live just outside Oslo with my wife, our two teenagers and a labrador. Education-wise I have a MSc degree in Engineering from the NTNU technical university in Trondheim, and have also done 1-year full time programme in Music Production and Recording at the University of Stavanger. The integrated musical and technological nature of the MCT programme stands for me as the perfect way to combine my passion for music with my technological education and work experience, and I am really looking forward to it!
