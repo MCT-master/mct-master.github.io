@@ -4,8 +4,8 @@ title:  "Meet MCT Team C 2022"
 date:   2022-08-23 10:10:42 +0200
 categories: people
 author: Alex Wastnidge, Aysima Karcaaltincaba, Fabian Stordalen, Olve Skjeggedal
-image: /assets/image/2022_08_23_aysimab_teamC.jpeg
-excerpt: "Hello from Team C"
+image: https://www.uio.no/english/studies/programmes/mct-master/blog/assets/image/2022_08_23_aysimab_teamc.jpeg
+excerpt: "Hello! We are team C and new around here. Come and know us better!"
 keywords: jekyll, blog
 ---
 
