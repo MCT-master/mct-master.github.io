@@ -57,7 +57,7 @@ She knows programming but she has no idea about sound, electronics and even musi
       alt="Alternative Text"
       title="Image Title"
       width="auto" />
-   <figcaption>In action</figcaption>
+   <figcaption>In action with [Ushikawa](https://www.facebook.com/UshikawaBand).</figcaption>
 </figure>
 
 Hello! I'm Fabian. I got Bachelor in Musicology from the University of Oslo specializing in music philosophy. My thesis explored the relationship between popular music and nostalgia, looking at different ways the past is used to todays music and how it affects our thoughts and feelings about the future. I have a passion for music production and (old) electronic music which naturally led me to the MCT program. What interests me in particular is getting a deeper understanding of the tools used in production and the interactivity between humans and computers.
