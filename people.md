@@ -90,6 +90,7 @@ On this page you can find information about current and past students. Directly 
     <a href="/authors/endrialickaj.html">Endri Alickaj</a>
     <a href="/authors/fabianstordalen.html">Fabian Stordalen</a>
     <a href="/authors/jackhardwick<.html">Jack Hardwick</a>
+    <a href="/authors/kristianeicke<.html">Kristian Eicke</a>
     <a href="/authors/masoudniknafs.html">Masoud Niknafs</a>
     <a href="/authors/ninojakeli.html">Nino Jakeli</a>
     <a href="/authors/olveskjeggedal.html">Olve Skjeggedal</a>
