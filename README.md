@@ -102,8 +102,9 @@ excerpt: "In collaboration with Telenor Research, we explored the prospects of d
 ## 3. Multi-media
 
 ### Media File Naming and Storage
- 
-All media files must share the same filename syntax, whitespaces in the filename are not allowed: 
+
+All media files must share the same filename syntax, whitespaces in the filename are not allowed:
+
 ```
 YYYY_MM_DD_UiOusername_filename.extension
 ```
@@ -114,10 +115,10 @@ Example:
 2019_04_19_aleksati_blog_header.jpg
 ```
 
-You can store files in the appropriate sub-folder  of ```./assets/``` in the GitHub blog repo, given that the files are less than 300KB in size. Files above 300KB must be stored in the equivalent sub-folder of the [UiO Vortex blog folder](https://www-adm.uio.no/english/studies/programmes/mct-master/blog/assets/?vrtx=admin). 
+You can store files in the appropriate sub-folder of `./assets/` in the GitHub blog repo, given that the files are less than 300KB in size. Files above 300KB must be stored in the equivalent sub-folder of the [UiO Vortex blog folder](https://www-adm.uio.no/english/studies/programmes/mct-master/blog/assets/?vrtx=admin).
 
-* Path to GitHub blog repo media ```/assets/images/filename.extension```
-* Path to UiO Vortex folder media - ```https://www.uio.no/english/studies/programmes/mct-master/blog/assets/images/filename.extension``` 
+- Path to GitHub blog repo media `/assets/images/filename.extension`
+- Path to UiO Vortex folder media - `https://www.uio.no/english/studies/programmes/mct-master/blog/assets/images/filename.extension`
 
 For more details on storing and sharing media files, visit the ["Embedding and Storage of Files" section](https://github.com/MCT-master/Guides/wiki/How-to-use-the-MCT-Blog-%E2%80%90-Embedding-and-Storage-of-Files) in the MCT Guides.
 
@@ -241,7 +242,21 @@ Usually you can copy the `<iframe>` element with all fields precompiled directly
 
 ### Embedding Audio
 
-Currently, the best way to embed audio to a blog post is to wrap a `<audio/>` element inside a `<figure/>` container.
+The best way to embed audio to a blog post is to use our custom [WaveSurfer](https://wavesurfer-js.org/) audio widget. Simply add a `<div></div>` to your post with a waveform class and the path to your audio:
+
+```HTML
+<div class="waveform" path="PATH-TO-AUDIO"></div>
+```
+
+With additional features: 
+
+```HTML
+<div class="waveform" path="PATH-TO-AUDIO" color="#56BBCC" splitChannels></div>
+```
+
+By default, each waveform gets assigned a color. However, you can add a custom color to your waveform through the color attribute. You can also choose to see each audio channel individually in a vertical fashion by using the splitChannels flag. If not specified, a normal waveform style is used. 
+
+You can also create a simpler audio player by wrapping a `<audio/>` element inside a `<figure/>` container.
 
 ```HTML
 <figure style="float: none">
@@ -257,7 +272,7 @@ Currently, the best way to embed audio to a blog post is to wrap a `<audio/>` el
 
 ## 4. Tables
 
-There are three ways to embed tables to your blog post. let's build one table using all three methods. This is what we will create: 
+There are three ways to embed tables to your blog post. let's build one table using all three methods. This is what we will create:
 
 <table>
   <tr>
@@ -323,7 +338,7 @@ To use responsive tables, wrap multiple `<div class="Rtable-cell"/>` inside a `<
 
 In the container, specify the number of columns with the `Rtable--3cols` class.
 
-In every cell, specify an `"order:"` style attribute. This number represents the vertical order of the cells in the table, from top to bottom. 
+In every cell, specify an `"order:"` style attribute. This number represents the vertical order of the cells in the table, from top to bottom.
 
 Compare the top table with the table below. Both are the same table, only the HTML is arranged differently. This HTML arrangement will affect how the table responds to smaller screen sizes. To learn more about how this works and how to customize these kinds of responsive tables, visit [this great resource](https://css-tricks.com/accessible-simple-responsive-tables/).
 
@@ -358,6 +373,7 @@ Some websites allow you to generate the markdown code automatically, like [this 
 <br>
 
 ## 5. Issues and Improvements
+
 Fixing bugs, improving existing features or adding new ones are activities continuously carried out by users of the MCT Blog. If you find anything wrong or if you have suggestions, open an issue in the blog repository and include appropriate labels. If you [open an issue](https://github.com/MCT-master/mct-master.github.io/issues), you should also take the lead or contribute towards resolving it.
 
 For more information about the blog and how to use it, visit our **[Full Documentation and Guides.](https://github.com/MCT-master/Guides/wiki/How-to-use-the-MCT-Blog)**.

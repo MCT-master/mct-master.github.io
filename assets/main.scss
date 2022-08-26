@@ -313,7 +313,7 @@ a {
   }
 }
 
-// CLICKABLE LINK UNDERLINE ANIMATION 
+// CLICKABLE LINK UNDERLINE ANIMATION
 // a::before {
 //   content: "";
 //   position: absolute;
@@ -777,7 +777,7 @@ form#contact-form {
 /* Hide the images by default */
 .mySlides {
   display: none;
-  
+
   img {
     max-height: 480px !important;
   }
@@ -933,4 +933,37 @@ $bw: 2px; // border width
       margin-bottom: 1em;
     }
   }
+}
+
+
+
+/////////////// WAVESURFER AUDIO PLAYER /////////////////////
+.waveform {
+  display: flex;
+  flex-direction: column;
+  width: 90%;
+  /* margin: auto; */
+  margin-bottom: 30px !important;
+}
+
+.ws-btn {
+  background-color: #ffffff;
+  color: black;
+  font-size: 20px;
+
+  border: 1px solid black;
+  padding: .375rem .75rem;
+  font-size: 1rem;
+  border-radius: .25rem;
+  /* transition: box-shadow 0.2s ease-in-out; */
+    transition: color .15s ease-in-out,background-color .15s ease-in-out;
+}
+
+.ws-btn:hover {
+    background-color: black;
+    color: white;
+}
+
+button:not(:disabled) {
+  cursor: pointer;
 }

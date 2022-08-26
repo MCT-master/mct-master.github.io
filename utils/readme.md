@@ -10,11 +10,25 @@ Folder for adding additional utils that can come to good use on the blog. Please
 
 `fetch.js` and `search.json` are files required for the blog search page, they implement the search functionality.
 
-## slideshow.js and slideshow_example.html
+## slideshow.js
 
-These two files enable a slideshow feature in the blogposts. The `slideshow.js` is included as a script to the `_layouts/post.html`. There is also a series of CSS classes in `assets/main.scss` associated with the slideshow implimentation.
+This file enables the use of slideshows in blogposts.
 
-For an example of how to use the feature in a blogpost, check out the `slideshow_example.html` in the utils folder.
+The js file is included as a script to the `_layouts/post.html`, so it runs every time you visit a blog post (when the post.html is run).
+
+There is also a series of CSS classes in `assets/main.scss` associated with the slideshow implimentation.
+
+for full documentation, visit the Quick Guide in the https://github.com/MCT-master/mct-master.github.io readme
+
+## waveform.js
+
+This enables the use of a fancy audio player in blog posts.
+
+The js file, + the waveSurfer js library, is included in `_layoyts/post.html`, so it runs every time you visit a blog post (when the post.html is run).
+
+There is also a series of CSS classes in `assets/main.scss` associated with the slideshow implimentation.
+
+for full documentation, visit the Quick Guide in the https://github.com/MCT-master/mct-master.github.io readme
 
 ## hamburger-nav.js
 
@@ -22,7 +36,9 @@ Handles the opening and closing of the hamburger menubar on smaller screens. Als
 
 ## nav-dropdown-click-handler.js
 
-Handles the opening and closing of the dropdown menus on click in both navbars (normal and hamburger-style). Is included in `_layouts/header.html`. The btn-dropdown <a></a> elements in the `header.html` all have an onclick function that is handled in this JS file.
+Handles the opening and closing of the dropdown menus on click in both navbars (normal and hamburger-style).
+
+The js file is included in `_layouts/header.html`. The btn-dropdown <a></a> elements in the `header.html` all have an onclick function that is handled in this JS file.
 
 ## pre-commit
 

@@ -17,7 +17,7 @@ At [MCT](https://www.uio.no/english/studies/programmes/mct-master/), we have bee
 
 **Demo -** `30ms audio delay from left to right ear:`
 
-<div class="waveform" id="thirtymsdemo"></div>
+<div class="waveform" path="/assets/audio/2022_04_01_aleksati_165ms_delay_demo.mp3" splitChannels></div>
 
 In late 2021, we got in touch with Telenor to explore the feasibility of conducting NMPs over 5G. Telenor is currently involved in multiple EU-funded projects that, in part, explore the application of 5G to music technology, including [Fudge5G](https://fudge-5g.eu/en) and [5GMediaHub](https://www.5gmediahub.eu/). During a two-week period in late March 2022, we did a series of experiments on a commercial and private 5G network in collaboration with Telenor Research. In this post, we present these experiments in detail, explaining the technical setup, methods, and preliminary results.
 
@@ -209,7 +209,7 @@ Using the above configuration, we measured a 110ms digital RTT and a **165ms** a
 
 **Demo -** `165ms audio delay from left to right ear:`
 
-<div class="waveform" id="hundredandsixtyfivemsdemo"></div>
+<div class="waveform" path="/assets/audio/2022_04_01_aleksati_165ms_delay_demo.mp3" splitChannels></div>
 
 For video, we were able to use the Ximea low-latency cameras with Lola as the software utilizes a different buffering strategy for video transfer. After experimenting with various settings and buffering tools, we achieved a stable transmission with some drops (mostly not visible to human eyes) using the following settings:
 
@@ -277,7 +277,7 @@ Using the above configurations we measured a 55-60ms digital RTT and an analog R
 
 **Demo -** `74ms audio delay from left to right ear:`
 
-<div class="waveform" id="seventyfourmsdemo"></div>
+<div class="waveform" path="/assets/audio/2022_04_01_aleksati_74ms_delay_demo.mp3" splitChannels></div>
 
 # Summary and Concluding Thoughts
 
@@ -324,108 +324,3 @@ Our plans are now to do more testing at Telenor's Oslo Hub at Fornebu in the sum
 [5] Schuett, N. (2002). The Effect of Latency on Ensemble Performance, Technical Report at CCRMA
 Department of Music, Stanford University, Stanford, USA. <br/> <br/>
 </small>
-
-<!-- END OF BLOG POST -->
-
-<style>
-
-.btn {
-  background-color: #ffffff;
-  color: black;
-  font-size: 20px;
-
-  border: 1px solid black;
-  padding: .375rem .75rem;
-  font-size: 1rem;
-  border-radius: .25rem;
-  /* transition: box-shadow 0.2s ease-in-out; */
-    transition: color .15s ease-in-out,background-color .15s ease-in-out;
-}
-
-.btn:hover {
-    background-color: black;
-    color: white;
-}
-
-button:not(:disabled) {
-  cursor: pointer;
-}
-
-code {
-  color: #e83e8c;
-  /* word-wrap: break-word; */
-}
-
-.waveform {
-  display: flex;
-  flex-direction: column;
-  width: 90%;
-  /* margin: auto; */
-  margin-bottom: 30px !important;
-}
-
-</style>
-
-<!-- external lib used to display waveforms -->
-<script src="https://unpkg.com/wavesurfer.js@5.0.1/dist/wavesurfer.js"></script>
-
-<script>
-
-const myAudio = [
-    {
-        path: "/assets/audio/2022_04_01_aleksati_165ms_delay_demo.mp3",
-        anchor: "hundredandsixtyfivemsdemo",
-        color: "#1869ca",
-        alert: false,
-    },
-    {
-        path: "/assets/audio/2022_04_01_aleksati_30ms_delay_demo.mp3",
-        anchor: "thirtymsdemo",
-        color: "#ffa600",
-        alert: false,
-    },
-    {
-        path: "/assets/audio/2022_04_01_aleksati_74ms_delay_demo.mp3",
-        anchor: "seventyfourmsdemo",
-        color: "#328d78",
-        alert: false,
-    }
-];
-
-const addPlayText = (sample) => "Play" + (sample.alert ? "  ⚠️" : "");
-
-myAudio.forEach((sample) => {
-    const id = sample.anchor;
-    const waveformDiv = document.querySelector("#" + id);
-
-    const playButton = document.createElement("button");
-    playButton.id = "button-" + id;
-    playButton.style.margin = "auto";
-    playButton.classList = "btn btn-primary";
-    playButton.innerText = "Play";
-
-    const wavesurfer = WaveSurfer.create({
-        container: "#" + id,
-        mediaControls: true,
-        height: 64,
-        waveColor: sample.color,
-        splitChannels: true,
-    });
-    wavesurfer.load(sample.path);
-    wavesurfer.once("ready", () => {
-        waveformDiv.appendChild(playButton);
-        playButton.onclick = () => {
-            wavesurfer.playPause();
-            if (playButton.innerText.startsWith("Pause")) {
-                playButton.innerText = "Play";
-            } else if (playButton.innerText.startsWith("Play")) {
-                playButton.innerText = "Pause";
-            }
-        };
-    });
-    wavesurfer.once("finish", () => {
-        playButton.innerText = "Play";
-    });
-});
-
-</script>
