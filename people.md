@@ -85,7 +85,7 @@ On this page you can find information about current and past students. Directly 
     <summary><h4>UiO, Oslo</h4></summary>
     <a href="/authors/alexanderwastnidge.html">Alexander Wastnidge</a>
     <a href="/authors/aysimababa.html">Aysima Baba</a>
-    <a href="/authors/christianthobroe.html">Christian Thobroe</a>
+    <a href="/authors/christianthobroeanda.html">Christian Thobroe Anda</a>
     <a href="/authors/eminmemis.html">Emin Memis</a>
     <a href="/authors/endrialickaj.html">Endri Alickaj</a>
     <a href="/authors/fabianstordalen.html">Fabian Stordalen</a>
