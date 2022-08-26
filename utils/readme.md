@@ -20,7 +20,7 @@ There is also a series of CSS classes in `assets/main.scss` associated with the 
 
 for full documentation, visit the Quick Guide in the https://github.com/MCT-master/mct-master.github.io readme
 
-# waveform.js
+## waveform.js
 
 This enables the use of a fancy audio player in blog posts.
 
