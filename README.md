@@ -246,9 +246,11 @@ The best way to embed audio to a blog post is to use our custom [WaveSurfer](htt
 
 `<div class="waveform" path="PATH-TO-AUDIO"></div>`
 
-You can also add a custom color and a split stereo view of your waveform. To add a custom color, just add a `color="HEX-OR-RGB-COLOR"` attribute to your waveform div. For the split audio channel view, just add a `splitChannels` flag in the waveform div.
+With additional features: 
 
 `<div class="waveform" path="PATH-TO-AUDIO" color="#56BBCC" splitChannels></div>`
+
+By default, each waveform gets assigned a color. However, you can add a custom color to your waveform through the color attribute. You can also choose to see each audio channel individually in a vertical fashion by using the splitChannels flag. If not specified, a normal waveform style is used. 
 
 You can also create a simpler audio player by wrapping a `<audio/>` element inside a `<figure/>` container.
 
