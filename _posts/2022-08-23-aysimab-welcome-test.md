@@ -35,14 +35,6 @@ Sth about Aysima
 
 Sth about Fabian
 
-<figure style="float: none">
-   <img
-      src="https://www.uio.no/english/studies/programmes/mct-master/blog/assets/image/2022_08_23_fabianst_picture.jpg"
-      alt="Alternative Text"
-      title="In action"
-      width="auto" />
-   <figcaption>In action</figcaption>
-</figure>
 
 ### Olve Skjeggedal
 
