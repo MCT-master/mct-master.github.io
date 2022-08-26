@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Meet MCT Team C 2022"
-date:   2022-08-23 10:10:42 +0200
+date:   2022-08-26 14:10:42 +0200
 categories: people
 author: Alexander Wastnidge, Aysima Karcaaltincaba, Fabian Stordalen, Olve Skjeggedal
 image: https://www.uio.no/english/studies/programmes/mct-master/blog/assets/image/2022_08_23_aysimab_teamc.jpeg
@@ -26,11 +26,11 @@ Have a look at our individual sections below to learn more about each of us.
       style="max-height:600px; width:auto;" />
    <figcaption>Team C Competences</figcaption>
 </figure>
-
-
 As a whole, we see Team C as having a set of complimentary skillsets.  While Aysima and Olve have backgrounds in computer science and engineering respectively, Fabian and Alex have backgrounds more centred around music and production.  This complimentary combination of skills has already proved fruitful, with Team C competing and achieving second place in the C2HO opening hackathon.
+
 # Team members
 
+Lets hear more about who we are!
 
 ## Alex Wastnidge
 
@@ -46,7 +46,7 @@ My name is Alex Wastnidge and my background is in Music Production, Audio Engine
 
 I also have seven year’s experience of working in creative education teaching everything from DAW music production, audio engineering and film sound.  The intersections of personal creativity with the wider spheres of technology and society is an area of great interest to me which I look forward to exploring in this course.
 
-[From Beyond - Soundcloud](https://soundcloud.com/from_beyond)
+[From Beyond - Soundcloud](https://soundcloud.com/from_beyond) & 
 [From Beyond - Instagram](https://www.instagram.com/frombeyonduk/)
 
 ## Aysima Karcaaltincaba
@@ -58,9 +58,9 @@ I also have seven year’s experience of working in creative education teaching 
    <figcaption>Creating happy noises in Frogner Park</figcaption>
 </figure>
 
-Hello! I am Aysima and I am a Software Engineer with a bachelor degree in Mathematical Engineering. She graduated ten years ago and has been working on cloud systems as a full stack developer. In the last three years, my role has been developing services for an online meeting platform which focuses on hybrid and remote meeting solutions, therefore I am interested in learning how hybrid and remote setups can work for music performances. 
+Hello! I am Aysima and I am a Software Engineer with a bachelor degree in Mathematical Engineering. I graduated ten years ago and have been working on cloud systems as a full stack developer. In the last three years, my role has been developing services for an online meeting platform which focuses on hybrid and remote meeting solutions, therefore I am interested in learning how hybrid and remote setups can work for music performances. 
         
-I have been playing accordion and learning different dances for some years. Music and performance arts has been something I tried to pursuit for a long time but I think that I couldnt have the enough dicipline and focus in order to be productive at those two areas. 
+I have been playing accordion and learning different dances for some years. Music and performance arts have been something I tried to pursuit for a long time but I think I lacked dicipline and focus in order to be productive at those two areas. 
 
 I know programming but I have no idea about sound, electronics and even music. I am seeing this programme as an oportunity to learn from others and produce solutions which brings programming, hybrid communication and music together.
 
