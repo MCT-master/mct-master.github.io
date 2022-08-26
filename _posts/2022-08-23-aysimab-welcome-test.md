@@ -26,7 +26,11 @@ Have a look at our individual sections below to learn more about each of us.
 
 ## Alex Wastnidge
 
-Sth about Alex
+
+<img src='/assets/image/2022_08_26_alexanjw_awphoto' width="auto"/>
+My name is Alex Wastnidge and my background is in Music Production, Audio Engineering and Education.  As a music producer I have been a signed artist under the moniker “From Beyond” since 2018.  I have also been involved in creating music for picture, AV and other projects.  As an audio engineer I have been a freelance recording, mixing and mastering engineer for music and online content working mostly with independent artists, labels, podcasters and film makers.
+
+I also have seven year’s experience of working in creative education teaching everything from DAW music production, audio engineering and film sound.  The intersections of personal creativity with the wider spheres of technology and society is an area of great interest to me which I look forward to exploring in this course.
 
 ## Aysima Karcaaltincaba
 
