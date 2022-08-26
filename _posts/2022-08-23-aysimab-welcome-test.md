@@ -13,7 +13,7 @@ keywords: jekyll, blog
     <img src='https://www.uio.no/english/studies/programmes/mct-master/blog/assets/image/2022_08_23_aysimab_teamc.jpeg' width="auto"/>
 </figure>
 
-## About our team
+# Who are we
 
 The members of Team C all share the ambition of really getting out of our individual comfort zones as we work our way through the MCT programme! We came together with quite diverse academic and professional backgrounds, but quickly found that there is a lot of common ground between us at various levels. We look forward to collaborating, learning, sharing and hopefully creating a lot of great things together over the coming two years!
 
@@ -21,14 +21,14 @@ Have a look at our individual sections below to learn more about each of us.
 
 <img src='/assets/image/2022_08_25_aysimab_teamC.png' width="auto"/>
 
-## Team members
+# Team members
 
 
-### Alex Wastnidge
+## Alex Wastnidge
 
 Sth about Alex
 
-### Aysima Karcaaltincaba
+## Aysima Karcaaltincaba
 
 <figure style="float: none">
    <img
@@ -43,7 +43,7 @@ She has been playing accordion and learning different dances for several years. 
 
 She knows programming but she has no idea about sound, electronics and even music. She is seeing this programme as an oportunity to learn from others and produce solutions which brings programming, hybrid communication and music together. 
 
-### Fabian Stordalen
+## Fabian Stordalen
 
 <figure style="float: none">
    <img
@@ -56,7 +56,7 @@ She knows programming but she has no idea about sound, electronics and even musi
 
 Hello! I'm Fabian. I got Bachelor in Musicology from the University of Oslo specializing in music philosophy. My thesis explored the relationship between popular music and nostalgia, looking at different ways the past is used to todays music and how it affects our thoughts and feelings about the future. I have a passion for music production and (old) electronic music which naturally led me to the MCT program. What interests me in particular is getting a deeper understanding of the tools used in production and the interactivity between humans and computers.
 
-### Olve Skjeggedal
+## Olve Skjeggedal
 
 <figure style="float: none">
    <img
