@@ -244,11 +244,15 @@ Usually you can copy the `<iframe>` element with all fields precompiled directly
 
 The best way to embed audio to a blog post is to use our custom [WaveSurfer](https://wavesurfer-js.org/) audio widget. Simply add a `<div></div>` to your post with a waveform class and the path to your audio:
 
-`<div class="waveform" path="PATH-TO-AUDIO"></div>`
+```HTML
+<div class="waveform" path="PATH-TO-AUDIO"></div>
+```
 
 With additional features: 
 
-`<div class="waveform" path="PATH-TO-AUDIO" color="#56BBCC" splitChannels></div>`
+```HTML
+<div class="waveform" path="PATH-TO-AUDIO" color="#56BBCC" splitChannels></div>
+```
 
 By default, each waveform gets assigned a color. However, you can add a custom color to your waveform through the color attribute. You can also choose to see each audio channel individually in a vertical fashion by using the splitChannels flag. If not specified, a normal waveform style is used. 
 
