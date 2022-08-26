@@ -81,7 +81,7 @@ On this page you can find information about current and past students. Directly 
   </details>
 
   <h2>2022-2024</h2>
-  <details>
+  <details>
     <summary><h4>UiO, Oslo</h4></summary>
     <a href="/authors/alexanderwastnidge.html">Alexander Wastnidge</a>
     <a href="/authors/aysimakarcaaltincaba.html">Aysima Karcaaltincaba</a>
