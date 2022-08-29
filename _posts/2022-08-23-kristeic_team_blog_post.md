@@ -58,7 +58,7 @@ After spending the last few years working in arts marketing for theatre and oper
 
 Outside of music he can be found watching Formula 1, thinking he’s Gordon Ramsay while cooking questionable food, or playing strategy and simulation video games.
 
-[https://www.hathuwic.com/](https://www.hathuwic.com/)
+[https://www.hathuwic.com/] https://www.hathuwic.com/)
 
 
 
