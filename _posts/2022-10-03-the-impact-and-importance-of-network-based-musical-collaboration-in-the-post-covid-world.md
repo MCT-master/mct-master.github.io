@@ -6,7 +6,7 @@ categories: other
 author: Iosif Aragiannis
 image: /assets/image/2022_10_03_telematic_concert.jpg
 keywords: MCT, musical collaboration, networked music performance software, LoLa, JamKazam, Jamulus, live music
-excerpt: Traditionally, collaborative music making has predominantly been face-to-face, synchronous and interactive, with reliance on recording and production technologies for dissemination and archiving. However, the emergence of electroacoustic synthesis and processing, along with interactive digital systems, has brought new technologies to the forefront of music practices.
+excerpt: The Covid-19 pandemic offered a unique opportunity (and necessity) to focus on the creative usage (and further development) of the technological tools used for network-based musical collaboration.
 ---
 
 ![Photo of a Telematic Jam](/assets/image/2022_10_03_telematic_jam.jpg "Telematic Jam")
