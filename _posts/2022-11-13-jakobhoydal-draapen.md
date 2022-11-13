@@ -4,7 +4,7 @@ title: "Dråpen - Largest interactive music system"
 date: 2022-11-13 09:00:00 +0200
 categories: interactive-music
 author: Jakob Høydal
-image: /assets/image/2022-11-13-jakobhoydal-bekkelagetRenseanlegg.jpg
+image: /assets/image/2022_11_13_jakobhoydal_bekkelagetRenseanlegg.jpg
 keywords: interactive music system, dråpen, installation, poop
 excerpt: "This may be the largest interactive music system you have heard about"
 ---
@@ -13,7 +13,7 @@ excerpt: "This may be the largest interactive music system you have heard about"
    <iframe
       width="100%"
       height="315"
-      src="https://www.youtube.com/watch?v=39I1dimBzT4"
+      src="https://www.youtube.com/embed/39I1dimBzT4"
       title="YouTube video player"
       frameborder="0"
       allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
@@ -29,7 +29,7 @@ The plant is located on the east side of Oslofjord inside a mountain. Large hall
 **The system** is controlled by the amount of fluid that runs trough the system. The selection of audio, consisting of concrete and obscure sounds is selected on the basis of control data from the plant of which part of the processing it is in. The concrete sounds consist of children crying, polish burial orchestra, airport sounds, gunshots and more. 32 speakers, 2500 meters of cabling and 12 reverb processors can reorganise the audio in 500 million ways based on the sensors of the plant.
 
 <figure style="float: none">
-   <img src="/assets/image/2022-11-13-jakobhoydal-arnenordheim.jpg" alt="Arne Nordhiem" title="" width="auto" />
+   <img src="/assets/image/2022_11_13_jakobhoydal_arnenordheim.jpg" alt="Arne Nordhiem" title="" width="auto" />
    <figcaption><i>Arne Nordhiem in 1968. Source: Trondheim byarkiv, The Municipal Archives of Trondheim</i></figcaption>
 </figure>
 
