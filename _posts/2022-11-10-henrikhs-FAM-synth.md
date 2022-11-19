@@ -25,15 +25,15 @@ One thing is that I don’t know exactly how to integrate a screen into a setup.
 
 |Button Combination| Main Menu | Parameter| LED |
 |-|-|-|-|
-|B1 |  FM | Amount| Turquise |
+|B1 |  FM | Amount| Turquoise |
 |B1  + B2 | FM | Ratio| Pink |
 |B1 + B3 | FM | Detune| Yellow |
 |B1 + B2 + B3 | FM | ADSR| Red |
-|B2 | AM | Amount| Turquise |
+|B2 | AM | Amount| Turquoise |
 |B2  + B1 | AM | Ratio| Pink |
 |B2 + B3 | AM | Detune| Yellow |
 |B2 + B1 + B3 | AM | ADSR| Red |
-|B3 | Amp | Cassette Analog FM Amount| Turquise |
+|B3 | Amp | Cassette Analog FM Amount| Turquoise |
 |B3  + B1 | Amp | Stereo Modulation Overdrive and Filter| Pink |
 |B3 + B2 | Amp | Detune| Yellow |
 |B3 + B1 + B2 | Amp | ADSR| Red |
