@@ -24,20 +24,20 @@ It consists of one carrier oscillator, one FM modulator and one AM modulator whi
 #### Screenless Menu
 One thing is that I don’t know exactly how to integrate a screen into a setup. Another thing is that I in general feel like the screen is distracting me as a user from interacting with the sounds that I sculpt. So I wanted to make a menu system so I could have one encoder control many parameters, but without having to put information on a screen for feedback. The solution for this was using LED lights. At the end I got three buttons with integrated LEDs. Before this I used regular buttons and LEDs seperately. One button for “FM” menu, one for “AM” menu and one for “Amp” menu. Firstly I wanted to detect which button is pressed first to enter one of these three main menus. When the first button is pushed down, then the other buttons will enter the sub menus. The submenu is accessed once a held button is released. The system is mapped as this:
 
-B1 = FM amount
-B1  -> B2 = FM ratio
-B1 -> B3 = FM detune
-B1 -> B2 -> B3 = FM ADSR
-
-B2 = AM amount
-B2  -> B1 = AM ratio
-B2 -> B3 = AM detune
-B2 -> B1 -> B3 = AM ADSR
-
-B3 = Amp cassette analog FM amount
-B3  + B1 = Amp stereo modulation overdrive and filter
-B3 + B2 = Amp detune
-B3 + B1 + B2 = Amp ADSR
+|Button Combination| Parameter|
+|-|-|
+|B1 |  FM Amount|
+|B1  + B2 | FM Ratio|
+|B1 + B3 | FM Detune|
+|B1 + B2 + B3 | FM ADSR|
+|B2 | AM Amount|
+|B2  + B1 | AM Ratio|
+|B2 + B3 | AM Detune|
+|B2 + B1 + B3 | AM ADSR|
+|B3 | Amp Cassette Analog FM Amount|
+|B3  + B1 | Amp Stereo Modulation Overdrive and Filter|
+|B3 + B2 | Amp Detune|
+|B3 + B1 + B2 | Amp ADSR|
 
 The button LEDs are indicating the main menu (FM, AM or Amp) and a RGB LED is indicating which submenu is active.
 1 = Turquoise
