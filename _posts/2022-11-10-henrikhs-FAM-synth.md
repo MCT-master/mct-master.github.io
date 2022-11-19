@@ -9,15 +9,19 @@ keywords: motion tracking, sonification, posture, max, msp, jitter
 excerpt: "A simple digital synthesizer with the potential of sounding big, complex and kind of analog. Screenless menudiving included."
 ---
 
+<figure style="float: none">
+   <img src="/assets/image/2022_11_10_henrikhs_fffamfinal2.jpg" alt="mage not showing? Will try to fix it." title="Image Title" width="auto" />
+   <figcaption>Final version of FAM.</figcaption>
+</figure>
 
-#FAM Blog post
+# FAM Blog post
 
 For my MCT4054 Interactive Music Systems midway project I made a FM/AM synthesizer with analog modulation. FM and AM can be very digital sounding, so I wanted to explore and expand some features in this specific synthesis model. Everything was made in Pure Data.
 
-####Sound Engine
+#### Sound Engine
 It consists of one carrier oscillator, one FM modulator and one AM modulator which i quitesimole, though the combination of FM and AM in itself opens for some new sonic possibilities as they have different sonic attributes. Ratio is selected from a set of harmonic intervals and modulation amount can be set from 0 to 100 %. To expand on this concept I have added stereo detune for all oscillators, which widens the sound and makes the modulation feel quite different from regular mono signal path modulation. This is also a way to access the non-harmonic ratio parameters for the modulators creating bell and metal like sounds. Lastly there is an ADSR for each of the oscillators and a distortion on the summed output for some analog ish grit.
 
-####Screenless Menu
+#### Screenless Menu
 One thing is that I don’t know exactly how to integrate a screen into a setup. Another thing is that I in general feel like the screen is distracting me as a user from interacting with the sounds that I sculpt. So I wanted to make a menu system so I could have one encoder control many parameters, but without having to put information on a screen for feedback. The solution for this was using LED lights. At the end I got three buttons with integrated LEDs. Before this I used regular buttons and LEDs seperately. One button for “FM” menu, one for “AM” menu and one for “Amp” menu. Firstly I wanted to detect which button is pressed first to enter one of these three main menus. When the first button is pushed down, then the other buttons will enter the sub menus. The submenu is accessed once a held button is released. The system is mapped as this:
 
 B1 = FM amount
@@ -53,16 +57,16 @@ On that note I should mention how expressive the synthesizer is. Both FM and AM 
 </figure>
 
 <figure style="float: none">
-   <img
-      src="https://www.uio.no/english/studies/programmes/mct-master/blog/assets/image/2022_11_10_henrikhs_fffam_schematic_comp.jpg"
-      alt="Image not showing? Will try to fix it."
-      title="Image Title"
-      width="auto" />
+   <img src="/assets/image/2022_11_10_henrikhs_fffam_schematic_comp.jpg" alt="mage not showing? Will try to fix it." title="Image Title" width="auto" />
    <figcaption>Schematics for the hardware integration.</figcaption>
 </figure>
 
+<figure style="float: none">
+   <img src="/assets/image/2022_11_10_henrikhs_fffamfinal.jpg" alt="mage not showing? Will try to fix it." title="Image Title" width="auto" />
+   <figcaption>Solderboard.</figcaption>
+</figure>
 
-####Current state and future potential
+#### Current state and future potential
 For further development some sort of feedback on the encoder should be implemented, like a LED ring or strip showing the current value of the selected parameter. Without it the performer is left with listening at the sound and then assuming the current value. An interesting outcome of not knowing the value of every parameter is that the performer could rather spend energy on listening to the sound instead of thinking about the values shown for the parameter. Personally I find that when given information about the technical state of an instrument it can drag my attention away from the actual sound and towards the technical aspects of data and sound synthesis. This matter is highly subjective.
 Soundwise I enjoy the stereo FM and AM modulation. A very simple expansion on an established concept providing quite new sonic results. Musically it creates big textures that are easy to fit into mixes in subtle or aggressive ways. It can create subtle pads that can hide behind other sounds and work in the background to create a stereo room feel without adding reverb, or it can act as lead instrumentation. It naturally creates mallet type sounds of different kinds due to its modulation synthesis basis.
 
