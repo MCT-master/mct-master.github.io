@@ -14,7 +14,6 @@ excerpt: "A simple digital synthesizer with the potential of sounding big, compl
    <figcaption>Final version of FAM.</figcaption>
 </figure>
 
-# FAM Blog post
 
 For my MCT4054 Interactive Music Systems midway project I made a FM/AM synthesizer with analog modulation. FM and AM can be very digital sounding, so I wanted to explore and expand some features in this specific synthesis model. Everything was made in Pure Data.
 
