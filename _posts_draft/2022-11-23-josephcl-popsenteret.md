@@ -4,7 +4,7 @@ title: ""
 date: 2022-11-22 10:00:00 +0200
 categories: applied-project
 author: Joseph Clemente, Hugh Alexander von Arnim, Oliver Getz, Henrik Sveen, Iosif Aragiannis
-image: /assets/image/
+image: https://www.uio.no/english/studies/programmes/mct-master/blog/assets/image/2022_11_23_josephcl_pic3.jpg
 keywords: applied project, sequencer, interactive music, Popsenteret
 excerpt: ""
 ---
@@ -23,7 +23,7 @@ The term “music production” means many different things to different people.
 One of the museum’s interactive experiences is the FUZZ exhibit. This presents various musical instruments to visitors, offering an overview of how they function and showcasing how to recreate several sounds. Currently there are four different stations which present the guitar, bass, drum-kit, and synthesiser. 
 
 <figure style="float: none">
-	<img src="https://www.uio.no/english/studies/programmes/mct-master/blog/assets/image/2022_11_23_josephcl_pic2.jpg"  width="auto" />
+  <img src="https://www.uio.no/english/studies/programmes/mct-master/blog/assets/image/2022_11_23_josephcl_pic2.jpg"  width="auto" />
    <figcaption>Popsenteret's FUZZ exhibition</figcaption>
 </figure>
 
@@ -32,7 +32,7 @@ Our job was to create a fifth station: music production. Since there aren’t in
 # Our Station
 
 <figure style="float: none">
-   <img src="https://www.uio.no/english/studies/programmes/mct-master/blog/assets/image/2022_11_23_josephcl_pic3.jpg"  width="auto" />
+   <img src="https://www.uio.no/english/studies/programmes/mct-master/blog/assets/image/2022_11_23_josephcl_pic3.jpg"  width="70%" height="70%" />
    <figcaption>Our final solution for the FUZZ music producer station</figcaption>
 </figure>
 
@@ -43,7 +43,7 @@ Our station is intended to be a collaborative experience, operated by four visit
 ### Sequencer
 
 <figure style="float: none">
-   <img src="https://www.uio.no/english/studies/programmes/mct-master/blog/assets/image/2022_11_23_josephcl_pic4.jpg"  width="auto" />
+   <img src="https://www.uio.no/english/studies/programmes/mct-master/blog/assets/image/2022_11_23_josephcl_pic4.jpg"  width="70%" height="70%" />
    <figcaption>The station's sequencer section, which uses computer vision to detect if a hole is covered</figcaption>
 </figure>
 
@@ -66,7 +66,7 @@ But the sequencer needs some sounds to play, and this is where the next two stat
 ### Drum Pad
 
 <figure style="float: none">
-   <img src="https://www.uio.no/english/studies/programmes/mct-master/blog/assets/image/2022_11_23_josephcl_pic6.jpg"  width="auto" />
+   <img src="https://www.uio.no/english/studies/programmes/mct-master/blog/assets/image/2022_11_23_josephcl_pic6.jpg"  width="70%" height="70%" />
    <figcaption>The drum pad section of the station</figcaption>
 </figure>
 
@@ -115,7 +115,7 @@ The noises from the guitar are sampled played back by the fifth row of the seque
 Instead of playing the guitar as normal, the user can interact with these components by scraping along the neck, plucking a string, hitting the body with a kick drum pedal, or any other way that they can imagine! 
 
 <figure style="float: none">
-   <img src="https://www.uio.no/english/studies/programmes/mct-master/blog/assets/image/2022_11_23_josephcl_gif2.gif"  width="auto" />
+   <img src="https://www.uio.no/english/studies/programmes/mct-master/blog/assets/image/2022_11_23_josephcl_gif2.gif"  width="35%" height="35%" />
    <figcaption>Interaction with the guitar neck</figcaption>
 </figure>
 
@@ -139,7 +139,7 @@ Instead of playing the guitar as normal, the user can interact with these compon
 </figure>
 
 <figure style="float: none">
-   <img src="https://www.uio.no/english/studies/programmes/mct-master/blog/assets/image/2022_11_23_josephcl_gif4.gif"  width="auto" />
+   <img src="https://www.uio.no/english/studies/programmes/mct-master/blog/assets/image/2022_11_23_josephcl_gif4.gif"  width="35%" height="35%" />
    <figcaption>Interaction with the guitar body</figcaption>
 </figure>
 
@@ -153,14 +153,14 @@ Instead of playing the guitar as normal, the user can interact with these compon
 ### MIDI Keyboard
 
 <figure style="float: none">
-   <img src="https://www.uio.no/english/studies/programmes/mct-master/blog/assets/image/2022_11_23_josephcl_pic11.jpg"  width="auto" />
+   <img src="/assets/image/2022_11_23_josephcl_pic11.jpg"  width="auto" />
    <figcaption>The MIDI keyboard section of the station</figcaption>
 </figure>
 
 The visitor at the keyboard section does something a little different. On top of the rhythmic sequencer the station also has a melodic sequencer. This is represented by a row of eight blocks on the screen. 
 
 <figure style="float: none">
-   <img src="https://www.uio.no/english/studies/programmes/mct-master/blog/assets/image/2022_11_23_josephcl_pic12.jpg"  width="auto" />
+   <img src="https://www.uio.no/english/studies/programmes/mct-master/blog/assets/image/2022_11_23_josephcl_pic12.png"  width="70%" height="70%" />
    <figcaption>The interactive melodic sequence view, which is featured on the station's center touch screen in front of the MIDI keyboard section</figcaption>
 </figure>
 
@@ -183,7 +183,7 @@ Each block represents the same step in time as the rhythmic sequencer, and the p
 Before they start using the station, the visitors pick a genre that they want to recreate. The selected genre determines the sound of the drums and the synthesizer controlled by the two sequencers. It also turns several lights above holes on the rhythmic sequencer red. These holes represent a common rhythmic pattern for the genre. 
 
 <figure style="float: none">
-   <img src="https://www.uio.no/english/studies/programmes/mct-master/blog/assets/image/2022_11_23_josephcl_pic13.jpg"  width="auto" />
+   <img src="https://www.uio.no/english/studies/programmes/mct-master/blog/assets/image/2022_11_23_josephcl_pic13.png"  width="70%" height="70%" />
    <figcaption>The genre selection screen, which is featured on the station's center touch screen facing the deconstructed guitar section</figcaption>
 </figure>
 
@@ -223,7 +223,7 @@ Before they start using the station, the visitors pick a genre that they want to
 ## Effects
 
 <figure style="float: none">
-   <img src="https://www.uio.no/english/studies/programmes/mct-master/blog/assets/image/2022_11_23_josephcl_pic14.jpg"  width="auto" />
+   <img src="https://www.uio.no/english/studies/programmes/mct-master/blog/assets/image/2022_11_23_josephcl_pic14.png"  width="70%" height="70%" />
    <figcaption>The effects grid view, which is featured on the station's center touch screen facing the drum pad section</figcaption>
 </figure>
 
@@ -252,5 +252,3 @@ By moving the Popsenteret logo around the above grid, the visitors can control t
 # Files
 
 If you want to build your own interactive museum exhibit, our design documents and code can be found [here.](tbd)
-
-
