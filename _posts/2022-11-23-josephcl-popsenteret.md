@@ -1,12 +1,12 @@
 ---
 layout: post
-title: ""
-date: 2022-11-22 10:00:00 +0200
+title: "Popsenteret's Music Producer Experience"
+date: 2022-11-25 10:00:00 +0200
 categories: applied-project
 author: Joseph Clemente, Hugh Alexander von Arnim, Oliver Getz, Henrik Sveen, Iosif Aragiannis
 image: https://www.uio.no/english/studies/programmes/mct-master/blog/assets/image/2022_11_23_josephcl_pic3.jpg
-keywords: applied project, sequencer, interactive music, Popsenteret
-excerpt: ""
+keywords: applied project, sequencer, interactive music, Popsenteret, 
+excerpt: "The top 4 components of a physical computing music production station - you'll never guess what #3 is!"
 ---
 
 <figure style="float: none">
@@ -91,7 +91,7 @@ The visitor can also play along to the rhythmic sequence in real time.
 ### Deconstructed Guitar
 
 <figure style="float: none">
-   <img src="https://www.uio.no/english/studies/programmes/mct-master/blog/assets/image/2022_11_23_josephcl_pic7.jpg"  width="auto" />
+   <img src="https://www.uio.no/english/studies/programmes/mct-master/blog/assets/image/2022_11_23_josephcl_pic7.jpg"  width="70%" height="70%" />
    <figcaption>The deconstructed guitar section of the station</figcaption>
 </figure>
 
@@ -99,17 +99,9 @@ The noises from the guitar are sampled played back by the fifth row of the seque
 
 <figure style="float: none">
    <img src="https://www.uio.no/english/studies/programmes/mct-master/blog/assets/image/2022_11_23_josephcl_pic8.jpg"  width="auto" />
-   <figcaption>The guitar neck with the drum stick used to scrape along the neck</figcaption>
-</figure>
-
-<figure style="float: none">
-   <img src="https://www.uio.no/english/studies/programmes/mct-master/blog/assets/image/2022_11_23_josephcl_pic9.jpg"  width="auto" />
-   <figcaption>The guitar strings, which consist of a bass string and electric guitar string, both sharing the same input, on a custom built body</figcaption>
-</figure>
-
-<figure style="float: none">
-   <img src="https://www.uio.no/english/studies/programmes/mct-master/blog/assets/image/2022_11_23_josephcl_pic10.jpg"  width="auto" />
-   <figcaption>The guitar body with a kick pedal next to it to encourage users to hit it</figcaption>
+   <figcaption>Left: The guitar neck</figcaption>
+   <figcaption>Middle: The guitar strings, which consist of a bass string and electric guitar string, both sharing the same input, on a custom built body</figcaption>
+   <figcaption>Right: The guitar body with a kick pedal next to it to encourage users to hit it</figcaption>
 </figure>
 
 Instead of playing the guitar as normal, the user can interact with these components by scraping along the neck, plucking a string, hitting the body with a kick drum pedal, or any other way that they can imagine! 
@@ -189,28 +181,28 @@ Before they start using the station, the visitors pick a genre that they want to
 
 <figure style="float: none">
   <audio controls>
-    <source src="https://www.uio.no/english/studies/programmes/mct-master/blog/assets/audio/2022_11_23_josephcl_sound7.wav" type="audio/wav">
+    <source src="/assets/audio/2022_11_23_josephcl_sound7.wav" type="audio/wav">
   </audio>
   <figcaption>Sound of the "Pop" genre snare</figcaption>
 </figure>
 
 <figure style="float: none">
   <audio controls>
-    <source src="https://www.uio.no/english/studies/programmes/mct-master/blog/assets/audio/2022_11_23_josephcl_sound8.wav" type="audio/wav">
+    <source src="/assets/audio/2022_11_23_josephcl_sound8.wav" type="audio/wav">
   </audio>
   <figcaption>Sound of the "House" genre snare</figcaption>
 </figure>
 
 <figure style="float: none">
   <audio controls>
-    <source src="https://www.uio.no/english/studies/programmes/mct-master/blog/assets/audio/2022_11_23_josephcl_sound9.wav" type="audio/wav">
+    <source src="/assets/audio/2022_11_23_josephcl_sound9.wav" type="audio/wav">
   </audio>
   <figcaption>Sound of the "Pop" genre synth</figcaption>
 </figure>
 
 <figure style="float: none">
   <audio controls>
-    <source src="https://www.uio.no/english/studies/programmes/mct-master/blog/assets/audio/2022_11_23_josephcl_sound10.wav" type="audio/wav">
+    <source src="/assets/audio/2022_11_23_josephcl_sound10.wav" type="audio/wav">
   </audio>
   <figcaption>Sound of the "House" genre synth</figcaption>
 </figure>
@@ -251,4 +243,17 @@ By moving the Popsenteret logo around the above grid, the visitors can control t
 
 # Files
 
-If you want to build your own interactive museum exhibit, our design documents and code can be found [here.](tbd)
+If you want to build your own interactive museum exhibit, our design documents and code can be found [here.](https://github.com/jpclemente97/PopsenteretProducerStation)
+
+# Image Sources
+
+https://upload.wikimedia.org/wikipedia/commons/2/2e/Engineer_at_audio_console_at_Danish_Broadcasting_Corporation.png
+
+https://upload.wikimedia.org/wikipedia/commons/7/7c/Beatles_and_George_Martin_in_studio_1966.JPG
+
+https://in2english.net/wp-content/uploads/2019/03/marshmellow-electronic-music-producer.jpg
+
+https://s3-ap-northeast-1.amazonaws.com/miroc-web-corporate-uploads/wp-content/uploads/2019/05/11133012/20190510SB19_1DAY_24_.jpg
+
+https://support.apple.com/library/content/dam/edam/applecare/images/en_US/proapps/logic/logic-pro-x-step-sequencer.jpg
+
