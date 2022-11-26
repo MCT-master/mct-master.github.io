@@ -11,9 +11,9 @@ excerpt: "Have you ever seen choreographed lightning?"
 
 <figure style="float: none">
    <iframe
-      width="100%"
+      width="560"
       height="315"
-      src="https://www.youtube.com/watch?v=psoLXEBmfRg"
+      src="https://www.youtube.com/embed/psoLXEBmfRg"
       title="YouTube video player"
       frameborder="0"
       allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
