@@ -48,11 +48,15 @@ We conducted a total 144 audio test over different network configurations. The m
 * Telenor 5G experimental
 For each network configuration we tested three different sample rates (44kHz, 48kHz and 96kHz), with different buffer sizes (64, 128, 256, 512, 1024). The latency was measured in RoundTrip Time (RTT).   
 The values obtained from testing with ethernet was considered as our baseline, which enables us to show just how much latency each different network configuration and setup adds.  
-(add table added latency in ms for network configs from presentation)
+<figure style="float: none">
+   <img src="/assets/image/2022_11_27_arvidf_added_latency.jpg" alt="Added latency compared to ethernet baseline" title="" width="auto" />
+   <figcaption><i>Added latency compared to ethernet baseline</i></figcaption>
+</figure>
+The commercial 5G causes latency way above what is considered acceptable for a NMP, while the Telenor 5G Experimental delivers promising results in terms of latency. 
 
 ## Example audio quality with packet loss
 
-Besides of latency, the quality of the audio can be affected by the network transmission. The following examples are taken from 5G commercial network tests between Oslo and Svalbard. When packet loss affects the audio quality to this extent latency itself is not the only problem. Notice how it improves as the buffer size increases. 
+Besides of latency, the quality of the audio can be affected by the network transmission. The following examples are taken from 5G commercial network tests between Oslo and Svalbard. When packet loss affects the audio quality to this extent latency itself is not the only problem. Notice how it improves as the buffer size increases.
 
 **Buffer size 64**
 
