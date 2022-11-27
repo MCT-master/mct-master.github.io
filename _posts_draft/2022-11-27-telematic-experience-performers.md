@@ -6,7 +6,7 @@ categories: interactive-music
 author: Alexander Wastnidge, Aysima Karcaaltincaba, Iosif Aragiannis
 image: https://www.uio.no/english/studies/programmes/mct-master/blog/assets/image/194752616-f94ee4fe-9179-4c56-a011-efd9d250962f.jpg
 keywords: telematic, performance, network
-excerpt: "Telematic Concert between Salen and Portal"
+excerpt: "Reflections on semester's first Telematic Concert"
 ---
 
 
@@ -33,6 +33,13 @@ In our case, probably owing to the fact that both locations were in the same bui
 </figure>
 
 Learning how to communicate through Lola was very important, especially due to the improvisational nature and somewhat fluid structure of our music, proving to be our biggest challenge. Specifically, it was difficult to communicate verbally during the final rehearsal, since if one of us had something to say we needed to give that microphone priority and pause the rehearsal, which overall slowed us down and made the rehearsal less efficient. A dedicated talkback microphone in the Portal may have helped with this. However, during the day of the concert we did have satisfactory communication, thanks to the rehearsals and time we spent practicing together as well as individually, resulting in the pieces working efficiently from the first run-through over the network. Additionally, we had also decided who was going to cue which pieces and sections while we were rehearsing in the same room, making the transition to Lola less jarring. The biggest take away we think is that practice and great planning makes perfect.
+
+<figure style="float: none">
+   <img
+      src="https://www.uio.no/english/studies/programmes/mct-master/blog/assets/image/photo_5897506065170414128_y.jpg"
+      style="max-height:600px; width:auto;" />
+   <figcaption>Another rehearsal</figcaption>
+</figure>
 
 Ultimately we did not execute all the marketing ideas we intended due to time constraints. It could have helped attract a larger in-person audience if we had shared the event more widely with printed posters and sharing through email lists.
 
