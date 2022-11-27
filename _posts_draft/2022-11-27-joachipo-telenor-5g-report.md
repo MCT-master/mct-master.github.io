@@ -39,9 +39,20 @@ As a concluding part of our test phase, we spent the two days at the Telenor Tes
   </video>
 </figure>
 
+## Latency
+
+We conducted a total 144 audio test over different network configurations. The main network configurations were:
+* Ethernet
+* WiFi(LAN)
+* Commercial 5G
+* Telenor 5G experimental
+For each network configuration we tested three different sample rates (44kHz, 48kHz and 96kHz), with different buffer sizes (64, 128, 256, 512, 1024). The latency was measured in RoundTrip Time (RTT).   
+The values obtained from testing with ethernet was considered as our baseline, which enables us to show just how much latency each different network configuration and setup adds.  
+(add table added latency in ms for network configs from presentation)
+
 ## Example audio quality with packet loss
 
-The following examples are taken from 5G commercial network tests between Oslo and Svalbard.
+The following examples are taken from 5G commercial network tests between Oslo and Svalbard. When packet loss affects the audio quality to this extent latency itself is not the only problem.
 
 **Buffer size 64**
 
