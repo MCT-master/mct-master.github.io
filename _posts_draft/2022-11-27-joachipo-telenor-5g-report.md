@@ -52,7 +52,7 @@ The values obtained from testing with ethernet was considered as our baseline, w
    <img src="/assets/image/2022_11_27_arvidf_added_latency.jpg" alt="Added latency compared to ethernet baseline" title="" width="auto" />
    <figcaption><i>Added latency compared to ethernet baseline</i></figcaption>
 </figure>
-The commercial 5G causes latency way above what is considered acceptable for a NMP, while the Telenor 5G Experimental delivers promising results in terms of latency. 
+The commercial 5G causes latency way above what is considered acceptable for a NMP, while the Telenor 5G Experimental delivers promising results in terms of latency.
 
 ## Example audio quality with packet loss
 
