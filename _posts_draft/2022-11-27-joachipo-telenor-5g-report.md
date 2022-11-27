@@ -52,7 +52,7 @@ The values obtained from testing with ethernet was considered as our baseline, w
 
 ## Example audio quality with packet loss
 
-The following examples are taken from 5G commercial network tests between Oslo and Svalbard. When packet loss affects the audio quality to this extent latency itself is not the only problem.
+Besides of latency, the quality of the audio can be affected by the network transmission. The following examples are taken from 5G commercial network tests between Oslo and Svalbard. When packet loss affects the audio quality to this extent latency itself is not the only problem. Notice how it improves as the buffer size increases. 
 
 **Buffer size 64**
 
