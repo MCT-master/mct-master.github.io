@@ -1,8 +1,8 @@
 ---
 layout: post
-title: "5G networks for Networked Musical Performances (NMP)"
+title: "Exploration of 5G networks for Networked Musical Performances"
 date: 2022-11-27 08:00:00 +0200
-categories: portal
+categories: applied-project
 author: Arvid Falch, Jakob Høydal, Joachim Poutaraud, Kristian Wentzel, Sofía González
 image: /assets/image/2022_11_27_joachipo_p2p.jpg
 excerpt: "A latency optimization methodology for NMP."
@@ -27,31 +27,24 @@ As a concluding part of our test phase, we spent the two days at the Telenor Tes
 </figure>
 
 
-<figure style="float: none">
-  <video width="auto" controls>
-    <source src="https://www.uio.no/english/studies/programmes/mct-master/blog/assets/video/2022_11_27_jakobhoydal_5Gnmp-Song1.mp4" type='video/mp4'>
-  </video>
-</figure>
 
-<figure style="float: none">
-  <video width="auto" controls>
-    <source src="https://www.uio.no/english/studies/programmes/mct-master/blog/assets/video/2022_11_27_jakobhoydal_5Gnmp-Song2.mp4" type='video/mp4'>
-  </video>
-</figure>
 
 ## Latency
 
 We conducted a total 144 audio test over different network configurations. The main network configurations were:
 * Ethernet
-* WiFi(LAN)
+* WiFi (LAN)
 * Commercial 5G
 * Telenor 5G experimental
+
 For each network configuration we tested three different sample rates (44kHz, 48kHz and 96kHz), with different buffer sizes (64, 128, 256, 512, 1024). The latency was measured in RoundTrip Time (RTT).   
-The values obtained from testing with ethernet was considered as our baseline, which enables us to show just how much latency each different network configuration and setup adds.  
+The values obtained from testing with ethernet was considered as our baseline, which enables us to show just how much latency each different network configuration and setup adds. 
+
 <figure style="float: none">
    <img src="/assets/image/2022_11_27_arvidf_added_latency.jpg" alt="Added latency compared to ethernet baseline" title="" width="auto" />
    <figcaption><i>Added latency compared to ethernet baseline</i></figcaption>
 </figure>
+
 The commercial 5G causes latency way above what is considered acceptable for a NMP, while the Telenor 5G Experimental delivers promising results in terms of latency.
 
 ## Example audio quality with packet loss
@@ -60,95 +53,93 @@ Besides of latency, the quality of the audio can be affected by the network tran
 
 **Buffer size 64**
 
-<div class="waveform" id="64_buffer"></div>
+<div class="waveform" id="buffer64"></div>
 
 **Buffer size 128**
 
-<div class="waveform" id="128_buffer"></div>
+<div class="waveform" id="buffer128"></div>
 
 **Buffer size 256**
 
-<div class="waveform" id="256_buffer"></div>
+<div class="waveform" id="buffer256"></div>
+
+## Network Music Performance over 5G
+
+
+On basis of the test results with the Telenor’s commercial and experimental 5G, the commercial network was chosen for the Networked Music Performance (NMP) even though latency was significantly higher, due to dropout problems with the experimental network.
+
+We used a Master Slave Approach (MSA) since the latency was greater than 25ms. This approach is a compromise for conventional rhythmical music, where one performer (Master) ignores the return signal from the other performer (Slave), as illustrated in the figure below. It can be hard for for the master and slave to be in musical sync, since the master has such a high latency back to them. It is also important that the master can perform independent form the slave.
+
+
+
+<figure style="float: none">
+   <img src="/assets/image/2022_11_28_jakobhoydal_master-slave_approach.png
+" alt="Telenor Villa Hareløkken" title="" width="auto" />
+   <figcaption><i>Master-Slave approach</i></figcaption>
+</figure>
+
+Clicks and pops were audible but can be acceptable when practicing or doing a small showcase. It is not pleasant to listen to a concert with constant popping. This ocurred due to the low buffersize in JackTrip. A higher buffersize will increase latency, but improve quality. Nonetheless, latency could have been further lowered on the experimental network at 48kHz sample rate, 128 bffer size. 
+
+
+<figure style="float: none">
+  <video width="auto" controls>
+    <source src="https://www.uio.no/english/studies/programmes/mct-master/blog/assets/video/2022_11_27_jakobhoydal_5Gnmp-Song1.mp4" type='video/mp4'>
+  </video>
+</figure>
+
+<figure style="float: none">
+  <video width="auto" controls>
+    <source src="https://www.uio.no/english/studies/programmes/mct-master/blog/assets/video/2022_11_27_jakobhoydal_5gnmp-song2.mp4" type='video/mp4'>
+  </video>
+</figure>
+
+## Conclusion
+
+The next generation of mobile communication - 5G can be used for network music performances. But the commercial standard today lacks the required low latency needed for communication without applying Master Slave Approaches or Latency Accepting Approaches. Telenor’s experimental 5G network performs much better than the commercial network in terms of latency and jitter, but it is too unstable to be used for an extended time.
+
+It is clear that the experimental network has advantages in comparison to the commercial network. A comparison between Oslo-Oslo vs. Oslo-Svalbard shows that it is the RANs contributes the most to the latency in the total system, and not the transport layer of the 5G network.
+
+<figure style="float: none">
+   <img src="/assets/image/2022_11_28_jakobhoydal_Telenor5GTeams.jpg" alt="Telenor Villa Hareløkken" title="" width="auto" />
+   <figcaption><i>The team. From left to right: Kristian Wentzel, Joachim Poutaraud, Jakob Høydal, Arvid Falch,  Sofía González</i></figcaption>
+</figure>
 
 
 ## Additional ressources
 Source code for streaming audio over UDP and monitoring latency is available here: [https://github.com/joachimpoutaraud/udp-audio-stream-latency](https://github.com/joachimpoutaraud/udp-audio-stream-latency).
 
+
+
 <!-- END OF BLOG POST -->
 
-<style>
-
-.btn {
-  color: #fff;
-  background-color: #2c3e50;
-  border-color: #2c3e50;
-
-  border: 1px solid transparent;
-  padding: .375rem .75rem;
-  font-size: 1rem;
-  border-radius: .25rem;
-  transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
-}
-
-/* Darker background on mouse-over */
-.btn:hover {
-  background-color: RoyalBlue;
-
-}
-
-button:not(:disabled) {
-  cursor: pointer;
-}
-
-code {
-  color: #e83e8c;
-  /* word-wrap: break-word; */
-}
-
-.waveform {
-  display: flex;
-  flex-direction: column;
-  width: 90%;
-  margin: auto;
-}
-
-</style>
-
-<!-- external lib used to display waveforms -->
-<!-- <script src="https://unpkg.com/wavesurfer.js"></script> -->
 <script src="https://unpkg.com/wavesurfer.js@5.0.1/dist/wavesurfer.js"></script>
 
 <script>
 
-const audioSamples = [
-
+const myAudio = [
     {
-        path: "/assets/audio/2022_05_19_arvidf_256buffer.mp3",
-        anchor: "256_buffer",
+        path: "/assets/audio/2022_11_27_arvidf_64buffer.mp3",
+        anchor: "buffer64",
         color: "#ffa600",
         alert: false,
     },
     {
         path: "/assets/audio/2022_11_27_arvidf_128buffer.mp3",
-        anchor: "128_buffer",
-        color: "#328d78",
+        anchor: "buffer128",
+        color: "#ffa600",
         alert: false,
     },
-
     {
-        path: "/assets/audio/2022_11_27_arvidf_64buffer.mp3",
-        anchor: "64_buffer",
-        color: "#D93821",
+        path: "/assets/audio/2022_11_27_arvidf_256buffer.mp3",
+        anchor: "buffer256",
+        color: "#ffa600",
         alert: false,
-    },
-
-
-
+    }
 ];
 
 const addPlayText = (sample) => "Play" + (sample.alert ? "  ⚠️" : "");
 
-audioSamples.forEach((sample) => {
+myAudio.forEach((sample) => {
     const id = sample.anchor;
     const waveformDiv = document.querySelector("#" + id);
 
@@ -163,6 +154,7 @@ audioSamples.forEach((sample) => {
         mediaControls: true,
         height: 64,
         waveColor: sample.color,
+        splitChannels: true,
     });
     wavesurfer.load(sample.path);
     wavesurfer.once("ready", () => {
@@ -182,3 +174,9 @@ audioSamples.forEach((sample) => {
 });
 
 </script>
+
+
+
+
+
+
