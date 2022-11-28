@@ -24,7 +24,7 @@ You can watch the full concert online [here](https://youtu.be/pIq6TP2ox5c?t=416)
 
 ## Technical Background
 
-This concert was an example of telematic music, or music that is performed between multiple physical locations in real time thanks to network communications technology. We can also call such an event a network musical performance, or NMP. At UiO, we use specialised software called [LOLA](https://lola.conts.it/) to stream real-time, high-quality audio and video over a network with very low latency.
+This concert was an example of telematic music, or music that is performed between multiple physical locations in real time thanks to network communications technology. We can also call such an event a network musical performance, or NMP. At UiO, we use specialised software called [LOLA](https://lola.conts.it/) to stream real-time, high-quality audio and video over a network, meaning performers at both ends can see and hear each other with almost imperceptible latency.
 
 At both locations we used the NMP portable kits. These kits allow us to connect to our UiO LOLA network from a variety of locations around campus, including the two locations for this performance. Our kits include everything we need for a barebones NMP performance, such as the specialised PC, audio interface and camera required by the LOLA software, as well as a 16-channel mixer, a dedicated headphone amplifier, a projector and more. You can read more about the specific equipment included in these kits [here](https://github.com/MCT-master/NMP-Portable-Kits).
 
