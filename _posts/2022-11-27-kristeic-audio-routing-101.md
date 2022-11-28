@@ -9,7 +9,7 @@ keywords: audio, routing, tips, guide, portal
 excerpt: "Click this post if you need some explanation on jargon, mainly related to the Portal and the NMP kits."
 ---
 
-After my first MCT semester I found answers to my tech questions and also asked my fellow students what part of the audio jargon they need clearance on. So what I will do in this post is providing a short portal-related list of vocabulary and explanations some of you will find helpful, as well as tips and tricks I learned over the years as a rookie guitar player and some general workflow for a happy day in audio-land. Bear in mind that I will only cover hardware audio routing – so basically everything you can touch.
+After my first MCT semester I found answers to my tech questions and also asked my fellow students what part of the audio jargon they need clearance on. So what I will do in this post is providing a short portal-related list of vocabulary and explanations some of you will find helpful, as well as tips and tricks I learned over the years as a rookie guitar player and some general workflow for a happy day in audio-land. Bear in mind that I will only cover hardware audio routing – so basically everything you can touch. I also plan on updating this post with more relevant vocabulary after the semester break. 
 
 
 ## Mix Bus/Bus/Buss, Subgroups and Aux/Returns  
@@ -77,3 +77,5 @@ First, make sure that the cable is untangled and lies on the floor in a more or 
 If you feel that there is strain on the cable try to roll it to the left or right with your fingers to release that strain. The final product should look like this. 
 
 ![not found](/assets/image/2022_11_27_kristeic_cableroll.jpg "A good rolled cable")
+
+Bonus easter egg: the speaker array in the Portal is routed counter-clockwise on the MIDAS.
