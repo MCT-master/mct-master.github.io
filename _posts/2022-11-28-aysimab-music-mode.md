@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Music Mode for Online Meetings
-date: 2022-11-27
+date: 2022-11-28
 categories: interactive-music
 author: Aysima Karcaaltincaba
 image: https://www.uio.no/english/studies/programmes/mct-master/blog/assets/image/2022_11_28_aysimab_music-online.jpg
@@ -86,3 +86,4 @@ As I have more insights for Cisco software, I viewed the solutions mostly from t
 - [Music Mode for Cisco Webex App](https://help.webex.com/en-us/article/h7tezj/Webex-App-%7C-Turn-on-music-mode-in-calls-and-meetings)
 - [High Fidelity Music Mode in Microsoft Teams](https://support.microsoft.com/en-us/office/use-high-fidelity-music-mode-to-play-music-in-teams-c1550582-2f76-4b31-9f72-e98c7167a18e)
 - [High Fidelity Audio Mode in Zoom](https://blog.zoom.us/high-fidelity-music-mode-professional-audio-on-zoom/)
+
