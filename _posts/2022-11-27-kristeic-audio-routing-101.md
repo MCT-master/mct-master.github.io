@@ -9,18 +9,18 @@ keywords: audio, routing, tips, guide, portal
 excerpt: "Click this post if you need some explanation on jargon, mainly related to the Portal and the NMP kits."
 ---
 
-After my first MCT semester I found answers to my tech questions and also asked my fellow students what part of the audio jargon they need clearance on. So what I will do in this post is providing a short portal-related list of vocabulary and explanations some of you will hopefully find helpful, as well as tips and tricks I learned over the years as a rookie guitar player and some general workflow for a happy day in audio-land. Bear in mind that I will only cover hardware audio routing – so basically everything you can touch.
+After my first MCT semester I found answers to my tech questions and also asked my fellow students what part of the audio jargon they need clearance on. So what I will do in this post is providing a short portal-related list of vocabulary and explanations some of you will find helpful, as well as tips and tricks I learned over the years as a rookie guitar player and some general workflow for a happy day in audio-land. Bear in mind that I will only cover hardware audio routing – so basically everything you can touch.
 
 
-## Mix Bus / Bus/ Buss, Subgroups and Aux/Returns  
+## Mix Bus/Bus/Buss, Subgroups and Aux/Returns  
 <br/>
-“What do words mean?” you question yourself? I hope I can help.
+You question yourself: “What do words mean?” I hope I can help.
 In short, a mix bus is a channel where signals from several other places are combined on your mixing board.
-You can literally think of it as a public bus which picks off individuals along the way and drops all of them at a final location. The one bus you will always find in a DAW or on a mixing board is the Main Stereo or Master (Bus) where all your individual channels are pre-routed to. 
+You can literally think of it as a public bus that picks up individuals along the way and drops all of them at a final location. The one bus you will always find in a DAW or on a mixing board is the Main Stereo or Master (Bus) where all your individual channels are pre-routed to. 
 
-The concept of a Mix Bus comes in handy if you want to group together signals of similar instruments, typically percussion, to be able to adjust the level of all instruments mixed together and maybe potentially add effects. This is also called creating a subgroup. The NMP kit mixer has two group channels next to the Main Stereo with which you can exactly achieve that. 
+The concept of a Mix Bus comes in handy if you want to group together signals of similar instruments, typically percussion, to be able to adjust the level of all instruments mixed together and then potentially add effects. This is also called creating a subgroup. The NMP kit mixer has two group channels next to the Main Stereo with which you can exactly achieve this. 
 
-Occasionally, you come across a channel called Aux(iliary) or Return. It is similar to a mix bus in that can receive input from various channels. The simple difference is how the signal is routed to it. It receives a copy from the source channel via a send option rather than from the channel output, so you can add effects for example without affecting the source. 
+Occasionally, you come across a channel called Aux(iliary) or Return. It is similar to a mix bus insofar that it can receive input from various channels. The simple difference is how the signal is routed to it. It receives a copy from the source channel via a send option rather than from the channel output, so you can add effects for example without affecting the source. 
 You can read more extensively on the matter [here](https://www.izotope.com/en/learn/mix-buses-101.html).
 
 
