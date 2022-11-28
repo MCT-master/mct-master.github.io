@@ -11,7 +11,7 @@ excerpt: "It is possible to use popular meeting products for music!"
 
 ### What is music mode?
 
-Online meetings and hybrid platforms have become a mandatory tool in our daily lives. Many use those platforms for educational or business purposes but from healthcare to art, hybrid communication is everywhere; but what about playing music over the network?
+Online meetings and hybrid platforms have become a mandatory tool in our daily lives. Many use those platforms for educational or business purposes but from healthcare to art, hybrid communication is everywhere; but what about music? Music mode is a feature which many commercial meeting products supports. It enables users to have music performance over network with the audio at highest quality.
 
 <figure>
    <img
@@ -20,11 +20,9 @@ Online meetings and hybrid platforms have become a mandatory tool in our daily l
    <figcaption>Performing music in an online meting, photo by Omar Prestwich</figcaption>
 </figure>
 
-MCT is already part of real-time music performance efforts and we have discussed that in many other blogs. So, I will try to focus on another area which is simpler and has use in many people's life: performing music as one direction through network. You may not need to perform together on a very low latency connection but you may still need to perform music for another participant in an online meeting. This may still have many problems even though the job may sound easy.
+Even though you dont care about the latency, you may still face many problems when performing music in an online meeting. Some sounds may not be heard or heard differently. I personally have been taking accordion classes during the pandemic and I can briefly say that it was a very bad experience to have to change the octave of the sound or the tone all the time in order to keep things “perceivable”. 
 
-We are talking about the problems like some sounds not being heard or heard differently. I personally have been taking accordion classes during the pandemic and I can briefly say that it was a very bad experience to have to change the octave of the sound or the tone all the time in order to keep things “perceivable”. 
-
-There are many reasons behind these problems and I will try to go through the reasons for them while telling about how music mode features solve these problems. My knowledge about the topic is based on what I learned from music mode posts of commercial software products and from our talk with Bjørn Winsvold, a Principal Engineer working on music mode in Cisco Webex Room Devices. Lots of thanks to him for giving me his time and explaining to me the journey of the sound from the speaker of a participant to the microphone of another participant!
+There are many reasons behind these problems and I will try to go through the reasons for them while telling about how music mode feature solve these problems. My knowledge about the topic is based on what I learned from music mode announcement of commercial software products and from our talk with Bjørn Winsvold, a Principal Engineer working on music mode in Cisco Webex Room Devices. Lots of thanks to him for giving me his time and explaining to me the journey of the sound from the speaker of a participant to the microphone of another participant!
 
 <figure>
    <img
@@ -45,9 +43,7 @@ I will talk about these modules and what kind of solutions Cisco Webex, Zoom and
 
 **Noise reduction**
 
-Noise reduction is a very useful feature we can get from commercial meeting software. It removes your coffee machine beeping constantly, your washing machine screaming and gives you a plain environment to present by removing static noises. On the other hand, the very same feature may think of music as noise and remove it too. For example if you are an accordion or violin player and want to keep playing a chord for a second, then the noise reduction algorithm may remove the sound by accepting it as “noise”. 
-
-In music mode, webex keeps the noise reduction module but increases the duration it uses in order to categorize a constant sound as “noise”. Zoom doesn't tell much about noise reduction but it says it turns echo cancellation off in music mode while microsoft teams gives you the option to remove the feature yourself.
+Noise reduction is a very useful feature we can get from commercial meeting software. It removes your coffee machine beeping constantly, your washing machine screaming and gives you a plain environment to present by removing static noises. On the other hand, the very same feature may think of music as noise and remove it too. For example if you are an accordion or violin player and want to keep playing a chord for a second, then the noise reduction algorithm may remove the sound by accepting it as “noise”. So the meeting products should disable these modules or change them. For example Webex solves the problem by increasing the duration it uses in order to categorize a constant sound as “noise” while Microsoft disables the module.
 
 <figure>
    <img src="/assets/image/2022_11_27_aysimab_zoom.jpg"
@@ -58,7 +54,7 @@ In music mode, webex keeps the noise reduction module but increases the duration
 
 **Audio compression**
 
-The audio needs to be compressed and decompressed because most of these solutions are using standard audio codec for the transmission of the audio packets. This also means compression algorithms are very essential for audio quality. For music mode, the compression algorithm and compression rate becomes even more important.
+The audio needs to be compressed and decompressed because most of these solutions are using standard audio codec for the transmission of the audio packets. This also means compression algorithms are very essential for audio quality. For music mode, the compression algorithm and compression rate becomes even more important and all three products promises higher audio quality in music mode.
 
 <figure>
    <img src="/assets/image/2022_11_27_aysimab_microsoft.jpg"
@@ -68,7 +64,7 @@ The audio needs to be compressed and decompressed because most of these solution
 
 **Auto gain controls**
 
-Another optional step as part of audio transmission between participants is gain control. The purpose of this is to reduce the dynamic range of gains with very loud and quiet elements in order to make them be heard clearer. This also can be problematic for sending music audio as we want to keep the original. Zoom eliminates this step in music mode while microsoft teams gives the option to eliminate to the user. Same as noise cancellation, Cisco Webex replaces this module with a limiter to prevent overload of the signal before it is sent to the codex.
+Another step in the journey of audio is the gain control. The purpose of this is to reduce the dynamic range of gains in order to make them be heard clearer. Zoom eliminates this step in music mode while microsoft teams gives the option to eliminate to the user. Cisco Webex replaces this module with a limiter to prevent overload of the signal before it is sent to the codex.
 
 
 **High pass filtering**
