@@ -2,7 +2,7 @@
 layout: post
 title: "Exploration of 5G networks for Networked Musical Performances"
 date: 2022-11-27 08:00:00 +0200
-categories: portal
+categories: applied-project
 author: Arvid Falch, Jakob Høydal, Joachim Poutaraud, Kristian Wentzel, Sofía González
 image: /assets/image/2022_11_27_joachipo_p2p.jpg
 excerpt: "A latency optimization methodology for NMP."
