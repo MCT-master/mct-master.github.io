@@ -37,7 +37,7 @@ See the result of our experiment in the video below.
 
 <figure style="float: none">
   <video width="auto" controls>
-    <source src="https://www.uio.no/english/studies/programmes/mct-master/blog/assets/video/2022-11_28_jackeh_jacktrip_recording_demo.mp4" type='video/mp4'>
+    <source src="https://www.uio.no/english/studies/programmes/mct-master/blog/assets/video/2022_11_28_jackeh_jacktrip_recording_demo.mp4" type='video/mp4'>
   </video>
 </figure>
 
