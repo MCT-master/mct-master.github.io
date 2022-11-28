@@ -4,7 +4,7 @@ title:  "Euclidean Rhythms in Pure Data"
 date:   2022-10-21 15:00:00 +0200
 categories: audio-programming
 author: Alexander Wastnidge
-image: assets/image/2022_28_11_alexanjw_euclid_cover.jpg
+image: /assets/image/2022_28_11_alexanjw_euclid_cover.jpg
 excerpt: "What are Euclidean Rhythms and how can you program them?"
 keywords: Pure data
 ---
@@ -21,7 +21,7 @@ Drawn in by their balance of immediacy, unpredictability and musicality, I set o
 
 <figure style="float: none">
    <img
-      src="assets/image/2022_11_28_alexanjw_euclidean_seq.jpg"
+      src="/assets/image/2022_11_28_alexanjw_euclidean_seq.jpg"
       style="max-height:600px; width:auto;" />
    <figcaption>First implementation</figcaption>
 </figure>
@@ -40,7 +40,7 @@ By combining several sequencers in parallel, each with their own designated note
 
 <figure style="float: none">
    <img
-      src="assets/image/2022_11_28_alexanjw_mel_seq.png"
+      src="/assets/image/2022_11_28_alexanjw_mel_seq.png"
       style="max-height:600px; width:auto;" />
    <figcaption>Sequencer Swarms</figcaption>
 </figure>
