@@ -34,12 +34,12 @@ BlackHole is a modern MacOS virtual audio driver that allows applications to pas
 
 
 
- ## Installation of MacOS: 
+## Installation of MacOS: 
  https://existential.audio/blackhole/  
 
 ## Installation guide:
 Approach 1: Download Installer
-1.Download the latest installer                                                   
+- Download the latest installer                                                   
 <figure style="float: none">
    <img
       src="https://www.uio.no/english/studies/programmes/mct-master/blog/assets/image/2022_11_29_bh_2_masoudn.jpg" />
@@ -47,32 +47,34 @@ Approach 1: Download Installer
 
 You must subscribe for the free version
 
-2.Close all running audio applications
+- Close all running audio applications
 
 
-3.Open and install package    
+- Open and install package    
 <figure style="float: none">
    <img
       src="https://www.uio.no/english/studies/programmes/mct-master/blog/assets/image/2022_11_29_bh_3_masoudn.jpg"
       style="max-height:600px; width:auto;" />
    <figcaption>Press continue</figcaption>
    
-   <figure style="float: none">
+<figure style="float: none">
    <img
       src="https://www.uio.no/english/studies/programmes/mct-master/blog/assets/image/2022_11_29_bh_3_masoudn.jpg"
       style="max-height:600px; width:auto;" />
    <figcaption>select its destination</figcaption>
-    <figure style="float: none">
+   
+
+<figure style="float: none">
    <img
       src="https://www.uio.no/english/studies/programmes/mct-master/blog/assets/image/2022_11_29_bh_5_masoudn.jpg"
       style="max-height:600px; width:auto;" />
    <figcaption>Finalize your installation</figcaption>
    
 
-   Approach 2: Install via Homebrew
-1. 2ch: brew install blackhole-2ch
-2. 16ch: brew install blackhole-16ch
-3. 64ch: brew install blackhole-64ch
+Approach 2: Install via Homebrew
+- 2ch: brew install blackhole-2ch
+- 16ch: brew install blackhole-16ch
+- 64ch: brew install blackhole-64ch
 
 ## Features:
 
@@ -92,22 +94,22 @@ It has the following routing options for GarageBand
 It has the following routing options for Reaper
 - Reaper to Zoom 
 
- It has the following routing options toRecord System Audio
-1)	Setup Multi-Output Device
-2)	In Audio Midi Setup → Audio Devices right-click on the newly created Multi-Output and select "Use This Device For Sound Output"
-3)	Open digital audio workstation (DAW) such as GarageBand and set input device to "BlackHole"
-4)	Set track to input from channel 1-2
-5)	Play audio from another application and monitor or record in your DAW
+It has the following routing options toRecord System Audio
+-	Setup Multi-Output Device
+-	In Audio Midi Setup → Audio Devices right-click on the newly created Multi-Output and select "Use This Device For Sound Output"
+-	Open digital audio workstation (DAW) such as GarageBand and set input device to "BlackHole"
+-	Set track to input from channel 1-2
+-	Play audio from another application and monitor or record in your DAW
 
 Route Audio Between Applications
-1)	Set output driver to "BlackHole" in sending application
-2)	Output audio to any channel
-3)	Open receiving application and set input device to "BlackHole"
-4)	Input audio from the corresponding output channels
+- Set output driver to "BlackHole" in sending application
+- Output audio to any channel
+- Open receiving application and set input device to "BlackHole"
+-	Input audio from the corresponding output channels
 
 Creating Aggregate device on mac: 
 In this example zoom H5 recorder is used as a sound card in combination with Blackhole to be used in Ableton
-1)	Open Audio Midi Setup
+- Open Audio Midi Setup
 
 
 
@@ -115,7 +117,7 @@ In this example zoom H5 recorder is used as a sound card in combination with Bla
    <img
       src="https://www.uio.no/english/studies/programmes/mct-master/blog/assets/image/2022_11_29_bh_masoudn_8.jpg"
       style="max-height:600px; width:auto;" />
-   <figcaption>	2) You can modify I/O and audio settings of the blackhole here </figcaption>
+   <figcaption> You can modify I/O and audio settings of the blackhole here </figcaption>
    
 
 
@@ -123,7 +125,7 @@ In this example zoom H5 recorder is used as a sound card in combination with Bla
    <img
       src="https://www.uio.no/english/studies/programmes/mct-master/blog/assets/image/2022_11_29_bh_masoudn_9.jpg"
       style="max-height:600px; width:auto;" />
-   <figcaption>	3)	Or create an aggregate device by hitting the plus Icon on the bottom left </figcaption>
+   <figcaption>Or create an aggregate device by hitting the plus Icon on the bottom left </figcaption>
 
 
 
@@ -131,10 +133,9 @@ In this example zoom H5 recorder is used as a sound card in combination with Bla
    <img
       src="https://www.uio.no/english/studies/programmes/mct-master/blog/assets/image/2022_11_29_bh_masoudn_10.jpg"
       style="max-height:600px; width:auto;" />
-   <figcaption>	4)	You can use this aggregate device in all DAW or Musical programming languages or communication software
+   <figcaption>You can use this aggregate device in all DAW or Musical programming languages or communication software
 
  </figcaption>
-
 
 
 For Further exploration visit:
