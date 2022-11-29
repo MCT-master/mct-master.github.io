@@ -34,7 +34,8 @@ BlackHole is a modern MacOS virtual audio driver that allows applications to pas
 
 
 
-Installation of MacOS: https://existential.audio/blackhole/  
+ ## Installation of MacOS: 
+ https://existential.audio/blackhole/  
 
 ## Installation guide:
 Approach 1: Download Installer
@@ -50,8 +51,6 @@ You must subscribe for the free version
 
 
 3.Open and install package    
-
-
 <figure style="float: none">
    <img
       src="https://www.uio.no/english/studies/programmes/mct-master/blog/assets/image/2022_11_29_bh_3_masoudn.jpg"
@@ -68,6 +67,8 @@ You must subscribe for the free version
       src="https://www.uio.no/english/studies/programmes/mct-master/blog/assets/image/2022_11_29_bh_5_masoudn.jpg"
       style="max-height:600px; width:auto;" />
    <figcaption>Finalize your installation</figcaption>
+   
+
    Approach 2: Install via Homebrew
 1. 2ch: brew install blackhole-2ch
 2. 16ch: brew install blackhole-16ch
@@ -102,17 +103,23 @@ Creating Aggregate device on mac:
 In this example zoom H5 recorder is used as a sound card in combination with Blackhole to be used in Ableton
 1)	Open Audio Midi Setup
 
+
+
 <figure style="float: none">
    <img
       src="https://www.uio.no/english/studies/programmes/mct-master/blog/assets/image/2022_11_29_bh_masoudn_8.jpg"
       style="max-height:600px; width:auto;" />
    <figcaption>	2) You can modify I/O and audio settings of the blackhole here </figcaption>
    
+
+
 <figure style="float: none">
    <img
       src="https://www.uio.no/english/studies/programmes/mct-master/blog/assets/image/2022_11_29_bh_masoudn_9.jpg"
       style="max-height:600px; width:auto;" />
    <figcaption>	3)	Or create an aggregate device by hitting the plus Icon on the bottom left </figcaption>
+
+
 
 <figure style="float: none">
    <img
@@ -122,7 +129,11 @@ In this example zoom H5 recorder is used as a sound card in combination with Bla
 
  </figcaption>
 
+
+
 For Further exploration visit:
+
+
 https://github.com/ExistentialAudio/BlackHole#readme 
 
   
