@@ -6,7 +6,7 @@ categories: audio-programming
 author: Alexander Wastnidge
 image: /assets/image/2022_28_11_alexanjw_euclid_cover.jpg
 excerpt: "What are Euclidean Rhythms and how can you program them?"
-keywords: Pure data
+keywords: Pure data, Euclidean rhythms, Euclidean sequencer
 ---
 
 
@@ -30,7 +30,7 @@ This first implementation is based on the one found here by Andrew Brown: https:
 
 This gives user input for number of notes and "rotation" which is an offset control.  You can see the signal flow and the maths at work here.  The output can be the float number or it can be taken from the "bang" to trigger something within a patch.  This works well when connected to percussive sounds.
 
-The user interface allows for fast input of the limits available values.  Randomising these values can also yield unexpected but pleasing results.
+The user interface allows for fast input of the available values.  Randomising these values can also yield unexpected but pleasing results.
 
 Expanding this concept further I have also been building sequencers for melodic purposes as well
 
@@ -59,6 +59,8 @@ You are free to inspect, use and adapt them as you see fit.
 ### Bibliography/Further Reading
 
 "The Euclidean Algorithm Generates Traditional Musical Rhythms" available at: http://cgm.cs.mcgill.ca/~godfried/publications/banff.pdf
+
+A deeper dive into Euclidean sequencers in Eurorack from mylarmelodies - https://youtu.be/EMhbDbMcLBY
 
 
 
