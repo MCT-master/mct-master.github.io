@@ -2,7 +2,7 @@
 layout: post
 title: Telematic Concert between Salen and Portal - Performers’ Reflections
 date: 2022-11-28
-categories: interactive-music
+categories: portal
 author: Alexander Wastnidge, Aysima Karcaaltincaba, Iosif Aragiannis
 image: https://www.uio.no/english/studies/programmes/mct-master/blog/assets/image/2022_11_28_aysimab_telematic_concert.jpg
 keywords: telematic, performance, network
@@ -28,11 +28,13 @@ For this performance, we prepared four instrumental, semi-improvisational pieces
 The lineup of musicians was:
 
 **Salen**
+
 - Christian - Piano and confransier
 - Kristian - E-Drums and Synth
 - Alex - MPC/Synths and FX pedals
 
 **Portal**
+
 - Jack - Violin through laptop FX
 - Joseph - Guitar through laptop FX
 

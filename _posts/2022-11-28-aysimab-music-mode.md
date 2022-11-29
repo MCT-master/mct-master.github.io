@@ -2,7 +2,7 @@
 layout: post
 title: Music Mode for Online Meetings
 date: 2022-11-28
-categories: interactive-music
+categories: portal
 author: Aysima Karcaaltincaba
 image: https://www.uio.no/english/studies/programmes/mct-master/blog/assets/image/2022_11_28_aysimab_music-online.jpg
 keywords: music, network, cisco, microsoft, zoom
@@ -20,7 +20,7 @@ Online meetings and hybrid platforms have become a mandatory tool in our daily l
    <figcaption>Performing music in an online meting, photo by Omar Prestwich</figcaption>
 </figure>
 
-Even though you dont care about the latency, you may still face many problems when performing music in an online meeting. Some sounds may not be heard or heard differently. I personally have been taking accordion classes during the pandemic and I can briefly say that it was a very bad experience to have to change the octave of the sound or the tone all the time in order to keep things “perceivable”. 
+Even though you dont care about the latency, you may still face many problems when performing music in an online meeting. Some sounds may not be heard or heard differently. I personally have been taking accordion classes during the pandemic and I can briefly say that it was a very bad experience to have to change the octave of the sound or the tone all the time in order to keep things “perceivable”.
 
 There are many reasons behind these problems and I will try to go through the reasons for them while telling about how music mode feature solve these problems. My knowledge about the topic is based on what I learned from music mode announcement of commercial software products and from our talk with Bjørn Winsvold, a Principal Engineer working on music mode in Cisco Webex Room Devices. Lots of thanks to him for giving me his time and explaining to me the journey of the sound from the speaker of a participant to the microphone of another participant!
 
@@ -51,7 +51,6 @@ Noise reduction is a very useful feature we can get from commercial meeting soft
    <figcaption>High Fidelity Audio Mode in Zoom</figcaption>
 </figure>
 
-
 **Audio compression**
 
 The audio needs to be compressed and decompressed because most of these solutions are using standard audio codec for the transmission of the audio packets. This also means compression algorithms are very essential for audio quality. For music mode, the compression algorithm and compression rate becomes even more important and all three products promises higher audio quality in music mode.
@@ -66,11 +65,9 @@ The audio needs to be compressed and decompressed because most of these solution
 
 Another step in the journey of audio is the gain control. The purpose of this is to reduce the dynamic range of gains in order to make them be heard clearer. Zoom eliminates this step in music mode while microsoft teams gives the option to eliminate to the user. Cisco Webex replaces this module with a limiter to prevent overload of the signal before it is sent to the codex.
 
-
 **High pass filtering**
 
 It is common in these systems to apply a high-pass filter to the microphone signal in order to remove low-frequency noise. For music mode this is not a good idea since you then will lose the low tones from your music especially if you are using a bass guitar etc.
-
 
 ### Conclusion
 
@@ -82,4 +79,3 @@ As I have more insights for Cisco software, I viewed the solutions mostly from t
 - [Music Mode for Cisco Webex App](https://help.webex.com/en-us/article/h7tezj/Webex-App-%7C-Turn-on-music-mode-in-calls-and-meetings)
 - [High Fidelity Music Mode in Microsoft Teams](https://support.microsoft.com/en-us/office/use-high-fidelity-music-mode-to-play-music-in-teams-c1550582-2f76-4b31-9f72-e98c7167a18e)
 - [High Fidelity Audio Mode in Zoom](https://blog.zoom.us/high-fidelity-music-mode-professional-audio-on-zoom/)
-
