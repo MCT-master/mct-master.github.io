@@ -74,25 +74,31 @@ You must subscribe for the free version
 2. 16ch: brew install blackhole-16ch
 3. 64ch: brew install blackhole-64ch
 
-Features:
+## Features:
+
 It has the following routing options for Logic Pro X
-•	Logic Pro X to FaceTime
-•	Logic Pro X to Google Meet
-•	Logic Pro X to Skype
-•	Logic Pro X to Zoom
+-	Logic Pro X to FaceTime
+-	Logic Pro X to Google Meet
+-	Logic Pro X to Skype
+-	Logic Pro X to Zoom
+
+
 It has the following routing options for GarageBand
-•	GarageBand to FaceTime
-•	GarageBand to Google Meet
-•	GarageBand to Skype
-•	GarageBand to Zoom
+-	GarageBand to FaceTime
+-	GarageBand to Google Meet
+-	GarageBand to Skype
+-	GarageBand to Zoom
+
 It has the following routing options for Reaper
-•	Reaper to Zoom 
+- Reaper to Zoom 
+
  It has the following routing options toRecord System Audio
 1)	Setup Multi-Output Device
 2)	In Audio Midi Setup → Audio Devices right-click on the newly created Multi-Output and select "Use This Device For Sound Output"
 3)	Open digital audio workstation (DAW) such as GarageBand and set input device to "BlackHole"
 4)	Set track to input from channel 1-2
 5)	Play audio from another application and monitor or record in your DAW
+
 Route Audio Between Applications
 1)	Set output driver to "BlackHole" in sending application
 2)	Output audio to any channel
