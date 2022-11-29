@@ -17,6 +17,7 @@ BlackHole is a modern MacOS virtual audio driver that allows applications to pas
 -	It is Also available for Windows but here we only introduce the MacOS version
 
 
+
 ## Benefits:
 
 - Versatile user interface
