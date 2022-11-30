@@ -11,10 +11,20 @@ keywords: IMS, Barrett, human-computer interaction
 
 ## A review of Natasha Barretts presentation at IMV November 24th
 
-At our department this fall, we’ve been so fortunate as to have a series of great talks presented by the Department of Musicology called Women in Music Technology. November 24th I was present at the talk of Natasha Barrett presenting her (I’m jumping some conclusions here by categorizing it) Interactive Music System (IMS)  the “Transformer #1”.  
+
+
+At our department this fall, we’ve been so fortunate as to have a series of great talks presented by the Department of Musicology called Women in Music Technology. November 24th I was present at the talk of Natasha Barrett presenting her (I’m jumping some conclusions here by categorizing it) Interactive Music System (IMS)  the “Transformer #1”.
+
+
 In this blog post I will present this work as I understood it, and linger around some interesting aspects of it that Natasha Barrett brought up herself during the talk.  
+
+
 The "Transformer #1" is a very complex concept to wrap your head around if you try to categorize it as an IMS. Here’s my attempt to explain how it works in very broad terms:  
+
+
 Ok, so on stage (We were mostly just shown video excerpts of the actual performance)  you would see a performer singing (or producing sounds) and dancing/moving, and behind her there’s a screen showing visuals. But the sounds you’re hearing are not just the sounds of the performer, but some very interesting musical results that for me as an observer seems to be both affected by the movement and the original sounds produced by the human performer. In addition to that, the visuals also seem to be affected by the actions of the human performer. And notice the word affected; as a spectator it does not sound/appear like it is directed or controlled by the human performer, my intuitive feeling as a spectator was musical interplay between human performer and the system.  
+
+
 So now that you have an idea of how I experienced it, here are my attempts to categorize it (based on my experience as an observer and the very thoughtful observations by the creator herself about the IMS):  
 
 * It is an IMS, using advanced mapping (Machine Learning, Music Information Retrieval and specifically designed algorithms) of audio and motion capture data from a performer to create sounds (both through sound synthesis and in order to choose audio from a huge database of samples)  
