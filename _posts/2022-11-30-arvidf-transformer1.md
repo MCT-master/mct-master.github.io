@@ -13,7 +13,7 @@ keywords: IMS, Barrett, human-computer interaction
 
 
 
-At our [department](https://www.hf.uio.no/imv/english/) this fall, we’ve been so fortunate as to have a series of great talks presented by the Department of Musicology called Women in Music Technology. November 24th I was present at the talk of Natasha Barrett presenting her Interactive Music System (IMS)  the “Transformer #1”.
+At our [department](https://www.hf.uio.no/imv/english/) this fall, we’ve been so fortunate as to have a series of great talks presented by the Department of Musicology called Women in Music Technology. November 24th I was present at the talk of [Natasha Barrett](https://www.natashabarrett.org/) presenting her Interactive Music System (IMS)  the “Transformer #1”.
 
 
 In this blog post I will present this work as I understood it, and linger around some interesting aspects of it that Natasha Barrett brought up herself during the talk.  
