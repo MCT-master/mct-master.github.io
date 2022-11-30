@@ -13,7 +13,7 @@ keywords: IMS, Barrett, human-computer interaction
 
 
 
-At our [department](https://www.hf.uio.no/imv/english/) this fall, we’ve been so fortunate as to have a series of great talks presented by the Department of Musicology called Women in Music Technology. November 24th I was present at the talk of Natasha Barrett presenting her (I’m jumping some conclusions here by categorizing it) Interactive Music System (IMS)  the “Transformer #1”.
+At our [department](https://www.hf.uio.no/imv/english/) this fall, we’ve been so fortunate as to have a series of great talks presented by the Department of Musicology called Women in Music Technology. November 24th I was present at the talk of Natasha Barrett presenting her Interactive Music System (IMS)  the “Transformer #1”.
 
 
 In this blog post I will present this work as I understood it, and linger around some interesting aspects of it that Natasha Barrett brought up herself during the talk.  
@@ -27,7 +27,7 @@ Ok, so on stage (We were mostly just shown video excerpts of the actual performa
 
 So now that you have an idea of how I experienced it, here are my attempts to categorize it (based on my experience as an observer and the very thoughtful observations by the creator herself about the IMS):  
 
-* It is an IMS, using advanced mapping (Machine Learning, Music Information Retrieval and specifically designed algorithms) of audio and motion capture data from a performer to create sounds (both through sound synthesis and in order to choose audio from a huge database of samples)
+* It is an IMS, using advanced many-to-many mappings (Machine Learning, Music Information Retrieval and specifically designed algorithms) of audio and motion capture data from a performer to create sounds (both through sound synthesis and in order to choose audio from a huge database of samples)
 
 * It is a visual generative system, using the input from the human performer (audio or motion capture) to decide on parameters for computer generated visuals.
 
