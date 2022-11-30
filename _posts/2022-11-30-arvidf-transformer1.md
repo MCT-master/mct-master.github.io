@@ -27,9 +27,12 @@ Ok, so on stage (We were mostly just shown video excerpts of the actual performa
 
 So now that you have an idea of how I experienced it, here are my attempts to categorize it (based on my experience as an observer and the very thoughtful observations by the creator herself about the IMS):  
 
-* It is an IMS, using advanced mapping (Machine Learning, Music Information Retrieval and specifically designed algorithms) of audio and motion capture data from a performer to create sounds (both through sound synthesis and in order to choose audio from a huge database of samples)  
+* It is an IMS, using advanced mapping (Machine Learning, Music Information Retrieval and specifically designed algorithms) of audio and motion capture data from a performer to create sounds (both through sound synthesis and in order to choose audio from a huge database of samples)
+
 * It is a visual generative system, using the input from the human performer (audio or motion capture) to decide on parameters for computer generated visuals.
+
 * It is a composition (!), as it is constructed as one performance with four different acts/parts, where different algorithms in both visual and audio systems are used for each section. Also, the system utilizes a huge dataset of samples recorded by the composer for sound production, and the composer has designed the whole system and supervised the training of the Machine Learning algorithms.
+
 * It is a performer on its own, playing an integral part in the performance; taking inputs from the human performer and creating an output which I believe is hard to replicate based on the complexity of the system.  
 
 As a composer myself, the fact that the creator thought this system should be considered as a composition was eye-opening. From what I’ve seen and heard from the short talk I fully support this claim. And that amazes me.  
