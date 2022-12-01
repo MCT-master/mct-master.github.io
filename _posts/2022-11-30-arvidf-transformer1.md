@@ -2,7 +2,7 @@
 layout: post
 title: "An instrument, composition and performance. Meet the Transformer #1"
 date: 2022-11-30 08:00:00 +0200
-categories: Interactive Music
+categories: interactive-music
 author: Arvid Falch
 image: /assets/image/2022_12_01_arvidf_transformer.jpg
 excerpt: "A review of Natasha Barretts Transformer #1"
