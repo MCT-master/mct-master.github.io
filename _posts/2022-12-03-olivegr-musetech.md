@@ -64,19 +64,20 @@ implementation choices.
 The model lists 121 criteria serving to guide you in your quest to understand what works and what
 doesn’t work about your installations and exhibit technologies. These criteria are grouped into 4
 categories:
-• Design: These criteria will help you make mindful design choices and articulate why these
+- Design: These criteria will help you make mindful design choices and articulate why these
 choices were made.
-• Content: These criteria are concerned with the kinds of tech curators and establishments use
+- Content: These criteria are concerned with the kinds of tech curators and establishments use
 to create and maintain content, but also visitor-personalized or visitor-created content.
-• Operation: These criteria focus on resource requirements, installation, and maintenance of
+- Operation: These criteria focus on resource requirements, installation, and maintenance of
 the installation.
-• Compliance: These criteria deal with accessibility, health, safety, ethics, and potential legal
+- Compliance: These criteria deal with accessibility, health, safety, ethics, and potential legal
 issues.
+
 These categories can in turn be approached from 3 different perspectives:
-• The Visitor: Whomever is likely to attend the exhibition, the end users.
-• The Cultural Heritage Professional: Outside of museums, I would call them curators or
+- The Visitor: Whomever is likely to attend the exhibition, the end users.
+- The Cultural Heritage Professional: Outside of museums, I would call them curators or
 operation managers. They will be interacting with the same tech daily.
-• The Museum (or exhibit/gallery/learning center): They have a unique understanding of their
+- The Museum (or exhibit/gallery/learning center): They have a unique understanding of their
 own purpose and how they envision the future of the establishment.
 
 <figure style="float: none">
