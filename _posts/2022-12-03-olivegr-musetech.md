@@ -8,7 +8,7 @@ image: /assets/image/2022_12_03_olivegr_musetech_model.jpg
 excerpt: "Why are visitors not using your installation?  You might just disagree with yourself, the visitors, and
 your department or client about their needs and wants. The reason for this disagreement is always
 the same."
-keywords: interactive music system, installation, project management
+keywords: interactive music system, installation, project management, evaluation, evaluation design
 ---
 <figure>
     <img src="/assets/image/2022_12_03_olivegr_musetech_circuit.jpg" align="center" />
