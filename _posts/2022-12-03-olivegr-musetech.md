@@ -11,7 +11,7 @@ the same."
 keywords: interactive music system, installation, project management
 ---
 <figure>
-    <img src="/assets/image/2021_09_22_olivergr_telematic_reality_check_world.jpg" align="center" />
+    <img src="/assets/image/2022_12_03_olivegr_musetech_circuit.jpg" align="center" />
 </figure>
 
 You had a great idea for an installation, convinced your stakeholders of said idea, took it through design
