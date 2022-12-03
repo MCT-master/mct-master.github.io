@@ -4,14 +4,14 @@ title: "Yggdrasil: An Environmentalist Interactive Music Installation"
 date: 2022-12-03 20:30:00 +0200
 categories: interactive-music
 author: Oliver Getz
-image: https://www.uio.no/english/studies/programmes/mct-master/blog/assets/images/2022_12_03_olivegr_yggdrasil_thumb.jpg
+image: https://www.uio.no/english/studies/programmes/mct-master/blog/assets/image/2022_12_03_olivegr_yggdrasil_thumb.jpg
 excerpt: "Plant trees and nurture your forest to generate sound!"
 keywords: interactive music system, installation, mapping, inspiration
 ---
 <figure>
    <img
       src="https://www.uio.no/english/studies/programmes/mct-master/blog/assets/image/2022_12_03_olivegr_yggdrasil_finished.jpg"
-      style="max-height:600px; width:auto;" />
+   />
    <figcaption>Yggdrasil, in it's finished form</figcaption>
 </figure>
 
@@ -67,17 +67,10 @@ built my own circuit on top of the Bela to retrieve analog data from my sensors.
 breadboard prototype to the perfboard is practically 1 to 1. I used some extra male headers to better
 support the attachment, making it feel more robust.
 
-<div class="slideshow-container" id="Yggdrasil-Hardware">
-  <div class="mySlides fade">
-    <figure>
-        <img src="https://www.uio.no/english/studies/programmes/mct-master/blog/assets/images/2022_12_03_olivegr_yggdrasil_circuit.jpg" align="center" />
-    </figure>
-  </div>
-  <div class="mySlides fade">
-    <figure>
-        <img src="https://www.uio.no/english/studies/programmes/mct-master/blog/assets/images/2022_12_03_olivegr_yggdrasil_schematic.jpg" align="center" />
-    </figure>
-</div>
+<figure>
+  <img src="https://www.uio.no/english/studies/programmes/mct-master/blog/assets/image/2022_12_03_olivegr_yggdrasil_circuit.jpg" />
+  <figcaption>Pro tip: solder one component at a time. It's easier to debug.</figcaption>
+</figure>
 
 A button was added to be able to reset the calibration process, should the result not be ideal the first
 time. A rotary encoder was also added to be able to tweak the master output level without diving into
