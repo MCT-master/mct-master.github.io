@@ -26,11 +26,12 @@ If you want to watch a video of the performance it can be found [here](https://y
 
 ### The Virtual Room
 
-One thing I quickly noticed while rehearsing using LoLa was how disconnected you initially feel from the other performers. This feeling can be avoided by moving the cameras closer to the performers. This also helps with visual cues which can be a lot harder to pick up on unless they've been explained beforehand. This means that all movements have to be exaggerated, at least during the beginning of rehearsals. Since our rehearsals were done on the stage there was quite a bit of distance between the performers and the cameras. This made communication while playing difficult at times.
+One thing I quickly noticed while rehearsing using LoLa was how disconnected you initially feel from the other performers. This feeling can be avoided by moving the cameras closer to the performers. This also helps with visual cues which can be a lot harder to pick up on unless they've been explained beforehand. This means that all movements have to be exaggerated, at least during the beginning of rehearsals. Since our rehearsals were done on the stage there was quite a bit of distance between the performers and the cameras. This made communication while playing difficult at times. Especially compared to our earlier rehearsals where we all practiced together in a small room where we could easily communicate with each other.
 
 ### Tips for Listening to Each Other
 
-The listening situation is also quite interesting while using LoLa. When rehearsing for our concert we were using headsets to listen to each other. Although this gave us better control over the overall level, I did feel like I lost the sense of being located in the same space as the other performers. Using speakers instead of headphones is one way of bringing back the feeling of being situated in the same space, but be careful since it could easily create a feedback loop if you're using microphones. Getting creative with camera placement and listening is something I would recommend if you have time.
+The listening situation is also quite interesting while using LoLa. When rehearsing for our concert we were using headsets to listen to each other. Although this gave us better control over the overall level, I did feel like I lost the sense of being located in the same space as the other performers. Using speakers instead of headphones is one way of bringing back the feeling of being situated in the same space, but be careful since it could easily create a feedback loop if you're using microphones. Since us performers in RITMO were using headphones we became a lot more aware of not only our own playing but also the nuances of the other performers. This made it easier for me to adjust my playing to what the others were doing, so even though verbal and visual communication was harder. I found communicating musically to be easier.
+
 
 ## Final Thoughts
 
