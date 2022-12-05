@@ -20,6 +20,8 @@ This concert formed part of a two-day workshop arranged by Çağrı Erdem called
    <figcaption>Setting up the concert at the Science Library</figcaption>
 </figure>
 
+The two locations for this concert were 650m apart, or about 1.9 seconds at the speed of sound. Meanwhile LOLA, the specialist low-latency software we used, allows us to send audio and video between these locations in around 20-30ms.
+
 You can watch the full concert online [here](https://youtu.be/pIq6TP2ox5c?t=416) as part of the workshop.
 
 ## Technical Background
@@ -39,6 +41,11 @@ The technical team at the Science Library consisted of our colleagues Alex, Iosi
 
 The original plan two weeks before the concert was to use a spatial audio system run through a Max patch designed by Masoud. However, we later realised that this was not quite feasible due to the sheer amount of outputs required from the mixer as well as the CPU demands on Masoud’s laptop. As a result, we scaled down our ambitions to an extended stereo system. The wall-mounted speakers in the Science Library provided the majority of the front of house sound, while a pair of large Genelec speakers on the stage were used for the final piece of the concert.
 
+<figure style="float: none">
+   <img src="/assets/image/2022_11_28_jackeh_kristeic_science_library_stageplot.jpg" width="75%" />
+   <figcaption>Science Library stage plot</figcaption>
+</figure>
+
 ## RITMO
 
 <figure style="float: none">
@@ -47,6 +54,15 @@ The original plan two weeks before the concert was to use a spatial audio system
 </figure>
 
 The RITMO technical team consisted of your authors Kristian and Jack, while Masoud and Fabian were the remote performers. Masoud sang and performed a patch in Max/MSP, while Fabian played the bass guitar and the [no-input mixing board](https://mct-master.github.io/audio-programming/2022/10/01/fabianst-no-input-mixing-pd.html). Helpfully for the technicians, both of these setups connected to the performers’ audio interfaces. This meant that we only needed to send line inputs into the mixer on the NMP kit and connect a simple Shure SM58 vocal microphone for Masoud.
+
+<figure style="float: none">
+   <img src="/assets/image/2022_11_28_jackeh_kristeic_RITMO_stageplot.jpg" width="75%" />
+   <figcaption>RITMO stage plot</figcaption>
+</figure>
+
+## Challenges
+
+We were pleased with how seamless this concert was for the technicians. However, no NMP is ever without its challenges. The technical requirements for the performance shifted significantly in the week prior to the concert, which meant we did not know until we were in the space whether we had all the equipment we needed. Luckily we did not overlook anything major, but nonetheless we learnt that making an exhaustive list of necessary equipment beforehand would have been ideal for peace of mind. Any missing equipment would have been much more problematic if we had been holding the concert outside of the UiO campus, so this was an important lesson to learn going forward.
 
 ## Conclusion
 
