@@ -5,7 +5,7 @@ date: 2022-12-04 05:00:00 +0200
 categories: portal
 author: Ahmet Emin Memis
 image: /assets/image/2022_12_04_ahmetem_livestreaming_telematic_thumbnail.jpg
-excerpt: "Whys, How-tos and Lifesaving Advice on Telematic Concert Streaming."
+excerpt: "Whys, How-tos and Life-Saving Tips on Telematic Concert Streaming."
 keywords: telematic music, portal, livestreaming, concert, video
 ---
 <figure>
@@ -48,19 +48,19 @@ If you would like to live stream mainly from multiple rooms, make sure you still
 
 <figure>
    <img
-      src="/assets/image/2022_12_04_ahmetem_livestreaming_telematic_2.png"
+      src="/assets/image/2022_12_04_ahmetem_livestreaming_telematic_2.PNG"
    />
    <figcaption>MCT students playing in their telematic concert between RITMO and Science Library.</figcaption>
 </figure>
 
-# When filming a screen
+# Filming A Screen
 Simply, cameras are designed to film humans and objects, and screens are not designed to be filmed by cameras. Even so, having screens on the stage inhered in telematic setups may lead to problems you may have to cope with.
-### Screen Brightness and Color Issues
+### Screen Brightness and Color
 Too bright or too dark screens can be an issue when using cameras. Even though human eyes are perfect at seeing bright and dark in the same frame, that's not the case for cameras. In such a scenario, first, try to adjust the cameras' diaphragm and aperture settings. If it doesn't help, try changing the light flashing on the monitor or projection screen.
 ### Refresh Rate Issues
 If your screen is flickering or banding, although screens have different technologies, the underlying cause is similar: the camera's framerate doesn't match the monitor's refresh rate. A monitor's refresh rate is how many times the picture is changed in a certain amount of time. On the other hand, a camera's refresh rate represents the number of pictures taken in a certain amount of time. When they don't match, problems begin. You can fix it by setting the camera's fps to multiples of the refresh rate of the screen.
 
-# Important Live Streaming Tips to Remember
+# Important Things to Remember
 - You may have the audio slightly offset when you take video and audio from different sources (e.g., video from cameras, audio from a mixer). Remember to synchronize them before going live. Most streaming programs (e.g., OBS Studio) have built-in tools to shift the audio slightly. For testing, you can either run a test stream and watch it live or run a test recording and check it on your local machine. If you are recording only, you can use post-production software (e.g., Adobe Premiere Pro) to automatically synchronize everything you recorded. See this article to see how to sync audio and video in seconds: https://www.evercast.us/blog/syncing-audio-in-premiere
 - If you are filming a screen, you may experience poor color quality. Remember to fine-tune the screen's color settings (e.g., TV, projector) to make sure it looks cool on the camera.
 - To overcome flickering when filming a screen, try changing the refresh rate of the screen to multiples of your camera/stream refresh rate (when streaming 24 fps, the screen refreshes at 48 or 96 fps)
