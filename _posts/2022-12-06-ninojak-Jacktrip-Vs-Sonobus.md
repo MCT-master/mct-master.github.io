@@ -8,8 +8,8 @@ image: /assets/image/2022_12_06_ninojak_Telematic_Performance.jpg
 excerpt: "Low-latency online music performance platforms"
 keywords: telematic music tools, JackTrip, Sonobus, Low-latency network performance
 ---
-#JackTrip Vs Sonobus
-#
+# JackTrip Vs Sonobus
+
 
 <figure style="float: none">
    <img 
@@ -20,7 +20,6 @@ keywords: telematic music tools, JackTrip, Sonobus, Low-latency network performa
 
 
 
-#
 
 You probably know that it takes time for audio data to travel from person to person. This slight delay, A.K.A. latency, is a "good old friend" of any online music collaboration. If otherwise intended, you will end up looking for tools to eliminate it.
 
