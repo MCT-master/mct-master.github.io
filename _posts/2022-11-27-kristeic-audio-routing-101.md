@@ -1,7 +1,7 @@
 ---
 layout: post
-title: "Audio Routing 101"
-date: 2022-11-28 22:00:00 +0200
+title: "The MCT Audio Vocabulary"
+date: 2022-12-06 03:00:00 +0200
 categories: portal
 author: Kristian Eicke
 image: /assets/image/2022_11_27_kristeic_frontmatter_audio101.jpg
@@ -24,6 +24,15 @@ Occasionally, you come across a channel called Aux(iliary) or Return. It is simi
 You can read more extensively on the matter [here](https://www.izotope.com/en/learn/mix-buses-101.html).
 
 
+<figure>
+   <img
+      src="/assets/image/2022_12_06__kristeic_yamaha_mixer.jpg"
+   />
+   <figcaption>The NMP-kit Yamaha Mixer and different routing options</figcaption>
+</figure>
+
+
+
 ## Pre-fader vs. Post-Fader
 <br/>
 Those terms refer to send options, meaning that you can send the signal to wherever you desire before or after it is affected by the channel fader.
@@ -39,7 +48,8 @@ is a positive voltage for equipment that contains active electronic circuitry, m
 
 ## ADAT vs. S/PDIF 
 <br/>
-ADAT (Alesis Digital Audio Tape) and S/PDIF (Sony/ Philips Digital Interface) are optical audio cable formats that allow the transfer of digital audio between devices without a conversion to analog to retain high quality. 
+ADAT originally referred to the *A*lesis *D*igital *A*udio *T*ape recorder module developed in the 1980s. The ADAT Optical interface protocol was introduced later for sending audio between recorders, and to this day we use the abbreviation for the protocol (commonly referred to as ADAT Lightpipe) rather than for the recorder. 
+ADAT and S/PDIF (Sony/ Philips Digital Interface) are optical audio cable formats that allow the transfer of digital audio between devices without a conversion to analog to retain high quality. 
 S/PDIF can be implemented either through an optical cable (TOSLINK) or a coaxial cable (RCA), whereas ADAT requires an optical cable. 
 So what are the differences besides that?
 
@@ -49,6 +59,14 @@ So what are the differences besides that?
 | -	fixed sample rate of 48khz/ 44.1kh     | - no fixed sample rate, the clock is embedded in the protocol   |
 
 And: optical cables can be damaged more easily but are the preferred choice if length matters and electromagnetic interference needs to be avoided.
+
+
+<figure>
+   <img
+      src="/assets/image/2022_12_06_kristeic_adat_spdif.jpg"
+   />
+   <figcaption>Possible Connections</figcaption>
+</figure>
 
 
 ## Hierarchy of On/ Off - Plugging/ Unplugging
@@ -76,6 +94,11 @@ First, make sure that the cable is untangled and lies on the floor in a more or 
 
 If you feel that there is strain on the cable try to roll it to the left or right with your fingers to release that strain. The final product should look like this. 
 
-![not found](/assets/image/2022_11_27_kristeic_cableroll.jpg "A good rolled cable")
+<figure>
+   <img
+      src="/assets/image/2022_11_27_kristeic_cableroll.jpg"
+   />
+   <figcaption>A good rolled cable</figcaption>
+</figure>
 
 Bonus easter egg: the speaker array in the Portal is routed counter-clockwise on the MIDAS.
