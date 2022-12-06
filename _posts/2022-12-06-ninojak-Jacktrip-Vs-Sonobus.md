@@ -1,10 +1,10 @@
 ---
 layout: post
 title: "JackTrip Vs Sonobus" - Review and Comparison"
-date: 2022-12-04 05:00:00 +0200
+date: 2022-12-06 05:00:00 +0200
 categories: portal
 author: Nino Jakeli
-image: /assets/image/2022_12_04_ahmetem_mid_semester_concert.jpg
+image: /assets/image/2022_12_06_ninojak_Telematic_Performance.jpg
 excerpt: "Low-latency online music performance platforms"
 keywords: telematic music tools, JackTrip, Sonobus, Low-latency network performance
 ---
