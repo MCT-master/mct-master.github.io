@@ -65,7 +65,7 @@ allowfullscreen>
 </figure>
 <br>
 
-All of the computation and signal processing is carried out by a Bela running a Pure Data patch. The block diagram below shows how all of the various components interact.
+All of the computation and signal processing is carried out by a [Bela](https://bela.io/) running a [Pure Data](https://puredata.info/) patch. The block diagram below shows how all of the various components interact.
 
 <figure style="float: none">
    <img src="/assets/image/2022_12_06_hughav_fq_block.png" alt="Alternate Text" title="Image Title" height="70%" width="70%" />
