@@ -4,13 +4,13 @@ title: "Generating Music Based on Webcam Input"
 date: 2022-03-23 11:00:00 +0200
 categories: machine-learning
 author: Arvid Falch, Hugh Alexander von Arnim, Jakob Høydal, Joachim Poutaraud
-image: /assets/image/2022_jakobhoydal_webcamThumbnail.jpg
+image: /assets/image/2022_03_23_jakobhoydal_webcamThumbnail.jpg
 keywords: portal
 excerpt: "Do you miss PS2 EyeToy? Then you have to check this out!"
 ---
 
 <figure style="float: none">
-   <img src="/assets/image/2022_jakobhoydal_webcamHeader.jpg" alt="Alternate Text" width="auto" />
+   <img src="/assets/image/2022_03_23_jakobhoydal_webcamHeader.jpg" alt="Alternate Text" width="auto" />
 </figure>
 
 ### Introduction
