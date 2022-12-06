@@ -9,6 +9,10 @@ keywords: jacktrip, LOLA, performing, recording, network-musical-performance
 excerpt: "Performing and recording network music at home? Thanks to JackTrip, now you can do it too."
 ---
 
+## What is a Network Musical Performance?
+
+A network musical performance or NMP is a musical performance that happens over a network, be it a private network or a public one like the internet. In MCT we spend a lot of time experimenting with various software for performing and rehearsing network music. Two of our most used solutions are LOLA and JackTrip. First let's briefly compare them, and then we will dive deeper into JackTrip.
+
 ## LOLA and JackTrip
 
 In MCT we most commonly use [LOLA](https://lola.conts.it/) for our network performances. The advantages of LOLA are many – with an ideal network, such as the LOLA network we use at UiO, we can stream uncompressed audio and video between two to three locations. This is just what we need for these concerts in which high production values are essential.
@@ -38,6 +42,11 @@ We can take advantage of internal audio routing within our laptops to record hig
 
 In our own testing with JackTrip in MCT4024, my fellow MCT student Kristian and I recorded two channels, one local and one from the network, while also sending out a drum track for us over which we would both improvise. We routed my microphone connected via XLR into an audio interface and Kristian’s synth received over the network into JackTrip and out into Ableton via the JackRouter receive patch point. There I recorded both of our instruments directly to Ableton audio tracks. Both of these received channels plus the pre-recorded drum machine track were then all routed back into JackTrip through the JackRouter receive. This allowed us to monitor ourselves and the drums with negligible latency, while also recording the whole session.
 
+<figure style="float: none">
+   <img src="/assets/image/2022_11_28_jackeh_jacktrip_routing_diagram.png"/>
+   <figcaption>The JackTrip routing for the above setup. Note both live audio sources being sent into Ableton and out again before going to our headphones.</figcaption>
+</figure>
+
 See the result of our experiment in the video below:
 
 <figure style="float: none">
@@ -49,7 +58,7 @@ See the result of our experiment in the video below:
 
 We recorded the video separately but simultaneously using our laptop webcams because we were unable to access the internet, and therefore Zoom, while also being connected to the LOLA network. While is this not an issue if you are using JackTrip over the internet, in our case it meant we could not communicate visually while recording. As a result it did dampen the feeling of a live performance somewhat.
 
-We found JackRouter to be the easiest solution for internal audio routing on Windows when using JackTrip. JackRouter is unfortunately Windows-only for now, the above can also be replicated on other operating systems using audio routing utilities such as BlackHole on Mac.
+We found JackRouter to be the easiest solution for internal audio routing on Windows when using JackTrip. JackRouter is unfortunately Windows-only for now, but the above can also be replicated on other operating systems using audio routing utilities such as BlackHole on Mac.
 
 ## Conclusion
 
