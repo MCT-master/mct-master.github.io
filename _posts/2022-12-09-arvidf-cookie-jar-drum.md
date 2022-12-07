@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "A Christmas tale of cookie boxes and soldering"
-date: 2022-12-09 08:00:00 +0200
+date: 2022-12-08 00:01:00 +0200
 categories: interactive-music
 author: Arvid Falch
 image: /assets/image/2022_12_09_arvidf_nisser.jpg
