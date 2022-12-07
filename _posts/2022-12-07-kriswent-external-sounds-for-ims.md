@@ -23,10 +23,10 @@ Embedded systems are small computer systems consisting of computer processor and
 
 Let us not forget that audio in/out jacks essentially are analog I/O connectors as well!
 
-Pssst – Keep in mind that it can be possible to simulate extra analog outputs by applying *Pulse Width Modulation* (PWM) to a digital output (which has a state of either 0 or 1). You can read more about this [here](https://www.allaboutcircuits.com/technical-articles/introduction-to-microcontroller-timers-pwm-timers/).
+Pssst – Keep in mind that it can be possible to simulate extra analog outputs by applying *Pulse Width Modulation* (PWM) to a digital output (which has a state of either 0 or 1). You can read more about PWM [here](https://www.allaboutcircuits.com/technical-articles/introduction-to-microcontroller-timers-pwm-timers/).
 
 ## Bela
-[Bela](https://bela.io/) is the embedded system of choice at MCT, because of it's super low latency (0.5ms action-to-sound latency), and a generous amount of I/O pins.
+[Bela](https://bela.io/) is the embedded system of choice at MCT, because of it's super low latency (0.5ms action-to-sound latency), and a generous amount of I/O pins. This is a complete system for creating an IMS, where [Pure Data](https://puredata.info/) is one of the programming languages supported.
 
 ### I/O
 - 2x Audio Inputs
