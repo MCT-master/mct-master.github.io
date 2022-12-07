@@ -1,17 +1,17 @@
 ---
 layout: post
-title: Create complex filter responses in Pure Data using biquad~
+title: Creating Complex Filters in Pure Data with Biquad~
 date: 2022-12-07 22:00:00 +0200
 categories: audio-programming
 author: Jack Hardwick
 image: /assets/image/2022_12_07_jackeh_filters_blog_post_preview_image.jpg
 keywords: audio, programming, puredata, python, filters
-excerpt: "One approach to building a complex filter in Pure Data with the help of Python."
+excerpt: "One approach to building/rebuilding complex filters in Pure Data, with a little help from Python."
 ---
 
 ## An Brief Introduction to Filters
 
-Just as a coffee filter lets the brewed liquid through while also preventing bits of coffee bean from ending up in your flat white, a filter in signal processing lets through some frequencies (the coffee) while holding back others (the coffee grounds). Audio filters are one of the key components of the computer musician’s toolbox. As musicians, we most commonly think of filters in the audio domain as a component of mixing or sound design. However, a filter can be applied to any time series data, for example control signals in Max/MSP or Pure Data, physical sensor data, or even geological data or tidal data.
+Coffee filters and audio filters work on much the same principle. A coffee filter lets your lovely hot coffee through while preventing bits of bean from ending up in your oat milk flat white. Meanwhile digital filters let through some frequencies (the coffee) while holding back others (the coffee grounds). Audio filters are one of the key components of the computer musician’s toolbox. As musicians, we most commonly think of filtering as a component of mixing or sound design. However, a filter can be applied to any time series data, for example control signals in Max/MSP or Pure Data, physical sensor data, or even geological data or tidal data.
 
 The most used filter types in musical contexts are low-pass, high-pass, band-pass, and band-stop, which work largely as the names suggest. However, one can also specify more complex filter shapes. For example, suppose we want to correct or 'flatten' the natural frequency response of a room or a pair of headphones. A simple low-pass filter is not going to be enough, as there are numerous frequencies that are either boosted or attenuated to different extents. As a result, we will need to employ a filter with a complex response to neutralise the peaks and valleys.
 
