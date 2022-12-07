@@ -52,7 +52,7 @@ In a shelf in a CO store I found the perfect material. A black mat, thick yet so
 
 I had soldered some guitar mics and pedals back in the early 00's, so I thought this part of the build would be like a walk in the park.
 
-Two days later, three copper boards in the graveyard and an amount of norwegian swear words not heard since [Oddvar Brå broke his ski pole](https://youtu.be/nBr9uQG52a0?t=20)[^1] I was about to give up. Really.
+Two days later, three circuit boards in the graveyard and an amount of norwegian swear words not heard since [Oddvar Brå broke his ski pole](https://youtu.be/nBr9uQG52a0?t=20)[^1] I was about to give up. Really.
 
 The MCT master program has been pretty challenging to say the least, but I've never actually considered quitting a course. But facing the challenge of soldering very small components on a tiny board almost broke me. I had to call out for help.
 
