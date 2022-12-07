@@ -19,7 +19,7 @@ This post won't go into details about how the instrument turned out in the end (
 
 <figure style="float: none">
    <img src="/assets/image/2022_12_12_arvidf_messy_desk.jpg" alt="My messy workstation" title="" width="auto" />
-   <figcaption><i>Spoiler it got messy. This is just me doing some final tweaks. My family can't wait to have their kitchen table back.</i></figcaption>
+   <figcaption><i>Spoiler: it got messy. This is just me doing some final tweaks. My family can't wait to have their kitchen table back.</i></figcaption>
 </figure>
 
 ## Planning the build
