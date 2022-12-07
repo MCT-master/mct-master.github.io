@@ -18,9 +18,11 @@ Trying to come up with an idea for my IMS project, I envisioned a hand held elec
 This post won't go into details about how the instrument turned out in the end (You can check it out in action on this video (link coming 12.12.2022)). I thought it might be more interesting to describe how a guy with ten thumbs and the practical sense of an ostrich went about the process of building the physical parts of the IMS.  
 
 <figure style="float: none">
-   <img src="/assets/image/2022_12_12_arvidf_messy_desk.jpg" alt="My messy workstation" title="" width="auto" />
+   <img src="/assets/image/2022_12_09_arvidf_messy_desk.jpg" alt="My messy workstation" title="" width="auto" />
    <figcaption><i>Spoiler: it got messy. This is just me doing some final tweaks. My family can't wait to have their kitchen table back.</i></figcaption>
 </figure>
+
+
 
 ## Planning the build
 
@@ -33,14 +35,14 @@ Somehow I finally realized that I had to find something easy to start with, so I
 So where to go? To the kitchen. Like a kid I took out some different kitchen utensils and started banging anything resembling a drum. And I found my perfect pre-prototype candidate. A Christmas cookie box from last year.
 
 <figure style="float: none">
-   <img src="/assets/image/2022_12_12_arvidf_cookie_box.jpg" alt="My cookie box" title="" width="auto" />
+   <img src="/assets/image/2022_12_09_arvidf_cookie_box.jpg" alt="My cookie box" title="" width="auto" />
    <figcaption><i>My dear cookie box</i></figcaption>
 </figure>
 
 I taped up my sensors, hooked it up to the breadboard and started hitting it with a drumstick. And it was booming. My [piezo sensor](https://www.sparkfun.com/products/10293) was ringing like a church bell. And even though my first ever drumming as a kid happened on a cookie box, I had to admit that it wasn't very pleasant to hit on bare metal with a drum stick. So I needed padding.
 
 <figure style="float: none">
-   <img src="/assets/image/2022_12_12_arvidf_first_drum.jpg" alt="My first instrument" title="" width="auto" />
+   <img src="/assets/image/2022_12_09_arvidf_first_drum.jpg" alt="My first instrument" title="" width="auto" />
    <figcaption><i>Me 3 years old back in 1983 with my very first instrument, after banging on cookie boxes for a long time. </i></figcaption>
 </figure>
 
