@@ -5,7 +5,7 @@ date: 2022-12-06 20:30:00 +0200
 categories: interactive-music
 author: Hugh Alexander von Arnim
 image: /assets/image/2022_12_06_hughav_micspeaker.jpg
-excerpt: "Using feedback in a sequencer!"
+excerpt: "Using feedback in a sequencer"
 keywords: interactive music system, acoustic feedback, sequencer, Bela,
 ---
 # Microphones, Loudspeakers, and Feedback
@@ -74,7 +74,7 @@ All of the computation and signal processing is carried out by a [Bela](https://
 
 If you want to try constructing the system and playing around with it yourself, all the software and design documents can be found [here](https://github.com/Hughav92/feedbackquencer.git).
 
-This instrument works well enough, but interaction by the musician is limited to control over timbre and the amplitude envelope. Can a more complex system be developed that offers the musician control over many more parameters, enabling much richer interaction with the feedback. Check out [part 2](https://mct-master.github.io/motion-capture/2022/12/06/hughav-feedback-mop-cello.html) of this post to see the further development of these ideas.
+This instrument works well enough, but interaction by the musician is limited to control over timbre and the amplitude envelope. Can a more complex system be developed that offers the musician control over many more parameters, enabling much richer interaction with the feedback. Check out [part 2](https://mct-master.github.io/interactive-music/2022/12/08/hughav-feedback-mop-cello.html) of this post to see the further development of these ideas.
 
 # References
 
