@@ -74,7 +74,7 @@ An accelerometer has been added, so when the instrument is lifted upwards, a vib
 
 <figure style="float: none">
    <img src="/assets/image/2022_12_08_jakobhoydal_AI_generated.png" width="100%" height="100%" />
-   <figcaption>[ChatGPT's](https://openai.com/blog/chatgpt/) take at the problem... Not so far from reality!</figcaption>
+   <figcaption>ChatGPT's take at the problem... Not so far from reality! (https://openai.com/blog/chatgpt/) </figcaption>
 </figure>
 
 
