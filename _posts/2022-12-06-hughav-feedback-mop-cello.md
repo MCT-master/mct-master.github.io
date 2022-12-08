@@ -45,7 +45,23 @@ However, there is still the question of pitch. Although the pitch of the feedbac
 
 Below is a video of the Feedback Mop Cello in action.
 
-**Video Coming Soon!**
+<br>
+<figure style="float: none">
+<iframe width="800" height="500"
+src="https://www.youtube.com/embed/YpIe4ZJBYKM  "
+title="YouTube video player"
+frameborder="0"
+allow="accelerometer;
+100%play;
+clipboard-write;
+encrypted-media;
+gyroscope;
+picture-in-picture"
+allowfullscreen>
+</iframe>
+<figcaption><i>Joachim demoing the Feedback Mop Cello</i></figcaption>
+</figure>
+<br>
 
 Like the Feedbackquencer, the Feedback Mop Cello runs on a [Bela](https://bela.io/) with the software written in [Pure Data](https://puredata.info/). If you want to try constructing the system and playing around with it yourself, all the software and design documents can be found [here](https://github.com/Hughav92/feedback_mop_cello.git).
 
