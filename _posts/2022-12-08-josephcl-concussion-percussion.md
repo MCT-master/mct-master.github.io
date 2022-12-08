@@ -4,13 +4,13 @@ title: "Concussion Percussion: A Discussion"
 date: 2022-12-08 10:00:00 +0200
 categories: interactive-music
 author: Joseph Clemente
-image: /assets/image/2022_12_7_josephcl_concussion_percussion_thumbnail.jpg
+image: /assets/image/2022_12_07_josephcl_concussion_percussion_thumbnail.jpg
 keywords: interactive music, music performance, handpan, steeldrum, percussion
 excerpt: "Whether it’s riding a bike or building an handpan-esque interactive music system, always remember to wear a helmet"
 ---
 
 <figure style="float: none">
-   <img src="/assets/image/2022_12_7_josephcl_concussion_percussion_thumbnail.jpg" width="50%" height="50%" />
+   <img src="/assets/image/2022_12_07_josephcl_concussion_percussion_thumbnail.jpg" width="50%" height="50%" />
    <figcaption>This poor mannequin's in for a world of hurt, luckily it has a helmet on!</figcaption>
 </figure>
 
@@ -26,7 +26,7 @@ Similar to a handpan, Concussion Percussion allows the user to hit an ordinary b
 
 <figure style="float: none">
 	<audio controls>
-      <source src="https://www.uio.no/english/studies/programmes/mct-master/blog/assets/audio/2022_12_7_josephcl_handpan_example.wav" type="audio/wav">
+      <source src="https://www.uio.no/english/studies/programmes/mct-master/blog/assets/audio/2022_12_07_josephcl_handpan_example.wav" type="audio/wav">
     </audio>
    <figcaption>Handpan Audio Example</figcaption>
 </figure>
@@ -37,7 +37,7 @@ A flex sensor, which is a sensor that returns values  is used to control two dif
 
 <figure style="float: none">
 	<audio controls>
-      <source src="/assets/audio/2022_12_7_josephcl_drone_example.mp3" type="audio/mp3">
+      <source src="/assets/audio/2022_12_07_josephcl_drone_example.mp3" type="audio/mp3">
     </audio>
    <figcaption>Drone Audio Example</figcaption>
 </figure>
@@ -46,7 +46,7 @@ The second is controlling some background noise when a piezo registers a hit, cr
 
 <figure style="float: none">
 	<audio controls>
-      <source src="/assets/audio/2022_12_7_josephcl_sparkle_example.mp3" type="audio/mp3">
+      <source src="/assets/audio/2022_12_07_josephcl_sparkle_example.mp3" type="audio/mp3">
     </audio>
    <figcaption>Flex Sensor + Piezo Hit Audio Example</figcaption>
 </figure>
@@ -57,7 +57,7 @@ The rotary encoder (or “knob” for the uninitiated) also serves two key funct
 
 <figure style="float: none">
 	<audio controls>
-      <source src="https://www.uio.no/english/studies/programmes/mct-master/blog/assets/audio/2022_12_7_josephcl_delay_example.wav" type="audio/wav">
+      <source src="https://www.uio.no/english/studies/programmes/mct-master/blog/assets/audio/2022_12_07_josephcl_delay_example.wav" type="audio/wav">
     </audio>
    <figcaption>Handpan Delay Audio Example</figcaption>
 </figure>
@@ -66,7 +66,7 @@ The second is adding a bit of a harsher texture to the drone. The faster the use
 
 <figure style="float: none">
 	<audio controls>
-      <source src="/assets/audio/2022_12_7_josephcl_bitcrush_example.mp3" type="audio/mp3">
+      <source src="/assets/audio/2022_12_07_josephcl_bitcrush_example.mp3" type="audio/mp3">
     </audio>
    <figcaption>Rotary Encoder Bitcrusher Audio Example</figcaption>
 </figure>
@@ -76,21 +76,21 @@ The second is adding a bit of a harsher texture to the drone. The faster the use
 The positions of the piezo discs on the helmet are arbitrary, since they are quite sensitive and can register a hit from anywhere on the helmet. I positioned them on my helmet so that it feels the most comfortable when playing.
 
 <figure style="float: none">
-   <img src="/assets/image/2022_12_7_josephcl_piezo_placement.jpg" width="50%" height="50%" />
+   <img src="/assets/image/2022_12_07_josephcl_piezo_placement.jpg" width="50%" height="50%" />
    <figcaption>Position of the piezo discs on the helmet</figcaption>
 </figure>
 
 The flex sensor is velcroed to the outside of a glove with the fingertips cut out, which allows the user to still play with that hand without the dampening effect of hitting the helmet with a glove on.
 
 <figure style="float: none">
-   <img src="/assets/image/2022_12_7_josephcl_flex_sensor_placement.jpg" width="50%" height="50%" />
+   <img src="/assets/image/2022_12_07_josephcl_flex_sensor_placement.jpg" width="50%" height="50%" />
    <figcaption>Position of the flex sensor on the glove</figcaption>
 </figure>
 
 Finally, I mounted the rotary encoder on the side of the helmet to allow easy access to the user.
 
 <figure style="float: none">
-   <img src="/assets/image/2022_12_7_josephcl_rotary_encoder_placement.jpg" width="50%" height="50%" />
+   <img src="/assets/image/2022_12_07_josephcl_rotary_encoder_placement.jpg" width="50%" height="50%" />
    <figcaption>Position of the rotary encoder on the helmet</figcaption>
 </figure>
 
