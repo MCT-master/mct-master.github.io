@@ -32,7 +32,7 @@ The following parts were used:
 |Triple Axis Accelerometer Module (Y axis)	|Not in use  |
 |Triple Axis Accelerometer Module (Z axis)	|Not in use  |
 
-A Pringles tube has a inner dimensions of 70mm. The [Bela board](https://www.pringles.com/no/home.html) is 55mm wide, leaving little room for all of the electronics. An extra board had to be constructed so it could facilitate all of the sensor connections.
+A Pringles tube has a inner dimensions of 70mm. The [Bela board](https://bela.io/) is 55mm wide, leaving little room for all of the electronics. An extra board had to be constructed so it could facilitate all of the sensor connections.
 
 All of the sensors in the table above were implemented. To connect them, cables and more breakout board were created.
 
