@@ -4,7 +4,7 @@ title: Shimmerion - A String Synthesizer played with Light
 date: 2022-12-08
 categories: interactive-music
 author: Iosif Aragiannis
-image: /assets/image/2022_12_08_shimmerioninteraction.png
+image: /assets/image/2022_12_08_shimmerionthumbnail.png
 keywords: Interactive Music System, Theremin, Mellotron, light, flashlight, smartphone
 excerpt: "Use your phone's flashlight to make music!"
 ---
@@ -13,7 +13,7 @@ excerpt: "Use your phone's flashlight to make music!"
 # Inspiration
 Shimmerion was conceived as a combination of two instruments: the Mellotron, an analog tape-replay keyboard used to imitate string ensembles, and the very popular Theremin. I wanted to make a string synthesizer that is controlled primarily without physical contact by the performer. The additional key feature I aimed for was a tremolo effect (AM synthesis), that would make the sound exotic, leaving space for a more experimental performance/experience
 
-[Photo of Mellotron and Theremin](/assets/image/2022_12_08_mellotrontheremin.png "Mellotron and Theremin")
+[Photo of Mellotron&Theremin](/assets/image/2022_12_08_mellotrontheremin.png "Mellotron and Theremin")
 
 # Design
 Shimmerion’s pitch is controlled by the incoming light from the performer’s smartphone. There are two versions of the main signal, one with and one without an amplitude modulator (dry/ wet). The pitch of the modulator and the amplitude of the “wet” signal are controlled by the distance between the user’s hand and an IR sensor. The “dry” signal’s amplitude is controlled via a knob.
