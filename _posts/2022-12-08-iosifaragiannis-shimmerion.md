@@ -19,7 +19,7 @@ Shimmerion was conceived as a combination of two instruments: the Mellotron, an 
 </figure>
 
 # Design
-Shimmerion’s pitch is controlled by the incoming light from the performer’s smartphone. There are two versions of the main signal, one with and one without an amplitude modulator (dry/ wet). The pitch of the modulator and the amplitude of the “wet” signal are controlled by the distance between the user’s hand and an IR sensor. The “dry” signal’s amplitude is controlled via a knob.
+Shimmerion is designed to be played in the dark, with its pitch controlled by the incoming light from the performer’s smartphone. There are two versions of the main signal, one with and one without an amplitude modulator (dry/ wet). The pitch of the modulator and the amplitude of the “wet” signal are controlled by the distance between the user’s hand and an IR sensor. The “dry” signal’s amplitude is controlled via a knob.
 
 # Sensors & Controller
 I’m using 3 different sensors to drive the system:
@@ -43,7 +43,7 @@ For the case that all the components would be placed I decided to use a small pa
 </figure>
 
 # Sound Synthesis
-The sound synthesis of the instrument was done in Pure Data. Specifically, I used “Synth Strings” from the series of “Rich Synthesis Tutorials” by “Really Useful Plugins”. I tweaked the patch to fit my needs and work with my selection of analog sensors instead of a MIDI keyboard that was the original controller. For the mapping I used Stefano Fasciani’s scalesiglin~ external object.
+The sound synthesis of the instrument was done in Pure Data. Specifically, I used “Synth Strings” from the series of “Rich Synthesis Tutorials” by “Really Useful Plugins”. I tweaked the patch to fit my needs and work with my selection of analog sensors instead of a MIDI keyboard that was the original controller. For the mapping I used Stefano Fasciani’s "scalesiglin~" external object from his external library "sfalib".
 
 <figure style="float: none">
    <img src="/assets/image/2022_12_08_iosifaragiannis_shimmerionpatch.jpg" alt="Alternate Text" title="Image Title" width="auto" />
