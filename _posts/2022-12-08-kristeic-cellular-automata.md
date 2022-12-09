@@ -140,7 +140,7 @@ My Pure Data patch is a prototype for a final module I like to use for compositi
    <figcaption>My CA module alone in the wild</figcaption>
 </figure>
 
-CA module and parts of other patches play together.
+CA module and parts of other patches play together. Check my [github](https://github.com/shx-vhs/pd-cellular-automaton) for the file.
 <figure style="float: none">
   <video width="auto" controls>
     <source src="https://www.uio.no/english/studies/programmes/mct-master/blog/assets/video/2022_12_07_kristeic_presentation.mp4" type='video/mp4'>
