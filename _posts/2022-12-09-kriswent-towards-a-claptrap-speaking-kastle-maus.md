@@ -16,7 +16,7 @@ It's the most beautiful time of the year! The time of the year when MCT projects
 This is the story of my project in Interactive Music Systems, trough it's early stages and aaaaalmost to it's final iteration. I hope you enjoy it!
 
 <figure style="float: none">
-   <img src="/assets/image/2022_12_09_kriswent_puppet_maus2.jpg" alt="Maus" title="" height="auto" width="55%" />
+   <img src="/assets/image/2022_12_09_kriswent_puppet_maus.jpg" alt="Maus" title="" height="auto" width="55%" />
    <figcaption><i>Say cheese to Maus.</i></figcaption>
 </figure>
 
