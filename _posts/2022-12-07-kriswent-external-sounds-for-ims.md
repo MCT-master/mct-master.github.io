@@ -135,7 +135,7 @@ The Kastl's operate within 5V.
 
 # Start Connecting 
 
-Now you have some ideas for "out-of-the-box" sound generation in your IMS. In an upcoming [blogpost](https://mct-master.github.io/interactive-music/2022/12/09/kriswent-kriswent-towards-a-claptrap-speaking-kastle-maus.html) for my IMS project, I will present how I made use of a Bela and a Bastl Kastle in beautiful(?) harmony!
+Now you have some ideas for "out-of-the-box" sound generation in your IMS. In an upcoming [blogpost](https://mct-master.github.io/interactive-music/2022/12/09/kriswent-towards-a-claptrap-speaking-kastle-maus.html) for my IMS project, I will present how I made use of a Bela and a Bastl Kastle in beautiful(?) harmony!
 
 ## Disclaimer
 Don't try this at home! Or, well, please do. But play with this at your own discretion. 
