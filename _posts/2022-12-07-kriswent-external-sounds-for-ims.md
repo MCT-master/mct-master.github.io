@@ -105,7 +105,7 @@ The Korg Volga Modular operates within 3.3V.
    <figcaption><i>Korg Volca Modular</i></figcaption>
 </figure>
 
-## Moog Werkstatt
+## Moog Werkstatt-01
 
 The [Moog Werkstatt-01](https://www.moogmusic.com/products/werkstatt-01-cv-expander) is an traditional East Coast style analog semi-modular synthesizer that comes shipped as a kit. This instrument uses jumper cables for patching, although it usually ships with a mountable CV expander, who'll transform the 20x pin I/O interface to one with 12x 3.5mm TS jack connectivity. Of course we'll keep all 20 of them, not just *"12 of the most useful inputs"*.
 
@@ -135,7 +135,7 @@ The Kastl's operate within 5V.
 
 # Start Connecting 
 
-Now you have some ideas for "out-of-the-box" sound generation in your IMS. In an upcoming blogpost for my IMS project, I will present how I made use of a Bela and a Bastl Kastle in beautiful(?) harmony!
+Now you have some ideas for "out-of-the-box" sound generation in your IMS. In an upcoming [blogpost](https://mct-master.github.io/interactive-music/2022/12/09/kriswent-kriswent-towards-a-claptrap-speaking-kastle-maus.html) for my IMS project, I will present how I made use of a Bela and a Bastl Kastle in beautiful(?) harmony!
 
 ## Disclaimer
 Don't try this at home! Or, well, please do. But play with this at your own discretion. 
