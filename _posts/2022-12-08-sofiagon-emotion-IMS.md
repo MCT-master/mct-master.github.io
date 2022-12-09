@@ -4,7 +4,7 @@ title: "Interactive Music Systems, Communication and Emotion"
 date: 2022-12-09 10:00:00 +0200
 categories: interactive-music
 author: Sofía González
-image: /assets/image/2022_05_12_sofiagon_gesture.jpg
+image: /assets/image/2022_12_09_sofiagon_caricature.jpg
 keywords: ims, emotion, psychology, motion capture
 excerpt: "There are many takes on gesticulation and its meanings, however, I wanted to take the time to delimit what a gesture is, possible categories and gesturing patters."
 ---
