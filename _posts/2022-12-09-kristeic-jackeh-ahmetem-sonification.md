@@ -4,7 +4,7 @@ title: "Sonifying the Northern Lights: Two Approaches in Python & Pure Data"
 date: 2022-12-09 22:00:00 +0200
 categories: audio-programming
 author: Jack Hardwick, Kristian Eicke, Emin Memis
-image: /assets/image/2022_11_27_joachipo_p2p.jpg
+image: /assets/image/2022_12_09_kristeic_ahmetem_jackeh_dido_in_space_small.jpg
 excerpt: "Making 'music' from the Aurora Borealis."
 keywords: Aurora, Borealis, Python, Pure Data, sonification
 ---
@@ -195,7 +195,7 @@ We use our data to control the resulting music in two different ways:
 * **Direct mappings** - there is a one-to-one relationship between data and parameter. For example, density is mapped to the pitch of the lead and bass synths. If the value in the data increases, the parameter increases. This relationship is sometimes inverted, but the mapping is still considered direct.
 * **Generative mappings** - the data controls the behaviour of other algorithms which in turn control parameters. For example, the bulk speed data controls the amount of hits in the drum pattern. The data is not specifying when the drums should hit, only the frequency with which they should hit.
 
-A full table of all our mappings is coming soon!
+**A full table of all our mappings is coming soon!**
 
 ## Building the Sonification
 
