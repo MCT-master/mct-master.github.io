@@ -4,11 +4,11 @@ title: Shimmerion - A String Synthesizer played with Light
 date: 2022-12-08
 categories: interactive-music
 author: Iosif Aragiannis
-image: /assets/image/2022_12_08_shimmerionthumbnail.png
+image: /assets/image/2022_12_08_iosifaragiannis_shimmerionthumbnail.jpg
 keywords: Interactive Music System, Theremin, Mellotron, light, flashlight, smartphone
 excerpt: "Use your phone's flashlight to make music!"
 ---
-![Photo of Shimmerion](/assets/image/2022_12_08_shimmerion1.png "Shimmerion in its finished form")
+![Photo of Shimmerion](/assets/image/2022_12_08_iosifaragiannis_shimmerion1.jpg "Shimmerion in its finished form")
 
 # Inspiration
 Shimmerion was conceived as a combination of two instruments: the Mellotron, an analog tape-replay keyboard used to imitate string ensembles, and the very popular Theremin. I wanted to make a string synthesizer that is controlled primarily without physical contact by the performer. The additional key feature I aimed for was a tremolo effect (AM synthesis), that would make the sound exotic, leaving space for a more experimental performance/experience
@@ -30,7 +30,7 @@ I’m using 3 different sensors to drive the system:
 The last integral part required for the interaction is a smartphone with a flashlight, used as the instrument’s controller. Anyone that wants to perform with Shimmerion can use their own smartphone’s flashlight to feed light into the LDR.
 
 <figure style="float: none">
-   <img src="/assets/image/2022_12_08_shimmerioninteraction.png" alt="Alternate Text" title="Image Title" width="auto" />
+   <img src="/assets/image/2022_12_08_iosifaragiannis_shimmerioninteraction.jpg" alt="Alternate Text" title="Image Title" width="auto" />
    <figcaption>Interaction with Shimmerion</figcaption>
 </figure>
 
@@ -38,7 +38,7 @@ The last integral part required for the interaction is a smartphone with a flash
 For the case that all the components would be placed I decided to use a small paper mailbox, since it can be very easily painted and drilled. I painted the box black and ran the cables through little holes that I drilled with a pair of scissors, placing the sensors in its outer surfaces. At the core of the system is a Bela board, built on a BeagleBone Black computer. I built my own circuit on a solder board attached on top of the Bela to retrieve analog data from my sensors.
 
 <figure style="float: none">
-   <img src="/assets/image/2022_12_08_shimmerion2.png" alt="Alternate Text" title="Image Title" width="auto" />
+   <img src="/assets/image/2022_12_08_iosifaragiannis_shimmerion2.jpg" alt="Alternate Text" title="Image Title" width="auto" />
    <figcaption>Shimmerion's Interior View</figcaption>
 </figure>
 
@@ -46,7 +46,7 @@ For the case that all the components would be placed I decided to use a small pa
 The sound synthesis of the instrument was done in Pure Data. Specifically, I used “Synth Strings” from the series of “Rich Synthesis Tutorials” by “Really Useful Plugins”. I tweaked the patch to fit my needs and work with my selection of analog sensors instead of a MIDI keyboard that was the original controller. For the mapping I used Stefano Fasciani’s scalesiglin~ external object.
 
 <figure style="float: none">
-   <img src="/assets/image/2022_12_08_shimmerionpatch.png" alt="Alternate Text" title="Image Title" width="auto" />
+   <img src="/assets/image/2022_12_08_iosifaragiannis_shimmerionpatch.jpg" alt="Alternate Text" title="Image Title" width="auto" />
    <figcaption>Shimmerion's Patch</figcaption>
 </figure>
 

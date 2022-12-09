@@ -4,7 +4,7 @@ title: Zeusaphone - The singing Tesla coil
 date: 2022-11-26
 categories: interactive-music
 author: Iosif Aragiannis
-image: /assets/image/2022_11_26_zeusaphone_thumbnail.jpg
+image: /assets/image/2022_11_26_iosifaragiannis_zeusaphone_thumbnail.jpg
 keywords: Tesla, coil, lightning, thoramin, zeusaphone
 excerpt: "Have you ever seen choreographed lightning?"
 ---
@@ -24,7 +24,7 @@ excerpt: "Have you ever seen choreographed lightning?"
 Yes, you can make music with lightning. The wonderful singing Tesla coil known as Zeusaphone (sometimes called a Thoramin), is a form of plasma speaker with one-to-one mapping. It is a variety of a solid-state Tesla coil that has been modified to produce musical tones by modulating its spark output. The resulting pitch is a low-fidelity square wave like sound reminiscent of an analog synthesizer.
 
 <figure style="float: none">
-   <img src="/assets/image/2022_11_26_zeusaphone_in_action.jpg" alt="Alternate Text" title="Image Title" width="auto" />
+   <img src="/assets/image/2022_11_26_iosifaragiannis_zeusaphone_in_action.jpg" alt="Alternate Text" title="Image Title" width="auto" />
    <figcaption>The Zeusaphone in action!</figcaption>
 </figure>
 
@@ -33,14 +33,14 @@ The high-frequency signal acts in effect as a carrier wave; its frequency is sig
 While early versions of the Zeusaphone generally used zero crossing threshold detectors as a method of producing music through their spark output (an example of this circuit was released by ctc-labs.de in 2009), Scott Coppersmith was the first person to design a complete MIDI-based Tesla coil system. Since then, the systems work by means of a microcontroller that is programmed to interpret MIDI data and output a corresponding pulse-width modulation (PWM) signal. This PWM signal is coupled to the Tesla coil through a fiber optic cable, and controls when the Tesla coil turns on and off.
 
 <figure style="float: none">
-   <img src="/assets/image/2022_11_26_zeusaphone_cyberrodeo.jpg" alt="Alternate Text" title="Image Title" width="auto" />
+   <img src="/assets/image/2022_11_26_iosifaragiannis_zeusaphone_cyberrodeo.jpg" alt="Alternate Text" title="Image Title" width="auto" />
    <figcaption>live performance in Cyber Rodeo at Giga Texas</figcaption>
 </figure>
 
 The term "singing Tesla coil" was coined by David Nunez, the coordinator of the Austin, Texas chapter of Dorkbot, while describing a musical Tesla coil presentation by Joe DiPrima and Oliver Greaves during DorkBot's 2007 SXSW event. The term was then made popular by a CNET article describing the event. They had been doing public performances with the technology since March 2006. Shortly after that, DiPrima named their performance group "ArcAttack" and became the first musical group to ever use this technology in live performance.
 
 <figure style="float: none">
-   <img src="/assets/image/2022_11_26_ArcAttack.jpg" alt="Alternate Text" title="Image Title" width="auto" />
+   <img src="/assets/image/2022_11_26_iosifaragiannis_ArcAttack.jpg" alt="Alternate Text" title="Image Title" width="auto" />
    <figcaption>ArcAttack performing live with singing Tesla coils</figcaption>
 </figure>
 
@@ -51,6 +51,6 @@ The term "Zeusaphone" was conceived by Barry Gehm, of Lyon College, on June 19, 
 Believe it or not you can actually buy one of these things and there are several models to choose from, with the largest model ZFX-160 standing at a wapping 7 ½ feet (around 2.30 meters) tall, generating 1.5 million volts of raw throbbing musical electricity. The prices for all models go from around $2,000 up to $8,500.
 
 <figure style="float: none">
-   <img src="/assets/image/2022_11_26_zeusaphone_zfx160mkiv.jpg" alt="Alternate Text" title="Image Title" width="auto" />
+   <img src="/assets/image/2022_11_26_iosifaragiannis_zeusaphone_zfx160mkiv.jpg" alt="Alternate Text" title="Image Title" width="auto" />
    <figcaption>2022 Zeusaphone ZFX-160 MK IV</figcaption>
 </figure>
