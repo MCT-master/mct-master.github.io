@@ -4,7 +4,7 @@ title: "Expressive Voice: an IMS for singing"
 date: 2022-12-09 10:00:00 +0200
 categories: interactive-music
 author: Sofía González
-image: /assets/image/2022_12_09_sofiagon_expressive_voice.jpg
+image: /assets/image/2022_12_09_sofiagon_expressive_voice_photo.jpg
 keywords: ims, ims desing, singers
 excerpt: "Take a peak at my IMS and the reasoning behind its design."
 ---
@@ -18,7 +18,7 @@ Some years ago now, I went to a concert in which the singer used a megaphone in 
 I designed this IMS with the goal of giving more control to the singer (in this case, me) to enhance the expressiveness of their voice, (the reason why I chose its name). By allowing singers to add effects in real time, I wanted to expand what they can control from their performance to augment the emotions they want to transmit. But, more importantly, I wanted to expand what **I** could do in my performances. Yes. This IMS was somewhat of a self-indulgent project.
 
 <figure style="float: none">
-   <img src="/assets/image/2022_12_09_sofiagon_expressive_voice.jpg" alt="" title="" width="auto" />
+   <img src="/assets/image/2022_12_09_sofiagon_expressive_voice_photo.jpg" alt="" title="" width="auto" />
 </figure>
 This is what Expressive Voice looks like. Even though it's not the most aesthetically pleasing design you'll ever see, it fulfilled its purpose.
 
