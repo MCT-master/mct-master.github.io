@@ -13,7 +13,10 @@ excerpt: "Use your phone's flashlight to make music!"
 # Inspiration
 Shimmerion was conceived as a combination of two instruments: the Mellotron, an analog tape-replay keyboard used to imitate string ensembles, and the very popular Theremin. I wanted to make a string synthesizer that is controlled primarily without physical contact by the performer. The additional key feature I aimed for was a tremolo effect (AM synthesis), that would make the sound exotic, leaving space for a more experimental performance/experience
 
-[Photo of Mellotron & Theremin](/assets/image/2022_12_08_mellotron&theremin.jpg "Mellotron & Theremin")
+<figure style="float: none">
+   <img src="/assets/image/2022_12_08_mellotron&theremin.jpg" alt="Alternate Text" title="Image Title" width="auto" />
+   <figcaption>Mellotron & Theremin</figcaption>
+</figure>
 
 # Design
 Shimmerion’s pitch is controlled by the incoming light from the performer’s smartphone. There are two versions of the main signal, one with and one without an amplitude modulator (dry/ wet). The pitch of the modulator and the amplitude of the “wet” signal are controlled by the distance between the user’s hand and an IR sensor. The “dry” signal’s amplitude is controlled via a knob.
@@ -40,3 +43,10 @@ The sound synthesis of the instrument was done in Pure Data. Specifically, I use
 
 # Interaction Tips
 Ideally, Shimmerion should be played in a dark or at least dimly lit room, with the only light source for the LDR being the performer’s phone. Thus, the user will have complete control of the instrument’s full chromatic range. Additionally, it is suggested that the performer downloads an application to their phone (e.g., simple flashlight), that allows for more efficient control of the light, while also providing additional features such as SOS that can be utilized creatively. Lastly, a white glove on the hand used on the IR can provide better range, since the sensor reflects more efficiently on white surfaces.
+
+<figure style="float: none">
+  <video width="auto" controls>
+    <source src="https://www.uio.no/english/studies/programmes/mct-master/blog/assets/video/2022_12_09_iosifaragiannis_shimmerion_performance.mp4?vrtx=video-embed" type='video/mp4'>
+  </video>
+  <figcaption><i>Shimmerion Performance.</i></figcaption>
+</figure>
