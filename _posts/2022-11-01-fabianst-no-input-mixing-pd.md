@@ -26,6 +26,13 @@ Here I've combined two different oscilators and some white noise which are contr
 
 Experimenting with different effects and where they're placed in the signal chain can lead to interesting results. You can for example add a chorus effect on one of the oscilators and a phaser to the other one. Or maybe you can replace the oscliators with more advanced forms of synthesizers like an FM or a Granluar synth. Plug Data can also work as a VST which means you can use the patch inside of your DAW, record everything and then further process it.
 
+## Finished 
+Finally I made a nicer looking GUI for the patch.
+
+<figure style="float: none">
+   <img src="https://www.uio.no/english/studies/programmes/mct-master/blog/assets/image/2022_09_12_fabianst_mixerdone.png"  title="GUI done" width="auto" max-height="600px" />
+</figure>
+
 ## Files
 
 Download the Pure Data patch [here](https://github.com/FabianStord/PD_noinputmixer)
