@@ -13,9 +13,7 @@ For every year that passes new digital gadgets are introduced into our lives. So
 
 ## Introducing the Mud Tub
 
-```
 ![Two hands in a tub of mud](/assets/image/2022_12_08_olethan_Hands.jpg "The Mud Tub in action")
-```
 
 In the creator Tom Gerhardt’s own words, the Mud Tub “is an experimental organic interface that allows people to control a computer while playing in the mud.” Yes, you read that right. By sloshing around in wet mud, you may control your computer. Thus bridging the gap between nature and digital technology.
 
