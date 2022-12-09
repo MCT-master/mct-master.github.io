@@ -33,15 +33,15 @@ _The data collected is monthly frequency data for a particular latitude and long
 
 ### Sound corpus
 
-Firstly we created sound corpus which had three synthesis. Two synthesis were two different musical lines in A Minor and one was the combination of chords responding to the same musical line. As first job for sonification, we calculated the duration of each note from the corresponding midi file by checking start and end time of the first note. Later we used this duration in order to slice the vaw file of musical line into multiple vaw files of each single note.
+Firstly we created sound corpus which had three synthesis. Two synthesis were two different musical lines in A Minor and one was the combination of chords responding to the same musical line. As first job for sonification, we calculated the duration of each note from the corresponding midi file by checking start and end time of the first note. Later we used this duration in order to slice the wav file of musical line into multiple wav files of each single note.
 
-At this point, we had **7 vaw files for each synthesis with the note names A, B, C, D , E, F and G**.
+At this point, we had **7 wav files for each synthesis with the note names A, B, C, D , E, F and G**.
 
 ### Mapping rainfall data
 
 As second step, we extracted some arrays from our rain data like temperature, humidity and perceived temperature which was a multiplication of specific humidity and temperature. Afterwards we took these values as frequency and mapped them into midi numbers. By doing that, we were able to use "note_number_to_name" function of "pretty midi" library, in order to get note names for each array item.
 
-At this point, we had multiple rain data which were mapped to note numbers and three different corpus data of vaw files with note names.
+At this point, we had multiple rain data which were mapped to note numbers and three different corpus data of wav files with note names.
 
 ### Sonification process
 
