@@ -4,13 +4,13 @@ title: "MCT Blog Sonified!"
 date: 2022-12-09 22:35:00 +0200
 categories: audio-programming
 author: Ahmet Emin Memis
-image: /assets/image/2022-12-09-ahmetem-mct-blog-sonified-cover.jpg
+image: /assets/image/2022_12_09_ahmetem_mct_blog_sonified_cover.jpg
 keywords: sonification, blog, python
 excerpt: "Making sound out of this blog."
 ---
 
 <figure style="float: none">
-   <img src="/assets/image/2022-12-09-ahmetem-mct-blog-sonified-cover.jpg" alt="" title="Photo by Jimmy Chan" width="auto" />
+   <img src="/assets/image/2022_12_09_ahmetem_mct_blog_sonified_cover.jpg" alt="" title="Photo by Jimmy Chan" width="auto" />
 </figure>
 
 This blog has been held by students and alumni of the MCT program for the last four years. Today, it contains 370+ posts about topics ranging from audio programming to musical interaction, concerts, and experiences. According to wordstotime.com, to read this beautiful blog entirely, you would spend 286 hours. Don't worry! I have sonified it for you so that it takes only 15 minutes!
@@ -23,7 +23,7 @@ Before we dive into this, here are some fun facts about our blog!
 To make a sound out of data, it should be in the shape we want it to be. Cleaning, arranging, and scaling are crucial at that point, especially in appropriately mapping the data to specific parameters. Then, we can do the science to define _sound_ based on the numbers at hand. To achieve this, I started by performing a data cleaning. I scaled the data afterward, depending on the concept I followed. Lastly, I mapped the values to specific sound parameters to make it something to listen to! Figure 1 shows the flow of this sonification process.
 
 <figure style="float: none">
-   <img src="/assets/image/2022-12-09-ahmetem-mct-blog-sonified-diagram-01.png" alt="Sonification Process" title="Sonification Process" width="auto" />
+   <img src="/assets/image/2022_12_09_ahmetem_mct_blog_sonified_diagram_01.png" alt="Sonification Process" title="Sonification Process" width="auto" />
 </figure>
 
 ## Gathering the Data
