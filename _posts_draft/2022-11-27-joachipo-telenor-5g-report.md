@@ -5,12 +5,11 @@ date: 2022-11-27 08:00:00 +0200
 categories: portal
 author: Arvid Falch, Jakob Høydal, Joachim Poutaraud, Kristian Wentzel, Sofía González
 image: /assets/image/2022_11_27_joachipo_p2p.jpg
-excerpt: "A latency optimization methodology for NMP"
+excerpt: "A latency optimization methodology for NMP."
 keywords: Telenor, Network, 5G
 ---
 
 ## Introduction
-
 The objective we had when carrying out this Network Music Performance (NMP) was to test the latency of Telenor’s 5G network so as to find out whether currently musicians could use 5G to execute this type of performance. In order to do that, we first needed to optimize the latency with the factors under our control: finding the best configuration that would lower or just not add latency. We tested different networks, settings and distances to prepare. Finally, we travelled to Telenor Fornebu and, more specifically, to their magnificent villa, did the final tests and experimented with our music performance.
 
 <figure style="float: none">
@@ -18,14 +17,15 @@ The objective we had when carrying out this Network Music Performance (NMP) was 
    <figcaption><i>Telenor Villa Hareløkken</i></figcaption>
 </figure>
 
-## Telenor 5G Experimental
 
+## Telenor 5G Experimental
 As a concluding part of our test phase, we spent the two days at the Telenor Testbed doing measurements on the experimental 5G network as well as preparing for the final NMP. We were eager to test the possibilities (and limits) of a closed-off version of the 5G network, in which you have all the network bandwidth you could ever wish for available for yourself. Sadly, the experimental network was not yet stable enough for a NMP, as the connection lasted about 40 seconds before disappearing for 20 seconds. We hope to be invited back when it’s up and running!
 
 <figure style="float: none">
    <img src="/assets/image/2022_11_27_joachipo_villa.jpg" alt="Testing Telenor 5G Experimental network" title="" width="auto" />
    <figcaption><i>Testing Telenor 5G Experimental network</i></figcaption>
 </figure>
+
 
 <figure style="float: none">
   <video width="auto" controls>
@@ -42,13 +42,12 @@ As a concluding part of our test phase, we spent the two days at the Telenor Tes
 ## Latency
 
 We conducted a total 144 audio test over different network configurations. The main network configurations were:
-
-- Ethernet
-- WiFi(LAN)
-- Commercial 5G
-- Telenor 5G experimental
-For each network configuration we tested three different sample rates (44kHz, 48kHz and 96kHz), with different buffer sizes (64, 128, 256, 512, 1024). The latency was measured in RoundTrip Time (RTT).  
-The values obtained from testing with ethernet was considered as our baseline, which enables us to show just how much latency each different network configuration and setup adds.
+* Ethernet
+* WiFi(LAN)
+* Commercial 5G
+* Telenor 5G experimental
+For each network configuration we tested three different sample rates (44kHz, 48kHz and 96kHz), with different buffer sizes (64, 128, 256, 512, 1024). The latency was measured in RoundTrip Time (RTT).   
+The values obtained from testing with ethernet was considered as our baseline, which enables us to show just how much latency each different network configuration and setup adds.  
 <figure style="float: none">
    <img src="/assets/image/2022_11_27_arvidf_added_latency.jpg" alt="Added latency compared to ethernet baseline" title="" width="auto" />
    <figcaption><i>Added latency compared to ethernet baseline</i></figcaption>
@@ -71,8 +70,8 @@ Besides of latency, the quality of the audio can be affected by the network tran
 
 <div class="waveform" id="256_buffer"></div>
 
-## Additional ressources
 
+## Additional ressources
 Source code for streaming audio over UDP and monitoring latency is available here: [https://github.com/joachimpoutaraud/udp-audio-stream-latency](https://github.com/joachimpoutaraud/udp-audio-stream-latency).
 
 <!-- END OF BLOG POST -->
