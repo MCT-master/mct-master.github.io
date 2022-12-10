@@ -36,7 +36,7 @@ Singing in itself, like playing any other instrument, is already a complex task.
 The point I'm trying to get to (after all this over-sharing) is that singers, in general, and me, more specifically, need to be able to focus their concentration on singing. That is a big part of why I went with the knob and the slider, which are pretty common and straightforward sensors. As for the pressure sensor, it is a more interesting sensor and it does take a little more of attention than the other two. It is a little bit sensitive, so you need to apply just the right amount of pressure depending on how much intensity you want, which can take some thinking and practicing.
 
 <figure style="float: none">
-   <img src="/assets/image/2022_12_09_sofiagon_singer.jpg" alt="" title="by CDD20 in pixabay" width="auto" />
+   <img src="/assets/image/2022_12_11_sofiagon_singer_drawing.jpg" alt="" title="by CDD20 in pixabay" width="auto" />
 </figure>
 
 So, basically, since I wanted to work on a project that really motivated me, I went for a design specific to my needs as a singer. Even though this kind of extended-microphone IMS is not a new concept at all [1]. But, as I mentioned in my previous post about IMSs and emotions [2], it is very important that IMSs become more accessible and that people create more of them. Someone might build one that caters to specific needs (whether they are aesthetic or for, for example, differently-able people). Someone might create one that aids people through music therapy. Or, simply, because someone will be able to carry out an idea that occurred to them in a concert, which they thought was very cool.
