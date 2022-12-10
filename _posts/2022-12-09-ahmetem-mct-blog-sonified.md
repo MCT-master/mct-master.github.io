@@ -8,6 +8,7 @@ image: /assets/image/2022-12-09-ahmetem-mct-blog-sonified-cover.jpg
 keywords: sonification, blog, python
 excerpt: "Making sound out of this blog."
 ---
+
 <figure style="float: none">
    <img src="/assets/image/2022-12-09-ahmetem-mct-blog-sonified-cover.jpg" alt="" title="Photo by Jimmy Chan" width="auto" />
 </figure>
@@ -140,6 +141,12 @@ for i, row in df_avg.iterrows():
 sf.write('mct_blog_sonified.wav', signal, sr)
 ```
 
-## Please listen to it here!
+## Please listen to the result here!
 
-<iframe width="960" height="540" src="https://www.youtube.com"> </iframe>
+<figure style="float: none">
+  <audio controls>
+    <source src="https://www.uio.no/english/studies/programmes/mct-master/blog/assets/audio/2022_12_09_ahmetem_mct_blog_sonified.wav" type="audio/mpeg">
+    Alternate Text
+  </audio>
+  <figcaption></figcaption>
+</figure>
