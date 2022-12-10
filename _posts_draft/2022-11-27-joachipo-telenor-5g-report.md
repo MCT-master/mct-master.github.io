@@ -5,7 +5,7 @@ date: 2022-11-27 08:00:00 +0200
 categories: portal
 author: Arvid Falch, Jakob Høydal, Joachim Poutaraud, Kristian Wentzel, Sofía González
 image: /assets/image/2022_11_27_joachipo_p2p.jpg
-excerpt: "A latency optimization methodology for NMP."
+excerpt: "A latency optimization methodology for NMP"
 keywords: Telenor, Network, 5G
 ---
 
