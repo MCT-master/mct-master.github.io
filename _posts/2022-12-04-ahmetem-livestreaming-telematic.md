@@ -48,7 +48,7 @@ If you would like to live stream mainly from multiple rooms, make sure you still
 
 <figure>
    <img
-      src="/assets/image/2022_12_04_ahmetem_livestreaming_telematic_2.PNG"
+      src="/assets/image/2022_12_04_ahmetem_livestreaming_telematic_2.jpg"
    />
    <figcaption>MCT students playing in their telematic concert between RITMO and Science Library.</figcaption>
 </figure>
