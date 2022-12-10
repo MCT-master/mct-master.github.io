@@ -4,7 +4,7 @@ title: "Generating Samples Through Dancing"
 date: 2022-05-03 09:00:00 +0200
 categories: machine-learning
 author: Hugh Alexander von Arnim
-image: /assets/image/2202_05_20_hughav_performance_system_VAE.jpg
+image: /assets/image/2022_05_20_hughav_performance_system_VAE.jpg
 excerpt: "Using a VAE to build a generative sampler instrument"
 keywords: Machine Learning, Variation AutoEncoder, Sampler, Motion, Dance
 ---
@@ -18,7 +18,7 @@ This was the question underlying the Sampling Through Dance project. Using a dat
 ### **System Design**
 <br>
 <figure style="float: none">
-   <img src="/assets/image/2202_05_20_hughav_system_design.jpg" alt="" title="" width="auto" />
+   <img src="/assets/image/2022_05_20_hughav_system_design.jpg" alt="" title="" width="auto" />
    <figcaption><i>The System Design</i></figcaption>
 </figure>
 <br>
@@ -43,7 +43,7 @@ Here, the data of the dance motion and the corresponding audio segments are enco
 Passing raw video files to the model for training and in the performance system was not a good idea for a number of reasons. Firstly, raw video files are extremely large and would greatly increase the time required to train the model and the time required to generate new material. Secondly, when using the model after training, the environment and camera setup would have to be identical to that in which the data to train the model was collected. Instead, [motiongrams](https://en.wikipedia.org/wiki/Motiongram) [2] were extracted from each sample segment and used to represent the dance motion.
 <br>
 <figure style="float: none">
-   <img src="/assets/image/2202_05_20_hughav_motiongram.png" alt="" title="" width="auto" />
+   <img src="/assets/image/2022_05_20_hughav_motiongram.png" alt="" title="" width="auto" />
    <figcaption><i>How a motiongram is created (© A.R. Jensenius) from [3] </i></figcaption>
 </figure>
 <br>

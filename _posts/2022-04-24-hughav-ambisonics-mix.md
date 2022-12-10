@@ -4,7 +4,7 @@ title: "Ambisonics: Under the Hood"
 date: 2022-04-24 21:00:00 +0200
 categories: portal
 author: Arvid Falch, Hugh Alexander von Arnim
-image: /assets/image/2202_04_24_hughav_spherical_harmonics.jpg
+image: /assets/image/2022_04_24_hughav_spherical_harmonics.jpg
 excerpt: "What happens when we encode/decode Ambisonics"
 keywords: Portal, Ambisonics, Spatial Audio
 ---
@@ -51,7 +51,7 @@ In the visual below, we can see the spherical harmonics up to the seventh order.
 If you've had experience with microphones, the zeroeth and first order spherical harmonics should look familiar, resembling an omnidirectional and figure-of-eight polar pattern respectively.
 
 <figure style="float: none">
-   <img src="/assets/image/2202_04_24_hughav_omni_8.jpg" alt="Network Performance Word Cloud" title="" width="auto" />
+   <img src="/assets/image/2022_04_24_hughav_omni_8.jpg" alt="Network Performance Word Cloud" title="" width="auto" />
    <figcaption><i>Omindirectional and Figure-of-Eight Polar Patterns</i></figcaption>
 </figure>
 

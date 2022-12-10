@@ -4,7 +4,7 @@ title: "Setting up a controlled environment"
 date: 2022-04-24 23:00:00 +0200
 categories: portal
 author: Joseph Clemente, Kristian Wentzel
-image: /assets/image/2202_04_25_kriswent_TakeControl.jpg
+image: /assets/image/2022_04_25_kriswent_TakeControl.jpg
 keywords: networked music performances, telematic music, osc, pure data, bespokesynth, sonic pi
 excerpt: "Taking advantage of light-weight control messages to do Networked Music Performances"
 ---
@@ -35,7 +35,7 @@ To do this, each participant first needs to know their public IP address. Prefer
 The second thing to take care of before jamming out and broadcasting OSC messages across the internet, is to configure port forwarding on your LAN router<sup><b>[[1]](#Footnotes)</b></sup>. (Look up your router address in your network settings, e.g. [192.168.0.1](http://192.168.0.1/)) This part makes it hard, or even impossible, to do this through a public Wi-Fi, at campus, or even at your friend’s house. Some [ISP](https://en.wikipedia.org/wiki/Internet_service_provider)'s won't even let their customers access such settings on their router.
 
 <figure style="float: none">
-   <img src="/assets/image/2202_04_25_kriswent_PortForwarding.png" alt="Port Forwarding" title="" width="80%" />
+   <img src="/assets/image/2022_04_25_kriswent_PortForwarding.png" alt="Port Forwarding" title="" width="80%" />
    <figcaption><i>An example of port forwarding in the router settings.</i></figcaption>
 </figure>
 

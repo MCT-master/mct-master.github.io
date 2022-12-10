@@ -44,7 +44,7 @@ The entire performance system is run over four components; the optical motion ca
 
 <br>
 <figure style="float: none">
-   <img src="/assets/image/2202_05_20_hughav_reconfig_system_design.jpg" alt="" title="" width="auto" />
+   <img src="/assets/image/2022_05_20_hughav_reconfig_system_design.jpg" alt="" title="" width="auto" />
    <figcaption><i>System Data Flow</i></figcaption>
 </figure>
 <br>
