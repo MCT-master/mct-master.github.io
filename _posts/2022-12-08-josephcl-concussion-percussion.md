@@ -26,7 +26,7 @@ Similar to a handpan, Concussion Percussion allows the user to hit an ordinary b
 
 <figure style="float: none">
 	<audio controls>
-      <source src="https://www.uio.no/english/studies/programmes/mct-master/blog/assets/audio/2022_12_07_josephcl_handpan_example.wav" type="audio/wav">
+      <source src="https://www.uio.no/english/studies/programmes/mct-master/blog/assets/audio/2022_12_7_josephcl_handpan_example.wav" type="audio/wav">
     </audio>
    <figcaption>Handpan Audio Example</figcaption>
 </figure>
@@ -57,7 +57,7 @@ The rotary encoder (or “knob” for the uninitiated) also serves two key funct
 
 <figure style="float: none">
 	<audio controls>
-      <source src="https://www.uio.no/english/studies/programmes/mct-master/blog/assets/audio/2022_12_07_josephcl_delay_example.wav" type="audio/wav">
+      <source src="https://www.uio.no/english/studies/programmes/mct-master/blog/assets/audio/2022_12_7_josephcl_delay_example.wav" type="audio/wav">
     </audio>
    <figcaption>Handpan Delay Audio Example</figcaption>
 </figure>
@@ -103,6 +103,8 @@ Coming soon!
 The handpan samples I used for this project were [provided by freesound.org user tarane468](https://freesound.org/people/tarane468/sounds/426794/). 
 
 Art for the comic book explosions can be found [here](https://www.dreamstime.com/comic-words-cartoon-speech-bubble-zap-pow-wtf-boom-text-comics-pop-art-balloons-vector-set-comic-words-cartoon-speech-bubble-image134503951).
+
+The pitchshifter~ object used for the flex sensor can be found [here](https://forum.pdpatchrepo.info/topic/665/pitch-shift-for-realtime-audio).
 
 Thank you to my mom for letting me borrow the bike helmet :)
 
