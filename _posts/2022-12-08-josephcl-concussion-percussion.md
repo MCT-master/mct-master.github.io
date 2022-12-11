@@ -96,7 +96,11 @@ Finally, I mounted the rotary encoder on the side of the helmet to allow easy ac
 
 # Video Demonstration
 
-Coming soon!
+<figure style="float: none">
+  <video width="auto" controls>
+    <source src="https://www.uio.no/english/studies/programmes/mct-master/blog/assets/video/2022_12_11_josephcl_concussion_percussion_demo.mp4" type='video/mp4'>
+  </video>
+</figure>
 
 # Sources and Special Thanks
 
