@@ -140,3 +140,6 @@ sf.write('mct_blog_sonified.wav', signal, sr)
   </audio>
   <figcaption></figcaption>
 </figure>
+
+<div class="github-card" data-github="aememis/mct-blog-sonified" data-width="400" data-height="150" data-theme="default"></div>
+<script src="//cdn.jsdelivr.net/github-cards/latest/widget.js"></script>
