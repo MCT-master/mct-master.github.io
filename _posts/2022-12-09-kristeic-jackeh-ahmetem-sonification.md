@@ -9,12 +9,12 @@ excerpt: "Making 'music' from the Aurora Borealis."
 keywords: Aurora, Borealis, Python, Pure Data, sonification
 ---
 
-# Introduction
-
 <figure style="float: none">
    <img src="/assets/image/2022_12_09_kristeic_ahmetem_jackeh_dido_in_space.png" alt="Dido in Space" title="Dido in Space" width="75%" />
    <figcaption>A fun image the DALL-E AI gave us with the prompt 'dido in space'.</figcaption>
 </figure>
+
+# Introduction
 
 The weekend of 31 October 2003 passed like any other Halloween, unless you happened to be in Spain or Texas. If you did, you would have seen something you might have never seen in person before: the Aurora Borealis. Halloween 2003 is the period of highest intensity of solar winds, which cause the Northern Lights, since modern records began. Your three authors have spent two weeks deeply immersed in the solar winds data from the week of Halloween 2003, which saw possibly the biggest solar event since 1859.
 
@@ -193,7 +193,7 @@ In Python we used a pre-existing song as the basis for our sonification. However
 We use our data to control the resulting music in two different ways:
 
 * **Direct mappings** - there is a one-to-one relationship between data and parameter. For example, density is mapped to the pitch of the lead and bass synths. If the value in the data increases, the parameter increases. This relationship is sometimes inverted, but the mapping is still considered direct.
-* **Generative mappings** - the data controls the behaviour of other algorithms which in turn control parameters. For example, the bulk speed data controls the amount of hits in the drum pattern. The data does not specify specifically when the drums should hit, only the frequency with which they should hit.
+* **Generative mappings** - the data controls the behaviour of other algorithms which in turn control parameters. For example, the bulk speed data controls the amount of hits in the kick drum pattern. The data does not specify specifically when the kick should be triggered, only the frequency with which it should be triggered.
 
 The full table of our mappings is below:
 
@@ -304,7 +304,7 @@ The full table of our mappings is below:
 
 ## Building the Sonification
 
-Once our mappings were set, the process of sonifying our data was as simple as pressing play on the counter and letting it run. However, we also added some extra some extra functionality to our counter to allow the user to set variable start and end points, toggle looping and going in reverse through the dataset, and increment and decrement in individual steps for finding precise points in the data. As the control mechanism is essentially a metronome, we can also change the tempo and the subdivisions of the beat for each of the lead, bass and drum lines. The user can also change some parameters during the sonification, such as locking the drum patterns for a period of time, which can help to 'tame the beast' of our patch.
+Once our mappings were set, the process of sonifying our data was as simple as pressing play on the counter and letting it run. However, we also added some extra some extra functionality to our counter to allow the user to set variable start and end points, toggle looping and going in reverse through the dataset, and increment and decrement in individual steps for finding precise points in the data. As the control mechanism is essentially a metronome, we can also change the tempo and the subdivisions of the beat for each of the lead, bass and drum lines. The user can also change some parameters during the sonification, such as locking the drum patterns for a period of time, which can help to 'tame the beast' that is our patch.
 
 We added a simple recording module to the end of the patch to write the output to a file, and with that, our Pure Data sonification was complete.
 
@@ -317,11 +317,20 @@ You can listen to the entire thing here:
   <figcaption>Our Pure Data sonification.</figcaption>
 </figure>
 
+Or watch a shorter video showing part of it here:
+
+<figure style="float: none">
+  <video width="75%" controls>
+    <source src="https://www.uio.no/english/studies/programmes/mct-master/blog/assets/video/2022_12_11_kristeic_ahmetem_jackeh_pure_data_sonification_clip.mp4" type='video/mp4'>
+  </video>
+  <figcaption>A clip of our Pure Data sonification showing the user interface.</figcaption>
+</figure>
+
 ## Reflections
 
-Because the sounds used in our Pure Data sonification are built from scratch rather than sampled from a pre-existing song, the relationship between the data is generally more noticeable to us than in our Python sonification. However, we are now very familiar with all shape of our data. To a casual listener, the shape of the data is likely not identifiable apart from at a few key moments of rapid change.
+Because the sounds used in our Pure Data sonification are built from scratch rather than sampled from a pre-existing song, the relationship between the data is generally more noticeable to us than in our Python sonification. However, we are now very familiar with the shape of our data. To a casual listener, the shape of the data is likely not identifiable apart from at a few key moments when the data changes rapidly and therefore so does the sonification.
 
-We are generally happy with the result of our Pure Data patch. The sound is very chaotic, but this is to be expected when the data controls almost every parameter of the synthesis. When combined with several user controls to lock the drum patterns and affect synth behaviour, the result is actually quite playable.
+We are generally happy with the result of our Pure Data patch. The sound is very chaotic, but this is to be expected when almost every parameter beside tempo is constantly changing. When combined with several user controls to lock the drum patterns and affect synth behaviour, the result is quite performable.
 
 # Downloads & Links
 
