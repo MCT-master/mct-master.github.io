@@ -12,8 +12,7 @@ keywords: Pure data, Euclidean rhythms, Euclidean sequencer
 
 # Euclidean Rhythms in Pure Data
 
-The idea first posited by Godfried Toussaint in his paper "The Euclidean Algorithm Generates Traditional Musical Rhythms" for using mathmatics to generate rhythmic elements has been applied to modules in the Eurorack modular synth ecosystem for some time now.  The basic principal is that given a total number of "steps" in a rhythmic sequence and a chosen number of desired events within that sequence, the algorithm will attempt to space those events evenly, thereby creating pleasing rhythmic parts.  This video demonstrates one such module in the Eurorack ecosystem: https://youtu.be/dyyUOOX5P0Q
-
+The idea first posited by Godfried Toussaint in his paper "The Euclidean Algorithm Generates Traditional Musical Rhythms" for using mathmatics to generate rhythmic elements has been applied to modules in the Eurorack modular synth ecosystem for some time now.  The basic principal is that given a total number of "steps" in a rhythmic sequence and a chosen number of desired events within that sequence, the algorithm will attempt to space those events evenly, thereby creating pleasing rhythmic parts.  [This video demonstrates one such module in the Eurorack ecosystem](https://youtu.be/dyyUOOX5P0Q)
 
 Drawn in by their balance of immediacy, unpredictability and musicality, I set out to program useable Euclidean Rhythm sequencers using Pure Data.
 
@@ -58,9 +57,12 @@ You are free to inspect, use and adapt them as you see fit.
 
 ### Bibliography/Further Reading
 
-"The Euclidean Algorithm Generates Traditional Musical Rhythms" available at: http://cgm.cs.mcgill.ca/~godfried/publications/banff.pdf
+["The Euclidean Algorithm Generates Traditional Musical Rhythms" by Godfried Toussaint](http://cgm.cs.mcgill.ca/~godfried/publications/banff.pdf)
 
-A deeper dive into Euclidean sequencers in Eurorack from mylarmelodies - https://youtu.be/EMhbDbMcLBY
+
+A deeper dive into Euclidean sequencers in Eurorack from mylarmelodies
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/EMhbDbMcLBY?start=470" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 
 
