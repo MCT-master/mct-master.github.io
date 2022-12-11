@@ -16,12 +16,11 @@ excerpt: "Making sound out of this blog."
 This blog has been held by students and alumni of the MCT program for the last four years. Today, it contains 370+ posts about topics ranging from audio programming to musical interaction, concerts, and experiences. According to wordstotime.com, to read this beautiful blog entirely, you would spend 286 hours. But don't worry, you can listen to it!
 
 Before we dive into this, here are some fun facts about our blog!
-- Amongst **_2334573_** words typed in the blog so far.
-- The three most frequent words were **_audio_**, **_sound_**, and **_music_**.
+- Amongst **_2334573_** words typed in the blog so far, the three most frequent words were **_audio_**, **_sound_**, and **_music_**.
 - The word **_We_** was used **_1.43_** times more than the word **_I_**.
 - The longest word in the MCT blog is **_multiinstrumentalist_** with 20 characters - if we don't count the word _reverberaaatioooooooon_ with 22 :)
 
-To make a sound out of data, it should be in the shape we want it to be. Cleaning, arranging, and scaling are crucial, especially in appropriately mapping the data to specific parameters. Then, we can create _sound_ based on the numbers at hand. For this data, I started off by excluding some parts of the texts, removing unwanted words and filtering. Then, I scaled it before mapping it to specific sound parameters. Finally, I generated sound based on this mapping. Diagram below shows this sonification process.
+To make a sound out of data, it should be in the shape we want it to be. Cleaning, arranging, and scaling are crucial, especially in appropriately mapping the data to specific parameters. Then, we can create _sound_ based on the numbers at hand. For this data, I started off by excluding some parts of the texts, removing unwanted words and filtering. Then, I scaled it before mapping it to specific sound parameters. Finally, these numbers turned into sound. Diagram below shows this sonification process.
 
 <figure style="float: none">
    <img src="/assets/image/2022_12_09_ahmetem_mct_blog_sonified_diagram_01.png" alt="Sonification Process" title="Sonification Process" width="auto" />
@@ -30,7 +29,7 @@ To make a sound out of data, it should be in the shape we want it to be. Cleanin
 ## Gathering the Data
 The MCT Blog runs on GitHub Pages with a GitHub repo in the background, which allowed me to get each blog as a seperate file in markdown format. Each post had the same structure: a frontmatter with meta information (e.g., date, tags, authors), blog post content in markdown format with links to images, videos, and embedded elements. This structure made the data cleaning relatively more manageable.
 
-I started the cleaning the data by excluding the frontmatter from every file, which basically contains repetitive out-of-context words. Next, I scraped out markdown signs using BeautifulSoup. I cleaned the data further using a set of regular expressions including lowercasing, removing punctuations, and cleaning white spaces.
+I started cleaning the data by excluding the frontmatter from each file, which basically contains repetitive out-of-context words. Next, I scraped out markdown signs using BeautifulSoup. I cleaned the data further using a set of regular expressions, including lowercasing, removing punctuations, and cleaning white spaces.
 
 ```python
 path = './_posts'
@@ -88,7 +87,7 @@ df = df.dropna()
 ```
 
 ## Data Preprocessing and Mapping
-After the first cleaning part, words' frequency of appearing in the entire blog gave me values ranging from 11 to 1323. I simply scaled it up by 10. Secondly, the lengths ranged from 1 to 15. I multiplied it by 2 to be used as milliseconds of each audio piece. However, this can be scaled globally in the final step using th _speed_ variable.
+After the first cleaning part, words' frequency of appearing in the entire blog gave me values ranging from 11 to 1323. I simply scaled it up by 10. The word lengths ranged from 1 to 15. I multiplied it by 2, to use as length (ms) of each audio piece. Also, this can be scaled globally in the final step using the _speed_ variable.
 
 ```python
 # scaling
@@ -97,9 +96,9 @@ df['w_len'] = df['w_len']*5
 ```
 
 ## Sonification
-For every word, I generated short audio samples, which come together to create a musical piece. I decided to map each word's frequency (i.e., how many times each appeared on the website) as the leading pitch. I used each word's length as the duration of each audio sample. This way, I expected to obtain a sound pattern that reflects the characteristics of the text (i.e., frequent words sound high-pitched, and longer words make longer sound).
+For every word, I generated short audio samples, which come together to create a musical piece. I decided to map each word's frequency (i.e., how many times each appeared on the website) to the leading pitch. I used each word's length as the duration of each audio sample. This way, I expected to obtain a sound pattern that reflects the characteristics of the text (i.e., more frequent words sound high-pitched, and longer words make longer sound).
 
-I ended up having 5.6 ms long audio pieces on average generated for each word. I applied hamming window to each and combined them one after another, to have a piece of music! Code below does the job.
+I ended up having 5.6 ms long audio pieces generated for each word on average. I applied hamming window to each, and combined them one after another, to have a piece of music! Code below does the job.
 
 
 ```python
