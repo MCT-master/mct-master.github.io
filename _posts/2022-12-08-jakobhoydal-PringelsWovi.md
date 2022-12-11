@@ -16,6 +16,11 @@ keywords: interactive music, music performance, pringles, electret, mnicrophone,
 
 So what did I actually make? The creation is called WoVi, meaning wind-driven violin. It functions by blowing into a [microphone](https://www.sparkfun.com/products/12758) for amplitude, and controlling pitch with a  [soft membrane potentiometer](https://www.sparkfun.com/products/8679). Not unlike how [EWI's](https://en.wikipedia.org/wiki/EWI_(musical_instrument)) work, but with a simplified design.
 
+
+<figure style="float: none">
+   <img src="https://www.uio.no/english/studies/programmes/mct-master/blog/assets/image/2022_12_12_jakobhoydal_wovigif.gif"  width="auto" />
+</figure>
+
 ## Construction
 The following parts were used:
 
