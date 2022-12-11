@@ -193,13 +193,118 @@ In Python we used a pre-existing song as the basis for our sonification. However
 We use our data to control the resulting music in two different ways:
 
 * **Direct mappings** - there is a one-to-one relationship between data and parameter. For example, density is mapped to the pitch of the lead and bass synths. If the value in the data increases, the parameter increases. This relationship is sometimes inverted, but the mapping is still considered direct.
-* **Generative mappings** - the data controls the behaviour of other algorithms which in turn control parameters. For example, the bulk speed data controls the amount of hits in the drum pattern. The data is not specifying when the drums should hit, only the frequency with which they should hit.
+* **Generative mappings** - the data controls the behaviour of other algorithms which in turn control parameters. For example, the bulk speed data controls the amount of hits in the drum pattern. The data does not specify specifically when the drums should hit, only the frequency with which they should hit.
 
-**A full table of all our mappings is coming soon!**
+The full table of our mappings is below:
+
+<div class="tg-wrap"><table>
+<thead>
+  <tr>
+    <th>Data Point</th>
+    <th>Mapped To</th>
+    <th>Mapping Type</th>
+    <th>Notes</th>
+  </tr>
+</thead>
+<tbody>
+  <tr>
+    <td rowspan="3">Proton density</td>
+    <td>Lead synth pitch</td>
+    <td>Direct</td>
+    <td>Sometimes quantized to MIDI notes, based on bulk speed mapping below. Adjustable tempo i.e, the user can change how often a reading from the dataset generates a note.</td>
+  </tr>
+  <tr>
+    <td>Bass synth pitch</td>
+    <td>Direct</td>
+    <td>Quantized to MIDI notes. Adjustable tempo i.e, the user can change how often a reading from the dataset generates a note. Inverted from lead synth pitches.</td>
+  </tr>
+  <tr>
+    <td>Lead synth note probability</td>
+    <td>Generative</td>
+    <td>The chance that the lead synth plays a note when it receives a new frequency.</td>
+  </tr>
+  <tr>
+    <td rowspan="2">Ion temperature</td>
+    <td>Lead synth spread parameter</td>
+    <td>Direct</td>
+    <td>Spread is the degree of variation in pitch between the different oscillators in each synth voice.</td>
+  </tr>
+  <tr>
+    <td>Snare pattern density</td>
+    <td>Generative</td>
+    <td>Changes the probability of triggers in the snare pattern, therefore controlling the density of the pattern.</td>
+  </tr>
+  <tr>
+    <td rowspan="4">Bulk speed</td>
+    <td>Lead synth chorus effect parameters</td>
+    <td>Direct</td>
+    <td>Affects all three parameters of the first chorus effect equally.</td>
+  </tr>
+  <tr>
+    <td>Lead synth midi quantization</td>
+    <td>Direct</td>
+    <td>Tells the synth to use MIDI quantized frequencies below a certain threshold, and use the raw unquantized value above the threshold.</td>
+  </tr>
+  <tr>
+    <td>Kick pattern density</td>
+    <td>Generative</td>
+    <td>Changes the probability of triggers in the kick pattern, therefore controlling the density of the pattern.</td>
+  </tr>
+  <tr>
+    <td>LFO speed</td>
+    <td>Direct</td>
+    <td>The LFO in turn modulates several parameters of the bass synth and its effects.</td>
+  </tr>
+  <tr>
+    <td>Bz</td>
+    <td>Lead synth chorus effect parameters</td>
+    <td>Direct</td>
+    <td>Affects all three parameters of the second chorus effect equally.</td>
+  </tr>
+  <tr>
+    <td rowspan="2">Bt</td>
+    <td>Lead synth filter cutoff frequency</td>
+    <td>Direct</td>
+    <td>Affects the peak of the filter envelope.</td>
+  </tr>
+  <tr>
+    <td>Closed high hat pattern density</td>
+    <td>Generative</td>
+    <td>Changes the probability of triggers in the closed high hat pattern, therefore controlling the density of the pattern.</td>
+  </tr>
+  <tr>
+    <td rowspan="4">Phi angle</td>
+    <td>Lead synth delay parameters</td>
+    <td>Direct</td>
+    <td>Affects the delay time, dry/wet, stereo effect and feedback level.</td>
+  </tr>
+  <tr>
+    <td>Lead synth envelope attack &amp; release</td>
+    <td>Direct</td>
+    <td>Values below 225 set attack time in ms, values above 225 set release time in ms.</td>
+  </tr>
+  <tr>
+    <td>Bass synth envelope attack &amp; release</td>
+    <td>Direct</td>
+    <td>Values below 225 set attack time in ms, values above 225 set release time in ms.</td>
+  </tr>
+  <tr>
+    <td>Open high hat pattern density</td>
+    <td>Generative</td>
+    <td>Changes the probability of triggers in the open high hat pattern, therefore controlling the density of the pattern.</td>
+  </tr>
+  <tr>
+    <td>Kp-index</td>
+    <td>Bass synth reverb amount</td>
+    <td>Direct</td>
+    <td>Controls the dry/wet parameter.</td>
+  </tr>
+</tbody>
+</table></div>
 
 ## Building the Sonification
 
-Once our mappings were set, the process of sonifying our data was as simple as pressing play on the counter and letting it run. We added some extra functionality to our counter to allow the user to set variable start and end points, toggle looping and going in reverse through the dataset, and increment and decrement in individual steps for finding precise points in the data. As the control mechanism is essentially a metronome, we can also change the tempo and the subdivisions of the beat for each of the lead, bass and drum lines. The user can also change some parameters, such as stopping the drum patterns from regenerating
+Once our mappings were set, the process of sonifying our data was as simple as pressing play on the counter and letting it run. However, we also added some extra some extra functionality to our counter to allow the user to set variable start and end points, toggle looping and going in reverse through the dataset, and increment and decrement in individual steps for finding precise points in the data. As the control mechanism is essentially a metronome, we can also change the tempo and the subdivisions of the beat for each of the lead, bass and drum lines. The user can also change some parameters during the sonification, such as locking the drum patterns for a period of time, which can help to 'tame the beast' of our patch.
 
 We added a simple recording module to the end of the patch to write the output to a file, and with that, our Pure Data sonification was complete.
 
@@ -207,18 +312,19 @@ You can listen to the entire thing here:
 
 <figure style="float: none">
   <audio controls>
-    <source src="https://www.uio.no/english/studies/programmes/mct-master/blog/assets/audio/2022_12_09_jackeh_puredata_sonification.mp3?vrtx=admin" type="audio/mpeg">
+    <source src="https://www.uio.no/english/studies/programmes/mct-master/blog/assets/audio/2022_12_09_jackeh_puredata_sonification.mp3" type="audio/mpeg">
   </audio>
   <figcaption>Our Pure Data sonification.</figcaption>
 </figure>
 
 ## Reflections
 
-Because the sounds used in our Pure Data sonification are built from scratch rather than sampled from a pre-existing song, the relationship between the data is generally more noticeable than in our Python sonification.
+Because the sounds used in our Pure Data sonification are built from scratch rather than sampled from a pre-existing song, the relationship between the data is generally more noticeable to us than in our Python sonification. However, we are now very familiar with all shape of our data. To a casual listener, the shape of the data is likely not identifiable apart from at a few key moments of rapid change.
 
-We are happy with the result of our Pure Data patch. In particular, the generative mapping to the drums keeps the sonification engaging while also ensuring it is always closely linked to the data. The drum pattern is constantly evolving throughout, while the density of the pattern is mapped to the bulk speed in the dataset. This allows the pattern to be interesting to listen to while also reflecting the shape of the bulk speed data.
+We are generally happy with the result of our Pure Data patch. The sound is very chaotic, but this is to be expected when the data controls almost every parameter of the synthesis. When combined with several user controls to lock the drum patterns and affect synth behaviour, the result is actually quite playable.
 
 # Downloads & Links
 
 * GitHub repo for our Python sonification [here](https://github.com/aememis/dido-in-space).
 * [_White Flag_](https://www.youtube.com/watch?v=j-fWDrZSiZs) by Dido.
+* We downloaded our dataset from Space Weather Prediction Center [here](https://www.swpc.noaa.gov/products/real-time-solar-wind).
