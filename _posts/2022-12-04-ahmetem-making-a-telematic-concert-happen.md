@@ -3,7 +3,7 @@ layout: post
 title: "Making A Telematic Concert Happen - A Quick Technical Look"
 date: 2022-12-04 05:00:00 +0200
 categories: portal
-author: Ahmet Emin Memis, Nino Jakeli
+author: Emin Memis, Nino Jakeli
 image: /assets/image/2022_12_04_ahmetem_mid_semester_concert.jpg
 excerpt: "Background of A Telematic Experience"
 keywords: telematic music, portal, concert, lola, network

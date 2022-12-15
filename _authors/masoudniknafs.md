@@ -1,6 +1,6 @@
 ---
-name: Olve Skjeggedal
-title: Olve Skjeggedal
+name: Masoud Niknafs
+title: Masoud Niknafs
 excerpt: All blog posts authored by this student
 exclude:
 ---
