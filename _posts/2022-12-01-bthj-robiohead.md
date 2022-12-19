@@ -12,7 +12,7 @@ keywords: evolutionary-interface
 New Interface for Sound Evolution (NISE)
 ========================================
 
-Robiohead is an attempt in a box to explore how an Interactive Music System (IMS) can offer ways to explore sound spaces by evolving sound producing genes in a tactile manner. A motivation is to create a musical interface alternative to those already available at the sound evolving web application at [synth.is](https://synth.is), as discussed in a [previous blog post](2022-12-01-synth-is.md). The IMS will explore embodied / physical interactions with sample based virtual music instruments, which can be rendered by that web application. Sensor data is used to navigate samples along dimensions of notes (pitches), velocities and durations. Approaches to [evolutionary interaction](https://link.springer.com/chapter/10.1007/978-1-4471-2990-5_13) are explored by testing how different gestures can be sensed for conducting evolutionary search. The name comes from a second external-design iteration in the form of a robot head, discussed below, with a twist that is probably influenced by the name of some English rock band.
+Robiohead is an attempt in a box to explore how an Interactive Music System (IMS) can offer ways to explore sound spaces by evolving sound producing genes in a tactile manner. A motivation is to create a musical interface alternative to those already available at the sound evolving web application at [synth.is](https://synth.is), as discussed in a [previous blog post](2022-12-01-bthj-synth-is.md). The IMS will explore embodied / physical interactions with sample based virtual music instruments, which can be rendered by that web application. Sensor data is used to navigate samples along dimensions of notes (pitches), velocities and durations. Approaches to [evolutionary interaction](https://link.springer.com/chapter/10.1007/978-1-4471-2990-5_13) are explored by testing how different gestures can be sensed for conducting evolutionary search. The name comes from a second external-design iteration in the form of a robot head, discussed below, with a twist that is probably influenced by the name of some English rock band.
 
 A design premise is that the IMS is as much a toy as a musical instrument. It should invite children as well as adults to playfully explore and discover new sounds. Why not just a mobile app that runs on phones that most have? Young children commonly don’t have smartphones and they can benefit developmentally from tangible, engaging toys that speak to a [primitive form of communication](https://direct.mit.edu/books/book/2109/The-Origins-of-Music). The instrument should be robust and child safe, with no parts sticking out that could break off.
 
@@ -77,3 +77,29 @@ While not exactly adhering to the initial design constraint of child safe robust
 ![](https://www.uio.no/english/studies/programmes/mct-master/blog/assets/image/2022-12-01_bthj_robiohead_image10.jpg)
 
 ![](https://www.uio.no/english/studies/programmes/mct-master/blog/assets/image/2022-12-01_bthj_robiohead_image6.jpg)
+
+### Testing and performing
+
+[Video recording of one test session](https://youtu.be/A1m3Xp4wVgY):
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/A1m3Xp4wVgY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+[Live performance with Robiohead](https://youtu.be/cHC35p4oBHE) in [Salen](https://www.hf.uio.no/imv/om/rom-og-utstyr/salen/) after an [MCT4054](https://www.uio.no/studier/emner/hf/imv/MCT4054/) exam, on Monday December 12, 2022:
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/cHC35p4oBHE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+[First step implementation (milestone 1) tried out](https://youtu.be/Ij8sbW2JOY8):
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/Ij8sbW2JOY8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+Alexander Szorkovszky trying out the Robiohead:
+
+![](https://www.uio.no/english/studies/programmes/mct-master/blog/assets/image/2022-12-01_bthj_robiohead_image13.jpg)
+
+![](https://www.uio.no/english/studies/programmes/mct-master/blog/assets/image/2022-12-01_bthj_robiohead_image14.jpg)
+
+### Open source
+
+The source files behind this IMS can be accessed from:
+
+https://github.com/synth-is/robiohead
