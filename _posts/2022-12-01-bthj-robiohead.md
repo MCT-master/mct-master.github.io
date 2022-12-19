@@ -31,7 +31,10 @@ The backside of the sphere could be reserved for evolutionary interactions, wher
 
 ![](https://www.uio.no/english/studies/programmes/mct-master/blog/assets/image/2022-12-01_bthj_robiohead_image8.png)
 
-The tuning-lattice navigation with tetromino-chords is inspired by this video: [https://youtu.be/CSL\_Axohw94](https://youtu.be/CSL_Axohw94),  
+The tuning-lattice navigation with tetromino-chords is inspired by this video: [https://youtu.be/CSL\_Axohw94](https://youtu.be/CSL_Axohw94)
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/CSL_Axohw94" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 \- shared by [Alexander Szorkovszky](https://www.uio.no/ritmo/english/people/postdoctoral-fellows/alexansz/index.html).  
 
 ### Second concept iteration
@@ -102,4 +105,4 @@ Alexander Szorkovszky trying out the Robiohead:
 
 The source files behind this IMS can be accessed from:
 
-https://github.com/synth-is/robiohead
+[https://github.com/synth-is/robiohead](https://github.com/synth-is/robiohead)
