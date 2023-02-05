@@ -35,11 +35,13 @@ disqus:
 
 # Build settings
 markdown: kramdown
-theme: minima
+remote_theme: jekyll/minima
+
 plugins:
   - jekyll-feed
   - jekyll-paginate
   - jekyll-redirect-from
+  - jekyll-remote-theme
 
 show_excerpts: true
 
