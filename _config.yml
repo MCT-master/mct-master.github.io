@@ -24,7 +24,6 @@ logo: "/assets/image/2022_07_20_stefanof_MCT_logo_grey.png"
 twitter_username: MCT_master
 github_username: MCT-master
 youtube_username: MCTmaster # hacked the social.html imported from minima 2.5.1 to override problem with channel URL
-google_analytics: "G-55MGNM5R8M"
 rss: RSS feed
 
 # Comments
@@ -35,13 +34,11 @@ disqus:
 
 # Build settings
 markdown: kramdown
-remote_theme: jekyll/minima
-
+theme: minima
 plugins:
   - jekyll-feed
   - jekyll-paginate
   - jekyll-redirect-from
-  - jekyll-remote-theme
 
 show_excerpts: true
 
