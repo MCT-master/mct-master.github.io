@@ -19,6 +19,12 @@ As part of our assignment in Pysical-Virtual Communication and Music we have bee
 
 Our main problem was creating a stable latency. First we planned to use Sonobus for our performance but we ended up spending six hours to understand why latency kept increasing! When we started measuring the latency, the round trip latency was 41 ms while every five mins it was increasing 3 more ms! In addition to that the delay we added didnt make sense either. We have added 10 ms delay from Midas and it increased latency for 13 ms while adding delay to both directions made no difference and only added 13 other than 20.
 
+<figure>
+   <img
+      src="https://www.uio.no/english/studies/programmes/mct-master/blog/assets/image/2023_02_16_aysimab_latency_assignment_unstable_l0atencies.jpeg?alt=original" />
+   <figcaption>Our latency numbers in ms while adding and removing the delay, possible to see "No Delay" numbers also increasing</figcaption>
+</figure>
+
 As a conclusion, we stopped using Sonobus and did our setup by using Lola between Portal and Video Room Lola computers. Then we were able to obtain a stable latency of 21 ms and we were yet able to increase the delay by Midas as we wished.
 
 <figure>
