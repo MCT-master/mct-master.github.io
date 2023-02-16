@@ -19,11 +19,13 @@ As part of our assignment in Physical-Virtual Communication and Music we have be
 
 Our main problem was maintaining stable latency. We initially planned to use Sonobus for our performance, but preliminary latency testing using the software gave wildly varying results for the latency in the system. In our initial measurements, the round trip latency was 41 ms. However, from there we saw a approximately linear increase over the course of 30 minutes. When we manually added delay using the Portal's Midas M32 mixer, the latency measurements did not increase as we expected. When we then removed this extra delay, the inherent latency of our system had increased by several milliseconds from our previous measurement - far beyond the expected amount of network jitter.
 
-<figure>
-   <img
-      src="https://www.uio.no/english/studies/programmes/mct-master/blog/assets/image/2023_02_16_aysimab_latency_assignment_unstable_l0atencies.jpeg?alt=original" />
-   <figcaption>Our latency numbers in ms while adding and removing the delay, possible to see "No Delay" numbers also increasing</figcaption>
-</figure>
+| No Delay | 10ms Delay on Send | 10ms Delay on Receive | 10ms Delay on Both |
+|----------|---------------|------------------|---------------|
+| 44ms     | 44ms          | 57ms             | 57ms          |
+| 50ms     | 50ms          | 63ms             | 63ms          |
+| 53ms     | 56ms          | 68ms             | 68ms          |
+
+*Table: Our calculated latency amounts in milliseconds while adding and removing artifical delay. It is possible to see 'No Delay' numbers increasing over time*
 
 After these confusing results, we decided to conduct our performance with the LOLA software on the Portal and Videoroom LOLA computers instead. Then we were able to obtain a stable latency of 21 ms - a good baseline from which to manually add latency in order to test the MSA and LBA approaches.
 
