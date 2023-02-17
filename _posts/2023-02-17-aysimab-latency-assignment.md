@@ -83,7 +83,8 @@ The regular beat with 100ms of latency proved even trickier to manage. Once agai
 
 # Watch the Video
 
-Video coming soon...
+Here is the audio-video recording of each test, along with our comments on our personal experience during the process.
+<iframe width="560" height="315" src="https://www.youtube.com/embed/RIJ6EN1oLik" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
 # Conclusion
 
