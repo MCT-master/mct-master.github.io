@@ -3,7 +3,7 @@ layout: post
 title: "Designing DFA and LAA Network Music Performances"
 date: 2023-02-16
 categories: portal
-author: Alexander Wastnidge, Fabian
+author: Alexander Wastnidge, Fabian Stordalen
 image: https://www.uio.no/english/studies/programmes/mct-master/blog/assets/image/2023_02_17_fabianst_dfa.png?alt=original
 keywords: telematic music, LoLa, low latency, Sonobus
 excerpt: "Music Performances in High Latency"
