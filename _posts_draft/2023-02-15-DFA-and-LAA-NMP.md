@@ -63,14 +63,20 @@ With the synthesizer signal being returned to the primary with latency, we added
 Here is the performance using the DFA configuration.  The audio is recorded from the mixer at the primary node with a mix of the returned synthesizer signal and the delayed drum machine monitor signal.  As you can hopefully see, this audio lines up perfectly with the footage from the secondary node, implying that the delayed monitor path was configured correctly.
 
 ## Latency Accepting Approach
-For the LAA (Latency Acceptance Approach) Fabian and Henrik decided to use SonoBus over a wifi connection to introduce latency and less bandwidth. All in all a pretty bad connection to play with. Roundtrip latency summed up to just above 200ms, giving a good foundation to try LAA. 
+For the LAA (Latency Accepting Approach) Fabian and Henrik decided to use SonoBus over a wifi connection to introduce latency and less bandwidth. All in all a pretty bad connection to play with. Roundtrip latency summed up to just above 200ms, giving a good foundation to try LAA. 
 
 <figure style="float: none">
    <img
       src="https://www.uio.no/english/studies/programmes/mct-master/blog/assets/image/2023_02_16_fabianst_latency_sonobus.png?alt=original"
       style="max-height:600px; width:auto;" />
+      <figcaption>Sonobus settings used for LAA approach</figcaption>
+<figure>
 
 
-Musically the result lies in the field of ambient music, slow movements giving performers time to react on each others output. Despite having a lot of audio packet drops it felt pretty seamless to play with this approach. We could have tried the LAA with more rhythmic dependent music. Here is a recording of our performance
+Musically the result lies in the field of ambient music, with slow movements giving performers time to react to each other. Despite having a lot of audio packet drops it felt pretty seamless to play with this approach. We could have tried the LAA with more rhythmically dependent music. This would have made the task of playing together much more difficult. Here is a recording of our performance.
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/vyFz8AhbwlE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+# References
+
+[1] A. Carôt and C. Werner, ‘Fundamentals and principles of musical telepresence’, *Journal of Science and Technology of the Arts*, pp. 26–37, Jan. 2009, doi: 10.7559/CITARJ.V1I1.6.
