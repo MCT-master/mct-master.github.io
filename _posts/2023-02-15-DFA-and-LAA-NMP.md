@@ -3,7 +3,7 @@ layout: post
 title: "Designing DFA and LAA Network Music Performances"
 date: 2023-02-16
 categories: portal
-author: Alexander Wastnidge, Fabian Stordalen
+author: Alexander Wastnidge, Fabian Stordalen, Henrik Sveen
 image: https://www.uio.no/english/studies/programmes/mct-master/blog/assets/image/2023_02_17_fabianst_dfa.png?alt=original
 keywords: telematic music, LoLa, low latency, Sonobus
 excerpt: "Music Performances in High Latency"
@@ -63,7 +63,7 @@ With the synthesizer signal being returned to the primary with latency, we added
 Here is the performance using the DFA configuration.  The audio is recorded from the mixer at the primary node with a mix of the returned synthesizer signal and the delayed drum machine monitor signal.  As you can hopefully see, this audio lines up perfectly with the footage from the secondary node, implying that the delayed monitor path was configured correctly.
 
 ## Latency Accepting Approach
-For the LAA (Latency Accepting Approach) Fabian and Henrik decided to use SonoBus over a wifi connection to introduce latency and less bandwidth. All in all a pretty bad connection to play with. Roundtrip latency summed up to just above 200ms, giving a good foundation to try LAA. 
+For the LAA (Latency Accepting Approach) Fabian and Henrik decided to use SonoBus over a wifi connection to introduce latency and less bandwidth. All in all a pretty bad connection to play with. Roundtrip latency summed up to just above 200ms, giving a good foundation to try LAA.
 
 <figure style="float: none">
    <img
