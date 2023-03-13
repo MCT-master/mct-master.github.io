@@ -17,7 +17,7 @@ excerpt: "A live performance by Edvard Munch High School students with collabora
 </figure>
 
 #### Introduction
-For our third telematic performance we had the pleasure of teaming up with students from Edvard Munch High School. They brought a varied repertoire and a very talented group of musicians who were great to work with! This post will give you an insight into the work we did as technicians in Salen which was the front of house in this concert.
+For our third telematic performance we had the pleasure of teaming up with students from [Edvard Munch High School](https://edvardmunch.vgs.no). They brought a varied repertoire and a very talented group of musicians who were great to work with! This post will give you an insight into the work we did as technicians in Salen which was the front of house in this concert.
 
 <figure style="float: none">
    <img src="/assets/image/2023_03_12_henrikhs_prep.jpg" alt="mage not showing? Will try to fix it." title="Image Title" width="auto" />
@@ -50,7 +50,7 @@ We knew from the previous experiences that the performers also need to communica
 There was also one monitor connected to the NPM for us to monitor the Lola connection and the video from our stage.
 
 
-Watch the full performance on the MCT YouTube channel here:
+Watch the full performance on the [MCT YouTube channel](https://www.youtube.com/@MCTmaster) here:
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/A-JyaKxe4U4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
