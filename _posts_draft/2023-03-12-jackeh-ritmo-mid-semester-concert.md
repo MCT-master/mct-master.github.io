@@ -21,6 +21,12 @@ The ensemble from Edvard Munch High School consists of 3 singers, 2 trumpets, pi
 
 # Stage Plot
 
+<figure style="float: none">
+   <img
+      src="/assets/image/2023_03_13_jackeh_RITMO_stage_plot.png" width="75%" />
+   <figcaption>The stage plot at RITMO.</figcaption>
+</figure>
+
 # Watch the Performance
 
 Watch the full performance on the MCT YouTube channel here:
@@ -28,5 +34,11 @@ Watch the full performance on the MCT YouTube channel here:
 <iframe width="560" height="315" src="https://www.youtube.com/embed/A-JyaKxe4U4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
 # Student Reflections
+
+After the performance, we spoke to the RITMO performers to understand their experience of playing telematic music. This was their first experience of network musical performance for all the musicians, therefore we were excited to learn more about their perspectives. The performers all found the experience to be rewarding. However, they also identified several issues which largely fall into two categories: those inherent to telematic performance, and flaws with our specific setup.
+
+All the RITMO performers found that they missed the physical aspect of performing together in the same room. Specifically, they found it difficult to properly feel the groove as this relies as much on feeling physical movements together as it does listening to bandmates. This could be rectified partly through changes to the setup in each location. The Salen camera was placed facing towards the performers which the RITMO performers said made them feel like they were playing to, rather than with, their counterparts. Placing the Salen camera amongst or behind the performers could have therefore helped to alleviate this issue. Relatedly, the RITMO performers were seeing the Salen musicians on a fairly large TV. A larger view, such as the large projector screens included in the NMP kit, could have helped to make the RITMO performers feel like they were part of the action.
+
+The RITMO performers also identified that performing using headphones felt unnatural and took away from the live feeling of the performance, instead feeling more like a studio or practice session. We chose to use headphones for two main reasons: to minimise bleed into the trumpet and guitar microphones, and because the speakers at our disposal were not large enough for monitoring over loud brass instruments. It is therefore possible that we could have relied on monitoring through wedge speakers, but this might have caused issues with bleed and feedback.
 
 # Conclusion
