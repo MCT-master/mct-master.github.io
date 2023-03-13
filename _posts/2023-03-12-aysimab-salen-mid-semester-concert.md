@@ -21,7 +21,7 @@ For our third telematic performance we had the pleasure of teaming up with stude
 
 <figure style="float: none">
    <img src="/assets/image/2023_03_12_henrikhs_prep.jpg" alt="mage not showing? Will try to fix it." title="Image Title" width="auto" />
-   <figcaption>Thank you.</figcaption>
+   <figcaption>Explaining the setup to performers.</figcaption>
 </figure>
 
 #### Technical Setup
@@ -31,7 +31,7 @@ One NMP kit was set up in Salen while the other one was set up at RITMO. In Sale
 
 <figure style="float: none">
    <img src="/assets/image/2023_03_12_henrikhs_lol.jpg" alt="mage not showing? Will try to fix it." title="Image Title" width="auto" />
-   <figcaption>Thank you.</figcaption>
+   <figcaption>The NMP kit setup.</figcaption>
 </figure>
 
 #### Audio and Monitoring
@@ -39,7 +39,7 @@ All audio in Salen was run through the Midas M32 mixer which also received the n
 
 <figure style="float: none">
    <img src="/assets/image/2023_03_12_henrikhs_mixer_input.jpg" alt="mage not showing? Will try to fix it." title="Image Title" width="auto" />
-   <figcaption>Thank you.</figcaption>
+   <figcaption>Four monotracks (25-28) received directly to the Midas mixer from RITMO.</figcaption>
 </figure>
 
 #### Video
