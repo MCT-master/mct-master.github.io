@@ -12,6 +12,10 @@ excerpt: "A live performance by Edvard Munch High School students with collabora
 # Introduction
 For our third telematic performance we had the pleasure of teaming up with students from Edvard Munch High School. They brought a varied repertoire and a very talented group of musicians who were great to work with! This post will give you an insight into the work we did as technicians in Salen which was the front of house in this concert.
 
+Watch the full performance on the MCT YouTube channel here:
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/A-JyaKxe4U4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
 # Preparations
 
 
