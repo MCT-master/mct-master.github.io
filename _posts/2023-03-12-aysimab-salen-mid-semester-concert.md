@@ -49,8 +49,7 @@ We knew from the previous experiences that the performers also need to communica
 
 There was also one monitor connected to the NPM for us to monitor the Lola connection and the video from our stage.
 
-
-Watch the full performance on the [MCT YouTube channel](https://www.youtube.com/@MCTmaster) here:
+We promoted the concert by distributing posters around the university before the event and live-streamed it on YouTube from the Salen streaming station. Watch the full performance on the [MCT YouTube channel](https://www.youtube.com/@MCTmaster) here:
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/A-JyaKxe4U4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
