@@ -9,6 +9,11 @@ keywords: MIDI, representation, generative, symbolic, piano roll, relative pitch
 excerpt: "A brief guide of the troubles with MIDI representation for generative AI"
 ---
 
+<figure style="float: none">
+   <img
+      src="/assets/image/2023_04_19_thubnail.png" width="80%" />
+   <figcaption>MIDI notes represented as a piano roll</figcaption>
+</figure>
 
 # Introduction 
 
