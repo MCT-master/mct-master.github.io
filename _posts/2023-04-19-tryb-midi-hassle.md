@@ -11,7 +11,7 @@ excerpt: "A brief guide of the troubles with MIDI representation for generative 
 
 <figure style="float: none">
    <img
-      src="/assets/image/2023_04_19_thubnail.png" width="80%" />
+      src="/assets/image/2023_04_19_thumbnail.png" width="80%" />
    <figcaption>MIDI notes represented as a piano roll</figcaption>
 </figure>
 
