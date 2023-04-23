@@ -15,6 +15,7 @@ excerpt: "How you can integrate both JackTrip and Sonobus into your DAW"
 
  ## JackTrip DAW Integration
 
+
 To setup JackTrip in your Daw you will need to download [JACK](https://jackaudio.org/downloads/), [JackTrip](https://github.com/jacktrip/jacktrip/releases) and [QjackCTL](https://qjackctl.sourceforge.io/). Start by opening Qjack, JackTrip and your DAW. In my case I will be using Live. First, start your Qjack-server. Go back to your DAW, choose ASIO and your driver type and JackRouter as your audio device. 
 
 <figure style="float: none">
