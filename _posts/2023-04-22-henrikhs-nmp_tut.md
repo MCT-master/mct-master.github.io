@@ -11,7 +11,7 @@ excerpt: "A practical tutorial on the NMP kits."
 
 <figure style="float: none">
    <img src="/assets/image/2023_04_22_henrikhs_nmpkit.jpg" alt="Alternate Text" title="Image Title" width="auto" />
-   <figcaption>SR-01</figcaption>
+   <figcaption>NMP Kit</figcaption>
 </figure>
 
 This is a tutorial for getting started with the NMP (Network Music Performance) kits. It focuses on practical use of the kits and does not go into theoretical detail on what a NMP is and how the different softwares (LoLa, JackTrip, SonoBus etc.) works. Audio signal flow and solutions for routing audio in the system is covered, however - there are many solutions to this, so consider the ways shown in the video as a starting point for understanding audio routing in the NMP kit.
