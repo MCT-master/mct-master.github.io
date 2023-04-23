@@ -4,7 +4,7 @@ title: "Audio Engineering for NMPs: Part 2"
 date: 2023-04-20
 categories: portal
 author: Alex Wastnidge
-image: /assets/image/2023-04-23-alexjw-nmps-ae-equip.jpg
+image: /assets/image/2023_04_23_alexjw_nmps_ae_equip.jpg
 keywords: portal, audio, NMP, audio engineering, Telematic music
 excerpt: "A deeper dive into mixer work for NMPs"
 ---
