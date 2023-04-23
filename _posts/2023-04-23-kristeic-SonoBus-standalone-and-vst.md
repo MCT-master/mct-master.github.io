@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "SonoBus setup - Standalone and Reaper Plugin"
+title:  "SonoBus setup - Standalone App and Reaper Plugin"
 date:   2023-04-23 14:00:00 +0200
 categories: portal
 author: Kristian Eicke
@@ -13,6 +13,13 @@ keywords: sonobus, networking
 
 
 ## Video Tutorial
+
+<figure style="float: none">
+  <video width="auto" controls>
+     <source src="https://www.uio.no/english/studies/programmes/mct-master/blog/assets/video/2023_04_23_kristeic_sonobus_video_tutorial.mp4" type='video/mp4'>
+  </video>
+</figure>
+
 Timestamps:
 - 00:00 - Introduction
 - 00:27 - Audio Setup
@@ -23,12 +30,6 @@ Timestamps:
 
 - 07:04 - Reaper session setup
 - 08:55 Sonobus VST3 setup
-
-<figure style="float: none">
-  <video width="auto" controls>
-     <source src="https://www.uio.no/english/studies/programmes/mct-master/blog/assets/video/2023_04_23_kristeic_sonobus_video_tutorial.mp4" type='video/mp4'>
-  </video>
-</figure>
 
 ## SonoBus as a standalone app 
 
