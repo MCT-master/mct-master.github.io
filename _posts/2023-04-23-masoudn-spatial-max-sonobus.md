@@ -15,19 +15,9 @@ excerpt: "This post's video tutorial aims to introduce readers to the many uses 
 # Multi-channel Audio Over the Network
 This post's video tutorial aims to introduce readers to the many uses for which the Sonobus can be implemented as a VST in Max-Msp. Thanks to Max by Cyclying74's modular and object-based design, we can easily incorporate over-the-network multichannel solutions like Sonobus as a VST into a variety of spatial audio scenarios. Hope you Enjoy!
 
-<figure style="float: none">
-  <iframe
-    src="https://www.youtube.com/watch?v=8fKQJUkxrJM"
-    width="100%"
-    height="315"
-    title="YouTube video player"
-    frameborder="0"
-    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-    allowfullscreen
-  >
-  </iframe>
-  <figcaption>Caption Text</figcaption>
-</figure>
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/8fKQJUkxrJM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
 
 # Approch:
 
