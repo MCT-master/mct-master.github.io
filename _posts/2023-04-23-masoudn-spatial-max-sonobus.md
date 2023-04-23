@@ -4,7 +4,7 @@ title: "Spatial Audio with Max-Msp and Sonobus"
 date: 2023-04-23 14:00:00 +0200
 categories: spatial-audio
 author: Masoud Niknafs
-image: /assets/image/featured_image.jpg 
+image: https://www.uio.no/english/studies/programmes/mct-master/blog/assets/image/2023_04_23_masoudn_space.jpg
 keywords: Spatial Audio, Networking
 excerpt: "This post's video tutorial aims to introduce readers to the many uses for which the Sonobus can be implemented as a VST in Max-Msp."
 ---
@@ -15,10 +15,22 @@ excerpt: "This post's video tutorial aims to introduce readers to the many uses 
 # Multi-channel Audio Over the Network
 This post's video tutorial aims to introduce readers to the many uses for which the Sonobus can be implemented as a VST in Max-Msp. Thanks to Max by Cyclying74's modular and object-based design, we can easily incorporate over-the-network multichannel solutions like Sonobus as a VST into a variety of spatial audio scenarios. Hope you Enjoy!
 
-
-<iframe width="560" height="315" src="https://youtu.be/8fKQJUkxrJM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+<figure style="float: none">
+  <iframe
+    src="https://www.youtube.com/watch?v=8fKQJUkxrJM"
+    width="100%"
+    height="315"
+    title="YouTube video player"
+    frameborder="0"
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+    allowfullscreen
+  >
+  </iframe>
+  <figcaption>Caption Text</figcaption>
+</figure>
 
 # Approch:
+
 We used the [ICST](https://ambisonics.ch) Ambisonics package for this video tutorial. The package is cost-free and is easily installable using the Max-Msp package manager. The approach in this experiment is to encode a single mono file source to higher order ambisonics and then decode the audio back into separate 8 decoded channels since it is assumed that we are not playing back audio in ambisonic format, so that we send the decoded audio over the network by Sonobus.
 
 As the heart of the audio chain we have the mc.ambiencode~ and, mc.ambidecode~:
