@@ -18,7 +18,7 @@ Are you curious about the magic that happens behind the scenes of network music 
 </figure>
 
 ## IP Address and Port
-Each computer in a network has an identification number called an IP address, which is like the physical address of your house in a city.
+Each computer in a network has an identification number called an IP address, which is like the physical address of your house in a city. Remember that if you are in different places, you may need to do something called [_port forwarding_](https://en.wikipedia.org/wiki/Port_forwarding) to connect to each other.
 
 <figure style="float: none">
    <img
