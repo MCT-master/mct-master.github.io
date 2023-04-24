@@ -90,6 +90,13 @@ const createWaveSurfer = (container, index) => {
     waveColor: color,
     splitChannels: isStereo,
     responsive: true,
+    xhr: {
+      // cache: "default",
+      mode: "no-cors",
+      // credentials: "same-origin",
+      // redirect: "follow",
+      // referrer: "client",
+    },
   });
 
   waveSurfer.on("error", (error) => {
