@@ -25,7 +25,7 @@ What if you instead of using raw audio, you used a visual representation of it? 
 
 I mentioned I trained my model using mel spectrograms, but what it is? A mel spectrogram is a visual representation of sound that shows the energy at different frequencies over time.
 
- It uses a non-linear mel scale to better represent how humans hear sound and the Fast Fourier Transform(FFT) to calculate the energy at each frequency. The resulting 2D image shows time on the horizontal axis, frequency on the vertical axis, and energy as color.
+ It uses a non-linear mel scale to better represent how humans hear sound and the [Fast Fourier Transform (FFT)](https://www.youtube.com/watch?v=h7apO7q16V0) to calculate the energy at each frequency. The resulting 2D image shows time on the horizontal axis, frequency on the vertical axis, and energy as color.
 
  The final result would then be an image made out of pixels which is a lot less data than a raw audio file making it much easier for the machine to learn.
 
@@ -55,7 +55,7 @@ I extracted the mel spectrogram for each sample and gave these to my model. Sinc
    <figcaption>AI-Generated spectrogram created by my model</figcaption>
 </figure>
 
-Once finished training the model was able to create quite good looking spectrograms which sounded great. To turn my spectrogram into audio I used an algorithm called the [Griffin-Lim](https://paperswithcode.com/method/griffin-lim-algorithm) algorithm. Take a listen! 
+Once finished training the model was able to create quite good looking spectrograms by sampling the latent space, which sounded great. To turn my spectrogram into audio I used an algorithm called the [Griffin-Lim](https://paperswithcode.com/method/griffin-lim-algorithm) algorithm which produced surprisingly good results. Take a listen! 
 
 <figure style="float: none">
   <audio controls>
@@ -68,10 +68,10 @@ Once finished training the model was able to create quite good looking spectrogr
 # Sources 
 Frenzel, Max. 2018. “The Variational Autoencoder as a Two-Player Game — Part I.” Medium. April 23, 2018. https://towardsdatascience.com/the-variational-autoencoder-as-a-two-player-game-part-i-4c3737f0987b.
 
+Reducible, dir. 2020. The Fast Fourier Transform (FFT): Most Ingenious Algorithm Ever? https://www.youtube.com/watch?v=h7apO7q16V0.
+
 Roberts, Leland. 2022. “Understanding the Mel Spectrogram.” Analytics Vidhya (blog). August 17, 2022. https://medium.com/analytics-vidhya/understanding-the-mel-spectrogram-fca2afa2ce53.
 
 “The Aphex Face | Bastwood.” n.d. Accessed April 24, 2023. http://www.bastwood.com/?page_id=10.
 
 “Variational Autoencoder.” 2023. In Wikipedia. https://en.wikipedia.org/w/index.php?title=Variational_autoencoder&oldid=1148033201.
-
-
