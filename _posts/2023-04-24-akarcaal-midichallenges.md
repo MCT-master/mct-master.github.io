@@ -30,7 +30,7 @@ Another challenge was with [chordify function of music21](https://web.mit.edu/mu
 
 "Chordify is a madeup word that we created in music21 for the process of making chords out of non-chords. Chordify powerful tool for reducing a complex score with multiple parts to a succession of chords in one part that represent everything that is happening in the score." 
 
-After parsing midi data to music21 stream by music21 converter function, it is possible to chordify this stream. However this didnt work with any midi file I found. I am still not able to understand the root cause of the problem.
+After parsing midi data to music21 stream by music21 converter function, it is possible to chordify this stream. However this didnt work with any midi file I found. I am still not able to understand the root cause of the problem but the problem was fixed after downgrading the music21 library version to 6.7.1.
 
 
 <figure style="float: none">
