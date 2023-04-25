@@ -40,8 +40,6 @@ The prompts used were widely different for the sake of exploring the versatility
   </code>
 </pre>
 
-
-
 Results were mixed. For a sound to be usable as is in a video game, it will more often than not need to be isolated, meaning no background noise or overlapping sounds. Some prompts gave me multiple sounds of the same type layered on top of each other:
 
 <figure>
@@ -150,8 +148,6 @@ The implication of being able to generate sounds quickly is that your soundscape
 
 # Video Exploration
 
-<figure style="float: none">
-<iframe width="560" height="315" src="https://youtu.be/cgowAgbLTfk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-</figure>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/cgowAgbLTfk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
-If you want to see me explore the model in real time, check out the video above or follow [this link](https://youtu.be/cgowAgbLTfk)!
+If you want to see more exploration of the model in real time, check out the video above or follow [this link](https://youtu.be/cgowAgbLTfk)!
