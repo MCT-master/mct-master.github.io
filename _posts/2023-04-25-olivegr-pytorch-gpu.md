@@ -28,11 +28,11 @@ I'll be using conda for both environment and package management, and I'm setting
 ...a CPU compiled version of pytorch will be installed. A CPU is much slower than a GPU, and can speed up both training and inference tenfold, so wouldn't it be nice to be able to use a GPU instead? This is how:
 
 1. Create a new environment with conda create -n "YOUR_ENVIRONMENT_NAME" python="DESIRED_PYTHON_VERSION"
-    1. Pytorch requires python=3.7 and above.
+    * Note: Pytorch requires python=3.7 and above.
 2. Move into the new environment using conda activate "YOUR_ENVIRONMENT_NAME"
 3. Go to the [Pytorch website](https://pytorch.org/get-started/locally/), enter your platform and package manager, and copy the resulting command.
-    1. The conda command will look something like: conda install pytorch torchvision torchaudio pytorch-cuda=[CUDA_VERSION] -c pytorch -c nvidia
-    2. The pip command will look something like: pip3 install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu[CUDA_VERSION]
+    * Note: The conda command will look something like: conda install pytorch torchvision torchaudio pytorch-cuda=[CUDA_VERSION] -c pytorch -c nvidia
+    * Note: The pip command will look something like: pip3 install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu[CUDA_VERSION]
 4. Copy the command to your command line interface, and you should be good to go.
 
 "Now hold up a minute", I hear you saying. "How do I know which CUDA_VERSION I need?" A web search will take you down a rabbit hole, so keep on reading and I will save you the trouble.
