@@ -2,7 +2,7 @@
 layout: post
 title: "Challenges with Midi"
 date: 2023-04-24
-categories: 'Machine Learning'
+categories: machine-learning
 author: Aysima Karcaaltincaba
 image: /assets/image/2023_04_24_akarcaal_midi.png
 keywords: Midi, Programming, Audio programming
