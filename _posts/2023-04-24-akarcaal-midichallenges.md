@@ -9,6 +9,8 @@ keywords: Midi, Programming, Audio programming
 excerpt: "Is it easy to create chord progression from midi files?"
 ---
 
+## Is it easy to create chord progression from midi files?
+
 When programming with audio, midi format can become very beneficial for several reasons. However, it may also be challenging depending on the task intented to be performed. In this post I am going to try to share my experience with midi analysis as part of my machine learning project.
 
 
@@ -28,7 +30,7 @@ Another challenge was with [chordify function of music21](https://web.mit.edu/mu
 
 "Chordify is a madeup word that we created in music21 for the process of making chords out of non-chords. Chordify powerful tool for reducing a complex score with multiple parts to a succession of chords in one part that represent everything that is happening in the score." 
 
-It is supposed to work with midi data after parsing midi data to music21 stream by music21 converter function, it is possible to chordify this stream. However this didnt work with any midi file I found. I am still not able to understand the root cause of the problem.
+After parsing midi data to music21 stream by music21 converter function, it is possible to chordify this stream. However this didnt work with any midi file I found. I am still not able to understand the root cause of the problem.
 
 
 <figure style="float: none">
@@ -49,12 +51,12 @@ It is supposed to work with midi data after parsing midi data to music21 stream 
 
 Pretty midi is one of the most used libraries in order to analyse midi data, but it required extra work in order to extract some simple informations. The functions like piano_roll gives a very good overview but they are also complex to work with some ML methods like regression which I intended to use. 
 
-Also it is easier to get musical line by instrument from midi and understand each note or chord and start end times. 
+Also it is easier to get musical line by instrument from midi and understand each note or chord and start end times but then we need to iterate over each note, analyse the paralel ones and come up with a chord represents all the paralelel chords. There is also mostly an overlap between instruments and what they play and it makes this even harder.
 
 
 ## Conclusion
 
-At the end, I lost faith in extracting a one line chord progression from midi and I started to use other data formats like chord txt files. However with more effort I believe it might still be possible to run more advanced algorithyms on midi files and extract a chord that is independent from any instrument or any paralel musical line.
+At the end, I ended up spending a lot of time in order to extract a one line chord progression from midi and I started to use other data formats like chord txt files. However with more effort I believe it might still be possible to run more advanced algorithyms on midi files and extract a chord that is independent from any instrument or any paralel musical line.
 
 But as an answer to the first question:
-- No it is not easy :) 
+- No it is not always easy :) 

@@ -38,7 +38,7 @@ Todays amazing solutions made us not to tolorate a second of stopping and being 
 
 This applies especially to ChatGPT. Even though we except the fact that ChatGPT can make mistakes or can be biased, it still is way easier to ask it compared to doing the research.  I started using CharGPT for a new thing I tried and after some time I noticed how much repetation I made in the project and how much time I wasted. I am of course not claiming that it is not a useful or helpful tool. It is amazing and it will be even more amazing in the future but it is very important to keep the control over our progress in the project and not copy paste a suggestion right after.
 
-In addition, after each copy paste or delegation of responsibility, it gets harder for you to spot the bugs in the code and fix it. Do not delegate your learning to a chatbot and become a button pusher left with no improvd skill.
+In addition, after each copy paste or delegation of responsibility, it gets harder for you to spot the bugs in the code and fix it. Do not delegate your learning to a chatbot and become a button pusher left with no improved skill.
 
 
 ### AI is helpful but be careful
