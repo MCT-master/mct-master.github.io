@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Generating Video Game SFX with AI"
-date: 2023-04-25 19:53:00 +0200
+date: 2023-04-25
 categories: machine-learning
 author: Oliver Getz
 image: /assets/image/2023_04_25_olivegr_audioldm_tta.jpg

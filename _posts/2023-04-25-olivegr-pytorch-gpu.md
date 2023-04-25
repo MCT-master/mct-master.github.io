@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Pytorch GPU Setup Guide"
-date: 2023-04-25 18:43:00 +0200
+date: 2023-04-25
 categories: machine-learning
 author: Oliver Getz
 image: /assets/image/2023_04_25_olivegr_pytorch_gpu.jpg
