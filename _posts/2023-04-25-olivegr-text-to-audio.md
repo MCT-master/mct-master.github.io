@@ -1,12 +1,14 @@
 ---
 layout: post
-title: "Generating Video Game SFX with AI"
-date: 2023-04-25 19:00:00 +0200
-categories: machine-learning
+title: "Why Your Exhibit Tech Failed (and how to fix it)"
+date: 2022-12-03 20:30:00 +0200
+categories: interactive-music
 author: Oliver Getz
-image: /assets/image/2023_04_25_olivegr_audioldm_tta.jpg
-excerpt: "A first look at text-to-audio sound effect generation for video games."
-keywords: video games, text-to-audio, ai, generation, sound design, sound effects, sfx, game audio
+image: /assets/image/2022_12_03_olivegr_musetech_model.jpg
+excerpt: "Why are visitors not using your installation?  You might just disagree with yourself, the visitors, and
+your department or client about their needs and wants. The reason for this disagreement is always
+the same."
+keywords: interactive music system, installation, project management, evaluation, evaluation design
 ---
 
 Early 2023, Hugging Face released a pipeline for [AudioLDM](https://github.com/haoheliu/AudioLDM). What this means is that audio generation with AI became readily accessible to everyone, with low setup times. Text-to-audio is, at this very moment, right at our fingertips! Curious about its usage in game audio, I set out to explore its current capabilities and limitations.
