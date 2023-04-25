@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Comparing MIDI Representations: The Battle Between Efficiency and Complexity"
-date: 2023-04-19
+date: 2023-04-25
 categories: machine-learning
 author: Trym Bø
 image: /assets/image/2023_04_25_tryb_thumbail.png
@@ -11,11 +11,10 @@ excerpt: "A comparing of different MIDI representations for generative machine l
 
 <figure style="float: none">
    <img
-      src="/assets/image/2023_04_25_tryb_thumbail.png" width="30%" />
+      src="/assets/image/2023_04_25_tryb_thumbail.png" width="50%" />
    <figcaption></figcaption>
 </figure>
 
-# Introduction
 
 In my previous blog post, I wrote about different ways to represent MIDI for a neural network with the intent of generating melodic, symbolic music. You can read my previous post [here](https://mct-master.github.io/machine-learning/2023/04/19/tryb-midi-hassle-copy.html). In that post I mentioned some drawbacks and benefits of different representations, but how can this be observed in the music that is generated? I have implemented three of these methods, and generated some melodies based on the representations. The results stem from three similar neural networks, with similar configurations in order to compare only the representations. 
 
@@ -40,7 +39,7 @@ Finally is piano roll. To represent the dataset takes, like in relative pitch 31
 
 <figure style="float: none">
    <img
-      src="/assets/image/2023-04-25-graph.png" width="50%" />
+      src="/assets/image/2023_04_25_tryb_comparing_graph.png" width="50%" />
    <figcaption>Comparison of the different models</figcaption>
 </figure>
 
@@ -52,7 +51,7 @@ A disclaimer: In my research, I have put a limited effort into fine tuning the n
 # Results
 
 ## Event based
-While it is super efficient at storing music data in a compact way, it generates very poor results, with little musical quality. One of the first thing you notice is that it every note has the same duration and with no silence between any notes. It also sounds somewhat random, like a four year old playing the piano with one finger. It also often plays sharp-notes, although it is trained on music in C major. You can listen to an example here. Only one is needed, because there is little variation in what it generates.
+While it is super efficient at storing music data in a compact way, it generates very poor results, with little musical quality. One of the first things you notice is that every note has the same duration and with no silence between any notes. It also sounds somewhat random, like a four year old playing the piano with one finger. It also often plays sharp-notes, although it is trained on music in C major. You can listen to an example here. Only one is needed, because there is little variation in what it generates.
 
 <figure style="float: none">
 	<audio controls>
@@ -63,7 +62,7 @@ While it is super efficient at storing music data in a compact way, it generates
 
 
 ## Piano roll
-Being the most computational heavy seems to be paying off in terms of results. This method has managed to generate the most melodic melodies, it seems to be the most on beat, and often uses silence to make cool beats or dynamic sounding melodies. But it is still a varying model, and does often make vauge music. It very often only wants to pick either silence or the same note as the previous note. Therefore I had to implement some randomness to choose wheter it should pick its best note, or if it should choose a note that it deems the next or third best. Another problem is that it often sounds like it does not have any goal, while it often picks notes that are somewhat musically reasonable, it can struggles making music that feels intentional. I belive this is by part the results of using a LSTM.
+Being the most computational heavy seems to be paying off in terms of results. This method has managed to generate the most melodic melodies, it seems to be the most on beat, and often uses silence to make cool beats or dynamic sounding melodies. But it is still a varying model, and does often make vague music. It very often only wants to pick either silence or the same note as the previous note. Therefore I had to implement some randomness to choose whether it should pick its best note, or if it should choose a note that it deems the next or third best. Another problem is that it often sounds like it does not have any goal, while it often picks notes that are somewhat musically reasonable, it can struggle making music that feels intentional. I believe this is in part the result of using a LSTM.
 
 <figure style="float: none">
 	<audio controls>
@@ -80,7 +79,7 @@ Being the most computational heavy seems to be paying off in terms of results. T
 </figure>
 
 ## Relative pitch
-Being a compressed version of piano manifests itself in the output generated using this representation. You can find some of the benefits of piano roll like manages to use silence to make more dynamic melodies than event based representation did. The same drawbacks are also apparent, but to a larger degree. Relative pitch struggles with making non repetitive melodies because it almost always wants to generate a note that is either silence, the same note, two halftones up or two halftones down. This makes it repetitive and unmelodic. It also struggles with staying in one key. 
+Being a compressed version of piano manifests itself in the output generated using this representation. You can find some of the benefits of piano roll like managing to use silence to make more dynamic melodies than event based representation did. The same drawbacks are also apparent, but to a larger degree. Relative pitch struggles with making non repetitive melodies because it almost always wants to generate a note that is either silence, the same note, two halftones up or two halftones down. This makes it repetitive and unmelodic. It also struggles with staying in one key. 
 
 <figure style="float: none">
 	<audio controls>
@@ -97,6 +96,7 @@ Being a compressed version of piano manifests itself in the output generated usi
 </figure>
 
 
-## Conclusion
+# Conclusion
 From my own experience listening to what my models generated, it is clear that in these three representations, the quality of the output can be ranked in the same order as the memory consumption, and the clear king is piano roll. It is able to represent melodic structures in a way that the other two do not come close to. It is important to note that this is just my experiences exploring the different methods, and a different model, dataset or hyperparameters could show other results.
+
 
