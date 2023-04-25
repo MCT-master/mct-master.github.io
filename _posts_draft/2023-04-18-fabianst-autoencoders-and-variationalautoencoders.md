@@ -9,14 +9,15 @@ excerpt: "A simple generative algorithm"
 keywords: machine learning, deep learning
 ---
 
-Since we all prayed to the Autoencoder god this semester we thought about giving you an introduction to the architecture and capabilities of Autoencoders and their sibling the Variational Autoencoder. Especially VAE's have become extremely popular over the last years, capable of creating [entirely non-existing human faces](https://www.thispersondoesnotexist.com/) are purely synthetic music.
+#Spotlight: AutoEncoders and Variational AutoEncoders
+Since we all prayed to the Autoencoder god this semester we thought about giving you an introduction to the architecture and capabilities of autoencoders and their sibling the variational autoencoder. Especially VAE's have become extremely popular over the last years, capable of creating [entirely non-existing human faces](https://www.thispersondoesnotexist.com/) and purely synthetic music.
 
-# To generate or not to generate
-Generative deep learning models are a type of artificial neural network that can learn to generate new data samples similar to the training data provided. These models are designed to learn the underlying patterns and structure of the data, which can then be used to create new samples. If you dive a little bit deeper into the matter you will find the information on the internet that the vanilla Autoencoder cannot be used for generative puproses. If we define "generative" as the ability to create data then it is absolutely true that an Autoencoder can be used for generative purposes. The thing is that it is just does not work very well with creating continuous data. That's were VAE's come in.
+## To generate or not to generate
+Generative deep learning models are a type of artificial neural network that can learn to generate new data samples similar to the training data provided. These models are designed to learn the underlying patterns and structure of the data, which can then be used to create new samples. If you dive a little bit deeper into the matter you will find the information on the internet that the vanilla autoencoder cannot be used for generative purposes. If we define "generative" as the ability to create data then it is absolutely true that an autoencoder can be used for generative purposes. The thing is that it is just does not work very well with creating continuous data. That's were VAE's come in.
 
 
 ## Autoencoders
-An autoencoder is a neural network structure with equal numbers of inputs and outputs and at least one hidden layer which is smaller in size. It's two main purposes are [signal](https://www.machinecurve.com/index.php/2019/12/19/creating-a-signal-noise-removal-autoencoder-with-keras/) or image denoising and dimensionality reduction.
+An autoencoder is a neural network structure with an equal number of inputs and outputs and at least one hidden layer which is smaller in size. It's two main purposes are [signal](https://www.machinecurve.com/index.php/2019/12/19/creating-a-signal-noise-removal-autoencoder-with-keras/) or image denoising and dimensionality reduction.
 <figure style="float: none">
    <img
       src="/assets/image/2023_04_25_alexanjw_Autoencoder.jpg" width="60%" />
@@ -30,7 +31,7 @@ This can also be used for purely generative purposes, if the desired output of t
 The smallest layer in the system, is often referred to as the "latent layer" or "bottleneck layer".  After training, we can use only the decoder layer to generate material by giving values into the bottleneck layer and having them fed-forward through the decoder stage generating new material based on the training data.  
 
 ## Variational Autoencoders
-A Variational Autoencoder is very similar to a traditional autoencoder but with an important twist. Traditional autoencoder map the encoded data to a fixed point in the latent space which, when reconstructed by the decoder, will ideally produce a 1-to-1 reconstruction of the input data. That's why Autoencoder solely optimize reconstruction loss. 
+A variational autoencoder is very similar to a traditional autoencoder but with an important twist. Traditional autoencoder map the encoded data to a fixed point in the latent space which, when reconstructed by the decoder, will ideally produce a 1-to-1 reconstruction of the input data. That's why autoencoders solely optimize reconstruction loss. 
 
 In a variational autoencoder the encoded data does not get mapped to a fixed point but to a probability distribution. This is were the true generative capability of a VAE lies. When this distribution is sampled and ran through the decoder it will generate a new sample resembling the input data, or anything you specify that lies in-between. Simplified, if you have a dataset that contains flute and guitar recordings, with sampling the latent space correctly you could essentially create an instrument that sounds a bit like a flute and a bit like a guitar. 
 
