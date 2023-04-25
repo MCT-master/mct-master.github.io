@@ -2,7 +2,7 @@
 layout: post
 title: "Programming with OpenAI"
 date: 2023-04-24
-categories: portal
+categories: audio-programming
 author: Aysima Karcaaltincaba
 image: /assets/image/2023_04_24_akarcaal_ai_pair_programmer.jpg
 keywords: Artificial Intelligence, Programming, OpenAI, ChatGpt
