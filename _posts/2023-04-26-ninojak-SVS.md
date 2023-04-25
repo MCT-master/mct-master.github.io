@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "What's wrong with singing voice synthesis"
-date:   2023-04-26 
+date:   2023-04-26 01:38:00 +0200
 categories: Machine Learning
 author: Nino Jakeli
 image: assets/image/2024_04_26_cover.jpg
