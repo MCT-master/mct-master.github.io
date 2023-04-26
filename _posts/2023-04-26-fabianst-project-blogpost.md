@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Breakbeat Science"
-date:   2023-04-26 14:47:42 +0200
+date:   2023-04-26 10:13:42 +0200
 categories: machine-learning
 author: Fabian Stordalen
 image: /assets/image/2023_04_24_fabianst_spectrogram.png
