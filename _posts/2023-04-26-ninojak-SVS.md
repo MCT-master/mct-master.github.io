@@ -4,7 +4,7 @@ title:  "What's wrong with singing voice synthesis"
 date:   2023-04-26 01:38:00 +0200
 categories: Machine Learning
 author: Nino Jakeli
-image: assets/image/2024_04_26_cover.jpg
+image: assets/image/2024_04_26_ninojak_cover.jpg
 excerpt: "Dead can sing"
 keywords: machine learning, voice synthesis, copyright,
 ---
@@ -16,7 +16,7 @@ Among the many AI-driven innovations in the music industry, Singing Voice Synthe
 SVS has been around for more than two decades. The goal of it can be to learn human-like singing voices given input conditions, like speech, lyrics and melodies. Here we have many threads of focus like replicating existing vocals, refining singing expressions to improve performances or converting speech to voice. However, since the projects often involve the works of existing artists, debates have arisen around the unclear standards and practices regarding the ownership problems. Interestingly, public awareness about this topic is currently quite limited indicating a lack of clear methods to handle them.
 
 <figure style="text-align: center;">
-   <img src="/assets/image/2024_04_26_robot.jpg" alt="Alternate Text" width="auto" />
+   <img src="/assets/image/2024_04_26_ninojak_robot.jpg" alt="Alternate Text" width="auto" />
 </figure>
 
 

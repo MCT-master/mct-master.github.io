@@ -4,7 +4,7 @@ title:  "Clustering audio features"
 date:   2023-04-26 01:38:00 +0200
 categories: Machine Learning
 author: Nino Jakeli
-image: assets/image/2023_04_24_ninojak_patern.jpg
+image: assets/image/2023_04_26_ninojak_pattern.jpg
 excerpt: "Music information retrieval(MIR)"
 keywords: machine learning, unsupervised learning, clustering, feature extraction
 ---
@@ -33,7 +33,7 @@ After extracting features it is important to further preprocess data before feed
 Then, I initialize k-means clustering algorithm with four clusters and a random state to fit the algorithm to the scaled features and generate integer labels for each data point. After selecting a specific cluster and retrieving the indices of the corresponding audio files we can display and playback the clustered audio files, showing their similarities.
 
 <figure style="text-align: center;">
-   <img src="/assets/image/2024_04_26_features.png" alt="Alternate Text" title="Image Title" width="auto" />
+   <img src="/assets/image/2024_04_26_ninojak_features.png" alt="Alternate Text" title="Image Title" width="auto" />
    <figcaption style="font-style: italic;">feature clusters</figcaption>
 </figure>
 
