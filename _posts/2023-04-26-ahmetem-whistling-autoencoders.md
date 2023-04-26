@@ -101,8 +101,3 @@ Here are some generated whistling samples.
 I will also conduct a user study with a pool of model-generated and original whistling samples. I will ask participants to rate the whistlings by their _realism_ (in terms of _audio-quality_ and _expressiveness_) to compare the model whistlings with the real ones. This way I hope to find out how unreal the model-generated whistles really are. I will add the results here when ready!
 
 _Keep on whistling and stay tuned!_
-
-<figure style="float: left; margin-right: 20px;">
-   <img src="/assets/image/2023_04_25_ahmetem_vae_whistling_bird.jpeg" width="150" />
-   <figcaption>Example whistling spectrogram from the dataset.</figcaption>
-</figure>
