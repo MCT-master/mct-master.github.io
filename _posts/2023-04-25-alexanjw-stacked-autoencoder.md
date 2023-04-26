@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "A Rhythmic Sequencer Driven by a Stacked Autoencoder"
-date:   2023-04-1825 14:47:42 +0200
+date:   2023-04-25 14:47:42 +0200
 categories: Machine Learning
 author: Alex Wastnidge
 image: /assets/image/2023_04_25_alexjw_ae_seq.png
