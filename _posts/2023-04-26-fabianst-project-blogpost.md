@@ -2,7 +2,7 @@
 layout: post
 title:  "Breakbeat Science"
 date:   2023-04-26 14:47:42 +0200
-categories: Machine Learning
+categories: machine-learning
 author: Fabian Stordalen
 image: /assets/image/2023_04_24_fabianst_spectrogram.png
 excerpt: "AI-Generated amen breakbeats"
