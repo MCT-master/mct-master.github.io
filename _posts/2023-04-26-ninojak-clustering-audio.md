@@ -17,14 +17,22 @@ The following blog post is about music information retrieval(MIR) and identifyin
 
 For this example, the dataset consists of 50 wav audio files of the same durations, channel and sample rate. Usually, before we start the pattern recognition task and grouping sound files based on their content similarity, we first need to find a way to go from the low-level and voluminous audio data samples to higher-level representations of the audio content. This is the purpose of feature extraction (FE), the most common and important task in all machine learning applications. In my case, I aimed to extract the following features: 
 
-**Spectral bandwidth** - represents the difference between the upper and lower frequencies and has a direct correlation with the perceived timbre of the sound. 
-**RMS** - measures the average loudness or the energy of the audio
-**Spectral flatness** - helps to differentiate between noise-like and tone-like sounds
-**Zero-crossing rate** - classifies percussive sounds
-**Chroma stft** - identifies pitch classes and melodic and harmonic content
-**Mel-spectrogram** - approximates human hearing, as it emphasizes the lower frequencies more than the higher ones and provides the representation of the audio's spectral content over time
-**MFCC** - carries information about the sound's timbre, phonetic content, and other characteristics
-**Spectral contrast** - the difference between the peaks and valleys in an audio signal's spectrum.
+* **Spectral bandwidth** - represents the difference between the upper and lower frequencies and has a direct correlation with the perceived timbre of the sound. 
+
+* **RMS** - measures the average loudness or the energy of the audio
+
+* **Spectral flatness** - helps to differentiate between noise-like and tone-like sounds
+
+* **Zero-crossing rate** - classifies percussive sounds
+
+* **Chroma stft** - identifies pitch classes and melodic and harmonic content
+
+* **Mel-spectrogram** - approximates human hearing, as it emphasizes the 
+lower frequencies more than the higher ones and provides the representation of the audio's spectral content over time
+
+* **MFCC** - carries information about the sound's timbre, phonetic content, and other characteristics
+
+* **Spectral contrast** - the difference between the peaks and valleys in an audio signal's spectrum.
 
 ## Clustering
 
@@ -53,8 +61,7 @@ All three metrics show that clusters do not contain data points that belong only
 
 ## Sources
 
-MIR
-https://colab.research.google.com/github/stevetjoa/musicinformationretrieval.com/blob/gh-pages/why_mir.ipynb
+[MIR]https://colab.research.google.com/github/stevetjoa/musicinformationretrieval.com/blob/gh-pages/why_mir.ipynb
 
-Feature extraction and Clustering
+[Feature extraction and Clustering]
 https://medium.com/heuristics/audio-signal-feature-extraction-and-clustering-935319d2225
