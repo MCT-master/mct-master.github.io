@@ -2,7 +2,7 @@
 layout: post
 title:  "Clustering audio features"
 date:   2023-04-26 01:38:00 +0200
-categories: Machine Learning
+categories: machine-learning
 author: Nino Jakeli
 image: assets/image/2023_04_26_ninojak_pattern.jpg
 excerpt: "Music information retrieval(MIR)"

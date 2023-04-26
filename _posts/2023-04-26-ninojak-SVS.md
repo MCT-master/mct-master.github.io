@@ -2,7 +2,7 @@
 layout: post
 title:  "What's wrong with singing voice synthesis"
 date:   2023-04-26 01:38:00 +0200
-categories: Machine Learning
+categories: machine-learning
 author: Nino Jakeli
 image: assets/image/2024_04_26_ninojak_cover.jpg
 excerpt: "Dead can sing"
