@@ -87,10 +87,10 @@ Beginning with a single note from our input melody, we use the length object to 
  </figure>  
 
 # Sources:
-[(source)](http://www.algorithmiccomposer.com/2010/05/algorithmic-composition-tutorial-markov.html).
+[source](http://www.algorithmiccomposer.com/2010/05/algorithmic-composition-tutorial-markov.html)
 
 # Another approach:
-[(Markov)](https://github.com/simesky/puredata-markov-chains). 
+[Markov](https://github.com/simesky/puredata-markov-chains.html) 
 
 # Attention :
 Some versions of PD do not include coll, please consider using text object.
