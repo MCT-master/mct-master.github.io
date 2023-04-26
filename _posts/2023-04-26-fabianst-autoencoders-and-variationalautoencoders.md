@@ -1,15 +1,15 @@
 ---
 layout: post
 title:  "Spotlight: AutoEncoders and Variational AutoEncoders"
-date:   2023-04-18 14:47:42 +0200
+date:   2023-04-26 14:47:42 +0200
 categories: Machine Learning
 author: Fabian Stordalen, Alex Wastnidge, Kristian Eicke
-image: /assets/image/2018_08_01_username_postthumbnail.jpg
+image: /assets/image/2023_04_26_fabianst_perceptron.jpg
 excerpt: "A simple generative algorithm"
 keywords: machine learning, deep learning
 ---
 
-#Spotlight: AutoEncoders and Variational AutoEncoders
+# Spotlight: AutoEncoders and Variational AutoEncoders
 Since we all prayed to the Autoencoder god this semester we thought about giving you an introduction to the architecture and capabilities of autoencoders and their sibling the variational autoencoder. Especially VAE's have become extremely popular over the last years, capable of creating [entirely non-existing human faces](https://www.thispersondoesnotexist.com/) and purely synthetic music.
 
 ## To generate or not to generate
@@ -36,6 +36,9 @@ A variational autoencoder is very similar to a traditional autoencoder but with 
 In a variational autoencoder the encoded data does not get mapped to a fixed point but to a probability distribution. This is were the true generative capability of a VAE lies. When this distribution is sampled and ran through the decoder it will generate a new sample resembling the input data, or anything you specify that lies in-between. Simplified, if you have a dataset that contains flute and guitar recordings, with sampling the latent space correctly you could essentially create an instrument that sounds a bit like a flute and a bit like a guitar. 
 
 To do this the model needs it's own specialized loss function. The most common way of calculating loss in a VAE is by combining the reconstruction loss and [Kullback-Leibler divergence](https://towardsdatascience.com/understanding-kl-divergence-f3ddc8dff254). This divergence, which is also called KL divergence, essentially computes the "divergence" between two probability distributions (i.e., how much they look not like each other).
+
+## Conclusion
+In summary, while both AEs and VAEs are neural networks that can be used for data compression and dimensionality reduction, VAEs go one step further by explicitly modeling the probability distribution of the latent space. This allows VAEs to generate new data samples from the learned distribution, making them particularly useful for generative tasks.
 ## Sources 
 
 Dhinakaran, Aparna. 2023. “Understanding KL Divergence.” Medium. March 22, 2023. https://towardsdatascience.com/understanding-kl-divergence-f3ddc8dff254.
