@@ -41,7 +41,7 @@ After extracting features it is important to further preprocess data before feed
 Then, I initialize k-means clustering algorithm with four clusters and a random state to fit the algorithm to the scaled features and generate integer labels for each data point. After selecting a specific cluster and retrieving the indices of the corresponding audio files we can display and playback the clustered audio files, showing their similarities.
 
 <figure style="text-align: center;">
-   <img src="/assets/image/2024_04_26_ninojak_features.png" alt="Alternate Text" title="Image Title" width="auto" />
+   <img src="/assets/image/2023_04_26_ninojak_features.png" alt="Alternate Text" title="Image Title" width="auto" />
    <figcaption style="font-style: italic;">feature clusters</figcaption>
 </figure>
 
@@ -61,7 +61,6 @@ All three metrics show that clusters do not contain data points that belong only
 
 ## Sources
 
-[MIR]https://colab.research.google.com/github/stevetjoa/musicinformationretrieval.com/blob/gh-pages/why_mir.ipynb
+[MIR](https://colab.research.google.com/github/stevetjoa/musicinformationretrieval.com/blob/gh-pages/why_mir.ipynb)
 
-[Feature extraction and Clustering]
-https://medium.com/heuristics/audio-signal-feature-extraction-and-clustering-935319d2225
+[Feature extraction and Clustering](https://medium.com/heuristicsaudio-signal-feature-extraction-and-clustering-935319d2225)
