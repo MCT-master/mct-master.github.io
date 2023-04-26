@@ -44,5 +44,5 @@ To conclude, Singing Voice Synthesis offers both opportunities and challenges in
 
 
 
-"One Note Samba" by SKYGGE using artificial intelligence tool Flow-Machines 
+["One Note Samba" by SKYGGE using artificial intelligence tool Flow-Machines] 
 https://www.youtube.com/watch?v=omdrHARDPyI&ab_channel=SKYGGEM
