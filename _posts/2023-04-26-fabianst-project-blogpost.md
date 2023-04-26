@@ -39,7 +39,7 @@ I mentioned I trained my model using mel spectrograms, but what it is? A mel spe
 
  Variational AutoEncoders (VAEs) are a type of artificial neural network that can learn to represent high-dimensional data in a lower-dimensional space. They work by encoding input data into a lower-dimensional latent space, and then decoding it back into the original space.
 
-VAEs use a probabilistic approach to encoding and decoding, allowing them to generate new data that resembles the input data. This makes them ideal for generative purposes. If you want to learn more about AEs and VAEs check out [this post]()!
+VAEs use a probabilistic approach to encoding and decoding, allowing them to generate new data that resembles the input data. This makes them ideal for generative purposes. If you want to learn more about AEs and VAEs check out [this post](https://mct-master.github.io/machine-learning/2023/04/26/fabianst-autoencoders-and-variationalautoencoders.html)!
 
 ## VAmEn
 
@@ -72,6 +72,6 @@ Reducible, dir. 2020. The Fast Fourier Transform (FFT): Most Ingenious Algorithm
 
 Roberts, Leland. 2022. “Understanding the Mel Spectrogram.” Analytics Vidhya (blog). August 17, 2022. https://medium.com/analytics-vidhya/understanding-the-mel-spectrogram-fca2afa2ce53.
 
-“The Aphex Face | Bastwood.” n.d. Accessed April 24, 2023. http://www.bastwood.com/?page_id=10.
+Bastwood, “The Aphex Face .” n.d. Accessed April 24, 2023. http://www.bastwood.com/?page_id=10.
 
 “Variational Autoencoder.” 2023. In Wikipedia. https://en.wikipedia.org/w/index.php?title=Variational_autoencoder&oldid=1148033201.
