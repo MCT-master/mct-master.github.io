@@ -8,10 +8,12 @@ image: https://www.uio.no/english/studies/programmes/mct-master/blog/assets/imag
 keywords: Machine Learning, Genarative music
 excerpt: "Deep Bach is an artificial intelligence that composes like Bach."
 ---
-
 # Deep Bach
-  In this post we will try to introduce the Deep Bach! Hope you enjoy!
- # Introduction
+
+In this post we will try to introduce the Deep Bach! Hope you enjoy!
+ 
+ 
+# Introduction
  
  
 DeepBach is an artificial intelligence that composes like Bach.
