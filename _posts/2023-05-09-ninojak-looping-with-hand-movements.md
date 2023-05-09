@@ -4,7 +4,7 @@ title:  "Simple yet unique way of playing music"
 date:   2023-05-09 11:09:00 +0200
 categories: motion-capture
 author: Nino Jakeli
-image: /assets/image/2023_05_09_ninojak_hand.jpg
+image: /assets/image/2023_05_09_ninojak_front.jpg
 excerpt: "Gestures can be more intuitive to play around with"
 keywords: motion capture, osc, sampling, gestures, sound control
 ---
