@@ -15,6 +15,12 @@ For  this project I wanted to explore the use of IMU motion data for techniques 
 
 Here, eight processes/techniques were emulated in Pure Data and their parameters opened to IMU motion  data.  These are listed below.   There is also a performance video of myself using all eight processes in a complete system.
 
+<figure style="float: none">
+   <img
+      src="/assets/image/2023_05_09_alexanjw_pd_patch.png" width="60%" />
+   <figcaption>Some of the motion controlled "modules" in the performance system </figcaption>
+</figure>
+
 For control, the IMU sensor used was the one built into my smartphone.  It was then attached to my wrist using an armband normally intended for runners.  I chose to attach the sensor to the  wrist due to high range of potential movement afforded by that placement.
 
 
