@@ -17,13 +17,13 @@ keywords: motion capture, pure data, motive, python, osc
 In this post I am exploring the exciting intersection of vocals and motion by developing a system that allows performers to translate their physical movements into sonic processes. I've designed a performance system that allows performers to control and manipulate their voice  in real time using their body movements. By using their bodies as instruments, performers are able to create music that is both highly personalized and deeply expressive.
 
 # Motion Tracking
-To capture the motion of the body, I used the OptiTrack system in the Portal and used Motive to capture the position of markers placed on the body. I then sent the positions of the markers and rigid bodies to my computer using NatNet, which a network protocol for streaming motion capture data. I used 21 markers, 18 of them constituting 6 rigid bodies on OptiTrack's plastic rigid bodies. I placed the rigid bodies on the head, hands and feet, and 3 standalone markers along the spine.
+To capture the motion of the body, I used the OptiTrack system in the Portal and used Motive to capture the position of markers placed on the body. I then sent the positions of the markers and rigid bodies to my computer using NatNet, which a network protocol for streaming motion capture data. I used 21 markers, 18 of them making up 6 rigid bodies on OptiTrack's plastic rigid bodies. I placed the rigid bodies on the head, hands and feet, and 3 standalone markers along the spine.
 
 One of the challenges in using marker-based motion capture systems is the need to identify each marker uniquely. In some systems, markers come with preassigned IDs, which makes tracking them easier. However, in other systems, the markers do not come with IDs, and the tracking software has to assign unique IDs to each marker. This can be challenging because the tracking software needs to distinguish between markers that are very close together or even touching. In some cases, the markers can move in and out of each other's range, making it difficult to assign a consistent ID to each marker.
 
 To overcome this challenge, we can use various methods to assign IDs to markers. One method is to place the markers in specific patterns that the tracking software can recognize, such as placing four markers in a square shape or three markers in a triangle shape. This is how I use rigid bodies. They are automatically detected and their centroids are calculated and sent over the network with unique IDs.
 
-However, for the spine, I used a marker-based motion capture system that did not come with preassigned IDs. To assign IDs to each marker, I developed a custom algorithm in Python that calculated the distance between each marker and the previous positions. Based on this calculation, I obtained a matrix of distances. I matched each marker to closest marker in based on this matrix. This allowed me to accurately track the movement of each marker and use the data for my research as long as I launch the system standing on T pose.
+However in Motive, standalone markers didn't come with preassigned IDs so it was a challenge to track the spine markers. To address this, I developed a custom algorithm in Python that is, in every packet reveiced, calculating the distance between each marker and the previous positions. Based on this calculation, I obtained a matrix of distances. I matched each marker to the closest one in this matrix to accurately track the movement of each marker and use the data for my research as long as I launch the system standing in T pose.
 
 <figure style="float: none">
    <img
@@ -33,7 +33,7 @@ However, for the spine, I used a marker-based motion capture system that did not
 
 # Audio Processing
 
-Here is the motions that I used and the correspioinding audio processing operation.
+Here are the motions that I used and the correspioinding audio processing operation.
 
 |     Motion                                 |     Audio   processing                                     |
 |--------------------------------------------|------------------------------------------------------------|
@@ -45,9 +45,7 @@ Here is the motions that I used and the correspioinding audio processing operati
 |     Left foot   lift/press                 |     Boolean control for clearing the loop                  |
 |     Right   foot lift/press                |     Boolean control for writing in the loop                |
 
-One of the key features of this system is its flexibility in motion and freedom to move in the room as desired. This allows for a wide range of musical expressions.
-
-The resultant stereo audio is routed to 6-speaker array forming a 225°-sphere suspended from the ceiling, with the user's sitting position being the center of the sphere. The following shows how the speaker is placed with the user.
+The resultant stereo audio is routed to 6-speaker array forming a 225°-sphere suspended from the ceiling, with the user's sitting position being the center of the sphere. The following shows how the speakers are placed around the user.
 
 <figure style="float: none">
    <img
@@ -56,7 +54,7 @@ The resultant stereo audio is routed to 6-speaker array forming a 225°-sphere s
 </figure>
 
 # Evaluation
-I sat down with two talented classmates and a close friend to put my system to the test. I wanted to hear firsthand how the technology impacted their body awareness and musical abilities. The group consisted of a singer, a violinist, and a user experience researcher. They individually tested the system after my general introduction to the genreal purpose and how to use.
+I sat down with two talented classmates and a close friend to put my system to the test. I wanted to hear firsthand to what extent the implemented system was succesful? The group consisted of a singer, a violinist, and a user experience researcher. They individually tested the system after my general introduction to the genreal purpose and how to use.
 
 <figure style="float: none">
    <img
