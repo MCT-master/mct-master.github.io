@@ -11,7 +11,7 @@ keywords: motion capture, pure data, motive, python, osc
 
 <figure style="float: none">
    <img
-      src="/assets/image/2023_05_09_ahmetem_vocal_mocap_banner.jpg" width="50%" />
+      src="/assets/image/2023_05_09_ahmetem_vocal_mocap_cover.jpg" width="50%" />
 </figure>
 
 In this post I am exploring the exciting intersection of vocals and motion by developing a system that allows performers to translate their physical movements into sonic processes. I've designed a performance system that allows performers to control and manipulate their voice  in real time using their body movements. By using their bodies as instruments, performers are able to create music that is both highly personalized and deeply expressive.
