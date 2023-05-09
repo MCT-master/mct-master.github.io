@@ -4,7 +4,7 @@ title:  "Generative Music with IMU data"
 date:   2023-05-09 11:23:12 +0200
 categories: motion-capture
 author: Alexander Wastnidge
-image: assets\image\2023_05_08_fabianst_post_cover_image.png
+image: /assets/image/2023_05_09_alexanjw_pd_patch.png
 excerpt: "A fun and creative way of sampling"
 keywords: motion capture, pure data, IMU, osc
 ---
