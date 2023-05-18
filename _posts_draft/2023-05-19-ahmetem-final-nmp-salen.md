@@ -25,7 +25,7 @@ Douglas Van Nort describes the performance as:
 >"In the world of physics, dispersion describes a phenomenon in which the rate of propagation of a wave in a medium, its phase velocity, is dependent on its frequency. This can be seen in light, sound, gravity waves, etc. Its a property of telecommunications signals, including the pulses of light in optical fibre cables, describing how the signal broadens and spreads out as it moves across the channel. Dispersion therefore is inherent in the medium that more-and-more binds us these days, in the movements of light pulses that transports our attention, and our listening, around the globe. A beautiful consequence of dispersion is a change in the angle of refraction of different frequencies, leading to a prismatic opening up of a full colour spectrum from incoming light. This ability to broaden out as signals propagate through the network reflects a much wider expansion of distributed listening and sounding that is made possible in the context of telematic musicking. It occurred to me recently that, as of early 2023 I’ve engaged this medium now for 20 years, with an ear towards exploring the myriad ways that the shared real/virtual and nowhere/everywhere site of performance can act as both a point of convergence towards a singular locus of performative attention -- yet also a dispersive prism, reflecting individual voices and the preservation of creative agencies of every performer."
 
 ## Pieces
-__*Tuning Meditation* by Pauline Oliveros__ An improvisational piece where every performer picks a pitch not exists at that point and plays that pitch with sustain of a breath time. 
+__*Tuning Meditation* by Pauline Oliveros__ An improvisational piece where every performer picks a pitch not represented at that point and plays that pitch with sustain of a breath time. 
 
 __*Dispersionology* by Doug Van Nort__
 An improvisational piece whereby all locations and performers were directed/conducted/cued by Doug Van Nort.  This was either via a system of gestures which referred to a location or grouping of musicians (layers), their volume, tone vs. noise, which musical "palette"  they should respond to, as well as "sound painting", whereby musicians freely interpreted Van Norts physical actions.
@@ -37,7 +37,7 @@ An improvisational piece whereby all musicians responded to a variety of randomi
 
 We started planning 3 weeks in advance to get ready for this big event.
 
-In our first planning session we tried to draw an outline for our part in the concert, and our composition. We roughly decided on the performers and the instruments. We also discussed the concept of out composition, and room for other musicians. However going forward we decided to not to create a composition and only perform in the concert with other people.
+In our first planning session we tried to draw an outline for our part in the concert, and our composition. We roughly decided on the performers and the instruments. We also discussed the various compositional concepts for our own piece we wanted to perform, with room for other musicians. Sadly, since we were significantly less people in the end, we decided to not to include a composition and only perform in the concert with other people.
 
 We were also involved in a rehearsal/technical test with the other participants of the event on the Sunday evening prior, where we were able to troubleshoot audio and video routing, as well as learn in greater detail the artistic intensions, the gestures involved, and the musical palettes of the performance.
 
@@ -52,7 +52,7 @@ We performed with variety of instruments and techniques covering a wide spectral
 | Emin             | Ney Flute           |
 | Alex             | Electronics         |
 | Nino             | Vocal with effects  |
-| Kristian         | Acoustic Guitar |
+| Kristian         | Experimental Acoustic Guitar |
 | Kristin Nordeval | Vocals              |
 
 Fabian's __No-input mixer__ is a standard mixer where the outputs are connected to the inputs creating a feedback loop which is then controlled by the mixer's controls and several guitar pedals.
@@ -93,6 +93,8 @@ During the concert, all the participants met in a Zoom call to follow Douglas' c
 To follow the conductor and the live score, we placed two monitors on the stage in front of us: one for Douglas' video, one for the live score page. These two screens were connected to a laptop. We also projected both on the projection screen on the stage for the audience, which was connected to the stationary computer in the Salen.
 
 # Latency Measurements
+
+Measurements have been done beforehand on two different jacktrip servers with a loopback. We used the same setup we had been utilizing for other [concerts](https://github.com/MCT-master/portal-wiki/wiki/2023-Mid-Semester-Networked-Music-Performance-in-Salen). Server 1 had a Roundtrip latency time of 188ms whereas server 2 came in on 261ms RTT. High latency times were expected and did not really affect performance since the concert and musical pieces were planned to be a latency-accepting. The final concert happened over server 1 with a global sampling rate of 44.1 kHz and a buffersize of 256 ms.
 
 # Reflections
 
