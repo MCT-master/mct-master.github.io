@@ -39,7 +39,7 @@ We started planning 3 weeks in advance to get ready for this big event.
 
 In our first planning session we tried to draw an outline for our part in the concert, and our composition. We roughly decided on the performers and the instruments. We also discussed the concept of out composition, and room for other musicians. However going forward we decided to not to create a composition and only perform in the concert with other people.
 
-We were also involved in a rehearsal/technical test with the other participants of the event on the Sunday evening prior, where we were able to troubleshoot audio and video routing, and learn in greater detail the artistic intensions, the gestures involved, and the musical palettes of the performance.
+We were also involved in a rehearsal/technical test with the other participants of the event on the Sunday evening prior, where we were able to troubleshoot audio and video routing, as well as learn in greater detail the artistic intensions, the gestures involved, and the musical palettes of the performance.
 
 ## Performers and Instruments
 
@@ -52,7 +52,7 @@ We performed with variety of instruments and techniques covering a wide spectral
 | Emin             | Ney Flute           |
 | Alex             | Electronics         |
 | Nino             | Vocal with effects  |
-| Kristian         | Experimental Guitar |
+| Kristian         | Acoustic Guitar |
 | Kristin Nordeval | Vocals              |
 
 Fabian's __No-input mixer__ is a standard mixer where the outputs are connected to the inputs creating a feedback loop which is then controlled by the mixer's controls and several guitar pedals.
@@ -61,12 +61,17 @@ __Accordion__ can play both melody and bass section in a composition. For the pa
 
 __Ney__ is a _fretless_ wooden flute capable of creating both noisy and tonal sound, which enables an experimental space for its performer. With his Ney, Emin played melodic lines and noise effects during the concert.
 
-Alex played a small Eurorack modular synthesiser system through a delay and reverb pedal.
+Alex contributed __Electronics__ playing a small Eurorack modular synthesiser through delay and reverb pedals.
 
 Nino's __Vocals__ ...
 
-Kristian's __Guitar__ ...
+Kristian explored unorthodox techniques for acoustic __Guitar__, laying the instrument flat, using a bottleneck to slide along the strings, tap the body of the instrument etc.  This was run through an effects chain in Ableton Live.
 
+<<<<<<< Updated upstream
+=======
+We were fortunate enough to be joined by Kristin Nordeval who provided __Vocals__ 
+
+>>>>>>> Stashed changes
 <figure style="float: none">
    <img
       src="/assets/image/2023_05_18_akarcaal_douglas_rehearsal2.jpg" width="100%" />
@@ -96,7 +101,7 @@ To follow the conductor and the live score, we placed two monitors on the stage 
 
 # Reflections
 
-Despite this mode of improvisational performance being outside the experience of many of the class, it was both technically and musically executed to a standard we were pleased with. Our participation in the event went smoothly without any technical mishaps.
+Despite this mode of improvisational performance being outside the experience of many in the class, it was both technically and musically executed to a standard we were pleased with. Our participation in the event went smoothly without any technical mishaps.
 
 Watch the performance on YouTube here:
 
