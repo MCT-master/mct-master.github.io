@@ -4,7 +4,7 @@ title: "Music Between Salen and the World"
 date: 2023-05-18
 categories: portal
 author: Jack Hardwick, Alexander Wastnidge, Masoud Niknafs, Emin Memis, Nino Jakeli, Henrik Sveen, Kristian Eicke, Fabian Stordalen, Aysima Karcaaltincaba
-image: /assets/image/2023_05_18_akarcaal_douglas_performance_poster.jpg
+image: "/assets/image/2023_05_19_ninojak_concert_poster.jpg"
 keywords: portal, audio, latency, concert, jacktrip
 excerpt: "We played in a global NMP concert."
 ---
