@@ -15,7 +15,7 @@ excerpt: "We played in a global NMP concert."
    <figcaption>For the third piece of the performance, we setup a live sheet on the stage and followed it</figcaption>
 </figure>
 
-For our final network music performance **Dispersionology and Other Tales** we have performed with many musicians in several countries in a performance conducted by Douglas Van Nort.
+For our final network music performance **Dispersionology and Other Tales** we  performed with musicians in several countries in a performance conducted by composer Douglas Van Nort.
 
 # Concept
 
@@ -48,7 +48,7 @@ We performed with variety of instruments and techniques covering a wide spectral
 | Kristian         | Experimental Guitar |
 | Kristin Nordeval | Clean Vocals        |
 
-Fabian's __No-input mixer__ ...
+Fabian's __No-input mixer__ is a standard mixer where the outputs are connected to the inputs creating a feedback loop which is then controlled by the mixer's controls and several guitar pedals.
 
 __Accordion__ can play both melody and bass section in a composition. For the parts lead by Douglas, accordion had different roles. While playing a musical composition like phone ringing, accordion contributed with the keyboard part and played notes in sequence. For some other parts it was better for accordion to bring sustain sounds with high or low pitches depending on the character of the composition.
 
@@ -95,4 +95,4 @@ To follow the conductor and the live score, we placed two monitors on the stage 
 
 Watch the youtube stream of the performance here:
 
-<iframe width="720" height="405" src="https://www.youtube.com/watch?v=poHxcDaj628" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/Iqycm1G2M5A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
