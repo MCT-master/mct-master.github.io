@@ -1,24 +1,18 @@
 ---
 layout: post
 title: "Music Between Salen and the World"
-date: 2023-05-18
+date: 2023-05-18 21:23:12 +0200
 categories: portal
 author: Jack Hardwick, Alexander Wastnidge, Masoud Niknafs, Emin Memis, Nino Jakeli, Henrik Sveen, Kristian Eicke, Fabian Stordalen, Aysima Karcaaltincaba
 image: "/assets/image/2023_05_19_ninojak_concert_poster.jpg"
 keywords: portal, audio, latency, concert, jacktrip
-excerpt: "We played in a global NMP concert."
+excerpt: "We played in a global NMP concert. Check out our experiences."
 ---
 
-<figure style="float: none">
-   <img
-      src="/assets/image/2023_05_18_akarcaal_douglas_performance.jpg" width="100%" />
-   <figcaption>For the third piece of the performance, we setup a live sheet on the stage and followed it</figcaption>
-</figure>
-
-For our final network music performance **Dispersionology and Other Tales**, we performed with musicians in several countries in a performance conducted by composer [Douglas Van Nort](https://dvntsea.com/).
-
+For our final network music performance **Dispersionology and Other Tales**, we performed with musicians in several countries in a performance conducted by composer [Douglas Van Nort](https://dvntsea.com/). The concert on our side happened in Salen, our favourite in-house auditorium.
+ 
 # Concept
-
+ 
 For this telematic experience, as MCT Students, we contributed an improvisational performance conducted in the United States and performed in more than four countries.
 
 Douglas Van Nort describes the performance as: 
@@ -40,6 +34,7 @@ We started planning 3 weeks in advance to get ready for this big event.
 In our first planning session we tried to draw an outline for our part in the concert, and our composition. We roughly decided on the performers and the instruments. We also discussed the various compositional concepts for our own piece we wanted to perform, with room for other musicians. Sadly, since we were significantly less people in the end, we decided to not to include a composition and only perform in the concert with other people.
 
 We were also involved in a rehearsal/technical test with the other participants of the event on the Sunday evening prior, where we were able to troubleshoot audio and video routing, as well as learn in greater detail the artistic intensions, the gestures involved, and the musical palettes of the performance.
+
 
 ## Performers and Instruments
 
@@ -63,7 +58,7 @@ __Ney__ is a _fretless_ wooden flute capable of creating both noisy and tonal so
 
 Alex contributed __Electronics__ playing a small Eurorack modular synthesiser through delay and reverb pedals.
 
-Nino experimented with improvisational vocal performance. She processed the sound with various modulation effects with a kaleidoscopic vibrato that created strong pitch variations.
+Nino experimented with improvisational __vocal__ performance. She processed the sound with various modulation effects with a kaleidoscopic vibrato that created strong pitch variations.
 
 Kristin as a soprano soloist, improvised with the group in both classical and avant-garde styles.
 
@@ -72,12 +67,12 @@ Kristian explored unorthodox techniques for acoustic __Guitar__, laying the inst
 <figure style="float: none">
    <img
       src="/assets/image/2023_05_18_akarcaal_douglas_rehearsal2.jpg" width="100%" />
-   <figcaption>Us discussing about the palettes</figcaption>
+   <figcaption>Us discussing the different sound palettes that were a conceptual characteristic of Douglas Van Nort's composition</figcaption>
 </figure>
 
 # Getting Technical
 
-In this concert, we transmitted audio using a network music performance software, [JackTrip](https://www.jacktrip.org/). We connected to the network with one of the [MCT's portable LoLa kits](https://github.com/MCT-master/NMP-Portable-Kits/wiki).
+In this concert, we transmitted audio using a network music performance software, [JackTrip](https://www.jacktrip.org/). We connected to a jacktrip server set up by the team around Douglas Van Nort with one of the [MCT's portable LoLa kits](https://github.com/MCT-master/NMP-Portable-Kits/wiki).
 
 ## Audio Engineering
 Audio routing for this project meant allowing for a FOH stereo mix for our local audience, three foldback mixes for Oslo-based musicians, as well as sending a stereo sub-mix of our instruments to the Jacktrip server. The plot below shows the routing used.
@@ -93,6 +88,12 @@ Audio routing for this project meant allowing for a FOH stereo mix for our local
 During the concert, all the participants met in a Zoom call to follow Douglas' conducting and interact with other musicians. We used the Logitech PTZ meeting camera in Salen to share the video of the entire stage.
 
 To follow the conductor and the live score, we placed two monitors on the stage in front of us: one for Douglas' video, one for the live score page. These two screens were connected to a laptop. We also projected both on the projection screen on the stage for the audience, which was connected to the stationary computer in the Salen.
+
+<figure style="float: none">
+   <img
+      src="/assets/image/2023_05_18_akarcaal_douglas_performance.jpg" width="100%" />
+   <figcaption>For the third piece of the performance, we setup a live sheet on the stage and followed it</figcaption>
+</figure>
 
 # Latency Measurements
 
