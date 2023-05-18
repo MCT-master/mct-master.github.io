@@ -10,7 +10,7 @@ excerpt: "We played in a global NMP concert. Check out our experiences."
 ---
 
 For our final network music performance **Dispersionology and Other Tales**, we performed with musicians in several countries in a performance conducted by composer [Douglas Van Nort](https://dvntsea.com/). The concert on our side happened in Salen, our favourite in-house auditorium.
-
+ 
 # Concept
  
 For this telematic experience, as MCT Students, we contributed an improvisational performance conducted in the United States and performed in more than four countries.
