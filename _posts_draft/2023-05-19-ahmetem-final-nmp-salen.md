@@ -67,11 +67,6 @@ Nino's __Vocals__ ...
 
 Kristian explored unorthodox techniques for acoustic __Guitar__, laying the instrument flat, using a bottleneck to slide along the strings, tap the body of the instrument etc.  This was run through an effects chain in Ableton Live.
 
-<<<<<<< Updated upstream
-=======
-We were fortunate enough to be joined by Kristin Nordeval who provided __Vocals__ 
-
->>>>>>> Stashed changes
 <figure style="float: none">
    <img
       src="/assets/image/2023_05_18_akarcaal_douglas_rehearsal2.jpg" width="100%" />
