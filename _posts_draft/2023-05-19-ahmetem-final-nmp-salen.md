@@ -25,7 +25,7 @@ Douglas Van Nort describes the performance as:
 >"In the world of physics, dispersion describes a phenomenon in which the rate of propagation of a wave in a medium, its phase velocity, is dependent on its frequency. This can be seen in light, sound, gravity waves, etc. Its a property of telecommunications signals, including the pulses of light in optical fibre cables, describing how the signal broadens and spreads out as it moves across the channel. Dispersion therefore is inherent in the medium that more-and-more binds us these days, in the movements of light pulses that transports our attention, and our listening, around the globe. A beautiful consequence of dispersion is a change in the angle of refraction of different frequencies, leading to a prismatic opening up of a full colour spectrum from incoming light. This ability to broaden out as signals propagate through the network reflects a much wider expansion of distributed listening and sounding that is made possible in the context of telematic musicking. It occurred to me recently that, as of early 2023 I’ve engaged this medium now for 20 years, with an ear towards exploring the myriad ways that the shared real/virtual and nowhere/everywhere site of performance can act as both a point of convergence towards a singular locus of performative attention -- yet also a dispersive prism, reflecting individual voices and the preservation of creative agencies of every performer."
 
 ## Pieces
-__*Tuning Meditation* by Pauline Oliveros__
+__*Tuning Meditation* by Pauline Oliveros__ An improvisational piece where every performer picks a pitch not exists at that point and plays that pitch with sustain of a breath time. 
 
 __*Dispersionology* by Doug Van Nort__
 An improvisational piece whereby all locations and performers were directed/conducted/cued by Doug Van Nort.  This was either via a system of gestures which referred to a location or grouping of musicians (layers), their volume, tone vs. noise, which musical "palette"  they should respond to, as well as "sound painting", whereby musicians freely interpreted Van Norts physical actions.
@@ -66,8 +66,6 @@ Alex played a small Eurorack modular synthesiser system through a delay and reve
 Nino's __Vocals__ ...
 
 Kristian's __Guitar__ ...
-
-Kristin Nordeval's __Vocals__ ...
 
 <figure style="float: none">
    <img
