@@ -33,13 +33,7 @@ The LOLA network worked flawlessly during both the soundcheck day on Monday and 
 
 You can find a more detailed technical specification of the setup we used on the wiki page [here](https://github.com/MCT-master/portal-wiki/wiki/2023-Mid-Semester-Networked-Music-Performance-in-RITMO).
 
-# Stage Plot
 
-<figure style="float: none">
-   <img
-      src="/assets/image/2023_03_13_jackeh_RITMO_stage_plot.png" width="75%" />
-   <figcaption>The stage plot at RITMO.</figcaption>
-</figure>
 
 # Watch the Performance
 
@@ -55,6 +49,6 @@ All the RITMO performers found that they missed the physical aspect of performin
 
 The RITMO performers also identified that performing using headphones felt unnatural and took away from the live feeling of the performance, instead feeling more like a studio or practice session. We chose to use headphones for two main reasons: to minimise bleed into the trumpet and guitar microphones, and because the speakers at our disposal were not large enough for monitoring over loud brass instruments. It is therefore possible that we could have relied on monitoring through wedge speakers, but this might have caused issues with bleed and feedback.
 
-# Conclusion
+# Summary
 
 According to some reflections, the capability of NMP performance is still unknown, even among younger generations. Furthermore, many conceptions are the result of cultivated expectations. For example, our young performers generally agreed that rhythmic music with repetitive patterns is easier to perform telematically. However, we are aware that this is not always the case. This may indicate that some kind of familiarization and education is required. Perhaps physical and virtual communication courses will be offered in schools in the near future!
