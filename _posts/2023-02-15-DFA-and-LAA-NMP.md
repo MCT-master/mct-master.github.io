@@ -65,19 +65,19 @@ Here is the performance using the DFA configuration.  The audio is recorded from
 ## Latency Accepting Approach
 For the LAA (Latency Accepting Approach) Fabian and Henrik used SonoBus over a wifi connection to create a latency-rich environment. Roundtrip latency averaged at just above 200ms, giving a good foundation to try LAA.
 
+
+
 <figure style="float: none">
    <img
-      src="https://www.uio.no/english/studies/programmes/mct-master/blog/assets/image/2023_02_16_fabianst_latency_sonobus.png?alt=original"
-      style="max-height:600px; width:auto;" />
-      <figcaption>Sonobus settings used for LAA approach</figcaption>
-<figure>
-
+      src="https://www.uio.no/english/studies/programmes/mct-master/blog/assets/image/2023_02_16_fabianst_latency_sonobus.png?alt=original" />
+   <figcaption>Sonobus settings</figcaption>
+</figure>
 
 As noted by Carôt and Werner, a latency accepting approach, lends itself best to ambient music with slow movements giving performers time to react to each other.  As such, this is what was attempted here.  A video of the performance is  below:
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/vyFz8AhbwlE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
-# Conclusion
+## Conclusion
 
 DFA and LAA lend themselves well to different forms of telematic musiking in latency-rich environments.  The more percussive music style was appropriate for the DFA while LAA was better suited to a beatless ambient approach.
 
@@ -87,6 +87,6 @@ In practice, despite  very high latency and having a lot of audio packet drops, 
 
 While neither of these approaches represent a generally applicable solution, they do offer technical and creative routes to allow for effect music performance in latency-rich environments.  While DFA represents a route for more conventional, rhythmic music, LAA forces the musicians to work in an unconventional manner.  This has the potential to open them up to greater creativity and different, new modes to work within its limitations.
 
-# References
+## References
 
 [1] A. Carôt and C. Werner, ‘Fundamentals and principles of musical telepresence’, *Journal of Science and Technology of the Arts*, pp. 26–37, Jan. 2009, doi: 10.7559/CITARJ.V1I1.6.
