@@ -27,7 +27,7 @@ For our third telematic performance we had the pleasure of teaming up with stude
 #### Technical Setup
 For setting up the connection between two locations, we relied on our previous experiences and used Lola Software and two NMP kits which were proven to provide low latency connection.
 
-One NMP kit was set up in Salen while the other one was set up at RITMO. In Salen, behind the audience, we set up a technical area for the Lola computer, live streaming monitors and mixer so that all the team was positioned in a way to see everything and act when needed. Our field-tested technical setup approach worked again well this time.
+One NMP kit was set up in Salen, our main performance space located at the University of Oslo (UiO) while the other one was set up at RITMO, the Centre for Interdisciplinary Studies in Rhythm, Time and Motion at UiO. In Salen, behind the audience, we set up a technical area for the Lola computer, live streaming monitors and mixer so that all the team was positioned in a way to see everything and act when needed. Our field-tested technical setup approach worked again well this time.
 
 <figure style="float: none">
    <img src="/assets/image/2023_03_12_henrikhs_lol.jpg" alt="mage not showing? Will try to fix it." title="Image Title" width="auto" />
