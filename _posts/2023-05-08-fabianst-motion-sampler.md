@@ -4,7 +4,7 @@ title:  "Motion Controlled Sampler in Ableton"
 date:   2023-05-08 10:13:42 +0200
 categories: motion-capture
 author: Fabian Stordalen
-image: assets\image\2023_05_08_fabianst_post_cover_image.png
+image: /assets/image/2023_05_08_fabianst_post_cover_image.png
 excerpt: "A fun and creative way of sampling"
 keywords: motion capture, max msp, IMU, osc
 ---
