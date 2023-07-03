@@ -4,7 +4,7 @@ title:  "A Body Instrument: Exploring the Intersection of Voice and Motion"
 date:   2023-05-09 12:14:22 +0200
 categories: motion-capture
 author: Emin Memis
-image: assets\image\2023_05_09_ahmetem_vocal_mocap_cover.jpg
+image: /assets/image/2023_05_09_ahmetem_vocal_mocap_cover.jpg
 excerpt: "Manipulate your voice with your body"
 keywords: motion capture, pure data, motive, python, osc
 ---
