@@ -3,7 +3,7 @@ layout: post
 title:  "Spotlight: AutoEncoders and Variational AutoEncoders"
 date:   2023-04-26 10:13:42 +0200
 categories: machine-learning
-author: Fabian Stordalen, Alex Wastnidge, Kristian Eicke
+author: Fabian Stordalen, Alexander Wastnidge, Kristian Eicke
 image: /assets/image/2023_04_26_fabianst_perceptron.jpg
 excerpt: "A simple generative algorithm"
 keywords: machine learning, deep learning

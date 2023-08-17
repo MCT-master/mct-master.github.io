@@ -32,7 +32,7 @@ As a whole, we see Team C as having a set of complimentary skillsets.  While Ays
 
 Lets hear more about who we are!
 
-## Alex Wastnidge
+## Alexander Wastnidge
 
 <figure style="float: none">
    <img
@@ -42,7 +42,7 @@ Lets hear more about who we are!
 </figure>
 
 
-My name is Alex Wastnidge and my background is in Music Production, Audio Engineering and Education.  As a music producer I have been a signed artist under the moniker “From Beyond” since 2018.  I have also been involved in creating music for picture, AV and other projects.  As an audio engineer I have been a freelance recording, mixing and mastering engineer for music and online content working mostly with independent artists, labels, podcasters and film makers.
+My name is Alexander Wastnidge and my background is in Music Production, Audio Engineering and Education.  As a music producer I have been a signed artist under the moniker “From Beyond” since 2018.  I have also been involved in creating music for picture, AV and other projects.  As an audio engineer I have been a freelance recording, mixing and mastering engineer for music and online content working mostly with independent artists, labels, podcasters and film makers.
 
 I also have seven year’s experience of working in creative education teaching everything from DAW music production, audio engineering and film sound.  The intersections of personal creativity with the wider spheres of technology and society is an area of great interest to me which I look forward to exploring in this course.
 
