@@ -92,6 +92,16 @@ On this page you can find information about current and past students. Directly 
     <a href="/authors/masoudniknafs.html">Masoud Niknafs</a>
     <a href="/authors/ninojakeli.html">Nino Jakeli</a>
   </details>
+
+  <h2>2023-2025</h2>
+  <details>
+    <summary><h4>UiO, Oslo</h4></summary>
+    <a href="/authors/julianabigelow.html">Juliana Bigelow</a>
+    <a href="/authors/kareninajuarez.html">Karenina Juarez</a>
+    <a href="/authors/tomoldfield.html">Tom Oldfield</a>
+
+  </details>
+
 </div>
 
 # Introduction blog posts
