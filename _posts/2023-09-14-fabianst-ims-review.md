@@ -9,9 +9,9 @@ keywords: ims, hci, guitar, interactive music systems, magpick
 excerpt: "A deeper dive into the Magpick"
 ---
 
-#Controling Guitar Signals Using a Pick?
+# Controling Guitar Signals Using a Pick?
 
-##Introduction
+## Introduction
 
 There are many ways of playing and expressing yourself using the guitar. Either through the use of [extended techniques](https://www.youtube.com/watch?v=UJZvc24IaD4&list=PLk9q3gCxIzjcmDlTBtBw-wMcErt6KqdYc&index=4), [effect pedals](https://www.youtube.com/watch?v=rYaloTRzVtc), or even [augmented guitars](https://www.youtube.com/watch?v=WXhh9hSlyHs). If you want to control and manipulate the signal coming from the guitar you're generally forced to  use your feet to control pedals. But this introduces some problems in regards to adjusting pedal parameters while playing since humans generally don't possess the ability to operate and fine-tune switches and dials with their feet, especially not when wearing shoes.
 
