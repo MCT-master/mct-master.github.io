@@ -2,7 +2,7 @@
 layout: post
 title: "Team C's reflections on Scientific Computing"
 date: 2020-10-15 16:00:00 +0200
-categories: audio-programming
+categories: sound-programming
 author: Joni Mok, Stephen Gardener, Wenbo Yi, Lindsay Charles
 image: /assets/image/2020_08_21_stephedg_group_c.jpg
 keywords: python, jupyter notebook, audio-files, numpy, pandas, matplotlib, librosa

@@ -18,7 +18,7 @@ The main concept for the Alien Hamster ball is an instrument expressed through a
 It is directly inspired by the alien reece project i produced last year. It is a web based audio model that had oscillators mapped to the mouse movement, on both X and Y axis. I found it refreshingly intuitive to find various clashing and morphing frequencies as you move around the page. This felt very different to adjusting frequencies on a regular synthesiser, and encouraged creating abstract tones and sweeps.
 I wanted to translate this idea to a movement in a 3D space with a physical object.
 
-https://mct-master.github.io/audio-programming/2019/02/11/Alien-Reese.html
+https://mct-master.github.io/sound-programming/2019/02/11/Alien-Reese.html
 
 Also to a lesser extent i was inspired by a group project presented in the first year exploring the use of feedback in a collaborative instrument, and wanted to combine these elements to create a wholly new one.
 

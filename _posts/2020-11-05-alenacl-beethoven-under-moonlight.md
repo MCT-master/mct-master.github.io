@@ -2,7 +2,7 @@
 layout: post
 title: "Beethoven under Moonlight"
 date: 2020-11-05 18:09:38 +0200
-categories: audio-programming
+categories: sound-programming
 author: Alena Clim
 image: /assets/image/2020_11_05_alenacl_moonlight.jpg
 keywords: csound, FM synthesis, amplitude envelope, digital audio, moonlight sonata

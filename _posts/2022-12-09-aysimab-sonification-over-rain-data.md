@@ -2,7 +2,7 @@
 layout: post
 title: The sound of rain
 date: 2022-12-09
-categories: audio-programming
+categories: sound-programming
 author: Alexander Wastnidge, Aysima Karcaaltincaba, Fabian Stordalen
 image: /assets/image/2022_12_07_aysimab_dataset_cover.jpg
 keywords: audio, sonification, programming

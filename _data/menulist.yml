@@ -1,8 +1,6 @@
 toc:
   - title: Topics
     subfolderitems:
-      - page: Audio Programming
-        url: /audio-programming/
       - page: Interactive Music
         url: /interactive-music/
       - page: Machine Learning
@@ -11,6 +9,8 @@ toc:
         url: /motion-capture/
       - page: Sonification
         url: /sonification/
+      - page: Sound Programming
+        url: /sound-programming/
       - page: Spatial Audio
         url: /spatial-audio/
       - page: Other

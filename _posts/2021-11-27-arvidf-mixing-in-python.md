@@ -2,7 +2,7 @@
 layout: post
 title: "Mixing a multitrack project in Python"
 date: 2021-11-24 19:24:00 +0200
-categories: audio-programming
+categories: sound-programming
 author: Joachim Poutaraud, Kristian Wentzel, Sofía González, Arvid Falch
 image: /assets/image/2021_11_23_arvidf_crazyrig.jpg
 excerpt: "Attempting to mix a multitrack song with homemade FX in our very own mini PythonDAW"
@@ -189,7 +189,7 @@ So it had to be improved, and that's when we made our framecompressor. It uses a
 
 We made an IIR filter on the basis of Schroeder's very first algorithm for creating an artificial reverberator.
 
-[Read more about the Schroeder reverb here](https://medium.com/the-seekers-project/coding-a-basic-reverb-algorithm-part-2-an-introduction-to-audio-programming-4db79dd4e325)
+[Read more about the Schroeder reverb here](https://medium.com/the-seekers-project/coding-a-basic-reverb-algorithm-part-2-an-introduction-to-sound-programming-4db79dd4e325)
 
 It uses a set up of four parallel comb filters which then runs into two cascading allpass filters. Setting the parameters takes a little guessing and praying to the binary gods, and it's not a reverb you would recommend to your favorite pop star, but it's an actual reverb and we proudly used it in our mix.
 

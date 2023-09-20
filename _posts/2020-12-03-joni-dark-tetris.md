@@ -2,7 +2,7 @@
 layout: post
 title: "Dark Tetris"
 date: 2020-12-02 15:00:00 +0200
-categories: audio-programming
+categories: sound-programming
 author: Joni Mok
 image: \assets\image\2020_12_03_joni_dark_tetris.jpg
 excerpt: "Scientific Computing assignment for a non-programmer, please don't expect anything special when you see the title about DARK Tetris, even I really want to create that..."

@@ -2,7 +2,7 @@
 layout: post
 title: "Chop it Up: Merging Rearranged Audio"
 date: 2020-12-04 15:00:00 +0200
-categories: audio-programming
+categories: sound-programming
 author: Willie Mandeville
 image: /assets/image/2020_12_04_williakm_scissors.jpeg
 keywords: slicing, segments, python

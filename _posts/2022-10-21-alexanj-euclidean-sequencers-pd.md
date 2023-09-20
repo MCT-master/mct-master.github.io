@@ -2,7 +2,7 @@
 layout: post
 title:  "Euclidean Rhythms in Pure Data"
 date:   2022-10-21 15:00:00 +0200
-categories: audio-programming
+categories: sound-programming
 author: Alexander Wastnidge
 image: /assets/image/2022_28_11_alexanjw_euclid_cover.jpg
 excerpt: "What are Euclidean Rhythms and how can you program them?"

@@ -2,7 +2,7 @@
 layout: post
 title: "My Bloody Zerox"
 date: 2020-12-04 13:00:00 +0200
-categories: audio-programming
+categories: sound-programming
 author: Stephen Gardener
 image: /assets/image/2020_12_04_stephedg_my_bloody_zerox.png
 excerpt: "So the plan was to take two audio files, chop them up in some random way, mix up the pieces and stitch them back together again in a totally different order. Doesn’t have to be musical, they said. Well, just to make sure, I decided to chose two pieces of music that weren’t particularly musical to begin with - Only Shallow by shoegaze band My Bloody Valentine, and Zerox, by post punk combo Adam and the Ants."

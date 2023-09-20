@@ -2,7 +2,7 @@
 layout: post
 title:  "The Pointilator Sequence Synthesizer"
 date:   2019-02-11 17:00:00 +0200
-categories: audio-programming
+categories: sound-programming
 author: Eigil Aandahl
 image: /assets/image/2019_02_11_aleksati_pointilator.png
 excerpt: "The Pointilator sequence synth is an experimental instrument that can be played directly from a web browser! It is tested to work with Opera and Chrome, but does not work in Safari.
@@ -16,7 +16,7 @@ excerpt: "The Pointilator sequence synth is an experimental instrument that can 
 </figure>
 
 ### Introduction
-During the first week of the audio-programming workshop, we were tasked with making an individual project incorporating some of the skills and tools learned as we progressed through the week. Having had some experience with web technologies, [HTML, CSS and JavaScript](https://www.w3.org/wiki/The_web_standards_model_-_HTML_CSS_and_JavaScript), I was quite confident, but not necessarily that sure of what I wanted to do.
+During the first week of the sound-programming workshop, we were tasked with making an individual project incorporating some of the skills and tools learned as we progressed through the week. Having had some experience with web technologies, [HTML, CSS and JavaScript](https://www.w3.org/wiki/The_web_standards_model_-_HTML_CSS_and_JavaScript), I was quite confident, but not necessarily that sure of what I wanted to do.
 
 After experimenting a bit with the [Web Audio API](https://developer.mozilla.org/en-US/docs/Web/API/Web_Audio_API) and how to achieve playback of audio samples, I went back to things I knew from before using the [HTML5 Canvas element](https://www.w3schools.com/html/html5_canvas.asp) to draw and log clicks on a digital surface.
 

@@ -2,7 +2,7 @@
 layout: post
 title: "Audio Blending in Python"
 date: 2021-10-27 19:00:00 +0200
-categories: audio-programming
+categories: sound-programming
 author: Hugh Alexander von Arnim, Joachim Poutaraud, Sofía González, Oliver Getz
 image: /assets/image/2021_10_25_team_a_pyhton_3_thumbnail.jpg
 keywords: python, programming, librosa, audio programming

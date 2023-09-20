@@ -2,7 +2,7 @@
 layout: post
 title: Creating Complex Filters in Pure Data with Biquad~
 date: 2022-12-07 22:00:00 +0200
-categories: audio-programming
+categories: sound-programming
 author: Jack Hardwick
 image: /assets/image/2022_12_07_jackeh_filters_blog_post_preview_image.jpg
 keywords: audio, programming, puredata, python, filters

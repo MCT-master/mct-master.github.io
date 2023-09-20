@@ -2,7 +2,7 @@
 layout: post
 title: "Chopping Chopin and Kapustin preludes"
 date: 2020-12-05 19:12:53 +0200
-categories: audio-programming
+categories: sound-programming
 author: Alena Clim
 image: /assets/image/2020_12_05_alena_preludes.jpg
 keywords: slicing, segmenting, onsets, python, librosa, rms, spectral flatness
