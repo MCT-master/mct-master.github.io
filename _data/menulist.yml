@@ -7,6 +7,8 @@ toc:
         url: /machine-learning/
       - page: Motion Capture
         url: /motion-capture/
+      - page: Networked Music
+        url: /networked-music/
       - page: Sonification
         url: /sonification/
       - page: Sound Programming
@@ -25,8 +27,6 @@ toc:
         url: /masters-thesis/
       - page: All Projects
         url: /projects/
-  - title: Portal
-    url: /portal/
   - title: People
     url: /people/
   - title: About

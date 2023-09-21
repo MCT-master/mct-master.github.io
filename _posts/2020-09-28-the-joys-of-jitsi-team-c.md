@@ -2,7 +2,7 @@
 layout: post
 title: "The Joys of Jitsi"
 date: 2020-09-28 17:00:00 +0200
-categories: portal
+categories: networked-music
 author: Joni Mok, Wenbo Yi, Lindsay Charles, Stephen Gardener
 image: /assets/image/2020_09_28_stephedg_jitsi_logo.jpg
 keywords: jitsi, videochat, disaster

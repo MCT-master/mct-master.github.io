@@ -2,7 +2,7 @@
 layout: post
 title: "Testing Latency in the Portal"
 date: 2020-01-27 12:00:00 +0200
-categories: portal
+categories: networked-music
 author: Thomas Anda, Jackson Goode, Paul Koenig, Rayam Luna, Jarle Steinhovden, Aleksander Tidemann, Gaute Wardenær, Ulrik Halmøy, Tom Ignatius, Thibault Jaccard, Simon Sandvik
 image: /assets/image/2020_01_27_aleksati_latency.jpg
 excerpt: "We 'officially' test some the latency in the Oslo and Trondheim Portal"

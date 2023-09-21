@@ -2,7 +2,7 @@
 layout: post
 title: "First Weeks Of Portaling With Team B"
 date: 2021-03-03 09:30:00 +0200
-categories: portal
+categories: networked-music
 author: Henrik Sveen, Anders Lidal, Pedro Lucas, Willie Mandeville
 image: /assets/image/2021_03_03_henrikhs_teamb_portal_first.jpg
 keywords: portal, telematic-music, feedback, LoLa, latency

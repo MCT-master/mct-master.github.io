@@ -89,7 +89,7 @@ Example:
 layout: post
 title: "5G Networked Music Performances - Will It Work?"
 date: 2022-04-11 10:30:00 +0200
-categories: portal
+categories: networked-music
 author: Aleksander Tidemann
 image: /assets/image/2022_04_01_aleksati_5g_telenor_logo.png
 keywords: mct, uio, networked music performances, telematic music, 5g, telenor research, lola, jacktrip, audio latency, video latency

@@ -2,7 +2,7 @@
 layout: post
 title: "Norway's First 5G Networked Music Performance"
 date: 2022-07-05 08:00:00 +0200
-categories: portal
+categories: networked-music
 author: Joachim Poutaraud, Kristian Wentzel, Leigh Murray, Lindsay Charles
 image: /assets/image/2022_06_21_joachipo_modem.jpg
 excerpt: "We played Norway's first 5G networked music performance in collaboration with Telenor Research."

@@ -2,7 +2,7 @@
 layout: post
 title: "The collision of Jazz and Classical"
 date: 2021-05-04 17:00:00 +0200
-categories: portal
+categories: networked-music
 author: Wenbo Yi, Lindsay Charles, Stephen Gardener
 image: /assets/image/2021_05_04_wenboyi_realbook.png
 keywords: portal, telematic-music, feedback, LoLa, latency

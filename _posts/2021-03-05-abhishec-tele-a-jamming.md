@@ -2,7 +2,7 @@
 layout: post
 title: " Tele-A-Jammin: the recipe"
 date: 2021-03-05 10:00:00 +0200
-categories: portal
+categories: networked-music
 author: Abhishek Choubey, Alena Clim, Leigh Murray
 image: /assets/image/2021_03_09_abhishec_teama_portal.jpeg
 keywords: jamming, portal, teleperformance, lola, tico, zoom

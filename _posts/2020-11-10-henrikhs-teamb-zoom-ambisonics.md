@@ -2,7 +2,7 @@
 layout: post
 title: "Zoom + Ambisonics"
 date: 2020-11-10 15:00:00 +0200
-categories: portal
+categories: networked-music
 author: Pedro Lucas, Willie Mandeville, Henrik Sveen, Anders Lidal
 image: /assets/image/2020_11_10_henrikhs_zoomInReaper.jpg
 keywords: zoom, immersive, reaper, iem, binaural, ambisonics,

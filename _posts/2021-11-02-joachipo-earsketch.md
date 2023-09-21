@@ -2,7 +2,7 @@
 layout: post
 title: "EarSketch (Or How to Get More Python in Your Life)"
 date: 2021-11-05 11:45:00 +0200
-categories: portal
+categories: networked-music
 author: Joachim Poutaraud, Hugh Alexander von Arnim
 image: /assets/image/2021_11_02_hughav_EarSketch.png
 excerpt: "A review of the asynchronous music production software 'EarSketch'"

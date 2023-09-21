@@ -2,7 +2,7 @@
 layout: post
 title: Music Mode for Online Meetings
 date: 2022-11-28
-categories: portal
+categories: networked-music
 author: Aysima Karcaaltincaba
 image: https://www.uio.no/english/studies/programmes/mct-master/blog/assets/image/2022_11_28_aysimab_music-online.jpg
 keywords: music, network, cisco, microsoft, zoom

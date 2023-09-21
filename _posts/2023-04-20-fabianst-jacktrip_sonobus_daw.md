@@ -2,7 +2,7 @@
 layout: post
 title: "Integrating JackTrip and Sonobus in a DAW"
 date: 2023-04-23
-categories: portal
+categories: networked-music
 author: Fabian Stordalen
 image: https://www.uio.no/english/studies/programmes/mct-master/blog/assets/image/2023_04_22_fabianst_blogcover.png?alt=original
 keywords: portal, audio, latency, DAW, network music, jacktrip, Sonobus

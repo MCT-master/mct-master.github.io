@@ -2,7 +2,7 @@
 layout: post
 title: "Jazz Over the Network at 184,000km/h"
 date: 2023-03-12
-categories: portal
+categories: networked-music
 author: Jack Hardwick, Alexander Wastnidge, Masoud Niknafs, Emin Memis
 image: /assets/image/2023_03_13_jackeh_RITMO_musicians_thumbnail.jpg
 keywords: portal, audio, latency, jazz

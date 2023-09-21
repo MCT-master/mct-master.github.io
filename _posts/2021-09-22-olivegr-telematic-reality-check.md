@@ -2,7 +2,7 @@
 layout: post
 title: "Telematic Reality Check: An Evaluation of Design Principles for Telematic Music Applications in VR Environments"
 date: 2021-09-22 21:30:00 +0200
-categories: portal
+categories: networked-music
 author: Oliver Getz
 image: /assets/image/2021_09_22_olivergr_telematic_reality_check_thumb.jpg
 excerpt: "7 steps for better virtual reality music applications!"

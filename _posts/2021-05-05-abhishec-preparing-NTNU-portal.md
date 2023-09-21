@@ -2,7 +2,7 @@
 layout: post
 title: "Preparing NTNU portal for the spring 2021 Concert."
 date: 2021-05-05 10:10:00 +0200
-categories: portal
+categories: networked-music
 author: Abhishek Choubey
 image: /assets/image/2021_05_05_abhishec_NTNU_portal_concert_excerpt.jpg
 keywords:  portal, telematic-music, telematic-communications, LoLa, TICO, midas-m32

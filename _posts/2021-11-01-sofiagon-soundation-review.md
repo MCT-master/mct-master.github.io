@@ -2,7 +2,7 @@
 layout: post
 title: "Soundation Review: What to Expect"
 date: 2021-11-01 03:00:00 +0200
-categories: portal
+categories: networked-music
 author: Sofía González, Oliver Getz
 image: /assets/image/2021_11_01_soundation_review_thumbnail.jpg
 keywords: daw, soundation, music production, audio editing, music collaboration

@@ -2,7 +2,7 @@
 layout: post
 title: "Spring Telematic Concert 2022: Portal Perspectives"
 date: 2022-05-26 08:00:00 +0200
-categories: portal
+categories: networked-music
 author: Oliver Getz, Sofía González, Arvid Falch, Hugh Alexander von Arnim
 image: /assets/image/2022_06_01_jakobhoydal_thumbnail2.jpg
 excerpt: "Guitar and MoCap in the Portal + behind the scenes documentary!"

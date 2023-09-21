@@ -2,7 +2,7 @@
 layout: post
 title: "SkyTracks: What’s the Use?"
 date: 2021-11-03 22:00:00 +0200
-categories: portal
+categories: networked-music
 author: Arvid Falch, Joseph Clemente
 image: /assets/image/2021_11_03_josephcl_skytracks_logo.png
 keywords:

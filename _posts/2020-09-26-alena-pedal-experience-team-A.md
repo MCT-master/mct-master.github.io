@@ -2,7 +2,7 @@
 layout: post
 title: "Pedál to the Metal"
 date: 2020-09-26 20:12:57 +0200
-categories: portal
+categories: networked-music
 author: Alena Clim, Leigh Murray, Abhishek Choubey
 image: \assets\image\2020_09_28_abhishec_pedal_logo_square.jpg
 keywords: Pedál, latency, jamming

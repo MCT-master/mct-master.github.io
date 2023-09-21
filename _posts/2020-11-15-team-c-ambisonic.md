@@ -2,7 +2,7 @@
 layout: post
 title: "Ambisonic as a ‘mental’ management tool in Zoom?"
 date: 2020-11-14 15:00:00 +0200
-categories: portal
+categories: networked-music
 author: Joni Mok, Stephen Gardener, Wenbo Yi, Lindsay Charles
 image: /assets/image/2020_11_16_joni_ambisonic.jpg
 keywords: zoom, immersive, reaper, iem, binaural, ambisonics,

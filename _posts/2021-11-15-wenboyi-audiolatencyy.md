@@ -2,7 +2,7 @@
 layout: post
 title: "Latency as an opportunity to embrace"
 date: 2021-11-15 08:00:00 +0100
-categories: portal
+categories: networked-music
 author: Wenbo Yi
 image: /assets/image/2021_11_15_wenboyi_cover.jpeg
 keywords: Audio Latency, Telematic Performance, multi-source, latency

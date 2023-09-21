@@ -2,7 +2,7 @@
 layout: post
 title: "Room acoustics: what are room modes and how do they influence the physical space?"
 date: 2021-11-15 08:10:00 +0200
-categories: portal
+categories: networked-music
 author: Lindsay Charles
 image: /assets/image/2021_11_15_lindsay_portal_roommode.png
 keywords: acoustics, room-modes, resonance, wavelengths

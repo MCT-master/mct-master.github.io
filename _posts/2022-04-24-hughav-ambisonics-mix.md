@@ -2,7 +2,7 @@
 layout: post
 title: "Ambisonics: Under the Hood"
 date: 2022-04-24 21:00:00 +0200
-categories: portal
+categories: networked-music
 author: Arvid Falch, Hugh Alexander von Arnim
 image: /assets/image/2022_04_24_hughav_spherical_harmonics.jpg
 excerpt: "What happens when we encode/decode Ambisonics"

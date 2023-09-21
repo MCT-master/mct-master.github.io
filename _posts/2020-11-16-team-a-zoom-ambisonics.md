@@ -2,7 +2,7 @@
 layout: post
 title: "Zoom here & Zoom there: Ambisonics"
 date: 2020-11-14 15:00:00 +0200
-categories: portal
+categories: networked-music
 author: Alena Clim, Abhishek Choubey, Leigh Murray
 image: /assets/image/2020_11_16_abhishec_ambisonic_feature.jpeg
 keywords: zoom, immersive, reaper, iem, binaural, ambisonics, Audio, virtual driver

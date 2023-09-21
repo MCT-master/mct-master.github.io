@@ -12,7 +12,7 @@ permalink: /alltopics/
           or post.categories contains 'machine-learning'
           or post.categories contains 'other'
           or post.categories contains 'motion-capture'
-          or post.categories contains 'portal'
+          or post.categories contains 'networked-music'
           or post.categories contains 'sonification'
           or post.categories contains 'sound-programming'
           or post.categories contains 'spatial-audio' -%}

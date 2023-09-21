@@ -2,7 +2,7 @@
 layout: post
 title: "A Brief History of Improvisation Through Network Systems"
 date: 2021-09-26 09:00:00 +0200
-categories: portal
+categories: networked-music
 author: Kristian Wentzel
 image: /assets/image/2021_09_26_kriswent_Network_improvisation.jpg
 keywords: Network Music Performance, Improvisation, Sonic Art, Sonic Environments

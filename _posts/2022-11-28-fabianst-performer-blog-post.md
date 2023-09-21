@@ -2,7 +2,7 @@
 layout: post
 title: "The Optic-Fibre Ensemble"
 date: 2022-11-28 10:00:00 +0200
-categories: portal
+categories: networked-music
 author: Fabian Stordalen, Masoud Niknafs 
 image: https://www.uio.no/english/studies/programmes/mct-master/blog/assets/image/2022_28_11_fabianstposter.jpg
 keywords: concert, telematic music, lola, workshop 

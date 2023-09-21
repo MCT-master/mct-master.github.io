@@ -2,7 +2,7 @@
 layout: post
 title: "Spring Concert 2021: Team B's Reflections"
 date: 2021-05-01 10:00:00 +0200
-categories: portal
+categories: networked-music
 author: Henrik Sveen, Anders Lidal, Pedro Lucas, Willie Mandeville
 image: /assets/image/2021_05_01_pedropl_teambconcert.jpg
 keywords:  portal, telematic-music, concert, LoLa, live-performance

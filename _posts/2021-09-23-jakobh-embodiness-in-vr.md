@@ -2,7 +2,7 @@
 layout: post
 title: "Embodiment and Awareness in Telematic Music and Virtual Reality"
 date: 2021-09-23 03:00:00 +0200
-categories: portal
+categories: networked-music
 author: Jakob Høydal
 image: /assets/image/2021_09_23_jakobhoy_Embodiment.jpg
 keywords: embodiment, awareness, telematic, vr

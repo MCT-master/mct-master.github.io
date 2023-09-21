@@ -2,7 +2,7 @@
 layout: post
 title: "Blackhole, Open Source MacOS Virtual Audio Device Solution for Telematic Performance"
 date: 2022-11-29 07:00:00 +0200
-categories: portal
+categories: networked-music
 author: Masoud Niknafs
 image: https://www.uio.no/english/studies/programmes/mct-master/blog/assets/image/2022_11_29_bh_bbc_masoudn_.jpg
 keywords: virtual audio device, telematic music

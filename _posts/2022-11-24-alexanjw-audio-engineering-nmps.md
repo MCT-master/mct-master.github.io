@@ -2,7 +2,7 @@
 layout: post
 title: "Audio Engineering for Network Music Performances"
 date: 2022-11-24
-categories: portal
+categories: networked-music
 author: Alexander Wastnidge
 image: /assets/image/2018_09_10_stefanof_jnv_mixer.jpg
 keywords: telematic music, LoLa, low latency, audio engineering

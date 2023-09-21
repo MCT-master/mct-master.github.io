@@ -2,7 +2,7 @@
 layout: post
 title: "A short post about feedback"
 date: 2021-11-14 18:00:00 +0100
-categories: portal
+categories: networked-music
 author: Stephen Gardener
 image: /assets/image/2021_11_14_stephedg_feedback.png
 keywords: portal, feedback, microphones

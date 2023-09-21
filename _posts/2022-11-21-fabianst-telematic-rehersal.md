@@ -2,7 +2,7 @@
 layout: post
 title: "Rehearsing Music Over the Network"
 date: 2022-11-21
-categories: portal
+categories: networked-music
 author: Fabian Stordalen
 image: https://www.uio.no/english/studies/programmes/mct-master/blog/assets/image/2022_11_23_fabianst_setup.jpg
 keywords: telematic music, LoLa, low latency, rehersal

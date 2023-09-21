@@ -2,7 +2,7 @@
 layout: post
 title:  "Audio Codecs and the AI Revolution"
 date:   2023-04-23 21:00:00 +0200
-categories: portal
+categories: networked-music
 author: Jack Hardwick
 image: /assets/image/2023_04_23_jackeh_codecs_thumnail.jpg
 excerpt: "I dove headfirst into the world of machine learning-enhanced audio codecs. Here's what I found out."

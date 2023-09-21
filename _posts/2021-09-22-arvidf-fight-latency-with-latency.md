@@ -2,7 +2,7 @@
 layout: post
 title: "Fight latency with latency"
 date: 2021-09-22 10:00:00 +0200
-categories: portal
+categories: networked-music
 author: Arvid Falch
 image: /assets/image/2021_09_22_arvidf_latency.jpg
 keywords: latency, the online orchestra, telematic music systems

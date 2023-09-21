@@ -2,7 +2,7 @@
 layout: post
 title:  "SonoBus setup - Standalone App and Reaper Plugin"
 date:   2023-04-23 14:00:00 +0200
-categories: portal
+categories: networked-music
 author: Kristian Eicke
 image: /assets/image/2023_04_23_kristeic_sonobus_logo.jpeg
 excerpt: "Check out my tutorial on how to use SonoBus for your networked performance."

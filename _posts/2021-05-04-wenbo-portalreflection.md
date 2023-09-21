@@ -2,7 +2,7 @@
 layout: post
 title: "End of semester reflections for the Portal experience"
 date: 2021-05-04 19:00:00 +0200
-categories: portal
+categories: networked-music
 author: Wenbo Yi, Lindsay Charles, Stephen Gardener
 image: /assets/image/2021_05_02_wenboyi_perfor.jpeg
 keywords: portal, telematic-music, concert, LoLa, live-performance

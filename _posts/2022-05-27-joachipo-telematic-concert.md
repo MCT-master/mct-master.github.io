@@ -2,7 +2,7 @@
 layout: post
 title: "One Last Hoorah: A Telematic Concert in the Science Library"
 date: 2022-05-27 08:00:00 +0200
-categories: portal
+categories: networked-music
 author: Jakob Høydal, Joachim Poutaraud, Joseph Clemente, Kristian Wentzel
 image: /assets/image/2022_06_01_jakobhoydal_thumbnail1.jpg
 excerpt: "In which we go over the most ambitious telematic concert of our MCT careers."

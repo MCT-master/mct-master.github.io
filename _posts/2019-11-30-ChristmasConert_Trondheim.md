@@ -2,7 +2,7 @@
 layout: post
 title: "Reflections on the Christmas concert"
 date: 2019-11-30 17:57:30 +0100
-categories: portal
+categories: networked-music
 author: Ulrik Halmøy, Thibault, Gaute, Rayam
 image: /assets/image/2019_11_30_stefanof_cover.jpg
 excerpt: "Trondheim reflects on the Christmas concert 2019"

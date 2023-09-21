@@ -2,7 +2,7 @@
 layout: post
 title: "Approaches Toward Algorithmic Interdependence in Musical Performance"
 date: 2021-09-22 10:00:00 +0200
-categories: portal
+categories: networked-music
 author: Joseph Clemente
 image: /assets/image/2021_09_22_josephcl_algorithm.jpg
 keywords: algorithm, machine learning, interdependence

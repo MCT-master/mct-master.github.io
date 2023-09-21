@@ -2,7 +2,7 @@
 layout: post
 title: "Satellite Sessions - Connecting DAWs"
 date: 2021-11-03 14:28:00 +0200
-categories: Portal
+categories: networked-music
 author: Jakob Høydal, Kristian Wentzel
 image: /assets/image/2021_11_03_jakobhoy_SatelliteSessionsSmallImage.png
 excerpt: "A review of Satellite Sessions, a plugin that connects digital audio workstations and creators."

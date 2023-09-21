@@ -2,7 +2,7 @@
 layout: post
 title: "NMP kit Tutorial"
 date: 2023-04-23 19:00:00 +0200
-categories: portal
+categories: networked-music
 author: Henrik Sveen
 image: /assets/image/2023_04_22_henrikhs_mrnmp.jpg
 keywords: portal, nmp

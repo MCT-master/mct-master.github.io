@@ -2,7 +2,7 @@
 layout: post
 title: "Ambisonics!"
 date: 2019-02-27 16:40:00 +0200
-categories: portal
+categories: networked-music
 author: Mari Lesteberg, Elias Andersen, Ashane Silva
 image: /assets/image/2019_02_27_aleksati_2702scrsh.png
 excerpt: "On 27 February 2019, we had a workshop on Ambisonics in the portal course. Anders Tveit gave us a lecture on how to encode and decode sound inputs from Lola, using the AIIRADecoder in Reaper."

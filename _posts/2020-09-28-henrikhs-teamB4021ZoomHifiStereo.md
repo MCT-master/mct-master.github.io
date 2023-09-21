@@ -2,7 +2,7 @@
 layout: post
 title: "Zoom - High Fidelity and Stereo"
 date: 2020-09-28 15:00:00 +0200
-categories: portal
+categories: networked-music
 author: Pedro Lucas, Willie Mandeville, Henrik Sveen, Anders Lidal
 image: /assets/image/2020_09_28_henrikhs_zoomImage.png
 keywords: zoom, music, high-fidelity-mode, stereo, hi-fi, lo-fi

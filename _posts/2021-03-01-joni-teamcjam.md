@@ -2,7 +2,7 @@
 layout: post
 title: "Liebesgruß or we can put that 'Liebe' aside"
 date: 2021-02-28 16:00:00 +0200
-categories: portal
+categories: networked-music
 author: Joni Mok, Wenbo Yi, Lindsay Charles, Stephen Gardener
 image: /assets/image/2021_03_01_joni_teamc1.jpg
 keywords: portal, telematic-music, feedback, LoLa, latency

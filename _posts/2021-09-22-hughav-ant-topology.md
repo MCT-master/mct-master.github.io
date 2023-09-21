@@ -2,7 +2,7 @@
 layout: post
 title: "Applying Actor-Network Methodology to Telematic Network Topologies"
 date: 2021-09-22 19:00:00 +0200
-categories: portal
+categories: networked-music
 author: Hugh Alexander von Arnim
 image: /assets/image/2021_09_22_hughalexandervonarnim_topology.jpg
 excerpt: "An inquiry into the application of an actor-network theory methodology to Gil Weinberg's telematic musical network topologies."

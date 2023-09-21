@@ -2,7 +2,7 @@
 layout: post
 title: "Pair Programming Over Network"
 date: 2023-04-21
-categories: portal
+categories: networked-music
 author: Aysima Karcaaltincaba
 image: /assets/image/2023_04_21_akarcaal_pairprogramming.png
 keywords: Network, Remote work, Programming, Pair programming, Visual Studio Live Share

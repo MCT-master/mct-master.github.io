@@ -2,7 +2,7 @@
 layout: post
 title: "Basics of Computer Networks in NMPs"
 date: 2023-04-23 23:00:00 +0200
-categories: portal
+categories: networked-music
 author: Emin Memis
 image: /assets/image/2023_04_23_ahmetem_computer_networks_city.png
 keywords: nmp, network, telematic, latency, tutorial

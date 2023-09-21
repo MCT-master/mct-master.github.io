@@ -2,7 +2,7 @@
 layout: post
 title: Bringing the (Optic) Fibre Ensemble to Life - Behind the Scenes of a Telematic Music Performance
 date: 2022-11-28
-categories: portal
+categories: networked-music
 author: Kristian Eicke, Jack Hardwick
 image: /assets/image/2022_11_28_jackeh_kristeic_concert_preview_image.jpg
 keywords: telematic, performance, network, ritmo
