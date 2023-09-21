@@ -5,7 +5,7 @@ date: 2023-09-21 19:00:00 +0200
 categories: interactive-music
 author: Alexander Wastnidge
 image: https://raw.githubusercontent.com/matthewcaren/KeyWI/master/platform-files/keywi-image.JPG"
-keywords: expressivity, digital musical instruments, interative music systems, melodica, keywi
+keywords: expressivity, digital musical instruments, interative music systems, melodica,
 excerpt: "The relationship between musician and instrument can be an extremely personal and intimate one"
 ---
 
@@ -24,9 +24,6 @@ The KeyWI was shown at the NIME 2020 conference [here](https://www.nime.org/proc
 As detailed on project website and paper, the system was evaluated at a technical level to assess how it compared to other breath-based DMIs and acoustic instruments. This looked at performance in dynamic range, attacks/transients, variance and expressiveness and pitch control interfaces. These results illustrate that in terms of technical hardware performance, the KeyWI's breath interface performs more on-par with the response of acoustic breath-based instruments than comparative commercial DMIs.
 
 In terms of the "accessibilty" of the instrument, as well as being a fully open-source project, the system has a keyboard for pitch information. This is justified as being a more familiar, standardised interface for musicians than the numerous equivilents in acoustic instruments.  Finally, the KeyWI prides itself on its simple code-base, with the Faust DSP code for its melodica sound engine being a mere twenty-five lines long.
-
-
-
 
 ### Critical Evaluation
 Expressivity and accessibility are the key elements of this instrument's self-identity.  As such, in order to evaluate the system further I will draw on ideas of expressivity, engagement, virtuosity, immediacy and autonomy. This will draw from the design workbench from Holland, Mudd, Wilkie-McKenna, McPherson, Wanderley (2019) for interactive music systems as well as the heuristics for long-term musical engagement from Wallis, Ingalls, Campana, Vuong(2013).  As the KeyWI positions itself as an expressive instrument, I will also evaluate it through the lens of Dobrian and Koppelman (2006), "Musical Expression with New Computer Interfaces".
@@ -51,14 +48,10 @@ Regarding the KeyWI's sound engine, again while this approach allows for immedia
 <figure style="float: none">
    <img src="https://raw.githubusercontent.com/matthewcaren/KeyWI/master/platform-files/keywi-image.JPG" alt="KeyWI" title="" height="200" width="300" />
    <figcaption><i>KeyWI: is it too similiar to what it's modelled on?</i></figcaption>
-</figure>
-
-<figure style="float: none">
-   <img src="https://upload.wikimedia.org/wikipedia/commons/c/cf/Melodica.jpg" alt="Melodica" title="" height="300" width="300" />
+</figure><figure style="float: none">
+   <img src="https://upload.wikimedia.org/wikipedia/commons/c/cf/Melodica.jpg" alt="Melodica" title="" height="200" width="300" />
    <figcaption><i></i></figcaption>
 </figure>
-
-<p>
 
 Though the demo video definitely displays musical competence, it is not hard to imagine an experienced musician reaching the instruments limitations relatively quickly. This can impede on the perceived autonomy of the musician, whereby the human's capability outstrips that of the instrument.  Furthermore if an instrument feels limiting to a musician in this way, can it be said to be truly expressive?   Taken together, these can notably impact the likelihood of an instrument's potential long-term usage.
 
