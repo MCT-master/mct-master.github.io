@@ -32,7 +32,7 @@ This technique of feeding new, user input-able information into the "bottleneck 
 ### Training
 The training data pipeline for this project needed to represent a methodology which could be made accessible to on-the-ground music producers.  Most electronic music practioners will cite having extensive libraries of audio samples and loops.  There are also huge amounts free and commercially products of royalty-free loops available to practioners.
 
-Training a neural network on audio presents challenges however.  Feeding a neural network with raw digital audio is inappropriate as the computational load is too large.  Furthermore xtracting meaningful, musical and useful features from audio is a task requiring expertise beyond the expectation of the average music practioner.
+Training a neural network on audio presents challenges however.  Feeding a neural network with raw digital audio is inappropriate as the computational load is too large.  Furthermore extracting meaningful, musical and useful features from audio is a task requiring expertise beyond the expectation of the average music practioner.
 
 As the sole concern of the model is rhythm, the training data was processed to extract rhythmic transient/onset information.  This was then encoded as a symbolic representation of two musical bars with a resolution of 16th notes. This resulted in binary lists representing 32-step sequences where a 1 denoted a rhythmic event and a 0 denoted a "rest".
 
@@ -44,7 +44,7 @@ We usually imagine step-sequences moving horizontally left-to-right.  Returning 
 The result of this is two-fold.  Firstly, a format of training data which is freely accessible to music practioners can be used to train the model.  Secondly, the architecture of the autoencoder is computationally very light and can be trained and utilised very quickly.
 
 ###  The Human Aspect
-In opposition to systems employing AI for the creation of more and more completely automated music generation systems, this project aimed to instead purposely leave room for the human musician.
+In opposition to systems employing AI for the creation of more and more complete systems for automatic music generation, this project aimed to instead purposely leave room for the human musician.
 
 As such, this sequencer offers only a "partially-automated" functionality.  While the AI model is responsible for generating rhythmic information, pitch information is left for the human, as are several ways of altering how the inferred data is used.  Below is the current user-interface for the sequencer and an explanation of the various controls.
 
@@ -63,10 +63,10 @@ When generating new rhythmic patterns, the model outputs values between 0 and 1.
 **Pitches & Num Steps**
 These represent controls often found on conventional step-sequencers.  The user inputs the musical pitches to be stepped through as well as the length in steps of the repeated sequence.
 
-###Future Work
+## Future Work
 In order for this process to be truly accessible and implementable for the wider world of electronic music practioners, further work is required.  Currently the model's training and inference happen in Python via Jupyter Notebook, while the UI exists in Pure Data with OSC being used to communicate between the two.  Ideally, the entire process would exist within a single environment with the addition of a user interface for the training process.
 
-This project has however, acheived many of the primary goals set out for it.  Furthermore, the need for lightweight, rapidly trainable and accessible models will likely continue as generative AI becomes more commonplace and more musicians become open to the idea of "AI assistants" being involved in the creative process.
+This project has however achieved many of the primary goals set out for it.  Furthermore, the need for lightweight, rapidly trainable and accessible models will likely continue as generative AI becomes more commonplace and more musicians become open to the idea of "AI assistants" being involved in the creative process.
 
 
 ### References
