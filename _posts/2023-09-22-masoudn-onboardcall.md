@@ -11,7 +11,7 @@ excerpt: "Critical Review of On Board Call: A Gestural Wildlife Imitation Machin
 
 ## Review of On Board Call: A Gestural Wildlife Imitation Machine
 
-The [On Board Call](https://www.nime.org/proc/nime22_13/) introduced in NIME 20211 is a handheld musical device designed to mimic and engage with wildlife sounds, such as bird or animal calls. Instead of just playing pre-recorded sounds, it uses microprocessor-based synthesis and sensors like an accelerometer and force sensor to allow users to interactively modify and perform with the sounds in real-time. Developed as part of the PLACE art-science project at Griffith University, its goal is to enhance appreciation for the eco-acoustic diversity of nature. The device is cost-effective and easily assembled from off-the-shelf components, making it ideal for community workshops focused on active listening and connecting with natural environments.
+The [On Board Call](https://nime.pubpub.org/pub/uofmcznd/release/1) introduced in NIME 2022 is a handheld musical device designed to mimic and engage with wildlife sounds, such as bird or animal calls. Instead of just playing pre-recorded sounds, it uses microprocessor-based synthesis and sensors like an accelerometer and force sensor to allow users to interactively modify and perform with the sounds in real-time. Developed as part of the PLACE art-science project at Griffith University, its goal is to enhance appreciation for the eco-acoustic diversity of nature. The device is cost-effective and easily assembled from off-the-shelf components, making it ideal for community workshops focused on active listening and connecting with natural environments.
 
 <figure style="float: none">
    <img
