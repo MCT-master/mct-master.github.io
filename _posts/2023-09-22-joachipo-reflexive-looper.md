@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 'How to break out of the "comping" loop?'
-date: 2023-09-22 01:00:00 +0200
+date: 2023-09-22 08:00:00 +0200
 categories: interactive-music
 author: Joachim Poutaraud
 image: /assets/image/2023_09_22_joachipo_loop.png
