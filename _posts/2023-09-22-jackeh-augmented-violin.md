@@ -4,7 +4,7 @@ title:  "The Augmented Violin: Examining Musical Expression in a Bow-Controlled 
 date:   2023-09-22 20:00:00 +0200
 categories: interactive-music
 author: Jack Hardwick
-image: /assets/image/2018_08_01_username_postthumbnail.jpg
+image: /assets/image/2023_09_22_jackeh_augmented_violin_preview.jpg
 excerpt: "A brief look at the affordance for musical expression in a violin-based interactive music system."
 keywords: interactive music systems, violin, bowed strings, hyperinstrument, expressivity
 ---
