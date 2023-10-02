@@ -32,7 +32,7 @@ Beginning with "expressivity", the key affordance for this is via the breath sen
 
 <figure style="float: none">
    <img
-      src="/assets/image/2023_09_21_alexanjw_breath_sensor.png" width="60%" />
+      src="/assets/image/2023_09_21_alexanjw_breath_sensor.jpg" width="60%" />
    <figcaption>KeyWI's breath sensor </figcaption>
 </figure>
 
