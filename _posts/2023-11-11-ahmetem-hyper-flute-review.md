@@ -6,7 +6,7 @@ categories: interactive-music
 author: Emin Memis
 image: /assets/image/2023_11_11_ahmetem_hyper_flute_review_01.jpg
 keywords: ims, hci, guitar, interactive music systems, magpick
-excerpt: "Critical review of the Hyper-Flute"
+excerpt: "A Boehm flute enhanced with sensors"
 ---
 
 <figure>
@@ -20,7 +20,7 @@ excerpt: "Critical review of the Hyper-Flute"
 </figure>
 
 
-<span style="font-size:small; font-style: italic;">⏯ A video is auto-playing down in this page - [jump to video](#video)</span>
+<span style="font-size:small; font-style: italic;">⏯ A video may be auto-playing down in this page - [jump to video](#video)</span>
 
 
 Many interactive music systems aim to enhance existing instruments by extending their controls. Cléo Palacio-Quintin’s Hyper-Flute is one of those interesting hyper-instruments that provide more functionalities to extending the creative possibilities. The Hyper-Flute is a standard Boehm flute extended via strategically placed electronic sensors to enable control of digital sound processing parameters in real-time. It opens the door to a highly expressive and enhanced way of interaction with the conventional flute.
