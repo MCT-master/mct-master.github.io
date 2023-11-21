@@ -66,6 +66,52 @@ Obtaining meaningful movement data from the BioPoint sensor required data cleani
 ### Learning the Robot Arm Interface
 Navigating and understanding the scripts used to control the Universal Robots UR10e presented a learning curve for our team. Familiarizing ourselves with the intricacies of the robot arm interface was essential for using the robot arm effectively and translating user movements into precise robotic actions. As we delved into this aspect of the project, we encountered challenges related to script integration, parameter tuning, and ensuring a seamless interaction between the user and the robotic system. The robotics team directed efforts towards mastering the robot arm interface to optimize the overall performance of our system.
 
+# Navigating the Project: From Concept to Reality
+
+Embarking on a three-month project, we knew time was of the essence, guiding us to keep our goals practical and achievable. Our chosen task, to get the robot to paint, offered a balanced challenge that aligned with our timeframe. To map out our journey, we utilized proven planning and project management tools.
+
+### Work Breakdown Structure (WBS)
+Our project's blueprint began with a Work Breakdown Structure (WBS), dividing it into six categories - costs, simulation software, the robot, Biopoint, real-time controls, and networking/latency optimization. While we initially considered simulation software, the robot's safety features encouraged us to dive into direct experimentation. This agile approach allowed us to adapt our focus as needed.
+
+... ADD WBS HERE
+<figure>
+  <img src="https://www.uio.no/english/studies/programmes/mct-master/blog/assets/image/...?alt=original"
+  height="500"
+  width="400">
+  <figcaption>
+    <span class="caption">Work Breakdown Structure</span>
+  </figcaption>
+</figure>
+
+### Project Network Diagram (PND)
+
+With the Project Network Diagram (PND), we visualized the sequential tasks, always having a clear next step in sight. This dynamic tool provided a bird's-eye view of our progress, ensuring we stayed on track and understood the needs and evolving aspects of our project.
+
+... ADD PND HERE
+<figure>
+  <img src="https://www.uio.no/english/studies/programmes/mct-master/blog/assets/image/...?alt=original"
+  height="500"
+  width="400">
+  <figcaption>
+    <span class="caption">Project Network Diagram</span>
+  </figcaption>
+</figure>
+
+### Gantt Chart
+The Gantt chart, a time-bound roadmap, helped us frame our project in weeks, even though some tasks proved more fluid than anticipated. While setting out with estimated timelines, the chart evolved as we delved into existing research, navigated literature, and utilized resources provided by our partner. From swiftly setting up the robot to the ongoing exploration of mappings, our timeline was a flexible guide, adapting to the dynamic nature of our work.
+
+... ADD GANTT HERE
+<figure>
+  <img src="https://www.uio.no/english/studies/programmes/mct-master/blog/assets/image/...?alt=original"
+  height="500"
+  width="400">
+  <figcaption>
+    <span class="caption">Gantt Chart</span>
+  </figcaption>
+</figure>
+
+As we maneuvered through these visual aids, our project's evolution became a fascinating journey of discovery and adaptation. Stay tuned for more insights into the highs and lows of our hands-on exploration in the world of intuitive robotics.
+
 # Solutions!
 
 # Demonstration
