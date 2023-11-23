@@ -66,9 +66,11 @@ The defined motion required for painting serves as a perfect proof of concept ta
 ## Problems and Frustrations
 Embarking on the journey of creating a system that seamlessly integrates BioPoint biosensors with a robotic arm posed several challenges. Overcoming these hurdles was crucial for the success of our project, and it required a combination of creativity, collaboration, and perseverance.
 
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/GYB5D0WIcmQ?si=mEKbO0NLhAFNZpW7" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-
+<figure style="float: none">
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/GYB5D0WIcmQ?si=mEKbO0NLhAFNZpW7" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen>
+    </iframe>
+  <figcaption> Thef first move matters! </figcaption>
+</figure>
 ### Establishing a Stable Connection with the BioPoints
 One of the primary challenges we encountered was establishing an efficient and stable connection with the BioPoint sensor. The need for real-time data transmission added complexity to the task. To address this, we implemented parallel processing, where each thread utilized a separate command-line interface (CLI) instance provided by SiFi Labs. This approach allowed us to concurrently connect and control each BioPoint sensor device, ensuring a smoother and more responsive user experience.
 
