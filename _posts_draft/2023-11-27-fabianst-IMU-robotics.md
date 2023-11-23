@@ -75,9 +75,9 @@ Our project's blueprint began with a Work Breakdown Structure (WBS), dividing it
 
 ... ADD WBS HERE
 <figure>
-  <img src="https://www.uio.no/english/studies/programmes/mct-master/blog/assets/image/...?alt=original"
-  height="500"
-  width="400">
+  <img src="https://www.uio.no/english/studies/programmes/mct-master/blog/assets/image/2023_11_23_faibanst_wbs.png?alt=original"
+  height="300"
+  width="700">
   <figcaption>
     <span class="caption">Work Breakdown Structure</span>
   </figcaption>
@@ -89,9 +89,9 @@ With the Project Network Diagram (PND), we visualized the sequential tasks, alwa
 
 ... ADD PND HERE
 <figure>
-  <img src="https://www.uio.no/english/studies/programmes/mct-master/blog/assets/image/...?alt=original"
-  height="500"
-  width="400">
+  <img src="https://www.uio.no/english/studies/programmes/mct-master/blog/assets/image/2023_11_23_faibanst_pnd.png?alt=original"
+  height="300"
+  width="700">
   <figcaption>
     <span class="caption">Project Network Diagram</span>
   </figcaption>
@@ -102,9 +102,9 @@ The Gantt chart, a time-bound roadmap, helped us frame our project in weeks, eve
 
 ... ADD GANTT HERE
 <figure>
-  <img src="https://www.uio.no/english/studies/programmes/mct-master/blog/assets/image/...?alt=original"
-  height="500"
-  width="400">
+  <img src="https://www.uio.no/english/studies/programmes/mct-master/blog/assets/image/2023_11_23_faibanst_gantt.png?alt=original"
+  height="300"
+  width="700">
   <figcaption>
     <span class="caption">Gantt Chart</span>
   </figcaption>
