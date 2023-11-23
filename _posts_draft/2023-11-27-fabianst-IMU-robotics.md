@@ -100,6 +100,13 @@ With the Project Network Diagram (PND), we visualized the sequential tasks, alwa
 
 # Solutions!
 
+
+
+
+<figure style="float: none">
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/cqzUbot4i0c?si=4Z1wLm5yeVKEAEF6" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+  <figcaption> Robot moving in harmony with the arm! </figcaption>
+</figure>
 # Demonstration
 
 # Conclusion
