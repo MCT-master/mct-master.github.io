@@ -12,6 +12,15 @@ excerpt: "Controling a robot arm with medical sensors"
 # Introduction
 For our project we collaborated with [SiFi Labs](https://sifilabs.com/) to create and implement a system showcase how you can use their [BioPoint](https://sifilabs.com/biopoint/) biosensors to control a robotic arm. This was quite an ambitious and daring project. As this project was a collaboration between us MCT students and the informatics department we wanted to work on a project which could combine our different fields of expertise. The task we set out to do was to get the robot painting. We thought replicating the precise movements needed to paint is something was a fitting task for this project.
 
+<figure>
+  <img src="https://www.uio.no/english/studies/programmes/mct-master/blog/assets/image/2023_11_23_fabianst_workinghard.jpg?alt=original"
+  height="500"
+  width="400">
+  <figcaption>
+    <span class="caption">Hard at work trying to figure out an optimal control interface</span>
+  </figcaption>
+</figure>
+
 # Implementation 
 <figure>
   <img src="https://www.uio.no/english/studies/programmes/mct-master/blog/assets/image/2023_11_27_fabianst_robotcontrols.jpg?alt=original"
