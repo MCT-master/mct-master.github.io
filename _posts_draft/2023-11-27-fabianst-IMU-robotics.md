@@ -69,8 +69,9 @@ Embarking on the journey of creating a system that seamlessly integrates BioPoin
 <figure style="float: none">
     <iframe width="560" height="315" src="https://www.youtube.com/embed/GYB5D0WIcmQ?si=mEKbO0NLhAFNZpW7" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen>
     </iframe>
-  <figcaption> Thef first move matters! </figcaption>
+  <figcaption> The first move matters! </figcaption>
 </figure>
+
 ### Establishing a Stable Connection with the BioPoints
 One of the primary challenges we encountered was establishing an efficient and stable connection with the BioPoint sensor. The need for real-time data transmission added complexity to the task. To address this, we implemented parallel processing, where each thread utilized a separate command-line interface (CLI) instance provided by SiFi Labs. This approach allowed us to concurrently connect and control each BioPoint sensor device, ensuring a smoother and more responsive user experience.
 
@@ -84,18 +85,6 @@ Navigating and understanding the scripts used to control the Universal Robots UR
 
 Embarking on a three-month project, we knew time was of the essence, guiding us to keep our goals practical and achievable. Our chosen task, to get the robot to paint, offered a balanced challenge that aligned with our timeframe. To map out our journey, we utilized proven planning and project management tools.
 
-## Work Breakdown Structure (WBS)
-Our project's blueprint began with a Work Breakdown Structure (WBS), dividing it into six categories - costs, simulation software, the robot, Biopoint, real-time controls, and networking/latency optimization. While we initially considered simulation software, the robot's safety features encouraged us to dive into direct experimentation. This agile approach allowed us to adapt our focus as needed.
-
-<figure>
-  <img src="https://www.uio.no/english/studies/programmes/mct-master/blog/assets/image/2023_11_23_faibanst_wbs.png?alt=original"
-  height="300"
-  width="700">
-  <figcaption>
-    <span class="caption">Work Breakdown Structure</span>
-  </figcaption>
-</figure>
-
 ## Project Network Diagram (PND)
 
 With the Project Network Diagram (PND), we visualized the sequential tasks, always having a clear next step in sight. This dynamic tool provided a bird's-eye view of our progress, ensuring we stayed on track and understood the needs and evolving aspects of our project.
@@ -108,20 +97,6 @@ With the Project Network Diagram (PND), we visualized the sequential tasks, alwa
     <span class="caption">Project Network Diagram</span>
   </figcaption>
 </figure>
-
-## Gantt Chart
-The Gantt chart, a time-bound roadmap, helped us frame our project in weeks, even though some tasks proved more fluid than anticipated. While setting out with estimated timelines, the chart evolved as we delved into existing research, navigated literature, and utilized resources provided by our partner. From swiftly setting up the robot to the ongoing exploration of mappings, our timeline was a flexible guide, adapting to the dynamic nature of our work.
-
-<figure>
-  <img src="https://www.uio.no/english/studies/programmes/mct-master/blog/assets/image/2023_11_23_faibanst_gantt.png?alt=original"
-  height="300"
-  width="700">
-  <figcaption>
-    <span class="caption">Gantt Chart</span>
-  </figcaption>
-</figure>
-
-As we maneuvered through these visual aids, our project's evolution became a fascinating journey of discovery and adaptation. Stay tuned for more insights into the highs and lows of our hands-on exploration in the world of intuitive robotics.
 
 # Solutions!
 
