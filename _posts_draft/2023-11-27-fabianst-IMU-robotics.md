@@ -79,10 +79,9 @@ Navigating and understanding the scripts used to control the Universal Robots UR
 
 Embarking on a three-month project, we knew time was of the essence, guiding us to keep our goals practical and achievable. Our chosen task, to get the robot to paint, offered a balanced challenge that aligned with our timeframe. To map out our journey, we utilized proven planning and project management tools.
 
-### Work Breakdown Structure (WBS)
+## Work Breakdown Structure (WBS)
 Our project's blueprint began with a Work Breakdown Structure (WBS), dividing it into six categories - costs, simulation software, the robot, Biopoint, real-time controls, and networking/latency optimization. While we initially considered simulation software, the robot's safety features encouraged us to dive into direct experimentation. This agile approach allowed us to adapt our focus as needed.
 
-... ADD WBS HERE
 <figure>
   <img src="https://www.uio.no/english/studies/programmes/mct-master/blog/assets/image/2023_11_23_faibanst_wbs.png?alt=original"
   height="300"
@@ -92,11 +91,10 @@ Our project's blueprint began with a Work Breakdown Structure (WBS), dividing it
   </figcaption>
 </figure>
 
-### Project Network Diagram (PND)
+## Project Network Diagram (PND)
 
 With the Project Network Diagram (PND), we visualized the sequential tasks, always having a clear next step in sight. This dynamic tool provided a bird's-eye view of our progress, ensuring we stayed on track and understood the needs and evolving aspects of our project.
 
-... ADD PND HERE
 <figure>
   <img src="https://www.uio.no/english/studies/programmes/mct-master/blog/assets/image/2023_11_23_faibanst_pnd.png?alt=original"
   height="300"
@@ -106,10 +104,9 @@ With the Project Network Diagram (PND), we visualized the sequential tasks, alwa
   </figcaption>
 </figure>
 
-### Gantt Chart
+## Gantt Chart
 The Gantt chart, a time-bound roadmap, helped us frame our project in weeks, even though some tasks proved more fluid than anticipated. While setting out with estimated timelines, the chart evolved as we delved into existing research, navigated literature, and utilized resources provided by our partner. From swiftly setting up the robot to the ongoing exploration of mappings, our timeline was a flexible guide, adapting to the dynamic nature of our work.
 
-... ADD GANTT HERE
 <figure>
   <img src="https://www.uio.no/english/studies/programmes/mct-master/blog/assets/image/2023_11_23_faibanst_gantt.png?alt=original"
   height="300"
@@ -127,7 +124,7 @@ As we maneuvered through these visual aids, our project's evolution became a fas
 
 # Conclusion
 ## Expanding Possibilities
-Looking ahead, our project sets the stage for exciting future endeavors and advancements in the realm of intuitive robotics. As we refine our system based on real-world feedback and continue to address challenges, the door opens to explore applications beyond painting. Future work can involve further enhancing the precision of our robotic system, incorporating machine learning algorithms for adaptive control, and expanding the compatibility with additional sensors for a richer user experience.
+Looking ahead, our project sets the stage for exciting future endeavors and advancements in the realm of intuitive robotics. As we refine our system based on real-world feedback and continue to address challenges, the door opens to explore applications beyond painting. Future work can involve further enhancing the precision of our robotic system, incorporating machine learning algorithms for adaptive control, and expanding the compatibility with additional sensors for a richer user experience. We originally indented to implement haptics for this project which we sadly did not have time for, but this is also a possiblity in regards to future work.
 
 
 
