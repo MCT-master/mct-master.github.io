@@ -46,8 +46,6 @@ The [BioPoint](https://sifilabs.com/biopoint/) is a powerful and lightweight dev
 ## Introducing the Robot
 Meet the robot we worked on for this project. The [Universal Robots UR10e](https://www.universal-robots.com/products/ur10-robot/). This is a medium sized industrial robot, and is also quite large as you can see! This big guy is known for its robust capabilities and ease of integration into various applications - it opens up a world of possibilities for automation in diverse industries.
 
-... more to come here
-
 <figure>
   <img src="https://www.uio.no/english/studies/programmes/mct-master/blog/assets/image/2023_11_27_ahmetem_robotarm01.jpg?alt=original"
   height="500"
@@ -61,25 +59,11 @@ Meet the robot we worked on for this project. The [Universal Robots UR10e](https
 
 With the powerful combination of SiFi Labs' BioPoint biosensors and the Universal Robots UR10e, we aimed to showcase the precision and versatility of our robotic system through a visually engaging task: painting 🎨. By harnessing the data from BioPoint's IMU sensors, we can translate the movements captured by the user into the movement of the robot arm.
 
-The defined motion required for painting serves as a perfect proof of concept task for our project. The intricate and controlled movements involved in painting demand a high level of precision, making it an ideal scenario to test the interactivity aspect of our work. The BioPoint IMU sensors enable us to capture the nuanced motions of the user's hand, wrist, and arm, translating these inputs into coordinated actions for the robot arm.
-
-## Problems and Frustrations
-Embarking on the journey of creating a system that seamlessly integrates BioPoint biosensors with a robotic arm posed several challenges. Overcoming these hurdles was crucial for the success of our project, and it required a combination of creativity, collaboration, and perseverance.
-
 <figure style="float: none">
     <iframe width="560" height="315" src="https://www.youtube.com/embed/GYB5D0WIcmQ?si=mEKbO0NLhAFNZpW7" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen>
     </iframe>
   <figcaption> The first move matters! </figcaption>
 </figure>
-
-### Establishing a Stable Connection with the BioPoints
-One of the primary challenges we encountered was establishing an efficient and stable connection with the BioPoint sensor. The need for real-time data transmission added complexity to the task. To address this, we implemented parallel processing, where each thread utilized a separate command-line interface (CLI) instance provided by SiFi Labs. This approach allowed us to concurrently connect and control each BioPoint sensor device, ensuring a smoother and more responsive user experience.
-
-### Data Cleaning and Processing
-Obtaining meaningful movement data from the BioPoint sensor required data cleaning and processing. Dealing with multifaceted data and extracting accurate motion information was a big challenge for us. (MORE TO ADD HERE WHEN WE FINALIZE OUR DATA CLEANING APPROACH)
-
-### Learning the Robot Arm Interface
-Navigating and understanding the scripts used to control the Universal Robots UR10e presented a learning curve for our team. Familiarizing ourselves with the intricacies of the robot arm interface was essential for using the robot arm effectively and translating user movements into precise robotic actions. As we delved into this aspect of the project, we encountered challenges related to script integration, parameter tuning, and ensuring a seamless interaction between the user and the robotic system. The robotics team directed efforts towards mastering the robot arm interface to optimize the overall performance of our system.
 
 # Navigating the Project: From Concept to Reality
 
@@ -100,9 +84,6 @@ With the Project Network Diagram (PND), we visualized the sequential tasks, alwa
 
 # Solutions!
 
-
-
-
 <figure style="float: none">
     <iframe width="560" height="315" src="https://www.youtube.com/embed/cqzUbot4i0c?si=4Z1wLm5yeVKEAEF6" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
   <figcaption> Robot moving in harmony with the arm! </figcaption>
@@ -110,9 +91,4 @@ With the Project Network Diagram (PND), we visualized the sequential tasks, alwa
 # Demonstration
 
 # Conclusion
-## Expanding Possibilities
 Looking ahead, our project sets the stage for exciting future endeavors and advancements in the realm of intuitive robotics. As we refine our system based on real-world feedback and continue to address challenges, the door opens to explore applications beyond painting. Future work can involve further enhancing the precision of our robotic system, incorporating machine learning algorithms for adaptive control, and expanding the compatibility with additional sensors for a richer user experience. We originally indented to implement haptics for this project which we sadly did not have time for, but this is also a possiblity in regards to future work.
-
-
-
-
