@@ -4,7 +4,7 @@ title: "Inntuitive Robotics"
 date: 2023-11-27 07:00:00 +0200
 categories: applied-projects
 author: Emin Memis, Fabian Stordalen, Masoud Nikafs, Theo Griffin Halvorsen
-image: /assets/image/2023_11_11_ahmetem_hyper_flute_review_01.jpg
+image: https://www.uio.no/english/studies/programmes/mct-master/blog/assets/image/2023_11_25_fabianst_blogcover.png?alt=original
 keywords: imu, robotics, telerobotics
 excerpt: "Controling a robot arm with medical sensors"
 ---
