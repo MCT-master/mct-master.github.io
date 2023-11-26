@@ -1,15 +1,20 @@
 ---
 layout: post
 title: "Developing for an Embedded Platform"
-date: 2023-11-27 07:00:00 +0200
+date: 2023-11-26 07:00:00 +0200
 categories: applied-projects
 author: Alexander Wastnidge, Jack Hardwick, Aysima Karcaaltincaba, Kristian Eicke, Nino Jakeli
+<<<<<<< Updated upstream
 image: 
 keywords: imu, 
 excerpt: "Developing for an Embedded Platform"
+=======
+image: /assets/image/2023_11_26_kristeic_setup.jpeg
+keywords: imu, machine learning, design, teamwork, hardware, sound design
+excerpt: "Check out what we worked on as a team in this year's Applied Project."
+>>>>>>> Stashed changes
 ---
 
-# Developing for an Embedded Platform
 
 ### Introduction 
 
@@ -24,7 +29,39 @@ The outcomes of these different work packages are detailed below:
 
 ### Integrated Speaker Solution
 
-The project partners specified that for future iterations of the prototype they wanted a unified solution for powering the Raspberry Pi and speakers without the need to open the product. After a period of research and exploration the following potential solutions were offered;
+The project partners specified that for future iterations of the prototype they wanted a unified solution for powering the Raspberry Pi and speakers. The original arrangement consisted of a power-bank, the RPi and a bluetooth speaker. We quickly came to the conclusion that designing and implementing an explicit and safe power circuit is above our skill level, so we focused on a power-bank solution. After a period of research and exploration we found a hardware arrangement that works.
+
+<figure>
+  <img src="/assets/image/2023_11_26_kristeic_components.png"
+  height="200"
+  width="1000">
+  <figcaption>
+    <span class="caption">Component and signal flow overview</span>
+  </figcaption>
+</figure>
+
+<figure>
+  <img src="/assets/image/2023_11_26_kristeic_setup.jpeg"
+  height="200"
+  width="1000">
+  <figcaption>
+    <span class="caption">The assembled setup</span>
+  </figcaption>
+</figure>
+
+We also tested three different kinds of speaker drivers. The largest-diameter speaker driver produced the best clarity as well as a bass represenation that is comparable to the already installed bluetooth speaker.
+
+<figure>
+  <img src="/assets/image/2023_11_26_kristeic_speaker_drivers.jpeg"
+  height="200"
+  width="1000">
+  <figcaption>
+    <span class="caption">The range of speaker drivers we tested</span>
+  </figcaption>
+</figure>
+
+All tested hardware arrangements provide a significant increase in sound quality and clarity without compromising too much in the low-end, thanks to the class D amplifier board and high-quality speaker drivers. And, With the new power-bank, the system can run twice as long. 
+
 
 ### LED Mapping
 
