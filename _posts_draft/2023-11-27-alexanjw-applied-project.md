@@ -9,10 +9,9 @@ keywords: imu, machine learning, design, teamwork, hardware, sound design
 excerpt: "Check out what we worked on as a team in this year's Applied Project."
 ---
 
-
 ## Introduction 
 
-For our MCT Applied Project we have worked on several proof-of-concept development solutions for a prototype commercial product. The prototype platform is based around a [Raspberry Pi](https://www.raspberrypi.com) and a [SenseHat cape](https://www.raspberrypi.com/products/sense-hat/) inside of a 3D printed sphere. The intention for the platform is to elicit movement from the user by having music and audio react to motion in real time. In order to explore further potential functionality and to provide short-to-medium term solutions for future rounds of prototypes, our team took on several areas of development for this platform. These were:
+For our MCT Applied Project we have worked on several proof-of-concept development solutions for [Muzziball™](https://www.muzziball.com/en), an exciting interactive ball which is currently in the development and prototype phase. The prototype of the Muzziball platform is based around a [Raspberry Pi](https://www.raspberrypi.com) and a [SenseHat cape](https://www.raspberrypi.com/products/sense-hat/) inside of a 3D printed sphere. The intention for the platform is to elicit movement from the user by having music and audio react to motion in real time. In order to explore further potential functionality and to provide short-to-medium term solutions for future rounds of prototypes, our team took on several areas of development for this platform. These were:
 
 ### Integrated Speaker Solution
 
@@ -66,7 +65,7 @@ We therefore created an API in Python for handling the behaviour of the LEDs. Th
 
 We worked to implement new possibilities of mapping the motion data using machine learning. In exploring solutions, we used two machine learning packages, Rebecca Fiebrink’s [Wekinator](http://www.wekinator.org) and the [Neuralnet external](https://github.com/alexdrymonitis/neuralnet) for Pure Data.
 
-We decided to take orientation as our input data as we felt this was underused in the current implementation. The SenseHat API allows access to accelerometer, gyroscope and magnetometer data streams. In order to calculate real-time orientation we used a sensor fusion algorithm from the micropython-IMU repository [micropython-fusion on Github](https://github.com/micropython-IMU/micropython-fusion). 
+We decided to take orientation as our input data as we felt this was underused in the current implementation. The SenseHat API allows access to accelerometer, gyroscope and magnetometer data streams. In order to calculate real-time orientation we used a sensor fusion algorithm from the micropython-IMU repository [micropython-fusion on Github](https://github.com/micropython-IMU/micropython-fusion).
 
 
 <figure>
@@ -74,7 +73,7 @@ We decided to take orientation as our input data as we felt this was underused i
   height="300"
   width="400">
   <figcaption>
-    <span class="caption"> Pitch, roll, and yaw axes of the Raspberry Pi/SenseHat. Source: SenseHat documentation</span>
+    <span class="caption"> Pitch, roll, and yaw axes of the Raspberry Pi/SenseHat</span>
   </figcaption>
 </figure>
 
@@ -93,7 +92,6 @@ We focused on using a regression model to map two motion inputs (pitch and roll)
   </figcaption>
 </figure>
 
-
 ### Offline Motion Data Analysis
 
 We aimed to provide tools to illustrate movement data and how it related to other controls in the system.  This meant obtaining and storing the motion data as well as creating a "tag" system.  Here, tags refer to each user created preset and therefore the type of audio being played.
@@ -102,7 +100,6 @@ The acceleration data is stored as time series together with the tag information
 
 Analysis was then done in a Jupyter Notebook, reading the csv file and displaying plots to show movement data over time per tag. The acceleration at different axes was difficult to understand so we used magnitude of those three axes as the parameter to show the movement amount. As a result, the partners now have the tools to pick a time range and a tag and understand the movement elicited over this time.
 
-
 ### Conclusion
 
-We have been able to succcessfully implement our solutions for the project partner.  The intention throughout has been to offer potential solutions to the project partner which they can use for future iterations of the product if they wish to do so.
+Our intention throughout this project has been to offer potential solutions to the project partner which they can use for future iterations of the product if they wish to do so. To that end, we have been able to succcessfully implement our solutions for the project partner.
