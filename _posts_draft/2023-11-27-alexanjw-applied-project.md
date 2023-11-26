@@ -71,7 +71,10 @@ We worked to implement new functionality using machine learning to expand the po
 
 We decided to take orientation as our input data as we felt this was a currently underused in the current implementation. The SenseHat API allows access to accelerometer, gyroscope and magnetometer data streams. In order to calculate real-time orientation we used a sensor fusion algorithm from the micropython-IMU repository [micropython-fusion on Github](https://github.com/micropython-IMU/micropython-fusion). 
 
-[orientation picture]
+<figure>
+  <img src="assets/image/2023_11_26_jackeh_sensehat_orientation.png"/>
+  <figcaption>The pitch, roll, and yaw axes of the Raspberry Pi and SenseHat</figcaption>
+</figure>
 
 For the sake of musical possibilities afforded, we decided to focus on using a regression model to map two motion inputs (pitch and roll) to four outputs. Using the regression model allowed for a smooth transition between orientation states and greater potential for musical mappings. We created 4 new presets to showcase the model:
 - Sine tones with evolving chords - the four output values from the model control the volumes of sine tones. The pitches of these sine tones outline 4 diatonic chords in C major: C9sus4, Cmaj7, G9sus4, and G7. The chord changes every 2 minutes and cycle repeatedly through these four chords in order.
