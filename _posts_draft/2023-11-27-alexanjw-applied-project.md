@@ -6,10 +6,10 @@ categories: applied-projects
 author: Alexander Wastnidge, Jack Hardwick, Aysima Karcaaltincaba, Kristian Eicke, Nino Jakeli
 image: 
 keywords: imu, 
-excerpt: "Controling a robot arm with medical sensors"
+excerpt: "Developing for an Embedded Platform"
 ---
 
-# Developing for an Embedded Platform
+# c
 
 ### Introduction 
 
