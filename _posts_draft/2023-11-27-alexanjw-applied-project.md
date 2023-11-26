@@ -56,14 +56,18 @@ We also tested three different kinds of speaker drivers. The largest-diameter sp
 
 All tested hardware arrangements provide a significant increase in sound quality and clarity without compromising too much in the low-end, thanks to the class D amplifier board and high-quality speaker drivers. And, With the new power-bank, the system can run twice as long. 
 
-
 ### LED Mapping
 
 The product included an array of RGB LED lights as part of the SenseHat on the Raspberry Pi. Some functionality, such as colour changing, was already implemented to make use of these lights. However, we identified an opportunity for creating other mappings while also building a more robust and flexible interface for controlling them.
 
 We therefore created an API in Python for handling the behaviour of these lights, which allows users to change lightings modes by calling a simple function, and then have the lights change over time. Our new API also adds motion-reactive lights, allowing the lights to change colour depending on how much the ball is moving.
 
-<motion-reactive light mode video/gif of Pi not in ball>
+<figure style="float: none">
+  <video width="auto" controls>
+    <source src="https://www.uio.no/english/studies/programmes/mct-master/blog/assets/video/2023_11_26_jackeh_applied_project_leds.mp4" type='video/mp4'>
+  </video>
+  <figcaption>The motion-reactive mode in the new lighting system.</figcaption>
+</figure>
 
 ### Mapping Motion Data with ML
 
