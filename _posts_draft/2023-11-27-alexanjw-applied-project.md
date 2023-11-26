@@ -4,15 +4,9 @@ title: "Developing for an Embedded Platform"
 date: 2023-11-26 07:00:00 +0200
 categories: applied-projects
 author: Alexander Wastnidge, Jack Hardwick, Aysima Karcaaltincaba, Kristian Eicke, Nino Jakeli
-<<<<<<< Updated upstream
-image: 
-keywords: imu, 
-excerpt: "Developing for an Embedded Platform"
-=======
 image: /assets/image/2023_11_26_kristeic_setup.jpeg
 keywords: imu, machine learning, design, teamwork, hardware, sound design
 excerpt: "Check out what we worked on as a team in this year's Applied Project."
->>>>>>> Stashed changes
 ---
 
 
