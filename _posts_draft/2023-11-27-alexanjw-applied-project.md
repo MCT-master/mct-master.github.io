@@ -9,7 +9,7 @@ keywords: imu,
 excerpt: "Developing for an Embedded Platform"
 ---
 
-# c
+# Developing for an Embedded Platform
 
 ### Introduction 
 
@@ -38,7 +38,9 @@ We therefore created an API in Python for handling the behaviour of these lights
 
 We worked to implement new functionality using machine learning to expand the possibilities of mapping the motion data from the SenseHat cape. In exploring solutions for this we used two machine learning packages, Rebecca Fiebrink’s [Wekinator](http://www.wekinator.org) and the [Neuralnet external](https://github.com/alexdrymonitis/neuralnet) for Pure Data. Wekinator is widely used in music embedded systems for training and implementing machine learning algorithms for creative purposes including mapping for interactive music systems.
 
-We decided to take orientation as our input data as we felt this was a currently underused in the current implementation. The SenseHat API allows access to accelerometer, gyroscope and magnetometer data streams. In order to calculate real-time orientation we used a sensor fusion algorithm from the micropython-IMU repository [micropython-fusion on Github](https://github.com/micropython-IMU/micropython-fusion). [picture]
+We decided to take orientation as our input data as we felt this was a currently underused in the current implementation. The SenseHat API allows access to accelerometer, gyroscope and magnetometer data streams. In order to calculate real-time orientation we used a sensor fusion algorithm from the micropython-IMU repository [micropython-fusion on Github](https://github.com/micropython-IMU/micropython-fusion). 
+
+[orientation picture]
 
 For the sake of musical possibilities afforded, we decided to focus on using a regression model to map two motion inputs (pitch and roll) to four outputs. Using the regression model allowed for a smooth transition between orientation states and greater potential for musical mappings. We created 4 new presets to showcase the model:
 - Sine tones with evolving chords - the four output values from the model control the volumes of sine tones. The pitches of these sine tones outline 4 diatonic chords in C major: C9sus4, Cmaj7, G9sus4, and G7. The chord changes every 2 minutes and cycle repeatedly through these four chords in order.
@@ -56,3 +58,5 @@ The analysis was done in a Jupyter Notebook, reading this csv file offline and w
 
 
 ### Conclusion
+
+We have been able to implement several proof-of-concept solutions for the project partner.  The intention throughout has been to offer potential solutions to the project partner which they can pick up and develop further if they wish to do so.  In this project we have combined and used several key facets of the MCT course including audio programming, Python data processing, motion capture, machine learning and interactive music systems, showing their relevance beyond academia.
