@@ -1,12 +1,12 @@
 ---
 layout: post
-title: "Inntuitive Robotics"
+title: "Intuitive Robotics"
 date: 2023-11-27 07:00:00 +0200
 categories: applied-projects
 author: Emin Memis, Fabian Stordalen, Masoud Nikafs, Theo Griffin Halvorsen
 image: https://www.uio.no/english/studies/programmes/mct-master/blog/assets/image/2023_11_25_fabianst_blogcover.png?alt=original
 keywords: imu, robotics, telerobotics
-excerpt: "Controling a robot arm with medical sensors"
+excerpt: "Controlling a robot arm with medical sensors"
 ---
 
 # Introduction
@@ -74,19 +74,23 @@ With the Project Network Diagram (PND), we visualized the sequential tasks, alwa
   </figcaption>
 </figure>
 
-# Implementation 
+# Implementation
 
+Our team recently embarked on a complex project involving the programming and maneuvering of a robot. We kicked off this endeavor by plunging deep into the mechanics of robotics control, learning the intricacies of tech pendant manipulation, and slowly mastering manual control using Joint and TCP actions. Although initially, we were tethered by local networks, later, we successfully tapped into the world of remote control through the Universal Robots ROS driver, which was quite a hurdle given our unfamiliarity with a ROS environment.
+
+We persisted, exploring UR’s predefined protocols for communication over TCP/IP. We examined only two among the six communication interfaces available - the Primary/Secondary and RTDE interfaces. While the Primary/Secondary interface made it possible to transmit data to the robot and alter specific state changes, the weak link was its low frequency, manifesting in choppy motion. Thus, we advanced towards the RTDE interface with a higher frequency and, in turn, smoother motion. This improvement came with the added burden of managing data on the robot's end, which was handled by developing a custom program to interpret and act upon the data.
+
+Simultaneously, we implemented other necessary software for handling data streaming and processing from the BioPoint devices. With rigorous research, planning, and trials, we created a Python program that established a seamless and efficient connection with the devices, streamed the IMU data, and processed it to extract purposeful parameters for robot control.
 
 <figure>
-  <img src="https://www.uio.no/english/studies/programmes/mct-master/blog/assets/image/2023_11_27_fabianst_robotcontrols.jpg?alt=original"
-  height="200"
-  width="1000">
+  <img src="https://www.uio.no/english/studies/programmes/mct-master/blog/assets/image/2023_11_27_ahmetem_diagram01.jpg?alt=original">
   <figcaption>
     <span class="caption">The Control Pipeline for the System</span>
   </figcaption>
 </figure>
 
-Our way of getting the robot to move involved creating an interface for mapping attitude data obtained from the BioPoint’s IMUs to pre-defined movements on the robot. To control the speed of movements we estimated the velocity based on change between each data package with an assumed time difference between them.
+# The Robot Arm in Action
+
 <figure style="float: none">
     <iframe width="560" height="315" src="https://www.youtube.com/embed/cqzUbot4i0c?si=4Z1wLm5yeVKEAEF6" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
   <figcaption> Robot moving in harmony with the arm! </figcaption>
