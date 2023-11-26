@@ -81,10 +81,10 @@ We decided to take orientation as our input data as we felt this was a currently
 </figure>
 
 For the sake of musical possibilities afforded, we decided to focus on using a regression model to map two motion inputs (pitch and roll) to four outputs. Using the regression model allowed for a smooth transition between orientation states and greater potential for musical mappings. We created 4 new presets to showcase the model:
-- Sine tones with evolving chords - the four output values from the model control the volumes of sine tones. The pitches of these sine tones outline 4 diatonic chords in C major: C9sus4, Cmaj7, G9sus4, and G7. The chord changes every 2 minutes and cycle repeatedly through these four chords in order.
-- Sawtooth waves through analogue-style filters - the four output values are mapped to volume and filter cutoff of four analogue synthesiser-style voices, which are tuned to a major seventh chord.
-- Choir - the four output values from the model control the volume of five choir samples which form an A major pentatonic scale. The tonic A note is triggered by low values in the four regression outputs, therefore acts as a drone when the four trained orientations are not detected or are only detected with small values.
-- Disco - the four output values control the volume of four different layered disco samples. By changing the orientation of the ball, the user can morph from only drums through to a full mix with drums, bass, guitar, and strings.
+- **Sine tones with evolving chords** - the four output values from the model control the volumes of sine tones. The pitches of these sine tones outline 4 diatonic chords in C major: C9sus4, Cmaj7, G9sus4, and G7. The chord changes every 2 minutes and cycle repeatedly through these four chords in order.
+- **Sawtooth waves through analogue-style filters** - the four output values are mapped to volume and filter cutoff of four analogue synthesiser-style voices, which are tuned to a major seventh chord.
+- **Choir** - the four output values from the model control the volume of five choir samples which form an A major pentatonic scale. The tonic A note is triggered by low values in the four regression outputs, therefore acts as a drone when the four trained orientations are not detected or are only detected with small values.
+- **Disco** - the four output values control the volume of four different layered disco samples. By changing the orientation of the ball, the user can morph from only drums through to a full mix with drums, bass, guitar, and strings.
 
 ### Offline Motion Data Analysis
 
