@@ -49,14 +49,18 @@ We also tested three different kinds of speaker drivers. The largest-diameter sp
 
 All tested hardware arrangements provide a significant increase in sound quality and clarity without compromising too much in the low-end, thanks to the class D amplifier board and high-quality speaker drivers. And, With the new power-bank, the system can run twice as long. 
 
-
 ### LED Mapping
 
 The product included an array of RGB LED lights as part of the SenseHat on the Raspberry Pi. Some functionality, such as colour changing, was already implemented to make use of these lights. However, we identified an opportunity for creating other mappings while also building a more robust and flexible interface for controlling them.
 
 We therefore created an API in Python for handling the behaviour of the LEDs. This allows users to change light modes by calling a simple function, and then have the lights change over time. Our new API also adds motion-reactive lights, allowing the lights to change colour depending on how much the ball is moving.
 
-<motion-reactive light mode video/gif of Pi not in ball>
+<figure style="float: none">
+  <video width="auto" controls>
+    <source src="https://www.uio.no/english/studies/programmes/mct-master/blog/assets/video/2023_11_26_jackeh_applied_project_leds.mp4" type='video/mp4'>
+  </video>
+  <figcaption>The motion-reactive mode in the new lighting system.</figcaption>
+</figure>
 
 ### Mapping Motion Data with ML
 
@@ -64,31 +68,13 @@ We worked to implement new possibilities of mapping the motion data using machin
 
 We decided to take orientation as our input data as we felt this was underused in the current implementation. The SenseHat API allows access to accelerometer, gyroscope and magnetometer data streams. In order to calculate real-time orientation we used a sensor fusion algorithm from the micropython-IMU repository [micropython-fusion on Github](https://github.com/micropython-IMU/micropython-fusion). 
 
-<figure>
-  <img src="/assets/image/2023_11_27_alexanjw_orientation.jpg"
-  height="300"
-  width="400">
-  <figcaption>
-    <span class="caption"> Pitch, roll, and yaw axes of the Raspberry Pi/SenseHat. Source: SenseHat documentation</span>
-  </figcaption>
-</figure>
+[orientation picture]
 
-We focused on using a regression model to map two motion inputs (pitch and roll) to four outputs. Using the regression model allowed for a smooth transition between orientation states and greater potential for musical mappings. We created 4 new presets to showcase the model:
-- Sine tones with evolving chords
-- Sawtooth waves through analogue-style filters
-- Choir - the four output values from the model control the volume of five choir samples.
-- Disco - the four output values control the volume of four different layered disco samples.
-
-<figure>
-  <img src="/assets/image/2023_11_27_alexanjw-muzziNN.jpg"
-  height="300"
-  width="500">
-  <figcaption>
-    <span class="caption"> Summary of the motion data ML mapping workstream </span>
-  </figcaption>
-</figure>
-
-
+For the sake of musical possibilities afforded, we decided to focus on using a regression model to map two motion inputs (pitch and roll) to four outputs. Using the regression model allowed for a smooth transition between orientation states and greater potential for musical mappings. We created 4 new presets to showcase the model:
+- Sine tones with evolving chords - the four output values from the model control the volumes of sine tones. The pitches of these sine tones outline 4 diatonic chords in C major: C9sus4, Cmaj7, G9sus4, and G7. The chord changes every 2 minutes and cycle repeatedly through these four chords in order.
+- Sawtooth waves through analogue-style filters - the four output values are mapped to volume and filter cutoff of four analogue synthesiser-style voices, which are tuned to a major seventh chord.
+- Choir - the four output values from the model control the volume of five choir samples which form an A major pentatonic scale. The tonic A note is triggered by low values in the four regression outputs, therefore acts as a drone when the four trained orientations are not detected or are only detected with small values.
+- Disco - the four output values control the volume of four different layered disco samples. By changing the orientation of the ball, the user can morph from only drums through to a full mix with drums, bass, guitar, and strings.
 
 ### Offline Motion Data Analysis
 
