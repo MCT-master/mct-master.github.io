@@ -4,7 +4,7 @@ title: "The Saxelerophone: Demonstrating gestural virtuosity"
 date: 2023-11-20 10:00:00 +0200
 categories: interactive-music
 author: Joachim Poutaraud
-image: /assets/image/2023_09_22_jackeh_augmented_violin_preview.jpg
+image: /assets/image/2023_11_26_joachipo_saxelerophone.jpg
 excerpt: "A hyper-instrument tracking data from an accelerometer and a contact microphone to create new interactive sounds for the saxophone."
 keywords: interactive music systems, saxophone, hyper-instrument, virtuosity
 ---
