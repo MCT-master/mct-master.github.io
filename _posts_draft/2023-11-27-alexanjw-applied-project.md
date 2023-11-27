@@ -9,9 +9,9 @@ keywords: imu, machine learning, design, teamwork, hardware, sound design
 excerpt: "Check out what we worked on as a team in this year's Applied Project."
 ---
 
-## Introduction 
+### Introduction 
 
-For our MCT Applied Project we have worked on several proof-of-concept development solutions for [Muzziball™](https://www.muzziball.com/en), an exciting interactive ball which is currently in the development and prototype phase. The prototype of the Muzziball platform is based around a [Raspberry Pi](https://www.raspberrypi.com) and a [SenseHat cape](https://www.raspberrypi.com/products/sense-hat/) inside of a 3D printed sphere. The intention for the platform is to elicit movement from the user by having music and audio react to motion in real time. In order to explore further potential functionality and to provide short-to-medium term solutions for future rounds of prototypes, our team took on several areas of development for this platform. These were:
+For our MCT Applied Project we have worked on several proof-of-concept development solutions for [Muzziball™](https://www.muzziball.com/en), an exciting interactive ball which is currently in the development and prototype phase. The prototype of the Muzziball platform is based around a [Raspberry Pi](https://www.raspberrypi.com) and a [SenseHat cape](https://www.raspberrypi.com/products/sense-hat/) inside of a 3D printed sphere. The intention for the platform is to elicit movement from the user by having music and audio react to motion in real time. In order to explore further potential functionality and to provide short-to-medium term solutions for future rounds of prototypes, our team took on several areas of development for this platform, all of which are discussed below.
 
 ### Integrated Speaker Solution
 
@@ -111,4 +111,4 @@ Analysis was then done in a Jupyter Notebook, reading the csv file and displayin
 
 ### Conclusion
 
-Our intention throughout this project has been to offer potential solutions to the project partner which they can use for future iterations of the product if they wish to do so. To that end, we have been able to succcessfully implement our solutions for the project partner.
+Our intention throughout this project has been to offer potential solutions to the project partner which they can use for future iterations of the product if they wish to do so. To that end we have been able to succcessfully implement our solutions, and we look forward to seeing where Muzziball goes in the future.
