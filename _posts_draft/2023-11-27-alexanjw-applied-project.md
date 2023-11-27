@@ -77,7 +77,7 @@ We decided to take orientation as our input data as we felt this was underused i
   </figcaption>
 </figure>
 
-We focused on using a regression model to map two motion inputs (pitch and roll) to four outputs. Using the regression model allowed for a smooth transition between orientation states and greater potential for musical mappings. We created 4 new presets to showcase the model:
+We focused on using a [regression ML model](https://towardsdatascience.com/a-beginners-guide-to-regression-analysis-in-machine-learning-8a828b491bbf) to map two motion inputs (pitch and roll) to four outputs. Using the regression model allowed for a smooth transition between orientation states and greater potential for musical mappings. We created 4 new presets to showcase the model:
 - Sine tones with evolving chords
 - Sawtooth waves through analogue-style filters
 - Choir - the four output values from the model control the volume of five choir samples.
@@ -111,4 +111,4 @@ Analysis was then done in a Jupyter Notebook, reading the csv file and displayin
 
 ### Conclusion
 
-Our intention throughout this project has been to offer potential solutions to the project partner which they can use for future iterations of the product if they wish to do so. To that end we have been able to succcessfully implement our solutions, and we look forward to seeing where Muzziball goes in the future.
+Our intention throughout this project has been to offer potential solutions to the project partner which they can use for future iterations of the product if they wish to do so. To that end we have been able to successfully implement our solutions, and we look forward to seeing where Muzziball goes in the future.
