@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Developing for an Embedded Platform"
+title: "Developing for Muzziball"
 date: 2023-11-26 07:00:00 +0200
 categories: applied-projects
 author: Alexander Wastnidge, Jack Hardwick, Aysima Karcaaltincaba, Kristian Eicke, Nino Jakeli
@@ -15,7 +15,7 @@ For our MCT Applied Project we have worked on several proof-of-concept developme
 
 ### Integrated Speaker Solution
 
-The project partners specified that for future iterations of the prototype they wanted a unified solution for powering the Raspberry Pi and speakers. The original arrangement consisted of a power-bank, the RPi and a bluetooth speaker. We quickly came to the conclusion that designing and implementing an explicit and safe power circuit is above our skill level, so we focused on a power-bank solution. After a period of research and exploration we found the following solution.
+The project partners specified that for future iterations of the prototype they wanted a unified solution for powering the Raspberry Pi and speakers. The original arrangement consisted of a power bank, the RPi and a bluetooth speaker. We quickly came to the conclusion that designing and implementing an explicit and safe power circuit is above our skill level, so we focused on a power bank solution. After a period of research and exploration we found the following solution.
 
 <figure>
   <img src="/assets/image/2023_11_26_kristeic_components.png"
@@ -46,7 +46,7 @@ We also tested three different kinds of speaker drivers. The largest-diameter sp
   </figcaption>
 </figure>
 
-All tested hardware arrangements provide a significant increase in sound quality and clarity without compromising too much in the low-end, thanks to the class D amplifier board and high-quality speaker drivers. With the new power-bank, the system can run twice as long. 
+All tested hardware arrangements provide a significant increase in sound quality and clarity without compromising too much in the low-end, thanks to the class D amplifier board and high-quality speaker drivers. With the new power bank, the system can run twice as long. 
 
 ### LED Mapping
 
