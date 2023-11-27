@@ -3,7 +3,7 @@ layout: post
 title: "Intuitive Robotics"
 date: 2023-11-27 07:00:00 +0200
 categories: other
-author: Emin Memis, Fabian Stordalen, Masoud Nikafs, Theo Griffin Halvorsen
+author: Emin Memis, Fabian Stordalen, Masoud Niknafs, Theo Griffin Halvorsen
 image: https://www.uio.no/english/studies/programmes/mct-master/blog/assets/image/2023_11_25_fabianst_blogcover.png?alt=original
 keywords: imu, robotics, telerobotics
 excerpt: "Controlling a robot arm with medical sensors"
