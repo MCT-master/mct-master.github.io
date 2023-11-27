@@ -100,6 +100,15 @@ The acceleration data is stored as time series together with the tag information
 
 Analysis was then done in a Jupyter Notebook, reading the csv file and displaying plots to show movement data over time per tag. The acceleration at different axes was difficult to understand so we used magnitude of those three axes as the parameter to show the movement amount. As a result, the partners now have the tools to pick a time range and a tag and understand the movement elicited over this time.
 
+<figure>
+  <img src="/assets/image/2023_11_26_akarcaal_movement_over.png"
+  height="300"
+  width="500">
+  <figcaption>
+    <span class="caption">Plot of the magnitude of the acceleration as movement, over time per tag</span>
+  </figcaption>
+</figure>
+
 ### Conclusion
 
 Our intention throughout this project has been to offer potential solutions to the project partner which they can use for future iterations of the product if they wish to do so. To that end, we have been able to succcessfully implement our solutions for the project partner.
