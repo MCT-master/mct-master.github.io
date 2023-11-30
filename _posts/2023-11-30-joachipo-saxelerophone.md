@@ -1,11 +1,11 @@
 ---
 layout: post
 title: "The Saxelerophone: Demonstrating gestural virtuosity"
-date: 2023-11-20 10:00:00 +0200
+date: 2023-11-30 10:00:00 +0200
 categories: interactive-music
 author: Joachim Poutaraud
 image: /assets/image/2023_11_26_joachipo_saxelerophone.jpg
-excerpt: "A hyper-instrument tracking data from an accelerometer and a contact microphone to create new interactive sounds for the saxophone."
+excerpt: "A hyper-instrument tracking data from a 3-axis accelerometer and a contact microphone to create new interactive sounds for the saxophone."
 keywords: interactive music systems, saxophone, hyper-instrument, virtuosity
 ---
 
@@ -28,8 +28,8 @@ To achieve this, I conceived the Saxelerophone as a hyper-instrument (i.e. added
    <iframe
       height="400"
       width="100%"
-      src="https://www.youtube.com/watch?v=v3EeELhgAlI"
-      title='Performing with the Saxelerophone.'
+      src="https://youtu.be/xH90NDN7JsQ"
+      title='Performing live with the Saxelerophone.'
       frameborder="0"
       allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
       </iframe>
