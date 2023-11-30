@@ -5,7 +5,7 @@ date: 2023-11-11 12:00:00 +0200
 categories: interactive-music
 author: Emin Memis
 image: /assets/image/2023_11_11_ahmetem_hyper_flute_review_01.jpg
-keywords: ims, hci, guitar, interactive music systems, magpick
+keywords: ims, hci, interactive music systems
 excerpt: "A Boehm flute enhanced with sensors"
 ---
 
