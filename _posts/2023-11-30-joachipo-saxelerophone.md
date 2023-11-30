@@ -24,34 +24,14 @@ Well, I think so, and that's why I created the Saxelerophone. This IMS is design
 
 To achieve this, I conceived the Saxelerophone as a hyper-instrument (i.e. added additional sensors to the saxophone), "*to give extra power and finesse to virtuosic performers*" ([Machover and Chung, 1989](https://cir.nii.ac.jp/crid/1573950398868759680)). On the one hand, it's a simple, flexible system consisting of a contact microphone and a three-axis digital accelerometer, designed to be mounted on any reed instrument fitted with a ligature. On the other hand, it's a system based on complex gestural control of sound synthesis, using robust machine-learning methods to learn static regression mappings, enabling the construction of a new expressive and creative sound space for developing gestural virtuosity. The code, design files and technical documentation to replicate the system are available [here](https://github.com/joachimpoutaraud/saxelerophone).
 
-<figure style="float: none">
-   <iframe
-      height="400"
-      width="100%"
-      src="https://youtu.be/xH90NDN7JsQ"
-      title='Performing live with the Saxelerophone.'
-      frameborder="0"
-      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
-      </iframe>
-  <figcaption></figcaption>
-</figure>
+<iframe width="100%" height="500" src="https://www.youtube.com/embed/xH90NDN7JsQ?si=q3m7FXBLyI6kskkb" title="Performing live with the Saxelerophone" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
 
 ## Gestural control of sound synthesis
 
 To saxophonists, it's relatively easy to move their instrument around in space when playing. In fact, the smaller the saxophone, the easier it is, and that's quite common to see this kind of demonstration at live performances.
 
-<figure style="float: none">
-   <iframe
-      height="400"
-      width="100%"
-      src="https://www.youtube.com/watch?v=v3EeELhgAlI"
-      title='Kenny Garrett Quintet - Hargrove (live @Festival Jazz en Tête)'
-      frameborder="0"
-      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
-      </iframe>
-  <figcaption></figcaption>
-</figure>
+<iframe width="100%" height="500" src="https://www.youtube.com/embed/v3EeELhgAlI?si=UxWIw5GLIUm22yC0" title="Kenny Garrett Quintet - Hargrove (live @Festival Jazz en Tête)" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
 So I thought it would be interesting to use the *musical gestures* of saxophonists, which have a certain capacity to visually *accompany* sound, in the sense that they are gestures in response to sound. These gestures have already been described as "*sound-accompanying*" ([Jensenius et al., 2010](https://books.google.no/books?hl=en&lr=&id=lHaMAgAAQBAJ&oi=fnd&pg=PA12&dq=A.+R.+Jensenius+and+M.+M.+Wanderley.+Musical+gestures:+Concepts+and+methods+in+research.+In+Musical+gestures,+pages+24%E2%80%9347.+Routledge,+2010.&ots=9tN20u9B7G&sig=YmoZFemJy-_nf2USUG2fZ9_sptc&redir_esc=y#v=onepage&q&f=false)) or "*sound-tracing*" ([Godøy et al., 2006](https://www.duo.uio.no/handle/10852/26899)) gestures. 
 
