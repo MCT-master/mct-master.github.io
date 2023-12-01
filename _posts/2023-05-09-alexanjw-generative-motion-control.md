@@ -9,7 +9,6 @@ excerpt: "Eight routes to meta-control"
 keywords: motion capture, pure data, IMU, osc
 ---
 
-##Generative Music with IMU data
 
 For  this project I wanted to explore the use of IMU motion data for techniques associated with generative music practices, such as those often found in Eurorack and audio programming.  [Brian Eno](http://www.inmotionmagazine.com/eno1.html) defines this practice generally as the creation of a system which automatically creates musical parts based on rules and sensibilities set by the musician.  The musician the therefore designer and curator over the system, rather than being directly responsible for creating the musical ideas.
 

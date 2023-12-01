@@ -9,7 +9,6 @@ keywords: telematic music, LoLa, low latency, audio engineering
 excerpt: "How much more difficult could it POSSIBLY be?"
 ---
 
-# Audio Engineering for Network Music Performances
 
 From hybrid online conferences to network music performances, the job of the sound technician is growing in complexity.  Here we will take a look at the added considerations for the FOH engineer working with network music performances (NMPs).
 
