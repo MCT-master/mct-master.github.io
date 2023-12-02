@@ -19,7 +19,7 @@ Well, I think so, and that's why I created the Saxelerophone. This IMS is design
 
 <figure style="float: none">
    <img src="/assets/image/2023_11_20_joachipo_saxelerophone.jpg" alt="The Saxelerophone." width="100%"/>
-   <figcaption>The Saxelerophone. Left: Soprano saxophone (Selmer Super Action 80 Series II) with sensors on the mouthpiece connected to a Bela board. Right (top): ADXL313 3-axis digital accelerometer sensor positioned above the contact microphone. Right (bottom): Contact microphone based on piezo material positioned on the saxophone’s ligature.</figcaption>
+   <figcaption>The Saxelerophone. Left: Soprano saxophone (Selmer Super Action 80 Series II) with sensors on the mouthpiece connected to a Bela board. Right (top): ADXL337 3-axis digital accelerometer sensor positioned above the contact microphone. Right (bottom): Contact microphone based on piezo material positioned on the saxophone’s ligature.</figcaption>
 </figure>
 
 To achieve this, I conceived the Saxelerophone as a hyper-instrument (i.e. added additional sensors to the saxophone), "*to give extra power and finesse to virtuosic performers*" ([Machover and Chung, 1989](https://cir.nii.ac.jp/crid/1573950398868759680)). On the one hand, it's a simple, flexible system consisting of a contact microphone and a three-axis digital accelerometer, designed to be mounted on any reed instrument fitted with a ligature. On the other hand, it's a system based on complex gestural control of sound synthesis, using robust machine-learning methods to learn static regression mappings, enabling the construction of a new expressive and creative sound space for developing gestural virtuosity. The code, design files and technical documentation to replicate the system are available [here](https://github.com/joachimpoutaraud/saxelerophone).
@@ -46,14 +46,14 @@ For audio sensing, the aim was to collect acoustic information specific to the i
 Next, a three-axis digital accelerometer was used to determine the saxophone's orientation and changes in movement. 
 
 <figure style="float: none">
-   <img src="/assets/image/2023_11_20_joachipo_accelerometer.jpg" alt="ADXL313 3-axis digital accelerometer." width="60%"/>
-   <figcaption>ADXL313 3-axis digital accelerometer.</figcaption>
+   <img src="/assets/image/2023_11_20_joachipo_adxl337.jpg" alt="ADXL337 3-axis digital accelerometer." width="60%"/>
+   <figcaption>ADXL337 3-axis digital accelerometer.</figcaption>
 </figure>
 
 It was this sensor that first and foremost enabled me to define a physical relationship between the performer's *sound-accompanying* gestures and sound synthesis control parameters (i.e. mapping). The mapping of gestures to sound synthesis parameters was then performed using machine learning. To do this, a regression algorithm was trained using an ANN framework for Pure Data called [neuralnet](https://github.com/alexdrymonitis/neuralnet) to create a new sound space in which the performer could navigate to generate new interactive sounds. A schematic representation of the Saxelerophone's mappings is shown in the diagram below.
 
 <figure style="float: none">
-   <img src="/assets/image/2023_11_20_joachipo_mapping.jpg" alt="Saxelerophone's mappings." width="60%"/>
+   <img src="/assets/image/2023_11_20_joachipo_mappings.jpg" alt="Saxelerophone's mappings." width="60%"/>
    <figcaption>Saxelerophone's mappings.</figcaption>
 </figure>
 
