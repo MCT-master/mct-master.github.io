@@ -4,7 +4,7 @@ title:  "Xyborg 2.0: A Data Glove-based Synthesizer"
 date:   2023-12-04 12:10:42 +0200
 categories: interactive-music
 author: Kristian Eicke
-image: /assets/image/2023_12_4_kristeic_thumbnail.png
+image: /assets/image/2023_12_04_kristeic_thumbnail.png
 excerpt: "Learn about my adventures in designing and playing a wearable instrument."
 keywords: interactive music systems, DMI, design, machine learning
 ---
@@ -16,7 +16,7 @@ Hand-based motion-focused music systems like an [earlier version of Xyborg](http
 My system consists of two wooden frames, two [accelerometer](https://learn.sparkfun.com/tutorials/adxl337-and-adxl377-accelerometer-hookup-guide/all) sensors, sixteen DIY capacitive sensors (eight for each hand) and four buttons + LED's. All of this is connected via solid core wire with the brain of the system: my pure data sound patches run on a hardware system called [Bela](https://learn.bela.io/using-bela/about-bela/what-is-bela/) - a tiny powerful computer specifically designed for musical purposes. The Bela sits inside a plastic casing and is powered by a power bank. Everything is strapped around the waist. You are fully power-independent and mobile while wearing the instrument. 
 
 <figure>
-  <img src="https://www.uio.no/english/studies/programmes/mct-master/blog/assets/image/2023_12_4_kristeic_xyborg.png?alt=original" width="100%">
+  <img src="https://www.uio.no/english/studies/programmes/mct-master/blog/assets/image/2023_12_04_kristeic_xyborg.png?alt=original" width="100%">
   <figcaption>
     <span class="caption">How to wear Xyborg + Model shots</span>
   </figcaption>
@@ -26,7 +26,7 @@ The mental model of Xyborg is indeed a keyboard with twelve keys, representing t
 
 <figure style="float: none">
    <img
-      src="/assets/image/2023_12_4_kristeic_hardware_layout.png" width="100%" />
+      src="/assets/image/2023_12_04_kristeic_hardware_layout.png" width="100%" />
    <figcaption> The hardware layout of Xyborg  </figcaption>
 </figure>
 
