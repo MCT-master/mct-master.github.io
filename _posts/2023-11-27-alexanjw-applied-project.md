@@ -2,7 +2,7 @@
 layout: post
 title: "Developing for Muzziball"
 date: 2023-11-26 07:00:00 +0200
-categories: applied-projects
+categories: applied-project
 author: Alexander Wastnidge, Jack Hardwick, Aysima Karcaaltincaba, Kristian Eicke, Nino Jakeli
 image: /assets/image/2023_11_26_kristeic_setup.jpeg
 keywords: imu, machine learning, design, teamwork, hardware, sound design

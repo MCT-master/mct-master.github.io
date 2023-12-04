@@ -9,7 +9,6 @@ keywords: expressivity, digital musical instruments, interative music systems, m
 excerpt: "The relationship between musician and instrument can be an extremely personal and intimate one"
 ---
 
-# Exploring Breath-based DMIs: A Review of the KeyWI
 
 ## Introduction
 The relationship between musician and instrument can be an extremely personal and intimate one.  Contrastingly the nature of interacting with machines is often characterised as being the opposite; removed, cold, impersonal.  Electronic instruments however, must always straddle this. Of interest to me currently is the use of breath as a control-interface for Digital Musical Instruments (DMIs). Its innate connotations of intimacy implying potentials for deep connection with an instrument.

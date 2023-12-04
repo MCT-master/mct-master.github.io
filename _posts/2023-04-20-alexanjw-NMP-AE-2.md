@@ -9,7 +9,7 @@ keywords: portal, audio, NMP, audio engineering, Telematic music
 excerpt: "A deeper dive into mixer work for NMPs"
 ---
 
-# Audio Engineering for NMPs: Part 2
+
 
 Building on the previous [blog post](https://mct-master.github.io/portal/2022/11/24/alexanjw-audio-engineering-nmps.html), which offers a high level overview of the extra considerations for audio engineers working with Network Music Performances (NMPs), this post will take a detailed look at examples for audio routing, with particular focus on the mixer and ADC/DAC.
 
