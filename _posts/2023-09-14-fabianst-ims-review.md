@@ -26,14 +26,16 @@ There are many ways of playing and expressing yourself using the guitar. Either 
 </figure>
 
 ## How to Create New Control Surfaces
-There are many ways to go about creating new control surfaces, either for an existing instrument or a new system you've developed. In 2001 Perry R. Cook introduced 13 principles for designing computer music controllers (Cook 2020), and in 2009 he added 3 more (Cook 2009).
+There are many ways to go about creating new control surfaces, either for an existing instrument or a new system you've developed. In 2001 Perry R. Cook introduced [13 principles for designing computer music controllers](https://arxiv.org/abs/2010.06524), and in 2009 he added [3 more](https://www.nime.org/proceedings/2009/nime2009_218.pdf).
 
-These principles are artistic, technological and more philosophical and are meant to serve as guidelines for instrument designers. He notes that these principles are not "universal, but are rather a set of opinions formed as part of the process of making many musical interfaces" (ibid.).
+These principles are artistic, technological and more philosophical and are meant to serve as guidelines for instrument designers. He notes that these principles are not "universal, but are rather a set of opinions formed as part of the process of making many musical interfaces".
 
-There's also the question of difficulty when designing a new controller. Should playing this instrument be easy? James McDermott et al. makes a case for why music interaction *should* be difficult in some cases (McDermott et al. 2013, 31). One of the main arguments for difficulty is long-term engagement. If a musician can master an instrument without much hassle they will quickly get bored and move on.
+There's also the question of difficulty when designing a new controller. Should playing this instrument be easy? James McDermott et al. makes a case for why [music interaction *should* be difficult](https://www.researchgate.net/publication/286349597_Should_Music_Interaction_Be_Easy) in some cases. One of the main arguments for difficulty is long-term engagement. If a musician can master an instrument without much hassle they will quickly get bored and move on.
 ## The Magpick
 
-The Magpick introduced at NIME 2019 is an augmented guitar plectrum which enables the user to control pre-defined effects using magnetic signals emitted from the guitar's pickups. This pick promises low latency and highly nuanced control over the sound by using the [bela platform](https://bela.io/). The idea behind the project was to use *ancillary gestures*, which are the physical movements made by musicians while playing their instruments or singing, to control sound production. The Magpick specifically utilizes the pre- and post-pluck movements of the picking hand to actuate the sensors in the plectrum.
+The [Magpick](https://www.nime.org/proceedings/2019/nime2019_paper013.pdf) introduced at [NIME 2019](https://www.nime.org/) is an augmented guitar plectrum which enables the user to control pre-defined effects using magnetic signals emitted from the guitar's pickups. This pick promises low latency and highly nuanced control over the sound by using the [Bela platform](https://bela.io/). The idea behind the project was to use *ancillary gestures*, which are the physical movements made by musicians while playing their instruments or singing, to control sound production. The Magpick specifically utilizes the pre- and post-pluck movements of the picking hand to actuate the sensors in the plectrum.
+
+The system works by taking a hollowed out pick and embedding it with loops of wires which then reacts to the magnetic signal sent out from the guitars pickups. So, voltage is generated based on how fast you are playing. The signal then gets sent to an amplifier before it reaches Bela to be further processed.
 
 <figure>
   <img src="https://www.uio.no/english/studies/programmes/mct-master/blog/assets/image/2023_09_18_fabianst_magpick.png?alt=original"
@@ -47,32 +49,22 @@ The Magpick introduced at NIME 2019 is an augmented guitar plectrum which enable
 
 ## Evaluating the System
 If analyzed through Perry Cook's principles for designing a computer music controller. Does it hold up to scrutiny? These principles aren't hard rules you have to follow when designing an instrument interface, but more of a design philosophy. The principles most applicable to this project are:
-1. **Programmability is a curse**
-2. **Copying an instrument is dumb, leveraging expert technique is smart**
-3. **Existing instruments suggest new controllers**
+1. **Copying an instrument is dumb, leveraging expert technique is smart**
+2. **Existing instruments suggest new controllers**
 
 Let's have a look at how the Magpick approaches these principles.
 
-### Principle 1: 
-#### Programmability is a curse
-This principle refers to a sort of feature creep which can often occur when designing a new interface. The Magpick has managed to avoid this feature creep both on the hardware and software side of things. On the hardware side the Magpick features two amplifier circuits. One amp produces an integrator signal used to detect slower movements, while the other produces a proportional signal used for detecting faster movements. The authors have also provided some pseudocode in Pure Data to visualize how little processing is needed to create good interactions.
-
-<figure>
-  <img src="https://www.uio.no/english/studies/programmes/mct-master/blog/assets/image/2023_09_18_fabianst_pseudocode.png?alt=original">
-  <figcaption>
-    <span class="caption">Pseudocode showing how the Magpick system can be programmed. </span>
-    <i class="photo-credit">Photo by bela.</i>
-  </figcaption>
-</figure>
-
-
-### Principle 2:
+### Principle 1:
 #### Copying an instrument is dumb, leveraging expert technique is smart
 Both the second and third principle are closely linked in this project. What Perry means by saying copying is dumb is that instead of re-inventing the wheel you can invent something new wheel-inspired, since the best wheel is still the wheel. The Magpick is not trying to re-invent the guitar pick but rather it uses the guitar pick design to create it's own control interface.
 
-### Principle 3:
+The Magpick is used very similarly to a traditional pick. A lot of the gestures utilized will be familiar to guitarists. Although it does add some new gestures to the repertoire, like vertical strumming above the strings demonstrated here.
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/09sDsUIVr2Y?si=Ob8FeLLOHBeIFBGe" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+### Principle 2:
 #### Existing instruments suggest new controllers
-Now the last principle is quite interesting, because it's true in some ways and untrue in others. The guitar pick is decidedly not a *new* controller. But the Magpick is a *new* way of using the controller. As mentioned in their paper, the Magpick is not the first guitar pick controller, there have been others like the [PLXTRUM](https://www.youtube.com/watch?v=lIWzZeIgHIE&t=133s), but it is the first one which uses sensors to detect changes in the magnetic field (Morreale, Guidi, and Mcpherson 2019).
+Now the last principle is quite interesting, because it's true in some ways and untrue in others. The guitar pick is decidedly not a *new* controller. But the Magpick is a *new* way of using the controller. As mentioned in their paper, the Magpick is not the first guitar pick controller, there have been others like the [PLXTRUM](https://www.youtube.com/watch?v=lIWzZeIgHIE&t=133s), but it is the first one which uses sensors to detect changes in the magnetic field.
 
 <figure>
   <img src="https://www.uio.no/english/studies/programmes/mct-master/blog/assets/image/2023_09_18_fabianst_ancientplectrum.jpg?alt=original"
@@ -85,17 +77,11 @@ Now the last principle is quite interesting, because it's true in some ways and 
 </figure>
 
 ### What About Difficulty?
-The Magpick is interesting when it comes to the question of difficulty, since it is meant to be used by guitarists whom already possess previous knowledge on how to play the guitar and use a traditional pick. They mention that guitarists were able to seamlessly integrate the Magpick into their playing quite quickly (Morreale, Guidi, and Mcpherson 2019, 69). This would suggest that the device is not particularly hard to use, so how can it inspire long-term engagement? Through subtlety and precision. Due to the sensors used and the bela platform which offers extremely low latency players are able to achieve a level of precision not possible with traditional devices such as pedals.
+The Magpick is interesting when it comes to the question of difficulty, since it is meant to be used by guitarists whom already possess previous knowledge on how to play the guitar and use a traditional pick. They mention that guitarists were able to seamlessly integrate the Magpick into their playing quite quickly. This would suggest that the device is not particularly hard to use, so how can it inspire long-term engagement? Through subtlety and precision. Due to the sensors used and the Bela platform which offers extremely low latency players are able to achieve a level of precision not possible with traditional devices such as pedals.
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/6NU81paEbis?si=qsASyY_YBJL8_EMB" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
 ## Conclusion
 The Magpick offers an interesting control interface for the guitar which is easy to integrate and use for players. Analyzing the controller through Perry Cook's principles one can also see that it avoids many common pitfalls new music controllers often fall into.
-## References
-bela. (2019, July 4). "Magpick: An Augmented Guitar Pick for Nuanced Control". blog.bela.io. https://blog.bela.io/magpick/ 
-Bela Platform. (2019, July 4). "Magpick: an Augmented Guitar Pick for Nuanced Control – Scrambled Delay". Youtube. https://www.youtube.com/watch?v=6NU81paEbis
-Cook, Perry R. 2009. “Re-Designing Principles for Computer Music Controllers: A Case Study of SqueezeVox Maggie.” In New Interfaces for Musical Expression. https://api.semanticscholar.org/CorpusID:5050967.
-———. 2020. “Principles for Designing Computer Music Controllers.” https://doi.org/10.48550/ARXIV.2010.06524.
-Morreale, Fabio, Andrea Guidi, and Andrew Mcpherson. 2019. “Magpick: An Augmented Guitar Pick for Nuanced Control.” In .
-Sani, Egisto. "Alcaeus and Sappho". 2012, 9 April. Flickr. https://www.flickr.com/photos/69716881@N02/6916026822/in/photostream/
-Sikkema, Kelly. "Untitled Image". 2019, 19 February. UnSplash. https://unsplash.com/photos/oiYgrDjSJhM
+
+
