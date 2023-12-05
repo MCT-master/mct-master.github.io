@@ -4,7 +4,7 @@ title:  "The Paperback Singer"
 date:   2023-12-1 10:00:00 +0200
 categories: interactive-music
 author: Fabian Stordalen
-image: https://www.uio.no/english/studies/programmes/mct-master/blog/assets/image/2023_12_1_fabianst_frontcover.jpg?alt=original
+image: /assets/image/2023_12_05_fabianst_thumbnail.jpg
 excerpt: "An interactive granular audio book"
 keywords: ims, granular sythesis, nime, hci, microsound
 ---
