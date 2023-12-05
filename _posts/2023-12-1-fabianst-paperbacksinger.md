@@ -25,9 +25,15 @@ All these actions are what the Paperback Singer is capturing and using as contro
 
 ## What is Granular Synthesis?
 
-The Paperback Singer uses granular synthesis which is an unique sound processing technique where you take a segment of audio and slice it into small "grains" between 10-100 milliseconds and then play them back. The technique was first proposed by physicist Dennis Gabor in 1947 but it wasn't until 1959 a piece was made using his theory. Iannis Xenakis *Anlogique A-B* from 1959 is considered the first granular piece. 
+The Paperback Singer uses [granular synthesis](https://www.youtube.com/watch?v=SIsIgCLz1ps&t=760s) which is an unique sound processing technique where you take a segment of audio and slice it into small "grains" between 10-100 milliseconds and then play them back. The technique was first proposed by physicist Dennis Gabor in 1947 but it wasn't until 1959 a piece was made using his theory. Iannis Xenakis *Anlogique A-B* from 1959 is considered the first granular piece. 
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/sOGkhekIGzo?si=eJc2LN16cg3mymWs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+Today granular synthesis is a lot more accessible and you can find graunlar plugins in many popular DAWs. The technique is even used by popular EDM artists such as Flume 
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/g0A3TComXjI?si=tnKO3q9xwnypbwwl" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+
 
 # Designing the Paperback Singer
 
@@ -39,6 +45,15 @@ If you think about it then reading is a sort of granular activity. You can divid
 
 ## Metaphor 2: Subconscious Interactions
 The next step was to come up with a way of controling these word grains. I tried to think about in what way you interact with a book while reading and quickly realized that this is quite an interesting topic in itself. When reading you are usually fully immersed in the text in front of you, making you unnaware of all the ways you are interacting with the book itself. You are moving it around and adjusting it in various ways to enhance the reading experience. These are the movements I wanted to capture and use to control the granular synth.
+
+<figure>
+  <img src="/assets/image/2023_12_05_fabist_paperback_diagram.png"
+  height="422"
+  width="621">
+  <figcaption>
+    <span class="caption">Diagram of how sensor data is mapped in the system</span>
+  </figcaption>
+</figure>
 
 ### Capturing Movements
 
