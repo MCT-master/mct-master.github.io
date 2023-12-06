@@ -20,22 +20,29 @@ excerpt: "Electrizing an ancient flute using capacitive and motion sensors"
 
 In this post, I'll discuss about an interactive music system that I designed and built in the last couple of months. It's called Hyper-Ney and as the name suggests it's an augmented ney flute.
 
-Ney flute is an ancient wooden flute from middle east rooting 4500–5000 years back. It's a very primitive design with 7 holes on a wooden body, allowing it's master to create noisy and ambient sound on a continuous pitch scale. I integrated  electronic sensors to this beautiful instrument to extend creative opportunities beyond it's capability.
+[**Ney flute**](https://en.wikipedia.org/wiki/Ney) is an ancient wooden flute from middle east rooting 4500–5000 years back. It's a very **primitive design** with 7 holes on a **wooden body**, allowing it's master to create noisy and ambient sound on a continuous pitch scale. You can have a look at this [YouTube video](https://www.youtube.com/watch?v=ALrhXN9qYpI) for a quick performance with the Ney. I integrated  **electronic sensors** to this beautiful instrument to extend creative opportunities beyond it's capability.
 
 # Design Principles
-While designing a Meta-Trumpet, Jonathan Impett aimed for not compromising the traditional playing techniques of the trumpet.
+While designing the [Meta-Trumpet](https://quod.lib.umich.edu/i/icmc/bbp2372.1994.037/1), Jonathan Impett aimed for not compromising the traditional playing techniques of the trumpet.
+
+<figure style="text-align: center;">
+  <img src="https://www.uio.no/english/studies/programmes/mct-master/blog/assets/image/2023_12_01_ahmetem_impett.jpg" alt="The Hyper-Ney" style="display: block; margin: 0 auto; width: 35%;">
+  <figcaption style="text-align: center;">
+    <span class="caption">Jonathan Impett</span>
+  </figcaption>
+</figure>
 
 <blockquote style="text-align: center; font-style: italic; font-size: 18px; font-family: 'Times New Roman', serif;">
 As far as possible, this is implemented without compromising the richness of the instrument and its technique, or adding extraneous techniques for the performer - most of the actions already form part of conventional performance. In keeping with this idea, it proved possible for the trumpet at the heart of the system to remain inviolate. - Jonathan Impett, 1994
 </blockquote>
 <br>
 
-Similarly, when designing the Hyper-Ney, I tried to avoid altering the interaction dynamics with the ney instrument as far as possible. So, playing of the The Hyper-Ney involves similar interaction and input modalities.
+Similarly, when designing the Hyper-Ney, I tried to avoid altering the interaction dynamics with the ney instrument as far as possible. So, playing of the The Hyper-Ney involves similar interaction and input modalities. Please see [Impett's performance](https://www.youtube.com/watch?v=LJxwEqF80sk) with his instrument with this design perspective in mind
 
-When discussing the design principles for interactive computer instruments, Perry Cook mentions the principle of *spare bandwidth*. This principle focuses on utilizing the unused capacity of the instrument and its performer. I thought this is a very interesting and successfull approach and had this principle central when designing the Hyper Ney.
+When discussing the design principles for interactive computer instruments, Perry Cook mentions the principle of *spare bandwidth*. This principle focuses on utilizing the unused capacity of the instrument and its performer. I thought this is a very interesting and successfull approach and had this principle central when designing the Hyper-Ney. This takes us to the technical part where I will write about these more in detail-
 
-# Deep into technical part
-To achieve the design goals I have above, I integrated various sensors to a Mansur size ney (see [here](https://en.wikipedia.org/wiki/Ney) for size reference). I used Bela for the sound processing and synthesis.
+# Deep into the technical
+To achieve the design goals I have above, I integrated various sensors to a *Mansur* size ney (see [here](https://en.wikipedia.org/wiki/Ney) for size reference). I used [Bela](https://bela.io/products/bela-and-bela-mini/) for the sound processing and synthesis.
 
 <figure style="text-align: center;">
   <img src="https://www.uio.no/english/studies/programmes/mct-master/blog/assets/image/2023_12_01_ahmetem_hyper-ney_design.jpg" alt="The Hyper-Ney" style="display: block; margin: 0 auto; width: 85%;">
@@ -56,19 +63,49 @@ Altough not very common when playing ney, motion of the instrument proved very s
 ## Audio Input
 To capture the original sound of the instrument, I attached a contact microphone close to the mouthpiece and routed it's hack cable along the ney to come out with other cables.
 
-
 ## Boards
 Bela and BeagleBone Black boards are stacked on top of each other. I created a connection board (perfoboard) to be able to connect to Bela pins in a roboust way. These three boards, input and output jacks and a battery are attached to my lower arm using velcro strips.
+
+Here take a look at two diagrams. One showing the high-level design of the system, second showing the main components of the system and connections, and second showing 
+
+<figure style="text-align: center;">
+  <img src="https://www.uio.no/english/studies/programmes/mct-master/blog/assets/image/2023_12_01_ahmetem_block_diagram.jpg" alt="The Hyper-Ney" style="display: block; margin: 0 auto; width: 90%;">
+  <figcaption style="text-align: center;">
+    <span class="caption">System design</span>
+  </figcaption>
+</figure>
+
+<figure style="text-align: center;">
+  <img src="https://www.uio.no/english/studies/programmes/mct-master/blog/assets/image/2023_12_01_ahmetem_connection_diagram.jpg" alt="The Hyper-Ney" style="display: block; margin: 0 auto; width: 90%;">
+  <figcaption style="text-align: center;">
+    <span class="caption">Detailed connection diagram</span>
+  </figcaption>
+</figure>
+
+<br>
 
 Here is the final look of Hyper Ney.
 
 <figure style="text-align: center;">
   <img src="https://www.uio.no/english/studies/programmes/mct-master/blog/assets/image/2023_12_01_ahmetem_hyper-ney_playing.jpg" alt="The Hyper-Ney" style="display: block; margin: 0 auto; width: 50%;">
   <figcaption style="text-align: center;">
-    <span class="caption">Main components of The Hyper-Ney</span>
+    <span class="caption">A closer look at the Hyper-Ney while being played</span>
   </figcaption>
 </figure>
 
+## Mapping and Sound Processing
+An interesting aspect of my work is that the spare bandwidth I utilized for mapping to sound processing modules changes dynamically during playing. This relies on the acoustic phonmena of "when a higher hole is open, all the lower holes doesn't contribute to anything, i.e., they are free! See the image below for the availability of holes for mapping.
+
+<figure style="text-align: center;">
+  <img src="https://www.uio.no/english/studies/programmes/mct-master/blog/assets/image/2023_12_01_ahmetem_hole_availability.jpg" alt="The Hyper-Ney" style="display: block; margin: 0 auto; width: 50%;">
+  <figcaption style="text-align: center;">
+    <span class="caption">Availability of holes for mapping under different scenarios of hole usage</span>
+  </figcaption>
+</figure>
+
+I implemented a many-to-many mapping of the sensor data to audio processing and synthesizing modules. The lower holes are occupied for controlling a delay effect, and a granular synthesis module which is based on a [steel hang](https://freesound.org/people/aldeainvisible/sounds/261349/) audio recording. The higher holes were occupied for controlling a complex frequency modulator combined with a noise generator. At the same time, majority of the holes are used for determining a carrier frequency that is used in many placed in my sound synthesis and processing modules.
+
+The Hyper-Ney is also available when the *Ney* is not being played in a conventional way. It's still possible to play it on your hand without even touching your lips. However, if you still want to blow while playing your flute, that's fine, you can make music by blowing **on** the contact microphone!
 
 # Did it really work?
 I conducted a user study to evaluate the insturment from the audience's perspective. Adopting Bellotti and colleagues' method, I asked five questions to gather scores for different aspects of how the audience percieve and experience the instrument. These aspects are:
@@ -103,6 +140,9 @@ All in all, the Hyper-Ney takes your traditional ney flute and turns it into a m
 <a name="video"></a>
 <iframe width="949" height="534" src="https://www.youtube.com/embed/ySrjSWU_Mf8?start=10&rel=0&autoplay=1&loop=1&controls=0" title="Interactive Music Systems Concert Autumn 2023" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
+<br>
+
+***See more interactive music works by MCT students [HERE](https://mct-master.github.io/interactive-music/).***
 
 # References
 - V. Bellotti, M. Back, W. K. Edwards, R. E. Grinter, A. Henderson, and C. Lopes. Making sense of sensing systems: Five questions for designers and researchers. In Proceedings of the SIGCHI Conference on Human Factors in Computing Systems, CHI ’02, page 415–422, New York, NY, USA, 2002. Association for Computing Machinery.
