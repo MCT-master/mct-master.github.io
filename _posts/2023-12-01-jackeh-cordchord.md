@@ -26,7 +26,7 @@ Like many of the finest string instruments from the like of Stradivarius, CordCh
 
 <figure style="float: none">
    <img src="/assets/image/2023_12_01_jackeh_cordchord_sensor_attachment.jpg" alt="Sensor placement on the IMS" width="auto" />
-   <figcaption>Optical proximity sensors are mounted on the neck facing towards the strings.</figcaption>
+   <figcaption>Optical proximity sensors are mounted on the neck facing towards the strings</figcaption>
 </figure>
 
 Most musicians have a fairly accurate mental model of how string instruments work – by changing the effective length of the string by damping it using our fingers, the string vibrates at a different frequency. However, unlike with acoustic string instruments like the guitar, cello, or violin, the performer of CordChord does not vibrate the strings by plucking or bowing them, and there is no ‘body’ which acts as a resonating chamber to amplify these vibrations.
@@ -51,6 +51,11 @@ I settled on capacitive sensing to control the timbre of the sound engine. The p
 # Sound Engine
 
 The sound engine for CordChord is a [granular synthesiser](https://www.jstor.org/stable/3679937) which chops up a sample of a cello sustaining a single pitch. The sample is sped up and slowed down to create the pitch as mapped by the position of the performers finger pressing the string, while the grain length, or the length of each tiny ‘grain’ of sound that is taken from the original sample, is controlled by touching the copper strips on the back of the neck. Longer grain length results in more overlap between consecutive grains, in turn resulting in a richer timbre.
+
+<figure style="float: none">
+   <img src="/assets/image/2023_12_01_jackeh_cordchord_flowchart.png" alt="Data flowchart for CordChord" width="auto" />
+   <figcaption>The entire data flow for CordChord split into the sensor data, machine learning, and sound engine subsections </figcaption>
+</figure>
 
 # Reflections & Future Improvements
 
