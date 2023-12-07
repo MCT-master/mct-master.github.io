@@ -9,8 +9,6 @@ excerpt: "Is this a violin?"
 keywords: interactive music systems, DMI, physical modeling, review, design
 ---
 
-The Daïs: Critical Review of a Haptically Enabled NIME
-
 [The Daïs](https://github.com/PelleJuul/dais) is an interesting approach to designing an instrument that does not look like a string instrument, but sounds like one. Let's look at it together from two perspectives: design principles and expressive capability. Check out the full paper on the instrument [here](https://www.nime.org/proceedings/2020/nime2020_paper119.pdf).
 
 <figure style="float: none">
@@ -31,7 +29,7 @@ When you press down on the plate, the distance between it and the sensor gets sh
 
 ## Reflections on the Design Approach 
 
-Perry Cook is an icon within the digital musical instrument design scene and established many [design principles](https://www.researchgate.net/profile/Perry-Cook/publication/254200029_Re-Designing_Principles_for_Computer_Music_Controllers_a_Case_Study_of_SqueezeVox_Maggie/links/5d8f98dd92851c33e9462a27/Re-Designing-Principles-for-Computer-Music-Controllers-a-Case-Study-of-SqueezeVox-Maggie.pdf) over the years. "Build a (new) copy, don’t trash the original" is one of those principles, and the Da ̈ıs is a good example of this.The first cardboard iteration was used to test sensors and the overall effectiveness of the design. Instead of designing it entirely on paper, this method makes it simple and quick to validate or discard sensors and features. And if something goes horribly wrong, you can always start over with an earlier version.
+Perry Cook is an icon within the digital musical instrument design scene and established many [design principles](https://www.researchgate.net/profile/Perry-Cook/publication/254200029_Re-Designing_Principles_for_Computer_Music_Controllers_a_Case_Study_of_SqueezeVox_Maggie/links/5d8f98dd92851c33e9462a27/Re-Designing-Principles-for-Computer-Music-Controllers-a-Case-Study-of-SqueezeVox-Maggie.pdf) over the years. **"Build a (new) copy, don’t trash the original"** is one of those principles, and the Da ̈ıs is a good example of this.The first cardboard iteration was used to test sensors and the overall effectiveness of the design. Instead of designing it entirely on paper, this method makes it simple and quick to validate or discard sensors and features. And if something goes horribly wrong, you can always start over with an earlier version.
 Joseph Malloch and other authors give further advice on how to be effective when [designing a digital musical instrument](https://www.researchgate.net/publication/320841639_A_Design_Workbench_for_Interactive_Music_Systems). They state, for example, that amplitude requires energy. Simply put, you need to constantly do something in order for the instrument to make sound. Think of all traditional instruments. There isn't one that keeps making noise even after you stop putting energy into it. In that case, the Da ̈ıs is good because you have to press down on the plate a certain distance to hear it. Then, Malloch says that two hands are better. This is kind of true for our plate-based string instrument, but only because it takes pitch input from a MIDI keyboard. It's not really a win. Lastly, you should use complex mappings. When you change one parameter, it should affect other parameters. Again, this is largely untrue for the Da ̈ıs, since almost all mappings are one-to-one. This has an effect on expressivity, as we will see. 
 
 
