@@ -15,7 +15,7 @@ In this blog post I will detail how I created my Paperback Singer. The Paperback
 All these actions are what the Paperback Singer is capturing and using as control signals for the audio engine. The goal was to make the user more aware of all the ways their body moves and subconciously interacts while reading. All movements are captured by an [Inertial Measurement Sensor (IMU)](https://en.wikipedia.org/wiki/Inertial_measurement_unit) and a [Flex Sensor](https://en.wikipedia.org/wiki/Flex_sensor) while a [photoresistor](https://en.wikipedia.org/wiki/Photoresistor) is used for switching between playing modes. The instrument features two different modes of playing meant to represent the act of reading and remembering. Which a player can seamlessly choose between by opening and closing the book.
 
 <figure>
-  <img src="https://www.uio.no/english/studies/programmes/mct-master/blog/assets/image/2023_12_1_fabianst_frontcover.jpg?alt=original"
+  <img src="/assets/image/2023_12_05_fabianst_thumbnail.jpg"
   height="500"
   width="400">
   <figcaption>
