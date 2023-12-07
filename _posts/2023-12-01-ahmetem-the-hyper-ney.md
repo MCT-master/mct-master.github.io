@@ -52,7 +52,7 @@ To achieve the design goals I have above, I integrated various sensors to a *Man
 </figure>
 
 ## Mouthpiece
-I added a tiny piece of aluminium wire on the mouthpiece to build a capacitive sensor to capture the position of the lips. It needed a very precise work to be able to place the tape symmetrical to accurately capture the capacitance. 
+I added a tiny piece of aluminium tape on the mouthpiece to build a capacitive sensor to capture the position of the lips. It needed a very precise work to be able to place the tape symmetrical to accurately capture the capacitance. 
 
 ## Holes
 I added tiny solid wires around all 6 front holes of the ney. This allowed me to track the utilization of the holes as well as the amount of coverage of each hole. These capscitive sensor wires are routed along the ney's body and connected to Trill Craft, which is a board for creating complex capacitive sensors with Bela.
@@ -94,7 +94,7 @@ Here is the final look of Hyper Ney.
 </figure>
 
 ## Mapping and Sound Processing
-An interesting aspect of my work is that the spare bandwidth I utilized for mapping to sound processing modules changes dynamically during playing. This relies on the acoustic phonmena of "when a higher hole is open, all the lower holes doesn't contribute to anything, i.e., they are free! See the image below for the availability of holes for mapping.
+An interesting aspect of my work is that the spare bandwidth I utilized for mapping to sound processing modules changes dynamically during playing. This relies on the acoustic phonmena of "when a higher hole is open, all the lower holes doesn't contribute to anything, i.e., they are free! See the image below for the availability of holes for mapping, and the next one for how I am calculating the availability continuously from the capacitive sensor input.
 
 <figure style="text-align: center;">
   <img src="https://www.uio.no/english/studies/programmes/mct-master/blog/assets/image/2023_12_01_ahmetem_hole_availability.jpg" alt="The Hyper-Ney" style="display: block; margin: 0 auto; width: 50%;">
@@ -102,6 +102,14 @@ An interesting aspect of my work is that the spare bandwidth I utilized for mapp
     <span class="caption">Availability of holes for mapping under different scenarios of hole usage</span>
   </figcaption>
 </figure>
+
+<figure style="text-align: center;">
+  <img src="https://www.uio.no/english/studies/programmes/mct-master/blog/assets/image/2023_12_01_ahmetem_state_calculation.jpg" alt="The Hyper-Ney" style="display: block; margin: 0 auto; width: 50%;">
+  <figcaption style="text-align: center;">
+    <span class="caption">The calculation of hole availability, where where H1 to H5 are the closure status of each hole, and S1 to S5 are the states of hole availability, as given in the figure above}</span>
+  </figcaption>
+</figure>
+
 
 I implemented a many-to-many mapping of the sensor data to audio processing and synthesizing modules. The lower holes are occupied for controlling a delay effect, and a granular synthesis module which is based on a [steel hang](https://freesound.org/people/aldeainvisible/sounds/261349/) audio recording. The higher holes were occupied for controlling a complex frequency modulator combined with a noise generator. At the same time, majority of the holes are used for determining a carrier frequency that is used in many placed in my sound synthesis and processing modules.
 
