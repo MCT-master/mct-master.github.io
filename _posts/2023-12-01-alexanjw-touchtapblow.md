@@ -12,9 +12,9 @@ keywords: interactive music systems, musical expression, touch capacitance, pres
 Touch/Tap/Blow is, as its name suggests, an interactive music system which aims to combine three forms of intimate control over a digital musical instrument.  Notes and chords can be played via the touch interface while bass accompaniment can be driven by the player's foot tapping. Below are the details of it's main elements.
 
 <figure>
-  <img src="https://www.uio.no/english/studies/programmes/mct-master/blog/assets/image/2023_12_01_alexanjw_ttb.jpg?alt=original"
+  <img src="https://www.uio.no/english/studies/programmes/mct-master/blog/assets/image/2023_12_01_alexanjw_ttb-2.jpg?alt=original"
   height="400"
-  width="250">
+  width="400">
   <figcaption>
     <span class="caption">Touch/Tap/Blow</span>
   </figcaption>
@@ -48,7 +48,7 @@ Finally, in front of the player is the microphone which acts as a breath sensor.
 <figure>
   <img src="https://www.uio.no/english/studies/programmes/mct-master/blog/assets/image/2023_12_01-alexanjw_ttbfront.jpg?alt=original"
   height="400"
-  width="250">
+  width="450">
   <figcaption>
     <span class="caption">Touch/Tap/Blow - note the blue microphone in front</span>
   </figcaption>
@@ -58,7 +58,18 @@ Finally, in front of the player is the microphone which acts as a breath sensor.
 ## Sound Engine and Composition
 In his [Principals for Designing Computer Music Controllers](https://arxiv.org/pdf/2010.06524.pdf), Perry Cook advises to "create a piece, not an instrument".  Following this, the design of Touch/Tap/Blow's sound engine was informed by another intimate relationship between musician and instrument, that of Suzanne Ciani and the Buchla modular synthesiser.  The synthesis itself is based on augmenting sine wave oscillators with amplitude modulation and wavefolding controlled by the pressure and breath sensors.  Furthermore, several other decisions as well asa the piece performed here are based on the performance ideas from Ciani's [Report to National Endowment](https://www.finearts.uvic.ca/~aschloss/course_mat/MU307/MU307%20Labs/Lab3_BUCHLA/Suzanne%20Ciani/Ciani_BuchlaCookbook.pdf), anecdotally referred to as the 'Buchla Cookbook".  One such example is the use of the live chromatic note input being fed into a shift register.  In my implementation, the shift register is being used for the bass sequence voice for an ever evolving accompaniment part.
 
-Each force sensor represents a separate voice for the touch interface input.
+This is a flow diagram illustrating the signal flow between sensors and sound engine.
+
+<figure>
+  <img src="https://www.uio.no/english/studies/programmes/mct-master/blog/assets/image/2023_12_08_alexanjw_ttbsignalflow.png?alt=original"
+  height="400"
+  width="500">
+  <figcaption>
+    <span class="caption">Signal Flow diagram</span>
+  </figcaption>
+</figure>
+
+
 
 
 ## Performing with Touch/Tap/Blow
