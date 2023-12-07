@@ -15,31 +15,28 @@ Now consider a bowed string instrument like the violin. In this example the fing
 
 # The Augmented Violin
 
-However, there is another possible approach. What if, instead of adding an additional method of input, we reuse the gestures already being performed to play the existing instrument? Enter the Augmented Violin, [1], [2] a violin-based interactive music system developed by a team of researchers at [IRCAM](https://www.ircam.fr/#) in Paris which interprets 'gesture parameters' from the performer's bow motion as the way of interacting with the system.
+However, there is another possible approach. What if, instead of adding an additional method of input, we reuse the gestures already being performed to play the existing instrument? Enter the [Augmented Violin](https://www.nime.org/proc/bevilacqua2006/), a violin-based interactive music system developed by a team of researchers at [IRCAM](https://www.ircam.fr/#) in Paris which interprets 'gesture parameters' from the way the violinist uses their bow as the way of interacting with the system.
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/UKRrEdS_SMI?si=s2jd06mP19azUsLW" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+There have been several iterations of the Augmented Violin since it first debuted in 2006. Here we will explore the initial version, which interprets ‘gesture parameters’ of bowing motion to control the pitch of a drone sound. The instrument is able to recognize for three different types of bow strokes (*détaché*, *martelé*, and *spiccato* for the string players in the audience) which are each mapped to different drone pitches. At the same time, the intensity of a given bowing gesture controls parameters of a granular synthesis which is mangling the sound of the violin in real time. As the amount of motion in the bowing gesture increases, so does the number of tiny 'grains' of sound as well as the range of pitches they cover.
+
+# From Quantity to Gesture
+
+To a string player, the bow strokes such as those being tracked by the Augmented Violin are an essential part of their expressive toolkit on their instrument. However, much to the chagrin of technologically-minded string players everywhere, there is sadly no such thing as a 'bow stroke sensor'. Instead, bow strokes are complex gestures which are the result of careful manipulating several aspects of the bow usage that we _can_ measure, including bow speed and acceleration perpendicular to the string, and the height of the bow above the string throughout the stroke.
 
 <figure style="float: none">
    <img src="/assets/image/2023_09_22_jackeh_augmented_violin_image.jpg" alt="The Augmented Violin uses an accelerometer attached to the heel of the bow." width="60%"/>
    <figcaption>The initial version of the Augmented Violin uses an accelerometer attached to the heel of the bow</figcaption>
 </figure>
 
-There have been several iterations of the Augmented Violin since 2006. Here we will explore the initial version, which interprets ‘gesture parameters’ from the way the violinist uses the bow to control the pitch of a drone sound. The system affords gesture recognition for three different types of bow strokes – *détaché*, *martelé*, and *spiccato* - which are each mapped to different drone pitches. Concurrently, the intensity of a given bowing gesture controls parameters of granular synthesis of the live violin sound, such that greater quantity of motion increases the number of grains as well as the pitch range they cover.
-
-# From Quantity to Gesture
-
-To a violinist, bow strokes such as those being tracked by the Augmented Violin are an essential part of their toolbox. However, they are not quantities we can directly measure using a sensor. Instead, they are the result of the careful manipulation of several aspects of the bow usage, including bow speed and acceleration perpendicular to the string, and the height of the bow above the string throughout the stroke.
-
-In order to quantify bow strokes, the creators of the Augmented Violin attach an accelerometer module to the heel of the violin bow, which allows them to measure the acceleration of the bow in the X, Y, and Z planes. They then train a k-nearest neighbours classification machine learning model on a dataset of acceleration data and bowing gesture labels to be able to identify the three different bow strokes from their acceleration characteristics. This model is then implemented in real time, allowing the bow stroke performed to be identified during a performance. Meanwhile the intensity of a given bow stroke is determined as the difference between the maximum and minimum amount of acceleration during that stroke.
-
-<figure style="float: none">
-   <img src="/assets/image/2023_09_22_jackeh_augmented_violin_data_flowchart.jpg" alt="Bow stroke classification and gesture intensity are calculated from the accelerometer data" width="50%"/>
-   <figcaption>The full data processing flowchart in the original Augmented Violin. Bow stroke classification (right-hand side) and gesture intensity (left-hand side) are calculated/predicted from the accelerometer data</figcaption>
-</figure>
+In order to quantify bow strokes, the creators of the Augmented Violin attach an accelerometer module to the heel of the violin bow, which allows them to measure the acceleration of the bow in all three dimensions. They then train a machine learning model on a dataset of acceleration data with the accompanying bowing gesture labels to classify the three different bow strokes from their acceleration characteristics in real time during a performance. Meanwhile, the intensity of a given bow stroke is calculated as range of acceleration values measured during the stroke.
 
 # Virtuosity and the Augmented Violin
 
-A key consideration when designing or evaluating an IMS is that of the expressivity afforded by the interface. Christopher Dobrian and Daniel Koppelman set out some guidelines and best practices in 2006 at the New Interfaces for Musical Expression conference [3]. They define expression as the ‘felicitous or vivid indication or depiction of mood or sentiment; the quality or fact of being expressive’. Examining the Augmented Violin through this lens, how does it afford the performer the option of musical expression?
+A key consideration when designing or evaluating an IMS is that of the 'expressivity' afforded by the interface. But what is expressivity? Christopher Dobrian and Daniel Koppelman set out some [helpful guidelines and best practices](https://www.nime.org/proc/dobrian2006/) in 2006. To them, music expression is 'the felicitous or vivid indication or depiction of mood or sentiment; the quality or fact of being expressive’. Examining the Augmented Violin through this lens then, how does it afford the performer the option of musical expression?
 
-One core tenet of Dobrian et al.’s argument is that it is *mastery* of an instrument that opens to door to expressivity. A successful interactive system, or musical instrument of any kind for that matter, should, according to Dobrian and Koppelman, afford the seasoned performer the ability to create the aforementioned ‘depiction of mood or sentiment’. However, true mastery can be hard to find in the IMS community because designer-performers often use their creations for one performance before they are retired. On the other hand, the performer of the Augmented Violin can have precise control of the system quickly as they are already intimately familiar with its input mechanism. In this way, then, the Augmented Violin makes a strong initial case for its potential for expression.
+One core tenet of their argument is that it is *mastery* of an instrument is what opens to door to expressivity. A successful interactive system, or musical instrument of any kind for that matter, should, they say, afford the seasoned performer the ability to create the aforementioned ‘depiction of mood or sentiment’. However, true mastery can be hard to find in the IMS community, because designer-performers often use their creations for one performance before they are retired. Comparitively, the performer of the Augmented Violin can have precise control of the system quickly as they are already intimately familiar with instrument on top which it is built. In this way, then, the Augmented Violin makes a strong initial case as a truly 'expressive' music system.
 
 # How Expressive is The Augmented Violin?
 
@@ -49,23 +46,11 @@ However, Dobrian et al. are keen to point out that ‘control ≠ expression’.
 >
 >Florence Baschet, composer of [**BogenLied**](http://www.florencebaschet.com/website/fiche2-BogenLied.html) which was composed for the original Augmented Violin
 
-Mapping the intensity of the bowing gesture to parameters related to the intensity of the granular synthesis retains a physical relationship between input and output while also being logically complex and sonically engaging. Meanwhile, the logic in the mapping from bow stroke type to drone pitch is arguably less robust in this initial version, as bowing gestures have little to do with pitch control in purely acoustic violin playing apart from moving between strings. This mapping also limits the number of available drone pitches to three due to the size of the bow stroke vocabulary of the machine learning algorithm. As a result, the latently expressive bow strokes are arguably underutilised as a means of expression here.
+Mapping the intensity of the bowing gesture to parameters related to the intensity of the granular synthesis retains a physical relationship between input and output while also being logically complex and sonically engaging. Meanwhile, the logic in the mapping from bow stroke type to drone pitch is arguably less robust in this initial version, as bowing gestures have little to do with pitch control in purely acoustic violin playing apart from moving between strings. This mapping also limits the number of available drone pitches to three because that is how many types of bow strokes the machine learning model has be trained to recognize. As a result, the latently expressive bow strokes are arguably underutilised as a means of expression.
 
 An alternative mapping could combine bow stroke and intensity to determine drone pitch. For example, bow stroke type might control the base pitch of the drone, which is then raised linearly in line with stroke intensity in a sonic result similar to a pitch bend. Such a mapping would increase the harmonic range of the IMS while affording greater expressive control of pitch.
 
 # Conclusion
 
-By using extracted bowing gestures and bow stroke intensity rather than directly measured bowing parameters, the Augmented Violin is controlled using the gestural language of its performer, rather than the measurement oriented language of the technology being used. Despite some unconvincing mappings, it nonetheless presents a compelling avenue for technologically extended string instruments.
-
-You can check out one of the future iterations of the Augmented Violin in the video below, where violinist Mari Kimura discusses the glove-based version.
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/UKRrEdS_SMI?si=s2jd06mP19azUsLW" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-
-# References
-
-[1]	F. Bevilacqua, N. Rasamimanana, E. Fléty, S. Lemouton, and F. Baschet, ‘The Augmented Violin Project: Research, Composition And Performance Report’, presented at the International Conference on New Interfaces for Musical Expression, Paris, France: Zenodo, Jun. 2006. doi: 10.5281/ZENODO.1176871.
-
-[2]	M. Kimura, N. Rasamimanana, F. Bevilacqua, N. Schnell, B. Zamborlin, and E. Fléty, ‘Extracting Human Expression For Interactive Composition With The Augmented Violin’, presented at the International Conference on New Interfaces for Musical Expression, Ann Arbor, Michigan, USA: Zenodo, Jun. 2012. doi: 10.5281/ZENODO.1178305.
-
-[3]	C. Dobrian and D. Koppelman, ‘The “E” in NIME: Musical Expression with New Computer Interfaces’, in Proceeding of New Interface for Musical Expression, 2006.
+By using extracted bowing gestures and bow stroke intensity rather than directly measured bowing parameters, the Augmented Violin is controlled using the gestural language of its performer, rather than the measurement oriented language of the technology being used under the hood. Despite some mapping that arguably don't utilise the bowing gestures as effectively as they could, it nonetheless presents a compelling avenue for technologically extended string instruments.
 
