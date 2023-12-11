@@ -2,7 +2,7 @@
 layout: post
 title: Clean code
 date: 2022-12-08
-categories: audio-programming
+categories: sound-programming
 author: Aysima Karcaaltincaba
 image: /assets/image/2022_12_06_aysimab_cleancode_unclebob.jpg
 keywords: audio, programming

@@ -2,7 +2,7 @@
 layout: post
 title: "Spatial Audio with Max-Msp and Sonobus"
 date: 2023-04-23 14:00:00 +0200
-categories: portal
+categories: networked-music
 author: Masoud Niknafs
 image: https://www.uio.no/english/studies/programmes/mct-master/blog/assets/image/2023_04_23_masoudn_space.jpg
 keywords: Spatial Audio, Networking

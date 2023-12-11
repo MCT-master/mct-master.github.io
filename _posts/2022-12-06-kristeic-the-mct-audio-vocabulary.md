@@ -2,7 +2,7 @@
 layout: post
 title: "The MCT Audio Vocabulary"
 date: 2022-12-06 03:00:00 +0200
-categories: portal
+categories: networked-music
 author: Kristian Eicke
 image: /assets/image/2022_11_27_kristeic_frontmatter_audio101.jpg
 keywords: audio, routing, tips, guide, portal

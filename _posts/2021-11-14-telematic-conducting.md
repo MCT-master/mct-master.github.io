@@ -2,7 +2,7 @@
 layout: post
 title: "Telematic Conducting: Modelling real-world orchestral tendencies via video latency"
 date: 2021-11-14 17:00:00 +0200
-categories: portal
+categories: networked-music
 author: Willie Mandeville
 image: /assets/image/2021_11_14_williakm_bernsteinportal.png
 keywords:  telematic, conducting, telematic-performance

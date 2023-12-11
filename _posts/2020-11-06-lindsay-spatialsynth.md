@@ -2,7 +2,7 @@
 layout: post
 title: "Spaty Synthy"
 date: 2020-11-06 11:00:00 +0200
-categories: audio-programming
+categories: sound-programming
 author: Lindsay Charles
 image: /assets/image/2020_11_06_lindsay_spatialsynth_vst.jpg
 keywords: digital-audio, csound, phase modulation, Spatial, phasing, dsp, cabbage

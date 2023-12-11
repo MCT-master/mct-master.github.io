@@ -2,7 +2,7 @@
 layout: post
 title: "Managing Network Performance"
 date: 2022-04-22 14:00:00 +0200
-categories: portal
+categories: networked-music
 author: Jakob Høydal, Joachim Poutaraud
 image: /assets/image/2022_04_21_joachipo_throughput.png
 excerpt: "Managing Network Performance using Python"

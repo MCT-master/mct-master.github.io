@@ -2,7 +2,7 @@
 layout: post
 title: "Live Streaming A Telematic Concert"
 date: 2022-12-04 05:00:00 +0200
-categories: portal
+categories: networked-music
 author: Emin Memis
 image: /assets/image/2022_12_04_ahmetem_livestreaming_telematic_thumbnail.jpg
 excerpt: "Whys, How-tos and Life-Saving Tips on Telematic Concert Streaming."

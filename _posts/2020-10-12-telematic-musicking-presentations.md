@@ -2,7 +2,7 @@
 layout: post
 title: "Musicking with JackTrip, JamKazam, and SoundJack - Presentations"
 date: 2020-10-08 22:00:00 +0200
-categories: portal
+categories: networked-music
 author: Thomas Anda, Jackson Goode, Paul Koenig, Rayam Luna, Jarle Steinhovden, Aleksander Tidemann, Gaute Wardenær, Ulrik Halmøy, Tom Ignatius, Thibault Jaccard, Simon Sandvik
 image: \assets\image\2020_10_08_jacksong_musicking_pres.png
 excerpt: "The class of 2021 presented on JackTrip, SoundJack and JamKazam and their networked musicking potential. Presentations are included in this blog post as pdfs."

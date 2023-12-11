@@ -2,7 +2,7 @@
 layout: post
 title: "Telematic performance and communication: tools to fight loneliness towards a future of connection."
 date: 2021-09-22 10:00:00 +0200
-categories: portal
+categories: networked-music
 author: Sofía González
 image: /assets/image/2021_12_13_sofiagon_blogpost_cover.jpg
 keywords: telematic, performance, communication, connection

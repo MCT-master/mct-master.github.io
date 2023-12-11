@@ -2,7 +2,7 @@
 layout: post
 title: "Trinity: Triple Threat"
 date: 2021-02-18 18:00:00 +0200
-categories: audio-programming
+categories: sound-programming
 author: Abhishek Choubey, Tom Ignatius, Lindsay Charles
 image: /assets/image/2021_02_18_abhishec_trinity_trinity.png
 keywords: audio programming, effect, Audio, DSP, Music, Csound, Reverb, Chorus, Granular, Shimmer, modulation

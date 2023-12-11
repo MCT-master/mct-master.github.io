@@ -2,7 +2,7 @@
 layout: post
 title: "End of Semester Concert - Spring 2021: Audio Setup"
 date: 2021-05-04 09:00:00 +0200
-categories: portal
+categories: networked-music
 author: Anders Lidal, Pedro Lucas
 image: /assets/image/2021_05_01_pedropl_consoleconcert.jpg
 keywords: portal, telematic-music, concert, LoLa, live-performance

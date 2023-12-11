@@ -2,7 +2,7 @@
 layout: post
 title: "The MCT Portal through the eyes of a noob"
 date: 2021-05-04 16:28:00 +0200
-categories: portal
+categories: networked-music
 author: Alena Clim
 image: /assets/image/2021_05_04_alenacl_cover_photo.JPG
 keywords:  portal, telematic-music, telematic-communications, LoLa, TICO, midas-m32

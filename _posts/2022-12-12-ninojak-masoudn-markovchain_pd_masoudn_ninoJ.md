@@ -2,7 +2,7 @@
 layout: post
 title: "Markov Chain Core in PD"
 date: 2022-12-10 10:00:00 +0200
-categories: audio-programming
+categories: sound-programming
 author: Masoud Niknafs, Nino Jakeli
 image: https://www.uio.no/english/studies/programmes/mct-master/blog/assets/image/2022_12_10_masoudn_5.jpg
 keywords: PD, Algorithmic, stochastic

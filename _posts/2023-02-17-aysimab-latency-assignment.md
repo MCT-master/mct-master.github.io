@@ -2,7 +2,7 @@
 layout: post
 title: Testing Two Approaches to Performing with Latency
 date: 2023-02-16
-categories: portal
+categories: networked-music
 author: Aysima Karcaaltincaba, Emin Memis, Jack Hardwick, Kristian Eicke
 image: /assets/image/2023_02_16_aysimab_latency_assignment_thumbnail.jpeg
 keywords: portal, audio, latency, programming

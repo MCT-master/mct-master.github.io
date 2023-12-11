@@ -62,7 +62,6 @@ paginate_path: "/blog/page:num/"
 # Allowed categories
 categories:
   - applied-project
-  - audio-programming
   - interactive-music
   - machine-learning
   - masters-thesis
@@ -71,6 +70,7 @@ categories:
   - people
   - portal
   - sonification
+  - sound-programming
   - spatial-audio
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list

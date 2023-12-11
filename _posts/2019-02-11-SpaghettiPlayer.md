@@ -3,7 +3,7 @@
 layout: post
 title: "The Spaghetti Code Music Player"
 date: 2019-02-11 17:00:00 +0100
-categories: audio-programming
+categories: sound-programming
 author: Mari Lesteberg
 image: /assets/image/2019_02_11_aleksati_Spaghetti2.jpg
 excerpt: The <a href="https://fractionmari.github.io/SpaghettiPlayer/">Spaghetti Code Music Player</a> is a simple music player that is loaded with one of my own tracks. The player allows you to play and stop the tune, turn on and off a delay effect and control a filter with your computer mouse. The player also has a volume control.

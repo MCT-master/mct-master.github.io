@@ -2,7 +2,7 @@
 layout: post
 title: "The Telematic Experience: Space in Sound in Space"
 date: 2021-12-10 11:00:00 +0200
-categories: portal
+categories: networked-music
 author: Hugh Alexander von Arnim, Jakob Høydal, Joachim Poutaraud, Oliver Getz
 image: /assets/image/2021_12_10_joachipo_telematic.jpg
 excerpt: "A report on our telematic experience in Salen"

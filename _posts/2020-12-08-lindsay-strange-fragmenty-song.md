@@ -2,7 +2,7 @@
 layout: post
 title: "Strange Fragmented Music"
 date: 2020-12-08 08:00:00 +0200
-categories: audio-programming
+categories: sound-programming
 author: Lindsay Charles
 image: /assets/image/2020_12_08_lindsay_rms.png
 excerpt: "A strange song from Sequencing fragments of stranger things and Astronomia "

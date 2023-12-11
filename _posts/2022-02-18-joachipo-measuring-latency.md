@@ -2,7 +2,7 @@
 layout: post
 title: "Mastering Latency"
 date: 2022-02-21 21:00:00 +0200
-categories: portal
+categories: networked-music
 author: Hugh Alexander von Arnim, Kristian Wentzel, Sofía González, Joachim Poutaraud
 image: /assets/image/2022_02_21_hughav_expect_delays.jpg
 excerpt: "Testing two techniques to work with latency when playing music telematically"

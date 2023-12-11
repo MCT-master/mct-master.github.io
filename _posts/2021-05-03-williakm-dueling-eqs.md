@@ -2,7 +2,7 @@
 layout: post
 title: "Dispatch from the Portal: Dueling EQs"
 date: 2021-05-03 10:00:00 +0200
-categories: portal
+categories: networked-music
 author: Henrik Sveen, Anders Lidal, Pedro Lucas, Willie Mandeville
 image: /assets/image/2021_05_04_williakm_midasEQ2.jpeg
 keywords:  portal, telematic-music, concert, LoLa, live-performance

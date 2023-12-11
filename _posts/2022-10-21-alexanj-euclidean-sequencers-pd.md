@@ -2,15 +2,13 @@
 layout: post
 title:  "Euclidean Rhythms in Pure Data"
 date:   2022-10-21 15:00:00 +0200
-categories: audio-programming
+categories: sound-programming
 author: Alexander Wastnidge
 image: /assets/image/2022_28_11_alexanjw_euclid_cover.jpg
 excerpt: "What are Euclidean Rhythms and how can you program them?"
 keywords: Pure data, Euclidean rhythms, Euclidean sequencer
 ---
 
-
-# Euclidean Rhythms in Pure Data
 
 The idea first posited by Godfried Toussaint in his paper "The Euclidean Algorithm Generates Traditional Musical Rhythms" for using mathmatics to generate rhythmic elements has been applied to modules in the Eurorack modular synth ecosystem for some time now.  The basic principal is that given a total number of "steps" in a rhythmic sequence and a chosen number of desired events within that sequence, the algorithm will attempt to space those events evenly, thereby creating pleasing rhythmic parts.  [This video demonstrates one such module in the Eurorack ecosystem](https://youtu.be/dyyUOOX5P0Q)
 

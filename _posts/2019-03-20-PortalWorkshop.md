@@ -2,7 +2,7 @@
 layout: post
 title:  "Repairing scissors and preparing the portal for talks"
 date:   2019-03-20 16:40:00 +0200
-categories: portal
+categories: networked-music
 author: Mari Lesteberg, Elias Andersen
 image: /assets/image/2019_03_20_aleksati_brokenscissors.jpg
 excerpt: ""

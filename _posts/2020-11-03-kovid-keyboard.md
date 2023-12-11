@@ -2,7 +2,7 @@
 layout: post
 title: "Kovid Keyboard"
 date: 2020-11-03 12:00:00 +0100
-categories: audio-programming
+categories: sound-programming
 author: Leigh Murray
 image: /assets/image/2020_11_03_leigh_kovid_keyboard.png
 excerpt: "A web based CSound Synth letting you play together online!"

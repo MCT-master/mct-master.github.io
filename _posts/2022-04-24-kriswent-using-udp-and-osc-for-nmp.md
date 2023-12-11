@@ -2,7 +2,7 @@
 layout: post
 title: "Setting up a controlled environment"
 date: 2022-04-24 23:00:00 +0200
-categories: portal
+categories: networked-music
 author: Joseph Clemente, Kristian Wentzel
 image: /assets/image/2022_04_25_kriswent_TakeControl.jpg
 keywords: networked music performances, telematic music, osc, pure data, bespokesynth, sonic pi

@@ -2,7 +2,7 @@
 layout: post
 title: "Practice-Toolbox-for-students-of-music"
 date: 2020-02-10 10:00:00 +0200
-categories: audio-programming
+categories: sound-programming
 author: Thomas Anda
 image: "/assets/image/2020_02_11_aleksati_thomas_pd.png"
 excerpt: "In our audio programming course we were tasked to make a PD-patch without any restrictions on what it should be. I wanted to make something useful I could incorporate in my daily practice routine, and also distribute to some of my guitar students."

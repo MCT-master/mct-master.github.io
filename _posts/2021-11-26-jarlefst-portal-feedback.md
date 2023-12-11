@@ -2,7 +2,7 @@
 layout: post
 title: "Setting Levels in Virtual Communication"
 date: 2021-11-26 21:51:00 +0200
-categories: portal
+categories: networked-music
 author: Jarle Steinhovden
 image: /assets/image/2021_11_26_jarlefst_submix.png
 keywords:  acoustic-feedback, puredata, max-msp, midi, osc, rme, totalmix, midas-m32

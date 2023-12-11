@@ -2,7 +2,7 @@
 layout: post
 title: "Audio-Video Synchronization for Streaming"
 date: 2021-11-15 03:00:00 +0100
-categories: portal
+categories: networked-music
 author: Pedro Lucas
 image: /assets/image/2021_11_15_pedropl_avsync_obsall.jpg
 keywords: streaming, YouTube, AV-Sync, multi-source, latency

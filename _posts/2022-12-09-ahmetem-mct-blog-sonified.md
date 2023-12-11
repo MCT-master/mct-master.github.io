@@ -2,7 +2,7 @@
 layout: post
 title: "MCT Blog Sonified!"
 date: 2022-12-09 22:35:00 +0200
-categories: audio-programming
+categories: sound-programming
 author: Emin Memis
 image: /assets/image/2022_12_09_ahmetem_mct_blog_sonified_cover.jpg
 keywords: sonification, blog, python

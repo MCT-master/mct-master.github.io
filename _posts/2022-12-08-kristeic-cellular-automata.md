@@ -2,7 +2,7 @@
 layout: post
 title: "Cellular Automata - Implementation in Pure Data"
 date: 2022-12-08 12:00:00 +0200
-categories: audio-programming
+categories: sound-programming
 author: Kristian Eicke
 image: /assets/image/2022_12_07_kristeic_blinker.gif
 keywords: pure data, programming

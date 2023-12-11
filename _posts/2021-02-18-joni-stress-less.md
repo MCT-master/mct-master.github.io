@@ -2,7 +2,7 @@
 layout: post
 title: "Get unstressed with Stress-less"
 date: 2021-02-19 15:00:00 +0200
-categories: audio-programming
+categories: sound-programming
 author: Joni Mok, Dongho Kwak
 image: /assets/image/2021_02_19_joni_stressless.png
 keywords: csound, python, PLL, OSC, reverb

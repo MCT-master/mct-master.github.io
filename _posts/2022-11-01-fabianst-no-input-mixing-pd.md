@@ -2,7 +2,7 @@
 layout: post
 title:  "How to do No-Input Mixing in Pure Data"
 date:   2022-10-01 13:54:42 +0200
-categories: audio-programming
+categories: sound-programming
 author: Fabian Stordalen
 image: /assets/image/2022_11_01_fabianst_toshimaru.jpg
 excerpt: "No-Input Mixing in Pure Data"

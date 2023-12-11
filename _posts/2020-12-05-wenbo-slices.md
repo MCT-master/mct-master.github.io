@@ -2,7 +2,7 @@
 layout: post
 title: "Chaotic Battle of Music Slices"
 date: 2020-12-05 15:00:00 +0200
-categories: audio-programming
+categories: sound-programming
 author: Wenbo Yi
 image: /assets/image/2020_12_05_wenbo_output.png
 excerpt: "Slicing up the music and reorganize them with four kinds of Librosa features."

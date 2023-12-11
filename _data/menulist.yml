@@ -1,16 +1,18 @@
 toc:
   - title: Topics
     subfolderitems:
-      - page: Audio Programming
-        url: /audio-programming/
       - page: Interactive Music
         url: /interactive-music/
       - page: Machine Learning
         url: /machine-learning/
       - page: Motion Capture
         url: /motion-capture/
+      - page: Networked Music
+        url: /networked-music/
       - page: Sonification
         url: /sonification/
+      - page: Sound Programming
+        url: /sound-programming/
       - page: Spatial Audio
         url: /spatial-audio/
       - page: Other
@@ -25,8 +27,6 @@ toc:
         url: /masters-thesis/
       - page: All Projects
         url: /projects/
-  - title: Portal
-    url: /portal/
   - title: People
     url: /people/
   - title: About

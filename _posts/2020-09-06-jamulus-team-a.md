@@ -2,7 +2,7 @@
 layout: post
 title: "Jamulus: Can y-- hear -e now?"
 date: 2020-09-06 20:12:57 +0200
-categories: portal
+categories: networked-music
 author: Alena Clim, Leigh Murray, Abhishek Choubey
 image: /assets/image/2020_09_06_alenacl_team_a.jpg
 keywords: jamulus, latency, jamming

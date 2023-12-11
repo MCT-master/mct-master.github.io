@@ -2,7 +2,7 @@
 layout: post
 title: "Jamulus test session."
 date: 2020-09-07 06:30:20 +0200
-categories: portal
+categories: networked-music
 author: Stephen Gardener, Wenbo Yi, Joni Mok, Lindsay Charles
 image: /assets/image/2020_09_07_stephedg_team_c_metronome.jpg
 keywords: jamulus, latency, jamming

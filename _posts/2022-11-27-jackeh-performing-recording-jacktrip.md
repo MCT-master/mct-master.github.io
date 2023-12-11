@@ -2,7 +2,7 @@
 layout: post
 title: "Performing & Recording with JackTrip"
 date: 2022-11-27 10:00:00 +0200
-categories: portal
+categories: networked-music
 author: Jack Hardwick
 image: /assets/image/2022_11_27_jackeh_jacktrip_performance_recording_preview_image.jpg
 keywords: jacktrip, LOLA, performing, recording, network-musical-performance

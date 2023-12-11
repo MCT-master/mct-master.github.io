@@ -2,7 +2,7 @@
 layout: post
 title: "Smokey and the Bandwidth"
 date: 2020-04-04 23:00:00 +0200
-categories: portal
+categories: networked-music
 author: Paul Koenig
 image: /assets/image/2020_04_04_aleksati_70s_CB.JPG
 excerpt: "Hijacking Old Tech for New Uses"

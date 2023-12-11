@@ -2,7 +2,7 @@
 layout: post
 title: Telematic Concert between Salen and Portal - Performers’ Reflections
 date: 2022-11-28
-categories: portal
+categories: networked-music
 author: Alexander Wastnidge, Aysima Karcaaltincaba, Iosif Aragiannis
 image: https://www.uio.no/english/studies/programmes/mct-master/blog/assets/image/2022_11_28_aysimab_telematic_concert.jpg
 keywords: telematic, performance, network

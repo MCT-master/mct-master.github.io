@@ -50,7 +50,7 @@ All of this made it clear to me that the world needs a web-based musical instrum
 </figure>
 
 
-[The Diff Cam Engine](http://diffcam.com/) is an open source core engine that enables motion detecting in JavaScript, created by [Will Boyd](https://codersblock.com/about/). As I had learned audio programming in JavaScript through one of the [MCT courses](https://mct-master.github.io/audio-programming/2019/02/11/SpaghettiPlayer.html), I decided to start on the path of creating motion detecting web-apps for musicking.  Very quickly I found out how to use this technology to create sound:
+[The Diff Cam Engine](http://diffcam.com/) is an open source core engine that enables motion detecting in JavaScript, created by [Will Boyd](https://codersblock.com/about/). As I had learned audio programming in JavaScript through one of the [MCT courses](https://mct-master.github.io/sound-programming/2019/02/11/SpaghettiPlayer.html), I decided to start on the path of creating motion detecting web-apps for musicking.  Very quickly I found out how to use this technology to create sound:
 
 <figure>
 <iframe width="560" height="315" src="https://www.youtube.com/embed/OK11-359A4Y" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>  </iframe> <figcaption> <i>The very first motion capture musical instrument attempt</i> </figcaption>  

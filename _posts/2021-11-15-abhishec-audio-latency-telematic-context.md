@@ -2,7 +2,7 @@
 layout: post
 title: " Audio Latency in the Telematic Setting"
 date: 2021-11-15 08:00:00 +0100
-categories: portal
+categories: networked-music
 author: Abhishek Choubey
 image: /assets/image/2021_11_15_abhishec_audio_latency.jpg
 keywords: portal, Latency, telematic, performances, telepresence, audio, lag, delay

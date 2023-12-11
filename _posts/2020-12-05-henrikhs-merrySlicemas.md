@@ -2,7 +2,7 @@
 layout: post
 title: "Merry slicemas"
 date: 2020-12-05 02:00:00 +0200
-categories: audio-programming
+categories: sound-programming
 author: Henrik Sveen
 image: /assets/image/2020_12_05_henrikhs_chopmas.jpg
 keywords: segmentation, slicing, audio, spectral_bandwidth, python

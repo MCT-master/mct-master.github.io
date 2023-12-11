@@ -2,7 +2,7 @@
 layout: post
 title: "Video latency: definition, key concepts, and examples"
 date: 2021-11-15 18:30:00 +0200
-categories: portal
+categories: networked-music
 author: Alena Clim
 image: /assets/image/2021_11_15_alena_test_latency.png
 keywords: video-latency, streaming, codec, protocol, encoder, decoder

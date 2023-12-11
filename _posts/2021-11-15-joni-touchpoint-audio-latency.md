@@ -2,7 +2,7 @@
 layout: post
 title: "Touchpoint that can potentially improve the audio latency in a communication system"
 date: 2021-11-14 18:00:00 +0100
-categories: portal
+categories: networked-music
 author: Joni Mok
 image: /assets/image/2021_11_15_joni_1.jpeg
 keywords: portal, communication system, audio latency

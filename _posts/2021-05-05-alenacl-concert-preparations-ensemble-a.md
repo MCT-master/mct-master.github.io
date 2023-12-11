@@ -2,7 +2,7 @@
 layout: post
 title: "Concert preparations: exploring the Portal"
 date: 2021-05-05 12:10:00 +0200
-categories: portal
+categories: networked-music
 author: Alena Clim, Leigh Murray, Abhishek Choubey
 image: /assets/image/2021_05_04_alenacl_team_a_concert.JPG
 keywords:  portal, telematic-music, telematic-communications, LoLa, TICO, midas-m32

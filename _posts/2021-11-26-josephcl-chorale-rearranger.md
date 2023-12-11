@@ -2,7 +2,7 @@
 layout: post
 title: "Chorale Rearranger: Chopping Up Bach"
 date: 2021-11-26 10:00:00 +0200
-categories: audio-programming
+categories: sound-programming
 author: Joseph Clemente, Hugh Alexander von Arnim, Jakob Høydal, Oliver Getz
 image: /assets/image/2021_11_26_josephcl_bach.png
 keywords: MIDI, Bach, Python, Pure Data

@@ -2,7 +2,7 @@
 layout: post
 title: "Cross the Streams"
 date: 2021-05-03 15:00:00 +0200
-categories: portal
+categories: networked-music
 author: Leigh Murray
 image: /assets/image/2021_05_04_leigh_stream.jpg
 keywords: livestream, portal, lola, obs

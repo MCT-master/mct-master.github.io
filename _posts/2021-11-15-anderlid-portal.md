@@ -2,7 +2,7 @@
 layout: post
 title: "Audio-video sync"
 date: 2021-11-15 22:00:00 +0200
-categories: portal
+categories: networked-music
 author: Anders Lidal
 image: /assets/image/2021_11_15_anderlid_txt.png
 keywords: latency, audio, video, audio-video sync, syncronisation, composition, lip-synchronized, lip-sync, synchronisation

@@ -2,7 +2,7 @@
 layout: post
 title: "Twinkle Twinkle (sad) Little Mars"
 date: 2021-02-28 16:00:00 +0200
-categories: portal
+categories: networked-music
 author: Henrik Sveen, Anders Lidal, Pedro Lucas, Willie Mandeville
 image: /assets/image/2021_02_28_anderlid_marsKO.jpg
 keywords: portal, telematic-music, feedback, LoLa, latency

@@ -2,7 +2,7 @@
 layout: post
 title: "Latency: To Accept or to Delay Feedback?"
 date: 2022-02-21 12:00:00 +0200
-categories: portal
+categories: networked-music
 author: Arvid Falch, Joseph Clemente, Jakob Høydal, Oliver Getz
 image: /assets/image/2022_02_21_josephcl_latency_thumbnail.png
 keywords: latency, LOLA, delay, portal

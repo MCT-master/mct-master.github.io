@@ -26,7 +26,7 @@ The observant reader will also notice that there is a piezo-element fixed to the
    <figcaption>The instrument in action!</figcaption>
 </figure>
 
-In my project I have mapped the pitch and the roll of the 9DOF to different parameters of a spectral delay and a granular synthesis-patch. All of the audio-programming is done in Pure Data. The famous visual programming language which will give you RSI and tinnitus in a heart-beat. In the GIF below you can see how the pitch is mapped to the bin-position of the spectral delay. You can download the patch [here](https://drive.google.com/file/d/15rzjY3XlADSlCRElQfK6h_9nvxkDpUSj/view?usp=sharing) if you like to check it out in more detail. 
+In my project I have mapped the pitch and the roll of the 9DOF to different parameters of a spectral delay and a granular synthesis-patch. All of the sound-programming is done in Pure Data. The famous visual programming language which will give you RSI and tinnitus in a heart-beat. In the GIF below you can see how the pitch is mapped to the bin-position of the spectral delay. You can download the patch [here](https://drive.google.com/file/d/15rzjY3XlADSlCRElQfK6h_9nvxkDpUSj/view?usp=sharing) if you like to check it out in more detail. 
 
 <figure style="float: none">
    <img src="https://drive.google.com/uc?&id=1UejW6YUuuPEq3vhzSQypW8DZlErbPt7a"

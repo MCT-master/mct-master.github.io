@@ -2,7 +2,7 @@
 layout: post
 title: "Camera Optimization in the Portal"
 date: 2020-02-03 12:00:00 +0200
-categories: portal
+categories: networked-music
 author: Thomas Anda, Jackson Goode, Paul Koenig, Rayam Luna, Jarle Steinhovden, Aleksander Tidemann, Gaute Wardenær, Ulrik Halmøy, Tom Ignatius, Thibault Jaccard, Simon Sandvik
 image: https://ascompro.ru/wp-content/uploads/VHD-V302_2.jpg
 excerpt: "On the quest for optimizing the visual aspect of the Portal"

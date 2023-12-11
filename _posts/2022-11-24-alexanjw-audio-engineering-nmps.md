@@ -2,14 +2,13 @@
 layout: post
 title: "Audio Engineering for Network Music Performances"
 date: 2022-11-24
-categories: portal
+categories: networked-music
 author: Alexander Wastnidge
 image: /assets/image/2018_09_10_stefanof_jnv_mixer.jpg
 keywords: telematic music, LoLa, low latency, audio engineering
 excerpt: "How much more difficult could it POSSIBLY be?"
 ---
 
-# Audio Engineering for Network Music Performances
 
 From hybrid online conferences to network music performances, the job of the sound technician is growing in complexity.  Here we will take a look at the added considerations for the FOH engineer working with network music performances (NMPs).
 

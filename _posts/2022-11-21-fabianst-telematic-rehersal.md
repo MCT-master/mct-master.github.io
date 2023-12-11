@@ -2,7 +2,7 @@
 layout: post
 title: "Rehearsing Music Over the Network"
 date: 2022-11-21
-categories: portal
+categories: networked-music
 author: Fabian Stordalen
 image: https://www.uio.no/english/studies/programmes/mct-master/blog/assets/image/2022_11_23_fabianst_setup.jpg
 keywords: telematic music, LoLa, low latency, rehersal
@@ -15,7 +15,7 @@ As a part of the MCT4024 course we were asked to set up and organize a telematic
 
 ## Our Concert
 
-Our concert was a part of the [Embodied Perspectives on Musical AI](https://www.uio.no/ritmo/english/news-and-events/events/workshops/2022/embodied-ai/index.html) workshop held at UiO where we were asked to put on a 20-minute performance. The performance was held between the UiO Science Library and the RITMO research center and consisted of two parts. First part consisted of two cover songs while the second part was a semi-improvised electroacoustic piece. For this concert I played bass and the No-Input Mixer which I've written a post about [earlier](https://mct-master.github.io/audio-programming/2022/10/01/fabianst-no-input-mixing-pd.html)
+Our concert was a part of the [Embodied Perspectives on Musical AI](https://www.uio.no/ritmo/english/news-and-events/events/workshops/2022/embodied-ai/index.html) workshop held at UiO where we were asked to put on a 20-minute performance. The performance was held between the UiO Science Library and the RITMO research center and consisted of two parts. First part consisted of two cover songs while the second part was a semi-improvised electroacoustic piece. For this concert I played bass and the No-Input Mixer which I've written a post about [earlier](https://mct-master.github.io/sound-programming/2022/10/01/fabianst-no-input-mixing-pd.html)
 
 If you want to watch a video of the performance it can be found [here](https://youtu.be/pIq6TP2ox5c?t=423)
 

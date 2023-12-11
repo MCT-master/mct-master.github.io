@@ -2,7 +2,7 @@
 layout: post
 title: "Reflections on Scientific Computing (The B Team Bares All)"
 date: 2020-10-15 16:00:00 +0200
-categories: audio-programming
+categories: sound-programming
 author: Pedro Lucas, Willie Mandeville, Henrik Sveen, Anders Lidal
 image: /assets/image/2020_08_21_anderlid_B_Team_2020.jpg
 keywords: python, jupyter notebook, audio-files, numpy, pandas, matplotlib, librosa

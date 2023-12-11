@@ -2,7 +2,7 @@
 layout: post
 title: The impact and importance of network-based musical collaboration (in the post-covid world)
 date: 2022-10-03
-categories: portal
+categories: networked-music
 author: Iosif Aragiannis
 image: /assets/image/2022_10_03_telematic_concert.jpg
 keywords: MCT, musical collaboration, networked music performance software, LoLa, JamKazam, Jamulus, live music

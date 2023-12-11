@@ -2,7 +2,7 @@
 layout: post
 title: " Don't stop the music please, but please do "
 date: 2021-10-25 22:00:00 +0200
-categories: ​​audio-programming
+categories: ​​sound-programming
 author: Arvid Falch, Joseph Clemente, Kristian Wentzel, Jakob Høydal
 image: /assets/image/2021_10_25_jakobhoy_StopTheMusicFavicon.png
 keywords:

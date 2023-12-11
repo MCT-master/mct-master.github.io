@@ -2,7 +2,7 @@
 layout: post
 title: Bringing the (Optic) Fibre Ensemble to Life - Behind the Scenes of a Telematic Music Performance
 date: 2022-11-28
-categories: portal
+categories: networked-music
 author: Kristian Eicke, Jack Hardwick
 image: /assets/image/2022_11_28_jackeh_kristeic_concert_preview_image.jpg
 keywords: telematic, performance, network, ritmo
@@ -53,7 +53,7 @@ The original plan two weeks before the concert was to use a spatial audio system
    <figcaption>Team RITMO getting ready to soundcheck over LOLA</figcaption>
 </figure>
 
-The RITMO technical team consisted of your authors Kristian and Jack, while Masoud and Fabian were the remote performers. Masoud sang and performed a patch in Max/MSP, while Fabian played the bass guitar and the [no-input mixing board](https://mct-master.github.io/audio-programming/2022/10/01/fabianst-no-input-mixing-pd.html). Helpfully for the technicians, both of these setups connected to the performers’ audio interfaces. This meant that we only needed to send line inputs into the mixer on the NMP kit and connect a simple Shure SM58 vocal microphone for Masoud.
+The RITMO technical team consisted of your authors Kristian and Jack, while Masoud and Fabian were the remote performers. Masoud sang and performed a patch in Max/MSP, while Fabian played the bass guitar and the [no-input mixing board](https://mct-master.github.io/sound-programming/2022/10/01/fabianst-no-input-mixing-pd.html). Helpfully for the technicians, both of these setups connected to the performers’ audio interfaces. This meant that we only needed to send line inputs into the mixer on the NMP kit and connect a simple Shure SM58 vocal microphone for Masoud.
 
 <figure style="float: none">
    <img src="/assets/image/2022_11_28_jackeh_kristeic_RITMO_stageplot.jpg" width="75%" />

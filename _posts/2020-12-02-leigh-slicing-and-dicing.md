@@ -2,7 +2,7 @@
 layout: post
 title: "Slicing and Dicing Audio Samples"
 date: 2020-12-02 15:00:00 +0200
-categories: audio-programming
+categories: sound-programming
 author: Leigh Murray
 image: /assets/image/2020_12_02_leigh_slicing_dicing.png
 excerpt: "Slicing up two songs and re-joining them with RMS and Spectral Centroid values."

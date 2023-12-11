@@ -2,7 +2,7 @@
 layout: post
 title: "How to Set Up Hybrid Learning Environments"
 date: 2022-04-24 10:00:00 +0200
-categories: portal
+categories: networked-music
 author: Sofía González, Oliver Getz
 image: https://drive.google.com/uc?export=view&amp;id=1MZaWM-Nl2-KKBTeeMjmb3inLsAh-GwfG
 keywords: hybrid learning environment, teaching, online, physical, communication, class

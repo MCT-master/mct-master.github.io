@@ -27,7 +27,6 @@ Official media accounts of the MCT programme:
 
 Other websites and blogs led by students of the MCT programme:
 
-- [WoNoMute](https://youtube.com/channel/UCRWv7-fkWIKiYxm-iQrdV1w/videos) - website and blog of the organization Women Nordic Music Technology.
 - [Can You Hear Me?](https://mct-master.github.io/canyouhearme/) - wiki and guide for an ever expanding list of audio-video communication softwares.
 
 <!--

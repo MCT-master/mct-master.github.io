@@ -2,7 +2,7 @@
 layout: post
 title: "Experiencing Ambisonics Binaurally"
 date: 2019-05-19 09:00:00 +0200
-categories: portal
+categories: networked-music
 author: Guy Sion
 image: https://drive.google.com/uc?export=view&amp;id=1TCF-xmE15IUitxgYLme057R6fby2BuHc
 excerpt: "During the MCT2022 Physical-virtual communication course we have had two sessions where we explored multichannel and ambisonic decoding. The first session, on February 27th, was mainly about recording a four channel A-format stream with an Ambisonic 360 sound microphone. We converted the A-format mic signal into a full-sphere surround sound format which was then decoded to 8 loudspeakers layout we placed evenly across the portal space. We have used the AIIRADecoder from the free and open source IEM plug-in suite."
@@ -27,7 +27,7 @@ For our second session on April 24th, we focused on decoding binaurally the inpu
 
 ![6](https://drive.google.com/uc?export=view&amp;id=1i3B89_gdFNHNSGWAu3ZweYPBWYGMnCzH "6")
 
-We were given the time to experiment with this setup. Several class members have started to whisper, talk loudly or sing into their dedicated microphones, trying to create unique sonic material for the listeners who wore headphones in Trondheim and Oslo. I seized on the opportunity to play the saxophone with this ambisonic setup and resorted to the Giant Steps melody which seemed to be a recurring theme whenever I am being asked to play something (have you checked out my <a href="https://mct-master.github.io/audio-programming/2019/02/11/Giant-Player.html" target="_blank">(Giant Steps Player already?).</a>
+We were given the time to experiment with this setup. Several class members have started to whisper, talk loudly or sing into their dedicated microphones, trying to create unique sonic material for the listeners who wore headphones in Trondheim and Oslo. I seized on the opportunity to play the saxophone with this ambisonic setup and resorted to the Giant Steps melody which seemed to be a recurring theme whenever I am being asked to play something (have you checked out my <a href="https://mct-master.github.io/sound-programming/2019/02/11/Giant-Player.html" target="_blank">(Giant Steps Player already?).</a>
 
 <p>I stood in the middle of the four-microphone setup and played into each of the mics at a time. During the first round of the melody, I played segments of the song into each different mic, and for the second round of the tune, I played (almost) each note into a different mic. That resulted in an audio clip where you can hear me play parts of the melody in four positions (Front-Right, Front-Left, Back-Right, Back-Left). I would recommend listening to this audio clip with headphones to be able to clearly identify the direction I am playing from (from the listeners perspective).
 

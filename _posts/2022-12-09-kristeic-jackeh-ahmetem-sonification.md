@@ -2,7 +2,7 @@
 layout: post
 title: "Sonifying the Northern Lights: Two Approaches in Python & Pure Data"
 date: 2022-12-09 22:00:00 +0200
-categories: audio-programming
+categories: sound-programming
 author: Jack Hardwick, Kristian Eicke, Emin Memis
 image: /assets/image/2022_12_09_kristeic_ahmetem_jackeh_dido_in_space_small.jpg
 excerpt: "Making 'music' from the Aurora Borealis."
