@@ -74,4 +74,3 @@ Interviews can be crucial for gaining more in-depth knowledge about the experien
 Check out [Amberscript’s guide](https://www.amberscript.com/en/blog/open-ended-questions-in-qualitative-research/) as a starting place to learn more about open-ended questions and the interview process. 
 
 Documenting a NMP requires planning, good communication, and more work than you may be used to if you have hosted music performances in the past. However, prioritizing good documentation at all stages of a NMP, particularly in the planning stage, can lead to a better audience experience, more academic possibilities, and reflection that will help create better NMPs in the future. Happy documenting, and good luck with your next network music performance!
-
