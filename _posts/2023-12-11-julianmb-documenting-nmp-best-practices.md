@@ -9,6 +9,8 @@ keywords: networked-music-performance, performance-documentation, music-technolo
 excerpt: "Effectively documenting networked music performances can lead to better experiences for physical and digital audiences, and your academic explorations."
 ---
 
+<img src="https://www.uio.no/english/studies/programmes/mct-master/blog/assets/image/2023_12_11_julianmb_top-image.jpeg?alt=original" width="80%" style="display: block; margin: auto;"/>
+
 At its simplest, a **networked music performance (NMP)** is a musical performance done in real time over a computer network. It enables people to be in two different locations and perform and practice music together synchronously as if they were in the same room. NMPs can connect musicians who would not usually be able to play together, help researchers gain insight into technology and performance interactions, and make concerts more accessible to audiences.
 
 A crucial part of any NMP is documentation. Firstly, for audience members. It is important to ensure every audience member in any location has adequate “documentation” of the parts of the performance they are not physically in the room to see. Secondly, there are considerations to consider if you will document an NMP for academic purposes so that your evidence supports answering your research questions.
@@ -21,7 +23,7 @@ _At the University of Oslo, MCT students use LoLa, a low latency, high-quality a
 
 **1. Make a technical diagram (or a few!)**
 
-Making at least one technical diagram is vital to planning and hosting a successful NMP. You can do this on a free and easy-to-use website: [draw.io.](https://app.diagrams.net)
+Making at least one technical diagram is vital to planning and hosting a successful NMP. You can do this on a free and easy-to-use website, [draw.io.](https://app.diagrams.net)
 
 No matter what software, hardware, locations, or performers you are using, a technical diagram can help you gain clarity from the start about what equipment you need, how many people need to be at each location, where the best places to set cameras may be, etc. It can also help you foresee any documentation challenges that may come up. For example, will you need an extra laptop and camera feed to record the performance? A technical diagram lets you prioritize your documentation needs from the beginning.
 
@@ -59,7 +61,7 @@ Consider if you need an extra laptop or USB camera (and of what quality) to send
 
 One benefit to NMPs is that they can easily be accessible to digital audience members. You can easily live stream NMPs with a bit of planning. **Open Broadcasters Software (OBS)** is a free application that allows you to arrange multiple camera feeds to live stream on Twitch or YouTube. Again, this should be considered beforehand as it could require an additional computer, software, and cameras at both locations. Having a technician to set up, check, and run the stream will also be important.
 
-If you want to learn more about OBS, check out their [Quick Start Guide.](https://obsproject.com/kb/quick-start-guide). Additionally, OBS can be used to stream to social media platforms, opening up options to share NMP on social media platforms such as TikTok, Instagram, Facebook and X (formerly known as Twitter). If you are interested in using OBS to stream to social media check out [Dreamcast's guide](https://godreamcast.com/blog/solution/live-streaming-and-webcasting/obs-studio-live-streaming/) on using OBS to stream across platforms. Facebook also has created their [own guide](https://www.facebook.com/business/help/497386444253763) for using OBS to stream to Facebook Live.
+If you want to learn more about OBS, check out their [Quick Start Guide](https://obsproject.com/kb/quick-start-guide). Additionally, OBS can be used to stream to social media platforms, opening up options to share NMP on social media platforms such as TikTok, Instagram, Facebook and X (formerly known as Twitter). If you are interested in using OBS to stream to social media check out [Dreamcast's guide](https://godreamcast.com/blog/solution/live-streaming-and-webcasting/obs-studio-live-streaming/) on using OBS to stream across platforms. Facebook also has created their [own guide](https://www.facebook.com/business/help/497386444253763) for using OBS to stream to Facebook Live.
 
 ## Academic Purposes
 
