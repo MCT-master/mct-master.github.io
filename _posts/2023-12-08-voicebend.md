@@ -4,7 +4,7 @@ title:  "Voice/Bend"
 date:   2023-12-04 11:09:00 +0200
 categories: interactive-music
 author: Nino Jakeli
-image: /assets/image/2023_12_08_ninojake_flex.jpg
+image: /assets/image/2023_12_08_ninojak_cover.png
 excerpt: Microphone Gestural controller
 keywords: interactive music instruments
 ---
@@ -15,12 +15,31 @@ keywords: interactive music instruments
 
 # Introduction
 
+<div align="center" style="display: flex; justify-content: center; align-items: center; margin-bottom: 20px;">
+    <!-- Flex Sensor Image and Caption -->
+    <div style="text-align: center; margin-right: 5px;"> <!-- Adjusted margin-right for slight space -->
+        <img src="{{ '/assets/image/2023_12_08_ninojak_300_flex.jpg' | relative_url }}" alt="Flex Sensor" style="width: auto; height: auto; max-width: 100%; max-height: 300px;">
+        <em>Flex Sensors</em>
+    </div>
+
+    <!-- IR Sensor Image and Caption -->
+    <div style="text-align: center;">
+        <img src="{{ '/assets/image/2023_12_08_ninojak_IR.jpg' | relative_url }}" alt="IR Sensor" style="width: auto; height: auto; max-width: 100%; max-height: 300px;">
+        <em>IR Sensor</em>
+    </div>
+</div>
+
+
+
+
+   
+
 
 
 
 Voice/Bend is an interactive gestural controller for improvised vocal performance. The idea is to interact with the sound like a physical object. 
 
-Voice/Bend is a glove a singer wears on their right hand. It's fitted with bend sensors that detect the flexing of the fingers and an Infrared Distance (IR) sensor to measure how far the hand is from other objects. The left-hand holds a microphone, capturing the performer's voice.
+It is wearable glove a singer wears on their right hand. It's fitted with bend sensors that detect the flexing of the fingers and an Infrared Distance (IR) sensor on the palm to measure how far the hand is from other objects. The left-hand holds a microphone, capturing the performer's voice.
 
 This approach differs from traditional electronic instruments, which typically rely on knobs or sliders for sound control. With Voice/Bend, the concept is more about physically interacting with sound, as if you could shape and touch it with your hands.
 This concept emerged from understanding how singers often use hand movements as part of their expression. The development of interactive systems in music performances has been increasing. These systems, particularly sensor-based ones, have made it simpler for musicians and vocalists to interact with their music.
@@ -35,11 +54,10 @@ Gestures play an important role in performances. They can add a different dimens
 
 <div align="center" style="display: flex; justify-content: center; align-items: center; margin-bottom: 20px;">
     <!-- Image 1 -->
-    <img src="{{ site.baseurl }}/assets/image/2023/12/08_nino_voicebend.png" alt="Diagram of Voice/Bend" style="width: auto; height: auto; max-width: 100%; max-height: 300px;">
-
-    <!-- Image 2 -->
-    <!-- Add the second image here if needed, similar to the first image tag -->
+    <img src="{{ '/assets/image/2023_12_08_ninojak_diagram.jpeg' | relative_url }}" alt="Diagram of Voice/Bend" style="width: auto; height: auto; max-width: 100%; max-height: 300px;">
 </div>
+
+
 
 
 
