@@ -29,7 +29,7 @@ Below is an example of a technical diagram MCT’s 2023 cohort made for their fi
 
 <img src="https://www.uio.no/english/studies/programmes/mct-master/blog/assets/image/2023_12_11_julianmb_tech-diagram.png?alt=original" width="60%" style="display: block; margin: auto;" />
 
-<p style="text-align: center;">Diagram made by [Karenina Juarez](https://mct-master.github.io/authors/kareninajuarez.html)</p>
+<p style="text-align: center;"><em>Diagram made by <a href="https://mct-master.github.io/authors/kareninajuarez.html">Karenina Juarez</a></em></p>
 
 **2. Ask for consent**
 
@@ -41,7 +41,7 @@ Through set-up, rehearsal, and during the performance, assign a technician to ta
 
 <img src="https://www.uio.no/english/studies/programmes/mct-master/blog/assets/image/2023_12_11_julianmb_nmp-photo-example.jpeg?alt=original" width="60%" style="display: block; margin: auto;" />
 
-<p style="text-align: center;">Example photo from the 2023 cohort’s second autumn NMP.</p>
+<p style="text-align: center;"><em>Example photo from the 2023 cohort’s second autumn NMP.</em></p>
 
 ## Multiple audiences
 
