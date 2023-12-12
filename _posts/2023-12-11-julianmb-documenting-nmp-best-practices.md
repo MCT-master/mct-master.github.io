@@ -24,10 +24,7 @@ No matter what software, hardware, locations, or performers you are using, a tec
 
 Below is an example of a technical diagram MCT’s 2023 cohort made for their first autumn 2023 NMP. 
 
-<figure style="float: none">
-   <img src="assets/image/2023_12_11_julianmb_tech-diagram.png" alt="Technical diagram for a NMP" title="NMP Technical Diagram Example" width="auto" />
-   <figcaption>Caption Text</figcaption>
-</figure>
+<img src="assets/image/2023_12_11_julianmb_tech-diagram.png" width="60%" style="display: block; margin: auto;" />
 
 *Diagram made by [Karenina Juarez](https://mct-master.github.io/authors/kareninajuarez.html)*
 
@@ -37,10 +34,7 @@ Before beginning documentation, especially if the concert is live-streamed or da
 **3. Take Photos**
 Through set-up, rehearsal, and during the performance, assign a technician to take photos. Often, in research-based contexts, it is helpful to have pictures of where any cameras are placed, where people are standing, and where other equipment is in relation to performers. These photos can then be used in reports to aid in explaining specific elements of the event. 
 
-<figure style="float: none">
-   <img src="assets/image/2023_12_11_julianmb_NMP-photo-example.jpeg" alt="Desk of music equipment at NMP performance." title="NMP Example Photo Documentation" width="auto" />
-   <figcaption>Caption Text</figcaption>
-</figure>
+<img src="assets/image/2023_12_11_julianmb_NMP-photo-example.jpeg" width="60%" style="display: block; margin: auto;" />
 
 *Example photo from the 2023 cohort’s second autumn NMP.*
 
