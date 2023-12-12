@@ -4,7 +4,7 @@ title: "Exploring Breath-based DMIs: A Review of the KeyWI"
 date: 2023-09-21 19:00:00 +0200
 categories: interactive-music
 author: Alexander Wastnidge
-image: https://raw.githubusercontent.com/matthewcaren/KeyWI/master/platform-files/keywi-image.JPG"
+image: /assets/image/2023_12_12_alexanjw_keywi.JPG
 keywords: expressivity, digital musical instruments, interative music systems, melodica,
 excerpt: "The relationship between musician and instrument can be an extremely personal and intimate one"
 ---
@@ -27,7 +27,7 @@ In terms of the "accessibilty" of the instrument, as well as being a fully open-
 ### Critical Evaluation
 Expressivity and accessibility are the key elements of this instrument's self-identity.  As such, in order to evaluate the system further I will draw on ideas of expressivity, engagement, virtuosity, immediacy and autonomy.
 
-Beginning with ["expressivity"](https://escholarship.org/uc/item/8v0022bd), the key affordance for this is via the breath sensor.  Examining the code across the various sound engines, this is mapped to amplitude and, where applicable across the sound engines; cutoff frequency of a low-pass filter, a modulation LFO and interplay between tone and noise.  Though this demonstrates a one-to-many mapping seen as good practice, in actuality it is seemingly only ever mapped to amplitude and one other timbre parameter.  This does correlate well with [Wanderley et al.'s]((https://doi.org/10.1007/978-3-319-92069-6_2)) guideline for DMIs to, "require energy for amplitude", though.  With such mapping, many expressive techniques are open to the musician involving control over dynamics including, theoretically, tremolo.
+Beginning with ["expressivity"](https://escholarship.org/uc/item/8v0022bd), the key affordance for this is via the breath sensor.  Examining the code across the various sound engines, this is mapped to amplitude and, where applicable across the sound engines; cutoff frequency of a low-pass filter, a modulation LFO and interplay between tone and noise.  Though this demonstrates a one-to-many mapping seen as good practice, in actuality it is seemingly only ever mapped to amplitude and one other timbre parameter.  This does correlate well with [Wanderley et al.'s](https://doi.org/10.1007/978-3-319-92069-6_2) guideline for DMIs to, "require energy for amplitude", though.  With such mapping, many expressive techniques are open to the musician involving control over dynamics including, theoretically, tremolo.
 
 <figure style="float: none">
    <img
