@@ -1,12 +1,12 @@
 ---
 layout: post
-title: 'How to break out of the "comping" loop?'
-date: 2023-09-22 08:00:00 +0200
+title: "How to break out of the comping loop?"
+date: 2023-09-22 10:00:00 +0200
 categories: interactive-music
 author: Joachim Poutaraud
 image: /assets/image/2023_09_22_joachipo_loop.png
-keywords: jazz, loop, interactive music systems
 excerpt: "A critical review of the Reflexive Looper."
+keywords: jazz, loop, interactive music systems
 ---
 
 "[Comping](https://en.wikipedia.org/wiki/Comping_(jazz))" is a term coined by jazz musicians, meaning accompaniment. Traditionally, this term is associated with musicians in the rhythm section, such as the pianist, bassist, guitarist or drummer, whose role is to accompany the soloist when the latter plays the theme of a jazz composition or standard, or improvises a solo. It is therefore necessary for jazz musicians to develop skills in different formations (duo, trio, quartet, etc.) in order to improve their ability to accompany a solo musician or to interact with the musicians of the rhythm section. This defines the very essence of jazz improvisation, which consists in spontaneously inventing solo melodic lines, or accompaniment parts, as part of a jazz performance.
