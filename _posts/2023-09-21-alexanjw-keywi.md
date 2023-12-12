@@ -4,7 +4,7 @@ title: "Exploring Breath-based DMIs: A Review of the KeyWI"
 date: 2023-09-21 19:00:00 +0200
 categories: interactive-music
 author: Alexander Wastnidge
-image: https://raw.githubusercontent.com/matthewcaren/KeyWI/master/platform-files/keywi-image.JPG"
+image: /assets/image/2023_12_12_alexanjw_keywi.JPG
 keywords: expressivity, digital musical instruments, interative music systems, melodica,
 excerpt: "The relationship between musician and instrument can be an extremely personal and intimate one"
 ---
