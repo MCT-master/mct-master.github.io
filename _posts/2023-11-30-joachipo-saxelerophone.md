@@ -19,13 +19,12 @@ Well, I think so, and that's why I created the Saxelerophone. This IMS is design
 
 <figure style="float: none">
    <img src="/assets/image/2023_11_20_joachipo_saxelerophone.jpg" alt="The Saxelerophone." width="100%"/>
-   <figcaption>The Saxelerophone. Left: Soprano saxophone (Selmer Super Action 80 Series II) with sensors on the mouthpiece connected to a Bela board. Right (top): ADXL313 3-axis digital accelerometer sensor positioned above the contact microphone. Right (bottom): Contact microphone based on piezo material positioned on the saxophone’s ligature.</figcaption>
+   <figcaption>The Saxelerophone. Left: Soprano saxophone (Selmer Super Action 80 Series II) with sensors on the mouthpiece connected to a Bela board. Right (top): ADXL337 3-axis digital accelerometer sensor positioned above the contact microphone. Right (bottom): Contact microphone based on piezo material positioned on the saxophone’s ligature.</figcaption>
 </figure>
 
-To achieve this, I conceived the Saxelerophone as a hyper-instrument (i.e. added additional sensors to the saxophone), "*to give extra power and finesse to virtuosic performers*" ([Machover and Chung, 1989](https://cir.nii.ac.jp/crid/1573950398868759680)). On the one hand, it's a simple, flexible system consisting of a contact microphone and a three-axis digital accelerometer, designed to be mounted on any reed instrument fitted with a ligature. On the other hand, it's a system based on complex gestural control of sound synthesis, using robust machine-learning methods to learn static regression mappings, enabling the construction of a new expressive and creative sound space for developing gestural virtuosity. The code, design files and technical documentation to replicate the system are available [here](https://github.com/joachimpoutaraud/saxelerophone).
+To achieve this, I conceived the Saxelerophone as a hyper-instrument (i.e. added additional sensors to the saxophone), "*to give extra power and finesse to virtuosic performers*" ([Machover and Chung, 1989](https://cir.nii.ac.jp/crid/1573950398868759680)). On the one hand, it's a simple, flexible system consisting of a contact microphone and a three-axis digital accelerometer, designed to be mounted on any reed instrument fitted with a ligature. On the other hand, it's a system based on complex gestural control of sound synthesis, using robust machine-learning methods to learn static regression mappings, enabling the construction of a new expressive and creative sound space for developing gestural virtuosity. 
 
-<iframe width="100%" height="500" src="https://www.youtube.com/embed/xH90NDN7JsQ?si=q3m7FXBLyI6kskkb" title="Performing live with the Saxelerophone" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-
+The code, design files and technical documentation to replicate the system are available at the following address: [https://github.com/joachimpoutaraud/saxelerophone](https://github.com/joachimpoutaraud/saxelerophone).
 
 ## Gestural control of sound synthesis
 
@@ -46,14 +45,14 @@ For audio sensing, the aim was to collect acoustic information specific to the i
 Next, a three-axis digital accelerometer was used to determine the saxophone's orientation and changes in movement. 
 
 <figure style="float: none">
-   <img src="/assets/image/2023_11_20_joachipo_accelerometer.jpg" alt="ADXL313 3-axis digital accelerometer." width="60%"/>
-   <figcaption>ADXL313 3-axis digital accelerometer.</figcaption>
+   <img src="/assets/image/2023_11_20_joachipo_adxl337.jpg" alt="ADXL337 3-axis digital accelerometer." width="60%"/>
+   <figcaption>ADXL337 3-axis digital accelerometer.</figcaption>
 </figure>
 
 It was this sensor that first and foremost enabled me to define a physical relationship between the performer's *sound-accompanying* gestures and sound synthesis control parameters (i.e. mapping). The mapping of gestures to sound synthesis parameters was then performed using machine learning. To do this, a regression algorithm was trained using an ANN framework for Pure Data called [neuralnet](https://github.com/alexdrymonitis/neuralnet) to create a new sound space in which the performer could navigate to generate new interactive sounds. A schematic representation of the Saxelerophone's mappings is shown in the diagram below.
 
 <figure style="float: none">
-   <img src="/assets/image/2023_11_20_joachipo_mapping.jpg" alt="Saxelerophone's mappings." width="60%"/>
+   <img src="/assets/image/2023_11_20_joachipo_mappings.jpg" alt="Saxelerophone's mappings." width="60%"/>
    <figcaption>Saxelerophone's mappings.</figcaption>
 </figure>
 
@@ -68,6 +67,10 @@ Finally, accelerometer data was integrated to estimate the instrument's velocity
 As the designer of this instrument, I feel that the challenge of developing an instrument to demonstrate a new gestural virtuosity for the saxophone has on the whole been successful. The main technical challenges were to define the right frequency variation of the resistor-capacitor circuit (RC circuit) for use with the contact microphone, and to design a system that was flexible and adaptable to any reed instrument fitted with a ligature. After conducting a quick preliminary study involving 4 participants on the question of the audience perspective, the results obtained were largely positive. This confirmed my position on the subject, although the results were not compared to another IMS, nor to a different prototype version of the Saxelerophone.
 
 As a performer of this instrument, I think first of all that a new approach to writing could be developed for this instrument, taking into account the performer's gestures on the score. In addition, I think that in-depth work on the saxophone's playing modes could be envisaged to deepen learning and engagement with the instrument. For the time being, the Saxelerophone relies on a single space for personal sound creation. Although it is possible to create new sound spaces ad infinitum, it would be beneficial to add new input variables related to the instrument's own playing modes (percussive, blown, sung or multiphonic sounds) when training the model. This would give the performer greater expressiveness and a wider variety of sounds to match his or her virtuoso abilities.
+
+## Performing with the Saxelerophone
+
+<iframe width="100%" height="500" src="https://www.youtube.com/embed/xH90NDN7JsQ?si=q3m7FXBLyI6kskkb" title="Performing live with the Saxelerophone" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
 **References**
 <br>
