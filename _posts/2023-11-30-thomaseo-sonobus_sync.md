@@ -8,7 +8,7 @@ image: /assets/image/2023_11_30_thomaseo_sonobus-sync6.jpg
 excerpt: "A quick start guide to jamming over a network. Designed for instruments which can synchronize using an analog clock pulse."
 ---
 ### Introduction
-In this post we are going to use Sonobus to set up a simple jam session between two locations over the internet, designed for electronic instruments with a built in sequencer. The primary location (referred to as the ‘Hub’) will send audio alongside an analog clock pulse. The secondary location (the ‘Node’) will receive these and in turn, send back it’s own audio. There are multiple ways to achieve this effectively, here’s just one way to do it.
+In this post we are going to use Sonobus to set up a simple jam session between two locations over the internet, designed for electronic instruments with a built in sequencer. The primary location (referred to as the ‘Hub’) will send audio alongside an analog clock pulse. The secondary location (the ‘Node’) will receive these and in turn, send back it’s own audio. There are multiple ways to achieve this effectively, here’s just one way to do it. This technique is referred to as Forward Synchronisation.
 
 
 ### Equipment/software checklist
@@ -32,12 +32,12 @@ Although it is possible to use Sonobus over wifi, it is highly recommended to us
 
 ### Step 2 - Starting a session in Sonobus
 
-The node can now open Sonobus and click ‘connect’. This opens a menu where you can give your session a name, an optional password and choose a display name (this can be handy to label yourself ‘Node’). Under the ‘connect to group’ button there is a box called ‘Connection Server’. Here you can enter your IP address. The last thing we need to do is allocate a port number. The port number tells the software where in your computer to send data. Imagine you live in an apartment block. The IP address is the street address of the building and the port in like your apartment number. There are thousands of ports, many of which are idle. Choose a 5 digit number above 10,000. The IP address and port number should be separated by a colon like this:
+The node can now open Sonobus and click ‘connect’. This opens a menu where you can give your session a name, an optional password and choose a display name (this can be handy to label yourself ‘Node’). Under the ‘connect to group’ button there is a box called ‘Connection Server’. Here you can enter your IP address. The last thing we need to do is allocate a port number. For Sonobus, this is 10999. The IP address and port number should be separated by a colon like this:
 
 <img src="/assets/image/2023_11_30_thomaseo_sonobus-sync1.jpg" width="60%" style="display: block; margin: auto;" />
 
 
-Once this is entered, click ‘Connect to Group’. If it fails to connect, double check your IP address and test out some different port numbers (on some networks, use a number above 30,000). Copy your IP address and node to send to the Hub because they will need to enter the same information.
+Once this is entered, click ‘Connect to Group’. If it fails to connect, double check your IP address and consult the guide on the Sonobus website. Copy your IP address and node to send to the Hub because they will need to enter the same information.
 
 Now the Hub can also open Sonobus but this time as a plug in in Ableton Live. I recommend using Sonobus on a return track. Input the same information as the Node (except change the display name to ‘Hub’) and click connect.
 
@@ -76,4 +76,6 @@ Finally both people need to adjust the latency of the audio they are receiving a
 
 ### Testing and tweaking
 
-Test out the connection by starting and stopping the clock, getting it running in time and waiting to see if it goes out of sync. If this happens, repeat the steps in this section with a higher number, remembering to change all settings to the same number. If you are hearing some latency but the timing seems consistent this could be down to latency within your system (all setups have some degree of latency) so you can manually adjust the Additional Monitoring Delay until the instruments synchronize. Good luck and happy jamming!
+Test out the connection by starting and stopping the clock, getting it running in time and waiting to see if it goes out of sync. If this happens, repeat the steps in this section with a higher number, remembering to change all settings to the same number. If you are hearing some latency but the timing seems consistent this could be down to latency within your system (all setups have some degree of latency) so you can manually adjust the Additional Monitoring Delay until the instruments synchronize. Underneath is a flow chat to help visualise the signal path. Good luck and happy jamming!
+
+<img src="/assets/image/2023_12_13_thomaseo_sonobus-sync6.jpg" width="60%" style="display: block; margin: auto;" />
