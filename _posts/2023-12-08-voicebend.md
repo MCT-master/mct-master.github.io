@@ -52,10 +52,14 @@ Gestures play an important role in performances. They can add a different dimens
 
 # Technical Implementation
 
-<div align="center" style="display: flex; justify-content: center; align-items: center; margin-bottom: 20px;">
+<div align="center" style="display: flex; flex-direction: column; justify-content: center; align-items: center; margin-bottom: 20px;">
     <!-- Image 1 -->
-    <img src="{{ '/assets/image/2023_12_08_ninojak_diagram.jpeg' | relative_url }}" alt="Diagram of Voice/Bend" style="width: auto; height: auto; max-width: 100%; max-height: 300px;">
+    <img src="{{ '/assets/image/2023_12_08_ninojak_diagram1.png' | relative_url }}" alt="Diagram of Voice/Bend" style="width: auto; height: auto; max-width: 100%; max-height: 300px;">
+    <!-- Italicized caption for the image -->
+    <i>Voice/Bend Diagram</i>
 </div>
+
+
 
 
 
