@@ -11,7 +11,7 @@ excerpt: "Co-constructing the body with optical, marker-based motion capture in 
 
 <figure>
   <img src="/assets/image/2023_12_15_hughav_header.png" width = "100%" allign="middle" />
-  <figcaption>Oskar Schlemmer's depiction of the laws of cubic space. From (Schlemmer, 1986).</figcaption>
+  <figcaption>Oskar Schlemmer's depiction of the laws of cubic space. From (Schlemmer, 1987).</figcaption>
 </figure>
 
 <div style="text-align: center;">
@@ -79,8 +79,6 @@ The co-construction model was developed upon a methodological foundation based u
 
 A full description of the model, how it can be applied as a framework for system design or analysis, and its methodological basis can be found in chapter three of the thesis manuscript.
 
-Coming soon.
-
 # The Shapeshifter
 
 <br>
@@ -105,3 +103,19 @@ Coming soon.
 
 
 # Works Cited
+
+ABBA Voyage. (2021, October 13). ABBA Voyage: How ABBA used motion capture to create their avatars. Facebook. https://www.facebook.com/ABBAVoyage/videos/abba-voyage-how-abba-used-motion-capture-to-create-their-avatars/399264848445591/
+
+Davis, L. J. (1995). Enforcing Normalcy: Disability, Deafness, and the Body. Verso.
+Garland-Thomson, R. (1997). Extraordinary Bodies: Figuring Physical Disability in American Culture and Literature. Columbia University Press.
+
+Naccarato, T. J., & MacCallum, J. (2017). Critical Appropriations of Biosensors in Artistic Practice. Proceedings of the 4th International Conference on Movement Computing, 1–7. https://doi.org/10.1145/3077981.3078053
+
+Plaete, J., Bradley, D., Warner, P., & Zwartouw, A. (2022). ABBA voyage: High volume facial likeness and performance pipeline. ACM SIGGRAPH 2022 Talks. https://doi.org/10.1145/3532836.3536260
+
+Schlemmer, O., Moholy-Nagy, L., & Molnár, F. (1987). The theater of the Bauhaus (W. Gropius & A. S. Wensinger, Eds.). Wesleyan university press.
+
+Sterne, J. (2001). Mediate Auscultation, the Stethoscope, and the “Autopsy of the Living”: Medicine’s Acoustic Culture. Journal of Medical Humanities, 22(2), 115–136. https://doi.org/10.1023/A:1009067628620
+
+Stévance, S., & Lacasse, S. (2018). Research-creation in music: Towards a collaborative interdiscipline. Routledge.
+The bigger picture: ABBA Voyage. (2022). Engineering & Technology, 17(6), 14–15. https://doi.org/10.1049/et.2022.0622
