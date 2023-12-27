@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "We Are Sitting In Rooms"
-date:   2023-12-1820 2:00:00 +0200
+date:   2023-12-20 2:00:00 +0200
 categories: networked-music, music-technology
 author: Karenina Juarez
 image: assets/image/2023_12_20_karenij.blogclip.png
