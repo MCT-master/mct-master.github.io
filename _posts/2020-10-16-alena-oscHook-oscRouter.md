@@ -133,11 +133,11 @@ For a smoother control of the parameters' values, I changed the scaling manually
 
 __Important note!__ After scaling the parameters, try to keep the exact same light conditions before recording or working on it again. You might notice that the scalling is totally off if you scale the parameters in the middle of the day, near a window, and then record a demo at midnight with only a lamp for light (as it was my case).
 
-[Here](https://drive.google.com/file/d/1HPjX4_uwv2OOuDzTGMNiSalQZszaIugw/view?usp=sharing) is the video of the final performance. On the front camera view you can see the way I'm moving the phone to control the parameters' values. In __Reaper__ you can notice the effects' windows and how the bars are moving based on the phone's movements.
+Here is the video of the final performance. On the front camera view you can see the way I'm moving the phone to control the parameters' values. In __Reaper__ you can notice the effects' windows and how the bars are moving based on the phone's movements.
 
 <figure style="float: none">
   <video width="auto" controls>
-    <source src="https://drive.google.com/uc?&id=1HPjX4_uwv2OOuDzTGMNiSalQZszaIugw" type='video/mp4'>
+    <source src="https://www.uio.no/english/studies/programmes/mct-master/blog/assets/video/2020_10_16_alena_demo.mp4" type='video/mp4'>
   </video>
   <figcaption>Interactive OSC-Reaper Performance</figcaption>
 </figure>

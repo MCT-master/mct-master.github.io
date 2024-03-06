@@ -12,7 +12,7 @@ excerpt: "A concise review on the collaborative online DAW: Soundation."
 # Overview
 Soundation is a collaborative, online DAW which allows you to create music with people no matter the distance. We started a new Soundation project and created short segments of music to try out its different features. So without further ado, get ready for a preview of what the free version of Soundation can do, can't do, and should do so you can decide if it's for you before wasting your time or energy.
 
-![Feature Distributions:](https://drive.google.com/uc?&id=16916ihjvU1FhTZj9QAXL-YtSssjv0K9p "Soundation Layout")
+![Feature Distributions:](https://www.uio.no/english/studies/programmes/mct-master/blog/assets/image/2021_11_01_soundation_review_layout.jpg "Soundation Layout")
 
 # The Good
 The first thing that you'll notice when opening Soundation is it's **modern looking user interface**. It is extremely easy on the eyes, we could work on it for hours with no issues. **Interface control works as expected**, with CTRL and SHIFT to toggle zooming and left-right scrolling with the mouse wheel respectively. **Clicking and dragging along the header creates a looping region**, but we haven't found a shortcut to quickly loop around one or more regions yet.
@@ -27,7 +27,7 @@ As of writing this review, Soundation has **12 instruments to choose from** alon
 
 <p style="text-align: center;">
   <audio title="Segment 1" controls>
-    <source src="https://drive.google.com/uc?&amp;id=18WhNKvVvc7_soDSkNAdL4WIUVIWLx9bj" type="audio/mpeg">
+    <source src="https://www.uio.no/english/studies/programmes/mct-master/blog/assets/audio/2021_11_02_sofia_soundation_review_segment_1.mp3" type="audio/mpeg">
     Your browser does not support the audio tag.
   </audio>
 </p>  
@@ -46,7 +46,7 @@ Something to note is that there is **no way to rename instrument tracks** yet. T
 
 The **piano roll opens in a new window**, which we know is standard in some DAWs but the option to dock it would be nice to avoid clutter.
 
-![Interface Clutter:](https://drive.google.com/uc?&id=1-GMoLWuGS4_Jw-gIxKztyRXgvJM0bI7t "Interface Clutter")
+![Interface Clutter:](https://www.uio.no/english/studies/programmes/mct-master/blog/assets/image/2021_11_02_sofia_soundation_review_clutter.png "Interface Clutter")
 
 When inputting notes in a piano roll, we have a few concerns:
 - Firstly, when **adjusting a note's position**, the **note will keep sounding until you stop clicking on it**. It's nice with a preview, but it gets old very quickly.
@@ -56,7 +56,7 @@ Now on to music making: a critical flaw that we found when trying out Soundation
 
 <p style="text-align: center;">
   <audio title="Segment 2" controls>
-    <source src="https://drive.google.com/uc?&amp;id=14QJBS0Gt4USDJZU6uxvhm4XgyNQqm_8U" type="audio/mpeg">
+    <source src="https://www.uio.no/english/studies/programmes/mct-master/blog/assets/audio/2021_11_02_sofia_soundation_review_segment_2.mp3" type="audio/mpeg">
     Your browser does not support the audio tag.
   </audio>
 </p>  
@@ -85,14 +85,14 @@ Still, here are some examples of what you can do with despite the limitations:
 
 <p style="text-align: center;">
   <audio title="Segment 3" controls>
-    <source src="https://drive.google.com/uc?&amp;id=1bZ7ABRUn_n6DmvTemXqUc5cHHsdZMB3i" type="audio/mpeg">
+    <source src="https://www.uio.no/english/studies/programmes/mct-master/blog/assets/audio/2021_11_02_sofia_soundation_review_segment_3.mp3" type="audio/mpeg">
     Your browser does not support the audio tag.
   </audio>
 </p>  
 
 <p style="text-align: center;">
   <audio title="Segment 4" controls>
-    <source src="https://drive.google.com/uc?&amp;id=1i9MsTI_-s20lhYg2RxAafOCIRlGOZlZF" type="audio/mpeg">
+    <source src="https://www.uio.no/english/studies/programmes/mct-master/blog/assets/audio/2021_11_02_sofia_soundation_review_segment_4.mp3" type="audio/mpeg">
     Your browser does not support the audio tag.
   </audio>
 </p>  

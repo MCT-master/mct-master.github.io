@@ -5,11 +5,11 @@ title:  "A two week wrap-up of Group C"
 date:   2018-10-29 23:00
 categories: networked-music
 author: Karolina Jawad, Jonas Bjordal, Elias Andersen, Guy Sion, Eirik Dahl
-image: https://drive.google.com/uc?export=view&amp;id=1KUBDQKsMk1PI3-waoi5Ht5e2TxoLkI71
+image: https://www.uio.no/english/studies/programmes/mct-master/blog/assets/image/2018_10_29_guysi_montage_portal.jpg
 excerpt: "We've learned a lot in those two weeks. But due to our tight schedule with a big workload there was hardly any time left to improve on our teach/study environment in the portal. In Trondheim we got a handover from group B on how to deal with LOLA. Our task was then to reinstall the LOLA system, but with some important extra package that was missing."
 ---
 
-![Odysseey in Space](https://drive.google.com/uc?export=view&amp;id=1KUBDQKsMk1PI3-waoi5Ht5e2TxoLkI71 "Odysseey in Space")
+![Odysseey in Space](https://www.uio.no/english/studies/programmes/mct-master/blog/assets/image/2018_10_29_guysi_montage_portal.jpg "Odysseey in Space")
 
 # #communication #lola #hyper connectivity #mute #senior aspects #sensitivity #brain performance #human computer interaction #slow motion #cognition
 

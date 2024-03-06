@@ -14,7 +14,7 @@ Keywords: Puredata, breakfast, relaxation, nature
 The project I undertook was to design several soundscapes derived from nature and implement them in a mobile application. The sounds I attempted to model were Ocean Waves, Wind, Rain, and Thunder. I also included a simple filtered-noise generator for my wife, used to help mask external noise while sleeping.
 
 <figure align="middle">
-  <iframe src="https://drive.google.com/file/d/1eDOx_gGJmMBOftpK9IzgPl4KOZ04KFfb/preview" width="640" height="480" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+  <iframe src="https://www.uio.no/english/studies/programmes/mct-master/blog/assets/video/2020_02_11_paulgk_niceweatherdemo.mp4" width="640" height="480" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
   <figcaption>How It Works, More Or Less</figcaption>
 </figure>
 
@@ -58,7 +58,7 @@ I probably don’t need to explain this one, but it’s included for its simple 
 All of these patches were combined into an app using MobMuPlat! Now I can take the weather with me everywhere I go. It’s especially fun, and perverse, to listen to the rain on headphones, while walking home in the rain. Who does that? I do, apparently.
 
 <figure align="middle">
-   <img src="https://drive.google.com/uc?export=view&amp;id=1gWHBN_J_e-_OvU_9OisvmYefqB22yzOJ" alt="alternative text" title="title text" width="auto" height="480" />
+   <img src="https://www.uio.no/english/studies/programmes/mct-master/blog/assets/image/2020_02_12_paulgk_weatherappgui.jpeg" alt="alternative text" title="title text" width="auto" height="480" />
    <figcaption>Mesmerising GUI</figcaption>
 </figure>
 

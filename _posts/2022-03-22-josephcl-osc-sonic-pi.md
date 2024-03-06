@@ -31,7 +31,7 @@ Sonic Pi is a music creation and performance tool based on live coding. This mak
 
 # Video Demo
 
-<iframe src="https://drive.google.com/file/d/1FJJFYK3K052NsskuUDCboQvvTRdLcoeW/preview" width="640" height="480" allow="autoplay"></iframe>
+<iframe src="https://www.uio.no/english/studies/programmes/mct-master/blog/assets/video/2022_03_21_josephcl_sonicpi_video_demo.mp4" width="640" height="480" allow="autoplay"></iframe>
 
 # Files
 

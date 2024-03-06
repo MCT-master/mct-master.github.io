@@ -44,7 +44,7 @@ In contrast to a channel based approach, in Ambisonics we don’t mix by assigni
 In the visual below, we can see the spherical harmonics up to the seventh order.
 
 <figure style="float: none">
-   <img src="https://drive.google.com/uc?&id=1bmWuhHEirhjlnTo0Gc3l5vGXy94AuQ9f" alt="" title="" width="auto" />
+   <img src="https://www.uio.no/english/studies/programmes/mct-master/blog/assets/image/2022_04_24_hughav_spherical_harmonics_1.gif" alt="" title="" width="auto" />
    <figcaption><i>Spherical Harmonics up to seventh order</i></figcaption>
 </figure>
 
@@ -72,7 +72,7 @@ channels.
 If we only want to reproduce a 2D soundfield, the number of required channels is dramatically reduced. We don’t need to ‘record’ any of the vertical information, and so only need to encode the spherical harmonics which include horizontal information. If we take a seventh order encoding as an example, we would only need the harmonics highlighted below.
 
 <figure style="float: none">
-   <img src="https://drive.google.com/uc?&id=1h97yYiWVe7hQj2Cm9InYJqH4RAsAaDby" alt="" title="" width="auto" />
+   <img src="https://www.uio.no/english/studies/programmes/mct-master/blog/assets/image/2022_04_24_hughav_spherical_harmonics_highlight.gif" alt="" title="" width="auto" />
    <figcaption><i>Required harmonics to represent a 2D soundfield</i></figcaption>
 </figure>
 

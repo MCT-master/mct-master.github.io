@@ -26,7 +26,7 @@ I chose to use two songs I created myself a long time ago, and I chose two piece
 
 <figure style="float: none">
   <audio controls>
-    <source src="https://drive.google.com/uc?&id=1jIBIbbmT4Ga29HBsc5IXOD4eYYyk_AY8" type="audio/mpeg">
+    <source src="https://www.uio.no/english/studies/programmes/mct-master/blog/assets/audio/2020_12_05_wenbo_glass.wav" type="audio/mpeg">
     Glass.Wav
   </audio>
   <figcaption>Glass.wav</figcaption>
@@ -35,7 +35,7 @@ I chose to use two songs I created myself a long time ago, and I chose two piece
 
 <figure style="float: none">
   <audio controls>
-    <source src="https://drive.google.com/uc?&id=1Z-o_YJHEFETehkJ_P34MQzS7CyZyOJzj" type="audio/mpeg">
+    <source src="https://www.uio.no/english/studies/programmes/mct-master/blog/assets/audio/2020_12_05_wenbo_runaway.wav" type="audio/mpeg">
     Runaway.Wav
   </audio>
   <figcaption>Runaway.wav</figcaption>
@@ -46,7 +46,7 @@ Regarding reorganized music, I was aware of the challenges of slicing and recomb
 
 <figure style="float: none">
   <audio controls>
-    <source src="https://drive.google.com/uc?&id=1zpSuOwVulifcoo8Xc9w8FM0NTLGVoYBt" type="audio/mpeg">
+    <source src="https://www.uio.no/english/studies/programmes/mct-master/blog/assets/audio/2020_12_05_wenbo_output.wav" type="audio/mpeg">
     Output Song
   </audio>
   <figcaption>Output Song</figcaption>
@@ -59,7 +59,7 @@ Regarding reorganized music, I was aware of the challenges of slicing and recomb
 To be honest, after tried to calculate multiple features, it was difficult to completely decomposition two different pieces of music in reorganized music(features of the slices from one music will be more similar). Therefore, I tried to use different weights for multiple types of data to make the fragments as messy as possible. After I added these data proportionally, It is not particularly clear what it means in terms of hearing. But two different styles of music mixed together in a seemingly clueless way!
 
 
-In the solution for visualising audio files, I chose to use different colours to mark the source files of the music clips. In order to make the source of each slice clear enough, I used matplot to output a really huge png file, and the original png file can be download in [here.](https://drive.google.com/file/d/1DMow5CugjPWK7O16HlZoOOP1uFKo-gcT/view?usp=sharing])
+In the solution for visualising audio files, I chose to use different colours to mark the source files of the music clips. In order to make the source of each slice clear enough, I used matplot to output a really huge png file, and the original png file can be download in [here.](https://www.uio.no/english/studies/programmes/mct-master/blog/assets/image/2020_12_05_wenbo_output.png])
 
 
 

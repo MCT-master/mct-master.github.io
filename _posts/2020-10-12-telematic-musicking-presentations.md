@@ -12,20 +12,20 @@ keywords: Networking, cross-campus, musicking, jamming, presentation
 ### SoundJack
 
 <figure align="middle">
-    <iframe src="https://drive.google.com/file/d/1-E-8tGrJVFC2q4TuGZWXp7VoX0TNQhC_/preview" width="800px" height="480px" allowfullscreen></iframe>
+    <iframe src="https://www.uio.no/english/studies/programmes/mct-master/blog/assets/document/2020_10_12_jacksong_soundjack_pres.pdf" width="800px" height="480px" allowfullscreen></iframe>
     <figcaption>Our presentation on SoundJack</figcaption>
 </figure>
 
 ### JackTrip
 
 <figure align="middle">
-    <iframe src="https://drive.google.com/file/d/1-FJZeX91aBp4nbCHQzvVTysq4e-nykfR/preview" width="800px" height="480px" allowfullscreen></iframe>
+    <iframe src="https://www.uio.no/english/studies/programmes/mct-master/blog/assets/document/2020_10_12_jacksong_jacktrip_pres.pdf" width="800px" height="480px" allowfullscreen></iframe>
     <figcaption>Our presentation on JackTrip</figcaption>
 </figure>
 
 ### JamKazam
 
 <figure align="middle">
-    <iframe src="https://drive.google.com/file/d/1-JVwY2j7RpRr24R83pkDzjZQcKvRV4v2/preview" width="800px" height="480px" allowfullscreen></iframe>
+    <iframe src="https://www.uio.no/english/studies/programmes/mct-master/blog/assets/document/2020_10_12_jacksong_jamkazam_pres.pdf" width="800px" height="480px" allowfullscreen></iframe>
     <figcaption>Our presentation on JamKazam</figcaption>
 </figure>

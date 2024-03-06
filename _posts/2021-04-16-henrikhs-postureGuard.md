@@ -28,7 +28,7 @@ What I found from the plot of these markers was that my «top head», or just he
 
 <figure style="float: none">
   <video width="500" controls>
-    <source src="https://drive.google.com/uc?&id=1M0dMnd2CIXSKmqgr-5tr7g_klGjwM-lw" type='video/mp4'>
+    <source src="https://www.uio.no/english/studies/programmes/mct-master/blog/assets/video/2021_04_14_henrikhs_henrikposture.mp4" type='video/mp4'>
     Should show a video player
   </video>
   <figcaption>Video of optical motion capture done with OptiTrack Motive</figcaption>
@@ -49,7 +49,7 @@ For the video capture the computer webcam ended up being sufficient for handling
 
 <figure style="float: none">
   <video width="500" controls>
-    <source src="https://drive.google.com/uc?&id=1-nHbLs2Eqe4kvEkdtyFLZiEanm6YcpIh" type='video/mp4'>
+    <source src="https://www.uio.no/english/studies/programmes/mct-master/blog/assets/video/2021_04_16_henrikhs_postguard.mp4" type='video/mp4'>
     Should show a video player
   </video>
   <figcaption>The basics of Posture Guard - tracking face and proximity via webcam</figcaption>
@@ -61,7 +61,7 @@ For the video capture and tracking there are two different alarms, one subtle mo
 
 <figure style="float: none">
   <audio controls>
-    <source src="https://drive.google.com/uc?&id=1zmCzWJh51-IijLx-657CR2wLGQLOaVHI" type="audio/mpeg">
+    <source src="https://www.uio.no/english/studies/programmes/mct-master/blog/assets/audio/2021_04_16_henrikhs_nicealarm.wav" type="audio/mpeg">
     Should show a media player
   </audio>
   <figcaption>Nice alarm mode moving very close to the screen and back.</figcaption>
@@ -70,7 +70,7 @@ For the video capture and tracking there are two different alarms, one subtle mo
 
 <figure style="float: none">
   <audio controls>
-    <source src="https://drive.google.com/uc?&id=1-K3_zjGFQpDPkqnTl9LGnW7MrWiy3tRX" type="audio/mpeg">
+    <source src="https://www.uio.no/english/studies/programmes/mct-master/blog/assets/audio/2021_04_16_henrikhs_obnoxiousalarm.wav" type="audio/mpeg">
     Should show a media player
   </audio>
   <figcaption>Obnoxious alarm mode moving very close to the screen and back.</figcaption>
@@ -78,7 +78,7 @@ For the video capture and tracking there are two different alarms, one subtle mo
 
 <figure style="float: none">
   <audio controls>
-    <source src="https://drive.google.com/uc?&id=1as8zkMiOSVusVhNG2-IpqIVJEiY2QaEm" type="audio/mpeg">
+    <source src="https://www.uio.no/english/studies/programmes/mct-master/blog/assets/audio/2021_04_16_henrikhs_necktiltpitch.wav" type="audio/mpeg">
     Should show a media player
   </audio>
   <figcaption>Neck tilt (pitch) mapped to pitch where tone height tells you according to verticality how much you need to correct your neck tilt to obtain good posture.</figcaption>
@@ -86,7 +86,7 @@ For the video capture and tracking there are two different alarms, one subtle mo
 
 <figure style="float: none">
   <audio controls>
-    <source src="https://drive.google.com/uc?&id=1QQPoND3-j9tsOnk7a5Ebjpr3GyialvKo" type="audio/mpeg">
+    <source src="https://www.uio.no/english/studies/programmes/mct-master/blog/assets/audio/2021_04_16_henrikhs_yawtiltwind.wav" type="audio/mpeg">
     Should show a media player
   </audio>
   <figcaption>Sideways neck movement where sound tells you which direction you should move your neck on the left/right plane to obtain good posture. In the example the head is first leaning too much to the right, triggering a signal that signifies you should be moving more to the left, and the second is the other way around.</figcaption>

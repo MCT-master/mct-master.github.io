@@ -43,7 +43,7 @@ Here is an example of this implementation in action:
 
 <figure style="float: none">
   <video width="auto" controls>
-    <source src="https://drive.google.com/uc?&id=1B-rlC7oQ-Kdbj5q-6PFPn8EoZPh9SQJd" type='video/mp4'>
+    <source src="https://www.uio.no/english/studies/programmes/mct-master/blog/assets/video/2020_10_15_leigh_strum_phone.mp4" type='video/mp4'>
   </video>
   <figcaption>Strumming with Phone Accelerometer</figcaption>
 </figure>
@@ -65,7 +65,7 @@ This functioned well in that it was very accurate, but the sensitivity of the de
 
 <figure style="float: none">
   <video width="auto" controls>
-    <source src="https://drive.google.com/uc?&id=1xxts-8SjgzOuUBpfHsB5XP1xcf9z2yje" type='video/mp4'>
+    <source src="https://www.uio.no/english/studies/programmes/mct-master/blog/assets/video/2020_10_15_leigh_strum_proximity.mp4" type='video/mp4'>
   </video>
   <figcaption>Strumming with Proximity Sensor</figcaption>
 </figure>
@@ -78,7 +78,7 @@ In testing this functioned the best. The distance was okay at up to 2cm and the 
 
 <figure style="float: none">
   <video width="auto" controls>
-    <source src="https://drive.google.com/uc?&id=1LFulaArqinOAS6d6nbsZGTDgJAGDuAjd" type='video/mp4'>
+    <source src="https://www.uio.no/english/studies/programmes/mct-master/blog/assets/video/2020_10_15_leigh_strum_door.mp4" type='video/mp4'>
   </video>
   <figcaption>Strumming with Magnetic Door Switch</figcaption>
 </figure>
@@ -93,7 +93,7 @@ A problem with all the sensors above is that they are only capable of detecting 
 
 <figure style="float: none">
   <video width="auto" controls>
-    <source src="https://drive.google.com/uc?&id=1Xo2BJcvtwuEkO3dMZlmAQKr1B9vAhfbE" type='video/mp4'>
+    <source src="https://www.uio.no/english/studies/programmes/mct-master/blog/assets/video/2020_10_15_leigh_strum_hall.mp4" type='video/mp4'>
   </video>
   <figcaption>Strumming with Magnetic Hall Effect Sensor</figcaption>
 </figure>
@@ -107,7 +107,7 @@ Finally, I felt like the main thing that was missing from this feeling of strumm
 
 <figure style="float: none">
   <video width="auto" controls>
-    <source src="https://drive.google.com/uc?&id=1rz9uYDWkeHMBIPuZutVLdXXRvIUK83s8" type='video/mp4'>
+    <source src="https://www.uio.no/english/studies/programmes/mct-master/blog/assets/video/2020_10_15_leigh_strum_joystick.mp4" type='video/mp4'>
   </video>
   <figcaption>Strumming with Joystick</figcaption>
 </figure>
@@ -118,7 +118,7 @@ What do you do when you have a guitar? You play Wonderwall, of course. For "Copy
 
 <figure style="float: none">
   <video width="auto" controls>
-    <source src="https://drive.google.com/uc?&id=1jJ_Dj7sIF9OlgAdQaIYWOjzyR2WgWUTW" type='video/mp4'>
+    <source src="https://www.uio.no/english/studies/programmes/mct-master/blog/assets/video/2020_10_15_leigh_strum_performance.mp4" type='video/mp4'>
   </video>
   <figcaption>Strumming Performance</figcaption>
 </figure>

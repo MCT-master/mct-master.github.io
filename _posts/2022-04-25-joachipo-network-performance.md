@@ -60,7 +60,7 @@ When measuring the `bandwidth`, we usually get two numbers related to the `uploa
 
 <figure style="float: none">
   <video width="auto" controls>
-    <source src="https://drive.google.com/uc?&id=18tT10OIvFjFuRXjicTKrR2KVjTVjBwZl" type='video/mp4'>
+    <source src="https://www.uio.no/english/studies/programmes/mct-master/blog/assets/video/2022_22_04_jakobhoydal_av-latency_and_network_diagnostics.mp4" type='video/mp4'>
   </video>
   <figcaption> Network Performance Tutorial</figcaption>
 </figure>

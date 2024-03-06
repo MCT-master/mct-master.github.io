@@ -36,7 +36,7 @@ For making the sonification, I decided to use the Max/MSP environment. Due to th
 From the recorded data, two data sets were available to use for the sonification. The first data set consists of all the x, y, z position data for each participant, which is 273 columns and 35601 rows of data.
 
 <figure align="middle">
-   <img src="https://drive.google.com/uc?export=view&amp;id=1vtT1hC1Ckerw4z7TeIAE8M6-QY2hUP74" width="auto" height="auto"/>
+   <img src="https://www.uio.no/english/studies/programmes/mct-master/blog/assets/image/2020_05-13_sembappr_excel.png" width="auto" height="auto"/>
 </figure>
 
 The second data set is based on the demographic data of each participant and consists of quantitative and qualitative data. I like to mention the data variables that consist of the participant demographic data set. Which are the group each participant belongs( A, B, C, D, E, F, G, H, P), Participant number, Age, Sex, Height, Music listening hours per week, Music performing/production hours per week, Dance hours per week, Exercise hours per week. And some measurements were based on a Likert-Scale: Tiresome experience of the session (1 to 5), Experienced any motion (1 to 5), Experienced any motion during the music segment (1 to 5). Two other variables indicate if the participant had their eyes open/close or had locked knees/or not during the experiment.
@@ -59,7 +59,7 @@ Instead of directly mapping the x, y, position data, a new variable is defined w
 Figure 3.3 shows a part of the patch which calculates the change of the position (displacement). First, the displacement of position is calculated for each axis of data. In each moment, the previous position value is subtracted from the current position value and the absolute value is calculated. By using this value, the displacement can be derived for each plane (XY, YZ, XZ) by pairing the sums of individual position displacements for each x, y and z Axes. According to the results of the study by Jensenius et al. (2017), most motion is happening in the XY plane, and in the sonification, primarily the displacement of the XY plane is considered.
 
 <figure align="middle">
-   <img src="https://drive.google.com/uc?export=view&amp;id=1aohUcrhjWsG7wPfxUM0yARAtQUuXBBZz" width="auto" height="auto"/>
+   <img src="https://www.uio.no/english/studies/programmes/mct-master/blog/assets/image/2020_05-13_sembappr_fig3.png" width="auto" height="auto"/>
 </figure>
 
 # 1 . Sonification of Individual Participant Data

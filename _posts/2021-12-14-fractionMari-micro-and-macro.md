@@ -45,7 +45,7 @@ All of this made it clear to me that the world needs a web-based musical instrum
 ## The Diff Cam Engine
 
 <figure style="float: none">
-   <img src="https://drive.google.com/uc?&id=1_vDgebj8VofYA-G4pwIW-d3iTf4A9qCS" alt="Diffcam Engine" title="Diffcam Engine" width="70%" />
+   <img src="https://www.uio.no/english/studies/programmes/mct-master/blog/assets/image/2021_12_13_fractionmari_diffcam.gif" alt="Diffcam Engine" title="Diffcam Engine" width="70%" />
    <figcaption><i>The Diffcam Engine</i></figcaption>
 </figure>
 

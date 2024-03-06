@@ -16,7 +16,7 @@ In a band or orchestra, you have multiple musicians, each focusing on a particul
 As I wanted individual control over all parts at the same time, I limited the number of parts to four - two melodic parts, a harmony part and a rhythm section. I put together a system using Reason Players (Dual Arpeggio, Scales & Chords, Beat Map and Note Echo) which I could feed with single notes, and let them generate the melodies, harmonies and beats.
 
 <figure style="float: none">
-    <iframe src="https://drive.google.com/file/d/1_YgCD0Wx22rZaVOnwaqpeO4hCRWMwnI8/preview" width="430" height="500"></iframe>
+    <iframe src="https://www.uio.no/english/studies/programmes/mct-master/blog/assets/image/2020_10_16_stephedg_reason_rack.gif" width="430" height="500"></iframe>
     <figcaption>I used Reason Rack to turn singles notes into melodies</figcaption>
 </figure>
 

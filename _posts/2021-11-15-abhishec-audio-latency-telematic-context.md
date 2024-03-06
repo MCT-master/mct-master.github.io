@@ -130,7 +130,7 @@ If you wish to hear about the topic in more detail you can watch the below video
 
 <figure style="float: none">
   <video width="auto" controls>
-    <source src="https://drive.google.com/uc?&id=15sFp67U2DFlQ1HOn2ypFjQ2HYa9jWyH2" type='video/mp4'>
+    <source src="https://www.uio.no/english/studies/programmes/mct-master/blog/assets/video/2021_11_15_abhishec_audio_latency.mp4" type='video/mp4'>
     Telematic Conducting Lecture
   </video>
   <figcaption>Audio latency lecture</figcaption>

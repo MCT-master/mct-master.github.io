@@ -38,7 +38,7 @@ So let's hear it in action
 This is a performance of me using the phone as modulation while typing on the computer keyboard. The computer microphone is picking up the sound, sending it through my patch.
 <figure style="float: none">
   <video width="auto" controls>
-    <source src="https://drive.google.com/uc?&id=1pjto-nIMrGl2UJlSSTP8WnLwqh5TqxIr" type='video/mp4'>
+    <source src="https://www.uio.no/english/studies/programmes/mct-master/blog/assets/video/2020_10_14_henrikhs_sittingroom.mp4" type='video/mp4'>
     Alternate Text
   </video>
   <figcaption></figcaption>
@@ -50,7 +50,7 @@ This is a performance of me using the phone as modulation while typing on the co
 Maybe it’s not summer at all anymore, but it’s still possible to feel some heat from the sun. This is a piece made by my dog (Sanna) wearing my phone, looking for dog-treats in our yard. There are different inputs and modulations for each act. This also shows the sequencer in action. Enjoy.
 <figure style="float: none">
   <video width="auto" controls>
-    <source src="https://drive.google.com/uc?&id=1eWcUo7xJGEF2lY5rN6OXs7ve-by42qzv" type='video/mp4'>
+    <source src="https://www.uio.no/english/studies/programmes/mct-master/blog/assets/video/2020_10_14_henrikhs_dogdelays.mp4" type='video/mp4'>
     Alternate Text
   </video>
   <figcaption></figcaption>

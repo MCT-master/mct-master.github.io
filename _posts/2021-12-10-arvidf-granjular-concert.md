@@ -43,7 +43,7 @@ Musically, the four performers (two in the Portal, two in Salen) planned for an 
 ## **Technical setup**
 
 <figure style="float: none">
-   <img src="https://drive.google.com/uc?&id=17ieTgMZKO_cqILRP40zSpogeQIGSlVtZ" alt="Alternate Text" title="Image Title" width="auto" />
+   <img src="https://www.uio.no/english/studies/programmes/mct-master/blog/assets/image/2021_12_07_josephcl_portal_concert_flowchart.png" alt="Alternate Text" title="Image Title" width="auto" />
    <figcaption>Block diagram of technical setup</figcaption>
 </figure>
 
@@ -51,7 +51,7 @@ The LoLa rack is a recent creation by MCT, providing an all-in-one, portable set
 
 
 <figure style="float: none">
-   <img src="https://drive.google.com/uc?&id=1B8CXNnK-AoxZKhC_1uq5lTl5gofynOMK" alt="Alternate Text" title="Image Title" width="75%" />
+   <img src="https://www.uio.no/english/studies/programmes/mct-master/blog/assets/image/2021_12_09_josephcl_monitor_setup.jpeg" alt="Alternate Text" title="Image Title" width="75%" />
    <figcaption>Monitor facing the performers</figcaption>
 </figure>
 

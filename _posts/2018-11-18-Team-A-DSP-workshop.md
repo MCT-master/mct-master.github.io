@@ -48,7 +48,7 @@ Soundcheck and setup was a little chaotic, with all three teams due to play back
 **Well without further ado - our recording!**
 
 <figure align="middle">
-<iframe src="https://drive.google.com/a/uio.no/file/d/16nxL1LSL9DBNFTU-Dw6zMfcxq93KAgAT/preview" width="640" height="480"></iframe>
+<iframe src="https://www.uio.no/english/studies/programmes/mct-master/blog/assets/video/2018_10_22_jorgeny_ateamdspperformance.mp4" width="640" height="480"></iframe>
 </figure>
 
 ### Technical and creative aspects
@@ -192,7 +192,7 @@ The sound source for the process, was the sound being sent from Jørgen’s lapt
 Therefore it was important to each others style of playing and sound design.
 
 <figure align="middle">
-<iframe src="https://drive.google.com/a/uio.no/file/d/1zm3Xc_FGzgRZhf78bCh01j4Xt470tto1/preview" width="640" height="480"></iframe>
+<iframe src="https://www.uio.no/english/studies/programmes/mct-master/blog/assets/video/2018_10_22_jorgeny_dsplong.m4v" width="640" height="480"></iframe>
 </figure>
 <br>
 

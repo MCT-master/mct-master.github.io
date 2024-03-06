@@ -63,19 +63,19 @@ The piano predictions below have the 256 first of 1024 tokens feed as an input c
 Original Accompaniment
 <audio controls>
 
-  <source src="https://drive.google.com/uc?&id=1Rnrebr5W7zxoqILRxUKXuOZivstsE5_d" type="audio/mpeg">
+  <source src="https://www.uio.no/english/studies/programmes/mct-master/blog/assets/audio/2022_05_20_kriswent_make_u_feel_original.mp3" type="audio/mpeg">
 </audio>
 
 FNet Predicted Accompaniment
 <audio controls>
 
-  <source src="https://drive.google.com/uc?&id=1M3iLpfYUrtNn2JqORSJURtm7xZH9VQgG" type="audio/mpeg">
+  <source src="https://www.uio.no/english/studies/programmes/mct-master/blog/assets/audio/2022_05_20_kriswent_make_u_feel_fnet.mp3" type="audio/mpeg">
 </audio>
 
 Transformer Predicted Accompaniment
 <audio controls>
 
-  <source src="https://drive.google.com/uc?&id=1WnazxcrKW4UurF33O7MeKU8AFsCehyst" type="audio/mpeg">
+  <source src="https://www.uio.no/english/studies/programmes/mct-master/blog/assets/audio/2022_05_20_kriswent_make_u_feel_transformer.mp3" type="audio/mpeg">
 </audio>
 
 ### “Song 186 – Segment 5” – POP909 dataset
@@ -83,19 +83,19 @@ Transformer Predicted Accompaniment
 Original Accompaniment
 <audio controls>
 
-  <source src="https://drive.google.com/uc?&id=118UrWOMIOs9PdaDUXJv8dG8lW03IzYkq" type="audio/mpeg">
+  <source src="https://www.uio.no/english/studies/programmes/mct-master/blog/assets/audio/2022_05_20_kriswent_185_c4_original.mp3" type="audio/mpeg">
 </audio>
 
 FNet Predicted Accompaniment
 <audio controls>
 
-  <source src="https://drive.google.com/uc?&id=15wTFI__YSGHYdZrMxhQouR6O0Q1L5mxl" type="audio/mpeg">
+  <source src="https://www.uio.no/english/studies/programmes/mct-master/blog/assets/audio/2022_05_20_kriswent_185_c4_fnet.mp3" type="audio/mpeg">
 </audio>
 
 Transformer Predicted Accompaniment
 <audio controls>
 
-  <source src="https://drive.google.com/uc?&id=1RsxWoWtXug5TACXxSx78yJ_czdm18Q4f" type="audio/mpeg">
+  <source src="https://www.uio.no/english/studies/programmes/mct-master/blog/assets/audio/2022_05_20_kriswent_185_c4_transformer.mp3" type="audio/mpeg">
 </audio>
 
 ## References

@@ -20,7 +20,7 @@ The MIDI Remixer is a sequencer designed to remix and play with some of Johann S
 An application that allows someone to sequence different sections of a MIDI-file needs to have a system where the MIDI information is labeled, timestamped and stored for later retrieval. I decided to base my MIDI-storage device with cyclones [coll] object following MIDI execution objects such as [seq] and [midiparse]. If correctly done this would allow the user to index any part of the MIDI-file they wanted.
 
 <figure align="middle">
-   <img src="https://drive.google.com/uc?export=view&amp;id=1DY0B8BAmGymgEor3b6eTQ5xJymex2vDP" width="auto" height="auto" />
+   <img src="https://www.uio.no/english/studies/programmes/mct-master/blog/assets/image/2020_02_10_aleksati_schedule.jpg" width="auto" height="auto" />
    <figcaption align="middle">Coll</figcaption>
 </figure>
 
@@ -29,7 +29,7 @@ The overall logic of the storing mechanism can be described as such; when readin
 I figured out that the best way to index the [coll] was at the very beginning of each step by using the first note-on value from the steps (MIDI sequences) starting with "index 0", which simply functions as a blank index. This little hack properly ensured correct scheduling in all cases, as the image below shows.
 
 <figure align="middle">
-   <img src="https://drive.google.com/uc?export=view&amp;id=1XImLnvBKaJWNfbhH6YC_-t3jCgvat5Yo" width="auto" height="auto" />
+   <img src="https://www.uio.no/english/studies/programmes/mct-master/blog/assets/image/2020_02_10_aleksati_coll2.jpg" width="auto" height="auto" />
    <figcaption align="middle">Scheduling</figcaption>
 </figure>
 
@@ -51,7 +51,7 @@ The sequencer features the following functions:
 The polysynthesis of the application was inspired by a [Youtube Tutorial](https://www.youtube.com/watch?v=mvtN7de6Oko) on building simple FM-synthesis in Pure Data, as seen in the image below. I went for something very simple and melancholic due to the previously discussed purpose of the application. Therefore, I believe too much sound control and complexity in the synthesis could distract the user from the application main purpose.
 
 <figure align="middle">
-   <img src="https://drive.google.com/uc?export=view&amp;id=1_kCl5EBGmioHCc8DXBVhqIJNDoupxCEq" width="auto" height="auto" />
+   <img src="https://www.uio.no/english/studies/programmes/mct-master/blog/assets/image/2020_02_10_aleksati_fm.png" width="auto" height="auto" />
    <figcaption align="middle">FM</figcaption>
 </figure>
 

@@ -37,7 +37,7 @@ On purpose we chose poorly sounding synth patches, completely unprocessed. We al
 
 <figure style="float: none">
   <audio controls>
-    <source src="https://drive.google.com/uc?&id=1DKxUBmOM-4pleIVld6yRwJ1geDv2_NIl" type="audio/mpeg">
+    <source src="https://www.uio.no/english/studies/programmes/mct-master/blog/assets/audio/2021_11_24_arvidf_org_mix.mp3" type="audio/mpeg">
     Mixed
   </audio>
   <figcaption>The original unprocessed music</figcaption>
@@ -195,7 +195,7 @@ It uses a set up of four parallel comb filters which then runs into two cascadin
 
 <figure style="float: none">
   <audio controls>
-    <source src="https://drive.google.com/uc?&id=1EmmJLHZjUg0wfPX7EYwxKBuVXyX58PmI" type="audio/mpeg">
+    <source src="https://www.uio.no/english/studies/programmes/mct-master/blog/assets/audio/2021_11_24_arvidf_drysound.mp3" type="audio/mpeg">
     Unprocessed sine tone
   </audio>
   <figcaption>Dry sound</figcaption>
@@ -203,7 +203,7 @@ It uses a set up of four parallel comb filters which then runs into two cascadin
 
 <figure style="float: none">
   <audio controls>
-    <source src="https://drive.google.com/uc?&id=1u4BDg6H8nYsuQvoxskekuOxeCCsp3qaK" type="audio/mpeg">
+    <source src="https://www.uio.no/english/studies/programmes/mct-master/blog/assets/audio/2021_11_24_arvidf_wetsound.mp3" type="audio/mpeg">
     Sine tone with our IIR Reverb
   </audio>
   <figcaption>Wet sound</figcaption>
@@ -214,7 +214,7 @@ Our delay was a FIR filter impulse response generating function, which does the 
 
 <figure style="float: none">
   <audio controls>
-    <source src="https://drive.google.com/uc?&id=1-vjA5jJk5AToPTWh1uCYy47J36KtqKbe" type="audio/mpeg">
+    <source src="https://www.uio.no/english/studies/programmes/mct-master/blog/assets/audio/2021_11_24_arvidf_delay.mp3" type="audio/mpeg">
     Brass stabs
   </audio>
   <figcaption>Brass stabs with our FIR Delay</figcaption>
@@ -277,7 +277,7 @@ But at last you could end up with something interesting, and then say some praye
 
 <figure style="float: none">
   <audio controls>
-    <source src="https://drive.google.com/uc?&id=1QXRUwerRbDsHmIf8RCD5pGigu7ZdQtar" type="audio/mpeg">
+    <source src="https://www.uio.no/english/studies/programmes/mct-master/blog/assets/audio/2021_11_24_arvidf_pluck_org.mp3" type="audio/mpeg">
     Unprocessed
   </audio>
   <figcaption>Pluck synth unprocessed</figcaption>
@@ -285,7 +285,7 @@ But at last you could end up with something interesting, and then say some praye
 
 <figure style="float: none">
   <audio controls>
-    <source src="https://drive.google.com/uc?&id=1fpwqIIGzpPOTmty0uZ5h7p8oQxSsAIO0" type="audio/mpeg">
+    <source src="https://www.uio.no/english/studies/programmes/mct-master/blog/assets/audio/2021_11_24_arvidf_pluck_mix.mp3" type="audio/mpeg">
     Mixed
   </audio>
   <figcaption>Pluck Synth processed by our tiny Python DAW</figcaption>
@@ -356,7 +356,7 @@ After a few nights of this ordeal we then had six tracks we could sum together. 
 
 <figure style="float: none">
   <audio controls>
-    <source src="https://drive.google.com/uc?&id=1a9_qXW7AXRnBgyhZpk9OBcA1a7qj3Ruo" type="audio/mpeg">
+    <source src="https://www.uio.no/english/studies/programmes/mct-master/blog/assets/audio/2021_11_24_arvidf_stereomix.mp3" type="audio/mpeg">
     Mixed
   </audio>
   <figcaption>Our final mix</figcaption>

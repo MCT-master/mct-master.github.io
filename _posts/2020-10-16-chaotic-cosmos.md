@@ -38,7 +38,7 @@ Well, after spending quite a lot of time tweaking parameters in OSCulator, to pr
 <i>Note: I started on a kind of composition sending MIDI-notes from Logic to the Moog, but it really didn't work, since the three oscillators started to tune with my movements, due to some OSC sent from GyrOSC. So I went with a drone only, with some fiddling on top from the guitar … please bare with me.)</i>
 
 <figure style="float: none">
-   <iframe src="https://drive.google.com/file/d/15EFFvLm5BMDdUvwEnTOxNUiAgYO33Dca/preview" width="800" height="500" frameborder="0" allowfullscreen></iframe>
+   <iframe src="https://www.uio.no/english/studies/programmes/mct-master/blog/assets/video/2020-10-16-anderlid-physcomp.mp4" width="800" height="500" frameborder="0" allowfullscreen></iframe>
    <figcaption><i>Cosmos … or still chaos?</i></figcaption>
 </figure>
 

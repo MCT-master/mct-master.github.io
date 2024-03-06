@@ -42,7 +42,7 @@ For the mic setup, we set up an AKG C414 mic for the bass and one for the flute.
 
 <figure style="float: none">
   <audio controls>
-    <source src="https://drive.google.com/uc?&id=1u_uC5TdZ5v2vBuo7SIh4CZ3x0nsv2bjN" type="audio/mpeg">
+    <source src="https://www.uio.no/english/studies/programmes/mct-master/blog/assets/audio/2021_05_04_wenboyi_al.mp3" type="audio/mpeg">
     Listen to our Autumn Leaves!
   </audio>
   <figcaption>Listen to our Autumn Leaves!</figcaption>

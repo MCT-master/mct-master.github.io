@@ -4,7 +4,7 @@ title: "HyperGuitar"
 date: 2020-10-19 16:00:00 +0200
 categories: interactive-music
 author: Thomas Anda
-image: https://drive.google.com/uc?&id=10tXeAXSkwHEvFaxvB0ujYXujnnnsdM3f
+image: https://www.uio.no/english/studies/programmes/mct-master/blog/assets/image/2020_10_18_thomasanda_hytar_guitar.jpg
 keywords: Interactive Music Systems, augmented instrument, hyper-instrument, Bela, micro-controller, pure data, granular, spectral, karplus, acoustic guitar
 excerpt: "An exploration of limitations and how to create meaningful action-sound couplings."
 ---
@@ -21,15 +21,15 @@ At the core of this creation you find the "maker platform for creating beautiful
 The observant reader will also notice that there is a piezo-element fixed to the body. I will put a video at the end of the blog where you can see what this does. The piezo-element was there as an attempt to explore the percussive properties of the guitar. However, this was rather unsuccessful. Maybe I will explore this interaction more at a later stage, but for this blog post the focus will be on something more interesting. On the breadboard I have also connected a [9 DOF IMU LSM9DS1-chip](https://www.sparkfun.com/products/13284) from SparkFun. This is an IMU which houses a 3-axis accelerometer, a 3-axis gyroscope and a 3-axis magnetometer. Which gives you nine degrees of freedom (9DOF). If you analyse the output from the three sensors and fuse them together you can then calculate the [roll, pitch and yaw](https://gfycat.com/crispflawlessdragonfly).
 
 <figure style="float: none">
-   <img src="https://drive.google.com/uc?&id=1K-0_QywlJzM0WOJOvW6qBdok6VdaBhJu"
+   <img src="https://www.uio.no/english/studies/programmes/mct-master/blog/assets/image/2020_10_19_thomasanda_hyperguitar_screenshot.png"
    alt="Alternate Text" title="Image Title" width="680" />
    <figcaption>The instrument in action!</figcaption>
 </figure>
 
-In my project I have mapped the pitch and the roll of the 9DOF to different parameters of a spectral delay and a granular synthesis-patch. All of the sound-programming is done in Pure Data. The famous visual programming language which will give you RSI and tinnitus in a heart-beat. In the GIF below you can see how the pitch is mapped to the bin-position of the spectral delay. You can download the patch [here](https://drive.google.com/file/d/15rzjY3XlADSlCRElQfK6h_9nvxkDpUSj/view?usp=sharing) if you like to check it out in more detail. 
+In my project I have mapped the pitch and the roll of the 9DOF to different parameters of a spectral delay and a granular synthesis-patch. All of the sound-programming is done in Pure Data. The famous visual programming language which will give you RSI and tinnitus in a heart-beat. In the GIF below you can see how the pitch is mapped to the bin-position of the spectral delay. 
 
 <figure style="float: none">
-   <img src="https://drive.google.com/uc?&id=1UejW6YUuuPEq3vhzSQypW8DZlErbPt7a"
+   <img src="https://www.uio.no/english/studies/programmes/mct-master/blog/assets/image/2020_10_19_thomasanda_hyperguitar_pitch.gif"
    alt="Alternate Text" title="Image Title" width="680" />
    <figcaption>PD-snippet</figcaption>
 </figure>
@@ -40,7 +40,7 @@ Anyways, the main issue when creating an interactive music system where you invo
 
 <figure style="float: none">
   <video width="680" controls>
-    <source src="https://drive.google.com/uc?&id=1C3G-ULXiecmcyHY-63EsYwfPDlHaRfnr" type='video/mp4'>
+    <source src="https://www.uio.no/english/studies/programmes/mct-master/blog/assets/video/2020_10_19_thomasanda_hyperguitar_example1.mp4" type='video/mp4'>
   </video>
   <figcaption>Roll mapped to pitch</figcaption>
 </figure>
@@ -66,11 +66,11 @@ Here is a video you can watch. I recommend you to watch through the whole thing.
 
 This is how it sounds in a more controlled environment:
 
-<iframe src="https://drive.google.com/uc?&id=1ocFy3chTfdMUqki2VnZNi6Tf0DErA7r_" style="border:0px #ffffff none;" name="myiFrame" scrolling="no" frameborder="1" marginheight="0px" marginwidth="0px" height="400px" width="600px" allowfullscreen></iframe>
+<iframe src="https://www.uio.no/english/studies/programmes/mct-master/blog/assets/video/2020_10_19_thomasanda_hyperguitar_example2.mp4" style="border:0px #ffffff none;" name="myiFrame" scrolling="no" frameborder="1" marginheight="0px" marginwidth="0px" height="400px" width="600px" allowfullscreen></iframe>
 
 And this is what the piezo did :):
 
-<iframe src="https://drive.google.com/uc?&id=1cxxZHvMqQbiFVJIBFb_d4m_V8n1Xzqtv" style="border:0px #ffffff none;" name="myiFrame" scrolling="no" frameborder="1" marginheight="0px" marginwidth="0px" height="400px" width="600px" allowfullscreen></iframe>
+<iframe src="https://www.uio.no/english/studies/programmes/mct-master/blog/assets/video/2020_10_19_thomasanda_hyperguitar_example3.mp4" style="border:0px #ffffff none;" name="myiFrame" scrolling="no" frameborder="1" marginheight="0px" marginwidth="0px" height="400px" width="600px" allowfullscreen></iframe>
 
 And if you are really interested you can have a look at the presentation I made. See if you can find the hidden treasures:
 

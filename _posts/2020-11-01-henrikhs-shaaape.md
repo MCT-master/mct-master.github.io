@@ -28,7 +28,7 @@ Before outputting I included a Low Pass Filter for the purpose of cleaning up he
 Video showing what *shaaape* does, from subtle to extreme and some tweaking. Sound source is a stereo drum loop.
 <figure style="float: none">
   <video width="600" controls>
-    <source src="https://drive.google.com/uc?&id=1ya5T2CTRzg1G61BRVPeJN7QVGN1ryJ8w" type='video/mp4'>
+    <source src="https://www.uio.no/english/studies/programmes/mct-master/blog/assets/video/2020_11_02_henrikhs_shaaape1.mp4" type='video/mp4'>
     Should show a video...
   </video>
   <figcaption></figcaption>
@@ -40,7 +40,7 @@ White noise through shaaape to give an impression of how it flutters audio:
 </figure>
 <figure style="float: none">
   <audio controls>
-    <source src="https://drive.google.com/uc?&id=1k89XTKlSTNHFvvRBtjT6Wty21ZXiInY8" type="audio/mpeg">
+    <source src="https://www.uio.no/english/studies/programmes/mct-master/blog/assets/audio/2020_11_01_henrikhs_shaaape_whitenoise.mp3" type="audio/mpeg">
     Alternate Text
   </audio>
   <figcaption></figcaption>
@@ -52,7 +52,7 @@ Used as bass synth on guitar sample:
 </figure>
 <figure style="float: none">
   <audio controls>
-    <source src="https://drive.google.com/uc?&id=1AaEGVAXABslSyQyq9tvLFsfcnML4SjVQ" type="audio/mpeg">
+    <source src="https://www.uio.no/english/studies/programmes/mct-master/blog/assets/audio/2020_11_02_henrikhs_shaaape_bass.mp3" type="audio/mpeg">
     Alternate Text
   </audio>
   <figcaption></figcaption>
@@ -61,7 +61,7 @@ Used as bass synth on guitar sample:
 Short example of stereofication. Mono drum sample going "stereo" halfway through:
 <figure style="float: none">
   <audio controls>
-    <source src="https://drive.google.com/uc?&id=14CKszUS7FfxAHL7mlZDKMc-jtVVaA7Ig" type="audio/mpeg">
+    <source src="https://www.uio.no/english/studies/programmes/mct-master/blog/assets/audio/2020_11_02_henrikhs_shaape_stereo1.mp3" type="audio/mpeg">
     Alternate Text
   </audio>
   <figcaption></figcaption>
@@ -86,4 +86,4 @@ I have done my best to set proper gain-staging for the signal path, though I exp
 
 If you want to try it, please do so. Below are the vst/vst3/au files to download. Mind that if you're an AU user, you should also include the "shaaape_01.csd" in your Components folder. Else it won't work. It's a Cabbage thing. Have fun.
 
-# [Download *shaaape* for free!](https://drive.google.com/file/d/1U6R0T-2-sQSocErvTCZ4g-ePTNFC590P/view?usp=sharing)
+# [Download *shaaape* for free!](https://www.uio.no/english/studies/programmes/mct-master/blog/assets/document/2020_11_02_henrikhs_shaaape_1.zip)

@@ -15,7 +15,7 @@ We ended up doing a simple recording on the lower half of the body, see below!
 
 <figure style="float: none">
   <video height="432px" width="768px" controls>
-    <source src="https://drive.google.com/uc?&id=1-2Us6s5uPNTO0IYfWfRbaQBnhWCHKHAq" type='video/mp4'>
+    <source src="https://www.uio.no/english/studies/programmes/mct-master/blog/assets/video/2020_09_25_jacksong_motion_tracking_demo.mp4" type='video/mp4'>
     Jackson jumping around synced with Motive, the motion tracking software
   </video>
   <figcaption>Jackson jumping around synced with Motive, the motion tracking software</figcaption>

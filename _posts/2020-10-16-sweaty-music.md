@@ -37,7 +37,7 @@ Enjoy this footage of a 1-minute subset of this piece. The sounds are fairly com
 
 <figure style="float: none">
   <video width="auto" controls>
-    <source src="https://drive.google.com/uc?&id=1oMv-uiT-O1RT-O-IZTkXY_28WDAh25op" type='video/mp4'>
+    <source src="https://www.uio.no/english/studies/programmes/mct-master/blog/assets/video/2020_10_16_williem_sweatymusic.mp4" type='video/mp4'>
     Alternate Text
   </video>
   <figcaption>In which a composer/performer flails about. Willie performs an excerpt from Sweaty Music.</figcaption>

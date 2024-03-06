@@ -51,6 +51,6 @@ At the end — apart from some very frustrating moments — I had some good 72 h
 
 <figure style="float: none">
   <audio controls>
-    <source src="https://drive.google.com/uc?&id=1MgAfA148tp_PKap7DYzGmMks6LqtpqK5" type="audio/mpeg">
+    <source src="https://www.uio.no/english/studies/programmes/mct-master/blog/assets/audio/2020_12_04_anderlid_remixed_output.mp3" type="audio/mpeg">
   </audio>
 </figure>

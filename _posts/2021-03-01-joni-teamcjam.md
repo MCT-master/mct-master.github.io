@@ -39,7 +39,7 @@ However, there is nothing set in stone with the choice of music yet. Who knows? 
 
 <figure style="float: none">
   <audio controls>
-    <source src="https://drive.google.com/uc?&id=1RgDb_aOH81TzDq-cPMMgCJPXF4AH5755
+    <source src="https://www.uio.no/english/studies/programmes/mct-master/blog/assets/audio/2021_03_01_joni_teamc.wav
 " type="audio/mpeg">
     Song One
   </audio>

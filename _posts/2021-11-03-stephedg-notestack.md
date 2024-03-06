@@ -39,7 +39,7 @@ The sound generation part was written in csound, and consisted of 2 oscillators 
 Here is the Algorithmic Note Stack Juggler in action (and yes, I know its a terrible name, but no-one was forthcoming when I asked for suggestions at the beginning of my presentation).
 
 <figure style="float: none">
-   <iframe src="https://drive.google.com/file/d/1_uet7FWKMPYAnKbMxmj4n7X71L1LwvsS/preview" width="1024" height="576" frameborder="0" allowfullscreen></iframe>
+   <iframe src="https://www.uio.no/english/studies/programmes/mct-master/blog/assets/video/2021_11_03_stephedg_notestack.mp4" width="1024" height="576" frameborder="0" allowfullscreen></iframe>
 </figure>
 
 

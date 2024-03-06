@@ -69,11 +69,11 @@ The top view was then layered with different representations for seasons and bor
 
 
 <figure style="float: none">
-   <iframe src="https://drive.google.com/file/d/1IG1VEUJdoIz8vH0k_aQgzS4erOONQqVF/preview" width="auto" frameborder="0" allowfullscreen></iframe>
+   <iframe src="https://www.uio.no/english/studies/programmes/mct-master/blog/assets/video/2021_04_21_abhishec_walking_in_seasons.mp4" width="auto" frameborder="0" allowfullscreen></iframe>
    <figcaption>Walking_in_Seasons_Demonstration</figcaption>
 </figure>
 
 ### Endnotes:
 We managed to create a system that sonifies the motion, although not in real-time completely but can be expressed as a proof of concept for a real-time immersive and interactive sound and motion installation. The quality of the system is fairly accurate but has a lot of scope for improvement. The first and foremost is being able to stream and calculate the data in real-time and then integrate it with the sound system, either using more markers or using the predefined marker set preset in Motive for a better visual representation of the skeleton and body. Mapping more audio parameters to different motions also including the derivatives of the motion can improve the system immensely. Overall the installation provides valuable insight into how to use the MoCap system for the sonification of motion.
 
-You can access the python script and max patch using this link [Walking_in_Seasons Python&Max](https://drive.google.com/file/d/1CWA7jJBbqHW-LQG2XSOKxNm3pKGSuqI6/view?usp=sharing)
+You can access the python script and max patch using this link [Walking_in_Seasons Python&Max](https://www.uio.no/english/studies/programmes/mct-master/blog/assets/code/2021_04_21_abhishec_wis_max&python.zip)

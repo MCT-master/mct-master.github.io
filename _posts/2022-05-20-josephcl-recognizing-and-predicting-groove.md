@@ -72,17 +72,17 @@ As we can see from the table, drummers 3, 7, and 9 had the best results, so from
 
 Drummer 3 Generated MIDI Classifier Input
 <audio controls>
-  <source src="https://drive.google.com/uc?&id=1t8oJUYcYXWekKJaQxOCkpigDTlrhwEVW" type="audio/mpeg">
+  <source src="https://www.uio.no/english/studies/programmes/mct-master/blog/assets/audio/2022_05_19_josephcl_drummer3_classifier.mp3" type="audio/mpeg">
 </audio>
 
 Drummer 7 Generated MIDI Classifier Input
 <audio controls>
-  <source src="https://drive.google.com/uc?&id=1jNA-DQLBovnTzyJsAqb2LI6VQ3g-R7Iz" type="audio/mpeg">
+  <source src="https://www.uio.no/english/studies/programmes/mct-master/blog/assets/audio/2022_05_19_josephcl_drummer7_classifier.mp3" type="audio/mpeg">
 </audio>
 
 Drummer 9 Generated MIDI Classifier Input
 <audio controls>
-  <source src="https://drive.google.com/uc?&id=1QWpGlGrtN9xWf9jS1ALzM_afchjMJvuI" type="audio/mpeg">
+  <source src="https://www.uio.no/english/studies/programmes/mct-master/blog/assets/audio/2022_05_19_josephcl_drummer9_classifier.mp3" type="audio/mpeg">
 </audio>
 
 ## Testing Generated MIDI Files
@@ -97,17 +97,17 @@ In terms of the generated MIDI files, you can listen to a more "normal" 4/4 beat
 
 Drummer 3 Generated MIDI
 <audio controls>
-  <source src="https://drive.google.com/uc?&id=1Rq9oWy6EFDLkF_h7wWoPun2wAVdh-kMU" type="audio/mpeg">
+  <source src="https://www.uio.no/english/studies/programmes/mct-master/blog/assets/audio/2022_05_19_josephcl_drummer3_normal.mp3" type="audio/mpeg">
 </audio>
 
 Drummer 7 Generated MIDI
 <audio controls>
-  <source src="https://drive.google.com/uc?&id=1iyDR_yisz5wpJDnqAwDdoMBo4ZwApw2a" type="audio/mpeg">
+  <source src="https://www.uio.no/english/studies/programmes/mct-master/blog/assets/audio/2022_05_19_josephcl_drummer7_normal.mp3" type="audio/mpeg">
 </audio>
 
 Drummer 9 Generated MIDI
 <audio controls>
-  <source src="https://drive.google.com/uc?&id=1MK5tvoeDindLvarI2alQImXfN_FFGOo2" type="audio/mpeg">
+  <source src="https://www.uio.no/english/studies/programmes/mct-master/blog/assets/audio/2022_05_19_josephcl_drummer9_normal.mp3" type="audio/mpeg">
 </audio>
 
 As we can see, the MIDI files sound pretty random and there are no distinguishing characteristics between each drummer to the naked ear. Future studies may have to use a windowing function to create more human and less roboting sounding MIDI files. 

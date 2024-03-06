@@ -62,7 +62,7 @@ Listen to these recordings of two songs in the same room, each recorded before a
 
 <figure style="float: none">
   <audio controls>
-    <source src="https://drive.google.com/uc?&id=1DAOWDTWWO3-vA_q8CrSU0MqAM6vVJfyY" type="audio/mpeg">
+    <source src="https://www.uio.no/english/studies/programmes/mct-master/blog/assets/audio/2021_11_15_lindsay_portal_demoaudio.mp3" type="audio/mpeg">
     Alternate Text
   </audio>
   <figcaption>Audio recordings of before and after acoustic treatment</figcaption>
@@ -122,7 +122,7 @@ I hope this blog post helped you gain a better understanding of room modes and t
 ### Video Tutorial
 
 <figure style="float: none">
-   <iframe src="https://drive.google.com/file/d/1vWXAirLptMtSdIoMFDi7zpu9RYOzxvY5/preview" width="1024" height="576" frameborder="0" allowfullscreen></iframe>
+   <iframe src="https://www.uio.no/english/studies/programmes/mct-master/blog/assets/video/2021_11_15_lindsay_portal_video.mp4" width="1024" height="576" frameborder="0" allowfullscreen></iframe>
    <figcaption>Video Presentation</figcaption>
 </figure>
 

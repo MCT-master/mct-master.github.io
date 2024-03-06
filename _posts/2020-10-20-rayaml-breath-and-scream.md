@@ -4,7 +4,7 @@ title: "Breathe the light, scream arpeggios!"
 date: 2020-10-20 16:59:00 +0200
 categories: interactive-music
 author: Rayam Luna
-image: https://drive.google.com/uc?&id=11KY7PHbtyyPhBpWDWS2qk-_kYhlEIxK4
+image: https://www.uio.no/english/studies/programmes/mct-master/blog/assets/image/2020_10_20_rayaml_ims-cover.png
 excerpt: "Multisensorial music interface aiming to provide a synesthetic experience. Touch, light, breathe, scream - make sound!"
 keywords: light, synesthesia, interactive, bela, pure-data
 ---
@@ -22,21 +22,21 @@ There are basisc two modes, one is the [ standard mode ] which is a simple synth
 The design process started when I realized the importance of sketching the ideas with pen and paper. It helped a lot to clarify some toughts and visualize the ideas in practical way. Drawing, listing components and possible mappings and noting alternatives, were extremely important as a starting point for this project.
 
 <figure style="float: none">
-   <img src="https://drive.google.com/uc?&id=1tKlYZtWqpNkexQLyU1gevzyFbOj0m7Fq" title="Sketch" width="360px" />
+   <img src="https://www.uio.no/english/studies/programmes/mct-master/blog/assets/image/2020_10_20_rayaml_ims-draft.png" title="Sketch" width="360px" />
    <figcaption>Sketch</figcaption>
 </figure>
 
 After that I started to design a prototype digitally, that way I could organize the ideas and make the draw more clear and simple to understand in order to visualize the disposition of the sensors, wires and material used for the interface.
 
 <figure style="float: none">
-   <img src="https://drive.google.com/uc?&id=1lgxDUSHPP-gcV7jHP0-y5yjeaq3mRJTf" title="Prototype" width="680px" />
+   <img src="https://www.uio.no/english/studies/programmes/mct-master/blog/assets/image/2020_10_20_rayaml_ims-prototype.png" title="Prototype" width="680px" />
    <figcaption>Prototype</figcaption>
 </figure>
 
 The next step was to design a scheme for the connections between the sensors and Bela using a software called Fritzing.
 
 <figure style="float: none">
-   <iframe src="https://drive.google.com/file/d/1VIP43cnX2OGx_wXFYa49W-ged1vDfwOT/preview" title="Fritzing" width="680px" height="500px"></iframe>
+   <iframe src="https://www.uio.no/english/studies/programmes/mct-master/blog/assets/document/2020_10_20_rayaml_ims-breadboard.pdf" title="Fritzing" width="680px" height="500px"></iframe>
    <figcaption>Fritzing</figcaption>
 </figure>
 
@@ -67,7 +67,7 @@ That combination of sensors was a creative solution that I had to come up with a
 ## The System
 
 <figure style="float: none">
-   <img src="https://drive.google.com/uc?&id=1rwnXN1XT92lu2HsZts-iPSo9Ono3VtUG" title="The IMS" width="680px" />
+   <img src="https://www.uio.no/english/studies/programmes/mct-master/blog/assets/image/2020_10_20_rayaml_ims-the_system.png" title="The IMS" width="680px" />
    <figcaption>The IMS</figcaption>
 </figure>
 

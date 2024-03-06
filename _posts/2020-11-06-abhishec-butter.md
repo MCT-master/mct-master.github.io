@@ -35,7 +35,7 @@ The output from all these opcodes gets added and is then passed to the Filter ef
 #### Demo:
 
 <figure style="float: none">
-   <iframe src="https://drive.google.com/file/d/1OsphESQ7jzbhQqNMciNYmo2gvZKselXQ/preview" width="640" height="360" frameborder="0" allowfullscreen></iframe>
+   <iframe src="https://www.uio.no/english/studies/programmes/mct-master/blog/assets/video/2020_11_07_abhishec_butter_in_performance.mp4" width="640" height="360" frameborder="0" allowfullscreen></iframe>
    <figcaption>Butter in Performance</figcaption>
 </figure>
 
@@ -46,6 +46,6 @@ It's a fun plugin and can have multiple use cases. Since this is just the first 
 For future developments I believe it could be great to integrate this with a synth or maybe even develop it as a pedal which has more controls, enabling me to create multiple ready to use presets, that butters the audio with very less tweaking. You can download the latest version of Butter down below and drop me a [E-mail](mailto:neerrmusicin@gmail.com) if you have any feedback. Enjoy!
 
 #### Download it here:
-[Butter](https://drive.google.com/file/d/1XE0Hf3bJqaNdmcjrpkt9ruTjmwIJMJ3t/view?usp=sharing)
+[Butter](https://www.uio.no/english/studies/programmes/mct-master/blog/assets/document/2020_11_06_abhishec_butter v1.01.zip)
 
 Note: To run the plugin keep all files in folder in your plugin directory i.e. the plugin file & .csd file should be in the same folder, it’s essential for smooth running otherwise it will crash.

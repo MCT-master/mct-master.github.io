@@ -23,7 +23,7 @@ They're both in the same key, so I expected the generated song to be somewhat mu
 
 <figure style="float: none">
   <audio controls>
-    <source src="https://drive.google.com/uc?&id=1XmWYykJ7hMQZzvshawnmZRiGbjfwIZX9" type="audio/mpeg">
+    <source src="https://www.uio.no/english/studies/programmes/mct-master/blog/assets/audio/2020_12_05_henrikhs_output.mp3" type="audio/mpeg">
     Should show a media player
   </audio>
   <figcaption></figcaption>

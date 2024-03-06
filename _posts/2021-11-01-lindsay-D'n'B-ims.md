@@ -71,7 +71,7 @@ There are 5 buttons which are mapped to 5 different sounds(samples).
 Below you can watch the demo video.
 
 <figure style="float: none">
-   <iframe src="https://drive.google.com/file/d/1yIkIBDYFiz0UFAG0wmAjJsofy279byrf/preview" width="1024" height="576" frameborder="0" allowfullscreen></iframe>
+   <iframe src="https://www.uio.no/english/studies/programmes/mct-master/blog/assets/video/2021_11_01_lindsay-ims-demo.mp4" width="1024" height="576" frameborder="0" allowfullscreen></iframe>
    <figcaption>D'n'B Demonstration</figcaption>
 </figure>
 

@@ -4,7 +4,7 @@ title: 'Spatial Trip - a Spatial Audio Composition'
 date: 2019-11-03 11:00:00 +0200
 categories: spatial-audio
 author: Ashane Silva, Sam Roman, Elias Andersen, Guy Sion
-image: https://drive.google.com/uc?&id=19n6wP7R5adbooElhZCrpKU3tlxFTweOn
+image: https://www.uio.no/english/studies/programmes/mct-master/blog/assets/image/2019_11_03_guysi_amutili.png
 excerpt: 'In this project, we recorded and synthesized sounds with spatial aspects which is meant to be heard over headphones or loudspeakers (8-channel setup in Oslo/Trondheim). Coming to simulate both the indoor and outdoor real and or fictional scenarios.'
 Keywords: Workshop, Spatial Audio, 3D Sound, Ambisonics, MCT4044,
 ---
@@ -24,7 +24,7 @@ As the subject of our piece has elements of abstract mental struggle, and a clea
 
 <figure align="middle">
    <audio controls>
-     <source src="https://docs.google.com/uc?export=download&id=1V_d_rpn-oNy3mKUS9BAlRkp8rTwAmI9r" type="audio/mpeg" volume="1.0">
+     <source src="https://www.uio.no/english/studies/programmes/mct-master/blog/assets/audio/2019_11_03_guysi_spatial_trip_binaural.mp3" type="audio/mpeg" volume="1.0">
      Your browser does not support audio tag.
    </audio>
 </figure>
@@ -76,22 +76,22 @@ This section is not meant to sound realistic but more dramatic and create more t
 **Multi-Encoder** - Once instance of the multi encoder was used to place the sound samples of cat, baby crying,Phone ringing and people talking. Each sample is placed differently  in the 360 degrees soundfield by controlling the azimuth angle and automating to add some movement.
 
 
-![Muti-Encoder](https://drive.google.com/uc?export=view&amp;id=19n6wP7R5adbooElhZCrpKU3tlxFTweOn "Muti-Encoder")
+![Muti-Encoder](https://www.uio.no/english/studies/programmes/mct-master/blog/assets/image/2019_11_03_guysi_amutili.png "Muti-Encoder")
 
 
 **Lowpass Filtering** - adding Low pass filtering for the samples that has to be placed a bit far in the soundfield. This more like additional reinforcement with the gain adjustment to move objects further away from the listener.
 
 **Room Encoder** -  Room encoder was used to create a large space that include stairs.  The position of the person was automated from right back to left back. And the cutoff frequency of the  low pass filtering has been automated to add a better perception of distance and the size of the environment.
 
-![Room Encoder](https://drive.google.com/uc?export=view&amp;id=1dveiOSEow2BFTKoGRhC8pcTUKLWge4i3 "Room Encoder")
+![Room Encoder](https://www.uio.no/english/studies/programmes/mct-master/blog/assets/image/2019_11_03_guysi_aroom.png "Room Encoder")
 
 **LFO shapes** - LFO shapes of Saw,Triangular, Square and Parametric were used as automation patterns of the Azimuth angle in Multi_Encoder  to create fast movements for the voices. Using LFO shapes seems to be an efficient way of spreading sound in the field evenly and changing the number of cycles with time.
 
-![Automation](https://drive.google.com/uc?export=view&amp;id=1Gc-X1L6n_s85sewmmGxB1dzwRYENnnBI "Automation")
+![Automation](https://www.uio.no/english/studies/programmes/mct-master/blog/assets/image/2019_11_03_guysi_alfo.png "Automation")
 
 **Dual Delay** -  This was used to add repetitions for voices and automation of the delay time to add a pitch warping effect to voices add the very end. The delay added more glue to the section with voices and also gave a better transition to the next scene.
 
-![Dual-Delay](https://drive.google.com/uc?export=view&amp;id=1iH0t2PCq8_pTR5gItNUdEZn1876q7IQR "Dual-Delay")
+![Dual-Delay](https://www.uio.no/english/studies/programmes/mct-master/blog/assets/image/2019_11_03_guysi_adelay.png "Dual-Delay")
 
 **Scene 2 - After the accident - Guy Sion**
 
@@ -101,7 +101,7 @@ The scene starts with a loud Thunder composed of two layers: mid-high and a deep
 
 Additional layers that start playing from the beginning of the scenes are an ambisonic recording made on the side of a highway (by ullevål stadion in Oslo).
 
-![Highway](https://drive.google.com/uc?export=view&amp;id=1iVjs5HqorrIj3P6u-_bs7kpRjCVUYBsL "Highway")
+![Highway](https://www.uio.no/english/studies/programmes/mct-master/blog/assets/image/2019_11_03_guysi_highway.jpg "Highway")
 
 We can hear the heavy breathing of the person, breathings that will slow down as the scene continues and more help arrives.
 A car is stopping by to assist. A door is open and we can hear a baby crying from within the car. Someone is running out of the car to approach the person on the ground, calling for his attention as he gets closer. Reverb is applied over the voice offering help to give the feeling that those words have been registered by the person on the ground who might be losing conscious.

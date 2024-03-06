@@ -9,7 +9,7 @@ keywords:  human-machine-music, multi-agent-systems, live-algorithms, interactiv
 excerpt: "Let's make music with virtual fellows in mixed reality."
 ---
 
-This blog post presents a brief summary of my thesis. The main intention is to provide an overview of this work and multimedia material (video, audio, source code) for a complete understanding of how the system works and the results obtained from the research process. For more details you can read the [full manuscript](https://drive.google.com/file/d/1Qd8tVrP6zeflvi8x3KY2-8RAOC33sdYm/view?usp=sharing).
+This blog post presents a brief summary of my thesis. The main intention is to provide an overview of this work and multimedia material (video, audio, source code) for a complete understanding of how the system works and the results obtained from the research process. For more details you can read the [full manuscript](https://www.uio.no/english/studies/programmes/mct-master/blog/assets/document/2022_05_15_pedropl_master_thesis_manuscript.pdf).
 
 ## Abstract
 
@@ -40,11 +40,6 @@ The video below demonstrates the operation of the system from several perspectiv
 
 ### Video Demo
 
-<!-- <figure style="float: none">
-   <iframe src="https://drive.google.com/file/d/1qfJgAZUb33o_cZHdKHdLJDp7v0LZ_aiD/preview" width="1024" height="576" frameborder="0" allowfullscreen></iframe>
-   <figcaption>System operation from 4 perspectives for a human-machine music improvisation session.</figcaption>
-</figure> -->
-
 <figure style="float: none">
     <iframe width="1038" height="584" src="https://www.youtube.com/embed/6wm24BC5NLg" frameborder="0" allowfullscreen></iframe>
     <figcaption>System operation from 4 perspectives for a human-machine music improvisation session.</figcaption>
@@ -69,7 +64,7 @@ You will find below an excerpt of 1 minute for the audio that the musicians prod
 
 <figure style="float: none">
   <audio controls>
-    <source src="https://drive.google.com/uc?&id=1DU8NcpDur8sfyJqQ8xM4d73f9ekue9sw" type="audio/mpeg">
+    <source src="https://www.uio.no/english/studies/programmes/mct-master/blog/assets/audio/2022_05_15_pedropl_user0.wav" type="audio/mpeg">
     Output Audio File
   </audio>
   <figcaption>User 0</figcaption>
@@ -77,7 +72,7 @@ You will find below an excerpt of 1 minute for the audio that the musicians prod
 
 <figure style="float: none">
   <audio controls>
-    <source src="https://drive.google.com/uc?&id=12nstBLgeV4DRACW9hnWgFlQ-wWXWoTzc" type="audio/mpeg">
+    <source src="https://www.uio.no/english/studies/programmes/mct-master/blog/assets/audio/2022_05_15_pedropl_user1.wav" type="audio/mpeg">
     Output Audio File
   </audio>
   <figcaption>User 1</figcaption>
@@ -85,7 +80,7 @@ You will find below an excerpt of 1 minute for the audio that the musicians prod
 
 <figure style="float: none">
   <audio controls>
-    <source src="https://drive.google.com/uc?&id=1ohwup78cIrk6Ykz0AMK2atyqjdSvOXWb" type="audio/mpeg">
+    <source src="https://www.uio.no/english/studies/programmes/mct-master/blog/assets/audio/2022_05_15_pedropl_user2.wav" type="audio/mpeg">
     Output Audio File
   </audio>
   <figcaption>User 2</figcaption>
@@ -93,7 +88,7 @@ You will find below an excerpt of 1 minute for the audio that the musicians prod
 
 <figure style="float: none">
   <audio controls>
-    <source src="https://drive.google.com/uc?&id=1cNcSH6KRE91PXsY-k538qKdC7UvfMKPf" type="audio/mpeg">
+    <source src="https://www.uio.no/english/studies/programmes/mct-master/blog/assets/audio/2022_05_15_pedropl_user3.wav" type="audio/mpeg">
     Output Audio File
   </audio>
   <figcaption>User 3</figcaption>
@@ -101,7 +96,7 @@ You will find below an excerpt of 1 minute for the audio that the musicians prod
 
 <figure style="float: none">
   <audio controls>
-    <source src="https://drive.google.com/uc?&id=1Y5DGOPJJ06lX8vkRFpBXTqy2Vg__E-wW" type="audio/mpeg">
+    <source src="https://www.uio.no/english/studies/programmes/mct-master/blog/assets/audio/2022_05_15_pedropl_user4.wav" type="audio/mpeg">
     Output Audio File
   </audio>
   <figcaption>User 4</figcaption>
@@ -109,7 +104,7 @@ You will find below an excerpt of 1 minute for the audio that the musicians prod
 
 <figure style="float: none">
   <audio controls>
-    <source src="https://drive.google.com/uc?&id=1qFYy_2SinceKFqGQO050vzUBkm269HrI" type="audio/mpeg">
+    <source src="https://www.uio.no/english/studies/programmes/mct-master/blog/assets/audio/2022_05_15_pedropl_user5.wav" type="audio/mpeg">
     Output Audio File
   </audio>
   <figcaption>User 5</figcaption>
@@ -117,7 +112,7 @@ You will find below an excerpt of 1 minute for the audio that the musicians prod
 
 <figure style="float: none">
   <audio controls>
-    <source src="https://drive.google.com/uc?&id=1OmUaL3JmeskIPpMx_a4U8JTX6AfxrpTz" type="audio/mpeg">
+    <source src="https://www.uio.no/english/studies/programmes/mct-master/blog/assets/audio/2022_05_15_pedropl_user6.wav" type="audio/mpeg">
     Output Audio File
   </audio>
   <figcaption>User 6</figcaption>

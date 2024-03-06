@@ -114,7 +114,7 @@ There is an issue when it comes to using motion data as an input for machine lea
 
 Although this latency was noticeable for the 0.1 second model, there was still a sense that the motion is creating the alterations in sound. However, for the 0.5 second model the latency was so large that there is a feeling that the system is reacting to the motion, not that the dancer is creating it through their motion. This adds to the feeling that the dancer is dancing with the system instead of controlling it. For the above videos demonstrating the system, the audio was aligned with the motion to remove this latency, in order to show the direct link between the motion and the musical elements.
 
-The code for a pipeline system to capture the video and audio for a dataset, train a model and perform with it can be downloaded [here](https://drive.google.com/file/d/113hA05Yc0eFS5Lff1QhorI6uh627fwer/view?usp=sharing).
+The code for a pipeline system to capture the video and audio for a dataset, train a model and perform with it can be downloaded [here](https://www.uio.no/english/studies/programmes/mct-master/blog/assets/code/2022_05_20_hughav_dance_sampler.zip).
 
 ### **Sources**
 <br>

@@ -4,12 +4,12 @@ title: "The Magic Piano"
 date: 2019-02-22 15:30:00 +0200
 categories: sound-programming
 author: Jørgen Varpe, Ashane Silva, Guy Sion
-image: https://drive.google.com/uc?export=view&amp;id=1SZC-3empqY8VX8JjaFi_Euq0VG_GiuIb
+image: https://www.uio.no/english/studies/programmes/mct-master/blog/assets/image/2019_02_22_guysi_magicpiano.png
 excerpt: "During our second week learning about Audio programing and web Audio API we were divided into groups and had to come up with an idea for a final project. The main challenges were to find an idea that is doable within 4 days, to code collaboratively and to prepare for the presentation of our project. Guy had an Idea for building a piano keyboard that will help beginners play a simple melody and Ashane and Jørgen agreed to collaborate and join forces in creating 'The Magic Piano'."
 Keywords: Web Audio API, JavaScript, Tone.js, CSS, HTML, NexusUI, JSON, Piano, Education
 ---
 
-![The Magic Piano](https://drive.google.com/uc?export=view&amp;id=1SZC-3empqY8VX8JjaFi_Euq0VG_GiuIb "The Magic Piano")
+![The Magic Piano](https://www.uio.no/english/studies/programmes/mct-master/blog/assets/image/2019_02_22_guysi_magicpiano.png "The Magic Piano")
 
 During our second week learning about Audio Programming and Web Audio API we were divided into groups and were asked to come up with an idea for a final project. The main challenges were to find an idea that is doable within 4 days, to code collaboratively and to prepare for the presentation of our project. Guy had an Idea for building a piano keyboard that will help beginners play a simple melody and Ashane and Jørgen agreed to collaborate and join forces in creating "The Magic Piano".
 
@@ -27,7 +27,7 @@ Building the Magic Piano using web technologies has several advantages that fit 
 - Having the option to scale the app for various screen sizes.
 
 ## Timeline
-![Timeline](https://drive.google.com/uc?export=view&amp;id=18Tj-VF64zModEmosgwjj6MWKU2UeQ0zd "Timeline")
+![Timeline](https://www.uio.no/english/studies/programmes/mct-master/blog/assets/image/2019_02_22_guysi_timeline.png "Timeline")
 
 ## Developing the Magic Piano
 

@@ -19,7 +19,7 @@ Sure, we’ve EQ-ed ourselves to a degree that we’re happy with what we’re h
 
 <figure style="float: none">
   <audio controls>
-    <source src="https://drive.google.com/uc?&id=12Rp5UAGbOkMHGkzEd5mP_TLQliDlcmuu" type="audio/mpeg">
+    <source src="https://www.uio.no/english/studies/programmes/mct-master/blog/assets/audio/2021_05_04_williakm_eqexample1.mp3" type="audio/mpeg">
     Alternate Text
   </audio>
   <figcaption>Should it sound like this?</figcaption>
@@ -27,7 +27,7 @@ Sure, we’ve EQ-ed ourselves to a degree that we’re happy with what we’re h
 
 <figure style="float: none">
   <audio controls>
-    <source src="https://drive.google.com/uc?&id=1JSTpBkiY1X7nc86NwuDUrR_EUgu6e4Gd" type="audio/mpeg">
+    <source src="https://www.uio.no/english/studies/programmes/mct-master/blog/assets/audio/2021_05_04_williakm_eqexample2.mp3" type="audio/mpeg">
     Alternate Text
   </audio>
   <figcaption>Or this?</figcaption>
@@ -35,7 +35,7 @@ Sure, we’ve EQ-ed ourselves to a degree that we’re happy with what we’re h
 
 <figure style="float: none">
   <audio controls>
-    <source src="https://drive.google.com/uc?&id=1eKX8twgMUfwLzLjhyH7hIdQ_b30ZX-He" type="audio/mpeg">
+    <source src="https://www.uio.no/english/studies/programmes/mct-master/blog/assets/audio/2021_05_04_williakm_eqexample3.mp3" type="audio/mpeg">
     Alternate Text
   </audio>
   <figcaption>Or this???</figcaption>

@@ -50,7 +50,7 @@ As well as from a technical perspective, we can also compose music for latency u
 The second method here is to arrange polyrhythm and ostinato for complex rhythm, A rhythmic ostinato is a short, constantly repeated rhythmic pattern, the pattern onset points with respect to each other are less significance, especially under the situation that the latency is locked to one beat. We can know more about Ostinato from the video below:
 
 <figure style="float: none">
-   <iframe src="https://drive.google.com/file/d/10zF7AVfMGEQr-qtRyCG_QduUTuygCuxd/preview" width="1024" height="576" frameborder="0" allowfullscreen></iframe>
+   <iframe src="https://www.uio.no/english/studies/programmes/mct-master/blog/assets/video/2021_11_15_wenboyi_o.mp4" width="1024" height="576" frameborder="0" allowfullscreen></iframe>
    <figcaption>Ostinato demonstration</figcaption>
 </figure>
 
@@ -69,7 +69,7 @@ In summary, we may never get a telematic system with zero latency, but we can em
 
 
 <figure style="float: none">
-   <iframe src="https://drive.google.com/file/d/1LZeyPNHGGIkw-w8e0lzT-qMgquBGFu5R/preview" width="1024" height="576" frameborder="0" allowfullscreen></iframe>
+   <iframe src="https://www.uio.no/english/studies/programmes/mct-master/blog/assets/video/2021_11_15_wenboyi_i.mp4" width="1024" height="576" frameborder="0" allowfullscreen></iframe>
    <figcaption>In Sea Cold Lyonesse</figcaption>
 </figure>
 

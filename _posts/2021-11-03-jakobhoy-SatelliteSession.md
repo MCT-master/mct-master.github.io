@@ -13,7 +13,7 @@ keywords: Music Production, Logic Pro, Ableton Live, Communication, collaboratio
 
 
 <figure>
-  <img src="https://drive.google.com/uc?&id=1v78LR-WRL2-WcIgrLhBiKxew1veB8r7r" alt="Yuri Gagarin was the first man in space (Sattelite Sessions)" width="100%" align="middle"/>
+  <img src="https://www.uio.no/english/studies/programmes/mct-master/blog/assets/image/2021_11_03_jakobhoy_satellitesessions_header.jpg" alt="Yuri Gagarin was the first man in space (Sattelite Sessions)" width="100%" align="middle"/>
 </figure>
 
 ```
@@ -77,14 +77,14 @@ As an experiment, we also tried to join our Satellite session through BeSpoke, a
 <br>
 <br>
 <figure>
-  <img src="https://drive.google.com/uc?&id=1MXeuBQ4Kdq1yXF6et23FNTvN7K3itCWU" alt="Yuri Gagarin was the first man in space (Sattelite Sessions)" width="100%" align="middle"/>
+  <img src="https://www.uio.no/english/studies/programmes/mct-master/blog/assets/image/2021_11_03_jakobhoy_abletonlivesession.png" alt="Yuri Gagarin was the first man in space (Sattelite Sessions)" width="100%" align="middle"/>
 <figcaption align="center">Can you spot Yuri?</figcaption>
 </figure>
 <br>
 <br>
 <p style="text-align: center;">
   <audio title="Segment 1" controls>
-    <source src="https://drive.google.com/uc?&amp;id=1E8WQ9WX20FvCyRByvLI2yY6s3oeOQmrc" type="audio/mpeg">
+    <source src="https://www.uio.no/english/studies/programmes/mct-master/blog/assets/audio/2021_11_03_jakobhoy_yurissnippet.mp3" type="audio/mpeg">
 
   </audio>
 </p>  
@@ -111,4 +111,4 @@ All in all this is a great tool for audio file sharing on-the-go. It skips the t
 
 <br>
 
-If you want to listen to the full song, you can download it [here](https://drive.google.com/file/d/189ha08O2XDshyw4SsUMXPccBfO4n14Yt/view?usp=sharing).
+If you want to listen to the full song, you can download it [here](https://www.uio.no/english/studies/programmes/mct-master/blog/assets/audio/2021_11_03_jakobhoy_yurifull.mp3).

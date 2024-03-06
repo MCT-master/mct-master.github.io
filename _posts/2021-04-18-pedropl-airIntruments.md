@@ -117,7 +117,7 @@ Because of the precision and reliability of the motion capture system, the respo
 A demonstration of how it works is shown in the following video:
 
 <figure style="float: none">
-   <iframe src="https://drive.google.com/file/d/1il38v0AgTL167BkQydDSW5KEc9_bGKk7/preview" width="1024" height="576" frameborder="0" allowfullscreen></iframe>
+   <iframe src="https://www.uio.no/english/studies/programmes/mct-master/blog/assets/video/2021_04_18_pedropl_airInstrumentsperformance.mp4" width="1024" height="576" frameborder="0" allowfullscreen></iframe>
    <figcaption>'Air' Instruments - Live Performance</figcaption>
 </figure>
 

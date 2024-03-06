@@ -10,7 +10,7 @@ excerpt: "We tested two of the solutions—the Delayed Feedback Approach (DFA) a
 ---
 
 <figure style="float: none">
-   <img src="https://drive.google.com/uc?&id=1KtFcmbijV6PaACunG8JMFei29ZKopaEe" alt="Alternate Text" title="Image Title" width="auto" />
+   <img src="https://www.uio.no/english/studies/programmes/mct-master/blog/assets/image/2022_02_21_josephcl_latency_header.png" alt="Alternate Text" title="Image Title" width="auto" />
 </figure>
 
 ### **Introduction**

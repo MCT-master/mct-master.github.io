@@ -136,7 +136,7 @@ Instead of having continous sound when clicked, it played note events based on t
 #### Hello there human.
 
 <figure align="middle">
-   <img src="https://drive.google.com/uc?export=view&amp;id=1W7iuqTerYjX7gXoXZkTJK-PeSNvbsAr3" width="auto" height="auto" />
+   <img src="https://www.uio.no/english/studies/programmes/mct-master/blog/assets/image/2019_02_22_alekasti_hellohuman.gif" width="auto" height="auto" />
    <figcaption></figcaption>
 </figure>
 

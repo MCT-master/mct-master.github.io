@@ -15,7 +15,7 @@ excerpt: "Co-constructing the body with optical, marker-based motion capture in 
 </figure>
 
 <div style="text-align: center;">
-  <b>The full text of this thesis is available <a href="https://drive.google.com/file/d/1gkyzdBCqBgZmMgvKYMLVTJ-M8FwWhahq/view?usp=drive_link"> here.</a> All source code developed can be accessed at <a href="https://github.com/Hughav92/The-Shapeshifter">this GitHub repository.</a></b>
+  <b>The full text of this thesis is available <a href="https://www.uio.no/english/studies/programmes/mct-master/blog/assets/document/2023_12_15_hughav_shapeshifterthesis.pdf"> here.</a> All source code developed can be accessed at <a href="https://github.com/Hughav92/The-Shapeshifter">this GitHub repository.</a></b>
 </div>
 <br>
 When we use motion capture or tracking (MoCap) systems to capture human body motion for artistic purposes, it can be easy to fall into ways of thinking that conceptually merge the physical body and the representation constructed from the captured or tracked data. A recent, high-profile example of this can be found in the rhetoric surrounding ABBA's comeback [Voyage](https://abbavoyage.com/) tour, which features avatars of the members of ABBA as they appeared in the 1970s created through the use of large scale motion capture, with the show's producer, Ludvig Andersson, employing strong terms to elide the bodies of ABBA and their <em>ABBA-tars</em>, stating that "when you see this show it is not a version of, or a copy of, or four people pretending to be ABBA, it is actually them" (ABBA Voyage, 2021).

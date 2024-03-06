@@ -18,7 +18,7 @@ The portal is in dire need of a fixed setup that "just works" when you press the
 
 # Gear and solutions
 <figure>
-<img src="https://drive.google.com/uc?export=view&amp;id=1-oytTKBDtcU7UkBodPdHfZXqe1lCHGZM" align="center" />
+<img src="https://www.uio.no/english/studies/programmes/mct-master/blog/assets/image/2019_12_02_stefanof_gearheaven.gif" align="center" />
 <figcaption><strong>   </strong></figcaption>
 </figure>
 

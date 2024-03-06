@@ -60,7 +60,7 @@ The system design is pretty simple and has one to one mapping as shown below:
 Below you can watch the demo video.
 
 <figure style="float: none">
-   <iframe src="https://drive.google.com/file/d/1jJ4pg-BuPVFEBm1tyc2QpMIWFRqgJjcx/preview" width="1024" height="576" frameborder="0" allowfullscreen></iframe>
+   <iframe src="https://www.uio.no/english/studies/programmes/mct-master/blog/assets/video/2021_11_02_abhishec_ims_sequencephere.mp4" width="1024" height="576" frameborder="0" allowfullscreen></iframe>
    <figcaption>Demonstration</figcaption>
 </figure>
 

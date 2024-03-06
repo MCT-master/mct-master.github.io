@@ -13,7 +13,7 @@ Our most recent crazy experiment concluded with a choir of glitchy cicadas creep
 <p style="text-align: center;">Cicada Madness</p>
 <p style="text-align: center;">
   <audio controls>
-    <source src="https://drive.google.com/uc?&amp;id=1ocObeJwGLCleAot43oDpWpxSIhPEJf6F" type="audio/mpeg">
+    <source src="https://www.uio.no/english/studies/programmes/mct-master/blog/assets/audio/2021_10_20_team_a_python_3_audio_blend.mp3" type="audio/mpeg">
   </audio>
 </p>
 <br />
@@ -21,14 +21,14 @@ This audio file was created using these two field recordings:
 <p style="text-align: center;">Recording 1</p>
 <p style="text-align: center;">
   <audio title="Input 1" controls>
-    <source src="https://drive.google.com/uc?&amp;id=1stHTPwQ1IkQNW2ryUlG742g3et6hcioz" type="audio/mpeg">
+    <source src="https://www.uio.no/english/studies/programmes/mct-master/blog/assets/audio/2021_10_20_team_a_python_3_input_1.mp3" type="audio/mpeg">
     Your browser does not support the audio tag.
   </audio>
 </p>  
 <p style="text-align: center;">Recording 2</p>
 <p style="text-align: center;">
   <audio title="Input 2" controls>
-    <source src="https://drive.google.com/uc?&amp;id=1bijN4Q092qZmw04FWaTeiO-kijX7S4H3" type="audio/mpeg">
+    <source src="https://www.uio.no/english/studies/programmes/mct-master/blog/assets/audio/2021_10_20_team_a_python_3_input_2.mp3" type="audio/mpeg">
     Your browser does not support the audio tag.
   </audio>  
 </p>
@@ -47,10 +47,10 @@ An overview of the process looks something like this:
 
 We approached the idea of slicing and splicing by cutting the audio file at its transients. In order to shuffle each slice of audio around we used weighted values computed from the RMS and spectral centroid mean and range of each audio file. There is a randomness to the way it sounds, but this method will actually result in the same order of slices each time the program is run, and each new pair of audio files fed into the it will shuffle the slices differently. We organized all slices in a spreadsheet in order to track down their origins at a later point. That way, we could figure out if the program did what we wanted it to do. Regarding the visualization, we chose to display the signal along with color coding to show where the slices originated. We also exported a visual representation of the data we extracted, the RMS and Spectral Centroid, for each recording. Here you can get an idea of the data we had to work with:
 
-![Feature Distributions:](https://drive.google.com/uc?&id=11NfFcr0TYgOgGZsMXGND7Wzi0McaoO1Y "Audio Data")
+![Feature Distributions:](https://www.uio.no/english/studies/programmes/mct-master/blog/assets/image/2021_10_25_team_a_pyhton_3_distributions.jpg "Audio Data")
 
 We extracted 275 chunks from the first audio file and 314 from the second file, for a total of 589 tiny moments of glitchy goodness. In the image below, you can see how the audio file was sliced, shuffled, and spliced back together. The orange bits are chunks that belong to the first input file, and the red bits belong to the second file:
 
-![Audio Slices:](https://drive.google.com/uc?&id=1hROXUhVk6cAMtMlB4jecqhCdzD02i6NZ "Audio Slices")
+![Audio Slices:](https://www.uio.no/english/studies/programmes/mct-master/blog/assets/image/2021_10_25_team_a_pyhton_3_visualisation.jpg "Audio Slices")
 
 Stay tuned for more wacky audio experiments!

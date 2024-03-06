@@ -18,7 +18,7 @@ So the main theme behind our composition was inspired by this stressful situatio
 ## Listen to our track
 <figure style="width: 80%;">
     <audio controls style="width: 100%; border-radius: 16px;">
-        <source src="https://drive.google.com/uc?&id=1-O_5ek6F_8w6HuHtIy5QZFAPgx81kNJg" type="audio/mpeg">
+        <source src="https://www.uio.no/english/studies/programmes/mct-master/blog/assets/audio/2020_11_16_jacksong_peace_in_chaos_binaural.mp3" type="audio/mpeg">
     </audio>
     <figcaption>Beginning with Thomas, then Jackson and finishing with Mari</figcaption>
 </figure>
@@ -117,6 +117,6 @@ Of course Corona restrictions were the major limitations in our collaboration. A
 ### Our final presentation can be viewed below
 
 <figure align="middle">
-    <iframe src="https://drive.google.com/file/d/1-LEVuJupB5PFwXdLQpcFHNjWy7dv4Dv2/preview" width="800px" height="460px" allowfullscreen></iframe>
+    <iframe src="https://www.uio.no/english/studies/programmes/mct-master/blog/assets/document/2020_11_16_jacksong_spatial_audio presentation.pdf" width="800px" height="460px" allowfullscreen></iframe>
     <figcaption>Our presentation on audio</figcaption>
 </figure>

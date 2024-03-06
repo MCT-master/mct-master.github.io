@@ -43,7 +43,7 @@ Watch the video below for a taste of the different temperaments in action.
 
 <figure style="float: none">
   <video width="640" height="360" controls>
-    <source src="https://drive.google.com/uc?&id=14jkjVbHpTbzafSe0UTC_7UqAvfnV-ZSq" type='video/mp4'>
+    <source src="https://www.uio.no/english/studies/programmes/mct-master/blog/assets/video/2020_11_06_williakm_temperaments.mp4" type='video/mp4'>
     Alternate Text
   </video>
   <figcaption>Playing example chords and excerpts in different temperaments.</figcaption>

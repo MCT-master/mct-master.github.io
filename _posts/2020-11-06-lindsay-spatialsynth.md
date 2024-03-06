@@ -57,4 +57,4 @@ Csound is a very good tool which is particularly functional to my knowledge of A
 
 Here's the files to the VST and the CSD file (make sure you place both the .csd and .dll files in the same folder with the same name)
 
-## [Click to Download!](https://drive.google.com/file/d/1P2667MPWTm589h2fZPUBq72bz4wUTii2/view?usp=sharing)
+## [Click to Download!](https://www.uio.no/english/studies/programmes/mct-master/blog/assets/document/2020_11_06_lindsay_spatialsynth.rar)

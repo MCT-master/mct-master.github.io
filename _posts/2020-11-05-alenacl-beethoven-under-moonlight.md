@@ -89,13 +89,13 @@ Although defining frequencies for the notes to be played is alright, it can get 
 
 ### CSound final score and demo
 
-[Here](https://drive.google.com/file/d/1Ixc1KU-n8zlD6z_ig9d2erCi2BMSsH5u/view?usp=sharing) is the final __CSound__ program. Using a [Tempo and Note Length Calculator](http://www.harmoniccycle.com/hc/music-07-tempo_and_note_length.htm) I calculated the durations of each note based on a BMP = 51 (_Largo_). Knowing the [frequencies](https://pages.mtu.edu/~suits/notefreqs.html) of notes was also useful at different stages of this project.
+[Here](https://www.uio.no/english/studies/programmes/mct-master/blog/assets/code/2020_11_05_alenacl_csound_moonlight_sonata.csd) is the final __CSound__ program. Using a [Tempo and Note Length Calculator](http://www.harmoniccycle.com/hc/music-07-tempo_and_note_length.htm) I calculated the durations of each note based on a BMP = 51 (_Largo_). Knowing the [frequencies](https://pages.mtu.edu/~suits/notefreqs.html) of notes was also useful at different stages of this project.
 
-[Here](https://drive.google.com/file/d/1TR05VM9QG7z2vZSkP18NDb7nGTIEYQQk/view?usp=sharing) is a demo video of the final "performance" of the first few bars of "Moonlight Sonata" by Beethoven using a slightly peculiar sound - somewhere between a marimba and a vibraphone.
+Here is a demo video of the final "performance" of the first few bars of "Moonlight Sonata" by Beethoven using a slightly peculiar sound - somewhere between a marimba and a vibraphone.
 
 <figure style="float: none">
   <video width="640" height="360" controls>
-    <source src="https://drive.google.com/uc?&id=1TR05VM9QG7z2vZSkP18NDb7nGTIEYQQk" type="video/mp4" >
+    <source src="https://www.uio.no/english/studies/programmes/mct-master/blog/assets/video/2020_11_05_alenacl_csound_moonlight_sonata_demo.mp4" type="video/mp4" >
   </video>
   <figcaption>CSound Moonlight Sonata</figcaption>
 </figure>

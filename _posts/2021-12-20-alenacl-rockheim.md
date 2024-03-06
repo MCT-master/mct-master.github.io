@@ -27,7 +27,7 @@ Rockheim’s biggest attraction presents music and artists in a cultural-histori
 The massive grid of screens on the wall is located at the entrance of the floor, in front of the elevators. It consists of six displays with each orientated as portrait. From left to right they are assigned for the 50s, 60s, 70s, 80s, 90s, and 00s, respectively. Static images depicting artists of each decade are shown until someone interrupt the flow by "breaking the glass". In front of the screens stickers with each decade are placed on the floor to mark where on the ceiling are the webcam sensors placed. When someone stands on a sticker, the camera detects the shape of hands or the body of person from above. The outline of the movement is over-layed on the screen with green, over the virtual glass layer over the static images. By moving the hands, the person can "break the glass over the screen", resulting in a short video of that artist playing.
 
 <figure style="float: none">
-   <iframe src="https://drive.google.com/file/d/11FD9ON759Ad_skwR16zVB44YSnnUDza5/preview" width="512" height="288" frameborder="0" allowfullscreen></iframe>
+   <iframe src="https://www.uio.no/english/studies/programmes/mct-master/blog/assets/video/2021_12_20_pedropl_rockeimwall.mp4" width="512" height="288" frameborder="0" allowfullscreen></iframe>
    <figcaption>Screen interaction</figcaption>
 </figure>
 
@@ -65,19 +65,19 @@ Our trip to Rockheim was extremely productive, in one day we understood a lot mo
 - __Slide or Swipe right/left__ – moving between decades and artists
 
 <figure style="float: none">
-   <iframe src="https://drive.google.com/file/d/112VYDB3nJz4m3Xac6rbyCdtpy0AdQ0Ih/preview" width="960" height="540" frameborder="0" allowfullscreen></iframe>
+   <iframe src="https://www.uio.no/english/studies/programmes/mct-master/blog/assets/image/2021_12_20_lindsay_swipe_right_rockheim.gif" width="960" height="540" frameborder="0" allowfullscreen></iframe>
    <figcaption>Swiping Right</figcaption>
 </figure>
 
 <figure style="float: none">
-   <iframe src="https://drive.google.com/file/d/1Qd38BDxx4bYTOW7SyKflJosBjUpKi2hZ/preview" width="1024" height="576" frameborder="0" allowfullscreen></iframe>
+   <iframe src="https://www.uio.no/english/studies/programmes/mct-master/blog/assets/image/2021_12_20_lindsay_swipe_left_rockheim.gif" width="1024" height="576" frameborder="0" allowfullscreen></iframe>
    <figcaption>Swiping Left</figcaption>
 </figure>
 
 - __“Point at”__ – selecting an artist or to go back by hovering over something on the screen
 
 <figure style="float: none">
-   <iframe src="https://drive.google.com/file/d/1h1oydQiVet02eeB50ugHYiOEndtBw8kH/preview" width="1024" height="576" frameborder="0" allowfullscreen></iframe>
+   <iframe src="https://www.uio.no/english/studies/programmes/mct-master/blog/assets/image/2021_12_20_lindsay_pointer_rockheim.gif" width="1024" height="576" frameborder="0" allowfullscreen></iframe>
    <figcaption>Pointing</figcaption>
 </figure>
 
@@ -85,7 +85,7 @@ Our trip to Rockheim was extremely productive, in one day we understood a lot mo
 - __Zoom in__ – choosing to hear a musical excerpt of the selected artist
 
 <figure style="float: none">
-   <iframe src="https://drive.google.com/file/d/11ApYg0LRIWAZgdRzYYj2h6pR_jtyfiFU/preview" width="1024" height="576" frameborder="0" allowfullscreen></iframe>
+   <iframe src="https://www.uio.no/english/studies/programmes/mct-master/blog/assets/image/2021_12_20_lindsay_zoom_in_rockheim.gif" width="1024" height="576" frameborder="0" allowfullscreen></iframe>
    <figcaption>Zoom in</figcaption>
 </figure>
 
@@ -93,7 +93,7 @@ Our trip to Rockheim was extremely productive, in one day we understood a lot mo
 - __Zoom out__ – exit the music video
 
 <figure style="float: none">
-   <iframe src="https://drive.google.com/file/d/1s_FKFW528jkY84OcO7nLAHwXOjRo43yT/preview" width="1024" height="576" frameborder="0" allowfullscreen></iframe>
+   <iframe src="https://www.uio.no/english/studies/programmes/mct-master/blog/assets/image/2021_12_20_lindsay_zoom_out_rockheim.gif" width="1024" height="576" frameborder="0" allowfullscreen></iframe>
    <figcaption>Zoom out</figcaption>
 </figure>
 
@@ -139,7 +139,7 @@ The content behavior and the logic to manage a virtual pointer was implemented i
 Here you can watch a short demo of someone without prior knowledge of the project discover the final version of the prototype.
 
 <figure style="float: none">
-   <iframe src="https://drive.google.com/file/d/172_EaEgBzQr1nauqLi9Ii_Vh8P_zEuUc/preview" width="1024" height="576" frameborder="0" allowfullscreen></iframe>
+   <iframe src="https://www.uio.no/english/studies/programmes/mct-master/blog/assets/video/2021_12_20_lindsay_rockehim_demo.mp4" width="1024" height="576" frameborder="0" allowfullscreen></iframe>
    <figcaption>Demo of a user interacting with the prototype for the first time</figcaption>
 </figure>
 

@@ -26,7 +26,7 @@ To combine these files, we started by using librosa to [separate the harmonic an
 In the end we added the segments together one by one based upon spectral centroid average, creating a new audio file with all the segments from the two original tracks, but rejoined in a completely new way. You can view a block diagram of our process below.
 
 <figure style="float: none">
-   <img src="https://drive.google.com/uc?&id=1Rkb7aCa897QEjC0VH0TBBpsQLH55eaLq" alt="" title="" width="auto" />
+   <img src="https://www.uio.no/english/studies/programmes/mct-master/blog/assets/image/2021_12_09_josephcl_python3_block_diagram.png" alt="" title="" width="auto" />
    <figcaption>Block diagram of our process</figcaption>
 </figure>
 
@@ -56,7 +56,7 @@ Since the re-synthesized song is arranged in ascending order based on the spectr
 
 <figure align="middle">
     <audio controls>
-      <source src="https://drive.google.com/uc?&id=1vxwyz1undNGhDsD6lHSshDLtX9MqJjiK
+      <source src="https://www.uio.no/english/studies/programmes/mct-master/blog/assets/audio/2021_10_24_josephcl_dont_stop_the_music_combined_sample.mp3
 " type="audio/wav">
       Don’t Stop The Music, combined.
     </audio>

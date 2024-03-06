@@ -44,7 +44,7 @@ We also thought of routing the guitar signal through Ableton and then send it to
 
 <figure style="float: none">
   <audio controls>
-    <source src="https://drive.google.com/uc?&id=1WygL4RXUQRMX8vrRscRuApqjzPxUcRxv" type="audio/mpeg">
+    <source src="https://www.uio.no/english/studies/programmes/mct-master/blog/assets/audio/2021_05_05_alena_intro_mixer_reverb.mp3" type="audio/mpeg">
     Intro by The xx with mixer reverb
   </audio>
   <figcaption>Intro with mixer reverb</figcaption>
@@ -53,7 +53,7 @@ We also thought of routing the guitar signal through Ableton and then send it to
 Here you can watch our final performance of this song:
 
 <figure style="float: none">
-   <iframe src="https://drive.google.com/file/d/1t33Is8iGUGwXFFU4iuzdcxa193P-LGUe/preview" width="600" height="400" frameborder="0" allowfullscreen></iframe>
+   <iframe src="https://www.uio.no/english/studies/programmes/mct-master/blog/assets/video/2021_05_05_alena_concert_stream_intro.mp4" width="600" height="400" frameborder="0" allowfullscreen></iframe>
    <figcaption>Ensemble A(wesome): "Intro" by The XX </figcaption>
 </figure>
 
@@ -65,7 +65,7 @@ We also wanted to integrate the lead synthesiser sound using Ableton from a lapt
 
 <figure style="float: none">
   <audio controls>
-    <source src="https://drive.google.com/uc?&id=1TF_MoxlXqGGHxfLSXX6dB_KDbRyTUjge" type="audio/mpeg">
+    <source src="https://www.uio.no/english/studies/programmes/mct-master/blog/assets/audio/2021_05_05_alena_near_light_practice.mp3" type="audio/mpeg">
     Near Light with two pianos and midi drums
   </audio>
   <figcaption>Near light with two pianos and midi drums</figcaption>
@@ -74,7 +74,7 @@ We also wanted to integrate the lead synthesiser sound using Ableton from a lapt
 We tried to play the violins part on the piano (you can listen to an exerpt of this version from practice above), but it was harder to distinguish the melody later in the piece. In the end, we settled on having Alena play the piano part and Leigh the parts for the first and second violin on a Midi keyboard at UiO, together with Choubey playing some ambient drums on a Midi at NTNU. Even not playing the cello, viola or the lead synthesiser, the song still had a nice and sweet flow, so that was enough. Watch the video below for the final performance of this piece.
 
 <figure style="float: none">
-   <iframe src="https://drive.google.com/file/d/1RU601pP6nqIOl6Fhil7RAEzUDACw_qLz/preview" width="600" height="400" frameborder="0" allowfullscreen></iframe>
+   <iframe src="https://www.uio.no/english/studies/programmes/mct-master/blog/assets/video/2021_05_05_alena_concert_near_light.mp4" width="600" height="400" frameborder="0" allowfullscreen></iframe>
    <figcaption>Ensemble A(wesome): "Near Light" by Ólafur Arnalds</figcaption>
 </figure>
 
@@ -83,7 +83,7 @@ We tried to play the violins part on the piano (you can listen to an exerpt of t
 For the first song we had Choubey leading at NTNU and Alena and Leigh played along to what they heard as the signal arrived.  This is fine for the live-stream as we are sending it from UiO so everything is synchronised but at NTNU the performance sounded out of sync.  For the second song, it was decided Choubey would be playing Midi drums but they do not start for several bars into the song, so it was necessary for UiO to lead the performance.  This was the first time Alena and Leigh at UiO got a taste of what it was like being on the receiving end of the latency.  They would be playing together and the beat provided by Choubey at NTNU was always behind the beat so we would always be slowing down.  This resulted in the use of “ambient” drum beats for our final performance rather than a steady rock beat.
 
 <figure style="float: none">
-   <iframe src="https://drive.google.com/file/d/1PFUTTneyel37_DM7LM9JD3CkTUBjFnS3/preview" width="600" height="400" frameborder="0" allowfullscreen></iframe>
+   <iframe src="https://www.uio.no/english/studies/programmes/mct-master/blog/assets/video/2021_05_04_alenacl_rehearsal_snippet.mp4" width="600" height="400" frameborder="0" allowfullscreen></iframe>
    <figcaption>Ensemble A(wesome) rehearsal: Choubey's drums</figcaption>
 </figure>
 

@@ -45,7 +45,7 @@ The first is a mellow electric piano going through Phade. I bring up the delay, 
 
 <figure style="float: none">
   <audio controls>
-    <source src="https://drive.google.com/uc?&id=1q86ScSFQtdcX5Nh_-c_812SnjpPfBGB4" type="audio/mpeg">
+    <source src="https://www.uio.no/english/studies/programmes/mct-master/blog/assets/audio/2020_11_05_stephedg_elpiano.mp3" type="audio/mpeg">
     Alternate Text
   </audio>
   <figcaption></figcaption>
@@ -55,7 +55,7 @@ Next we have a guitar loop that’s goes from dry to completely saturated in eff
 
 <figure style="float: none">
   <audio controls>
-    <source src="https://drive.google.com/uc?&id=1l4g43hhQjFTHli5-yTUINLYRC2XesWvc" type="audio/mpeg">
+    <source src="https://www.uio.no/english/studies/programmes/mct-master/blog/assets/audio/2020_11_05_stephedg_guitar_loop.mp3" type="audio/mpeg">
     Alternate Text
   </audio>
   <figcaption></figcaption>
@@ -72,4 +72,4 @@ Finally, here is a short video of Phade in action.
 As to future developments, I would like to play with the pitch shifter and reverb order, so that the reverbs signal is fed into the pitch shifter, giving a shimmer-reverb type effect. Secondly, the phaser didn’t add the bite that I was hoping it would. Rolling my own using an all-pass filter could be an interesting next project.
 
 ## Download Phade VST
-[You can download Phade VST here](https://drive.google.com/file/d/1nGhP-zH7aLcxJPYMQqIJxIfPYJkae8ak/view?usp=sharing)
+[You can download Phade VST here](https://www.uio.no/english/studies/programmes/mct-master/blog/assets/document/2020_11_05_stephedg_phade.vst.zip)

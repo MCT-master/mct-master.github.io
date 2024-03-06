@@ -14,7 +14,7 @@ excerpt: "An electronic music performance in an audio-visual digital environment
 Firstly, I want to encourage you to watch the performance related with this project before diving into the details of what is actually happening behind this audio-visual experience. You will find a video below.
 
 <figure style="float: none">
-   <iframe src="https://drive.google.com/file/d/1EbWqLVyRN8_lC42ht3vXq_-hoWXVy_nU/preview" width="1024" height="576" frameborder="0" allowfullscreen></iframe>
+   <iframe src="https://www.uio.no/english/studies/programmes/mct-master/blog/assets/video/2020_10_16_pedropl_phyco_performance.mp4" width="1024" height="576" frameborder="0" allowfullscreen></iframe>
    <figcaption>The Performance</figcaption>
 </figure>
 

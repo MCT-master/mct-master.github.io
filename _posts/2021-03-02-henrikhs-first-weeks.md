@@ -26,7 +26,7 @@ So with this experience in our telematic backpacks, playing together in the Port
 Having some control over the sound, the next obstacle was musical rather than technical. As many of us know, it can be hard playing together for the first time. Especially when not physically together and having some audience. Not being that used to just jamming around, we quickly figured out that picking a song to play that all of us knew was probably a good idea. And it worked in a way. Here’s a snippet of All of Us, playing «All of Me».
 
 <figure style="float: none">
-   <iframe src="https://drive.google.com/file/d/14b_IM5YmZqxi1W58WYH3eIj_57KaH58R/preview" width="1024" height="576" frameborder="0" allowfullscreen></iframe>
+   <iframe src="https://www.uio.no/english/studies/programmes/mct-master/blog/assets/video/2021_03_02_henrikhs_allofus.mp4" width="1024" height="576" frameborder="0" allowfullscreen></iframe>
    <figcaption>All of us playing "All Of Me"</figcaption>
 </figure>
 
@@ -36,7 +36,7 @@ Still a little hard to keep track of tempo and navigate who’s playing what, bu
 Another technique we wanted to try was processing a player playing in Trondheim from Oslo and having a processing-based musical feedback between the locations. For this I, Henrik in Oslo, played with Lindsay in Trondheim. He played the piano and I processed it with the «COW» effect on the OP-1, which is a delay/modulation based effect. This was a jam based approach to playing and our experience with it was very good actually. Only being two performers with distinct differences in sound made the navigation quite easy as we both easily heard what the other one was doing. And only having one sound producing musician makes it easier to switch around keys and tempos as the processing will eventually follow.
 
 <figure style="float: none">
-   <iframe src="https://drive.google.com/file/d/1hSbrtfuvCVHx-UEgObmICMFsyFfqYO4Y/preview" width="1024" height="576" frameborder="0" allowfullscreen></iframe>
+   <iframe src="https://www.uio.no/english/studies/programmes/mct-master/blog/assets/video/2021_03_02_henrikhs_lindsay_pianocow.mp4" width="1024" height="576" frameborder="0" allowfullscreen></iframe>
    <figcaption>Lindsay playing piano through OP-1 COW</figcaption>
 </figure>
 

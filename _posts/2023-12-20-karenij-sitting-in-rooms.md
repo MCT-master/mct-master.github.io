@@ -4,7 +4,7 @@ title:  "We Are Sitting In Rooms"
 date:   2023-12-20 2:00:00 +0200
 categories: networked-music
 author: Karenina Juarez
-image: assets/image/2023_12_20_karenij.blogclip.png
+image: https://www.uio.no/english/studies/programmes/mct-master/blog/assets/image/2023_12_20_karenij.blogclip.png
 excerpt: "Recreating the most famous piece by composer Alvin Lucier as a network music performance"
 ---
 

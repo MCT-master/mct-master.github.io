@@ -13,7 +13,7 @@ excerpt: "This is the brand new, fresh from the oven, Team B from the MCT 2021 p
 
 
 <figure style="float: none">
-   <img src="https://drive.google.com/uc?&id=1LjFTKMANm5qnBxupU7NS7L4XNSmmSXzK" alt="Team B" title="Team B" width="auto" />
+   <img src="https://www.uio.no/english/studies/programmes/mct-master/blog/assets/image/2021_08_25_josephcl_team_picture.jpeg" alt="Team B" title="Team B" width="auto" />
    <figcaption>Team B</figcaption>
 </figure>
 
@@ -26,7 +26,7 @@ On paper, Team B is a group of four MCT students assigned by random chance. But 
 ## Kristian Wentzel
 
 <figure style="float: none">
-   <img src="https://drive.google.com/uc?&id=1z9wAyjdHqw8qOu3rosM-7x3M6BP0esxW" alt="Kristian Wentzel" title="Kristian Wentzel" width="auto" />
+   <img src="https://www.uio.no/english/studies/programmes/mct-master/blog/assets/image/2021_08_27_wnetzel_outdoor.jpg" alt="Kristian Wentzel" title="Kristian Wentzel" width="auto" />
    <figcaption></figcaption>
 </figure>
 
@@ -42,7 +42,7 @@ Kristian is a father of a girl, and resides just outside of Oslo. When not perfo
 ## Joseph Clemente
 
 <figure style="float: none">
-   <img src="https://drive.google.com/uc?&id=1plhlPy6HHH_q6hd9S5gLweHEA32JdTEh" alt="Joseph Clemente" title="Joseph Clemente" width="auto" />
+   <img src="https://www.uio.no/english/studies/programmes/mct-master/blog/assets/image/2021_08_25_josephcl_bio_picture.jpg" alt="Joseph Clemente" title="Joseph Clemente" width="auto" />
    <figcaption>Joseph Clemente</figcaption>
 </figure>
 
@@ -53,7 +53,7 @@ Joseph is a Computer Science major from the suburbs outside of Detroit, Michigan
 ## Jakob Høydal
 
 <figure style="float: none">
-   <img src="https://drive.google.com/uc?&id=1RFj9peiPQTNXnpjWcrJBJ0twfOoDb58G" alt="Jakob Høydal" title="Jakob Høydal" width="auto" />
+   <img src="https://www.uio.no/english/studies/programmes/mct-master/blog/assets/image/2021_08_25_jakob_guiding.jpeg" alt="Jakob Høydal" title="Jakob Høydal" width="auto" />
    <figcaption></figcaption>
 </figure>
 
@@ -70,7 +70,7 @@ Jakob looks forward to learning a lot about how things connect, and to expand hi
 ## Arvid Falch
 
 <figure style="float: none">
-   <img src="https://drive.google.com/uc?&id=1d1M42g4CZ8jC-cnFbZYGvYCxIf7qbdsL" alt="Arvid Falch" title="Arvid Falch" width="auto" />
+   <img src="https://www.uio.no/english/studies/programmes/mct-master/blog/assets/image/2021_08_25_arvidfalchmountain.jpg" alt="Arvid Falch" title="Arvid Falch" width="auto" />
    <figcaption></figcaption>
 </figure>
 
@@ -87,7 +87,7 @@ Joining the MCT program, Arvid is really looking forward to explore technology w
 ## Competencies
 
 <figure style="float: none">
-   <img src="https://drive.google.com/uc?&id=1rrnPltxztq3_kEacPp06f_PliG09pH_h" alt="Team B" title="Team B" width="auto" />
+   <img src="https://www.uio.no/english/studies/programmes/mct-master/blog/assets/image/2021_08_25_team21b_competencies.jpg" alt="Team B" title="Team B" width="auto" />
    <figcaption>Team B Competencies</figcaption>
 </figure>
 

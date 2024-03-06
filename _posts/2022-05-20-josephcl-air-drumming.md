@@ -32,7 +32,7 @@ We must also be able to tell exactly what drums the drummer is playing at any gi
 You can view one of the test videos below, with the left hand playing a snare and right hand playing a hi-hat.
 
 <video width="720" height="406" controls>
-  <source src="https://drive.google.com/uc?&id=1B0Br_3UCS50ewAqU4Iz4K6_D_6xZUwi4" type="video/mp4">
+  <source src="https://www.uio.no/english/studies/programmes/mct-master/blog/assets/video/2022_05_19_josephcl_snarelefthihatright.mp4" type="video/mp4">
 </video>
 
 # Feature Extraction
@@ -62,13 +62,13 @@ We will be evaulating the ML systems using both qualitative and quantitative met
 ## Regressor
 
 <video width="720" height="406" controls>
-  <source src="https://drive.google.com/uc?&id=1CirrbliAFpmkPGcR73i4wv5Nmp-DJQLI" type="video/mp4">
+  <source src="https://www.uio.no/english/studies/programmes/mct-master/blog/assets/video/2022_05_19_josephcl_videoregressor.mp4" type="video/mp4">
 </video>
 
 ## Classifier
 
 <video width="720" height="406" controls>
-  <source src="https://drive.google.com/uc?&id=1eMdDgfIH7u8P66LSKW0JQOy2oCvhas9f" type="video/mp4">
+  <source src="https://www.uio.no/english/studies/programmes/mct-master/blog/assets/video/2022_05_19_josephcl_videoclassifier.mp4" type="video/mp4">
 </video>
 
 # Results With Raw VideoAnalysis Features
@@ -76,13 +76,13 @@ We will be evaulating the ML systems using both qualitative and quantitative met
 ## Regressor
 
 <video width="720" height="406" controls>
-  <source src="https://drive.google.com/uc?&id=1cGreB2pYG3ycNQleNEMYy9scFMGw9jqx" type="video/mp4">
+  <source src="https://www.uio.no/english/studies/programmes/mct-master/blog/assets/video/2022_05_19_josephcl_varegressor.mp4" type="video/mp4">
 </video>
 
 ## Classifier
 
 <video width="720" height="406" controls>
-  <source src="https://drive.google.com/uc?&id=1ruCIUprCZ1UHfgSQrMOyXDhLikQm61cL" type="video/mp4">
+  <source src="https://www.uio.no/english/studies/programmes/mct-master/blog/assets/video/2022_05_19_josephcl_vaclassifier.mp4" type="video/mp4">
 </video>
 
 # Results With Smoothed VideoAnalysis Features
@@ -90,13 +90,13 @@ We will be evaulating the ML systems using both qualitative and quantitative met
 ## Regressor
 
 <video width="720" height="406" controls>
-  <source src="https://drive.google.com/uc?&id=1NO4Q-oPpUYKuHasTU4-4a8PjEhm2DLi7" type="video/mp4">
+  <source src="https://www.uio.no/english/studies/programmes/mct-master/blog/assets/video/2022_05_19_josephcl_varegressorsmooth.mp4" type="video/mp4">
 </video>
 
 ## Classifier
 
 <video width="720" height="406" controls>
-  <source src="https://drive.google.com/uc?&id=1pjjQSUBMJQDg91ib_hsDrRvtqkIN2Uwv" type="video/mp4">
+  <source src="https://www.uio.no/english/studies/programmes/mct-master/blog/assets/video/2022_05_19_josephcl_vaclassifiersmooth.mp4" type="video/mp4">
 </video>
 
 # Results With Smoothed VideoAnalysis And Accelerometer Features
@@ -104,13 +104,13 @@ We will be evaulating the ML systems using both qualitative and quantitative met
 ## Regressor
 
 <video width="720" height="406" controls>
-  <source src="https://drive.google.com/uc?&id=1qK2y2Rt2ZUONRNmmzr1SmGajhrz7KQ6R" type="video/mp4">
+  <source src="https://www.uio.no/english/studies/programmes/mct-master/blog/assets/video/2022_05_19_josephcl_varegressoraccelerometersmooth.mp4" type="video/mp4">
 </video>
 
 ## Classifier
 
 <video width="720" height="406" controls>
-  <source src="https://drive.google.com/uc?&id=1_6jfrnWJemomMbPFumpy_YdwZNK5Eyfg" type="video/mp4">
+  <source src="https://www.uio.no/english/studies/programmes/mct-master/blog/assets/video/2022_05_19_josephcl_vaclassifieraccelerometersmooth.mp4" type="video/mp4">
 </video>
 
 # Quantitative Metrics

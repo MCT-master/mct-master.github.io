@@ -48,7 +48,7 @@ Here is our recordings. We can only say that we hope you’ll see progress soon!
 
 <figure style="float: none">
   <audio controls>
-    <source src="https://drive.google.com/uc?&id=1Vx3pcqhk_yERx19JqEnwpsewlxmWWpC8" type="audio/mpeg">
+    <source src="https://www.uio.no/english/studies/programmes/mct-master/blog/assets/audio/2021_03_09_abhishec_jamv2.mp3" type="audio/mpeg">
     Alternate Text
   </audio>
   <figcaption>Audio recording of the jam</figcaption>
@@ -56,7 +56,7 @@ Here is our recordings. We can only say that we hope you’ll see progress soon!
 
 <figure style="float: none">
   <video width="auto" controls>
-    <source src="https://drive.google.com/uc?&id=1OMXzISuXqmiKzcVx5NvyV1SH0NvtEfah" type='video/mp4'>
+    <source src="https://www.uio.no/english/studies/programmes/mct-master/blog/assets/video/2021_03_09_leigh_portal_practice1.mp4" type='video/mp4'>
   </video>
   <figcaption>Playing in the portal</figcaption>
 </figure>

@@ -31,5 +31,5 @@ As you can see from the plot, Zerox is mostly concentrated at the loud, tonal si
 
 For those that are interested in the resultant car-crash of an audio file, it is embedded below. They did say it didn’t have to be musical.
 
-<iframe src="https://drive.google.com/file/d/1yJR8NHrZMyKdA6p4cYcqtDtuicOJWlvG/preview"></iframe>
+<iframe src="https://www.uio.no/english/studies/programmes/mct-master/blog/assets/audio/2020_12_04_stephedg_my_bloody_zerox.mp3"></iframe>
 

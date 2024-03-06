@@ -54,7 +54,7 @@ My key takeaways from this project were:
 5. It always helps to document the process, so when you are writing about it later, you remember the important details.</div>
 
 <figure style="float: none">
-  <iframe height=360 width=640 src="https://drive.google.com/file/d/1uTKOImIg3yammocK1b7zguyYGEWqvGDt/preview"></iframe>
+  <iframe height=360 width=640 src="https://www.uio.no/english/studies/programmes/mct-master/blog/assets/video/2023_12_01_mahamr_interactivepainting.mp4"></iframe>
   <figcaption>Grab some snacks and enjoy the video</figcaption>
 </figure>
 

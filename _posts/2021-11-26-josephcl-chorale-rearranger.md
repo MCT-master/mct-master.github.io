@@ -10,7 +10,7 @@ excerpt: "Can we use Midi data to rearrange a recording of a Bach chorale?"
 ---
 
 <figure style="float: none">
-   <img src="https://drive.google.com/uc?&id=1f8vN3DwjQgQB6DfqgzyGy3Rg950LwVgk" alt="" title="" width="auto" />
+   <img src="https://www.uio.no/english/studies/programmes/mct-master/blog/assets/image/2021_11_26_jakobhoydal_bachsliser.jpg" alt="" title="" width="auto" />
    <figcaption>Bach, chopped</figcaption>
 </figure>
 
@@ -43,7 +43,7 @@ However, there is another digital representation where all of the information on
 So we came up with a plan: We would take an audio recording and the MIDI representation of one of Bach’s chorales, and based upon the information provided in the MIDI data, attempt to cut into the audio and recreate the individual voices. However, there’s a catch! We would repeat the chorale four times, and in each repetition, we would switch around some of the information in the MIDI data between the voices. Through each repetition we would shift over the pitch of each note by one voice, so that, for example, in the first run through the chorale, the soprano notes would be assigned the soprano pitches, then in the second the alto pitches, then the tenor pitches, then the bass. We hoped that this would reframe the harmonic and rhythmic relationships, and offer a new perspective on the chosen chorale.
 
 <figure style="float: none">
-   <img src="https://drive.google.com/uc?&id=1sG7ERRZbAvjyf82266FlDt55fTqSlxcs" alt="" title="" width="auto" />
+   <img src="https://www.uio.no/english/studies/programmes/mct-master/blog/assets/image/2021_11_26_josephcl_image2.png" alt="" title="" width="auto" />
    <figcaption>Our plan for the chorale rearranger</figcaption>
 </figure>
 
@@ -51,7 +51,7 @@ So we came up with a plan: We would take an audio recording and the MIDI represe
 As we were going to be repeating the chorale four times, we decided to use a relatively short one. We settled upon the 3rd movement from the Matthäus-Passion, which uses the text Herzliebster Jesu, was hast du verbrochen, written by Johann Heermann, set to a melody by Johann Crüger.
 
 <figure style="float: none">
-   <img src="https://drive.google.com/uc?&id=1R2v5seF2MMa4tpDCjZpyjeEDNPDPL_yD" alt="" title="" width="auto" />
+   <img src="https://www.uio.no/english/studies/programmes/mct-master/blog/assets/image/2021_11_26_josephcl_image3.jpg" alt="" title="" width="auto" />
    <figcaption>The score of the 3rd movement from the Matthäus-Passion</figcaption>
 </figure>
 
@@ -61,7 +61,7 @@ We also found a MIDI file [here,](https://www.cpdl.org/wiki/images/2/26/Ws-bwv-m
 
 <figure style="float: none">
   <audio controls>
-    <source src="https://drive.google.com/uc?&id=18sWzRg6vg46XFNH2EewgZOB7LfJZJfLl" type="audio/wav">
+    <source src="https://www.uio.no/english/studies/programmes/mct-master/blog/assets/audio/2021_11_26_josephcl_audio1.wav" type="audio/wav">
   </audio>
   <figcaption>Synthesised version of the MIDI version</figcaption>
 </figure>
@@ -73,7 +73,7 @@ The first precept we attempted to reconcile was the key. What’s interesting he
 As we already had the pitch information of the MIDI data, we now needed to find it for the audio. We realised that if we looked at the audio in the frequency domain, there would be peaks at the fundamentals of the pitches being sung. So we took the [periodogram](https://en.wikipedia.org/wiki/Periodogram) of the audio, calculated the highest peak, then looked at which of the pitches in the MIDI file was closest, calculated the difference, and subtracted it from all of the pitches in the entire MIDI data.
 
 <figure style="float: none">
-   <img src="https://drive.google.com/uc?&id=1b8BD-Awzb9gmxgbc0cyQ6a8dj6Nihmgc" alt="" title="" width="auto" />
+   <img src="https://www.uio.no/english/studies/programmes/mct-master/blog/assets/image/2021_11_26_josephcl_image4.png" alt="" title="" width="auto" />
    <figcaption>Periodogram of the first chord in the audio. The peak is marked by the red dotted line</figcaption>
 </figure>
 
@@ -81,7 +81,7 @@ We then re-synthesised the entire MIDI file and layered it on to the audio to ch
 
 <figure style="float: none">
   <audio controls>
-    <source src="https://drive.google.com/uc?&id=1rS2JscJw40MBoXUY07rhPgSKWNGwsxPr" type="audio/wav">
+    <source src="https://www.uio.no/english/studies/programmes/mct-master/blog/assets/audio/2021_11_26_josephcl_audio2.wav" type="audio/wav">
   </audio>
   <figcaption>The pitch altered MIDI file layered upon the audio</figcaption>
 </figure>
@@ -90,7 +90,7 @@ The next precept that we attempted to reconcile was the tempo. Again, the object
 
 <figure style="float: none">
   <audio controls>
-    <source src="https://drive.google.com/uc?&id=1FrvfwxFbShxf-4fYM-r5zbR-9wSaDY-5" type="audio/wav">
+    <source src="https://www.uio.no/english/studies/programmes/mct-master/blog/assets/audio/2021_11_26_josephcl_audio3.wav" type="audio/wav">
   </audio>
   <figcaption>The tempo altered MIDI file layered upon the audio</figcaption>
 </figure>
@@ -100,7 +100,7 @@ The final precept, and by far the most difficult, that we attempted to reconcile
 After trying and failing many times to come up with a method to do this, we settled on taking the amplitude envelope of the audio file and again attempting to find the peaks. However, as we only wanted four peaks, after setting starting parameters, we then iterated over the envelope slowly changing these parameters until only four peaks remained.
 
 <figure style="float: none">
-   <img src="https://drive.google.com/uc?&id=1WKMMV8G4RL9eS8a_ZPO4P2d04xyn1q1_" alt="" title="" width="auto" />
+   <img src="https://www.uio.no/english/studies/programmes/mct-master/blog/assets/image/2021_11_26_josephcl_image5.png" alt="" title="" width="auto" />
    <figcaption>The amplitude envelope of the audio data. It’s possible to see where pauses are at the end of each phrase. The peaks we calculated are the red dotted lines.</figcaption>
 </figure>
 
@@ -108,7 +108,7 @@ After doing this, we found the MIDI note which had the nearest starting point to
 
 <figure style="float: none">
   <audio controls>
-    <source src="https://drive.google.com/uc?&id=10Ki-OO3H897Vip3W49ebHYS9jMRcBSdi" type="audio/wav">
+    <source src="https://www.uio.no/english/studies/programmes/mct-master/blog/assets/audio/2021_11_26_josephcl_audio4.wav" type="audio/wav">
   </audio>
   <figcaption>The phrasing altered MIDI file layered upon the audio</figcaption>
 </figure>
@@ -128,14 +128,14 @@ The method that we used to chop up the audio for each voice was as follows:
 4. Apply a sigmoid window and pad the segment to ensure that there were no clicks when joining the segments back together.
 
 <figure style="float: none">
-   <img src="https://drive.google.com/uc?&id=1gheRr7pIOZN8hJXmCwTmQd8s7xRx9pAP" alt="" title="" width="auto" />
+   <img src="https://www.uio.no/english/studies/programmes/mct-master/blog/assets/image/2021_11_26_josephcl_image6.png" alt="" title="" width="auto" />
    <figcaption>Sigmoid window</figcaption>
 </figure>
 
 5. Append the segment onto the previous segment.
 
 <figure style="float: none">
-   <img src="https://drive.google.com/uc?&id=1Ak-VRrPT6M-l1bJxzwRSnbVmFRAZL4Pe" alt="" title="" width="auto" />
+   <img src="https://www.uio.no/english/studies/programmes/mct-master/blog/assets/image/2021_11_26_josephcl_image7.png" alt="" title="" width="auto" />
    <figcaption>Our method for chopping the audio</figcaption>
 </figure>
 
@@ -146,14 +146,14 @@ There was a problem however. Each voice doesn’t contain the same number of not
 Our first idea was to relate the assignment to the timing of the original piece. This would mean that if there were subdivisions in the note duration of one voice in relation to a single note in the voice that the pitches were being taken from, both of these subdivided notes would be assigned the pitch of the single note. This would also be the case in reverse, so that if the voice from which the pitches were being taken had subdivisions, only the pitch from the first of these subdivided notes would be applied to the longer note in the voice in which the pitch was being assigned to.
 
 <figure style="float: none">
-   <img src="https://drive.google.com/uc?&id=1qv52YqyB0d-Oa2Ha5X8xuEQBr0iVUTli" alt="" title="" width="auto" />
+   <img src="https://www.uio.no/english/studies/programmes/mct-master/blog/assets/image/2021_11_26_josephcl_image8.png" alt="" title="" width="auto" />
    <figcaption>Our first idea on how to assign pitches</figcaption>
 </figure>
 
 However, we realised that if we did this, there wouldn’t be so much shifting in the harmonic contexts of our final piece. So we came up with another idea.We would just run through each of the pitches in turn, with each note being assigned the following pitch sequentially. If the voice being assigned the pitches had fewer notes than the voice from which the pitches were being taken from, the last of these pitch values would be discarded. In the opposite case, the final notes would just hold on the final pitch.
 
 <figure style="float: none">
-   <img src="https://drive.google.com/uc?&id=1xYP5wRAr9qVijG9UglImTHL8aXYf9w9W" alt="" title="" width="auto" />
+   <img src="https://www.uio.no/english/studies/programmes/mct-master/blog/assets/image/2021_11_26_josephcl_image9.png" alt="" title="" width="auto" />
    <figcaption>How we ended up assigning pitches</figcaption>
 </figure>
 
@@ -161,7 +161,7 @@ This resulted in the harmonies shifting for each repetition, sometimes building 
 
 <figure style="float: none">
   <audio controls>
-    <source src="https://drive.google.com/uc?&id=1XKGdxZqNKHE13G7AlkDA7NIFaTAKBZ1A" type="audio/wav">
+    <source src="https://www.uio.no/english/studies/programmes/mct-master/blog/assets/audio/2021_11_26_josephcl_audio5.wav" type="audio/wav">
   </audio>
   <figcaption>The result of our Chorale Rearrangement</figcaption>
 </figure>
@@ -178,7 +178,7 @@ After passing the audio back into Python, we [convolved](https://en.wikipedia.or
 
 <figure style="float: none">
   <audio controls>
-    <source src="https://drive.google.com/uc?&id=1i9Oryatj_yJpd8UUD6yVIskB3krXYqYO" type="audio/wav">
+    <source src="https://www.uio.no/english/studies/programmes/mct-master/blog/assets/audio/2021_11_26_josephcl_audio6.wav" type="audio/wav">
   </audio>
   <figcaption>Impulse response of the Gozo Citadel Silo</figcaption>
 </figure>
@@ -187,7 +187,7 @@ Our final, rearranged chorale sounds like this:
 
 <figure style="float: none">
   <audio controls>
-    <source src="https://drive.google.com/uc?&id=1g6t1h_A3Sxf0H2K2ex0jk7h84vKTTBzI" type="audio/wav">
+    <source src="https://www.uio.no/english/studies/programmes/mct-master/blog/assets/audio/2021_11_26_josephcl_audio7.wav" type="audio/wav">
   </audio>
   <figcaption>The rearranged chorale</figcaption>
 </figure>
@@ -199,7 +199,7 @@ We then created some waveforms in different styles, allowing us another view on 
 Another way we visualized the audio was through layering the waveform with its own RMS, which gives a more accurate representation of loudness over time.
 
 <figure style="float: none">
-   <img src="https://drive.google.com/uc?&id=1c0Lv-ACtPWM2BoR5clI-XlYmIYAS_Y1p" alt="" title="" width="auto" />
+   <img src="https://www.uio.no/english/studies/programmes/mct-master/blog/assets/image/2021_11_26_josephcl_image12.png" alt="" title="" width="auto" />
    <figcaption>The waveform with the RMS visualised within</figcaption>
 </figure>
 

@@ -10,7 +10,7 @@ excerpt: "Inspired by how virtual communication has been adopted and integrated 
 ---
 
 
-<img src="https://drive.google.com/uc?export==view&amp;id=11UGcmpTdXJjXk3cMGnei5QHyx2t0zXdX" alt="fader_snake" style="width:100%;height:width/2.56px;">
+<img src="https://www.uio.no/english/studies/programmes/mct-master/blog/assets/image/2021_11_25_jarlefst_midissineangle.gif" alt="fader_snake" style="width:100%;height:width/2.56px;">
 
 
 ##  Audio Feedback / LOLA / ZOOM / & MIDI
@@ -36,7 +36,7 @@ __The particulars__ of the Portal audio-communication architecture engender some
 
 
 <figure align="center">
-  <img src="https://drive.google.com/uc?export=view&amp;id=1aPN3BXXObHI1NiIddxMZdJT-TH7r2UK2" alt="Audio Feedback in the MCT Portal" style="width:480px;height:auto;">
+  <img src="https://www.uio.no/english/studies/programmes/mct-master/blog/assets/image/2021_11_25_jarlefst_portalfeedback.gif" alt="Audio Feedback in the MCT Portal" style="width:480px;height:auto;">
   <figcaption>fig. 1 - <i>Portal feedback is not usual feedback</i> -</figcaption>
 </figure>
 
@@ -68,11 +68,11 @@ __Which has inspired__ this simple proposition:
 
 ### Fighting Audio Feedback with MIDI
 
-__The quickSet_TotalMix.pd__ patch is directly inspired by the mentioned unmute buttons of ZOOM et al. With simple, customizable keystrokes or similarly settable MIDI ControlChange messages - or MIDI notes - the patch sends six presets to safeguard against acoustic feedback. [[download_patch](https://drive.google.com/file/d/1_37MblkcVWLT2fKEMnbnaaav2QXkXb8p/view?usp=sharing "Download the folder including /abstractions for fully functioning patch - Patch is pure-vanilla.pd with no other dependencies")]
+__The quickSet_TotalMix.pd__ patch is directly inspired by the mentioned unmute buttons of ZOOM et al. With simple, customizable keystrokes or similarly settable MIDI ControlChange messages - or MIDI notes - the patch sends six presets to safeguard against acoustic feedback. [[download_patch](https://www.uio.no/english/studies/programmes/mct-master/blog/assets/code/2021_25_11_jarlefst_puredata_patch.zip "Download the folder including /abstractions for fully functioning patch - Patch is pure-vanilla.pd with no other dependencies")]
 
 
 <figure align="left">
-  <img src="https://drive.google.com/uc?export=view&amp;id=1i1M1bTu9Q8xFYPFB80TvQq3QkcR7yOIS" alt="TotalMix and PureData">
+  <img src="https://www.uio.no/english/studies/programmes/mct-master/blog/assets/image/2021_11_26_jarlefst_totalmix_pd.jpg" alt="TotalMix and PureData">
   <figcaption>fig. 2 - <i>TotalMix submixes reflected in the quickSet_patch</i> </figcaption>
 </figure>
 
@@ -96,7 +96,7 @@ __The__ ___"... is talking"___ presets give that when one of the LOLA nodes is t
 
 ### MIDI setup
 
-<img src="https://drive.google.com/uc?export=view&amp;id=1dCT-W5Nyq40RCwHku6OlHdPCgnQlfFCo">
+<img src="https://www.uio.no/english/studies/programmes/mct-master/blog/assets/image/2021_11_25_jarlefst_midisettings_pd&totmix.jpg">
   <figcaption>fig. 3 <i> MIDI-setup in PureData and TotalMix </i> </figcaption>
 
 </figure>
@@ -121,10 +121,10 @@ __There is much__ still wanting in the quickSet_patch. A preset storing system..
 ---
 <br>  
 
-<img src="https://drive.google.com/uc?export=view&amp;id=1C8HsXwgQn3DvwlUB3AG2ZYQrxc8WKlu7" alt="M32 fader Wave" style="width:100%;height:auto;">
+<img src="https://www.uio.no/english/studies/programmes/mct-master/blog/assets/image/2021_11_25_jarlefst_fadersinewide.gif" alt="M32 fader Wave" style="width:100%;height:auto;">
 
 __POST SCRIPT__  --- These somewhat hypnotizing silver sinewaves are the faders on a Midas M32 mixing console. Controlling the M32 - another fixture in the MCT_Portal setup - is another path to reducing feedback. Next year then...
-__Though serving__ no sensible purpose for any audio - and disregarding the absolute racket emanating from twentyfive hardworking motorized faders - there is a particular satisfaction in sending some MIDI-messages from a [MaxMSP_patch](https://drive.google.com/file/d/1BhlUMk2YPaMMHXPfJ-hrCUCUOzIejjTC/view?usp=sharing "set the MIDI-menu to correspond to the M32 and make waves!") to set some things in motion.
+__Though serving__ no sensible purpose for any audio - and disregarding the absolute racket emanating from twentyfive hardworking motorized faders - there is a particular satisfaction in sending some MIDI-messages from a [MaxMSP_patch](https://www.uio.no/english/studies/programmes/mct-master/blog/assets/code/2021_11_25_jarlefst_midasm32_midi.maxpat "set the MIDI-menu to correspond to the M32 and make waves!") to set some things in motion.
 
 
 ... so a huge thanks to Joni Mok for all help, reflections, inspiration, and drive!!
@@ -153,4 +153,4 @@ __FURTHER READING:__
 <br>  
 <br>  
 
-![subMix](https://drive.google.com/uc?export=view&amp;id=1jD5r-kUvaGPPzdfKoV6oM3wNZ2YdKGpG)
+![subMix](https://www.uio.no/english/studies/programmes/mct-master/blog/assets/image/2021_11_26_jarlefst_submix.png)

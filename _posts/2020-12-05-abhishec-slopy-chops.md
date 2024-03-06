@@ -23,7 +23,7 @@ You can listen to both the songs down below:
 
 <figure style="float: none">
   <audio controls>
-    <source src="https://drive.google.com/uc?&id=133aC4BPjrZlerOfW5o1R03LY6QpVjQ9_" type="audio/mpeg">
+    <source src="https://www.uio.no/english/studies/programmes/mct-master/blog/assets/audio/2020_12_05_abhishec_rhea_winter_texture.mp3" type="audio/mpeg">
     Should show a media player
   </audio>
   <figcaption>Winter</figcaption>
@@ -34,7 +34,7 @@ You can listen to both the songs down below:
 
 <figure style="float: none">
   <audio controls>
-    <source src="https://drive.google.com/uc?&id=1pfBP21z4PCjTxkLYa4E_lVVJo7j6FWDa" type="audio/mpeg">
+    <source src="https://www.uio.no/english/studies/programmes/mct-master/blog/assets/audio/2020_12_05_abhishec_rhea_autumn_texture.mp3" type="audio/mpeg">
     Should show a media player
   </audio>
   <figcaption>Autumn</figcaption>
@@ -51,7 +51,7 @@ you can listen to the final season output and the 13 minute output down below:
 
 <figure style="float: none">
   <audio controls>
-    <source src="https://drive.google.com/uc?&id=1hIwmhGxtHHdV6Pzvl4_3YYqimJ7zsx_b" type="audio/mpeg">
+    <source src="https://www.uio.no/english/studies/programmes/mct-master/blog/assets/audio/2020_12_05_abhishec_output_file_2 min.mp3" type="audio/mpeg">
     Should show a media player
   </audio>
   <figcaption>The Hybrid Season</figcaption>
@@ -61,7 +61,7 @@ you can listen to the final season output and the 13 minute output down below:
 
 <figure style="float: none">
   <audio controls>
-    <source src="https://drive.google.com/uc?&id=1EAxNj0XNWWrYbUxpZNVGM63M_Ey6GBox" type="audio/mpeg">
+    <source src="https://www.uio.no/english/studies/programmes/mct-master/blog/assets/audio/2020_12_05_abhishec_output_file_13min.mp3" type="audio/mpeg">
     Should show a media player
   </audio>
   <figcaption>The sent & received</figcaption>

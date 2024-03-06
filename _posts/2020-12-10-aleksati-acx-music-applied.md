@@ -64,7 +64,7 @@ In the picture below you can see all of these emoitions listed with an emoij to 
 In addition to this we have made some extra artboards where the user can input some more information like musical taste, time restrictions, option for a therapist to use the guide and access to some additional information. This can be seen in the GIF provided below.
 
 <figure style="float: none">
-   <img src="https://drive.google.com/uc?&id=10tPQX1TMMcUPmGNtwUHH-Bz20liVDa7J"
+   <img src="https://www.uio.no/english/studies/programmes/mct-master/blog/assets/image/2020_12_10_thomasanda_overview.gif"
    alt="Alternate Text" title="Image Title" width="340" />
    <figcaption>Tour de force!</figcaption>
 </figure>

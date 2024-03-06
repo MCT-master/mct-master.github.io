@@ -42,5 +42,5 @@ The general conclusion I draw from the findings of this work suggests that cross
 ## Graphical summary
 
 <figure style="float: none">
-   <img src="https://drive.google.com/uc?&id=1Dplu-oDt2J5bTyc6ERT7fnLmxrS96UPu" alt="Graphical Summary" title="" width="auto" />
+   <img src="https://www.uio.no/english/studies/programmes/mct-master/blog/assets/image/2022_05_12_joni_infographic.jpg" alt="Graphical Summary" title="" width="auto" />
 </figure>

@@ -10,7 +10,7 @@ excerpt: "A review and critique of the online DAW SkyTracks for asynchronous col
 ---
 
 <figure>
-   <img src="https://drive.google.com/uc?&id=1r8IQBPuNt54Le6dXyWL0GA6ZRGb4S7pu" alt="Figure 1" width = "100%" allign="middle" />
+   <img src="https://www.uio.no/english/studies/programmes/mct-master/blog/assets/image/2021_11_03_josephcl_skytracks_header.png" alt="Figure 1" width = "100%" allign="middle" />
 </figure>
 
 # Introduction
@@ -31,7 +31,7 @@ Adding a new track is simple, and you can choose between an audio, MIDI, and dru
 
 <figure align="middle">
   <video controls>
-    <source src="https://drive.google.com/uc?&id=1yskUmC43ewAe6BK2pytDnbrIdjtHTgyl" type="video/mp4">
+    <source src="https://www.uio.no/english/studies/programmes/mct-master/blog/assets/video/2021_11_02_arvidfalch_drummachineissues.mp4" type="video/mp4">
   </video>
   <figcaption>Example video of a drum track with three drums playing at 153 bpm; the tempo drifts as SkyTracks struggle to play back and the sounds clip like crazy</figcaption>
 </figure>
@@ -59,7 +59,7 @@ In order to have any music to show for at the end of this review, we would have 
 
 <figure align="middle">
   <video controls>
-    <source src="https://drive.google.com/uc?&id=1DH210A6vgpQ7GBuFQ0jbHPEymoluaYLN" type="video/mp4">
+    <source src="https://www.uio.no/english/studies/programmes/mct-master/blog/assets/video/2021_11_02_arvidfalch_fullproject.mp4" type="video/mp4">
   </video>
 </figure>
 

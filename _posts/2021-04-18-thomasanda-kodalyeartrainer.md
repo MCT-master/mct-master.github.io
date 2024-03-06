@@ -233,7 +233,7 @@ available tools. Rather than having to rely upon expensive closed off
 systems, I find the cheap and open resources much more attractive.
 
 
-<iframe src="https://drive.google.com/uc?&id=1dEGuaeAYb7n5pUj6ffcwBWmoit9yBpYr" style="border:0px #ffffff none;" name="myiFrame" scrolling="no" frameborder="1" marginheight="0px" marginwidth="0px" height="400px" width="600px" allowfullscreen></iframe>
+<iframe src="https://www.uio.no/english/studies/programmes/mct-master/blog/assets/video/2021_04_18_thomasanda_kodaly.mp4" style="border:0px #ffffff none;" name="myiFrame" scrolling="no" frameborder="1" marginheight="0px" marginwidth="0px" height="400px" width="600px" allowfullscreen></iframe>
 
 Resources used in this project:
 

@@ -24,7 +24,7 @@ Iggy also made the outro to the composition where the main character wakes up fr
 
 The figure below shows an animation of the idea behind our composition.
 
-![Animation of composition idea](https://drive.google.com/uc?&id=1iJEjl23tBZtFttddYPl88KwmRMVn7M-c "Animation of composition idea")
+![Animation of composition idea](https://www.uio.no/english/studies/programmes/mct-master/blog/assets/image/2020_11_18_simonrs_spatialization.gif "Animation of composition idea")
 
 
 
@@ -32,7 +32,7 @@ The final composition can we listened to in binaural below. Make sure to use a h
 
 <figure style="float: none">
   <audio controls>
-    <source src="https://drive.google.com/uc?&id=1MugB0apktjGKg8BlLtT5TkQ1KqndOZG_" type="audio/mpeg">
+    <source src="https://www.uio.no/english/studies/programmes/mct-master/blog/assets/audio/2020_11_17_ulrikah_spatial_audio_project_binaural.mp3" type="audio/mpeg">
     Binaural rendering of the final composition
   </audio>
   <figcaption></figcaption>
@@ -96,13 +96,13 @@ The IEM suite became my most important tools. In particular, the RoomEncoder, to
 
 Iggy and Ulrik got the chance to work in [Notam](https://notam.no/)'s spatial audio studio. The studio is equipped with 24 loudspeakers in a hemisphere, evenly distributed approximately 2.5 meters from the listener. It was a great experience, and made it easier to become fully immersed in the world of spatial audio.
 
-![The 24 channel loudspeaker setup at Notam](https://drive.google.com/uc?&id=1A5ktq_fYVdR90OOE_ZU8L76pwDs_-VQr "The 24 channel loudspeaker setup at Notam")
+![The 24 channel loudspeaker setup at Notam](https://www.uio.no/english/studies/programmes/mct-master/blog/assets/image/2020_11_16_ulrikah_iggy_in_notam.png "The 24 channel loudspeaker setup at Notam")
 
 # Slides for presentation
 
 If you're more interested in our project, you can have a look at our slides below. Feel free to contact us about the project as well.
 
 <figure align="middle">
-    <iframe src="https://drive.google.com/file/d/12QEWTfdwI5XPl7UhPdjjuyFlnRg8HRWJ/preview" width="800px" height="460px" allowfullscreen></iframe>
+    <iframe src="https://www.uio.no/english/studies/programmes/mct-master/blog/assets/document/2020_11_17_ulrikah_spatial_audio_group_presentation.pdf" width="800px" height="460px" allowfullscreen></iframe>
     <figcaption>The slides for our presentation</figcaption>
 </figure>

@@ -14,7 +14,7 @@ During these last two intense weeks of machine learning, I ventured to design a 
 The project was first and foremost aimed at exploring how a relatively new and accessible online resource of high-level musical data could be used for machine learning purposes but also to examine whether machine learning in this sense can be used as creative tools to gain new interesting knowledge about our personal music preferences and/or biases.
 
 <figure style="float: none">
-   <img src="https://drive.google.com/uc?&id=1vo2M1v9JXMd6fXKv_DGDzMwHannFbGIP" 
+   <img src="https://www.uio.no/english/studies/programmes/mct-master/blog/assets/image/2020_09_18_aleksati_ml_main.gif" 
    alt="Alternate Text" title="Image Title" width="680" />
    <figcaption></figcaption>
 </figure>

@@ -76,7 +76,7 @@ Until we are lucky enough to find an orchestra willing to experiment in our port
 
 <figure style="float: none">
   <video width="auto" controls>
-    <source src="https://drive.google.com/uc?&id=1b47AbK9qS8HyzcZfJBQPKgi4lST9hB_2" type='video/mp4'>
+    <source src="https://www.uio.no/english/studies/programmes/mct-master/blog/assets/video/2021_11_14_williakm_telematicconducting.mp4" type='video/mp4'>
     Telematic Conducting Lecture
   </video>
   <figcaption>Telematic Conducting Lecture</figcaption>

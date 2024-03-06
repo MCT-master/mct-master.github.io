@@ -29,7 +29,7 @@ As such, the goal of this application is to reflect the situation shows in the i
 In order to implement this application, a *motion capture* system was used. The next video shows a demo performance and the data from the motion capture regarding the position of the *participant* (red circle), and the position of the *guidance sound* that calls the user to a specific direction (green circle). The participant is trying to go to the place where he or she thinks the sound is coming from, and move the hand towards the guessed direction. Note that the participant is holding an object which is tracked by the motion capture system so that the position can be sent to the controller to confirm whether it is close to the right direction or not.
 
 <figure style="float: none">
-   <iframe src="https://drive.google.com/file/d/1k9NrcsDJmKv-E-LNuV5xv0OqXVaX8RSe/preview" width="1024" height="576" frameborder="0" allowfullscreen></iframe>
+   <iframe src="https://www.uio.no/english/studies/programmes/mct-master/blog/assets/video/2021_12_10_pedropl_chasing_stars_video_demo.mp4" width="1024" height="576" frameborder="0" allowfullscreen></iframe>
    <figcaption>Video Demo</figcaption>
 </figure>
 

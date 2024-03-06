@@ -38,7 +38,7 @@ In the portal we have two main communication channels that we use "daily" (meani
 - After Zoom is up and running, we establish an audio connection using [__LoLa__](https://lola.conts.it/), our LOw LAtency and high quality software based transmission system. We pair this up with a video connection using [__TICO__](https://www.tico-alliance.org/technology), our hardware based TIny COdec compression technology - tiny in complexity, latency and compression. For this we use a [Minrray PTZ](https://minriglory.com/products-item/hd-ptz-camera-uv510a/) camera (Pan-Tilt-Zoom) which has an unbelievably awesome image quality. This camera is also linked to the Zoom Room PC, but this semester e only used it for TICO. For telematic performances, this LoLa-TICO solution is the only one worth trying, and even then it will not be possible to play completely on time. See a snippet of our rehearsals below: 
 
 <figure style="float: none">
-   <iframe src="https://drive.google.com/file/d/1PFUTTneyel37_DM7LM9JD3CkTUBjFnS3/preview" width="600" height="400" frameborder="0" allowfullscreen></iframe>
+   <iframe src="https://www.uio.no/english/studies/programmes/mct-master/blog/assets/video/2021_05_04_alenacl_rehearsal_snippet.mp4" width="600" height="400" frameborder="0" allowfullscreen></iframe>
    <figcaption>Ensemble A(wesome) rehearsal: Choubey's drums</figcaption>
 </figure>
 
@@ -49,7 +49,7 @@ To facilitate the communication and performance in this special room there are a
 - __The Mixer__: Even having had no experience with audio-visual technologies before (more than my laptop, phone, a semi-professional Sony camera my dad had and the [Microlab](http://microlab.com/en/catalog/2.1-stereosystem/wired/m-500u/) speaker system I got as a present for my 18th birthday), I still knew how a cool mixer is supposed to look like - a relatively big box like item, with a lot of buttons, _knobs_ and _faders_ (yes, I learned the correct names just recently), and millions of cables sticking out of it, connected to a bunch of instruments, speakers and microphones. Pretty basic, really. Not! It took me at least two classes to be brave enough to even start discovering how to use our [Midas M32 Mixer](https://www.midasconsoles.com/product.html?modelCode=P0B3I) more than just look at what other people did. In time, however, I learned more and more about it and stopped intimidating me that much. I still haven't used it to its entire capacity, probably more like half, but I'm proud of my progress. I went from not knowing what an XLR cable is and anything about input channels, preamplifiers, auxiliary channels, mix buses to actually being able to connect an instrument or microphone to the mixer and routing it to the output I wanted (for example, sending the sound only to LoLa and the room speakers, but no Zoom), controlling its gain and getting rid of the feedback (and avoiding it in the first place), and saving my setup preferences in a separate scene. I just had to give it time, ask a lot of questions and practice/try as much as possible and learn from my mistakes; it ends up being quite logical after a while. 
 
 <figure style="float: none">
-   <iframe src="https://drive.google.com/file/d/199-0RMLhS7jpl6gdzNJ34t60miCcC4f3/preview" width=auto height=auto frameborder="0" allowfullscreen></iframe>
+   <iframe src="https://www.uio.no/english/studies/programmes/mct-master/blog/assets/image/2021_05_04_alenacl_mixer-panick.gif" width=auto height=auto frameborder="0" allowfullscreen></iframe>
    <figcaption>Mixer panic</figcaption>
 </figure>
 
@@ -73,7 +73,7 @@ This semester I also attended the Music-related motion tracking course ([MCT 404
 For the end of semester concert, my responsibilities were a bit less technically inclined on the day. I was part of the promo and design team, and although we did a good job having everything ready on time, our Facebook posts were deleted by the curators and we didn't get permission to post in time to promote the concert properly. During the concert day, I was a presenter and although I have some experience with this position, I have to say it was weirder than I thought to present in front of a camera instead of a room of people, and not be able to "feel the crowd". I stumbled a bit over my words, but it ended up good - I managed to charm our _extremely_ large audience and they didn't mind. Here's a muted video of my antics while waiting for sound - to prove that not everything is milk and honey even after several sound checks...
 
 <figure style="float: none">
-   <iframe src="https://drive.google.com/file/d/1tqGQhnoguL_S6lJ2vtMxSfubEENsEUXT/preview" width="600" height="400" frameborder="0" allowfullscreen></iframe>
+   <iframe src="https://www.uio.no/english/studies/programmes/mct-master/blog/assets/video/2021_05_04_alenacl_funny_alena_presenting_mute.mp4" width="600" height="400" frameborder="0" allowfullscreen></iframe>
    <figcaption>"Loading": Funny Alena presenting while muted</figcaption>
 </figure>
 

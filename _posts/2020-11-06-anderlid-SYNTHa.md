@@ -34,7 +34,7 @@ In addition I use the pitch of my voice to control the amount of reverb, when I 
 
 
 <figure style="float: none">
-   <iframe src="https://drive.google.com/file/d/1ZfR-ovCM-B1g86OZ5bi1BGkZzuUNYpeL/preview" width="800" height="500" frameborder="0" allowfullscreen></iframe>
+   <iframe src="https://www.uio.no/english/studies/programmes/mct-master/blog/assets/video/2020_11_06_anderlid_syntha.mp4" width="800" height="500" frameborder="0" allowfullscreen></iframe>
    <figcaption><i>No rush, huh?!</i></figcaption>
 </figure>
 

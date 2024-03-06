@@ -4,14 +4,14 @@ title:  "Group C - The Koolboard "
 date:   2018-10-22 14:00
 categories: interactive-music
 author: Eirik Dahl, Guy Sion, Karolina Jawad, Elias Andersen
-image: https://drive.google.com/uc?export=view&amp;id=18DYayMB4YxDQq_faxf52J0YLinVh28fj
+image: https://www.uio.no/english/studies/programmes/mct-master/blog/assets/image/2018_10_22_guysi_groupcdsp-wholeinstrument.jpg
 excerpt: "The end of the week had come, and the last day of the workshop was here. The final task was to gather everything we had learned and culminate it into an instrument concept. The day was split in two, with the first part of the day being primarily for conceptualization and the last part of the day, dedicated to building our instrument in the mini-hackathon. Up to now, the week had been a mixture of confusion and pleasure in being able to produce and use the technologies we had been introduced to."
 keywords: physical-computing
 ---
 
 <figure align="middle">
   <video width="65%" controls>
-    <source src="https://docs.google.com/uc?export=download&id=1aP_MHQVMIRicM1VJu5Gz-N-CcBNoecqW" type='video/mp4'>
+    <source src="https://www.uio.no/english/studies/programmes/mct-master/blog/assets/video/2018_10_22_stefanof_day4introduction_2_1.mp4" type='video/mp4'>
     Your browser does not support video tag.
   </video>
 </figure>
@@ -20,7 +20,7 @@ keywords: physical-computing
 
 The end of the week had come, and the last day of the workshop was here. The final task was to gather everything we had learned and culminate it into an instrument concept. The day was split in two, with the first part of the day being primarily for conceptualization and the last part of the day, dedicated to building our instrument in the mini-hackathon. Up to now, the week had been a mixture of confusion and pleasure in being able to produce and use the technologies we had been introduced to.
 
-![The Koolboard](https://drive.google.com/uc?export=view&amp;id=1kUKU2ucoF7MgjKfqtXocTwYs_MpQfwCt "The Koolboard")
+![The Koolboard](https://www.uio.no/english/studies/programmes/mct-master/blog/assets/image/2018_10_22_guysi_koolboard.jpg "The Koolboard")
 
 ## Forming our ideas
 
@@ -39,7 +39,7 @@ We tried to divide the roles equally among the 4 of us. Elias and Guy started to
 In Oslo, Guy and Elias added more sensors to the Arduino board, ending up with two Arduino boards for the finale performance. The first board had 2 light sensors and one temperature sensor and the second board had one temperature sensor and a knob for manipulating parameters.
 Karolina and Eirik tried to add another out/in-put layer with ‘Little Bits’ but were facing some routing issues. Since there was no additional sound card to route our in-signal through we tried to use the Midas mixer in the room with some help from Eigil. The goal was to work with the signal that would be produced by the Arduino sensor, mapped through Max4Live. But we realized quickly that it would have taken too much time and so we kept working with the prototype set up we already had.
 
-![Koolboard mapping in Ableton](https://drive.google.com/uc?export=view&amp;id=1QrgyDdRB2e-VIk1W_pBwlAM1zyvxOmgS "Koolboard mapping in Ableton")
+![Koolboard mapping in Ableton](https://www.uio.no/english/studies/programmes/mct-master/blog/assets/image/2018_10_22_guysi_koolboard4ableton.jpg "Koolboard mapping in Ableton")
 
 ## Learning outcomes:  
 
@@ -47,13 +47,13 @@ With the workshop coming to an end it is interesting to reflect on what we have 
 
 What learning that actually culminates in each student is subjective, but for some of us, we had our first hands on experience with programming. When programming in Javascript, it was quite difficult, because it is somewhat abstract. One does not really see what one does before it is done. This contrasts’ programming with the Arduino, where there is a lot more hands-on activity. One connects different bits, for instance a LED light, and enters a code that corresponds to the components one desires to work with. Being able to understand and execute commands via the computer and see a physical effect on the board (light blinking) was an exciting experience for some of us who has no prior experience.
 
-![A very sensory experience!](https://drive.google.com/uc?export=view&amp;id=1fGra6CYzHr4aeEiLgCooK_X0B70GZ8-z "A very sensory experience!")
+![A very sensory experience!](https://www.uio.no/english/studies/programmes/mct-master/blog/assets/image/2018_10_22_guysi_sensoryexperience.jpg "A very sensory experience!")
 
 ## Expansion of the instrument:  
 
 This addition to the Koolboard builds upon the concept of being able to physically interact with the instrument to shape the sound. One of the wishes in the group was to add microphone inputs in the signal chain and that is a central part of this expansion. It derives from the DSP workshop in which we also got an opportunity to test it in a performance setting. The hands-on nature of the instrument further adds to conveying the visual componenent of the musical actions within a performance.
 
-![Group C DSP CSound code](https://drive.google.com/uc?export=view&amp;id=18DYayMB4YxDQq_faxf52J0YLinVh28fj "Group C DSP CSound code")
+![Group C DSP CSound code](https://www.uio.no/english/studies/programmes/mct-master/blog/assets/image/2018_10_22_guysi_groupcdsp-wholeinstrument.jpg "Group C DSP CSound code")
 
 ## How it works:
 
@@ -72,7 +72,7 @@ Saturation (Can be used as a tool to make the sound more aggresive while still b
 
 Reverb (effective way to shape the size of the sound. The same type of effect level control as in the saturation is used here as well.)
 
-![Group C DSP CSound code](https://drive.google.com/uc?export=view&amp;id=10EoGSAQSPvD4kY-XXETUpXs0dpaXUEl- "Group C DSP CSound code")
+![Group C DSP CSound code](https://www.uio.no/english/studies/programmes/mct-master/blog/assets/image/2018_10_22_guysi_groupcdspcsoundcode.png "Group C DSP CSound code")
 
 ### Cabbage:
 
@@ -93,7 +93,7 @@ The effects used within that plugin were of the likes of grain delay, flanger, t
 
 The result of the processing within the plugins as well as the Hadron Particle Synthesizer was then sent back out of the external soundcard in stereo to the mixer to Oslo for them to hear and process it further.
 
-![Reaper setup](https://drive.google.com/uc?export=view&amp;id=1ae_9D_Dul-BlpcQljxpHUfH4bwGT4cIV "Reaper setup")
+![Reaper setup](https://www.uio.no/english/studies/programmes/mct-master/blog/assets/image/2018_10_22_guysi_groupcdspreapersetup.png "Reaper setup")
 
 ### Conclusion:
 

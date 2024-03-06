@@ -37,6 +37,6 @@ The main use case of this patch is to harmonize a percussive track, like beatbox
      frameborder="0"
      width="500"
      height="100"
-     src="https://drive.google.com/a/uio.no/file/d/1nKhz0qHHFbD54VChW34jXOoXg4Kuxb7r/preview?usp=sharing">
+     src="https://www.uio.no/english/studies/programmes/mct-master/blog/assets/audio/2020_02_09_thibaulj_delayharmonizer.mp3">
   </iframe>
 </p>

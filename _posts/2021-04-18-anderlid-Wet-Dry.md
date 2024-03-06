@@ -92,7 +92,7 @@ In essence this is trying to find out on a broader scale what makes good recordi
 
 <figure style="float: none">
   <audio controls>
-    <source src="https://drive.google.com/uc?&id=1Yuc7W9Vus_ZbPDMmZvwIqOg0ubDHSZWV" type="audio/mpeg">
+    <source src="https://www.uio.no/english/studies/programmes/mct-master/blog/assets/audio/2021_04_18_anderlid_dry_monitored.mp3" type="audio/mpeg">
     Should show a media player
   </audio>
   <figcaption>Wet signal, dry monitored.</figcaption>
@@ -100,7 +100,7 @@ In essence this is trying to find out on a broader scale what makes good recordi
 
 <figure style="float: none">
   <audio controls>
-    <source src="https://drive.google.com/uc?&id=1qZSvJhZ4s9Iae2hAs9wzDdgTtgJJikq4" type="audio/mpeg">
+    <source src="https://www.uio.no/english/studies/programmes/mct-master/blog/assets/audio/2021_04_18_anderlid_wet_monitored.mp3" type="audio/mpeg">
     Should show a media player
   </audio>
   <figcaption>Wet signal, wet monitored.</figcaption>

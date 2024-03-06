@@ -44,7 +44,7 @@ To determine which sample to trigger, I picked the sample with the lowest euclid
 To avoid that successive jerk values triggers the same sample too frequently, I also added a cooldown of 200 ms between each sample trigger.
 
 <figure align="middle">
-   <img src="https://drive.google.com/uc?export=view&amp;id=1Rr27mY5PxZa5s01Ib1_nuVA3ez9bAUIS" width="auto" height="auto"/>
+   <img src="https://www.uio.no/english/studies/programmes/mct-master/blog/assets/image/2020_05_21_ulrikah_tsne_jerk.gif" width="auto" height="auto"/>
    <figcaption>Jerk movement</figcaption>
 </figure>
 

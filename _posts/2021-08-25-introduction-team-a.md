@@ -11,7 +11,7 @@ keywords: Music Production, Soundscape analysis, Singing, Music Engineering
 ---
 
 <figure style="float: none">
-   <img src="https://drive.google.com/uc?&id=1K5upOiWgFN37KXMk3uycLP9OmsuBSefw" alt="Alternate Text" title="Image Title" width="auto" />
+   <img src="https://www.uio.no/english/studies/programmes/mct-master/blog/assets/image/2021_08_26_team_a_group_photo.png" alt="Alternate Text" title="Image Title" width="auto" />
    <figcaption>An astonishing team.</figcaption>
 </figure>
 
@@ -26,7 +26,7 @@ Read our individual sections to get an idea of what to expect from us in the for
 ## Team members
 
 ### Sofía González
-![Photo about Sofía](https://drive.google.com/uc?&id=1XfCmaUQ12GGCR_A4m_2yQ-zI-jaKzUZP "Sofía González")
+![Photo about Sofía](https://www.uio.no/english/studies/programmes/mct-master/blog/assets/image/2021_08_26_sofiagonzalez_introductory_post.jpg "Sofía González")
 
 Hi!
 My name is Sofía and I come all the way from Spain because I was given the opportunity to dive into the musical and technological field, two areas in which I have always been interested. I’m a **singer** who’s never had a band and I had to find my way around sound editing programs in order to make my own songs and covers. After that, I became very interested in learning more of this side of music, so I think I found my place at the MCT.
@@ -49,7 +49,7 @@ Joachim studied a Bachelor in Archaeology & History of Art and worked as an assi
 ### Hugh Alexander von Arnim
 
 <figure style="float: none">
-   <img src="https://drive.google.com/uc?&id=1XJUNP5M5DCQm1mTv-GEusYXtvZpp_S_P" alt="Alternate Text" title="Image Title" width="auto" />
+   <img src="https://www.uio.no/english/studies/programmes/mct-master/blog/assets/image/2021_08_56_hughav_introphoto.jpg" alt="Alternate Text" title="Image Title" width="auto" />
    <figcaption>Recording the Landes Jugend Jazz Orchester Hessen</figcaption>
 </figure>
 

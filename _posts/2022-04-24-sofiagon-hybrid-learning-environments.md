@@ -4,12 +4,12 @@ title: "How to Set Up Hybrid Learning Environments"
 date: 2022-04-24 10:00:00 +0200
 categories: networked-music
 author: Sofía González, Oliver Getz
-image: https://drive.google.com/uc?export=view&amp;id=1MZaWM-Nl2-KKBTeeMjmb3inLsAh-GwfG
+image: https://www.uio.no/english/studies/programmes/mct-master/blog/assets/image/2022_04_24_olivegr_tut_thumbnail.jpg
 keywords: hybrid learning environment, teaching, online, physical, communication, class
 excerpt: "Learn how to set up a hybrid learning environment, ranging from simple to complex, serving as a starting point to help your classroom catch up to the digital age."
 ---
 <figure style="float: none">
-   <img src="https://drive.google.com/uc?&id=1TnLdsXJ6xAvIkyu-IFeowqaJpyjx6mLU" alt="" title="" width="auto" />
+   <img src="https://www.uio.no/english/studies/programmes/mct-master/blog/assets/image/2022_04_24_olivegr_tut_thumbnail_video.jpg" alt="" title="" width="auto" />
 </figure>
 
 If you're a lecturer or public speaker wondering how to improve your setup by allowing participants to attend both physically and virtually, keep reading. We will be focusing on the needs of students and teachers, but these setups can be used for public speaking across the web in general. We are going to discuss a few ways of setting up a hybrid learning environment, ranging from simple to complex, serving as a starting point to help your classroom catch up to the digital age.
@@ -43,7 +43,7 @@ To handle questions, the teacher would function as an intermediary, repeating th
 
 
 <figure style="float: none">
-   <img src="https://drive.google.com/uc?&id=1VfhDPNgrq0eM59dZn34rwsdKZIc6lgje" alt="" title="" width="auto" />
+   <img src="https://www.uio.no/english/studies/programmes/mct-master/blog/assets/image/2022_04_24_olivegr_tut_scenario_1e.png" alt="" title="" width="auto" />
    <figcaption> A diagram of scenario 1</figcaption>
 </figure>
 
@@ -68,7 +68,7 @@ For small classrooms or budgets, capture larger portions of the room with fewer 
 
 
 <figure style="float: none">
-   <img src="https://drive.google.com/uc?&id=11y17H-A26RzzawWNZ48mgDx9yWx_3sC4" alt="" title="" width="auto" />
+   <img src="https://www.uio.no/english/studies/programmes/mct-master/blog/assets/image/2022_04_24_olivegr_tut_scenario_2f.png" alt="" title="" width="auto" />
    <figcaption> A diagram of scenario 2</figcaption>
 </figure>
 
@@ -90,7 +90,7 @@ Setup:
 
 
 <figure style="float: none">
-   <img src="https://drive.google.com/uc?&id=1RFkLWJ-5NdiU2zXsUk1u2M5l3ioPbcD1" alt="" title="" width="auto" />
+   <img src="https://www.uio.no/english/studies/programmes/mct-master/blog/assets/image/2022_04_24_olivegr_tut_scenario_3e.png" alt="" title="" width="auto" />
    <figcaption> A diagram of scenario 3</figcaption>
 </figure>
 

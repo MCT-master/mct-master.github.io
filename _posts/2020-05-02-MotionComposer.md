@@ -83,14 +83,14 @@ The parameters of the effects implementend had to be adjusted and re-scaled seve
 While researching movement-to-sound literature, we were inspired by the idea of making a virtual model and using it as a point of departure. This virtual model would be centered around specific body poses (a combination of various movement tracking data points) and correlate specific sound environments to said poses, as seen in the image below. Then, we would be able to reproduce the desired soundscapes by doing certain predetermined poses.
 
 <figure align="middle">
-   <img src="https://drive.google.com/uc?export=view&amp;id=1cwoTNPubBXgW2Mc6otyhgWNfr7LhQi88" awidth="auto" height="auto" />
+   <img src="https://www.uio.no/english/studies/programmes/mct-master/blog/assets/image/2020_05_03_stefanof_model-from-lit.jpg" awidth="auto" height="auto" />
    <figcaption>Skogstad,Nymoen, de Quay, & Refsum, 2012, p.3</figcaption>
 </figure>
 
 This culminated in two Pure Data abstractions that could imitate 2 specific motion gestures performed over time, as seen in the image below. Practically, this meant that we could move one slider (representing time) and output independent data streams of both arms (horizontally and vertically), body position, head movement, and general height, correlating to the position of the given limbs at a given time.
 
 <figure align="middle">
-   <img src="https://drive.google.com/uc?export=view&amp;id=1Dwj9x7vpAWYwaPPAbjzAXJn-ERNoFgPP" awidth="auto" height="auto" />
+   <img src="https://www.uio.no/english/studies/programmes/mct-master/blog/assets/image/2020_05_03_stefanof_gestures.png" awidth="auto" height="auto" />
    <figcaption>Two gesture examples</figcaption>
 </figure>
 
@@ -105,7 +105,7 @@ Our workflow from there was highly shaped by our digital means of communication.
 The Motion Composer consists of 3 modules; the tracking module(camera), the control module(brain), and the musical environments. These all make up a bidirectional communications system which is maintained and controlled by the hardware`s integrated Linux machine.
 
 <figure align="middle">
-   <img src="https://drive.google.com/uc?export=view&amp;id=1laHUMx2-Z_z4nXvHYzpoTtOvzSboDAyg" awidth="auto" height="auto" />
+   <img src="https://www.uio.no/english/studies/programmes/mct-master/blog/assets/image/2020_05_03_stefanof_movement_alphabet.jpg" awidth="auto" height="auto" />
    <figcaption>Movement alphabet</figcaption>
 </figure>
 

@@ -16,7 +16,7 @@ When you switch from being the user of a product, to become the one who is build
 With four independent channels routed to integrated FX busses, such as pitch_shift and reverb, this Loop Station aims to attend several needs of artists that use loopers to jam in live performances or as tool in the creative process of composing.
 
 <figure align="middle">
-   <img src="https://drive.google.com/uc?export=view&amp;id=1uA2-cSqUJZKz0q6C7xz_v4XxDX117IXC" width="auto" height="auto" />
+   <img src="https://www.uio.no/english/studies/programmes/mct-master/blog/assets/image/2020_02_11_rayaml_loopstation.png" width="auto" height="auto" />
 </figure>
 
 ## [ Features~ ]
@@ -34,7 +34,7 @@ The Loop Station is designer to be used for live performances, but also, as a to
 When implementing the features mentioned above, I started by the most important first: the loop record and playback functions. To create the overdub, a **bang** feeds a counter which goes through selections and bang triggers that pass the signal in the right order to calculate the time/size of each sample, record, stop recording and play it in a loop. This way is possible to start a recording tapping one key once, and if you tap again it stops interrupts the audio input that is sending to [tabwrite~ ]. Then the [timer ] is activated, so we can extract the exact duration of the sample recorded and send it to the array receiving the loops. A [line~ 10] was used to open/interrupt the signal without pops and clicks on the sound output.
 
 <figure align="middle">
-   <img src="https://drive.google.com/uc?export=view&amp;id=12yCnNmtEd-CfSkXJF13r0ifS6X5tJXS0" width="auto" height="auto" />
+   <img src="https://www.uio.no/english/studies/programmes/mct-master/blog/assets/image/2020_02_11_rayaml_loop-inside.png" width="auto" height="auto" />
 </figure>
 
 ## [ Drum Machine ]

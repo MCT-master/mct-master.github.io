@@ -58,7 +58,7 @@ All sounds in the game are synthesized, except the sound of the vehicle engine w
 
 <figure style="float: none">
   <audio controls>
-    <source src="https://drive.google.com/uc?&id=1vmyyG7EgzgDUkez065bWCvcGMj31gBsU" type="audio/mpeg">
+    <source src="https://www.uio.no/english/studies/programmes/mct-master/blog/assets/audio/2021_03_25_henrikhs_7rocksmash.wav" type="audio/mpeg">
     Should show a media player
   </audio>
   <figcaption>7 levels of monolith smashing</figcaption>
@@ -68,7 +68,7 @@ The sound for collecting health pack is inspired by classic retro games - a shor
 
 <figure style="float: none">
   <audio controls>
-    <source src="https://drive.google.com/uc?&id=1V9rWKE8IChIymt7WN5kOTB0gFHAW-x9c" type="audio/mpeg">
+    <source src="https://www.uio.no/english/studies/programmes/mct-master/blog/assets/audio/2021_03_25_henrikhs_healthpack_6.wav" type="audio/mpeg">
     Should show a media player
   </audio>
   <figcaption>Health Pack</figcaption>
@@ -78,7 +78,7 @@ The «start game» and «game over» over melody lines are referring to ***2001:
 
 <figure style="float: none">
   <audio controls>
-    <source src="https://drive.google.com/uc?&id=1NvAdejyepvAuEp6Dm5z77RyBiQrBYjtj" type="audio/mpeg">
+    <source src="https://www.uio.no/english/studies/programmes/mct-master/blog/assets/audio/2021_03_25_henrikhs_newgame_1.wav" type="audio/mpeg">
     Should show a media player
   </audio>
   <figcaption>New Game</figcaption>
@@ -86,7 +86,7 @@ The «start game» and «game over» over melody lines are referring to ***2001:
 
 <figure style="float: none">
   <audio controls>
-    <source src="https://drive.google.com/uc?&id=1K_-pLMFmKWmj1LLBzcxa2Fwz28pCmrBr" type="audio/mpeg">
+    <source src="https://www.uio.no/english/studies/programmes/mct-master/blog/assets/audio/2021_03_25_henrikhs_gameover_1.wav" type="audio/mpeg">
     Should show a media player
   </audio>
   <figcaption>Game Over</figcaption>
@@ -95,7 +95,7 @@ The «start game» and «game over» over melody lines are referring to ***2001:
 #### Demonstration Video
 
 <figure style="float: none">
-   <iframe src="https://drive.google.com/file/d/1ESr6EUC88-UNGb7XdT8s-tu6AKuyoP2s/preview" width="1024" height="576" frameborder="0" allowfullscreen></iframe>
+   <iframe src="https://www.uio.no/english/studies/programmes/mct-master/blog/assets/video/2021_03_26_pedropl_sonification_mars.mp4" width="1024" height="576" frameborder="0" allowfullscreen></iframe>
    <figcaption>Gameplay Demonstration</figcaption>
 </figure>
 

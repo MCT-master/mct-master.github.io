@@ -4,7 +4,7 @@ title: "Documenting Networked Music Performances: Tips, Tricks and Best Practice
 date: 2023-12-11
 categories: networked-music
 author: Juliana Bigelow
-image: assets/image/2023_12_11_julianmb_frontNMPimage.jpg
+image: https://www.uio.no/english/studies/programmes/mct-master/blog/assets/image/2023_12_11_julianmb_top-image.jpeg
 keywords: networked-music-performance, performance-documentation, music-technology
 excerpt: "Effectively documenting networked music performances can lead to better experiences for physical and digital audiences, and your academic explorations."
 ---

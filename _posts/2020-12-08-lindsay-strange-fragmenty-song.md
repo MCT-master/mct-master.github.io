@@ -26,7 +26,7 @@ I computed the spectral feature RMS(root mean square) of each segment and used t
 
 <figure style="float: none">
   <audio controls>
-    <source src="https://drive.google.com/uc?&id=1qjoZmZQAWtCf_TnGryXbV4eNv7TwFw_6" type="audio/mpeg">
+    <source src="https://www.uio.no/english/studies/programmes/mct-master/blog/assets/audio/2020_12_08_lindsay_stranger_things_cover.wav" type="audio/mpeg">
     Should show a media player
   </audio>
   <figcaption>Stranger things.wav</figcaption>
@@ -35,7 +35,7 @@ I computed the spectral feature RMS(root mean square) of each segment and used t
 
 <figure style="float: none">
   <audio controls>
-    <source src="https://drive.google.com/uc?&id=1qpaWJXpnAfHVmjQF8S6fPnyd0afIi2U0" type="audio/mpeg">
+    <source src="https://www.uio.no/english/studies/programmes/mct-master/blog/assets/audio/2020_12_08_lindsay_astronimia_cover.wav" type="audio/mpeg">
     Should show a media player
   </audio>
   <figcaption>Astronomia.wav</figcaption>
@@ -44,7 +44,7 @@ I computed the spectral feature RMS(root mean square) of each segment and used t
 
 <figure style="float: none">
   <audio controls>
-    <source src="https://drive.google.com/uc?&id=1BulevjKsSHxtCXgJzlloGN14pnlvHljB" type="audio/mpeg">
+    <source src="https://www.uio.no/english/studies/programmes/mct-master/blog/assets/audio/2020_12_08_lindsay_output.wav" type="audio/mpeg">
     Should show a media player
   </audio>
   <figcaption>Output.wav</figcaption>

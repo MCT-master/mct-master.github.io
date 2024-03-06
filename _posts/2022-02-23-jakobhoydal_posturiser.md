@@ -26,10 +26,10 @@ Our system is based around a [classifier](https://towardsdatascience.com/machine
 In the video below, you can watch Arvid providing a short demo.
 
 ### Video Demo
-<iframe src="https://drive.google.com/file/d/1unpa4zKbXelILvJtu8r8ogyOhvj5xC_m/preview" width="640" height="480" allow="autoplay"></iframe>
+<iframe src="https://www.uio.no/english/studies/programmes/mct-master/blog/assets/video/2022_03_23_arvidaf_mldemo.mp4" width="640" height="480" allow="autoplay"></iframe>
 
 
-If you want to try it out or modify the code, it can be found [here](https://drive.google.com/file/d/1d7TEcmdwUOz9vCtpvW5maQwZ6vx-Fl5r/view?usp=sharing) !
+If you want to try it out or modify the code, it can be found [here](https://www.uio.no/english/studies/programmes/mct-master/blog/assets/code/2022_03_23_jakobhoydal_posturizer.zip) !
 
 # References
 [1]R. Fiebrink and P. R. Cook, ["The Wekinator: a system for real-time, interactive machine learning in music."](https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&ved=2ahUKEwiHnMjF6tz2AhXIRvEDHT9WAPEQFnoECAMQAQ&url=http%3A%2F%2Fismir2010.ismir.net%2Fproceedings%2Flate-breaking-demo-13.pdf&usg=AOvVaw2GOYHdwxeFO_Z6RwbEHNe0), 2010, vol. 3.

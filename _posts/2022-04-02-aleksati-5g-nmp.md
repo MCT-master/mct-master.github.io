@@ -239,7 +239,7 @@ With this configuration, we measured the one-way video latency between our machi
 
 <figure style="float: none">
   <video width="auto" controls>
-    <source src="https://drive.google.com/uc?&id=1sjLjNDm7uXAxQF6vCUWW25EUcB-b9Bwp" type='video/mp4'>
+    <source src="https://www.uio.no/english/studies/programmes/mct-master/blog/assets/video/2022_04_01_aleksati_5g_video_latency.mp4" type='video/mp4'>
   </video>
   <figcaption>The capture of the video latency between our two NMP kits during experiment nr.1. The playback speed is 50%. Video by Stefano Fasciani.</figcaption>
 </figure>

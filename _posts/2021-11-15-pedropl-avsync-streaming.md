@@ -101,7 +101,7 @@ OBS Studio allows us to introduce latency for the audio sources through a parame
 In the following video you will find the presentation of this topic. From minute 5:30 there is a set of videos showing the test source and the comparisons when the audio latency is introduced for synchronization.
 
 <figure style="float: none">
-   <iframe src="https://drive.google.com/file/d/1k8VaNCcxEGmd_FKNanGbpjuBqsoaE54f/preview" width="1024" height="576" frameborder="0" allowfullscreen></iframe>
+   <iframe src="https://www.uio.no/english/studies/programmes/mct-master/blog/assets/video/2021_11_15_pedropl_video_lecture_avsync.mp4" width="1024" height="576" frameborder="0" allowfullscreen></iframe>
    <figcaption>Presentation</figcaption>
 </figure>
 

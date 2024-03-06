@@ -45,14 +45,14 @@ In the proposed system, the data flows through the following submodules:
 The proposed system and the scale recognition algorithm presented in this thesis offers a way to track the notes of a musical phrase, analyze it, calculate the tonality and scale, and output the result to several applications for music generation. The users can manipulate parameters of the system via a dedicated controller that is attached to the saxophone. The user interface (Figure 1) provides visual feedback of the audio input, detected notes, matched scale, bass note and pressed buttons of the controller.
 
 <figure align="middle">
-   <img src="https://drive.google.com/uc?export=view&amp;id=1nmMntyC8qlIPZmGIMKjRLwVmI1HDk0Ny" width="640" height="auto" />
+   <img src="https://www.uio.no/english/studies/programmes/mct-master/blog/assets/image/2020_06_23_guysi_maxpatch.jpg" width="640" height="auto" />
    <figcaption><strong>The user interface</strong></figcaption>
 </figure>
 
 The system was developed in Max/MSP/Jitter environment (commonly referred to as Max), a visual programming language for music and multimedia by software company Cycling ’74. Max was chosen due to its flexibility for creating interactive music systems, the capability to generate audio and the ability to integrate other programming languages within its environment. The PSM algorithm part of the system is written in the JavaScript programming language since the procedural operations required to identify the scale are too difficult to implement using Max objects by themselves.
 
 <figure align="middle">
-   <img src="https://drive.google.com/uc?export=view&amp;id=1EWtdimJ49aGs5roagcK8_hZ0jFQD4Q9B" width="640" height="auto" />
+   <img src="https://www.uio.no/english/studies/programmes/mct-master/blog/assets/image/2020_06_23_guysi_systemdiagram.png" width="640" height="auto" />
    <figcaption><strong>Modules and processes of the system</strong></figcaption>
 </figure>
 
@@ -61,7 +61,7 @@ The system was developed in Max/MSP/Jitter environment (commonly referred to as 
 The proposed algorithm takes an improvised monophonic musical phrase and matches it to a musical scale from a scale-dataset of 21 scales. For the algorithm to successfully identify the scale to which the improvised phrase belongs, two conditions must be met. First, the first note of the musical phrase must begin with the bass note (1st degree) of the scale. Second, the improvised phrase must be based on one scale only.
 
 <figure align="middle">
-   <img src="https://drive.google.com/uc?export=view&amp;id=1ztVtE8uRvV_df8gU1Iy7oTbx2W4gSdm4" width="640" height="auto" />
+   <img src="https://www.uio.no/english/studies/programmes/mct-master/blog/assets/image/2020_06_23_guysi_algorithmflowchart.jpg" width="640" height="auto" />
    <figcaption><strong>The three parts of the PSM algorithm</strong></figcaption>
 </figure>
 
@@ -76,7 +76,7 @@ The PSM algorithm is comprised of 3 parts:
 A retro-like Super Nintendo Entertainment System (SNES) controller is used as the user-interface of the system, similar to the one in Figure 18  . The Max hi object allows for obtaining data from human interface devices. The Nintendo USB gamepad features 12 momentary push buttons, and was chosen because its shape fits well on top of the low B and Bb key-guard of the saxophone, as visible in Figure 19, and also because it allows for easy access with the right-hand which is employed less than the left-hand when playing the sax. The adoption of the SNES controller is inspired by one of the principles of Perry R. Cook on redesigning computer music controllers: ”funny is often much better than serious.” A Nintendo controller illustration has been added to the GUI of the system together with an overlaying buttons layer to provide visual feedback when pressing the buttons.
 
 <figure align="middle">
-   <img src="https://drive.google.com/uc?export=view&amp;id=1VKSn57JmmitIS2yMbcN-Xm3hGMqbF2SU" width="640" height="auto" />
+   <img src="https://www.uio.no/english/studies/programmes/mct-master/blog/assets/image/2020_06_23_guysi_saxnintendo.png" width="640" height="auto" />
    <figcaption><strong>Nintendo controller attached to an alto saxophone</strong></figcaption>
 </figure>
 
@@ -100,7 +100,7 @@ A combination of the Drone and the Arpeggiator module gives a very subtle harmon
 105 phrases were tested against the algorithm, or 21 phrases (in 21 scales) times five players. The entire database was pushed into the algorithm a total of eight times with different sets of factor (fi,  fr) values. The results are plotted in a graph (Figure 23), comparing the success rate of the eight tests. In test 1, the fi and fr values were set to 1.0, meaning no weight increase was applied. The success rate in test 1 is 84%. Tests 6 and 7 represent the highest success rate (89%) when tested with fi =1.1 and fr=1.1/1.15. The result of test 1 tells us the algorithm itself, without giving any increased weight to indicator notes or repetitive notes, already have a high success rate (an average of 17.6 phrases recognized correctly out of 21 per player). When reviewing the results in Figure 23, we can also establish that increasing the success rate can be achieved by setting very small fi and fr values. In test 5, where the increased factor values were higher in comparison to the other tests (fi =1.25 and fr=1.2), the success rate showed poor results (78%).
 
 <figure align="middle">
-   <img src="https://drive.google.com/uc?export=view&amp;id=1wFGNyEvqbcSlpTZM7LkYdLL--rG8-t-B" width="640" height="auto" />
+   <img src="https://www.uio.no/english/studies/programmes/mct-master/blog/assets/image/2020_06_23_guysi_evaluationgraph.png" width="640" height="auto" />
    <figcaption><strong>Comparing the success rate between eight tests</strong></figcaption>
 </figure>
 
