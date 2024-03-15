@@ -4,12 +4,12 @@ title: "Formatting WebPD Projects: An Introduction to WebPD, HTML and CSS Stylin
 date: 2024-03-15
 categories: networked-music
 author: Juliana Bigelow
-image: https://www.uio.no/english/studies/programmes/mct-master/blog/assets/image/2024_03_15_julianmb_formattingwebpd.png?vrtx=admin
+image: https://www.uio.no/english/studies/programmes/mct-master/blog/assets/images/2024_03_15_julianmb_formattingwebpd.png
 keywords: networked-music-performance, webpd, html, css, web-application-styling, music-technology
 excerpt: "Styling your WebPD application can lead to greater user experince and accessibility."
 ---
 
-<img src="https://www.uio.no/english/studies/programmes/mct-master/blog/assets/image/2024_03_15_julianmb_formattingwebpd.png?vrtx=admin" width="80%" style="display: block; margin: auto;"/>
+<img src="https://www.uio.no/english/studies/programmes/mct-master/blog/assets/images/2024_03_15_julianmb_formattingwebpd.png" width="80%" style="display: block; margin: auto;"/>
 
 ## Introduction to WebPD
 Developed by Miller Puckette in the 1990s, Pure Data is an open source visual audio programming language that can be used to create interactive computer music and other visual and audio media. While Pure Data is open-source and can be integrated with OSC apps, which can make patches more accessible to use to a larger general audience, the patches (the name for Pure Data projects) can be hard to use and distribute beyond the audio community. However, there is now a way to host Pure Data patches entirely online without users needing to ever open or install the Pure Data software: WebPD. 
