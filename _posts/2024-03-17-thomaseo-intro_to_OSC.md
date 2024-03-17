@@ -1,10 +1,10 @@
 ---
 layout: post
 title:  "Introduction to Open Sound Control (OSC)"
-date:   2023-11-30 10:48:00 +0200
+date:   2024-03-17 10:48:00 +0200
 categories: networked-music
 author: Tom Oldfield
-image: /assets/image/2023_11_30_thomaseo_sonobus-sync6.jpg
+image: /assets/image/2024_03_17_thomaseo_osc_1.jpg
 excerpt: "This post contains a brief overview of OSC and a tutorial on how to make a connection and send data between devices."
 ---
 ### Introduction
@@ -91,5 +91,3 @@ Check out [this accompanying video](https://youtu.be/Rp9wJkhAFfs) for a build-al
 1 - Wright, M., & Freed, A. (1997, September). Open soundcontrol: A new protocol for communicating with sound synthesizers. In ICMC.
 
 2 - Wright, M. (2005). Open Sound Control: an enabling technology for musical networking. Organised Sound, 10(3), 193-200.
-
-3 - ZEAL CO - Creative Research Operation - [Introduction to Open Sound Control (OSC)](https://www.youtube.com/watch?v=bupVHvMEAz0&t=271s)
