@@ -91,3 +91,5 @@ Check out [this accompanying video](https://youtu.be/Rp9wJkhAFfs) for a build-al
 1 - Wright, M., & Freed, A. (1997, September). Open soundcontrol: A new protocol for communicating with sound synthesizers. In ICMC.
 
 2 - Wright, M. (2005). Open Sound Control: an enabling technology for musical networking. Organised Sound, 10(3), 193-200.
+
+3 - ZEAL CO - Creative Research Operation - [Introduction to Open Sound Control (OSC)](https://www.youtube.com/watch?v=bupVHvMEAz0&t=271s)
