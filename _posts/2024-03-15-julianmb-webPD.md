@@ -16,7 +16,7 @@ Developed by Miller Puckette in the 1990s, Pure Data is an open source visual au
 
 WebPD is a compiler that takes Pure Data patches and converts audio graph and processing objects from a patch and converts them into JavaScript or AssemblyScript 3. This can then be integrated into any web application, without needing to access the compiler or Pure Data again. 
 
-This blog post will not serve as a how-to guide on using WebPD but rather a short guide on how to use HTML and CSS to customize the styling of elements you are likely to use in a WebPD application. 
+The accompying video can be found at the bottom of this blog post. This blog post will not serve as a how-to guide on using WebPD but rather a short guide on how to use HTML and CSS to customize the styling of elements you are likely to use in a WebPD application. 
 
 If you’d like to learn about WebPD you can access the [WebPD Github](https://github.com/sebpiq/WebPd). When using WebPD there are considerations you will want to take when building your Pure Data patch, such as only using objects compatible with WedPD. A full list of compatible objects is available on the [WebPD Roadmap]().
 
@@ -121,5 +121,9 @@ In your style section or sheet here are examples of what you can customize using
 
 ## Conclusion and Resources
 Utilizing HTML and CSS to build accessible and visually appealing elements can take your WebPD applications to the next level. With the basis of these tools you can begin to style your interactive audio applications to match the styling of your portfolio website, a client's website and more.
+
+The accompying video to this post can be found here:
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/auiuF4hVJSM?si=B86h5nR9Otc0qoUf" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
 If you are interested in learning more about HTML and CSS check out [W3Schools.com](http://W3Schools.com), which offers tutorials in HTML and CSS, blocks of code examples, and an interactive platform so you can see how the changes you make to code blocks in real time affect the user’s experience with elements. 
