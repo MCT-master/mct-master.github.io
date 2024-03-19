@@ -37,7 +37,7 @@ If you don’t already have a good grasp on how CSS and HTML work together you c
 <br>
 
 ### Headings
-***HTML***
+<h4><i>HTML</i></h4>
 You can create headings on your page by tagging them in the body section of the HTML document of your application. Here is what this would look like in HTML:
 
 ```
@@ -59,7 +59,8 @@ And this is what that same code would look like on your page:
 <br>
 
 Headings follow a hierarchy and are [a key factor in web accessibility](https://technicallyfunctional.org/2021/04/13/digital-accessibility-unpacked-crafting-blogs-and-newsletters/). There should be only one *heading one* on a webpage, the title. The other main headings in the content would all be classified as *heading twos*. For example, all the main headings in this blog post (Introduction to WebPD, HTML and CSS, etc.) fall under the category of heading two. Other heading and subheadings would follow suit, as heading three, four, etc. HTML offers up to six levels of headings.
-***CSS***
+
+<h4><i>CSS</i></h4>
 A browser will automatically apply a styling to your headings, but you are able to control this using several parameters. First, you must use the [class attribute](https://www.w3schools.com/html/html_classes.asp) (div class) to classify your headers.
 
 ```
@@ -111,13 +112,14 @@ The headers with the styling above would look like this on your webpage. This bl
 	<h2>Element of Patch</h2>
 </div>
 <br>
+
 ---
 
 ### Background Color
 
 The background color of the entire webpage is another element you are able to style and can add a nice touch to your WebPD applications. This way you can customize the color of your application to the website or larger application it will be displayed to users on.
 
-***CSS***
+<h4><i>CSS</i></h4>
 To do this you can reference the body of the HTML document in your CSS style sheet. Any styling you make to the body section will impact the entire application. For instance, you can set a font-family for the entire application, and control the padding, or alignment for every element created in your HTML. This could look something like this in your CSS:
 
 ```
@@ -135,8 +137,7 @@ In this example, a background color has been set, a font family selected, and th
 
 ### Sliders
 
-***HTML***
-
+<h4><i>HTML</i></h4>
 To add a slider in HTML you will use insert to make a [range element](https://blog.hubspot.com/website/html-slider). An example of this is shown below. Note the "div id" attribute assigning the slider to a class. You will also see parameters available to set the minimum and maximum for the element, as well as give it an ID, which is used when making the element interactive using JavaScript.
 
 ```
@@ -150,7 +151,7 @@ This is what this would look like on your page:
 </div>
 <br>
 
-***CSS***
+<h4><i>CSS</i></h4>
 Below are examples of parameters you can customize with range sliders using CSS. Note the # symbol at the beginning of the block, which refers to the ID set in the HTML. Some of the most helpful parameters listed below are the *border-radius*, which allows you to create rounded corners, and the *box-shadow*, which allows you to add a drop-shadow making your slider stand out from the page. The *width*, *height* and *background* parameters all control the size and color of the background:
 
 ``` 
