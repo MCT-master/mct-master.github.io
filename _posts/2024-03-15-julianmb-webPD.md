@@ -32,9 +32,9 @@ If you don’t already have a good grasp on how CSS and HTML work together you c
 * [HTML and CSS Tutorial for Beginners Youtube Playlist](https://www.youtube.com/playlist?list=PLC3y8-rFHvwiLG5IsOAxDkacPGPVYZlOT)
 
 ## Basic Styling for Your WebPD Application
+<br>
 
 ---
-<br>
 
 ### Headings
 <h4><i>HTML</i></h4>
@@ -66,7 +66,7 @@ A browser will automatically apply a styling to your headings, but you are able 
 ```
 <div class="header">
 	<h1>Title of Your Web Application</h1>
-	<p> Here is the main content about your WebPD patch.</p>
+	<p> You can write about your WebPD application here.</p>
 	<h2>Element of Patch</h2>
 	<p> Any writing needed to describe the element/>
 </div>
