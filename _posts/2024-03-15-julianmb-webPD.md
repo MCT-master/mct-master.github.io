@@ -32,7 +32,6 @@ If you don’t already have a good grasp on how CSS and HTML work together you c
 * [HTML and CSS Tutorial for Beginners Youtube Playlist](https://www.youtube.com/playlist?list=PLC3y8-rFHvwiLG5IsOAxDkacPGPVYZlOT)
 
 ## Basic Styling for Your WebPD Application
-<br>
 
 ---
 
