@@ -6,7 +6,7 @@ categories: networked-music
 author: Juliana Bigelow
 image: https://www.uio.no/english/studies/programmes/mct-master/blog/assets/image/2024_03_15_julianmb_formattingwebpd.png?alt=original
 keywords: networked-music-performance, webpd, html, css, web-application-styling, music-technology
-excerpt: "Styling your WebPD application can lead to greater user experince and accessibility."
+excerpt: "Styling your WebPD application can lead to greater user experience and accessibility."
 ---
 
 <img src="https://www.uio.no/english/studies/programmes/mct-master/blog/assets/image/2024_03_15_julianmb_formattingwebpd.png?alt=original" width="80%" style="display: block; margin: auto;"/>
@@ -16,7 +16,7 @@ Developed by Miller Puckette in the 1990s, Pure Data is an open source visual au
 
 WebPD is a compiler that takes Pure Data patches and converts audio graph and processing objects from a patch and converts them into JavaScript or AssemblyScript 3. This can then be integrated into any web application, without needing to access the compiler or Pure Data again. 
 
-The accompying video can be found at the bottom of this blog post. This blog post will not serve as a how-to guide on using WebPD but rather a short guide on how to use HTML and CSS to customize the styling of elements you are likely to use in a WebPD application. 
+The accompanying video can be found at the bottom of this blog post. This blog post will not serve as a how-to guide on using WebPD but rather a short guide on how to use HTML and CSS to customize the styling of elements you are likely to use in a WebPD application. 
 
 If you’d like to learn about WebPD you can access the [WebPD Github](https://github.com/sebpiq/WebPd). When using WebPD there are considerations you will want to take when building your Pure Data patch, such as only using objects compatible with WedPD. A full list of compatible objects is available on the [WebPD Roadmap]().
 
@@ -32,7 +32,12 @@ If you don’t already have a good grasp on how CSS and HTML work together you c
 * [HTML and CSS Tutorial for Beginners Youtube Playlist](https://www.youtube.com/playlist?list=PLC3y8-rFHvwiLG5IsOAxDkacPGPVYZlOT)
 
 ## Basic Styling for Your WebPD Application
+
+---
+
 ### Headings
+<br>
+
 #### HTML
 You can create headings on your page by tagging them in the body section of the HTML document of your application. Here is what this would look like in HTML:
 
@@ -52,8 +57,9 @@ And this is what that same code would look like on your page:
 <h4>Heading Four</h4>
 <h5>Heading Five</h5>
 <h6>Heading Six</h6>
+<br>
 
-Headings follow a hierarchy and are [a key factor in web accessibility](https://technicallyfunctional.org/2021/04/13/digital-accessibility-unpacked-crafting-blogs-and-newsletters/). There should be only one “heading one” on a webpage, the title. Then, the other main headings in the content would all be classified as “heading twos.” For example, all the main headings in this blog post (Introduction to WebPD, HTML and CSS, etc.) fall under the category of heading two. Other heading and subheadings would follow suit, as heading three, four, etc. HTML offers up to six levels of headings.
+Headings follow a hierarchy and are [a key factor in web accessibility](https://technicallyfunctional.org/2021/04/13/digital-accessibility-unpacked-crafting-blogs-and-newsletters/). There should be only one *heading one* on a webpage, the title. The other main headings in the content would all be classified as *heading twos*. For example, all the main headings in this blog post (Introduction to WebPD, HTML and CSS, etc.) fall under the category of heading two. Other heading and subheadings would follow suit, as heading three, four, etc. HTML offers up to six levels of headings.
 #### CSS
 A browser will automatically apply a styling to your headings, but you are able to control this using several parameters. First, you must use the [class attribute](https://www.w3schools.com/html/html_classes.asp) (div class) to classify your headers.
 
@@ -66,7 +72,7 @@ A browser will automatically apply a styling to your headings, but you are able 
 </div>
 ```
 
-Then, in the style portion of your main HTML document, or your style sheet referenced to in your HTML document, you can adjust the size, color, style, and padding of the headings.	The CSS for this could look something like this:
+Then, in the style portion of your main HTML document, or your style sheet referenced to in your HTML document, you can adjust the size, color, style, and padding of the headings.	The CSS for this could look like this:
 
 ```
 .header {
@@ -86,7 +92,7 @@ Then, in the style portion of your main HTML document, or your style sheet refer
         color: rgb(10, 10, 133);
         }
 ```
-The headers with the styling above would look like this on your webpage. Notice the color, size and style differnces between the heading one and the heading two:
+The headers with the styling above would look like this on your webpage. This blog doesn't support color changes, but notice the size and style differences between heading one and heading two:
 
 <style>
 .header1 {
@@ -106,6 +112,8 @@ The headers with the styling above would look like this on your webpage. Notice 
 	<h2>Element of Patch</h2>
 </div>
 
+---
+
 ### Background Color
 The background color of the entire webpage is another element you are able to style and can add a nice touch to your WebPD applications. This way you can customize the color of your application to the website or larger application it will be displayed to users on.
 #### CSS
@@ -120,6 +128,8 @@ body {
 ```
 
 In this example, a background color has been set, a font family selected, and the padding has been adjusted to bring all the elements away from the very edge of the page. 
+
+---
 
 ### Sliders
 #### HTML
@@ -136,7 +146,7 @@ This is what this would look like on your page:
 </div>
 
 #### CSS
-In your style section or sheet here are examples of what you can customize using CSS. Note the # symbol at the beginning which refers to the ID set in the HTML. Some of the most helpful paramaters listed below are the border-radius, which allows you to create rounded corners, the box-shadow, which allows you to add a drop shadow making your elements more eailsy seen. The width, heigh and background all control the size and color of the backgroung:
+Below are examples of parameters you can customize with range sliders using CSS. Note the # symbol at the beginning of the block, which refers to the ID set in the HTML. Some of the most helpful parameters listed below are the *border-radius*, which allows you to create rounded corners, and the *box-shadow*, which allows you to add a drop-shadow making your slider stand out from the page. The *width*, *height* and *background* parameters all control the size and color of the background:
 
 ``` 
 #slider {
@@ -152,7 +162,7 @@ In your style section or sheet here are examples of what you can customize using
     box-shadow: 0px 5px 10px #7E6D5766;
 }
 ``` 
-And here is what the slider would look like on your page with all of the styling added:
+And here is what the slider with all the customized styling above would look like on your page:
 
 <div id="slider1">
 <input type="range" value="0" min="0" max="500" id="freqSlider" />
@@ -172,10 +182,12 @@ And here is what the slider would look like on your page with all of the styling
     }
 </style>
 
-## Conclusion and Resources
-Utilizing HTML and CSS to build more accessible and visually appeaing WebPD applications can take your work to the next level. With the basics from this blog post you can begin to style your interactive audio applications to match the styling of your portfolio website, a client's website, and more.
+---
 
-If you're interested in seeing a video version of the post with additional information about how to style button, the accompying video to this post can be found below:
+## Conclusion and Resources
+Utilizing HTML and CSS to build more accessible and visually appealing WebPD applications can take your work to the next level. With the basics from this blog post you can begin to style your interactive audio applications to match the styling of your portfolio website, a client's website, and more.
+
+If you're interested in seeing a video version of the post with additional information about how to style button, the accompanying video to this post can be found below:
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/auiuF4hVJSM?si=B86h5nR9Otc0qoUf" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
