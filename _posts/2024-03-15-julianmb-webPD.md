@@ -34,10 +34,9 @@ If you don’t already have a good grasp on how CSS and HTML work together you c
 ## Basic Styling for Your WebPD Application
 
 ---
-
-### Headings
 <br>
 
+### Headings
 #### HTML
 You can create headings on your page by tagging them in the body section of the HTML document of your application. Here is what this would look like in HTML:
 
@@ -113,6 +112,7 @@ The headers with the styling above would look like this on your webpage. This bl
 </div>
 
 ---
+<br>
 
 ### Background Color
 The background color of the entire webpage is another element you are able to style and can add a nice touch to your WebPD applications. This way you can customize the color of your application to the website or larger application it will be displayed to users on.
@@ -130,6 +130,7 @@ body {
 In this example, a background color has been set, a font family selected, and the padding has been adjusted to bring all the elements away from the very edge of the page. 
 
 ---
+<br>
 
 ### Sliders
 #### HTML
@@ -144,6 +145,7 @@ This is what this would look like on your page:
 <div id="slider">
 <input type="range" value="0" min="0" max="500" id="freqSlider" />
 </div>
+<br>
 
 #### CSS
 Below are examples of parameters you can customize with range sliders using CSS. Note the # symbol at the beginning of the block, which refers to the ID set in the HTML. Some of the most helpful parameters listed below are the *border-radius*, which allows you to create rounded corners, and the *box-shadow*, which allows you to add a drop-shadow making your slider stand out from the page. The *width*, *height* and *background* parameters all control the size and color of the background:
@@ -181,8 +183,10 @@ And here is what the slider with all the customized styling above would look lik
     box-shadow: 0px 5px 10px #7E6D5766;
     }
 </style>
+<br>
 
 ---
+<br>
 
 ## Conclusion and Resources
 Utilizing HTML and CSS to build more accessible and visually appealing WebPD applications can take your work to the next level. With the basics from this blog post you can begin to style your interactive audio applications to match the styling of your portfolio website, a client's website, and more.
@@ -190,6 +194,7 @@ Utilizing HTML and CSS to build more accessible and visually appealing WebPD app
 If you're interested in seeing a video version of the post with additional information about how to style button, the accompanying video to this post can be found below:
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/auiuF4hVJSM?si=B86h5nR9Otc0qoUf" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+<br>
 
 Additionally, all of the code from today's post can be [found and download from my GitHub](https://github.com/julianabigelow/CSS-and-HTML-Styling-with-WebPD/tree/main/WebPD-HTML-CSS-Styling-Guide) so that you can follow along. You'll need to have access to a code editor and something to serve the application so you can see changes in real time. I like [Visual Studio Code](https://code.visualstudio.com) and the [Live Server Extension](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer).
 
