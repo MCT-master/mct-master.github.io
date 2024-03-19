@@ -90,18 +90,10 @@ The headers with the styling above would look like this on your webpage. Notice 
 
 <style>
 .header1 {
-    width: 50%;
-    height: 100px;
-    text-align: right;
-    padding-top: 10px;
     font-size: 30px;
     color: black;
     }
 .header2 {
-    width: 50%;
-    height: 100px;
-    text-align: right;
-    padding-top: 10px;
     font-size: 20px;
     font-style: italic;
     color: rgb(10, 10, 133);
@@ -110,12 +102,9 @@ The headers with the styling above would look like this on your webpage. Notice 
 <div class="header1">
 	<h1>Title of Your Web Application</h1>
 </div> 
-	<p> Here is the main content about your WebPD patch.</p>
 <div class= "header2">
 	<h2>Element of Patch</h2>
 </div>
-	<p> Any writing needed to describe the element/>
-<style>
 
 ### Background Color
 The background color of the entire webpage is another element you are able to style and can add a nice touch to your WebPD applications. This way you can customize the color of your application to the website or larger application it will be displayed to users on.
