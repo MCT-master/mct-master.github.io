@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Introduction to Open Sound Control (OSC)"
+title:  "AcidLab: deep acid bass-line generation"
 date:   2024-03-17 10:48:00 +0200
 categories: networked-music
 author: Tom Oldfield
