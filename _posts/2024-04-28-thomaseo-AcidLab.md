@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "AcidLab: deep acid bass-line generation"
-date:   2024-03-17 10:48:00 +0200
+date:   2024-04-28 10:48:00 +0200
 categories: networked-music
 author: Tom Oldfield
 image: /assets/image/2024_04_28_thomaseo_cover.jpeg
@@ -65,9 +65,13 @@ Once a data set was created, it required processing to be interpreted by the mod
 
 ### Design and Implementation
 
-Using Tensorflow and Keras, I implemented a VAE architecture in python. Although I experimented with different numbers and sizes of hidden layers, every input layer contained 592 neurons, one for each ‘pixel’ of the example data.
+Using Tensorflow and Keras, I implemented a VAE architecture in python. Although I experimented with different numbers and sizes of hidden layers, every input layer contained 592 neurons, one for each ‘pixel’ of the example data. Here is a diagram of one tested architecture:
+<img src="/assets/image/2024_04_28_thomaseo_my_vae.jpeg" width="80%" style="display: block; margin: auto;" />
+
 
 The model was trained on the dataset in the same way as a traditional autoencoder, where the goal is to reconstruct the input at the output. Here are some of the results from early testing.
+<img src="/assets/image/2024_04_28_thomaseo_training_outputs.jpeg" width="60%" style="display: block; margin: auto;" />
+
 
 Then, randomly generated values within the boundaries of the latent space distribution are fed to the output, generating images that look similar to the inputs. These images are then processed to create monophonic patterns. The image below shows a before and after of this processing.
 
