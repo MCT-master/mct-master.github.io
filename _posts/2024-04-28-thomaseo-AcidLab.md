@@ -2,7 +2,7 @@
 layout: post
 title:  "AcidLab: deep acid bass-line generation"
 date:   2024-04-28 10:48:00 +0200
-categories: networked-music
+categories: machine-learning
 author: Tom Oldfield
 image: /assets/image/2024_04_28_thomaseo_cover.jpeg
 excerpt: "Using machine learning to generate acid bass-line melodies with user-created datasets."
