@@ -19,9 +19,9 @@ This does come with some disadvantages. Even a dataset of limited size does take
 
 ### The Variational Autoencoder
 
-AcidLab uses a Variational Autoencoder (VAE) to generate symbolic music patterns. VAEs are part consists of two main parts - an encoder and a decoder.
+AcidLab uses a Variational Autoencoder (VAE) to generate symbolic music patterns. VAEs are a type of Artificial Neural Network (ANN) and consist of two main parts - an encoder and a decoder.
 
-The encoder performs dimensionality reduction. It takes high dimensional features and reduces them down to a smaller number of dimensions. The small layer at the end of the encoder is called the encoded vector, or ‘bottleneck’, and the data inside this layer, the lower-dimensional representation of our input data, is referred to as the latent space.
+The encoder performs dimensionality reduction. It takes high dimensional features and reduces them down to a smaller number of dimensions. The small layer at the end of the encoder is called the encoded vector, or ‘bottleneck’, and the data inside this layer, the lower-dimensional representation of the input data, is referred to as the latent space. Below is an diagram of a traditional Autoencoder.
 
 <img src="/assets/image/2024_04_28_thomaseo_AE.jpeg" width="80%" style="display: block; margin: auto;" />
 <br>
