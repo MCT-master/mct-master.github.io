@@ -33,46 +33,46 @@ The labels for the playlist are as follows:
 3 - UKF Drum And Bass
 4 -Future House 2024 
 
-#@Tokenizing Parent Genres Labels
+## Tokenizing Parent Genres Labels
 
 I decided on the MinMax Scaler Method over the Standard Scaler as the normalization  technique. The MinMax Scaler is more suitable for algorithms, like ANNs, that require features to lie on a similar scale and performs the best on classifying problems (Raju 2020).  I also performed Principal Component Analysis (PCA), the most popular form of dimensionality reduction which retains a lot of the variance in the data more compatible with the neural network (Sorzano). The scaler and PCA processing was done before concatenating this data with the tokenized data of the Parent Genres. Tokenized data, while a numeric value, does not hold value in the way the musical attribute data does and therefore could cause problems. This is also the reason why I decided not to go with the pipeline in this model because these two kinds of arrays must be kept separate before the dimensionality reduction process. 
 <br>
-##Tokenizing Parent Genres Labels
+## Tokenizing Parent Genres Labels
 
  As I wanted to use the associated parent genres as a feature as well I had to tokenize each type of Parent genre and assign them a number so that they could have a numeric value that would be compatible with the numpy array. After this process, I concatenated the two arrays with different data types so that the data was finally ready for processing. I then extracted the label data and split the dataset for training and validation
 
 <br>
-#The Model
+# The Model
 
 Once the playlist data was extracted and labeled in this way I was able to start with the formation of the machine learning algorithm. For the classification process, I decided to employ an Artificial Neural Network (ANN) as my model of choice.  I went with the High-Level API integrated into TensorFlow, known as Keras API, because of its user-friendly interface that provides easy-to-use tools to make the process of creating a neural network efficient. 
 <br>
-##Softmax Layer and Probability
+## Softmax Layer and Probability
 
 The reason for this decision was the ability of ANNs to analyze the data after the softmax layer in TensorFlow.  The softmax layer normalizes the scores and shows us the probabilities for each outcome.  This provides not only a single label, for the best fitting playlist, but also the probabilities the machine learning model gave to the other labels, which could be useful to artist wanting to submit to multiple playlists. ##
 <br>
-##ReLU
+## ReLU
 I experimented with the different kinds of activation layers to see if I got different results. Ultimately I found that an input layer with a rectified linear units (ReLU) activation plus two hidden layers with ReLU activations yielded the best results.  ReLU function is the most used and best activation function for deep learning tasks (Krishnamuthy 2024). When I ran the model,  the default Adam optimizer yielded the best results for my model. 
 <br>
-#Results
+# Results
 
-<img src="/assets/image/2024-04-29_karenij_confuse.png" width="100%" style="display: block; margin: auto;" />
+<img src="/assets/image/2024_04_29_karenij_confuse.png" width="50%" style="display: block; margin: auto;" />
 
 For analysis of the machine model, I used multiple tools to understand what was happening as I continued my process. I examined the test accuracy score as well as the F1 score to tune the parameters as well as the model accuracy chart to examine how many epochs the model went through before termination. I also used the confusion matrix to examine which classes were mostly being confused with another. 
 The average test loss for this model over 5 tests was 1.098 telling us that there is room for improvement of the accuracy of the model. 
 
-<img src="/assets/image/2024-04-29_karenij_acc.png" width="100%" style="display: block; margin: auto;" />
+<img src="/assets/image/2024_04_29_karenij_acc.png" width="50%" style="display: block; margin: auto;" />
 
 The average test Accuracy score was 0.732 as well as the average F1 Score was 0.731. Since this dataset is pretty evenly distributed, I didn’t expect a huge difference between the accuracy score and the F1 score. The model accuracy charts show the validation curve diverging from the training curve, suggesting some overfitting when it comes to the training data.
 
-<img src="/assets/image/2024-04-29_karenij_missclass.png" width="100%" style="display: block; margin: auto;" />
+<img src="/assets/image/2024_04_29_karenij_missclass.png" width="50%" style="display: block; margin: auto;" />
 
  The majority of the misclassified data for the first two similarly focused playlists were from each other.  For the “Birp!” Playlist, 19 of the  40 misclassified songs had a True Label of SongPicker. Songpicker had a total of 29 misclassified songs and 25 of these songs were that of the “Birp!” playlist. The Pigeons and Planes playlist also had a majority of 15 out of 25 mislabeled songs that have a true label of SongPickr. Unsurprisingly, the same trend was found with the two majority Electronic Playlists. The UKF playlist had a majority of 9 out of 13 songs mislabeled as Future House, and the misclassified files of the Future House playlists were exclusively labeled as UKF. This checks out as songs in the UKF Playlist were almost exclusively within 1 number away from 174 or 84 bpm. In looking at this chart, I also note that the playlist “Birp!” has an almost equally varied group of misclassified files when it comes to those that do not belong in the SongPickr Playlist suggesting that the “Birp!” playlist is more varied in the metrics of the features we use in this model.#
 <br>
-#Conclusion
+## Conclusion
 This model provides us with a framework that does not do the job for the curator but rather makes the process easier on both ends of the curating process. This, however, is still a limited view of the song data and must be coupled with the work it takes a curator to complete their work. We must also keep in mind other unexplored factors such as song order in the playlist itself which could affect exposure. Overall, this project has offered insight into creating machine learning models that work with people and not in place of people and how that can provide those, who aim to share their music with potential fans, some help along the way.
 <br>
 
-##Bibliography
+## Bibliography
 
 Aguiar, Luis. “Platforms, Promotion, and Product Discovery: Evidence from Spotify Playlists.” Working Paper. Working Paper Series. National Bureau of Economic Research, June 2018. http://www.nber.org/papers/w24713.
 
