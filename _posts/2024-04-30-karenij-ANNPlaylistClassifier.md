@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Playlist Data and Recommendations Using Artificial Neural Networks"
-date:   2024-4-30 12:00
+date:   2024-04-30 12:00
 categories: machine-learning
 author: Karenina Juarez
 image: https://www.uio.no/english/studies/programmes/mct-master/blog/assets/image/2023_12_20_karenij.blogclip.png
