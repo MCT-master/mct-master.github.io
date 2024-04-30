@@ -4,7 +4,7 @@ title:  "Playlist Data and Recommendations Using Artificial Neural Networks"
 date:   2024-04-30 10:48:00 +0200
 categories: machine-learning
 author: Karenina Juarez
-image: /assets/image/2024_04_29_karenij_confuse.png
+image: /assets/image/2024_04_29_karenij_cover.png
 excerpt: "a machine-learning algorithm that pairs independent artists, with curated playlists that best fit based on musical attributes"
 ---
 
