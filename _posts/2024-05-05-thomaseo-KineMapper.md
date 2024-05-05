@@ -22,7 +22,7 @@ KineMapper is a framework for motion control in music. It is a free and open-sou
 
 ### List of required technology
 * A smartphone.
-* A app for transmitting motion data via OSC (I recommend GyrOSC).
+* An app for transmitting motion data via OSC (I recommend GyrOSC).
 * A computer running Ableton Live Suite (for Max for Live devices).
 <br>
 
@@ -40,7 +40,7 @@ KineMapper is designed to work with the iOS app called GyrOSC, although adaptati
 
 OSC (Open Sound Control) is a protocol for sending messages between computers and musical devices. OSC messages are similar to MIDI messages in their function - they can be used to achieve the same result - although there are some key differences between the two. 
 
-* OSC messages are send via a network, this can be through ethernet cable or WIFI connection.
+* OSC messages are sent via a network, this can be through ethernet cable or WIFI connection.
 * MIDI sends integers between 0 and 127 whereas OSC can send many different types of message, including strings of text, integers and 32-bit floating point values.
 * MIDI messages are labelled in a fixed way but labelling of OSC messages is much more flexible.
 
@@ -93,7 +93,7 @@ Incoming data can also be gated and each axis inverted independently.
 
 ### Mappable dials
 
-The final output of KineMapper is 8 mappable dials which you can use to control anything in Ableton which is able to be mapped. 1 - 7 represent each node value and the 8th is linked to the roll axis of rotation. (Note: roll also alters the size of the pointer for visual feedback but this does not have any effect on the outputted values from Nodes.
+The final output of KineMapper is 8 mappable dials which you can use to control anything in Ableton which is able to be mapped. 1 - 7 represent each node value and the 8th is linked to the roll axis of rotation. (Note: roll also alters the size of the pointer for visual feedback but this does not have any effect on the outputted values from Nodes. Click the 'map' button followed by the parameter of choice in Ableton to create a mapping. Click 'unmap' to reset the mapping.
 
 <img src="/assets/image/2024_05_05_thomaseo_map_dials.png" width="80%" style="display: block; margin: auto;" />
 <br>
@@ -102,7 +102,7 @@ The final output of KineMapper is 8 mappable dials which you can use to control 
 
 * Press cmd/ctrl+m in Ableton to see all mappable controls (shaded in blue).
 * Don’t make your space to big while calibrating, otherwise you might not be able to reach the edges. This is especially relevant for the roll axis as twisting the wrist can be a little uncomfortable.
-* If you can connect, double check the IP address or try changing the port number.
+* If you can't connect, double check the IP address or try changing the port number.
 * Open GyrOSC facing the direction you want to use the device.
 
 Happy motion controlling!
