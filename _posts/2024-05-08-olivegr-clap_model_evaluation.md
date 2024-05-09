@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Comparing Contrastive Representations Through Proprietary Audio Collections"
+title: "CLAP Models and How To Make Them"
 date: 2024-05-08 20:11:00 +0200
 categories: machine-learning
 author: Oliver Getz
@@ -41,7 +41,7 @@ I recently compared two CLAP models through the embeddings they produce, and thr
 **Disclaimer**: these findings are<sub>not backed by the <sub>statistical power necessary<sub>to say for certain :(</sub>
 
 # Dataset & Code
-Should you want to recreate my results, you may get audio embeddings [here](https://www.uio.no/english/studies/programmes/mct-master/blog/assets/other/2024_05_09_olivegr_thesis_dataset.zip). Notebooks for the project may be found on [Github](https://github.com/olivergetz/thesis).
+Should you want to recreate my results, you may get audio embeddings [here](https://www.uio.no/english/studies/programmes/mct-master/blog/assets/other/2024_05_09_olivegr_thesis_dataset.zip). Notebooks for the project and a reproduction guide may be found on [Github](https://github.com/olivergetz/thesis).
 
 # Acknowledgements
 My thesis was made possible with help from Stian Aagedal and Peder Jørgensen of [HANCE.AI](https://hance.ai). I would like to thank them for their continued support and for granting me access to the entire Soundly audio collection for my work.
