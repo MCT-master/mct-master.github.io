@@ -101,7 +101,7 @@ The spatial orientations were resembled as monophonic or stereophonic, while inc
 The online survey, published through gorilla.sc, asked for perceptual ratings of the generated ASMR stimuli, as well as including a shortform Big Five Index (BFI) questionnaire for personality traits mapping. The perceptual questions asked for physical and psychological reaction (Q1), focus during listening (Q2), whether the rhythmical content was perceived as natural or artificial (Q3), and the general experience being relaxing or stressful (Q4). Additionally, demographic questions and questions regarding prior knowledge and experience with ASMR were asked. 67 responses were gathered.
 
 ## Discussion
-The following research questions were addressed:
+
 **RQ1:** In which ways do different cyclic patterns affect the perception of artificially generated ASMR? How do artificially generated cyclic patterns (generated using algorithms) compare to naturally occurring cyclic patterns (recorded from human interaction with objects) in ASMR stimulus? In which ways does this relate to personality traits?
 
 **RQ2:** How does monophonic and stereophonic binaural spatial orientation impact ASMR stimulus? In which ways does this relate to personality traits?
