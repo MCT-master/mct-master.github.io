@@ -20,7 +20,7 @@ For my MCT Masters thesis I chose to develop this work into a more unified imple
 <figure style="float: none">
   <img src="/assets/image/2024_05_14_alexanjw_DS_UI.png"
   width="50%" height="50%" />
-  <figcaption>The GUI for the Deep Steps application</figcation>
+  <figcaption> The GUI for the Deep Steps application </figcation>
 </figure>
 
 
@@ -33,7 +33,7 @@ In developing Deep Steps as a GUI-based interactive system, the intention was to
 <figure style="float: none">
   <img src="/assets/image/2024_05_14_alexanjw_ds_grounding.png"
   width="70%" height="70%" />
-    <figcaption>The design principals for Deep Steps.</figcaption>
+    <figcaption> The design principals for Deep Steps. </figcaption>
 </figure>
 
 ## Implementation
@@ -44,7 +44,7 @@ The model generates material by having values fed through its decoder stage eith
 <figure style="float: none">
   <img src="/assets/image/2024_05_15_alexanjw_ds_generate.png"
   width="70%" height="70%" />
-    <figcaption>Using Deep Steps to generate rhythms</figcaption>
+    <figcaption> Using Deep Steps to generate rhythms </figcaption>
 </figure>
 
 
