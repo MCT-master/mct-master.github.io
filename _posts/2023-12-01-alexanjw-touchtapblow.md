@@ -3,7 +3,7 @@ layout: post
 title: "Touch/Tap/Blow - Exploring Intimate Control for Musical Expression"
 date: 2023-12-01 10:00:00 +0200
 categories: interactive-music
-author: Alex Wastnidge
+author: Alexander Wastnidge
 image: https://www.uio.no/english/studies/programmes/mct-master/blog/assets/image/2023_12_01-alexanjw_ttbfront.jpg?alt=original
 excerpt: 
 keywords: interactive music systems, musical expression, touch capacitance, pressure sensor, embodied rhythm, buchla synthesis
