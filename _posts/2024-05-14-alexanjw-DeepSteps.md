@@ -20,7 +20,6 @@ For my MCT Masters thesis I chose to develop this work into a more unified imple
 <figure style="float: none">
   <img src="/assets/image/2024_05_14_alexanjw_DS_UI.png"
   width="50%" height="50%" />
-  <figcaption> The GUI for the Deep Steps application </figcation>
 </figure>
 
 
