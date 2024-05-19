@@ -2,7 +2,7 @@
 layout: post
 title: "CLAP Models and How To Make Them"
 date: 2024-05-08 20:11:00 +0200
-categories: machine-learning
+categories: masters-thesis
 author: Oliver Getz
 image: /assets/image/2024_05_09_olivegr_clap_thumbnail.jpg
 excerpt: "Is there anything CLAP models can't do?"
