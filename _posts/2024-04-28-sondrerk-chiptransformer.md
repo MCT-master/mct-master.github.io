@@ -78,6 +78,6 @@ To conclude, I had a lot of fun working with the Chiptransformer. I learned a lo
 </figure>
 
 <audio controls>
-    <source src="https://www.uio.no/english/studies/programmes/mct-master/blog/assets/image/2024_04_28_kippenes_example_output_piano.mp3" type="audio/mpeg">
+    <source src="https://www.uio.no/english/studies/programmes/mct-master/blog/assets/audio/2024_04_28_kippenes_example_output_piano.mp3" type="audio/mpeg">
     Your browser does not support the audio element.
 </audio>

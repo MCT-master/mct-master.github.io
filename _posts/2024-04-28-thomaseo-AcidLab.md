@@ -46,7 +46,7 @@ To test initial designs of AcidLab, I created a data set of 50 examples. I used 
 You can listen to some examples from the dataset here:
 
 <audio controls>
-    <source src="https://www.uio.no/english/studies/programmes/mct-master/blog/assets/image/2024_04_28_thomaseo_dataset.mp3" type="audio/mpeg">
+    <source src="https://www.uio.no/english/studies/programmes/mct-master/blog/assets/audio/2024_04_28_thomaseo_dataset.mp3" type="audio/mpeg">
     Your browser does not support the audio element.
 </audio>
 <br>
@@ -98,7 +98,7 @@ The results of this study found that AcidLab does learn the harmony from its giv
 In summary, I believe there is cause for further exploration in this area. With a better model, AcidLab could become a like a jam partner that gets better the more you play with them. Possibilities for live performance, if a transition to real-time processing is made, beckon. In the meantime, here's some outputs from the modal harmony dataset with some drum backing, enjoy!
 
 <audio controls>
-    <source src="https://www.uio.no/english/studies/programmes/mct-master/blog/assets/image/2024_04_28_thomaseo_outputs.mp3" type="audio/mpeg">
+    <source src="https://www.uio.no/english/studies/programmes/mct-master/blog/assets/audio/2024_04_28_thomaseo_outputs.mp3" type="audio/mpeg">
     Your browser does not support the audio element.
 </audio>
 
@@ -112,8 +112,6 @@ In summary, I believe there is cause for further exploration in this area. With 
 
 ### Sources
 
-Autoencoder diagrams from this article on Towards Data Science:
-https://towardsdatascience.com/understanding-variational-autoencoders-vaes-f70510919f73
+[Autoencoder diagrams from this article on Towards Data Science](https://towardsdatascience.com/understanding-variational-autoencoders-vaes-f70510919f73)
 
-Cover image by imustbedead:
-https://www.pexels.com/photo/lsd-on-tongue-11481152/
+[Cover image by imustbedead](https://www.pexels.com/photo/lsd-on-tongue-11481152/)
