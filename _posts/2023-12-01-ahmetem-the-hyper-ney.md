@@ -23,7 +23,9 @@ In this post, I'll discuss about an interactive music system that I designed and
 [**Ney flute**](https://en.wikipedia.org/wiki/Ney) is an ancient wooden flute from middle east rooting 4500–5000 years back. It's a very **primitive design** with 7 holes on a **wooden body**, allowing it's master to create noisy and ambient sound on a continuous pitch scale. You can have a look at this [YouTube video](https://www.youtube.com/watch?v=ALrhXN9qYpI) for a quick performance with the Ney. I integrated  **electronic sensors** to this beautiful instrument to extend creative opportunities beyond it's capability.
 
 # Design Principles
-While designing the [Meta-Trumpet](https://quod.lib.umich.edu/i/icmc/bbp2372.1994.037/1), Jonathan Impett aimed for not compromising the traditional playing techniques of the trumpet.
+Jonathan Impett is a researcher and trumpet player, who designed the [Meta-Trumpet](https://quod.lib.umich.edu/i/icmc/bbp2372.1994.037/1). One of the qualities in his work is that he aimed for not compromising the traditional playing techniques of the trumpet.
+
+Jonathan Impett, a researcher and trumpet player, has influenced the way I think about the Hyper-Ney's design. In designing his [Meta-Trumpet](https://quod.lib.umich.edu/i/icmc/bbp2372.1994.037/1), he made sure to keep the traditional playing techniques intact. He innovated without losing what makes the trumpet, well, a trumpet. Please see [Impett's performance](https://www.youtube.com/watch?v=LJxwEqF80sk) with his instrument with this design perspective in mind
 
 <figure style="text-align: center;">
   <img src="https://www.uio.no/english/studies/programmes/mct-master/blog/assets/image/2023_12_01_ahmetem_impett.jpg" alt="The Hyper-Ney" style="display: block; margin: 0 auto; width: 35%;">
@@ -37,12 +39,12 @@ As far as possible, this is implemented without compromising the richness of the
 </blockquote>
 <br>
 
-Similarly, when designing the Hyper-Ney, I tried to avoid altering the interaction dynamics with the ney instrument as far as possible. So, playing of the The Hyper-Ney involves similar interaction and input modalities. Please see [Impett's performance](https://www.youtube.com/watch?v=LJxwEqF80sk) with his instrument with this design perspective in mind
+Inspired by his approach, when designing the Hyper-Ney, I hold onto the classic aspects of playing the ney flute. I tried to avoid altering the interaction dynamics with the ney instrument as far as possible.
 
-When discussing the design principles for interactive computer instruments, Perry Cook mentions the principle of *spare bandwidth*. This principle focuses on utilizing the unused capacity of the instrument and its performer. I thought this is a very interesting and successfull approach and had this principle central when designing the Hyper-Ney. This takes us to the technical part where I will write about these more in detail-
+When discussing the design principles for interactive computer instruments, Perry Cook mentions the principle of *spare bandwidth*. This principle focuses on utilizing the unused capacity of the instrument. I think this is a very interesting and successfull approach. I had this principle central when designing the Hyper-Ney. Ney flute is similar to other flutes in terms of the spare bandwidth that can be used for additional control. I built the Hyper-Ney on this availability, by adding extra techniques to control to synthesize and process sound. This takes us to the technical part where I will write about all these more in detail.
 
 # Deep into the technical
-To achieve the design goals I have above, I integrated various sensors to a *Mansur* size ney (see [here](https://en.wikipedia.org/wiki/Ney) for size reference). I used [Bela](https://bela.io/products/bela-and-bela-mini/) for the sound processing and synthesis.
+To achieve my design goals, I integrated various sensors to a *Mansur* size ney (see [here](https://en.wikipedia.org/wiki/Ney) for size reference). I used a [Bela](https://bela.io/products/bela-and-bela-mini/) for the sound processing and synthesis. Before I describe the Hyper-Ney part by part, please have a look at the final form of the components on the Hyper-Ney below.
 
 <figure style="text-align: center;">
   <img src="https://www.uio.no/english/studies/programmes/mct-master/blog/assets/image/2023_12_01_ahmetem_hyper-ney_design.jpg" alt="The Hyper-Ney" style="display: block; margin: 0 auto; width: 85%;">
@@ -94,7 +96,7 @@ Here is the final look of Hyper Ney.
 </figure>
 
 ## Mapping and Sound Processing
-An interesting aspect of my work is that the spare bandwidth I utilized for mapping to sound processing modules changes dynamically during playing. This relies on the acoustic phonmena of "when a higher hole is open, all the lower holes doesn't contribute to anything, i.e., they are free! See the image below for the availability of holes for mapping, and the next one for how I am calculating the availability continuously from the capacitive sensor input.
+An interesting aspect of my work is that the spare bandwidth I utilized for mapping to sound processing modules changes dynamically during playing. This relies on the acoustic phonmena of "when a higher hole is open, all the lower holes doesn't contribute to anything, i.e., they are extra and can be used for extra controls! See the image below for the availability of holes for mapping, and the next one for how I am calculating the availability continuously from the capacitive sensor input.
 
 <figure style="text-align: center;">
   <img src="https://www.uio.no/english/studies/programmes/mct-master/blog/assets/image/2023_12_01_ahmetem_hole_availability.jpg" alt="The Hyper-Ney" style="display: block; margin: 0 auto; width: 50%;">
@@ -137,12 +139,12 @@ After a performance with The Hyper-Ney, I asked these questions to 3 people who 
 
 <br>
 
-The quantitative evaluation of the Hyper-Ney from the audience perspective revealed generally positive feedback. Participants had a moderate level of familiarity with the instrument, averaging a score of 5.333 out of 10. While participants found it moderately challenging to identify specific body parts and instrument interactions (6.33 out of 10), the system and performance provided sufficient audiovisual input for understanding the relationship between the performer's intentions and output (7.33 out of 10). The mapping of gestures to sound was perceived slightly less clearly, with a score of 5.67 out of 10. However, the audience demonstrated a relatively high level of understanding regarding the performer's intentions during the performance (7.67 out of 10). Notably, the lack of perception of errors (2 out of 10), as reflected in the low score, although potentially suggesting a smooth and technically sound execution, may also suggest a potential disconnect or low engagement with the technical aspects of the performance, as there were small errors during my performance. I can reflect more after analyzing the recording of the performance. 
+The quantitative evaluation of the Hyper-Ney from the audience perspective revealed generally positive feedback. While participants found it moderately challenging to identify specific body parts and instrument interactions (6.33 out of 10), the system and performance provided sufficient audiovisual input for understanding the relationship between the performer's intentions and output (7.33 out of 10). The mapping of gestures to sound was perceived slightly less clearly, with a score of 5.67 out of 10. However, the audience demonstrated a relatively high level of understanding regarding the performer's intentions during the performance (7.67 out of 10). Notably, the lack of perception of errors (2 out of 10), as reflected in the low score, although potentially suggesting a smooth and technically sound execution, may also suggest a potential disconnect or low engagement with the technical aspects of the performance, as there were small errors during my performance. I can reflect more after analyzing the recording of the performance. 
 
 Additionally, written feedback results indicate overall positive feedback on the instrument, praising its captivating sound and the seamless integration of synthesis and ney audio. The mapping of each hole was appreciated for efficient bandwidth utilization. However, some participants found it challenging to grasp the correlation between gestures and specific parameters. Suggestions for improvement included establishing a clearer visual connection between gestures and sound parameters to enhance audience understanding. While the Hyper-Ney was commended for its aesthetics and craftsmanship, some attendees wished for a more visible demonstration of the affects of motion during play. Despite difficulty in recognizing specific mappings, participants enjoyed the performance and highlighted the instrument's organic and natural sound, along with effective use of effects like delay.
 
 # In wrapping up...
-All in all, the Hyper-Ney takes your traditional ney flute and turns it into a musical powerhouse. By using the untapped potential of the instrument's holes, we've opened up a whole new world of creative possibilities while keeping the soul of the ney intact.  All we did is, sprinkling some sensors on the ney, connecting it to Bela and let the magic happen!
+All in all, the Hyper-Ney takes your traditional ney flute and enriches its expressive potential. By using the untapped bandwidth of the instrument, I've opened up a bunch of creative possibilities while keeping the soul of the ney intact. It was so fun to work on this creative instrument, and I learned a lot! 
 
 # Performing with the Hyper-Ney
 <a name="video"></a>
