@@ -195,7 +195,7 @@ Utilizing HTML and CSS to build more accessible and visually appealing WebPD app
 
 If you're interested in seeing a video version of the post with additional information about how to style button, the accompanying video to this post can be found below:
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/auiuF4hVJSM?si=B86h5nR9Otc0qoUf" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/9r7XgLEOQXc?si=Gi-qupUhoENctS93" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 <br>
 
 Additionally, all of the code from today's post can be [found and download from my GitHub](https://github.com/julianabigelow/CSS-and-HTML-Styling-with-WebPD/tree/main/WebPD-HTML-CSS-Styling-Guide) so that you can follow along. You'll need to have access to a code editor and something to serve the application so you can see changes in real time. I like [Visual Studio Code](https://code.visualstudio.com) and the [Live Server Extension](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer).
