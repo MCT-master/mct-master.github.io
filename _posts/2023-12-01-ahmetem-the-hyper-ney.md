@@ -23,8 +23,6 @@ In this post, I'll discuss about an interactive music system that I designed and
 [**Ney flute**](https://en.wikipedia.org/wiki/Ney) is an ancient wooden flute from middle east rooting 4500–5000 years back. It's a very **primitive design** with 7 holes on a **wooden body**, allowing it's master to create noisy and ambient sound on a continuous pitch scale. You can have a look at this [YouTube video](https://www.youtube.com/watch?v=ALrhXN9qYpI) for a quick performance with the Ney. I integrated  **electronic sensors** to this beautiful instrument to extend creative opportunities beyond it's capability.
 
 # Design Principles
-Jonathan Impett is a researcher and trumpet player, who designed the [Meta-Trumpet](https://quod.lib.umich.edu/i/icmc/bbp2372.1994.037/1). One of the qualities in his work is that he aimed for not compromising the traditional playing techniques of the trumpet.
-
 Jonathan Impett, a researcher and trumpet player, has influenced the way I think about the Hyper-Ney's design. In designing his [Meta-Trumpet](https://quod.lib.umich.edu/i/icmc/bbp2372.1994.037/1), he made sure to keep the traditional playing techniques intact. He innovated without losing what makes the trumpet, well, a trumpet. Please see [Impett's performance](https://www.youtube.com/watch?v=LJxwEqF80sk) with his instrument with this design perspective in mind
 
 <figure style="text-align: center;">
@@ -41,7 +39,9 @@ As far as possible, this is implemented without compromising the richness of the
 
 Inspired by his approach, when designing the Hyper-Ney, I hold onto the classic aspects of playing the ney flute. I tried to avoid altering the interaction dynamics with the ney instrument as far as possible.
 
-When discussing the design principles for interactive computer instruments, Perry Cook mentions the principle of *spare bandwidth*. This principle focuses on utilizing the unused capacity of the instrument. I think this is a very interesting and successfull approach. I had this principle central when designing the Hyper-Ney. Ney flute is similar to other flutes in terms of the spare bandwidth that can be used for additional control. I built the Hyper-Ney on this availability, by adding extra techniques to control to synthesize and process sound. This takes us to the technical part where I will write about all these more in detail.
+When discussing the design principles for interactive computer instruments, Perry Cook mentions the principle of *spare bandwidth*. This principle focuses on utilizing the unused capacity of the instrument for other purposes, which proves to be very interesting and successfull. I had this principle central when designing the Hyper-Ney.
+
+Ney flute is similar to other flutes in terms of the *spare bandwidth* it offers. I built the Hyper-Ney on this availability, by adding extra techniques to control to synthesize and process sound. This takes us to the technical part where I will write about the implementation more in detail.
 
 # Deep into the technical
 To achieve my design goals, I integrated various sensors to a *Mansur* size ney (see [here](https://en.wikipedia.org/wiki/Ney) for size reference). I used a [Bela](https://bela.io/products/bela-and-bela-mini/) for the sound processing and synthesis. Before I describe the Hyper-Ney part by part, please have a look at the final form of the components on the Hyper-Ney below.
