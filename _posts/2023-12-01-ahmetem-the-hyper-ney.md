@@ -18,11 +18,16 @@ excerpt: "Electrizing an ancient flute using capacitive and motion sensors"
 
 <span style="font-size:small; font-style: italic;">⏯ A video may be auto-playing down in this page - [jump to video](#video)</span><br>
 
-In this post, I'll discuss about an interactive music system that I designed and built in the last couple of months. It's called Hyper-Ney and as the name suggests it's an augmented ney flute.
+In this post, I'll discuss about an interactive music system that I designed and built in the last couple of months. It's called Hyper-Ney and as the name suggests it's an enhanced ney flute.
 
-[**Ney flute**](https://en.wikipedia.org/wiki/Ney) is an ancient wooden flute from middle east rooting 4500–5000 years back. It's a very **primitive design** with 7 holes on a **wooden body**, allowing it's master to create noisy and ambient sound on a continuous pitch scale. You can have a look at this [YouTube video](https://www.youtube.com/watch?v=ALrhXN9qYpI) for a quick performance with the Ney. I integrated  **electronic sensors** to this beautiful instrument to extend creative opportunities beyond it's capability.
+# About the Ney Flute
+[**Ney flute**](https://en.wikipedia.org/wiki/Ney) is an ancient wooden flute from middle east rooting 4500–5000 years back. It's a very **simple design** with 7 holes on a **wooden body**, allowing it's player to create noisy and ambient sound on a continuous pitch scale. You can have a look at this [YouTube video](https://www.youtube.com/watch?v=ALrhXN9qYpI) for a traditional performance with the Ney.
 
-# Design Principles
+A feature that distinguishes it from similar instruments of other cultures is the flared mouthpiece or lip rest, called a <em>bashpare</em>, traditionally made of water buffalo horn, ivory, or ebony, but in modern times many are plastic or similar durable material.
+<br></br>
+The Turkish ney is played by pressing the bashpare against nearly-closed lips and angling the flute so that a narrow air stream can be blown from the center of the lips against the interior edge to the left or right, depending on whether the flute is left- or right-handed in construction.<sup>1</sup>
+
+# Designing the Hyper-Ney
 Jonathan Impett, a researcher and trumpet player, has influenced the way I think about the Hyper-Ney's design. In designing his [Meta-Trumpet](https://quod.lib.umich.edu/i/icmc/bbp2372.1994.037/1), he made sure to keep the traditional playing techniques intact. He innovated without losing what makes the trumpet, well, a trumpet. Please see [Impett's performance](https://www.youtube.com/watch?v=LJxwEqF80sk) with his instrument with this design perspective in mind
 
 <figure style="text-align: center;">
@@ -41,9 +46,9 @@ Inspired by his approach, when designing the Hyper-Ney, I hold onto the classic 
 
 When discussing the design principles for interactive computer instruments, Perry Cook mentions the principle of *spare bandwidth*. This principle focuses on utilizing the unused capacity of the instrument for other purposes, which proves to be very interesting and successfull. I had this principle central when designing the Hyper-Ney.
 
-Ney flute is similar to other flutes in terms of the *spare bandwidth* it offers. I built the Hyper-Ney on this availability, by adding extra techniques to control to synthesize and process sound. This takes us to the technical part where I will write about the implementation more in detail.
+Ney flute is similar to other flutes in terms of the *spare bandwidth* it offers. I built the Hyper-Ney on this availability, by adding extra techniques to synthesize and process audio. This takes us to the technical part where I will write about the implementation more in detail.
 
-# Deep into the technical
+# Deep Into the Technical
 To achieve my design goals, I integrated various sensors to a *Mansur* size ney (see [here](https://en.wikipedia.org/wiki/Ney) for size reference). I used a [Bela](https://bela.io/products/bela-and-bela-mini/) for the sound processing and synthesis. Before I describe the Hyper-Ney part by part, please have a look at the final form of the components on the Hyper-Ney below.
 
 <figure style="text-align: center;">
@@ -59,7 +64,7 @@ I added a tiny piece of aluminium tape on the mouthpiece to build a capacitive s
 ## Holes
 I added tiny solid wires around all 6 front holes of the ney. This allowed me to track the utilization of the holes as well as the amount of coverage of each hole. These capscitive sensor wires are routed along the ney's body and connected to Trill Craft, which is a board for creating complex capacitive sensors with Bela.
 
-## Motion of the Instrument as a Controller
+## Motion of the Ney Flute's Body
 Altough not very common when playing ney, motion of the instrument proved very successfull in terms of interaction and creativity. I added an accelerometer at the end of the ney to use the acceleration in two axes in musical mapping.
 
 ## Audio Input
@@ -76,6 +81,8 @@ Here take a look at two diagrams. One showing the high-level design of the syste
     <span class="caption">System design</span>
   </figcaption>
 </figure>
+
+![Detailed Mapping](/assets/image/2024_09_05_ahmetem_hyper-ney-mapping.jpg)
 
 <figure style="text-align: center;">
   <img src="https://www.uio.no/english/studies/programmes/mct-master/blog/assets/image/2023_12_01_ahmetem_connection_diagram.jpg" alt="The Hyper-Ney" style="display: block; margin: 0 auto; width: 90%;">
@@ -152,6 +159,8 @@ All in all, the Hyper-Ney takes your traditional ney flute and enriches its expr
 
 <br>
 
+***You can read the paper [HERE](https://www.duo.uio.no/handle/10852/111718)***
+
 ***See more interactive music works by MCT students [HERE](https://mct-master.github.io/interactive-music/).***
 
 # References
@@ -161,3 +170,7 @@ All in all, the Hyper-Ney takes your traditional ney flute and enriches its expr
 
 - J. Impett. A meta trumpet(er). In International Conference on Mathematics and Computing, 1994
 
+
+<br></br>
+<br></br>
+<sup>1</sup> Based on content from the Wikipedia article Turkish ney, accessed on 05 September 2024.
