@@ -14,7 +14,7 @@ Graphic notation/scores have been used in experimental music composition since t
 
 <img src="/assets/image/2024_09_12_thomaseo_sounding_brush_1.png" width="50%" style="display: block; margin: auto;" />
 
-<div align="center">An example of a graphic score from John Cage’s book: Notations [1]
+<div align="center">An example of a graphic score from John Cage’s book: Notations [1]</div>
 <br>
 <br>
 <br>
@@ -22,11 +22,13 @@ Graphic notation/scores have been used in experimental music composition since t
 
 ### Sounding Brush
 For this, we must look to a more recent area of music research called Interactive Music Systems (IMS) and specifically, a work called Sounding Brush. The Sounding Brush is, in the words of it’s creators, a “tablet based musical instrument for drawing and mark making” (2). The instrument takes the form of an iOS application designed to be used with an iPad which harnesses the gestures of drawing to generate a variety of synthesised sounds and textures. Sounding Brush was developed by Sourya Sen, Koray Tahiroglu and Julia Lohmann working at Aalto University in Finland and was presented at the New Interfaces for Musical Expression (NIME) conference in 2020.
+</div>
 <br>
-
+<br>
+<br>
 <img src="/assets/image/2024_09_12_thomaseo_sounding_brush_2.png" width="50%" style="display: block; margin: auto;" />
 
-<div align="center">A screenshot of Sounding Brush [3]
+<div align="center">A screenshot of Sounding Brush [3]</div>
 <br>
 <br>
 <br>
@@ -34,22 +36,26 @@ For this, we must look to a more recent area of music research called Interactiv
 
 ### But is it an instrument?
 But how can drawing on a tablet be considered a musical instrument? Well, according to Atau Tanaka an instrument can be described as an ‘Open-ended system’ made up of different parts; an input device, mapping algorithms, a sound synthesis engine, compositional structure and an output system (4). Sounding Brush definitely ticks these boxes. This diagram of a gestural controller for sound synthesis can help us to examine the Sounding Brush in more detail.
+</div>
 <br>
-
+<br>
+<br>
 <img src="/assets/image/2024_09_12_thomaseo_sounding_brush_3.png" width="50%" style="display: block; margin: auto;" />
 
-<div align="center">A diagram of a gesturally controlled IMS [5]
+<div align="center">A diagram of a gesturally controlled IMS [5]</div>
 <br>
 <br>
 <br>
 <div align="left">
 
 In the top left, we have the incoming gestures, the gestures of drawing/painting being captured by touchscreen of the iPad. The user has the additional control of choosing a particular ‘brush’ which represents a different synthesis technique alongside selections for colour and character. In addition to the capture of drawing/painting gestures, the Sounding Brush also utilises the accelerometer sensors within the iPad to manipulate sound whilst in a specific mode.
+</div>
 <br>
-
+<br>
+<br>
 <img src="/assets/image/2024_09_12_thomaseo_sounding_brush_4.png" width="50%" style="display: block; margin: auto;" />
 
-<div align="center">UI menu of Sounding Brush [3]
+<div align="center">UI menu of Sounding Brush [3]</div>
 <br>
 <br>
 <br>
@@ -61,10 +67,11 @@ In this case, the Primary feedback can be considered the visual representation o
 ### Mappings
 The Sounding Brush most commonly utilises a series explicit mapping strategies in a ‘one-to-one’ relationship [6]. In the image below, this is demonstrated by any arrow which begins at one performance action and arrives at one synthesis input without any splitting off or being influenced by another arrow. In our case, the Y coordinate of the pen on the tablet could be mapped to the frequency of a sinusoidal wave, for example.
 <br>
+</div>
 
 <img src="/assets/image/2024_09_12_thomaseo_sounding_brush_5.png" width="50%" style="display: block; margin: auto;" />
 
-<div align="center">A diagram of mapping strategies [6]
+<div align="center">A diagram of mapping strategies [6]</div>
 <br>
 <br>
 <br>
@@ -98,3 +105,4 @@ Accessibility and low entry level aside, I would love to see a scaled up version
 5. M. M. Wanderley and P. Depalle, "Gestural control of sound synthesis," in Proceedings of the IEEE, vol. 92, no. 4, pp. 632-644, April 2004, doi: 10.1109/JPROC.2004.825882.
 
 6. A. Hunt, M. M. Wanderley, and R. Kirk, “Towards a Model for Instrumental Mapping in Expert Musical Interaction”, In ICMC, 2000.
+</div>
