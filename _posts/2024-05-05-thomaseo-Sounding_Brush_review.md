@@ -19,7 +19,6 @@ Graphic notation/scores have been used in experimental music composition since t
   style="display: block; margin: auto;" />
   <figcaption>An example of a graphic score from John Cage’s book: Notations (1)</figcaption>
 </figure>
-<br>
 
 
 ### Sounding Brush
@@ -29,11 +28,10 @@ For this, we must look to a more recent area of music research called Interactiv
 
 <figure style="float: none">
   <img src="/assets/image/2024_09_12_thomaseo_sounding_brush_2.png"
-  width="80%"
+  width="60%"
   style="display: block; margin: auto;" />
-  <figcaption>A screenshot of Sounding Brush [3]</figcaption>
+  <figcaption>A screenshot of Sounding Brush (3)</figcaption>
 </figure>
-<br>
 
 
 ### But is it an 'instrument'?
@@ -45,9 +43,8 @@ But how can drawing on a tablet be considered a musical instrument? Well, accord
   <img src="/assets/image/2024_09_12_thomaseo_sounding_brush_3.png"
   width="80%"
   style="display: block; margin: auto;" />
-  <figcaption>A diagram of a gesturally controlled IMS [5]</figcaption>
+  <figcaption>A diagram of a gesturally controlled IMS (5)</figcaption>
 </figure>
-<br>
 
 In the top left, we have the incoming gestures, the gestures of drawing/painting being captured by touchscreen of the iPad. The user has the additional control of choosing a particular ‘brush’ which represents a different synthesis technique alongside selections for colour and character. In addition to the capture of drawing/painting gestures, the Sounding Brush also utilises the accelerometer sensors within the iPad to manipulate sound whilst in a specific mode.
 <br>
@@ -57,9 +54,8 @@ In the top left, we have the incoming gestures, the gestures of drawing/painting
   <img src="/assets/image/2024_09_12_thomaseo_sounding_brush_4.png"
   width="80%"
   style="display: block; margin: auto;" />
-  <figcaption>UI menu of Sounding Brush [3]</figcaption>
+  <figcaption>UI menu of Sounding Brush (3)</figcaption>
 </figure>
-<br>
 
 
 In this case, the Primary feedback can be considered the visual representation of these gestures as the image on the screen (although some of these also undergo some additional processing to make them more representative of the type of brush used).
@@ -68,20 +64,21 @@ In this case, the Primary feedback can be considered the visual representation o
 
 ### Mappings
 The Sounding Brush most commonly utilises a series explicit mapping strategies in a ‘one-to-one’ relationship (6). In the image below, this is demonstrated by any arrow which begins at one performance action and arrives at one synthesis input without any splitting off or being influenced by another arrow. In our case, the Y coordinate of the pen on the tablet could be mapped to the frequency of a sinusoidal wave, for example.
+
+Generative mappings are employed in the more 'textural' brushes - Particles and Crackling. The gesture of painting with these brushes controls some elements of the sound generation but others are controlled by generating random values and also evolve over time. This can also be considered a 'one to many' mapping strategy as one actions affects multiple synthesis parameters.
 <br>
 
 
 <figure style="float: none">
   <img src="/assets/image/2024_09_12_thomaseo_sounding_brush_5.png"
-  width="80%"
+  width="60%"
   style="display: block; margin: auto;" />
   <figcaption>A diagram of mapping strategies (6)</figcaption>
 </figure>
-<br>
 
 
 ### That’s enough diagrams. Let’s talk music.
-The Sounding Brush makes different sounds depending on the selected mode. These modes are based on various synthesis/sound generation techniques such as: additive, subtractive, granular and procedural (2). Sounds are both performed as the pen touches the touchscreen, and layered to create an overall soundscape-type composition. Sounds are mostly ‘frozen’ at the last point the pen touched the tablet (for each line) which, like painting on a canvas, encourages the user to draw a soundscape frozen in one particular moment.
+The Sounding Brush makes different sounds depending on the selected mode. These modes are based on various synthesis/sound generation techniques such as: additive, subtractive, granular and proceedural (2). Sounds are both performed as the pen touches the touchscreen, and layered to create an overall soundscape-type composition. Sounds are mostly ‘frozen’ at the last point the pen touched the tablet (for each line) which, like painting on a canvas, encourages the user to draw a soundscape frozen in one particular moment in time.
 <br>
 
 
