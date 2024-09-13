@@ -9,7 +9,7 @@ image: /assets/image/2024_09_12_thomaseo_sounding_brush_1.png
 excerpt: "A critical review of a drawing-based interactive music system"
 ---
 ### Introduction
-Graphic notation/scores have been used in experimental music composition since the 1950s, pioneered by notable composers such as John Cage, Karlheinz Stockhausen, Krzysztof Penderecki and Iannis Xenakis. The graphic score exemplifies a shift away from the rigidity of traditional western classical music towards a more interpretive and experimental style. Here the doodles and written instructions of a composer become the music when performed by a musician, but what if the score could become the instrument too?
+Graphic notation/scores have been used in experimental music composition since the 1950s, pioneered by notable composers such as John Cage, Karlheinz Stockhausen, Krzysztof Penderecki and Iannis Xenakis. The graphic score exemplifies a shift away from the rigidity of traditional western classical music towards a more interpretive and experimental style. Here, the doodles and written instructions of a composer become the music when performed by a musician, but what if the score could become the instrument too?
 <br>
 
 
@@ -46,7 +46,7 @@ But how can drawing on a tablet be considered a musical instrument? Well, accord
   <figcaption>A diagram of a gesturally controlled IMS (5)</figcaption>
 </figure>
 
-In the top left, we have the incoming gestures, the gestures of drawing/painting being captured by touchscreen of the iPad. The user has the additional control of choosing a particular ‘brush’ which represents a different synthesis technique alongside selections for colour and character. In addition to the capture of drawing/painting gestures, the Sounding Brush also utilises the accelerometer sensors within the iPad to manipulate sound whilst in a specific mode.
+In the top left, we have the incoming gestures. In our case, gestures of drawing/painting being captured by touchscreen of the iPad. The user has the additional control of choosing a particular ‘brush’ which represents a different synthesis technique alongside selections for colour and character. In addition to the capture of drawing/painting gestures, the Sounding Brush also utilises the accelerometer sensors within the iPad to manipulate sound whilst in a specific mode.
 <br>
 
 
@@ -65,7 +65,7 @@ In this case, the Primary feedback can be considered the visual representation o
 ### Mappings
 The Sounding Brush most commonly utilises a series explicit mapping strategies in a ‘one-to-one’ relationship (6). In the image below, this is demonstrated by any arrow which begins at one performance action and arrives at one synthesis input without any splitting off or being influenced by another arrow. In our case, the Y coordinate of the pen on the tablet could be mapped to the frequency of a sinusoidal wave, for example.
 
-Generative mappings are employed in the more 'textural' brushes - Particles and Crackling. The gesture of painting with these brushes controls some elements of the sound generation but others are controlled by generating random values and also evolve over time. This can also be considered a 'one to many' mapping strategy as one actions affects multiple synthesis parameters.
+Generative mappings are employed in the more 'textural' brushes - Particles and Crackling. The gesture of painting with these brushes controls some elements of the sound generation but others are controlled by generating random values which also evolve over time. This can also be considered a 'one-to-many' mapping strategy as one action affects multiple synthesis parameters.
 <br>
 
 
