@@ -35,7 +35,7 @@ For this, we must look to a more recent area of music research called Interactiv
 
 
 ### But is it an 'instrument'?
-But how can drawing on a tablet be considered a musical instrument? Well, according to Atau Tanaka an instrument can be described as an ‘Open-ended system’ made up of different parts; an input device, mapping algorithms, a sound synthesis engine, compositional structure and an output system (4). Sounding Brush definitely ticks these boxes. This diagram of a gestural controller for sound synthesis can help us to examine the Sounding Brush in more detail.
+How can drawing on a tablet be considered a musical instrument? Well, according to Atau Tanaka an instrument can be described as an ‘Open-ended system’ made up of different parts; an input device, mapping algorithms, a sound synthesis engine, compositional structure and an output system (4). Sounding Brush definitely ticks these boxes. This diagram of a gestural controller for sound synthesis can help us to examine the Sounding Brush in more detail.
 <br>
 
 
@@ -63,7 +63,7 @@ In this case, the Primary feedback can be considered the visual representation o
 
 
 ### Mappings
-The Sounding Brush most commonly utilises a series explicit mapping strategies in a ‘one-to-one’ relationship (6). In the image below, this is demonstrated by any arrow which begins at one performance action and arrives at one synthesis input without any splitting off or being influenced by another arrow. In our case, the Y coordinate of the pen on the tablet could be mapped to the frequency of a sinusoidal wave, for example.
+The Sounding Brush most commonly utilises a series of explicit mapping strategies in a ‘one-to-one’ relationship (6). In the image below, this is demonstrated by any arrow which begins at one performance action and arrives at one synthesis input without any splitting off or being influenced by another arrow. In our case, the Y coordinate of the pen on the tablet could be mapped to the frequency of a sinusoidal wave, for example.
 
 Generative mappings are employed in the more 'textural' brushes - Particles and Crackling. The gesture of painting with these brushes controls some elements of the sound generation but others are controlled by generating random values which also evolve over time. This can also be considered a 'one-to-many' mapping strategy as one action affects multiple synthesis parameters.
 <br>
@@ -90,7 +90,7 @@ One of the advantages of Sounding Brush is it’s user interface (UI) design whi
 ### Summary
 Despite being (relatively) conceptually straightforward, this work occupies an interesting intersection between audio and visual creative practice. The metaphor of a painter with a blank canvas, choosing colours and brush types, encourages the user to approach making music in a novel way and builds on the tradition of graphic scores in contemporary composition.
 
-The developers mention their ideas for improvements in (1) including the ability to save and load compositions and import samples to the granular synth engine. I would like to see further development on the motion control aspect. Currently this generates new sounds but would it be possible to use this as a way of manipulating the entire composition? This would give a greater separation to the functionality of the two different control methods where at the moment they essentially have similar results to using the pen in the granular synthesiser mode. Could global parameters such as dynamics, filtering, reverb/delay and other FX be controlled in this manner?
+The developers mention their ideas for improvements in (2) including the ability to save and load compositions and import samples to the granular synth engine. I would like to see further development on the motion control aspect. Currently this generates new sounds but would it be possible to use this as a way of manipulating the entire composition? This would give a greater separation to the functionality of the two different control methods where at the moment they essentially have similar results to using the pen in the granular synthesiser mode. Could global parameters such as dynamics, filtering, reverb/delay and other FX be controlled in this manner?
 
 Accessibility and low entry level aside, I would love to see a scaled up version of this, perhaps as an installation, or live performance piece, with a much larger touchscreen and greater controls over the colour and texture of the image.
 <br>
