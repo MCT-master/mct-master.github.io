@@ -2,7 +2,7 @@
 layout: post
 title:  "Cosmic Clash!"
 date:   2024-11-24 10:48:00 +0200
-categories: other
+categories: applied-project
 author: Tom Oldfield
 image: /assets/image/2024_11_24_thomaseo_cosmic_clash_5.png
 excerpt: "Cosmic Clash - exploring gamification of physiotherapy exercises using the Biopoint sensor"
