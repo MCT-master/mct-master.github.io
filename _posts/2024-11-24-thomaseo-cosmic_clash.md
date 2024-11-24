@@ -101,19 +101,22 @@ The game was developed using the node.js runtime. This environment allowed us to
 
 ### Check out some videos from the development process
 <br>
+Inital tests using the gyroscope of a smart phone to control a player
 <iframe width="560" height="315" src="https://www.youtube.com/embed/sKn7i4n7RXc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
+<br>
+<br>
+Implementing two player functionality using node.js
 <iframe width="560" height="315" src="https://www.youtube.com/embed/HCGVN_qteVk" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
+<br>
+<br>
+One player using the EMG to shoot
 <iframe width="560" height="315" src="https://www.youtube.com/embed/dohC859jXRY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
+<br>
+<br>
+Two players moving and shooting
 <iframe width="560" height="315" src="https://www.youtube.com/embed/z_T9K8slcu8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
-
-
-
-
-
+<br>
+<br>
 
 
 ### Use Cases
