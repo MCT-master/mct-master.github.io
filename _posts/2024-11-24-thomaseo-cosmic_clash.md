@@ -99,12 +99,20 @@ The game was developed using the node.js runtime. This environment allowed us to
 
 
 
-### Check out Karenina using the EMG to fire bullets!
+### Check out some videos from the development process
 <br>
-<div style="display: flex; justify-content: center;">
-  <iframe width="560" height="315" src="https://www.youtube.com/embed/dohC859jXRY" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-</div>
-<br>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/sKn7i4n7RXc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/HCGVN_qteVk" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/dohC859jXRY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/z_T9K8slcu8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+
+
+
+
 
 
 
