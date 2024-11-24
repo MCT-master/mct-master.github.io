@@ -13,6 +13,7 @@ excerpt: "Cosmic Clash - exploring gamification of physiotherapy exercises using
 ### Introduction
 Can a game be used to help patients do their physiotherapy exercises better? What would this game look like and how would it work? These are the questions that we have been working on answering this Autumn in a collaboration between IMV and IFI at UiO alongside an industrial partner - SiFi Labs.
 <br>
+<br>
 
 
 
@@ -46,8 +47,8 @@ Cosmic Clash! is the name of the game. It’s an arcade-style point-and-shoot ga
 ### Data Processing
 <div style="display: flex; align-items: center;">
   <div style="flex: 1; padding-right: 20px;">
-    
-  **IMU**
+    <strong>IMU</strong>
+     <br>
 An IMU is a sensor used to measure motion and orientation. The BioPoint IMU, in this instance, integrates a 3-axis accelerometer and a 3-axis gyroscope, which allow it to measure linear acceleration and angular velocity. The IMU data packets from the BioPoint include a quaternion — a four-component representation of the device's orientation in 3D space. The sampling rate of the IMU is 100Hz. Check the diagram for a reminder of Euler (rotational) angles.
   </div>
   <div style="flex: 1;">
@@ -71,9 +72,9 @@ The following equations are used to compute roll, pitch, and yaw from quaternion
 
 <div style="display: flex; align-items: center;">
   <div style="flex: 1; padding-right: 20px;">
-
-  **EMG**
-EMG sensors detect the electrical activity produced by muscles during contraction, providing information about muscle activation levels, timing, and patterns. The EMG sensor in the Biopoint has a sample rate of 2 kHz. Similar to an audio waveform image, EMG data moves between positive and negative values - the further away from zero in either direction, the higher the signal level. To utilise this signal in our game, found the absolute value of a rolling average (across 8 samples in each data packet) and applied a threshold. When the signal goes over the threshold, a shoot command is sent.
+    <strong>EMG</strong>
+    <br>
+    EMG sensors detect the electrical activity produced by muscles during contraction, providing information about muscle activation levels, timing, and patterns. The EMG sensor in the Biopoint has a sample rate of 2 kHz. Similar to an audio waveform image, EMG data moves between positive and negative values - the further away from zero in either direction, the higher the signal level. To utilise this signal in our game, found the absolute value of a rolling average (across 8 samples in each data packet) and applied a threshold. When the signal goes over the threshold, a shoot command is sent.
   </div>
   <div style="flex: 1;">
     <img src="/assets/image/2024_11_24_thomaseo_cosmic_clash_3.png" alt="Credit: SiFiLabs" width="400">
@@ -81,6 +82,7 @@ EMG sensors detect the electrical activity produced by muscles during contractio
   </div>
 </div>
 <br>
+
 
 
 
