@@ -32,7 +32,13 @@ SiFi Labs are currently developing their line of sensors called Biopoint. These 
 ### Cosmic Clash!
 Cosmic Clash! is the name of the game. It’s an arcade-style point-and-shoot game set in space. The objective is to shoot or avoid obstacles which damage the player whist trying to pick up lives and power ups which improve player abilities. Two of the sensors in the Biopoint - IMU and EMG - are put into action here to control movement and shooting mechanics.
 <br>
-**Add screenshot of game here!!**
+<figure style="float: none">
+  <img src="/assets/image/2024_11_24_thomaseo_cosmic_clash_6.png"
+  width="70%"
+  style="display: block; margin: auto;" />
+  <figcaption>Screenshot of the game</figcaption>
+</figure>
+<br>
 <br>
 
 
@@ -51,23 +57,17 @@ An IMU is a sensor used to measure motion and orientation. The BioPoint IMU, in 
 </div>
 <br>
 <br>
-The following equations are used to compute roll, pitch, and yaw from quaternion components 
+The following equations are used to compute roll, pitch, and yaw from quaternion components (qw), (qx), (qy), and (qz):
 
-\(qw\), \(qx\), \(qy\), and \(qz\):
+<figure style="float: none">
+  <img src="/assets/image/2024_11_24_thomaseo_cosmic_clash_7.png"
+  width="70%"
+  style="display: block; margin: auto;" />
+</figure>
 <br>
 
-\[
-\text{roll} = \arctan2\left(2 \cdot (qw \cdot qx + qy \cdot qz), 1 - 2 \cdot (qx^2 + qy^2)\right)
-\]
 
-\[
-\text{pitch} = \arcsin\left(2 \cdot (qw \cdot qy - qz \cdot qx)\right)
-\]
 
-\[
-\text{yaw} = \arctan2\left(2 \cdot (qw \cdot qz + qx \cdot qy), 1 - 2 \cdot (qy^2 + qz^2)\right)
-\]
-<br>
 
 <div style="display: flex; align-items: center;">
   <div style="flex: 1; padding-right: 20px;">
