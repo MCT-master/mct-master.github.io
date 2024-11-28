@@ -82,7 +82,6 @@ Along with all the features, the Slapbox is very obviously made to last. Unlike 
   <img src="/assets/image/2024_11_28_karenij_slapbox2.png"
   width="80%"
   style="display: block; margin: auto;" />
-  <figcaption>GUI of SlapBox</figcaption>
 </figure>
 
 
