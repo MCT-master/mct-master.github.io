@@ -2,7 +2,7 @@
 layout: post
 title:  "The SlapBox: A DMI designed to last
 "
-date:   2024-09-12 10:48:00 +0200
+date:   2024-11-28 10:48:00 +0200
 categories: interactive-music
 author: Karenina Juarez
 image: /assets/image/2024_11_28_karenij_slapbox1.jpg
