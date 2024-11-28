@@ -15,7 +15,7 @@ While many Digital Musical Instruments (DMIs) today have been designed to showca
 
 
 <figure style="float: none">
-  <img src="/assets/image/2024_11_28_karenij_slapbox2.jpg"
+  <img src="/assets/image/2024_11_28_karenij_slapbox1.jpg"
   width="80%"
   style="display: block; margin: auto;" />
   <figcaption>Slapbox Design(1)</figcaption>
