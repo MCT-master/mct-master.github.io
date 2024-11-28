@@ -5,7 +5,7 @@ title:  "The SlapBox: A DMI designed to last
 date:   2024-09-12 10:48:00 +0200
 categories: interactive-music
 author: Karenina Juarez
-image: /assets/image/2024_11_28_karenij_slapbox1.jpg.png
+image: /assets/image/2024_11_28_karenij_slapbox1.jpg
 excerpt: "A critical review of a durable digital musical instrument"
 ---
 ### Introduction
@@ -42,7 +42,7 @@ The design of this instrument takes its inspiration from commercial digital perc
 
 <br>
 
-###Improvements with New Iteration
+### Improvements with New Iteration
 
 The new iteration still retains many of the older parts, including front panel speakers, auxiliary controls, and most of the internal electronics.  The sensor pads on the Slap Box iteration require a unique solution capable of capturing extremely quick body movements. To find a solution that is commercially available and captured Velocity, Continuous Pressure, and Position, the team behind Slapbox decided to use a Force Sensitive Resistor with Velostat.
 The Velostat was paired with a configuration of conductive tape that allowed the pressure source to be estimated and mapped to synthesis parameters of sampled percussion sounds. 
@@ -70,19 +70,21 @@ Performers were very quick to achieve interesting interactions almost immediatel
 
 ### What makes it stand out?
 
-The Sounding Brush makes different sounds depending on the selected mode. These modes are based on various synthesis/sound generation techniques such as: additive, subtractive, granular and proceedural (2). Sounds are both performed as the pen touches the touchscreen, and layered to create an overall soundscape-type composition. Sounds are mostly ‘frozen’ at the last point the pen touched the tablet (for each line) which, like painting on a canvas, encourages the user to draw a soundscape frozen in one particular moment in time.
-<br>
-
-
-### A different interface?
-
 The Slapbox being designed around the Cajon makes for an instrument that many musicians, percussionists or not, have some idea of how to approach. Even so, the Slapbox is intrinsically its own thing, allowing the user to play this in a way unlike the average percussion set. It will enable the user to play in the way they want and develop the technique that suits their practice or setup. The sensitivity of the position estimation allows for the real-time synthesis to bring individuality to each strike. This can encourage users to develop a virtuosity with the Slapbox that might have yet to come about with synthesis less adept. 
 
-<br>s
+<br>
 
 Along with all the features, the Slapbox is very obviously made to last. Unlike other DMIs, the Slapbox’s design feels permanent. Although the ideas surrounding the synthesis and sound samples still loom, the structure appears to be made to withstand much experimentation. The GUI allows for another dimension of knowledge of the instrument that can encourage those weary of trying a sort of instrument to be drawn to seeing exactly what their actions translate to in the synthesized world. 
 
 <br>
+
+<figure style="float: none">
+  <img src="/assets/image/2024_11_28_karenij_slapbox2.png"
+  width="80%"
+  style="display: block; margin: auto;" />
+  <figcaption>GUI of SlapBox</figcaption>
+</figure>
+
 
 ### Why it matters?
 
