@@ -19,7 +19,6 @@ While many Digital Musical Instruments (DMIs) today have been designed to showca
   <figcaption>Slapbox Design(1)</figcaption>
 </figure>
 
-
 ### The Concept
 
 The Slapbox is actually the second iteration of a DMI for percussionists, with the original iteration being named The Tapbox (1). The team behind the new iteration specifically chose to work on the Slapbox design based on The Tapbox to highlight how solving old problems on older designs can improve the product while also introducing future design. 
