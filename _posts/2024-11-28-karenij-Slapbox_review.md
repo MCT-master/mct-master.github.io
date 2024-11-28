@@ -1,8 +1,7 @@
 ---
 layout: post
-title:  "The SlapBox: A DMI designed to last
-"
-date:   2024-11-28 10:48:00 +0200
+title:  "The SlapBox: A DMI designed to last"
+date:  2024-11-24 10:48:00 +0200
 categories: interactive-music
 author: Karenina Juarez
 image: /assets/image/2024_11_28_karenij_slapbox1.jpg
@@ -18,6 +17,7 @@ While many Digital Musical Instruments (DMIs) today have been designed to showca
   style="display: block; margin: auto;" />
   <figcaption>Slapbox Design(1)</figcaption>
 </figure>
+
 
 ### The Concept
 
@@ -80,6 +80,7 @@ DMIs should be made to weather a lengthy musical career. The disconnect between 
 
 Even though, according to Perry R. Cooks's first Principle for Computer Music COntrollers list, “Programmability is a curse,” many evaluators of the Slapbox showed interest in the ability to load samples onto the instrument (3). This improvement would be an interesting implementation that could prolong the life cycle of this system after the preset sounds have been exhausted by prolonged users.  I’m excited to see where the next iteration is heading and hope more DMI designers prioritize durability in the way we see in the Slapbox.
 <br>
+
 
 ### References
 1.   Boettcher, B., Sullivan, J., & Wanderley, M. M. (2021). Slapbox: Redesign of a Digital Musical Instrument Towards Reliable Long-Term Practice. NIME 2022. https://doi.org/10.21428/92fbeb44.78fd89cc
