@@ -4,7 +4,7 @@ title:  "TechnoBike"
 date:   2024-12-04 10:48:00 +0200
 categories: interactive-music
 author: Tom Oldfield
-image: /assets/image/2024_11_24_thomaseo_cosmic_clash_5.png
+image: /assets/image/2024_11_24_thomaseo_techno_bike_6.png
 excerpt: "A pedal-powered interactive music system"
 ---
 
