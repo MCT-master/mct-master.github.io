@@ -64,7 +64,7 @@ Along with all the features, the Slapbox is very obviously made to last. Unlike 
 <br>
 
 <figure style="float: none">
-  <img src="/assets/image/2024_11_28_karenij_slapbox2.png"
+  <img src="/assets/image/2024_11_28_karenij_slapbox2.jpg"
   width="80%"
   style="display: block; margin: auto;" />
 </figure>

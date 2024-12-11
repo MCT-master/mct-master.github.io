@@ -62,7 +62,7 @@ within a certain range to pass through and band stop filters in which everything
 ### Modulation:
 
 
-<img src="/assets/image/2024_05_21_karenij_dspmod.gif" width="80%" style="display: block; margin: auto;" />
+<img src="https://www.uio.no/english/studies/programmes/mct-master/blog/assets/image/2024_05_21_karenij_dspmod.gif" width="80%" style="display: block; margin: auto;" />
 
 
 Modulation is a process of varying an aspect of an original signal by another signal. There are two main kinds of modulation called Amplitude Modulation and Frequency Modulation. 

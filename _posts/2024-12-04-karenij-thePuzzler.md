@@ -28,7 +28,7 @@ The reason this idea in Architecture came to inspire this project was partly due
 
 <br>
 <figure style="float: none">
-  <img src="/assets/image/2024_12_04_karenij_mod.png"
+  <img src="/assets/image/2024_12_04_karenij_mod.jpg"
   width="60%"
   style="display: block; margin: auto;" />
   <figcaption>The Original Inspiration</figcaption>
@@ -42,7 +42,7 @@ Architectural Tectonics is described as the art of construction, it focuses on t
 <br>
 
 <figure style="float: none">
-  <img src="/assets/image/2024_11_22024_12_04_karenij_tronic.png"
+  <img src="/assets/image/2024_12_04_karenij_tronic.jpg"
   width="80%"
   style="display: block; margin: auto;" />
   <figcaption>The Brain of the system</figcaption>
@@ -86,7 +86,10 @@ The inspiration for the Puzzler is what gives it its unique character. The explo
 
 ### References
 
-[1] P. R. Cook, “Re-Designing Principles for Computer Music Controllers: a Case Study of SqueezeVox Maggie,” in New Interfaces for Musical Expression, 2009. [Online]. Available: https://api.semanticscholar.org/CorpusID:5050967
-[2] J. Drummond, “Understanding Interactive Systems,” Organised Sound, vol. 14, no. 2, pp. 124–133, 2009, doi: 10.1017/S1355771809000235.
-[3] S. Holland et al., “Understanding Music Interaction, and Why It Matters,” in Springer Series on Cultural Computing. , Switzerland: Switzerland: Springer International Publishing AG, 2019, pp. 1–20. doi: 10.1007/978-3-319-92069-6_1.
-[4] R. Maulden, “Tectonics in architecture : from the physical to the meta-physical,” Thesis (M. Arch.), Massachusetts Institute of Technology. Department of Architecture., 1986. Accessed: Dec. 02, 2024. [Online]. Available: https://dspace.mit.edu/handle/1721.1/78804
+P. R. Cook, “Re-Designing Principles for Computer Music Controllers: a Case Study of SqueezeVox Maggie,” in New Interfaces for Musical Expression, 2009. [Online]. Available: https://api.semanticscholar.org/CorpusID:5050967
+
+J. Drummond, “Understanding Interactive Systems,” Organised Sound, vol. 14, no. 2, pp. 124–133, 2009, doi: 10.1017/S1355771809000235.
+
+S. Holland et al., “Understanding Music Interaction, and Why It Matters,” in Springer Series on Cultural Computing. , Switzerland: Switzerland: Springer International Publishing AG, 2019, pp. 1–20. doi: 10.1007/978-3-319-92069-6_1.
+
+R. Maulden, “Tectonics in architecture : from the physical to the meta-physical,” Thesis (M. Arch.), Massachusetts Institute of Technology. Department of Architecture., 1986. Accessed: Dec. 02, 2024. [Online]. Available: https://dspace.mit.edu/handle/1721.1/78804
