@@ -32,7 +32,7 @@ Two main trends emerged. People listened to background music more in relatively 
 </p>
 
 <p align="center">
-  <i>Fig. 1. Listening frequencies in complex tasks (studying, reading, writing) and simple (travel, driving, repetitive tasks) tasks.</i>
+  <i>Listening frequencies in complex tasks (studying, reading, writing) and simple (travel, driving, repetitive tasks) tasks.</i>
 </p>
 
 
@@ -42,7 +42,7 @@ Two main trends emerged. People listened to background music more in relatively 
 </p>
 
 <p align="center">
-  <i>Fig. 2. Listening frequencies by music type in complex and simple tasks</i>
+  <i>Listening frequencies by music type in complex and simple tasks</i>
 </p>
 
 
@@ -59,7 +59,7 @@ Research on background music listening often emphasizes the role of individual d
 </p>
 
 <p align="center">
-  <i>Fig. 2. Scores (0 = neither non-vocal nor calming, 1 = either non-vocal or calming, 2 = both non-vocal and calming) show how many introverts and extroverts are in each music type condition.</i>
+  <i>Scores (0 = neither non-vocal nor calming, 1 = either non-vocal or calming, 2 = both non-vocal and calming) show how many introverts and extroverts are in each music type condition.</i>
 </p>
 
 
@@ -72,7 +72,7 @@ I also tried to find associations between participants' gender and the differenc
 </p>
 
 <p align="center">
-  <i>Fig. 3. Scores (0 = neither non-vocal nor calming, 1 = either non-vocal or calming, 2 = both non-vocal and calming) show how many males and females are in each music type condition.</i>
+  <i>Scores (0 = neither non-vocal nor calming, 1 = either non-vocal or calming, 2 = both non-vocal and calming) show how many males and females are in each music type condition.</i>
 </p>
 
 
