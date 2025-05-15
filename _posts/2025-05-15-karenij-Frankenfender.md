@@ -10,7 +10,7 @@ excerpt: "Approaching sustainability in Digital Lutherie through an eco-feminist
 ---
 ## Introduction
 
-In  recent years I have become increasingly aware of the ethical questions surrounding the technological landscape and my role within it as a creator. Specifically, I have recognized the environmental impacts of instrument production and the urgent need for responsible practices in the industry. As I implement changes toward sustainability in my daily life, it feels natural to extend these practices into my research. In my thesis I have established a framework that aims to illuminate pathways for the creation of digital musical instruments that prioritizes sutainability and accesibility. The framework and subsequent case study, Frankenfender, not only exemplifies innovative design, but also reflects a broader cultural shift toward valuing reusability and inclusivity within the digital luthier community.
+In  recent years I have become increasingly aware of the ethical questions surrounding the technological landscape and my role within it as a creator. Specifically, I have recognized the environmental impacts of instrument production and the urgent need for responsible practices in the community. As I work on being more sustainable in my daily life, it feels natural to bring these practices into my research. In my thesis I have established a framework that aims to illuminate pathways for the creation of digital musical instruments that prioritizes sutainability and accesibility. The framework and subsequent case study, Frankenfender, not only exemplifies innovative design, but also reflects a broader cultural shift toward valuing reusability and inclusivity within the digital luthier community.
 <br>
 
 ## The Ecofeminist Digital Luthier Framework
@@ -23,8 +23,7 @@ The Ecofeminist Digital Luthier Framework serves as a guide for integrating ecof
   style="display: block; margin: auto;" />
 </figure>
 
-By weaving these three pillars together, the Ecofeminist Digital Luthier Framework
-presents a comprehensive approach to fostering sustainable practices within the realm of digital music technology. In doing so, it paves the way for a more inclusive and sustainable future in music creation and interaction. Lets deep dive into each of the pillars and their concept to get a better understanding of how we can implement it into our practice.
+By weaving these three pillars together, the Ecofeminist Digital Luthier Framework presents a comprehensive approach to fostering sustainable practices within the realm of digital music technology. In doing so, it paves the way for a more inclusive and sustainable future in music creation and interaction. Lets deep dive into each of the pillars and their concept to get a better understanding of how we can implement it into our practice.
 
 ### Acessibility
 
@@ -72,9 +71,7 @@ The Longevity pillar focuses on fostering the durability and lifespan of digital
 
 ### The Frankenfender
 
-By using the table associated with this framework we can evaluate the sustainability of digital musical instruments. The FrankenFender case study exemplifies key topics outlined in the Ecofeminist Digital
-Luthier Framework. By referring to the framework diagram throughout by creation
-practice, I actively began looking for opportunities to achieve many goals, aiming to accomplish as much as I could through these ideas.
+By using the table associated with this framework we can evaluate the sustainability of digital musical instruments. The FrankenFender case study exemplifies key topics outlined in the Ecofeminist Digital Luthier Framework. By referring to the framework diagram throughout by creation practice, I actively began looking for opportunities to achieve many goals, aiming to accomplish as much as I could through these ideas.
 
 The FrankenFender's modular design enhances accessibility by allowing users to customize the instrument, making it suitable for a diverse range of skill levels. Built from discarded materials, it redefines "usable" instruments, inviting participation from those typically excluded from traditional music-making. 
 
