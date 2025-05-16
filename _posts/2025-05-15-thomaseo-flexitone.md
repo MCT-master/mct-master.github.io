@@ -4,7 +4,7 @@ title:  "Flexi-tone"
 date:   2025-05-14 10:48:00 +0200
 categories: masters-thesis
 author: Tom Oldfield
-image: /assets/image/2024_11_24_thomaseo_techno_bike_6.png
+image: /assets/image/2025_05_15_thomaseo_flexitone_logo.png
 excerpt: "A Multi-Dimensional Foot-Based Interactive Music System for Expressive Control of Audio Effect Parameters"
 ---
 
@@ -68,7 +68,21 @@ Flexi-tone is inspired by existing expression pedal interfaces in that it featur
 
 ### Technical Stuff
 
-Foot gestures are captured using an Inertial Measurement Unit (IMU). Flexi-tone uses a LSM9DS1 which outputs (amongst other things) the fusion pose estimation of orientation. 'Fusion' pose as this algorithm fuses different sensor types to keep the measurement accurate over time. The LSM9DS1 is connected to a Bela mini device. This is a single board computer that handles incoming sensor data alongside all audio processing, including effects. Bela can run programs written in C++, SuperCollider, Csound and, as in Flexi-tone, Pure Data. The Pure Data patch running on the Bela communicates with a laptop via a Open Sound Control (OSC) messages over a wired USB connection. On the laptop, a second Pure Data patch is running which handles all the machine learning elements as well as acting as a GUI (Graphic User Interface) for the device. A technical diagram of the full system and the computer-side GUI are shown below.
+Foot gestures are captured using an Inertial Measurement Unit (IMU). Flexi-tone uses a LSM9DS1 which outputs (amongst other things) the fusion pose estimation of orientation. 'Fusion' pose as this algorithm fuses different sensor types to keep the measurement accurate over time. The LSM9DS1 is connected to a Bela mini device. This is a single board computer that handles incoming sensor data alongside all audio processing, including effects. Bela can run programs written in C++, SuperCollider, Csound and, as in Flexi-tone, Pure Data. An enclosure for the Bela mini was 3D-printed as shown below. This enclosure also facilitated 1/4 inch jack sockets to be connected to the audio I/O of the bela, meaning instruments such as electric guitar could be connected directly to the device.
+
+<br>
+<figure style="float: none; text-align: center;">
+  <img src="/assets/image/2025_05_15_thomaseo_flexitone_bela.png"
+  width="90%"
+  style="display: block; margin: auto;" />
+  <figcaption style="text-align: center;">Technical diagram of the software of Flexi-tone including, audio signals, sensor data, machine learning pipeline, GUI elements and two-way OSC communication.</figcaption>
+</figure>
+<br>
+<br>
+
+
+
+The Pure Data patch running on the Bela communicates with a laptop via a Open Sound Control (OSC) messages over a wired USB connection. On the laptop, a second Pure Data patch is running which handles all the machine learning elements as well as acting as a GUI (Graphic User Interface) for the device. A technical diagram of the full system and the computer-side GUI are shown below.
 
 
 <br>
