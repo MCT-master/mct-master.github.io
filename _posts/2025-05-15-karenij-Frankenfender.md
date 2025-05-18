@@ -60,13 +60,12 @@ The Longevity pillar focuses on fostering the durability and lifespan of digital
 
 <br>
 <figure style="float: none">
-  <img src="/assets/image/2025_05_15_karenij_frankenfender.png"
+  <img src="/assets/image/2025_05_15_karenij_luthiertable.png.png"
   width="100%"
   style="display: block; margin: auto;" />
   <figcaption>Ecofeminist Digital Luthier's table</figcaption>
 </figure>
 <br>
-
 
 ### The Frankenfender
 
