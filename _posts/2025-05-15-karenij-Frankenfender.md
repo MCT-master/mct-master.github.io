@@ -82,9 +82,9 @@ For sustainability, the FrankenFender exemplifies ecological responsibility by u
     <iframe 
         width="560" 
         height="315" 
-        src="https://www.youtube.com/embed/hS0gfUfSSkU" 
-        frameborder="0" 
-        allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" 
+        src="https://www.youtube.com/embed/GVRlsrkzhGc?si=lhyFq4nhi2wzDX7Y" 
+        frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
         allowfullscreen>
     </iframe>
 </div>
