@@ -2,7 +2,7 @@
 layout: post
 title:  "Frankenfender: Designing and implementing the Eco-Feminist Digital Luthier Frameworks"
 date:  2024-5-15 11:00:00 +0200
-categories: interactive-music
+categories: masters-thesis
 author: Karenina Juarez
 image: /assets/image/2025_05-15_karenij_pillarsframework.png
 
