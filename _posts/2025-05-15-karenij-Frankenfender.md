@@ -4,7 +4,7 @@ title:  "Frankenfender"
 date:  2025-5-15 11:00:00 +0200
 categories: masters-thesis
 author: Karenina Juarez
-image: /assets/image/2025_05_15_karenij_pillarsframework.png
+image: /assets/image/2025_05_15_karenij_frankenfender.png
 excerpt: "Designing and implementing the Eco-Feminist Digital Luthier Framework"
 ---
 ## Introduction
@@ -77,6 +77,17 @@ The FrankenFender's modular design enhances accessibility by allowing users to c
 In terms of longevity, FrankenFender combats planned obsolescence by repurposing components that would otherwise go to landfills. Its sturdy construction allows for reconfiguration and easy repairs, promoting a culture of maintenance over waste. 
 
 For sustainability, the FrankenFender exemplifies ecological responsibility by using salvaged materials, aligning with ecofeminist principles. The project highlights the concept of "zombie media," reusing discarded electronics to extend their lifecycle and reduce ecological footprints through low-impact components and sustainable practices.
+
+<div style="text-align: center;">
+    <iframe 
+        width="560" 
+        height="315" 
+        src="https://www.youtube.com/embed/hS0gfUfSSkU" 
+        frameborder="0" 
+        allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" 
+        allowfullscreen>
+    </iframe>
+</div>
 
 
 ### Conclusions
