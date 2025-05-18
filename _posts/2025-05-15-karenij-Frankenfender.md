@@ -4,8 +4,8 @@ title:  "Frankenfender"
 date:  2025-5-15 11:00:00 +0200
 categories: masters-thesis
 author: Karenina Juarez
-image: /assets/image/2025_05-15_karenij_pillarsframework.png
-excerpt: ": Designing and implementing the Eco-Feminist Digital Luthier Framework"
+image: /assets/image/2025_05_15_karenij_pillarsframework.png
+excerpt: "Designing and implementing the Eco-Feminist Digital Luthier Framework"
 ---
 ## Introduction
 
@@ -17,7 +17,7 @@ In  recent years I have become increasingly aware of the ethical questions surro
 The Ecofeminist Digital Luthier Framework serves as a guide for integrating ecofeminist principles into the design and development of DMIs. Drawing from an array of sustainability frameworks emerging within the NIME community as well as important ecofeminist principles, this framework is constructed upon three foundational pillars: Accessibility, Longevity, and Sustainability. These pillars were designed to be deeply intertwined and to encapsulate various outlooks on making sustainable DMIs. By interrogating existing practices of digital lutherie, this framework not only amplifies the importance of sustainability in music technology but also addresses critical sociocultural factors that influence its adoption
 
 <figure style="float: none">
-  <img src="/assets/image/2025_05-15_karenij_pillarsframework.png"
+  <img src="/assets/image/2025_05_15_karenij_pillarsframework.png"
   width="100%"
   style="display: block; margin: auto;" />
 </figure>
@@ -60,7 +60,7 @@ The Longevity pillar focuses on fostering the durability and lifespan of digital
 
 <br>
 <figure style="float: none">
-  <img src="/assets/image/2025_05-15_karenij_luthiertable.png"
+  <img src="/assets/image/2025_05_15_karenij_frankenfender.png"
   width="100%"
   style="display: block; margin: auto;" />
   <figcaption>Ecofeminist Digital Luthier's table</figcaption>
