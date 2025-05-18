@@ -49,6 +49,8 @@ The Longevity pillar focuses on fostering the durability and lifespan of digital
 
 ### Sustainability
 
+Sustainability integrates ecological responsibility with social equity in DMI design, prioritizing sustainable materials and practices that minimize environmental impact while also ensuring authentic communication of the sustainability in  our designs.
+
 * __Semiotic Sustainability__ - authentic communication of sustainability through materials and design, fostering genuine engagement
 * __Sustainability Cybernetics__ - Embrace of circular process encouraging intentional design choices
 
