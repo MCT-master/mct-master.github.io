@@ -4,7 +4,7 @@ title:  "Frankenfender"
 date:  2025-5-15 11:00:00 +0200
 categories: masters-thesis
 author: Karenina Juarez
-image: /assets/image/2025_05_15_karenij_frankenfender.png
+image: /assets/image/2025_05_15_karenij_frankenfender.jpg
 excerpt: "Designing and implementing the Eco-Feminist Digital Luthier Framework"
 ---
 ## Introduction
