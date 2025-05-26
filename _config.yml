@@ -21,7 +21,7 @@ description: >- # this means to ignore newlines until "baseurl:"
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://mct-master.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 logo: "/assets/image/2022_07_20_stefanof_MCT_logo_grey.png"
-x_username: UniOslo_MCT
+twitter_username: UniOslo_MCT
 github_username: MCT-master
 youtube_username: MCTmaster # hacked the social.html imported from minima 2.5.1 to override problem with channel URL
 rss: RSS feed
