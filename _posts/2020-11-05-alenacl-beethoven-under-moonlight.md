@@ -89,7 +89,7 @@ Although defining frequencies for the notes to be played is alright, it can get 
 
 ### CSound final score and demo
 
-[Here](https://www.uio.no/english/studies/programmes/mct-master/blog/assets/code/2020_11_05_alenacl_csound_moonlight_sonata.csd) is the final __CSound__ program. Using a [Tempo and Note Length Calculator](http://www.harmoniccycle.com/hc/music-07-tempo_and_note_length.htm) I calculated the durations of each note based on a BMP = 51 (_Largo_). Knowing the [frequencies](https://pages.mtu.edu/~suits/notefreqs.html) of notes was also useful at different stages of this project.
+[Here](https://www.uio.no/english/studies/programmes/mct-master/blog/assets/code/2020_11_05_alenacl_csound_moonlight_sonata.csd) is the final __CSound__ program. Using a [Tempo and Note Length Calculator](http://www.harmoniccycle.com/hc/music-07-tempo_and_note_length.htm) I calculated the durations of each note based on a BMP = 51 (_Largo_). Knowing the [frequencies](https://plastic.audio/note-frequencies/) of notes was also useful at different stages of this project.
 
 Here is a demo video of the final "performance" of the first few bars of "Moonlight Sonata" by Beethoven using a slightly peculiar sound - somewhere between a marimba and a vibraphone.
 

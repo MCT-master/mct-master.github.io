@@ -211,7 +211,7 @@ Sources used below -
 
 Note Frequencies
 
-<http://pages.mtu.edu/~suits/notefreqs.html>
+<https://plastic.audio/note-frequencies/>
 
 MCT Github
 
